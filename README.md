@@ -1,11 +1,11 @@
 # ![logo](https://i62.servimg.com/u/f62/18/23/59/53/miui-110.png)
-# MIUI V10 German Translation
+# MIUI V11 German Translation
 
-[![GitHub issues](https://img.shields.io/github/issues-raw/berlinux2016/MIUI10.svg)](https://github.com/berlinux2016/MIUI10/issues "GitHub issues")
+[![GitHub issues](https://img.shields.io/github/issues-raw/berlinux2016/MIUI10.svg)](https://github.com/berlinux2016/MIUI11/issues "GitHub issues")
 
 ## Introduction
 
-This repository contains the german translation of the MIUI V10 Weekly ROM Releases from [xiaomi.eu](https://xiaomi.eu/community/forums/miui-rom-releases.103/) and other MIUI custom ROMs.
+This repository contains the german translation of the MIUI V11 Weekly ROM Releases from [xiaomi.eu](https://xiaomi.eu/community/forums/miui-rom-releases.103/) and other MIUI custom ROMs.
 
 All strings were translated by the community - special thanks go to:
 
@@ -15,7 +15,7 @@ Benny1995, berlinux2016, bReathl3sS, cpu82, energY8989, FireEmerald, he-leon, He
 
 ## Reporting issues
 
-Use the [Github Issue tracker](https://github.com/berlinux2016/MIUI10/issues) to report a bug or the following [forum thread](https://xiaomi.eu/community/threads/miui-10-neue-strings-mithilfe-gesucht.44394/).
+Use the [Github Issue tracker](https://github.com/berlinux2016/MIUI11/issues) to report a bug or the following [forum thread](https://xiaomi.eu/community/forums/german-translation.8/).
 
 
 ## Submitting fixes
