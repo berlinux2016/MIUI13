@@ -32,6 +32,10 @@
     <item quantity="other">sehr kurze Verzögerungen (%1$d ms)</item>
     <item quantity="one">sehr kurze Verzögerung (%1$d ms)</item>
   </plurals>
+  <plurals name="accessibility_usage_summary">
+    <item quantity="other">%1$d Apps haben vollen Zugriff auf Ihr Gerät</item>
+    <item quantity="one">1 App hat vollen Zugriff auf Ihr Gerät</item>
+  </plurals>
   <plurals name="aod_dual_togother_city">
     <item quantity="other">" %1$s Std %2$s"</item>
     <item quantity="one">" %1$s Std %2$s"</item>
@@ -157,6 +161,14 @@
     <item quantity="other">%s Stunden</item>
     <item quantity="one">%s Stunde</item>
   </plurals>
+  <plurals name="location_app_permission_summary_location_on">
+    <item quantity="other">%1$d von %2$d Apps haben Standortzugriff</item>
+    <item quantity="one">%1$d von %2$d Apps hat Standortzugriff</item>
+  </plurals>
+  <plurals name="location_settings_summary_location_on">
+    <item quantity="other">An - %1$dApps haben Standortzugriff</item>
+    <item quantity="one">An - %1$d Apps hat Standortzugriff</item>
+  </plurals>
   <plurals name="lockpassword_password_requires_letters">
     <item quantity="other">Passwort muss mindestens %d Buchstaben enthalten</item>
     <item quantity="one">Passwort muss mindestens %d Buchstaben enthalten</item>
@@ -241,6 +253,10 @@
     <item quantity="other">%1$d Beschränkungen</item>
     <item quantity="one">%1$d Beschränkung</item>
   </plurals>
+  <plurals name="notification_few_channel_count_summary">
+    <item quantity="other">%1$d Benachrichtigungskanäle</item>
+    <item quantity="one">%1$d Benachrichtigungskanal</item>
+  </plurals>
   <plurals name="notification_group_summary">
     <item quantity="other">%d Kategorien</item>
     <item quantity="one">%d Kategorie</item>
@@ -253,9 +269,21 @@
     <item quantity="other">%d Kategorien ausgeschaltet</item>
     <item quantity="one">%d Kategorie ausgeschaltet</item>
   </plurals>
+  <plurals name="notifications_sent_daily">
+    <item quantity="other">~%d Benachrichtigungen pro Tag</item>
+    <item quantity="one">~%d Benachrichtigung pro Tag</item>
+  </plurals>
+  <plurals name="notifications_sent_weekly">
+    <item quantity="other">~%d Benachrichtigungen pro Woche</item>
+    <item quantity="one">~%d Benachrichtigung pro Woche</item>
+  </plurals>
   <plurals name="number_of_device_admins">
     <item quantity="other">%d aktive Apps</item>
     <item quantity="one">%d aktive App</item>
+  </plurals>
+  <plurals name="permission_bar_chart_label">
+    <item quantity="other">%s Apps</item>
+    <item quantity="one">1 App</item>
   </plurals>
   <plurals name="permissions_summary">
     <item quantity="other">%d Berechtigungen erteilt</item>
@@ -336,6 +364,10 @@
   <plurals name="show_audio_logcat_countdown">
     <item quantity="other">%1$d Schritte übrig, bevor Sie das Audioprotokoll erhalten</item>
     <item quantity="one">%1$d Schritt übrig, bevor Sie das Audioprotokoll erhalten</item>
+  </plurals>
+  <plurals name="show_bluetooth_devices">
+    <item quantity="other">%1$d Geräte verbunden</item>
+    <item quantity="one">%1$d Gerät verbunden</item>
   </plurals>
   <plurals name="show_cit_countdown">
     <item quantity="other">Sie sind %1$d Schritte vom CIT entfernt.</item>
@@ -517,6 +549,14 @@ Für weitere Informationen über dieses Zertifikat kontaktieren Sie Ihren Admin.
     <item quantity="other">%d Netzwerke</item>
     <item quantity="one">%d Netzwerk</item>
   </plurals>
+  <plurals name="wifi_saved_all_access_points_summary">
+    <item quantity="other">%d Netzwerke &amp; Abos</item>
+    <item quantity="one">1 Netzwerk &amp; Abo</item>
+  </plurals>
+  <plurals name="wifi_saved_passpoint_access_points_summary">
+    <item quantity="other">%d Abos</item>
+    <item quantity="one">1 Abo</item>
+  </plurals>
   <plurals name="wifi_share_count">
     <item quantity="other">%d geteilte Netzwerke</item>
     <item quantity="one">%d geteiltes Netzwerk</item>
@@ -528,6 +568,11 @@ Für weitere Informationen über dieses Zertifikat kontaktieren Sie Ihren Admin.
   <plurals name="wrong_pin_code">
     <item quantity="other">Falsche PIN. Sie haben noch %d Versuche.</item>
     <item quantity="one">Falsche PIN. Sie haben noch %d Versuch, bevor das Gerät von Ihrem Mobilfunkanbieter entsperrt werden muss.</item>
+  </plurals>
+  <plurals name="zen_mode_bypassing_apps_subtext">
+    <item quantity="other">Benachrichtigungen von %1$d Apps können \"Nicht stören\" überschreiben</item>
+    <item quantity="zero">Keine App kann \"Nicht stören\" überschreiben</item>
+    <item quantity="one">Benachrichtigungen von %1$d App können \"Nicht stören\" überschreiben</item>
   </plurals>
   <plurals name="zen_mode_duration_summary_time_hours">
     <item quantity="other">%d Stunden (falls nicht autom. eingeschaltet)</item>

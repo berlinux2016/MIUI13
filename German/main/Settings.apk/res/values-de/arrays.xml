@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+  <string-array name="ai_item_action_array">
+    <item>Keine</item>
+    <item>Google Assistant aktivieren</item>
+  </string-array>
   <string-array name="ai_key_item_name">
     <item>Google Sprachassistent aktivieren</item>
     <item>Google-Suche öffnen</item>
@@ -209,6 +213,11 @@
     <item>Maximal 3 Prozesse</item>
     <item>Maximal 4 Prozesse</item>
   </string-array>
+  <string-array name="autofill_logging_level_entries">
+    <item>Aus</item>
+    <item>Debug</item>
+    <item>Verbose</item>
+  </string-array>
   <string-array name="automatic_storage_management_days">
     <item>Über 30 Tage alt</item>
     <item>Über 60 Tage alt</item>
@@ -401,6 +410,10 @@
     <item>Casual</item>
     <item>Kursiv</item>
     <item>Kapitälchen</item>
+  </string-array>
+  <string-array name="cdma_system_select_choices">
+    <item>Nur zu Hause</item>
+    <item>Automatisch</item>
   </string-array>
   <string-array name="cellcular2wifi_entries">
     <item>Automatisch verbinden</item>
@@ -1067,6 +1080,10 @@ Hinweis: Nur für Ubuntu 8.04!"</item>
     <item>Nur von favorisierten Kontakten</item>
     <item>Keine</item>
   </string-array>
+  <string-array name="vpn_proxy_settings">
+    <item>Keiner</item>
+    <item>Manuell</item>
+  </string-array>
   <string-array name="vpn_states">
     <item>Verbindung getrennt</item>
     <item>Initialisierung…</item>
@@ -1167,6 +1184,10 @@ Hinweis: Nur für Ubuntu 8.04!"</item>
     <item>MSCHAPV2</item>
     <item>GTC</item>
   </string-array>
+  <string-array name="wifi_privacy_entries">
+    <item>Zufällige MAC verwenden (Standard)</item>
+    <item>Geräte-MAC verwenden</item>
+  </string-array>
   <string-array name="wifi_proxy_settings">
     <item>Keinen</item>
     <item>Manuell</item>
@@ -1220,6 +1241,10 @@ Hinweis: Nur für Ubuntu 8.04!"</item>
     <item>Fehlgeschlagen</item>
     <item>Blockiert</item>
     <item>Temporär schlechte Verbindungen vermeiden</item>
+  </string-array>
+  <string-array name="wifi_wapi_key_type">
+    <item>WAPI ASCII</item>
+    <item>WAPI hexadezimal</item>
   </string-array>
   <string-array name="window_animation_scale_entries">
     <item>Animation aus</item>
