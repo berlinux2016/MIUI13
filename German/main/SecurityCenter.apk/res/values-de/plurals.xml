@@ -185,6 +185,14 @@ Wenn Sie Mobile Daten wieder einschalten, kann Ihr Netzbetreiber zusätzliche Da
     <item quantity="other">%d andere Benutzer markierten es als</item>
     <item quantity="one">%d anderer Benutzer markiert es als</item>
   </plurals>
+  <plurals name="menu_text_antispam_2">
+    <item quantity="other">%d Elemente</item>
+    <item quantity="one">%d Element</item>
+  </plurals>
+  <plurals name="menu_text_antispam_ex">
+    <item quantity="other">%d Nachrichten und Anrufe wurden blockiert</item>
+    <item quantity="one">%d Nachricht oder Anruf wurde blockiert</item>
+  </plurals>
   <plurals name="menu_text_antivirus_2">
     <item quantity="other">%d Elemente</item>
     <item quantity="one">%d Element</item>
@@ -193,13 +201,21 @@ Wenn Sie Mobile Daten wieder einschalten, kann Ihr Netzbetreiber zusätzliche Da
     <item quantity="other">%d Tage</item>
     <item quantity="one">%d Tag</item>
   </plurals>
-  <plurals name="menu_text_antispam_2">
-    <item quantity="other">%d Elemente</item>
-    <item quantity="one">%d Element</item>
+  <plurals name="menu_text_antivirus_day_ex">
+    <item quantity="other">Gerät wurde seit %d Tagen nicht mehr gescannt</item>
+    <item quantity="one">Gerät wurde seit %d Tag nicht mehr gescannt</item>
+  </plurals>
+  <plurals name="menu_text_antivirus_virus_ex">
+    <item quantity="other">%d Apps enthalten Viren oder Malware</item>
+    <item quantity="one">%d App enthält Viren oder Malware</item>
   </plurals>
   <plurals name="menu_text_app_manager_2">
     <item quantity="other">%d Apps</item>
     <item quantity="one">%d App</item>
+  </plurals>
+  <plurals name="menu_text_app_manager_ex">
+    <item quantity="other">%d Updates sind verfügbar</item>
+    <item quantity="one">%d Update ist verfügbar</item>
   </plurals>
   <plurals name="mixed_recording_incorrect_too_short">
    <item quantity="other">Mindestens %d Zeichen eingeben</item>
