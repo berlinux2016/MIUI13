@@ -123,7 +123,7 @@
   <string name="antivirus_update_btn_contiue">Fortsetzen</string>
   <string name="antivirus_update_btn_open">Erlauben</string>
   <string name="antivirus_update_btn_update">Aktualisieren</string>
-  <string name="apn_exception_summary">Zugangspunktnamen vom Anbieter prüfen</string>
+  <string name="apn_exception_summary">Zugangspunktnamen vom Netzbetreiber prüfen</string>
   <string name="apn_exception_title">APN-Konfigurationen prüfen</string>
   <string name="app_bg_restrict_dialog_message">Einschränkung der Hintergrund-Netzwerkverbindung kann dazu führen, dass die App nicht normal funktioniert. Z. B. ist es nicht mehr möglich, Nachrichten zu empfangen oder Inhalte zu aktualisieren.</string>
   <string name="app_check_no_issue">Keine Probleme mit dem Akku. Cool!</string>
@@ -370,7 +370,7 @@ Sie verlieren keine App-Daten."</string>
   <string name="back_sound_data">Schalten Sie mobile Daten ein und versuchen Sie es erneut.</string>
   <string name="back_sound_fail">Einstellungen für den Mobilfunkanbieter wurden nicht geändert. Legen Sie die aktuelle SIM-Karte als Datenkarte fest, stellen Sie eine Verbindung mit dem Netzwerk her und versuchen Sie es erneut.</string>
   <string name="back_sound_success">Erfolgreich gesetzt</string>
-  <string name="back_sound_support">Aktueller Anbieter unterstützt diese Einstellung nicht.</string>
+  <string name="back_sound_support">Aktueller Netzbetreiber unterstützt diese Einstellung nicht.</string>
   <string name="background_restrict_app_dialog_message">Einschränkung des Hintergrundnetzwerkzugriffs kann die richtige Funktion der App, den Nachrichtenempfang, das Herunterladen etc. beeinträchtigen. Trotzdem einschränken?</string>
   <string name="background_traffic">Hintergrund %s</string>
   <string name="backsound_set_hint">Abwesenheitsnachricht in %s ändern?</string>
@@ -535,10 +535,10 @@ Sie verlieren keine App-Daten."</string>
   <string name="card_sms_report">Bericht per SMS</string>
   <string name="card_tc_failed">Kalibrieren nicht möglich</string>
   <string name="card_tc_failed_content">"Mögliche Gründe:
-1. Anbieter reagieren am Anfang und am Ende eines Monats langsamer. Versuchen Sie es erneut in ein paar Tagen.
+1. Netzbetreiber reagieren am Anfang und am Ende eines Monats langsamer. Versuchen Sie es erneut in ein paar Tagen.
 2. Wenn Sie zum ersten Mal kalibrieren, ist eine Netzwerk-Anforderungsschablone erforderlich. Verbinden Sie sich mit dem Netzwerk und versuchen Sie es erneut.
-3. Ihr Anbieter unterstützt evtl. nicht das Senden von Textnachrichten mit den verbleibenden Daten und dem Telefonguthaben. Wenden Sie sich an Ihren Anbieter, um mehr zu erfahren.
-4. Ein Fehler in den Anbieterdaten kann vorkommen. Versuchen Sie die Anbieterdiagnose, um das Problem zu lösen.
+3. Ihr Netzbetreiber unterstützt evtl. nicht das Senden von Textnachrichten mit den verbleibenden Daten und dem Telefonguthaben. Wenden Sie sich an Ihren Netzbetreiber, um mehr zu erfahren.
+4. Ein Fehler in den Netzbetreiberdaten kann vorkommen. Versuchen Sie die Netzbetreiberdiagnose, um das Problem zu lösen.
 5. Nichts scheint zu helfen? Tippen Sie auf \"Bericht per SMS\", um Ihr Feedback an Xiaomi per Textnachricht zu senden."</string>
   <string name="charging_text_battery_full_time">"Akkuladezeit "</string>
   <string name="charging_text_battery_nearly_full">Fast aufgeladen</string>
@@ -592,10 +592,10 @@ Sie verlieren keine App-Daten."</string>
   <string name="current_network_state_not_need_diagnose">Internetverbindung ist normal</string>
   <string name="customize_limit_pkg">%s (benutzerdefiniert)</string>
   <string name="customizer_mode_user_define_name">Meine Regeln</string>
-  <string name="daily_card_setting_fragment_daily_card_brand">Anbieter</string>
-  <string name="daily_card_setting_fragment_daily_card_brand_value">Anbieter auswählen</string>
+  <string name="daily_card_setting_fragment_daily_card_brand">Netzbetreiber</string>
+  <string name="daily_card_setting_fragment_daily_card_brand_value">Netzbetreiber auswählen</string>
   <string name="daily_card_setting_fragment_daily_card_setting">Einstellungen täglicher Datentarif</string>
-  <string name="daily_card_setting_fragment_daily_card_summary">MIUI setzt Datenlimits und Apps mit unbegrenzten Daten entsprechend dem von Ihnen gewählten Anbieter. Wenn Ihr Anbieter nicht aufgeführt ist, wählen Sie \"Andere\" und erstellen Sie Ihren täglichen Datentarif manuell.</string>
+  <string name="daily_card_setting_fragment_daily_card_summary">MIUI setzt Datenlimits und Apps mit unbegrenzten Daten entsprechend dem von Ihnen gewählten Netzbetreiber. Wenn Ihr Netzbetreiber nicht aufgeführt ist, wählen Sie \"Andere\" und erstellen Sie Ihren täglichen Datentarif manuell.</string>
   <string name="daily_card_setting_fragment_daily_package">Tägliches Datenlimit</string>
   <string name="daily_card_setting_fragment_month_package">Monatliches Datenpaket</string>
   <string name="daily_card_setting_fragment_package_summary">Wenn Ihr täglicher Datentarif ein monatliches Datenpaket enthält, wird es vor dem Tagespaket verwendet.</string>
@@ -607,7 +607,7 @@ Sie verlieren keine App-Daten."</string>
   <string name="data_booster_title">Datenverbindung stabilisieren</string>
   <string name="data_network_blocked_notification_title">Keine Internetverbindung</string>
   <string name="data_usage_correction_timeout_title">Zeitüberschreitung bei Synchronisation der Datennutzung</string>
-  <string name="data_usage_disabled_dialog">Sie haben das Limit des Datentarifs erreicht. Wenn Sie Ihr Limit überschreiten, kann Ihr Anbieter Ihnen zusätzliche Kosten berechnen.</string>
+  <string name="data_usage_disabled_dialog">Sie haben das Limit des Datentarifs erreicht. Wenn Sie Ihr Limit überschreiten, kann Ihr Netzbetreiber Ihnen zusätzliche Kosten berechnen.</string>
   <string name="data_usage_disabled_dialog_enable">Mobile Daten einschalten</string>
   <string name="data_usage_leisure_warning_body">Tippen, um Datennutzungsdetails anzuzeigen</string>
   <string name="data_usage_leisure_warning_title">Datennutzungslimit über Verbrauchsgrenze</string>
@@ -617,9 +617,9 @@ Sie verlieren keine App-Daten."</string>
   <string name="data_usage_no_total_package_body">Tippen, um Datenlimit einzustellen</string>
   <string name="data_usage_no_total_package_body_dual">Kein Datenlimit für %s eingestellt</string>
   <string name="data_usage_no_total_package_title">Datennutzungslimit einstellen</string>
-  <string name="data_usage_protected_dialog_message">"MIUI hat mobile Daten abgeschaltet, um zusätzliche Anbieterkosten zu verhindern.
-Ihr Anbieter kann Ihnen zusätzliche Kosten berechnen, wenn Sie mobile Daten wieder einschalten."</string>
-  <string name="data_usage_protected_notify_message">MIUI hat mobile Daten abgeschaltet, um zusätzliche Anbieterkosten zu verhindern.</string>
+  <string name="data_usage_protected_dialog_message">"MIUI hat mobile Daten abgeschaltet, um zusätzliche Netzbetreiberkosten zu verhindern.
+Ihr Netzbetreiber kann Ihnen zusätzliche Kosten berechnen, wenn Sie mobile Daten wieder einschalten."</string>
+  <string name="data_usage_protected_notify_message">MIUI hat mobile Daten abgeschaltet, um zusätzliche Netzbetreiberkosten zu verhindern.</string>
   <string name="data_usage_protected_notify_title">Sie haben bereits 5 GB mobile Daten genutzt.</string>
   <string name="data_usage_warning_body">Tippen, um Datennutzungsdetails anzuzeigen</string>
   <string name="data_usage_warning_body_notify">Tippen, um Details anzusehen</string>
@@ -670,7 +670,7 @@ Alle Daten auf Ihrem Gerät werden evtl. gelöscht und Ihr Sperrbildschirmpasswo
   <string name="dialog_roaming_message">Erlauben Sie dieser App, mobile Daten beim Roaming zu verwenden?</string>
   <string name="dialog_roaming_title">Datenroaming</string>
   <string name="dialog_roaming_warning_checkbox">Nicht wieder anzeigen</string>
-  <string name="dialog_roaming_warning_message">Ihr Anbieter berechnet Kosten, wenn internationales Datenraoming eingeschaltet ist. Trotzdem einschalten?</string>
+  <string name="dialog_roaming_warning_message">Ihr Netzbetreiber berechnet Kosten, wenn internationales Datenraoming eingeschaltet ist. Trotzdem einschalten?</string>
   <string name="dialog_roaming_warning_ok">Einschalten</string>
   <string name="dialog_title_attention">Achtung</string>
   <string name="dialog_title_auto_start_declare">Über Autostart</string>
@@ -914,7 +914,7 @@ Alle Daten auf Ihrem Gerät werden evtl. gelöscht und Ihr Sperrbildschirmpasswo
   <string name="firewall_network_restrict_notify_mobile">Mobile Daten</string>
   <string name="firewall_partial">Einigen Apps erlauben, sich folgendermaßen zu verbinden</string>
   <string name="firewall_restrict_all">Allen Apps verbieten, sich folgendermaßen zu verbinden</string>
-  <string name="firewall_restrict_android_dialog_content">Damit Ihr Telefon ordnungsgemäß funktioniert, benötigen einige Android-System-Apps eine Internetverbindung. Diese Apps verwenden Ihre Datenverbindung und können geringe Kosten bei Ihrem Anbieter verursachen.</string>
+  <string name="firewall_restrict_android_dialog_content">Damit Ihr Telefon ordnungsgemäß funktioniert, benötigen einige Android-System-Apps eine Internetverbindung. Diese Apps verwenden Ihre Datenverbindung und können geringe Kosten bei Ihrem Netzbetreiber verursachen.</string>
   <string name="firewall_restrict_android_dialog_title">Achtung</string>
   <string name="firewall_restrict_data">Mobile Datennutzung einschränken</string>
   <string name="firewall_restrict_notify_title">%s hat keinen Internetzugriff</string>
@@ -1266,7 +1266,7 @@ Alle Daten auf Ihrem Gerät werden evtl. gelöscht und Ihr Sperrbildschirmpasswo
   <string name="legal_workday_invalidate_message">Tippen, um die Feiertagsinfos zu aktualisieren</string>
   <string name="legal_workday_message">(Feiertage überspringen)</string>
   <string name="leisure_usage_dialog_message">"Ihr Datennutzungslimit wurde erreicht.
-Ihr Anbieter kann Ihnen zusätzliche Kosten berechnen, wenn Sie die mobile Datenverbindung weiter verwenden."</string>
+Ihr Netzbetreiber kann Ihnen zusätzliche Kosten berechnen, wenn Sie die mobile Datenverbindung weiter verwenden."</string>
   <string name="leisure_usage_dialog_title">Ihr Datennutzungslimit wurde erreicht, Datenverbindung ist ausgeschaltet</string>
   <string name="list_empty_text">Leer</string>
   <string name="load_only_under_wlan">Nur über WLAN laden</string>
@@ -1506,7 +1506,7 @@ Ihr Anbieter kann Ihnen zusätzliche Kosten berechnen, wenn Sie die mobile Daten
 1. Stellen Sie sicher, dass Sie Ihr Datenlimit nicht überschritten haben.
 2. Wenn Sie Ihr Guthaben gerade aufgeladen haben, starten Sie Ihr Telefon neu und versuchen es erneut.
 3. Die Signalstärke ist an Ihrem Standort möglicherweise zu schwach."</string>
-  <string name="network_operator_exception_summary">SIM-Karte wurde nicht aktiviert. Stellen Sie sicher, dass die SIM-Karte eingesteckt und Ihr Datentarif vom Anbieter freigeschaltet ist.</string>
+  <string name="network_operator_exception_summary">SIM-Karte wurde nicht aktiviert. Stellen Sie sicher, dass die SIM-Karte eingesteckt und Ihr Datentarif vom Netzbetreiber freigeschaltet ist.</string>
   <string name="network_permission_exception_tips">Mobile Datenverbindung kann nicht zur Netzwerkverbindung verwendet werden</string>
   <string name="network_roaming_exception_tips">Während des Roamings kann mobile Datenverbindung nicht zur Netzwerkverbindung verwendet werden</string>
   <string name="network_route_exception_detail">"Möglicherweise liegt der Fehler bei Ihrem Router:
@@ -1521,7 +1521,7 @@ Lesen Sie die Bedienungsanleitung Ihres Routers und setzen Sie den Router auf We
 <b>5. Stellen Sie sicher, dass der Router korrekt verbunden ist</b>
 Versuchen Sie ein anderes LAN-Kabel am Router. Wenn Sie vermuten, dass der Fehler an der Verbindung liegt, dann kontaktieren Sie Ihren Internetanbieter."</string>
   <string name="network_sim_exception_detail">"Möglichweise liegt der Fehler an Ihrer SIM-Karte:
-1. Stellen Sie sicher, dass Sie ein gültiges Konto bei Ihrem Anbieter besitzen. Versuchen Sie die SIM-Karte eines Freundes und prüfen Sie, ob die Verbindung ordnungsgemäß funktioniert.
+1. Stellen Sie sicher, dass Sie ein gültiges Konto bei Ihrem Netzbetreiber besitzen. Versuchen Sie die SIM-Karte eines Freundes und prüfen Sie, ob die Verbindung ordnungsgemäß funktioniert.
 2. Wenn Sie zwei SIM-Karten verwenden, versuchen Sie es mit der anderen SIM-Karte und prüfen Sie, ob die Verbindung ordnungsgemäß funktioniert.
 3. Stellen Sie sicher, das Ihre SIM-Karte und der zugehörige SIM-Slot nicht beschädigt sind. Prüfen Sie, ob die SIM-Karte ordnungsgemäß im SIM-Slot eingesteckt ist."</string>
   <string name="network_speed_for_apps_close">Beenden erzwingen</string>
@@ -1648,7 +1648,7 @@ Versuchen Sie ein anderes LAN-Kabel am Router. Wenn Sie vermuten, dass der Fehle
   <string name="open_game">Öffnen</string>
   <string name="open_now">App erlauben, mobile Datenverbindung zu nutzen</string>
   <string name="open_right_now">Jetzt öffnen</string>
-  <string name="operator_diagnostic">Anbieterdiagnose</string>
+  <string name="operator_diagnostic">Netzbetreiberdiagnose</string>
   <string name="optimize_manage_title">Geschwindigkeitsoptimierung</string>
   <string name="optimize_result_ads_close_text">Werbung</string>
   <string name="optimize_result_available_memory_info">Verfügbarer Speicher</string>
@@ -1661,7 +1661,7 @@ Versuchen Sie ein anderes LAN-Kabel am Router. Wenn Sie vermuten, dass der Fehle
   <string name="optimize_result_button_onekey_open">Einschalten</string>
   <string name="optimize_result_button_onekey_restore">Wiederherst.</string>
   <string name="optimize_result_button_open_now">Einschalten</string>
-  <string name="optimize_result_button_operators_diagnose">Anbieterdiagnose</string>
+  <string name="optimize_result_button_operators_diagnose">Netzbetreiberdiagnose</string>
   <string name="optimize_result_button_purchase">Kaufen</string>
   <string name="optimize_result_button_purchase_flow">Alle anzeigen</string>
   <string name="optimize_result_button_realname_now">Verifizieren</string>
@@ -1909,7 +1909,7 @@ Versuchen Sie ein anderes LAN-Kabel am Router. Wenn Sie vermuten, dass der Fehle
   <string name="power_settings_title">Festlegen</string>
   <string name="power_settings_top">Obere Leiste</string>
   <string name="pref_about_traffic_title">Datennutzungseinstellungen</string>
-  <string name="pref_adjust_data_usage">Anbieter-SMS-Vorlage</string>
+  <string name="pref_adjust_data_usage">Netzbetreiber-SMS-Vorlage</string>
   <string name="pref_adjust_data_usage_summary">Nachdem Sie die Kalibrierungsvorlage geändert haben, wird MIUI diese verwenden, um Datenverwendungsstatistiken von Ihrem Mobilfunkanbieter zu erhalten</string>
   <string name="pref_adjust_data_usage_value">Geändert</string>
   <string name="pref_adjust_traffic_data">Datennutzung einstellen</string>
@@ -1952,7 +1952,7 @@ Versuchen Sie ein anderes LAN-Kabel am Router. Wenn Sie vermuten, dass der Fehle
   <string name="pref_more_settings">Weitere Einstellungen</string>
   <string name="pref_new_installed_preconfig_title">Standard für neue Apps</string>
   <string name="pref_normal_traffic_limit">Wenn das Datenvolumen aufgebraucht ist</string>
-  <string name="pref_open_adjust_traffic">Synchronisation der Datennutzungsstatistik mit dem Anbieter</string>
+  <string name="pref_open_adjust_traffic">Synchronisation der Datennutzungsstatistik mit dem Netzbetreiber</string>
   <string name="pref_operator_not_set">Mobilfunkanbieter nicht eingestellt</string>
   <string name="pref_over_traffic_limit">Wenn Sie Ihr Datenvolumen überschreiten</string>
   <string name="pref_package_traffic_settings">Datentarif</string>
@@ -2006,11 +2006,11 @@ Diese Funktion wird bei System-Apps nicht unterstützt."</string>
   <string name="privacy_apps_tutorial_prompt_pagethree">Wenn Sie Ihr Passwort eingegeben haben, erscheint der Ordner mit den versteckten Apps.</string>
   <string name="privacy_apps_tutorial_prompt_pagetwo">Spreizen Sie zwei Finger auf dem Bildschirm. Eine Meldung wird angezeigt, in der Sie aufgefordert werden, Ihr App-Sperrepasswort einzugeben.</string>
   <string name="privacy_declare_dialog_title">Nutzungsbedingungen</string>
-  <string name="privacy_dialog_message">Bei einer Internetverbindung wird diese Nachricht zusammen mit der Anbieterinfo verschlüsselt und auf den Mi Server hochgeladen, um die Datennutzungsüberwachung zu verbessern.</string>
+  <string name="privacy_dialog_message">Bei einer Internetverbindung wird diese Nachricht zusammen mit der Netzbetreiberinfo verschlüsselt und auf den Mi Server hochgeladen, um die Datennutzungsüberwachung zu verbessern.</string>
   <string name="privacy_mode_dialog_title">Gastmodus</string>
-  <string name="privacy_prompt_tc_sms_report_message">Ihre Telefonnummer und Anbieterdetails werden verschlüsselt und auf den Mi Server hochgeladen, um Ihre Datennutzungsdetails zu aktualisieren.</string>
-  <string name="privacy_prompt_traffic_adjust_message">Wenn Sie mit der Kalibrierung beginnen, verbindet sich MIUI mit dem Netzwerk, kodiert die Daten Ihres Anbieters, Telefonnummer, IMEI und Mi Konto und lädt diese Elemente auf die Mi Server hoch. Dies geschieht, um die Kalibriervorlage des Anbieters zu erhalten und zu erfahren, ob es möglich ist, Daten an Ihrem Standort zu erwerben.
-Während der Kalibrierung sendet MIUI eine Textnachricht an Ihren Anbieter, um die Kalibriervorlage zu erhalten.</string>
+  <string name="privacy_prompt_tc_sms_report_message">Ihre Telefonnummer und Netzbetreiberdetails werden verschlüsselt und auf den Mi Server hochgeladen, um Ihre Datennutzungsdetails zu aktualisieren.</string>
+  <string name="privacy_prompt_traffic_adjust_message">Wenn Sie mit der Kalibrierung beginnen, verbindet sich MIUI mit dem Netzwerk, kodiert die Daten Ihres Netzbetreibers, Telefonnummer, IMEI und Mi Konto und lädt diese Elemente auf die Mi Server hoch. Dies geschieht, um die Kalibriervorlage des Netzbetreibers zu erhalten und zu erfahren, ob es möglich ist, Daten an Ihrem Standort zu erwerben.
+Während der Kalibrierung sendet MIUI eine Textnachricht an Ihren Netzbetreiber, um die Kalibriervorlage zu erhalten.</string>
   <string name="privacy_prompt_upload">Hochladen</string>
   <string name="process_mediaserver_label">Mediaserver</string>
   <string name="promotion">Werbung</string>
@@ -2380,7 +2380,7 @@ Während der Kalibrierung sendet MIUI eine Textnachricht an Ihren Anbieter, um d
   <string name="summary_miui_update">Update für %s verfügbar</string>
   <string name="summary_mms">Spam-SMS automatisch blockieren</string>
   <string name="summary_network_switch">Sicherheits-App Zugriff auf das Internet erlauben</string>
-  <string name="summary_never_flow_verify">Diese Nummer wurde von Ihrem Anbieter nicht verifiziert</string>
+  <string name="summary_never_flow_verify">Diese Nummer wurde von Ihrem Netzbetreiber nicht verifiziert</string>
   <string name="summary_payment_risk">Anscheinend ist die Zahlungsumgebung nicht sicher</string>
   <string name="summary_permission">Unerwünschte Zahlungen vermeiden und personenbezogene Daten schützen</string>
   <string name="summary_permission_root">Anscheinend hat dieses Gerät Root-Zugriff. Dies kann die Sicherheit Ihres Geräts beeinträchtigen.</string>
@@ -2389,7 +2389,7 @@ Während der Kalibrierung sendet MIUI eine Textnachricht an Ihren Anbieter, um d
   <string name="summary_realname_verify">Verifizieren Sie Ihre Identität, um Zahlungen sicherer zu machen</string>
   <string name="summary_restrict_data_usage">Sie haben die Datennutzung für diese App eingeschränkt.</string>
   <string name="summary_show_notification">Cache löschen, Akkustatus anzeigen und Elemente in der Benachrichtigungsleiste blockieren</string>
-  <string name="summary_telecom_operator">Monatliche Datennutzung über Ihren Anbieter abfragen</string>
+  <string name="summary_telecom_operator">Monatliche Datennutzung über Ihren Netzbetreiber abfragen</string>
   <string name="summary_usb">Verhindern, dass Malware über USB übertragen wird</string>
   <string name="summary_virus">Viren entfernen, damit Ihr Gerät sicher bleibt</string>
   <string name="summary_virus_cloudscan">Hochladen von App-Namen und Details und scannen mit Online-Virendefinitionen</string>
@@ -2463,38 +2463,38 @@ Beachten Sie, dass %1s Ihre Daten erfassen muss und die folgenden Berechtigungen
   <string name="tc_diagnostic_all_error_notification_title">Diagnose kann nicht abgeschlossen werden</string>
   <string name="tc_diagnostic_brand_error_notification_summary">Tippen, um Netzwerktyp festzulegen</string>
   <string name="tc_diagnostic_brand_error_notification_title">Falscher Netzwerktyp</string>
-  <string name="tc_diagnostic_brand_result">"&lt;font color='#CC0000'&gt;Ergebnis: Falscher Anbietername&lt;br/&gt;&lt;br/&gt;Setze: &lt;xliff:g id=brand example=UNICOM 3G&gt;%1$s&lt;/xliff:g&gt;&lt;br/&gt;Aktueller Anbieter: &lt;xliff:g id=location example=UNICOM 4G&gt;%2$s&lt;/xliff:g&gt;&lt;/font&gt;"</string>
+  <string name="tc_diagnostic_brand_result">"&lt;font color='#CC0000'&gt;Ergebnis: Falscher Netzbetreibername&lt;br/&gt;&lt;br/&gt;Setze: &lt;xliff:g id=brand example=UNICOM 3G&gt;%1$s&lt;/xliff:g&gt;&lt;br/&gt;Aktueller Netzbetreiber: &lt;xliff:g id=location example=UNICOM 4G&gt;%2$s&lt;/xliff:g&gt;&lt;/font&gt;"</string>
   <string name="tc_diagnostic_complete">Fertig</string>
   <string name="tc_diagnostic_fragment_default">"Über Diagnose
-1. Das Gerät stellt eine Verbindung zum Anbieter her, sendet eine kostenlose Nachricht und wartet auf die Antwort des Anbieters. Das kann bis zu 5 Minuten dauern.
+1. Das Gerät stellt eine Verbindung zum Netzbetreiber her, sendet eine kostenlose Nachricht und wartet auf die Antwort des Netzbetreibers. Das kann bis zu 5 Minuten dauern.
 2. Sie können die Seite während der Diagnose verlassen, sie wird im Hintergrund ausgeführt."</string>
   <string name="tc_diagnostic_location_error_notification_summary">Antippen, um Standort anzupassen</string>
   <string name="tc_diagnostic_location_error_notification_title">Falscher Standort</string>
   <string name="tc_diagnostic_notification_sumarry">Tippen, um Ergebnisse anzuzeigen</string>
   <string name="tc_diagnostic_notification_summary">Anpassung 5-mal hintereinander fehlgeschlagen. Tippen, um Diagnose zu starten.</string>
-  <string name="tc_diagnostic_notification_title">Anbieterdiagnose</string>
+  <string name="tc_diagnostic_notification_title">Netzbetreiberdiagnose</string>
   <string name="tc_diagnostic_onekey_repair_botton">Beheben</string>
-  <string name="tc_diagnostic_operator_error_notification_summary">Tippen, um die Anbietereinstellungen zu ändern</string>
-  <string name="tc_diagnostic_operator_error_notification_title">Falscher Anbieter</string>
-  <string name="tc_diagnostic_operator_result">"&lt;font color='#CC0000'&gt;Ergebnis: Falscher Anbieter&lt;br/&gt;&lt;br/&gt;Setze Anbieter: &lt;xliff:g id=operator example=CMCC&gt;%1$s&lt;/xliff:g&gt;&lt;br/&gt;Aktueller Anbieter: &lt;xliff:g id=location example=UNICOM>%2$s&lt;/xliff:g&gt;&lt;/font&gt;"</string>
+  <string name="tc_diagnostic_operator_error_notification_summary">Tippen, um die Netzbetreibereinstellungen zu ändern</string>
+  <string name="tc_diagnostic_operator_error_notification_title">Falscher Netzbetreiber</string>
+  <string name="tc_diagnostic_operator_result">"&lt;font color='#CC0000'&gt;Ergebnis: Falscher Netzbetreiber&lt;br/&gt;&lt;br/&gt;Setze Netzbetreiber: &lt;xliff:g id=operator example=CMCC&gt;%1$s&lt;/xliff:g&gt;&lt;br/&gt;Aktueller Netzbetreiber: &lt;xliff:g id=location example=UNICOM>%2$s&lt;/xliff:g&gt;&lt;/font&gt;"</string>
   <string name="tc_diagnostic_repair_and_continue">Beheben und fortfahren</string>
   <string name="tc_diagnostic_repair_location">"&lt;font color='#3EC234'&gt;Diagnose abgeschlossen, Standortprobleme behoben.&lt;/font&gt;"</string>
-  <string name="tc_diagnostic_repair_location_and_operator">"&lt;font color='#3EC234'&gt;Diagnose abgeschlossen, Standort- und Anbieterprobleme behoben.&lt;/font&gt;"</string>
+  <string name="tc_diagnostic_repair_location_and_operator">"&lt;font color='#3EC234'&gt;Diagnose abgeschlossen, Standort- und Netzbetreiberprobleme behoben.&lt;/font&gt;"</string>
   <string name="tc_diagnostic_repair_success_toast">Erfolgreich geändert</string>
   <string name="tc_diagnostic_result">"&lt;font color='#CC0000'&gt;Ergebnis: Diagnose wurde nicht abgeschlossen.&lt;br/&gt;&lt;br/&gt;Diesen Fehler melden, um MIUI Diagnosetools zu verbessern.&lt;/font&gt;"</string>
   <string name="tc_diagnostic_sim_location_result">"&lt;font color='#CC0000'&gt;Ergebnis: Falscher Standort&lt;br/&gt;&lt;br/&gt;Set location: &lt;xliff:g id=location example=BeiJing&gt;%1$s&lt;/xliff:g&gt;&lt;br/&gt;Aktueller Standort: &lt;xliff:g id=location example=ShangHai&gt;%2$s&lt;/xliff:g&gt;&lt;/font&gt;"</string>
-  <string name="tc_diagnostic_status_error_brand">Anbieter wurde nicht ermittelt</string>
+  <string name="tc_diagnostic_status_error_brand">Netzbetreiber wurde nicht ermittelt</string>
   <string name="tc_diagnostic_status_failure">"&lt;font color='#CC0000'&gt;Fehler&lt;/font&gt;"</string>
   <string name="tc_diagnostic_status_no_network">"&lt;font color='#ED9523'&gt;Keine Netzwerkverbindung&lt;/font&gt;"</string>
   <string name="tc_diagnostic_status_not_get">"&lt;font color='#ED9523'&gt;Info nicht erhalten&lt;/font&gt;"</string>
   <string name="tc_diagnostic_status_success">"&lt;font color='#3EC234'&gt;Korrekt&lt;/font&gt;"</string>
-  <string name="tc_diagnostic_status_success_brand">"&lt;font color='#3EC234'&gt;Anbieter antwortet&lt;/font&gt;"</string>
+  <string name="tc_diagnostic_status_success_brand">"&lt;font color='#3EC234'&gt;Netzbetreiber antwortet&lt;/font&gt;"</string>
   <string name="tc_diagnostic_status_timeout">"&lt;font color='#CC0000'&gt;Zeitüberschreitung&lt;/font&gt;"</string>
   <string name="tc_diagnostic_status_updating">Testen…</string>
   <string name="tc_diagnostic_success_notification_summary">Dieses Problem melden, um MIUI Diagnosetools zu verbessern</string>
-  <string name="tc_diagnostic_success_notification_title">Anbieter korrekt</string>
-  <string name="tc_diagnostic_success_result">"&lt;font color='#CC0000'&gt;Ergebnis: Anbieter korrekt eingestellt&lt;br/&gt;&lt;br/&gt;Anpassung nicht vollständig:&lt;br/&gt;1. Am Monatsanfang oder -ende können die Netzwerkstatistiken eventuell nicht zuverlässig sein.&lt;br/&gt;2. Funktionen der Sicherheits-App wurden nicht aktualisiert.&lt;br/&gt;&lt;br/&gt;Diesen Fehler melden, um die MIUI Diagnosetools zu verbessern.&lt;/font&gt;"</string>
-  <string name="tc_diagnostic_title">Anbieterdiagnose</string>
+  <string name="tc_diagnostic_success_notification_title">Netzbetreiber korrekt</string>
+  <string name="tc_diagnostic_success_result">"&lt;font color='#CC0000'&gt;Ergebnis: Netzbetreiber korrekt eingestellt&lt;br/&gt;&lt;br/&gt;Anpassung nicht vollständig:&lt;br/&gt;1. Am Monatsanfang oder -ende können die Netzwerkstatistiken eventuell nicht zuverlässig sein.&lt;br/&gt;2. Funktionen der Sicherheits-App wurden nicht aktualisiert.&lt;br/&gt;&lt;br/&gt;Diesen Fehler melden, um die MIUI Diagnosetools zu verbessern.&lt;/font&gt;"</string>
+  <string name="tc_diagnostic_title">Netzbetreiberdiagnose</string>
   <string name="tc_diagnostic_upload_button">Melden</string>
   <string name="tc_diagnostic_upload_no_network">Vielen Dank für Ihr Feedback! Ihr Report wird gesendet, sobald eine Internetverbindung verfügbar ist.</string>
   <string name="tc_diagnostic_upload_success">Vielen Dank für Ihr Feedback!</string>
@@ -2504,7 +2504,7 @@ Beachten Sie, dass %1s Ihre Daten erfassen muss und die folgenden Berechtigungen
   <string name="tc_send_sms_error">SMS wurde nicht gesendet</string>
   <string name="tc_sms_report_direction">SMS-Abfragecode</string>
   <string name="tc_sms_report_do_report">Senden</string>
-  <string name="tc_sms_report_get_default">Für SMS, die verwendet werden, um die Datennutzungsinfos von Ihrem Anbieter zu erhalten, entstehen Ihnen keine Kosten.</string>
+  <string name="tc_sms_report_get_default">Für SMS, die verwendet werden, um die Datennutzungsinfos von Ihrem Netzbetreiber zu erhalten, entstehen Ihnen keine Kosten.</string>
   <string name="tc_sms_report_get_sms">SMS erhalten</string>
   <string name="tc_sms_report_get_sms2">SMS erhalten</string>
   <string name="tc_sms_report_get_sms_again">SMS aktualisieren</string>
@@ -2524,11 +2524,11 @@ Beachten Sie, dass %1s Ihre Daten erfassen muss und die folgenden Berechtigungen
   <string name="tc_sms_report_notify_get_timeout_body">Zeitüberschreitung. Stellen Sie sicher, dass der eingegebene Code korrekt ist.</string>
   <string name="tc_sms_report_notify_get_timeout_title">Datennutzungs-SMS anfordern fehlgeschlagen</string>
   <string name="tc_sms_report_receive_content">Inhalt Datennutzungsreport-SMS (Nutzungsbericht bestätigen)</string>
-  <string name="tc_sms_report_receive_content_null">Helfen Sie mit bei der Verbesserung dieser Funktion!&lt;br/&gt;So geht\'s:&lt;br/&gt;1. Gehen Sie auf \"SMS-Befehl prüfen\" und \"Empfängernummer\"&lt;br/&gt;2. Wählen Sie \"SMS-Vorlage abrufen\"&lt;br/&gt;3. Warten Sie auf die SMS Ihres Anbieters &lt;br/&gt;4. Wählen Sie \"Zu MIUI hochladen\"</string>
+  <string name="tc_sms_report_receive_content_null">Helfen Sie mit bei der Verbesserung dieser Funktion!&lt;br/&gt;So geht\'s:&lt;br/&gt;1. Gehen Sie auf \"SMS-Befehl prüfen\" und \"Empfängernummer\"&lt;br/&gt;2. Wählen Sie \"SMS-Vorlage abrufen\"&lt;br/&gt;3. Warten Sie auf die SMS Ihres Netzbetreibers &lt;br/&gt;4. Wählen Sie \"Zu MIUI hochladen\"</string>
   <string name="tc_sms_report_receive_num">Nummer des Empfängers</string>
-  <string name="tc_sms_report_send_num">Anbieternummer</string>
+  <string name="tc_sms_report_send_num">Netzbetreibernummer</string>
   <string name="tc_sms_report_summary">Helfen Sie uns, diese Funktion zu verbessern, indem Sie uns einen fehlerhaften Datennutzungsreport oder Aktualisierungsfehler melden</string>
-  <string name="tc_sms_report_tips_dialog_message">Eine SMS wird an Ihren Anbieter geschickt, um die aktuellsten Datennutzungsinfos zu erhalten. Wenn Sie der Meinung sind, dass die Info nicht korrekt ist, senden Sie uns Ihr Feedback.</string>
+  <string name="tc_sms_report_tips_dialog_message">Eine SMS wird an Ihren Netzbetreiber geschickt, um die aktuellsten Datennutzungsinfos zu erhalten. Wenn Sie der Meinung sind, dass die Info nicht korrekt ist, senden Sie uns Ihr Feedback.</string>
   <string name="tc_sms_report_tips_dialog_title">Datennutzungs-SMS</string>
   <string name="tc_sms_report_title">Datennutzungsfehler melden</string>
   <string name="tc_sms_report_toast_text">Details abrufen…</string>
@@ -2652,7 +2652,7 @@ Beachten Sie, dass %1s Ihre Daten erfassen muss und die folgenden Berechtigungen
   <string name="top_no_network_detial">Laden fehlgeschlagen. Netzwerkverbindung prüfen und erneut versuchen</string>
   <string name="traffic_alert_auto_modify_notification_sumarry">Monatstarif geändert auf %s</string>
   <string name="traffic_alert_auto_modify_notification_titile">Datentarif aktualisiert</string>
-  <string name="traffic_alert_auto_modify_package_summary">Datenpakete automatisch anpassen, je nach Anbieterinfo</string>
+  <string name="traffic_alert_auto_modify_package_summary">Datenpakete automatisch anpassen, je nach Netzbetreiberinfo</string>
   <string name="traffic_config_alert_auto_modify">Datentarif automatisch aktualisieren</string>
   <string name="traffic_config_alert_body">"Ihr Datentarif zeigt dies: %s.
 Wollen Sie es übernehmen?"</string>
@@ -2665,8 +2665,8 @@ Wollen Sie es übernehmen?"</string>
   <string name="traffic_config_alert_setted">Einstellungen übernommen</string>
   <string name="traffic_config_alert_title">%s Korrektur</string>
   <string name="traffic_correction_failed">Info nicht verfügbar</string>
-  <string name="traffic_correction_start_correction">Mit Anbieterserver verbinden…</string>
-  <string name="traffic_correction_start_correction_failed">Anforderung fehlgeschlagen. Bitte Anbietereinstellungen prüfen.</string>
+  <string name="traffic_correction_start_correction">Mit Netzbetreiberserver verbinden…</string>
+  <string name="traffic_correction_start_correction_failed">Anforderung fehlgeschlagen. Bitte Netzbetreibereinstellungen prüfen.</string>
   <string name="traffic_correction_success">Datennutzung aktualisiert</string>
   <string name="traffic_correction_success_notify_message">Details anzeigen</string>
   <string name="traffic_limit_error_alert_body">Ihr verbliebenes Datenvolumen für diesen Monat (%1$s) ist höher als Ihr Monatstarif (%2$s). Monatstarif ändern?</string>
@@ -2685,23 +2685,23 @@ Wollen Sie es übernehmen?"</string>
   <string name="traffic_setting_fragment_daily_summary">Mobile Daten werden täglich aktualisiert</string>
   <string name="traffic_setting_fragment_daily_title">Täglicher Datentarif</string>
   <string name="traffic_setting_fragment_default">Auswählen</string>
-  <string name="traffic_setting_fragment_find_brand">"&lt;font color='#33b4ff'&gt;<u>Nicht sicher über den Anbieter?</u>&lt;/font&gt;"</string>
+  <string name="traffic_setting_fragment_find_brand">"&lt;font color='#33b4ff'&gt;<u>Nicht sicher über den Netzbetreiber?</u>&lt;/font&gt;"</string>
   <string name="traffic_setting_fragment_loacation_alert_nomore">Nicht mehr anzeigen</string>
   <string name="traffic_setting_fragment_month_summary">Mobile Daten und Gesprächsverlauf werden monatlich aktualisiert</string>
   <string name="traffic_setting_fragment_month_title">Monatlicher Datentarif</string>
   <string name="traffic_setting_fragment_next">Weiter</string>
   <string name="traffic_setting_fragment_not_limited_summary">Unbegrenzte mobile Datenoptionen</string>
   <string name="traffic_setting_fragment_not_limited_title">Unbegrenzter Datentarif</string>
-  <string name="traffic_setting_fragment_operator">Anbieter</string>
-  <string name="traffic_setting_fragment_operator_setting">Anbietereinstellungen</string>
+  <string name="traffic_setting_fragment_operator">Netzbetreiber</string>
+  <string name="traffic_setting_fragment_operator_setting">Netzbetreibereinstellungen</string>
   <string name="traffic_setting_fragment_packege_type">Datentarifeinstellungen</string>
   <string name="traffic_setting_fragment_province">Provinz</string>
-  <string name="traffic_setting_fragment_send_num">Nummer des Anbieters</string>
+  <string name="traffic_setting_fragment_send_num">Nummer des Netzbetreibers</string>
   <string name="traffic_setting_fragment_send_num_tips">Telefonnummer eingeben</string>
   <string name="traffic_setting_fragment_sms_content">Nachrichteninhalt</string>
   <string name="traffic_setting_fragment_sms_content_tips">Tippen Sie hier Ihre Nachricht ein</string>
   <string name="traffic_setting_fragment_title">Datennutzungsabfrage</string>
-  <string name="traffic_setting_fragment_title_guide">Anbieter und Datentarife</string>
+  <string name="traffic_setting_fragment_title_guide">Netzbetreiber und Datentarife</string>
   <string name="traffic_usage_warning_body">Sie haben diesen Monat bereits %s der mobilen Daten genutzt.</string>
   <string name="traffic_usage_warning_limit">Datennutzungslimit</string>
   <string name="traffic_usage_warning_title">Datennutzungswarnung</string>

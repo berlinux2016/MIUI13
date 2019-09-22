@@ -38,7 +38,7 @@
   <string name="RestrictedOnVoiceData">Sprach-/Datendienste sind gesperrt</string>
   <string name="RestrictedOnVoiceSms">Sprach-/SMS-Dienste sind gesperrt</string>
   <string name="RestrictedStateContent">Vorübergehend nicht über das Mobilfunknetz an Ihrem Standort verfügbar</string>
-  <string name="RestrictedStateContentMsimTemplate">Vom Anbieter vorübergehend abgeschaltet für SIM %d</string>
+  <string name="RestrictedStateContentMsimTemplate">Vom Netzbetreiber vorübergehend abgeschaltet für SIM %d</string>
   <string name="RuacMmi">Abweisen unerwünschter Anrufe</string>
   <string name="SetupCallDefault">Anruf annehmen?</string>
   <string name="ThreeWCMmi">Dreierkonferenz</string>
@@ -595,7 +595,7 @@
   <string name="inputMethod">Eingabemethode</string>
   <string name="input_method_binding_label">Eingabemethode</string>
   <string name="install_carrier_app_notification_button">App herunterladen</string>
-  <string name="install_carrier_app_notification_text">Anbieter-App herunterladen, um Ihre neue SIM-Karte zu aktivieren</string>
+  <string name="install_carrier_app_notification_text">Netzbetreiber-App herunterladen, um Ihre neue SIM-Karte zu aktivieren</string>
   <string name="install_carrier_app_notification_text_app_name">%1$s-App herunterladen, um Ihre neue SIM-Karte zu aktivieren</string>
   <string name="install_carrier_app_notification_title">Mobilservice aktivieren</string>
   <string name="invalidPin">Geben Sie eine PIN ein, die 4 bis 8 Zahlen enthält</string>
@@ -671,7 +671,7 @@ Besuchen Sie <b>google.com/accounts/recovery</b>"</string>
   <string name="kg_pattern_instructions">Muster zeichnen</string>
   <string name="kg_pin_instructions">PIN eingeben</string>
   <string name="kg_puk_enter_pin_hint">Gewünschten PIN-Code eingeben</string>
-  <string name="kg_puk_enter_puk_hint">SIM-Karte ist jetzt deaktiviert. PUK-Code eingeben, um fortzufahren. Weitere Informationen erhalten Sie von Ihrem Anbieter.</string>
+  <string name="kg_puk_enter_puk_hint">SIM-Karte ist jetzt deaktiviert. PUK-Code eingeben, um fortzufahren. Weitere Informationen erhalten Sie von Ihrem Netzbetreiber.</string>
   <string name="kg_reordering_delete_drop_target_text">Entfernen</string>
   <string name="kg_sim_pin_instructions">SIM-PIN eingeben</string>
   <string name="kg_sim_unlock_progress_dialog_message">SIM-Karte entsperren…</string>
@@ -935,7 +935,7 @@ Versuchen Sie es in %2$d Sekunden erneut."</string>
   <string name="permdesc_accessDrmCertificates">Erlaubt einer App die Bereitstellung und Nutzung von DRM-Zertifikaten. Sollte für normale Apps nie benötigt werden.</string>
   <string name="permdesc_accessFineLocation">Diese App kann Ihren Standort basierend auf GPS oder Netzwerkquellen wie Mobilfunkmasten und WLAN ermitteln. Diese Ortungsdienste müssen eingeschaltet und auf Ihrem Telefon verfügbar sein, damit die App sie nutzen kann. Dies kann den Akkuverbrauch erhöhen.</string>
   <string name="permdesc_accessImsCallService">Erlaubt der App, den IMS-Service zu verwenden, um Anrufe ohne Ihr Eingreifen zu machen</string>
-  <string name="permdesc_accessLocationExtraCommands">Erlaubt der App, auf zusätzliche Standortanbieterbefehle zuzugreifen. Damit könnte die App die Funktionsweise von GPS oder anderen Standortquellen beeinträchtigen.</string>
+  <string name="permdesc_accessLocationExtraCommands">Erlaubt der App, auf zusätzliche Standortnetzbetreiberbefehle zuzugreifen. Damit könnte die App die Funktionsweise von GPS oder anderen Standortquellen beeinträchtigen.</string>
   <string name="permdesc_accessNetworkConditions">Erlaubt der App, Informationen zu den Netzwerkbedingungen zu erfassen. Sollte für normale Apps nie benötigt werden.</string>
   <string name="permdesc_accessNetworkState">Erlaubt der App, Informationen zu Netzwerkverbindungen abzurufen, etwa welche Netzwerke existieren und verbunden sind.</string>
   <string name="permdesc_accessNotifications">Erlaubt der App das Abrufen, Überprüfen und Löschen von Benachrichtigungen, inkl. Benachrichtigungen, die von anderen Apps gepostet wurden</string>

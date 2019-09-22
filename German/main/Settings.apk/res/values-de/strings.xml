@@ -31,7 +31,7 @@
   <string name="abc_slice_permission_deny">Verweigern</string>
   <string name="abc_slice_permission_text_1">- Sie kann Infos aus %1$s lesen</string>
   <string name="abc_slice_permission_text_2">- Sie kann Aktionen innerhalb von %1$s ausführen</string>
-  <string name="abc_slice_permission_title">%1$s erlauben, %2$s Teile anzuzeigen?</string>
+  <string name="abc_slice_permission_title">%1$s erlauben, %2$s-Teile anzuzeigen?</string>
   <string name="abc_slice_show_more">Mehr anzeigen</string>
   <string name="abc_slice_updated">%1$s aktualisiert</string>
   <string name="abc_slices_permission_request">%1$s möchte %2$s Teile anzeigen</string>
@@ -312,10 +312,10 @@ Schalten Sie diese Funktion ein und tippen Sie auf die Schaltfläche Eingabehilf
   <string name="advanced_security_title">Erweiterte Einstellungen</string>
   <string name="advanced_settings">Erweiterte Einstellungen</string>
   <string name="advanced_settings_summary">Erweiterte Einstellungsoptionen aktivieren</string>
-  <string name="agps_roaming">A-GPS bei Datenroaming</string>
-  <string name="agps_roaming_dia">Verwendung von A-GPS bei Datenroaming kann zu erhöhten Kosten führen</string>
-  <string name="agps_roaming_dia_title">A-GPS bei Datenroaming verwenden</string>
-  <string name="agps_roaming_summary">Verwendung von A-GPS bei Datenroaming kann zu erhöhten Kosten führen</string>
+  <string name="agps_roaming">A-GPS bei Daten-Roaming</string>
+  <string name="agps_roaming_dia">Verwendung von A-GPS bei Daten-Roaming kann zu erhöhten Kosten führen</string>
+  <string name="agps_roaming_dia_title">A-GPS bei Daten-Roaming verwenden</string>
+  <string name="agps_roaming_summary">Verwendung von A-GPS bei Daten-Roaming kann zu erhöhten Kosten führen</string>
   <string name="ai_button_title">Mi AI-Taste</string>
   <string name="ai_button_title_global">AI-Taste</string>
   <string name="ai_key">AI-Taste</string>
@@ -575,7 +575,7 @@ string name="angle_enabled_app_set">ANGLE enabled application: %1$s -->
   <string name="assist_footer">Assistenten können Ihnen helfen, indem Sie auf dem Bildschirm angezeigte Inhalte verarbeiten. Einige Apps unterstützen sowohl den Launcher als auch die Spracheingabe, um Sie zu unterstützen.</string>
   <string name="assist_gesture_sensitivity_title">Empfindlichkeit</string>
   <string name="assist_gesture_title">Hilfsgeste</string>
-  <string name="assistant_security_warning">Assistent kann Informationen über Apps lesen, die auf Ihrem System verwendet werden, einschließlich Informationen, die auf Ihrem Bildschirm oder innerhalb der Apps sichtbar sind.</string>
+  <string name="assistant_security_warning">Assistent kann Informationen über Apps lesen, die auf Ihrem System verwendet werden, einschl. Informationen, die auf Ihrem Bildschirm oder innerhalb der Apps sichtbar sind.</string>
   <string name="assistant_security_warning_agree">Zustimmen</string>
   <string name="assistant_security_warning_disagree">Ablehnen</string>
   <string name="assistant_security_warning_title">%s zu Ihrem Assistenten machen?</string>
@@ -1087,7 +1087,7 @@ Apps:
   <string name="bluetooth_hid_profile_summary_connected">Mit Eingabegerät verbunden</string>
   <string name="bluetooth_hid_profile_summary_use_for">Für Eingabe verwenden</string>
   <string name="bluetooth_incoming_pairing_msg">Von: %1$s. Koppeln mit diesem Gerät durchführen?</string>
-  <string name="bluetooth_is_disconnect_question">Trenne %1$s?</string>
+  <string name="bluetooth_is_disconnect_question">%1$s trennen?</string>
   <string name="bluetooth_is_discoverable">Sichtbar für alle Bluetooth-Geräte in der Nähe (%1$s)</string>
   <string name="bluetooth_is_discoverable_always">Dieses Gerät für Bluetooth-Geräte in der Nähe sichtbar machen</string>
   <string name="bluetooth_is_visible_message">%1$s ist für Geräte in der Umgebung sichtbar, wenn die Bluetooth-Einstellungen geöffnet sind</string>
@@ -1462,8 +1462,8 @@ Diese Funktion kann unter [Einstellungen] deaktiviert werden."</string>
   <string name="carrier_enabled">APN an/aus</string>
   <string name="carrier_enabled_summaryOff">APN aus</string>
   <string name="carrier_enabled_summaryOn">APN an</string>
-  <string name="carrier_settings_euicc">Anbieter</string>
-  <string name="carrier_settings_title">Anbietereinstellungen</string>
+  <string name="carrier_settings_euicc">Netzbetreiber</string>
+  <string name="carrier_settings_title">Netzbetreibereinstellungen</string>
   <string name="carrier_settings_version">Einstellungsversion</string>
   <string name="category_personal">Persönlich</string>
   <string name="category_work">Arbeit</string>
@@ -1692,7 +1692,7 @@ Nach Erstellung einer neuen Sicherheitsfrage und Bestätigung Ihres Geburtsdatum
   <string name="confirm_privacy_password_fingerprint">Fingerabdruck scannen oder Datenschutzpasswort eingeben</string>
   <string name="confirm_prompt_all_permission">Nach Berechtigungen für alle Apps fragen?</string>
   <string name="confirm_reject_all_permission">Alle Apps daran hindern, diese Funktion zu nutzen?</string>
-  <string name="confirm_reset_shortcut_manager_throttling_message">Drosselungsszähler des ShortcutManager zurücksetzen?</string>
+  <string name="confirm_reset_shortcut_manager_throttling_message">Drosselungsszähler für ShortcutManager zurücksetzen?</string>
   <string name="confirm_reset_shortcut_manager_throttling_title">Drosselung für ShortcutManager zurücksetzen?</string>
   <string name="confirm_lock_pattern_header_text">Ihr Muster zeichnen</string>
   <string name="connect_mode">Verbindungstyp</string>
@@ -1832,7 +1832,7 @@ Damit Sie Ihr Gerät wieder verwenden können, müssen Sie es auf Werkseinstellu
   <string name="current_use_uicc_se">Sichere Elemente auf der SIM-Karte benutzen</string>
   <string name="current_use_uicc_wallet">Sie verwenden SIM%1$s Bezahlung</string>
   <string name="current_zone">(aktuell)</string>
-  <string name="custom_carrier_title">Anbietername bearbeiten</string>
+  <string name="custom_carrier_title">Netzbetreibername bearbeiten</string>
   <string name="custom_wifi_name_title">WLAN-Name bearbeiten</string>
   <string name="cutout_mode_always">Notch immer anzeigen</string>
   <string name="cutout_mode_default">Automatisch</string>
@@ -1910,7 +1910,7 @@ Für einige Konten werden eventuell auch Änderungen, die Sie auf Ihrem Gerät v
   <string name="data_usage_disable_mobile">Mobile Daten deaktivieren?</string>
   <string name="data_usage_disable_mobile_limit">Limit festlegen</string>
   <string name="data_usage_disable_wifi_limit">WLAN-Datenlimit festlegen</string>
-  <string name="data_usage_disclaimer">Anbieterdatenabrechnung kann sich von Ihrem Gerät unterscheiden</string>
+  <string name="data_usage_disclaimer">Netzbetreiberdatenabrechnung kann sich von Ihrem Gerät unterscheiden</string>
   <string name="data_usage_empty">Kein Datenverbrauch in diesem Zeitraum</string>
   <string name="data_usage_enable_3g">2G-3G Daten</string>
   <string name="data_usage_enable_4g">4G Daten</string>
@@ -1931,7 +1931,7 @@ Der Datenverbrauch wird von Ihrem Gerät berechnet und kann von der Abrechnung I
   <string name="data_usage_menu_hide_wifi">WLAN ausblenden</string>
   <string name="data_usage_menu_metered">Netzwerkbeschränkungen</string>
   <string name="data_usage_menu_restrict_background">Hintergrunddaten beschränken</string>
-  <string name="data_usage_menu_roaming">Datenroaming</string>
+  <string name="data_usage_menu_roaming">Daten-Roaming</string>
   <string name="data_usage_menu_show_ethernet">Ethernetnutzung anzeigen</string>
   <string name="data_usage_menu_show_wifi">WLAN-Nutzung anzeigen</string>
   <string name="data_usage_menu_sim_cards">SIM-Karten</string>
@@ -1973,7 +1973,7 @@ Diese Einstellung betrifft alle Benutzer auf diesem Telefon."</string>
   <string name="data_used_formatted">^1 ^2 verbraucht</string>
   <string name="data_used_template">%1$s verwendet</string>
   <string name="data_warning">Datenwarnung</string>
-  <string name="data_warning_footnote">Datenwarnung und Datenlimit werden von Ihrem Gerät gemessen. Dies kann sich von den Anbieterdaten unterscheiden.</string>
+  <string name="data_warning_footnote">Datenwarnung und Datenlimit werden von Ihrem Gerät gemessen. Dies kann sich von den Netzbetreiberdaten unterscheiden.</string>
   <string name="date_and_time">Zeit- &amp; Datumseinstellungen</string>
   <string name="date_and_time_settings_summary">Datum, Uhrzeit, Zeitzone und Formate festlegen</string>
   <string name="date_and_time_settings_title">Datum &amp; Uhrzeit</string>
@@ -2109,7 +2109,7 @@ Diese Einstellung betrifft alle Benutzer auf diesem Telefon."</string>
   <string name="device_internal_memory">Interner Speicher</string>
   <string name="device_miui_more">Mehr anzeigen</string>
   <string name="device_miui_version">MIUI-Version</string>
-    <string name="device_miui_version_parameters">MIUI-Version</string>
+  <string name="device_miui_version_parameters">MIUI-Version</string>
   <string name="device_miui_version_for_POCO">MIUI Version (Für POCO)</string>
   <string name="device_miui_version_update">MIUI-Update verfügbar</string>
   <string name="device_name">Gerätename</string>
@@ -2560,7 +2560,7 @@ Für weitere Informationen wenden Sie sich bitte an den Admin Ihres Unternehmens
   <string name="err_user_abort">Vom Benutzer abgebrochen</string>
   <string name="err_version_too_old">Sicherungsdatei ist zu alt</string>
   <string name="err_version_unsupported">Sicherungsversion wird nicht unterstützt</string>
-  <string name="error_adding_apn_type">Anbieter erlaubt keine %s-APN-Typen</string>
+  <string name="error_adding_apn_type">Netzbetreiber erlaubt keine %s-APN-Typen</string>
   <string name="error_apn_empty">APN darf nicht leer sein</string>
   <string name="error_capturing_system_heap_dump_message">System-Heap-Dump erfassen nicht möglich</string>
   <string name="error_mcc_not3">MCC-Feld muss 3 Zeichen enthalten</string>
@@ -2784,7 +2784,7 @@ Die böse Hexe des Westens sendet Wölfe, Krähen, Bienen, ihre Winkie-Soldaten 
   <string name="forget_password_button_text"><u>Passwort vergessen</u></string>
   <string name="forget_password_dialog_button_text">Zurück</string>
   <string name="forget_password_dialog_content_four"><Data>2. [Daten löschen] wählen und warten, bis Ihr Gerät neu startet.</Data></string>
-  <string name="forget_password_dialog_content_one"><Data>"Wenn Sie Ihr Passwort vergessen, können Sie es nicht wiederherstellen. Sie können Ihr Passwort jedoch zurücksetzen, nachdem Sie &lt;font color=#ec2700>alle Daten auf Ihrem Gerät gelöscht haben&lt;/font> (einschließlich Fotos, Kontakte usw.). Sichern Sie vorher alle wichtigen Daten."</Data></string>
+  <string name="forget_password_dialog_content_one"><Data>"Wenn Sie Ihr Passwort vergessen, können Sie es nicht wiederherstellen. Sie können Ihr Passwort jedoch zurücksetzen, nachdem Sie &lt;font color=#ec2700>alle Daten auf Ihrem Gerät gelöscht haben&lt;/font> (einschl. Fotos, Kontakte usw.). Sichern Sie vorher alle wichtigen Daten."</Data></string>
   <string name="forget_password_dialog_content_three"><Data>"1. Schalten Sie Ihr Gerät aus. Drücken Sie die Tasten [Power] und [Volume+] gleichzeitig und halten Sie sie gedrückt, bis Sie das * Symbol sehen."</Data></string>
   <string name="forget_password_dialog_content_two">Folgen Sie diesen Schritten, um Daten zu löschen:</string>
   <string name="forget_password_dialog_title">Daten löschen</string>
@@ -3030,8 +3030,8 @@ Wenn Sie automatische Sicherungen einschalten, werden Geräte- und App-Daten per
   <string name="hwui_force_dark_title">Force-Dark übersteuern</string>
   <string name="icloud_backup_tip">Melden Sie sich beim iCloud-Account Ihres alten iOS-Geräts an</string>
   <string name="icloud_how_to_backup_tip_steps">"1. Wählen Sie in den Einstellungen in Ihrem iOS-Gerät die Option iCloud aus.
-    2. Schalter für Kontakte betätigen und andere Element.
-    3. Wählen Sie Fotos und betätigen Sie den Schalter für die iCloud-Fotobibliothek."</string>
+  2. Schalter für Kontakte betätigen und andere Element.
+  3. Wählen Sie Fotos und betätigen Sie den Schalter für die iCloud-Fotobibliothek."</string>
   <string name="icloud_how_to_backup_tip_summary">Um Daten von iOS zu importieren, müssen Sie eine iCloud-Sicherung erstellen</string>
   <string name="icloud_how_to_backup_tip_title">Tipps:</string>
   <string name="icloud_login_title">In iCloud anmelden</string>
@@ -3044,7 +3044,7 @@ Wenn Sie automatische Sicherungen einschalten, werden Geräte- und App-Daten per
   <string name="ignore_optimizations_on">Nicht optimieren</string>
   <string name="ignore_optimizations_on_desc">Ihr Akku wird eventuell schneller leer</string>
   <string name="ignore_optimizations_title">%s erlauben, die Optimierung zu ignorieren?</string>
-  <string name="ime_security_warning">%1$s kann den gesamten von Ihnen eingegebenen Text erfassen, einschließlich persönlicher Daten wie Passwörter und Kreditkartennummern</string>
+  <string name="ime_security_warning">%1$s kann den gesamten von Ihnen eingegebenen Text erfassen, einschl. persönlicher Daten wie Passwörter und Kreditkartennummern</string>
   <string name="imei_information_summary">Relevante IMEI-Informationen</string>
   <string name="imei_information_title">IMEI-Informationen</string>
   <string name="imei_multi_sim">IMEI (SIM-Slot %1$d)</string>
@@ -3765,7 +3765,7 @@ Um auch Musik, Bilder und sonstige Benutzerdaten zu löschen, muss der <b>USB-Sp
   <string name="master_clear_erase_application_progress">Apps löschen…</string>
   <string name="master_clear_failed">Zurücksetzung konnte nicht durchgeführt werden, weil der Dienst zur Systembereinigung nicht verfügbar ist</string>
   <string name="master_clear_final_button_text">Alles löschen</string>
-  <string name="master_clear_final_desc">Alle personenbezogenen Daten und heruntergeladenen Apps löschen? Sie können diese Aktion nicht rückgängig machen.</string>
+  <string name="master_clear_final_desc">Alle persönlichen Daten und heruntergeladenen Apps löschen? Sie können diese Aktion nicht rückgängig machen.</string>
   <string name="master_clear_final_desc_esim">Alle Ihre persönlichen Daten, einschl. der heruntergeladenen Apps und SIMs, werden gelöscht. Sie können diese Aktion nicht rückgängig machen.</string>
   <string name="master_clear_not_available">Werksreset ist für diesen Benutzer nicht verfügbar</string>
   <string name="master_clear_other_users_present">Andere Benutzer sind an diesem System angemeldet</string>
@@ -3966,7 +3966,7 @@ Um auch Musik, Bilder und sonstige Benutzerdaten zu löschen, muss der <b>USB-Sp
   <string name="mobile_data_ap_mode_disabled">Im Flugmodus nicht verfügbar</string>
   <string name="mobile_data_off">Mobile Daten aus</string>
   <string name="mobile_data_settings_summary">Datenzugriff über Mobilfunknetz</string>
-  <string name="mobile_data_settings_summary_auto_switch">Telefon wechselt automatisch auf diesen Anbieter, wenn es sich in Reichweite befindet</string>
+  <string name="mobile_data_settings_summary_auto_switch">Telefon wechselt automatisch auf diesen Netzbetreiber, wenn es sich in Reichweite befindet</string>
   <string name="mobile_data_settings_title">Mobile Daten</string>
   <string name="mobile_data_usage_title">Datennutzung der App</string>
   <string name="mobile_insert_sim_card">Legen Sie die SIM-Karte ein und starten Sie das Gerät neu</string>
@@ -4004,7 +4004,7 @@ Der Wechsel zu %1$s wird Ihren %2$s-Dienst nicht beenden."</string>
   <string name="mobile_network_use_sim_off">Aus</string>
   <string name="mobile_network_use_sim_on">SIM verwenden</string>
   <string name="mobile_no_provisioning_url">Keine Bereitstellungswebseite für %1$s bekannt</string>
-  <string name="mobile_unknown_sim_operator">Unbekannter SIM-Anbieter</string>
+  <string name="mobile_unknown_sim_operator">Unbekannter SIM-Netzbetreiber</string>
   <string name="mock_location_app">App für gefälschte Standorte auswählen</string>
   <string name="mock_location_app_not_set">Keine App für gefälschte Standorte ausgewählt</string>
   <string name="mock_location_app_set">App für gefälschte Standorte: %1$s</string>
@@ -4032,7 +4032,7 @@ Der Wechsel zu %1$s wird Ihren %2$s-Dienst nicht beenden."</string>
   <string name="mqs_privacy_automatically_upload">Beim nächsten Mal automatisch hochladen</string>
   <string name="mqs_privacy_dialog_cancel">Abbrechen</string>
   <string name="mqs_privacy_dialog_confirm">Hochladen</string>
-  <string name="mqs_privacy_dialog_content">Protokolle hochladen, um uns zu helfen, dieses Problem zu finden und zu lösen? Protokolle können Ihre persönlichen Informationen enthalten, einschließlich der Informationen über Ihren Standort.</string>
+  <string name="mqs_privacy_dialog_content">Protokolle hochladen, um uns zu helfen, dieses Problem zu finden und zu lösen? Protokolle können Ihre persönlichen Informationen enthalten, einschl. der Informationen über Ihren Standort.</string>
   <string name="mqs_privacy_dialog_title">Ein Fehler ist aufgetreten</string>
   <string name="mr_button_content_description">Übertragungstaste</string>
   <string name="mr_cast_button_connected">Übertragungstaste - verbunden</string>
@@ -4204,8 +4204,8 @@ Betriebssystem auswählen:"</string>
   <string name="network_select_title">Netzwerk</string>
   <string name="network_settings_title">Mobilfunknetze</string>
   <string name="network_speed_for_apps_close">Stoppen erzwingen</string>
-  <string name="network_speed_for_apps_close_app_dlg_msg">Erzwingen, diese App zu stoppen?</string>
-  <string name="network_speed_for_apps_close_system_app_dlg_msg">System-Apps können nicht zum stoppen gezwungen werden</string>
+  <string name="network_speed_for_apps_close_app_dlg_msg">Stoppen dieser App erzwingen?</string>
+  <string name="network_speed_for_apps_close_system_app_dlg_msg">System-Apps können nicht zum Stoppen gezwungen werden</string>
   <string name="network_speed_for_apps_others">Andere</string>
   <string name="network_speed_for_apps_title">Verbindung</string>
   <string name="network_speed_for_apps_total">Verbindungsgeschwindigkeit</string>
@@ -4289,7 +4289,7 @@ Betriebssystem auswählen:"</string>
   <string name="no_account_found">Keine App gefunden, die Konten hinzufügen kann</string>
   <string name="no_application">Keine</string>
   <string name="no_applications">Keine Apps</string>
-  <string name="no_battery_summary">Kein Akkuverbrauch seit der letzten vollen Ladung</string>
+  <string name="no_battery_summary">Kein Akkuverbrauch seit der letzten Vollladung</string>
   <string name="no_bluetooth_devices">Keine Bluetooth-Geräte</string>
   <string name="no_carrier_update_now_text">Gerade eben aktualisiert</string>
   <string name="no_carrier_update_text">Vor ^2 aktualisiert</string>
@@ -4929,14 +4929,14 @@ OTG schaltet sich nach 10 Minuten Inaktivität automatisch aus."</string>
   <string name="priority_storage_title">Speichereinstellungen</string>
   <string name="priority_summary">Benachrichtigungen ganz oben in der Liste anzeigen</string>
   <string name="priority_title">Priorität</string>
-  <string name="privacy_authorize_cloud_msg">Um die Sicherheit Ihres Kontos zu gewährleisten, melden Sie sich bei i.mi.com an, wenn Sie die Autorisierung für Xiaomi Cloud-Dienste (einschließlich Synchronisation und Backups) widerrufen möchten.</string>
+  <string name="privacy_authorize_cloud_msg">Um die Sicherheit Ihres Kontos zu gewährleisten, melden Sie sich bei i.mi.com an, wenn Sie die Autorisierung für Xiaomi Cloud-Dienste (einschl. Synchronisation und Backups) widerrufen möchten.</string>
   <string name="privacy_authorize_dialog_agree">Zustimmen</string>
   <string name="privacy_authorize_dialog_exit">Beenden</string>
-  <string name="privacy_authorize_dialog_message">&lt;Data&gt;Um grundlegende Funktionen dieses Dienstes nutzen zu können, müssen Sie damit einverstanden sein, dass Xiaomi Ihre personenbezogenen Daten erhebt, verarbeitet und nutzt. In unserer Datenschutzerklärung erfahren Sie, wie wir personenbezogene Daten erheben und verarbeiten. \"Zustimmen\" wählen bedeutet, dass Sie unsere &amp;lt;a href=\"https://privacy.mi.com/all/%1$s_%2$s\"&amp;gt;Datenschutzerklärung&amp;lt;/a&amp;gt; und &amp;lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;amp;lang=%4$s\"&amp;gt;Nutzervereinbarung&amp;lt;/a&amp;gt; gelesen und akzeptiert haben.&lt;/Data&gt;</string>
+  <string name="privacy_authorize_dialog_message">&lt;Data&gt;Um grundlegende Funktionen dieses Dienstes nutzen zu können, müssen Sie damit einverstanden sein, dass Xiaomi Ihre persönlichen Daten erhebt, verarbeitet und nutzt. In unserer Datenschutzerklärung erfahren Sie, wie wir personenbezogene Daten erheben und verarbeiten. \"Zustimmen\" wählen bedeutet, dass Sie unsere &amp;lt;a href=\"https://privacy.mi.com/all/%1$s_%2$s\"&amp;gt;Datenschutzerklärung&amp;lt;/a&amp;gt; und &amp;lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;amp;lang=%4$s\"&amp;gt;Nutzervereinbarung&amp;lt;/a&amp;gt; gelesen und akzeptiert haben.&lt;/Data&gt;</string>
   <string name="privacy_authorize_network_error">Mit dem Netzwerk verbinden und erneut versuchen</string>
   <string name="privacy_authorize_privacy_policy">(Datenschutzerklärung)</string>
   <string name="privacy_authorize_revoke">Widerrufen</string>
-  <string name="privacy_authorize_revoke_dialog_msg">Wenn Sie die Autorisierung widerrufen, stoppt die App die Datenerfassung, und alle zugehörigen Daten werden von den Servern gelöscht. Dies könnte die App praktisch unbrauchbar machen. Die Autorisierung trotzdem widerrufen?</string>
+  <string name="privacy_authorize_revoke_dialog_msg">Wenn Sie die Autorisierung widerrufen, stoppt die App die Datenerfassung, und alle zugehörigen Daten werden von den Servern gelöscht. Dies könnte die App praktisch unbrauchbar machen. Autorisierung trotzdem widerrufen?</string>
   <string name="privacy_authorize_revoke_dialog_title">Berechtigung widerrufen</string>
   <string name="privacy_authorize_revoke_failed">Autorisierung konnte nicht widerrufen werden.</string>
   <string name="privacy_authorize_revoke_success">Berechtigung widerrufen erfolgreich</string>
@@ -5018,7 +5018,7 @@ OTG schaltet sich nach 10 Minuten Inaktivität automatisch aus."</string>
   <string name="private_sms_recording_intro_header">Entsperrmuster zeichnen:</string>
   <string name="private_sms_reset_by_account">Um Ihr Passwort zurückzusetzen, melden Sie sich in Ihrem Mi Konto an</string>
   <string name="process_dex2oat_label">App-Optimierung</string>
-  <string name="process_provider_in_use_description">Anbieter %1$s wird verwendet</string>
+  <string name="process_provider_in_use_description">Netzbetreiber %1$s wird verwendet</string>
   <string name="process_service_in_use_description">Dienst %1$s wird verwendet</string>
   <string name="process_stats_bg_ram_use">RAM-Nutzung (Hintergrund)</string>
   <string name="process_stats_os_native">Nativ</string>
@@ -5179,7 +5179,7 @@ UT Interface: %5$s"</string>
   <string name="remove_and_uninstall_device_admin">Deaktivieren und Deinstallieren</string>
   <string name="remove_continue">Deinstallieren</string>
   <string name="remove_device_admin">Ausschalten</string>
-  <string name="remove_from_frequently_fragment">\"%s\" aus den Allgemeinen Einstellungen entfernen?</string>
+  <string name="remove_from_frequently_fragment">\"%s\" aus den allgemeinen Einstellungen entfernen?</string>
   <string name="remove_managed_profile_label">Arbeitsprofil entfernen</string>
   <string name="repeat">Wiederholen</string>
   <string name="repeat_call">Benachrichtigen über wiederholte Anrufe</string>
@@ -5199,13 +5199,13 @@ UT Interface: %5$s"</string>
   <string name="reset_dashboard_summary">Netzwerk, Apps oder Gerät können zurückgestzt werden</string>
   <string name="reset_dashboard_title">Zurücksetzen</string>
   <string name="reset_default_apn_failed">Zurücksetzen des Standard-APN fehlgeschlagen</string>
-  <string name="reset_esim_desc">Alle eSIMs auf dem Telefon löschen. Kontaktieren Sie Ihren Anbieter, um Ihre eSIMs erneut herunterzuladen. Dadurch wird Ihr Mobilfunkvertrag nicht gekündigt.</string>
+  <string name="reset_esim_desc">Alle eSIMs auf dem Telefon löschen. Kontaktieren Sie Ihren Netzbetreiber, um Ihre eSIMs erneut herunterzuladen. Dadurch wird Ihr Mobilfunkvertrag nicht gekündigt.</string>
   <string name="reset_esim_error_msg">eSIMs können wegen eines Fehlers nicht zurückgesetzt werden</string>
   <string name="reset_esim_error_title">eSIMs können nicht zurückgesetzt werden</string>
   <string name="reset_esim_title">Auch eSIM zurücksetzen</string>
   <string name="reset_legacy_password_settings_preface_text">Sie müssen Ihr Sperrbildschirmpasswort zurücksetzen</string>
   <string name="reset_network_button_text">Einstellungen zurücksetzen</string>
-  <string name="reset_network_category">"Dadurch werden alle Netzwerkeinstellungen zurückgesetzt, einschließlich: "</string>
+  <string name="reset_network_category">"Dadurch werden alle Netzwerkeinstellungen zurückgesetzt, einschl.: "</string>
   <string name="reset_network_complete_toast">Netzwerkeinstellungen wurden zurückgesetzt</string>
   <string name="reset_network_confirm_title">Zurücksetzen?</string>
   <string name="reset_network_data">Mobile Daten</string>
@@ -5283,16 +5283,16 @@ UT Interface: %5$s"</string>
   <string name="ringtones_category_preference_title">Klingeltöne</string>
   <string name="ringtones_install_custom_sound_content">Diese Datei wird in den Ordner %s kopiert</string>
   <string name="ringtones_install_custom_sound_title">Eigenen Ton hinzufügen</string>
-  <string name="roaming">Datenroaming</string>
+  <string name="roaming">Daten-Roaming</string>
   <string name="roaming_alert_title">Daten-Roaming erlauben?</string>
   <string name="roaming_check_price_warning">Fragen Sie Ihren Netzbetreiber nach den Preisen</string>
   <string name="roaming_disable">Bei Roaming mit Datendienst verbinden</string>
   <string name="roaming_enable">Bei Roaming mit Datendienst verbinden</string>
-  <string name="roaming_reenable_message">Die Datenverbindung wurde unterbrochen, weil Sie Ihr Heimnetzwerk verlassen haben und Datenroaming nicht aktiviert ist</string>
-  <string name="roaming_reenable_title">Datenroaming zulassen?</string>
+  <string name="roaming_reenable_message">Die Datenverbindung wurde unterbrochen, weil Sie Ihr Heimnetzwerk verlassen haben und Daten-Roaming nicht aktiviert ist</string>
+  <string name="roaming_reenable_title">Daten-Roaming zulassen?</string>
   <string name="roaming_turn_it_on_button">Aktivieren</string>
   <string name="roaming_warning">Ihnen können erhebliche Kosten entstehen</string>
-  <string name="roaming_warning_multiuser">Wenn Sie Datenroaming zulassen, können erhebliche Roaminggebühren entstehen. Diese Einstellung betrifft alle Benutzer auf diesem Telefon.</string>
+  <string name="roaming_warning_multiuser">Wenn Sie Daten-Roaming zulassen, können erhebliche Roaminggebühren entstehen. Diese Einstellung betrifft alle Benutzer auf diesem Telefon.</string>
   <string name="rom_total_size">Gesamtgröße ROM</string>
   <string name="root">Root-Zugang</string>
   <string name="router_backup_hint">Lassen Sie Ihr Gerät eingeschaltet</string>
@@ -5670,10 +5670,10 @@ Mindestens %s freigeben."</string>
   <string name="search_sound_effects_enable_title">Berührungstöne;Tipptöne;Berührungstöne einschalten</string>
   <string name="search_sound_settings">Ton;Lautstärke;Vibration;Geräusch unterdrücken;Geräuschunterdrückung;Rauschunterdrückung</string>
   <string name="search_status_bar_settings">Benachrichtigungen &amp; Statusleiste;Benachrichtigungen;Statusleiste</string>
-  <string name="search_status_bar_settings_custom_carrier">Netzbetreibernamen ändern;Carriername;Netzbetreibername;Anbietername</string>
+  <string name="search_status_bar_settings_custom_carrier">Netzbetreibernamen ändern;Carriername;Netzbetreibername;Netzbetreibername</string>
   <string name="search_status_bar_settings_expandable_under_keyguard">Am Sperrbildschirm anzeigen</string>
   <string name="search_status_bar_settings_manage_notification">App-Benachrichtigung;App-Benachrichtigungen;Benachrichtigungen</string>
-  <string name="search_status_bar_settings_show_carrier">Netzbetreibernamen anzeigen;Carriername;Netzbetreibername;Anbietername</string>
+  <string name="search_status_bar_settings_show_carrier">Netzbetreibernamen anzeigen;Carriername;Netzbetreibername;Netzbetreibername</string>
   <string name="search_status_bar_settings_show_network_speed">Verbindungsgeschwindigkeit anzeigen;Verbindungsgeschwindigkeit</string>
   <string name="search_status_bar_settings_show_notification_icon">Benachrichtigungssymbole anzeigen;Benachrichtigungssymbole</string>
   <string name="search_status_bar_settings_show_screenshot_notification">Screenshot-Benachrichtigung anzeigen;Screenshot-Benachrichtigung;Screenshot</string>
@@ -5695,7 +5695,7 @@ Mindestens %s freigeben."</string>
   <string name="search_vibrate_in_silent_title">Vibrieren wenn Lautlos;vibrieren;Vibration</string>
   <string name="search_vibrate_on_touch_title">Vibrieren bei Berührung;Vibrieren bei Berührung einschalten;vibrieren;Vibration</string>
   <string name="search_vibrate_when_ringing_title">Auch bei Anrufen vibrieren;vibrieren;Vibration</string>
-  <string name="search_virtual_sim">Internationale mobile Daten;Datenroaming;Roaming mobile Daten</string>
+  <string name="search_virtual_sim">Internationale mobile Daten;Daten-Roaming;Roaming mobile Daten</string>
   <string name="search_vpn_enable">VPN aktivieren;VPN</string>
   <string name="search_vpn_settings_password">VPN-Passwort;VPN schützen</string>
   <string name="search_vpn_settings_title">VPN;VPN hinzufügen;VPN einschalten</string>
@@ -5854,8 +5854,10 @@ Hinweis: Sie können Ihren Fingerabdruck nicht verwenden, um dieses Gerät zu en
   <string name="see_all_apps_title">Alle %1$d Apps anzeigen</string>
   <string name="see_backup_files_on_router">Sicherungen auf Mi Router %s anzeigen</string>
   <string name="see_less">Weniger anzeigen</string>
+  <string name="see_more">Mehr anzeigen</string>
   <string name="select_all">Alles auswählen</string>
   <string name="select_application">App auswählen</string>
+  <string name="select_automatically">Netzwerk automatisch wählen</string>
   <string name="select_backup_item">Elemente auswählen</string>
   <string name="select_device_admin_msg">Geräteadministratoren</string>
   <string name="select_empty">Zu importierende Elemente wählen</string>
@@ -5875,6 +5877,7 @@ Hinweis: Sie können Ihren Fingerabdruck nicht verwenden, um dieses Gerät zu en
   <string name="select_sim_card">SIM-Karte auswählen</string>
   <string name="select_sim_for_calls">Anrufen mit</string>
   <string name="select_sim_for_data">SIM für Daten auswählen</string>
+  <string name="select_sim_for_sms">SIM für SMS wählen</string>
   <string name="select_ssid_type_title">SSID auswählen</string>
   <string name="select_storage_location">Sicherungsort auswählen</string>
   <string name="select_time_format_category_title">Zeitformat</string>
@@ -5889,6 +5892,7 @@ Hinweis: Sie können Ihren Fingerabdruck nicht verwenden, um dieses Gerät zu en
   <string name="selinux_status_disabled">Deaktiviert</string>
   <string name="selinux_status_enforcing">Erzwingen</string>
   <string name="selinux_status_permissive">Großzügig</string>
+  <string name="sensors_off_quick_settings_title">Sensoren AUS</string>
   <string name="service_background_processes">%1$s frei</string>
   <string name="service_foreground_processes">%1$s belegt</string>
   <string name="service_manage">Einstellungen</string>
@@ -5920,6 +5924,7 @@ Hinweis: Sie können Ihren Fingerabdruck nicht verwenden, um dieses Gerät zu en
   <string name="settings_notify_need_backup">Sichern Sie Ihre Einstellungen in Xiaomi Cloud, um nach dem Telefonwechsel auf sie zugreifen zu können.</string>
   <string name="settings_notify_new_version">Ein Update ist verfügbar. Tippen Sie hier, um Details anzuzeigen.</string>
   <string name="settings_notify_phone_recycled">Ihre Telefonnummer wurde bereits wiederverwendet. Tippen Sie, um eine weitere Telefonnummer hinzuzufügen.</string>
+  <string name="settings_panel_title">Einstellungsbereich</string>
   <string name="settings_safetylegal_activity_loading">Laden…</string>
   <string name="settings_safetylegal_activity_title">Sicherheitsinformationen</string>
   <string name="settings_safetylegal_activity_unreachable">Keine Datenverbindung vorhanden. Um diese Informationen jetzt anzuzeigen, rufen Sie von einem mit dem Internet verbundenen Computer %s auf.</string>
@@ -5954,6 +5959,7 @@ Hinweis: Sie können Ihren Fingerabdruck nicht verwenden, um dieses Gerät zu en
   <string name="setup_wizard_next_button_label">Weiter</string>
   <string name="severe_threats_summary">Benachrichtigungen für Gefahren, die Leben und Eigentum gefährden</string>
   <string name="severe_threats_title">Starke Bedrohungen</string>
+  <string name="share">Teilen</string>
   <string name="share_remote_bugreport_action">Teilen</string>
   <string name="share_remote_bugreport_dialog_message">Ihr IT-Administrator hat einen Fehlerbericht angefordert, um die Problembehandlung bei diesem Gerät zu unterstützen. Apps und Daten können geteilt werden, die Ihr Gerät vorübergehend verlangsamen könnten.</string>
   <string name="share_remote_bugreport_dialog_message_finished">Ihr IT-Administrator hat einen Fehlerbericht angefordert, um die Problembehandlung bei diesem Gerät zu unterstützen. Apps und Daten können geteilt werden.</string>
@@ -5965,7 +5971,7 @@ Hinweis: Sie können Ihren Fingerabdruck nicht verwenden, um dieses Gerät zu en
   <string name="show_all_anrs_summary">Dialogfeld \"App antwortet nicht\" für Hintergrund-Apps anzeigen</string>
   <string name="show_all_apps">Vollständige Gerätenutzung anzeigen</string>
   <string name="show_background_processes">Prozesse im Cache anzeigen</string>
-  <string name="show_carrier_under_keyguard_title">Anbieter bei gesperrtem Gerät anzeigen</string>
+  <string name="show_carrier_under_keyguard_title">Netzbetreiber bei gesperrtem Gerät anzeigen</string>
   <string name="show_connected_devices_summary">Verbundene Geräte anzeigen</string>
   <string name="show_connected_devices_title">Verbundene Geräte</string>
   <string name="show_cpu_usage">CPU-Auslastung anzeigen</string>
@@ -6027,11 +6033,13 @@ Hinweis: Sie können Ihren Fingerabdruck nicht verwenden, um dieses Gerät zu en
   <string name="sim_cellular_data_unavailable">Mobile Daten sind nicht verfügbar</string>
   <string name="sim_cellular_data_unavailable_summary">Tippen, um eine Daten-SIM zu wählen</string>
   <string name="sim_change_data_message">%1$s anstelle von %2$s für mobile Daten verwenden?</string>
+  <string name="sim_change_data_ok">%1$s verwenden</string>
   <string name="sim_change_data_title">Daten-SIM ändern?</string>
   <string name="sim_change_failed">PIN kann nicht geändert werden. Eventuell falsche PIN.</string>
   <string name="sim_change_failed_enable_sim_lock">SIM-Sperre jetzt aktivieren</string>
   <string name="sim_change_pin">SIM-PIN</string>
   <string name="sim_change_succeeded">SIM-PIN erfolgreich geändert</string>
+  <string name="sim_combination_warning_notification_title">Problem mit SIM-Kombination</string>
   <string name="sim_disable_sim_lock">SIM-Karte entsperren</string>
   <string name="sim_editor_carrier">Mobilfunkbetreiber</string>
   <string name="sim_editor_color">SIM-Farbe</string>
@@ -6087,6 +6095,7 @@ Hinweis: Sie können Ihren Fingerabdruck nicht verwenden, um dieses Gerät zu en
   <string name="skip_anyway_button_label">Trotzdem überspringen</string>
   <string name="skip_label">Überspringen</string>
   <string name="skip_lock_screen_confirm_msg">Benachrichtigungen, Musiksteuerung und Verknüpfungen werden im Sperrbildschirm deaktiviert</string>
+  <string name="skip_lock_screen_dialog_button_label">Überspringen</string>
   <string name="skip_step">Überspringen</string>
   <string name="slider_app_open">App öffnen</string>
   <string name="slider_app_open_name">%1$s öffnen</string>
@@ -6130,11 +6139,14 @@ Hinweis: Sie können Ihren Fingerabdruck nicht verwenden, um dieses Gerät zu en
   <string name="smart_battery_manager_title">Akkumanager</string>
   <string name="smart_battery_summary">Akku für nicht oft genutzte Apps begrenzen</string>
   <string name="smart_battery_title">Apps automatisch verwalten</string>
+  <string name="smart_notifications_title">Adaptive Benachrichtigungen</string>
   <string name="smartcover_lock_or_unlock_screen_tittle">Bildschirm mit Smartcover sperren oder entsperren</string>
   <string name="smartcover_sensitive_summary">Telefon mit Smartcover einfach sperren oder entsperren</string>
-  <string name="smartcover_sensitive_title">Smartcovermodus</string>
+  <string name="smartcover_sensitive_title">Smartcover-Modus</string>
+  <string name="sms_access_restriction_enabled">Zugriff auf SMS- &amp; Anrufprotokolle einschränken</string>
+  <string name="sms_access_restriction_enabled_summary">Nur Standard-Telefon-/-Messaging-Apps haben SMS- &amp; Anrufprotokollberechtigungen</string>
   <string name="sms_application_title">Nachrichten</string>
-  <string name="sms_change_default_dialog_text">Verwende %1$s anstelle von %2$s als Ihre SMS-App?</string>
+  <string name="sms_change_default_dialog_text">%1$s anstelle von %2$s als Ihre SMS-App verwenden?</string>
   <string name="sms_change_default_dialog_title">SMS-App wechseln?</string>
   <string name="sms_change_default_no_previous_dialog_text">%s als SMS-App verwenden?</string>
   <string name="sms_delivered_sound_dialog_title">Ton für gesendete SMS auswählen</string>
@@ -6142,10 +6154,13 @@ Hinweis: Sie können Ihren Fingerabdruck nicht verwenden, um dieses Gerät zu en
   <string name="sms_messages_title">SMS-Nachrichten</string>
   <string name="sms_over_ims_off">SMS über IMS ausschalten</string>
   <string name="sms_over_ims_on">SMS über IMS einschalten</string>
+  <string name="sms_preference">SMS-Einstellung</string>
   <string name="sms_received_sound_dialog_title">Ton für empfangene SMS auswählen</string>
   <string name="sms_received_sound_title">Nachricht empfangen</string>
   <string name="sms_title">Nachrichten</string>
+  <string name="snooze_options_title">Benachrichtigung beim Schlummern zulassen</string>
   <string name="software_backup_info">App-Daten</string>
+  <string name="software_version">Software-Version</string>
   <string name="sometimes_running">Läuft manchmal (%s)</string>
   <string name="sort_avg_use">Nach durchschnittl. Verwendung sortieren</string>
   <string name="sort_max_use">Nach max. Verwendung sortieren</string>
@@ -6156,7 +6171,7 @@ Hinweis: Sie können Ihren Fingerabdruck nicht verwenden, um dieses Gerät zu en
   <string name="sos_privacy_and_content_policy">Nutzervereinbarung &amp; Datenschutzerklärung</string>
   <string name="sos_privacy_dialog_button_cancel">Abbrechen</string>
   <string name="sos_privacy_dialog_button_ok">Zustimmen</string>
-  <string name="sos_privacy_dialog_message">"Lesen Sie unsere %s und stimmen ihnen zu, bevor Sie diese Funktion nutzen.
+  <string name="sos_privacy_dialog_message">"Lesen und akzeptieren Sie unsere %s, bevor Sie diese Funktion nutzen.
 Diese Funktion benötigt Berechtigungen, um auf Ihren Standort zuzugreifen, mobile Netzwerke zu nutzen und Ihre Kontakte zu lesen. Zustimmen?"</string>
   <string name="sos_privacy_dialog_title">AGB</string>
   <string name="sound_category_call_ringtone_vibrate_title">Klingel- &amp; Benachrichtigungston</string>
@@ -6176,6 +6191,7 @@ Diese Funktion benötigt Berechtigungen, um auf Ihren Standort zuzugreifen, mobi
   <string name="sound_work_settings">Ton Arbeitsprofil</string>
   <string name="speaker">Lautsprecher</string>
   <string name="special_access">Spezieller Zugang</string>
+  <string name="special_access_more">Mehr anzeigen</string>
   <string name="speed_label_fast">Schnell</string>
   <string name="speed_label_medium">Mittel</string>
   <string name="speed_label_slow">Langsam</string>
@@ -6187,6 +6203,7 @@ Diese Funktion benötigt Berechtigungen, um auf Ihren Standort zuzugreifen, mobi
   <string name="spellchecker_quick_settings">Einstellungen</string>
   <string name="spellchecker_security_warning">Diese Rechtschreibprüfung kann den gesamten von Ihnen eingegebenen Text erfassen, einschl. personenbezogener Daten wie Passwörter und Kreditkartennummern. Sie ist Teil der App \"%1$s\". Möchten Sie die Rechtschreibprüfung verwenden?</string>
   <string name="spellchecker_switch_title">Rechtschreibprüfung aktivieren</string>
+  <string name="spellcheckers_settings_for_work_title">Rechtschreibprüfung für die Arbeit</string>
   <string name="spellcheckers_settings_title">Rechtschreibprüfung</string>
   <string name="split_screen">Geteilten Bildschirm öffnen</string>
   <string name="ssl_ca_cert_dialog_title">Netzwerküberwachung</string>
@@ -6230,7 +6247,7 @@ Dies wird durch vertrauenswürdige Anmeldedaten ermöglicht, die auf Ihrem Gerä
   <string name="status_bar_settings_all_app_display_loading">Einen Moment…</string>
   <string name="status_bar_settings_app_notification_preferences">App-Einstellungen</string>
   <string name="status_bar_settings_basic_settings">Grundeinstellungen</string>
-  <string name="status_bar_settings_custom_carrier">Anbieternamen bearbeiten</string>
+  <string name="status_bar_settings_custom_carrier">Netzbetreibernamen bearbeiten</string>
   <string name="status_bar_settings_custom_wifi_name">WLAN-Name bearbeiten</string>
   <string name="status_bar_settings_enable_notification">Benachrichtigungen erlauben</string>
   <string name="status_bar_settings_expand_top_notification">Obere Benachrichtigung erweitern</string>
@@ -6251,9 +6268,9 @@ Dies wird durch vertrauenswürdige Anmeldedaten ermöglicht, die auf Ihrem Gerä
   <string name="status_bar_settings_notification_use_app_icon">App-Symbole für Benachrichtigungen verwenden</string>
   <string name="status_bar_settings_peek_notification_icon">Symbole für eingehende Benachrichtigungen anzeigen</string>
   <string name="status_bar_settings_qs_layout">Layout Schnelleinstellungen</string>
-  <string name="status_bar_settings_show_carrier">Anbieternamen anzeigen</string>
-  <string name="status_bar_settings_show_carrier_summary">Anbietername wird weiterhin auf dem Sperrbildschirm und in der Benachrichtigungsleiste angezeigt, wenn diese Funktion deaktiviert ist</string>
-  <string name="status_bar_settings_show_carrier_under_keyguard">Anbieter anzeigen, wenn das Gerät gesperrt ist</string>
+  <string name="status_bar_settings_show_carrier">Netzbetreibernamen anzeigen</string>
+  <string name="status_bar_settings_show_carrier_summary">Netzbetreibername wird weiterhin auf dem Sperrbildschirm und in der Benachrichtigungsleiste angezeigt, wenn diese Funktion deaktiviert ist</string>
+  <string name="status_bar_settings_show_carrier_under_keyguard">Netzbetreiber anzeigen, wenn das Gerät gesperrt ist</string>
   <string name="status_bar_settings_show_floating_notification">Popups</string>
   <string name="status_bar_settings_show_floating_notification_summary">Wichtige Benachrichtigungen am oberen Bildschirmrand zulassen</string>
   <string name="status_bar_settings_show_flow_info">Datenverbrauch anzeigen</string>
@@ -6373,6 +6390,7 @@ Alle Apps auf ^1 werden deinstalliert und deren Daten werden gelöscht. Um diese
   <string name="storage_photos_videos">Fotos &amp; Videos</string>
   <string name="storage_rename_title">Speicher umbenennen</string>
   <string name="storage_settings">Speicher</string>
+  <string name="storage_settings_for_app">Speicher &amp; Cache</string>
   <string name="storage_settings_summary">USB-Speicher trennen, verfügbaren Speicher anzeigen</string>
   <string name="storage_settings_title">Speichereinstellungen</string>
   <string name="storage_size_large">^1<small><small> ^2</small></small></string>
@@ -6482,8 +6500,15 @@ Auf ^2 gespeicherte Apps könnten nicht richtig funktionieren, und Datenübertra
   <string name="structure_face_enroll_not_able_low_electric_itle">Funktion kann nicht verwendet werden, da der Akkustand niedrig ist</string>
   <string name="structure_face_enroll_not_able_low_electric_msg">Akku muss mindestens 5% geladen sein, um mit der Aufnahme beginnen zu können.</string>
   <string name="structure_manage_facerecoginition_text">3D-Gesichtsdaten verwalten</string>
+  <string name="style_and_wallpaper_settings_title">Stile &amp; Hintergrundbilder</string>
+  <string name="style_suggestion_summary">Verschiedene Stile, Hintergrundbilder, Uhren und mehr ausprobieren</string>
+  <string name="style_suggestion_title">Gestalten Sie Ihr Pixel</string>
+  <string name="subscription_available">Verfügbar</string>
   <string name="succ_description">Erfolgreich</string>
   <string name="succeed">Abgeschlossen</string>
+  <string name="sud_back_button_label">Zurück</string>
+  <string name="sud_more_button_label">Mehr</string>
+  <string name="sud_next_button_label">Weiter</string>
   <string name="suggest_unrestrict_max_aspect_ratio_title">Diese Apps funktionieren besser im Vollbildmodus</string>
   <string name="suggested_fingerprint_lock_settings_summary">Entsperren Sie mit Ihrem Fingerabdruck</string>
   <string name="suggested_fingerprint_lock_settings_title">Fingerabdruck verwenden</string>
@@ -6542,6 +6567,9 @@ Auf ^2 gespeicherte Apps könnten nicht richtig funktionieren, und Datenübertra
   <string name="suw_back_button_label">Zurück</string>
   <string name="suw_more_button_label">Mehr</string>
   <string name="suw_next_button_label">Weiter</string>
+  <string name="swipe_direction_ltr">Zum Verwerfen nach rechts wischen, zum Anzeigen des Menüs nach links</string>
+  <string name="swipe_direction_rtl">Zum Verwerfen nach links wischen, zum Anzeigen des Menüs nach rechts</string>
+  <string name="swipe_direction_title">Wischaktionen</string>
   <string name="swipe_up_to_switch_apps_suggestion_summary">Neue Geste einschalten, um Apps zu wechseln</string>
   <string name="swipe_up_to_switch_apps_suggestion_title">Neue Home-Taste testen</string>
   <string name="swipe_up_to_switch_apps_summary">Um Apps zu wechseln, auf der Home-Taste nach oben wischen. Nochmals hochwischen, um alle Apps anzuzeigen. Funktioniert auf allen Bildschirmen. Eine Übersichtstaste rechts unten auf dem Bildschirm fehlt dann.</string>
@@ -6586,6 +6614,7 @@ Ein Google-Ansatz zur Synchronisation von Daten, um den Zugriff auf Ihre Kontakt
   <string name="system_dashboard_summary">Sprachen, Zeit, Sicherung, Updates</string>
   <string name="system_default_app">(Systemstandard)</string>
   <string name="system_haptic_feedback">Haptik-Feedback</string>
+  <string name="system_navigation_title">Systemnavigation</string>
   <string name="system_package">Systemupdates können nicht auf externen Datenträgern installiert werden</string>
   <string name="system_print_service_help">Über Drucken</string>
   <string name="system_shortcut_wake">Aufwecken mit Tastenkombinationen</string>
@@ -6598,6 +6627,7 @@ Ein Google-Ansatz zur Synchronisation von Daten, um den Zugriff auf Ihre Kontakt
   <string name="take_call_on_title">Anruf annehmen</string>
   <string name="talkback_summary">Screenreader in erster Linie für Blinde und Menschen mit eingeschränkten Sehvermögen</string>
   <string name="talkback_watermark_enable">TalkBack Wassrzeichen</string>
+  <string name="tap_to_sign_up">Tippen zum Anmelden</string>
   <string name="tap_to_wake">Tippen zum Aufwecken</string>
   <string name="tap_to_wake_summary">2x tippen, um das Gerät aufzuwecken</string>
   <string name="task_backup_cancel_progress">Anhalten…</string>
@@ -6680,9 +6710,14 @@ Sie können Ihr Androidtelefon in einen mobilen WLAN-Hotspot verwandeln, um die 
   <string name="tethering_settings_not_available">Tethering-Einstellungen sind für diesen Benutzer nicht verfügbar</string>
   <string name="tethering_settings_summary">Mobile Datenverbindung des Geräts über USB oder mobile Hotspots teilen</string>
   <string name="the_way_of_wakeup_voice_assistant_summary">Aufwecken des Sprachassistenten im Vollbildmodus (keine virtuellen Tasten)</string>
+  <string name="theme_customization_accent_color_title">Akzentfarbe</string>
+  <string name="theme_customization_device_default">Gerätestandard</string>
+  <string name="theme_customization_font_title">Überschrift / Standardschriftart</string>
+  <string name="theme_customization_icon_shape_title">Symbolform</string>
   <string name="theme_settings_title">Themen</string>
   <string name="thememanager_not_found">Themen können nicht geöffnet werden. Stellen Sie sicher, dass die App installiert ist.</string>
   <string name="three_gesture_down">3 Finger nach unten ziehen</string>
+  <string name="time_format_category_title">Zeitformat</string>
   <string name="time_picker_title">Uhrzeit</string>
   <string name="time_spent_in_app_pref_title">Mit der App verbrachte Zeit</string>
   <string name="time_unit_just_now">Gerade eben</string>
@@ -6762,7 +6797,7 @@ Sie können Ihr Androidtelefon in einen mobilen WLAN-Hotspot verwandeln, um die 
   <string name="trans_detail_category_account">Konten und Kontakte</string>
   <string name="trans_detail_category_audio_video_doc">Audio, Video und Dateien</string>
   <string name="trans_detail_category_files">Dateien</string>
-  <string name="trans_detail_category_sysdata">Systemdaten (einschließlich Nachrichten, Kontakte und Anrufliste)</string>
+  <string name="trans_detail_category_sysdata">Systemdaten (einschl. Nachrichten, Kontakte und Anrufliste)</string>
   <string name="trans_detail_category_user_app_data">App-Daten</string>
   <string name="trans_detail_category_wechat_qq">WeChat- und QQ-Daten (inkl. Chatverlauf)</string>
   <string name="trans_detail_item_app_data_selected_tip">Ausgewählte entsprechende Apps ebenso</string>
@@ -6907,6 +6942,10 @@ Gefällt Ihnen Mi Mover?"</string>
   <string name="translation_contributors_title">Mitwirkende</string>
   <string name="trigger_carrier_provisioning">Carrier Provisioning auslösen</string>
   <string name="trust_agent_disabled_device_admin">Vom Administrator deaktiviert</string>
+  <string name="trust_agents_extend_unlock_summary">Wenn aktiviert, halten Trust Agents Ihr Gerät länger entsperrt, können aber ein gesperrtes Gerät nicht mehr entsperren.</string>
+  <string name="trust_agents_extend_unlock_title">Trust Agents verlängern nur die Entsperrung</string>
+  <string name="trust_lost_locks_screen_summary">Wenn aktiviert, wird das Gerät gesperrt, wenn der letzte Trust Agent das Vertrauen verliert.</string>
+  <string name="trust_lost_locks_screen_title">Bildschirm sperren, wenn das Vertrauen verloren geht</string>
   <string name="trusted_credentials">Vertrauenswürdige Anmeldedaten</string>
   <string name="trusted_credentials_disable_confirmation">System-CA-Zertifikat deaktivieren?</string>
   <string name="trusted_credentials_disable_label">Ausschalten</string>
@@ -6938,7 +6977,7 @@ Gefällt Ihnen Mi Mover?"</string>
   <string name="tts_engine_preference_section_title">Bevorzugtes Modul</string>
   <string name="tts_engine_preference_title">Bevorzugtes Modul</string>
   <string name="tts_engine_section_title">Modul</string>
-  <string name="tts_engine_security_warning">Dieses Sprachsynthesemodul kann in der Lage sein, alle gesprochenen Texte zu sammeln, einschließlich persönlicher Daten wie Passwörter und Kreditkartennummern. Es kommt vom %s-Modul. Die Verwendung dieses Sprachsynthesemoduls aktivieren?</string>
+  <string name="tts_engine_security_warning">Dieses Sprachsynthesemodul kann in der Lage sein, alle gesprochenen Texte zu sammeln, einschl. persönlicher Daten wie Passwörter und Kreditkartennummern. Es kommt vom %s-Modul. Verwendung dieses Sprachsynthesemoduls aktivieren?</string>
   <string name="tts_engine_settings_button">Moduleinstellungen starten</string>
   <string name="tts_engine_settings_section">Moduleinstellungen</string>
   <string name="tts_engine_settings_title">Moduleinstellungen</string>
@@ -6949,7 +6988,7 @@ Gefällt Ihnen Mi Mover?"</string>
   <string name="tts_install_voice_title">Sprachen</string>
   <string name="tts_install_voices_cancel">Abbrechen</string>
   <string name="tts_install_voices_open">App öffnen</string>
-  <string name="tts_install_voices_text">Fortfahren mit der %s-App, um Sprachen zu installieren</string>
+  <string name="tts_install_voices_text">Mit der %s-App fortfahren, um Sprachen zu installieren</string>
   <string name="tts_install_voices_title">Sprachen installieren</string>
   <string name="tts_lang_not_selected">Sprache nicht ausgwählt</string>
   <string name="tts_lang_use_system">Systemsprache nutzen</string>
@@ -6997,6 +7036,8 @@ Gefällt Ihnen Mi Mover?"</string>
   <string name="turn_on_wifi_dialog_title">WLAN einschalten</string>
   <string name="turn_update_keyguard_password_wait_dialog">Passwort ändern…</string>
   <string name="twohours">1 Stunde</string>
+  <string name="tx_link_speed_label">Übertragungsgeschwindigkeit:</string>
+  <string name="tx_wifi_speed">Übertragungsgeschwindigkeit</string>
   <string name="under_keyguard">Bildschirm aus</string>
   <string name="unimportant">Unwichtig</string>
   <string name="uninstall_all_users_text">Für alle Benutzer entfernen</string>
@@ -7048,6 +7089,10 @@ Ihre gespeicherten Fingerabdrücke werden auch aus diesem Profil entfernt und Si
   <string name="unlock_disable_frp_warning_title_profile">Profilschutz entfernen?</string>
   <string name="unlock_disable_lock_pin_summary">PIN entfernen</string>
   <string name="unlock_disable_lock_title">Bildschirmsperre ausschalten</string>
+  <string name="unlock_footer_high_complexity_requested">%1$s empfiehlt eine starke PIN oder ein starkes Passwort und funktioniert ohne evtl. nicht wie erwartet</string>
+  <string name="unlock_footer_low_complexity_requested">%1$s empfiehlt ein neues Muster, eine neue PIN oder ein neues Passwort und funktioniert ohne evtl. nicht wie erwartet</string>
+  <string name="unlock_footer_medium_complexity_requested">%1$s empfiehlt eine neue PIN oder ein neues Passwort und funktioniert ohne evtl. nicht wie erwartet</string>
+  <string name="unlock_footer_none_complexity_requested">%1$s empfiehlt eine neue Bildschirmsperre</string>
   <string name="unlock_mode_title">Bildschirmsperre</string>
   <string name="unlock_set_do_later_title">Nicht jetzt</string>
   <string name="unlock_set_enter_system">Bildschirmsperre überspringen</string>
@@ -7323,6 +7368,7 @@ Jeder Benutzer kann aktualisierte App-Berechtigungen für alle anderen Benutzer 
   <string name="user_dict_settings_context_menu_edit_title">Bearbeiten</string>
   <string name="user_dict_settings_edit_dialog_title">Wort bearbeiten</string>
   <string name="user_dict_settings_empty_text">Keine Wörterbücher vorhanden. Durch Antippen von \"+\" Wörter hinzufügen.</string>
+  <string name="user_dict_settings_for_work_title">Persönliches Wörterbuch für die Arbeit</string>
   <string name="user_dict_settings_more_languages">Weitere Sprachen…</string>
   <string name="user_dict_settings_title">Persönliches Wörterbuch</string>
   <string name="user_enable_calling">Anrufe erlauben</string>
@@ -7348,7 +7394,7 @@ Jeder Benutzer kann aktualisierte App-Berechtigungen für alle anderen Benutzer 
   <string name="user_lockscreen_settings">Sperrbildschirmeinstellungen</string>
   <string name="user_name">Apple ID oder E-Mail</string>
   <string name="user_name_null">Benutzername kann nicht leer sein</string>
-  <string name="user_need_lock_message">Vor dem Erstellen eines eingeschränkten Profils müssen Sie eine Displaysperre einrichten, um Ihre Apps und personenbezogenen Daten zu schützen</string>
+  <string name="user_need_lock_message">Vor dem Erstellen eines eingeschränkten Profils müssen Sie eine Displaysperre einrichten, um Ihre Apps und persönlichen Daten zu schützen</string>
   <string name="user_new_profile_name">Neues Profil</string>
   <string name="user_new_user_name">Neuer Benutzer</string>
   <string name="user_nickname">Spitzname</string>
@@ -7365,6 +7411,7 @@ Jeder Benutzer kann aktualisierte App-Berechtigungen für alle anderen Benutzer 
   <string name="user_restrictions_controlled_by">Von %1$s festgelegt</string>
   <string name="user_restrictions_title">Beschränkungen für Apps und Inhalte</string>
   <string name="user_set_lock_button">Sperre einrichten</string>
+  <string name="user_settings_footer_text">Teilen Sie Ihr Telefon durch Hinzufügen neuer Benutzer. Jeder Benutzer hat auf Ihrem Telefon einen persönlichen Bereich für eigene Startbildschirme, Konten, Apps, Einstellungen und mehr.</string>
   <string name="user_settings_forbidden">Admineinstellungen können im aktuellen Profil nicht geändert werden. Wechseln Sie ins Hauptprofil.</string>
   <string name="user_settings_title">Benutzer</string>
   <string name="user_setup_button_setup_later">Nicht jetzt</string>
@@ -7394,9 +7441,11 @@ Jeder Benutzer kann aktualisierte App-Berechtigungen für alle anderen Benutzer 
   <string name="vibrate_on_touch_title">Bei Berührung vibrieren</string>
   <string name="vibrate_title">Vibrieren</string>
   <string name="vibrate_when_ringing_title">Beim Klingeln vibrieren</string>
+  <string name="video_calling_settings_title">Netzbetreiber-Videoanrufe</string>
   <string name="view_password_description">Passwort anzeigen</string>
   <string name="vip_list">Eingehende Anrufe erlauben</string>
   <string name="virtual_keyboard_category">Virtuelle Tastatur</string>
+  <string name="virtual_keyboards_for_work_title">Virtuelle Tastatur für die Arbeit</string>
   <string name="virtual_sim_category_title">Virtuelle SIM</string>
   <string name="virtual_sim_description">Zuverlässiger internationaler Roamingdienst</string>
   <string name="virtual_sim_global_description">Es ist keine SIM-Karte erforderlich, um sich mit einem mobilen Netzwerk zu verbinden</string>
@@ -7601,6 +7650,17 @@ Jeder Benutzer kann aktualisierte App-Berechtigungen für alle anderen Benutzer 
   <string name="weight_light">Dünn</string>
   <string name="weight_setting_toast">Sie können die Schriftstärke nur für die Standardschriftart des Systems ändern</string>
   <string name="welcome">Willkommen</string>
+  <string name="wfc_disclaimer_agree_button_text">FORTFAHREN</string>
+  <string name="wfc_disclaimer_disagree_text">NEIN DANKE</string>
+  <string name="wfc_disclaimer_emergency_limitation_desc_text">"Notrufe über WLAN-Anrufe werden von Ihrem Netzbetreiber nicht unterstützt.
+Das Gerät schaltet automatisch auf ein Mobilfunknetz um, um einen Notruf zu tätigen.
+Notrufe sind nur in Gebieten mit Mobilfunkabdeckung möglich."</string>
+  <string name="wfc_disclaimer_emergency_limitation_title_text">Notrufe</string>
+  <string name="wfc_disclaimer_location_desc_text">"Ihr Dienstanbieter kann Ihren Standort erfassen, um diesen Service zu erbringen.
+
+Bitte lesen Sie die Datenschutzerklärung Ihres Dienstanbieters."</string>
+  <string name="wfc_disclaimer_location_title_text">Standort</string>
+  <string name="wfc_disclaimer_title_text">Wichtige Info</string>
   <string name="wfc_provisioned_switch_string">WLAN-Telefonie bereitgestellt</string>
   <string name="wfd_available_devices">Verfügbare Geräte</string>
   <string name="wfd_disconnect_diag_msg">Wenn Sie die WLAN-Bildschirmsitzung beenden, wird die Verbindung mit %1$s getrennt</string>
@@ -7640,6 +7700,8 @@ Jeder Benutzer kann aktualisierte App-Berechtigungen für alle anderen Benutzer 
   <string name="wifi_ap_band_config">AP-Band auswählen</string>
   <string name="wifi_ap_band_select_one">Mind. ein Band für WLAN-Hotspot wählen:</string>
   <string name="wifi_ap_choose_dual">Beide</string>
+  <string name="wifi_ap_choose_vendor_both">Beide</string>
+  <string name="wifi_ap_prefer_5G">5.0 GHz Band bevorzugt</string>
   <string name="wifi_ap_unable_to_handle_new_sta">Zugangspunkt zeitweise voll</string>
   <string name="wifi_ask_disable">%s will WLAN ausschalten</string>
   <string name="wifi_ask_enable">%s will WLAN anschalten</string>
@@ -7683,22 +7745,26 @@ Jeder Benutzer kann aktualisierte App-Berechtigungen für alle anderen Benutzer 
   <string name="wifi_automatically_manage_title">WLAN automatisch verwalten</string>
   <string name="wifi_available_title">Verbinden mit WLAN</string>
   <string name="wifi_avoid_poor_network_detection_summary">Nutzen Sie nur Netzwerke, die eine gute Internetverbindung haben</string>
+  <string name="wifi_calling_mode_cellular_preferred_summary">Wenn das Mobilfunknetz nicht verfügbar ist, verwenden Sie WLAN.</string>
   <string name="wifi_calling_mode_dialog_title">WLAN-Anrufmodus</string>
   <string name="wifi_calling_mode_title">Anrufeinstellungen</string>
+  <string name="wifi_calling_mode_wifi_only_summary">Anruf über WLAN. Wenn WLAN verloren geht, wird der Anruf beendet.</string>
+  <string name="wifi_calling_mode_wifi_preferred_summary">Wenn WLAN nicht verfügbar ist, verwenden Sie das Mobilfunknetz.</string>
   <string name="wifi_calling_not_supported">WLAN-Anrufe werden für %1$s nicht unterstützt</string>
   <string name="wifi_calling_off_explanation">Wenn WLAN-Anrufe aktiviert sind, kann Ihr Gerät Anrufe über das WLAN oder übers Mobilfunknetz leiten, abhängig von der Signalstärke und Ihren Einstellungen. Bevor Sie diese Funktion nutzen, erkundigen Sie sich nach etwaigen Gebühren und anderen Details.</string>
-  <string name="wifi_calling_pref_managed_by_carrier">Einstellung vom Anbieter verwaltet</string>
+  <string name="wifi_calling_pref_managed_by_carrier">Einstellung vom Netzbetreiber verwaltet</string>
   <string name="wifi_calling_roaming_mode_dialog_title">Roaming-Präferenz</string>
   <string name="wifi_calling_roaming_mode_title">Roaming-Präferenz</string>
   <string name="wifi_calling_settings_activation_instructions">WLAN-Anrufe aktivieren</string>
   <string name="wifi_calling_settings_title">WLAN-Anrufe</string>
   <string name="wifi_calling_suggestion_summary">WLAN statt Mobilfunknetz verwenden</string>
   <string name="wifi_calling_suggestion_title">WLAN-Anrufe einschalten</string>
+  <string name="wifi_calling_summary">WLAN für Anrufe verwenden, um die Qualität zu verbessern</string>
   <string name="wifi_calling_turn_on">WLAN-Anrufe einschalten</string>
   <string name="wifi_cancel">Abbrechen</string>
   <string name="wifi_cant_connect">Verbindung nicht möglich</string>
   <string name="wifi_cant_connect_to_ap">"Verbindung mit '%1$s' nicht möglich"</string>
-  <string name="wifi_carrier_connect">Anbieter WLAN</string>
+  <string name="wifi_carrier_connect">Netzbetreiber-WLAN</string>
   <string name="wifi_carrier_content">Verbunden via %1$s</string>
   <string name="wifi_cellular_data_fallback_summary">Mobile Daten verwenden, wenn WLAN keinen Internetzugang hat. Datennutzung darf verwendet werden.</string>
   <string name="wifi_cellular_data_fallback_title">Automatisches Umschalten auf mobile Daten</string>
@@ -7721,6 +7787,7 @@ Jeder Benutzer kann aktualisierte App-Berechtigungen für alle anderen Benutzer 
   <string name="wifi_connected_mac_randomization">MAC-Randomisierung verbunden</string>
   <string name="wifi_connected_mac_randomization_summary">Zufällige MAC-Adresse bei der Verbindung zu WLAN</string>
   <string name="wifi_connected_no_internet">Verbunden, kein Internet</string>
+  <string name="wifi_connecting">Verbinden…</string>
   <string name="wifi_connection_management">WLAN-Verbindungen verwalten</string>
   <string name="wifi_context_menu_change_password">Passwort ändern</string>
   <string name="wifi_context_menu_change_wapi_certificate">WAPI-Zertifikate ändern</string>
@@ -7741,6 +7808,8 @@ Jeder Benutzer kann aktualisierte App-Berechtigungen für alle anderen Benutzer 
   <string name="wifi_disabled_network_failure">IP-Konfigurationsfehler</string>
   <string name="wifi_disabled_password_failure">Authentifizierungsproblem</string>
   <string name="wifi_disabled_wifi_failure">WLAN-Verbindungsfehler</string>
+  <string name="wifi_disconnect_button_text">Trennen</string>
+  <string name="wifi_disconnected">Getrennt</string>
   <string name="wifi_disconnected_notification_summary">Sie sind nicht länger mit WLAN verbunden</string>
   <string name="wifi_disconnected_notification_title">WLAN getrennt</string>
   <string name="wifi_display_autonomous_go">Autonomes GO aktivieren</string>
@@ -7769,6 +7838,37 @@ Jeder Benutzer kann aktualisierte App-Berechtigungen für alle anderen Benutzer 
   <string name="wifi_do_not_validate_eap_server">Nicht bestätigt</string>
   <string name="wifi_do_not_validate_eap_server_warning">Kein Zertifikat angegeben. Es wird keine private Verbindung hergestellt.</string>
   <string name="wifi_dont_skip">Nicht überspringen</string>
+  <string name="wifi_dpp_add_another_device">Weiteres Gerät hinzufügen</string>
+  <string name="wifi_dpp_add_device">Gerät hinzufügen</string>
+  <string name="wifi_dpp_add_device_to_network">Gerät hinzufügen</string>
+  <string name="wifi_dpp_add_device_to_wifi">Dieses Gerät zu \"%1$s\" hinzufügen?</string>
+  <string name="wifi_dpp_center_qr_code">QR-Code unten zentrieren, um das Gerät zu \"%1$s\" hinzuzufügen</string>
+  <string name="wifi_dpp_check_connection_try_again">Verbindung prüfen und erneut versuchen</string>
+  <string name="wifi_dpp_choose_different_network">Anderes Netzwerk wählen</string>
+  <string name="wifi_dpp_choose_network">Netzwerk wählen</string>
+  <string name="wifi_dpp_choose_network_to_connect_device">Um Ihr Gerät zu verbinden, wählen Sie ein Netzwerk</string>
+  <string name="wifi_dpp_connect_network_using_qr_code">Verwenden Sie einen QR-Code, um ein Gerät zu diesem Netzwerk hinzuzufügen</string>
+  <string name="wifi_dpp_connecting">Verbinden…</string>
+  <string name="wifi_dpp_could_not_add_device">Gerät hinzufügen nicht möglich</string>
+  <string name="wifi_dpp_could_not_detect_valid_qr_code">QR-Code wurde nicht erkannt. Code neu zentrieren und erneut versuchen.</string>
+  <string name="wifi_dpp_device_found">Gerät gefunden</string>
+  <string name="wifi_dpp_failure_authentication_or_configuration">Erneut versuchen. Wenn das Problem weiterhin besteht, wenden Sie sich an den Gerätehersteller.</string>
+  <string name="wifi_dpp_failure_generic">Gerät muss angeschlossen, aufgeladen und eingeschaltet sein. Wenn das Problem weiterhin besteht, wenden Sie sich an den Gerätehersteller.</string>
+  <string name="wifi_dpp_failure_not_compatible">Etwas ist schief gelaufen</string>
+  <string name="wifi_dpp_failure_not_supported">Hinzufügen von \"%1$s\" wird von diesem Gerät nicht unterstützt</string>
+  <string name="wifi_dpp_failure_timeout">Gerät muss angeschlossen, aufgeladen und eingeschaltet sein</string>
+  <string name="wifi_dpp_hotspot_password">Hotspot-Passwort: %1$s</string>
+  <string name="wifi_dpp_lockscreen_title">Bestätigen Sie, dass Sie es sind</string>
+  <string name="wifi_dpp_scan_open_network_qr_code_with_another_device">Diesen QR-Code scannen, um eine Verbindung zu \"%1$s\" herzustellen</string>
+  <string name="wifi_dpp_scan_qr_code">QR-Code scannen</string>
+  <string name="wifi_dpp_scan_qr_code_join_network">QR-Code unten zentrieren, um eine Verbindung zu \"%1$s\" herzustellen</string>
+  <string name="wifi_dpp_scan_qr_code_join_unknown_network">WLAN verbinden durch Scannen eines QR-Codes</string>
+  <string name="wifi_dpp_scan_qr_code_with_another_device">QR-Code scannen, um eine Verbindung zu \"%1$s\" herzustellen und das Passwort zu teilen</string>
+  <string name="wifi_dpp_share_hotspot">Hotspot teilen</string>
+  <string name="wifi_dpp_share_wifi">WLAN teilen</string>
+  <string name="wifi_dpp_sharing_wifi_with_this_device">WLAN mit diesem Gerät teilen…</string>
+  <string name="wifi_dpp_wifi_password">WLAN-Passwort: %1$s</string>
+  <string name="wifi_dpp_wifi_shared_with_device">WLAN mit Gerät geteilt</string>
   <string name="wifi_eap_anonymous">Anonyme Identität</string>
   <string name="wifi_eap_ca_cert">CA-Zertifikat</string>
   <string name="wifi_eap_identity">Identität</string>
@@ -7836,6 +7936,7 @@ Das Netzwerk als versteckt einzustellen, wird Ihre Routereinstellungen nicht än
   <string name="wifi_ip_settings_menu_cancel">Abbrechen</string>
   <string name="wifi_ip_settings_menu_save">Speichern</string>
   <string name="wifi_limit_optimizations_summary">Akkuverbrauch durch WLAN einschränken</string>
+  <string name="wifi_limited_connection">Eingeschränkte Verbindung</string>
   <string name="wifi_link_turbo">Nutzung mobiler Daten zur Geschwindigkeitsteigerung</string>
   <string name="wifi_link_turbo_app_settings_summary">Apps auswählen, die diese Funktion verwenden sollen</string>
   <string name="wifi_link_turbo_app_settings_title">Apps auswählen</string>
@@ -7857,6 +7958,7 @@ Das Netzwerk als versteckt einzustellen, wird Ihre Routereinstellungen nicht än
   <string name="wifi_menu_wps_pin">WPS-PIN-Eingabe</string>
   <string name="wifi_menu_write_to_nfc">An NFC-Tag schreiben</string>
   <string name="wifi_metered_label">Gemessen</string>
+  <string name="wifi_metered_title">Netzwerknutzung</string>
   <string name="wifi_modify">Ändern</string>
   <string name="wifi_more">Mehr</string>
   <string name="wifi_multiple_cert_added">(Mehrere Zertifikate hinzugefügt)</string>
@@ -7866,6 +7968,7 @@ Das Netzwerk als versteckt einzustellen, wird Ihre Routereinstellungen nicht än
   <string name="wifi_no_internet">Keine Internetverbindung</string>
   <string name="wifi_no_internet_no_reconnect">Keine automatische Verbindung</string>
   <string name="wifi_not_in_range">Nicht in Reichweite</string>
+  <string name="wifi_not_in_range_message">Netzwerk nicht in Reichweite</string>
   <string name="wifi_notify_cmcc_connected_summary">Benachrichtigung anzeigen, wenn mit CMCC-Netzwerk verbunden</string>
   <string name="wifi_notify_cmcc_connected_title">CMCC-Netzwerkbenachrichtigung</string>
   <string name="wifi_notify_open_networks">Netzwerkhinweis</string>
@@ -7903,6 +8006,8 @@ Das Netzwerk als versteckt einzustellen, wird Ihre Routereinstellungen nicht än
   <string name="wifi_priority_settings_title">AP-Prioritätseinstellungen</string>
   <string name="wifi_priority_type_summary">Priorität für jeden AP manuell einstellen</string>
   <string name="wifi_priority_type_title">AP-Priorität manuell einstellen</string>
+  <string name="wifi_privacy_settings">Datenschutz</string>
+  <string name="wifi_privacy_settings_ephemeral_summary">Zufällige MAC</string>
   <string name="wifi_property">WLAN-Eigenschaften</string>
   <string name="wifi_protection_on">Ein</string>
   <string name="wifi_protection_settings_title">Schutz vor WLAN-Sondierungsanfragen</string>
@@ -7920,6 +8025,9 @@ Das Netzwerk als versteckt einzustellen, wird Ihre Routereinstellungen nicht än
   <string name="wifi_scan_always_available_title">Scannen immer erlauben</string>
   <string name="wifi_scan_always_confirm_allow">Erlauben</string>
   <string name="wifi_scan_always_confirm_deny">Verweigern</string>
+  <string name="wifi_scan_always_turn_on_message_unknown">"Zur Verbesserung der Standortgenauigkeit und für andere Zwecke möchte eine unbekannte App Netzwerk-Scannen einschalten, auch wenn WLAN ausgeschaltet ist.
+
+Für alle Apps, die scannen möchten, erlauben?"</string>
   <string name="wifi_scan_always_turnoff_message">Um dies zu deaktivieren, gehen Sie auf Erweitert im Überlaufmenü</string>
   <string name="wifi_scan_always_turnon_message">"Zur Verbesserung der Ortungsgenauigkeit und für andere Zwecke, möchte %1$s die Netzwerksuche einschalten, auch wenn WLAN ausgeschaltet ist.
 Für alle Apps, die scannen möchten, erlauben?"</string>
@@ -7928,6 +8036,8 @@ Für alle Apps, die scannen möchten, erlauben?"</string>
   <string name="wifi_scan_notify_text_location_off">Apps können nach Netzwerken in der Nähe suchen, auch wenn WLAN ausgeschaltet ist. Wenn Sie dies nicht möchten, gehen Sie zu Erweitert &gt; Scannen zu jeder Zeit.</string>
   <string name="wifi_scan_notify_text_location_on">Um die Standortgenauigkeit zu verbessern und für andere Zwecke, können Google und andere Apps nach Netzwerken in der Nähe suchen, auch wenn WLAN ausgeschaltet ist. Wenn Sie dies nicht möchten, gehen Sie zu Erweitert &gt; Scannen zu jeder Zeit.</string>
   <string name="wifi_scan_notify_text_scanning_off">Um die Standortgenauigkeit zu verbessern, schalten Sie den WLAN-Scan in den LINK_BEGINScaneinstellungenLINK_END ein.</string>
+  <string name="wifi_scan_throttling">WLAN-Scan-Drosselung</string>
+  <string name="wifi_scan_throttling_summary">Reduziert den Akkuverbrauch &amp; verbessert die Netzwerkleistung</string>
   <string name="wifi_security">Sicherheit</string>
   <string name="wifi_security_none">Keine</string>
   <string name="wifi_security_wapi_psk_hexadecimal">Hexadezimal</string>
@@ -8036,11 +8146,12 @@ Drücken Sie <b>Zurück</b>, um eine Verbindung zu einem anderen WLAN herzustell
   <string name="wifi_status_test">WLAN-Status</string>
   <string name="wifi_stopping">WLAN ausschalten…</string>
   <string name="wifi_subnet_mask">Subnetzmaske</string>
+  <string name="wifi_subscribed_access_points_tab">Abos</string>
   <string name="wifi_suspend_efficiency_title">Effizienz verbessern</string>
   <string name="wifi_suspend_optimizations">WLAN-Optimierung</string>
   <string name="wifi_suspend_optimizations_summary">Akkuverbrauch bei aktiviertem WLAN minimieren</string>
   <string name="wifi_switch_away_when_unvalidated">Zur mobilen Datenverbindung wechseln, wenn Internetverbindung im WLAN verloren geht</string>
-  <string name="wifi_switch_to_gsm_message">Verbindung mit WLAN verloren. Wollen Sie stattdessen mobile Datenverbindung nutzen?</string>
+  <string name="wifi_switch_to_gsm_message">Verbindung mit WLAN verloren. Stattdessen mobile Datenverbindung nutzen?</string>
   <string name="wifi_switch_to_gsm_title">GSM nutzen?</string>
   <string name="wifi_tap_to_sign_in">Hier tippen, um sich am Netzwerk anzumelden</string>
   <string name="wifi_tether_checkbox_text">Mobiler WLAN-Hotspot</string>
@@ -8065,6 +8176,7 @@ Drücken Sie <b>Zurück</b>, um eine Verbindung zu einem anderen WLAN herzustell
   <string name="wifi_traffic_priority_regular">Normaler Modus</string>
   <string name="wifi_traffic_priority_regular_summary">Herunterladen im Hintergrund teilt die Netzwerkressourcen mit der aktuellen App</string>
   <string name="wifi_traffic_priority_summary">Aktuelle Netzwerkverkehrspriorität intelligent anpassen</string>
+  <string name="wifi_turned_on_message">WLAN eingeschaltet</string>
   <string name="wifi_type_approval_dialog_title">Regulatorische Informationen</string>
   <string name="wifi_type_approval_title">Genehmigungstyp</string>
   <string name="wifi_unchanged">(Nicht geändert)</string>
@@ -8154,6 +8266,8 @@ Diese Funktion wird automatisch ausgeschaltet, wenn der Ladevorgang nicht innerh
   <string name="work_mode_on_summary">Von Ihrer Organisation verwaltet</string>
   <string name="work_mode_summary">Arbeitsprofil aktivieren, einschl. Apps, Synchronisation im Hintergrund und verknüpfter Funktionen</string>
   <string name="work_notification_ringtone_title">Standard-Arbeitsbenachrichtigungston</string>
+  <string name="work_policy_privacy_settings">Infos zu Ihrer Arbeitsrichtlinie</string>
+  <string name="work_policy_privacy_settings_summary">Einstellungen, die von Ihrem IT-Admin verwaltet werden</string>
   <string name="work_profile_confirm_remove_message">Alle Apps und Daten in diesem Profil werden gelöscht</string>
   <string name="work_profile_confirm_remove_title">Arbeitsprofil entfernen?</string>
   <string name="work_profile_notification_access_blocked_summary">Zugriff auf Arbeitsprofil-Benachrichtigungen ist gesperrt</string>
@@ -8204,6 +8318,7 @@ Delta Updategröße: %2$s"</string>
   <string name="xiaomi_update_dialog_title">Update verfügbar</string>
   <string name="xspace">Dual Apps</string>
   <string name="yes">Ja</string>
+  <string name="zen_access_detail_switch">Nicht stören zulassen</string>
   <string name="zen_access_disabled_package_warning">Muss aktiv bleiben, weil der Benachrichtigungszugriff aktiviert ist</string>
   <string name="zen_access_empty_text">Keine Apps erfordern Nicht stören-Zugriff</string>
   <string name="zen_access_revoke_warning_dialog_summary">Alle von dieser App erstellten Nicht stören-Regeln werden entfernt</string>
@@ -8218,6 +8333,11 @@ Delta Updategröße: %2$s"</string>
   <string name="zen_category_behavior">Verhalten</string>
   <string name="zen_category_exceptions">Ausnahmen</string>
   <string name="zen_category_schedule">Zeitplan</string>
+  <string name="zen_custom_settings_dialog_ok">Verstanden</string>
+  <string name="zen_custom_settings_dialog_review_schedule">Prüfzeitplan</string>
+  <string name="zen_custom_settings_dialog_title">Eigene Einstellungen</string>
+  <string name="zen_custom_settings_duration_header">Dauer</string>
+  <string name="zen_custom_settings_notifications_header">Benachrichtigungen</string>
   <string name="zen_event_rule_enabled_toast">Automatische Regel zum Einschalten von Nicht stören bei bestimmten Terminen erstellt</string>
   <string name="zen_event_rule_type_name">Termin</string>
   <string name="zen_interruption_level_priority">Nur mit Vorrang</string>
@@ -8227,6 +8347,7 @@ Delta Updategröße: %2$s"</string>
   <string name="zen_mode_add_time_rule">Zeitregel hinzufügen</string>
   <string name="zen_mode_alarm_use">Töne</string>
   <string name="zen_mode_alarms">Wecker</string>
+  <string name="zen_mode_alarms_list">Alarme</string>
   <string name="zen_mode_all_callers">Jeder</string>
   <string name="zen_mode_all_messages">Nachrichten</string>
   <string name="zen_mode_all_visual_interruptions">Aus</string>
@@ -8262,6 +8383,8 @@ Delta Updategröße: %2$s"</string>
   <string name="zen_mode_blocked_effects_footer">Benötigte Benachrichtigungen für normale Telefonaktivität und -status nie ausblenden</string>
   <string name="zen_mode_button_turn_off">Jetzt ausschalten</string>
   <string name="zen_mode_button_turn_on">Jetzt anschalten</string>
+  <string name="zen_mode_bypassing_apps">Apps das Überschreiben erlauben</string>
+  <string name="zen_mode_bypassing_apps_title">App-Ausnahmen</string>
   <string name="zen_mode_calls">Anrufe</string>
   <string name="zen_mode_calls_footer">Wenn Nicht stören an ist, werden ankommende Anrufe blockiert. Einstellungen anpassen, damit Freunde, Familie und andere Kontakte Sie erreichen können.</string>
   <string name="zen_mode_calls_summary_one">Von %1$s</string>
@@ -8270,6 +8393,13 @@ Delta Updategröße: %2$s"</string>
   <string name="zen_mode_choose_rule_type">Regeltyp auswählen</string>
   <string name="zen_mode_configure_rule">Regel erstellen</string>
   <string name="zen_mode_contacts_callers">Kontakte</string>
+  <string name="zen_mode_custom_behavior_category_title">Für \"%1$s\"</string>
+  <string name="zen_mode_custom_behavior_summary">Eigene Einstellungen für diesen Zeitplan erstellen</string>
+  <string name="zen_mode_custom_behavior_summary_default">Standardeinstellungen verwenden</string>
+  <string name="zen_mode_custom_behavior_title">Verhalten von Nicht stören</string>
+  <string name="zen_mode_custom_calls_footer">Für \"%1$s\" werden eingehende Anrufe blockiert. Sie können die Einstellungen so anpassen, dass Ihre Freunde, Familie oder andere Kontakte Sie erreichen können.</string>
+  <string name="zen_mode_custom_messages_footer">Für \"%1$s\" werden eingehende Nachrichten blockiert. Sie können die Einstellungen so anpassen, dass Ihre Freunde, Familie oder andere Kontakte Sie erreichen können.</string>
+  <string name="zen_mode_delete_automatic_rules">Zeitpläne löschen</string>
   <string name="zen_mode_delete_rule">Regel löschen</string>
   <string name="zen_mode_delete_rule_button">Löschen</string>
   <string name="zen_mode_delete_rule_confirmation">\"%1$s\"-Regel löschen?</string>
@@ -8291,16 +8421,22 @@ Delta Updategröße: %2$s"</string>
   <string name="zen_mode_event_rule_summary_calendar_template">Während Terminen für %1$s</string>
   <string name="zen_mode_event_rule_summary_reply_template">Wenn die Antwort %1$s lautet</string>
   <string name="zen_mode_events">Termine</string>
+  <string name="zen_mode_events_list">Termine</string>
   <string name="zen_mode_events_title">Termine erlauben</string>
+  <string name="zen_mode_forever">Bis sie ausschalten</string>
   <string name="zen_mode_from_anyone">Von jedem</string>
   <string name="zen_mode_from_call">"Anrufe von "</string>
   <string name="zen_mode_from_contacts">Nur von Kontakten</string>
   <string name="zen_mode_from_none">Keine</string>
+  <string name="zen_mode_from_none_calls">Keine Anrufe zulassen</string>
+  <string name="zen_mode_from_none_messages">Keine Nachrichten zulassen</string>
   <string name="zen_mode_from_sms">"Nachrichten von "</string>
   <string name="zen_mode_from_starred">Nur von markierten Kontakten</string>
   <string name="zen_mode_important_category">Einstellungen</string>
   <string name="zen_mode_media">Medien</string>
+  <string name="zen_mode_media_list">Medien</string>
   <string name="zen_mode_messages">Nachrichten</string>
+  <string name="zen_mode_messages_footer">Damit die zulässigen Nachrichten einen Ton abgeben, prüfen Sie, ob Ihr Gerät auf Klingeln, Vibrieren oder stumm geschaltet ist.</string>
   <string name="zen_mode_messages_title">Nachrichten erlauben</string>
   <string name="zen_mode_miui_silent_category">Erlauben</string>
   <string name="zen_mode_no_exceptions">Nichts</string>
@@ -8315,8 +8451,10 @@ Delta Updategröße: %2$s"</string>
   <string name="zen_mode_priority_settings_title">Nur mit Priorität erlaubt</string>
   <string name="zen_mode_qs_set_behavior">Diese Einstellungen können jetzt geändert werden. Nicht stören wurde manuell mit benutzerdef. Verhalten eingeschaltet.</string>
   <string name="zen_mode_reminders">Erinnerungen</string>
+  <string name="zen_mode_reminders_list">Erinnerungen</string>
   <string name="zen_mode_reminders_title">Erinnerungen erlauben</string>
   <string name="zen_mode_repeat_callers">Wiederholte Anrufer</string>
+  <string name="zen_mode_repeat_callers_list">Wiederholungsanrufer</string>
   <string name="zen_mode_repeat_callers_summary">Erlauben, wenn derselbe Anrufer innerhalb von %d Minuten zweimal anruft</string>
   <string name="zen_mode_repeat_callers_title">Wiederholte Anrufer erlauben</string>
   <string name="zen_mode_restrict_notifications_custom">Benutzerdefiniert</string>
@@ -8336,6 +8474,7 @@ Beachten Sie, dass kritische Benachrichtigungen über Telefonaktivität und -sta
   <string name="zen_mode_restrict_notifications_title">Benachrichtigungen</string>
   <string name="zen_mode_rule_delete_button">Löschen</string>
   <string name="zen_mode_rule_name">Regelname</string>
+  <string name="zen_mode_rule_name_edit">Bearbeiten</string>
   <string name="zen_mode_rule_name_hint">Geben Sie einen Namen ein</string>
   <string name="zen_mode_rule_name_warning">Regel existiert bereits</string>
   <string name="zen_mode_rule_not_found_text">Regel nicht gefunden</string>
@@ -8346,9 +8485,12 @@ Beachten Sie, dass kritische Benachrichtigungen über Telefonaktivität und -sta
   <string name="zen_mode_rule_type_unknown">Unbekannt</string>
   <string name="zen_mode_schedule_alarm_summary">Nach Ablaufzeit oder beim nächsten Wecker stoppen, je nachdem, was zuerst eintritt</string>
   <string name="zen_mode_schedule_alarm_title">Wecker kann die Ablaufzeit überschreiben</string>
+  <string name="zen_mode_schedule_category_title">Zeitplan</string>
+  <string name="zen_mode_schedule_delete">Löschen</string>
   <string name="zen_mode_schedule_rule_days">Tage</string>
   <string name="zen_mode_schedule_rule_days_all">Jeden Tag</string>
   <string name="zen_mode_schedule_rule_days_none">Keine</string>
+  <string name="zen_mode_schedule_title">Zeitplan</string>
   <string name="zen_mode_screen_off">Bei deaktiviertem Display blockieren</string>
   <string name="zen_mode_screen_off_summary">Display einschalten und LED blinken bei Benachrichtigungen, die durch Nicht stören stummgeschaltet wurden</string>
   <string name="zen_mode_screen_off_summary_no_led">Display einschalten bei Benachrichtigungen, die durch Nicht stören stummgeschaltet wurden</string>
@@ -8361,11 +8503,14 @@ Beachten Sie, dass kritische Benachrichtigungen über Telefonaktivität und -sta
   <string name="zen_mode_settings_category">Wenn Nicht stören an ist</string>
   <string name="zen_mode_settings_dnd_automatic_rule">Nicht stören wurde automatisch von einer Regel (%s) eingeschaltet</string>
   <string name="zen_mode_settings_dnd_automatic_rule_app">Nicht stören wurde automatisch von einer App (%s) eingeschaltet</string>
+  <string name="zen_mode_settings_dnd_custom_settings_footer">Nicht stören für %s ist mit eigenen Einstellungen an</string>
+  <string name="zen_mode_settings_dnd_custom_settings_footer_link">&lt;annotation id="link"&gt; Eigene Einstellungen anzeigen&lt;/annotation&gt;</string>
   <string name="zen_mode_settings_dnd_manual_end_time">Nicht stören ist an bis %s</string>
   <string name="zen_mode_settings_dnd_manual_indefinite">Nicht stören bleibt an, bis Sie es ausschalten</string>
   <string name="zen_mode_settings_summary_off">Nie</string>
   <string name="zen_mode_settings_title">Nicht stören</string>
   <string name="zen_mode_settings_turn_on_dialog_title">Nicht stören einschalten</string>
+  <string name="zen_mode_slice_subtitle">Unterbrechungen begrenzen</string>
   <string name="zen_mode_sound_summary_off">Aus</string>
   <string name="zen_mode_sound_summary_off_with_info">Aus / %1$s</string>
   <string name="zen_mode_sound_summary_on">An</string>
@@ -8377,6 +8522,7 @@ Beachten Sie, dass kritische Benachrichtigungen über Telefonaktivität und -sta
   <string name="zen_mode_summary_alarms_only_indefinite">Nur Wecker auf unbestimmte Zeit</string>
   <string name="zen_mode_summary_always">Wechseln zu immer stören</string>
   <string name="zen_mode_system">Berührungstöne</string>
+  <string name="zen_mode_system_list">Berührungstöne</string>
   <string name="zen_mode_unknown_app_set_behavior">Diese Einstellungen können jetzt geändert werden. Nicht stören wurde von einer App automatisch mit benutzerdef. Verhalten eingeschaltet.</string>
   <string name="zen_mode_use_automatic_rule">Regel anwenden</string>
   <string name="zen_mode_visual_interruptions_settings_title">Visuelle Störungen blockieren</string>
@@ -8422,6 +8568,7 @@ Einstellungen aktualisieren auf:
   <string name="zone_auto">Automatische Zeitzone</string>
   <string name="zone_auto_summaryOff">Vom Mobilnetz angegebene Zeitzone beibehalten</string>
   <string name="zone_auto_summaryOn">Vom Mobilnetz angegebene Zeitzone beibehalten</string>
+  <string name="zone_auto_title">Vom Netzwerk gesendete Zeitzone verwenden</string>
   <string name="zone_change_to_from_dst">%1$s startet um %2$s.</string>
   <string name="zone_info_footer">Nutzt %1$s. %2$s startet um %3$s.</string>
   <string name="zone_info_footer_no_dst">Nutzt %1$s. Keine Sommerzeit.</string>
