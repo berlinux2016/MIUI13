@@ -1456,14 +1456,14 @@ Diese Funktion kann unter [Einstellungen] deaktiviert werden."</string>
   <string name="capture_system_heap_dump_title">System-Heap-Dump erfassen</string>
   <string name="capturing_system_heap_dump_message">System-Heap-Dump erfassen…</string>
   <string name="card_main_hbassistant_title">Roter Umschlag;Rotes Paket;Geld</string>
-  <string name="carrier">Netzbetreiber</string>
+  <string name="carrier">Mobilfunkanbieter</string>
   <string name="carrier_and_update_now_text">Von ^1 gerade eben aktualisiert</string>
   <string name="carrier_and_update_text">Von ^1 vor ^2 aktualisiert</string>
   <string name="carrier_enabled">APN an/aus</string>
   <string name="carrier_enabled_summaryOff">APN aus</string>
   <string name="carrier_enabled_summaryOn">APN an</string>
-  <string name="carrier_settings_euicc">Netzbetreiber</string>
-  <string name="carrier_settings_title">Netzbetreibereinstellungen</string>
+  <string name="carrier_settings_euicc">Mobilfunkanbieter</string>
+  <string name="carrier_settings_title">Mobilfunkanbietereinstellungen</string>
   <string name="carrier_settings_version">Einstellungsversion</string>
   <string name="category_personal">Persönlich</string>
   <string name="category_work">Arbeit</string>
@@ -1832,7 +1832,7 @@ Damit Sie Ihr Gerät wieder verwenden können, müssen Sie es auf Werkseinstellu
   <string name="current_use_uicc_se">Sichere Elemente auf der SIM-Karte benutzen</string>
   <string name="current_use_uicc_wallet">Sie verwenden SIM%1$s Bezahlung</string>
   <string name="current_zone">(aktuell)</string>
-  <string name="custom_carrier_title">Netzbetreibername bearbeiten</string>
+  <string name="custom_carrier_title">Mobilfunkanbietername bearbeiten</string>
   <string name="custom_wifi_name_title">WLAN-Name bearbeiten</string>
   <string name="cutout_mode_always">Notch immer anzeigen</string>
   <string name="cutout_mode_default">Automatisch</string>
@@ -1878,7 +1878,7 @@ Damit Sie Ihr Gerät wieder verwenden können, müssen Sie es auf Werkseinstellu
   <string name="data_size_label">Daten</string>
   <string name="data_summary_format">%1$s verbraucht seit %2$s</string>
   <string name="data_switch_started">Daten-SIM wird geändert, kann eine Minute dauern…</string>
-  <string name="data_usage_accounting">Die Abrechnung der Netzbetreiberdaten kann von Ihrem Gerät abweichen.</string>
+  <string name="data_usage_accounting">Die Abrechnung der Mobilfunkanbieterdaten kann von Ihrem Gerät abweichen.</string>
   <string name="data_usage_app">App-Nutzung</string>
   <string name="data_usage_app_info_label">App-Informationen</string>
   <string name="data_usage_app_items_header_text">App-Nutzung</string>
@@ -1910,7 +1910,7 @@ Für einige Konten werden eventuell auch Änderungen, die Sie auf Ihrem Gerät v
   <string name="data_usage_disable_mobile">Mobile Daten deaktivieren?</string>
   <string name="data_usage_disable_mobile_limit">Limit festlegen</string>
   <string name="data_usage_disable_wifi_limit">WLAN-Datenlimit festlegen</string>
-  <string name="data_usage_disclaimer">Netzbetreiberdatenabrechnung kann sich von Ihrem Gerät unterscheiden</string>
+  <string name="data_usage_disclaimer">Mobilfunkanbieterdatenabrechnung kann sich von Ihrem Gerät unterscheiden</string>
   <string name="data_usage_empty">Kein Datenverbrauch in diesem Zeitraum</string>
   <string name="data_usage_enable_3g">2G-3G Daten</string>
   <string name="data_usage_enable_4g">4G Daten</string>
@@ -1919,7 +1919,7 @@ Für einige Konten werden eventuell auch Änderungen, die Sie auf Ihrem Gerät v
   <string name="data_usage_label_background">Hintergrund</string>
   <string name="data_usage_label_foreground">Vordergrund</string>
   <string name="data_usage_limit_dialog_mobile">"Ihr Telefon schaltet mobile Daten aus, sobald das angegebene Limit erreicht ist.
-Der Datenverbrauch wird von Ihrem Gerät berechnet und kann von der Abrechnung Ihres Netzbetreibers abweichen. Ziehen Sie deshalb die Verwendung eines niedrigen Limits in Betracht."</string>
+Der Datenverbrauch wird von Ihrem Gerät berechnet und kann von der Abrechnung Ihres Mobilfunkanbieters abweichen. Ziehen Sie deshalb die Verwendung eines niedrigen Limits in Betracht."</string>
   <string name="data_usage_limit_dialog_title">Datenverbrauch begrenzen</string>
   <string name="data_usage_limit_editor_title">Limit festlegen</string>
   <string name="data_usage_list_mobile">Mobil</string>
@@ -1963,7 +1963,7 @@ Diese Einstellung betrifft alle Benutzer auf diesem Telefon."</string>
   <string name="data_usage_template">%1$s verwendet zwischen %2$s</string>
   <string name="data_usage_title">Primärdaten</string>
   <string name="data_usage_total_during_range">%2$s: über %1$s verwendet</string>
-  <string name="data_usage_total_during_range_mobile">%2$s: ca. %1$s verbraucht, gemessen mit Ihrem Telefon. Dieser Wert kann von dem Ihres Netzbetreibers abweichen.</string>
+  <string name="data_usage_total_during_range_mobile">%2$s: ca. %1$s verbraucht, gemessen mit Ihrem Telefon. Dieser Wert kann von dem Ihres Mobilfunkanbieters abweichen.</string>
   <string name="data_usage_uninstalled_apps">Gelöschte Apps</string>
   <string name="data_usage_uninstalled_apps_users">Gelöschte Apps und Benutzer</string>
   <string name="data_usage_warning_editor_title">Warnung für Datenverbrauch festlegen</string>
@@ -1973,7 +1973,7 @@ Diese Einstellung betrifft alle Benutzer auf diesem Telefon."</string>
   <string name="data_used_formatted">^1 ^2 verbraucht</string>
   <string name="data_used_template">%1$s verwendet</string>
   <string name="data_warning">Datenwarnung</string>
-  <string name="data_warning_footnote">Datenwarnung und Datenlimit werden von Ihrem Gerät gemessen. Dies kann sich von den Netzbetreiberdaten unterscheiden.</string>
+  <string name="data_warning_footnote">Datenwarnung und Datenlimit werden von Ihrem Gerät gemessen. Dies kann sich von den Mobilfunkanbieterdaten unterscheiden.</string>
   <string name="date_and_time">Zeit- &amp; Datumseinstellungen</string>
   <string name="date_and_time_settings_summary">Datum, Uhrzeit, Zeitzone und Formate festlegen</string>
   <string name="date_and_time_settings_title">Datum &amp; Uhrzeit</string>
@@ -2560,7 +2560,7 @@ Für weitere Informationen wenden Sie sich bitte an den Admin Ihres Unternehmens
   <string name="err_user_abort">Vom Benutzer abgebrochen</string>
   <string name="err_version_too_old">Sicherungsdatei ist zu alt</string>
   <string name="err_version_unsupported">Sicherungsversion wird nicht unterstützt</string>
-  <string name="error_adding_apn_type">Netzbetreiber erlaubt keine %s-APN-Typen</string>
+  <string name="error_adding_apn_type">Mobilfunkanbieter erlaubt keine %s-APN-Typen</string>
   <string name="error_apn_empty">APN darf nicht leer sein</string>
   <string name="error_capturing_system_heap_dump_message">System-Heap-Dump erfassen nicht möglich</string>
   <string name="error_mcc_not3">MCC-Feld muss 3 Zeichen enthalten</string>
@@ -2710,7 +2710,7 @@ Für weitere Informationen wenden Sie sich bitte an den Admin Ihres Unternehmens
   <string name="firewall_partial">Erlauben Sie einigen Apps, sich mit der folgenden Methode zu verbinden</string>
   <string name="firewall_permission">Verbindungsberechtigungen</string>
   <string name="firewall_restrict_all">Beschränken Sie die Verbindung für alle Apps mithilfe der folgenden Methode</string>
-  <string name="firewall_restrict_android_dialog_content">Um sicherzustellen, dass Ihr Gerät normal funktioniert, stellen einige Android-System-Apps weiterhin eine Internetverbindung her. Diese Apps nutzen Ihre mobile Datenverbindung und können von Ihrem Netzbetreiber geringe Kosten verursachen.</string>
+  <string name="firewall_restrict_android_dialog_content">Um sicherzustellen, dass Ihr Gerät normal funktioniert, stellen einige Android-System-Apps weiterhin eine Internetverbindung her. Diese Apps nutzen Ihre mobile Datenverbindung und können von Ihrem Mobilfunkanbieter geringe Kosten verursachen.</string>
   <string name="firewall_restrict_android_dialog_title">Achtung</string>
   <string name="firewall_restrict_data">Einschränkung der mobilen Datennutzung</string>
   <string name="firewall_restrict_notify_title">%s kann das Netzwerk nicht nutzen</string>
@@ -3250,7 +3250,7 @@ Wenn Sie automatische Sicherungen einschalten, werden Geräte- und App-Daten per
   <string name="keywords_lockscreen">Schieben;Passwort;Muster;PIN</string>
   <string name="keywords_model_and_hardware">seriennummer, hardware version</string>
   <string name="keywords_more_default_sms_app">Textnachricht</string>
-  <string name="keywords_more_mobile_networks">Mobilfunk, Mobil, Netzbetreiber, Drahtlos, Daten, 4g, 3g, 2g, LTE</string>
+  <string name="keywords_more_mobile_networks">Mobilfunk, Mobil, Mobilfunkanbieter, Drahtlos, Daten, 4g, 3g, 2g, LTE</string>
   <string name="keywords_network_name_display">Netzwerkname anzeigen</string>
   <string name="keywords_network_reset">zurücksetzen;wiederherstellen;Werkszustand</string>
   <string name="keywords_notification_vibration">Haptik, vibrieren, Sensibilität, Empfindlichkeit</string>
@@ -3412,7 +3412,7 @@ Wenn Sie automatische Sicherungen einschalten, werden Geräte- und App-Daten per
   <string name="location_agps_reset_type">Resettypen</string>
   <string name="location_agps_reset_type_choose_dialog_title">Resettypen</string>
   <string name="location_agps_reset_type_summary">Bevorzugten Resettyp auswählen</string>
-  <string name="location_agps_roaming_help">Auswahl aller Netzwerke kann die Datennutzung beim Roaming erhöhen. Wenn Sie das Datenlimit Ihres Tarifs überschreiten, könnte Ihr Netzbetreiber Ihnen zusätzliche Gebühren berechnen.</string>
+  <string name="location_agps_roaming_help">Auswahl aller Netzwerke kann die Datennutzung beim Roaming erhöhen. Wenn Sie das Datenlimit Ihres Tarifs überschreiten, könnte Ihr Mobilfunkanbieter Ihnen zusätzliche Gebühren berechnen.</string>
   <string name="location_agps_si_mode">AGPS-SI-Modus</string>
   <string name="location_agps_si_mode_dialog_title">AGPS-Methode</string>
   <string name="location_agps_si_mode_summary">Bevorzugte AGPS-Methode auswählen</string>
@@ -3966,7 +3966,7 @@ Um auch Musik, Bilder und sonstige Benutzerdaten zu löschen, muss der <b>USB-Sp
   <string name="mobile_data_ap_mode_disabled">Im Flugmodus nicht verfügbar</string>
   <string name="mobile_data_off">Mobile Daten aus</string>
   <string name="mobile_data_settings_summary">Datenzugriff über Mobilfunknetz</string>
-  <string name="mobile_data_settings_summary_auto_switch">Telefon wechselt automatisch auf diesen Netzbetreiber, wenn es sich in Reichweite befindet</string>
+  <string name="mobile_data_settings_summary_auto_switch">Telefon wechselt automatisch auf diesen Mobilfunkanbieter, wenn es sich in Reichweite befindet</string>
   <string name="mobile_data_settings_title">Mobile Daten</string>
   <string name="mobile_data_usage_title">Datennutzung der App</string>
   <string name="mobile_insert_sim_card">Legen Sie die SIM-Karte ein und starten Sie das Gerät neu</string>
@@ -4004,7 +4004,7 @@ Der Wechsel zu %1$s wird Ihren %2$s-Dienst nicht beenden."</string>
   <string name="mobile_network_use_sim_off">Aus</string>
   <string name="mobile_network_use_sim_on">SIM verwenden</string>
   <string name="mobile_no_provisioning_url">Keine Bereitstellungswebseite für %1$s bekannt</string>
-  <string name="mobile_unknown_sim_operator">Unbekannter SIM-Netzbetreiber</string>
+  <string name="mobile_unknown_sim_operator">Unbekannter SIM-Mobilfunkanbieter</string>
   <string name="mock_location_app">App für gefälschte Standorte auswählen</string>
   <string name="mock_location_app_not_set">Keine App für gefälschte Standorte ausgewählt</string>
   <string name="mock_location_app_set">App für gefälschte Standorte: %1$s</string>
@@ -4191,8 +4191,8 @@ Betriebssystem auswählen:"</string>
   <string name="network_name_displayed_summary">Netzwerkname in der Statusleiste anzeigen</string>
   <string name="network_name_input_error">SSID konnte nicht gespeichert werden. Erneut versuchen.</string>
   <string name="network_operator_category">Netzwerk</string>
-  <string name="network_operator_display_title">Netzbetreiber anzeigen</string>
-  <string name="network_operators_settings">Netzbetreiber</string>
+  <string name="network_operator_display_title">Mobilfunkanbieter anzeigen</string>
+  <string name="network_operators_settings">Mobilfunkanbieter</string>
   <string name="network_query_error">Kein  Netzwerk gefunden. Erneut versuchen.</string>
   <string name="network_reset_not_available">Netzwerkreset ist für diesen Benutzer nicht verfügbar</string>
   <string name="network_restrictions">Netzwerkbeschränkungen</string>
@@ -4519,7 +4519,7 @@ Dies ermöglicht der App auch, Nicht stören ein-/auszuschalten und entsprechend
   <string name="oem_unlock_enable">OEM-Entsperrung</string>
   <string name="oem_unlock_enable_disabled_summary_bootloader_unlocked">Bootloader ist bereits entsperrt</string>
   <string name="oem_unlock_enable_disabled_summary_connectivity">Erst mit dem Internet verbinden</string>
-  <string name="oem_unlock_enable_disabled_summary_connectivity_or_locked">Mit dem Internet verbinden oder wenden Sie sich an Ihren Netzbetreiber</string>
+  <string name="oem_unlock_enable_disabled_summary_connectivity_or_locked">Mit dem Internet verbinden oder wenden Sie sich an Ihren Mobilfunkanbieter</string>
   <string name="oem_unlock_enable_disabled_summary_sim_locked_device">Nicht verfügbar bei SIM-Lock-Geräten</string>
   <string name="oem_unlock_enable_summary">Entsperrung des Bootloaders erlauben</string>
   <string name="ok_rules">Fertigstellen</string>
@@ -4555,7 +4555,7 @@ Dies ermöglicht der App auch, Nicht stören ein-/auszuschalten und entsprechend
   <string name="open_wifi_connect_summary">Tippen zum Anzeigen von Details</string>
   <string name="open_wifi_connect_title">Verbinden mit %1$s</string>
   <string name="opening_paragraph_delete_profile_unknown_company">Dieses Arbeitsprofil wird verwaltet von:</string>
-  <string name="operator_warning">Die Abrechnung der Netzbetreiberdaten kann von Ihrem Gerät abweichen</string>
+  <string name="operator_warning">Die Abrechnung der Mobilfunkanbieterdaten kann von Ihrem Gerät abweichen</string>
   <string name="optimization_cancel">Abbrechen</string>
   <string name="osu_completing_sign_up">Anmeldung abschließen…</string>
   <string name="osu_connect_failed">Verbinden nicht möglich</string>
@@ -5018,7 +5018,7 @@ OTG schaltet sich nach 10 Minuten Inaktivität automatisch aus."</string>
   <string name="private_sms_recording_intro_header">Entsperrmuster zeichnen:</string>
   <string name="private_sms_reset_by_account">Um Ihr Passwort zurückzusetzen, melden Sie sich in Ihrem Mi Konto an</string>
   <string name="process_dex2oat_label">App-Optimierung</string>
-  <string name="process_provider_in_use_description">Netzbetreiber %1$s wird verwendet</string>
+  <string name="process_provider_in_use_description">Mobilfunkanbieter %1$s wird verwendet</string>
   <string name="process_service_in_use_description">Dienst %1$s wird verwendet</string>
   <string name="process_stats_bg_ram_use">RAM-Nutzung (Hintergrund)</string>
   <string name="process_stats_os_native">Nativ</string>
@@ -5199,7 +5199,7 @@ UT Interface: %5$s"</string>
   <string name="reset_dashboard_summary">Netzwerk, Apps oder Gerät können zurückgestzt werden</string>
   <string name="reset_dashboard_title">Zurücksetzen</string>
   <string name="reset_default_apn_failed">Zurücksetzen des Standard-APN fehlgeschlagen</string>
-  <string name="reset_esim_desc">Alle eSIMs auf dem Telefon löschen. Kontaktieren Sie Ihren Netzbetreiber, um Ihre eSIMs erneut herunterzuladen. Dadurch wird Ihr Mobilfunkvertrag nicht gekündigt.</string>
+  <string name="reset_esim_desc">Alle eSIMs auf dem Telefon löschen. Kontaktieren Sie Ihren Mobilfunkanbieter, um Ihre eSIMs erneut herunterzuladen. Dadurch wird Ihr Mobilfunkvertrag nicht gekündigt.</string>
   <string name="reset_esim_error_msg">eSIMs können wegen eines Fehlers nicht zurückgesetzt werden</string>
   <string name="reset_esim_error_title">eSIMs können nicht zurückgesetzt werden</string>
   <string name="reset_esim_title">Auch eSIM zurücksetzen</string>
@@ -5285,7 +5285,7 @@ UT Interface: %5$s"</string>
   <string name="ringtones_install_custom_sound_title">Eigenen Ton hinzufügen</string>
   <string name="roaming">Daten-Roaming</string>
   <string name="roaming_alert_title">Daten-Roaming erlauben?</string>
-  <string name="roaming_check_price_warning">Fragen Sie Ihren Netzbetreiber nach den Preisen</string>
+  <string name="roaming_check_price_warning">Fragen Sie Ihren Mobilfunkanbieter nach den Preisen</string>
   <string name="roaming_disable">Bei Roaming mit Datendienst verbinden</string>
   <string name="roaming_enable">Bei Roaming mit Datendienst verbinden</string>
   <string name="roaming_reenable_message">Die Datenverbindung wurde unterbrochen, weil Sie Ihr Heimnetzwerk verlassen haben und Daten-Roaming nicht aktiviert ist</string>
@@ -5616,7 +5616,7 @@ Mindestens %s freigeben."</string>
   <string name="search_music_headset_settings">Kopfhörer &amp; Audioeffekte;Kopfhörer und Audioeffekte;Kopfhörer;Ohrhörer;Audioeffekte</string>
   <string name="search_music_mi_effect_title">Mi Sound Enhancer;Sound verbessern;Klang verbessern</string>
   <string name="search_my_device">Über das Telefon;Über das Gerät;Mein Telefon;Mein Gerät;Telefon;Gerät</string>
-  <string name="search_networks_title">Mobilfunknetze;Netzbetreiber;Mobilfunkbetreiber;Mobilfunkanbieter;</string>
+  <string name="search_networks_title">Mobilfunknetze;Mobilfunkanbieter;Mobilfunkbetreiber;Mobilfunkanbieter;</string>
   <string name="search_nfc_se_route_title">Sichere Elemente;Sichere Elementposition</string>
   <string name="search_notification_sound_title">Standardbenachrichtigungston;Benachrichtigungston;Benachrichtigungstöne</string>
   <string name="search_ntts_settings_title">TTS;TTS Einstellungen</string>
@@ -5670,10 +5670,10 @@ Mindestens %s freigeben."</string>
   <string name="search_sound_effects_enable_title">Berührungstöne;Tipptöne;Berührungstöne einschalten</string>
   <string name="search_sound_settings">Ton;Lautstärke;Vibration;Geräusch unterdrücken;Geräuschunterdrückung;Rauschunterdrückung</string>
   <string name="search_status_bar_settings">Benachrichtigungen &amp; Statusleiste;Benachrichtigungen;Statusleiste</string>
-  <string name="search_status_bar_settings_custom_carrier">Netzbetreibernamen ändern;Carriername;Netzbetreibername;Netzbetreibername</string>
+  <string name="search_status_bar_settings_custom_carrier">Mobilfunkanbieternamen ändern;Carriername;Mobilfunkanbietername;Mobilfunkanbietername</string>
   <string name="search_status_bar_settings_expandable_under_keyguard">Am Sperrbildschirm anzeigen</string>
   <string name="search_status_bar_settings_manage_notification">App-Benachrichtigung;App-Benachrichtigungen;Benachrichtigungen</string>
-  <string name="search_status_bar_settings_show_carrier">Netzbetreibernamen anzeigen;Carriername;Netzbetreibername;Netzbetreibername</string>
+  <string name="search_status_bar_settings_show_carrier">Mobilfunkanbieternamen anzeigen;Carriername;Mobilfunkanbietername;Mobilfunkanbietername</string>
   <string name="search_status_bar_settings_show_network_speed">Verbindungsgeschwindigkeit anzeigen;Verbindungsgeschwindigkeit</string>
   <string name="search_status_bar_settings_show_notification_icon">Benachrichtigungssymbole anzeigen;Benachrichtigungssymbole</string>
   <string name="search_status_bar_settings_show_screenshot_notification">Screenshot-Benachrichtigung anzeigen;Screenshot-Benachrichtigung;Screenshot</string>
@@ -5971,7 +5971,7 @@ Hinweis: Sie können Ihren Fingerabdruck nicht verwenden, um dieses Gerät zu en
   <string name="show_all_anrs_summary">Dialogfeld \"App antwortet nicht\" für Hintergrund-Apps anzeigen</string>
   <string name="show_all_apps">Vollständige Gerätenutzung anzeigen</string>
   <string name="show_background_processes">Prozesse im Cache anzeigen</string>
-  <string name="show_carrier_under_keyguard_title">Netzbetreiber bei gesperrtem Gerät anzeigen</string>
+  <string name="show_carrier_under_keyguard_title">Mobilfunkanbieter bei gesperrtem Gerät anzeigen</string>
   <string name="show_connected_devices_summary">Verbundene Geräte anzeigen</string>
   <string name="show_connected_devices_title">Verbundene Geräte</string>
   <string name="show_cpu_usage">CPU-Auslastung anzeigen</string>
@@ -6247,7 +6247,7 @@ Dies wird durch vertrauenswürdige Anmeldedaten ermöglicht, die auf Ihrem Gerä
   <string name="status_bar_settings_all_app_display_loading">Einen Moment…</string>
   <string name="status_bar_settings_app_notification_preferences">App-Einstellungen</string>
   <string name="status_bar_settings_basic_settings">Grundeinstellungen</string>
-  <string name="status_bar_settings_custom_carrier">Netzbetreibernamen bearbeiten</string>
+  <string name="status_bar_settings_custom_carrier">Mobilfunkanbieternamen bearbeiten</string>
   <string name="status_bar_settings_custom_wifi_name">WLAN-Name bearbeiten</string>
   <string name="status_bar_settings_enable_notification">Benachrichtigungen erlauben</string>
   <string name="status_bar_settings_expand_top_notification">Obere Benachrichtigung erweitern</string>
@@ -6268,9 +6268,9 @@ Dies wird durch vertrauenswürdige Anmeldedaten ermöglicht, die auf Ihrem Gerä
   <string name="status_bar_settings_notification_use_app_icon">App-Symbole für Benachrichtigungen verwenden</string>
   <string name="status_bar_settings_peek_notification_icon">Symbole für eingehende Benachrichtigungen anzeigen</string>
   <string name="status_bar_settings_qs_layout">Layout Schnelleinstellungen</string>
-  <string name="status_bar_settings_show_carrier">Netzbetreibernamen anzeigen</string>
-  <string name="status_bar_settings_show_carrier_summary">Netzbetreibername wird weiterhin auf dem Sperrbildschirm und in der Benachrichtigungsleiste angezeigt, wenn diese Funktion deaktiviert ist</string>
-  <string name="status_bar_settings_show_carrier_under_keyguard">Netzbetreiber anzeigen, wenn das Gerät gesperrt ist</string>
+  <string name="status_bar_settings_show_carrier">Mobilfunkanbieternamen anzeigen</string>
+  <string name="status_bar_settings_show_carrier_summary">Mobilfunkanbietername wird weiterhin auf dem Sperrbildschirm und in der Benachrichtigungsleiste angezeigt, wenn diese Funktion deaktiviert ist</string>
+  <string name="status_bar_settings_show_carrier_under_keyguard">Mobilfunkanbieter anzeigen, wenn das Gerät gesperrt ist</string>
   <string name="status_bar_settings_show_floating_notification">Popups</string>
   <string name="status_bar_settings_show_floating_notification_summary">Wichtige Benachrichtigungen am oberen Bildschirmrand zulassen</string>
   <string name="status_bar_settings_show_flow_info">Datenverbrauch anzeigen</string>
@@ -6521,7 +6521,7 @@ Auf ^2 gespeicherte Apps könnten nicht richtig funktionieren, und Datenübertra
   <string name="suggestions_more_title">+%1$d mehr</string>
   <string name="suggestions_title">Vorschläge</string>
   <string name="suggestions_title_v2">Für Sie empfohlen</string>
-  <string name="sum_carrier_select">Netzbetreiber auswählen</string>
+  <string name="sum_carrier_select">Mobilfunkanbieter auswählen</string>
   <string name="summary_err_backup_encrypting">Melden Sie sich in Ihrem Mi Konto an</string>
   <string name="summary_err_backup_no_network">Netzwerkverbindung fehlgeschlagen</string>
   <string name="summary_err_restore_encrypting">Wiederherstellung fehlgeschlagen. Stellen Sie sicher, dass diese Sicherung mit Ihrem Mi Konto erstellt wurde.</string>
@@ -7139,7 +7139,7 @@ Ihre gespeicherten Fingerabdrücke werden auch aus diesem Profil entfernt und Si
   <string name="upload_modem_log">Modem-Protokollierung starten</string>
   <string name="usage">Verwendung</string>
   <string name="usage_access">Datenzugriff</string>
-  <string name="usage_access_description">Datenzugriff erlaubt einer App zu ermitteln, welche anderen Apps Sie benutzen und wie oft, außerdem Ihren Netzbetreiber, Ihre Sprache und andere Einstellungen</string>
+  <string name="usage_access_description">Datenzugriff erlaubt einer App zu ermitteln, welche anderen Apps Sie benutzen und wie oft, außerdem Ihren Mobilfunkanbieter, Ihre Sprache und andere Einstellungen</string>
   <string name="usage_access_title">Apps mit Datenzugriff</string>
   <string name="usage_app_get_it">Verstanden</string>
   <string name="usage_app_limit_alter_summary">Sieht aus, als wäre dieses Zeitlimit kürzer als die Zeit, die Sie heute diese App benutzt haben. Trotzdem Limit setzen?</string>
@@ -7441,7 +7441,7 @@ Jeder Benutzer kann aktualisierte App-Berechtigungen für alle anderen Benutzer 
   <string name="vibrate_on_touch_title">Bei Berührung vibrieren</string>
   <string name="vibrate_title">Vibrieren</string>
   <string name="vibrate_when_ringing_title">Beim Klingeln vibrieren</string>
-  <string name="video_calling_settings_title">Netzbetreiber-Videoanrufe</string>
+  <string name="video_calling_settings_title">Mobilfunkanbieter-Videoanrufe</string>
   <string name="view_password_description">Passwort anzeigen</string>
   <string name="vip_list">Eingehende Anrufe erlauben</string>
   <string name="virtual_keyboard_category">Virtuelle Tastatur</string>
@@ -7652,7 +7652,7 @@ Jeder Benutzer kann aktualisierte App-Berechtigungen für alle anderen Benutzer 
   <string name="welcome">Willkommen</string>
   <string name="wfc_disclaimer_agree_button_text">FORTFAHREN</string>
   <string name="wfc_disclaimer_disagree_text">NEIN DANKE</string>
-  <string name="wfc_disclaimer_emergency_limitation_desc_text">"Notrufe über WLAN-Anrufe werden von Ihrem Netzbetreiber nicht unterstützt.
+  <string name="wfc_disclaimer_emergency_limitation_desc_text">"Notrufe über WLAN-Anrufe werden von Ihrem Mobilfunkanbieter nicht unterstützt.
 Das Gerät schaltet automatisch auf ein Mobilfunknetz um, um einen Notruf zu tätigen.
 Notrufe sind nur in Gebieten mit Mobilfunkabdeckung möglich."</string>
   <string name="wfc_disclaimer_emergency_limitation_title_text">Notrufe</string>
@@ -7752,7 +7752,7 @@ Bitte lesen Sie die Datenschutzerklärung Ihres Dienstanbieters."</string>
   <string name="wifi_calling_mode_wifi_preferred_summary">Wenn WLAN nicht verfügbar ist, verwenden Sie das Mobilfunknetz.</string>
   <string name="wifi_calling_not_supported">WLAN-Anrufe werden für %1$s nicht unterstützt</string>
   <string name="wifi_calling_off_explanation">Wenn WLAN-Anrufe aktiviert sind, kann Ihr Gerät Anrufe über das WLAN oder übers Mobilfunknetz leiten, abhängig von der Signalstärke und Ihren Einstellungen. Bevor Sie diese Funktion nutzen, erkundigen Sie sich nach etwaigen Gebühren und anderen Details.</string>
-  <string name="wifi_calling_pref_managed_by_carrier">Einstellung vom Netzbetreiber verwaltet</string>
+  <string name="wifi_calling_pref_managed_by_carrier">Einstellung vom Mobilfunkanbieter verwaltet</string>
   <string name="wifi_calling_roaming_mode_dialog_title">Roaming-Präferenz</string>
   <string name="wifi_calling_roaming_mode_title">Roaming-Präferenz</string>
   <string name="wifi_calling_settings_activation_instructions">WLAN-Anrufe aktivieren</string>
@@ -7764,7 +7764,7 @@ Bitte lesen Sie die Datenschutzerklärung Ihres Dienstanbieters."</string>
   <string name="wifi_cancel">Abbrechen</string>
   <string name="wifi_cant_connect">Verbindung nicht möglich</string>
   <string name="wifi_cant_connect_to_ap">"Verbindung mit '%1$s' nicht möglich"</string>
-  <string name="wifi_carrier_connect">Netzbetreiber-WLAN</string>
+  <string name="wifi_carrier_connect">Mobilfunkanbieter-WLAN</string>
   <string name="wifi_carrier_content">Verbunden via %1$s</string>
   <string name="wifi_cellular_data_fallback_summary">Mobile Daten verwenden, wenn WLAN keinen Internetzugang hat. Datennutzung darf verwendet werden.</string>
   <string name="wifi_cellular_data_fallback_title">Automatisches Umschalten auf mobile Daten</string>
@@ -7780,7 +7780,7 @@ Bitte lesen Sie die Datenschutzerklärung Ihres Dienstanbieters."</string>
   <string name="wifi_configured_ap_list">Zuvor konfigurierte APs</string>
   <string name="wifi_connect">Verbinden</string>
   <string name="wifi_connect_cmcc_dialog_cancel">Abbrechen</string>
-  <string name="wifi_connect_cmcc_dialog_content">Mit dem mobilen Datennetz verbunden. Wenn Sie das Datenlimit Ihres Tarifs überschreiten, könnte Ihr Netzbetreiber Ihnen zusätzliche Gebühren berechnen.</string>
+  <string name="wifi_connect_cmcc_dialog_content">Mit dem mobilen Datennetz verbunden. Wenn Sie das Datenlimit Ihres Tarifs überschreiten, könnte Ihr Mobilfunkanbieter Ihnen zusätzliche Gebühren berechnen.</string>
   <string name="wifi_connect_cmcc_dialog_not_remind">Nicht noch mal anzeigen</string>
   <string name="wifi_connect_cmcc_dialog_title">CMCC verbunden</string>
   <string name="wifi_connect_failed_message">Telefon konnte sich nicht mit diesem WLAN verbinden</string>

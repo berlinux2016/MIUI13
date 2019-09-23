@@ -38,7 +38,7 @@
   <string name="RestrictedOnVoiceData">Sprach-/Datendienste sind gesperrt</string>
   <string name="RestrictedOnVoiceSms">Sprach-/SMS-Dienste sind gesperrt</string>
   <string name="RestrictedStateContent">Vorübergehend nicht über das Mobilfunknetz an Ihrem Standort verfügbar</string>
-  <string name="RestrictedStateContentMsimTemplate">Vom Netzbetreiber vorübergehend abgeschaltet für SIM %d</string>
+  <string name="RestrictedStateContentMsimTemplate">Vom Mobilfunkanbieter vorübergehend abgeschaltet für SIM %d</string>
   <string name="RuacMmi">Abweisen unerwünschter Anrufe</string>
   <string name="SetupCallDefault">Anruf annehmen?</string>
   <string name="ThreeWCMmi">Dreierkonferenz</string>
@@ -595,7 +595,7 @@
   <string name="inputMethod">Eingabemethode</string>
   <string name="input_method_binding_label">Eingabemethode</string>
   <string name="install_carrier_app_notification_button">App herunterladen</string>
-  <string name="install_carrier_app_notification_text">Netzbetreiber-App herunterladen, um Ihre neue SIM-Karte zu aktivieren</string>
+  <string name="install_carrier_app_notification_text">Mobilfunkanbieter-App herunterladen, um Ihre neue SIM-Karte zu aktivieren</string>
   <string name="install_carrier_app_notification_text_app_name">%1$s-App herunterladen, um Ihre neue SIM-Karte zu aktivieren</string>
   <string name="install_carrier_app_notification_title">Mobilservice aktivieren</string>
   <string name="invalidPin">Geben Sie eine PIN ein, die 4 bis 8 Zahlen enthält</string>
@@ -671,7 +671,7 @@ Besuchen Sie <b>google.com/accounts/recovery</b>"</string>
   <string name="kg_pattern_instructions">Muster zeichnen</string>
   <string name="kg_pin_instructions">PIN eingeben</string>
   <string name="kg_puk_enter_pin_hint">Gewünschten PIN-Code eingeben</string>
-  <string name="kg_puk_enter_puk_hint">SIM-Karte ist jetzt deaktiviert. PUK-Code eingeben, um fortzufahren. Weitere Informationen erhalten Sie von Ihrem Netzbetreiber.</string>
+  <string name="kg_puk_enter_puk_hint">SIM-Karte ist jetzt deaktiviert. PUK-Code eingeben, um fortzufahren. Weitere Informationen erhalten Sie von Ihrem Mobilfunkanbieter.</string>
   <string name="kg_reordering_delete_drop_target_text">Entfernen</string>
   <string name="kg_sim_pin_instructions">SIM-PIN eingeben</string>
   <string name="kg_sim_unlock_progress_dialog_message">SIM-Karte entsperren…</string>
@@ -744,7 +744,7 @@ Besuchen Sie <b>google.com/accounts/recovery</b>"</string>
   <string name="lockscreen_pattern_instructions">Muster zum Entsperren zeichnen</string>
   <string name="lockscreen_pattern_wrong">Erneut versuchen</string>
   <string name="lockscreen_permanent_disabled_sim_instructions">"Ihre SIM-Karte wurde dauerhaft deaktiviert.
-Wenden Sie sich an Ihren Netzbetreiber, um eine andere SIM-Karte zu erhalten."</string>
+Wenden Sie sich an Ihren Mobilfunkanbieter, um eine andere SIM-Karte zu erhalten."</string>
   <string name="lockscreen_permanent_disabled_sim_message_short">SIM-Karte unbrauchbar</string>
   <string name="lockscreen_return_to_call">Zurück zum Anruf</string>
   <string name="lockscreen_screen_locked">Bildschirm gesperrt</string>
@@ -935,7 +935,7 @@ Versuchen Sie es in %2$d Sekunden erneut."</string>
   <string name="permdesc_accessDrmCertificates">Erlaubt einer App die Bereitstellung und Nutzung von DRM-Zertifikaten. Sollte für normale Apps nie benötigt werden.</string>
   <string name="permdesc_accessFineLocation">Diese App kann Ihren Standort basierend auf GPS oder Netzwerkquellen wie Mobilfunkmasten und WLAN ermitteln. Diese Ortungsdienste müssen eingeschaltet und auf Ihrem Telefon verfügbar sein, damit die App sie nutzen kann. Dies kann den Akkuverbrauch erhöhen.</string>
   <string name="permdesc_accessImsCallService">Erlaubt der App, den IMS-Service zu verwenden, um Anrufe ohne Ihr Eingreifen zu machen</string>
-  <string name="permdesc_accessLocationExtraCommands">Erlaubt der App, auf zusätzliche Standortnetzbetreiberbefehle zuzugreifen. Damit könnte die App die Funktionsweise von GPS oder anderen Standortquellen beeinträchtigen.</string>
+  <string name="permdesc_accessLocationExtraCommands">Erlaubt der App, auf zusätzliche Befehle des StandortMobilfunkanbieters zuzugreifen. Damit könnte die App die Funktionsweise von GPS oder anderen Standortquellen beeinträchtigen.</string>
   <string name="permdesc_accessNetworkConditions">Erlaubt der App, Informationen zu den Netzwerkbedingungen zu erfassen. Sollte für normale Apps nie benötigt werden.</string>
   <string name="permdesc_accessNetworkState">Erlaubt der App, Informationen zu Netzwerkverbindungen abzurufen, etwa welche Netzwerke existieren und verbunden sind.</string>
   <string name="permdesc_accessNotifications">Erlaubt der App das Abrufen, Überprüfen und Löschen von Benachrichtigungen, inkl. Benachrichtigungen, die von anderen Apps gepostet wurden</string>
@@ -946,8 +946,8 @@ Versuchen Sie es in %2$d Sekunden erneut."</string>
   <string name="permdesc_addVoicemail">Erlaubt der App, Nachrichten zu Ihrem Mailbox-Posteingang hinzuzufügen</string>
   <string name="permdesc_answerPhoneCalls">Erlaubt der App, einen eingehenden Anruf entgegenzunehmen.</string>
   <string name="permdesc_audioWrite">Erlaubt der App, Ihre Musiksammlung zu ändern</string>
-  <string name="permdesc_bindCarrierMessagingService">Erlaubt dem Inhaber, sich an die Top-Level-Schnittstelle eines Netzbetreiber-Nachrichtendienstes zu binden. Sollte nie für normale Apps benötigt werden.</string>
-  <string name="permdesc_bindCarrierServices">Erlaubt dem Inhaber, sich an einen Netzbetreiberdienst zu binden. Sollte für normale Apps eigentlich nicht notwendig sein.</string>
+  <string name="permdesc_bindCarrierMessagingService">Erlaubt dem Inhaber, sich an die Top-Level-Schnittstelle eines Mobilfunkanbieter-Nachrichtendienstes zu binden. Sollte nie für normale Apps benötigt werden.</string>
+  <string name="permdesc_bindCarrierServices">Erlaubt dem Inhaber, sich an einen Mobilfunkanbieterdienst zu binden. Sollte für normale Apps eigentlich nicht notwendig sein.</string>
   <string name="permdesc_bindConditionProviderService">Erlaubt dem Inhaber, sich an die Oberfläche eines Bedingungsproviderdienstes auf oberster Ebene zu binden. Für normale Apps sollte dies nie erforderlich sein.</string>
   <string name="permdesc_bindDreamService">Erlaubt der App, sich an die Oberfläche eines Dream-Dienstes auf oberster Ebene zu binden. Für normale Apps sollte dies nie erforderlich sein.</string>
   <string name="permdesc_bindNotificationListenerService">Erlaubt dem Inhaber, sich an die Oberfläche der obersten Ebene eines Notification-Listener-Dienstes zu binden. Sollte nie für normale Apps benötigt werden.</string>
@@ -980,7 +980,7 @@ Versuchen Sie es in %2$d Sekunden erneut."</string>
   <string name="permdesc_handoverStatus">Erlaubt dieser App, Informationen zu aktuellen Android Beam-Übertragungen zu erhalten</string>
   <string name="permdesc_imagesWrite">Erlaubt der App, Ihre Fotosammlung zu ändern</string>
   <string name="permdesc_install_shortcut">Erlaubt einer App das Hinzufügen von Verknüpfungen zum Startbildschirm ohne Eingriff des Benutzers</string>
-  <string name="permdesc_invokeCarrierSetup">Erlaubt dem Inhaber, die vom Netzbetreiber bereitgestellte Konfigurations-App aufzurufen. Sollte für normale Apps nie benötigt werden.</string>
+  <string name="permdesc_invokeCarrierSetup">Erlaubt dem Inhaber, die vom Mobilfunkanbieter bereitgestellte Konfigurations-App aufzurufen. Sollte für normale Apps nie benötigt werden.</string>
   <string name="permdesc_killBackgroundProcesses">Erlaubt der App, Hintergrundprozesse anderer Apps zu beenden. Das kann dazu führen, dass andere Apps nicht mehr ausgeführt werden.</string>
   <string name="permdesc_manageFace">Erlaubt der App, Methoden zum Hinzufügen und Löschen von Gesichtsvorlagen für die Verwendung aufzurufen</string>
   <string name="permdesc_manageFingerprint">Erlaubt der App, Methoden zum Löschen und Erstellen von Fingerabdrücken aufzurufen</string>
@@ -1108,8 +1108,8 @@ Versuchen Sie es in %2$d Sekunden erneut."</string>
   <string name="permlab_addVoicemail">Mailboxnachrichten hinzufügen</string>
   <string name="permlab_answerPhoneCalls">Anrufe annehmen</string>
   <string name="permlab_audioWrite">Ihre Musiksammlung ändern</string>
-  <string name="permlab_bindCarrierMessagingService">an einen Netzbetreibernachrichtendienst binden</string>
-  <string name="permlab_bindCarrierServices">an Netzbetreiberdienste binden</string>
+  <string name="permlab_bindCarrierMessagingService">an einen Mobilfunkanbieternachrichtendienst binden</string>
+  <string name="permlab_bindCarrierServices">an Mobilfunkanbieterdienste binden</string>
   <string name="permlab_bindConditionProviderService">an einen Bedingungsproviderdienst binden</string>
   <string name="permlab_bindDreamService">an Dreamdienst binden</string>
   <string name="permlab_bindNotificationListenerService">an Notification-Listener-Dienst binden</string>
@@ -1141,7 +1141,7 @@ Versuchen Sie es in %2$d Sekunden erneut."</string>
   <string name="permlab_handoverStatus">Status von Android Beam-Übertragungen erhalten</string>
   <string name="permlab_imagesWrite">Ihre Fotosammlung ändern</string>
   <string name="permlab_install_shortcut">Verknüpfungen installieren</string>
-  <string name="permlab_invokeCarrierSetup">vom Netzbetreiber bereitgestellte Konfigurations-App aufrufen</string>
+  <string name="permlab_invokeCarrierSetup">vom Mobilfunkanbieter bereitgestellte Konfigurations-App aufrufen</string>
   <string name="permlab_killBackgroundProcesses">andere Apps schließen</string>
   <string name="permlab_manageFace">die Gesichtserkennungs-Hardware verwalten</string>
   <string name="permlab_manageFingerprint">Fingerabdruckhardware verwalten</string>
