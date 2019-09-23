@@ -526,10 +526,10 @@ Abtastrate"</string>
   <string name="call_waiting_tone_title">Anklopfbenachrichtigung</string>
   <string name="call_waiting_tone_twice_and_vibrate">Ton abspielen und zweimal vibrieren</string>
   <string name="call_waiting_tone_twice_only">Ton zweimal abspielen</string>
-  <string name="caller_id_summary">Nummer bei ausgehenden Anrufen verstecken (wenn Ihr Anbieter diese Funktion unterstützt)</string>
+  <string name="caller_id_summary">Nummer bei ausgehenden Anrufen verstecken (wenn Ihr Netzbetreiber diese Funktion unterstützt)</string>
   <string name="caller_id_title">Rufnummernanzeige</string>
   <string name="calling_via_template">Via %s anrufen</string>
-  <string name="callwait_open_hint">\"Anklopfen\" ist eine Funktion, die von Ihrem Anbieter bereitgestellt wird. Wenn Sie eine Fehlermeldung erhalten, kontaktieren Sie Ihren Anbieter und stellen Sie sicher, dass diese Funktion unterstützt wird.</string>
+  <string name="callwait_open_hint">\"Anklopfen\" ist eine Funktion, die von Ihrem Netzbetreiber bereitgestellt wird. Wenn Sie eine Fehlermeldung erhalten, kontaktieren Sie Ihren Netzbetreiber und stellen Sie sicher, dass diese Funktion unterstützt wird.</string>
   <string name="can_not_use_for_not_data_sim">(Kann nicht verwendet werden: Muss als Standarddaten-SIM festgelegt sein)</string>
   <string name="cancel">Abbrechen</string>
   <string name="card_title_MOcall_forwarding">Ausgehender umgeleiteter Anruf</string>
@@ -760,7 +760,7 @@ Tippen Sie 'Löschen und konvertieren…', um fortzufahren."</string>
   <string name="data_usage_title">Datenverbrauch</string>
   <string name="data_usage_uninstalled_apps">Gelöschte Apps</string>
   <string name="data_usage_uninstalled_apps_users">Gelöschet Apps und Benutzer</string>
-  <string name="dc_alert_dialog_message">Einige Apps benötigen eine mobile Datenverbindung. Sie können sich mit Ihrem Anbieter in Verbindung setzen, um zu erfahren, welche %s Ihnen zur Verfügung stehen.</string>
+  <string name="dc_alert_dialog_message">Einige Apps benötigen eine mobile Datenverbindung. Sie können sich mit Ihrem Netzbetreiber in Verbindung setzen, um zu erfahren, welche %s Ihnen zur Verfügung stehen.</string>
   <string name="dc_alert_dialog_title">Datenverbrauchswarnung</string>
   <string name="dds_switch_warning_message_data_off">Konnte SIM %1$s nicht finden. SIM %2$s ist jetzt als Standard für Mobile Daten eingestellt. Mobile Daten sind nun ausgeschaltet.</string>
   <string name="dds_switch_warning_message_data_on">Konnte SIM %1$s nicht finden. SIM %2$s ist jetzt als Standard für Mobile Daten eingestellt. Mobile Daten werden abgeschaltet, um unnötige Kosten zu vermeiden.</string>
@@ -829,9 +829,9 @@ Tippen Sie 'Löschen und konvertieren…', um fortzufahren."</string>
   <string name="direct_boot_unaware_dialog_message">Hinweis: Nach einem Neustart startet diese App nicht eher bis Sie Ihr Telefon entsperren</string>
   <string name="disable">Ausschalten</string>
   <string name="disable_all_cf">Alle Rufumleitungen ausschalten</string>
-  <string name="disable_cfb_forbidden">Ihr Anbieter unterstützt die Deaktivierung der Rufumleitung bei besetzter Leitung nicht</string>
-  <string name="disable_cfnrc_forbidden">Ihr Anbieter unterstützt die Deaktivierung der Rufumleitung bei Nichterreichbarkeit nicht</string>
-  <string name="disable_cfnry_forbidden">Ihr Anbieter unterstützt die Deaktivierung der Rufumleitung bei Nichtbeantwortung nicht</string>
+  <string name="disable_cfb_forbidden">Ihr Netzbetreiber unterstützt die Deaktivierung der Rufumleitung bei besetzter Leitung nicht</string>
+  <string name="disable_cfnrc_forbidden">Ihr Netzbetreiber unterstützt die Deaktivierung der Rufumleitung bei Nichterreichbarkeit nicht</string>
+  <string name="disable_cfnry_forbidden">Ihr Netzbetreiber unterstützt die Deaktivierung der Rufumleitung bei Nichtbeantwortung nicht</string>
   <string name="disable_fdn">Rufnummernbeschränkung ausschalten</string>
   <string name="disable_fdn_ok">Rufnummernbeschränkung einschalten</string>
   <string name="disable_overlays">HW-Overlays deaktivieren</string>
@@ -1010,9 +1010,9 @@ Tippen Sie 'Löschen und konvertieren…', um fortzufahren."</string>
   <string name="force_rtl_layout_all_locales_summary">RTL-Bildschirmlayout für alle Sprachen erzwingen</string>
   <string name="frequecy_num">LTE CHANNEL NUM</string>
   <string name="fw_change_failed">"Rufumleitungsnummer konnte nicht geändert werden.
-Kontaktieren Sie Ihren Anbieter, falls das Problem weiterhin besteht."</string>
+Kontaktieren Sie Ihren Netzbetreiber, falls das Problem weiterhin besteht."</string>
   <string name="fw_get_in_vm_failed">"Aktuelle Rufumleitungseinstellungen wurden nicht empfangen oder gespeichert.
-Trotzdem zum neuen Anbieter wechseln?"</string>
+Trotzdem zum neuen Netzbetreiber wechseln?"</string>
   <string name="general_news_settings">Allgemeine Nachrichten</string>
   <string name="general_setting">Einstellungen</string>
   <string name="get_pin2">PIN2 eingeben</string>
@@ -1098,7 +1098,7 @@ Trotzdem zum neuen Anbieter wechseln?"</string>
   <string name="jump_to_mobile_network_setting">Mobile Netzwerkeinstellungen</string>
   <string name="keep_screen_on">Eingeschaltet lassen</string>
   <string name="keep_screen_on_summary">Bildschirm während des Ladens nicht ausschalten</string>
-  <string name="keywords_carrier_settings_euicc">anbieter, esim, sim, euicc, anbieter wechseln, anbieter hinzufügen</string>
+  <string name="keywords_carrier_settings_euicc">Netzbetreiber, esim, sim, euicc, Netzbetreiber wechseln, Netzbetreiber hinzufügen</string>
   <string name="labelCDMAMore">CDMA-Anrufeinstellungen</string>
   <string name="labelCF">Rufumleitung</string>
   <string name="labelCFB">Umleiten falls besetzt</string>
@@ -1341,7 +1341,7 @@ Trotzdem zum neuen Anbieter wechseln?"</string>
   <string name="no_mobile_data">Mobile Daten nicht verfügbar</string>
   <string name="no_mobile_data_roaming">Datenroaming nicht verfügbar</string>
   <string name="no_unlock_chance_hint">"Sie haben keine Versuche mehr.
-Kontaktieren Sie Ihren Anbieter."</string>
+Kontaktieren Sie Ihren Netzbetreiber."</string>
   <string name="no_vm_number">Fehlende Sprachboxnummer</string>
   <string name="no_vm_number_msg">Auf der SIM-Karte ist keine Sprachboxnummer gespeichert</string>
   <string name="no_voip">SIP-Anrufe werden nicht unterstützt</string>
@@ -2059,10 +2059,10 @@ Nächster Datenzeitraum startet in %2$d Tagen (%3$s)"</string>
   <string name="vice_slot_volte_data_switch_prompt">Ihr Gerät verbindet sich mit einem mobilen Datennetz mit SIM2 während laufender VoLTE-Anrufe. Dadurch können zusätzliche Datengebühren entstehen. Wenden Sie sich an Ihren lokalen Netzbetreiber, um Details zu Ihrem Datentarif zu erfahren.</string>
   <string name="vice_slot_volte_data_switch_summary">Während VoLTE-Anrufen verbindet sich das Gerät mit einem mobilen Datennetz mit SIM2.</string>
   <string name="vice_slot_volte_data_switch_title">Nutzung mobiler Daten bei VoLTE-Anrufen mit SIM2</string>
-  <string name="video_calling_settings_title">Anbieter Videoanruf</string>
+  <string name="video_calling_settings_title">Netzbetreiber Videoanruf</string>
   <string name="vilte_srvcc_tip">Aus Netzwerkgründen auf Sprachanruf umgeschaltet</string>
   <string name="vm_change_failed">"Sprachboxnummer wurde nicht geändert.
-Falls dieses Problem weiterhin besteht, setzen Sie sich mit Ihrem Mobilfunkanbieter in Verbindung."</string>
+Falls dieses Problem weiterhin besteht, setzen Sie sich mit Ihrem Netzbetreiber in Verbindung."</string>
   <string name="vm_change_pin_error_invalid">Neue PIN enthält ungültige Zeichen</string>
   <string name="vm_change_pin_error_mismatch">Alte PIN stimmt nicht</string>
   <string name="vm_change_pin_error_system_error">PIN kann nicht geändert werden</string>
@@ -2089,7 +2089,7 @@ Falls dieses Problem weiterhin besteht, setzen Sie sich mit Ihrem Mobilfunkanbie
   <string name="voice_service_warning_dialog_title">VoLTE Anrufe</string>
   <string name="voicemail">Sprachbox</string>
   <string name="voicemail_change_pin_dialog_title">PIN ändern</string>
-  <string name="voicemail_default">Mein Mobilfunkanbieter</string>
+  <string name="voicemail_default">Ihr Netzbetreiber</string>
   <string name="voicemail_lable">Sprachbox (%s)</string>
   <string name="voicemail_notification_ringtone_title">Ton</string>
   <string name="voicemail_notification_vibarte_when_dialog_title">Vibrieren</string>

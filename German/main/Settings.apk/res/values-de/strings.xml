@@ -1878,7 +1878,7 @@ Damit Sie Ihr Gerät wieder verwenden können, müssen Sie es auf Werkseinstellu
   <string name="data_size_label">Daten</string>
   <string name="data_summary_format">%1$s verbraucht seit %2$s</string>
   <string name="data_switch_started">Daten-SIM wird geändert, kann eine Minute dauern…</string>
-  <string name="data_usage_accounting">Mobilfunkanbieterdaten können vom Gerät abweichen</string>
+  <string name="data_usage_accounting">Die Abrechnung der Netzbetreiberdaten kann von Ihrem Gerät abweichen.</string>
   <string name="data_usage_app">App-Nutzung</string>
   <string name="data_usage_app_info_label">App-Informationen</string>
   <string name="data_usage_app_items_header_text">App-Nutzung</string>
@@ -1918,8 +1918,8 @@ Für einige Konten werden eventuell auch Änderungen, die Sie auf Ihrem Gerät v
   <string name="data_usage_forground_label">Vordergrund:</string>
   <string name="data_usage_label_background">Hintergrund</string>
   <string name="data_usage_label_foreground">Vordergrund</string>
-  <string name="data_usage_limit_dialog_mobile">"Ihre Datenverbindung wird ausgeschaltet, sobald das angegebene Limit erreicht ist.
-Der Datenverbrauch wird von Ihrem Gerät berechnet und kann von der Abrechnung Ihres Mobilfunkanbieters abweichen. Ziehen Sie deshalb die Verwendung eines niedrigen Limits in Betracht."</string>
+  <string name="data_usage_limit_dialog_mobile">"Ihr Telefon schaltet mobile Daten aus, sobald das angegebene Limit erreicht ist.
+Der Datenverbrauch wird von Ihrem Gerät berechnet und kann von der Abrechnung Ihres Netzbetreibers abweichen. Ziehen Sie deshalb die Verwendung eines niedrigen Limits in Betracht."</string>
   <string name="data_usage_limit_dialog_title">Datenverbrauch begrenzen</string>
   <string name="data_usage_limit_editor_title">Limit festlegen</string>
   <string name="data_usage_list_mobile">Mobil</string>
@@ -1963,7 +1963,7 @@ Diese Einstellung betrifft alle Benutzer auf diesem Telefon."</string>
   <string name="data_usage_template">%1$s verwendet zwischen %2$s</string>
   <string name="data_usage_title">Primärdaten</string>
   <string name="data_usage_total_during_range">%2$s: über %1$s verwendet</string>
-  <string name="data_usage_total_during_range_mobile">%2$s: ca. %1$s verbraucht. Dieser Wert kann von dem Ihres Mobilfunkanbieters abweichen.</string>
+  <string name="data_usage_total_during_range_mobile">%2$s: ca. %1$s verbraucht, gemessen mit Ihrem Telefon. Dieser Wert kann von dem Ihres Netzbetreibers abweichen.</string>
   <string name="data_usage_uninstalled_apps">Gelöschte Apps</string>
   <string name="data_usage_uninstalled_apps_users">Gelöschte Apps und Benutzer</string>
   <string name="data_usage_warning_editor_title">Warnung für Datenverbrauch festlegen</string>
@@ -3250,7 +3250,7 @@ Wenn Sie automatische Sicherungen einschalten, werden Geräte- und App-Daten per
   <string name="keywords_lockscreen">Schieben;Passwort;Muster;PIN</string>
   <string name="keywords_model_and_hardware">seriennummer, hardware version</string>
   <string name="keywords_more_default_sms_app">Textnachricht</string>
-  <string name="keywords_more_mobile_networks">Telefon;Mobilfunkanbieter;kabellos</string>
+  <string name="keywords_more_mobile_networks">Mobilfunk, Mobil, Netzbetreiber, Drahtlos, Daten, 4g, 3g, 2g, LTE</string>
   <string name="keywords_network_name_display">Netzwerkname anzeigen</string>
   <string name="keywords_network_reset">zurücksetzen;wiederherstellen;Werkszustand</string>
   <string name="keywords_notification_vibration">Haptik, vibrieren, Sensibilität, Empfindlichkeit</string>
@@ -4555,7 +4555,7 @@ Dies ermöglicht der App auch, Nicht stören ein-/auszuschalten und entsprechend
   <string name="open_wifi_connect_summary">Tippen zum Anzeigen von Details</string>
   <string name="open_wifi_connect_title">Verbinden mit %1$s</string>
   <string name="opening_paragraph_delete_profile_unknown_company">Dieses Arbeitsprofil wird verwaltet von:</string>
-  <string name="operator_warning">Datenverbrauch am Gerät kann von der Berechnung der Mobilfunkanbieter unterscheiden</string>
+  <string name="operator_warning">Die Abrechnung der Netzbetreiberdaten kann von Ihrem Gerät abweichen</string>
   <string name="optimization_cancel">Abbrechen</string>
   <string name="osu_completing_sign_up">Anmeldung abschließen…</string>
   <string name="osu_connect_failed">Verbinden nicht möglich</string>

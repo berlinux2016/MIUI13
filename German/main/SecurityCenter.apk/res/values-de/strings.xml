@@ -368,7 +368,7 @@ Sie verlieren keine App-Daten."</string>
   <string name="back_description_securitycenter">Zurück</string>
   <string name="back_modifypassword">Zurück zur Änderung des Passworttyps</string>
   <string name="back_sound_data">Schalten Sie mobile Daten ein und versuchen Sie es erneut.</string>
-  <string name="back_sound_fail">Einstellungen für den Mobilfunkanbieter wurden nicht geändert. Legen Sie die aktuelle SIM-Karte als Datenkarte fest, stellen Sie eine Verbindung mit dem Netzwerk her und versuchen Sie es erneut.</string>
+  <string name="back_sound_fail">Einstellen nicht möglich. Die Einstellungen des Netzbetreibers wurden geändert. Aktuelle SIM-Karte als Ihre Datenkarte festlegen, mit dem Netzwerk verbinden und erneut versuchen.</string>
   <string name="back_sound_success">Erfolgreich gesetzt</string>
   <string name="back_sound_support">Aktueller Netzbetreiber unterstützt diese Einstellung nicht.</string>
   <string name="background_restrict_app_dialog_message">Einschränkung des Hintergrundnetzwerkzugriffs kann die richtige Funktion der App, den Nachrichtenempfang, das Herunterladen etc. beeinträchtigen. Trotzdem einschränken?</string>
@@ -441,7 +441,7 @@ Sie verlieren keine App-Daten."</string>
   <string name="boot_time">An um %1$s</string>
   <string name="boot_time_day">An in %1$d T um %2$s</string>
   <string name="boot_time_day_tomorrow">An morgen um %1$s</string>
-  <string name="brand_diagnostic">Anbieter-Markentypdiagnose</string>
+  <string name="brand_diagnostic">Netzbtreiber-Markentypdiagnose</string>
   <string name="btn_back">Zurück</string>
   <string name="btn_start_diagnostic">Netzwerkdiagnose</string>
   <string name="btn_text_already_opened">An</string>
@@ -1177,8 +1177,8 @@ Alle Daten auf Ihrem Gerät werden evtl. gelöscht und Ihr Sperrbildschirmpasswo
   <string name="gs_show_way_vertical">Vertikal</string>
   <string name="gs_sign_notification">Erinnern, sich täglich um 20 Uhr anzumelden</string>
   <string name="gs_slip_gamebox_detail">Verwenden Sie den Slider oder wischen Sie vom oberen Bildschirmrand, damit das Tastenfeld angezeigt wird.</string>
-  <string name="guide_get_operator_error">"&lt;font color='#33b4ff'&gt;&lt;U&gt;Falscher Mobilfunkanbieter?&lt;/U&gt;&lt;/font&gt;"</string>
-  <string name="guide_operator_text">"Ihr aktueller Mobilfunkanbieter: "</string>
+  <string name="guide_get_operator_error">"&lt;font color='#33b4ff'&gt;&lt;U&gt;Falscher Netzbetreiber?&lt;/U&gt;&lt;/font&gt;"</string>
+  <string name="guide_operator_text">"Ihr aktueller Netzbetreiber: "</string>
   <string name="guide_quck_open">Einschalten</string>
   <string name="guide_second_text">Wenn Sie Ihren Netzbertreiber eingestellt haben, wird MIUI Ihre mobile Datennutzung täglich durch kostenlose SMS überwachen. Wenn MIUI erkennt, dass Sie Ihr Datenlimit überschritten haben, wird Ihr Gerät vom Netz getrennt und Sie erhalten eine Benachrichtigung.</string>
   <string name="guide_wait_setting">Nicht jetzt</string>
@@ -1347,7 +1347,7 @@ Ihr Netzbetreiber kann Ihnen zusätzliche Kosten berechnen, wenn Sie die mobile 
   <string name="main_purchase_tips">Rabatt</string>
   <string name="main_tc_over">Erfolreich kalibriert</string>
   <string name="main_tc_send_sms">SMS senden, um zu kalibrieren</string>
-  <string name="main_tc_wait_result">Auf Antwort des Mobilfunkanbieters warten</string>
+  <string name="main_tc_wait_result">Auf Netzbetreiberantwort warten</string>
   <string name="main_tobe_added_desc">Mobile Daten für ¥0.03/MB</string>
   <string name="main_today_used">Heute genutzt</string>
   <string name="main_toolbar_firewall">Datennutzung einschränken</string>
@@ -1909,8 +1909,8 @@ Versuchen Sie ein anderes LAN-Kabel am Router. Wenn Sie vermuten, dass der Fehle
   <string name="power_settings_title">Festlegen</string>
   <string name="power_settings_top">Obere Leiste</string>
   <string name="pref_about_traffic_title">Datennutzungseinstellungen</string>
-  <string name="pref_adjust_data_usage">Netzbetreiber-SMS-Vorlage</string>
-  <string name="pref_adjust_data_usage_summary">Nachdem Sie die Kalibrierungsvorlage geändert haben, wird MIUI diese verwenden, um Datenverwendungsstatistiken von Ihrem Mobilfunkanbieter zu erhalten</string>
+  <string name="pref_adjust_data_usage">Netzbetreiber-Nachrichtenvorlage</string>
+  <string name="pref_adjust_data_usage_summary">Nachdem dem ändern der Kalibrierungsvorlage, verwendet MIUI diese, um die Datennutzungsstatistik von Ihrem Netzbetreiber zu erhalten</string>
   <string name="pref_adjust_data_usage_value">Geändert</string>
   <string name="pref_adjust_traffic_data">Datennutzung einstellen</string>
   <string name="pref_allow_connect_network_title">Datenroaming</string>
@@ -1953,11 +1953,11 @@ Versuchen Sie ein anderes LAN-Kabel am Router. Wenn Sie vermuten, dass der Fehle
   <string name="pref_new_installed_preconfig_title">Standard für neue Apps</string>
   <string name="pref_normal_traffic_limit">Wenn das Datenvolumen aufgebraucht ist</string>
   <string name="pref_open_adjust_traffic">Synchronisation der Datennutzungsstatistik mit dem Netzbetreiber</string>
-  <string name="pref_operator_not_set">Mobilfunkanbieter nicht eingestellt</string>
+  <string name="pref_operator_not_set">Kein Netzbetreiber festgelegt</string>
   <string name="pref_over_traffic_limit">Wenn Sie Ihr Datenvolumen überschreiten</string>
   <string name="pref_package_traffic_settings">Datentarif</string>
   <string name="pref_pkg_begin_date">Datum Nutzungsrücksetzung</string>
-  <string name="pref_roaming_daily_limit_setting">Tägliches Datenroaminglimit</string>
+  <string name="pref_roaming_daily_limit_setting">Tägliches Daten-Roaming-Limit festlegen</string>
   <string name="pref_roaming_daily_limit_setting_cat_title">Tägliches Datenlimit</string>
   <string name="pref_roaming_setting_gategory">Einstellungen</string>
   <string name="pref_special_package_setting">Benutzerdef. Datenvolumen</string>
@@ -1973,7 +1973,7 @@ Versuchen Sie ein anderes LAN-Kabel am Router. Wenn Sie vermuten, dass der Fehle
   <string name="pref_title_update_notification">Datennutzungsmeldungen anzeigen</string>
   <string name="pref_title_upload_data_usage">Datennutzungsinfos melden</string>
   <string name="pref_traffic_daily_package">Täglicher Datentarif</string>
-  <string name="pref_traffic_daily_package_brand">Anbieter täglicher Datentarif</string>
+  <string name="pref_traffic_daily_package_brand">Täglicher Datentarifanbieter</string>
   <string name="pref_traffic_manage_title">Datennutzung</string>
   <string name="pref_traffic_monthly_package">Monatlicher Datentarif</string>
   <string name="pref_traffic_package_type_summary">Monatlich/Täglich/Unbegrenzt</string>
