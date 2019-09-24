@@ -174,10 +174,26 @@
   <string name="create_order_fail">Bestellung konnte nicht erstellt werden, erneut versuchen.</string>
   <string name="create_playlist">Wiedergabeliste erstellen</string>
   <string name="create_playlist_failure">Wiedergabeliste erstellen fehlgeschlagen</string>
+  <string name="cross_talk">Stand-up-Aktionen</string>
   <string name="current_version">Aktuelle Version</string>
+  <string name="cta_runtime_perm_desc_account">Kontenzugriff auf Ihrem Gerät, um sich mit dem Mi-Konto anzumelden</string>
+  <string name="cta_runtime_perm_desc_location">Standortzugriff, um lokale Radiosender zur Verfügung zu stellen</string>
+  <string name="cta_runtime_perm_desc_phone">Zugriff auf Geräteinformationen, um Ihr Gerät zu identifizieren</string>
+  <string name="cta_runtime_perm_desc_storage">Zugriff auf den Speicher, um auf Titelbilder und heruntergeladene Dateien zuzugreifen und zu speichern</string>
+  <string name="cta_runtime_perm_desc_storage_single">Zugriff auf den Speicher, um auf Titelbilder und heruntergeladene Dateien zuzugreifen und zu speichern.</string>
   <string name="data_usage_warning">Datennutzung</string>
   <string name="data_usage_warning_summary">Die Verwendung Ihrer mobilen Datenverbindung zum Streamen von hochwertiger Musik kann Ihre Datennutzungsgebühren erhöhen.</string>
   <string name="date_format_str">dd.MM.yyyy</string>
+  <string name="declaration_main_content">"Wir werden Ihre personenbezogenen Daten in Übereinstimmung mit den einschlägigen Gesetzen, Vorschriften und Datenschutzrichtlinien schützen.
+Um normal arbeiten zu können, muss diese App eine Verbindung zum Internet herstellen und benötigt die folgenden Berechtigungen, um Ihre persönlichen Daten zu erfassen:"</string>
+  
+  <string name="declaration_main_content2"><Data>"If you don't agree to grant such permissions or share and upload your personal information, you won't be able to use this app. You can choose to sign out or restrict permissions in the Settings in such cases. Read and agree to our &lt;font color=#0097ff>&lt;a href=%1$s>User Agreement&lt;/a>&lt;/font> and &lt;font color=#0097ff>&lt;a href=%2$s>Privacy Policy&lt;/a>&lt;/font> before using FM Radio."</Data></string>
+  <string name="declaration_main_content2_unloadable"><Data>"If you don't agree to grant such permissions or share and upload your personal information, you won't be able to use this app. You can choose to uninstall this app, sign out, or restrict permissions in the Settings in such cases. Read and agree to our &lt;font color=#0097ff>&lt;a href=%1$s>User Agreement&lt;/a>&lt;/font> and &lt;font color=#0097ff>&lt;a href=%2$s>Privacy Policy&lt;/a>&lt;/font> before using FM Radio."</Data></string>
+  
+  <string name="declaration_main_purpose">Willkommen bei FM Radio! Mit dieser App können Sie die Programme der lokalen und Online-Radiosender hören.</string>
+  <string name="declaration_runtime_perm_desc">"Zugriff auf Geräteinformationen, um Ihr Gerät zu identifizieren.
+Zugriff auf Konten auf Ihrem Gerät, um sich mit dem Mi-Konto anzumelden
+Zugriff auf den Speicher, um auf Titelbilder und heruntergeladene Dateien zuzugreifen und zu speichern"</string>
   <string name="default_songtab_name">Wiedergabelistenkategorien</string>
   <string name="delete">Löschen</string>
   <string name="delete_comment_failed">Kommentar konnte nicht gelöscht werden</string>
@@ -307,6 +323,7 @@
   <string name="edit">Mehrere Elemente löschen</string>
   <string name="editmode_menu_delete">Löschen</string>
   <string name="editmode_menu_share">Teilen</string>
+  <string name="emotion">Im Radio sprechen</string>
   <string name="empty_page_no_album">Keine Alben</string>
   <string name="empty_page_no_artist">Keine Künstler</string>
   <string name="empty_view_default_text">Kein Inhalt</string>
@@ -353,6 +370,7 @@
   <string name="fm_local_not_listening">Noch nicht gehört</string>
   <string name="fm_progress">Abgespielt: %1$s%%</string>
   <string name="fm_progress_finish">Abgespielt</string>
+  <string name="fm_record_smaple_prefix_miui">FM-Aufnahme</string>
   <string name="fm_select_category">Kategorie auswählen</string>
   <string name="fm_sort_hot">Beliebt</string>
   <string name="fm_sort_new">Neu</string>
@@ -400,6 +418,8 @@
   <string name="group_favor">Sender</string>
   <string name="group_other">Andere</string>
   <string name="guide_jump">Springen</string>
+  <string name="guide_radio">Lokalradio hören, wenn Sie offline sind</string>
+  <string name="guide_radio_tip">Kopfhörer anschließen, um ein Empfangssignal zu erhalten</string>
   <string name="handle_later">Nicht jetzt</string>
   <string name="higher_quality_music">Hohe Audioqualität</string>
   <string name="hint_frequency">Frequenz: %1$s ~ %2$s</string>
@@ -408,6 +428,7 @@
   <string name="history_clear">löschen</string>
   <string name="history_clear_fm">Radiowiedergabeverlauf löschen?</string>
   <string name="history_clear_music">Musikwiedergabeverlauf löschen?</string>
+  <string name="hot_list">Top-Charts</string>
   <string name="impunity_declaration_content">Sie müssen unsere %1$s und %2$s lesen und akzeptieren, bevor Sie dieses Produkt verwenden.</string>
   <string name="impunity_declaration_content_agreement">Nutzungsbedingungen</string>
   <string name="impunity_declaration_content_html">&lt;Data&gt;Bevor Sie FM Radio nutzen, müssen Sie unsere &amp;lt;font color=#29b496&amp;gt;&amp;lt;a href=%1$s&amp;gt;Nutzervereinbarung&amp;lt;/a&amp;gt;&amp;lt;/font&amp;gt; und &amp;lt;font color=#29b496&amp;gt;&amp;lt;a href=%2$s&amp;gt;Datenschutzerklärung&amp;lt;/a&amp;gt;&amp;lt;/font&amp;gt; lesen und Ihnen zustimmen. FM Radio muss sich auch mit dem Internet verbinden und Zugriff auf Ihren Standort erhalten, um normal zu funktionieren. Zustimmen?&lt;/Data&gt;</string>
@@ -415,6 +436,7 @@
   <string name="impunity_declaration_content_policy">Datenschutzerklärung</string>
   <string name="impunity_declaration_enjoy_now">Jetzt genießen</string>
   <string name="impunity_declaration_negative_text">Abbrechen</string>
+  <string name="impunity_declaration_negative_text_unloadable">Beenden</string>
   <string name="impunity_declaration_positive_text">Zustimmen</string>
   <string name="impunity_declaration_title">AGB</string>
   <string name="individuation_recommend_message">Schalten Sie die Empfehlungen ein, um personalisierte Vorschläge basierend auf Ihren Präferenzen zu erhalten.</string>
@@ -436,6 +458,16 @@
   <string name="like_comment_success">Gefällt mir</string>
   <string name="list">Sender</string>
   <string name="list_item_play_all_tracks">Alles abspielen</string>
+  <string name="listen_to_broadcast">Radio anhören</string>
+  <string name="listen_to_cross_talk">Stand-up-Acts anhören</string>
+  <string name="listen_to_emotion">Radiogespräche anhören</string>
+  <string name="listen_to_history">Historische Programme anhören</string>
+  <string name="listen_to_hotlist">Top-Charts anhören</string>
+  <string name="listen_to_music">Musik anhören</string>
+  <string name="listen_to_news">Neuigkeiten anhören</string>
+  <string name="listen_to_novel">Hörbücher anhören</string>
+  <string name="listen_to_storytelling">Geschichten anhören</string>
+  <string name="listen_without_headset">Sie können die folgenden Programme ohne Kopfhörer anhören:</string>
   <string name="live_stream_error">Dieses Element ist derzeit aus Copyright-Gründen nicht verfügbar.</string>
   <string name="load_shuffle">Laden…</string>
   <string name="loadercontainer_loading">Einen Moment…</string>
@@ -515,6 +547,7 @@
   <string name="msg_noantenna_message">Keine Kopfhörer erkannt. Einige Funktionen sind eventuell nicht verfügbar.</string>
   <string name="msg_try_plug_headset">Kopfhörer anschließen und erneut versuchen</string>
   <string name="multiple_select">Auswählen</string>
+  <string name="music">Musik</string>
   <string name="music_filter">Audiodateien filtern</string>
   <string name="my_account">Mi Konto</string>
   <string name="my_favorite">Favoriten</string>
@@ -528,6 +561,7 @@
   <string name="new_frequency">Neue Frequenz</string>
   <string name="new_search_instant_title">Suchen： %1$s</string>
   <string name="news_not_interest_positive">Nicht interessiert</string>
+  <string name="news">Neuigkeiten</string>
   <string name="next_station">Nächster Sender</string>
   <string name="next_time">Jetzt nicht</string>
   <string name="no_album_info">Keine Albuminformation</string>
@@ -564,6 +598,7 @@
   <string name="notification_setting">Benachrichtigungseinstellungen</string>
   <string name="notification_settings_summary">Benachrichtigungen über Neuigkeiten und neueste Veröffentlichungen erhalten</string>
   <string name="notification_settings_title">Push->Benachrichtigungen</string>
+  <string name="novel">Hörbücher</string>
   <string name="nowplaying_bottom_bubble">Nach oben ziehen, um mehr zu sehen</string>
   <string name="nowplaying_bottom_statu_view_error">Netzwerk nicht verbunden, erneut klicken</string>
   <string name="nowplaying_bottom_statu_view_normal">Lokale Titel abspielen</string>
@@ -659,7 +694,9 @@
   <string name="playlist_type_my">Meine Abspielliste</string>
   <string name="playlist_type_recommend">Ausgewählte Wiedergabelisten</string>
   <string name="please_download_first">Sie müssen diesen Titel herunterladen, bevor Sie ihn als Klingelton verwenden können.</string>
+  <string name="please_plug_headset">Kopfhörer verbinden</string>
   <string name="please_select_song">Zuerst einen Titel auswählen</string>
+  <string name="poor_signal_due_to_no_headset">Kopfhörer anschließen, um das Signal zu verbessern</string>
   <string name="post_comment_failed">Kommentar konnte nicht veröffentlicht werden</string>
   <string name="post_comment_success">Kommentar erfolgreich veröffentlicht</string>
   <string name="power_save_mode_dialog_msg">Stromsparmodus ist an. Jetzt mit dem Herunterladen beginnen?</string>
@@ -697,6 +734,7 @@
   <string name="recently_played">Zuletzt gespielt</string>
   <string name="recently_played_songs">Zuletzt gespielt</string>
   <string name="recognize_calling_network_error">Netzwerkverbindung fehlgeschlagen. Ein oder zwei Minuten warten und erneut versuchen.</string>
+  <string name="recommend_list">Empfohlen</string>
   <string name="recommended_file_size_download_in_mobile">%s von mobilen Daten verwenden, um diese Datei herunterzuladen?</string>
   <string name="recommended_no_file_size_download_in_mobile">Ihre mobile Datenverbindung benutzen, um diese Datei herunterzuladen?</string>
   <string name="record_completed">Aufnahme abgeschlossen</string>
@@ -825,6 +863,7 @@
   <string name="storage_internal">Internal storage</string>
   <string name="storage_sd_card">SD-Karte</string>
   <string name="storage_usb">USB-Speicher</string>
+  <string name="storytelling">Geschichten</string>
   <string name="subscribe_empty_hint">Elemente, die Sie zu den Favoriten hinzufügen, werden hier angezeigt</string>
   <string name="subscribe_success_location">finden Sie in\"<font color="#FC3F70">Meine</font>-<font color="#FC3F70">angehörten FM-Listen</font>\"</string>
   <string name="swipe_to_load_head_complete_fail">Aktualisieren fehlgeschlagen. Erneut versuchen.</string>
