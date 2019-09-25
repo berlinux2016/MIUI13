@@ -144,9 +144,9 @@ Ihre Konto ID: %s"</string>
   <string name="confirm_delete_app_message">Wenn Sie diese App entfernen, müssen Sie Ihre Telefonnummer verifizieren, wenn Sie sich das nächste Mal an Ihrem Mi Konto anmelden</string>
   <string name="confirm_delete_browser_message">Wenn Sie diesen Browser entfernen, müssen Sie Ihre Telefonnummer verifizieren, wenn Sie sich das nächste Mal an Ihrem Mi Konto anmelden</string>
   <string name="confirm_delete_device_message">Wenn Sie dieses Gerät entfernen, müssen Sie Ihre Telefonnummer verifizieren, wenn Sie sich das nächste Mal an Ihrem Mi Konto anmelden</string>
+  <string name="confirm_new_pwd">Neues Passwort bestätigen</string>
   <string name="confirm_phone_number_dialog_message">Verifikationscode wird gesendet an: %s</string>
   <string name="confirm_phone_number_dialog_title">Telefonnummer bestätigen</string>
-  <string name="confirm_new_pwd">Neues Passwort bestätigen</string>
   <string name="confirm_unbind">Dieses Konto entfernen?</string>
   <string name="confirm_unbundled_phone_dialog_message">Telefonnummer %1$s ist mit dem Mi Konto %2$s verknüpft. Sie wird nicht länger mit dem Mi Konto %3$s verknüpft. Wollen Sie fortsetzen?</string>
   <string name="continue_action">Weiter</string>
@@ -172,12 +172,12 @@ Ihre Konto ID: %s"</string>
 ID: %s
 Bitte senden Sie diesen Code an den Supervisor."</string>
   <string name="empty_device_list_notice">Keine Geräte</string>
+  <string name="ep_unsupported">Ihr Gerät unterstützt keine Anmeldung im Xiaomi-Konto</string>
   <string name="error_dup_binded_email">Diese E-Mailadresse ist bereits mit einem anderen Mi Konto verknüpft</string>
   <string name="error_invalid_bind_address">Eingegebene E-Mailadresse ist ungültig</string>
   <string name="exceed_binded_phone_times_notice">Diese Telefonnummer wurde bereits mit einem anderen Mi Konto verbunden</string>
-  <string name="failed_dup_secure_phone_number">Diese Telefonnummer ist bereits mit einem anderen Mi Konto verknüpft</string>
-  <string name="ep_unsupported">Ihr Gerät unterstützt keine Anmeldung im Xiaomi-Konto</string>
   <string name="exit">Beenden</string>
+  <string name="failed_dup_secure_phone_number">Diese Telefonnummer ist bereits mit einem anderen Mi Konto verknüpft</string>
   <string name="find_device_access_denied">Status kann nicht überprüft werden, Zugriff verweigert</string>
   <string name="find_device_account_error">Status kann wegen eines Kontofehlers nicht überprüft werden</string>
   <string name="find_device_activate_account">Konto aktivieren</string>
@@ -258,8 +258,8 @@ Bitte senden Sie diesen Code an den Supervisor."</string>
   <string name="oauth_getting_scopes">Konto überprüfen…</string>
   <string name="oauth_scopes_intro">&lt;font color=#%1$s&gt;%2$s&lt;/font&gt; erhält folgende Berechtigungen:&lt;br&gt; &lt;br&gt; %3$s</string>
   <string name="oauth_title">Mit Mi Konto anmelden</string>
-  <string name="other_devices_title">Andere Geräte</string>
   <string name="optional_permissions">Optionale Berechtigungen</string>
+  <string name="other_devices_title">Andere Geräte</string>
   <string name="passport_Resend">Erneut senden</string>
   <string name="passport_access_denied">Zugang verweigert</string>
   <string name="passport_account_hint_text">E-Mailadresse oder Mi Konto-ID</string>
@@ -450,10 +450,10 @@ Bitte senden Sie diesen Code an den Supervisor."</string>
   <string name="passport_talkback_switch_image_captcha">Zum Bildüberprüfungscode wechseln</string>
   <string name="passport_talkback_switch_voice_captcha">Zum Sprachverifizierungscode wechseln</string>
   <string name="passport_talkback_voice_captcha">Sprachverifizierungscode abspielen</string>
-  <string name="passport_ticket_login_select_sim_card">SIM-Karte auswählen</string>
-  <string name="passport_ticket_login_select_sim_card_cancel">Abbrechen</string>
+  <string name="passport_ticket_login_select_sim_card">SIM-Karte wählen</string>
   <string name="passport_ticket_login_select_sim_card_1">SIM1</string>
   <string name="passport_ticket_login_select_sim_card_2">SIM2</string>
+  <string name="passport_ticket_login_select_sim_card_cancel">Abbrechen</string>
   <string name="passport_title_reg">Konto erstellen</string>
   <string name="passport_trust_device">Dieses Gerät zu den verifizierten Geräten hinzufügen</string>
   <string name="passport_trying_read_verify_code_sms">Verifikationscode erhalten…</string>
@@ -464,11 +464,11 @@ Bitte senden Sie diesen Code an den Supervisor."</string>
   <string name="passport_use_generated_pwd_title">Passwort merken</string>
   <string name="passport_user_agreement">Nutzervereinbarung</string>
   <string name="passport_user_agreement_link"><Data>"Ich habe Xiaomi's &lt;a href=%1$s>Nutzervereinbarung&lt;/a> und &lt;a href=%2$s>Datenschutzerklärung&lt;/a> gelesen und akzeptiert."</Data></string>
-  <string name="passport_user_agreement_required">Nutzervereinbarung (obligatorisch)</string>
   <string name="passport_user_agreement_p1">"Zustimmen zur "</string>
   <string name="passport_user_agreement_p2">Nutzervereinbarung</string>
   <string name="passport_user_agreement_p3">" und "</string>
   <string name="passport_user_agreement_p4">Datenschutzerklärung</string>
+  <string name="passport_user_agreement_required">Nutzervereinbarung (obligatorisch)</string>
   <string name="passport_user_id_notice">Ihre Mi Konto-ID lautet %s</string>
   <string name="passport_user_reg_region">Land/Region</string>
   <string name="passport_user_reg_region_warning">Sie können Ihr Land/Ihre Region nicht mehr ändern, sobald das Konto erstellt wurde</string>
@@ -542,9 +542,9 @@ Bitte senden Sie diesen Code an den Supervisor."</string>
   <string name="sms_send_success">Gesendet</string>
   <string name="sns_access_token_expired_warning">Anmeldung abgelaufen. Melden Sie sich erneut an, um sich mit diesem Konto zu verbinden.</string>
   <string name="system_ad">Werbung in System-Apps</string>
-  <string name="system_ad_switch">Werbung in System-Apps</string>
-  <string name="system_ad_summary">"Aktivieren Sie diese Funktion, damit eine kleine Anzahl von Werbung in System-Apps angezeigt werden kann. Diese Werbung hilft uns bei der Entwicklung und Verbesserung unserer Produkte und Dienstleistungen. Sie können diese Funktion jederzeit ausschalten. Vielen Dank für Ihre Unterstützung! "</string>
   <string name="system_ad_list">Verwandte Apps anzeigen.</string>
+  <string name="system_ad_summary">"Aktivieren Sie diese Funktion, damit eine kleine Anzahl von Werbung in System-Apps angezeigt werden kann. Diese Werbung hilft uns bei der Entwicklung und Verbesserung unserer Produkte und Dienstleistungen. Sie können diese Funktion jederzeit ausschalten. Vielen Dank für Ihre Unterstützung! "</string>
+  <string name="system_ad_switch">Werbung in System-Apps</string>
   <string name="system_ad_switch_failed">Einstellung wurde nicht übernommen</string>
   <string name="talkback_scan_barcode">QR-Code scannen</string>
   <string name="temporary_not_available">Diese Funktion ist noch nicht verfügbar.</string>
