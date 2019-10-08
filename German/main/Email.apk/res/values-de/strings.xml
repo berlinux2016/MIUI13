@@ -168,6 +168,7 @@
   <string name="add_pre_message_attachments_no">Nicht hinzufügen</string>
   <string name="add_pre_message_attachments_yes">Hinzufügen</string>
   <string name="add_star">Favorisieren</string>
+  <string name="all_purpose">Wilkommen bei Mail! Dieser E-Mail-Client wurde von Kingsoft für Xiaomi erstellt. Mit dieser App können Sie E-Mails senden und empfangen.</string>
   <string name="allread">Alle gelesen</string>
   <string name="always_bcc_myself">Bcc immer an mich</string>
   <string name="always_show_images">Immer Bilder dieses Absenders anzeigen</string>
@@ -277,6 +278,7 @@
   <string name="config">139 Mailbox Telefonnummer konfiguriert</string>
   <string name="config_cancel">Abbrechen</string>
   <string name="config_retry">Wiederholen</string>
+  <string name="confirm_age">Alter bestätigen</string>
   <string name="confirm_before_delete">Vor dem Löschen bestätigen</string>
   <string name="confirm_before_delete_keywords">Vor dem Löschen bestätigen;Löschen bestätigen</string>
   <string name="confirm_before_send">Vor dem Senden bestätigen</string>
@@ -731,7 +733,9 @@ Versuchen Sie einen anderen Posteingang."</string>
   <string name="output_db_summary">Dies wird Ihre Datenbank ausgeben</string>
   <string name="output_db_title">Ausgabe Datenbank</string>
   <string name="output_to_disk">Protokolle in Datei speichern</string>
+  <string name="over_16_content">Über 16 bestätigen?</string>
   <string name="over_due">Überfällig</string>
+  <string name="over_sixteen">Ich bin über 16</string>
   <string name="overlays_fail_tip">Mailbox wurde leider nicht konfiguriert. Öffnen Sie die Berechtigungen für Popup-Benachrichtigungen und versuchen Sie es erneut.</string>
   <string name="overlays_ok">Berechtigungen öffnen</string>
   <string name="overlays_tip">Telefoneinstellungen - App - App-Details - Öffnen Sie Popup-Berechtigungen im Berechtigungsmanager und genießen Sie sofort 139 Mailbox, um das extreme Erlebnis automatisch zu konfigurieren.</string>
@@ -766,12 +770,21 @@ Versuchen Sie einen anderen Posteingang."</string>
   <string name="perference_setup_send_tag">Postausgangsserver</string>
   <string name="permission_access_provider_desc">Erlaubt der App den Zugriff auf Ihre E-Mails, Benutzernamen und Passwörter</string>
   <string name="permission_access_provider_label">Auf Benutzerdaten zugreifen</string>
+  <string name="permission_des_calendar">Zur Synchronisation Ihrer Kalendernachrichten</string>
+  <string name="permission_des_contact">Zum Lesen der Kontakt-E-Mail-Adresse, damit Sie den Mail-Kontakt schnell ausfüllen können</string>
+  <string name="permission_des_detail">Ohne Ihre Zustimmung, solche Berechtigungen zu erteilen oder Ihre persönlichen Daten weiterzugeben und hochzuladen, können Sie diese App nicht nutzen. In diesem Fall können Sie diese App deinstallieren, sich abmelden oder die Berechtigungen in den Einstellungen einschränken.</string>
+  <string name="permission_des_external_storage">Zum Verfassen Ihrer E-Mails und Lesen der lokalen Dateien, um den Prozess zum Hinzufügen und Speichern von Anhängen abzuschließen</string>
+  <string name="permission_des_phone_status">Zum Erhalten der IMEI, um verschiedene Geräte zu unterscheiden</string>
+  <string name="permission_des_storage">Zum Erstellen neuer E-Mails sowie zum Speichern und Hinzufügen von Anhängen</string>
   <string name="permission_read_attachment_desc">Ermöglicht der App, Ihre E-Mailanhänge zu lesen</string>
   <string name="permission_read_attachment_label">E-Mailanhänge lesen</string>
   <string name="permission_tip">Konfiguration fehlgeschlagen, bitte Anrufe und Textnachrichten während der Konfiguration der Berechtigung erlauben</string>
+  <string name="personal_data_collection_summary">Wenn der Schalter eingeschaltet ist, stimmen Sie zu, dass wir Ihre personenbezogenen Daten erfassen dürfen. Sie können den Schalter jederzeit ausschalten, Ihre Berechtigung widerrufen und Ihre Daten von unseren Servern löschen.</string>
+  <string name="personal_data_collection_title">Personenbezogene Daten erfassen</string>
   <string name="phone">Telefon</string>
   <string name="photo_load_failed">Bild wurde nicht geladen</string>
   <string name="photo_view_count" formatted="false">%d von %d</string>
+  <string name="pl_select_age">Bitte Alter auswählen</string>
   <string name="please_fill_in_your_mailbox_information2">Mailbox-Infos eingeben</string>
   <string name="pls_parse_bill_discribe">"Analysiert Rechnungen und Reiseinfos in Ihren E-Mails, um Erinnerungen über Zahlungen und Reisen zu erhalten"</string>
   <string name="policy_app_blacklist">Bestimmte Apps verbieten</string>
@@ -816,6 +829,7 @@ Versuchen Sie einen anderen Posteingang."</string>
   <string name="print_scheduler_title">Alle Planer drucken</string>
   <string name="privacy_des">Protokolle enthalten Debugging-Infos des E-Mail-Clienten und Ihre Geräteinformationen. Diese Informationen werden verwendet, um Probleme schneller zu lokalisieren. Indem Sie unten auf \"%1$s\" tippen, stimmen Sie unserer \"%2$s\" zu.</string>
   <string name="privacy_policy">Datenschutzerklärung</string>
+  <string name="privacy_setting_agree">Zustimmen</string>
   <string name="prompt_title">Nachfragen</string>
   <string name="protocol_setting_toast">Nach Zustimmung in die obere rechte Ecke tippen, um zu den Einstellungen zu gelangen</string>
   <string name="pull_load_more">Hochziehen, um mehr zu laden</string>
@@ -994,6 +1008,8 @@ oder sehen Sie sich die Nachricht auf Ihrem Computer an."</string>
   <string name="service_protocol_discribe"><u>Ich habe den WPS Mail-Servicevertrag gelesen und bin damit einverstanden</u></string>
   <string name="service_protocol_title">Servicevertrag</string>
   <string name="set_network">Netzwerk konfigurieren</string>
+  <string name="setting_kids_subtitle">Alter des Benutzers bestätigen</string>
+  <string name="setting_kids_title">Über 16 Jahre alt</string>
   <string name="settings_activity_title">Einstellungen</string>
   <string name="share_choose">Zu teilende Datei auswählen</string>
   <string name="sharing">Teilen</string>
@@ -1077,6 +1093,8 @@ oder sehen Sie sich die Nachricht auf Ihrem Computer an."</string>
   <string name="turn_auto_sync_on_dialog_title">Automatische Synchronisation aktivieren?</string>
   <string name="unbind_dialog_text">"Die E-Mail-App wird danach nicht mehr in der Lage sein, Ihre Emails zu analysieren.
 Konto entfernen?"</string>
+  <string name="under_16_content">Unter 16 bestätigen?</string>
+  <string name="under_sixteen">Ich bin unter 16</string>
   <string name="undo">Rückgängig</string>
   <string name="unknow">Unbekannt</string>
   <string name="unread_string">Ungelesene Unterhaltung</string>
@@ -1097,6 +1115,8 @@ Konto entfernen?"</string>
   <string name="upload_logs">Protokolldaten hochladen</string>
   <string name="upload_logs_keywords">Protokolldaten hochladen</string>
   <string name="uploading_logs">Einen Moment…</string>
+  <string name="user_privacy_settings">Datenschutzeinstellungen</string>
+  <string name="user_privacy_settings_agreement_authorization">(Durch Antippen von \"Autorisieren\" geben Sie WPS Mail alle erforderlichen Berechtigungen)</string>
   <string name="validation_failed_prompt">Konto wurde nicht verifiziert, Servereinstellungen für %s prüfen</string>
   <string name="verify_code">Verifizierungscode</string>
   <string name="via_domain">über %1$s</string>
