@@ -55,6 +55,7 @@
   <string name="accessibility_filter_open_panel">Filtermenü geöffnet</string>
   <string name="accessibility_filter_pad_close">Filtermenü ist versteckt</string>
   <string name="accessibility_flash_auto">Autoblitz ist an</string>
+  <string name="accessibility_flash_back_soft_light">Blitz funktioniert im Soft-Licht-Modus</string>
   <string name="accessibility_flash_mode_button">Blitztaste</string>
   <string name="accessibility_flash_off">Blitz ist aus</string>
   <string name="accessibility_flash_on">Blitz ist an</string>
@@ -262,6 +263,7 @@ und treten Sie für einen Moment aus dem Blickfeld raus."</string>
   <string name="details">Details</string>
   <string name="details_title">%1$d von %2$d Elementen:</string>
   <string name="dialog_google_lens_option_0">Google Lens (empfohlen)</string>
+  <string name="dirty_tip_toast">Linse ist verschmutzt. Reinigen Sie sie.</string>
   <string name="disable_video_snapshot_hint">Videoschnappschuss ist aus, wenn Spezialeffekte aktiviert sind</string>
   <string name="dismiss_button_content_description">In der Nähe der Kamera</string>
   <string name="do_not_remind_me">Nicht wieder anzeigen</string>
@@ -589,6 +591,9 @@ Für ein besseres Bild, Kameraobjektiv bitte reinigen."</string>
   <string name="module_name_square">Quadrat</string>
   <string name="multi_window_mode_not_supported">Geteilter Bildschirm wird von Kamera nicht unterstützt</string>
   <string name="network_access_user_notice_agree">Zustimmen</string>
+  <string name="network_access_user_notice_message_live_video">&lt;Data&gt;"Kamera muss eine Internetverbindung herstellen, um Effekte, Musik und andere Funktionen für Kurzvideos bereitzustellen.&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt; Wenn Sie unten auf \"Zustimmen\" tippen, akzeptieren Sie unsere &amp;lt;a href =%1$s&amp;gt;Nutzervereinbarung&amp;lt;/a&amp;gt; und &amp;lt;a href =%2$s&amp;gt;Datenschutzerklärung&amp;lt;/a&amp;gt;, und erlauben Kamera die Internetverbindung."&lt;/Data&gt;</string>
+  <string name="network_access_user_notice_message_sticker">&lt;Data&gt;"Kamera benötigt eine Internetverbindung, um Sticker für diese Funktion zu erhalten.&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt; Wenn Sie unten auf \"Zustimmen\" tippen, akzeptieren Sie unsere &amp;lt;a href =%1$s&amp;gt;Nutzervereinbarung&amp;lt;/a&amp;gt; und &amp;lt;a href =%2$s&amp;gt;Datenschutzerklärung&amp;lt;/a&amp;gt;, und erlauben Kamera die Internetverbindung."&lt;/Data&gt;</string>
+  <string name="network_access_user_notice_message_voice_caption">&lt;Data&gt;"Kamera benötigt eine Internetverbindung, um die Sprache-zu-Text-Ausgabe zu ermöglichen.&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt; Wenn Sie unten auf \"Zustimmen\" tippen, akzeptieren Sie unsere &amp;lt;a href =%1$s&amp;gt;Nutzervereinbarung&amp;lt;/a&amp;gt; und &amp;lt;a href =%2$s&amp;gt;Datenschutzerklärung&amp;lt;/a&amp;gt;, und erlauben Kamera die Internetverbindung."&lt;/Data&gt;</string>
   <string name="network_access_user_notice_title">Internetverbindung herstellen</string>
   <string name="no_item_selected_label">Nichts ausgewählt</string>
   <string name="no_save">Nicht speichern</string>
@@ -623,6 +628,7 @@ Für ein besseres Bild, Kameraobjektiv bitte reinigen."</string>
   <string name="path">Pfad</string>
   <string name="path_settings">Einstellungen/System-Apps/Kamera</string>
   <string name="people">Menschen</string>
+  <string name="photo_assistance_tips_title">Live-Tipps</string>
   <string name="photos_portrait_type_description">Porträtmodus hilft Ihnen, den Hintergrund zu verwischen</string>
   <string name="photos_portrait_type_name">Porträtmodus</string>
   <string name="popup_tip_3d_beauty_intro_text">3D-Verschönerung</string>
@@ -656,6 +662,7 @@ Für ein besseres Bild, Kameraobjektiv bitte reinigen."</string>
   <string name="portrait_mode_use_hint_for_bokeh">Versuchen Sie es mit Hochformat.
 Halten Sie das Motiv scharf, während Sie den Hintergrund verwischen.</string>
   <string name="portrait_with_facebeauty_hint">Verschönern ist jetzt im Hochformat verfügbar</string>
+  <string name="pref_960_watermark_title">960FPS Wasserzeichen</string>
   <string name="pref_advance_settings">Erweiterte Einstellungen</string>
   <string name="pref_advanced_functions">Erweiterte Funktionen</string>
   <string name="pref_advanced_settings">Erweitert</string>
@@ -920,9 +927,13 @@ Halten Sie das Motiv scharf, während Sie den Hintergrund verwischen.</string>
   <string name="pref_grp_restore_settings">Einstellungen zurücksetzen</string>
   <string name="pref_hdr_indicator_entry_off">Aus</string>
   <string name="pref_hdr_indicator_entry_on">An</string>
+  <string name="pref_lens_dirty_detect_summary">Benachrichtigung erhalten, wenn die Linse verschmutzt ist</string>
+  <string name="pref_lens_dirty_detect_title">Benachrichtigung über verschmutzte Linse</string>
   <string name="pref_manual_exposure_title">Belichtung</string>
   <string name="pref_new_slow_motion_video_quality_240_720only">Sie können nur 720p-Videos mit 240fps aufnehmen.</string>
   <string name="pref_new_slow_motion_video_quality_960_720only">Sie können nur 720p-Videos mit 960fps aufnehmen.</string>
+  <string name="pref_photo_assistance_tips_off">Aus</string>
+  <string name="pref_photo_assistance_tips_on">An</string>
   <string name="pref_priority_storage_title">Vorrangig auf externer SD-Karte speichern</string>
   <string name="pref_privacy_title">Datenschutzerklärung</string>
   <string name="pref_qc_focus_position_title">Fokus</string>
@@ -992,7 +1003,11 @@ Halten Sie das Motiv scharf, während Sie den Hintergrund verwischen.</string>
   <string name="raw_data_exit_button_text">RAW-Modus verlassen</string>
   <string name="recapture_dialog_message">Wiederholung bestätigen?</string>
   <string name="recapture_dialog_title">Bei einer erneuten Aufnahme wird das aktuelle Bild gelöscht.</string>
+  <string name="recommend_macro_mode">Makromodus testen</string>
+  <string name="recommend_portrait">Porträtmodus testen</string>
+  <string name="recommend_soft_light_tip">Blitz einschalten</string>
   <string name="recommend_soft_light_tip">Blitz im Soft-Light-Modus verwenden</string>
+  <string name="recommend_super_night">Nachtmodus testen</string>
   <string name="record_back_pressed_hint">Noch mal tippen, um Aufnahme zu beenden</string>
   <string name="refocus_discard_confirm_message">Änderungen speichern?</string>
   <string name="refocus_discard_negative_btn">Verwerfen</string>
@@ -1084,6 +1099,9 @@ Halten Sie das Motiv scharf, während Sie den Hintergrund verwischen.</string>
   <string name="sticker_tab2">Lustig</string>
   <string name="success_image_saved_camera">Auf der Kamera gespeichertes Bild.</string>
   <string name="success_message_import_from_account">Importiert</string>
+  <string name="super_eis">Superstabilisierung</string>
+  <string name="super_eis_disabled_hint">Superstabilisierung ist aus</string>
+  <string name="super_night_hint">Bildoptimierung… Halten Sie Ihr Gerät ruhig.</string>
   <string name="super_night_toast">Halten Sie Ihr Telefon ruhig, während Sie ein Foto machen.</string>
   <string name="tap_to_exposure">Berühren, um Belichtung einzustellen</string>
   <string name="tap_to_focus">Zum Fokussieren berühren</string>
@@ -1109,22 +1127,22 @@ Halten Sie das Motiv scharf, während Sie den Hintergrund verwischen.</string>
   <string name="ultra_pixel_photography_48mp_close_tip">48 MP aus</string>
   <string name="ultra_pixel_photography_close_tip">%s Ultra HD ist aus</string>
   <string name="ultra_pixel_photography_open_tip">%s Ultra HD ist an</string>
+  <string name="ultra_pixel_portrait_hint">HD-Porträt</string>
   <string name="ultra_pixel_zoom_no_support_tip">Zoom funktioniert nicht im %s-Ultra-HD-Modus</string>
-  <string name="ultra_tele_use_hint_text_body">"50-facher Zoom für hervorragende Fotos
-Nehmen Sie Momente auf, die weiter entfernt sind"</string>
-  <string name="ultra_tele_use_hint_text_title">50倍超长变焦- 50Double long zoom</string>
+  <string name="ultra_tele_use_hint_text_body">"50X-Zoom verwenden, um entfernte Objekte detaillierter zu erfassen."</string>
+  <string name="ultra_tele_use_hint_text_title">50X-Zoom</string>
   <string name="ultra_wide_bokeh_close_tip">Ganzkörpermodus ist aus</string>
   <string name="ultra_wide_bokeh_open_tip">Ganzkörpermodus</string>
   <string name="ultra_wide_close_tip">Ultraweitwinkelmodus ist aus</string>
   <string name="ultra_wide_mode">Ultraweitwinkel</string>
   <string name="ultra_wide_mode_use_hint_text">"Verwenden Sie diesen Modus, um mehr von der Szene in Ihr Foto aufzunehmen.
 Ultraweitwinkelmodus hilft, wenn man sich nicht weiter von der Szene entfernen kann."</string>
-  <string name="ultra_wide_mode_use_hint_text_sat">"Versuchen Sie den 0,6X Ultraweitwinkelmodus, um mehr von der Szene in Ihr Foto aufzunehmen.
+  <string name="ultra_wide_mode_use_hint_text_sat">"Testen Sie den 0,6X Ultraweitwinkelmodus, um mehr von der Szene in Ihr Foto aufzunehmen.
 Der Ultraweitwinkelmodus hilft, wenn Sie sich nicht weiter von der Szene entfernen können."</string>
   <string name="ultra_wide_open_tip">Ultraweitwinkelmodus</string>
   <string name="ultra_wide_open_tip_sat">0.6X Ultraweitwinkel</string>
-  <string name="ultra_wide_recommend_tip_hint">Mit Ultraweitwinkelmodus versuchen</string>
-  <string name="ultra_wide_recommend_tip_hint_sat">Mit Ultraweitwinkelmodus 0.6X versuchen</string>
+  <string name="ultra_wide_recommend_tip_hint">Ultraweitwinkelmodus testen</string>
+  <string name="ultra_wide_recommend_tip_hint_sat">Auf 0.6X Ultraweitwinkel umschalten</string>
   <string name="undo">Zurück</string>
   <string name="user_agree">Zustimmen</string>
   <string name="user_agreement2">Nutzungsbedingungen</string>
@@ -1145,6 +1163,10 @@ Der Ultraweitwinkelmodus hilft, wenn Sie sich nicht weiter von der Szene entfern
   <string name="videocamera_settings_label">Videoeinstellungen</string>
   <string name="view_privacy_policy">Datenschutzerklärung anzeigen</string>
   <string name="visit_cloud_album">Cloud-Album besuchen</string>
+  <string name="vv_hint">Sie können Vlogs nur im Querformat aufnehmen</string>
+  <string name="vv_stability_hint">Halten Sie Ihr Gerät ruhig</string>
+  <string name="vv_start">Vlog aufnehmen</string>
+  <string name="vv_use_hint_text_body">"Vlog-Modus erlaubt Ihnen, Videos unterwegs aufzunehmen und zu bearbeiten"</string>
   <string name="wait">Abwarten</string>
   <string name="web_url_apk_warning">Diese App stammt aus einer unbekannten Quelle und kann ein Sicherheitsrisiko darstellen. Installieren Sie Apps nur aus vertrauenswürdigen Quellen.</string>
   <string name="web_url_warning">Verlinkte Webseite stammt aus einer unbekannten Quelle und kann ein Sicherheitsrisiko darstellen</string>
