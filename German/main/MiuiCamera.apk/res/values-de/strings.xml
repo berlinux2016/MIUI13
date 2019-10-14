@@ -193,6 +193,8 @@ und treten Sie für einen Moment aus dem Blickfeld raus."</string>
   <string name="cannot_connect_camera_volte_call">Videoanruf läuft noch, bitte versuchen Sie es später.</string>
   <string name="cannot_move_warning_message">Fotoaufnahme, halten Sie das Gerät ruhig!</string>
   <string name="capture_back_pressed_hint">Zum Beenden erneut tippen</string>
+  <string name="ccc_temperature_warning_msg">Ihr Gerät ist überhitzt. Kamera wird in %d Sekunden geschlossen. Ihre Fotos oder Videos werden automatisch gespeichert.</string>
+  <string name="ccc_temperature_warning_title">Gerät ist überhitzt</string>
   <string name="change_bgm">Soundtracks ändern</string>
   <string name="clear_effects">Klare Effekte</string>
   <string name="close">Schließen</string>
@@ -430,6 +432,8 @@ und erstellt dann eine Aufnahme, bei der jeder am besten aussieht"</string>
   <string name="hint_person_name">Name der Person</string>
   <string name="hint_phone">Telefonnummer</string>
   <string name="hint_slow_motion">Aufgenommenes Video wird langsamer abgespielt</string>
+  <string name="hint_subtitle">Untertitel diktieren, während Sie Videos aufnehmen</string>
+  <string name="hint_subtitle_prompt">Sie können jetzt Untertitel diktieren</string>
   <string name="hint_url">Webseite</string>
   <string name="hot_music">Heiße Titel</string>
   <string name="hunt_dual_water_mark">Wasserzeichen \"Dual-Kamera\" wird automatisch hinzugefügt</string>
@@ -966,6 +970,7 @@ Halten Sie das Motiv scharf, während Sie den Hintergrund verwischen.</string>
   <string name="pref_video_speed_fast_title">Zeitraffer</string>
   <string name="pref_video_speed_slow_title">Zeitlupe</string>
   <string name="pref_video_speed_title">Videoaufnahmegeschwindigkeit</string>
+  <string name="pref_video_subtitle">Untertitel</string>
   <string name="pref_video_time_lapse_frame_interval_entry_10">0.3 Sek. Intervall (10-mal)</string>
   <string name="pref_video_time_lapse_frame_interval_entry_120">4 Sek. Intervall (120-mal)</string>
   <string name="pref_video_time_lapse_frame_interval_entry_150">5 Sek. Intervall (150-mal)</string>
@@ -1096,6 +1101,7 @@ Halten Sie das Motiv scharf, während Sie den Hintergrund verwischen.</string>
   <string name="spaceIsLow_content_primary_storage_priority">Speicherplatz auf USB-Speicher wird knapp</string>
   <string name="sticker_tab1">Süß</string>
   <string name="sticker_tab2">Lustig</string>
+  <string name="subtitle_network_exception_tips">Netzwerkverbindung fehlgeschlagen. Transkribieren nicht möglich.</string>
   <string name="success_image_saved_camera">Auf der Kamera gespeichertes Bild.</string>
   <string name="success_message_import_from_account">Importiert</string>
   <string name="super_eis">Superstabilisierung</string>
@@ -1126,7 +1132,7 @@ Halten Sie das Motiv scharf, während Sie den Hintergrund verwischen.</string>
   <string name="ultra_pixel_photography_48mp_close_tip">48 MP aus</string>
   <string name="ultra_pixel_photography_close_tip">%s Ultra HD ist aus</string>
   <string name="ultra_pixel_photography_open_tip">%s Ultra HD ist an</string>
-  <string name="ultra_pixel_portrait_hint">HD-Porträt</string>
+  <string name="ultra_pixel_portrait_hint">Portrait mit schwachem Licht</string>
   <string name="ultra_pixel_zoom_no_support_tip">Zoom funktioniert nicht im %s-Ultra-HD-Modus</string>
   <string name="ultra_tele_use_hint_text_body">"50X-Zoom verwenden, um entfernte Objekte detaillierter zu erfassen."</string>
   <string name="ultra_tele_use_hint_text_title">50X-Zoom</string>
