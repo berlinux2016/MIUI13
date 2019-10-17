@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+  <plurals name="feed_back_home">
+    <item quantity="other">Zurück zur Startseite in %1$d Sekunden…</item>
+    <item quantity="one">Zurück zur Startseite in %1$d Sekunde…</item>
+  </plurals>
   <plurals name="lv_subtitle_offset_advance_times">
     <item quantity="other">Untertitel werden %.1f Sekunden früher gezeigt</item>
     <item quantity="one">Untertitel werden %.1f Sekunde früher gezeigt</item>
@@ -63,5 +67,13 @@
   <plurals name="subscriber">
     <item quantity="other"> Abonnenten</item>
     <item quantity="one"> Abonnent</item>
+  </plurals>
+  <plurals name="subtitle_offset_advance_times">
+    <item quantity="other">Untertitel werden %.1f Sekunden vorwärts verschoben</item>
+    <item quantity="one">Untertitel werden %.1f Sekunde vorwärts verschoben</item>
+  </plurals>
+  <plurals name="subtitle_offset_delay_times">
+    <item quantity="other">Untertitel werden um %.1f Sekunden verzögert</item>
+    <item quantity="one">Untertitel werden um %.1f Sekunde verzögert</item>
   </plurals>
 </resources>
