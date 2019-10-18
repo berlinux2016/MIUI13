@@ -102,56 +102,6 @@ Bevor Sie das Telefon kalibrieren, legen Sie es auf eine ebene Fläche."</string
   <string name="cit_audio_lb_frontmic_to_speaker_title">Frontmikrofon-Rückkopplungstest</string>
   <string name="cit_audio_lb_mainmic_to_earpiece_title">Hauptmikrofon-Rückkopplungstest</string>
   <string name="cit_audio_lb_phonecall_title">Ruftestsimulation</string>
-  <string name="cit_f2_cali">Kalibrierung</string>
-  <string name="cit_f2_cali_done">Kalibrierung fertig!</string>
-  <string name="cit_f2_cali_failed">Kalibrierung fehlgeschlagen, bitte wiederholen!</string>
-  <string name="cit_f2_cali_title">Kamerakalibrierung</string>
-  <string name="cit_f2_calibrating">Kalibrierung läuft…</string>
-  <string name="cit_f2_capture_fail">Aufnahme fehlgeschlagen, bitte wiederholen!</string>
-  <string name="cit_f2_capture_success">Schaltfläche Kalibrierung antippen!</string>
-  <string name="cit_f2_camera_check_summary">"Testanweisungen:
-
-1. Auf Schaltfläche Kalibrierung tippen.
-2. Es wird ein Etikett mit einem Kalibrierungspass geben, das anzeigt, dass die Kamera kalibriert wurde."</string>
-  <string name="cit_no_sim_check_summary">Vergewissern Sie sich, dass das Telefon keine SIM-Karte hat!</string>
-  <string name="cit_no_sim_check_title">Keine SIM-Karte</string>
-  <string name="cit_splash_check_summary">Stellen Sie sicher, dass das Phänomen des schwarzen Bildschirms mehr als 5 Sekunden andauert.</string>
-  <string name="cit_tool_active_mbn">Aktiv</string>
-  <string name="cit_tool_check_opt">Sicher?</string>
-  <string name="cit_tool_check_opt_with_reboot">Wird neu starten, sicher?</string>
-  <string name="cit_tool_current_modem_test_mode">Aktueller Testmodus:</string>
-  <string name="cit_tool_dc_backlight_toast_off">DC-Hintergrundbeleuchtung Aus</string>
-  <string name="cit_tool_dc_backlight_toast_on">DC-Hintergrundbeleuchtung An</string>
-  <string name="cit_tool_getting_expired">Ablaufdatum!</string>
-  <string name="cit_tool_getting_wait">"Auf geht's! Bitte warten…"</string>
-  <string name="cit_tool_mbn_default_notfiy">Standard-MBN</string>
-  <string name="cit_tool_mbn_no_default_notfiy">Kein Standard-MBN</string>
-  <string name="cit_tool_mbn_path_select_hit">Wählen Sie den gesamten Pfad von mbn:</string>
-  <string name="cit_tool_mbn_path_select_notice">Oben nicht gefunden? Hier suchen? Betrifft mcfg, ct, eps etc.</string>
-  <string name="cit_tool_mbn_recovery_default">Standard-MBN wiederherstellen</string>
-  <string name="cit_tool_modem_clear_empty">bereinigen</string>
-  <string name="cit_tool_modem_mbn_config_load_and_active">MBN-Konfigurations-, Lade- und Aktivierungswerkzeug</string>
-  <string name="cit_tool_modem_rf_ant_test">Modem rf ant Testeinstellung</string>
-  <string name="cit_tool_modem_test_clr">gpio-Test schließen</string>
-  <string name="cit_tool_modem_test_get">Update</string>
-  <string name="cit_tool_modem_test_mode">Modemtest Moduseinstellung</string>
-  <string name="cit_tool_modem_test_mode_close">Testmodus schließen</string>
-  <string name="cit_tool_modem_test_mode_closed">Testmodus geschlossen</string>
-  <string name="cit_tool_modem_test_mode_mismatch">Testmodus nicht übereinstimmend</string>
-  <string name="cit_tool_modem_test_mode_opened">Testmodus geöffnet</string>
-  <string name="cit_tool_modem_test_mode_select">Testmodus auswählen:</string>
-  <string name="cit_tool_modem_test_mode_set">Einstellung bestätigen</string>
-  <string name="cit_tool_modem_test_set">bestätigen</string>
-  <string name="cit_tool_no_repeat">Keine Wiederholung!</string>
-  <string name="cit_tool_not_support">Nicht unterstützt</string>
-  <string name="cit_tool_opt_fail_info_notify">Opt fehlgeschlagen, bitte Telefon neustarten, um es erneut zu versuchen.</string>
-  <string name="cit_tool_select_all">Alle auswählen</string>
-  <string name="cit_tool_select_none">Nichts auswählen</string>
-  <string name="cit_tool_select_opposite">Gegenüber auswählen</string>
-  <string name="cit_tool_setting_expired">Einstellung abgelaufen, bitte erneut versuchen!</string>
-  <string name="cit_tool_setting_wait">Einstellung! Bitte warten…</string>
-  <string name="cit_tool_splash_test_title">Splash-Screen-Test</string>
-  <string name="cit_tool_to_fetching">zum Abruf</string>
   <string name="cit_audio_lb_summary_backmic_to_speaker">"Rückmikrofon-Rückkopplungstest.
 
 Drehen Sie das Telefon, sprechen Sie in das hintere Mikrofon, Sie sollten die Stimme im Lautsprecher hören."</string>
@@ -268,6 +218,17 @@ Halten Sie das Telefon so, als ob Sie einen Anruf entgegennehmen, sprechen Sie i
   <string name="cit_emergencycall_check_title">Notruf</string>
   <string name="cit_exit_test_summary">Beim Beenden werden alle zugehörigen Textdaten gelöscht</string>
   <string name="cit_exit_test_title">Test beenden</string>
+  <string name="cit_f2_cali">Kalibrierung</string>
+  <string name="cit_f2_cali_done">Kalibrierung fertig!</string>
+  <string name="cit_f2_cali_failed">Kalibrierung fehlgeschlagen, bitte wiederholen!</string>
+  <string name="cit_f2_cali_title">Kamerakalibrierung</string>
+  <string name="cit_f2_calibrating">Kalibrierung läuft…</string>
+  <string name="cit_f2_capture_fail">Aufnahme fehlgeschlagen, bitte wiederholen!</string>
+  <string name="cit_f2_capture_success">Schaltfläche Kalibrierung antippen!</string>
+  <string name="cit_f2_camera_check_summary">"Testanweisungen:
+
+1. Auf Schaltfläche Kalibrierung tippen.
+2. Es wird ein Etikett mit einem Kalibrierungspass geben, das anzeigt, dass die Kamera kalibriert wurde."</string>
   <string name="cit_fail">Fehlgeschlagen</string>
   <string name="cit_fast_screen_touch_check_title">Touchscreen-Check-Schnelltest</string>
   <string name="cit_finger_check_title">Fingerabdrucktest (FPC)</string>
@@ -367,6 +328,7 @@ Berühren Sie den Bildschirm, um GPS zu starten…"</string>
   <string name="cit_leds_check_title">Benachrichtigungslicht (LED)</string>
   <string name="cit_light_sensor_check_summary">DAC-Wert sollte unten stehen</string>
   <string name="cit_light_sensor_check_title">Lichtsensor</string>
+  <string name="cit_macro_camera_check_title">Makrokameraprüfung</string>
   <string name="cit_magnetic_sensor_check_summary">Werte für X/Y/Z-Koordinaten sollten unten stehen</string>
   <string name="cit_magnetic_sensor_check_title">Magnetsensor</string>
   <string name="cit_main_camera_check_summary">"Testanleitung:
@@ -379,7 +341,10 @@ Berühren Sie den Bildschirm, um GPS zu starten…"</string>
   <string name="cit_main_camera_check_title">Hintere Kamera</string>
   <string name="cit_name">Hardwaretests</string>
   <string name="cit_nfc_check_summary">Bitte legen Sie die Karte oben auf die Rückseite des Telefons</string>
+  <string name="cit_nfc_check_title">NFC-Test</string>
   <string name="cit_nfc_sim_check_summary">Vergewissern Sie sich, dass der Status und die Informationen der NFC-SIM-Karte korrekt angezeigt werden, nur zwei NFC-SIM-Karten gleichzeitig vorhanden sind und bei korrektem Status ist es bestanden.</string>
+  <string name="cit_no_sim_check_summary">Vergewissern Sie sich, dass das Telefon keine SIM-Karte hat!</string>
+  <string name="cit_no_sim_check_title">Keine SIM-Karte</string>
   <string name="cit_not_available">Dieser Test ist auf dieser Version von MIUI nicht verfügbar</string>
   <string name="cit_notificationlight">Benachrichtigungslicht</string>
   <string name="cit_notificationlight_off">Benachrichtigungslicht aus</string>
@@ -462,6 +427,7 @@ Nachdem Sie \"music.mp3\" in das Verzeichnis der SD-Karte gelegt haben, tippen S
   <string name="cit_soft_torch">Vordere Soft-Blitz-LED</string>
   <string name="cit_soft_torch_off">Softblitzlicht ausschalten</string>
   <string name="cit_soft_torch_on">Softblitzlicht einschalten</string>
+  <string name="cit_splash_check_summary">Stellen Sie sicher, dass das Phänomen des schwarzen Bildschirms mehr als 5 Sekunden andauert.</string>
   <string name="cit_start_calibration">Kalibrieren</string>
   <string name="cit_stop_calibration">Kalibrieren stoppen</string>
   <string name="cit_tfcard_support_summary">Prüfen Sie, ob die TF-Karte auf dem Telefon unterstützt wird</string>
@@ -471,6 +437,7 @@ Nachdem Sie \"music.mp3\" in das Verzeichnis der SD-Karte gelegt haben, tippen S
   <string name="cit_tof_sensor_check_summary">Werte für TOF sollten wie folgt aussehen</string>
   <string name="cit_tof_sensor_check_title">TOF-Sensor</string>
   <string name="cit_tool">Weitere Tools</string>
+  <string name="cit_tool_active_mbn">Aktiv</string>
   <string name="cit_tool_active_mbn_notify">Einen Moment warten, um mbn festzulegen</string>
   <string name="cit_tool_asdiv_ant_pos_setting">ANT Position festlegen</string>
   <string name="cit_tool_asdiv_get_result_band_title">Aktuelles ANT Band</string>
@@ -495,9 +462,16 @@ Nachdem Sie \"music.mp3\" in das Verzeichnis der SD-Karte gelegt haben, tippen S
   <string name="cit_tool_cal_camera">Kamera-Kalibrierungstool</string>
   <string name="cit_tool_cal_gyroscope">Gyro-Kalibrierungstool</string>
   <string name="cit_tool_check_cal">Abbrechen</string>
+  <string name="cit_tool_check_opt">Sicher?</string>
+  <string name="cit_tool_check_opt_with_reboot">Wird neu starten, sicher?</string>
+  <string name="cit_tool_current_modem_test_mode">Aktueller Testmodus:</string>
+  <string name="cit_tool_dc_backlight_toast_off">DC-Hintergrundbeleuchtung Aus</string>
+  <string name="cit_tool_dc_backlight_toast_on">DC-Hintergrundbeleuchtung An</string>
   <string name="cit_tool_enable_3A_log">3A log Switch aktivieren</string>
   <string name="cit_tool_enable_display_3A_log">Display 3A log aktivieren</string>
   <string name="cit_tool_exit_modem_mbn">Wiederherstellen auf Auto-MBN</string>
+  <string name="cit_tool_getting_expired">Ablaufdatum!</string>
+  <string name="cit_tool_getting_wait">"Auf geht's! Bitte warten…"</string>
   <string name="cit_tool_log">Protokolle abrufen</string>
   <string name="cit_tool_log_bugreport">Fehlerbericht</string>
   <string name="cit_tool_log_file_not_exist">%s existiert nicht</string>
@@ -505,6 +479,8 @@ Nachdem Sie \"music.mp3\" in das Verzeichnis der SD-Karte gelegt haben, tippen S
   <string name="cit_tool_log_no_sdcard">SD-Karte jetzt einlegen</string>
   <string name="cit_tool_log_toast">Protokoll gespeichert unter %s</string>
   <string name="cit_tool_log_toast_generate_bugreport">Fehlerbericht erstellen (dauert ca. 1 Minute)…</string>
+  <string name="cit_tool_mbn_default_notfiy">Standard-MBN</string>
+  <string name="cit_tool_mbn_no_default_notfiy">Kein Standard-MBN</string>
   <string name="cit_tool_mbn_opt_help">"Bedienungsanleitung:
 1. Schritte zur Aktivierung eines MBN:
 Schritt 1: Wählen Sie den zu aktivierenden Slot des MBN, der normalerweise mit Doppelkarten geladen wird, der Standard sind Doppelkarten.
@@ -514,8 +490,12 @@ Schritt 3: Tippen Sie auf die Schaltfläche Aktivieren, um den ausgewählten MBN
 3. Nun können die Informationen der im aktuellen Modem geladenen MBN angezeigt werden.
 Die erste Zeile zeigt an, ob der vom aktuellen Modem geladene MBN der Standard-MBN des Systems ist. (Einige Produkte sind möglicherweise nicht in die entsprechende Schnittstelle integriert, wie diese Zeile zeigt: Nicht unterstützt)
 Die zweite Zeile zeigt den Namen und die Versionsnummer des Standard-MBN und des Träger-MBN, die derzeit im Modem geladen sind. Unsere benutzerdefinierte MBN ist Carrier MBN, SUB0 ist Karte 1, SUB1 ist Karte 2."</string>
+  <string name="cit_tool_mbn_path_select_hit">Wählen Sie den gesamten Pfad von mbn:</string>
+  <string name="cit_tool_mbn_path_select_notice">Oben nicht gefunden? Hier suchen? Betrifft mcfg, ct, eps etc.</string>
+  <string name="cit_tool_mbn_recovery_default">Standard-MBN wiederherstellen</string>
   <string name="cit_tool_modem">MODEM Testtools</string>
   <string name="cit_tool_modem_bugreport">MODEM Coredump erzwingen</string>
+  <string name="cit_tool_modem_clear_empty">bereinigen</string>
   <string name="cit_tool_modem_cu_volte_no">CU VoLTE deaktivieren</string>
   <string name="cit_tool_modem_cu_volte_no_confirm">CU VoLTE deaktivieren, Neustart zum Wirksamwerden</string>
   <string name="cit_tool_modem_cu_volte_yes">CU VoLTE akivieren</string>
@@ -525,14 +505,29 @@ Die zweite Zeile zeigt den Namen und die Versionsnummer des Standard-MBN und des
   <string name="cit_tool_modem_feature_config_cust">Aktuelle Funktion wie folgt konfigurieren</string>
   <string name="cit_tool_modem_feature_config_default">Aktuelle Funktion als Standard konfigurieren</string>
   <string name="cit_tool_modem_mbn">Modemkonfiguration ändern</string>
+  <string name="cit_tool_modem_mbn_config_load_and_active">MBN-Konfigurations-, Lade- und Aktivierungswerkzeug</string>
   <string name="cit_tool_modem_mbn_opt_fail_notfiy">opt fehlgeschlagen, bitte Telefon neu starten, um erneut zu versuchen</string>
   <string name="cit_tool_modem_offline_log">Offline Protokoll öffnen/schließen</string>
+  <string name="cit_tool_modem_rf_ant_test">Modem rf ant Testeinstellung</string>
+  <string name="cit_tool_modem_test_clr">gpio-Test schließen</string>
   <string name="cit_tool_modem_test_device_value_set">Gerätestatus modifizieren</string>
+  <string name="cit_tool_modem_test_get">Update</string>
+  <string name="cit_tool_modem_test_mode">Modemtest Moduseinstellung</string>
+  <string name="cit_tool_modem_test_mode_close">Testmodus schließen</string>
+  <string name="cit_tool_modem_test_mode_closed">Testmodus geschlossen</string>
+  <string name="cit_tool_modem_test_mode_mismatch">Testmodus nicht übereinstimmend</string>
+  <string name="cit_tool_modem_test_mode_opened">Testmodus geöffnet</string>
+  <string name="cit_tool_modem_test_mode_select">Testmodus auswählen:</string>
+  <string name="cit_tool_modem_test_mode_set">Einstellung bestätigen</string>
+  <string name="cit_tool_modem_test_set">bestätigen</string>
   <string name="cit_tool_modem_test_will_set">Wird den Testmodus öffnen und den DUT neu starten</string>
   <string name="cit_tool_nfc">NFC Testtools</string>
   <string name="cit_tool_nfc_ce_disable">Ce deaktivieren</string>
   <string name="cit_tool_nfc_ce_enable">Ce aktivieren</string>
   <string name="cit_tool_nfc_st_run">Starten</string>
+  <string name="cit_tool_no_repeat">Keine Wiederholung!</string>
+  <string name="cit_tool_not_support">Nicht unterstützt</string>
+  <string name="cit_tool_opt_fail_info_notify">Opt fehlgeschlagen, bitte Telefon neustarten, um es erneut zu versuchen.</string>
   <string name="cit_tool_prx_drx_select_mode">Modus wählen:</string>
   <string name="cit_tool_prx_drx_select_rat">RAT wählen:</string>
   <string name="cit_tool_prx_drx_start_test">Test starten</string>
@@ -540,7 +535,14 @@ Die zweite Zeile zeigt den Namen und die Versionsnummer des Standard-MBN und des
   <string name="cit_tool_radio_infor">Terminal Radioinformation</string>
   <string name="cit_tool_radio_infor_voiceNetworkTech">Terminal Radioinformation</string>
   <string name="cit_tool_rf_ant">RF/Antennentools</string>
+  <string name="cit_tool_select_all">Alle auswählen</string>
+  <string name="cit_tool_select_none">Nichts auswählen</string>
+  <string name="cit_tool_select_opposite">Gegenüber auswählen</string>
+  <string name="cit_tool_setting_expired">Einstellung abgelaufen, bitte erneut versuchen!</string>
+  <string name="cit_tool_setting_wait">Einstellung! Bitte warten…</string>
+  <string name="cit_tool_splash_test_title">Splash-Screen-Test</string>
   <string name="cit_tool_switch_autosms">AutoSMSReg aktivieren/deaktivieren</string>
+  <string name="cit_tool_to_fetching">zum Abruf</string>
   <string name="cit_tool_wifi">WLAN Testtool</string>
   <string name="cit_tool_wifi_exit">Beenden</string>
   <string name="cit_tool_wifi_rx_chan">Rx: Kanal</string>
@@ -570,6 +572,7 @@ Die zweite Zeile zeigt den Namen und die Versionsnummer des Standard-MBN und des
   <string name="cit_tpdump_close">Anzeige deaktivieren</string>
   <string name="cit_tpdump_open">Anzeige aktivieren</string>
   <string name="cit_tpdump_reset">Anzeige zurücksetzen</string>
+  <string name="cit_ultra_camera_check_title">Ultrakameraprüfung</string>
   <string name="cit_usb_OTG_error_condition">"USB-Gerät ist angeschlossen, Geräteinformationen aber nicht abrufnbar.
 Test fehlgeschlagen!"</string>
   <string name="cit_usb_OTG_in">USB OTG-Gerät ist angeschlossen, bitte entfernen und bei USB Typ C umgedreht wieder einstecken</string>
