@@ -46,14 +46,15 @@
   <string name="call_anyone">Anrufen</string>
   <string name="camera_error_title">Kamerafehler</string>
   <string name="cancel">Abbrechen</string>
+  <string name="character_counter_content_description">Zeichenlimit überschritten: %1$d von %2$d</string>
   <string name="choose_open_code_app">Eine App auswählen</string>
+  <string name="choose_pay_title">Zahlungsart auswählen</string>
   <string name="choose_picture">Bild mit dem QR-Code auswählen</string>
   <string name="close_hotspot_when_connecting_to_wifi">Hotspot ist an. WLAN einschalten.</string>
   <string name="common_retake_picture">Neuaufnahme</string>
   <string name="common_retry">Wiederholen</string>
   <string name="common_save">Speichern</string>
   <string name="company">Firma:</string>
-  <string name="once">Nur einmal</string>
   <string name="connect_wifi">Mit Netzwerk verbinden</string>
   <string name="contact_details">QR-Code-Kontakt:</string>
   <string name="continue_access_web_url">Zur Webseite gehen</string>
@@ -61,7 +62,6 @@
   <string name="copy">Kopieren</string>
   <string name="copy_text">Text kopieren</string>
   <string name="copy_text_success">Text kopiert</string>
-  <string name="choose_pay_title">Zahlungsart auswählen</string>
   <string name="crop_cancel_description">Abbrechen</string>
   <string name="crop_done_description">Erledigt</string>
   <string name="crop_title_study">Foto zuschneiden</string>
@@ -111,8 +111,8 @@
   <string name="image_file_name_format">"'scanner'_yyyyMMdd_HHmmss"</string>
   <string name="import_contact">Kontaktimport</string>
   <string name="impunity_declaration_content">"Scanner muss Ihre Kamera verwenden und die Bilder verarbeiten, die Sie während der Nutzung der App aufnehmen. Verwenden Sie Scanner nicht, um Fotos von Objekten zu machen, die Ihre persönlichen Daten enthalten. Mit Tippen auf \"Zustimmen\" sind Sie mit unserer &lt;font color=\"#ff32b4ff\"&gt;&lt;a href=\"http://privacy.mi.com/all/%1$s" style=\"color:#ff32b4ff;\"&gt;Datenschutzerklärung&lt;/a&gt;&lt;/font&gt; einverstanden und erlauben Scanner, sich mit dem Internet zu verbinden."</string>
-  <string name="impunity_declaration_positive_text">Erlauben</string>
   <string name="impunity_declaration_negative_text">Beenden</string>
+  <string name="impunity_declaration_positive_text">Erlauben</string>
   <string name="impunity_declaration_title">Nutzungsbedingungen</string>
   <string name="jd_shopping_title">Auf JD suchen</string>
   <string name="keywords_search_code">Scanner;Scannen;QR Code;QR;Erkennung;Barcode;Barcodes;Produkt;Produkte;Alipay;WeChat;Wie scanne ich QR Codes;How to scan barcode;Wie scanne ich;MIUI Scanner</string>
@@ -171,6 +171,7 @@
   <string name="not_recommend_access_web_url">Trotzdem weiter</string>
   <string name="not_tips">Nicht wieder anzeigen</string>
   <string name="note">Anmerkung:</string>
+  <string name="once">Nur einmal</string>
   <string name="open_url">URL öffnen</string>
   <string name="password_toggle_content_description">Passwort anzeigen</string>
   <string name="path_scanner_setting">Einstellungen/System-Apps/Scanner</string>
@@ -210,13 +211,13 @@
   <string name="secure_access_web_url">Zur Webseite gehen</string>
   <string name="see_app_details">App-Details anzeigen</string>
   <string name="send_mail">E-Mail senden</string>
-  <string name="settings">Einstellungen</string>
   <string name="setting_choose_every_time">Immer fragen</string>
   <string name="setting_default_function">Standardfunktion</string>
   <string name="setting_function_sort">Funktionen neu anordnen</string>
   <string name="setting_preference_pay">Bevorzugte Zahlungsmethode</string>
   <string name="setting_title">Einstellungen</string>
   <string name="setting_use_last_choose">Vorherige Auswahl speichern</string>
+  <string name="settings">Einstellungen</string>
   <string name="shopping_searching">Suchen…</string>
   <string name="shopping_title">Produktfoto aufnehmen</string>
   <string name="shopping_vendor_info">Unterstützt durch Taobao</string>
@@ -277,8 +278,8 @@
   <string name="wifi_details">WLAN:</string>
   <string name="wifi_exist_fail">Hotspot \"%1$s\" existiert bereits. Löschen und erneut scannen, um eine Verbindung herzustellen.</string>
   <string name="wifi_open_fail">WLAN wurde nicht eingeschaltet</string>
+  <string name="wifi_psd_toolong">Passwort zu lang. Manuell eingeben.</string>
   <string name="wifi_pwd">Passwort:</string>
   <string name="wifi_security">Sicherheit:</string>
-  <string name="wifi_psd_toolong">Passwort zu lang. Manuell eingeben.</string>
   <string name="wx_not_installed_toast">Diese Funktion muss WeChat öffnen. Zuerst WeChat installieren.</string>
 </resources>
