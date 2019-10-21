@@ -2,6 +2,7 @@
 <resources>
   <string name="app_name">Einstellungen</string>
   <string name="application_sound">App-Benachrichtigungen</string>
+  <string name="back">Zurück</string>
   <string name="calendar_sound">Erinnerungstöne</string>
   <string name="calendar_tip">Terminerinnerungstöne funktionieren bei Kalendererinnerungen, Notizen und Aufgaben</string>
   <string name="follow_sim1">Einstellungen SIM1 übernehmen</string>
@@ -36,6 +37,10 @@
   <string name="usage_app_system_app_summary">Bildschirmzeit für System-Apps kann nicht begrenzt werden</string>
   <string name="usage_app_weekday_limit">Wochentags</string>
   <string name="usage_app_weekend_limit">An Wochenenden</string>
+  <string name="usage_state_accurate_date">dd. MMMM yyyy</string>
+  <string name="usage_state_add_up_count">Sitzungen</string>
+  <string name="usage_state_add_up_days">Tage</string>
+  <string name="usage_state_add_up_time">Gesamtzeit</string>
   <string name="usage_state_app_remain_time">Verbleibende Zeit: %s</string>
   <string name="usage_state_app_timer">Bildschirmzeit</string>
   <string name="usage_state_app_usage_detail_title">App-Nutzungdetails</string>
@@ -56,6 +61,17 @@
   <string name="usage_state_device_limit_title">Zeitlimits für den Gerätebildschirm</string>
   <string name="usage_state_device_noti_today_tip_title" formatted="false">Benachrichtigungen zwischen %d:00 und %d:00 Uhr</string>
   <string name="usage_state_device_unlock_today_tip_title" formatted="false">Gerät zwischen %d:00 und %d:00 Uhr entsperrt</string>
+  <string name="usage_state_focus_call">Notruf</string>
+  <string name="usage_state_focus_mode_summary">Alle Funktionen außer Notrufe und Kamera einschränken</string>
+  <string name="usage_state_focus_mode_summary1">Gut begonnen ist halb gewonnen</string>
+  <string name="usage_state_focus_mode_summary2">Konzentriert bleiben</string>
+  <string name="usage_state_focus_mode_summary3">Es bedarf einer Anstrengung, um konzentriert zu bleiben.</string>
+  <string name="usage_state_focus_mode_title">Fokussiermodus</string>
+  <string name="usage_state_focus_mode_warning_message">Fokusmodus erlaubt nur Kameraverwendung und Notruffunktionen. Sie können den Fokusmodus nicht vorzeitig deaktivieren.</string>
+  <string name="usage_state_focus_mode_warning_title">Achtung</string>
+  <string name="usage_state_focus_take_photo">Kamera</string>
+  <string name="usage_state_focus_warning_text">Auf etwas Wichtiges konzentrieren</string>
+  <string name="usage_state_focus_weak_summary">Legen Sie Ihr Telefon weg</string>
   <string name="usage_state_friday">Fr</string>
   <string name="usage_state_go_more">Weitere Apps</string>
   <string name="usage_state_hour_minute" formatted="false">%d Std %d Min</string>
@@ -65,21 +81,25 @@
   <string name="usage_state_noti_mourth_day">Benachrichtigungen am %s</string>
   <string name="usage_state_notification">App-Benachrichtigungen</string>
   <string name="usage_state_notification_manager">App-Benachrichtigungen verwalten</string>
+  <string name="usage_state_open_focus_mode">Fokussiermodus einschalten</string>
   <string name="usage_state_remind_new_summary">Benachrichtigung erhalten, wenn die Bildschirmzeit das eingestellte Limit erreicht</string>
   <string name="usage_state_remind_summary">Einschalten, um Bildschirmzeit-Alarme zu erhalten. Sie können verschiedene Zeitlimits für Wochentage und Wochenenden festlegen.</string>
   <string name="usage_state_remind_title">Nutzungslimit einschalten</string>
   <string name="usage_state_rest_day">Wochenende</string>
+  <string name="usage_state_running_days">Serie (Tage)</string>
   <string name="usage_state_saturday">Sa</string>
   <string name="usage_state_set_invalid_time_toast">Limits von weniger als 1 Minute können nicht festgelegt werden</string>
   <string name="usage_state_show_category">Kategorien</string>
   <string name="usage_state_show_detail">Detaillierte Statistiken anzeigen</string>
   <string name="usage_state_show_more">Mehr</string>
+  <string name="usage_state_statistic_data">Statistiken</string>
   <string name="usage_state_sunday">So</string>
   <string name="usage_state_thursday">Do</string>
   <string name="usage_state_time_end">Erreichtes Bildschirmzeitlimit für heute</string>
   <string name="usage_state_today">Heute</string>
   <string name="usage_state_today_total_text">Heute</string>
   <string name="usage_state_tuesday">Di</string>
+  <string name="usage_state_turn_on">Einschalten</string>
   <string name="usage_state_unlock_mourth_day">Entsperrt am %s</string>
   <string name="usage_state_unusage">Wurde heute nicht verwendet</string>
   <string name="usage_state_usage_time">Nutzungslimit festlegen</string>
