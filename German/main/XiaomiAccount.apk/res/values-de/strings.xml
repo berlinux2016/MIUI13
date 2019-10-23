@@ -94,8 +94,8 @@ Ihre Konto ID: %s"</string>
   <string name="binded">Verbunden</string>
   <string name="binded_description" formatted="false">%s wurde mit Ihrem Mi Konto verbunden. Sie können sich jetzt mit %s in Ihrem Mi Konto anmelden.</string>
   <string name="button_unbind">Trennen</string>
-  <string name="change_activate_email">E-Mailadresse ändern</string>
-  <string name="change_email_address">E-Mailadresse ändern</string>
+  <string name="change_activate_email">E-Mail-Adresse ändern</string>
+  <string name="change_email_address">E-Mail-Adresse ändern</string>
   <string name="change_password">Passwort ändern</string>
   <string name="change_phone_number">Telefonnummer ändern</string>
   <string name="collect_diagnosis_log">Diagnoseprotokoll erstellen</string>
@@ -173,8 +173,8 @@ ID: %s
 Bitte senden Sie diesen Code an den Supervisor."</string>
   <string name="empty_device_list_notice">Keine Geräte</string>
   <string name="ep_unsupported">Ihr Gerät unterstützt keine Anmeldung im Xiaomi-Konto</string>
-  <string name="error_dup_binded_email">Diese E-Mailadresse ist bereits mit einem anderen Mi Konto verknüpft</string>
-  <string name="error_invalid_bind_address">Eingegebene E-Mailadresse ist ungültig</string>
+  <string name="error_dup_binded_email">Diese E-Mail-Adresse ist bereits mit einem anderen Mi Konto verknüpft</string>
+  <string name="error_invalid_bind_address">Eingegebene E-Mail-Adresse ist ungültig</string>
   <string name="exceed_binded_phone_times_notice">Diese Telefonnummer wurde bereits mit einem anderen Mi Konto verbunden</string>
   <string name="exit">Beenden</string>
   <string name="failed_dup_secure_phone_number">Diese Telefonnummer ist bereits mit einem anderen Mi Konto verknüpft</string>
@@ -186,7 +186,7 @@ Bitte senden Sie diesen Code an den Supervisor."</string>
   <string name="find_device_error_password_recently_changed">Sie haben Ihr Passwort innerhalb der letzten 3 Tage geändert. Aus Sicherheitsgründen kann \" Gerät finden\" nicht ausgeschaltet werden.</string>
   <string name="find_device_interrupted">Vorgang wurde unterbrochen, versuchen Sie es später noch mal</string>
   <string name="find_device_io_error">Keine Netzwerkverbindung</string>
-  <string name="find_device_locked_account_email" formatted="false">%s, verknüpfte E-Mailadresse: %s</string>
+  <string name="find_device_locked_account_email" formatted="false">%s, verknüpfte E-Mail-Adresse: %s</string>
   <string name="find_device_locked_account_phone" formatted="false">%s, verknüpfte Telefonnummer: %s</string>
   <string name="find_device_message">Gerät ist gesperrt. Nachricht: %1$s. Telefonnummer: %2$s.</string>
   <string name="find_device_null_credential_error">Geräteinformation kann nicht gelesen werden, kontaktieren Sie den Xiaomi Kundenservice</string>
@@ -262,7 +262,7 @@ Bitte senden Sie diesen Code an den Supervisor."</string>
   <string name="other_devices_title">Andere Geräte</string>
   <string name="passport_Resend">Erneut senden</string>
   <string name="passport_access_denied">Zugang verweigert</string>
-  <string name="passport_account_hint_text">E-Mailadresse oder Mi Konto-ID</string>
+  <string name="passport_account_hint_text">E-Mail-Adresse oder Mi Konto-ID</string>
   <string name="passport_account_identity_title">Bestätigen Sie Ihre Identität</string>
   <string name="passport_account_label">Mi Konto</string>
   <string name="passport_account_name">Konto: %1$s</string>
@@ -281,7 +281,7 @@ Bitte senden Sie diesen Code an den Supervisor."</string>
   <string name="passport_bad_authentication">Ungültiger Benutzername oder Passwort</string>
   <string name="passport_barcode_add_account_prompt">Um ein Konto zu verbinden, QR-Code nach der Anmeldung erneut einscannen</string>
   <string name="passport_btn_change_account">Konto ändern</string>
-  <string name="passport_change_account"> <u>Konto wechseln</u> </string>
+  <string name="passport_change_account"> &lt;u&gtKonto wechseln&lt;/u&gt; </string>
   <string name="passport_change_phone_number">Nummern wechseln</string>
   <string name="passport_checking_account">Passwort überprüfen…</string>
   <string name="passport_checking_input">Eingabe überprüfen…</string>
@@ -295,15 +295,15 @@ Bitte senden Sie diesen Code an den Supervisor."</string>
   <string name="passport_copy_message_vcode">Code kopieren</string>
   <string name="passport_delete_account">Abmelden</string>
   <string name="passport_downlink_reg">Telefonnummer</string>
-  <string name="passport_email">E-Mailadresse</string>
-  <string name="passport_email_or_id_hint_text">E-Mailadresse oder Mi Konto-ID</string>
+  <string name="passport_email">E-Mail-Adresse</string>
+  <string name="passport_email_or_id_hint_text">E-Mail-Adresse oder Mi Konto-ID</string>
   <string name="passport_email_reg_success_summary">%1$s wurde mit Ihrem Konto verknüpft. Sie können sich damit anmelden oder Ihr Passwort zurücksetzen.</string>
   <string name="passport_error_auth_fail">Sitzung abgelaufen. Später erneut anmelden</string>
   <string name="passport_error_device_id">Geräte-ID kann nicht gelesen werden</string>
-  <string name="passport_error_dup_email">Diese E-Mailadresse ist bereits mit einem anderen Konto verbunden</string>
-  <string name="passport_error_email">Eingegebene E-Mailadresse ist ungültig</string>
+  <string name="passport_error_dup_email">Diese E-Mail-Adresse ist bereits mit einem anderen Konto verbunden</string>
+  <string name="passport_error_email">Eingegebene E-Mail-Adresse ist ungültig</string>
   <string name="passport_error_empty_captcha_code">Captcha eingeben</string>
-  <string name="passport_error_empty_email">Geben Sie Ihre E-Mailadresse ein</string>
+  <string name="passport_error_empty_email">Geben Sie Ihre E-Mail-Adresse ein</string>
   <string name="passport_error_empty_phone_num">Telefonnummer eingeben</string>
   <string name="passport_error_empty_pwd">Geben Sie Ihr Passwort ein</string>
   <string name="passport_error_empty_username">Geben Sie Ihre Konto-ID ein</string>
@@ -327,7 +327,7 @@ Bitte senden Sie diesen Code an den Supervisor."</string>
   <string name="passport_failed_to_send_activate_email">Aktivierungsmail konnte nicht gesendet werden</string>
   <string name="passport_find_password_on_web_msg">Besuchen Sie account.mi.com, um Ihr Passwort zurückzusetzen.</string>
   <string name="passport_first_login_prompt">Mi Konto wird automatisch erstellt, wenn Sie sich zum ersten Mal anmelden.</string>
-  <string name="passport_forget_password"><u>Passwort vergessen</u></string>
+  <string name="passport_forget_password">&lt;u&gtPasswort vergessen&lt;/u&gt;</string>
   <string name="passport_forget_password_no_underline">Passwort vergessen</string>
   <string name="passport_get_back_pwd">Kontopasswort abrufen</string>
   <string name="passport_get_innetdate_agree">Prüfen</string>
@@ -385,7 +385,7 @@ Bitte senden Sie diesen Code an den Supervisor."</string>
   <string name="passport_quick_login_step2_title">2-stufige Verifikation</string>
   <string name="passport_quick_login_title">Passwort eingeben</string>
   <string name="passport_quick_register">Registrieren</string>
-  <string name="passport_quick_register_notice"><u>Sie haben kein Mi Konto? Erstellen Sie eins!</u></string>
+  <string name="passport_quick_register_notice">&lt;u&gtSie haben kein Mi Konto? Erstellen Sie eins!&lt;/u&gt;</string>
   <string name="passport_re_get_verify_code">Code erneut erhalten</string>
   <string name="passport_re_register">Erneut anmelden</string>
   <string name="passport_recycle_account_prompt">Ist das Ihr Mi Konto?</string>
@@ -399,7 +399,7 @@ Bitte senden Sie diesen Code an den Supervisor."</string>
   <string name="passport_reg_success">Konto erstellt</string>
   <string name="passport_reg_success_summary">%1$s wurde mit dem Konto verknüpft. Sie können es verwenden, um sich anzumelden oder Ihr Passwort zu ändern.</string>
   <string name="passport_reg_type_email">Konto über E-Mail erstellen</string>
-  <string name="passport_reg_using_other_phone"> <u>Alternative Telefonnummer verwenden</u> </string>
+  <string name="passport_reg_using_other_phone"> &lt;u&gtAlternative Telefonnummer verwenden&lt;/u&gt; </string>
   <string name="passport_reg_using_other_phone_number_prompt">"Neues Konto einrichten mit "</string>
   <string name="passport_reg_using_phone_number_prompt">Konto einrichten mit Telefonnummer</string>
   <string name="passport_reg_via_sms_alert">Ihr Mobilfunkanbieter könnte Gebühren berechnen für die SMS zur Aktivierung des Dienstes.</string>
@@ -407,7 +407,7 @@ Bitte senden Sie diesen Code an den Supervisor."</string>
   <string name="passport_register">Konto erstellen</string>
   <string name="passport_register_account_goto_email">Zum Posteingang gehen</string>
   <string name="passport_register_account_verified_confirm">Konto verifiziert</string>
-  <string name="passport_register_by_email"><u>Konto einrichten mit E-Mailadresse</u></string>
+  <string name="passport_register_by_email">&lt;u&gtKonto mit E-Mail-Adresse einrichten&lt;/u&gt;</string>
   <string name="passport_register_restricted">Zu viele Konten mit dieser Nummer verknüpft, versuchen Sie eine andere</string>
   <string name="passport_register_restricted_title">Telefonnummer kann nicht verwendet werden</string>
   <string name="passport_register_using_other_ways">Andere Wege zur Registrierung</string>
@@ -565,8 +565,8 @@ Bitte senden Sie diesen Code an den Supervisor."</string>
 2. Wenn Sie Ihr Passwort nicht zurücksetzen können oder jemand Ihr Gerät gesperrt hat, können Sie es auf i.mi.com entsperren.
 3. Ihre Entsperrnummer: %s"</string>
   <string name="update_contacts">Kontakte aktualisieren</string>
-  <string name="update_email_address_dialog_message">Vor der Aktualisierung der E-Mailadresse müssen Sie Ihre Identität nachweisen</string>
-  <string name="update_email_address_dialog_title">E-Mailadresse aktualisieren</string>
+  <string name="update_email_address_dialog_message">Vor der Aktualisierung der E-Mail-Adresse müssen Sie Ihre Identität nachweisen</string>
+  <string name="update_email_address_dialog_title">E-Mail-Adresse aktualisieren</string>
   <string name="update_phone_notice">Sicherheitseinstellungen ändern</string>
   <string name="update_phone_number_notice_message">Vor der Aktualisierung der Telefonnummer müssen Sie Ihre Identität nachweisen</string>
   <string name="updated_nothing">Aktualisiert</string>

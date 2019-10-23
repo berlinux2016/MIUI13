@@ -71,7 +71,7 @@
   <string name="account_setup_address_label">E-Mail</string>
   <string name="account_setup_autodiscover_dlg_authfail_message">Bestätigen Sie, dass der Benutzername, das Passwort und die Kontoeinstellungen richtig sind</string>
   <string name="account_setup_autodiscover_dlg_authfail_title">Kontoeinrichtung fehlgeschlagen</string>
-  <string name="account_setup_basics_email_label">E-Mailadresse</string>
+  <string name="account_setup_basics_email_label">E-Mail-Adresse</string>
   <string name="account_setup_basics_login_gmail_without_proxy">Anmeldung über das aktuelle Netzwerk</string>
   <string name="account_setup_basics_manual_setup_action">Manuell einrichten</string>
   <string name="account_setup_basics_mi_mail_login_help">Eventuell müssen Sie Ihr Konto per SMS bestätigen, um E-Mails zu erhalten</string>
@@ -81,7 +81,7 @@
   <string name="account_setup_check_settings_check_incoming_msg">Servereinstellungen prüfen…</string>
   <string name="account_setup_check_settings_check_outgoing_msg">SMTP-Einstellungen prüfen…</string>
   <string name="account_setup_check_settings_retr_info_msg">"    Kontoinfos abrufen…"</string>
-  <string name="account_setup_correct_address_tips">E-Mailadresse eingeben</string>
+  <string name="account_setup_correct_address_tips">E-Mail-Adresse eingeben</string>
   <string name="account_setup_creating_account_msg">"    Konto erstellen…"</string>
   <string name="account_setup_deleting_account_msg">"    Konto entfernen…"</string>
   <string name="account_setup_exchange_certificate_title">Client-Zertifikat</string>
@@ -146,7 +146,7 @@
   <string name="account_setup_security_policies_required_fmt">Server %s fordert die Erlaubnis zur Remotesteuerung einiger Sicherheitsfunktionen auf Ihrem Androidgerät. Möchten Sie die Einrichtung dieses Kontos abschließen?</string>
   <string name="account_setup_security_required_title">Remotesicherheitsverwaltung</string>
   <string name="account_setup_server_acc_manager_title">Konten</string>
-  <string name="account_setup_username_password_toast">Geben Sie eine gültige E-Mailadresse und ein gültiges Passwort ein</string>
+  <string name="account_setup_username_password_toast">Geben Sie eine gültige E-Mail-Adresse und ein gültiges Passwort ein</string>
   <string name="account_sync_off">Kontosynchronisation ist ausgeschaltet</string>
   <string name="account_sync_settings_settings">Kontakte und Kalender synchronisieren</string>
   <string name="account_sync_settingstip_description">Synchronisation</string>
@@ -340,7 +340,7 @@
   <string name="conversation_view">Unterhaltungsansicht</string>
   <string name="conversation_view_keywords">Unterhaltung anzeigen;E-Mail Unterhaltung</string>
   <string name="copied">Kopiert</string>
-  <string name="copy_email">E-Mailadresse kopieren</string>
+  <string name="copy_email">E-Mail-Adresse kopieren</string>
   <string name="copy_number">Telefonnummer kopieren</string>
   <string name="create_action">Neu</string>
   <string name="credit_limit_text">Kreditlimit</string>
@@ -411,7 +411,7 @@
   <string name="due_date_text">Endgültige Rückzahlung</string>
   <string name="edit_quick_response_dialog">Kurzantwort</string>
   <string name="edit_signature">Signatur bearbeiten</string>
-  <string name="email_address">E-Mailadresse</string>
+  <string name="email_address">E-Mail-Adresse</string>
   <string name="email_setting">E-Mail</string>
   <string name="email_setting_keywords">Konten;Konto hinzufügen;Mailkonten;E-Mailkonto;E-Mailkonto hinzufügen;Vor dem Löschen bestätigen;Vor dem Senden bestätigen;Nachrichtenverlauf löschen;Weiterleiten;Konversationsansicht;E-Mailkonversation;Mail Akku;Feedback senden</string>
   <string name="email_sync_failed">Synchronisation fehlgeschlagen</string>
@@ -633,7 +633,7 @@
   <string name="mi_sync_erroe_toast_other">"Serverfehler aufgetreten: "</string>
   <string name="mibill_privacy_policy_button1">Später</string>
   <string name="mibill_privacy_policy_button2">Einverstanden</string>
-  <string name="mibill_privacy_policy_description">Erlauben Sie Mi Wallet die automatische Analyse und Verwaltung Ihrer Rechnungen. Diese Funktion ist standardmäßig für arbeitsbezogene E-Mailadressen ausgeschaltet.</string>
+  <string name="mibill_privacy_policy_description">Erlauben Sie Mi Wallet die automatische Analyse und Verwaltung Ihrer Rechnungen. Diese Funktion ist standardmäßig für arbeitsbezogene E-Mail-Adressen ausgeschaltet.</string>
   <string name="mibill_privacy_policy_link">"Durch Verwendung dieser Funktion stimmen Sie unseren "&lt;a href="https://www.mipay.com/res/doc/eula/email.html"&gt;Nutzungsbedingungen&lt;/a&gt; zu"</string>
   <string name="mibill_privacy_policy_title">Rechnungen automatisch verwalten</string>
   <string name="min_payment_text">Mindestbetrag</string>
@@ -721,7 +721,7 @@ Versuchen Sie einen anderen Posteingang."</string>
   <string name="outbox_alert_duplicate_click">Jetzt senden…</string>
   <string name="outbox_alert_edit_resend">Ändern und erneut senden</string>
   <string name="outbox_alert_failed_edit_resend">Senden fehlgeschlagen. Ändern und erneut senden</string>
-  <string name="outbox_alert_mailbox_not_found">E-Mailadresse nicht gefunden</string>
+  <string name="outbox_alert_mailbox_not_found">E-Mail-Adresse nicht gefunden</string>
   <string name="outbox_alert_rw_io_error">Ein Fehler ist aufgetreten. Ein oder zwei Minuten warten und erneut versuchen.</string>
   <string name="outbox_alert_select_operation">Aktion wählen</string>
   <string name="outbox_alert_title_sent_failed">E-Mail wurde nicht gesendet</string>
@@ -1003,7 +1003,7 @@ oder sehen Sie sich die Nachricht auf Ihrem Computer an."</string>
   <string name="ser_resp_err_map_pserr">Benutzername oder Passwort falsch.</string>
   <string name="ser_resp_err_map_serclosed">%s-Server ist geschlossen</string>
   <string name="ser_resp_err_map_ssl">"Wählen Sie in 'Sicherheitstyp' 'SSL/TLS (Alle Zertifikate akzeptieren)'"</string>
-  <string name="service_protocol_discribe"><u>Ich habe den WPS Mail-Servicevertrag gelesen und bin damit einverstanden</u></string>
+  <string name="service_protocol_discribe">&lt;u&gt;Ich habe den WPS Mail-Servicevertrag gelesen und bin damit einverstanden&lt;/u&gt;</string>
   <string name="service_protocol_title">Servicevertrag</string>
   <string name="set_network">Netzwerk konfigurieren</string>
   <string name="setting_kids_subtitle">Alter des Benutzers bestätigen</string>
