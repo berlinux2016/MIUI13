@@ -1090,6 +1090,12 @@ Apps:
   <string name="bluetooth_hid_profile_summary_connected">Mit Eingabegerät verbunden</string>
   <string name="bluetooth_hid_profile_summary_use_for">Für Eingabe verwenden</string>
   <string name="bluetooth_incoming_pairing_msg">Von: %1$s. Koppeln mit diesem Gerät durchführen?</string>
+  <string name="bluetooth_inform_messgae">"Verbindung mit %1$s nicht möglich.
+Das hier könnte schief gelaufen sein:
+1. Bluetooth auf diesem Gerät ist aus oder außerhalb der Reichweite.
+2. Dieses Gerät befindet sich nicht im Erkennungsmodus.
+3. Gerät ist mit anderen Geräten verbunden. Verbindung trennen und erneut versuchen."</string>
+  <string name="bluetooth_inform_messgae_title">Verbindung nicht möglich</string>
   <string name="bluetooth_is_disconnect_question">%1$s trennen?</string>
   <string name="bluetooth_is_discoverable">Sichtbar für alle Bluetooth-Geräte in der Nähe (%1$s)</string>
   <string name="bluetooth_is_discoverable_always">Dieses Gerät für Bluetooth-Geräte in der Nähe sichtbar machen</string>
