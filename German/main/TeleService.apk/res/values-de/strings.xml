@@ -1062,7 +1062,7 @@ Trotzdem zum neuen Mobilfunkanbieter wechseln?"</string>
   <string name="incall_error_outgoing_call_failed">Ausgehender Anruf fehlgeschlagen</string>
   <string name="incall_error_power_off">Flugmodus ausschalten, um einen Anruf zu tätigen</string>
   <string name="incall_error_power_off_wfc">Flugmodus ausschalten oder mit WLAN verbinden zum Telefonieren</string>
-  <string name="incall_error_promote_wfc">WiFi Calling einschalten, um einen Anruf zu tätigen</string>
+  <string name="incall_error_promote_wfc">WLAN-Anrufe einschalten, um einen Anruf zu tätigen</string>
   <string name="incall_error_supp_service_conference">Telefonkonferenz nicht möglich</string>
   <string name="incall_error_supp_service_hangup">Gespräch beenden nicht möglich</string>
   <string name="incall_error_supp_service_hold">Kann keine Anrufe halten</string>
@@ -2123,16 +2123,16 @@ Falls dieses Problem weiterhin besteht, setzen Sie sich mit Ihrem Mobilfunkanbie
   <string name="volte_switch_summary2">Vergewissern Sie sich vor dem Einschalten, dass Ihr Mobilfunkanbieter diese Funktion unterstützt. Andernfalls können reguläre Anrufe beeinträchtigt werden.</string>
   <string name="volte_switch_title">VoLTE verwenden</string>
   <string name="volte_tips_when_turn_on">China Telecom VoLTE-Dienste werden nur in den Gebieten mit VoLTE-Netzabdeckung angeboten. Die VoLTE-Dienste werden vom Mobilfunkanbieter bereitgestellt.</string>
-  <string name="vowifi_emergency_notification_channel">WiFi Calling - Notfallwarnung</string>
+  <string name="vowifi_emergency_notification_channel">WLAN-Anrufe - Notfallwarnung</string>
   <string name="vowifi_emergency_notification_content">Notrufe nur in Gebieten mit Mobilfunkabdeckung</string>
   <string name="vowifi_emergency_notification_title">Vodafone WiFi Calling</string>
   <string name="vowifi_emergency_warning_check">Nicht mehr anzeigen</string>
-  <string name="vowifi_emergency_warning_message">"Notrufe sind über WiFi Calling nicht möglich.
+  <string name="vowifi_emergency_warning_message">"Notrufe sind über WLAN-Anrufe nicht möglich.
 
 Das Gerät wechselt automatisch ins Mobilfunknetz (2G/3G), um einen Notruf zu tätigen.
 
 Notrufe sind nur in Gebieten mit Mobilfunkabdeckung möglich."</string>
-  <string name="vowifi_emergency_warning_title">Notrufe per WiFi Calling</string>
+  <string name="vowifi_emergency_warning_title">Notrufe per WLAN-Anrufe</string>
   <string name="vpn_settings_not_available">VPN-Einstellungen sind für diesen Benutzer nicht verfügbar</string>
   <string name="vvm_unsupported_message_format">Nicht unterstützer Nachrichtentyp, rufen Sie zum Abhören %s an</string>
   <string name="wait_for_debugger">Auf Debugger warten</string>
@@ -2174,18 +2174,33 @@ Wollen Sie sich wieder verbinden, um den Anruf fortzusetzen?"</string>
   <string name="wifi_ap_unable_to_handle_new_sta">Zugangspunkt temporär voll</string>
   <string name="wifi_auth_password_wrong">Passwort scheint falsch zu sein</string>
   <string name="wifi_auto_sel_wapi_cert">Automatisch wählen</string>
+  <string name="wifi_call_accept">Überspringen</string>
   <string name="wifi_call_available_message">Sie können jetzt über WLAN anrufen. Wenn Sie mit WLAN verbunden sind, können Sie auch dann sprechen, wenn Sie sich in Gebieten ohne Mobilfunkabdeckung befinden.</string>
   <string name="wifi_call_available_title">WLAN-Anrufe einschalten</string>
   <string name="wifi_call_cancel">Abbrechen</string>
   <string name="wifi_call_help">Hilfe</string>
   <string name="wifi_call_help_message">Wenn Sie Mobilfunknetze bevorzugen wählen, werden diese standardmäßig für Anrufe verwendet. Für den Fall, dass es kein oder ein sehr schlechtes Mobilfunksignal gibt, wird stattdessen ein WLAN verwendet.</string>
+  <string name="wifi_call_help_message_1">"WLAN-Anrufe sind ein Service von Orange, mit dem Sie Anrufe über WLAN tätigen und empfangen können. Diese Funktion kann in Gebieten mit schlechter Mobilfunkabdeckung eingesetzt werden.
+
+Um WLAN-Anrufe zu verwenden, schalten Sie sie unter Einstellungen &gt; WLAN-Anrufe ein.
+
+Um den Dienst zu aktivieren, sendet Ihnen Orange eine Bestätigungsnachricht, sobald der Dienst verfügbar ist. Danach können Sie sich mit einem WLAN verbinden und Anrufe tätigen.
+
+Anrufe über WLAN werden nach Ihren Tarifbedingungen abgerechnet.
+
+Wann immer diese Funktion verfügbar ist, wird das folgende Symbol oben auf Ihrem Bildschirm angezeigt."</string>
+  <string name="wifi_call_help_message_2">"Wenn Sie WLAN bevorzugen wählen, wird dieses standardmäßig für Telefonate verwendet. Wenn Sie nicht mit WLAN verbunden sind oder das Signal schlecht ist, werden Mobilfunknetze für Anrufe verwendet.
+
+Wenn Sie sich für Mobilfunknetze entscheiden, werden diese standardmäßig für Telefonate verwendet. Bei fehlender Mobilfunkabdeckung oder schlechtem Signal wird stattdessen WLAN verwendet."</string>
   <string name="wifi_call_help_title">Hilfe für WLAN-Anrufe</string>
   <string name="wifi_call_notification_message">Dieser Service wird von Orange angeboten. Es kann mehrere Stunden dauern, bis dieser Dienst aktiviert ist. Sie erhalten eine Bestätigungs-SMS, sobald er verfügbar ist.</string>
+  <string name="wifi_call_preferred_summary">"Wenn Sie sich für Mobilfunknetze entscheiden, werden standardmäßig Mobilfunknetze für Anrufe verwendet. Wenn kein oder ein sehr schlechtes Mobilfunksignal vorhanden ist, wird stattdessen WLAN verwendet."</string>
   <string name="wifi_call_setting">WLAN-Anrufeinstellungen</string>
   <string name="wifi_call_setting_vodafone_de">WLAN-Anruf</string>
   <string name="wifi_call_setting_vodafone_uk">WLAN-Anruf</string>
-  <string name="wifi_calling">WiFi Calling</string>
-  <string name="wifi_calling_settings_title">WiFi Calling</string>
+  <string name="wifi_call_welcome_settings">WLAN-Anrufe</string>
+  <string name="wifi_calling">WLAN-Anrufe</string>
+  <string name="wifi_calling_settings_title">WLAN-Anrufe</string>
   <string name="wifi_cant_connect">Verbinden nicht möglich</string>
   <string name="wifi_cant_connect_to_ap">"Verbinden mit '%1$s' nicht möglich"</string>
   <string name="wifi_check_password_try_again">Passwort prüfen und erneut versuchen</string>
