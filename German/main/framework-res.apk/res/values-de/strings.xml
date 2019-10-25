@@ -543,7 +543,7 @@
   <string name="gpsVerifNo">Nein</string>
   <string name="gpsVerifYes">Ja</string>
   <string name="grant_credentials_permission_message_footer">Anfrage zulassen?</string>
-  <string name="grant_credentials_permission_message_header">Folgende Apps benötigen aktuell und zukünftig die Berechtigung zum Zugriff auf Ihr Konto.</string>
+  <string name="grant_credentials_permission_message_header">Folgende Apps benötigen aktuell und zukünftig die Berechtigung zum Kontozugriff:</string>
   <string name="grant_permissions_header_text">Zugriffsanfrage</string>
   <string name="granularity_label_character">Zeichen</string>
   <string name="granularity_label_line">Zeile</string>
@@ -1000,7 +1000,7 @@ Versuchen Sie es in %2$d Sekunden erneut."</string>
   <string name="permdesc_readHistoryBookmarks">Erlaubt der App, den Verlauf aller mit dem Browser besuchten URLs und sämtliche Lesezeichen des Browsers zu lesen. Hinweis: Diese Berechtigung kann nicht von Browsern von Drittanbietern oder anderen Apps mit Internetfunktionen erzwungen werden.</string>
   <string name="permdesc_readInstallSessions">Erlaubt der App, Installationssitzungen zu lesen. Dadurch kann diese Details aktiver Paketinstallationen abrufen.</string>
   <string name="permdesc_readNetworkUsageHistory">Erlaubt der App, Daten zur bisherigen Netzwerknutzung für bestimmte Netzwerke und Apps zu lesen</string>
-  <string name="permdesc_readPhoneNumbers">Erlaubt der App den Zugriff auf die Telefonnummern im Gerät.</string>
+  <string name="permdesc_readPhoneNumbers">Erlaubt der App den Zugriff auf Telefonnummern im Gerät.</string>
   <string name="permdesc_readPhoneState">Erlaubt der App, auf die Telefonfunktionen des Geräts zuzugreifen. Die Berechtigung erlaubt der App, die Telefonnummer und Geräte-IDs zu erfassen, festzustellen, ob gerade ein Gespräch geführt wird, und die Rufnummer verbundener Anrufer zu lesen.</string>
   <string name="permdesc_readSms">Erlaubt der App, auf Ihrem Telefon oder Ihrer SIM-Karte gespeicherte SMS zu lesen. Die App kann alle SMS lesen, unabhängig von Inhalt und Vertraulichkeit.</string>
   <string name="permdesc_readSyncSettings">Erlaubt der App, die Synchronisationseinstellungen eines Kontos zu lesen. Z. B. kann damit festgestellt werden, ob Kontakte mit einem Konto synchronisiert werden.</string>
@@ -1085,7 +1085,7 @@ Versuchen Sie es in %2$d Sekunden erneut."</string>
   <string name="permgrouprequest_sensors">&lt;b&gt;%1$s&lt;/b&gt; Zugriff auf Sensordaten Ihrer Vitalparameter erlauben?</string>
   <string name="permgrouprequest_sms">&lt;b&gt;%1$s&lt;/b&gt; erlauben, SMS zu senden und zu lesen?</string>
   <string name="permgrouprequest_storage">&lt;b&gt;%1$s&lt;/b&gt; Zugriffe auf Fotos, Medien und Dateien auf Ihrem Gerät erlauben?</string>
-  <string name="permgrouprequestdetail_location">App hat nur Zugriff auf den Standort, während Sie die App verwenden</string>
+  <string name="permgrouprequestdetail_location">App hat nur Standortzugriff, während Sie die App verwenden</string>
   <string name="permission">Erlauben</string>
   <string name="permission_remember_choice">Merken</string>
   <string name="permission_request_notification_title">Berechtigung angefordert</string>
