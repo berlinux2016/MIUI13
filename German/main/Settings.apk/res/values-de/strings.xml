@@ -2634,6 +2634,7 @@ Für weitere Informationen wenden Sie sich bitte an den Admin Ihres Unternehmens
   <string name="files_backup_info">Alle Dateien auf der SD-Karte (inkl. Fotos, Musik, Videos, App-Daten usw.)</string>
   <string name="filter_all_apps">Alle Apps</string>
   <string name="filter_apps_all">Alle</string>
+  <string name="filter_apps_cached">Im Cache</string>
   <string name="filter_apps_disabled">Deaktiviert</string>
   <string name="filter_apps_onsdcard">USB-Speicher</string>
   <string name="filter_apps_running">Aktiv</string>
@@ -2701,11 +2702,14 @@ Für weitere Informationen wenden Sie sich bitte an den Admin Ihres Unternehmens
   <string name="fingerprint_swipe_for_notifications_suggestion_title">Benachrichtigungen schnell sehen</string>
   <string name="fingerprint_swipe_for_notifications_summary">Um Ihre Benachrichtigungen zu prüfen, tippen Sie auf den Fingerabdrucksensor auf der Rückseite Ihres Telefons.</string>
   <string name="fingerprint_swipe_for_notifications_title">Fingerabdruck wischen für Benachrichtigungen </string>
+  <string name="fingerprint_unlock_press_type">Drücken</string>
   <string name="fingerprint_unlock_set_unlock_password">Fingerabdruck + Password</string>
   <string name="fingerprint_unlock_set_unlock_pattern">Fingerabdruck + Muster</string>
   <string name="fingerprint_unlock_set_unlock_pin">Fingerabdruck + PIN</string>
   <string name="fingerprint_unlock_skip_fingerprint">Ohne Fingerabdruck fortfahren</string>
   <string name="fingerprint_unlock_title">Sie können Ihr Telefon mit Ihrem Fingerabdruck entsperren. Aus Sicherheitsgründen erfordert diese Option eine Ersatz-Bildschirmsperre.</string>
+  <string name="fingerprint_unlock_touch_type">Berühren</string>
+  <string name="fingerprint_unlock_type">Methode Fingerabdruckerkennung</string>
   <string name="fingerprint_usage_category_title">Fingerabdruck verwenden für</string>
   <string name="fingerprint_wakeup_summary">Bildschirm einschalten, wenn keine Fingerabdrücke registriert wurden.</string>
   <string name="fingerprint_wakeup_title">Auf Fingerabdrucksensor tippen, um Bildschirm einzuschalten</string>
@@ -5377,14 +5381,18 @@ Mindestens %s freigeben."</string>
   <string name="screen_compatibility_text">Eventuell ist diese App nicht für Ihren Bildschirm ausgelegt. Hier können Sie festlegen, wie Sie an Ihren Bildschirm angepasst wird.</string>
   <string name="screen_confirm">Einschalten</string>
   <string name="screen_dark_mode_time_title">Zeitplan</string>
-	<string name="screen_dark_mode_advanced_title">Erweitert</string>
-	<string name="screen_dark_mode_smart_dark_title">Dark Mode überall</string>
-	<string name="screen_dark_mode_smart_dark_summary">Dark Mode auch auf Apps von Drittanbietern anwenden. Einige Apps werden möglicherweise falsch angezeigt.</string>
-	<string name="screen_dark_mode_select_time_error_summary">Startzeit und Endzeit dürfen nicht identisch sein</string>
+  <string name="screen_dark_mode_advanced_title">Erweitert</string>
+  <string name="screen_dark_mode_smart_dark_title">Dark Mode überall</string>
+  <string name="screen_dark_mode_select_time_error_summary">Startzeit und Endzeit dürfen nicht identisch sein</string>
+  <string name="screen_dark_mode_smart_dark_summary">Dark Mode auch auf Apps von Drittanbietern anwenden. Einige Apps werden möglicherweise falsch angezeigt.</string>
   <string name="screen_effect">Farbgebung</string>
   <string name="screen_fps_summary">Eine höhere Aktualisierungsrate macht das Bild glatter, während eine niedrigere Aktualisierungsrate den Akku schont</string>
+  <string name="screen_fps_summary_power_save">Verwendung eines festen Taktes verbraucht weniger Strom</string>
+  <string name="screen_fps_summary_smooth">Einige Apps erhöhen die Aktualisierungsrate automatisch, um die Bildqualität zu verbessern</string>
   <string name="screen_fps_title">Aktualisierungsrate</string>
   <string name="screen_fps_unit">%d Hz</string>
+  <string name="screen_fps_unit_power_save">%d Hz (spart Akku)</string>
+  <string name="screen_fps_unit_smooth">%d Hz (bessere Qualität)</string>
   <string name="screen_key_long_press">Langer Tastendruck</string>
   <string name="screen_key_long_press_action">Optionen</string>
   <string name="screen_key_long_press_timeout">Verzögerung</string>
@@ -7146,6 +7154,7 @@ Ihre gespeicherten Fingerabdrücke werden auch aus diesem Profil entfernt und Si
   <string name="unlock_set_unlock_pin_summary" formatted="false">4-16 Ziffern eingeben zum Entsperren</string>
   <string name="unlock_set_unlock_summary">Bitte Bildschirmsperre einschalten</string>
   <string name="unlock_setup_wizard_fingerprint_details">Sobald Sie eine Bildschirmsperre eingerichtet haben, können Sie Ihren Fingerabdruck unter Einstellungen &gt; Sicherheit einrichten</string>
+  <string name="unlock_type_category_title">Erkennungsmethode</string>
   <string name="unmount_inform_text">USB-Speicher wird getrennt</string>
   <string name="unmute_sound_title">Stummschalten aus</string>
   <string name="unrestrict_max_aspect_ratio_title">Diese Apps sind für den Vollbildmodus optimiert</string>
@@ -7654,7 +7663,7 @@ Jeder Benutzer kann aktualisierte App-Berechtigungen für alle anderen Benutzer 
   <string name="wapi_password_empty">Passwort eingeben</string>
   <string name="wapi_password_hex_format_add">Sie müssen eine gerade Anzahl an hexadezimalen Zeichen verwenden</string>
   <string name="wapi_password_hex_format_invalid">Ungültiges Passwortformat</string>
-  <string name="wapi_password_hex_length_invalid">Anzahl der hexadezimalen Zeichen muss gerade Zahl sein</string>
+  <string name="wapi_password_hex_length_invalid">Anzahl der hexadezimalen Zeichen muss eine gerade Zahl sein</string>
   <string name="wapi_password_is_empty">Passwort darf nicht leer sein</string>
   <string name="wapi_password_is_not_hex_format">Ungültige hexadezimale Zeichen</string>
   <string name="wapi_password_length_invalid">Passwort muss 8-64 Zeichen lang sein</string>
@@ -7674,6 +7683,7 @@ Jeder Benutzer kann aktualisierte App-Berechtigungen für alle anderen Benutzer 
   <string name="weight_light">Dünn</string>
   <string name="weight_setting_toast">Sie können die Schriftstärke nur für die Standardschriftart des Systems ändern</string>
   <string name="welcome">Willkommen</string>
+  <string name="wellbing_title">Digitales Wohlbefinden &amp; Kindersicherung</string>
   <string name="wfc_disclaimer_agree_button_text">FORTFAHREN</string>
   <string name="wfc_disclaimer_disagree_text">NEIN DANKE</string>
   <string name="wfc_disclaimer_emergency_limitation_desc_text">"Notrufe über WLAN-Anrufe werden von Ihrem Mobilfunkanbieter nicht unterstützt.
