@@ -16,18 +16,18 @@
     <item quantity="other">In 1 halben Stunde</item>
   </plurals>
   <plurals name="abbrev_in_less_than_one_minute">
-    <item quantity="other">Sofort</item>
+    <item quantity="other">Bald</item>
   </plurals>
   <plurals name="abbrev_in_num_minutes">
     <item quantity="other">In %d Min</item>
-    <item quantity="one">In 1 Min</item>
+    <item quantity="one">In %d Min</item>
   </plurals>
   <plurals name="abbrev_less_than_one_minute_ago">
     <item quantity="other">Gerade eben</item>
   </plurals>
   <plurals name="abbrev_num_minutes_ago">
     <item quantity="other">Vor %d Min</item>
-    <item quantity="one">Vor 1 Min</item>
+    <item quantity="one">Vor %d Min</item>
   </plurals>
   <plurals name="add_secret_ensure_message">
     <item quantity="other">Diese Dateien verstecken?</item>
@@ -94,8 +94,12 @@
     <item quantity="one">%d Element ist zu groß, um es zu sichern</item>
   </plurals>
   <plurals name="backup_pause_desc">
-    <item quantity="other">%d Fotos oder Videos | angehalten</item>
-    <item quantity="one">%d Foto oder Video | angehalten</item>
+    <item quantity="other">Fortsetzung in %d Min</item>
+    <item quantity="one">Fortsetzung in %d Min</item>
+  </plurals>
+  <plurals name="backup_pause_dialog_message">
+    <item quantity="other">Synchronisation von Fotos, Videos, Kontakten, Notizen und anderen Elementen mit der Cloud für %d Minuten anhalten</item>
+    <item quantity="one">Synchronisation von Fotos, Videos, Kontakten, Notizen und anderen Elementen mit der Cloud für %d Minute anhalten</item>
   </plurals>
   <plurals name="backuping_desc_gprs">
     <item quantity="other">%1$d Fotos und Videos | %2$s</item>
@@ -262,7 +266,7 @@
   </plurals>
   <plurals name="number_of_uploading_images">
     <item quantity="other">%1$d Fotos synchronisieren…</item>
-    <item quantity="one">Foto synchronisieren…</item>
+    <item quantity="one">%1$d Foto synchronisieren…</item>
   </plurals>
   <plurals name="number_of_uploading_images_and_videos">
     <item quantity="other">%1$d Elemente synchronisieren…</item>
@@ -270,7 +274,7 @@
   </plurals>
   <plurals name="number_of_uploading_videos">
     <item quantity="other">%1$d Videos synchronisieren…</item>
-    <item quantity="one">Video synchronisieren…</item>
+    <item quantity="one">%1$d Video synchronisieren…</item>
   </plurals>
   <plurals name="number_of_videos_synced">
     <item quantity="other">%1$d Videos</item>
