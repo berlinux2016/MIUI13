@@ -81,7 +81,7 @@
   <string name="dialog_legal_workday_desc">Uhr darf keine Verbindung zum Internet herstellen, um die Informationen über die Arbeitstage zu aktualisieren. Wochentagsalarme werden von Montag bis Freitag ausgelöst.</string>
   <string name="dialog_message_agree">Zustimmen</string>
   <string name="dialog_message_for_contact_permission">Um Geburtstagswecker verfügbar zu machen, muss die Uhr auf Ihre Kontakte zugreifen. Zustimmen?</string>
-  <string name="dialog_message_negative">Nicht zustimmen</string>
+  <string name="dialog_message_negative">Ablehnen</string>
   <string name="dialog_message_not_remind">Nicht mehr anzeigen</string>
   <string name="dialog_net_permission_in_repeat_type"><Data>Diese Funktion muss mit dem Internet verbunden sein, um normal zu funktionieren. Bevor Sie diese Funktion nutzen können, müssen Sie unsere &lt;a href=\"%1$s\">Nutzervereinbarung&lt;/a> und &lt;a href=\"%2$s\">Datenschutzerklärung&lt;/a> akzeptieren. Zustimmen?</Data></string>
   <string name="dialog_privacy_content">Um relevante Informationen über lokale Feiertage zu erhalten und zu synchronisieren und personalisierte Dienste anzubieten, muss die Uhr eine Verbindung zum Internet herstellen. Bevor Sie diese benutzen, müssen Sie auch unsere %1$s und %2$s lesen und akzeptieren. Zustimmen?</string>
@@ -126,7 +126,7 @@
   <string name="legal_off_day_message">" (Wecker wird werktags nicht ausgelöst)"</string>
   <string name="legal_workday">Zus. Arbeitstag</string>
   <string name="legal_workday_invalidate">Daten ungültig (Wecker wird von Mo-Fr ausgelöst)</string>
-  <string name="legal_workday_invalidate_message">(Daten abgelaufen. Aktualisierung in den Einstellungen)</string>
+  <string name="legal_workday_invalidate_message">(Daten abgelaufen, Aktualisierung in den Einstellungen)</string>
   <string name="legal_workday_message">" (Wecker wird an Feiertagen nicht ausgelöst)"</string>
   <string name="life_post_setting">Morgenreport</string>
   <string name="life_post_setting_FBE_remind">Aufgrund von Systemeinschränkungen kann es vorkommen, dass Wetterinformationen im Morgenreport nach einem Neustart nicht korrekt angezeigt werden</string>
@@ -233,7 +233,7 @@
   <string name="set_alarm_choose_ringtone">Klingelton wählen</string>
   <string name="set_alarm_done">Fertig</string>
   <string name="set_alarm_other">Andere</string>
-  <string name="setting_alarm_arriving_subtitle">Benachrichtigungen anzeigen, bevor die Wecker ausgelöst werden.</string>
+  <string name="setting_alarm_arriving_subtitle">Benachrichtigungen anzeigen, bevor ein Wecker ausgelöst wird</string>
   <string name="setting_alarm_arriving_summary">Vor dem Weckton eine Nachricht senden</string>
   <string name="setting_alarm_arriving_title">Nachricht vor Weckton</string>
   <string name="settings">Einstellungen</string>
@@ -276,9 +276,9 @@
   <string name="time_picker_label_second">Sek</string>
   <string name="timer_alarm_cancel_pad">Auf Bildschirm tippen, um Wecker zu beenden</string>
   <string name="timer_alert_alert_silenced">Timer verstummt nach %1$s</string>
-  <string name="timer_alert_mute_off">Wecker ertönt, wenn der Timer stoppt.</string>
-  <string name="timer_alert_mute_on">Wecker ertönt nicht, wenn der Timer stoppt.</string>
-  <string name="timer_alert_mute_remind">Tippen, um Wecker stumm zu schalten.</string>
+  <string name="timer_alert_mute_off">Wecker ertönt, wenn der Timer stoppt</string>
+  <string name="timer_alert_mute_on">Wecker ertönt nicht, wenn der Timer stoppt</string>
+  <string name="timer_alert_mute_remind">Tippen, um Wecker stumm zu schalten</string>
   <string name="timer_alert_mute_switch">Schalter zum Stummschalten von Timer-Alarmen</string>
   <string name="timer_alert_type_beach">Strand</string>
   <string name="timer_alert_type_forest">Wald</string>
@@ -295,7 +295,7 @@
   <string name="timer_created">Timer erfolgreich hinzugefügt</string>
   <string name="timer_delete">Entfernen</string>
   <string name="timer_end_time">Timer stoppt um %s</string>
-  <string name="timer_end_time_format">d. MMM | HH:mm </string>
+  <string name="timer_end_time_format">d. MMM. | HH:mm </string>
   <string name="timer_end_time_format_today">HH:mm</string>
   <string name="timer_is_paused">Timer wurde angehalten</string>
   <string name="timer_item_duration_display">%1$d Min %2$d Sek</string>
@@ -310,8 +310,8 @@
   <string name="timer_start_alarm">Zeit ist abgelaufen!</string>
   <string name="timer_start_timer">Timer starten</string>
   <string name="timezone_exist_error_message">Diese Zeitzone wird bereits angezeigt</string>
-  <string name="today">Heute</string>
-  <string name="tomorrow">Morgen</string>
+  <string name="today">heute</string>
+  <string name="tomorrow">morgen</string>
   <string name="turn_off_a_repeat_alarm">Wiederkehrenden Wecker ausschalten</string>
   <string name="turn_off_this_repeat_alarm">Diesen wiederkehrenden Wecker ausschalten</string>
   <string name="upcoming_alarm">Anstehender Wecker: %s</string>
@@ -334,7 +334,7 @@
   <string name="worldcolock_date_display_prefix">Aktuell: </string>
   <string name="worldcolock_timezone_current">Aktuell: %1$s</string>
   <string name="worldcolock_timezone_current_date">dd.MM.yyyy</string>
-  <string name="worldcolock_timezone_date">d. MMM</string>
+  <string name="worldcolock_timezone_date">d. MMM.</string>
   <string name="worldcolock_timezone_gap">%s Stunde/n</string>
   <string name="worldcolock_timezone_local">Wie Ortszeit</string>
 </resources>
