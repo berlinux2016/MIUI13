@@ -36,7 +36,7 @@
   <string name="detect_sim_card">Erneut nach einer SIM-Karte suchen</string>
   <string name="disable_find_device_error">Kann Gerätesuche nicht ausschalten. %1$s</string>
   <string name="enable_find_device_error">Kann Gerätesuche nicht einschalten. %1$s</string>
-  <string name="enable_find_device_success">Gerätelokalisierung ist an</string>
+  <string name="enable_find_device_success">Gerät finden ist an</string>
   <string name="enable_micloud">Xiaomi Cloud verwenden</string>
   <string name="enable_sync_setting_title">Konfigurieren von Cloud-Diensten…</string>
   <string name="error_data_in_transfer">Synchronisation endet in %s Stunden</string>
@@ -45,7 +45,7 @@
   <string name="error_server">Serverfehler</string>
   <string name="error_unknown">Anmeldung fehlgeschlagen</string>
   <string name="find_device">Gerät suchen</string>
-  <string name="find_device_dspt_provision">Wenn Sie Ihr Gerät verlieren, können Sie zu <font color="#ff000000">%s</font> gehen, um es zu finden, zu sperren oder zurückzusetzen. Sie können diese Funktion jederzeit in den Einstellungen ein- und ausschalten.</string>
+  <string name="find_device_dspt_provision">Wenn Sie Ihr Gerät verlieren, können Sie zu <font color="#0097FF">%s</font> gehen, um es zu finden, zu sperren oder zurückzusetzen. Sie können diese Funktion jederzeit in den Einstellungen ein- und ausschalten.</string>
   <string name="find_device_error_network">Prüfen Sie Ihre Datenverbindung und versuchen Sie es erneut</string>
   <string name="find_device_error_server">Serverfehler</string>
   <string name="find_device_error_unknown">Unbekannter Fehler</string>
@@ -91,12 +91,13 @@
   <string name="member_entrance_title_ultra_high_case_b">Verlängern</string>
   <string name="member_entrance_title_ultra_low_case_a">Verlängern</string>
   <string name="member_entrance_title_ultra_low_case_b">Verlängern</string>
+  <string name="menu_add_short_cut">Startbildschirm-Verknüpfung erstellen</string>
   <string name="micloud_all_sub_1_intl_sms">Zur Aktivierung Ihrer SIM-Karte wird eine interrnationale SMS verschickt. Sie wird Ihnen vom Mobilfunkanbieter in Rechnung gestellt.</string>
   <string name="micloud_all_sub_1_sms">Zur Aktivierung Ihrer SIM-Karte wird eine normale SMS verschickt. Sie wird Ihnen vom Mobilfunkanbieter in Rechnung gestellt.</string>
   <string name="micloud_all_sub_1_sms_1_intl_sms">2 Textnachrichten (normal und international) werden gesendet, um Ihre SIM-Karte zu aktivieren. Sie werden Ihnen vom Mobilfunkanbieter in Rechnung gestellt.</string>
   <string name="micloud_all_sub_2_intl_sms">2 internationale Textnachrichten werden gesendet, um Ihre SIM-Karte zu aktivieren. Sie werden Ihnen vom Mobilfunkanbieter in Rechnung gestellt.</string>
   <string name="micloud_all_sub_2_sms">2 normale Textnachrichten werden gesendet, um Ihre SIM-Karte zu aktivieren. Sie werden Ihnen vom Mobilfunkanbieter in Rechnung gestellt.</string>
-  <string name="micloud_all_sub_resend_sms">Wenn Sie Gerätelokalisierung aktivieren, wird möglicherweise eine Aktivierungs-SMS versendet, nachdem Sie Ihre SIM-Karten gewechselt haben.</string>
+  <string name="micloud_all_sub_resend_sms">Wenn Sie Gerät finden aktivieren, wird möglicherweise eine Aktivierungs-SMS versendet, nachdem Sie Ihre SIM-Karten gewechselt haben.</string>
   <string name="micloud_battery_low_notification_message">Zum Synchronisieren Aufladegerät verbinden</string>
   <string name="micloud_battery_low_notification_title">Geringer Akkustand</string>
   <string name="micloud_buy_member_safe">Xiaomi Cloud-Mitgliedschaft kaufen</string>
@@ -161,27 +162,27 @@ Suchen und sperren Sie Ihr Gerät, falls es verloren geht."</string>
   <string name="micloud_find_device_guide_alert_negtive">Nein danke</string>
   <string name="micloud_find_device_guide_alert_negtive_activate">Nein danke</string>
   <string name="micloud_find_device_guide_alert_title">Merken Sie sich Ihr Passwort</string>
-  <string name="micloud_find_device_guide_button">Gerätelokalisierung einschalten</string>
-  <string name="micloud_find_device_guide_fail_reopen">Aktivieren Sie die Gerätelokalisierung in der Xiaomi Cloud</string>
+  <string name="micloud_find_device_guide_button">Gerät finden einschalten</string>
+  <string name="micloud_find_device_guide_fail_reopen">Aktivieren Sie Gerät finden in der Xiaomi Cloud</string>
   <string name="micloud_find_device_guide_fail_sub_net">Prüfen Sie Ihre Internetverbindung und versuchen Sie es erneut</string>
   <string name="micloud_find_device_guide_micloud_sub_content">Synchronisieren Sie Kontakte, Fotos, Notizen und mehr mit der Xiaomi Cloud</string>
   <string name="micloud_find_device_guide_noti_content">Aktivieren</string>
   <string name="micloud_find_device_guide_noti_content_by_app_change_qq">Ihre QQ-Daten sind sicher, auch wenn Sie Ihr Gerät verlieren sollten</string>
   <string name="micloud_find_device_guide_noti_content_by_app_change_wx">Ihre WeChat-Daten sind sicher, auch wenn Sie Ihr Gerät verlieren sollten</string>
   <string name="micloud_find_device_guide_noti_content_by_app_change_zfb">Ihre Alipay-Daten sind sicher, auch wenn Sie Ihr Gerät verlieren sollten</string>
-  <string name="micloud_find_device_guide_noti_title">Aktivieren Sie die Gerätelokalisierung, um Ihre Daten zu schützen, wenn Sie Ihr Gerät verlieren</string>
-  <string name="micloud_find_device_guide_noti_title_by_app_change_qq">QQ empfiehlt Ihnen Gerätelokalisierung zu aktivieren</string>
-  <string name="micloud_find_device_guide_noti_title_by_app_change_wx">Aktivieren Sie die Gerätelokalisierung, um Ihre WeChat-Daten zu schützen</string>
-  <string name="micloud_find_device_guide_noti_title_by_app_change_zfb">Aktivieren Sie die Gerätelokalisierung, um Ihre Alipay-Daten zu schützen</string>
-  <string name="micloud_find_device_guide_progress">Gerätelokalisierung aktivieren…</string>
-  <string name="micloud_find_device_guide_title">"Melden Sie sich auf &lt;font color=#FF0000>&lt;b>i.mi.com&lt;/b>&lt;/font> an, um Ihr Gerät zu lokalisieren, zu sperren oder zu löschen. Dies kann helfen, das Gerät zu finden, nachdem es verloren ist.&lt;br />Wenn Sie Ihr Gerät verlieren, können Sie sich mit dem Sicherheitsdienst der Apps in Verbindung setzen, die Sie häufig verwenden (z. B. Alipay, WeChat, QQ), um Ihren Account zu schützen &lt;font color=#FF0000>&lt;b>i.mi.com&lt;/b>&lt;/font>."</string>
-  <string name="micloud_find_device_open_fail">Gerätelokalisierung konnte nicht aktiviert werden</string>
-  <string name="micloud_find_device_opened">Gerätelokalisierung ist an</string>
+  <string name="micloud_find_device_guide_noti_title">Aktivieren Sie Gerät finden, um Ihre Daten zu schützen, wenn Sie Ihr Gerät verlieren</string>
+  <string name="micloud_find_device_guide_noti_title_by_app_change_qq">QQ empfiehlt Ihnen Gerät finden zu aktivieren</string>
+  <string name="micloud_find_device_guide_noti_title_by_app_change_wx">Aktivieren Sie Gerät finden, um Ihre WeChat-Daten zu schützen</string>
+  <string name="micloud_find_device_guide_noti_title_by_app_change_zfb">Aktivieren Sie Gerät finden, um Ihre Alipay-Daten zu schützen</string>
+  <string name="micloud_find_device_guide_progress">Gerät finden aktivieren…</string>
+  <string name="micloud_find_device_guide_title">Melden Sie sich auf &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font> an, um Ihr Gerät zu lokalisieren, zu sperren oder zu löschen. Dies kann helfen, das Gerät zu finden, nachdem es verloren ist.</string>
+  <string name="micloud_find_device_open_fail">Gerät finden konnte nicht aktiviert werden</string>
+  <string name="micloud_find_device_opened">Gerät finden ist an</string>
   <string name="micloud_find_device_opened_content">Lokalisieren Sie Ihr Gerät auf %s</string>
   <string name="micloud_find_device_sms_alert">Zur Aktivierung dieses Dienstes kann eine ausgehende SMS-Nachricht erforderlich sein. Ihr Mobilfunkanbieter wird Ihnen diese Nachricht in Rechnung stellen. Wenn Sie Ihre SIM-Karte wechseln, wird möglicherweise automatisch eine Nachricht gesendet, um diese Funktion wieder zu aktivieren.</string>
   <string name="micloud_find_device_verify_button">Gerät finden reaktivieren</string>
   <string name="micloud_find_device_verify_close">Gerät finden deaktivieren</string>
-  <string name="micloud_find_device_verify_fail">Konnte Gerät finden nicht reaktivieren</string>
+  <string name="micloud_find_device_verify_fail">Gerät finden wurde nicht reaktiviert</string>
   <string name="micloud_find_device_verify_progress">Reaktiviere Gerät finden…</string>
   <string name="micloud_last_sync_canceled">Synchronisation wurde abgebrochen. Erneut versuchen.</string>
   <string name="micloud_main_button_activate">Aktivieren</string>
@@ -392,7 +393,7 @@ Diese Funktion verschlüsselt und sendet Ihre Geräte-ID zum Mi-Server."</string
   <string name="priv_dialog_finddevice_all_purpose_pad">Willkommen bei Gerät finden! Sie können diesen Dienst verwenden, um Daten auf Ihrem Gerät zu suchen, zu sperren oder zu löschen, wenn es verloren geht.</string>
   <string name="priv_dialog_finddevice_all_purpose_phone">Willkommen bei Gerät finden! Sie können diesen Dienst verwenden, um Daten auf Ihrem Gerät zu suchen, zu sperren oder zu löschen, wenn es verloren geht.</string>
   <string name="priv_dialog_sync_all_purpose">Willkommen bei Xiaomi Cloud-Diensten! Sie können Xiaomi Cloud verwenden, um Ihre Nachrichten, Anrufliste, Kontakte, Notizen, Browser-Einstellungen, Titel, Fotos und Videos, WLAN-Einstellungen, Aufnahmen, Startbildschirmanordnung, Apps, Kalendertermine, Sperrlistenelemente und App-Infoassistent über alle verbundenen Geräte zu synchronisieren.</string>
-  <string name="priv_doc_cloudservice">Willkommen bei Xiaomi Cloud-Diensten! Sie können Xiaomi Cloud verwenden, um Ihre Nachrichten, Anrufliste, Kontakte, Notizen, Browsereinstellungen, Songs, Fotos und Videos, WLAN-Einstellungen, Aufnahmen, Startbildschirmanordnung, Apps, Kalendertermine, Sperrlistenelemente und App-Infoassistent über alle verbundenen Geräte zu synchronisieren. Greifen Sie von jedem Browser aus auf die Dinge zu, die Sie synchronisieren. i&lt;b&gt;&lt;font color="#FF0000"&gt;.mi.com.&lt;/font&gt;&lt;/b&gt;"
+  <string name="priv_doc_cloudservice">Willkommen bei Xiaomi Cloud-Diensten! Sie können Xiaomi Cloud verwenden, um Ihre Nachrichten, Anrufliste, Kontakte, Notizen, Browsereinstellungen, Songs, Fotos und Videos, WLAN-Einstellungen, Aufnahmen, Startbildschirmanordnung, Apps, Kalendertermine, Sperrlistenelemente und App-Infoassistent über alle verbundenen Geräte zu synchronisieren. Greifen Sie von jedem Browser aus auf die Dinge zu, die Sie synchronisieren. i&lt;b&gt;&lt;font color="#0097FF"&gt;.mi.com.&lt;/font&gt;&lt;/b&gt;"
 Zur Aktivierung dieses Dienstes kann eine ausgehende SMS erforderlich sein. Ihr Anbieter wird Ihnen für diese Nachricht eine Gebühr in Rechnung stellen. Wenn Sie Ihre SIM-Karte wechseln, kann automatisch eine Nachricht gesendet werden, um diese Funktion wieder zu aktivieren.
 
 Wir werden Ihre personenbezogenen Daten in Übereinstimmung mit den einschlägigen Gesetzen, Vorschriften und Datenschutzrichtlinien schützen.
@@ -411,7 +412,7 @@ Kontakte synchronisieren
 Speichern von Elementen auf Ihrem Gerät (z. B. Bilder, Videos, Songs)
 Wenn Sie nicht damit einverstanden sind, solche Genehmigungen zu erteilen oder Ihre personenbezogenen Daten weiterzugeben und hochzuladen, können Sie diese Dienste nicht nutzen. Sie können in solchen Fällen diese App deinstallieren, sich abmelden oder die Berechtigungen in den Einstellungen einschränken.
 Lesen und akzeptieren Sie unsere "&lt;u&gt;&lt;a href="app://com.miui.cloudservice.user_agreement.license"&gt;Nutzervereinbarung&lt;/a&gt;&lt;/u&gt; und &lt;u&gt;&lt;a href="app://com.miui.cloudservice.gdpr.license"&gt;Datenschutzerklärung&lt;/a&gt;&lt;/u&gt;" vor der Nutzung von Xiaomi Cloud."</string>
-  <string name="priv_doc_finddevice_pad">"Willkommen bei Gerät finden! Mit diesem Dienst können Sie Daten auf Ihrem Gerät finden, sperren oder löschen, wenn es verloren geht. Sie können zu "&lt;b&gt;&lt;font color="#FF0000"&gt;i.mi.com&lt;/font&gt;&lt;/b&gt;" gehen, um es zu finden, zu sperren oder zurückzusetzen.
+  <string name="priv_doc_finddevice_pad">"Willkommen bei Gerät finden! Mit diesem Dienst können Sie Daten auf Ihrem Gerät finden, sperren oder löschen, wenn es verloren geht. Sie können zu "&lt;b&gt;&lt;font color="#0097FF"&gt;i.mi.com&lt;/font&gt;&lt;/b&gt;" gehen, um es zu finden, zu sperren oder zurückzusetzen.
 
 Wir werden Ihre personenbezogenen Daten in Übereinstimmung mit den einschlägigen Gesetzen, Vorschriften und Datenschutzrichtlinien schützen.
 Um normal arbeiten zu können, muss sich Gerät finden mit dem Internet verbinden und benötigt die folgenden Berechtigungen, um Ihre persönlichen Daten zu erfassen:
@@ -421,7 +422,7 @@ Identifizierung Ihres Geräts
 Ihr Gerät finden und in den Modus für verlorene Geräte wechseln
 Wenn Sie nicht damit einverstanden sind, solche Genehmigungen zu erteilen oder Ihre personenbezogenen Daten weiterzugeben und hochzuladen, können Sie diese Dienste nicht nutzen. Sie können in solchen Fällen diese App deinstallieren, sich abmelden oder die Berechtigungen in den Einstellungen einschränken.
 Lesen und akzeptieren Sie unsere "&lt;u&gt;&lt;a href="app://com.miui.cloudservice.user_agreement.license"&gt;Nutzervereinbarung&lt;/a&gt;&lt;/u&gt; und &lt;u&gt;&lt;a href="app://com.miui.cloudservice.gdpr.license"&gt;Datenschutzerklärung&lt;/a&gt;&lt;/u&gt;", bevor Sie Gerät finden verwenden."</string>
-  <string name="priv_doc_finddevice_phone">"Willkommen bei Gerät finden! Mit diesem Dienst können Sie Daten auf Ihrem Gerät finden, sperren oder löschen, wenn es verloren geht. Sie können zu "&lt;b&gt;&lt;font color="#FF0000"&gt;i.mi.com&lt;/font&gt;&lt;/b&gt;" gehen, um es zu finden, zu sperren oder zurückzusetzen.
+  <string name="priv_doc_finddevice_phone">"Willkommen bei Gerät finden! Mit diesem Dienst können Sie Daten auf Ihrem Gerät finden, sperren oder löschen, wenn es verloren geht. Sie können zu "&lt;b&gt;&lt;font color="#0097FF"&gt;i.mi.com&lt;/font&gt;&lt;/b&gt;" gehen, um es zu finden, zu sperren oder zurückzusetzen.
 
 Wir werden Ihre personenbezogenen Daten in Übereinstimmung mit den einschlägigen Gesetzen, Vorschriften und Datenschutzrichtlinien schützen.
 Um normal arbeiten zu können, muss sich Gerät finden mit dem Internet verbinden und benötigt die folgenden Berechtigungen, um Ihre persönlichen Daten zu erfassen:
@@ -431,7 +432,7 @@ Identifizierung Ihres Geräts
 Ihr Gerät finden und in den Modus für verlorene Geräte wechseln
 Wenn Sie nicht damit einverstanden sind, solche Genehmigungen zu erteilen oder Ihre personenbezogenen Daten weiterzugeben und hochzuladen, können Sie diese Dienste nicht nutzen. Sie können in solchen Fällen diese App deinstallieren, sich abmelden oder die Berechtigungen in den Einstellungen einschränken.
 Lesen und akzeptieren Sie unsere "&lt;u&gt;&lt;a href="app://com.miui.cloudservice.user_agreement.license"&gt;Nutzervereinbarung&lt;/a&gt;&lt;/u&gt; und &lt;u&gt;&lt;a href="app://com.miui.cloudservice.gdpr.license"&gt;Datenschutzerklärung&lt;/a&gt;&lt;/u&gt;", bevor Sie Gerät finden verwenden."</string>
-  <string name="priv_doc_finddevice_with_telephony_feature_pad">"Willkommen bei Gerät finden! Mit diesem Dienst können Sie Daten auf Ihrem Gerät finden, sperren oder löschen, wenn es verloren geht. Sie können zu "&lt;b&gt;&lt;font color="#FF0000"&gt;i.mi.com&lt;/font&gt;&lt;/b&gt;" gehen, um es zu finden, zu sperren oder zurückzusetzen.
+  <string name="priv_doc_finddevice_with_telephony_feature_pad">"Willkommen bei Gerät finden! Mit diesem Dienst können Sie Daten auf Ihrem Gerät finden, sperren oder löschen, wenn es verloren geht. Sie können zu "&lt;b&gt;&lt;font color="#0097FF"&gt;i.mi.com&lt;/font&gt;&lt;/b&gt;" gehen, um es zu finden, zu sperren oder zurückzusetzen.
 
 Wir werden Ihre personenbezogenen Daten in Übereinstimmung mit den einschlägigen Gesetzen, Vorschriften und Datenschutzrichtlinien schützen.
 Um normal arbeiten zu können, muss sich Gerät finden mit dem Internet verbinden und benötigt die folgenden Berechtigungen, um Ihre persönlichen Daten zu erfassen:
@@ -441,7 +442,7 @@ Identifizierung Ihres Geräts
 Ihr Gerät finden und in den Modus für verlorene Geräte wechseln
 Wenn Sie nicht damit einverstanden sind, solche Genehmigungen zu erteilen oder Ihre personenbezogenen Daten weiterzugeben und hochzuladen, können Sie diese Dienste nicht nutzen. Sie können in solchen Fällen diese App deinstallieren, sich abmelden oder die Berechtigungen in den Einstellungen einschränken.
 Lesen und akzeptieren Sie unsere "&lt;u&gt;&lt;a href="app://com.miui.cloudservice.user_agreement.license"&gt;Nutzervereinbarung&lt;/a&gt;&lt;/u&gt; und &lt;u&gt;&lt;a href="app://com.miui.cloudservice.gdpr.license"&gt;Datenschutzerklärung&lt;/a&gt;&lt;/u&gt;", bevor Sie Gerät finden verwenden."</string>
-  <string name="priv_doc_finddevice_with_telephony_feature_phone">"Willkommen bei Gerät finden! Mit diesem Dienst können Sie Daten auf Ihrem Gerät finden, sperren oder löschen, wenn es verloren geht. Sie können zu "&lt;b&gt;&lt;font color="#FF0000"&gt;i.mi.com&lt;/font&gt;&lt;/b&gt;" gehen, um es zu finden, zu sperren oder zurückzusetzen.
+  <string name="priv_doc_finddevice_with_telephony_feature_phone">"Willkommen bei Gerät finden! Mit diesem Dienst können Sie Daten auf Ihrem Gerät finden, sperren oder löschen, wenn es verloren geht. Sie können zu "&lt;b&gt;&lt;font color="#0097FF"&gt;i.mi.com&lt;/font&gt;&lt;/b&gt;" gehen, um es zu finden, zu sperren oder zurückzusetzen.
 
 Wir werden Ihre personenbezogenen Daten in Übereinstimmung mit den einschlägigen Gesetzen, Vorschriften und Datenschutzrichtlinien schützen.
 Um normal arbeiten zu können, muss sich Gerät finden mit dem Internet verbinden und benötigt die folgenden Berechtigungen, um Ihre persönlichen Daten zu erfassen:
@@ -520,9 +521,11 @@ Lesen und akzeptieren Sie unsere "&lt;u&gt;&lt;a href="app://com.miui.cloudservi
   <string name="sync_sub_2_intl_sms">Ihr Mobilfunkanbieter kann Kosten für 2 gesendete internationale SMS berechnen, welche verwendet werden, um diesen Service zu aktivieren.</string>
   <string name="sync_sub_2_sms">Ihr Mobilfunkanbieter kann Kosten für 2 gesendete SMS berechnen, welche verwendet werden, um diesen Service zu aktivieren.</string>
   <string name="system_busy_or_network_error">Ein Fehler ist aufgetreten. Ein oder zwei Minuten warten und erneut versuchen.</string>
+  <string name="tip_short_cut_added_success">Erfolgreich erstellt</string>
+  <string name="tip_short_cut_already_added">Erstellt</string>
   <string name="title_back">Zurück</string>
   <string name="title_reg">Mi Konto eröffnen</string>
-  <string name="trying_to_connect_to_network">Netzwerkverbindung hergestellen…</string>
+  <string name="trying_to_connect_to_network">Netzwerkverbindung herstellen…</string>
   <string name="user_agreement_content">Indem Sie diesen Service nutzen, stimmen Sie %s zu.</string>
   <string name="user_agreement_link">"Xiaomi Cloud-Nutzungsbedingungen"</string>
   <string name="user_agreement_title">"Xiaomi Cloud-Nutzungsbedingungen"</string>
