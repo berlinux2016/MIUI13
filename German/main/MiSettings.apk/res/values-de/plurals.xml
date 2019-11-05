@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+  <plurals name="usage_days">
+    <item quantity="other">%d Tage</item>
+    <item quantity="one">%d Tag</item>
+  </plurals>
+  <plurals name="usage_state_focus_usage_summary">
+    <item quantity="other">Seit den letzten %d Minuten glaube ich, dass Sie etwas gewinnen werden!</item>
+  </plurals>
   <plurals name="usage_state_device_explain_today">
     <item quantity="other">%d-mal entsperrt</item>
     <item quantity="one">%d-mal entsperrt</item>
