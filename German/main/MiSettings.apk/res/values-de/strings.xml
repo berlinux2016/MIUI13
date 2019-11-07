@@ -27,7 +27,9 @@
   <string name="intelligent_recognition_item_title">Dienste identifizieren</string>
   <string name="mms">Nachrichten</string>
   <string name="more_ringtone">Alle Klingeltöne</string>
+  <string name="network_error">Netzwerkverbindungsfehler, bitte erneut versuchen</string>
   <string name="notification_sound">Benachrichtigungstöne</string>
+  <string name="retry">Wiederholen</string>
   <string name="ringtone_slot_setting_title">Dual SIM-Klingeltöne</string>
   <string name="ringtone_sound">Klingeltöne</string>
   <string name="ringtone_title">Klingeltöne</string>
@@ -39,6 +41,10 @@
   <string name="sim_slot_2">" (SIM2)"</string>
   <string name="sms_delivered_sound_title">Nachricht empfangen</string>
   <string name="sms_received_sound_title">Eingehende Nachricht</string>
+  <string name="stop_app_timer">Bildschirmzeitfunktion deaktivieren</string>
+  <string name="stop_app_timer_fail">Bildschirmzeitfunktion deaktivieren fehlgeschlagen</string>
+  <string name="stop_app_timer_success">Bildschirmzeitfunktion wurde deaktiviert</string>
+  <string name="stop_app_timer_tip">Nach der Deaktivierung werden die Daten der Bildschirmzeit und die aufgerufenen Berechtigungen gelöscht, einschließlich der Einstellungselemente, der Lokalen- und Cloud-Daten usw.</string>
   <string name="thememanager_not_found">Themen öffnen nicht möglich. Stellen Sie sicher, dass diese App auf Ihrem Gerät installiert ist.</string>
   <string name="usage_app_get_it">Verstanden</string>
   <string name="usage_app_limit_alter_summary">Sieht aus, als wäre dieses Zeitlimit kürzer als die Zeit, die Sie heute diese App benutzt haben. Trotzdem Limit setzen?</string>
@@ -55,10 +61,28 @@
   <string name="usage_app_system_app_summary">Bildschirmzeit für System-Apps kann nicht begrenzt werden</string>
   <string name="usage_app_weekday_limit">Wochentags</string>
   <string name="usage_app_weekend_limit">An Wochenenden</string>
+  <string name="usage_beat_fans">Besser als %s der Mi Fans</string>
+  <string name="usage_continuous_days">Serie</string>
+  <string name="usage_focus_focus_premission_main_summary">Diese App muss auf Ihre Kontoinformationen zugreifen, um Ihre Focus-Modus-Nutzungsstatistik aufzuzeichnen.</string>
+  <string name="usage_focus_focus_premission_second_summary">Wenn Sie mit der Erteilung solcher Berechtigungen nicht einverstanden sind, können Sie einige Funktionen dieser App nicht nutzen; ihre Grundfunktionen stehen Ihnen jedoch weiterhin zur Verfügung. Sie können die Berechtigungen jederzeit einschränken oder Ihre Berechtigung in den Einstellungen widerrufen.</string>
+  <string name="usage_focus_save_success">Erfolgreich in der Galerie gespeichert</string>
+  <string name="usage_focus_summary_level1">Es ist einfach, sich ein paar Minuten Zeit zu nehmen, um konzentriert zu bleiben.</string>
+  <string name="usage_focus_summary_level2">Die Fokussierung kann zu einer erfüllten Routine werden.</string>
+  <string name="usage_focus_summary_level3">Ruhig bleiben, Störungen vermeiden.</string>
+  <string name="usage_focus_summary_level4">Wenn Sie konzentriert bleiben, werden Sie eine bessere Version von sich selbst entdecken.</string>
+  <string name="usage_focus_summary_level5">Sie haben einen langen Weg zurückgelegt. Nicht vergessen, weiterzumachen.</string>
+  <string name="usage_focus_title_level1">Klein anfangen</string>
+  <string name="usage_focus_title_level2">Ihre Gewohnheiten aufbauen</string>
+  <string name="usage_focus_title_level3">Über das Alltägliche erheben</string>
+  <string name="usage_focus_title_level4">Freude an Konsistenz finden</string>
+  <string name="usage_focus_title_level5">Konzentriert bleiben</string>
+  <string name="usage_home_premission_main_summary">Willkommen bei Bildschirmzeit! Mit dieser App können Sie Bildschirmzeiten festlegen, Statistiken anzeigen und in den Fokusmodus wechseln. Diese App muss Zeitinformationen über den Bildschirm sammeln (z.B. die Anzahl, wo oft Sie Ihr Telefon freischalten und den Bildschirm einschalten, sowie die Dauer der Nutzung von Apps), um normal zu funktionieren.</string>
+  <string name="usage_home_premission_second_summary">Um normal arbeiten zu können, muss diese App Ihre persönlichen Daten erfassen. Wir werden Ihre personenbezogenen Daten in Übereinstimmung mit den einschlägigen Gesetzen, Vorschriften und Datenschutzrichtlinien schützen.</string>
   <string name="usage_state_accurate_date">dd. MMMM yyyy</string>
   <string name="usage_state_add_up_count">Sitzungen</string>
   <string name="usage_state_add_up_days">Tage</string>
   <string name="usage_state_add_up_time">Gesamtzeit</string>
+  <string name="usage_state_addup_time">Alle Sitzungen</string>
   <string name="usage_state_app_remain_time">Verbleibende Zeit: %s</string>
   <string name="usage_state_app_timer">Bildschirmzeit</string>
   <string name="usage_state_app_usage_detail_title">App-Nutzungdetails</string>
@@ -79,7 +103,11 @@
   <string name="usage_state_device_limit_title">Zeitlimits für den Gerätebildschirm</string>
   <string name="usage_state_device_noti_today_tip_title" formatted="false">Benachrichtigungen zwischen %d:00 und %d:00 Uhr</string>
   <string name="usage_state_device_unlock_today_tip_title" formatted="false">Gerät zwischen %d:00 und %d:00 Uhr entsperrt</string>
+  <string name="usage_state_download">In Galerie speichern</string>
+  <string name="usage_state_duration_title">Diese Sitzung</string>
   <string name="usage_state_focus_call">Notruf</string>
+  <string name="usage_state_focus_level_summary">Aktuelles Level: %s</string>
+  <string name="usage_state_focus_level1">Aufgehender Stern</string>
   <string name="usage_state_focus_mode_summary">Alle Funktionen außer Notrufe und Kamera einschränken</string>
   <string name="usage_state_focus_mode_summary1">Gut begonnen ist halb gewonnen</string>
   <string name="usage_state_focus_mode_summary2">Konzentriert bleiben</string>
@@ -87,6 +115,7 @@
   <string name="usage_state_focus_mode_title">Fokusmodus</string>
   <string name="usage_state_focus_mode_warning_message">Fokusmodus erlaubt nur Kameraverwendung und Notruffunktionen. Sie können den Fokusmodus nicht vorzeitig deaktivieren.</string>
   <string name="usage_state_focus_mode_warning_title">Achtung</string>
+  <string name="usage_state_focus_success">Herausforderung abgeschlossen</string>
   <string name="usage_state_focus_take_photo">Kamera</string>
   <string name="usage_state_focus_warning_text">Auf etwas Wichtiges konzentrieren</string>
   <string name="usage_state_focus_weak_summary">Legen Sie Ihr Telefon weg</string>
@@ -99,7 +128,9 @@
   <string name="usage_state_noti_mourth_day">Benachrichtigungen am %s</string>
   <string name="usage_state_notification">App-Benachrichtigungen</string>
   <string name="usage_state_notification_manager">App-Benachrichtigungen verwalten</string>
+  <string name="usage_state_num_level">Level: %d</string>
   <string name="usage_state_open_focus_mode">Fokusmodus einschalten</string>
+  <string name="usage_state_over_p">Besser als</string>
   <string name="usage_state_remind_new_summary">Benachrichtigung erhalten, wenn die Bildschirmzeit das eingestellte Limit erreicht</string>
   <string name="usage_state_remind_summary">Einschalten, um Bildschirmzeit-Alarme zu erhalten. Sie können verschiedene Zeitlimits für Wochentage und Wochenenden festlegen.</string>
   <string name="usage_state_remind_title">Nutzungslimit einschalten</string>
@@ -107,6 +138,7 @@
   <string name="usage_state_running_days">Serie (Tage)</string>
   <string name="usage_state_saturday">Sa</string>
   <string name="usage_state_set_invalid_time_toast">Limits von weniger als 1 Minute können nicht festgelegt werden</string>
+  <string name="usage_state_share">Teilen</string>
   <string name="usage_state_show_category">Kategorien</string>
   <string name="usage_state_show_detail">Detaillierte Statistiken anzeigen</string>
   <string name="usage_state_show_more">Mehr</string>
@@ -125,6 +157,7 @@
   <string name="usage_state_usage_time_weekday_title">Wochentage</string>
   <string name="usage_state_usage_time_weekend_title">Wochenende</string>
   <string name="usage_state_use_time_remind_title">Bildschirmzeit-Alarm</string>
+  <string name="usage_state_wakeups_title">Bildschirm eingeschaltet</string>
   <string name="usage_state_wednesday">Mi</string>
   <string name="usage_state_week_day_hour_minute" formatted="false">Wochenende: %d Std %d Min</string>
   <string name="usage_state_week_total_text">Bildschirmzeit (letzte 7 Tage)</string>
@@ -132,6 +165,8 @@
   <string name="usage_state_work_day_hour_minute" formatted="false">Wochentags: %d Std %d Min</string>
   <string name="usage_stats_normal_day">Wochentags</string>
   <string name="usage_stats_week_day">Wochenende</string>
+  <string name="usage_total_days">Gesamttage</string>
+  <string name="usage_total_times">Gesamtzsitzungen</string>
   <string name="usagestats_app_category_miui_education">Bildung</string>
   <string name="usagestats_app_category_miui_entainment">Unterhaltung</string>
   <string name="usagestats_app_category_miui_financial">Finanzen</string>
@@ -157,4 +192,5 @@
   <string name="usagestats_device_timeout_negative">In 1 Stunde erinnern</string>
   <string name="usagestats_device_timeout_positive">Verstanden</string>
   <string name="usagestats_device_timeout_title">Bildschirmzeit-Alarm</string>
+  <string name="wait_tip">Bitte warten…</string>
 </resources>
