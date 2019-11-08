@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+  <plurals name="article_num">
+    <item quantity="other">%d Elemente</item>
+    <item quantity="one">%d Element</item>
+  </plurals>
   <plurals name="feed_article_entrance_title">
-    <item quantity="other">%d Artikel zu diesem Thema</item>
-    <item quantity="one">%d Artikel zu diesem Thema</item>
+    <item quantity="other">%d für Sie empfohlene Elemente anzeigen</item>
+    <item quantity="one">%d für Sie empfohlenes Element anzeigen</item>
   </plurals>
   <plurals name="llks_tools_remote_control_data">
     <item quantity="other">%d Elemente</item>
