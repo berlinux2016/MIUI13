@@ -37,7 +37,7 @@
   <string name="action_source_call_title">Gesperrte Anrufe</string>
   <string name="action_source_sms_title">Gesperrte SMS</string>
   <string name="activity_title_antispam">Sperrliste</string>
-  <string name="activity_title_antivirus">Sicherheitsscan</string>
+  <string name="activity_title_antivirus">Virenscanner</string>
   <string name="activity_title_create_shortcut">Verknüpfungen verwalten</string>
   <string name="activity_title_garbage_cleanup">Bereinigung</string>
   <string name="activity_title_license_manager">Rechte</string>
@@ -327,7 +327,7 @@ Sie verlieren keine App-Daten."</string>
   <string name="auto_task_condition_time_text">Um %s</string>
   <string name="auto_task_dialog_button_close">Fertig</string>
   <string name="auto_task_edit_abandon_change">Änderungen verwerfen?</string>
-  <string name="auto_task_edit_activity_title">Meine automatischen Tasks</string>
+  <string name="auto_task_edit_activity_title">Meine autom. Aufgaben</string>
   <string name="auto_task_edit_adandon_button_text">Verwerfen</string>
   <string name="auto_task_edit_choose_condition_title">Bedingung wählen</string>
   <string name="auto_task_edit_choose_new_operation">Aktion hinzufügen</string>
@@ -633,8 +633,8 @@ Ihr Mobilfunkanbieter kann Ihnen zusätzliche Kosten berechnen, wenn Sie mobile 
   <string name="databooster_tips_message">Einschalten, um alle SIM-Karten außer der Datenkarte einzuschränken. Deaktivieren Sie diese Funktion, wenn bei Ihren Spielen Fehler auftreten.</string>
   <string name="databooster_tips_title">Achtung</string>
   <string name="declaration_dialog_msg">Diese Funktion kann Ihnen helfen, Ihre Datennutzung zu überwachen. Sie ist keine Garantie für die Vermeidung zusätzlicher Kosten. Mit einem konservativen Limit erzielen Sie die besten Ergebnisse.</string>
-  <string name="deep_clean_disconnect_data_title">Mobile Daten ausschalten, wenn das Gerät gesperrt ist</string>
-  <string name="deep_clean_memory_clean_title">Cache löschen, wenn das Gerät gesperrt ist</string>
+  <string name="deep_clean_disconnect_data_title">Nach Gerätesperre mobile Daten ausschalten</string>
+  <string name="deep_clean_memory_clean_title">Nach Gerätesperre Cache löschen</string>
   <string name="deep_clean_never_memory_clean">Nie</string>
   <string name="deep_power_save_item_summary_auto_brightness">Automatische Anpassung der Bildschirmhelligkeit zur Schonung des Akkus</string>
   <string name="deep_power_save_item_summary_bluetooth">Bluetooth ausschalten, um den Akku zu schonen</string>
@@ -642,7 +642,7 @@ Ihr Mobilfunkanbieter kann Ihnen zusätzliche Kosten berechnen, wenn Sie mobile 
   <string name="deep_power_save_item_title_auto_brightness">Automatische Helligkeit einschalten</string>
   <string name="deep_power_save_item_title_bluetooth">Bluetooth ausschalten</string>
   <string name="deep_power_save_item_title_lock_screen_time">Bildschirm in den Ruhezustand versetzen</string>
-  <string name="deep_save_memory_clean_summary">Cache löschen beim Sperren des Geräts, damit Apps keinen Akku verbrauchen können</string>
+  <string name="deep_save_memory_clean_summary">Nach Gerätesperre Cache löschen, damit Apps keinen Akku verbrauchen können</string>
   <string name="deep_save_ontime_boot_shutdown_summary">Zeitplan erstellen, wann das Gerät ein- und ausgeschaltet wird</string>
   <string name="delete">Löschen</string>
   <string name="delete_all_sms">Alle löschen</string>
@@ -1210,7 +1210,7 @@ Alle Daten auf Ihrem Gerät werden evtl. gelöscht und Ihr Sperrbildschirmpasswo
   <string name="hints_scan_result_no_finish">Scan abgebrochen, erneut versuchen!</string>
   <string name="hints_scan_result_phone_safe">Sieht gut aus</string>
   <string name="hints_scan_result_safe">Prüfen &amp; scannen</string>
-  <string name="hints_scanning">Scannen…</string>
+  <string name="hints_scanning">"Scannen… "</string>
   <string name="hints_scanning_text">Scannen…</string>
   <string name="hints_virus_apk_summary">%s (APK)</string>
   <string name="hints_virus_app_summary">%s (App)</string>
@@ -1459,7 +1459,7 @@ um ein Muster zu erstellen"</string>
   <string name="menu_summary_power_manager_3">Ladegerät anschließen</string>
   <string name="menu_summary_power_manager_4">%s bis voll geladen</string>
   <string name="menu_text_antispam">Sperrliste</string>
-  <string name="menu_text_antivirus">Sicherheitsscan</string>
+  <string name="menu_text_antivirus">Virenscanner</string>
   <string name="menu_text_garbage_cleanup">Müllbeseitigung</string>
   <string name="menu_text_license_manager">Rechte</string>
   <string name="menu_text_networkassistants">Datennutzung</string>
@@ -1709,7 +1709,7 @@ Versuchen Sie ein anderes LAN-Kabel am Router. Wenn Sie vermuten, dass der Fehle
   <string name="password_promotion_postbutton_text">Hinzufügen</string>
   <string name="password_promotion_title">Mi Konto hinzufügen</string>
   <string name="password_type">Sperrmethode ändern</string>
-  <string name="password_type_underline">&lt;u&gt;Passwort ändern&lt;/u&gt;</string>
+  <string name="password_type_underline"><u>Sperrmethode ändern</u></string>
   <string name="password_xspace_forget_pattern_message">Um Ihr Zweitprofilpasswort zu ändern, sollten Sie Ihr aktuelles Zweitprofil löschen und ein neues erstellen</string>
   <string name="path_antispam">System-Apps/Sicherheit/Sperrliste</string>
   <string name="path_antivirus">System-Apps/Sicherheit/Virenscanner</string>
@@ -2139,7 +2139,7 @@ Während der Kalibrierung sendet MIUI eine Textnachricht an Ihren Mobilfunkanbie
   <string name="sc_allow_network_dialog_message">Sie haben Netzwerkverbindung und Standortzugriff aus Sicherheitsgründen eingeschränkt. Geben Sie Sicherheit die erforderlichen Berechtigungen, um diese Funktion zu nutzen.</string>
   <string name="sc_allow_network_dialog_tiltle">Diese Funktion kann nicht genutzt werden</string>
   <string name="sc_system_risk_fix_info_xspace">Problem kann im Zweitprofil nicht behoben werden. Dazu ins Hauptprofil wechseln.</string>
-  <string name="sc_warning_updater_not_found">Updaterapp wurde nicht gefunden</string>
+  <string name="sc_warning_updater_not_found">Updater-App wurde nicht vorhanden</string>
   <string name="scan_installed_games">Installierte Spiele prüfen…</string>
   <string name="scan_status_risk">Riskant</string>
   <string name="scan_status_safe">Sicher</string>
