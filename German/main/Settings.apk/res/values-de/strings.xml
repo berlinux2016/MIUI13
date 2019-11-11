@@ -2347,6 +2347,20 @@ Wenn es so bleibt, muss die App evtl. deinstalliert werden, um die Akkuleistung 
   <string name="dual_clock_aod_open_message">Duale Uhr wird auf dem Sperr-, Start- und dem ausgeschalteten Bildschirm angezeigt.</string>
   <string name="dual_clock_ok">Verstanden</string>
   <string name="dual_clock_open_message">Duale Uhr wird auf dem Sperr- und Startbildschirm angezeigt.</string>
+  <string name="dual_wifi">Dual-WLAN-Netzwerkbeschleunigung</string>
+  <string name="dual_wifi_acceleration">Slave-WLAN-Beschleunigung</string>
+  <string name="dual_wifi_avaliable_slave_wifi">Slave-WLAN verfügbar</string>
+  <string name="dual_wifi_avaliable_slave_wifi_24G">Slave-WLAN (2.4G) verfügbar</string>
+  <string name="dual_wifi_avaliable_slave_wifi_5G">Slave-WLAN (5G) verfügbar</string>
+  <string name="dual_wifi_enabler_summary">Gleichzeitige Nutzung zweier WLANs zur Beschleunigung</string>
+  <string name="dual_wifi_off">Aus</string>
+  <string name="dual_wifi_on">Ein</string>
+  <string name="dual_wifi_primary_wifi_connected">Primär-WLAN verbunden</string>
+  <string name="dual_wifi_slave_wifi_connected">Slave-WLAN verbunden</string>
+  <string name="dual_wifi_summary">Mit Primär-WLAN verbinden, Slave-WLAN einschalten und die Netzwerkgeschwindigkeit erhöhen</string>
+  <string name="dual_wifi_switching_not_remind">Nächstes Mal keine Hinweise mehr</string>
+  <string name="dual_wifi_switching_prompt">WLAN-Umschaltanfrage</string>
+  <string name="dual_wifi_switching_summary">Dual-WLANs erfordern unterschiedliche Frequenzbänder, und wenn Sie das Frequenzband des Primär-WLANs ändern möchten, wird das Slave-WLAN getrennt.</string>
   <string name="dump_log">Problembezogene Protokolle abrufen</string>
   <string name="dump_log_summary">"Diese Funktion ist für die Generierung des 284 Log in den Alpha- und Beta-Versionen von MIUI vorgesehen. Verwende es mit Vorsicht.
 Sie können die generierten Protokolle im Datei-Manager ansehen."</string>
@@ -4098,6 +4112,7 @@ Betriebssystem auswählen:"</string>
   <string name="mtrl_picker_date_format">dd. MMM. yyyy</string>
   <string name="mtrl_picker_header_prompt">Datum wählen</string>
   <string name="mtrl_picker_range_header_prompt">Datumsbereich wählen</string>
+  <string name="multi_network_acceleration_app_settings">Beschleunigtes App-Management für Multi-Netzwerke</string>
   <string name="multi_select_title">%1$s ausgewählt</string>
   <string name="multi_touch_points_category_title">Multitouchpunkte</string>
   <string name="multi_touch_points_preference">Zum Einschalten neustarten</string>
@@ -5228,7 +5243,7 @@ UT Interface: %5$s"</string>
   <string name="reset_network_final_button_text">Einstellungen zurücksetzen</string>
   <string name="reset_network_final_desc">Alle Netzwerkeinstellungen zurücksetzen? Dies kann einige Sekunden dauern. Sie können diese Aktion nicht rückgängig machen.</string>
   <string name="reset_network_final_desc_esim">Alle Netzwerkeinstellungen zurücksetzen und heruntergeladene SIMs löschen? Sie können diese Aktion nicht rückgängig machen.</string>
-  <string name="reset_network_title">Einstellungen zurücksetzen</string>
+  <string name="reset_network_title">WLAN, mobile Netzwerke &amp; Bluetooth zurücksetzen</string>
   <string name="reset_second_space_passwd">Zweitprofilpasswort zurücksetzen</string>
   <string name="reset_second_space_passwd_cancel">Abbrechen</string>
   <string name="reset_second_space_passwd_confirm">Weiter</string>
@@ -7992,6 +8007,7 @@ Das Netzwerk als versteckt einzustellen, wird Ihre Routereinstellungen nicht än
   <string name="wifi_metered_title">Netzwerknutzung</string>
   <string name="wifi_modify">Ändern</string>
   <string name="wifi_more">Mehr</string>
+  <string name="wifi_multi_network_acceleration">Intelligente Multi-Netzwerkbeschleunigung</string>
   <string name="wifi_multiple_cert_added">(Mehrere Zertifikate hinzugefügt)</string>
   <string name="wifi_network_optimization">Optimierte Verbindung</string>
   <string name="wifi_network_prefix_length">Länge Netzwerkpräfix</string>
