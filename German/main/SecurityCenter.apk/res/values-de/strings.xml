@@ -13,7 +13,7 @@
   <string name="ac_enter_applock">App-Sperre eingeben</string>
   <string name="ac_firstUseApplock_subTitle">Bessere Sicherheitstools auf Systemebene verwenden</string>
   <string name="ac_firstUseApplock_title">Apps mit einem Passwort schützen</string>
-  <string name="ac_mask_all_apps">Für alle Apps ausblenden</string>
+  <string name="ac_mask_all_apps">Für alle ausblenden</string>
   <string name="ac_notification_contentText">Zum Einschalten tippen</string>
   <string name="ac_notification_contentTitle">Apps mit App-Sperre schützen</string>
   <string name="ac_post_notification_contentText">Holen Sie sich Schutz auf Systemebene</string>
@@ -22,7 +22,7 @@
   <string name="ac_pre_notification_contentTitle">App-Sperre ausprobieren</string>
   <string name="ac_summaryOff">Ausgeschaltet, kein Entsperrmuster zum Öffnen von Apps erforderlich</string>
   <string name="ac_summaryOn">Passwort eingeben, um geschützte Apps zu öffnen</string>
-  <string name="ac_unmask_all_apps">Für alle Apps einblenden</string>
+  <string name="ac_unmask_all_apps">Für alle einblenden</string>
   <string name="access_control_app_is_launching">App wird gestartet</string>
   <string name="access_control_failed_need_to_unlock_nofingerprint">Passwort eingeben vor dem Entsperren mit einem neuen Fingerabdruck</string>
   <string name="access_control_fingerprint_not_identified_msg">Fingerabdruckscan fehlgeschlagen</string>
@@ -1565,8 +1565,8 @@ Versuchen Sie ein anderes LAN-Kabel am Router. Wenn Sie vermuten, dass der Fehle
   <string name="notification_item">Ausgewählte Apps mit einer App-Sperre sichern</string>
   <string name="notification_mask_summary">Keine Benachrichtigungsinhalte für geschützte Apps anzeigen</string>
   <string name="notification_mask_title">Benachrichtigungsinhalt ausblenden</string>
-  <string name="notification_masked_item">Benachrichtigungen verbergen</string>
-  <string name="notification_masked_subtitle">Benachrichtigungen von Apps, die mit App-Sperre geschützt sind, verbergen</string>
+  <string name="notification_masked_item">Wie kann man den Benachrichtigunginhalt ausblenden?</string>
+  <string name="notification_masked_subtitle">App-Sperre verwenden, um den Benachrichtigungsinhalt für ausgewählte Apps auszublenden</string>
   <string name="notification_open_extreme_mode_text">Extrem-Stromsparmodus eingeschaltet</string>
   <string name="notification_summary_cmcc_app_check">Berühren für mehr Details</string>
   <string name="notify_channel_mipush">Push-Sicherheitsmeldungen</string>
@@ -1838,6 +1838,7 @@ Versuchen Sie ein anderes LAN-Kabel am Router. Wenn Sie vermuten, dass der Fehle
   <string name="power_center_power_save_summary_text">Verbleibende Zeit um bis zu %1$d Std %2$d Min erhöhen.</string>
   <string name="power_center_power_save_title_text">Stromsparen</string>
   <string name="power_center_repeat">Wiederholen</string>
+  <string name="power_center_scan_item_title_5g">5G-Verbindung</string>
   <string name="power_center_scan_item_title_GPS">GPS-Genauigkeit anpassen</string>
   <string name="power_center_scan_item_title_abnormal">Akkuprobleme</string>
   <string name="power_center_scan_item_title_abnormal_apps">Apps, die den Akku entladen</string>
@@ -1854,6 +1855,7 @@ Versuchen Sie ein anderes LAN-Kabel am Router. Wenn Sie vermuten, dass der Fehle
   <string name="power_center_stop_scan_title">Scannen stoppen</string>
   <string name="power_center_super_save_summary_text">Verbleibende Zeit um bis zu %1$d Std %2$d Min erhöhen.</string>
   <string name="power_center_super_save_title_text">Ultra-Stromsparen</string>
+  <string name="power_dialog_super_save_msg_5g">Ultra-Stromsparer schränkt die meisten stromführenden Funktionen (z.B. 5G-Verbindung) ein und reduziert die Leistung Ihres Geräts. Nur Anrufe, Nachrichten und Netzwerkverbindungen werden nicht beeinträchtigt. Ultra-Energiesparer einschalten?</string>
   <string name="power_center_time_to_boot">Einschaltzeit</string>
   <string name="power_center_time_to_shutdown">Ausschaltzeit</string>
   <string name="power_center_title">Akku &amp; Leistung</string>
@@ -1873,6 +1875,7 @@ Versuchen Sie ein anderes LAN-Kabel am Router. Wenn Sie vermuten, dass der Fehle
   <string name="power_optimize_btn_text_fixed">Optimiert</string>
   <string name="power_optimize_catagory_fixed_title">Optimiert</string>
   <string name="power_optimize_close_app">Apps mit hohem Akkuverbrauch schließen</string>
+  <string name="power_optimize_disable_5g">5G-Verbindung einschränken</string>
   <string name="power_optimize_disable_app_autostart">Apps daran hindern, automatisch zu starten</string>
   <string name="power_optimize_disable_gps">GPS ausschalten</string>
   <string name="power_optimize_disable_start_other_app">Apps daran hindern, andere zu öffnen</string>
@@ -1895,6 +1898,7 @@ Versuchen Sie ein anderes LAN-Kabel am Router. Wenn Sie vermuten, dass der Fehle
   <string name="power_save_on_time_start_time_summary_na">Von</string>
   <string name="power_save_ps_clean">Cache löschen, wenn das Gerät gesperrt ist.</string>
   <string name="power_save_ps_close_setting">Hintergrunddienste ausschalten (Synchronisation, GPS), um den Akku zu schonen.</string>
+  <string name="power_save_ps_close_setting_5g">Sromsparende Funktionen einschränken (Sync, 5G-Verbindung, GPS)</string>
   <string name="power_save_ps_freeze">Apps im Hintergrund einfrieren</string>
   <string name="power_save_ps_limit">Aktivität von System-Apps einschränken</string>
   <string name="power_save_settings">Akkueinstellungen</string>
@@ -2033,6 +2037,8 @@ Diese Funktion wird bei System-Apps nicht unterstützt."</string>
   <string name="privacy_prompt_traffic_adjust_message">Wenn Sie mit der Kalibrierung beginnen, verbindet sich MIUI mit dem Netzwerk, kodiert die Daten Ihres Mobilfunkanbieters, Telefonnummer, IMEI und Mi Konto und lädt diese Elemente auf die Mi Server hoch. Dies geschieht, um die Kalibriervorlage des Mobilfunkanbieters zu erhalten und zu erfahren, ob es möglich ist, Daten an Ihrem Standort zu erwerben.
 Während der Kalibrierung sendet MIUI eine Textnachricht an Ihren Mobilfunkanbieter, um die Kalibriervorlage zu erhalten.</string>
   <string name="privacy_prompt_upload">Hochladen</string>
+  <string name="privacyapp_number_masked_text">Benachrichtigungsinhalt wird ausgeblendet</string>
+  <string name="privacyapp_number_unmasked_text">Benachrichtigungsinhalt kann ausgeblendet werden</string>
   <string name="process_mediaserver_label">Mediaserver</string>
   <string name="promotion">Werbung</string>
   <string name="prompt_all">Für alles nachfragen</string>
