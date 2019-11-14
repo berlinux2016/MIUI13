@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+  <plurals name="last_several_days">
+    <item quantity="other">%d Tage</item>
+    <item quantity="one">%d Tag</item>
+  </plurals>
+  <plurals name="trend_from_last_several_day_equal">
+    <item quantity="other">Heutige Bildschirmzeit entspricht Ihrem %d-Tagesdurchschnitt</item>
+    <item quantity="one">Heutige Bildschirmzeit entspricht Ihrem %d-Tagesdurchschnitt</item>
+  </plurals>
+  <plurals name="trend_from_last_several_day_less">
+    <item quantity="other">Heute %2$s weniger Bildschirmzeit als Ihr %d-Tagesdurchschnitt</item>
+    <item quantity="one">Heute %2$s weniger Bildschirmzeit als Ihr %d-Tagesdurchschnitt</item>
+  </plurals>
+  <plurals name="trend_from_last_several_day_more">
+    <item quantity="other">Heute %2$s mehr Bildschirmzeit heute Ihr %d-Tagesdurchschnitt</item>
+    <item quantity="one">Heute %2$s mehr Bildschirmzeit als Ihr %d-Tagesdurchschnitt</item>
+  </plurals>
   <plurals name="usage_days">
     <item quantity="other">%d Tage</item>
     <item quantity="one">%d Tag</item>
