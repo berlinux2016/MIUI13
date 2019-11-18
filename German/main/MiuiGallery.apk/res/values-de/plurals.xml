@@ -287,7 +287,11 @@
   <plurals name="photo_count_format">
     <item quantity="other">%1$d Elemente insgesamt</item>
     <item quantity="one">Nur %1$d Element</item>
- </plurals>
+  </plurals>
+  <plurals name="photo_remain_days">
+    <item quantity="other">%d Tage</item>
+    <item quantity="one">%d Tag</item>
+  </plurals>
   <plurals name="picker_all_image_need_download">
     <item quantity="other">Ausgewählte Fotos sind nicht auf diesem Gerät, über die mobile Datenverbindung herunterladen?</item>
     <item quantity="one">Ausgewähltes Foto ist nicht auf diesem Gerät, über die mobile Datenverbindung herunterladen?</item>
@@ -383,6 +387,26 @@
   <plurals name="sync_total_count">
     <item quantity="other">%d Elemente</item>
     <item quantity="one">%d Element</item>
+  </plurals>
+  <plurals name="trash_purge_dialog_message_image">
+    <item quantity="other">Sie können %d ausgewählte Elemente nicht wiederherstellen, wenn Sie sie löschen. Trotzdem löschen?</item>
+    <item quantity="one">Sie können %d ausgewähltes Element nicht wiederherstellen, wenn Sie es löschen. Trotzdem löschen?</item>
+  </plurals>
+  <plurals name="trash_purge_dialog_message_media">
+    <item quantity="other">Sie können %d ausgewählte Elemente nicht wiederherstellen, wenn Sie sie löschen. Trotzdem löschen?</item>
+    <item quantity="one">Sie können %d ausgewähltes Element nicht wiederherstellen, wenn Sie es löschen. Trotzdem löschen?</item>
+  </plurals>
+  <plurals name="trash_purge_dialog_message_video">
+    <item quantity="other">Sie können %d ausgewählte Elemente nicht wiederherstellen, wenn Sie sie löschen. Trotzdem löschen?</item>
+    <item quantity="one">Sie können %d ausgewähltes Element nicht wiederherstellen, wenn Sie es löschen. Trotzdem löschen?</item>
+  </plurals>
+  <plurals name="trash_vip_info_text_login">
+    <item quantity="other">Elemente können hier bis zu %1$d Tage gespeichert werden (%2$s)</item>
+    <item quantity="one">Elemente können hier bis zu %1$d Tag gespeichert werden (%2$s)</item>
+  </plurals>
+  <plurals name="trash_vip_info_text_unlogin">
+    <item quantity="other">Elemente können hier bis zu %1$d Tage gespeichert werden. Tarif upgraden, um diesen Zeitraum zu verlängern.</item>
+    <item quantity="one">Elemente können hier bis zu %1$d Tag gespeichert werden. Tarif upgraden, um diesen Zeitraum zu verlängern.</item>
   </plurals>
   <plurals name="video_count_format">
     <item quantity="other">%1$d Dateien</item>
