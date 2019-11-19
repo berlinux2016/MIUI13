@@ -1,5 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+  <string name="Approval">Anwenden</string>
+  <string name="Xiaomi_account_pending_approval">Bewerbung prüfen</string>
   <string name="abc_action_bar_home_description">Zur Startseite</string>
   <string name="abc_action_bar_up_description">Nach oben</string>
   <string name="abc_action_menu_overflow_description">Mehr Optionen</string>
@@ -47,6 +49,7 @@
   <string name="camera_error_title">Kamerafehler</string>
   <string name="cancel">Abbrechen</string>
   <string name="character_counter_content_description">Zeichenlimit überschritten: %1$d von %2$d</string>
+  <string name="check_for_updates">Auf Beta-Updates prüfen</string>
   <string name="choose_open_code_app">Eine App auswählen</string>
   <string name="choose_pay_title">Zahlungsart auswählen</string>
   <string name="choose_picture">Bild mit dem QR-Code auswählen</string>
@@ -59,6 +62,7 @@
   <string name="contact_details">QR-Code-Kontakt:</string>
   <string name="continue_access_web_url">Zur Webseite gehen</string>
   <string name="continue_to_website">Zur Webseite gehen</string>
+  <string name="continue_waiting">Weiter warten</string>
   <string name="copy">Kopieren</string>
   <string name="copy_text">Text kopieren</string>
   <string name="copy_text_success">Text kopiert</string>
@@ -86,6 +90,8 @@
   <string name="document_title">Foto vom Dokument aufnehmen</string>
   <string name="document_top_panel_title">Dokumentfoto</string>
   <string name="done">Erledigt</string>
+  <string name="download_stable_version">Stable Version verwenden</string>
+  <string name="download_use_stable_version">Stable Version herunterladen</string>
   <string name="drag_barcode_into_frame">Rahmen über den Code platzieren</string>
   <string name="drag_crop_to_business_card">In den Ausschnitt verschieben</string>
   <string name="email">E-Mail:</string>
@@ -101,11 +107,25 @@
   <string name="error_minute_limit">Zu viele Versuche in einer Minute</string>
   <string name="error_permissions">Scanner hat keine Berechtigungen, die für korrekte Scanfunktion erforderlich sind. Um fortzufahren, prüfen Sie die Berechtigungen in den Einstellungen.</string>
   <string name="error_server_error">Serverfehler</string>
+  <string name="experience_new_feature_tips">Melden Sie sich in Ihrem Mi Konto an, um die Nutzungsberechtigung für die Beta Version zu beantragen. Sie können die Beta Version nach Prüfung Ihrer Bewerbung verwenden. Die Beta Version kann Bugs enthalten.</string>
+  <string name="experience_new_features">Beta Version</string>
+  <string name="experiential_version_of_the_prompt_content">Am Mi Konto anmelden, um auf Scanner Beta zuzugreifen. Jetzt anmelden?</string>
+  <string name="failed_to_get_xiaomi_account">Anmelden nicht möglich</string>
   <string name="feed_search_fail">Keine Ergebnisse, erneut versuchen</string>
   <string name="feedback_description_camera_access">Scanner kann nicht mit Kamera verbinden</string>
   <string name="feedback_description_save_photo">Bild oder Video wurde nicht gespeichet</string>
   <string name="flash_lable">Blitz</string>
   <string name="flight_mode_connecting_to_wifi">WLAN manuell einschalten, wenn der Flugmodus an ist</string>
+  <string name="food_identification_fail_tips">Obst, Gemüse und andere Lebensmittel scannen. Diese Funktion funktioniert auch mit Bildern.</string>
+  <string name="food_identification_tip_msg">Lebensmittel erkennen…</string>
+  <string name="food_make_complaints_hint">Hier Feedback eingeben</string>
+  <string name="food_module_get_more_info">Mehr Info</string>
+  <string name="food_module_identification_failure">Dieses Objekt wird nicht erkannt</string>
+  <string name="food_module_send_feedback">Senden</string>
+  <string name="food_module_step_on">Gefällt mir nicht</string>
+  <string name="food_module_thumbs_up">Gefällt mir</string>
+  <string name="food_module_tip">Lebensmittel im Rahmen platzieren</string>
+  <string name="food_module_title_food">Kalorien</string>
   <string name="got_it">Verstanden</string>
   <string name="gps">Navigieren</string>
   <string name="image_file_name_format">"'scanner'_yyyyMMdd_HHmmss"</string>
@@ -164,6 +184,8 @@
   <string name="namecard_vendor_info">Unterstützt von CamCard</string>
   <string name="new_schedule">Termin erstellen</string>
   <string name="nickname">Spitzname:</string>
+  <string name="no_has_experience_version_permission">Sie haben keine Berechtigung, Scanner Beta zu verwenden. Berechtigung beantragen oder die Stable Version herunterladen.</string>
+  <string name="no_inner_version">Beta Version ist nicht verfügbar</string>
   <string name="no_network">Keine Netzwerkverbindung</string>
   <string name="no_storage">SD-Karte vor der Kamerabenutzung installieren</string>
   <string name="no_support_to_translate_type">Diese Sprache wird nicht unterstützt</string>
@@ -191,6 +213,7 @@
   <string name="pref_camera_jpeg_quality_superfine">extrafein</string>
   <string name="preparing_sd">SD-Karte vorbereiten…</string>
   <string name="previous">Zurück</string>
+  <string name="prompt">Achtung</string>
   <string name="qr_code_details">QR-Code Details:</string>
   <string name="recognition_error_download_cancel">Später</string>
   <string name="recognition_error_download_data_msg">Laden Sie Erkennungssoftware runter, um Karten zu scannen (ca. 15 MB). Mobile Daten für den Download nutzen?</string>
@@ -203,6 +226,7 @@
   <string name="recognition_error_downloading">Erkennungssoftware runterladen…</string>
   <string name="recognize">Scannen</string>
   <string name="recognize_fail">Code wurde nicht gelesen</string>
+  <string name="request_server_failed">Keine Verbindung zum Server</string>
   <string name="scan_fail">Code wurde nicht gescannt</string>
   <string name="scan_result">Ergebnis</string>
   <string name="scan_support_type">WeChat, Alipay, QR-Codes, Barcodes</string>
@@ -228,6 +252,7 @@
   <string name="study_searching">Nach Ergebnis suchen…</string>
   <string name="study_title">Scannen Sie das Problem, das Sie lösen möchten</string>
   <string name="study_vendor_info">Unterstützt durch Zuoyebang</string>
+  <string name="suggested_submission_success">Feedback erfolgreich übermittelt</string>
   <string name="switch_open">Einschalten</string>
   <string name="tel">Telefon</string>
   <string name="tips_message">Stellen Sie eine Internetverbindung her, um die zu besuchende Seite auf Sicherheit zu prüfen</string>
@@ -267,6 +292,7 @@
   <string name="translation_see_more">Definition zeigen</string>
   <string name="translation_type_sentence">Ausdruck</string>
   <string name="translation_type_word">Wort</string>
+  <string name="uninstall_prompt">Wenn bei der Installation Probleme auftreten, gehen Sie zu Einstellungen &gt; Apps &gt; Apps verwalten &gt; Scanner, tippen Sie auf \"Deinstallieren\" und versuchen Sie, die App neu zu installieren.</string>
   <string name="url_is_phish">Das könnte eine Phishing-Webseite sein</string>
   <string name="url_is_safety">Diese Webseite ist sicher</string>
   <string name="url_is_unknown">Prüfen der Seite auf Sicherheit nicht möglich</string>
@@ -275,11 +301,16 @@
   <string name="web">Webseite:</string>
   <string name="website_details">Webseite:</string>
   <string name="weixin_code_tip">WeChat nutzen, um diesen QR-Code zu scannen</string>
+  <string name="welcome_to_thesweepversion">Willkommen bei Scanner Beta!</string>
   <string name="wifi_details">WLAN:</string>
   <string name="wifi_exist_fail">Hotspot \"%1$s\" existiert bereits. Löschen und erneut scannen, um eine Verbindung herzustellen.</string>
   <string name="wifi_open_fail">WLAN wurde nicht eingeschaltet</string>
   <string name="wifi_psd_toolong">Passwort zu lang. Manuell eingeben.</string>
   <string name="wifi_pwd">Passwort:</string>
   <string name="wifi_security">Sicherheit:</string>
+  <string name="will_be_sent_tothe_background_review">" (Ihre Bewerbung wird in Kürze zur Prüfung weitergeleitet.)"</string>
   <string name="wx_not_installed_toast">Diese Funktion muss WeChat öffnen. Zuerst WeChat installieren.</string>
+  <string name="you_have_permission_to_download">Hier tippen, um die Beta Version herunterzuladen</string>
+  <string name="you_id">"Ihre ID: "</string>
+  <string name="your_application_is_under_review">" (Ihre Bewerbung wird geprüft.)"</string>
 </resources>
