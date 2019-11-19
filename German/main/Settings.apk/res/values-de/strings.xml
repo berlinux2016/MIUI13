@@ -537,6 +537,7 @@ Schalten Sie diese Funktion ein und tippen Sie auf die Schaltfläche Eingabehilf
   <string name="applications_settings_header">App-Einstellungen</string>
   <string name="applications_settings_summary">Apps verwalten, Verknüpfungen für Schnellstart festlegen</string>
   <string name="apply">Anwenden</string>
+  <string name="apply_fingerprint_to">Fingerabdrücke verwenden für</string>
   <string name="apply_fingerprint_to_category_title">Fingerabdruck anwenden auf…</string>
   <string name="apply_password_to_category_title">Entsperren erforderlich</string>
   <string name="apply_update_fail">Update fehlgeschlagen</string>
@@ -2497,6 +2498,7 @@ Einige Apps funktionieren eventuell erst, wenn sie von ihren Entwicklern aktuali
   <string name="enhanced_4g_lte_mode_summary_4g_calling">4G-Dienste verwenden, um Sprache und Kommunikation zu verbessern (empfohlen)</string>
   <string name="enhanced_4g_lte_mode_title_4g_calling">4G-Anrufe</string>
   <string name="enhanced_4g_lte_mode_title_advanced_calling">Erweiterte Anrufe</string>
+  <string name="enrol_fingerprint_data">Fingerabdruck hinzufügen</string>
   <string name="enter_password">Passwort zum Starten von Android eingeben</string>
   <string name="enter_pattern">Muster zum Starten von Android zeichnen</string>
   <string name="enter_pin">PIN zum Starten von Android eingeben</string>
@@ -3801,7 +3803,8 @@ Um auch Musik, Bilder und sonstige Benutzerdaten zu löschen, muss der <b>USB-Sp
   <string name="master_clear_summary">Alle Daten auf dem Telefon werden gelöscht</string>
   <string name="master_clear_title">Auf Werkszustand zurücksetzen</string>
   <string name="max_aspect_settings_all_app_display_loading">Einen Moment…</string>
-  <string name="max_fingerprint_number_reached">Mehr als 5 Fingerabdrücke können nicht gespeichert werden. Um einen weiteren hinzuzufügen, müssen Sie zuerst einen Fingerabdruck löschen.</string>
+  <string name="max_fingerprint_number_reached">Mehr als 5 Fingerabdrücke können nicht gespeichert werden. Um einen weiteren hinzuzufügen, müssen Sie zuerst einen löschen.</string>
+  <string name="max_fingerprint_reached_toast">Sie können bis zu 5 Fingerabdrücke hinzufügen</string>
   <string name="maximum_memory_use">Maximaler Speicherverbrauch</string>
   <string name="mbn_version">MBN-Version</string>
   <string name="media_button">Medientaste</string>
@@ -7293,6 +7296,10 @@ Nur wichtige Elemente übertragen."</string>
   <string name="usb_eject_summary">USB-Speicher auswerfen, damit Sie ihn sicher entfernen können</string>
   <string name="usb_format">USB-Speicher löschen</string>
   <string name="usb_format_summary">Löscht alle Daten auf dem USB-Speicher, wie z. B. Musik und Fotos</string>
+  <string name="usb_headset_not_support_cancel">Verstanden</string>
+  <string name="usb_headset_not_support_message">"Analoge USB-Kopfhörer werden nicht unterstützt, bitte ersetzen Sie sie durch digitale Kopfhörer 
+oder verwenden Sie eine 3,5-mm-Kopfhörerbuchse, um auf die Kopfhörer zuzugreifen."</string>
+  <string name="usb_headset_not_support_tile">Kopfhörererkennung</string>
   <string name="usb_host_mode_subtext">Für die Verwendung eines Gamecontrollers und anderer Geräte über den USB-Anschluss, Laufzeit des Akkus wird verringert</string>
   <string name="usb_host_mode_text">USB-Hostmodus einschalten</string>
   <string name="usb_insert_summary">Legen Sie einen USB-Speicher ein, um ihn zu mounten</string>
