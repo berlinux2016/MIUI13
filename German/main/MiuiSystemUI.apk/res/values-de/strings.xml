@@ -1475,7 +1475,7 @@ Screenshot zu erstellen"</string>
   <string name="quick_settings_screenlock_label">Sperrbildschirm</string>
   <string name="quick_settings_secondary_label_until">Bis %s</string>
   <string name="quick_settings_settings_label">Einstellungen</string>
-  <string name="quick_settings_sim_disabled">(Deaktiviert)</string>
+  <string name="quick_settings_sim_disabled">" (deaktiviert)"</string>
   <string name="quick_settings_time_label">Zeit</string>
   <string name="quick_settings_toast_drag_to_enable_custom_tile">Um ein Element hinzuzufügen, halten Sie es gedrückt und ziehen Sie es dann in den oberen Teil des Bildschirms.</string>
   <string name="quick_settings_user_label">Ich</string>
@@ -1570,12 +1570,14 @@ Screenshot zu erstellen"</string>
   <string name="screenshot_dlg_cancel">Abbrechen</string>
   <string name="screenshot_dlg_delete_button">Löschen</string>
   <string name="screenshot_edit">Bearbeiten</string>
-  <string name="screenshot_failed_text">Screenshot konnte nicht gespeichert werden (zu wenig Speicher oder von der App verweigert).</string>
-  <string name="screenshot_failed_title">Konnte keinen Screenshot aufnehmen</string>
+  <string name="screenshot_failed_text">Screenshot wurde nicht gespeichert (zu wenig Speicher oder von der App verweigert)</string>
+  <string name="screenshot_failed_title">Screenshot aufnehmen nicht möglich</string>
   <string name="screenshot_failed_to_capture_text">Erstellen von Screenshots ist weder von der App noch von Ihrer Organisation erlaubt</string>
-  <string name="screenshot_failed_to_save_text">Kann aufgrund des begrenzten Speicherplatzes keinen Screenshot speichern</string>
+  <string name="screenshot_failed_to_capture_title">Diese App erlaubt keine Screenshots</string>
+  <string name="screenshot_failed_to_save_text">Screenshot speichern nicht möglich wegen zu wenig Speicher</string>
+  <string name="screenshot_failed_to_save_title">Nicht genügend Speicher für neue Screenshots</string>
   <string name="screenshot_failed_to_save_unknown_text">Beim Speichern des Screenshots ist ein Fehler aufgetreten</string>
-  <string name="screenshot_insert_failed">Laden des Screenshots fehlgeschlagen, bitte nehmen Sie ein neues auf oder sehen Sie sich das Bild in der Galerie an</string>
+  <string name="screenshot_insert_failed">Laden des Screenshots fehlgeschlagen, bitte nehmen Sie einen neuen auf oder sehen Sie sich das Bild in der Galerie an</string>
   <string name="screenshot_long_screenshot">Bildlauf</string>
   <string name="screenshot_saved_text">Zum Anzeigen antippen</string>
   <string name="screenshot_saved_title">Screenshot erstellt</string>
