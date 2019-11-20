@@ -20,7 +20,9 @@
   <string name="add_alarm">Neuer Wecker</string>
   <string name="add_clock">Uhr hinzufügen</string>
   <string name="add_timezone_title">Zeitzone hinzufügen</string>
+  <string name="agree">Zustimmen</string>
   <string name="alarm_alert_alert_silenced">Wecker verstummt nach %1$s</string>
+  <string name="alarm_alert_disabled">Aus</string>
   <string name="alarm_alert_snooze_set">Für %d Minuten schlummern</string>
   <string name="alarm_ascending_mode_summary">Weckerlautstärke steigt allmählich an</string>
   <string name="alarm_ascending_mode_title">Ansteigende Lautstärke</string>
@@ -34,6 +36,7 @@
   <string name="alarm_notify_text">Schlummern oder beenden</string>
   <string name="alarm_repeat">Wiederholen</string>
   <string name="alarm_ringtone">Wecktöne</string>
+  <string name="alarm_ringtone_picker">Alarme</string>
   <string name="alarm_settings">Weckereinstellungen</string>
   <string name="alarm_settings_category_title">Weckereinstellungen</string>
   <string name="alarm_vibrate">Vibrieren</string>
@@ -46,19 +49,49 @@
   <string name="app_label">Uhr</string>
   <string name="auto_silence_never">Nie</string>
   <string name="auto_silence_title">Automatische Stummschaltung</string>
+  <string name="back">Beenden</string>
+  <string name="bedtime">Schlafenszeit</string>
+  <string name="bedtime_analysis_more">Mehr Daten</string>
+  <string name="bedtime_banner_desc">Gleichmäßiger Schlaf ist wichtig</string>
+  <string name="bedtime_banner_guide_desc">Schlafenszeit planen</string>
+  <string name="bedtime_guide_back_desc">Sie werden keine Schlafenszeit-Alarme mehr erhalten, wenn Sie jetzt beenden. Trotzdem beenden?</string>
+  <string name="bedtime_manage">Schlafenszeit verwalten</string>
+  <string name="bedtime_manage_desc">Schlafenszeit-Erinnerungen planen und Ihren Schlaf verfolgen</string>
+  <string name="bedtime_manage_open">Schlafenszeit planen</string>
+  <string name="bedtime_manage_tip">Schlafenszeit hier verwalten</string>
+  <string name="bedtime_not_open_text">Ihre Statistik wird hier angezeigt, wenn Sie mit Schlafenszeit-Erinnerungen beginnen</string>
+  <string name="bedtime_repeat_desc">Tage, an denen Sie Erinnerungen erhalten</string>
+  <string name="bedtime_repeat_type">Planen</string>
+  <string name="bedtime_setting_complete">Schlafen Sie gut!</string>
+  <string name="bedtime_setting_complete_desc">Befolgen Sie Ihren neuen Schlafenszeitplan, um bestmöglich zu funktionieren</string>
+  <string name="bedtime_setting_no_disturbance">Auf DND umschalten, während Sie schlafen?</string>
+  <string name="bedtime_setting_no_disturbance_desc">Klingeltöne, Benachrichtigungstöne und Vibration werden stumm geschaltet, bis Sie aufwachen</string>
+  <string name="bedtime_setting_repeat_type">Wann gilt Ihr Schlafenszeitplan?</string>
+  <string name="bedtime_setting_repeat_type_desc">Tage wählen, an denen Sie Erinnerungen erhalten möchten</string>
+  <string name="bedtime_settings">Einstellungen Schlafenszeit</string>
+  <string name="bedtime_sleep_time_remind">Sie werden daran erinnert, 15 Minuten vor diesem Zeitpunkt ins Bett zu gehen</string>
+  <string name="bedtime_sleep_time_setting">Wann gehen Sie ins Bett?</string>
+  <string name="bedtime_wake_up_time_remind">Ein Alarm wird dabei ausgelöst</string>
+  <string name="bedtime_wake_up_time_setting">Wann stehen Sie auf?</string>
+  <string name="bedtime_welcome">Schlafenszeit verwalten</string>
+  <string name="bedtime_welcome_desc">Die Einhaltung eines geregelten und gleichmäßigen Schlafplans kommt Ihrer Gesundheit zugute. Setzen Sie Erinnerungen, die Ihnen helfen, jeden Tag ins Bett zu gehen und pünktlich aufzustehen.</string>
   <string name="birthday_alarm">Geburtstagswecker</string>
   <string name="birthday_alarm_summary">\"Happy Birthday\" an Ihrem Geburtstag spielen anstelle des Standardwecktons</string>
   <string name="cancel">Abbrechen</string>
+  <string name="channel_name_sleep">Schlaf</string>
   <string name="check_theme_app_install">Stellen Sie sicher, dass die Themen-App auf Ihrem Gerät installiert ist.</string>
   <string name="check_voice_assist_app_version">Aktualisieren Sie Mi KI auf die neueste Version.</string>
   <string name="clock_bg_button_setting_summary_common">Hintergrundfarbe für die Uhr auswählen</string>
   <string name="clock_bg_button_setting_summary_follow_sys">Schwarz wird als Hintergrundfarbe verwendet, wenn Sie in den Dark Mode wechseln.</string>
   <string name="clock_bg_button_setting_title">Hintergrundfarbe</string>
+  <string name="close">Schließen</string>
   <string name="close_alarm">Beenden</string>
   <string name="common_settings">Einstellungen</string>
   <string name="confirm">Bestätigen</string>
   <string name="confirm_abort">Verwerfen</string>
   <string name="content_desc_keep_screen">\"Bildschirm ein\"-Taste</string>
+  <string name="continue_operation">Fortfahren</string>
+  <string name="continue_step">Weiter</string>
   <string name="control_set_alarm">Wecker einstellen</string>
   <string name="control_set_alarm_with_existing">Wecker gestellt: %s</string>
   <string name="day">1 Tag</string>
@@ -72,6 +105,7 @@
   <string name="delete_selected_timer_item">Ausgewählten Timer löschen?</string>
   <string name="delete_timer_item_title">Timer löschen</string>
   <string name="delete_timezone_title">Zeitzone löschen</string>
+  <string name="deskclock_sleep_no_disturbance">Uhr - Schlafenszeit verwalten -DND-Modus</string>
   <string name="dialog_confirm_abort">Änderungen verwerfen?</string>
   <string name="dialog_legal_off_day"><Data>Sieht so aus, als würden Sie Urlaubsalarme verwenden. Diese Funktion muss mit dem Internet verbunden sein, um normal zu funktionieren. Bevor Sie diese Funktion nutzen können, müssen Sie unsere &lt;a href=\"%1$s\">Nutzervereinbarung&lt;/a> und &lt;a href=\"%2$s\">Datenschutzerklärung&lt;/a> akzeptieren. Zustimmen?</Data></string>
   <string name="dialog_legal_off_day_desc">Uhr darf keine Verbindung zum Internet herstellen, um die Informationen zu Feiertagen zu aktualisieren. Feiertagsalarme werden am Samstag und Sonntag ausgelöst.</string>
@@ -89,6 +123,7 @@
   <string name="dialog_privacy_content_news">Um personalisierte Dienste anbieten zu können und Morgennachrichten in Ihre Wecker aufzunehmen, muss sich die Uhr mit dem Internet verbinden. Bevor Sie die Uhr benutzen, müssen Sie auch unsere %1$s und %2$s lesen und akzeptieren. Zustimmen?</string>
   <string name="dialog_privacy_content_timer">Um Audiodateien/Umgebungsgeräusche für Timer herunterzuladen und personalisierte Dienste anbieten zu können, muss die Uhr eine Verbindung zum Internet herstellen. Bevor Sie die Uhr benutzen, müssen Sie auch unsere %1$s und %2$s lesen und akzeptieren. Zustimmen?</string>
   <string name="dialog_privacy_content_timer_data">Um Audiodateien/Umgebungsgeräusche für Timer (≈20 MB) herunterlzuaden und personalisierte Dienste anbieten zu können, muss die Uhr eine Verbindung zum Internet herstellen. Bevor Sie die Uhr benutzen, müssen Sie auch unsere %1$s und %2$s lesen und akzeptieren. Sie benutzen jetzt mobile Daten. Zustimmen?</string>
+  <string name="disagree">Ablehnen</string>
   <string name="done">Fertig</string>
   <string name="dynamic_alarm_speech">Intelligenter Wecker</string>
   <string name="edit_alarm">Wecker bearbeiten</string>
@@ -122,6 +157,7 @@
   <string name="label_pref_summary">Bezeichnung</string>
   <string name="lap">Runde</string>
   <string name="lap_num">Runde</string>
+  <string name="last_step">Zurück</string>
   <string name="legal_off_day">Gesetzlicher Feiertag</string>
   <string name="legal_off_day_message">" (Wecker wird werktags nicht ausgelöst)"</string>
   <string name="legal_workday">Zus. Arbeitstag</string>
@@ -147,7 +183,7 @@
   <string name="life_post_wake_up_time_title">Weckzeit</string>
   <string name="life_post_weather_invalid">Tippen, um Wetterdaten zu erhalten</string>
   <string name="life_post_weather_no_network">Mit Netzwerk verbinden, um Wetterinformationen zu aktualisieren</string>
-  <string name="listen_news_privacy"><Data>Um personalisierte Dienste anbieten zu können und Morgennachrichten in Ihre Wecker aufzunehmen, braucht die Uhr eine Internetverbindung. Vor Nutzung der Uhr müssen Sie auch unsere &lt;a href= %1$s\">Nutzervereinbarung&lt;/a> und &lt;a href=\"%2$s\">Datenschutzerklärung&lt;/a> lesen und akzeptieren. Zustimmen?</Data></string>
+  <string name="listen_news_privacy"><Data>Um personalisierte Dienste anbieten zu können und Morgennachrichten in Ihre Wecker aufzunehmen, braucht die Uhr eine Internetverbindung. Vor Nutzung der Uhr müssen Sie auch unsere &lt;a href=\"%1$s\">Nutzervereinbarung&lt;/a> und &lt;a href=\"%2$s\">Datenschutzerklärung&lt;/a> lesen und akzeptieren. Zustimmen?</Data></string>
   <string name="loading_ringtone">Klingelton laden…</string>
   <string name="menu_add_worldclock">Neue Weltzeit</string>
   <string name="menu_desk_clock">Schreibtischuhr</string>
@@ -188,9 +224,9 @@
   <string name="module_weather_ringtone_update_data">Wetterwecker beinhaltet jetzt Hintergrundmusik und besseren Sprachansagen. Die Uhr muss ≈30 MB an Audiodateien herunterladen, damit es funktioniert. Jetzt herunterladen?</string>
   <string name="module_weather_ringtone_update_success">Wetterwecker beinhaltet jetzt Hintergrundmusik und bessere Sprachansagen. Erstellen Sie einen neuen Wecker, um diese Funktion zu testen.</string>
   <string name="module_week_ringtone_download_data">Naturalarm spielt je nach Datum unterschiedliche Töne ab. Uhr muss ≈30MB an Audio herunterladen, damit es funktioniert. Jetzt herunterladen?</string>
-  <string name="module_week_ringtone_download_data_privacy">&lt;Data&gt;Naturalarm spielt je nach Datum unterschiedliche Töne ab. Uhr muss eine Verbindung zum Internet herstellen, um &amp;#8776;30 MB Audio herunterzuladen. Vor der Nutzung von Uhr müssen Sie auch unsere &amp;lt;a href= %1$s\"&amp;gt;Nutzervereinbarung&amp;lt;/a&amp;gt; und &amp;lt;a href=\"%2$s\"&amp;gt;Datenschutzerklärung&amp;lt;/a&amp;gt; lesen und akzeptieren. Zustimmen?&lt;/Data&gt;</string>
+  <string name="module_week_ringtone_download_data_privacy">&lt;Data&gt;Naturalarm spielt je nach Datum unterschiedliche Töne ab. Uhr muss eine Verbindung zum Internet herstellen, um &amp;#8776;30 MB Audio herunterzuladen. Vor der Nutzung von Uhr müssen Sie auch unsere &amp;lt;a href=\"%1$s\"&amp;gt;Nutzervereinbarung&amp;lt;/a&amp;gt; und &amp;lt;a href=\"%2$s\"&amp;gt;Datenschutzerklärung&amp;lt;/a&amp;gt; lesen und akzeptieren. Zustimmen?&lt;/Data&gt;</string>
   <string name="module_week_ringtone_download_wifi">Naturalarm spielt je nach Datum unterschiedliche Töne ab. Uhr muss ≈30MB an Audio herunterladen, damit es funktioniert. Jetzt herunterladen?</string>
-  <string name="module_week_ringtone_download_wifi_privacy">&lt;Data&gt;Naturalarm spielt je nach Datum unterschiedliche Töne ab. Uhr muss eine Verbindung zum Internet herstellen, um Audio herunterzuladen. Vor der Nutzung von Uhr müssen Sie auch unsere &amp;lt;a href= %1$s\"&amp;gt;Nutzervereinbarung&amp;lt;/a&amp;gt; und &amp;lt;a href=\"%2$s\"&amp;gt;Datenschutzerklärung&amp;lt;/a&amp;gt; lesen und akzeptieren. Zustimmen?&lt;/Data&gt;</string>
+  <string name="module_week_ringtone_download_wifi_privacy">&lt;Data&gt;Naturalarm spielt je nach Datum unterschiedliche Töne ab. Uhr muss eine Verbindung zum Internet herstellen, um Audio herunterzuladen. Vor der Nutzung von Uhr müssen Sie auch unsere &amp;lt;a href=\"%1$s\"&amp;gt;Nutzervereinbarung&amp;lt;/a&amp;gt; und &amp;lt;a href=\"%2$s\"&amp;gt;Datenschutzerklärung&amp;lt;/a&amp;gt; lesen und akzeptieren. Zustimmen?&lt;/Data&gt;</string>
   <string name="module_week_ringtone_introduce">Naturalarm spielt je nach Datum unterschiedliche Töne ab.</string>
   <string name="module_week_ringtone_update_data">Naturalarm spielt je nach Datum unterschiedliche Töne ab. Uhr muss ≈30MB an Audio herunterladen, damit es funktioniert. Jetzt herunterladen?</string>
   <string name="module_week_ringtone_update_success">Naturalarm spielt je nach Datum unterschiedliche Töne ab. Sie können einen neuen Alarm erstellen, um diese Funktion auszuprobieren.</string>
@@ -201,13 +237,15 @@
   <string name="monday_to_friday">Montag - Freitag</string>
   <string name="more_setting">Weitere Einstellungen</string>
   <string name="more_settings">Einstellungen</string>
-  <string name="network_privacy"><Data>Um relevante Infos über lokale Feiertage zu erhalten und Wecker einzustellen, braucht die Uhr eine Internetverbindung. Vor Nutzung der Uhr müssen Sie auch unsere &lt;a href= %1$s\">Nutzervereinbarung&lt;/a> und &lt;a href=\"%2$s\">Datenschutzerklärung&lt;/a> lesen und akzeptieren. Zustimmen?</Data></string>
-  <string name="network_privacy_global"><Data>Um personalisierte Dienste anbieten zu können, braucht die Uhr eine Internetverbindung. Vor Nutzung der Uhr müssen Sie auch unsere &lt;a href= %1$s\">Nutzervereinbarung&lt;/a> und &lt;a href=\"%2$s\">Datenschutzerklärung&lt;/a> lesen und akzeptieren. Zustimmen?</Data></string>
+  <string name="network_privacy"><Data>Um relevante Infos über lokale Feiertage zu erhalten und Wecker einzustellen, braucht die Uhr eine Internetverbindung. Vor Nutzung der Uhr müssen Sie auch unsere &lt;a href=\"%1$s\">Nutzervereinbarung&lt;/a> und &lt;a href=\"%2$s\">Datenschutzerklärung&lt;/a> lesen und akzeptieren. Zustimmen?</Data></string>
+  <string name="network_privacy_global"><Data>Um personalisierte Dienste anbieten zu können, braucht die Uhr eine Internetverbindung. Vor Nutzung der Uhr müssen Sie auch unsere &lt;a href=\"1$s\">Nutzervereinbarung&lt;/a> und &lt;a href=\"%2$s\">Datenschutzerklärung&lt;/a> lesen und akzeptieren. Zustimmen?</Data></string>
   <string name="never">Einmalig</string>
   <string name="no_alarm_setting">Hier keine Wecker</string>
   <string name="no_worldclock">Hier keine Uhren</string>
+  <string name="not_update">Jetzt nicht</string>
   <string name="oneshot_alarm">Löschen, sobald der Wecker klingelt</string>
   <string name="open_keep_screen">Bildschirm bleibt eingeschaltet</string>
+  <string name="open_sleep_record">Einschalten</string>
   <string name="other_category_title">Weiteres</string>
   <string name="pause">Pause</string>
   <string name="personal_recommend">Personalisierte Inhaltsempfehlungen</string>
@@ -236,6 +274,7 @@
   <string name="setting_alarm_arriving_subtitle">Benachrichtigungen anzeigen, bevor ein Wecker ausgelöst wird</string>
   <string name="setting_alarm_arriving_summary">Vor dem Weckton eine Nachricht senden</string>
   <string name="setting_alarm_arriving_title">Nachricht vor Weckton</string>
+  <string name="setting_complete">Fertig</string>
   <string name="settings">Einstellungen</string>
   <string name="shortcut_new_alarm">Wecker einstellen</string>
   <string name="shortcut_start_timer">Timer starten</string>
@@ -248,6 +287,24 @@
   <string name="shutdown_alarm_title">Standby-Wecker</string>
   <string name="silent_alarm_summary">Lautlosmodus</string>
   <string name="skip_alarm_once_hint">Am %s einmalig ausschalten</string>
+  <string name="sleep_analysis">Statistik</string>
+  <string name="sleep_date_provider_text">Schlafdaten bereitgestellt von Mi Health</string>
+  <string name="sleep_duration">"Schlafdauer: "</string>
+  <string name="sleep_duration_avg_text_diff">Durchschnittl. Schlafdauer (%1$s-%2$s)</string>
+  <string name="sleep_duration_desc">Geschlafen für %1$s %2$s</string>
+  <string name="sleep_duration_no_data">Noch nicht genug Daten</string>
+  <string name="sleep_duration_recommendation">Die meisten Menschen brauchen 7 bis 9 Stunden Schlaf pro Nacht</string>
+  <string name="sleep_no_disturbance">DND-Modus</string>
+  <string name="sleep_no_disturbance_desc">Zum DND-Modus wechseln, bis Sie aufwachen</string>
+  <string name="sleep_no_record_text">Anfangen, Ihren Schlaf zu verfolgen, um Statistiken anzuzeigen</string>
+  <string name="sleep_notification_desc">Befolgen Sie Ihren Schlafenszeitplan</string>
+  <string name="sleep_notification_title">Zeit zum Schlafengehen</string>
+  <string name="sleep_record">Schlaf verfolgen</string>
+  <string name="sleep_record_desc">Einschalten, um die Aufnahme von Schlafdaten zu starten</string>
+  <string name="sleep_record_desc_detailed">Schlafverfolgungsfunktion wird von Mi Health bereitgestellt. Nach dem Einschalten zeichnet Mi Health automatisch Ihren Schlaf auf, basierend auf Ihrer Telefonnutzung, der Aktivitätsstatistik sowie der eingestellten Einschlaf-/Aufwachzeit, und zeigt Ihnen die Statistik in Form von Diagrammen an. Um den Schlaf genauer zu verfolgen, erlauben Sie Mi Health den Autostart. Alle zugehörigen Daten werden lokal auf Ihrem Gerät gespeichert, sodass Sie sie einfach verwalten können.</string>
+  <string name="sleep_record_no_data">Ihre Statistik wird hier angezeigt, sobald Mi Health genügend Daten analysiert hat.</string>
+  <string name="sleep_remind">Schlafenszeit-Erinnerung</string>
+  <string name="sleep_time">Einschlafen</string>
   <string name="slider_text">Zum Ausschalten nach oben wischen</string>
   <string name="snooze_confirm_cancel">Beenden</string>
   <string name="snooze_duration">Schlummern</string>
@@ -316,13 +373,20 @@
   <string name="turn_off_this_repeat_alarm">Diesen wiederkehrenden Wecker ausschalten</string>
   <string name="upcoming_alarm">Anstehender Wecker: %s</string>
   <string name="upcoming_alarm_hint">Sie können diesen Wecker jetzt beenden</string>
+  <string name="update_health_app">Mi Health aktualisieren</string>
+  <string name="update_health_app_desc">Schlafverfolgungsfunktion wird von Mi Health bereitgestellt. Mi Health auf die neueste Version aktualisieren, um auf zugehörige Funktionen zuzugreifen</string>
+  <string name="update_it">Aktualisieren</string>
   <string name="update_notification_info">Daten im Hintergrund aktualisieren…</string>
+  <string name="usage_start">Starten</string>
   <string name="user_agreement">Nutzervereinbarung</string>
   <string name="vibrate_pref_summary">Bei Wecker vibrieren</string>
   <string name="vibrate_when_ringing">Vibrieren beim Klingeln</string>
   <string name="volume_button_setting_desc">Funktionen für die Tasten Power und Lautstärke +/- zuweisen</string>
   <string name="volume_button_setting_summary">Verhalten dieser Tasten während Wecker klingelt</string>
   <string name="volume_button_setting_title">Lautstärketasten</string>
+  <string name="wake_up_alert_desc">Alarmton abspielen beim Aufwachen</string>
+  <string name="wake_up_ringtone">Alarmton</string>
+  <string name="wake_up_time">Aufwachen</string>
   <string name="workday_alarm_clock">Wecker an Werktagen</string>
   <string name="worldclock_empty_text">Keine Weltzeituhren</string>
   <string name="worldclock_input_hint_text">Nach Land oder Stadt suchen</string>
