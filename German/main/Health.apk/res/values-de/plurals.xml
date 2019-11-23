@@ -1,67 +1,123 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="day_index">
-        <item quantity="other">%1$d Tage</item>
-        <item quantity="one">%1$d Tag</item>
-    </plurals>
-    <plurals name="goal_format_with_unit">
-        <item quantity="other">Ziel: %1$d Schritte</item>
-        <item quantity="one">Ziel: %1$d Schritt</item>
-    </plurals>
-    <plurals name="goal_unit">
-        <item quantity="other">" Schritte"</item>
-        <item quantity="one">" Schritt"</item>
-    </plurals>
-    <plurals name="menstruation_sum_days">
-        <item quantity="other">%1$d-Tageszeitraum</item>
-        <item quantity="one">%1$d-Tageszeitraum</item>
-    </plurals>
-    <plurals name="mtrl_badge_content_description">
-        <item quantity="other">%d neue Benachrichtigungen</item>
-        <item quantity="one">%d neue Benachrichtigung</item>
-    </plurals>
-    <plurals name="step_num_format">
-        <item quantity="other">%1$d Schritte</item>
-        <item quantity="one">%1$d Schritt</item>
-    </plurals>
-    <plurals name="subtitle_add_record">
-        <item quantity="other">Seit %1$d Tagen nichts mehr aufgezeichnet.  Zeiten erfassen, um genauere Voraussagen zu erhalten.</item>
-        <item quantity="one">Seit %1$d Tag nichts mehr aufgezeichnet.  Zeiten erfassen, um genauere Voraussagen zu erhalten.</item>
-    </plurals>
-    <plurals name="subtitle_menstruation_continued_days">
-        <item quantity="other">Dieser Zeitraum dauert insgesamt %1$d Tage</item>
-        <item quantity="one">Dieser Zeitraum dauert insgesamt %1$d Tag</item>
-    </plurals>
-    <plurals name="subtitle_menstruation_cycle_days">
-        <item quantity="other">Tag %1$d dieses Menstruationszyklus</item>
-        <item quantity="one">Tag %1$d dieses Menstruationszyklus</item>
-    </plurals>
-    <plurals name="sum_cycle_days">
-        <item quantity="other">%1$d-Tageszyklus</item>
-        <item quantity="one">%1$d-Tageszyklus</item>
-    </plurals>
-    <plurals name="times_format">
-        <item quantity="other">%1$d-mal</item>
-        <item quantity="one">%1$d-mal</item>
-    </plurals>
-    <plurals name="title_menstruation_day">
-        <item quantity="other">Tag %1$d der Periode</item>
-        <item quantity="one">Tag %1$d der Periode</item>
-    </plurals>
-    <plurals name="title_menstruation_margin_next_time_days">
-        <item quantity="other">%1$d Tage bis zur nächsten Periode</item>
-        <item quantity="one">%1$d Tag bis zur nächsten Periode</item>
-    </plurals>
-    <plurals name="title_menstruation_predict_period">
-        <item quantity="other">Geschätzter Tag %1$d der Periode</item>
-        <item quantity="one">Geschätzter Tag %1$d der Periode</item>
-    </plurals>
-    <plurals name="unit_days">
-        <item quantity="other">" Tage"</item>
-        <item quantity="one">" Tag"</item>
-    </plurals>
-    <plurals name="user_age_display_format_year">
-        <item quantity="other">%1$d Jahre alt</item>
-        <item quantity="one">%1$d Jahr alt</item>
-    </plurals>
+  <plurals name="daily_suggestions_steps">
+    <item quantity="other">Jeden Tag mindestens %1$d Schritte gehen</item>
+    <item quantity="one">Jeden Tag mindestens %1$d Schritt gehen</item>
+  </plurals>
+  <plurals name="day_index">
+    <item quantity="other">%1$d Tage</item>
+    <item quantity="one">%1$d Tag</item>
+  </plurals>
+  <plurals name="dialog_choose_items">
+    <item quantity="other">%1$d ausgewählte Elemente</item>
+    <item quantity="one">%1$d ausgewähltes Element</item>
+  </plurals>
+  <plurals name="dialog_delete_records_confirm">
+    <item quantity="other">%1$d Datensätze löschen?</item>
+    <item quantity="one">%1$d Datensatz löschen?</item>
+  </plurals>
+  <plurals name="goal_format_with_unit">
+    <item quantity="other">Ziel: %1$d Schritte</item>
+    <item quantity="one">Ziel: %1$d Schritt</item>
+  </plurals>
+  <plurals name="goal_unit">
+    <item quantity="other">" Schritte"</item>
+    <item quantity="one">" Schritt"</item>
+  </plurals>
+  <plurals name="goal_unit_with_number">
+    <item quantity="other">%1$d Schritte</item>
+    <item quantity="one">%1$d Schritt</item>
+  </plurals>
+  <plurals name="hours">
+    <item quantity="other">%1$d Std</item>
+    <item quantity="one">%1$d Std</item>
+  </plurals>
+  <plurals name="last_measure_date_interval">
+    <item quantity="other">%1$d Tage seit dem letzten Wiegen</item>
+    <item quantity="one">%1$d Tag seit dem letzten Wiegen</item>
+  </plurals>
+  <plurals name="last_measure_day_body_weight">
+    <item quantity="other">%1$d Tage seit dem letzten Wiegen</item>
+    <item quantity="one">%1$d Tag seit dem letzten Wiegen</item>
+  </plurals>
+  <plurals name="menstruation_sum_days">
+    <item quantity="other">%1$d-Tage-Periode</item>
+    <item quantity="one">%1$d-Tagsperiode</item>
+  </plurals>
+  <plurals name="mesens_card_title_day_in_predict">
+    <item quantity="other">Tag %1$d (vorausichtlich)</item>
+    <item quantity="one">Tag %1$d (vorausichtlich)</item>
+  </plurals>
+  <plurals name="mesens_card_title_days">
+    <item quantity="other">Tag %1$d</item>
+    <item quantity="one">Tag %1$d</item>
+  </plurals>
+  <plurals name="mesens_card_title_predict_date">
+    <item quantity="other">Nächste Periode in %1$d Tagen</item>
+    <item quantity="one">Nächste Periode in %1$d Tag</item>
+  </plurals>
+  <plurals name="minutes">
+    <item quantity="other">%1$d Min</item>
+    <item quantity="one">%1$d Min</item>
+  </plurals>
+  <plurals name="sleep_goal_by_hour">
+    <item quantity="other">Ziel: %1$d Std</item>
+    <item quantity="one">Ziel: %1$d Std</item>
+  </plurals>
+  <plurals name="sleep_management_exp_hours">
+    <item quantity="other">Die aktuellen Einstellungen garantieren Ihnen keine %1$d Stunden Schlaf täglich. Sie brauchen mehr als das.</item>
+    <item quantity="one">Die aktuellen Einstellungen garantieren Ihnen keine Stunde Schlaf täglich. Sie brauchen mehr als das.</item>
+  </plurals>
+  <plurals name="step_num_format">
+    <item quantity="other">%1$d Schritte</item>
+    <item quantity="one">%1$d Schritt</item>
+  </plurals>
+  <plurals name="steps_format">
+    <item quantity="other">%1$d</item>
+    <item quantity="one">%1$d</item>
+  </plurals>
+  <plurals name="subtitle_add_record">
+    <item quantity="other">Seit %1$d Tagen nichts mehr aufgezeichnet.  Zeiten erfassen, um genauere Voraussagen zu erhalten.</item>
+    <item quantity="one">Seit %1$d Tag nichts mehr aufgezeichnet.  Zeiten erfassen, um genauere Voraussagen zu erhalten.</item>
+  </plurals>
+  <plurals name="subtitle_menstruation_continued_days">
+    <item quantity="other">Dieser Zeitraum dauert insgesamt %1$d Tage</item>
+    <item quantity="one">Dieser Zeitraum dauert insgesamt %1$d Tag</item>
+  </plurals>
+  <plurals name="subtitle_menstruation_cycle_days">
+    <item quantity="other">Tag %1$d dieses Menstruationszyklus</item>
+    <item quantity="one">Tag %1$d dieses Menstruationszyklus</item>
+  </plurals>
+  <plurals name="sum_cycle_days">
+    <item quantity="other">%1$d-Tageszyklus</item>
+    <item quantity="one">%1$d-Tageszyklus</item>
+  </plurals>
+  <plurals name="times_format">
+    <item quantity="other">%1$d-mal</item>
+    <item quantity="one">%1$d-mal</item>
+  </plurals>
+  <plurals name="title_menstruation_day">
+    <item quantity="other">Tag %1$d der Periode</item>
+    <item quantity="one">Tag %1$d der Periode</item>
+  </plurals>
+  <plurals name="title_menstruation_margin_next_time_days">
+    <item quantity="other">%1$d Tage bis zur nächsten Periode</item>
+    <item quantity="one">%1$d Tag bis zur nächsten Periode</item>
+  </plurals>
+  <plurals name="title_menstruation_predict_period">
+    <item quantity="other">Geschätzter Tag %1$d der Periode</item>
+    <item quantity="one">Geschätzter Tag %1$d der Periode</item>
+  </plurals>
+  <plurals name="title_today_exercise_steps">
+    <item quantity="other">%1$d Schritte heute</item>
+    <item quantity="one">%1$d Schritt heute</item>
+  </plurals>
+  <plurals name="unit_days">
+    <item quantity="other">" Tage"</item>
+    <item quantity="one">" Tag"</item>
+  </plurals>
+  <plurals name="user_age_display_format_year">
+    <item quantity="other">%1$d Jahre alt</item>
+    <item quantity="one">%1$d Jahr alt</item>
+  </plurals>
 </resources>
