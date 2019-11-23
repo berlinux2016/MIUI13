@@ -94,11 +94,19 @@ um Karten hinzuzufügen"</string>
 Mi Health wird Sie nur über wichtige Dinge informieren."</string>
   <string name="dialog_auto_start_title">Mi Health den Autostart erlauben</string>
   <string name="dialog_auto_start_title2">Mi Health den Autostart erlauben</string>
+  <string name="dialog_body_weight_conflict">Sieht so aus, als hätten Sie das Gewicht während der ausgewählten Zeit bereits aufgezeichnet. Originaldaten überschreiben?</string>
+  <string name="dialog_body_weight_select">Gewicht einstellen</string>
   <string name="dialog_cancel">Abbrechen</string>
   <string name="dialog_date_select">Datum wählen</string>
   <string name="dialog_delete">Löschen</string>
+    <string name="dialog_delete_record_confirm">Diesen Datensatz löschen?</string>
   <string name="dialog_exercise_purpose">Willkommen bei Mi Health! Mit \"Schrittzähler\" können Sie Ihre Schritte während des Tages sehen sowie Ihre Aktivitätsziele festlegen und verwalten. Alle zugehörigen Daten werden lokal auf Ihrem Gerät gespeichert, sodass Sie sie einfach verwalten können.</string>
   <string name="dialog_exit">Beenden</string>
+    <string name="dialog_feedback_content">"If you don't agree to grant such permissions, you won't be able to use some features of this app; however, its basic functionality will still be available to you. You can always restrict permissions or revoke your authorization in the Settings."</string>
+    <string name="dialog_feedback_purpose">Mi Health needs to access storage in order to submit feedback.</string>
+    <string name="dialog_feedback_purpose2">Für die Feedback-Übermittlung</string>
+
+    <string name="dialog_health_applicator">Mi Health bietet derzeit nur Dienstleistungen für Erwachsene an.</string>
   <string name="dialog_juveniles_details">Gemäß unserer Datenschutzerklärung ist das Mindestalter für die Nutzung dieses Produkts 18 Jahre.</string>
   <string name="dialog_juveniles_link">Gemäß unserer &lt;font color=\"#FE6D67\"&gt;&lt;a href=\"%1$s\"&gt;Datenschutzerklärung&lt;/a&gt;&lt;/font&gt; ist das Mindestalter für die Nutzung dieses Produkts 18 Jahre.</string>
   <string name="dialog_known">Verstanden</string>
@@ -115,8 +123,15 @@ Mi Health wird Sie nur über wichtige Dinge informieren."</string>
   <string name="dialog_privacy_title">Allgemeine Geschäftsbedingungen</string>
   <string name="dialog_read_phone_perm_desc">Für den IMEI-Zugriff, um Ihr Gerät zu identifizieren und Dienste anzubieten</string>
   <string name="dialog_sleep_purpose">Willkommen beim Mi Health Schlafverfolgungsdienst! Mit diesem Dienst können Sie Ihren Schlaf erfassen und Ihre Schlafdaten verwalten. Mi Health zeichnet Ihren Schlaf automatisch auf, je nach Telefonnutzung, Aktivitätsstatistik, Einschlaf- und Aufwachzeit. Um die Genauigkeit der Schlafdaten zu garantieren, benötigt Mi Health die Erlaubnis zum Autostart.  Alle zugehörigen Daten werden lokal auf Ihrem Gerät gespeichert.</string>
+  <string name="dialog_sleep_goal_subtitle">Jeden Tag 7-9 Stunden Schlaf erhalten</string>
+  <string name="dialog_sleep_goal_title">Schlafdauerziel</string>
+  <string name="dialog_sleep_record_auto_start">Um den Schlaf genauer zu verfolgen, lasse zu, dass Mi Health automatisch startet.</string>
+  <string name="dialog_user_agreement_purpose">Willkommen bei Mi Health! Du kannst diese App verwenden, um Schritte zu zählen, den Schlaf, die Periode und das Gewicht zu verfolgen und Gesundheitsberatung zu erhalten.</string>
   <string name="drink_water">Etwas Wasser trinken und spazieren gehen</string>
   <string name="edit_basic_info_desc">Basisinfo</string>
+  <string name="edit_sleep_record_button">Bearbeiten</string>
+  <string name="enter_mi_health">Mi Health öffnen</string>
+  <string name="equivalent_exercise">≈%1$s km spazierengehen (%2$s kcal)</string>
   <string name="exercise">Aktivität</string>
   <string name="exercise_goal_accomplished">Ziel erreicht</string>
   <string name="exercise_goal_lack_exercise">Nicht genügend Aktivität</string>
@@ -125,6 +140,8 @@ Mi Health wird Sie nur über wichtige Dinge informieren."</string>
   <string name="exercise_reminder_accomplished">Sie haben Ihr Ziel erreicht!</string>
   <string name="exercise_reminder_title">Aktivitätserinnerung</string>
   <string name="exercise_reminder_unaccomplished">Sie haben Ihr Ziel noch nicht erreicht. Weiter so!</string>
+  <string name="exercise_setting_label_reach_standard_remind">Aktivitätsalarm</string>
+  <string name="exercise_setting_page_title">Aktivitätseinstellungen</string>
   <string name="expand_button_title">Erweitert</string>
   <string name="exposed_dropdown_menu_content_description">Dropdown-Menü anzeigen</string>
   <string name="feedback_need_permission_msg">Mi Health kann auf externen Speicher schreiben, um Protokolle für Feedback zu erstellen</string>
@@ -133,8 +150,12 @@ Mi Health wird Sie nur über wichtige Dinge informieren."</string>
   <string name="gender_female">Weiblich</string>
   <string name="gender_male">Männlich</string>
   <string name="gender_other">Divers</string>
+  <string name="generate_body_weight_proposal">Abwägen eine Gesundheitsberatung zu erhalten</string>
   <string name="go_back_to_today">Zurück zu heute</string>
   <string name="go_setting">Einstellungen</string>
+  <string name="goal_daily_exercise">Aktivitätsziel</string>
+  <string name="goal_sleep_time">Schlafdauerziel</string>
+  <string name="goal_title">Gesund bleiben</string>
   <string name="goto_setting_auto_start">Einstellungen</string>
   <string name="guide_setting">Folgende Informationen angeben, um eine genaue Menstruationsstatistik zu erhalten</string>
   <string name="harm_learn_more">Mehr erfahren</string>
@@ -144,8 +165,10 @@ Mi Health wird Sie nur über wichtige Dinge informieren."</string>
   <string name="health_score_tips">Der Gesundheitswert wird basierend auf Ihrem BMI (Body Mass Index) sowie Ihren Schlaf- und Aktivitätsdaten berechnet. Je näher Sie Ihren Zielen sind, desto höher ist Ihr Gesundheitswert.</string>
   <string name="history_statistics">Statistik</string>
   <string name="icon_content_description">Dialogsymbol</string>
+
   <string name="improve_step_target">Sie erreichen Ihr Ziel zu oft. Versuchen Sie es mit einem höheren Wert.</string>
   <string name="improve_your_health_default_tips">Trainieren und schlafen Sie genug, um gesund zu bleiben</string>
+    <string name="input_body_weight">Gewichtsdaten eingeben, um eine Gesundheitsberatung zu erhalten</string>
   <string name="jump_over">Überspringen</string>
   <string name="label_average_daily_sleep_duration">Ø-Schlafdauer</string>
   <string name="label_average_daily_sleep_time">Ø-Einschlafzeit</string>
