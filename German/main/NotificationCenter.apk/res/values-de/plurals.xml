@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <plurals name="sent_frequency_per_day">
-    <item quantity="other">%d Benachrichtigungen pro Tag</item>
-    <item quantity="one">Eine Benachrichtigung pro Tag</item>
-  </plurals>
-  <plurals name="sent_frequency_per_week">
-    <item quantity="other">%d Benachrichtigungen pro Woche</item>
-    <item quantity="one">Eine Benachrichtigung pro Woche</item>
-  </plurals>
   <plurals name="last_sent_time_day">
     <item quantity="other">Vor %d Tagen</item>
     <item quantity="one">Vor %d Tag</item>
@@ -18,7 +10,7 @@
   </plurals>
   <plurals name="last_sent_time_minute">
     <item quantity="other">Vor %d Minuten</item>
-    <item quantity="one">Vor %d Minuten</item>
+    <item quantity="one">Vor %d Minute</item>
   </plurals>
   <plurals name="last_sent_time_month">
     <item quantity="other">Vor %d Monaten</item>
@@ -27,5 +19,13 @@
   <plurals name="last_sent_time_week">
     <item quantity="other">Vor %d Wochen</item>
     <item quantity="one">Vor %d Woche</item>
+  </plurals>
+  <plurals name="sent_frequency_per_day">
+    <item quantity="other">%d Benachrichtigungen pro Tag</item>
+    <item quantity="one">%d Benachrichtigung pro Tag</item>
+  </plurals>
+  <plurals name="sent_frequency_per_week">
+    <item quantity="other">%d Benachrichtigungen pro Woche</item>
+    <item quantity="one">%d Benachrichtigung pro Woche</item>
   </plurals>
 </resources>

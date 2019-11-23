@@ -380,7 +380,7 @@ Sie verlieren keine App-Daten."</string>
   <string name="banner_red_money_assist_button">Einschalten</string>
   <string name="banner_red_money_assist_summary">Rote Umschläge schneller öffnen</string>
   <string name="battery_and_property">Akku &amp; Leistung</string>
-  <string name="battery_can_use_time">%s verbleibend</string>
+  <string name="battery_can_use_time">%s bleiben</string>
   <string name="battery_capacity_title">Akkukapazität</string>
   <string name="battery_charge_estimating">Berechnen…</string>
   <string name="battery_charge_full">Geladen</string>
@@ -409,8 +409,8 @@ Sie verlieren keine App-Daten."</string>
   <string name="battery_history_seconds">%1$d Sek</string>
   <string name="battery_low_button_not_open_power_save">Nicht jetzt</string>
   <string name="battery_low_button_open_power_save">Einschalten</string>
-  <string name="battery_low_percent_format_save_mode_closed">Es sind jetzt weniger als %s Akku übrig. Vergessen Sie nicht, Ihr Gerät aufzuladen.</string>
-  <string name="battery_low_percent_format_save_mode_open">Es sind jetzt weniger als %1$s Akku übrig. Schalten Sie den Stromsparmodus ein, um %2$s zusätzliche Zeit hinzuzufügen.</string>
+  <string name="battery_low_percent_format_save_mode_closed">Weniger als %s Akku übrig. Vergessen Sie nicht, Ihr Gerät aufzuladen.</string>
+  <string name="battery_low_percent_format_save_mode_open">Weniger als %1$s Akku übrig. Schalten Sie den Stromsparmodus ein, um %2$s zusätzliche Zeit hinzuzufügen.</string>
   <string name="battery_low_title">Akku ist fast leer</string>
   <string name="battery_low_title_power_save">Stromsparmodus</string>
   <string name="battery_statistics_activity_title">Statistiken zum Akkuverbrauch</string>
@@ -733,7 +733,7 @@ Alle Daten auf Ihrem Gerät werden evtl. gelöscht und Ihr Sperrbildschirmpasswo
   <string name="dlg_summary_close_theme">Dynamische Themen funktionieren nicht</string>
   <string name="dlg_summary_close_wifi">WLAN, Bluetooth und tragbare Hotspots werden deaktiviert</string>
   <string name="dlg_summary_nfc">NFC wird ausgeschaltet</string>
-  <string name="dlg_summary_title">Hintergrundaktivität wird eingeschränkt, wenn Sie eine App verlassen oder zum Startbildschirm zurückkehren. Fügen Sie die App zu den Ausnahmen des Stromsparers hinzu, damit sie im Hintergrund ausgeführt werden können.</string>
+  <string name="dlg_summary_title">Hintergrundaktivität wird eingeschränkt, wenn Sie eine App verlassen oder zum Startbildschirm zurückkehren. Apps vom Stroromsparen ausnehmen, damit sie im Hintergrund ausgeführt werden.</string>
   <string name="dlg_title_not_open_stranger_identify">Anruferkennung</string>
   <string name="dlg_update_btn_contiue">Fortfahren</string>
   <string name="dlg_update_btn_open">Erlauben</string>
@@ -765,7 +765,7 @@ Alle Daten auf Ihrem Gerät werden evtl. gelöscht und Ihr Sperrbildschirmpasswo
   <string name="empty_title_perm_apps">Leer</string>
   <string name="empty_title_permission_apps_list">Leer</string>
   <string name="empty_title_root_apps">Keine Apps haben Root-Zugriff</string>
-  <string name="enable_extreme_power_save_mode">Extremer Stromparmodus</string>
+  <string name="enable_extreme_power_save_mode">Extrem-Stromparmodus</string>
   <string name="enable_network">Zuerst Netzwerk aktivieren</string>
   <string name="enter">Eingeben</string>
   <string name="every_day">Jeden Tag</string>
@@ -1253,7 +1253,7 @@ Alle Daten auf Ihrem Gerät werden evtl. gelöscht und Ihr Sperrbildschirmpasswo
   <string name="installing">Installieren</string>
   <string name="international_Ad">Werbung</string>
   <string name="international_roaming_setting">Datenroaming</string>
-  <string name="invalid_charger">Über USB aufgeladen nicht möglich. Das Ladegerät verwenden, das mit Ihrem Gerät geliefert wurde.</string>
+  <string name="invalid_charger">Über USB aufladen nicht möglich. Mitgeliefertes Ladegerät verwenden.</string>
   <string name="ip_address_exception_summary">IP-Adresse wurde nicht abgerufen. Wenn der Fehler wieder auftritt, versuchen Sie eine statische IP-Adresse.</string>
   <string name="item_app_permission">App-Rechte</string>
   <string name="item_dev_mode">Entwickleroptionen</string>
@@ -1340,7 +1340,7 @@ um ein Muster zu erstellen"</string>
   <string name="low_memory_warning_dialog_ok_button">Löschen</string>
   <string name="low_memory_warning_dialog_title">Nicht genug Speicherplatz</string>
   <string name="low_temperature_button_ok">Verstanden</string>
-  <string name="low_temperature_warning_message">Sieht so aus, als wäre es zu kalt und Ihr Telefon kann früher als erwartet ausgeschaltet werden. Alle wichtigen Änderungen speichern.</string>
+  <string name="low_temperature_warning_message">Sieht aus, als sei es zu kalt und Ihr Telefon wird früher als erwartet ausgeschaltet. Alle wichtigen Änderungen speichern.</string>
   <string name="low_temperature_warning_title">Lufttemperatur ist niedrig</string>
   <string name="main_activity_content_summary_root">Root-Zugriff</string>
   <string name="main_activity_content_summary_update">Systemupdate</string>
@@ -1579,8 +1579,8 @@ Versuchen Sie ein anderes LAN-Kabel am Router. Wenn Sie vermuten, dass der Fehle
   <string name="notification_channel_battery">Akku</string>
   <string name="notification_low_battery_action_btn">Einschalten</string>
   <string name="notification_low_battery_need_charge">Ihr Gerät aufladen</string>
-  <string name="notification_low_battery_open_save_mode">Stromsparmodus einschalten</string>
-  <string name="notification_low_battery_title">Weniger als %s Akku verbleibend</string>
+  <string name="notification_low_battery_open_save_mode">Stromsparen einschalten</string>
+  <string name="notification_low_battery_title">Weniger als %s Akku bleiben</string>
   <string name="notification_battery_consume_abnormal_title">Akku wird zu schnell entleert</string>
   <string name="notification_battery_scan_consume_abnormal_summary">Tippen, um das Problem zu beheben</string>
   <string name="notification_battery_scan_consume_abnormal_title_set">%s entlädt den Akku</string>
@@ -1679,7 +1679,7 @@ Versuchen Sie ein anderes LAN-Kabel am Router. Wenn Sie vermuten, dass der Fehle
   <string name="open_app">Öffnen</string>
   <string name="open_callwait">An</string>
   <string name="open_dnd_mode">Nicht stören</string>
-  <string name="open_extreme_power_save_mode_title">Extremen Stromsparmodus einschalten</string>
+  <string name="open_extreme_power_save_mode_title">Extrem-Stromsparmodus einschalten</string>
   <string name="open_game">Öffnen</string>
   <string name="open_now">App erlauben, mobile Datenverbindung zu nutzen</string>
   <string name="open_right_now">Jetzt öffnen</string>
@@ -2456,7 +2456,7 @@ Während der Kalibrierung sendet MIUI eine Textnachricht an Ihren Mobilfunkanbie
   <string name="superpower_dialog_massage">Ultra-Stromsparen schränkt die meisten stromfressenden Funktionen ein und verringert die Leistung Ihres Geräts, um Grundfunktionen (z. B. Anrufe, SMS und Netzwerkverbindungen) so lange wie möglich verfügbar zu halten. Ultra-Stromsparen einschalten?</string>
   <string name="superpower_dialog_title">Ultra-Stromsparen</string>
   <string name="superpower_notification_hint_enter">Einschalten</string>
-  <string name="superpower_notification_new_title">Weniger als %d%% Akku verbleibend</string>
+  <string name="superpower_notification_new_title">Weniger als %d%% Akku bleiben</string>
   <string name="superpower_notification_summary">Ultra-Stromsparen einschalten</string>
   <string name="superpower_notification_time_12">EEEE, d. MMMM </string>
   <string name="superpower_notification_time_24">EEEE, d. MMMM</string>
