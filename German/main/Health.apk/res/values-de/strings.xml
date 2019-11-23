@@ -27,8 +27,8 @@
   <string name="auto_start_fail">Berechtigung wurde nicht erteilt</string>
   <string name="auto_start_success">Berechtigung erfolgreich erteilt</string>
   <string name="auto_start_tips">Unten auf \"Einstellungen\" tippen, um Mi Health-Einstellungen zu öffnen und erforderliche Berechtigungen zu vergeben</string>
-  <string name="average_cycle_days">Durchschnittszyklus</string>
-  <string name="average_menstruation_days">Mittelere Periodendauer</string>
+    <string name="average_cycle_days">Ø-Zyklus</string>
+    <string name="average_menstruation_days">Ø-Periodendauer</string>
   <string name="avg_steps">Tägliche Schritte</string>
   <string name="background_run_tips">Unten auf \"Einstellungen\" tippen und Mi Health erlauben, immer im Hintergrund zu laufen</string>
   <string name="basic_info_label_age">Alter</string>
@@ -122,10 +122,10 @@ Mi Health wird Sie nur über wichtige Dinge informieren."</string>
   <string name="improve_step_target">Sie erreichen Ihr Ziel zu oft. Versuchen Sie es mit einem höheren Wert.</string>
   <string name="improve_your_health_default_tips">Trainieren und schlafen Sie genug, um gesund zu bleiben</string>
   <string name="jump_over">Überspringen</string>
-  <string name="label_average_daily_sleep_duration">Mittlere Schlafdauer</string>
-  <string name="label_average_daily_sleep_time">Mittlere Einschlafzeit</string>
-  <string name="label_average_daily_sleep_time2">Mittlere Einschlafzeit</string>
-  <string name="label_average_daily_wake_up_time">Mittlere Aufwachzeit</string>
+  <string name="label_average_daily_sleep_duration">Ø-Schlafdauer</string>
+  <string name="label_average_daily_sleep_time">Ø-Einschlafzeit</string>
+  <string name="label_average_daily_sleep_time2">Ø-Einschlafzeit</string>
+  <string name="label_average_daily_wake_up_time">Ø-Aufwachzeit</string>
   <string name="label_duration">Dauer</string>
   <string name="label_exercise_goal">Ziel</string>
   <string name="label_get_device_id">Geräte-ID abfragen</string>
@@ -159,6 +159,7 @@ Mi Health wird Sie nur über wichtige Dinge informieren."</string>
   <string name="month">Monat</string>
   <string name="mtrl_badge_numberless_content_description">Neue Benachrichtigung</string>
   <string name="mtrl_chip_close_icon_content_description">%1$s entfernen</string>
+  <string name="mtrl_exceed_max_badge_number_suffix">%1$d%2$s</string>
   <string name="mtrl_picker_date_format">dd. MMM. yyyy</string>
   <string name="mtrl_picker_date_header_title">Datum wählen</string>
   <string name="mtrl_picker_date_header_unselected">Gewähltes Datum</string>
@@ -217,7 +218,7 @@ Mi Health wird Sie nur über wichtige Dinge informieren."</string>
   <string name="setting">Einstellungen</string>
   <string name="setting_sedentary_off">AUS</string>
   <string name="setting_sedentary_on">AN</string>
-  <string name="setting_sedentary_title">Remind to move</string>
+  <string name="setting_sedentary_title">An Bewegung erinnern</string>
   <string name="skip">Überspringen</string>
   <string name="sleep">Schlaf</string>
   <string name="sleep_auto_start_perm_grant">Berechtigungen erteilt</string>
@@ -301,6 +302,9 @@ basierend auf Ihren persönlichen Daten."</string>
   <string name="unable_record_future_menstruation">Zukünftige Perioden werden nicht erfasst</string>
   <string name="unit_day">Tag</string>
   <string name="unit_hour">" Std"</string>
+  <string name="unit_kilo_calorie">" kcal"</string>
+  <string name="unit_kilometre">" km"</string>
+  <string name="unit_metre">" m"</string>
   <string name="unit_min">" Min"</string>
   <string name="unit_second">" Sek"</string>
   <string name="update_notify_dialog_ignore">Später</string>
@@ -315,6 +319,7 @@ Jetzt aktualisieren?"</string>
   <string name="user_birthday_display_format">dd.MM.yyyy</string>
   <string name="v7_preference_off">AUS</string>
   <string name="v7_preference_on">AN</string>
+    <string name="xiaomi_update_sdk_bytes_unit">%1$s B</string>
   <string name="xiaomi_update_sdk_connect_download_manager_fail">Download-Manager verbinden fehlgeschlagen, bitte prüfen Sie den des Download-Manager-Status in der App-Verwaltung.</string>
   <string name="xiaomi_update_sdk_dialog_message">"Einführung der Version %1$s
 Größe: %2$s"</string>
@@ -322,5 +327,7 @@ Größe: %2$s"</string>
 Delta-Update-Größe: %2$s"</string>
   <string name="xiaomi_update_sdk_dialog_title">%1$s aktualisiert!</string>
   <string name="xiaomi_update_sdk_external_storage_unavailable">Speicher nicht verfügbar, bitte SD-Karte prüfen</string>
+    <string name="xiaomi_update_sdk_kilobytes_unit">%1$s KB</string>
+    <string name="xiaomi_update_sdk_megabytes_unit">%1$s MB</string>
   <string name="year">Jahr</string>
 </resources>
