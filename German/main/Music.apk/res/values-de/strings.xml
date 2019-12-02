@@ -27,6 +27,7 @@
   <string name="abc_shareactionprovider_share_with_application">Teilen mit %s</string>
   <string name="abc_toolbar_collapse_description">Einklappen</string>
   <string name="account_and_cloud">Konto</string>
+  <string name="account_logout">Abmelden</string>
   <string name="action_item_add">Hinzufügen</string>
   <string name="action_item_add_song">Zur Wiedergabeliste hinzufügen</string>
   <string name="action_item_add_to_current_playlist">Aktuelle Wiedergabeliste</string>
@@ -54,6 +55,8 @@
   <string name="agreement_desc">Nutzervereinbarung (obligatorisch)</string>
   <string name="alaka_required">Sie sollten für diesen Titel bezahlen, um ihn zu hören</string>
   <string name="alarm_clock_ringtones_successful">Wecker erfolgreich gestellt</string>
+  <string name="album_cover">Albumcover</string>
+  <string name="album_is_empty">Albumname darf nicht leer sein</string>
   <string name="album_label">Albumcover</string>
   <string name="all_album_count">Alle Alben (%d)</string>
   <string name="all_albums">Alle Alben</string>
@@ -100,6 +103,7 @@
   <string name="audio_picker_title">Titel auswählen</string>
   <string name="auto_payment">Automatisch erneuern</string>
   <string name="auto_payment_date">Nächste Zahlung: %s</string>
+  <string name="auto_recommend">Auto (empfohlen)</string>
   <string name="auto_update">Automatisch aktualisieren</string>
   <string name="auto_update_tip">Sie können System-Apps über mobile Daten aktualisieren. Dies könnte Zusatzkosten verursachen.</string>
   <string name="available_playlist_name_format">Neue Wiedergabeliste %d</string>
@@ -135,6 +139,7 @@
   <string name="choose_language">Sprache auswählen</string>
   <string name="choose_music_lang_pref">Bevorzugte Sprache für Titel</string>
   <string name="choose_stream_quality">Streamingqualität einstellen</string>
+  <string name="click_to_add_album_cover_and_lyric">Tippen, um Albumcover und Songtexte hinzuzufügen</string>
   <string name="click_to_shuffle">Zufallswiedergabe</string>
   <string name="close_music_time">"Verbleibende Zeit: "</string>
   <string name="cloud_empty_local_empty_button">Keine Titel auf diesem Gerät</string>
@@ -297,6 +302,7 @@
   <string name="download_running">Läuft gerade</string>
   <string name="download_running_percent">Läuft gerade, %d%%</string>
   <string name="download_share_dialog">Teilen mit</string>
+  <string name="download_song_quality_title">Qualität heruntergeladener Titel</string>
   <string name="download_start">Download starten…</string>
   <string name="download_start_apk">Download gestartet…, Fortschritt in der Benachrichtigungsleiste prüfen</string>
   <string name="download_start_btn">Freier Download…</string>
@@ -407,6 +413,7 @@
   <string name="fragment_title_artist_album">Alben</string>
   <string name="garbage_cleanup">Aufräumen</string>
   <string name="gcm_fallback_notification_channel_label">Sonstiges</string>
+  <string name="get_more_favorite_content_after_login">Anmelden, um weitere Titel und Videos zu entdecken</string>
   <string name="global_search_app_name">Musik</string>
   <string name="global_search_description_entry">Musik genießen</string>
   <string name="global_search_description_hot">Wöchentlich aktualisieren</string>
@@ -435,6 +442,7 @@
   <string name="global_search_title_prenatal">Pränatale Musik</string>
   <string name="global_search_title_radar">Musikerkennung</string>
   <string name="go_to_settings">Zu den Einstellungen</string>
+  <string name="google_account_login">Mit Google anmelden</string>
   <string name="goto_local_search">Auf dem Gerät suchen</string>
   <string name="goto_online_search">Online suchen</string>
   <string name="handle_later">Jetzt nicht</string>
@@ -513,7 +521,10 @@
   <string name="local_page_custom_title">Für Sie</string>
   <string name="local_page_playlist">Wiedergabelisten</string>
   <string name="location_permission_desc">Für den Bau von Schifffahrtsstraßen und die Erbringung von Dienstleistungen für Autoversicherungen</string>
+  <string name="login_instantly">Anmelden</string>
+  <string name="login_mi_account_and_gain_more_rights">Mit Mi-Konto anmelden, um auf weitere Funktionen zuzugreifen</string>
   <string name="long_press_to_select_lyric">Drücken &amp; halten, um die lokale Songtextdatei auszuwählen</string>
+  <string name="low_sound_quality">Niedrig</string>
   <string name="lrc_search_failed">Songtext konnte nicht gefunden werden</string>
   <string name="lrc_searching">Suchen…</string>
   <string name="lyric_is_empty">Keine Songtexte verfügbar</string>
@@ -562,11 +573,12 @@
   <string name="more_settings">Erweiterte Einstellungen</string>
   <string name="more_settings_summary">Sleep-Timer, Dateifilter etc.</string>
   <string name="more_share">Teilen</string>
-<string name="more_splendid_contents">Weitere</string>
+  <string name="more_splendid_contents">Weitere</string>
   <string name="mtrl_chip_close_icon_content_description">%1$s löschen</string>
   <string name="mulit_choice_management">Mehrere Elemente verwalten</string>
   <string name="music_browser_label">Musik</string>
   <string name="music_filter">Audiodateien filtern</string>
+  <string name="music_recommendation">Titelempfehlungen</string>
   <string name="music_service">Musikdienste</string>
   <string name="music_settings">Musik</string>
   <string name="mv_metered_play_summary">Keine Datenverbrauchswarnung anzeigen</string>
@@ -585,6 +597,7 @@
   <string name="network_settings_error">Keine Netzwerkverbindung</string>
   <string name="network_traffic">Datennutzung</string>
   <string name="next_time">Nächstes Mal</string>
+  <string name="next_to_play">Weiter</string>
   <string name="no_album_info">Keine Albuminfos</string>
   <string name="no_artist_info">Keine Infos zum Interpreten</string>
   <string name="no_downloads">Keine Downloads</string>
@@ -593,6 +606,7 @@
   <string name="no_local_songs">Leer</string>
   <string name="no_local_songs_selected">Titel können nicht gesendet werden, da diese nicht heruntergeladen wurden</string>
   <string name="no_local_source_find">Titel nicht gefunden</string>
+  <string name="no_longer_prompt">Nicht mehr anzeigen</string>
   <string name="no_online_song_selected">Keine Titel ausgewählt</string>
   <string name="no_results_return">Keine Suchergebnisse</string>
   <string name="no_scanned_songs">Leer</string>
@@ -648,8 +662,10 @@
   <string name="online_service_open_tip">Online-Musikdienste sind eingeschaltet</string>
   <string name="online_service_title">Onlinedienste</string>
   <string name="online_switch">Einstellungen für Onlinedienste</string>
+  <string name="online_switch_confirm_title">Ausschalten von Online-Content-Diensten bewirkt, dass alle Online-Funktionen nicht verfügbar sind. Trotzdem ausschalten?</string>
   <string name="online_switch_message">Deaktivieren der Onlinedienste hat Auswirkungen auf VIP-Dienste und Empfehlungen. Trotzdem ausschalten?</string>
   <string name="online_switch_setting">Einstellungen für Onlineinhalte</string>
+  <string name="only_pro_can_choose_hd_sound_quality">HD-Audio ist nur für PRO-Mitglieder verfügbar</string>
   <string name="open_online_service">Für diese Funktion müssen Sie die Onlinedienste einschalten. Jetzt einschalten?</string>
   <string name="open_service">Einschalten</string>
   <string name="operation_done_close">Schließen</string>
@@ -680,6 +696,7 @@
   <string name="pick_recent_song">Kürzlich gespielt</string>
   <string name="play_all_song">Alle abspielen</string>
   <string name="play_empty_playlist">Titel spielen nicht möglich, Wiedergabeliste ist leer</string>
+  <string name="play_history">Wiedergabeverlauf</string>
   <string name="play_mode_all_loop">Alle wiederholen</string>
   <string name="play_mode_one_loop">Schleife</string>
   <string name="play_mode_play_all">Alle abspielen</string>
@@ -737,6 +754,7 @@
   <string name="recognize_switch_off_alert_title">Albumcover und Songtexte</string>
   <string name="recognized_alert_message">Mi Musik fand Albumcover und Texte für diesen Titel. Auf […] tipen, um die Info zu bearbeiten.</string>
   <string name="recognized_alert_title">Albumcover und Songtexte gefunden</string>
+  <string name="recommend_songs_when_playing_audio_files">Titelempfehlungen erhalten, während Sie Musik hören</string>
   <string name="recommended_file_size_download_in_mobile">%s der mobilen Datenverbindung verwenden, um diese Datei herunterzuladen?</string>
   <string name="recommended_no_file_size_download_in_mobile">Mobile Datenverbindung verwenden, um diese Datei herunterzuladen?</string>
   <string name="remove">Entfernen</string>
@@ -765,6 +783,7 @@ Glücklich sein."</string>
   <string name="s6">Werbung erlauben, einen Kalendereintrag zu erstellen?</string>
   <string name="s7">Werbung testen</string>
   <string name="save_changes">Änderungen speichern</string>
+  <string name="save_image">Bild speichern</string>
   <string name="search_album_and_lyric">Alben und Songtexte suchen</string>
   <string name="search_empty">Keine Ergebnisse gefunden</string>
   <string name="search_empty_subtitle_online_music">Taste unten antippen, um %s zu öffnen</string>
@@ -788,7 +807,9 @@ Glücklich sein."</string>
   <string name="select_desc_sub">Sie können bis zu 3 Sprachen wählen</string>
   <string name="select_device">Gerät auswählen</string>
   <string name="select_displayed_folders">Ordner zum Anzeigen auswählen</string>
+  <string name="select_local_album_cover">Bild wählen</string>
   <string name="select_local_cover">Lokales Cover auswählen</string>
+  <string name="select_local_lyric">Datei wählen</string>
   <string name="select_local_lyric_file">Lokale Songtextdatei auswählen</string>
   <string name="select_none">Alles abwählen</string>
   <string name="select_one_language">Mind. 1 Sprache wählen</string>
@@ -852,23 +873,26 @@ Glücklich sein."</string>
   <string name="song_not_find">Titel ist nicht verfügbar</string>
   <string name="song_offline">Dieser Titel nicht mehr verfügbar</string>
   <string name="song_picker_complete">Erledigt</string>
+  <string name="song_quality_category">Musik</string>
   <string name="songgroup_pick_album">Alben</string>
   <string name="songgroup_pick_playlist">Wiedergabeliste</string>
   <string name="sort_by_time">Datum</string>
-  <string name="storage_cloned_app">Speicher für Dual Apps</string>
   <string name="start_shuffle">Zufallswiedergabe…</string>
   <string name="start_to_check_new_version">Nach Updates suchen…</string>
   <string name="start_to_download">Mit Herunterladen beginnen…</string>
   <string name="start_to_play">Abspielen</string>
+  <string name="storage_cloned_app">Speicher für Dual Apps</string>
   <string name="storage_internal">Interner Speicher</string>
   <string name="storage_sd_card">SD-Karte</string>
   <string name="storage_usb">USB-Speicher</string>
   <string name="stream_quality">Streamqualität</string>
   <string name="streamloadingtext">Verbinde zu %s</string>
+  <string name="switch_success">Erfolgreich umgeschaltet</string>
   <string name="tab_album">Alben</string>
   <string name="tab_album_list">Alben</string>
   <string name="tab_artist">Interpreten</string>
   <string name="tab_artist_list">Interpreten</string>
+  <string name="tab_flow">Ansehen</string>
   <string name="tab_folder">Ordner</string>
   <string name="tab_playlist">Wiedergabelisten</string>
   <string name="tab_top_results">Bestes Ergebnis</string>
@@ -907,11 +931,11 @@ Glücklich sein."</string>
   <string name="toast_download_error_by_not_login">Mit Mi Konto anmelden und erneut versuchen.</string>
   <string name="toast_download_error_by_vip_required">Holen Sie sich ein Premiumpaket, um diesen Titel herunterladen zu können.</string>
   <string name="toast_download_in_process">Download in Bearbeitung</string>
-  <string name="toast_is_pro">Sie sind bereits PRO-Mitglied.</string>
-  <string name="toast_my_playlist_sync_failed">Wiedergabelisten wurden wegen eines Netzwerkfehlers nicht synchronisiert</string>
+  <string name="toast_is_pro">Sie sind bereits PRO-Mitglied</string>
   <string name="toast_my_playlist_illegal_name">Name dieser Wiedergabeliste ist ungültig. Benennen Sie diese Wiedergabeliste um.</string>
   <string name="toast_my_playlist_set_to_private">Diese Wiedergabeliste ist jetzt privat. Andere Leute können sie nicht sehen.</string>
   <string name="toast_my_playlist_set_to_public">Diese Wiedergabeliste ist jetzt öffentlich. Andere Leute können sie sehen.</string>
+  <string name="toast_my_playlist_sync_failed">Wiedergabelisten wurden wegen eines Netzwerkfehlers nicht synchronisiert</string>
   <string name="toast_new_playlist_name_no_enter">Weitere Zeile nicht verfügbar</string>
   <string name="toast_new_playlist_name_too_long">Name der Wiedergabeliste zu lang</string>
   <string name="toast_normal_songs_for_download">Downloadqualität auf Standard gesetzt</string>
@@ -920,6 +944,7 @@ Glücklich sein."</string>
   <string name="toast_uhd_songs_for_download">Downloadqualität auf hoch eingestellt</string>
   <string name="toast_uhd_songs_for_stream">Streamingqualität auf hoch eingestellt</string>
   <string name="today">Heute</string>
+  <string name="track_play_history_after_login">Anmelden, um den Wiedergabeverlauf anzuzeigen</string>
   <string name="ultra_high_quality">Höchste</string>
   <string name="unknown_album_name">Unbekanntes Album</string>
   <string name="unknown_artist_name">Unbekannter Interpret</string>
