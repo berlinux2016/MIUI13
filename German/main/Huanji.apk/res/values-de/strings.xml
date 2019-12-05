@@ -91,6 +91,8 @@ Zum Ausschalten https://appleid.apple.com/#!&amp;page=signin besuchen"</string>
     <string name="connect_wifi_tip">Netzwerkverbindung fehlgeschlagen. Mit WLAN, um Elemente aus der iCloud zu importieren.</string>
     <string name="connecting">Verbinden…</string>
     <string name="contacts">Kontakte</string>
+    <string name="current_user_not_supported_summary">Aktuellen Systemeinstellunge schränken die Datenübertragung mit Mi Mover ein.</string>
+    <string name="current_user_not_supported_title">Elemente übertragen nicht möglich</string>
     <string name="date_picker_dialog_title">Datum einstellen</string>
     <string name="date_time_done">Fertig</string>
     <string name="date_time_picker_dialog_title">Datum und Uhrzeit einstellen</string>
@@ -192,6 +194,10 @@ Zum Ausschalten https://appleid.apple.com/#!&amp;page=signin besuchen"</string>
     <string name="guest_unfinished_task_alert_message">Sieht so aus, als hätten Sie noch unerledigte Transferaufgaben. Mit der Übertragung fortfahren?</string>
     <string name="guest_unfinished_task_alert_title">Unerledigte Aufgaben</string>
     <string name="hide_password_description">Passwort verstecken</string>
+    <string name="host_boot_installation_bottom_tips">Mi Mover wurde nicht gefunden? Zum Herunterladen tippen.</string>
+    <string name="host_boot_installation_step_one_messege">Zu Einstellungen gehen, in der Suchleiste \"Mi Mover\" eingeben und in den Suchergebnissen auf \"Mi Mover\" tippen.</string>
+    <string name="host_boot_installation_step_one_title">1. Mi Mover auf Ihrem alten Gerät öffnen</string>
+    <string name="host_boot_installation_step_two_title">2. Seite auswählen, die Sie auf Ihrem alten Gerät sehen.</string>
     <string name="host_connect_timeout_tip">Verbindung kann für längere Zeit nicht hergestellt werden</string>
     <string name="host_dialog_install_button">Auf einem anderen Gerät installieren</string>
     <string name="host_dialog_known_button">Verstanden</string>
@@ -244,6 +250,9 @@ Zum Ausschalten https://appleid.apple.com/#!&amp;page=signin besuchen"</string>
     <string name="install_app_to_another_phone_content">Installieren Sie Mi Mover auf Ihrem neuen Gerät</string>
     <string name="install_new_app_link_text">Installieren Sie Mi Mover auf Ihrem neuen Gerät, um eine Verbindung herstellen zu können. Tippen Sie zum Installieren.</string>
     <string name="instruction">Wichtige Sicherheitshinweise</string>
+    <string name="international_new_trans_intro_desc_8">Textnachrichten können aus Kompatibilitätsgründen nicht übertragen werden. Drittanbieterapps können die Übertragung ihrer App-Daten aus Sicherheitsgründen einschränken.</string>
+    <string name="international_new_trans_intro_question_8">8. Warum können Textnachrichten und App-Daten einiger Drittanbieter-Apps nicht übertragen werden?</string>
+    <string name="international_scanner_send_dialog_message">Textnachrichten und App-Daten einiger Drittanbieter-Apps können nicht übertragen werden. Während der Übertragung kein WLAN ausschalten und zwischen den Netzwerken wechseln.</string>
     <string name="lack_perm_msg">Mi Mover benötigt die folgenden Berechtigungen: &lt;b>%s&lt;/b>.</string>
     <string name="lack_perm_title">Erforderliche Berechtigungen</string>
     <string name="launcher">Startbildschirm-Layout</string>
@@ -398,6 +407,7 @@ Mindestens %s freigeben."</string>
     <string name="scanner_size_selected">Ausgewält: %s</string>
     <string name="scanner_time_remained">Geschätzte Zeit: %s</string>
     <string name="scanner_title_tip">Zu übertragende Elemente auswählen</string>
+    <string name="scanner_wechat_overwrite_hit">Wegen Drittanbieter-App-Einschränkungen werden Chat-Verlauf und andere App-Daten auf Ihrem neuen Gerät nach Abschluss der Übertragung durch die des alten ersetzt.</string>
     <string name="search_action_mode_cancel">Beenden</string>
     <string name="search_input_description">Suchen</string>
     <string name="search_mode_button_back_description">Zurück</string>
@@ -520,8 +530,9 @@ Mindestens %s freigeben."</string>
     <string name="trans_detail_wechat_data">WeChat data (including chat history)</string>
     <string name="trans_install_guide_new_content_first">"Scan this QR code using your new device.
 Download and install Mi Mover."</string>
-    <string name="trans_install_guide_old_content_first">"Scan this QR code using your old device.
-Download and install Mi Mover."</string>
+    <string name="trans_install_guide_old_content_first">"1. Diesen QR-Code mit Ihrem alten Gerät scannen.
+2. Mi Mover herunterladen und installieren.
+3. Nach Abschluss der Installation auf die Schaltfläche unten tippen."</string>
     <string name="trans_intro_title">FAQ</string>
     <string name="trans_main_activity_tutor_first">"Move your photos, contacts, messages, call history,
 audio, video, documents, and apps to a new device"</string>
@@ -535,16 +546,10 @@ audio, video, documents, and apps to a new device"</string>
     <string name="transfer_bottom_tip">"You won't be able to use Wi-Fi or Bluetooth during the transfer. Don't leave this page."</string>
     <string name="transfer_finish_bottom_tip">"If your aren't going to use your old device anymore, you can erase all data on it after you confirm that all important items were successfully transferred."</string>
     <string name="transfer_lose_connect_summary">Looks like connection was interrupted. Connect again.</string>
-
-
-
-
     <string name="transfer_lose_connect_title">Verbindung wurde unterbrochen</string>
     <string name="transfer_quit_alert_btn_negative">Aufhören</string>
     <string name="transfer_quit_alert_btn_positive">Nicht aufhören</string>
-    <string name="transfer_quit_alert_message">"Mi Mover arbeitet jetzt. Trotzdem aufhören?
-
-"</string>
+    <string name="transfer_quit_alert_message">"Mi Mover arbeitet jetzt. Trotzdem aufhören?"</string>
     <string name="transfer_quit_alert_message_extra">Der Fortschritt der Übertragung wird gespeichert. Sie können die Übertragung bei der nächsten Verbindung der beiden Geräte an der Stelle fortsetzen, an der Sie aufgehört haben.</string>
     <string name="transfer_quit_alert_title">Achtung</string>
     <string name="transfer_snap_error">Übertragen fehlgeschlagen</string>
