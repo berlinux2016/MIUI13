@@ -672,7 +672,7 @@
   <string name="filter_people_roman">Romantisch</string>
   <string name="filter_people_story">Erzählung</string>
   <string name="filter_people_tea">Tee</string>
-  <string name="filter_portrait_hint">Farbpalette</string>
+  <string name="filter_portrait_hint">Farb-Pop</string>
   <string name="filter_scene_city">Stadt</string>
   <string name="filter_scene_df">Nebel</string>
   <string name="filter_scene_series">Reflexionen</string>
@@ -1082,6 +1082,11 @@
   <string name="photo_movie_select_image_range">Clips können 3-20 Fotos enthalten</string>
   <string name="photo_page_save_uri_image_fail">Speichern in Galerie fehlgeschlagen</string>
   <string name="photo_page_save_uri_image_ok">Foto in Galerie gespeichert</string>
+  <string name="photo_portrait_color_download_fail">Plugin heruntergeladen nicht möglich. Mit dem Netzwerk verbinden und erneut versuchen.</string>
+  <string name="photo_portrait_color_download_success">Filter erfolgreich heruntergeladen</string>
+  <string name="photo_portrait_color_no_face">Farb-Pop funktioniert nur bei Fotos mit Personen</string>
+  <string name="photo_portrait_download_sdk_without_wifi_msg">Sieht so aus, als wäre Ihr Gerät jetzt nicht mit WLAN verbunden. Sie können den Filter (%1$d MB) mit mobilen Daten herunterladen.</string>
+  <string name="photo_portrait_download_sdk_without_wifi_title">Filter laden</string>
   <string name="photo_print_menu_loading">Plugin laden…</string>
   <string name="photo_print_package_finish">Druckerplugin erfolgreich geladen</string>
   <string name="photo_print_package_installing">Druckerplugin laden…</string>
@@ -1322,6 +1327,8 @@
   <string name="select_origin_tip">Originaldatei (%s)</string>
   <string name="send_file_beautify_failed">Teilen nicht möglich</string>
   <string name="send_files_to">Elemente senden nach</string>
+  <string name="send_heif_summary">Bilder vor dem Senden konvertieren, um die Kompatibilität sicherzustellen</string>
+  <string name="send_heif_title">Vor dem Senden HEIF in JPG konvertieren</string>
   <string name="send_multiple_files_hint_format">Senden (%s)</string>
   <string name="send_public_url">Albumlink senden</string>
   <string name="send_secret_file_failed">Teilen nicht möglich</string>
@@ -1576,6 +1583,10 @@
   <string name="unpublishing">Abbrechen…</string>
   <string name="unrecognized_manufacture">Unbekannt</string>
   <string name="unrecognized_model">Unbekanntes Gerät</string>
+  <string name="unsupported_media_downloading_tip_common">Anzeigen von Originalbildern in diesem Format wird in dieser Version von Android nicht unterstützt. Trotzdem herunterladen?</string>
+  <string name="unsupported_media_downloading_tip_format">Anzeigen von Original-%s-Bildern wird in dieser Version von Android nicht unterstützt. Trotzdem herunterladen?</string>
+  <string name="unsupported_media_scanned_tip">%1$s Bilder wurden erkannt. Anzeigen von %2$s-Bildern wird in dieser Version von Android nicht unterstützt.</string>
+  <string name="unsupported_media_view_tip">Anzeigen von Original-%s-Bildern wird in dieser Version von Android nicht unterstützt.</string>
   <string name="unsupport_raw">%s funktioniert nicht mit RAW-Bildern</string>
   <string name="unsupport_raw_and_video">%s funktioniert nicht mit Videos und RAW-Bildern</string>
   <string name="unsupport_video">%s funktioniert nicht mit Videos.</string>
