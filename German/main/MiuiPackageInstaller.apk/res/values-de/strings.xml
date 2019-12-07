@@ -54,7 +54,8 @@ Alle Ihre bisherigen Benutzerdaten werden gespeichert."</string>
   <string name="dlg_appstore_notice">Wir können die Authentizität oder Sicherheit von Apps aus Quellen außerhalb des &lt;u&gt;&lt;font color=#91c727&gt;App Store&lt;/font&gt;&lt;/u&gt; nicht prüfen.</string>
   <string name="dlg_game_center_intercept_game_center_install">Von Mi Games installieren</string>
   <string name="dlg_game_center_intercept_install">Trotzdem installieren</string>
-  <string name="dlg_game_center_intercept_title">Achtung</string>
+  <string name="dlg_game_center_intercept_msg">Installieren von Drittanbieterspielen kann Sicherheitsrisiken mit sich bringen. Mi Games herunterladen und installieren, um auf sichere App-Versionen zuzugreifen.</string>
+  <string name="dlg_game_center_intercept_title">Vorsicht</string>
   <string name="dlg_mimarket_intercept_mimarket_install">Aus Mi App Store installieren</string>
   <string name="dlg_mimarket_intercept_msg">Die Installation von Drittanbieter-Apps kann Sicherheitsrisiken mit sich bringen. Laden Sie Mi App Store herunter und installieren Sie ihn, um auf sichere App-Versionen zuzugreifen.</string>
   <string name="dlg_msg_unoffical">Kann System-Apps nicht von inoffiziellen Kanälen aus installieren.</string>
@@ -98,7 +99,8 @@ Alle Ihre bisherigen Benutzerdaten werden gespeichert."</string>
   <string name="install_failed_invalid_apk">Paket ist offenbar beschädigt</string>
   <string name="install_failed_msg">%1$s konnte nicht auf Ihrem Telefon installiert werden</string>
   <string name="install_failed_system_incompatible">Diese App ist nicht mit MIUI kompatibel</string>
-  <string name="install_finished_notification_title">%1$s erfolgreich installiert, jetzt %2$s bereinigen</string>
+  <string name="install_finished_notification_summary">Tippen, um jetzt zu bereinigen</string>
+  <string name="install_finished_notification_title">%1$s erfolgreich installiert, %2$s jetzt bereinigen</string>
   <string name="install_from_appstore_hint">Wir empfehlen Ihnen, die App aus dem &lt;u&gt;&lt;font color=#91c727&gt;App Store&lt;/font&gt;&lt;/u&gt; zu installieren</string>
   <string name="installing">Installieren…</string>
   <string name="intercept_install">Installieren</string>
@@ -196,8 +198,10 @@ Alle Ihre bisherigen Benutzerdaten werden gespeichert."</string>
   <string name="miui_virus_scanning_2">Prüfen..</string>
   <string name="miui_virus_scanning_3">Prüfen...</string>
   <string name="miui_virus_title">Hohes Risiko</string>
-  <string name="mobil_net_work_warning_msg">Sie nutzen jetzt mobile Daten. Die Installation dieser App erfordert %1$s an mobilen Daten. Trotzdem installieren?"</string>
+  <string name="mobil_net_work_warning_cancel">Abbrechen</string>
+  <string name="mobil_net_work_warning_msg">Sie nutzen jetzt mobile Daten. Installation dieser App erfordert %1$s an mobilen Daten. Trotzdem installieren?"</string>
   <string name="mobil_net_work_warning_ok">Trotzdem installieren</string>
+  <string name="mobil_net_work_warning_title">Datennutzungswarnung</string>
   <string name="never_ask_again">Nicht nochmal fragen</string>
   <string name="new_permissions_category">Neue Berechtigungen</string>
   <string name="newPerms">Neu</string>
