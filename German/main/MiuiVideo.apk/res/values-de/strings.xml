@@ -28,7 +28,7 @@
     <string name="account_logout">Abmelden</string>
     <string name="account_title">Konto</string>
     <string name="account_user_agreement">Nutzervereinbarung</string>
-    <string name="ad_count_down">"Werbung: %1$ss | "</string>
+    <string name="ad_count_down">Werbung: %1$s Sek…</string>
     <string name="ad_moredetail">Weitere Details</string>
     <string name="add_offline_task_success">Datei zu den Downloads hinzugefügt</string>
     <string name="add_shortcut">Verknüpfung hinzufügen</string>
@@ -46,10 +46,10 @@
     <string name="airkan_device_my_phone">Mein Telefon</string>
     <string name="airkan_device_xiaomi_phone">Mein Telefon</string>
     <string name="airkan_playing">Übertragen auf %s</string>
-    <string name="airkan_tips">Berühren, um das Video auf den TV zu streamen</string>
+    <string name="airkan_tips">Berühren, um das Video auf den TV zu übertragen</string>
     <string name="alert_dialog_download">Sie haben diese App bereits heruntergeladen</string>
     <string name="alert_dialog_download_btn_hide">Ausblenden</string>
-    <string name="alert_dialog_download_confirm"> %1s herunterladen?</string>
+    <string name="alert_dialog_download_confirm"> %1s wirklich herunterladen?</string>
     <string name="alert_dialog_download_default_title">App herunterladen</string>
     <string name="alert_dialog_download_dup_task">Auf Ende des Downloads warten…</string>
     <string name="alert_dialog_download_error">Herunterladen fehlgeschlagen</string>
@@ -353,7 +353,7 @@ Bitte diesen Code an den Techniker senden."</string>
     <string name="not_have_program_menu_info">Keine Daten verfügbar</string>
     <string name="not_support_resolution_switching">Auflösung für dieses Video kann nicht geändert werden</string>
     <string name="not_support_resolution_switching_under_airplay">Bei der Videoübertragung kann die Auflösung nicht geändert werden</string>
-    <string name="not_support_seek_for_livetv_under_airplay">Wiedergabefortschritt beim Übertragen von Live-Streams kann nicht angepasst werden</string>
+    <string name="not_support_seek_for_livetv_under_airplay">Wiedergabefortschritt bei Live-Übertragung kann nicht angepasst werden</string>
     <string name="notification_click_refresh">Tippen zum aktualisieren</string>
     <string name="notification_desc_offline">Benachrichtigung über abgeschlossene Downloads</string>
     <string name="notification_get_weather_info_failed">Keine Wetterinfos verfügbar</string>
@@ -369,7 +369,7 @@ Bitte diesen Code an den Techniker senden."</string>
     <string name="notification_title">\"%1$s\" Download abgeschlossen</string>
     <string name="notification_video">Kostenlose Shows</string>
     <string name="nowifi_alert_dialog_exit">Abbrechen</string>
-    <string name="nowifi_alert_dialog_message">Verwendung Ihrer mobilen Datenverbindung zum Streamen von Videos erhöht Ihre Datennutzung. Wenn Sie Ihre Datentarif überschreiten, könnte Ihr Anbieter Ihnen zusätzliche Gebühren berechnen.</string>
+    <string name="nowifi_alert_dialog_message">Mobile Datenverbindung für Videoübertragung erhöht Ihre Datennutzung. Bei Datentarifüberschreitung, könnte Ihr Anbieter Ihnen zusätzliche Gebühren berechnen.</string>
     <string name="nowifi_alert_dialog_title">Datenverbrauchswarnung</string>
     <string name="offline_downloading">%s herunterladen</string>
     <string name="offline_fail_limit_vip">Kaufen Sie eine VIP-Mitgliedschaft, um Dateien herunterzuladen</string>
@@ -379,7 +379,7 @@ Bitte diesen Code an den Techniker senden."</string>
     <string name="offline_media_empty_sub_title">Videos herunterladen und offline ansehen</string>
     <string name="offline_media_empty_title">Leer</string>
     <string name="offline_pause">Alle Downloads pausieren</string>
-    <string name="offline_player">Offline Player</string>
+    <string name="offline_player">Videolayer offline</string>
     <string name="offline_setting">Wiedergabeeinstellungen</string>
     <string name="offline_setting_mobile_net_limit_size1">1 GB</string>
     <string name="offline_setting_mobile_net_limit_size2">500 MB</string>
@@ -397,7 +397,7 @@ Bitte diesen Code an den Techniker senden."</string>
     <string name="online_live_hint">Verbinden…</string>
     <string name="online_live_is_unbind">Konto entfernen?</string>
     <string name="online_live_no_download_plugin">Installieren Sie zuerst das Plugin.</string>
-    <string name="online_live_no_login_hint">Melden Sie sich in Ihrem Mi Konto an, um Live-Streams zu sehen</string>
+    <string name="online_live_no_login_hint">Melden Sie sich in Ihrem Mi Konto an, um Live-Übertragungen zu sehen</string>
     <string name="online_live_no_network">Netzwerkverbindung nicht möglich. Prüfen Sie Ihre Netzwerkeinstellungen und versuchen Sie es erneut.</string>
     <string name="online_live_pay_record_no_data">Keine Elemente vorhanden</string>
     <string name="online_live_plugin_install_failure">Plugin konnte nicht installiert werden</string>
@@ -775,7 +775,7 @@ Sie können versuchen, nach etwas anderem zu suchen."</string>
     <string name="small_video_guide_slide_left_right">Mehr Videos von diesem Konto anzeigen</string>
     <string name="small_video_guide_slide_top_bottom">Wischen, um mehr anzuzeigen</string>
     <string name="small_video_last_video_tip">"Das war's vorerst."</string>
-    <string name="small_video_mobile_network_toast">Mobiler Daten zum Streamen von Videos verwenden…</string>
+    <string name="small_video_mobile_network_toast">Mobile Daten zu Videoübertragungen verwenden…</string>
     <string name="small_video_no_interested">Kein Interesse</string>
     <string name="small_video_no_interested_msg">Tippen, damit solche Videos seltener angezeigt werden</string>
     <string name="small_video_no_interested_success">Solche Videos werden seltener erscheinen</string>
@@ -783,7 +783,7 @@ Sie können versuchen, nach etwas anderem zu suchen."</string>
     <string name="small_video_not_support_share">Diese Werbung kann nicht geteilt werden</string>
     <string name="small_video_share_report_problem">Bericht</string>
     <string name="small_video_use_mobile_network_btn">MB an mobilen Daten</string>
-    <string name="small_video_use_mobile_network_msg">Verwendung mobiler Daten zum Video streamen kann zusätzliche Gebühren verursachen.</string>
+    <string name="small_video_use_mobile_network_msg">Mobile Daten zu Videoübertragungen verwenden kann zusätzliche Gebühren verursachen.</string>
     <string name="small_video_view_ad">Mehr</string>
     <string name="small_video_volumn_low">Lautstärke für ein optimales Erlebnis erhöhen</string>
     <string name="source">"Quelle: "</string>
@@ -887,7 +887,7 @@ Sie können versuchen, nach etwas anderem zu suchen."</string>
     <string name="toast_cancel_collect">Von Favoriten entfernt</string>
     <string name="toast_close_engine_mode">Entwickleroptionen sind aus</string>
     <string name="toast_downloading">Herunterladen:</string>
-    <string name="toast_gprs_network">Mobile Daten zum Streamen von Videos verwenden…</string>
+    <string name="toast_gprs_network">Mobile Daten zur Videoübertragung verwenden…</string>
     <string name="toast_login_success">Erfolgreich angemeldet</string>
     <string name="toast_message_continue_play_from">"Abspielen von "</string>
     <string name="toast_message_continue_play_hour">Std</string>
