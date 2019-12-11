@@ -284,13 +284,18 @@ Bitte diesen Code an den Techniker senden."</string>
     <string name="local_video_newversion">Neue Version</string>
     <string name="lock_open">Öffnen Sie den Video-laden-Bildschirmschoner</string>
     <string name="lock_open_summary">Sie können den Videoinhalt durchsuchen, wenn Sie den Ladesperrbildschirm öffnen</string>
-    <string name="lock_screen_date">dd/MM, EEEE</string>
-    <string name="lock_screen_date_12">EEEE, dd/MM</string>
+    <string name="lock_screen_date">dd.MM, EEEE</string>
+    <string name="lock_screen_date_12">EEEE, dd.MM</string>
     <string name="lp_advance_sound">Klangverbesserung</string>
     <string name="lp_brightness">Helligkeit</string>
     <string name="lp_fullscreen">Vollbildschirm</string>
     <string name="lp_playspeed">Wiedergabegeschwindigkeit</string>
     <string name="lp_setting">Einstellungen</string>
+    <string name="lp_speed_0_8">0.8x</string>
+    <string name="lp_speed_1_0">1.0x</string>
+    <string name="lp_speed_1_25">1.25x</string>
+    <string name="lp_speed_1_5">1.5x</string>
+    <string name="lp_speed_2_0">2.0x</string>
     <string name="lp_speed_title">Wiedergabegeschwindigkeit</string>
     <string name="lp_speed_toast">Wiedergabegeschwindigkeit %sx…</string>
     <string name="lp_volume">Lautstärke</string>
@@ -1127,69 +1132,65 @@ Nach etwas Anderem suchen.</string>
     <string name="vip_not_setup">VIP-Mitgliedschaft ist nicht aktiv</string>
     <string name="vip_rights">VIP Rechte und Interessen</string>
     <string name="vip_setup">VIP-Mitgliedschaft aktivieren</string>
-	
-    <!--Noch zu übersetzen   Anfang -->
-	
-    <string name="vip_tequan_desc_fastzj">VIP fast Chase Drama and watch fully</string>
-    <string name="vip_tequan_desc_freevideos">All-round override IQiYi Videos</string>
-    <string name="vip_tequan_desc_newvideo">Cinema New Film Freely Watch</string>
-    <string name="vip_tequan_desc_skipad">Werbefreier, kostenpflichtiger Inhalt</string>
+    <string name="vip_tequan_desc_fastzj">VIP-Mitglieder sind die ersten, die dem Drama folgen und die gesamte Staffeln ansehen.</string>
+    <string name="vip_tequan_desc_freevideos">Vollständige Abdeckung der umfangreichen iQiyi-Filmbibliothek</string>
+    <string name="vip_tequan_desc_newvideo">Neue Kinofilme kostenlos ansehen</string>
+    <string name="vip_tequan_desc_skipad">Werbefreies Betrachten von kostenpflichtigen Inhalten für Mitglieder</string>
     <string name="vip_tequan_desc_speedchannel">VIP-Kanal</string>
     <string name="vip_tequan_desc_vipid">Exklusive Club-ID</string>
     <string name="vip_tequan_title_fastzj">Schnelle Verfolgung</string>
-    <string name="vip_tequan_title_freevideos">Freie Videos</string>
-    <string name="vip_tequan_title_newvideo">Neues Video</string>
+    <string name="vip_tequan_title_freevideos">Kostenlose Filmbibliothek</string>
+    <string name="vip_tequan_title_newvideo">Neuer Film</string>
     <string name="vip_tequan_title_skipad">Werbung überspringen</string>
     <string name="vip_tequan_title_speedchannel">Speed Channel</string>
     <string name="vip_tequan_title_vipid">VIP-ID</string>
-    <string name="vip_video_title">Video VIP</string>
-    <string name="vp_VideoView_error_button">OK</string>
-    <string name="vp_VideoView_error_network_not_available">Kann nicht mit dem Netzwerk verbinden</string>
+    <string name="vip_video_title">VIP-Video</string>
+    <string name="vp_VideoView_error_network_not_available">Mit dem Netzwerk verbinden nicht möglich</string>
     <string name="vp_VideoView_error_text_invalid_progressive_playback">Dieser Dateityp wird vom Gerät nicht unterstützt</string>
     <string name="vp_VideoView_error_text_unknown">Ein unbekannter Fehler ist aufgetreten</string>
     <string name="vp_VideoView_error_title">Unbekannter Fehler</string>
-    <string name="vp_ad_countdown_m_s">Werbung %1$dm%2$ss</string>
-    <string name="vp_ad_countdown_s">%1$s</string>
+    <string name="vp_ad_countdown_m_s">Werbung %1$d Min %2$s Sek</string>
+    <string name="vp_ad_countdown_s">%1$ Sek</string>
     <string name="vp_ad_skip">Werbung überspringen</string>
     <string name="vp_ad_skip_at">Werbung nach %1$d überspringen</string>
     <string name="vp_adapt_height">Höhe anpassen</string>
     <string name="vp_adapt_width">Breite anpassen</string>
     <string name="vp_agree">Zustimmen</string>
-    <string name="vp_airplay_check_connected_wifi">"Make sure the device you'd like to use is connected to the same Wi-Fi network as your phone."</string>
-    <string name="vp_airplay_connected">" (Connected)"</string>
-    <string name="vp_airplay_connecting">" Connecting…"</string>
-    <string name="vp_airplay_devices">Available devices</string>
-    <string name="vp_airplay_did_not_find_device">"Couldn't find compatible devices."</string>
-    <string name="vp_airplay_disconnect">Disconnect</string>
-    <string name="vp_airplay_failed_to_connect">"Couldn't connect"</string>
+    <string name="vp_airplay_check_connected_wifi">Vergewissern, dass das Gerät, das Sie verwenden möchten, mit dem gleichen WLAN verbunden ist wie Ihr Telefon.</string>
+    <string name="vp_airplay_connected">" (Verbunden)"</string>
+    <string name="vp_airplay_connecting">" Verbinden…"</string>
+    <string name="vp_airplay_devices">Verfügbare Geräte</string>
+    <string name="vp_airplay_did_not_find_device">Keine kompatiblen Geräte vorhanden</string>
+    <string name="vp_airplay_disconnect">Verbindung trennen</string>
+    <string name="vp_airplay_failed_to_connect">Keine Verbindung möglich</string>
     <string name="vp_app_download">App-Download</string>
     <string name="vp_app_name">Videoplayer</string>
-    <string name="vp_app_plugin_load_error">"Couldn't load plug-in. Wait a minute or two and try again."</string>
-    <string name="vp_app_plugin_load_retry">"Couldn't load plug-in. Try again."</string>
+    <string name="vp_app_plugin_load_error">Plugin laden nicht möglich. Ein oder zwei Minuten warten und erneut versuchen.</string>
+    <string name="vp_app_plugin_load_retry">Plugin laden nicht möglich. Erneut versuchen.</string>
     <string name="vp_audio">Lautstärke</string>
-    <string name="vp_auto_change_resolution_suggestion">Network connection is poor. Switch to &lt;font color=\"#0F99FF\">%1$s&lt;/font></string>
-    <string name="vp_auto_change_resolution_switch">Network connection is poor. Switching to &lt;font color=\"#0F99FF\">%1$s&lt;/font></string>
-    <string name="vp_auto_play">Auto play</string>
-    <string name="vp_auto_select">Autom. Auswahl</string>
+    <string name="vp_auto_change_resolution_suggestion">Schlechte Netzwerkverbindung. Zu &lt;font color=\"#0F99FF\">%1$s&lt;/font> wechseln</string>
+    <string name="vp_auto_change_resolution_switch">Schlechte Netzwerkverbindung. Zu &lt;font color=\"#0F99FF\">%1$s&lt;/font> wechseln</string>
+    <string name="vp_auto_play">Automatische Wiedergabe</string>
+    <string name="vp_auto_select">Automatische Auswahl</string>
     <string name="vp_back">Zurück</string>
     <string name="vp_brightness">Helligkeit</string>
     <string name="vp_cancel">Abbrechen</string>
-    <string name="vp_change_resolution_full_high_successfully">Switched to &lt;font color=\"#0F99FF\">FullHD&lt;/font> successfully</string>
-    <string name="vp_change_resolution_high_successfully">Switched to &lt;font color=\"#0F99FF\">high quality&lt;/font> successfully</string>
-    <string name="vp_change_resolution_low_successfully">Switched to &lt;font color=\"#0F99FF\">low quality&lt;/font> successfully</string>
-    <string name="vp_change_resolution_standard_successfully">Switched to &lt;font color=\"#0F99FF\">standard quality</string>
-    <string name="vp_change_resolution_super_successfully">Switched to &lt;font color=\"#0F99FF\">UltraHD&lt;/font> successfully</string>
-    <string name="vp_changing_resolution_full_high">Switching to &lt;font color=\"#0F99FF\">FullHD&lt;/font>&amp;#8230;</string>
-    <string name="vp_changing_resolution_high">Switching to &lt;font color=\"#0F99FF\">high quality&lt;/font>&amp;#8230;</string>
-    <string name="vp_changing_resolution_low">Switching to &lt;font color=\"#0F99FF\">low quality&lt;/font>&amp;#8230;</string>
-    <string name="vp_changing_resolution_standard">Switching to &lt;font color=\"#0F99FF\">standard quality&lt;/font>&amp;#8230;</string>
-    <string name="vp_changing_resolution_super">Switching to &lt;font color=\"#0F99FF\">UltraHD&lt;/font>&amp;#8230;</string>
+    <string name="vp_change_resolution_full_high_successfully">Erfolgreich zu &lt;font color=\"#0F99FF\">1080p&lt;/font> gewechselt</string>
+    <string name="vp_change_resolution_high_successfully">Erfolgreich zu &lt;font color=\"#0F99FF\">HD&lt;/font> gewechselt</string>
+    <string name="vp_change_resolution_low_successfully">Erfolgreich zu &lt;font color=\"#0F99FF\">Flüssig&lt;/font> gewechselt</string>
+    <string name="vp_change_resolution_standard_successfully">Erfolgreich zu &lt;font color=\"#0F99FF\">SD&lt;/font> gewechselt</string>
+    <string name="vp_change_resolution_super_successfully">Erfolgreich zu &lt;font color=\"#0F99FF\">Ultra-HD&lt;/font> gewechselt</string>
+    <string name="vp_changing_resolution_full_high">Zu &lt;font color=\"#0F99FF\">Full-HD&lt;/font>&amp;#8230; wechseln, einen Moment…</string>
+    <string name="vp_changing_resolution_high">Zu &lt;font color=\"#0F99FF\">high quality&lt;/font>&amp;#8230; wechseln, einen Moment…</string>
+    <string name="vp_changing_resolution_low">Zu &lt;font color=\"#0F99FF\">low quality&lt;/font>&amp;#8230; wechseln, einen Moment…</string>
+    <string name="vp_changing_resolution_standard">Zu &lt;font color=\"#0F99FF\">standard quality&lt;/font>&amp;#8230; wechseln, einen Moment…</string>
+    <string name="vp_changing_resolution_super">Zu &lt;font color=\"#0F99FF\">Ultra-HD&lt;/font>&amp;#8230; wechseln, einen Moment…</string>
     <string name="vp_client_message">%1$s Client installieren?</string>
-    <string name="vp_collect_guid_dialog_confirm">Add to favorites</string>
-    <string name="vp_collect_guid_dialog_content">Add this item to favorites to be able to come back to it next time.</string>
+    <string name="vp_collect_guid_dialog_confirm">Zu Favoriten hinzufügen</string>
+    <string name="vp_collect_guid_dialog_content">Diesen Artikel zu den Favoriten hinzufügen, um ihn beim nächsten Mal wieder aufrufen zu können.</string>
     <string name="vp_confirm">Bestätigen</string>
     <string name="vp_content_description">Inhaltsbeschreibung</string>
-    <string name="vp_current_playing">"Playing now: "</string>
+    <string name="vp_current_playing">"Jetzt abspielen: "</string>
     <string name="vp_datastream_alert_hint">Sie können Benachrichtigungen für Datennutzung jederzeit in den Einstellungen deaktivieren</string>
     <string name="vp_datastream_alert_negative_button">Abbrechen</string>
     <string name="vp_datastream_alert_play">Ihr Datenverbrauch steigt, wenn Sie Videos über die mobile Datenverbindung ansehen. Wenn Sie die Grenze Ihres Datentarifs überschreiten, könnte Ihr Anbieter zusätzlich Gebühren verlangen.</string>
@@ -1198,9 +1199,9 @@ Nach etwas Anderem suchen.</string>
     <string name="vp_declaration">Nutzungsbedingungen</string>
     <string name="vp_declaration_content_td_custom">Diese App braucht eine Internetverbindung, um richtig zu funktionieren</string>
     <string name="vp_device_list">Geräte</string>
-    <string name="vp_device_list_seaching">&lt;Kein Gerät zum übertragen verfügbar></string>
+    <string name="vp_device_list_seaching">&lt;Kein Gerät gefunden></string>
     <string name="vp_download_apk_from_video_ad">App installieren</string>
-    <string name="vp_download_connect_fail">URL konnte nicht gefunden werden. Verbindung prüfen und erneut versuchen.</string>
+    <string name="vp_download_connect_fail">URL wurde nicht gefunden. Verbindung prüfen und erneut versuchen.</string>
     <string name="vp_download_file_fail">Download fehlgeschlagen. Speicherplatz prüfen.</string>
     <string name="vp_downloading_apk_title">%1$s wird geladen</string>
     <string name="vp_exit">Beenden</string>
@@ -1208,31 +1209,30 @@ Nach etwas Anderem suchen.</string>
     <string name="vp_full_high_definition">1080P</string>
     <string name="vp_full_screen">Vollbild</string>
     <string name="vp_function">Einstellungen</string>
-    <string name="vp_hardware_unsported">"This video can't be played on your device."</string>
+    <string name="vp_hardware_unsported">Dieses Video kann nicht auf Ihrem Gerät abgespielt werden.</string>
     <string name="vp_hide_media_info">Videoinformationen ausblenden</string>
-    <string name="vp_high_definition">HD</string>
+    <string name="vp_high_definition">1080p</string>
     <string name="vp_hint">Tipp</string>
     <string name="vp_install">Installieren</string>
     <string name="vp_install_title">Titel installieren</string>
     <string name="vp_loading">Herunterladen</string>
-    <string name="vp_loading_download">Herunterladen&amp;#8230;</string>
-    <string name="vp_loading_video">Laden…</string>
+    <string name="vp_loading_download"><CDATA>Herunterladen</CDATA></string>
+    <string name="vp_loading_video"><CDATA>Herunterladen…</CDATA></string>
     <string name="vp_low_definition">Niedrig</string>
     <string name="vp_maintitlearea">Schauen Sie HD-Videos überall an</string>
-    <string name="vp_media_error_server_died">Relaunch the app and try again</string>
-    <string name="vp_media_error_source_failed">"Can't open this file"</string>
+    <string name="vp_media_error_server_died">App neu starten und erneut versuchen</string>
+    <string name="vp_media_error_source_failed">Datei öffnen nicht möglich</string>
     <string name="vp_media_info">Videoinfo anzeigen</string>
     <string name="vp_media_type_unsported">Dieser Medientyp wird nicht unterstützt</string>
-    <string name="vp_milink">Mi Link</string>
     <string name="vp_milink_function">Auf Bildschirm übertragen</string>
-    <string name="vp_mobile_network_using_auto_play">"Play videos automatically when device isn't connected to Wi-Fi this week"</string>
-    <string name="vp_mobile_network_using_free_service">Other options</string>
+    <string name="vp_mobile_network_using_auto_play">Videos automatisch abspielen, wenn das Gerät diese Woche nicht mit WLAN verbunden ist</string>
+    <string name="vp_mobile_network_using_free_service">Weitere Optionen</string>
     <string name="vp_mobile_network_using_negative">Abbrechen</string>
-    <string name="vp_mobile_network_using_playing">Will use mobile data to play this video in %1$s</string>
+    <string name="vp_mobile_network_using_playing">Wird mobile Daten verwenden, um dieses Video in %1$ Sek wiederzugeben</string>
     <string name="vp_mobile_network_using_positive">Weiter</string>
-    <string name="vp_mobile_network_using_positive_data_comsume">%1$s Use mobile data</string>
+    <string name="vp_mobile_network_using_positive_data_comsume">%1$s Mobile Daten nutzen</string>
     <string name="vp_mobile_network_using_positive_new">Trotzdem abspielen</string>
-    <string name="vp_mobile_network_using_warning">"You're using mobile data now. Playing videos may cost you money."</string>
+    <string name="vp_mobile_network_using_warning">Mobile Daten werden genutzt und die Wiedergabe von Videos kann Gebühren kosten.</string>
     <string name="vp_mobile_network_using_warning_line_1">Ihr Datenverbrauch steigt, wenn Sie Videos über die mobile Datenverbindung ansehen</string>
     <string name="vp_mobile_network_using_warning_line_2">Wenn Sie Ihr Datenvolumen überschreiten, könnte Ihr Mobilfunkanbieter Ihnen zusätzliche Gebühren verrechnen</string>
     <string name="vp_mobile_network_using_warning_new">Sie verwenden jetzt die mobile Datenverbindung. Videos abzuspielen kann teuer werden.</string>
@@ -1241,32 +1241,30 @@ Nach etwas Anderem suchen.</string>
     <string name="vp_mplayer_error_malformed">Fehlerhafter Medieninhalt</string>
     <string name="vp_mplayer_error_server_died">Medienserver hat den Geist aufgegeben</string>
     <string name="vp_mplayer_error_timed_out">Die Zeitbegrenzung ist abgelaufen</string>
-    <string name="vp_network_status_bad">"Couldn't connect to the network. Try again."</string>
-    <string name="vp_network_status_error">A network error occurred. Try again.</string>
+    <string name="vp_network_status_bad">Netzwerkverbindung nicht möglich. Erneut versuchen.</string>
+    <string name="vp_network_status_error">Netzwerkfehler ist aufgetreten. Erneut versuchen.</string>
     <string name="vp_newest_ep">Neu</string>
     <string name="vp_next_ci">Nächste</string>
     <string name="vp_no_longer_tips">Nicht wieder anzeigen</string>
     <string name="vp_notify_apk_installed">Installation der App erfolgreich</string>
-    <string name="vp_offline">Offline</string>
     <string name="vp_offline_status_done">Fertig</string>
-    <string name="vp_offline_status_dowloading">Download</string>
+    <string name="vp_offline_status_dowloading">Herunterladen</string>
     <string name="vp_offline_status_fail">Fehlgeschlagen</string>
     <string name="vp_offline_status_none">Bereit</string>
     <string name="vp_offline_status_pause">Pause</string>
     <string name="vp_offline_status_wait">Warten</string>
-    <string name="vp_offline_title">Offline</string>
-    <string name="vp_play_bestv_content_error">This video is no longer available</string>
-    <string name="vp_play_iqiyi_overweight">"You've signed in to this account on too many devices. Sign out on one of those devices and try to sign in here again"</string>
-    <string name="vp_play_tencent_vip">This video is no longer available</string>
-    <string name="vp_play_youku_failed_get_video_info">Videoinfo konnte nicht abgerufen werden</string>
+    <string name="vp_play_bestv_content_error">Dieses Video ist nicht mehr verfügbar</string>
+    <string name="vp_play_iqiyi_overweight">Sie haben sich auf zu vielen Geräten bei diesem Konto angemeldet. Auf einem dieser Geräte abmelden und versuchen erneut anzumelden</string>
+    <string name="vp_play_tencent_vip">Dieses Video ist nicht mehr verfügbar</string>
+    <string name="vp_play_youku_failed_get_video_info">Videoinfo abrufen nicht möglich</string>
     <string name="vp_play_youku_time_out">Zeitlimit für Verbindung</string>
     <string name="vp_player_plugin_dlg_neg_btn">Schließen</string>
     <string name="vp_player_plugin_dlg_no_content">Kein Videoplayerplugin</string>
     <string name="vp_player_plugin_dlg_title">Videoplayerplugin</string>
-    <string name="vp_playspeed">Playback speed</string>
-    <string name="vp_plugin_download_retry">Automatisches Herunterladen des install. Plugins fehlgesclagen. Manuelle Installation versuchen?</string>
+    <string name="vp_playspeed">Wiedergabegeschwindigkeit</string>
+    <string name="vp_plugin_download_retry">Plugin automatisch herunterladen und installieren nicht möglich. Versuchen, es manuell zu installieren?</string>
     <string name="vp_plugin_message">" HD-Videoplugin installieren?"</string>
-    <string name="vp_plugin_runtime_error">"Couldn't load plug-in"</string>
+    <string name="vp_plugin_runtime_error">Plugin laden nicht möglich</string>
     <string name="vp_related_recommendation">Empfehlungen</string>
     <string name="vp_replay">Wiederholung</string>
     <string name="vp_retry">Wiederholen</string>
@@ -1284,22 +1282,21 @@ Nach etwas Anderem suchen.</string>
     <string name="vp_skip_play_time">Skip credits</string>
     <string name="vp_skip_play_time_hint">"This feature isn't supported by some videos"</string>
     <string name="vp_speed">Wiedergabegeschwindigkeit 2x…</string>
-    <string name="vp_speed_guidance">Press and hold the screen to change playback speed</string>
+    <string name="vp_speed_guidance">Bildschirm gedrückt halten, um Wiedergabegeschwindigkeit zu ändern</string>
     <string name="vp_speed_toast">Wiedergabe mit 2-facher Geschwindigkeit möglich</string>
-    <string name="vp_start_error_msg">Das Video kann nicht abgespielt werden</string>
-    <string name="vp_toast_downloadapk">Herunterladen…</string>
-    <string name="vp_upcoming_image">Nächstes</string>
+    <string name="vp_start_error_msg">Video abspielen nicht möglich</string>
+    <string name="vp_toast_downloadapk">Im hintergrund herunterladen…</string>
+    <string name="vp_upcoming_image">Demnächst</string>
     <string name="vp_upcoming_title">Nächstes</string>
-    <string name="vp_video_bad_network_condition">Schlechte Internetverbindung. Versuchen Sie es später erneut.</string>
-    <string name="vp_video_create_video_error_info">Unbekannter Fehler, bitte versuchen Sie es später erneut</string>
+    <string name="vp_video_bad_network_condition">Schlechte Internetverbindung. Später erneut versuchen.</string>
+    <string name="vp_video_create_video_error_info">Unbekannter Fehler, bitte später erneut versuchen</string>
     <string name="vp_video_invalid_cp_info">Ungültige Informationen des Videoanbieters, App bitte neu starten</string>
-    <string name="vp_video_loading"><CDATA>Just a sec…</CDATA></string>
-    <string name="vp_video_loading_new_part1"><CDATA>Just a sec…</CDATA></string>
-    <string name="vp_video_loading_new_part2" />
-    <string name="vp_video_player_play_text">Tap to play \"%1$s\"</string>
-    <string name="vp_video_plugin_install_text">Preparing %s…</string>
+    <string name="vp_video_loading"><CDATA>Einen Moment…</CDATA></string>
+    <string name="vp_video_loading_new_part1"><CDATA>Einen Moment…</CDATA></string>
+    <string name="vp_video_player_play_text">\"%1$s\" zum Abspielen tippen</string>
+    <string name="vp_video_plugin_install_text">%s vorbereiten …</string>
     <string name="vp_video_plugin_installation">%1$s installieren…</string>
-    <string name="vp_video_plugin_source">Content provided by %s</string>
+    <string name="vp_video_plugin_source">Inhalt bereitgestellt durch %s</string>
     <string name="vp_video_wonderful_content">Zum Abspielen tippen</string>
     <string name="wednesday">Mittwoch</string>
     <string name="works">abspielen</string>
