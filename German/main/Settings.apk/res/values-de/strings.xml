@@ -115,28 +115,32 @@ Falls das Gerät mehrere Benutzer hat, werden die Eingabehilfen durch Verwendung
   <string name="accessibility_preference_magnification_summary">Bildschirm vergrößern</string>
   <string name="accessibility_ring_vibration_title">Klingelvibration</string>
   <string name="accessibility_screen_magnification_enable">Vergrößerungsgesten</string>
-  <string name="accessibility_screen_magnification_gestures_title">Vergrößern mit 3-fach Tippen</string>
+  <string name="accessibility_screen_magnification_gestures_title">Vergrößern mit 3-mal Tippen</string>
   <string name="accessibility_screen_magnification_navbar_configuration_warning">Taste Eingabehilfen ist auf %1$s festgelegt. Um Vergrößerung zu verwenden, tippen &amp; halten Sie die Taste Eingabehilfen, dann wählen Sie Vergrößerung.</string>
   <string name="accessibility_screen_magnification_navbar_short_summary">Zum Zoomen eine Taste antippen</string>
   <string name="accessibility_screen_magnification_navbar_summary">"Wenn Vergrößerung eingeschaltet ist, verwenden Sie die Taste Eingabehilfen am unteren Bildschirmrand, um schnell zu vergrößern.
 
-<b>Zum Zoomen</b> Taste Eingabehilfen antippen, dann irgendwo auf den Bildschirm tippen.
-<ul><li>2 oder mehr Finger ziehen zum Scrollen.</li>
-<li>2 oder mehr Finger drücken, um den Zoom einzustellen</li></ul>
+"<b>Zum Zoomen</b>", Taste Eingabehilfen antippen, dann irgendwo auf den Bildschirm tippen.
+"<ul><li>• 2 oder mehr Finger ziehen, um zu Scrollen.</li>"
+"<li>• 2 oder mehr Finger drücken, um den Zoom einzustellen</li></ul>"
 
-<b>Zum temporären Zoomen</b> Taste Eingabehilfen antippen, dann irgendwo auf den Bildschirm tippen &amp; halten.
-<ul><li>Ziehen, um auf dem Bildschirm zu bewegen</li>
-<li>Finger anheben zum Rauszoomen</li></ul>
+"<b>Um vorübergehend zu zZoomen</b>", auf Schaltfläche Barrierefreiheit und dann auf eine beliebige Stelle auf dem Bildschirm tippen.
+"<ul><li>• Ziehen, um auf dem Bildschirm zu bewegen</li>"
+"<li>• Finger anheben, um herauszuzoomen.</li></ul>"
 
 Sie können nicht auf der Tastatur oder Navigationsleiste zoomen."</string>
   <string name="accessibility_screen_magnification_navbar_title">Mit Taste vergrößern</string>
   <string name="accessibility_screen_magnification_short_summary">3-mal tippen, um zu vergrößern</string>
-  <string name="accessibility_screen_magnification_state_navbar_gesture">Vergrößern mit Taste &amp; 3-fach Tippen</string>
-  <string name="accessibility_screen_magnification_summary">"Wenn diese Funktion aktiviert ist, können Sie rein-/rauszoomen, indem Sie 3-mal auf den Bildschirm tippen. Wenn Sie reingezoomt haben, können Sie:
-<li><ul>Verschieben: Ziehen Sie zwei oder mehr Finger über den Bildschirm.
-<li>Zoomen: Ziehen Sie zwei oder mehr Finger zusammen oder auseinander.</li></ul></li>
-Sie können auch vorübergehend alles, was sich unter Ihrem Finger befindet, durch dreifaches Antippen und Halten vergrößern. In diesem vergrößerten Zustand können Sie den Finger bewegen, um verschiedene Teile des Bildschirms zu erkunden. Heben Sie Ihren Finger, um zum Ursprungszustand zurückzukehren.
-Hinweis: 3-fach-Tippen für Vergrößerung funktioniert überall, außer für die Tastatur und Navigationsleiste."</string>
+  <string name="accessibility_screen_magnification_state_navbar_gesture">Vergrößern mit Taste &amp; 3-mal Tippen</string>
+  <string name="accessibility_screen_magnification_summary">"<b>Um schnell zu zoomen</b>" tippen Sie 3-mal auf den Bildschirm.
+"<ul><li>Zum Scrollen zwei oder mehr Finger ziehen</li>"
+"<li>Zoomen: Ziehen Sie zwei oder mehr Finger zusammen oder auseinander.</li></ul>"
+
+"<b>Um vorübergehend zu zoomen</b>", 3-mal schnell auf den Bildschirm tippen und Ihren Finger beim dritten Antippen gedrückt halten.
+"<ul><li>Ziehen, um auf dem Bildschirm zu bewegen.</li>"
+"<li>Finger anheben, zum Rauszoomen.</li></ul>"
+
+Sie können die Tastatur und die Navigationsleiste nicht vergrößern."</string>
   <string name="accessibility_screen_magnification_title">Vergrößerungsgesten</string>
   <string name="accessibility_service_action_perform_description">Es kann Ihre Interaktionen mit einer App oder einem HW-Sensor verfolgen und in Ihrem Namen mit Apps interagieren.</string>
   <string name="accessibility_service_action_perform_title">Anzeigen und Ausführen von Aktionen</string>
@@ -1401,7 +1405,7 @@ Diese Funktion kann unter [Einstellungen] deaktiviert werden."</string>
   <string name="camera_double_tap_power_gesture_desc">Kamera schnell öffnen, ohne Bildschirm zu entsperren</string>
   <string name="camera_double_tap_power_gesture_title">Power-Taste zweimal betätigen, um die Kamera zu starten</string>
   <string name="camera_front">Vorn %s</string>
-  <string name="camera_gesture_desc">Kamera durch zweifaches Drehen des Handgelenkes öffnen</string>
+  <string name="camera_gesture_desc">Kamera durch 2x Drehen des Handgelenkes öffnen</string>
   <string name="camera_gesture_title">Doppeldrehung, um Kamera zu starten</string>
   <string name="camera_key_action_app_title">App öffnen</string>
   <string name="camera_key_action_category_title">Verwenden, wenn die Kamera nicht geöffnet ist</string>
@@ -4587,7 +4591,7 @@ Dies ermöglicht der App auch, Nicht stören ein-/auszuschalten und entsprechend
   <string name="oldman_mode_entry_name">Vereinfachter Desktop</string>
   <string name="oldman_uninstalled_btn">Installieren</string>
   <string name="off">Aus</string>
-  <string name="oldman_uninstalled_des">Der Lite-Modus befreit Sie von Unübersichtlichkeit  und hält Ihren Startbildschirm einfach und minimalistisch.</string>
+  <string name="oldman_uninstalled_des">Der Lite-Modus befreit Sie von Unübersichtlichkeit und hält Ihren Startbildschirm einfach und minimalistisch.</string>
   <string name="on">An</string>
   <string name="one_cacrt">Ein CA-Zertifikat</string>
   <string name="one_usercrt">Ein Benutzerzertifikat</string>
@@ -7585,7 +7589,7 @@ Jeder Benutzer kann aktualisierte App-Berechtigungen für alle anderen Benutzer 
   <string name="volume_connectivity_panel_title">Lautstärke</string>
   <string name="volume_hifi_description">HiFi-Einstellungen</string>
   <string name="volume_label">Laustärke</string>
-  <string name="volume_launch_camera_summary">Kamera durch 2-faches Drücken der Lautstärketaste öffnen, wenn Bildschirm gesperrt ist</string>
+  <string name="volume_launch_camera_summary">Kamera durch 2x Drücken der Lautstärketaste öffnen, wenn Bildschirm gesperrt ist</string>
   <string name="volume_media_description">Musik, Video, Spiele und andere Medien</string>
   <string name="volume_media_mute">Musik &amp; andere Medien lautlos</string>
   <string name="volume_notification_description">Benachrichtigungen</string>
