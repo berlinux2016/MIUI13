@@ -54,6 +54,7 @@
   <string name="account_settings_retry_summary">Tippen, um Konto zu synchronisieren</string>
   <string name="account_settings_ringtone">Benachrichtigungston</string>
   <string name="account_settings_servers">Servereinstellungen</string>
+  <string name="account_settings_smime_title">S/MIME(Sichere und vielseitige Internet-Mail-Erweiterungen)</string>
   <string name="account_settings_summary">Synchronisationshäufigkeit, Benachrichtigungen usw.</string>
   <string name="account_settings_sync_calendar_enable">Kalender synchronisieren</string>
   <string name="account_settings_sync_calendar_summary">Termine dieses Kontos synchronisieren</string>
@@ -148,6 +149,10 @@
   <string name="account_setup_security_required_title">Remotesicherheitsverwaltung</string>
   <string name="account_setup_server_acc_manager_title">Konten</string>
   <string name="account_setup_username_password_toast">Geben Sie eine gültige E-Mail-Adresse und ein gültiges Passwort ein</string>
+  <string name="account_smime_cert_title">Zertifikat</string>
+  <string name="account_smime_encrypt">S/MIME-Verschlüsselung</string>
+  <string name="account_smime_install_cert">Installationszertifikat</string>
+  <string name="account_smime_sign">S/MIME-Signatur</string>
   <string name="account_sync_off">Kontosynchronisation ist ausgeschaltet</string>
   <string name="account_sync_settings_settings">Kontakte und Kalender synchronisieren</string>
   <string name="account_sync_settingstip_description">Synchronisation</string>
@@ -250,6 +255,15 @@
   <string name="cancel_action">Abbrechen</string>
   <string name="cancel_pop3_attchemt_downloading">Bei einem POP3-Konto kann der Download des Anhangs nicht abgebrochen werden</string>
   <string name="cant_move_or_change_labels">Elemente von mehreren Konten können nicht verschoben werden</string>
+  <string name="certificate_add_failed">\"%s\" Zertifikat installieren nicht möglich.</string>
+  <string name="certificate_added">\"%s\" Zertifikat hinzugefügt.</string>
+  <string name="certificate_alias_prompt_certificate_name">Zertifikatname</string>
+  <string name="certificate_alias_prompt_title">Zertifikat benennen</string>
+  <string name="certificate_alias_prompt_w">Doppelter Zertifikatname，bitte Zertifikat umbenennen.</string>
+  <string name="certificate_password_hit">Bitte Ihr Passwort eingeben</string>
+  <string name="certificate_password_prompt_title">Zertifikat extrahieren</string>
+  <string name="certificate_password_tips">Ein Passwort eingeben, um das Zertifikat zu extrahieren</string>
+  <string name="certificate_password_tips_w">Bitte das richtige Passwort eingeben</string>
   <string name="change_folders_selection_dialog_title">Ordner wechseln</string>
   <string name="change_sync_settings">Synchronisationseinstellungen ändern</string>
   <string name="changepw_dialog_tips">Passwort erneut eingeben für %s</string>
@@ -328,11 +342,16 @@
   <string name="contextmenu_openlink">Im Browser öffnen</string>
   <string name="contextmenu_send_mail">E-Mail senden</string>
   <string name="contextmenu_sharelink">Link teilen</string>
+  <string name="conversation_cert_distrust">Vertrauen abbrechen</string>
+  <string name="conversation_cert_info_tips">Der Absender hat diese Nachricht mit einem vertrauenswürdigen Zertifikat signiert</string>
+  <string name="conversation_cert_info_title">Signiert</string>
+  <string name="conversation_cert_trust">Der Signatur vertrauen</string>
   <string name="conversation_detail_hide">Verbergen</string>
   <string name="conversation_folder_moved">Verschoben nach %1$s</string>
   <string name="conversation_item_mark_read">Gelesen</string>
   <string name="conversation_item_mark_unread">Ungelesen</string>
   <string name="conversation_list">Hauptliste</string>
+  <string name="conversation_message_encrypt_tips">Diese Nachricht ist verschlüsselt. Bitte eine Zertifikatsdatei mit Ihrer verschlüsselten Identität installieren, um diese Nachricht zu entschlüsseln.</string>  
   <string name="conversation_msg_header_collapsed_sent_to">"Senden an "</string>
   <string name="conversation_photo_welcome_text">Auf Absenderbild tippen, um diese Unterhaltung zu wählen</string>
   <string name="conversation_pull_ad_content">E-Mails mühelos verwalten</string>
@@ -667,6 +686,7 @@
   <string name="no_mails">Keine E-Mail</string>
   <string name="no_matched_attachment">Keine Ergebnisse</string>
   <string name="no_more_mail">Keine Nachrichten mehr</string>
+  <string name="no_open_smime_toast">Bitte zuerst das S/MIME-Zertifikat installieren</string>
   <string name="no_recognize_describe">"E-Mails mit Tickets oder Buchungen nicht gefunden.
 Versuchen Sie einen anderen Posteingang."</string>
   <string name="no_remind">Keine Erinnerungen</string>
@@ -694,6 +714,7 @@ Versuchen Sie einen anderen Posteingang."</string>
   <string name="oauth_login_continue">Weiter</string>
   <string name="oauth_login_continue_qq">"Autorisierungscode erhalten und anmelden >"</string>
   <string name="oauth_login_usr_proxy">Anmeldung über Proxy</string>
+  <string name="obtain_new_auth_code">Neuen Bestätigungscode erhalten</string>
   <string name="one_day">1 Tag</string>
   <string name="one_month">1 Monat</string>
   <string name="one_week">1 Woche</string>
@@ -851,6 +872,7 @@ Versuchen Sie einen anderen Posteingang."</string>
   <string name="qq_auto_login_failed_dialog_positive_label">Code kopieren</string>
   <string name="qq_bar_open_imap">Hilfe</string>
   <string name="qq_bar_send_message">SMS senden</string>
+  <string name="qq_changepw_dialog_tips">Bitte den aktuellen Verifizierungscode von %s beziehen und erneut anmelden.</string>
   <string name="qq_login_basecode">Auf der QQ Mail-Webseite anmelden. Eigenes Passwort eingeben.</string>
   <string name="qq_login_get_auth">Aktivieren Sie Passwortschutz, wenn Sie keine SMS empfangen können</string>
   <string name="qq_login_help_bottom_tip">Wenn Sie Ihr Passwort zurücksetzen oder den Status der Einstellungen prüfen müssen, besuchen Sie https://mail.qq.com/, um die Ihnen zur Verfügung stehenden Optionen zu sehen:</string>
@@ -984,6 +1006,8 @@ oder sehen Sie sich die Nachricht auf Ihrem Computer an."</string>
   <string name="select_path">Pfad auswählen</string>
   <string name="selected_lable">Ausgewählt</string>
   <string name="send">Senden</string>
+  <string name="send_encrypt_dialog_fail_content">Diese E-Mail kann nicht verschlüsselt werden, da der Empfänger kein vertrauenswürdiges Signaturzertifikat besitzt. Soll diese E-Mail unverschlüsselt gesendet werden?</string>
+  <string name="send_encrypt_dialog_fail_title">Verschlüsselte E-Mails können nicht gesendet werden</string>
   <string name="send_failed">Nachricht nicht gesendet</string>
   <string name="send_feed_back">Feedback senden</string>
   <string name="send_feed_back_keywords">Feedback senden</string>
@@ -1115,6 +1139,7 @@ Konto entfernen?"</string>
   <string name="upload_logs">Protokolldaten hochladen</string>
   <string name="upload_logs_keywords">Protokolldaten hochladen</string>
   <string name="uploading_logs">Einen Moment…</string>
+  <string name="user_new_auth_code">Mit einem neuen Verifizierungscode anmelden</string>
   <string name="user_privacy_settings">Datenschutzeinstellungen</string>
   <string name="user_privacy_settings_agreement_authorization">(Durch Tippen auf \"Autorisieren\" geben Sie WPS Mail alle erforderlichen Berechtigungen)</string>
   <string name="user_privacy_settings_path">Hinweis: Ihre Einwilligung können Sie unter Einstellungen - Passwörter &amp; Sicherheit - Autorisierung &amp; Widerruf, widerrufen.</string>
@@ -1141,6 +1166,8 @@ Tippen Sie auf "<b>Jetzt synchronisieren</b>, um Ihre E-Mails einmalig zu synchr
   <string name="wipe_account_fail_description_remind">Wegen Datennutzungsberechtigungen können sich nach dem Löschen Restdaten im Kalender und in den Kontakten des Kontos befinden. Bitte löschen Sie diese manuell.</string>
   <string name="wipe_account_fail_title">Persönliche Infos wurden nicht gelöscht</string>
   <string name="wrong_password">Eingegebenes Passwort ist falsch</string>
+  <string name="xiaomi_email">Xiaomi Mail</string>
+  <string name="xiaomi_under_certification">Autorisierung läuft</string>
   <string name="yes">Ja</string>
   <string name="you_are_in_mobile_network">Protokoll über mobile Daten senden?</string>
   <string name="youfuli">Werbung</string>
