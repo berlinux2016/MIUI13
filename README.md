@@ -3,7 +3,8 @@
 
 [![GitHub issues](https://img.shields.io/github/issues-raw/berlinux2016/MIUI11.svg)](https://github.com/berlinux2016/MIUI11/issues "GitHub issues")
 
-## Now also on German telegram channel https://t.me/xeuger, better for faster communication!
+## Now also on German telegram channel » https://t.me/xeuger «
+Better for faster communication!
 
 ## Introduction
 
