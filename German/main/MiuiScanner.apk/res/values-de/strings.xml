@@ -47,6 +47,13 @@
   <string name="calender">Kalender</string>
   <string name="call_anyone">Anrufen</string>
   <string name="camera_error_title">Kamerafehler</string>
+  <string name="carsHome_title">Auto</string>
+  <string name="cars_is_public">Öffentlich</string>
+  <string name="cars_no_public">Nicht öffentlich</string>
+  <string name="cars_solution">"Solution/Autolösung: "</string>
+  <string name="cars_suitability">"Match/Autoeignung: "</string>
+  <string name="cars_title">Autos oder Autoteile scannen</string>
+  <string name="carshome_data">Technische Unterstützung durch Autohome Inc.</string>
   <string name="cancel">Abbrechen</string>
   <string name="character_counter_content_description">Zeichenlimit überschritten: %1$d von %2$d</string>
   <string name="check_for_updates">Auf Beta-Updates prüfen</string>
@@ -66,6 +73,7 @@
   <string name="copy">Kopieren</string>
   <string name="copy_text">Text kopieren</string>
   <string name="copy_text_success">Text kopiert</string>
+  <string name="copy_tracknum">Sendungsverfolgungscode kopieren</string>
   <string name="crop_cancel_description">Abbrechen</string>
   <string name="crop_done_description">Erledigt</string>
   <string name="crop_title_study">Foto zuschneiden</string>
@@ -130,7 +138,7 @@
   <string name="gps">Navigieren</string>
   <string name="image_file_name_format">"'scanner'_yyyyMMdd_HHmmss"</string>
   <string name="import_contact">Kontaktimport</string>
-  <string name="impunity_declaration_content">"Scanner muss Ihre Kamera verwenden und die Bilder verarbeiten, die Sie während der Nutzung der App aufnehmen. Verwenden Sie Scanner nicht, um Fotos von Objekten zu machen, die Ihre persönlichen Daten enthalten. Mit Tippen auf \"Zustimmen\" sind Sie mit unserer &lt;font color=\"#ff32b4ff\"&gt;&lt;a href=\"http://privacy.mi.com/all/%1$s" style=\"color:#ff32b4ff;\"&gt;Datenschutzerklärung&lt;/a&gt;&lt;/font&gt; einverstanden und erlauben Scanner, sich mit dem Internet zu verbinden."</string>
+  <string name="impunity_declaration_content">"Scanner muss Ihre Kamera verwenden und die Bilder verarbeiten, die Sie während der Nutzung der App aufnehmen. Verwenden Sie Scanner nicht, um Fotos von Objekten zu machen, die Ihre persönlichen Daten enthalten. Mit Tippen auf \"Zustimmen\" sind Sie mit unserer &lt;font color=\"#ff32b4ff\">&lt;a href=\"%1$s\" style=\"color:#ff32b4ff;\">Datenschutzerklärung&lt;/a>&lt;/font> einverstanden und erlauben Scanner, sich mit dem Internet zu verbinden."</string>
   <string name="impunity_declaration_negative_text">Beenden</string>
   <string name="impunity_declaration_positive_text">Erlauben</string>
   <string name="impunity_declaration_title">Nutzungsbedingungen</string>
@@ -142,6 +150,7 @@
   <string name="keywords_search_shopping">Shopping;Scanner;Scanne Produkte;Scanne Produkt;Prüfe Preise;Produkte;Taobao;Tmall;Preis;Online Shopping</string>
   <string name="keywords_search_study">Scanner;Probleme;Löse Probleme;Hausaufgaben;Schule;Physik;Chemie;Mathe;Mathematik;Englisch;Geschichte;Chinesisch</string>
   <string name="keywords_search_translation">Scanner;Übersetzen;Wörterbuch;Englisch;Fremdsprache;Sprache;Sprachen;Englisch in Chinesisch;Italienisch;Deutsch;Japanisch;Koreanisch;Spanisch;Französisch; Baidu Übersetzer;Youdao Wörterbuch;Baidu Wörterbuch;Google Übersetzer</string>
+  <string name="kuaidi100_data">Unterstützt durch Kuaidi 100</string>
   <string name="label_choose_picture">Bild wählen</string>
   <string name="label_flash_light">Taschenlampe</string>
   <string name="language_entry_chinese_cn">Vereinfachtes Chinesisch</string>
@@ -161,6 +170,7 @@
   <string name="language_entry_russian">Russisch</string>
   <string name="language_entry_spanish">Spanisch</string>
   <string name="language_entry_swedish">Schwedisch</string>
+  <string name="logistics">Expresslieferung</string>
   <string name="low_version_tip">MIUI auf die neueste Version aktualisieren, um Scanner zu verwenden</string>
   <string name="miracast_connect">Übertragen</string>
   <string name="miracast_connect_fail">Übertragen nicht möglich, erneut versuchen</string>
@@ -193,6 +203,7 @@
   <string name="not_recommend_access_web_url">Trotzdem weiter</string>
   <string name="not_tips">Nicht wieder anzeigen</string>
   <string name="note">Anmerkung:</string>
+  <string name="now_state">"Aktueller Status: "</string>
   <string name="once">Nur einmal</string>
   <string name="open_url">URL öffnen</string>
   <string name="password_toggle_content_description">Passwort anzeigen</string>
@@ -208,13 +219,18 @@
   <string name="plant_reg_fail_2">Objekt nicht erkannt. Scanner kann nur Pflanzen identifizieren.</string>
   <string name="plant_support">" (Technischer Support)"</string>
   <string name="plant_title">Scannen Sie Pflanzen, die Sie identifizieren möchten.</string>
+  <string name="please_try_again_later">Ein oder zwei Minuten warten und erneut versuchen</string>
   <string name="pref_camera_focusmode_default">Kontinuierliches Bild</string>
   <string name="pref_camera_jpeg_quality_fine">fein</string>
   <string name="pref_camera_jpeg_quality_superfine">extrafein</string>
   <string name="preparing_sd">SD-Karte vorbereiten…</string>
   <string name="previous">Zurück</string>
   <string name="prompt">Achtung</string>
+  <string name="queryNum">Bestellung prüfen</string>
+  <string name="query_faile">Auftragsstatus und Details wurden noch nicht synchronisiert. Prüfen Sie Ihre Bestellung manuell."</string>
   <string name="qr_code_details">QR-Code Details:</string>
+  <string name="query_more">Mehr Infos</string>
+  <string name="query_tracknum">Expresslieferauftrag prüfen</string>
   <string name="recognition_error_download_cancel">Später</string>
   <string name="recognition_error_download_data_msg">Laden Sie Erkennungssoftware runter, um Karten zu scannen (ca. 15 MB). Mobile Daten für den Download nutzen?</string>
   <string name="recognition_error_download_fail">Erkennungssoftware wurde nicht heruntergeladen</string>
@@ -234,6 +250,7 @@
   <string name="search_menu_title">Suchen</string>
   <string name="secure_access_web_url">Zur Webseite gehen</string>
   <string name="see_app_details">App-Details anzeigen</string>
+  <string name="see_details">Tippen, um Details anzuzeigen</string>
   <string name="send_mail">E-Mail senden</string>
   <string name="setting_choose_every_time">Immer fragen</string>
   <string name="setting_default_function">Standardfunktion</string>
@@ -305,6 +322,7 @@
   <string name="url_is_unknown">Prüfen der Seite auf Sicherheit nicht möglich</string>
   <string name="url_is_unsafety">Diese Webseite ist nicht sicher</string>
   <string name="view_study_report">Bericht zeigen</string>
+  <string name="waybill_num">"Bestellung: "</string>
   <string name="web">Webseite:</string>
   <string name="website_details">Webseite:</string>
   <string name="weixin_code_tip">WeChat nutzen, um diesen QR-Code zu scannen</string>
@@ -317,6 +335,8 @@
   <string name="wifi_security">Sicherheit:</string>
   <string name="will_be_sent_tothe_background_review">" (Ihre Bewerbung wird in Kürze zur Prüfung weitergeleitet.)"</string>
   <string name="wx_not_installed_toast">Diese Funktion muss WeChat öffnen. Zuerst WeChat installieren.</string>
+  <string name="xiaoai_dialog">"Versuchen Sie zu sagen, was Sie
+mit Mi AI scannen wollen"</string>
   <string name="you_have_permission_to_download">Hier tippen, um die Beta Version herunterzuladen</string>
   <string name="you_id">"Ihre ID: "</string>
   <string name="your_application_is_under_review">" (Ihre Bewerbung wird geprüft.)"</string>
