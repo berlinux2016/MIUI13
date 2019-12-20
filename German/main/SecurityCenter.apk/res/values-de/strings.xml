@@ -286,6 +286,8 @@ Sie verlieren keine App-Daten."</string>
   <string name="app_usage_never">Lange nicht verwendet</string>
   <string name="app_usage_recently">Kürzlich verwendet</string>
   <string name="app_version">"Version: "</string>
+  <string name="appcleaner_wechat_notification_garbage_cleanup_summary">%s des WeChat-Cache löschen, um Speicherplatz freizugeben</string>
+  <string name="appcleaner_wechat_notification_garbage_cleanup_title">Nicht vergessen, den Cache zu leeren</string>
   <string name="application_item_already_permission">Erlaubt</string>
   <string name="application_item_disable">Eingeschränkt</string>
   <string name="applock_add_account">Hinzufügen</string>
@@ -1125,6 +1127,7 @@ Alle Daten auf Ihrem Gerät werden evtl. gelöscht und Ihr Sperrbildschirmpasswo
   <string name="gamebox_type_close">Nicht anzeigen</string>
   <string name="gamebox_type_float">Feste Verknüpfung</string>
   <string name="gamebox_type_gesture">Wischen zum Anzeigen</string>
+  <string name="gamebox_voicechanger">Sprachwandler</string>
   <string name="gamebox_wechat_not_find">Installieren Sie WeChat und versuchen Sie es erneut</string>
   <string name="gamecenter_install_fail">Installieren nicht möglich</string>
   <string name="gamecenter_install_sucessfull">Erfolgreich installiert</string>
@@ -1184,6 +1187,7 @@ Alle Daten auf Ihrem Gerät werden evtl. gelöscht und Ihr Sperrbildschirmpasswo
   <string name="gb_msg_transparent_dispaly">Benachrichtigungen mit transparentem Hintergrund</string>
   <string name="gb_network_status_bad">Ein Verbindungsfehler ist aufgetreten.</string>
   <string name="gb_new_feature">Neue Funktion</string>
+  <string name="gb_operat_frequently">Nicht so schnell!</string>
   <string name="gb_shortcut_pref_title">Startbildschirm-Verknüpfung</string>
   <string name="gb_sign_gift">Melden Sie sich an, um Belohnungen zu erhalten.</string>
   <string name="gb_sign_gift_button_text">Erhalten</string>
@@ -1204,6 +1208,7 @@ Alle Daten auf Ihrem Gerät werden evtl. gelöscht und Ihr Sperrbildschirmpasswo
   <string name="gb_xunyou_gift_type_two">Xunyou 2-Tage-Boost</string>
   <string name="gdpr_msg"><Data>Um die grundlegenden Funktionen von Sicherheit nutzen zu können, müssen Sie sich damit einverstanden erklären, dass Xiaomi Ihre persönlichen Daten erhebt, verarbeitet und nutzt, inkl. Informationen über die Art und Weise, wie Sie die Funktionen von Sicherheit nutzen (z. B. Nutzungsstatistiken mobiler Daten, Informationen über Malware sowie Basisinformationen über Ihr Gerät) und andere Arten von Informationen, die in unserer «&lt;a href=\"https://privacy.mi.com/all/%1$s_%2$s\">Datenschutzerklärung&lt;/a>» angegeben sind.</Data></string>
   <string name="get_sys_info">Infos abrufen…</string>
+  <string name="global_wa_setting_alert_dialog_content">Sie können %s freigeben</string>
   <string name="gmscore_support_remind">Aktivieren Sie diese Funktion, wenn Probleme bei der Verwendung von Google Mail, Google Maps und anderen Google Apps auftreten. Die Akkudauer wird dadurch geringfügig verkürzt.</string>
   <string name="gmscore_support_service">Google Dienste</string>
   <string name="go_to">Fortsetzen</string>
@@ -1563,6 +1568,7 @@ um ein Muster zu erstellen"</string>
   <string name="net_booster_overdue_notification_tip">Netzwerkoptimierung wird jeden Moment beendet. Sitzung erneuern?</string>
   <string name="net_booster_tip">Aktivieren Sie Netzwerkoptimierung, um die WLAN-Verbindung stabiler zu machen und Netzwerkverzögerungen zu reduzieren</string>
   <string name="net_booster_title">Netzwerkoptimierung</string>
+  <string name="net_boostering">Netzwerkgeschwindigkeit erhöhen</string>
   <string name="net_boosting">Geschwindigkeit optimieren…</string>
   <string name="net_delay_title">Verzögerung</string>
   <string name="net_overdue">Sitzung beendet</string>
@@ -1619,19 +1625,21 @@ Versuchen Sie ein anderes LAN-Kabel am Router. Wenn Sie vermuten, dass der Fehle
   <string name="note_sms_none">Keine SMS</string>
   <string name="noti_back_diving_mode_title">Immersive Mode eingeschaltet. Tippen zum Ausschalten.</string>
   <string name="notification_battery_consume_abnormal_summary">%2$s Akku in den letzten %1$d Minuten verbraucht</string>
-  <string name="notification_channel_battery">Akku</string>
-  <string name="notification_low_battery_action_btn">Einschalten</string>
-  <string name="notification_low_battery_need_charge">Ihr Gerät aufladen</string>
-  <string name="notification_low_battery_open_save_mode">Stromsparen einschalten</string>
-  <string name="notification_low_battery_title">Weniger als %s Akku bleiben</string>
   <string name="notification_battery_consume_abnormal_title">Akku wird zu schnell entleert</string>
   <string name="notification_battery_scan_consume_abnormal_summary">Tippen, um das Problem zu beheben</string>
   <string name="notification_battery_scan_consume_abnormal_title_set">%s entlädt den Akku</string>
+  <string name="notification_channel_battery">Akku</string>
   <string name="notification_exit_extreme_mode_text">Akku ist mehr als %s geladen</string>
   <string name="notification_exit_extreme_mode_title">Extrem-Stromsparmodus ausgeschaltet</string>
   <string name="notification_exit_power_save_mode">Extrem-Stromsparmodus ist deaktiviert</string>
   <string name="notification_exit_power_save_mode_subtitle">Akku zu %s geladen</string>
+  <string name="notification_garbage_cleanup_summary">Papierkorb (%s) löschen, um Ihr Gerät zu optimieren</string>
+  <string name="notification_garbage_cleanup_title">Papierkorb löschen</string>
   <string name="notification_item">Ausgewählte Apps mit einer App-Sperre sichern</string>
+  <string name="notification_low_battery_action_btn">Einschalten</string>
+  <string name="notification_low_battery_need_charge">Ihr Gerät aufladen</string>
+  <string name="notification_low_battery_open_save_mode">Stromsparen einschalten</string>
+  <string name="notification_low_battery_title">Weniger als %s Akku bleiben</string>
   <string name="notification_mask_summary">Keine Benachrichtigungsinhalte für geschützte Apps anzeigen</string>
   <string name="notification_mask_title">Benachrichtigungsinhalt ausblenden</string>
   <string name="notification_masked_item">Wie kann man den Benachrichtigungsinhalt ausblenden?</string>

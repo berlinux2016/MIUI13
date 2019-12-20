@@ -208,6 +208,10 @@ Speicherzugriff, um auf Titelbilder und heruntergeladene Dateien zuzugreifen und
   <string name="desktop_lyric_setting_title">Startbildschirmtexte</string>
   <string name="device_connected">Verbinden</string>
   <string name="device_not_connected">Nicht verbunden</string>
+  <string name="diagnosis_log_send_failed">Diagnoseprotokoll senden fehlgeschlagen</string>
+  <string name="diagnosis_log_sent_format">"Diagnoseprotokoll wurde gesendet.
+ID:%s
+Diesen Code bitte an den Techniker senden."</string>
   <string name="dialog_cannot_resume">Download unterbrochen. Kann nicht wieder fortgesetzt werden.</string>
   <string name="dialog_confirm_delete_checkbox_message">Auch lokale Dateien löschen</string>
   <string name="dialog_failed_body">Später versuchen herunterzuladen oder die Datei aus der Warteschlange entfernen?</string>
@@ -378,7 +382,8 @@ Speicherzugriff, um auf Titelbilder und heruntergeladene Dateien zuzugreifen und
   <string name="follow">Folgen</string>
   <string name="followed">Folgend</string>
   <string name="font_family">MIUI</string>
-  <string name="format_unsupported_or_corrupted">Dieses Format wird nicht unterstützt oder die Datei ist beschädigt</string>
+  <string name="for_diagnosis_usage_only">Diese Info dient nur zur Diagnose.</string>
+  <string name="format_unsupported_or_corrupted">Dieses Format wird nicht unterstützt oder die Datei ist beschädigt.</string>
   <string name="fragment_title_artist_album">Alben</string>
   <string name="fragment_title_bill">Wiedergabelisten</string>
   <string name="fragment_title_songgroup_individuation">Wiedergabelisten empfehlen</string>
@@ -548,7 +553,11 @@ Speicherzugriff, um auf Titelbilder und heruntergeladene Dateien zuzugreifen und
   <string name="music">Musik</string>
   <string name="music_filter">Audiodateien filtern</string>
   <string name="my_account">Mi Konto</string>
+  <string name="my_balance_discount">Rabatt</string>
+  <string name="my_balance_normal">Aufladen</string>
   <string name="my_favorite">Favoriten</string>
+  <string name="my_paid">Gekauft</string>
+  <string name="my_wallet">Geldbeutel</string>
   <string name="nav_online_playlist">Wiedergabelisten</string>
   <string name="network_error_and_retry">Verbindung fehlgeschlagen, tippen, um es erneut zu versuchen</string>
   <string name="network_failure">Verbindung prüfen und erneut versuchen</string>
@@ -582,6 +591,7 @@ Speicherzugriff, um auf Titelbilder und heruntergeladene Dateien zuzugreifen und
   <string name="noheadset_dialog_insert">Köpfhörer anschließen</string>
   <string name="noheadset_dialog_more">Mehr Radio hören</string>
   <string name="normal_quality">Gut</string>
+  <string name="normal_question">Fragen</string>
   <string name="not_login">Nicht angemeldet</string>
   <string name="notif_text_engine_off">Xunlei-Beschleuniger ist aus.</string>
   <string name="notif_text_engine_on">Beschleunigen…</string>
@@ -725,6 +735,7 @@ Speicherzugriff, um auf Titelbilder und heruntergeladene Dateien zuzugreifen und
   <string name="pulluprefreshrecyclerview_loading_error">Laden fehlgeschlagen</string>
   <string name="pulluprefreshrecyclerview_loading_finished">Erfolgreich geladen</string>
   <string name="pulluprefreshrecyclerview_loading_running">Laden…</string>
+  <string name="purchased_empty_hint">Noch keine Elemente hier</string>
   <string name="push_message_switch">Über neue Episoden benachrichtigen</string>
   <string name="radio_cancel_subscribe">Abonnement beenden</string>
   <string name="radio_not_support">Radio nicht unterstützt</string>
@@ -780,7 +791,9 @@ Speicherzugriff, um auf Titelbilder und heruntergeladene Dateien zuzugreifen und
   <string name="selected_broadcast">Ausgewählte Übertragung</string>
   <string name="selected_count">%1$d von %2$d ausgewählt</string>
   <string name="send_comment">Kommentare</string>
+  <string name="send_diagnosis_log">Diagnoseprotokoll senden</string>
   <string name="send_to_title">Senden an (%1$s)</string>
+  <string name="sending">Senden…</string>
   <string name="server_error">Ein Fehler ist aufgetreten, ein oder zwei Minuten und erneut versuchen.</string>
   <string name="service_and_settings">Dienste und Einstellungen</string>
   <string name="set">Einstellen</string>
@@ -927,14 +940,15 @@ Speicherzugriff, um auf Titelbilder und heruntergeladene Dateien zuzugreifen und
   <string name="talkback_unlike">Gefällt nicht</string>
   <string name="talkback_view_type">Titel anzeigen nach</string>
   <string name="task_already_exist">Aufgabe existiert bereits</string>
-  <string name="time_to_upgrade">Eine neue Version suchen</string>
-  <string name="title_online_fm_recommend">Ausgewähltes FM</string>
+  <string name="temporary_not_available">Temporär nicht verfügbar</string>
   <string name="thanks_for_feedback">Danke für Ihr Feedback!</string>
   <string name="ticket_hint">Bestätigungscode</string>
   <string name="ticket_invalid">Eingegebener Code ist falsch</string>
   <string name="ticket_sign_in">Mit SMS anmelden</string>
   <string name="time_picker_hour">Stunden</string>
   <string name="time_picker_min">Minuten</string>
+  <string name="time_to_upgrade">Eine neue Version suchen</string>
+  <string name="title_online_fm_recommend">Ausgewähltes FM</string>
   <string name="title_online_recommend_similar">Ähnliche Wiedergabelisten</string>
   <string name="title_play_list">Wiedergabeliste</string>
   <string name="title_search_history">Suchverlauf</string>
