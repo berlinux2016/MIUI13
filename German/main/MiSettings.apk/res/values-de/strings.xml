@@ -95,10 +95,19 @@
   <string name="trend_from_yesterday_less_simple">%1$s weniger als gestern</string>
   <string name="trend_from_yesterday_more">%1$s mehr als gestern</string>
   <string name="trend_from_yesterday_more_simple">%1$s mehr als gestern</string>
-  <string name="try_to_create">Es wurde versucht, eine Verknüpfung zu erstellen</string>
   <string name="unlock_times_per_day">"Tagesdurchschnitt: "</string>
   <string name="unlock_times_per_hour">"Entsperrt pro Stunde: "</string>
   <string name="usage_agree">Zustimmen</string>
+
+     <string name="usage_creating_weekly_report">Wochenbericht für Sie erstellen…</string>
+     <string name="usage_focus_new_summary">Mich besser kennenlernen</string>
+     <string name="usage_no_net_summary">Bitte Ihre Internetverbindung auf Funktion prüfen</string>
+     <string name="usage_refresh">Vorgang erneut aktualisieren</string>
+     <string name="usage_request_error_summary">Time machine shuttles to unknown territory</string>
+     <string name="usage_request_timeout_summary">Time machine is stuck on the road</string>
+     <string name="usage_weekly_report_summary">Exklusive wöchentliche Zeit</string>
+     <string name="usage_weekly_report_title">Geräteeinsatz wöchentlich</string>
+
   <string name="usage_app_get_it">Verstanden</string>
   <string name="usage_app_limit_alter_summary">Sieht aus, als wäre dieses Zeitlimit kürzer als die Zeit, die Sie heute diese App benutzt haben. Trotzdem Limit setzen?</string>
   <string name="usage_app_limit_alter_title">Bildschirmzeitlimit prüfen</string>
@@ -133,19 +142,19 @@
   <string name="usage_home_premission_main_summary">Willkommen bei Bildschirmzeit! Mit dieser App können Sie Bildschirmzeiten festlegen, Statistiken anzeigen und in den Entspannungsmodus wechseln. Diese App muss Zeitinformationen über den Bildschirm sammeln (z.B. die Anzahl, wo oft Sie Ihr Telefon freischalten und den Bildschirm einschalten, sowie die Dauer der Nutzung von Apps), um normal zu funktionieren.</string>
   <string name="usage_home_premission_second_summary">Um normal arbeiten zu können, muss diese App Ihre persönlichen Daten erfassen. Wir werden Ihre personenbezogenen Daten in Übereinstimmung mit den einschlägigen Gesetzen, Vorschriften und Datenschutzrichtlinien schützen.</string>
 
-  <string name="usage_home_permission_account_summary">Funktionen zur Xiaomi-Kontoanmeldung und Synchronisierung der Bildschirmnutzung</string>
-  <string name="usage_home_permission_account_title">Berechtigungen für mobile Konten erhalten</string>
-  <string name="usage_home_permission_phone_summary">VAID sammeln, um Geräte zu unterscheiden</string>
-  <string name="usage_home_permission_phone_title">Berechtigungen für mobile Informationen erhalten</string>
-  <string name="usage_home_premission_main_summary_new">"Willkommen bei der Bildschirmzeiterfassung.
-Um Ihnen Dienstleistungen anbieten zu können, müssen wir Informationen über Ihre Bildschirmnutzung sammeln: Anzahl der Freischaltungen, jeden App-Namen und Nutzungsdauer, Bildschirmnutzung, Bildschirm-an-Zeit und Enstpannungsmoduszeit.
-Um grundlegende Dienste bereitzustellen, müssen Sie sich außerdem mit dem Netzwerk verbinden und Ihre Berechtigungen oder Funktionen aufrufen, um die erforderlichen personenbezogenen Daten zu erfassen:"</string>
-  <string name="usage_home_premission_main_summary_new_o">"Willkommen bei der Bildschirmzeiterfassung.
-Um Ihnen Dienstleistungen anbieten zu können, müssen wir Informationen über Ihre Bildschirmnutzung sammeln: Anzahl der Freischaltungen, jeden App-Namen und Nutzungsdauer, Bildschirmnutzung, Bildschirm-an-Zeit und Enstpannungsmoduszeit.
-Um grundlegende Dienste bereitzustellen, müssen Sie sich außerdem mit dem Netzwerk verbinden und Ihre Berechtigungen oder Funktionen aufrufen, um die erforderlichen personenbezogenen Daten zu erfassen:"</string>
-  <string name="usage_home_premission_second_summary_new">"Wir halten uns strikt an die geltenden Gesetze und Vorschriften sowie die Datenschutzrichtlinien, um Ihre personenbezogenen Daten zu schützen. Wenn Sie nicht damit einverstanden sind,
-die oben genannten notwendigen Berechtigungen oder Funktionen aufzurufen, oder wenn Sie nicht damit einverstanden sind, dass wir die oben genannten Informationen sammeln und verwenden, wird diese App nicht ordnungsgemäß funktionieren.
-Um Ihre Einwilligung oder andere datenschutzbezogene Fragen zu widerrufen, unter Bildschirmzeitverwaltung -&gt;Einstellungen -&gt;Bildschirmzeitverwaltung deaktivieren. Bei weiteren Fragen zum Datenschutz können Sie sich unter privacy@xiaomi.com an uns wenden."</string>
+  <string name="usage_home_permission_account_summary">Zum Anmelden bei Mi Konto und zum Synchronisieren der Bildschirmzeit-Statistiken</string>
+  <string name="usage_home_permission_account_title">Zugriff auf Kontoinformationen</string>
+  <string name="usage_home_permission_phone_summary">Zur Geräteidentifizierung mit VAID</string>
+  <string name="usage_home_permission_phone_title">Zugriff auf Geräteinformationen</string>
+  <string name="usage_home_premission_main_summary_new">"Willkommen bei Bildschirmzeit!
+Um normal arbeiten zu können, muss diese App Informationen zur Bildschirmzeit sammeln: die Anzahl der Entsperrungen des Telefons, die App-Namen und die App-Nutzungsdauer werden benötigt, um die Bildschirmzeit-Statistik zu generieren; die Einstellungen des Enstpannungsmodus sind erforderlich, um die Statistik dessen zu generieren.
+Diese App muss außerdem eine Internetverbindung herstellen und benötigt die folgenden Berechtigungen, um Ihre persönlichen Daten zu sammeln:"</string>
+  <string name="usage_home_premission_main_summary_new_o">"Willkommen bei Bildschirmzeit!
+Um normal arbeiten zu können, muss diese App Informationen zur Bildschirmzeit sammeln: die Anzahl der Freischaltungen, die App-Namen und die App-Nutzungsdauer werden benötigt, um die Bildschirmzeit-Statistik zu generieren.
+Diese App muss außerdem eine Internetverbindung herstellen und benötigt die folgenden Berechtigungen, um Ihre persönlichen Daten zu sammeln:"</string>
+  <string name="usage_home_premission_second_summary_new">"Wir schützen Ihre persönlichen Daten in Übereinstimmung mit den einschlägigen Gesetzen, Vorschriften und Datenschutzrichtlinien. 
+Wenn Sie nicht zustimmen, solche Genehmigungen zu erteilen oder Ihre persönlichen Daten zu teilen und hochzuladen, können Sie diese App nicht nutzen. 
+Sie können Ihre Berechtigung unter Bildschirmzeit &gt; Einstellungen &gt; Bildschirmzeit ausschalten widerrufen. Wenn Sie weitere Fragen zum Thema Datenschutz haben, können Sie uns unter privacy@xiaomi.com kontaktieren."</string>
 
   <string name="usage_state_accurate_date">dd. MMMM yyyy</string>
   <string name="usage_state_add_up_count">Sitzungen</string>
