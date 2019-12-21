@@ -84,7 +84,7 @@
   <string name="add_whitelist">Zu Ausnahmen hinzufügen</string>
   <string name="address">Adresse</string>
   <string name="address_choose_hint">%1$s, %2$s, und %3$d andere Orte</string>
-  <string name="adjust_sms_cmd">&lt;u&gt;SMS-Vorlage einrichten&lt;/u&gt;</string>
+  <string name="adjust_sms_cmd"><u>SMS-Vorlage einrichten</u></string>
   <string name="adjust_traffic_carrier_summary_more_onemonth_before">Vor über einem Monat aktualisiert</string>
   <string name="adjust_traffic_carrier_summary_more_oneweek_before">Vor über einer Woche aktualisiert</string>
   <string name="adjust_traffic_carrier_summary_oneweek_before">Vorige Woche aktualisiert</string>
@@ -319,7 +319,7 @@ Sie verlieren keine App-Daten."</string>
   <string name="applock_header_text_less_than_half">Zu wenig Platz. Etwas weiter ziehen.</string>
   <string name="applock_lock_all">Alle sperren</string>
   <string name="applock_login_and_add_account">Anmelden &amp; hinzufügen</string>
-  <string name="applock_not_add_account">&lt;u&gt;Nicht jetzt&lt;/u&gt;</string>
+  <string name="applock_not_add_account"><u>Nicht jetzt</u></string>
   <string name="applock_not_login_account">Sie sind nicht angemeldet</string>
   <string name="applock_set_password_title">Passworttyp ändern</string>
   <string name="applock_settings_unlock_all_toast">Alle Apps gesperrt</string>
@@ -475,8 +475,8 @@ Sie verlieren keine App-Daten."</string>
   <string name="bl_no_block_call">Keine gesperrten Anrufe</string>
   <string name="bl_no_block_sms">Keine gesperrten SMS</string>
   <string name="blacklist_prefix_add_hint">Alle Nummern, die mit diesem Präfix beginnen, sperren</string>
-  <string name="block_message_number">SMS: &lt;font color=#5fab1b&gt;%d&lt;/font&gt;</string>
-  <string name="block_phone_number">Anrufe: &lt;font color=#5fab1b&gt;%d&lt;/font&gt;</string>
+  <string name="block_message_number">SMS: &lt;font color=#5fab1b>%d&lt;/font></string>
+  <string name="block_phone_number">Anrufe: &lt;font color=#5fab1b>%d&lt;/font></string>
   <string name="boost_done">Erfolgreich optimiert</string>
   <string name="boost_stop">Game Speed Booster deaktivieren</string>
   <string name="booster_suc">Erfolgreich optimiert</string>
@@ -631,7 +631,7 @@ Sie verlieren keine App-Daten."</string>
   <string name="cta_close_dialog_content">Wenn Sie Sicherheit den Internet- und Standortzugriff beschränken, können Sie keine Erdbebenwarnungen erhalten oder Virendefinitionen und Sperrlisteninformationen aktualisieren. Ihr Gerät wird unsicherer. Trotzdem einschränken?</string>
   <string name="cta_close_dialog_ok">Einschränken</string>
   <string name="cta_close_dialog_title">Zugriff einschränken</string>
-  <string name="cta_dialog_msg">&lt;Data&gt;Sie müssen unserer &amp;lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;amp;lang=%2$s\"&amp;gt;Datenschutzerklärung&amp;lt;/a&amp;gt; zustimmen, bevor Sie die App Sicherheit verwenden. Diese muss sich auch mit dem Internet verbinden und auf Ihren Standort zugreifen, um normal zu arbeiten und die Virendefinitionen auf dem neuesten Stand zu halten. Zustimmen?&lt;/Data&gt;</string>
+  <string name="cta_dialog_msg">&lt;Data>Sie müssen unsere &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;amp;lang=%2$s\">Datenschutzerklärung&lt;/a> akzeptieren, bevor Sie die App Sicherheit verwenden. Diese muss sich auch mit dem Internet verbinden und auf Ihren Standort zugreifen, um normal zu arbeiten und die Virendefinitionen auf dem neuesten Stand zu halten. Zustimmen?&lt;/Data></string>
   <string name="cta_dialog_negative">Ablehnen</string>
   <string name="cta_dialog_positive">Zustimmen</string>
   <string name="cta_dialog_title">Internetverbindung</string>
@@ -831,7 +831,7 @@ Alle Daten auf Ihrem Gerät werden evtl. gelöscht und Ihr Sperrbildschirmpasswo
   <string name="ew_arrive_text_tips">Seismische Welle angekommen: %s</string>
   <string name="ew_button_confirm">Zustimmen</string>
   <string name="ew_button_exit">Ablehnen</string>
-  <string name="ew_china_version_first_start_network_msg">&lt;Data&gt;"Diese Funktion bietet Ihnen eine Möglichkeit zur Erdbebenwarnung. Sie werden über bevorstehende Erdbeben informiert und hören Warntöne. Sie können den nächstgelegenen Schutzraum finden, Ihren Notfallkontakt anrufen und bei Bedarf Ihre Krankenversicherungskarte vorlegen. &amp;lt;br&amp;gt;Wir werden Ihre personenbezogenen Daten in Übereinstimmung mit den einschlägigen Gesetzen, Vorschriften und Datenschutzrichtlinien schützen. &amp;lt;br&amp;gt;Um normal zu arbeiten, benötigt diese Funktion die folgenden Berechtigungen, um Ihre personenbezogenen Daten zu erfassen: &amp;lt;br&amp;gt;&amp;#8226; Standortinfo: &amp;lt;br&amp;gt;Für den Standortzugriff und die Bereitstellung genauer Erdbebenwarnungen. &amp;lt;br&amp;gt;Wenn Sie nicht damit einverstanden sind, solche Rechte zu erteilen oder Ihre personenbezogenen Daten weiterzugeben und hochzuladen, können Sie diese Funktion nicht nutzen. Sie können diese Funktion wahlweise deaktivieren oder in solchen Fällen nicht aktivieren. &amp;lt;br&amp;gt;Sie müssen unsere &amp;lt;a href=\"http://api.sec.miui.com/res/docs/disclaimer/privacy/earthquake_alert?region=%1$s&amp;amp;lang=%2$s\"&amp;gt;Datenscvhutzerklärung&amp;lt;/a&amp;gt; lesen und akzeptieren, bevor Sie diese Funktion nutzen."&lt;/Data&gt;</string>
+  <string name="ew_china_version_first_start_network_msg">&lt;Data>"Diese Funktion bietet Ihnen eine Möglichkeit zur Erdbebenwarnung. Sie werden über bevorstehende Erdbeben informiert und hören Warntöne. Sie können den nächstgelegenen Schutzraum finden, Ihren Notfallkontakt anrufen und bei Bedarf Ihre Krankenversicherungskarte vorlegen. &lt;br>Wir werden Ihre personenbezogenen Daten in Übereinstimmung mit den einschlägigen Gesetzen, Vorschriften und Datenschutzrichtlinien schützen. &lt;br>Um normal zu arbeiten, benötigt diese Funktion die folgenden Berechtigungen, um Ihre personenbezogenen Daten zu erfassen: &lt;br>&amp;#8226; Standortinfo: &lt;br>Für den Standortzugriff und die Bereitstellung genauer Erdbebenwarnungen. &lt;br>Wenn Sie nicht damit einverstanden sind, solche Rechte zu erteilen oder Ihre personenbezogenen Daten weiterzugeben und hochzuladen, können Sie diese Funktion nicht nutzen. Sie können diese Funktion wahlweise deaktivieren oder in solchen Fällen nicht aktivieren. &lt;br>Sie müssen unsere &lt;a href=\"http://api.sec.miui.com/res/docs/disclaimer/privacy/earthquake_alert?region=%1$s&amp;amp;lang=%2$s\">Datenscvhutzerklärung&lt;/a> lesen und akzeptieren, bevor Sie diese Funktion nutzen."&lt;/Data></string>
   <string name="ew_close">Alarm ausschalten</string>
   <string name="ew_emergency_allergy">Allergien</string>
   <string name="ew_emergency_basic_info">Basisinformationen</string>
@@ -862,7 +862,7 @@ Alle Daten auf Ihrem Gerät werden evtl. gelöscht und Ihr Sperrbildschirmpasswo
   <string name="ew_guide_next_text">Weiter</string>
   <string name="ew_guide_play_audio">Warnton abspielen</string>
   <string name="ew_guide_play_audio_last">Warnton abspielen (%d Sek)</string>
-  <string name="ew_guide_statement_text">&lt;Data&gt;"&lt;a href=\"https://sec-cdn.static.xiaomi.net/secStatic/groups/miui-sec/common/quake-warn/dist/index.html?region=%1$s&amp;lang=%2$s\"&gt;Haftungsausschluss&lt;/a&gt; Wenn ein Nutzer (nachfolgend als \"Sie\" bezeichnet) die Erdbebenwarnfunktionalität aktiviert, schließt er einen rechtsverbindlichen Vertrag mit Xiaomi und dessen verbundenen Unternehmen (nachfolgend als \"Xiaomi\" bezeichnet). Durch die Nutzung dieser Funktion bestätigen Sie, dass Sie diesen Haftungsausschluss gelesen und verstanden haben, und Sie stimmen dem gesamten Inhalt dieses Haftungsausschlusses zu. Wenn Sie mit diesem Haftungsausschluss nicht einverstanden sind, sollten Sie die Erdbebenwarnfunktion sofort deaktivieren.&lt;br&gt; &lt;b&gt;Besondere Erklärung&lt;/b&gt;&lt;br&gt; In Übereinstimmung mit den einschlägigen Gesetzen und Vorschriften werden Erdbebenfrühwarnsysteme nur für die Bereiche bereitgestellt, die von den zuständigen Regierungsbehörden genehmigt wurden. Das bedeutet, dass Sie, wenn Sie die Erdbebenwarnfunktion einschalten und sich Ihr Gerät in einem autorisierten Bereich befindet, Erdbebenwarndienste erhalten können. Sie können die Liste der Gebiete einsehen, in denen derzeit Erdbebenwarndienste angeboten werden. In Zukunft werden weitere Bereiche unterstützt. Bleiben Sie dran!&lt;br&gt; &lt;b&gt;Haftungsausschluss&lt;/b&gt;&lt;br&gt; Die Sicherheits-App bietet Ihnen eine Erdbebenwarnfunktion. Sie müssen wissen, dass die Erdbebenwarninformationen von den staatlichen Frühwarnstellen zur Verfügung gestellt werden. Xiaomi beaufsichtigt solche Agenturen nicht und hat keine Kontrolle über sie. &lt;br&gt; Xiaomi verspricht oder garantiert nicht die Genauigkeit, Gültigkeit und Aktualität von Erdbebenwarninformationen und garantiert auch nicht, dass der Erdbebenwarndienst alle Ihre Bedürfnisse erfüllt.&lt;br&gt; Der Empfang von Erdbebenwarninformationen erfordert, dass Sie Ihr Gerät mit dem Mobilfunknetz verbunden halten. Ausfälle von Kommunikationsleitungen Dritter, technische Probleme, Netzwerk- oder Endgeräteausfälle, Systeminstabilität und andere Ereignisse höherer Gewalt können Sie daran hindern, Informationen über Erdbebenwarnungen zu erhalten. Xiaomi trägt keine Verantwortung für Verluste, die durch solche Ereignisse verursacht werden. &lt;br&gt; Sie müssen wissen, dass diese Funktion nur zu Ihrer Information zur Verfügung gestellt wird. Sie sind allein verantwortlich für die Risiken und Folgen aller Handlungen, die Sie auf der Grundlage der von dieser Funktion bereitgestellten Informationen durchführen.&lt;br&gt;"&lt;/Data&gt;</string>
+  <string name="ew_guide_statement_text">&lt;Data>"&lt;a href=\"https://sec-cdn.static.xiaomi.net/secStatic/groups/miui-sec/common/quake-warn/dist/index.html?region=%1$s&amp;lang=%2$s\">Haftungsausschluss&lt;/a> Wenn ein Nutzer (nachfolgend als \"Sie\" bezeichnet) die Erdbebenwarnfunktionalität aktiviert, schließt er einen rechtsverbindlichen Vertrag mit Xiaomi und dessen verbundenen Unternehmen (nachfolgend als \"Xiaomi\" bezeichnet). Durch die Nutzung dieser Funktion bestätigen Sie, dass Sie diesen Haftungsausschluss gelesen und verstanden haben, und Sie stimmen dem gesamten Inhalt dieses Haftungsausschlusses zu. Wenn Sie mit diesem Haftungsausschluss nicht einverstanden sind, sollten Sie die Erdbebenwarnfunktion sofort deaktivieren.&lt;br> &lt;b>Besondere Erklärung&lt;/b>&lt;br> In Übereinstimmung mit den einschlägigen Gesetzen und Vorschriften werden Erdbebenfrühwarnsysteme nur für die Bereiche bereitgestellt, die von den zuständigen Regierungsbehörden genehmigt wurden. Das bedeutet, dass Sie, wenn Sie die Erdbebenwarnfunktion einschalten und sich Ihr Gerät in einem autorisierten Bereich befindet, Erdbebenwarndienste erhalten können. Sie können die Liste der Gebiete einsehen, in denen derzeit Erdbebenwarndienste angeboten werden. In Zukunft werden weitere Bereiche unterstützt. Bleiben Sie dran!&lt;br> &lt;b>Haftungsausschluss&lt;/b>&lt;br> Die Sicherheits-App bietet Ihnen eine Erdbebenwarnfunktion. Sie müssen wissen, dass die Erdbebenwarninformationen von den staatlichen Frühwarnstellen zur Verfügung gestellt werden. Xiaomi beaufsichtigt solche Agenturen nicht und hat keine Kontrolle über sie. &lt;br> Xiaomi verspricht oder garantiert nicht die Genauigkeit, Gültigkeit und Aktualität von Erdbebenwarninformationen und garantiert auch nicht, dass der Erdbebenwarndienst alle Ihre Bedürfnisse erfüllt.&lt;br> Der Empfang von Erdbebenwarninformationen erfordert, dass Sie Ihr Gerät mit dem Mobilfunknetz verbunden halten. Ausfälle von Kommunikationsleitungen Dritter, technische Probleme, Netzwerk- oder Endgeräteausfälle, Systeminstabilität und andere Ereignisse höherer Gewalt können Sie daran hindern, Informationen über Erdbebenwarnungen zu erhalten. Xiaomi trägt keine Verantwortung für Verluste, die durch solche Ereignisse verursacht werden. &lt;br> Sie müssen wissen, dass diese Funktion nur zu Ihrer Information zur Verfügung gestellt wird. Sie sind allein verantwortlich für die Risiken und Folgen aller Handlungen, die Sie auf der Grundlage der von dieser Funktion bereitgestellten Informationen durchführen.&lt;br>"&lt;/Data></string>
   <string name="ew_guide_tips_1">Sie werden über bevorstehende Erdbeben informiert und hören Warntöne</string>
   <string name="ew_guide_tips_2">Informationen und Warntöne werden während des Erdbebens aktualisiert</string>
   <string name="ew_guide_tips_3">Sie können den nächstgelegenen Schutzraum finden, Ihren Notfallkontakt anrufen und bei Bedarf Ihre Krankenversicherungskarte vorlegen</string>
@@ -1246,7 +1246,7 @@ Alle Daten auf Ihrem Gerät werden evtl. gelöscht und Ihr Sperrbildschirmpasswo
   <string name="gs_show_way_vertical">Vertikal</string>
   <string name="gs_sign_notification">Erinnern, sich täglich um 20 Uhr anzumelden</string>
   <string name="gs_slip_gamebox_detail">Verwenden Sie den Slider oder wischen Sie vom oberen Bildschirmrand, damit das Tastenfeld angezeigt wird.</string>
-  <string name="guide_get_operator_error">"&lt;font color='#33b4ff'&gt;&lt;u&gt;Falscher Mobilfunkanbieter?&lt;/u&gt;&lt;/font&gt;"</string>
+  <string name="guide_get_operator_error">"&lt;font color='#33b4ff'>&lt;u>Falscher Mobilfunkanbieter?&lt;/u>&lt;/font>"</string>
   <string name="guide_operator_text">"Ihr aktueller Mobilfunkanbieter: "</string>
   <string name="guide_quck_open">Einschalten</string>
   <string name="guide_second_text">Wenn Sie Ihren Netzbertreiber eingestellt haben, wird MIUI Ihre mobile Datennutzung täglich durch kostenlose SMS überwachen. Wenn MIUI erkennt, dass Sie Ihr Datenlimit überschritten haben, wird Ihr Gerät vom Netz getrennt und Sie erhalten eine Benachrichtigung.</string>
@@ -1554,7 +1554,7 @@ um ein Muster zu erstellen"</string>
   <string name="mixed_recording_intro_header">%1$s-%2$s Zeichen eingeben</string>
   <string name="mixed_retry_button_text">Abbrechen</string>
   <string name="mixed_settings_help_how_to_record">So legen Sie das Passwort fest.</string>
-  <string name="modify_password_mode">&lt;u&gt;Passworttyp ändern&lt;/u&gt;</string>
+  <string name="modify_password_mode">&lt;u>Passworttyp ändern&lt;/u></string>
   <string name="modifypassword">Passworttyp ändern</string>
   <string name="monitor_app_add">Hinzufügen</string>
   <string name="monitor_app_more">Mehr</string>
@@ -1787,7 +1787,7 @@ Versuchen Sie ein anderes LAN-Kabel am Router. Wenn Sie vermuten, dass der Fehle
   <string name="password_promotion_postbutton_text">Hinzufügen</string>
   <string name="password_promotion_title">Mi Konto hinzufügen</string>
   <string name="password_type">Passwort ändern</string>
-  <string name="password_type_underline">&lt;u&gt;Passwort ändern&lt;/u&gt;</string>
+  <string name="password_type_underline"><u>Passwort ändern</u></string>
   <string name="password_xspace_forget_pattern_message">Um Ihr Zweitprofilpasswort zu ändern, sollten Sie Ihr aktuelles Zweitprofil löschen und ein neues erstellen</string>
   <string name="path_antispam">System-Apps/Sicherheit/Sperrliste</string>
   <string name="path_antivirus">System-Apps/Sicherheit/Virenscanner</string>
@@ -2461,7 +2461,7 @@ Während der Kalibrierung sendet MIUI eine Textnachricht an Ihren Mobilfunkanbie
   <string name="status_bar_network_flow_content">Heute: %1$s | Verbleibend: %2$s</string>
   <string name="status_bar_network_flow_content_not_setting">Heute: %1$s | Diesen Monat: %2$s</string>
   <string name="status_bar_network_flow_content_virtual_card">%1$s | %2$s</string>
-  <string name="status_bar_network_flow_exceed_content">Heute: %1$s | Tarif überschritten: &lt;font color=%2$s&gt;%3$s&lt;/font&gt;</string>
+  <string name="status_bar_network_flow_exceed_content">Heute: %1$s | Tarif überschritten: &lt;font color="%2$s">%3$s&lt;/font></string>
   <string name="status_bar_network_flow_phone_balance">"   Telefonguthaben: %1$s "</string>
   <string name="status_bar_network_flow_purchase">"   Kaufen &gt;"</string>
   <string name="status_bar_network_flow_setup_data_plan">"   Datentarif einrichten &gt;"</string>
@@ -2584,7 +2584,7 @@ Während der Kalibrierung sendet MIUI eine Textnachricht an Ihren Mobilfunkanbie
   <string name="tc_diagnostic_all_error_notification_title">Diagnose kann nicht abgeschlossen werden</string>
   <string name="tc_diagnostic_brand_error_notification_summary">Tippen, um Netzwerktyp festzulegen</string>
   <string name="tc_diagnostic_brand_error_notification_title">Falscher Netzwerktyp</string>
-  <string name="tc_diagnostic_brand_result">"&lt;font color='#CC0000'&gt;Ergebnis: Falscher Mobilfunkanbietername&lt;br/&gt;&lt;br/&gt;Setze: &lt;xliff:g id=brand example=UNICOM 3G&gt;%1$s&lt;/xliff:g&gt;&lt;br/&gt;Aktueller Mobilfunkanbieter: &lt;xliff:g id=location example=UNICOM 4G&gt;%2$s&lt;/xliff:g&gt;&lt;/font&gt;"</string>
+  <string name="tc_diagnostic_brand_result">"&lt;font color='#CC0000'>Ergebnis: Falscher Mobilfunkanbietername&lt;br/>&lt;br/>Setze: &lt;xliff:g id=brand example=UNICOM 3G>%1$s&lt;/xliff:g>&lt;br/>Aktueller Mobilfunkanbieter: &lt;xliff:g id=location example=UNICOM 4G>%2$s&lt;/xliff:g>&lt;/font>"</string>
   <string name="tc_diagnostic_complete">Fertig</string>
   <string name="tc_diagnostic_fragment_default">"Über Diagnose
 1. Das Gerät stellt eine Verbindung zum Mobilfunkanbieter her, sendet eine kostenlose Nachricht und wartet auf die Antwort des Mobilfunkanbieters. Das kann bis zu 5 Minuten dauern.
@@ -2597,24 +2597,24 @@ Während der Kalibrierung sendet MIUI eine Textnachricht an Ihren Mobilfunkanbie
   <string name="tc_diagnostic_onekey_repair_botton">Beheben</string>
   <string name="tc_diagnostic_operator_error_notification_summary">Tippen, um die Mobilfunkanbietereinstellungen zu ändern</string>
   <string name="tc_diagnostic_operator_error_notification_title">Falscher Mobilfunkanbieter</string>
-  <string name="tc_diagnostic_operator_result">"&lt;font color='#CC0000'&gt;Ergebnis: Falscher Mobilfunkanbieter&lt;br/&gt;&lt;br/&gt;Setze Mobilfunkanbieter: &lt;xliff:g id=operator example=CMCC&gt;%1$s&lt;/xliff:g&gt;&lt;br/&gt;Aktueller Mobilfunkanbieter: &lt;xliff:g id=location example=UNICOM>%2$s&lt;/xliff:g&gt;&lt;/font&gt;"</string>
+  <string name="tc_diagnostic_operator_result">"&lt;font color='#CC0000'>Ergebnis: Falscher Mobilfunkanbieter&lt;br/>&lt;br/>Setze Mobilfunkanbieter: &lt;xliff:g id=operator example=CMCC>%1$s&lt;/xliff:g>&lt;br/>Aktueller Mobilfunkanbieter: &lt;xliff:g id=location example=UNICOM>%2$s&lt;/xliff:g>&lt;/font>"</string>
   <string name="tc_diagnostic_repair_and_continue">Beheben und fortfahren</string>
-  <string name="tc_diagnostic_repair_location">"&lt;font color='#3EC234'&gt;Diagnose abgeschlossen, Standortprobleme behoben.&lt;/font&gt;"</string>
-  <string name="tc_diagnostic_repair_location_and_operator">"&lt;font color='#3EC234'&gt;Diagnose abgeschlossen, Standort- und Mobilfunkanbieterprobleme behoben.&lt;/font&gt;"</string>
+  <string name="tc_diagnostic_repair_location">"&lt;font color='#3EC234'>Diagnose abgeschlossen, Standortprobleme behoben.&lt;/font>"</string>
+  <string name="tc_diagnostic_repair_location_and_operator">"&lt;font color='#3EC234'>Diagnose abgeschlossen, Standort- und Mobilfunkanbieterprobleme behoben.&lt;/font>"</string>
   <string name="tc_diagnostic_repair_success_toast">Erfolgreich geändert</string>
-  <string name="tc_diagnostic_result">"&lt;font color='#CC0000'&gt;Ergebnis: Diagnose wurde nicht abgeschlossen.&lt;br/&gt;&lt;br/&gt;Diesen Fehler melden, um MIUI Diagnosetools zu verbessern.&lt;/font&gt;"</string>
-  <string name="tc_diagnostic_sim_location_result">"&lt;font color='#CC0000'&gt;Ergebnis: Falscher Standort&lt;br/&gt;&lt;br/&gt;Set location: &lt;xliff:g id=location example=BeiJing&gt;%1$s&lt;/xliff:g&gt;&lt;br/&gt;Aktueller Standort: &lt;xliff:g id=location example=ShangHai&gt;%2$s&lt;/xliff:g&gt;&lt;/font&gt;"</string>
+  <string name="tc_diagnostic_result">"&lt;font color='#CC0000'>Ergebnis: Diagnose wurde nicht abgeschlossen.&lt;br/>&lt;br/>Diesen Fehler melden, um MIUI Diagnosetools zu verbessern.&lt;/font>"</string>
+  <string name="tc_diagnostic_sim_location_result">"&lt;font color='#CC0000'>Ergebnis: Falscher Standort&lt;br/>&lt;br/>Set location: &lt;xliff:g id=location example=BeiJing>%1$s&lt;/xliff:g>&lt;br/>Aktueller Standort: &lt;xliff:g id=location example=ShangHai>%2$s&lt;/xliff:g>&lt;/font>"</string>
   <string name="tc_diagnostic_status_error_brand">Mobilfunkanbieter wurde nicht ermittelt</string>
-  <string name="tc_diagnostic_status_failure">"&lt;font color='#CC0000'&gt;Fehler&lt;/font&gt;"</string>
-  <string name="tc_diagnostic_status_no_network">"&lt;font color='#ED9523'&gt;Keine Netzwerkverbindung&lt;/font&gt;"</string>
-  <string name="tc_diagnostic_status_not_get">"&lt;font color='#ED9523'&gt;Info nicht erhalten&lt;/font&gt;"</string>
-  <string name="tc_diagnostic_status_success">"&lt;font color='#3EC234'&gt;Korrekt&lt;/font&gt;"</string>
-  <string name="tc_diagnostic_status_success_brand">"&lt;font color='#3EC234'&gt;Mobilfunkanbieter antwortet&lt;/font&gt;"</string>
-  <string name="tc_diagnostic_status_timeout">"&lt;font color='#CC0000'&gt;Zeitüberschreitung&lt;/font&gt;"</string>
+  <string name="tc_diagnostic_status_failure">"&lt;font color='#CC0000'>Fehler&lt;/font>"</string>
+  <string name="tc_diagnostic_status_no_network">"&lt;font color='#ED9523'>Keine Netzwerkverbindung&lt;/font>"</string>
+  <string name="tc_diagnostic_status_not_get">"&lt;font color='#ED9523'>Info nicht erhalten&lt;/font>"</string>
+  <string name="tc_diagnostic_status_success">"&lt;font color='#3EC234'>Korrekt&lt;/font>"</string>
+  <string name="tc_diagnostic_status_success_brand">"&lt;font color='#3EC234'>Mobilfunkanbieter antwortet&lt;/font>"</string>
+  <string name="tc_diagnostic_status_timeout">"&lt;font color='#CC0000'>Zeitüberschreitung&lt;/font>"</string>
   <string name="tc_diagnostic_status_updating">Testen…</string>
   <string name="tc_diagnostic_success_notification_summary">Dieses Problem melden, um MIUI Diagnosetools zu verbessern</string>
   <string name="tc_diagnostic_success_notification_title">Mobilfunkanbieter korrekt</string>
-  <string name="tc_diagnostic_success_result">"&lt;font color='#CC0000'&gt;Ergebnis: Mobilfunkanbieter korrekt eingestellt&lt;br/&gt;&lt;br/&gt;Anpassung nicht vollständig:&lt;br/&gt;1. Am Monatsanfang oder -ende können die Netzwerkstatistiken eventuell nicht zuverlässig sein.&lt;br/&gt;2. Funktionen der Sicherheits-App wurden nicht aktualisiert.&lt;br/&gt;&lt;br/&gt;Diesen Fehler melden, um die MIUI Diagnosetools zu verbessern.&lt;/font&gt;"</string>
+  <string name="tc_diagnostic_success_result">"&lt;font color='#CC0000'>Ergebnis: Mobilfunkanbieter korrekt eingestellt&lt;br/>&lt;br/>Anpassung nicht vollständig:&lt;br/>1. Am Monatsanfang oder -ende können die Netzwerkstatistiken eventuell nicht zuverlässig sein.&lt;br/>2. Funktionen der Sicherheits-App wurden nicht aktualisiert.&lt;br/>&lt;br/>Diesen Fehler melden, um die MIUI Diagnosetools zu verbessern.&lt;/font>"</string>
   <string name="tc_diagnostic_title">Mobilfunkanbieterdiagnose</string>
   <string name="tc_diagnostic_upload_button">Melden</string>
   <string name="tc_diagnostic_upload_no_network">Vielen Dank für Ihr Feedback! Ihr Report wird gesendet, sobald eine Internetverbindung verfügbar ist.</string>
@@ -2645,7 +2645,7 @@ Während der Kalibrierung sendet MIUI eine Textnachricht an Ihren Mobilfunkanbie
   <string name="tc_sms_report_notify_get_timeout_body">Zeitüberschreitung. Stellen Sie sicher, dass der eingegebene Code korrekt ist.</string>
   <string name="tc_sms_report_notify_get_timeout_title">Datennutzungs-SMS anfordern fehlgeschlagen</string>
   <string name="tc_sms_report_receive_content">Inhalt Datennutzungsreport-SMS (Nutzungsbericht bestätigen)</string>
-  <string name="tc_sms_report_receive_content_null">Helfen Sie mit bei der Verbesserung dieser Funktion!&lt;br/&gt;So geht\'s:&lt;br/&gt;1. Gehen Sie auf \"SMS-Befehl prüfen\" und \"Empfängernummer\"&lt;br/&gt;2. Wählen Sie \"SMS-Vorlage abrufen\"&lt;br/&gt;3. Warten Sie auf die SMS Ihres Mobilfunkanbieters &lt;br/&gt;4. Wählen Sie \"Zu MIUI hochladen\"</string>
+  <string name="tc_sms_report_receive_content_null">Helfen Sie mit bei der Verbesserung dieser Funktion!&lt;br/>So geht\'s:&lt;br/>1. Gehen Sie auf \"SMS-Befehl prüfen\" und \"Empfängernummer\"&lt;br/>2. Wählen Sie \"SMS-Vorlage abrufen\"&lt;br/>3. Warten Sie auf die SMS Ihres Mobilfunkanbieters &lt;br/>4. Wählen Sie \"Zu MIUI hochladen\"</string>
   <string name="tc_sms_report_receive_num">Nummer des Empfängers</string>
   <string name="tc_sms_report_send_num">Mobilfunkanbieternummer</string>
   <string name="tc_sms_report_summary">Helfen Sie uns, diese Funktion zu verbessern, indem Sie uns einen fehlerhaften Datennutzungsreport oder Aktualisierungsfehler melden</string>
@@ -2794,7 +2794,7 @@ Wollen Sie es übernehmen?"</string>
   <string name="traffic_limit_error_alert_package">Verbliebenes Datenvolumen beinhaltet Daten, die vom letzten Monat übernommen wurden.</string>
   <string name="traffic_limit_error_alert_title">Erinnerung Datenlimit %s</string>
   <string name="traffic_none">Nichts</string>
-  <string name="traffic_over_purchase_link">"Sie haben Ihr mobiles Datenlimit überschritten. Wenn Sie das Datenlimit überschreiten, kann dies zu erhöhten Kosten führen. &lt;font color='#ccffffff'&gt;&lt;u&gt;Tippen, um Ihr Guthaben aufzuladen.&lt;/u&gt;&lt;/font&gt;"</string>
+  <string name="traffic_over_purchase_link">"Sie haben Ihr mobiles Datenlimit überschritten. Wenn Sie das Datenlimit überschreiten, kann dies zu erhöhten Kosten führen. &lt;font color='#ccffffff'>&lt;u>Tippen, um Ihr Guthaben aufzuladen.&lt;/u>&lt;/font>"</string>
   <string name="traffic_purchase_body">Tippen, um Ihr Guthaben aufzuladen</string>
   <string name="traffic_setting_fragment_area">Region</string>
   <string name="traffic_setting_fragment_brand">Marke</string>
@@ -2804,7 +2804,7 @@ Wollen Sie es übernehmen?"</string>
   <string name="traffic_setting_fragment_daily_summary">Mobile Daten werden täglich aktualisiert</string>
   <string name="traffic_setting_fragment_daily_title">Täglicher Datentarif</string>
   <string name="traffic_setting_fragment_default">Auswählen</string>
-  <string name="traffic_setting_fragment_find_brand">"&lt;font color='#33b4ff'&gt;&lt;u&gt;Nicht sicher über den Mobilfunkanbieter?&lt;/u&gt;&lt;/font&gt;"</string>
+  <string name="traffic_setting_fragment_find_brand">"&lt;font color='#33b4ff'>&lt;u>Nicht sicher über den Mobilfunkanbieter?&lt;/u>&lt;/font>"</string>
   <string name="traffic_setting_fragment_loacation_alert_nomore">Nicht mehr anzeigen</string>
   <string name="traffic_setting_fragment_month_summary">Mobile Daten und Gesprächsverlauf werden monatlich aktualisiert</string>
   <string name="traffic_setting_fragment_month_title">Monatlicher Datentarif</string>
@@ -2838,7 +2838,7 @@ Wollen Sie es übernehmen?"</string>
   <string name="uninstall_danagerous_title">Bösartige Apps deinstallieren</string>
   <string name="unlike">Nein danke</string>
   <string name="unlock_failed">Interner Fehler</string>
-  <string name="unlock_pattern">&lt;u&gt;Muster&lt;/u&gt;</string>
+  <string name="unlock_pattern"><u>Muster</u></string>
   <string name="unlock_pattern_to_bind_fingerprint">Passwort eingeben, um Fingerabruck zu aktivieren</string>
   <string name="unlock_set_unlock_password_summary">Kombinieren Sie verschiedene Zeichen</string>
   <string name="unlock_set_unlock_password_title">Passwort</string>
