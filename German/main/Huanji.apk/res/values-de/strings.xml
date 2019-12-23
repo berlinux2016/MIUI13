@@ -157,7 +157,7 @@ Zum Ausschalten https://appleid.apple.com/#!&amp;page=signin besuchen"</string>
     <string name="dialog_request_network_btn_negative">Beenden</string>
     <string name="dialog_request_network_btn_positive">Zustimmen</string>
     <string name="dialog_request_network_message">Willkommen bei Mi Mover! Mit dieser App können Sie Elemente von Ihrem alten Gerät auf ein neues übertragen. Mi Mover muss eine Verbindung zum Internet herstellen, um normal zu arbeiten.</string>
-    <string name="dialog_request_network_message_extra">Wenn Sie nicht mit der Erteilung derartiger Rechte oder der Weitergabe bzw. dem Hochladen Ihrer personenbezogenen Daten einverstanden sind, werden Sie diese App nicht benutzen können. In diesem Fall kannst du sie deinstallieren oder die Rechte in den Einstellungen begrenzen.</string>
+    <string name="dialog_request_network_message_extra">Wenn Sie nicht mit der Erteilung derartiger Rechte oder der Weitergabe bzw. dem Hochladen Ihrer personenbezogenen Daten einverstanden sind, werden Sie diese App nicht benutzen können. In diesem Fall können Sie sie deinstallieren oder die Rechte in den Einstellungen begrenzen.</string>
     <string name="dialog_tip_upgrade_summary">Sieht so aus, als wäre Mi Mover zu alt. Aktualisieren Sie Mi Mover auf die neueste Version, um Dateien übertragen zu können.</string>
     <string name="dialog_tip_upgrade_title">Mi Mover aktualisieren</string>
     <string name="dialog_version_summary_tip">Was gibt es Neues:</string>
@@ -247,12 +247,12 @@ Zum Ausschalten https://appleid.apple.com/#!&amp;page=signin besuchen"</string>
     <string name="guest_unfinished_task_alert_title">Unerledigte Aufgaben</string>
     <string name="hide_password_description">Passwort verstecken</string>
     <string name="host_boot_installation_button">Weiter</string>
-    <string name="host_boot_installation_content">"1. Gehe zu Einstellungen auf deinem alten Gerät.
-2. Gib \"Mi Mover in das Suchfeld ein.
-3. Drücke auf \"Mi Mover\" in den Suchresultaten."</string>
-    <string name="host_boot_installation_dialog_message">Die Version von Mi Mover auf deinem alten Gerät ist nicht kompatibel mit der hier installierten. Aktualisiere Mi Mover auf deinem alten Gerät.</string>
+    <string name="host_boot_installation_content">"1. Gehen zu Einstellungen auf Ihrem alten Gerät.
+2. Geben Sie \"Mi Mover\" in das Suchfeld ein.
+3. Drücken Sie auf \"Mi Mover\" in den Suchresultaten."</string>
+    <string name="host_boot_installation_dialog_message">Die Version von Mi Mover auf Ihrem alten Gerät ist nicht kompatibel mit der hier installierten. Aktualisieren Sie Mi Mover auf ihrem alten Gerät.</string>
     <string name="host_boot_installation_first_title">Mi Mover auf Ihrem alten Gerät öffnen</string>
-    <string name="host_boot_installation_message">Wähle die Seite, die du auf deinem alten Gerät siehst. Wenn du die alte Version von Mi Mover nutzt, sagen wir dir, wie du sie aktualisieren kannst.</string>
+    <string name="host_boot_installation_message">Wählen Sie die Seite, die Sie auf Ihrem alten Gerät sehen. Wenn Sie die alte Version von Mi Mover nutzen, sagen wir Ihnen, wie Sie sie aktualisieren können.</string>
     <string name="host_boot_installation_second_title">Version von Mi Mover bestätigen.</string>
     <string name="host_boot_installation_tips">Mi Mover konnte nicht gefunden werden? Klicken zum Herunterladen.</string>
     <string name="host_connect_timeout_tip">Verbindung kann für längere Zeit nicht hergestellt werden</string>
@@ -290,7 +290,7 @@ Zum Ausschalten https://appleid.apple.com/#!&amp;page=signin besuchen"</string>
     <string name="icloud_need_wifi_message">Sie sind jetzt nicht mit WLAN verbunden. Um Daten aus der iCloud zu importieren, verbinden Sie sich mit WLAN.</string>
     <string name="icloud_need_wifi_title">Mit WLAN verbinden</string>
     <string name="icloud_signin_fail">Anmeldung nicht möglich</string>
-    <string name="icloud_signin_fail_message">Deine Apple-ID wurde aus Sicherheitsgründen gesperrt. Gehe zu iforgot.apple.com und befolge die Anweisungen.</string>
+    <string name="icloud_signin_fail_message">Ihre Apple-ID wurde aus Sicherheitsgründen gesperrt. Gehen Sie zu iforgot.apple.com und befolgen Sie die Anweisungen.</string>
     <string name="icloud_start_now">Sofort starten</string>
     <string name="icloud_verify_tips">Tippen Sie auf Ihrem iOS-Gerät auf \"Zulassen\" und geben Sie den hier angezeigten Code ein.</string>
     <string name="im_recipient">Ich bin ein Empfänger</string>
@@ -476,7 +476,7 @@ Mindestens %s freigeben."</string>
     <string name="send_sms_for_sync_notice">Zur Aktivierung dieses Dienstes kann eine ausgehende SMS-Nachricht erforderlich sein. Ihr Anbieter wird Ihnen diese Nachricht in Rechnung stellen.</string>
     <string name="send_sms_for_sync_title">Datennutzungswarnung</string>
     <string name="send_verification_code_fail">Senden des Bestätigungscodes fehlgeschlagen</string>
-    <string name="send_verification_code_fail_tips">Achte darauf, dass du mit diesem Konto auf deinem Apple-Gerät angemeldet bist. Andernfalls wirst du den Code nicht erhalten können.</string>
+    <string name="send_verification_code_fail_tips">Achten Sie darauf, dass Sie mit diesem Konto auf Ihrem Apple-Gerät angemeldet sind. Andernfalls werden Sie den Code nicht erhalten können.</string>
     <string name="settings_phone">Telefoneinstellungen</string>
     <string name="settings_powerkeeper">Schrittzähler-Daten</string>
     <string name="settings_sms">Nachrichteneinstellungen</string>
@@ -594,15 +594,15 @@ Mindestens %s freigeben."</string>
     <string name="trans_main_activity_tutor_first">"Fotos, Kontakte, Nachrichten, Anruflisten, Audio,
 Video, Dokumente und Apps auf ein neues Gerät verschieben"</string>
     <string name="trans_one_key_migrate">Mi Mover</string>
-    <string name="trans_receive_time_remained">Received: %1$s | Remaining: %2$s</string>
-    <string name="trans_send_time_remained">Sent: %1$s | Remaining: %2$s</string>
-    <string name="trans_show_qr_code_label">Connect to the old device</string>
-    <string name="trans_sync_transfer_data_list">Select items to transfer on the old device</string>
-    <string name="trans_time_format_second">Less than 1 minute</string>
-    <string name="trans_time_spent">Time: %s</string>
-    <string name="transfer_bottom_tip">"You won't be able to use Wi-Fi or Bluetooth during the transfer. Don't leave this page."</string>
-    <string name="transfer_finish_bottom_tip">"If your aren't going to use your old device anymore, you can erase all data on it after you confirm that all important items were successfully transferred."</string>
-    <string name="transfer_lose_connect_summary">Looks like connection was interrupted. Connect again.</string>
+    <string name="trans_receive_time_remained">Empfangen: %1$s | Verbleibend: %2$s</string>
+    <string name="trans_send_time_remained">Senden: %1$s | Verbleibend: %2$s</string>
+    <string name="trans_show_qr_code_label">Verbinden mit dem alten Gerät</string>
+    <string name="trans_sync_transfer_data_list">Zu übertragende Elemente auf dem alten Gerät auswählen</string>
+    <string name="trans_time_format_second">Weniger als 1 Minute</string>
+    <string name="trans_time_spent">Zeit: %s</string>
+    <string name="transfer_bottom_tip">Während der Übertragung können Sie weder WLAN noch Bluetooth verwenden. Verlassen Sie diese Seite nicht.</string>
+    <string name="transfer_finish_bottom_tip">Wenn Sie Ihr altes Gerät nicht mehr verwenden, können Sie alle Daten auf dem Gerät löschen, nachdem Sie bestätigt haben, dass alle wichtigen Elemente erfolgreich übertragen wurden.</string>
+    <string name="transfer_lose_connect_summary">Sieht aus, als wäre die Verbindung unterbrochen worden. Verbindung wieder herstellen.</string>
     <string name="transfer_lose_connect_title">Verbindung wurde unterbrochen</string>
     <string name="transfer_multi_connect_summary">Ihre Übertragung wurde aus Sicherheitsgründen unterbrochen. Sie können auf \"Erneut verbinden"\ tippen, um trotzdem weiterzumachen.</string>
     <string name="transfer_multi_connect_title">Sieht aus, als wären mehrere Geräte mit diesem Hotspot verbunden</string>
