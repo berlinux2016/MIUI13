@@ -3,9 +3,6 @@
 
 [![GitHub issues](https://img.shields.io/github/issues-raw/berlinux2016/MIUI11.svg)](https://github.com/berlinux2016/MIUI11/issues "GitHub issues")
 
-## Now also on German Telegram Channel » https://t.me/xeuger «
-Better for faster communication!
-
 ## Introduction
 
 This repository contains the german translation of the MIUI V11 Weekly ROM Releases from [xiaomi.eu](https://xiaomi.eu/community/forums/miui-rom-releases.103/) and other MIUI custom ROMs.
