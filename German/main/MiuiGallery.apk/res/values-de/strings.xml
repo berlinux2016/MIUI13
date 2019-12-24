@@ -403,13 +403,13 @@
   <string name="confirm_hidden_recommend_group_message">Wenn Empfehlungen ausgeschaltet sind, können Sie "Personen, die sich ähnlich sehen" trotzdem verwenden</string>
   <string name="confirm_hidden_recommend_group_title">Keine Empfehlungen anzeigen</string>
   <string name="confirm_hide_selected_albums">Ausgewählte Alben ausblenden?</string>
-  <string name="confirm_merge_face_albums">" &lt;Data&gt; Zusammenfügen dieses Album mit %s? &lt;/Data&gt; "</string>
-  <string name="confirm_merge_many_face_albums">" &lt;Data&gt; Zusammenfügen dieser Alben mit %s? &lt;/Data&gt; "</string>
+  <string name="confirm_merge_face_albums">" <Data> Zusammenfügen dieses Album mit %s? </Data> "</string>
+  <string name="confirm_merge_many_face_albums">" <Data> Zusammenfügen dieser Alben mit %s? </Data> "</string>
   <string name="confirm_not_face">Kein Treffer</string>
-  <string name="confirm_recommandation_face_is">" &lt;Data&gt; Sind Sie sicher, dass das &amp;lt;font color=#323232&amp;gt;&amp;lt;b&amp;gt;%1$s&amp;lt;/b&amp;gt;&amp;lt;/font&amp;gt; ist? Dieses Gesicht wird nach Bestätigung ins \"%2$s\" Album verschoben. &lt;/Data&gt; "</string>
-  <string name="confirm_recommandation_face_not">" &lt;Data&gt; Sind Sie sicher, dass das nicht &amp;lt;font color=#323232&amp;gt;&amp;lt;b&amp;gt;%1$s&amp;lt;/b&amp;gt;&amp;lt;/font&amp;gt; ist? &lt;/Data&gt; "</string>
-  <string name="confirm_recommandation_multiple_faces_are">" &lt;Data&gt; Sind Sie sicher, dass das &amp;lt;font color=#323232&amp;gt;&amp;lt;b&amp;gt;%1$s&amp;lt;/b&amp;gt;&amp;lt;/font&amp;gt; sind? Diese Gesichter werden nach Bestätigung ins \"%2$s\" Album verschoben. &lt;/Data&gt; "</string>
-  <string name="confirm_recommandation_multiple_faces_not">" &lt;Data&gt; Sind Sie sicher, dass das nicht &amp;lt;font color=#323232&amp;gt;&amp;lt;b&amp;gt;%1$s&amp;lt;/b&amp;gt;&amp;lt;/font&amp;gt; sind? &lt;/Data&gt; "</string>
+  <string name="confirm_recommandation_face_is">" <Data> Sind Sie sicher, dass das <font color="#323232"><b>%1$s</b></font> ist? Dieses Gesicht wird nach Bestätigung ins \"%2$s\"-Album verschoben. </Data> "</string>
+  <string name="confirm_recommandation_face_not">" <Data> Sind Sie sicher, dass das nicht <font color="#323232"><b>%1$s</b></font> ist? </Data> "</string>
+  <string name="confirm_recommandation_multiple_faces_are">" <Data> Sind Sie sicher, dass das <font color="#323232"><b>%1$s</b></font> sind? Diese Gesichter werden nach Bestätigung ins \"%2$s\"-Album verschoben. </Data> "</string>
+  <string name="confirm_recommandation_multiple_faces_not">" <Data> Sind Sie sicher, dass das nicht <font color="#323232"><b>%1$s</b></font> sind? </Data> "</string>
   <string name="contact_tip">Kontakt</string>
   <string name="context_menu_add_contact">Zu Kontakten hinzufügen</string>
   <string name="context_menu_copy">Kopieren</string>
@@ -1266,6 +1266,9 @@ zu wechseln."</string>
   <string name="request_sms_url_title">Hinweis</string>
   <string name="retry_to_create_album">Erneut versuchen</string>
   <string name="retry_to_request_qr_code">Erneut versuchen</string>
+  <string name="risk_control_deleted_date">dd.MM.</string>
+  <string name="risk_control_deleted_message">Jemand hat Ihre Galerie-Elemente aus der Cloud mit einem %3$s am %1$s um %2$s gelöscht. Waren Sie das?</string>
+  <string name="risk_control_deleted_title">Sicherheitswarnung</string>
   <string name="rubbish_album_move_to_other_album_success">Sie können sich diese Elemente jetzt unter \"Andere Alben\" ansehen.</string>
   <string name="runtime_permission_ungranted">Galerie wurde wegen fehlender Berechtigung beendet</string>
   <string name="same_name_album_exist_and_toast">"Ein Album mit demselben Namen ist bereits vorhanden. Stattdessen wurde '%s' erstellt."</string>
@@ -1595,7 +1598,8 @@ zu wechseln."</string>
   <string name="too_many_recipients">Zu viele Empfänger (%1$s) (Max %2$s Empfänger)</string>
   <string name="trash_bin">Papierkorb</string>
   <string name="trash_bin_key_word">Gelöschte Fotos</string>
-  <string name="trash_bin_summary">Kürzlich gelöschte, gesicherte Fotos durchstöbern</string>
+  <string name="trash_bin_summary">Zuletzt gelöschte, gesicherte Fotos durchstöbern</string>
+  <string name="trash_bin_summary_local">Zuletzt gelöschte Fotos und Videos anzeigen</string>
   <string name="trash_empty">Hier keine Elemente</string>
   <string name="trash_menu_delete">Löschen</string>
   <string name="trash_menu_recovery">Wiederherstellen</string>

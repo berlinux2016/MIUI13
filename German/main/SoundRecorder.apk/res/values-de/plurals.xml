@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <plurals name="btn_clear_records">
-    <item quantity="other">Aufzeichnungen löschen (%d Elemente)</item>
-    <item quantity="one">Aufzeichnungen löschen (%d Element)</item>
+    <item quantity="other">Aufnahmen löschen (%d Elemente)</item>
+    <item quantity="one">Aufnahmen löschen (%d Element)</item>
   </plurals>
   <plurals name="choose_call_records_count">
     <item quantity="other">%d Elemente</item>
     <item quantity="one">%d Element</item>
+  </plurals>
+  <plurals name="confirm_delete_cloud_records">
+    <item quantity="other">%d Aufnahmen aus der Cloud löschen?</item>
+    <item quantity="one">%d Aufnahme aus der Cloud löschen?</item>
+  </plurals>
+  <plurals name="confirm_delete_records">
+    <item quantity="other">%d Aufnahmen löschen?</item>
+    <item quantity="one">%d Aufnahme löschen?</item>
   </plurals>
   <plurals name="local_records_count">
     <item quantity="other">%d Einträge</item>
