@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
   <string name="access_change_text" formatted="false">Aktuell sind die %d und %d Tauschpositionen ausgewählt</string>
-  <string name="access_select">Ausgewählt:%s</string>
-  <string name="access_unselect">Abgewählt:%s</string>
+  <string name="access_select">Ausgewählt: %s</string>
+  <string name="access_unselect">Abgewählt: %s</string>
   <string name="accessibility_title">Infoassistent</string>
   <string name="accessibilty_back_button">Zurück</string>
   <string name="accessibilty_move_down">Nach unten</string>
@@ -145,7 +145,7 @@
   <string name="alipay_country_996">Kirgisistan</string>
   <string name="alipay_data_error">Überlastet, später erneut versuchen</string>
   <string name="alipay_disagree">Ablehnen</string>
-  <string name="alipay_enter">Betreten %1$s(%2$d)</string>
+  <string name="alipay_enter">%1$s (%2$d) starten</string>
   <string name="alipay_enterWallet">Alipay starten</string>
   <string name="alipay_error_highlight">6-20 Ziffern, Buchstaben, Zahlen oder Symbolkombinationen</string>
   <string name="alipay_face_login">Gesichtsanmeldung</string>
@@ -167,15 +167,15 @@
   <string name="alipay_loginProblems">Sie haben ein Problem?</string>
   <string name="alipay_login_cancel">Abbrechen</string>
   <string name="alipay_login_error">Bekannter Systemfehler</string>
-  <string name="alipay_login_query_pwd_tip">Passwort für das Konto %s festlegen, um sich später schneller anmelden zu können</string>
+  <string name="alipay_login_query_pwd_tip">Passwort für Konto %s festlegen, um sich später schneller anmelden zu können</string>
   <string name="alipay_login_rds_suspect">Anmelden fehlgeschlagen, erneut versuchen</string>
   <string name="alipay_logout_current_account">Abmelden</string>
   <string name="alipay_logoutting">Abmelden…</string>
   <string name="alipay_more">Mehr</string>
   <string name="alipay_msp_bl_bt_shutdown">Bluetooth ist deaktiviert, Funktion kann nicht verwendet werden</string>
   <string name="alipay_msp_bl_timeout">Fehler bei der Bluetooth-Verbindung. Bluetooth-Geräte können für geheimes Bezahlen nicht verwendet werden.</string>
-  <string name="alipay_msp_bl_verify_error">Überprüfung des Gerätes fehlgeschlagen. Zahlungspasswort eingeben zum bezahlen.</string>
-  <string name="alipay_net_error">Kann keine Verbindung zum Server herstellen, versuchen Sie es erneut?</string>
+  <string name="alipay_msp_bl_verify_error">Überprüfung des Gerätes fehlgeschlagen. Zahlungspasswort eingeben zum Bezahlen.</string>
+  <string name="alipay_net_error">Verbindung zum Server nicht möglich, erneut versuchen?</string>
   <string name="alipay_newUserRegister">Neues Konto</string>
   <string name="alipay_password">Passwort</string>
   <string name="alipay_password_login">Passwort eingeben</string>
@@ -207,7 +207,7 @@
   <string name="alipay_registNewAccount">Neues Konto registrieren</string>
   <string name="alipay_regist_now">Jetzt registrieren</string>
   <string name="alipay_regist_rds_suspect">Ihre Eingabe war zu schnell. Erneut versuchen.</string>
-  <string name="alipay_register_password_error">Das Passwort muss sein</string>
+  <string name="alipay_register_password_error">Passwort muss sein</string>
   <string name="alipay_reigsterSuccess">Erfolgreich registriert</string>
   <string name="alipay_reinput">Erneut eingeben</string>
   <string name="alipay_risk_account_dialog_tip">Konto kann sich vorübergehend nicht anmelden, können Sie dies über die folgenden Möglichkeiten tun</string>
@@ -351,7 +351,7 @@
   <string name="bus_code">Öffentliche Verkehrsmittel</string>
   <string name="calc_currency">Währung</string>
   <string name="calc_name">Wissenschaft</string>
-  <string name="calc_num">Finanzielle Zeichen</string>
+  <string name="calc_num">Finanzzeichen</string>
   <string name="calc_parent">Rechner</string>
   <string name="calendar_name">Termin hinzufügen</string>
   <string name="calendar_parent">Kalender</string>
@@ -552,7 +552,7 @@
   <string name="empty_health_card_tip">Mi Fit installieren und Mi Band verbinden</string>
   <string name="empty_health_card_tip_vip">Mi Fit installieren und Schrittzähler aktivieren</string>
   <string name="empty_recharge_card_btn">Einstellungen öffnen</string>
-  <string name="empty_recharge_card_tip">Entweder ist keine SIM-Karte eingelegt oder Sie haben keinen Datenverbrauchsplan eingestellt</string>
+  <string name="empty_recharge_card_tip">Entweder ist keine SIM-Karte eingelegt oder Sie haben keinen Datentarif eingestellt</string>
   <string name="empty_recharge_card_title">Keine Daten</string>
   <string name="entrance">Kartenverknüpfungen</string>
   <string name="error_share_not_support">Solche Artikel werden in den Favoriten nicht unterstützt</string>
@@ -653,7 +653,7 @@ Sendungsverfolgungsnummer prüfen."</string>
   <string name="express_inquiry_status_sign_out">Abgelehnt</string>
   <string name="express_inquiry_status_unknown">Unbekannt</string>
   <string name="express_install_cainiao_description">%s benötigt die Cainiao-App. Jetzt installieren?</string>
-  <string name="express_install_cainiao_hidden">&lt;u&gt;Nicht noch mal anzeigen&lt;/u&gt;</string>
+  <string name="express_install_cainiao_hidden"><u>Nicht mehr anzeigen</u></string>
   <string name="express_install_cainiao_not_found">Im Mi Market nicht gefunden</string>
   <string name="express_install_cainiao_ok">Installieren</string>
   <string name="express_install_cainiao_title">Cainiao installieren</string>
@@ -661,7 +661,7 @@ Sendungsverfolgungsnummer prüfen."</string>
   <string name="express_install_open_locker">Öffnen</string>
   <string name="express_install_order_detail">Bestellinformationen anzeigen</string>
   <string name="express_install_provider_app_description">%1$s erfordert die Installation der %2$s App. Jetzt installieren?</string>
-  <string name="express_install_provider_app_hidden">&lt;u&gt;"Nicht mehr anzeigen"&lt;/u&gt;</string>
+  <string name="express_install_provider_app_hidden"><u>Nicht mehr anzeigen</u></string>
   <string name="express_install_provider_app_ok">Installieren</string>
   <string name="express_install_provider_app_title">%s installieren</string>
   <string name="express_install_schedule_delivery">Auftragslieferdienst</string>
@@ -849,8 +849,8 @@ Sendungsverfolgungsnummer prüfen."</string>
   <string name="flight">Flug</string>
   <string name="flight_num">Flugnummer</string>
   <string name="flight_num_example">z. B. CA1102</string>
-  <string name="flow_open">Karte für Mobile Daten anzeigen</string>
-  <string name="flow_setting_brief">Infos über Mobile Daten anzeigen (Datenverbrauchsplan unter Sicherheit &gt; Datenverbrauch einstellen)</string>
+  <string name="flow_open">Karte für mobile Daten anzeigen</string>
+  <string name="flow_setting_brief">Infos über mobile Daten anzeigen (Datentarif unter Sicherheit &gt; Datenverbrauch einstellen)</string>
   <string name="flybird_auto_switch_channel">Empfohlenes System</string>
   <string name="flybird_baoxian_close_text">Sicherheit für offene Konten, genießen Sie 1 Million Versicherungen</string>
   <string name="flybird_baoxian_open_text">Kontosicherheitsschutz</string>
@@ -861,7 +861,7 @@ Sendungsverfolgungsnummer prüfen."</string>
   <string name="flybird_bl_val_failed">Armbandprüfung fehlgeschlagen, überweisen Sie mit Passwort</string>
   <string name="flybird_bl_val_ok">Smart-Gerät erkennen…</string>
   <string name="flybird_channel">Zahlungsmethode</string>
-  <string name="flybird_channel_label">Das System wird, basierend auf der folgenden Bestellung, in Rechnung stellen. Tippen Sie auf \"Auftragsliste bearbeiten\".</string>
+  <string name="flybird_channel_label">Das System wird Artikel basierend auf der folgenden Bestellung in Rechnung stellen. Tippen Sie auf \"Auftragsliste bearbeiten\".</string>
   <string name="flybird_channel_list_label">Bestellabzug</string>
   <string name="flybird_default_channel">Standardzahlungsmethode</string>
   <string name="flybird_default_channel_main">Standardzahlungsmethode</string>
@@ -1047,9 +1047,9 @@ Sendungsverfolgungsnummer prüfen."</string>
   <string name="map_title">Verkehrsinfo</string>
   <string name="map_title_around">Ist in der Nähe angekommen</string>
   <string name="map_title_baidu_middle">Über</string>
-  <string name="map_title_blocked">Ungewöhnliche Stauung</string>
-  <string name="map_title_blocked_last">km ungewöhnliche Stauung</string>
-  <string name="map_title_congestion">Es gibt Straßenstaus</string>
+  <string name="map_title_blocked">Ungewöhnlicher Stau</string>
+  <string name="map_title_blocked_last">km ungewöhnlicher Stau</string>
+  <string name="map_title_congestion">Es gibt Verkehrsstaus</string>
   <string name="map_title_congestion_last">Gestaute Kilometer</string>
   <string name="map_title_home">Nach Hause gehen</string>
   <string name="map_title_hours">Stunde</string>
@@ -1214,7 +1214,7 @@ Sendungsverfolgungsnummer prüfen."</string>
   <string name="monthly_report_lable">Monatsbericht</string>
   <string name="more_express_numbers">Mehr Kuriernummern</string>
   <string name="msp_memo_app_cancel">Überlastet，versuchen Sie es später erneut</string>
-  <string name="msp_memo_repeat_pay">Die gleiche Bestellung kann nicht mehrmals bezahlt werden</string>
+  <string name="msp_memo_repeat_pay">Gleiche Bestellung kann nicht mehrmals bezahlt werden</string>
   <string name="msp_memo_server_cancel">Überlastet, versuchen Sie es später erneut</string>
   <string name="msp_memo_user_cancel">Vorgang abgebrochen</string>
   <string name="msp_mini_card_type_text">Kartentyp</string>
