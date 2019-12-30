@@ -206,6 +206,8 @@
   <string name="channel_header_title">Meine Kanäle</string>
   <string name="channel_more_description">Tippen, um Kanal hinzuzufügen</string>
   <string name="channel_more_title">Mehr Kanäle</string>
+  <string name="channel_network_error">Netzwerkfehler aufgetreten. Netzwerkeinstellungen überprüfen und erneut versuchen.</string>
+  <string name="channel_no_data">Das ist im Moment alles. Siehen Sie sich andere Kanäle an!</string>
   <string name="character_counter_content_description">Zeichenlimit überschritten: %1$d von %2$d</string>
   <string name="check_security_tip_privacy_policy">Datenschutzerklärung</string>
   <string name="check_security_tip_user_agreement">Nutzungsbedingungen</string>
@@ -234,6 +236,8 @@
   <string name="cloud_up_to_loading_tips">Zum Synchronisieren loslassen</string>
   <string name="collect_diagnosis_log">Diagnoseprotokoll erfassen</string>
   <string name="collect_video">Video sammeln</string>
+  <string name="comment_fail">Kommentar hinzufügen nicht möglich. Erneut versuchen.</string>
+  <string name="comment_success">Kommentar erfolgreich hinzugefügt</string>
   <string name="comment_app_menu">Kommentieren</string>
   <string name="comment_description">Kommentieren</string>
   <string name="comment_hint">Kommentieren</string>
@@ -404,6 +408,7 @@ um unsere Arbeit zu unterstützen"</string>
   <string name="exit_fullscreen">Vollbildmodus beenden</string>
   <string name="expand_button_title">Erweiterte</string>
   <string name="favorite">Favorit</string>
+  <string name="feedback_not_interested_response">Sie werden weniger solche Elemente sehen</string>
   <string name="file_dir">Verzeichnis</string>
   <string name="file_picker">Verzeichnis wählen</string>
   <string name="filename_empty_alert_message">Dateinamen eingeben</string>
@@ -956,19 +961,19 @@ Denken Sie daran, dass heruntergeladene Dateien und hinzugefügte Lesezeichen we
   <string name="network_show_wifi_setting_tip_dialog_description">WLAN-Hotspot in der Nähe gefunden. Verbindung herstellen?</string>
   <string name="network_show_wifi_setting_tip_dialog_title">WLAN verfügbar</string>
   <string name="next_button_label">Weiter</string>
-  <string name="novel_toast_hint">Diese Website wurde dem Bücherregal hinzugefügt.</string>
-  <string name="notification_channel_name_local_push">Browser-Benachrichtigungen</string>
-  <string name="notif_install_successful">Download abgeschlossen</string>
-  <string name="not_remind_again">Auswahl merken</string>
-  <string name="not_now">Jetzt nicht</string>
-  <string name="not_allowed_open">Browser kann im OOB Flow nicht verwendet werden</string>
-  <string name="no_space_clean_failed">Speicherplatz konnte nicht freigegeben werden</string>
-  <string name="no_space_alert_title">Download angehalten</string>
-  <string name="no_space_alert_text">Nicht genügend Speicherplatz</string>
-  <string name="no_space_alert_clean">Speicherplatz freigeben</string>
-  <string name="no_space_alert_cancel">Später</string>
-  <string name="no_memory_space">Kein Speicherplatz</string>
   <string name="no_app_open_document">Keine App für diese Aktion gefunden</string>
+  <string name="no_memory_space">Kein Speicherplatz</string>
+  <string name="no_space_alert_cancel">Später</string>
+  <string name="no_space_alert_clean">Speicherplatz freigeben</string>
+  <string name="no_space_alert_text">Nicht genügend Speicherplatz</string>
+  <string name="no_space_alert_title">Download angehalten</string>
+  <string name="no_space_clean_failed">Speicherplatz konnte nicht freigegeben werden</string>
+  <string name="not_allowed_open">Browser kann im OOB Flow nicht verwendet werden</string>
+  <string name="not_now">Jetzt nicht</string>
+  <string name="not_remind_again">Auswahl merken</string>
+  <string name="notif_install_successful">Download abgeschlossen</string>
+  <string name="notification_channel_name_local_push">Browser-Benachrichtigungen</string>
+  <string name="novel_toast_hint">Diese Website wurde dem Bücherregal hinzugefügt.</string>
   <string name="open_app_confirm_message">Dieser Seite erlauben, %s zu öffnen?</string>
   <string name="open_cloud_sync">Cloud-Synchronisation einschalten</string>
   <string name="open_cloud_sync_desc">Lesezeichen erfolgreich hinzugefügt. Synchronisation mit der Cloud einschalten, um auf anderen Geräten hinzugefügte Lesezeichen zu synchronisieren. Anmelden und einschalten?</string>
@@ -1253,6 +1258,7 @@ So verwenden wir die Daten, die wir sammeln:
 2. Inhalt: Ihre Daten helfen uns, Ihnen relevante lokalisierte Nachrichteninhalte bereitzustellen.
 Browser muss mit dem Internet verbunden sein, um richtig zu funktionieren. Sie müssen unsere %2$s und %1$s akzeptieren, um den Browser nutzen zu können."</string>
   <string name="show_security_tip_dialog_title">Datenschutzerklärung</string>
+  <string name="short_video_network_error">Netzerkverbindung fehlgeschlagen. Netzwerkeinstellungen überprüfen und erneut versuchen.</string>
   <string name="sign_and_open">Anmelden und einschalten</string>
   <string name="sign_in">Anmelden</string>
   <string name="sign_in_to" formatted="false">Anmelden zu %s1 \"%s2\"</string>
@@ -1374,6 +1380,7 @@ Browser muss mit dem Internet verbunden sein, um richtig zu funktionieren. Sie m
   <string name="translation_query_error">Übersetzung nicht möglich</string>
   <string name="translation_query_error_network">Info nicht erhalten, mit Netzwerk verbinden und erneut versuchen</string>
   <string name="translation_result_copy">In Zwischenablage kopiert</string>
+  <string name="tt_ad">Werbung</string>
   <string name="unSwitchText">NEIN</string>
   <string name="undo">Rückgängig</string>
   <string name="unknown_title">Unbekannt</string>

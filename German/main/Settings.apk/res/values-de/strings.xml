@@ -2251,7 +2251,7 @@ Wenn es so bleibt, muss die App evtl. deinstalliert werden, um die Akkuleistung 
   <string name="display_vr_pref_title">Wenn das Gerät im VR-Modus ist</string>
   <string name="display_white_balance_title">Weißabgleich anzeigen</string>
   <string name="diy_suppression_summary">Größe des Anti-Fehlbedienungsbereichs nach Bedarf anpassen</string>
-  <string name="diy_suppression_title">Anpassen</string>
+  <string name="diy_suppression_title">Benutzerdefiniert</string>
   <string name="dlg_cancel">Abbrechen</string>
   <string name="dlg_close">Schließen</string>
   <string name="dlg_confirm_unmount_text">Wenn Sie den USB-Speicher auswerfen, werden einige verwendete Apps angehalten und sind eventuell nicht verfügbar, bis Sie den USB-Speicher wieder einhängen.</string>
@@ -5025,6 +5025,7 @@ OTG schaltet sich nach 10 Minuten Inaktivität automatisch aus."</string>
   <string name="privacy_factory_reset_dlg_button_text">Zurücksetzen</string>
   <string name="privacy_factory_reset_dlg_message">Wenn Sie Ihr Passwort vergessen haben, müssen Sie Ihr Gerät auf Werkseinstellungen zurücksetzen, um ein neues Passwort zu erstellen</string>
   <string name="privacy_factory_reset_dlg_title">Sichern Sie Ihre Daten</string>
+  <string name="privacy_failed_need_to_unlock_nofingerprint">Passwort vor der Verwendung eines neuen Fingerabdrucks eingeben</string>
   <string name="privacy_file">Dateien</string>
   <string name="privacy_gallery">Fotos</string>
   <string name="privacy_header_text_less_than_half">Zu klein. Ein bisschen weiter ziehen.</string>
@@ -5933,6 +5934,7 @@ Hinweis: Sie können Ihren Fingerabdruck nicht verwenden, um dieses Gerät zu en
   <string name="see_backup_files_on_router">Sicherungen auf Mi Router %s anzeigen</string>
   <string name="see_less">Weniger anzeigen</string>
   <string name="see_more">Mehr anzeigen</string>
+  <string name="seek_bar_info">Größe einstellen</string>
   <string name="select_all">Alles auswählen</string>
   <string name="select_application">App auswählen</string>
   <string name="select_automatically">Netzwerk automatisch wählen</string>
@@ -6575,8 +6577,8 @@ Auf ^2 gespeicherte Apps könnten nicht richtig funktionieren, und Datenübertra
   <string name="storageuse_settings_title">Speichernutzung</string>
   <string name="strict_mode">Strikter Modus aktiviert</string>
   <string name="strict_mode_summary">Bei längeren Aktionen im Hauptthread Bildschirm kurz einblenden</string>
-  <string name="strong_suppression_summary">Großer Anti-Touch-Bereichmodus, bessere Wirkung, aber es wird etwas Erfahrung in der Kantenmanipulation opfern</string>
-  <string name="strong_suppression_title">Großer Anti-Touch-Bereichmodus</string>
+  <string name="strong_suppression_summary">Ihr Gerät reagiert nicht auf versehentliche Berührungen, einige Gestensteuerungen funktionieren möglicherweise nicht an den Rändern</string>
+  <string name="strong_suppression_title">Großer Bereich</string>
   <string name="structure_add_facerecoginition_text">3D-Gesichtsdaten hinzufügen</string>
   <string name="structure_face_enroll_not_able_low_electric_itle">Funktion kann nicht verwendet werden, da der Akkustand niedrig ist</string>
   <string name="structure_face_enroll_not_able_low_electric_msg">Akku muss mindestens 5% geladen sein, um mit der Aufnahme beginnen zu können.</string>
@@ -7708,6 +7710,8 @@ Jeder Benutzer kann aktualisierte App-Berechtigungen für alle anderen Benutzer 
   <string name="wallpaper_settings_title">Hintergrund</string>
   <string name="wallpaper_suggestion_summary">Bildschirm personalisieren</string>
   <string name="wallpaper_suggestion_title">Hintergrundbild ändern</string>
+  <string name="wake_suppression_summary">Ihr Gerät reagiert möglicherweise auf eine versehentliche Berührung, aber auch auf Gestensteuerung an den Rändern</string>
+  <string name="wake_suppression_title">Kleiner Bereich</string>
   <string name="wapi_all_sel_mode">Wählen</string>
   <string name="wapi_auto_sel_cert">Automatisch auswählen</string>
   <string name="wapi_auto_sel_cert_fail">Zertifikat kann nicht automatisch gewählt werden. Bitte ein Zertifikat aus der Liste wählen und dann versuchen zu verbinden.</string>
@@ -7896,6 +7900,8 @@ Bitte lesen Sie die Datenschutzerklärung Ihres Dienstanbieters."</string>
   <string name="wifi_details_subnet_mask">Subnetzmaske</string>
   <string name="wifi_details_title">Netzwerkdetails</string>
   <string name="wifi_dialog_remind_type_title">Mobile Datennetzwerke</string>
+  <string name="wifi_direct_close_hotspot_hint">Portablen Hotspot vor der Nutzung von WLAN Direct ausschalten</string>
+  <string name="wifi_direct_close_slave_wifi_hint">Verbindung zum Zusatz-WLAN trennen, bevor Sie WLAN Direct verwenden</string>
   <string name="wifi_disabled_by_recommendation_provider">Nicht verbunden wegen schlechter Netzwerkqualität</string>
   <string name="wifi_disabled_generic">Deaktiviert</string>
   <string name="wifi_disabled_help">WLAN wurde wegen schlechter Verbindung getrennt</string>

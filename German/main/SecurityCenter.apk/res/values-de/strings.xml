@@ -138,6 +138,8 @@
   <string name="antivirus_update_btn_update">Aktualisieren</string>
   <string name="apn_exception_summary">Zugangspunktnamen vom Mobilfunkanbieter prüfen</string>
   <string name="apn_exception_title">APN-Konfigurationen prüfen</string>
+  <string name="apn_exception_modify_summary">Standard Carrier Access Point wird nicht verwendet oder modifiziert</string>
+  <string name="apn_exception_wap_summary">WAP ist jetzt instabil. Zu NET wechseln.</string>
   <string name="app_bg_restrict_dialog_message">Einschränkung der Hintergrund-Netzwerkverbindung kann dazu führen, dass die App nicht normal funktioniert. Z. B. ist es nicht mehr möglich, Nachrichten zu empfangen oder Inhalte zu aktualisieren.</string>
   <string name="app_check_no_issue">Keine Probleme mit dem Akku. Cool!</string>
   <string name="app_error_tip_for_launcher">Ihre Gerätehardware oder die Androidversion können Kompatibilitätsprobleme verursachen und einige Apps dazu bringen, sich falsch zu verhalten, einzufrieren oder abzustürzen. Wenn Sie auf solche Probleme stoßen, senden Sie Ihr Feedback an die App-Entwickler.</string>
@@ -1592,6 +1594,11 @@ um ein Muster zu erstellen"</string>
   <string name="more_game">Mehr Spiele</string>
   <string name="more_lock">Mehr</string>
   <string name="more_settings">Mehr Einstellungen</string>
+  <string name="nd_result_button_optimize">Optimieren</string>
+  <string name="nd_result_summary_optimize">Die Netzwerkverbindung versuchen zu optimieren, wenn sie instabil ist</string>
+  <string name="nd_result_title_auxiliary">Netzwerkkonfiguration</string>
+  <string name="nd_result_title_network">Netzwerkverbindung</string>
+  <string name="nd_result_title_optimize">Netzwerk optimieren</string>
   <string name="net_booster">Netzwerkgeschwindigkeit optimieren</string>
   <string name="net_booster_expire_notification">Netzwerkoptimierung ist fast fertig</string>
   <string name="net_booster_overdue_notification">Netzwerkoptimierung wird beendet</string>
@@ -2315,6 +2322,8 @@ Während der Kalibrierung sendet MIUI eine Textnachricht an Ihren Mobilfunkanbie
   <string name="shutdown_cancel_reminder">Nicht ausgeschaltet</string>
   <string name="shutdown_cancel_reminder_detail">Gerät hat sich nicht ausgeschaltet, weil Sie mitten in einem Anruf waren</string>
   <string name="shutdown_cancel_reminder_detail2">Sieht so aus, als ob Sie jetzt spielen. Geplantes Ausschalten wird abgebrochen.</string>
+  <string name="signal_exception_4g_bad_rsrq">Aktueller Signalempfang ist schlecht. Verbindungsgeschwindigkeit kann niedriger sein.</string>
+  <string name="signal_exception_none_4g_5g_network">Sie benutzen 2G/3G-Mobilfunknetze. Verbindungsgeschwindigkeit könnte niedriger sein.</string>
   <string name="signal_exception_summary">In diesem Bereich ist keine Netzwerkverbindung möglich</string>
   <string name="signal_exception_title">Signalstärke testen</string>
   <string name="signed_rule">Regeln</string>
@@ -2932,6 +2941,17 @@ Wollen Sie es übernehmen?"</string>
   <string name="virus_wait_network_dialog_message">Ihr Telefon ist jetzt nicht mit WLAN verbunden. Mobile Daten nutzen?</string>
   <string name="vtb_other_milink_connect">Video übertragen jetzt nicht möglich. Im Begriff, andere Elemente zu übertragen…</string>
   <string name="vtb_stop_milink_connect">Videoübertragung gestoppt</string>
+  <string name="vtb_func_desc">Über diese Funktion</string>
+  <string name="vtb_func_display_style_desc1">Ausgewählte Effekte werden nicht auf HDR-Videos angewendet bei.</string>
+  <string name="vtb_func_display_style_desc2">Diese Effekte können nicht auf Screenshots angewendet werden bei.</string>
+  <string name="vtb_func_frc_desc0">Bewegungsglättung reduziert die Unschärfe und fügt den sich bewegenden Objekten Details hinzu. Die Verwendung dieser Funktion erhöht den Stromverbrauch.</string>
+  <string name="vtb_func_frc_desc1">Bewegungsglättung wird unter den folgenden Bedingungen nicht funktionieren bei:</string>
+  <string name="vtb_func_frc_desc2">Videoauflösung größer 1080p ist</string>
+  <string name="vtb_func_frc_desc3">Bildfrequenz größer 30fps ist</string>
+  <string name="vtb_func_frc_desc4">HDR-Videos</string>
+  <string name="vtb_func_frc_title">Bewegungsglättung</string>
+  <string name="vtb_func_vpp_desc4">Diese Funktion funktioniert nicht, wenn die Videoauflösung höher als 4K ist.</string>
+  <string name="vtb_func_vpp_title">Verbesserte Konturen</string>
   <string name="wakepath_confirm_start_activity">%1$s erlauben, %2$s zu öffnen?</string>
   <string name="website">Webseite</string>
   <string name="whitelist_prefix_add_hint">Alle Nummern mit Vorwahl zu Ausnahmen hinzufügen</string>
