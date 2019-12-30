@@ -513,6 +513,7 @@
   <string name="didi_not_installed">DiDi installieren, um diese Karte nutzen zu können</string>
   <string name="didi_other_dest">Anderes Ziel</string>
   <string name="didi_price">Fahrpreis</string>
+  <string name="didi_price_unit">%s EUR</string>
   <string name="didi_target">"Zielort "</string>
   <string name="didi_taximeter">Taxi-Tarif berechnen</string>
   <string name="didi_trip">Taxi</string>
@@ -670,7 +671,7 @@ Sendungsverfolgungsnummer prüfen."</string>
   <string name="express_num_setting_des">Bestellnummern von den auf Ihrem Telefon installierten Liefer-Apps erhalten</string>
   <string name="express_num_setting_title">Bestellinformation aufrufen</string>
   <string name="express_number_txt">Bestellnummer:</string>
-  <string name="express_open">Karte Sendungsverfolgung anzeigen</string>
+  <string name="express_open">Sendungsverfolgungskarte anzeigen</string>
   <string name="express_open_locker">Schlüssel zum Öffnen des Tresors</string>
   <string name="express_open_txt">Öffnen</string>
   <string name="express_order_confirmation">Bestellbestätigung</string>
@@ -755,6 +756,7 @@ Sendungsverfolgungsnummer prüfen."</string>
   <string name="express_setting_request_failed">Anfrage senden nicht möglich. Fehlercode: %s.</string>
   <string name="express_setting_service_provider">Serviceanbieter</string>
   <string name="express_setting_service_unavailable">Aktueller Dienst ist leider nicht verfügbar. Bitte versuchen Sie es später erneut.</string>
+  <string name="express_setting_sim_card_index">"SIM "</string>
   <string name="express_setting_subscribe_phone_failed">Telefonnummer hinzufügen fehlgeschlagen!</string>
   <string name="express_setting_subscribe_phone_success">Telefonnummer erfolgreich hinzugefügt!</string>
   <string name="express_source_from">"Von "</string>
@@ -901,6 +903,7 @@ Sendungsverfolgungsnummer prüfen."</string>
   <string name="function_keyguard_dialog_title">Diese Funktion wird noch nicht unterstützt</string>
   <string name="function_mistore_cart">Warenkorb</string>
   <string name="function_mistore_favorite">Favoriten</string>
+  <string name="function_mistore_title">Mi Store</string>
   <string name="function_music_recognize">Songs erkennen</string>
   <string name="function_music_title">Musik</string>
   <string name="function_not_support">Diese Funktion wird auf diesem Telefon nicht unterstützt</string>
@@ -909,13 +912,16 @@ Sendungsverfolgungsnummer prüfen."</string>
   <string name="function_open_error_content_app_xspace">Diese Dual App wurde nicht auf Ihrem Gerät erstellt. Dual App erstellen oder eine andere Verknüpfung verwenden.</string>
   <string name="function_open_error_content_xspace">Die Dual App dieser Verknüpfung ist auf Ihrem Gerät nicht installiert. Dual App erstellen oder eine andere Verknüpfung verwenden.</string>
   <string name="function_open_error_title">"'%s' wurde nicht geöffnet"</string>
+  <string name="function_qq_new_shuoshuo">Neues Gespräch</string>
   <string name="function_qq_recent">Freunde</string>
+  <string name="function_qq_scan">Scannen</string>
   <string name="function_shopping_parent">Einkaufen</string>
   <string name="function_social_title">Soziale Medien</string>
   <string name="function_taobao_cart">Warenkorb</string>
   <string name="function_taobao_favorite">Beliebte Produkte</string>
   <string name="function_taobao_store">Beliebte Shops</string>
   <string name="function_tencent_video_resume">Weiter</string>
+  <string name="function_tools_parent">Hilfsprogramme</string>
   <string name="function_video_music_title">Musik &amp; Video</string>
   <string name="function_youku_record">Neueste Videos</string>
   <string name="function_zhihu_search">Suchen</string>
@@ -945,7 +951,7 @@ Sendungsverfolgungsnummer prüfen."</string>
   <string name="groupon_setting_brief">Infos über gekaufte Tickets und Coupons anzeigen</string>
   <string name="guide_button_btn_close">Schließen</string>
   <string name="guide_button_btn_keep">Behalten</string>
-  <string name="hold_down_adjustment_order">Halten Sie das Symbol rechts, um Elemente zu bewegen</string>
+  <string name="hold_down_adjustment_order">Symbol gedrückhalten, um App-Verknüpfungen zu verschieben</string>
   <string name="home">Zuhause</string>
   <string name="home_and_company">Zuhause &amp; Arbeit</string>
   <string name="hotel_checkin">Check-in</string>
@@ -1110,7 +1116,7 @@ Sendungsverfolgungsnummer prüfen."</string>
   <string name="mini_page_input_id_hint">ID-Nummer</string>
   <string name="mini_page_input_name_hint">Name des Karteninhabers</string>
   <string name="mini_page_msg_check">Informationsverschlüsselungsverarbeitung, nur für die Bankprüfung</string>
-  <string name="mini_page_msg_choose_type">Wählen Sie einen Dokumenttyp</string>
+  <string name="mini_page_msg_choose_type">Einen Dokumenttyp auswählen</string>
   <string name="mini_page_msg_title">Füllen Sie die Bankkarteninformationen aus</string>
   <string name="mini_page_name">Name</string>
   <string name="mini_page_next">Nächster Schritt</string>
@@ -1144,7 +1150,7 @@ Sendungsverfolgungsnummer prüfen."</string>
   <string name="miot_device_add_device">Gerät hinzufügen</string>
   <string name="miot_device_all_device">Gesamte Ausstattung</string>
   <string name="miot_device_cancel">Abbrechen</string>
-  <string name="miot_device_card_title">Geräte Mi Home</string>
+  <string name="miot_device_card_title">Mi Home Geräte</string>
   <string name="miot_device_click_show_detail">Tippen, um mehr über Smart Home-Geräte zu erfahren)</string>
   <string name="miot_device_click_show_img">Tippen, um das Bild anzuzeigen</string>
   <string name="miot_device_cta_and">und</string>
@@ -1510,7 +1516,7 @@ Keine Reservierung, vergessen oder deaktivieren Sie die Telefonnummer, wenden Si
   <string name="setting_launch_all_added">Hinzufügen weiterer Elemente nicht möglich</string>
   <string name="setting_launch_change">Ändern</string>
   <string name="setting_launch_select_other_app">Andere Apps auswählen</string>
-  <string name="setting_list_guide">Führer</string>
+  <string name="setting_list_guide">Reiseführer</string>
   <string name="setting_list_guide_desc">Hier häufig verwendete Funktionen und Informationen hinzufügen</string>
   <string name="setting_map">Verkehrsinfos</string>
   <string name="setting_map_brief">Routen und Zeit schätzen, die für eine Reise benötigt wird</string>
@@ -1578,7 +1584,7 @@ Keine Reservierung, vergessen oder deaktivieren Sie die Telefonnummer, wenden Si
   <string name="sms_session">Zeit</string>
   <string name="sms_start_date">Datum</string>
   <string name="sms_start_time">Zeit</string>
-  <string name="sms_ticket">Sitz</string>
+  <string name="sms_ticket">Sitzplatz</string>
   <string name="sms_time">Zeit</string>
   <string name="spending_open">Karte Zahlungen aktivieren</string>
   <string name="spending_setting_brief">Zahlungsdetails</string>
@@ -1600,7 +1606,7 @@ Keine Reservierung, vergessen oder deaktivieren Sie die Telefonnummer, wenden Si
   <string name="steps_misport_tip">Bei Mi Fit mit Ihrem Mi Konto anmelden und den Autostart erlauben unter Sicherheit - Rechte</string>
   <string name="steps_sport_des">Erhalten Sie genaue Informationen von der Mi Fit App</string>
   <string name="steps_vip">Schritte</string>
-  <string name="steps_vip_des">Schritte zählen ohne Drittanbieter-Apps zu installieren</string>
+  <string name="steps_vip_des">Schritte zählen, ohne Drittanbieter-Apps zu installieren</string>
   <string name="stock_card_add">Firmen hinzufügen</string>
   <string name="stock_card_title">Vorräte</string>
   <string name="stock_color_schema">Farbschema</string>
@@ -1675,8 +1681,8 @@ Keine Reservierung, vergessen oder deaktivieren Sie die Telefonnummer, wenden Si
   <string name="upgrade_bottom_dialog">Ein Update ist verfügbar</string>
   <string name="upgrade_find">Ein Update ist verfügbar</string>
   <string name="upgrade_later">Später installieren</string>
-  <string name="upgrade_log_default">"1. Verbesserte Leistung.
-2. Fehler behoben."</string>
+  <string name="upgrade_log_default">"1. Verbesserte Leistung
+2. Fehler behoben"</string>
   <string name="upgrade_log_subtitle">(Mit WLAN heruntergeladen)</string>
   <string name="upgrade_log_title">Infoassistent aktualisieren</string>
   <string name="upgrade_now">Jetzt installieren</string>
