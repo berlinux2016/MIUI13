@@ -141,8 +141,7 @@
   <string name="appdownloader_button_cancel_download">Abbrechen</string>
   <string name="appdownloader_button_queue_for_wifi">Warteschlange</string>
   <string name="appdownloader_button_start_now">Sofort starten</string>
-  <string name="appdownloader_download_percent">%1$d%%</string>
-  <string name="appdownloader_download_remaining">Verbleibende Zeit： %1$s</string>
+  <string name="appdownloader_download_remaining">Verbleibende Zeit: %1$s</string>
   <string name="appdownloader_download_unknown_title">&lt;Unbenannt&gt;</string>
   <string name="appdownloader_duration_hours">%1$d Std</string>
   <string name="appdownloader_duration_minutes">%1$d Min</string>
@@ -150,7 +149,7 @@
   <string name="appdownloader_label_cancel">Abbrechen</string>
   <string name="appdownloader_label_ok">Verstanden</string>
   <string name="appdownloader_notification_download">Herunterladen</string>
-  <string name="appdownloader_notification_download_complete_open">Nachdem der Download abgeschlossen ist, auf öffnen tippen.</string>
+  <string name="appdownloader_notification_download_complete_open">Nachdem der Download abgeschlossen ist, auf Öffnen tippen.</string>
   <string name="appdownloader_notification_download_complete_with_install">Nachdem der Download abgeschlossen ist, auf Installieren tippen.</string>
   <string name="appdownloader_notification_download_complete_without_install">Download abgeschlossen</string>
   <string name="appdownloader_notification_download_delete">Sind Sie sicher, dass Sie den Download von %1$s löschen wollen?</string>
@@ -167,11 +166,11 @@
   <string name="appdownloader_notification_prepare">Vorbereiten…</string>
   <string name="appdownloader_tip">Hinweis</string>
   <string name="appdownloader_wifi_recommended_body">"Wenn Sie diesen Inhalt jetzt herunterladen (%1$s), kann sich die Akkulaufzeit verkürzen und/oder übermäßigen mobilen Datenverkehr verursachen (dies kann dazu führen, dass die Anbieter Ihnen je nach Ihrem Datentarif Gebühren berechnen).
-Tippen Sie \"%2$s\", um den Download zu starten, wenn Sie das nächste Mal eine WALN-Verbindung herstellen."</string>
+\"%2$s\" antippen, um den Download zu starten, wenn Sie das nächste Mal eine WLAN-Verbindung herstellen."</string>
   <string name="appdownloader_wifi_recommended_title">Später in die Download-Warteschlange einreihen?</string>
   <string name="appdownloader_wifi_required_body">"Sie müssen WLAN verwenden, um den Download (%1$s) abzuschließen.
-Tippen Sie \"%2$s\", um den Download zu starten, wenn Sie das nächste Mal eine WALN-Verbindung herstellen."</string>
-  <string name="appdownloader_wifi_required_title">Datei ist zu groß, um sie über das Anbieter-Netzwerk herunterzuladen</string>
+\"%2$s\" antippen, um den Download zu starten, wenn Sie das nächste Mal eine WLAN-Verbindung herstellen."</string>
+  <string name="appdownloader_wifi_required_title">Datei ist zu groß, um sie über das Anbieternetzwerk herunterzuladen</string>
   <string name="aqi_quality_index_break">Sehr schädlich</string>
   <string name="aqi_quality_index_dangerous">Gefährlich</string>
   <string name="aqi_quality_index_good">Gut</string>
@@ -181,14 +180,14 @@ Tippen Sie \"%2$s\", um den Download zu starten, wenn Sie das nächste Mal eine 
   <string name="aqi_quality_index_pure">Ausgezeichnet</string>
   <string name="aqi_quality_index_unhealthy">Gesundheitsschädlich</string>
   <string name="auto_download_e_c">Raubkopierte URL-Umleitungsseite</string>
-  <string name="auto_download_show_e_n">Raubkopien von URL-Umgeleiteten Seiten</string>
+  <string name="auto_download_show_e_n">Raubkopien von URL-umgeleiteten Seiten</string>
   <string name="auto_floatlayer_auto_download_e_n">Automatischer Download</string>
   <string name="auto_floatlayer_click_close_e_n">Zum Schließen tippen</string>
   <string name="auto_floatlayer_click_download_e_n">Zum Herunterladen tippen</string>
   <string name="auto_floatlayer_click_e_a">Tippen</string>
   <string name="auto_floatlayer_click_link_e_n">Zum Springen tippen</string>
   <string name="auto_floatlayer_custom_e_n">Benutzerdefinierter Sprung</string>
- <string name="auto_floatlayer_e_c">Floating Intercept Fehlerumleitung Seite</string>
+  <string name="auto_floatlayer_e_c">Floating Intercept Fehlerumleitungsseite</string>
   <string name="auto_floatlayer_show_e_a">exposure</string>
   <string name="auto_floatlayer_show_e_n">Error page floating layer exposure</string>
   <string name="auto_floatlayer_store_download_e_n">App Store herunterladen</string>
@@ -1439,8 +1438,8 @@ Browser muss mit dem Internet verbunden sein, um richtig zu funktionieren. Sie m
   <string name="tt_cancel">Abbrechen</string>
   <string name="tt_comment_num">%1$s Bewertungen</string>
   <string name="tt_comment_score">Auswertung</string>
-  <string name="tt_confirm_download">Sie verwenden kein WLAN. Möchten Sie es wirklich herunterladen?</string>
-  <string name="tt_confirm_download_have_app_name">Bereit zum Herunterladen der %s-App</string>
+  <string name="tt_confirm_download">Sie verwenden kein WLAN. Möchten Sie wirklich herunterladen?</string>
+  <string name="tt_confirm_download_have_app_name">Bereit zum Herunterladen von %s</string>
   <string name="tt_dislike_header_tv_back">Zurück</string>
   <string name="tt_dislike_header_tv_title">Auswählen</string>
   <string name="tt_full_screen_skip_tx">Nach 5 Sek überspringen</string>
@@ -1455,9 +1454,9 @@ Browser muss mit dem Internet verbunden sein, um richtig zu funktionieren. Sie m
   <string name="tt_splash_skip_tv_text">3 Sek | Überspringen</string>
   <string name="tt_tip">Hinweis</string>
   <string name="tt_unlike">Kein Interesse</string>
-  <string name="tt_video_bytesize">"KB "</string>    <!-- ??? -->
-  <string name="tt_video_bytesize_M">"M "</string>
-  <string name="tt_video_bytesize_MB">"MB "</string>
+  <string name="tt_video_bytesize">" KB"</string>    <!-- ??? -->
+  <string name="tt_video_bytesize_M">" M"</string>
+  <string name="tt_video_bytesize_MB">" MB"</string>
   <string name="tt_video_continue_play">Wiedergabe fortsetzen</string>
   <string name="tt_video_dial_phone">Jetzt anrufen</string>
   <string name="tt_video_download_apk">Jetzt runterladen</string>
@@ -1466,7 +1465,7 @@ Browser muss mit dem Internet verbunden sein, um richtig zu funktionieren. Sie m
   <string name="tt_video_without_wifi_tips">Play will consume</string>        <!-- ??? -->
   <string name="tt_web_title_default">Werbung</string>
   <string name="tt_will_play">Demnächst</string>
-  <string name="tt_confirm_download">Sie benutzen ein Nicht-Wifi-Netzwerk. Sind Sie sicher, dass Sie das Programm herunterladen möchten?</string>
+  <string name="tt_confirm_download">Sie nutzen kein WLAN. Sind Sie sicher, dass Sie das Programm herunterladen möchten?</string>
   <string name="unSwitchText">NEIN</string>
   <string name="undo">Rückgängig</string>
   <string name="unknown_title">Unbekannt</string>
