@@ -43,12 +43,12 @@
   <string name="account_settings_name_label">Spitzname</string>
   <string name="account_settings_notifications">Benachrichtigungen</string>
   <string name="account_settings_notify_label">E-Mail-Benachrichtigungen</string>
-  <string name="account_settings_notify_summary">Benachrichtigung in der Systemleiste anzeigen, wenn eine E-Mail empfangen wird</string>
+  <string name="account_settings_notify_summary">Bei neuen E-Mails benachrichtigen</string>
   <string name="account_settings_param">Kontoeinstellungen</string>
   <string name="account_settings_policies">Sicherheitsrichtlinien</string>
   <string name="account_settings_preference_add_account">E-Mail-Konto hinzufügen</string>
   <string name="account_settings_preference_att_save_path">Standardspeicherort für Anhänge</string>
-  <string name="account_settings_preference_head_icon">Avatar wechseln</string>
+  <string name="account_settings_preference_head_icon">Profilfotos</string>
   <string name="account_settings_preference_notify">Benachrichtigen</string>
   <string name="account_settings_retry_label">Versuchen zu Synchronisieren</string>
   <string name="account_settings_retry_summary">Tippen, um Konto zu synchronisieren</string>
@@ -73,7 +73,7 @@
   <string name="account_setup_autodiscover_dlg_authfail_message">Bestätigen Sie, dass der Benutzername, das Passwort und die Kontoeinstellungen richtig sind</string>
   <string name="account_setup_autodiscover_dlg_authfail_title">Kontoeinrichtung fehlgeschlagen</string>
   <string name="account_setup_basics_email_label">E-Mail-Adresse</string>
-  <string name="account_setup_basics_login_gmail_without_proxy">Mit aktuellen Netzwerk anmelden</string>
+  <string name="account_setup_basics_login_gmail_without_proxy">Mit aktuellem Netzwerk anmelden</string>
   <string name="account_setup_basics_manual_setup_action">Manuell einrichten</string>
   <string name="account_setup_basics_mi_mail_login_help">Eventuell müssen Sie Ihr Konto per SMS bestätigen, um E-Mails zu erhalten</string>
   <string name="account_setup_basics_password_label">Passwort</string>
@@ -103,9 +103,9 @@
   <string name="account_setup_failed_dlg_server_message">Verbindung zum Server fehlgeschlagen</string>
   <string name="account_setup_failed_dlg_server_message_fmt">Verbindung zum Server nicht möglich.
 (%s)</string>
-  <string name="account_setup_failed_dlg_title">Abschluß nicht möglich</string>
-  <string name="account_setup_failed_dlg_todo1">Bitte folgenden Tipps beachten oder versuchen Sie, sich über Exchange anzumelden</string>
-  <string name="account_setup_failed_dlg_todo2">Bitte folgenden Tipps beachten</string>
+  <string name="account_setup_failed_dlg_title">Konto einrichten nicht möglich</string>
+  <string name="account_setup_failed_dlg_todo1">Konto wie unten gezeigt einrichten oder versuchen, sich mit EXCHANGE anzumelden</string>
+  <string name="account_setup_failed_dlg_todo2">Konto wie unten gezeigt einrichten</string>
   <string name="account_setup_failed_dlg_unknown_auth_message">Unbekannter Fehler</string>
   <string name="account_setup_failed_ioerror">Verbindung zum Server wurde nicht geöffnet</string>
   <string name="account_setup_failed_protocol_unsupported">Sie haben eine falsche Serveradresse eingegeben, oder der Server verlangt eine Protokollversion, die E-Mail nicht unterstützt</string>
@@ -168,12 +168,12 @@
   <string name="add_account_search">Konto hinzufügen</string>
   <string name="add_attachment">Anhang hinzufügen</string>
   <string name="add_calendar">Erinnern</string>
-  <string name="add_file_exception">Dateiausnahme hinzufügen, versuchen von einem anderen Pfad aus hinzuzufügen.</string>
+  <string name="add_file_exception">Hinzufügen nicht möglich. Versuchen Sie, diesen Anhang von einem anderen Ort hinzuzufügen.</string>
   <string name="add_label">Ordner hinzufügen</string>
-  <string name="add_pre_message_attachments">Möchten Sie den ursprünglichen Anhang hinzufügen?</string>
+  <string name="add_pre_message_attachments">Anhänge der vorherigen Nachricht hinzufügen?</string>
   <string name="add_pre_message_attachments_no">Nicht hinzufügen</string>
   <string name="add_pre_message_attachments_yes">Hinzufügen</string>
-  <string name="add_star">Stern hinzufügen</string>
+  <string name="add_star">Favorisieren</string>
   <string name="all_purpose">Willkommen bei Mail! Dieser E-Mail-Client wurde von Kingsoft für Xiaomi erstellt. Mit dieser App können Sie E-Mails senden und empfangen.</string>
   <string name="allread">Alle lesen</string>
   <string name="always_bcc_myself">Bcc immer an mich</string>
@@ -196,7 +196,7 @@
   <string name="att_mgr_title_order_size">Dateigröße</string>
   <string name="attached_message">Angehängte Nachricht</string>
   <string name="attachment_application_msword">Dokument</string>
-  <string name="attachment_application_vnd_ms_excel">Tabellenkalkulation</string>
+  <string name="attachment_application_vnd_ms_excel">Tabelle</string>
   <string name="attachment_application_vnd_ms_powerpoint">Präsentation</string>
   <string name="attachment_canceling">Abbrechen…</string>
   <string name="attachment_decoding">Anhänge entpacken…</string>
@@ -210,14 +210,13 @@
   <string name="attachment_opening_mode">Apps für Anhänge</string>
   <string name="attachment_size_exceed_limit">Größe überschreitet anscheinend das Serverlimit</string>
   <string name="attachment_stop_all">Anhalten</string>
-  <string name="attachment_type_blocked">Sorry, Sie können diese Art des Anhangs nicht speichern oder öffnen</string>
+  <string name="attachment_type_blocked">Sorry, Sie können diese Art Anhang nicht speichern oder öffnen</string>
   <string name="attachment_unknown">%s Datei</string>
   <string name="attachments_header">Anhänge</string>
-  <string name="auto_advance_help_title">"Einstellungen für autom. Sprünge
-(nach dem Löschen usw.)</string>
-  <string name="auto_advance_label">Automatisch springen</string>
-  <string name="auto_advance_summary">Nach dem Nachricht löschen anzuzeigenden Bildschirm auswählen</string>
-  <string name="auto_login_fail">Automatisches Anmelden fehlgeschlagen</string>
+  <string name="auto_advance_help_title">Nach dem Löschen einer Nachricht dies anzeigen…</string>
+  <string name="auto_advance_label">Nachrichtenverlauf löschen</string>
+  <string name="auto_advance_summary">Wählen, zu welcher Nachricht nach dem Löschen einer Nachricht gescrollt werden soll</string>
+  <string name="auto_login_fail">Automatische Anmeldung fehlgeschlagen</string>
   <string name="auto_login_fail_to_retry">Automatische Anmeldung fehlgeschlagen, erneut versuchen</string>
   <string name="auto_mail_describe">Automatische Konfiguration von 139 Mailbox hilft Ihnen beim Ausfüllen der Anmeldedaten Ihres Postfachs. Möchten Sie diese Funktion aktivieren?</string>
   <string name="auto_mail_disable_txt">Deaktiviert</string>
@@ -228,7 +227,7 @@
   <string name="auto_remind_bind">Hinzufügen</string>
   <string name="auto_remind_discribe_text">Aktivieren, um Erinnerungen automatisch zu erhalten</string>
   <string name="auto_remind_text">Automatische Erinnerungen</string>
-  <string name="auto_remind_unbind">Unbinding / Abbrechen?</string>
+  <string name="auto_remind_unbind">Abbrechen</string>
   <string name="auto_sync_off">Automatische Synchronisation ist ausgeschaltet</string>
   <string name="automatic_remind_text">Automatisch erinnern</string>
   <string name="back">Zurück</string>
