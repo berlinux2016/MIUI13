@@ -2,7 +2,21 @@
 <resources>
   <string name="abc_action_bar_home_description">Zur Startseite</string>
   <string name="abc_action_bar_up_description">Nach oben</string>
+  <string name="abc_action_menu_overflow_description">Weitere Optionen</string>
+  <string name="abc_action_mode_done">Fertig</string>
+  <string name="abc_activity_chooser_view_see_all">Alle ansehen</string>
+  <string name="abc_activitychooserview_choose_application">App auswählen</string>
+  <string name="abc_capital_off">AUS</string>
+  <string name="abc_capital_on">EIN</string>
+  <string name="abc_search_hint">Suchen…</string>
+  <string name="abc_searchview_description_submit">Suchanfrage senden</string>
+  <string name="abc_searchview_description_voice">Sprachsuche</string>
+  <string name="abc_shareactionprovider_share_with">Teilen mit</string>
+  <string name="abc_shareactionprovider_share_with_application">Teilen mit %s</string>
+  <string name="abc_toolbar_collapse_description">Einklappen</string>
+  <string name="abc_toolbar_collapse_description">Minimieren</string>
   <string name="action_mode_deselect_all">Alle abwählen</string>
+  <string name="action_mode_select_all">Alle auswählen</string>
   <string name="action_mode_select_all">Alle auswählen</string>
   <string name="action_mode_title_empty">Auswählen</string>
   <string name="actionbar_button_up_description">Zurück</string>
@@ -17,6 +31,8 @@
   <string name="app_notification_info">Rechner arbeitet im Hintergrund</string>
   <string name="base_rate">Basiszinssatz</string>
   <string name="birthday">Geburtstag</string>
+  <string name="bmi_error_text">Ungültiger BMI! Bitte Ihre Eingabe überprüfen</string>
+  <string name="bmi_over_weight">Übergewicht</string>
   <string name="btn_float_window_alpha">Deckkraft einstellen</string>
   <string name="btn_float_window_back_to_app">Rechner maximieren</string>
   <string name="btn_float_window_close">Minimierten Rechner schließen</string>
@@ -30,6 +46,8 @@
   <string name="check_phone_error_title">Sync ist aus</string>
   <string name="check_phone_io_error">Netzwerkfehler</string>
   <string name="children_education">Kindererziehung</string>
+  <string name="children_education">Kindererziehung</string>
+  <string name="chinese_character_cross_check">Gegenprobe</string>
   <string name="choose_currency">Wählen Sie eine Währung</string>
   <string name="choose_radix">Numerisches System auswählen</string>
   <string name="choose_unit">Wählen Sie eine Einheit</string>
@@ -58,7 +76,10 @@
   <string name="date_time_done">Fertig</string>
   <string name="date_time_picker_dialog_title">Datum und Uhrzeit einstellen</string>
   <string name="dateformat">dd.MM.yyyy</string>
+  <string name="daughter">Tochter</string>
   <string name="day">Tag</string>
+  <string name="default_separator_text">Von</string>
+  <string name="default_text">Ich</string>
   <string name="degDesc">Winkel</string>
   <string name="deleteDesc">löschen</string>
   <string name="description_content">Neben den Grundfunktionen funktioniert Rechner auch als multifunktionaler Konverter, Hypotheken- und Steuerrechner. Wenn Sie die App deinstallieren, können Sie diese Funktionen nicht mehr nutzen.</string>
@@ -81,18 +102,33 @@
   <string name="error_forbidden">Synchronisation wurde wegen Problemen mit dem Mi Konto deaktiviert.</string>
   <string name="error_not_acceptable">Synchronisation wurde deaktiviert</string>
   <string name="error_title">Synchronisation fehlgeschlagen</string>
+  <string name="far_relationship_result">Die Beziehung ist schn länger her. Ältere Menschen werden als Vorfahren bezeichnet und ihre Altersgenossen werden als hübsche Männer bezeichnet.</string>
+  <string name="father">Vater</string>
   <string name="error_unauthorized">Synchronisation wurde wegen zu vieler Anmeldeversuche deaktiviert.</string>
   <string name="exit">Beenden</string>
+  <string name="fmt_date">Tag</string>
+  <string name="fmt_date_day">Tag</string>
+  <string name="fmt_date_long_year_month_day">d. MMMM yyyy</string>
   <string name="extra_deduction_instruction">Abzugsdetails</string>
   <string name="extra_deduction_tips">Tippen Sie auf die Schaltfläche in der oberen Ecke des Bildschirms, um Details zum Abzug anzuzeigen.</string>
+  <string name="fmt_date_numeric_month_day">d.M.</string>
+  <string name="fmt_date_numeric_year_month">M.yyyy</string>
+  <string name="fmt_date_numeric_year_month_day">d.M.yyyy</string>
+  <string name="fmt_date_short_month_day">d. MMM.</string>
+  <string name="fmt_date_short_year_month">MMM. yyyy</string>
+  <string name="fmt_date_short_year_month_day">d. MMM. yyyy</string>
   <string name="extra_deduction_title">Zusätzliche Abzüge</string>
   <string name="factorialDesc">Faktor</string>
+  <string name="fmt_time_12hour">"h 'Uhr'"</string>
+    <string name="fmt_time_24hour">"H 'Uhr'"</string>
   <string name="float_window_guide_text">Hier tippen, um den Rechner zu minimieren</string>
   <string name="friday">Freitag</string>
   <string name="friday_short">Fr</string>
   <string name="from_unit_en">Kilometer pro Stunde</string>
   <string name="fund_loan">Fondsdarlehen</string>
   <string name="further_education">Weiterbildung</string>
+  <string name="gay_other_search_result">For the time being, we do not support the same-sex marriage title inquiry, how to call you decide ~</string>
+  <string name="gay_search_result">Es ist egal, ob männlich oder weiblich, nur Sie</string>
   <string name="global_network_confirm_content">Währungsrechner muss sich mit dem Internet verbinden, um zu funktionieren</string>
   <string name="global_search_key_area_convertion">Fläche;Flächenumrechner; Flächenumrechnung</string>
   <string name="global_search_key_calculation">Berechnen;Rechner;Einheitenumrechnung;Konverter;Einheitenumrechner</string>
@@ -111,24 +147,32 @@
   <string name="golbal_search_path_calculator_setting">System-Apps/Rechner/Einstellungen</string>
   <string name="help_content_desc">Hilfe</string>
   <string name="hint_floatwindow_alpha_guide_text">Hier tippen, um die Deckkraft einzustellen</string>
-  <string name="home_title_calculator">Rechner</string>
   <string name="home_loan">Hypothekenzinsen</string>
+  <string name="hint_floatwindow_alpha_guide_text">Tippen zum Transprenz einstellen</string>
+  <string name="home_title_calculator">Rechner</string>
   <string name="house_rent">Miete</string>
   <string name="immersion_button_close_description">Schließen</string>
+  <string name="husband">Ehemann</string>
   <string name="install">Installieren</string>
   <string name="install_scanner_to_continued_use">Scanner ist deinstalliert. Neu installieren?</string>
   <string name="instruction">Anleitung</string>
   <string name="interest_rate_hint">Zinssatz eingeben</string>
   <string name="item_title_aa_payment">Zahlung splitten</string>
+  <string name="item_title_age">Alter</string>
   <string name="item_title_area_conversion">Fläche</string>
   <string name="item_title_calculator">Rechner</string>
   <string name="item_title_currency">Währung</string>
+  <string name="item_title_date_calculator">Datum</string>
+  <string name="item_title_discount">Rabatt</string>
   <string name="item_title_dress_size">Konfektionsgröße</string>
+  <string name="item_title_emi">Persönliches Darlehen</string>
   <string name="item_title_length_conversion">Länge</string>
   <string name="item_title_mortgage">Hauskredit</string>
+  <string name="item_title_percentage">Prozentsatz</string>
   <string name="item_title_radix">Zahlensystem</string>
   <string name="item_title_relationship">Verwandtschaftsbeziehungen</string>
   <string name="item_title_scientific_calculator">Wissenschaftlich</string>
+  <string name="item_title_spilt_bill">Rechnung teilen</string>
   <string name="item_title_tax">Steuern</string>
   <string name="item_title_temprature_conversion">Temperatur</string>
   <string name="item_title_time_conversion">Zeit</string>
@@ -136,6 +180,24 @@
   <string name="item_title_vel_conversion">Geschwindigkeit</string>
   <string name="item_title_volume_conversion">Volumen</string>
   <string name="item_title_weight_conversion">Gewicht</string>
+  <string name="label_date_difference">Datumsunterschied</string>
+  <string name="label_days">Tage</string>
+  <string name="label_emi">EMI</string>
+  <string name="label_first_repayment">Erste Rückzahlung</string>
+  <string name="label_from_date">Ab Datum</string>
+  <string name="label_interest">Interesse (%)</string>
+  <string name="label_loan_tenure">Darlehenslaufzeit</string>
+  <string name="label_monthly">Monatlich</string>
+  <string name="label_months">Monate</string>
+  <string name="label_principal">Auftraggeber</string>
+  <string name="label_start_date">Startdatum</string>
+  <string name="label_statistics">Statistik</string>
+  <string name="label_to_date">Bis heute</string>
+  <string name="label_total_interest">Zinsen insgesamt</string>
+  <string name="label_total_payment">Zahlung insgesamt</string>
+  <string name="label_total_principal">Auftraggeber insgesamt</string>
+  <string name="label_yearly">Jährlich</string>
+  <string name="label_years">Jahre</string>
   <string name="leftParenDesc">Klammer auf</string>
   <string name="lgDesc">Logarithmus</string>
   <string name="license_host_unreachable">Netzwerkverbindung nicht möglich. Prüfen Sie Ihre Netzwerkeinstellungen und versuchen Sie es erneut.</string>
@@ -162,9 +224,7 @@
   <string name="loan_repayment_detail_unit">Detaillierte Tilgung (EUR)</string>
   <string name="loan_type_title">Zinsstandard</string>
   <string name="lpr_ok">Verstanden</string>
-  <string name="lpr_tips_msg">"Ab dem 8. Oktober 2019 wird der private gewerbliche Wohnungsbaudarlehenszinssatz nach dem Darlehensleitzins (LPR) anstelle des bisher verwendeten Referenzzinssatzes von 4,9% berechnet. Nun wird der endgültige Kurs durch Hinzufügen eines LPR-Basispunktes bestätigt.
-
-Einjährige und fünfjährige LPRs werden am 20. eines jeden Monats (Verzögerungen durch Bankfeiertage können auftreten) auf der Website der People's Bank of China notiert."</string>
+  <string name="lpr_tips_msg">"Ab dem 8. Oktober 2019 wird der private gewerbliche Wohnungsbaudarlehenszinssatz nach dem Darlehensleitzins (LPR) anstelle des bisher verwendeten Referenzzinssatzes von 4,9% berechnet. Nun wird der endgültige Kurs durch Hinzufügen eines LPR-Basispunktes bestätigt.##Einjährige und fünfjährige LPRs werden am 20. eines jeden Monats (Verzögerungen durch Bankfeiertage können auftreten) auf der Website der People's Bank of China notiert."</string>
   <string name="lpr_tips_title">LPR (Darlehensleitzins)</string>
   <string name="medical_treatment">Medizinische Behandlung</string>
   <string name="menuDesc">Menü</string>
@@ -208,8 +268,8 @@ Einjährige und fünfjährige LPRs werden am 20. eines jeden Monats (Verzögerun
   <string name="mortgage_item_start_time">Tilgungsbeginn</string>
   <string name="mortgage_item_years">Kreditlaufzeit</string>
   <string name="mortgage_loans_amount">Darlehensbetrag</string>
-  <string name="mortgage_provider_east_money">Daten werden von East Money zur Verfügung gestellt</string>
   <string name="mortgage_provident_found_interest_rate">Fondszinssatz</string>
+  <string name="mortgage_provider_east_money">Daten werden von East Money zur Verfügung gestellt</string>
   <string name="mortgage_repayment_amount">Rückzahlungsbetrag</string>
   <string name="mortgage_result">Hypothekenergebnis</string>
   <string name="mortgage_show_details">Dateils anzeigen</string>
@@ -217,8 +277,9 @@ Einjährige und fünfjährige LPRs werden am 20. eines jeden Monats (Verzögerun
   <string name="mortgage_tab_combining_loan">Kombiniert</string>
   <string name="mortgage_tab_commercial_loan">Gewerblich</string>
   <string name="mortgage_years_amount">Hypothekenlaufzeit</string>
-  <string name="mulDesc">Multiplikation</string>
+  <string name="mother">Mutter</string>
   <string name="mt_max">Eingegebener Betrag ist zu groß</string>
+  <string name="mulDesc">Multiplikation</string>
   <string name="negDesc">Umschalten zwischen Minus- und Minustemperaturen</string>
   <string name="network_confirm_content">Währungs-, Steuer- und Hypothekenrechner müssen eine Internetverbindung herstellen, um normal arbeiten zu können.</string>
   <string name="network_confirm_title">Netzwerkanforderung</string>
@@ -238,11 +299,13 @@ Einjährige und fünfjährige LPRs werden am 20. eines jeden Monats (Verzögerun
   <string name="permission_phone">Zugriff auf Gerätestatus und ID</string>
   <string name="permission_phone_desc">Zur Identifizierung verschiedener Geräte</string>
   <string name="permission_privacy_link"><Data>Bevor Sie diese App nutzen, lesen und akzeptieren Sie unsere <a href="%1$s">Nutzervereinbarung</a> und <a href="%2$s">Datenschutzerklärung</a>.</Data></string>
-  <string name="permission_purpose">"Willkommen bei Rechner! Neben den Grundfunktionen können Sie mit Rechner Währungen und Maßeinheiten umrechnen, Hypothekenrückzahlungen berechnen und vieles mehr. Wir werden Ihre persönlichen Daten in Übereinstimmung mit den relevanten Gesetzen, Vorschriften und Datenschutzrichtlinien schützen.
-Beachten Sie, dass diese App eine Internetverbindung und folgende Berechtigungen benötigt, um Ihre persönlichen Daten zu erfassen:"</string>
+  <string name="permission_purpose">"Willkommen bei Rechner! Neben den Grundfunktionen können Sie mit Rechner Währungen und Maßeinheiten umrechnen, Hypothekenrückzahlungen berechnen und vieles mehr. Wir werden Ihre persönlichen Daten in Übereinstimmung mit den relevanten Gesetzen, Vorschriften und Datenschutzrichtlinien schützen.#Beachten Sie, dass diese App eine Internetverbindung und folgende Berechtigungen benötigt, um Ihre persönlichen Daten zu erfassen:"</string>
   <string name="permission_remove_desc">Sie können wählen, ob Sie diese App deinstallieren, die Berechtigungen einschränken oder in den Einstellungen entziehen.</string>
   <string name="permlab_sendSmsNoConfirmation">SMS-Nachrichten im Hintergrund zulassen</string>
   <string name="phone">Telefon</string>
+  <string name="not_supported_due_to_language">Diese Funktion ist nur für die chinesische Sprache verfügbar.</string>
+  <string name="percentDesc">Prozent</string>
+  <string name="pi">Pi</string>
   <string name="piDesc">Pi</string>
   <string name="plusDesc">Addition</string>
   <string name="powerDesc">Potenz</string>
@@ -253,6 +316,7 @@ Beachten Sie, dass diese App eine Internetverbindung und folgende Berechtigungen
   <string name="preference_check_update_summary_current_version">Aktuelle Version: %s</string>
   <string name="preference_check_update_summary_new_version">Neue Version: %s</string>
   <string name="preference_check_update_title">Auf Updates prüfen</string>
+  <string name="preference_feedback_title">Häufig gestellte Fragen</string>
   <string name="preference_follow_us">Folgen Sie uns</string>
   <string name="preference_follow_web_title">Offizielle Webseite</string>
   <string name="preference_help">Hilfe &amp; Feedback</string>
@@ -262,6 +326,7 @@ Beachten Sie, dass diese App eine Internetverbindung und folgende Berechtigungen
   <string name="preference_settings">Einstellungen</string>
   <string name="preference_use_degress_summary">Ersetzen Sie in den Trigonometriefunktionen Radiant durch Winkel</string>
   <string name="preference_use_degress_title">Winkel verwenden</string>
+  <string name="preference_use_voice">Sprachausgabe</string>
   <string name="preference_use_voice_summary">Option aktivieren, um Sprachausgabe während der Berechnungen zu verwenden</string>
   <string name="preference_use_voice_title">Sprachausgabe</string>
   <string name="privacy_policy">Datenschutzerklärung</string>
@@ -269,6 +334,8 @@ Beachten Sie, dass diese App eine Internetverbindung und folgende Berechtigungen
   <string name="rate_data_provider">Zinssätze werden von hexun.com bereitgestellt</string>
   <string name="reciprocalDesc">Kehrwert</string>
   <string name="rightParenDesc">Klammer zu</string>
+  <string name="relationship_cross_check_suggestion">TA-Ruf mich an</string>
+  <string name="relationship_default_separator_text">的</string>
   <string name="sar">RF Gefährdungsinfo</string>
   <string name="saturday">Samstag</string>
   <string name="saturday_short">Sa</string>
@@ -314,6 +381,7 @@ Beachten Sie, dass diese App eine Internetverbindung und folgende Berechtigungen
   <string name="solar_term_white_dews">Weißer Tau</string>
   <string name="solar_term_winter_begins">Winteranfang</string>
   <string name="solar_term_winter_solstice">Wintersonnenwende</string>
+  <string name="son">Sohn</string>
   <string name="sqrtDesc">Quadratwurzel</string>
   <string name="sunday">Sonntag</string>
   <string name="sunday_short">So</string>
@@ -322,6 +390,8 @@ Beachten Sie, dass diese App eine Internetverbindung und folgende Berechtigungen
   <string name="sync_one_time_sync">Tippen zum Synchronisieren (%1$s)</string>
   <string name="tab_title_calculator">Rechner</string>
   <string name="tab_title_convert">Umrechner</string>
+  <string name="tab_title_finance">Finanzen</string>
+  <string name="tab_title_life">Leben</string>
   <string name="tab_title_tax_mortgage">Hypothek</string>
   <string name="tab_title_tax_mortgage_global">Hypothek</string>
   <string name="tanDesc">Tangens</string>
@@ -379,6 +449,7 @@ Beachten Sie, dass diese App eine Internetverbindung und folgende Berechtigungen
   <string name="tax_total_insurance_provident_fund">Versicherung &amp; Immobilienfonds</string>
   <string name="tax_unemployment">Arbeitslosigkeit</string>
   <string name="tax_update_time_format">Daten im Jahr %s</string>
+  <string name="tenure_months">%d Monate</string>
   <string name="the_anniversary_of_lifting_martial_law">Jahrestag der Aufhebung des Kriegsrechts</string>
   <string name="the_anti_aggression_day">Antiaggressionstag</string>
   <string name="the_arbor_day">Tag des Baumes</string>
@@ -449,6 +520,7 @@ Beachten Sie, dass diese App eine Internetverbindung und folgende Berechtigungen
   <string name="unit_data_display_currency_aed">VAE Dirham</string>
   <string name="unit_data_display_currency_ars">Argentinischer Peso</string>
   <string name="unit_data_display_currency_aud">Australische Dollar</string>
+  <string name="unit_data_display_currency_bdt">Bangladeschisches Geld</string>
   <string name="unit_data_display_currency_bgn">Bulgarischer Lew</string>
   <string name="unit_data_display_currency_bhd">Bahrain Dinar</string>
   <string name="unit_data_display_currency_bnd">Brunei Dollar</string>
@@ -546,7 +618,7 @@ Beachten Sie, dass diese App eine Internetverbindung und folgende Berechtigungen
   <string name="unit_data_display_volume_cu.in">Kubikzoll</string>
   <string name="unit_data_display_volume_cu.m">Kubikmeter</string>
   <string name="unit_data_display_volume_cu.mm">Kubikmillimeter</string>
-  <string name="unit_data_display_volume_cu.um">Kubikmikron</string>
+  <string name="unit_data_display_volume_cu.um">Kubikmikrometer</string>
   <string name="unit_data_display_volume_cu.yd">Kubikyard</string>
   <string name="unit_data_display_volume_dl">Deziliter</string>
   <string name="unit_data_display_volume_hl">Hektoliter</string>
@@ -561,15 +633,23 @@ Beachten Sie, dass diese App eine Internetverbindung und folgende Berechtigungen
   <string name="unit_data_display_weight_uk.cwt">Britischer Zentner</string>
   <string name="unit_data_display_weight_un.cwt">Zentner</string>
   <string name="unit_data_display_weight_us.cwt">US Zentner</string>
+  <string name="unit_pound">Pfund</string>
   <string name="unit_year">a</string>
+  <string name="unit_year_format">Jahr %s</string>
   <string name="unit_year_format">Jahr %s</string>
   <string name="unit_yuan">EUR</string>
   <string name="updating">Rechner aktualisieren…</string>
+  <string name="updating">Rechner aktualisieren…</string>
+  <string name="user_agreement">Nutzervereinbarung</string>
   <string name="user_agreement">Nutzervereinbarung</string>
   <string name="user_manual">Benutzerhandbuch</string>
   <string name="view_float_window_move">Minimierten Rechner verschieben</string>
+  <string name="view_float_window_move">Minimierten Rechner verschieben</string>
   <string name="voiceDesc">Sprachsteuerung</string>
+  <string name="voiceDesc">Sprachsteuerung</string>
+  <string name="voice_guide_text">Hier können Sie die Sprachausgabe einschalten</string>
   <string name="voice_guide_text">Sie können die Sprachausgabe hier einschalten</string>
+  <string name="warn_locale_unsupport_for_voice">Die Sprachausgabe für diese Sprache wird noch nicht unterstützt.</string>
   <string name="web_sso_login_fail">Sie müssen sich erneut anmelden</string>
   <string name="web_sso_login_message">Anmelden…</string>
   <string name="website">Webseite</string>
@@ -581,10 +661,14 @@ Beachten Sie, dass diese App eine Internetverbindung und folgende Berechtigungen
   <string name="word_figure_guide_text">Halten Sie den Text gedrückt, um zwischen den Fällen zu konvertieren</string>
   <string name="xiaomi_connect_download_manager_fail">Verbindung fehlgeschlagen, prüfen Sie die Einstellungnen für Downloads</string>
   <string name="xiaomi_external_storage_unavailable">Kein freier Speicher, prüfen Sie die SD-Karte</string>
-  <string name="xiaomi_update_dialog_message">Version %1$s ist verfügbar
-Größe: %2$s</string>
-  <string name="xiaomi_update_dialog_message_diff">Version %1$s ist verfügbar
-Deltagröße: %2$s</string>
+  <string name="xiaomi_kilobytes_unit">%1$s KB</string>
+  <string name="xiaomi_megabytes_unit">%1$s MB</string>
+  <string name="xiaomi_update_dialog_message">"Version %1$s ist verfügbar
+Größe: %2$s"</string>
+  <string name="xiaomi_update_dialog_message_diff">"Version %1$s ist verfügbar
+Deltagröße: %2$s"</string>
   <string name="xiaomi_update_dialog_title">%1$s aktualisieren!</string>
   <string name="yesterday">Gestern</string>
+  <string name="younger_brother">Bruder</string>
+  <string name="younger_sister">Schwester</string>
 </resources>
