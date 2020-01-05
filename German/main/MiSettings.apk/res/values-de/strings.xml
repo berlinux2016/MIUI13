@@ -98,7 +98,6 @@
   <string name="unlock_times_per_day">"Tagesdurchschnitt: "</string>
   <string name="unlock_times_per_hour">"Entsperrt pro Stunde: "</string>
   <string name="usage_agree">Zustimmen</string>
-
   <string name="usage_creating_weekly_report">Wochenbericht für Sie erstellen…</string>
   <string name="usage_focus_new_summary">Mich besser kennenlernen</string>
   <string name="usage_no_net_summary">Bitte Ihre Internetverbindung auf Funktion prüfen</string>
@@ -109,7 +108,6 @@
 <!-- ??? -->
   <string name="usage_weekly_report_summary">Exklusive wöchentliche Zeit</string>
   <string name="usage_weekly_report_title">Geräteeinsatz wöchentlich</string>
-
   <string name="usage_app_get_it">Verstanden</string>
   <string name="usage_app_limit_alter_summary">Sieht aus, als wäre dieses Zeitlimit kürzer als die Zeit, die Sie heute diese App benutzt haben. Trotzdem Limit setzen?</string>
   <string name="usage_app_limit_alter_title">Bildschirmzeitlimit prüfen</string>
@@ -128,8 +126,10 @@
   <string name="usage_exit">Beenden</string>
   <string name="usage_beat_fans">Besser als %s der Mi Fans</string>
   <string name="usage_continuous_days">Serie</string>
+  <string name="usage_creating_weekly_report">Wöchentlichen Bericht erstellen…</string>
   <string name="usage_focus_focus_premission_main_summary">Diese App muss auf Ihre Kontoinformationen zugreifen, um Ihre Entspannungsmodus-Nutzungsstatistik aufzuzeichnen.</string>
   <string name="usage_focus_focus_premission_second_summary">Wenn Sie mit der Erteilung solcher Berechtigungen nicht einverstanden sind, können Sie einige Funktionen dieser App nicht nutzen, ihre Grundfunktionen stehen Ihnen jedoch weiterhin zur Verfügung. Sie können die Berechtigungen jederzeit einschränken oder Ihre Berechtigung in den Einstellungen widerrufen.</string>
+  <string name="usage_focus_new_summary">Achtsamer und konzentrierter werden</string>
   <string name="usage_focus_save_success">Erfolgreich in der Galerie gespeichert</string>
   <string name="usage_focus_summary_level1">Es ist einfach, sich ein paar Minuten Zeit zu nehmen, um konzentriert zu bleiben.</string>
   <string name="usage_focus_summary_level2">Entspannung kann zu einer erfüllten Routine werden.</string>
@@ -143,7 +143,6 @@
   <string name="usage_focus_title_level5">Konzentriert bleiben</string>
   <string name="usage_home_premission_main_summary">Willkommen bei Bildschirmzeit! Mit dieser App können Sie Bildschirmzeiten festlegen, Statistiken anzeigen und in den Entspannungsmodus wechseln. Diese App muss Zeitinformationen über den Bildschirm sammeln (z.B. die Anzahl, wo oft Sie Ihr Telefon freischalten und den Bildschirm einschalten, sowie die Dauer der Nutzung von Apps), um normal zu funktionieren.</string>
   <string name="usage_home_premission_second_summary">Um normal arbeiten zu können, muss diese App Ihre persönlichen Daten erfassen. Wir werden Ihre personenbezogenen Daten in Übereinstimmung mit den einschlägigen Gesetzen, Vorschriften und Datenschutzrichtlinien schützen.</string>
-
   <string name="usage_home_permission_account_summary">Zum Anmelden bei Mi Konto und zum Synchronisieren der Bildschirmzeit-Statistiken</string>
   <string name="usage_home_permission_account_title">Zugriff auf Kontoinformationen</string>
   <string name="usage_home_permission_phone_summary">Zur Geräteidentifizierung mit VAID</string>
@@ -157,7 +156,13 @@ Diese App muss außerdem eine Internetverbindung herstellen und benötigt die fo
   <string name="usage_home_premission_second_summary_new">"Wir schützen Ihre persönlichen Daten in Übereinstimmung mit den einschlägigen Gesetzen, Vorschriften und Datenschutzrichtlinien. 
 Wenn Sie nicht zustimmen, solche Genehmigungen zu erteilen oder Ihre persönlichen Daten zu teilen und hochzuladen, können Sie diese App nicht nutzen. 
 Sie können Ihre Berechtigung unter Bildschirmzeit &gt; Einstellungen &gt; Bildschirmzeit ausschalten widerrufen. Wenn Sie weitere Fragen zum Thema Datenschutz haben, können Sie uns unter privacy@xiaomi.com kontaktieren."</string>
-
+  <string name="usage_no_net_summary">Ihre Netzwerkeinstellungen überprüfen und erneut versuchen</string>
+  <string name="usage_refresh">Erneut versuchen</string>
+  <string name="usage_request_error_summary">Ein unbekannter Fehler ist aufgetreten</string>
+  <string name="usage_request_timeout_summary">Anfrage zeitgesteuert</string>
+  <string name="usage_special_feature">Besondere Funktionen</string>
+  <string name="usage_weekly_report_summary">Erfahren Sie, wie Sie Zeit mit Ihrem Gerät verbringen</string>
+  <string name="usage_weekly_report_title">Wöchentlicher Bericht</string>
   <string name="usage_state_accurate_date">dd. MMMM yyyy</string>
   <string name="usage_state_add_up_count">Sitzungen</string>
   <string name="usage_state_add_up_days">Tage</string>
@@ -203,7 +208,7 @@ Sie können Ihre Berechtigung unter Bildschirmzeit &gt; Einstellungen &gt; Bilds
   <string name="usage_state_friday">Fr</string>
   <string name="usage_state_go_more">Weitere Apps</string>
   <string name="usage_state_hour_minute" formatted="false">%d Std %d Min</string>
-  <string name="usage_state_less_one_minute">Weniger als 1 Minute</string>
+  <string name="usage_state_less_one_minute">&lt; 1 Minute</string>
   <string name="usage_state_monday">Mo</string>
   <string name="usage_state_mourth_day">Bildschirmzeit am %s</string>
   <string name="usage_state_noti_mourth_day">Benachrichtigungen am %s</string>
