@@ -378,18 +378,18 @@ Kontaktkarten sind ausgeschaltet."</string>
   <string name="device_paired_dialog_title">Kontakte abrufen…</string>
   <string name="device_pairing_dialog_message">Verbinden…</string>
   <string name="device_pairing_dialog_title">Geräte verbinden</string>
-  <string name="device_transfer_by_bluetooth_message">"1. Bitte schalten Sie \"Bluetooth\" auf dem anderen Gerät ein;
+  <string name="device_transfer_by_bluetooth_message" formatted="false">"%d. Bitte schalten Sie \"Bluetooth\" auf dem anderen Gerät ein;
 
 - Auf Android-Geräten finden Sie \"Bluetooth\" normalerweise bei den Netzwerkeinstellungen
 - Auf iOS-Geräten sollten Sie \"Bluetooth\" in den Einstellungen suchen
 
-2. Auf Android-Geräten sollten Sie außerdem \"Sichtbarkeit für andere Geräte\" einschalten;
+%d. Auf Android-Geräten sollten Sie außerdem \"Sichtbarkeit für andere Geräte\" einschalten;
 
-3. Tippen Sie \"Weiter\" und geben Sie Kontakte die erforderlichen Berechtigungen."</string>
-  <string name="device_transfer_by_sim_message">"1. Speichern Sie die Kontakte des anderen Geräts auf der SIM-Karte;
+%d. Tippen Sie \"Weiter\" und geben Sie Kontakte die erforderlichen Berechtigungen."</string>
+  <string name="device_transfer_by_sim_message" formatted="false">"%d. Speichern Sie die Kontakte des anderen Geräts auf der SIM-Karte;
 
 
-2. Gehen Sie zu "Kontakteinstellungen" - "Kontakte im-/exportieren" - "Von SIM-Karte importieren": einen Kontakt gedrückt halten, die zu importierenden Kontakte auswählen, dann "Importieren" antippen."</string>
+%d. Gehen Sie zu "Kontakteinstellungen" - "Kontakte im-/exportieren" - "Von SIM-Karte importieren": einen Kontakt gedrückt halten, die zu importierenden Kontakte auswählen, dann "Importieren" antippen."</string>
   <string name="device_version_header_bluetooth">Stellen Sie sicher, dass Bluetooth an ist</string>
   <string name="device_version_header_no_bluetooth">Kontakte von SIM-Karte importieren</string>
   <string name="dial">Wählen</string>
@@ -549,7 +549,7 @@ Grund: \"%s\""</string>
   <string name="import_from_sim1">Von SIM-Karte 1 importieren</string>
   <string name="import_from_sim2">Von SIM-Karte 2 importieren</string>
   <string name="import_multiple_vcard_string">Mehrere vCard-Dateien importieren</string>
-  <string name="import_one_vcard_string">1 vCard-Datei importieren</string>
+  <string name="import_one_vcard_string">%d vCard-Datei importieren</string>
   <string name="import_selected_sim_entries_miui">Ausgewählte Kontakte importieren</string>
   <string name="import_sim_contacts_hint_title">Kontakte von der SIM-Karte importieren</string>
   <string name="import_sim_entries_finish">Kontakte von SIM-Karte importiert</string>
@@ -752,68 +752,19 @@ Grund: \"%s\""</string>
   <string name="nickname_picker_name_column">Kontaktname</string>
   <string name="nickname_picker_nickname_column">Titel</string>
   <string name="noAccounts">Um Gruppen erstellen zu können, benötigen Sie ein Konto</string>
-  <string name="noContactHelpTextImportXiaomiAccountInfo">Xiaomi-, Google- und Exchange-Kontakte synchronisieren</string>
+  <string name="noContactHelpTextImportXiaomiAccountInfo">Kontakte vom Mi Konto wiederherstellen</string>
   <string name="noContacts">Keine Kontakte</string>
-  <string name="noContactsHelpText">"Keine Kontakte zum Anzeigen vorhanden.
-
-Um Kontakte hinzuzufügen, berühren Sie "&lt;b&gt;&lt;font fgcolor="#ffffffff"&gt;Menu&lt;/font&gt;&lt;/b&gt;", dann drücken Sie:
-
-"&lt;b&gt;&lt;font fgcolor="#ffffffff"&gt;&lt;li&gt;"Konten, um ein Konto hinzuzufügen oder einzurichten und mögliche Kontakte mit dem Telefon zu synchronisieren
-"&lt;/li&gt;&lt;/font&gt;&lt;/b&gt;"
-"&lt;b&gt;&lt;font fgcolor="#ffffffff"&gt;&lt;li&gt;"Neue Kontakte, um einen neuen Kontakt zu erstellen
-"&lt;/li&gt;&lt;/font&gt;&lt;/b&gt;"
-"&lt;b&gt;&lt;font fgcolor="#ffffffff"&gt;&lt;li&gt;"Importieren/Exportieren, um Kontakte von der SIM- oder SD-Karte zu importieren
-"&lt;/li&gt;&lt;/font&gt;&lt;/b&gt;"
-"</string>
-  <string name="noContactsHelpTextForCreateShortcut">Keine Kontakte zum Anzeigen vorhanden</string>
-  <string name="noContactsHelpTextWithSync">"Keine Kontakte zum Anzeigen vorhanden. (Sollten Sie gerade ein Konto hinzugefügt haben, kann es einen Moment bis zur Anzeige dauern.)
-
-Um Kontakte hinzuzufügen, berühren Sie "&lt;b&gt;&lt;font fgcolor="#ffffffff"&gt;Menü&lt;/font&gt;&lt;/b&gt;" und dann wählen Sie:
-
-"&lt;b&gt;&lt;font fgcolor="#ffffffff"&gt;&lt;li&gt;"Konten, um ein Konto hinzuzufügen oder einzurichten und mögliche Kontakte mit dem Telefon zu synchronisieren
-"&lt;/li&gt;&lt;/font&gt;&lt;/b&gt;"
-"&lt;b&gt;&lt;font fgcolor="#ffffffff"&gt;&lt;li&gt;"Anzeigeoptionen, um die anzuzeigenden Kontakte auszuwählen
-"&lt;/li&gt;&lt;/font&gt;&lt;/b&gt;"
-"&lt;b&gt;&lt;font fgcolor="#ffffffff"&gt;&lt;li&gt;"Neue Kontakte, um einen neuen Kontakt zu erstellen
-"&lt;/li&gt;&lt;/font&gt;&lt;/b&gt;"
-"&lt;b&gt;&lt;font fgcolor="#ffffffff"&gt;&lt;li&gt;"Importieren/Exportieren, um Kontakte von der SIM- oder SD-Karte zu importieren
-"&lt;/li&gt;&lt;/font&gt;&lt;/b&gt;"
-"</string>
-  <string name="noContactsHelpTextWithSyncForCreateShortcut">Keine Kontakte zum Anzeigen vorhanden. (Sollten Sie gerade ein Konto hinzugefügt haben, kann es einen Moment bis zur Anzeige dauern.)</string>
-  <string name="noContactsNoSimHelpText">"Keine Kontakte zum Anzeigen vorhanden.
-
-Um Kontakte hinzuzufügen, berühren Sie "&lt;b&gt;&lt;font fgcolor="#ffffffff"&gt;Menü&lt;/font&gt;&lt;/b&gt;" und dann wählen Sie:
-
-"&lt;b&gt;&lt;font fgcolor="#ffffffff"&gt;&lt;li&gt;"Konten, um ein Konto hinzuzufügen oder einzurichten und mögliche Kontakte mit dem Telefon zu synchronisieren
-"&lt;/li&gt;&lt;/font&gt;&lt;/b&gt;"
-"&lt;b&gt;&lt;font fgcolor="#ffffffff"&gt;&lt;li&gt;"Neue Kontakte, um einen neuen Kontakt zu erstellen
-"&lt;/li&gt;&lt;/font&gt;&lt;/b&gt;"
-"&lt;b&gt;&lt;font fgcolor="#ffffffff"&gt;&lt;li&gt;"Importieren/Exportieren, um Kontakte von der SD-Karte zu importieren
-"&lt;/li&gt;&lt;/font&gt;&lt;/b&gt;"
-"</string>
-  <string name="noContactsNoSimHelpTextWithSync">"Keine Kontakte zum Anzeigen vorhanden. (Sollten Sie gerade ein Konto hinzugefügt haben, kann es einen Moment bis zur Anzeige dauern.)
-
-Um Kontakte hinzuzufügen, berühren Sie "&lt;b&gt;&lt;font fgcolor="#ffffffff"&gt;Menü&lt;/font&gt;&lt;/b&gt;", und dann wählen Sie:
-"&lt;b&gt;&lt;font fgcolor="#ffffffff"&gt;&lt;li&gt;"Konten, um ein Konto hinzuzufügen oder einzurichten und mögliche Kontakte mit dem Telefon zu synchronisieren
-"&lt;/li&gt;&lt;/font&gt;&lt;/b&gt;"
-"&lt;b&gt;&lt;font fgcolor="#ffffffff"&gt;&lt;li&gt;"Anzeigeoptionen, um die anzuzeigenden Kontakte auszuwählen
-"&lt;/li&gt;&lt;/font&gt;&lt;/b&gt;"
-"&lt;b&gt;&lt;font fgcolor="#ffffffff"&gt;&lt;li&gt;"Neue Kontakte, um einen neuen Kontakt zu erstellen
-"&lt;/li&gt;&lt;/font&gt;&lt;/b&gt;"
-"&lt;b&gt;&lt;font fgcolor="#ffffffff"&gt;&lt;li&gt;"Importieren/Exportieren, um Kontakte von der SD-Karte zu importieren
-"&lt;/li&gt;&lt;/font&gt;&lt;/b&gt;"
-"</string>
-  <string name="noContactsWithPhoneNumbers">Keine Kontakte mit Telefonnummer vorhanden</string>
+  <string name="noContactsWithPhoneNumbers">Keine Kontakte mit Telefonnummern</string>
   <string name="noFavoritesHelpText">"Keine Favoriten vorhanden.
 
 Um einen Kontakt zu den Favoriten hinzuzufügen:
 
-"&lt;li&gt;Berühre &lt;b&gt;Kontakte&lt;/b&gt;" tab
-"&lt;/li&gt;"
-"&lt;li&gt;"Kontakt wählen, der zu den Favoriten hinzugefügt werden soll
-"&lt;/li&gt;"
-"&lt;li&gt;"Stern neben dem Kontaktnamen antippen
-"&lt;/li&gt;"
+"&lt;li>Auf den &lt;b>Kontakte&lt;/b>"-Tab tippen
+"&lt;/li>"
+"&lt;li>"Kontakt wählen, der zu den Favoriten hinzugefügt werden soll
+"&lt;/li>"
+"&lt;li>"Stern neben dem Kontaktnamen antippen
+"&lt;/li>"
 "</string>
   <string name="noGroups">Keine Gruppen</string>
   <string name="noMatchingContacts">Keine passenden Kontakte gefunden</string>
@@ -1094,7 +1045,7 @@ Drücken Sie auf Zusammenführen, um zu beginnen."</string>
   <string name="set_photo_failed_msg">Kontaktfoto wurde nicht gesetzt</string>
   <string name="share_contact_as">Kontakt teilen als</string>
   <string name="share_error">Kontakt wurde nicht geteilt</string>
-  <string name="share_over_limit">Mehr als 1000 Kontakte können nicht geteilt werden</string>
+  <string name="share_over_limit">Mehr als %d Kontakte können nicht geteilt werden</string>
   <string name="share_qrcode">QR-Code teilen</string>
   <string name="share_via">Senden mittels</string>
   <string name="share_visible_contacts">Kontakte teilen</string>
@@ -1136,13 +1087,13 @@ Drücken Sie auf Zusammenführen, um zu beginnen."</string>
   <string name="single_group_list_empty">Keine Gruppenkontakte</string>
   <string name="smart_group_company_label">Nach Firma</string>
   <string name="smart_group_company_unavailable">Keine Firma</string>
-  <string name="smart_group_frequency_1">Innerhalb des Monats</string>
-  <string name="smart_group_frequency_2">Innerhalb von 3 Monaten</string>
-  <string name="smart_group_frequency_3">Innerhalb von 6 Monaten</string>
-  <string name="smart_group_frequency_4">Über 6 Monate</string>
+  <string name="smart_group_frequency_1">Innerhalb des letzten Monats</string>
+  <string name="smart_group_frequency_2" formatted="false">%d bis %d Monate</string>
+  <string name="smart_group_frequency_3" formatted="false">%d to %d Monate</string>
+  <string name="smart_group_frequency_4">Vor über %d Monaten</string>
   <string name="smart_group_frequency_label">Nach zuletzt kontaktiert</string>
   <string name="smart_group_label">Intelligente Sortierung</string>
-  <string name="smart_group_loading">Gruppen laden…</string>
+  <string name="smart_group_loading">Einen Moment…</string>
   <string name="smart_group_location_label">Nach Standort</string>
   <string name="smart_group_location_unavailable">Keine Adresse</string>
   <string name="sms">SMS</string>
@@ -1186,12 +1137,10 @@ Drücken Sie auf Zusammenführen, um zu beginnen."</string>
   <string name="t9_search_empty_edit_contact">Zu Kontakten hinzufügen</string>
   <string name="t9_search_empty_send_sms">Nachricht senden</string>
   <string name="t9_search_empty_video_call">Videoanruf</string>
-  <string name="t9_search_guide_pinyin">Geben Sie 2 und 8 ein, um nach Alan Turing zu suchen</string>
   <string name="t9_search_guide_pinyin_title1">Geben Sie Ziffern ein, um Kontakte zu suchen</string>
-  <string name="t9_search_guide_pinyin_title2">Geben Sie 2 und 3 ein, um nach Alan Frank zu suchen</string>
-  <string name="t9_search_guide_zhuyin">Geben Sie 2 und 8 ein, um nach Alan Turing zu suchen</string>
+  <string name="t9_search_guide_pinyin_title2" formatted="false">%d und %d eingeben, um nach &lt;font fgcolor="">X&lt;/font>avier &lt;font fgcolor="">H&lt;/font>enry zu suchen</string>
   <string name="t9_search_guide_zhuyin_title1">Geben Sie Ziffern ein, um Kontakte zu suchen</string>
-  <string name="t9_search_guide_zhuyin_title2">Geben Sie 5 und 6 ein, um nach Jeff Max zu suchen</string>
+  <string name="t9_search_guide_zhuyin_title2" formatted="false">%d und %d eingeben, um nach &lt;font fgcolor="">J&lt;/font>eff &lt;font fgcolor="">M&lt;/font>ax zu suchen</string>
   <string name="take_new_photo">Neues Bild aufnehmen</string>
   <string name="take_photo">Bild aufnehmen</string>
   <string name="titleJoinContactDataWith">Kontakte zusammenführen</string>
@@ -1228,7 +1177,7 @@ Drücken Sie auf Zusammenführen, um zu beginnen."</string>
   <string name="unknown_contact_name">Unbekannter Kontakt</string>
   <string name="unknown_details_add_to_contact">Existierend</string>
   <string name="unknown_details_new_contact">Neu</string>
-  <string name="update_sim_contact_photo_toast">Kann für SIM-Kontakte keine Profilfotos einfügen</string>
+  <string name="update_sim_contact_photo_toast">Profilfotos für SIM-Kontakte nicht möglich</string>
   <string name="upgrade_in_progress">Kontaktliste wird gerade aktualisiert</string>
   <string name="upgrade_out_of_memory">Ihre Kontakte werden momentan aktualisiert. Für den Aktualisierungsvorgang sind ca. %s MB interner Speicher erforderlich. Wählen Sie eine der folgenden Optionen:</string>
   <string name="upgrade_out_of_memory_retry">Aktualisierung wiederholen</string>

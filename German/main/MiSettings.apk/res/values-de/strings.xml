@@ -32,7 +32,7 @@
   <string name="created">Erstellt</string>
   <string name="created_successfully">Erstellen erfolgreich</string>
   <string name="first_unlock_time">"Erste Entsperrung: "</string>
-  <string name="focus_time_exception_tip">Sieht aus, als hätte sich die Systemzeit geändert. Entspannungsmodus wurde ausgeschaltet.</string>
+  <string name="focus_time_exception_tip">Sieht aus, als hätte sich die Systemzeit geändert. Konzentrationsmodus wurde ausgeschaltet.</string>
   <string name="follow_sim1">Einstellungen SIM1 übernehmen</string>
   <string name="healthy_use_phone">Bildschirmzeit verwalten</string>
   <string name="hsv_space_color">HSV-Farbraum</string>
@@ -98,8 +98,6 @@
   <string name="unlock_times_per_day">"Tagesdurchschnitt: "</string>
   <string name="unlock_times_per_hour">"Entsperrt pro Stunde: "</string>
   <string name="usage_agree">Zustimmen</string>
-  <string name="usage_creating_weekly_report">Wochenbericht für Sie erstellen…</string>
-<!-- ??? -->
   <string name="usage_app_get_it">Verstanden</string>
   <string name="usage_app_limit_alter_summary">Sieht aus, als wäre dieses Zeitlimit kürzer als die Zeit, die Sie heute diese App benutzt haben. Trotzdem Limit setzen?</string>
   <string name="usage_app_limit_alter_title">Bildschirmzeitlimit prüfen</string>
@@ -112,45 +110,46 @@
   <string name="usage_app_over_content">Sie haben diese App heute bereits für %s verwendet.</string>
   <string name="usage_app_over_summary">Sie haben Ihr Limit erreicht. Die Zeit ist um!</string>
   <string name="usage_app_set_limit_time">Limit festlegen</string>
-  <string name="usage_app_system_app_summary">Bildschirmzeit für System-Apps kann nicht begrenzt werden</string>
+  <string name="usage_app_system_app_summary">Keine Begrenzung der Bildschirmzeit für System-Apps</string>
   <string name="usage_app_weekday_limit">Wochentags</string>
   <string name="usage_app_weekend_limit">An Wochenenden</string>
-  <string name="usage_exit">Beenden</string>
   <string name="usage_beat_fans">Besser als %s der Mi Fans</string>
   <string name="usage_continuous_days">Serie</string>
-  <string name="usage_focus_focus_premission_main_summary">Diese App muss auf Ihre Kontoinformationen zugreifen, um Ihre Entspannungsmodus-Nutzungsstatistik aufzuzeichnen.</string>
-  <string name="usage_focus_focus_premission_second_summary">Wenn Sie mit der Erteilung solcher Berechtigungen nicht einverstanden sind, können Sie einige Funktionen dieser App nicht nutzen, ihre Grundfunktionen stehen Ihnen jedoch weiterhin zur Verfügung. Sie können die Berechtigungen jederzeit einschränken oder Ihre Berechtigung in den Einstellungen widerrufen.</string>
+  <string name="usage_creating_weekly_report">Wochenbericht erstellen…</string>
+  <string name="usage_exit">Beenden</string>
+  <string name="usage_focus_focus_premission_main_summary">Diese App muss auf Ihre Kontoinformationen zugreifen, um Ihre Konzentrationsstatistik aufzuzeichnen.</string>
+  <string name="usage_focus_focus_premission_second_summary">Wenn Sie mit der Erteilung solcher Berechtigungen nicht einverstanden sind, können Sie einige Funktionen dieser App nicht nutzen, ihre Grundfunktionen stehen Ihnen jedoch weiterhin zur Verfügung. Sie können die Berechtigungen jederzeit einschränken oder in den Einstellungen widerrufen.</string>
   <string name="usage_focus_new_summary">Achtsamer und konzentrierter werden</string>
   <string name="usage_focus_save_success">Erfolgreich in der Galerie gespeichert</string>
-  <string name="usage_focus_summary_level1">Es ist einfach, sich ein paar Minuten Zeit zu nehmen, um konzentriert zu bleiben.</string>
-  <string name="usage_focus_summary_level2">Entspannung kann zu einer erfüllten Routine werden.</string>
+  <string name="usage_focus_summary_level1">Ein paar Minuten zu widmen, um konzentriert zu bleiben, ist einfach.</string>
+  <string name="usage_focus_summary_level2">Konzentration kann zu einer erfüllten Routine werden.</string>
   <string name="usage_focus_summary_level3">Ruhig bleiben, Störungen vermeiden.</string>
   <string name="usage_focus_summary_level4">Wenn Sie konzentriert bleiben, werden Sie eine bessere Version von sich selbst entdecken.</string>
   <string name="usage_focus_summary_level5">Sie haben einen langen Weg zurückgelegt. Nicht vergessen, weiterzumachen.</string>
   <string name="usage_focus_title_level1">Klein anfangen</string>
   <string name="usage_focus_title_level2">Ihre Gewohnheiten aufbauen</string>
   <string name="usage_focus_title_level3">Über das Alltägliche erheben</string>
-  <string name="usage_focus_title_level4">Freude an Konsistenz finden</string>
+  <string name="usage_focus_title_level4">Freude an Beständigkeit finden</string>
   <string name="usage_focus_title_level5">Konzentriert bleiben</string>
-  <string name="usage_home_premission_main_summary">Willkommen bei Bildschirmzeit! Mit dieser App können Sie Bildschirmzeiten festlegen, Statistiken anzeigen und in den Entspannungsmodus wechseln. Diese App muss Zeitinformationen über den Bildschirm sammeln (z.B. die Anzahl, wo oft Sie Ihr Telefon freischalten und den Bildschirm einschalten, sowie die Dauer der Nutzung von Apps), um normal zu funktionieren.</string>
-  <string name="usage_home_premission_second_summary">Um normal arbeiten zu können, muss diese App Ihre persönlichen Daten erfassen. Wir werden Ihre personenbezogenen Daten in Übereinstimmung mit den einschlägigen Gesetzen, Vorschriften und Datenschutzrichtlinien schützen.</string>
-  <string name="usage_home_permission_account_summary">Zum Anmelden bei Mi Konto und zum Synchronisieren der Bildschirmzeit-Statistiken</string>
+  <string name="usage_home_permission_account_summary">Zum Anmelden am Mi Konto und Synchronisieren der Bildschirmzeit-Statistik</string>
   <string name="usage_home_permission_account_title">Zugriff auf Kontoinformationen</string>
   <string name="usage_home_permission_phone_summary">Zur Geräteidentifizierung mit VAID</string>
   <string name="usage_home_permission_phone_title">Zugriff auf Geräteinformationen</string>
+  <string name="usage_home_premission_main_summary">Willkommen bei Bildschirmzeit! Mit dieser App können Sie Bildschirmzeiten festlegen, Statistiken anzeigen und zum Konzentrationsmodus wechseln. Diese App muss Zeitinformationen über den Bildschirm sammeln (z. B. die Anzahl, wie oft Sie Ihr Telefon und den Bildschirm einschalten, sowie die App-Nutzungsdauer), um normal zu funktionieren.</string>
+  <string name="usage_home_premission_second_summary">Um normal arbeiten zu können, muss diese App Ihre persönlichen Daten erfassen. Wir werden Ihre personenbezogenen Daten in Übereinstimmung mit den einschlägigen Gesetzen, Vorschriften und Datenschutzrichtlinien schützen.</string>
   <string name="usage_home_premission_main_summary_new">"Willkommen bei Bildschirmzeit!
-Um normal arbeiten zu können, muss diese App Informationen zur Bildschirmzeit sammeln: die Anzahl der Entsperrungen des Telefons, die App-Namen und die App-Nutzungsdauer werden benötigt, um die Bildschirmzeit-Statistik zu generieren; die Einstellungen des Entspannungsmodus sind erforderlich, um die Statistik dessen zu generieren.
-Diese App muss außerdem eine Internetverbindung herstellen und benötigt die folgenden Berechtigungen, um Ihre persönlichen Daten zu sammeln:"</string>
+Um normal arbeiten zu können, muss diese App Informationen zur Bildschirmzeit sammeln: die Anzahl der Telefonentsperrungen, App-Namen und App-Nutzungsdauer werden benötigt, um die Bildschirmzeit-Statistik zu generieren; die Einstellungen des Konzentrationsmodus sind erforderlich, um die Statistik dessen zu generieren.
+Diese App muss außerdem eine Internetverbindung herstellen und benötigt folgende Berechtigungen, um Ihre persönlichen Daten zu sammeln:"</string>
   <string name="usage_home_premission_main_summary_new_o">"Willkommen bei Bildschirmzeit!
-Um normal arbeiten zu können, muss diese App Informationen zur Bildschirmzeit sammeln: die Anzahl der Freischaltungen, die App-Namen und die App-Nutzungsdauer werden benötigt, um die Bildschirmzeit-Statistik zu generieren.
-Diese App muss außerdem eine Internetverbindung herstellen und benötigt die folgenden Berechtigungen, um Ihre persönlichen Daten zu sammeln:"</string>
+Um normal arbeiten zu können, muss diese App Informationen zur Bildschirmzeit sammeln: die Anzahl der Freischaltungen, App-Namen und App-Nutzungsdauer werden benötigt, um die Bildschirmzeit-Statistik zu generieren.
+Diese App muss außerdem eine Internetverbindung herstellen und benötigt folgende Berechtigungen, um Ihre persönlichen Daten zu sammeln:"</string>
   <string name="usage_home_premission_second_summary_new">"Wir schützen Ihre persönlichen Daten in Übereinstimmung mit den einschlägigen Gesetzen, Vorschriften und Datenschutzrichtlinien. 
-Wenn Sie nicht zustimmen, solche Genehmigungen zu erteilen oder Ihre persönlichen Daten zu teilen und hochzuladen, können Sie diese App nicht nutzen. 
+Wenn Sie nicht zustimmen, diese Berechtigungen zu erteilen oder Ihre persönlichen Daten zu teilen und hochzuladen, können Sie diese App nicht nutzen. 
 Sie können Ihre Berechtigung unter Bildschirmzeit &gt; Einstellungen &gt; Bildschirmzeit ausschalten widerrufen. Wenn Sie weitere Fragen zum Thema Datenschutz haben, können Sie uns unter privacy@xiaomi.com kontaktieren."</string>
   <string name="usage_no_net_summary">Netzwerkeinstellungen prüfen und erneut versuchen</string>
   <string name="usage_refresh">Erneut versuchen</string>
   <string name="usage_request_error_summary">Ein unbekannter Fehler ist aufgetreten</string>
-  <string name="usage_request_timeout_summary">Anfrage zeitgesteuert</string>
+  <string name="usage_request_timeout_summary">Zeitüberschreitung der Anfrage</string>
   <string name="usage_special_feature">Besondere Funktionen</string>
   <string name="usage_state_accurate_date">dd. MMMM yyyy</string>
   <string name="usage_state_add_up_count">Sitzungen</string>
@@ -165,16 +164,16 @@ Sie können Ihre Berechtigung unter Bildschirmzeit &gt; Einstellungen &gt; Bilds
   <string name="usage_state_app_usage_list_title">Bildschirmzeit von Apps</string>
   <string name="usage_state_app_usage_list_week_title">Bildschirmzeit von Apps</string>
   <string name="usage_state_app_usage_tip_title" formatted="false">Bildschirmzeit zwischen %d:00 und %d:00 Uhr</string>
-  <string name="usage_state_app_use_time">Bildschirmzeit weiterer Apps</string>
+  <string name="usage_state_app_use_time">App-Bildschirmzeit</string>
   <string name="usage_state_card_add">Hinzufügen</string>
   <string name="usage_state_card_cancel">Abbrechen</string>
-  <string name="usage_state_card_summary">\"Bildschirmzeit\"-Karte zum App-Infoassistent hinzufügen, um Ihre Zeit effizienter zu verwalten.</string>
+  <string name="usage_state_card_summary">\"Bildschirmzeit\"-Karte zum Infoassistent hinzufügen, um Ihre Zeit effizienter zu verwalten.</string>
   <string name="usage_state_category">Kategorien</string>
   <string name="usage_state_channel_mouth">Letzte 30 Tage</string>
   <string name="usage_state_channel_week">Letzte 7 Tage</string>
   <string name="usage_state_date">d. MMM</string>
   <string name="usage_state_device_limit_summary">Tägliche Bildschirmzeitlimits für Ihr Gerät festlegen</string>
-  <string name="usage_state_device_limit_title">Zeitlimits für den Gerätebildschirm</string>
+  <string name="usage_state_device_limit_title">Zeitlimits Gerätebildschirm</string>
   <string name="usage_state_device_noti_today_tip_title" formatted="false">Benachrichtigungen zwischen %d:00 und %d:00 Uhr</string>
   <string name="usage_state_device_unlock_today_tip_title" formatted="false">Gerät zwischen %d:00 und %d:00 Uhr entsperrt</string>
   <string name="usage_state_download">In Galerie speichern</string>
@@ -182,17 +181,17 @@ Sie können Ihre Berechtigung unter Bildschirmzeit &gt; Einstellungen &gt; Bilds
   <string name="usage_state_focus_call">Notruf</string>
   <string name="usage_state_focus_level1">Aufgehender Stern</string>
   <string name="usage_state_focus_level_summary">Aktuelles Level: %s</string>
-  <string name="usage_state_focus_mode_experience_warning_message">Entspannungsmodus erlaubt nur Kamerabenutzung und Notrufe. Sie können den Entspannungsmodus nicht vorzeitig deaktivieren.</string>
+  <string name="usage_state_focus_mode_experience_warning_message">Konzentrationsmodus erlaubt nur Kamerabenutzung und Notrufe. Sie können den Konzentrationsmodus nicht vorzeitig deaktivieren.</string>
   <string name="usage_state_focus_mode_summary">Alle Funktionen außer Notrufe und Kamera einschränken</string>
   <string name="usage_state_focus_mode_summary1">Gut begonnen ist halb gewonnen</string>
   <string name="usage_state_focus_mode_summary2">Konzentriert bleiben</string>
-  <string name="usage_state_focus_mode_summary3">Es bedarf einer Anstrengung, um konzentriert zu bleiben.</string>
-  <string name="usage_state_focus_mode_title">Entspannungsmodus</string>
-  <string name="usage_state_focus_mode_warning_message">Entspannungsmodus erlaubt nur Kamerabenutzung und Notrufe. Sie können den Entspannungsmodus nicht vorzeitig deaktivieren.</string>
+  <string name="usage_state_focus_mode_summary3">Es ist anstrengend, konzentriert zu bleiben.</string>
+  <string name="usage_state_focus_mode_title">Konzentrationsmodus</string>
+  <string name="usage_state_focus_mode_warning_message">Konzentrationsmodus erlaubt nur Kamerabenutzung und Notrufe. Sie können den Konzentrationsmodus nicht vorzeitig deaktivieren.</string>
   <string name="usage_state_focus_mode_warning_title">Achtung</string>
   <string name="usage_state_focus_success">Herausforderung abgeschlossen</string>
   <string name="usage_state_focus_take_photo">Kamera</string>
-  <string name="usage_state_focus_warning_text">und konzentrieren Sie sich auf etwas Wichtiges für</string>
+  <string name="usage_state_focus_warning_text">Auf etwas Wichtiges konzentrieren</string>
   <string name="usage_state_focus_weak_summary">Legen Sie Ihr Telefon weg</string>
   <string name="usage_state_friday">Fr</string>
   <string name="usage_state_go_more">Weitere Apps</string>
@@ -201,58 +200,56 @@ Sie können Ihre Berechtigung unter Bildschirmzeit &gt; Einstellungen &gt; Bilds
   <string name="usage_state_monday">Mo</string>
   <string name="usage_state_mourth_day">Bildschirmzeit am %s</string>
   <string name="usage_state_noti_mourth_day">Benachrichtigungen am %s</string>
-  <string name="usage_state_notification">App-Benachrichtigungen</string>
+  <string name="usage_state_notification">Benachrichtigungen verwalten</string>
   <string name="usage_state_notification_manager">App-Benachrichtigungen verwalten</string>
-  <string name="usage_state_num_level">Level: %d</string>
-  <string name="usage_state_open_focus_mode">Entspannungsmodus einschalten</string>
+  <string name="usage_state_open_focus_mode">Konzentrationsmodus einschalten</string>
   <string name="usage_state_over_p">Besser als</string>
   <string name="usage_state_remind_new_summary">Benachrichtigung erhalten, wenn die Bildschirmzeit das eingestellte Limit erreicht</string>
-  <string name="usage_state_remind_summary">Einschalten, um Bildschirmzeit-Alarme zu erhalten. Sie können verschiedene Zeitlimits für Wochentage und Wochenenden festlegen.</string>
-  <string name="usage_state_remind_title">Nutzungslimit einschalten</string>
-  <string name="usage_state_rest_day">Wochenende</string>
+  <string name="usage_state_remind_summary">Einschalten, um Bildschirmzeit-Alarme zu erhalten.</string>
+  <string name="usage_state_remind_title">Bildschirmzeit-Alarm</string>
+  <string name="usage_state_rest_day">An Wochenenden</string>
   <string name="usage_state_running_days">Serie (Tage)</string>
   <string name="usage_state_saturday">Sa</string>
-  <string name="usage_state_set_invalid_time_toast">Limits von weniger als 1 Minute können nicht festgelegt werden</string>
+  <string name="usage_state_set_invalid_time_toast">Limits &lt; 1 Minute nicht möglich</string>
   <string name="usage_state_share">Teilen</string>
   <string name="usage_state_show_category">Kategorien</string>
-  <string name="usage_state_show_detail">Detaillierte Statistiken anzeigen</string>
+  <string name="usage_state_show_detail">Detaillierte Statistik anzeigen</string>
   <string name="usage_state_show_more">Mehr</string>
-  <string name="usage_state_statistic_data">Statistiken</string>
+  <string name="usage_state_statistic_data">Statistik</string>
   <string name="usage_state_sunday">So</string>
   <string name="usage_state_thursday">Do</string>
-  <string name="usage_state_time_end">Erreichtes Bildschirmzeitlimit für heute</string>
+  <string name="usage_state_time_end">Bildschirmzeitlimit für heute erreicht</string>
   <string name="usage_state_today">Heute</string>
-  <string name="usage_state_today_total_text">Heute</string>
+  <string name="usage_state_today_total_text">Bildschirmzeit heute</string>
   <string name="usage_state_tuesday">Di</string>
   <string name="usage_state_turn_on">Einschalten</string>
   <string name="usage_state_unlock_mourth_day">Entsperrt am %s</string>
-  <string name="usage_state_unusage">Wurde heute nicht verwendet</string>
-  <string name="usage_state_usage_time">Nutzungslimit festlegen</string>
+  <string name="usage_state_unusage">Heute nicht verwendet</string>
+  <string name="usage_state_usage_time">Bildschirmzeit</string>
   <string name="usage_state_usage_time_remind">Bildschirmzeit-Alarm</string>
-  <string name="usage_state_usage_time_weekday_title">Wochentage</string>
-  <string name="usage_state_usage_time_weekend_title">Wochenende</string>
+  <string name="usage_state_usage_time_weekday_title">Wochentags</string>
+  <string name="usage_state_usage_time_weekend_title">Am Wochenende</string>
   <string name="usage_state_use_time_remind_title">Bildschirmzeit-Alarm</string>
   <string name="usage_state_wakeups_title">Bildschirm eingeschaltet</string>
   <string name="usage_state_wednesday">Mi</string>
-  <string name="usage_state_week_day_hour_minute" formatted="false">Wochenende: %d Std %d Min</string>
+  <string name="usage_state_week_day_hour_minute" formatted="false">An Wochenenden: %d Std %d Min</string>
   <string name="usage_state_week_total_text">Bildschirmzeit (letzte 7 Tage)</string>
   <string name="usage_state_which_mouth">MMM</string>
   <string name="usage_state_work_day">Wochentags</string>
   <string name="usage_state_work_day_hour_minute" formatted="false">Wochentags: %d Std %d Min</string>
-  <string name="usage_stats_experience_text">oder hier tippen, um es für 1 Min auszuprobieren</string>
+  <string name="usage_stats_experience_text">Tippen zum Ausprobieren (1 Min)</string>
   <string name="usage_stats_normal_day">Wochentags</string>
-  <string name="usage_stats_week_day">Wochenende</string>
+  <string name="usage_stats_week_day">An Wochenenden</string>
   <string name="usage_total_days">Gesamttage</string>
   <string name="usage_total_times">Gesamtsitzungen</string>
   <string name="usage_weekly_report_summary">Erfahren Sie, wie Sie Zeit mit Ihrem Gerät verbringen</string>
-  <string name="usage_weekly_report_title">Wöchentlicher Bericht</string>
+  <string name="usage_weekly_report_title">Wochenbericht</string>
   <string name="usagestats_app_category_miui_education">Bildung</string>
   <string name="usagestats_app_category_miui_entainment">Unterhaltung</string>
   <string name="usagestats_app_category_miui_financial">Finanzen</string>
   <string name="usagestats_app_category_miui_game">Spiele</string>
-  <string name="usagestats_app_category_miui_life">Lebensweise</string>
   <string name="usagestats_app_category_miui_medicine">Gesundheit</string>
-  <string name="usagestats_app_category_miui_news">Neues</string>
+  <string name="usagestats_app_category_miui_news">Nachrichten</string>
   <string name="usagestats_app_category_miui_photo">Fotografie &amp; Video</string>
   <string name="usagestats_app_category_miui_productivity">Produktivität</string>
   <string name="usagestats_app_category_miui_reading">Lesen</string>
@@ -260,10 +257,9 @@ Sie können Ihre Berechtigung unter Bildschirmzeit &gt; Einstellungen &gt; Bilds
   <string name="usagestats_app_category_miui_social">Soziale Netzwerke</string>
   <string name="usagestats_app_category_miui_sport">Sport &amp; Fitness</string>
   <string name="usagestats_app_category_miui_system">System-Apps</string>
-  <string name="usagestats_app_category_miui_tools">Tools</string>
   <string name="usagestats_app_category_miui_travel">Reisen</string>
   <string name="usagestats_app_category_miui_undefined">Andere</string>
-  <string name="usagestats_app_category_miui_video_etc">Musik und Video</string>
+  <string name="usagestats_app_category_miui_video_etc">Musik &amp; Video</string>
   <string name="usagestats_device_notification_des">Bildschirmzeit-Limit heute: %s</string>
   <string name="usagestats_device_notification_des_over">Sie haben heute bereits Ihr Bildschirmzeit-Limit erreicht.</string>
   <string name="usagestats_device_notification_des_reset" formatted="false">Limit heute: %s | %s übrig</string>
