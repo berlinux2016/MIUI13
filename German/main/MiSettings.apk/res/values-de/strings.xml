@@ -96,7 +96,7 @@
   <string name="trend_from_yesterday_more">%1$s mehr als gestern</string>
   <string name="trend_from_yesterday_more_simple">%1$s mehr als gestern</string>
   <string name="unlock_times_per_day">"Tagesdurchschnitt: "</string>
-  <string name="unlock_times_per_hour">"Entsperrt pro Stunde: "</string>
+  <string name="unlock_times_per_hour">"Entsperrt pro Std: "</string>
   <string name="usage_agree">Zustimmen</string>
   <string name="usage_app_get_it">Verstanden</string>
   <string name="usage_app_limit_alter_summary">Sieht aus, als wäre dieses Zeitlimit kürzer als die Zeit, die Sie heute diese App benutzt haben. Trotzdem Limit setzen?</string>
@@ -121,7 +121,7 @@
   <string name="usage_focus_focus_premission_second_summary">Wenn Sie mit der Erteilung solcher Berechtigungen nicht einverstanden sind, können Sie einige Funktionen dieser App nicht nutzen, ihre Grundfunktionen stehen Ihnen jedoch weiterhin zur Verfügung. Sie können die Berechtigungen jederzeit einschränken oder in den Einstellungen widerrufen.</string>
   <string name="usage_focus_new_summary">Achtsamer und konzentrierter werden</string>
   <string name="usage_focus_save_success">Erfolgreich in der Galerie gespeichert</string>
-  <string name="usage_focus_summary_level1">Ein paar Minuten zu widmen, um konzentriert zu bleiben, ist einfach.</string>
+  <string name="usage_focus_summary_level1">Ein paar Minuten der Konzentration zu schenken ist einfach.</string>
   <string name="usage_focus_summary_level2">Konzentration kann zu einer erfüllten Routine werden.</string>
   <string name="usage_focus_summary_level3">Ruhig bleiben, Störungen vermeiden.</string>
   <string name="usage_focus_summary_level4">Wenn Sie konzentriert bleiben, werden Sie eine bessere Version von sich selbst entdecken.</string>
@@ -163,7 +163,7 @@ Sie können Ihre Berechtigung unter Bildschirmzeit &gt; Einstellungen &gt; Bilds
   <string name="usage_state_app_usage_limit_summary">Tägliche Bildschirmzeitlimits für Apps festlegen</string>
   <string name="usage_state_app_usage_list_title">Bildschirmzeit von Apps</string>
   <string name="usage_state_app_usage_list_week_title">Bildschirmzeit von Apps</string>
-  <string name="usage_state_app_usage_tip_title" formatted="false">Bildschirmzeit zwischen %d:00 und %d:00 Uhr</string>
+  <string name="usage_state_app_usage_tip_title">Bildschirmzeit zwischen %1$d:00 und %2$d:00 Uhr</string>
   <string name="usage_state_app_use_time">App-Bildschirmzeit</string>
   <string name="usage_state_card_add">Hinzufügen</string>
   <string name="usage_state_card_cancel">Abbrechen</string>
@@ -174,8 +174,8 @@ Sie können Ihre Berechtigung unter Bildschirmzeit &gt; Einstellungen &gt; Bilds
   <string name="usage_state_date">d. MMM</string>
   <string name="usage_state_device_limit_summary">Tägliche Bildschirmzeitlimits für Ihr Gerät festlegen</string>
   <string name="usage_state_device_limit_title">Zeitlimits Gerätebildschirm</string>
-  <string name="usage_state_device_noti_today_tip_title" formatted="false">Benachrichtigungen zwischen %d:00 und %d:00 Uhr</string>
-  <string name="usage_state_device_unlock_today_tip_title" formatted="false">Gerät zwischen %d:00 und %d:00 Uhr entsperrt</string>
+  <string name="usage_state_device_noti_today_tip_title">Benachrichtigungen zwischen %1$d:00 und %2$d:00 Uhr</string>
+  <string name="usage_state_device_unlock_today_tip_title">Gerät zwischen %1$d:00 und %2$d:00 Uhr entsperrt</string>
   <string name="usage_state_download">In Galerie speichern</string>
   <string name="usage_state_duration_title">Diese Sitzung</string>
   <string name="usage_state_focus_call">Notruf</string>
@@ -195,7 +195,7 @@ Sie können Ihre Berechtigung unter Bildschirmzeit &gt; Einstellungen &gt; Bilds
   <string name="usage_state_focus_weak_summary">Legen Sie Ihr Telefon weg</string>
   <string name="usage_state_friday">Fr</string>
   <string name="usage_state_go_more">Weitere Apps</string>
-  <string name="usage_state_hour_minute" formatted="false">%d Std %d Min</string>
+  <string name="usage_state_hour_minute">%1$d Std %2$d Min</string>
   <string name="usage_state_less_one_minute">&lt; 1 Minute</string>
   <string name="usage_state_monday">Mo</string>
   <string name="usage_state_mourth_day">Bildschirmzeit am %s</string>
@@ -232,11 +232,11 @@ Sie können Ihre Berechtigung unter Bildschirmzeit &gt; Einstellungen &gt; Bilds
   <string name="usage_state_use_time_remind_title">Bildschirmzeit-Alarm</string>
   <string name="usage_state_wakeups_title">Bildschirm eingeschaltet</string>
   <string name="usage_state_wednesday">Mi</string>
-  <string name="usage_state_week_day_hour_minute" formatted="false">An Wochenenden: %d Std %d Min</string>
+  <string name="usage_state_week_day_hour_minute">An Wochenenden: %1$d Std %2$d Min</string>
   <string name="usage_state_week_total_text">Bildschirmzeit (letzte 7 Tage)</string>
   <string name="usage_state_which_mouth">MMM</string>
   <string name="usage_state_work_day">Wochentags</string>
-  <string name="usage_state_work_day_hour_minute" formatted="false">Wochentags: %d Std %d Min</string>
+  <string name="usage_state_work_day_hour_minute">Wochentags: %1$d Std %2$d Min</string>
   <string name="usage_stats_experience_text">Tippen zum Ausprobieren (1 Min)</string>
   <string name="usage_stats_normal_day">Wochentags</string>
   <string name="usage_stats_week_day">An Wochenenden</string>
@@ -262,10 +262,10 @@ Sie können Ihre Berechtigung unter Bildschirmzeit &gt; Einstellungen &gt; Bilds
   <string name="usagestats_app_category_miui_video_etc">Musik &amp; Video</string>
   <string name="usagestats_device_notification_des">Bildschirmzeit-Limit heute: %s</string>
   <string name="usagestats_device_notification_des_over">Sie haben heute bereits Ihr Bildschirmzeit-Limit erreicht.</string>
-  <string name="usagestats_device_notification_des_reset" formatted="false">Limit heute: %s | %s übrig</string>
+  <string name="usagestats_device_notification_des_reset">Limit heute: %1$s | %2$s übrig</string>
   <string name="usagestats_device_notification_title">Bildschirmzeit-Alarm</string>
-  <string name="usagestats_device_timeout_des" formatted="false">Sie haben Ihr Gerät heute für %d Std %d Min verwendet. Ruhen Sie Sich aus!</string>
-  <string name="usagestats_device_timeout_negative">In 1 Stunde erinnern</string>
+  <string name="usagestats_device_timeout_des">Sie haben Ihr Gerät heute für %1$d Std %2$d Min verwendet. Ruhen Sie Sich aus!</string>
+  <string name="usagestats_device_timeout_negative">In 1 Std erinnern</string>
   <string name="usagestats_device_timeout_positive">Verstanden</string>
   <string name="usagestats_device_timeout_title">Bildschirmzeit-Alarm</string>
   <string name="wait_tip">Einen Moment…</string>
