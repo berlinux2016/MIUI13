@@ -1519,8 +1519,6 @@ Diese Funktion kann unter [Einstellungen] deaktiviert werden."</string>
   <string name="choose_keyguard_clock_summary">Diese Einstellung funktioniert nicht mit Themen von Drittanbietern</string>
   <string name="choose_lock_pattern_header_text">Muster festlegen</string>
   <string name="choose_network_title">Netzwerk wählen</string>
-  <string name="choose_unlock_face_msg">Bildschirmsperre festlegen, bevor Sie Ihre Gesichtsdaten aufnehmen.</string>
-  <string name="choose_unlock_fingerprint_msg">Bildschirmsperre festlegen, bevor Sie Ihren Fingerabdruck hinzufügen.</string>
   <string name="choose_profile">Profil wählen</string>
   <string name="choose_smartcover_type">Smartcovertyp auswählen</string>
   <string name="choose_spell_checker">Rechtschreibprüfung auswählen</string>
@@ -3059,14 +3057,12 @@ Wenn Sie automatische Sicherungen einschalten, werden Geräte- und App-Daten per
   <string name="home">Einstellungen Startbildschirm</string>
   <string name="home_app_uninstall_button">Diese App entfernen</string>
   <string name="home_key">Startbildschirm</string>
+  <string name="home_settings">Startbildschirm</string>
   <string name="home_title">Startbildschirm</string>
   <string name="home_work_profile_not_supported">Unterstützt keine Arbeitsprofile</string>
   <string name="homepage_all_settings">Alle Einstellungen</string>
   <string name="homepage_condition_footer_content_description">Einklappen</string>
   <string name="homepage_personal_settings">Vorschläge</string>
-  <string name="home_settings">Startbildschirm</string>
-  <string name="home_title">Startbildschirm</string>
-  <string name="home_work_profile_not_supported">Unterstützt keine Arbeitsprofile</string>
   <string name="hsa_code_null">Bestätigungscode darf nicht leer sein</string>
   <string name="hsa_input_hint">Bestätigungscode eingeben</string>
   <string name="hsa_input_tip">Ihre Apple ID verwendet eine Zwei-Faktor-Authentifizierung. Bitte Bestätigungscode eingeben.</string>
@@ -3150,7 +3146,6 @@ Wenn Sie automatische Sicherungen einschalten, werden Geräte- und App-Daten per
   <string name="input_method_bottom_close">Aus</string>
   <string name="input_method_bottom_open">Ein</string>
   <string name="input_method_manage">Tastaturen verwalten</string>
-  <string name="input_method_settings_text">Einstellungen</string>
   <string name="input_method_function_clipboard">Zwischenablage und häufige Sätze</string>
   <string name="input_method_function_clipboard_des">Tippen, um die Zwischenablage und häufige Sätze anzuzeigen</string>
   <string name="input_method_function_no_function">Nichts</string>
@@ -3161,7 +3156,6 @@ Wenn Sie automatische Sicherungen einschalten, werden Geräte- und App-Daten per
   <string name="input_method_function_voice_des">Tippen, um Spracheingabe zu verwenden</string>
   <string name="input_method_function_xiaoai">Mi KI Spracheingabe</string>
   <string name="input_method_function_xiaoai_des">Tippen, um Mi KI Spracheingabe zu verwenden</string>
-  <string name="input_method_manage">Tastaturen verwalten</string>
   <string name="input_method_selector">Auswahl der Eingabemethoden</string>
   <string name="input_method_selector_always_hide_title">Nie anzeigen</string>
   <string name="input_method_selector_always_show_title">Immer anzeigen</string>
@@ -4149,8 +4143,7 @@ Betriebssystem auswählen:"</string>
   <string name="msd_pc_system_install_summary_xp">1. Starten Sie die setup.exe, um die Installation zu starten</string>
   <string name="msg_wlan_signal_found">Mit %s verbinden?</string>
   <string name="msim_sim_radio_off">Aus</string>
-  <string name="mtp_ptp_mode_summary">MTP- oder PTP-Funktion ist aktiv</string>
-  <string name="mtp_connection_failed">Dateien auf den angeschlossenen Computer übertragen nicht möglich. Fehlerbehebung versuchen.</string>
+ <string name="mtp_connection_failed">Dateien auf den angeschlossenen Computer übertragen nicht möglich. Fehlerbehebung versuchen.</string>
   <string name="mtp_connection_failed_title">USB-Verbindung</string>
   <string name="mtp_connection_not_remind">Nicht mehr anzeigen</string>
   <string name="mtp_ptp_mode_summary">MTP- oder PTP-Funktion ist aktiv</string>
@@ -4609,7 +4602,6 @@ Dies ermöglicht der App auch, Nicht stören ein-/auszuschalten und entsprechend
   <string name="oem_unlock_enable_disabled_summary_connectivity_or_locked">Mit dem Internet verbinden oder wenden Sie sich an Ihren Mobilfunkanbieter</string>
   <string name="oem_unlock_enable_disabled_summary_sim_locked_device">Nicht verfügbar bei SIM-Lock-Geräten</string>
   <string name="oem_unlock_enable_summary">Entsperrung des Bootloaders erlauben</string>
-  <string name="off">Aus</string>
   <string name="ok_rules">Fertigstellen</string>
   <string name="old_sdk_deny_warning">App ist nicht kompatibel mit den neuesten Android-Rechteanforderungen. Verweigerte Rechte können die Funktionsweise dieser App beeinflussen.</string>
   <string name="oldman_app_label">Minimaler Desktop</string>
@@ -4621,6 +4613,7 @@ Dies ermöglicht der App auch, Nicht stören ein-/auszuschalten und entsprechend
   <string name="oldman_uninstalled_btn">Installieren</string>
   <string name="oldman_uninstalled_des">Der Lite-Modus befreit Sie von Unübersichtlichkeit und hält Ihren Startbildschirm einfach und minimalistisch.</string>
   <string name="on">An</string>
+  <string name="off">Aus</string>
   <string name="one_cacrt">Ein CA-Zertifikat</string>
   <string name="one_usercrt">Ein Benutzerzertifikat</string>
   <string name="one_userkey">Ein Benutzerschlüssel</string>
@@ -4730,8 +4723,6 @@ OTG schaltet sich nach 10 Minuten Inaktivität automatisch aus."</string>
   <string name="passpoint_content">%1$s Zugangsdaten</string>
   <string name="passpoint_label">Gespeichert via</string>
   <string name="password">Passwort</string>
-  <string name="password_security_settings_title">Passwörter &amp; Sicherheit</string>
-  <string name="password_unlock_title">Passwort</string>
   <string name="passwordIncorrect">Eingegebenes Passwort ist falsch</string>
   <string name="password_entrance_title">Bildschirmsperre festlegen</string>
   <string name="password_guard">Passwort</string>
@@ -4873,9 +4864,7 @@ OTG schaltet sich nach 10 Minuten Inaktivität automatisch aus."</string>
   <string name="power_last_full_charge_summary">Vor ^1</string>
   <string name="power_menu_under_keyguard_summary">Zugriff auf Power-Menü erlauben, während das Gerät gesperrt ist</string>
   <string name="power_menu_under_keyguard_title">Zugriff Power-Menü</string>
-  <string name="power_monitor_summary">Tools zur Stromüberwachung</string>
-  <string name="power_monitor_title">Stromüberwachung</string>
-  <string name="power_mgr">Akku-Optimierung</string>
+ <string name="power_mgr">Akku-Optimierung</string>
   <string name="power_mode">Stromeinstellungen</string>
   <string name="power_mode_balanced_title">Ausgeglichen</string>
   <string name="power_monitor_summary">Tools zur Stromüberwachung</string>
@@ -5172,8 +5161,6 @@ OTG schaltet sich nach 10 Minuten Inaktivität automatisch aus."</string>
   <string name="quiet_important_interruptions_mode">Nur Ausnahmen zulassen</string>
   <string name="quiet_no_interruptions_mode">Alle Störungen unterdrücken</string>
   <string name="quiet_off_mode">Alle Störungen zulassen</string>
-  <string name="quick_reply_title">Schnellantworten</string>
-  <string name="quick_settings_label">Schalter</string>
   <string name="radioInfo_data_connected">Verbunden</string>
   <string name="radioInfo_data_connecting">Verbinden</string>
   <string name="radioInfo_data_disconnected">Nicht verbunden</string>
@@ -5460,9 +5447,7 @@ Mindestens %s freigeben."</string>
   <string name="screen_compatibility_label">Bildschirmkompatibilität</string>
   <string name="screen_compatibility_text">Eventuell ist diese App nicht für Ihren Bildschirm ausgelegt. Hier können Sie festlegen, wie Sie an Ihren Bildschirm angepasst wird.</string>
   <string name="screen_confirm">Einschalten</string>
-  <string name="screen_dark_mode_time_title">Zeitplan</string>
   <string name="screen_dark_mode_advanced_title">Erweitert</string>
-  <string name="screen_dark_mode_smart_dark_title">Dark Mode überall</string>
   <string name="screen_dark_mode_select_time_error_summary">Startzeit und Endzeit dürfen nicht identisch sein</string>
   <string name="screen_dark_mode_smart_dark_summary">Dark Mode auch auf Apps von Drittanbietern anwenden. Einige Apps werden möglicherweise falsch angezeigt.</string>
   <string name="screen_dark_mode_smart_dark_title">Dark Mode überall</string>
@@ -7173,8 +7158,6 @@ Gefällt Ihnen Mi Mover?"</string>
   <string name="unknown_app">Unbekannte App</string>
   <string name="unknown_hint">Unbekannt</string>
   <string name="unknown_unavailability_setting_summary">Einstellung nicht verfügbar</string>
-  <string name="unlogin_account_summary">Alle Mi-Dienste. Ein Mi Konto</string>
-  <string name="unlogin_account_title">Beim Mi Konto anmelden</string>
   <string name="unlock_change_lock_password_title">Entsperrpasswort ändern</string>
   <string name="unlock_change_lock_pattern_title">Entsperrmuster ändern</string>
   <string name="unlock_change_lock_pin_title">PIN ändern</string>
@@ -7448,11 +7431,6 @@ Speicher freigeben oder nur wichtige Elemente übertragen."</string>
   <string name="use_open_wifi_automatically_summary_scorer_unsupported_disabled">Zur Nutzung kompatiblen Netzwerk-Bewertungsanbieter auswählen</string>
   <string name="use_open_wifi_automatically_summary_scoring_disabled">Zur Nutzung Netzwerk-Bewertungsanbieter auswählen</string>
   <string name="use_open_wifi_automatically_title">Verbindung zu offenen Netzwerken</string>
-  <string name="use_otg_charge_only">Umkehrladen</string>
-  <string name="use_otg_charge_only_summary">Schnelles 1.8A-Laden</string>
-  <string name="use_otg_file_transfers">Umkehrladen &amp; Übertragung von Dateien</string>
-  <string name="use_otg_file_transfers_summary">Langsames Laden mit 500mA und Dateiübertragungen</string>
-  <string name="use_otg_title">USB-OTG</string>
   <string name="use_personalized_ad_service">Personalisierte Werbung anzeigen</string>
   <string name="use_personalized_ad_service_summary">Wenn Empfehlungen ausgeschaltet sind, sehen Sie immer noch die gleiche Anzahl von Anzeigen wie bei aktivierter Funktion, jedoch nicht auf der Grundlage Ihrer Verhaltensdaten oder Ihrer persönlichen Daten.</string>
   <string name="use_privacy_password_immediate">Verwenden</string>
@@ -7754,8 +7732,6 @@ Jeder Benutzer kann aktualisierte App-Berechtigungen für alle anderen Benutzer 
   <string name="wallpaper_settings_title">Hintergrund</string>
   <string name="wallpaper_suggestion_summary">Bildschirm personalisieren</string>
   <string name="wallpaper_suggestion_title">Hintergrundbild ändern</string>
-  <string name="wake_suppression_summary">Ihr Gerät reagiert möglicherweise auf eine versehentliche Berührung, aber auch auf Gestensteuerung an den Rändern</string>
-  <string name="wake_suppression_title">Kleiner Bereich</string>
   <string name="wapi_all_sel_mode">Wählen</string>
   <string name="wapi_auto_sel_cert">Automatisch auswählen</string>
   <string name="wapi_auto_sel_cert_fail">Zertifikat kann nicht automatisch gewählt werden. Bitte ein Zertifikat aus der Liste wählen und dann versuchen zu verbinden.</string>
