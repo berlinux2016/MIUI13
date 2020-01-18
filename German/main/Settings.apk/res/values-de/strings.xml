@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
   <string name="Accounts_settings_title">Konten</string>
+  <string name="Data_set">"Daten: "</string>
   <string name="a11y_settings_label">Einstellungen Barrierefreiheit</string>
   <string name="abc_action_bar_home_description">Zur Startseite</string>
   <string name="abc_action_bar_up_description">Nach oben</string>
@@ -204,11 +205,11 @@ Um zwischen Diensten zu wechseln, mit zwei Fingern nach oben wischen und halten.
   <string name="accessibility_tutorial_dialog_title_gesture">Geste zum Öffnen verwenden</string>
   <string name="accessibility_tutorial_dialog_title_gesture_settings">Neue Eingabehilfengeste verwenden</string>
   <string name="accessibility_usage_title">Eingabehilfennutzung</string>
-  <string name="accessibility_vibration_settings_title">Vibration &amp; Haptikstärke</string>
   <string name="accessibility_vibration_intensity_high">Hoch</string>
   <string name="accessibility_vibration_intensity_low">Niedrig</string>
   <string name="accessibility_vibration_intensity_medium">Mittel</string>
   <string name="accessibility_vibration_intensity_off">Aus</string>
+  <string name="accessibility_vibration_settings_title">Vibration &amp; Haptikstärke</string>
   <string name="accessibility_vibration_summary">Klingeln %1$s, berühren %2$s</string>
   <string name="accessibility_vibration_summary_high">Klingeln &amp; Benachrichtigung auf hoch stellen</string>
   <string name="accessibility_vibration_summary_low">Klingeln &amp; Benachrichtigung auf niedrig stellen</string>
@@ -383,9 +384,9 @@ Schalten Sie diese Funktion ein und tippen Sie auf die Schaltfläche Eingabehilf
   <string name="allow_vibrate_title">Vibration erlauben</string>
   <string name="already_enable_encrypt">Verschlüsselung bereits aktiviert</string>
   <string name="always">Immer</string>
-  <string name="always_style">Immer</string>
   <string name="always_allow_bind_appwidgets_text">Sie haben dieser App das Erstellen von Widgets und den Zugriff auf deren Daten erlaubt</string>
   <string name="always_running">Immer in Betrieb (%s)</string>
+  <string name="always_style">Immer</string>
   <string name="amber_alerts_summary">Erhalten Sie Meldungen über Kindesentführungen</string>
   <string name="amber_alerts_title">AMBER-Warnmeldungen</string>
   <string name="ambient_display_category_triggers">Wann zeigen</string>
@@ -1326,7 +1327,7 @@ Sie können diese Funktion unter Einstellungen/Bluetooth/Gekoppelte Geräte auss
   <string name="bt_hci_snoop_log_summary">Alle Bluetooth-HCI-Pakete in einer Datei erfassen (Bluetooth umschalten nach Änderung dieser Einstellung)</string>
   <string name="bt_ldac_declaration">Wenn ein Bluetooth-Gerät LDAC unterstützt, wird es standardmäßig verbunden. LDAC bietet ein hochwertiges Audioerlebnis, erhöht aber auch den Stromverbrauch. Während der Wiedergabe kann es wegen Einschränkungen der Bluetooth-Hardware zu Problemen kommen.</string>
   <string name="bt_ldac_dialog_summary">"LDAC sorgt für ein hochwertiges Klangerlebnis und einen höheren Stromverbrauch.
-Diese Funktion kann unter [Einstellungen] deaktiviert werden.</string>
+Diese Funktion kann unter [Einstellungen] deaktiviert werden."</string>
   <string name="bt_ldac_dialog_title">Aktuelles Gerät unterstützt LDAC, das standardmäßig angeschlossen ist:</string>
   <string name="bt_ldac_open_dialog_summary">LDAC bietet ein hochwertiges Audioerlebnis, erhöht aber auch den Stromverbrauch. Während der Wiedergabe kann es wegen Einschränkungen der Bluetooth-Hardware zu Problemen kommen.</string>
   <string name="bt_ldac_open_dialog_title">LDAC wirklich einschalten?</string>
@@ -1524,6 +1525,8 @@ Diese Funktion kann unter [Einstellungen] deaktiviert werden."</string>
   <string name="choose_smartcover_type">Smartcovertyp auswählen</string>
   <string name="choose_spell_checker">Rechtschreibprüfung auswählen</string>
   <string name="choose_timezone">Zeitzone wählen</string>
+  <string name="choose_unlock_face_msg">Bildschirmsperre festlegen, bevor Sie Ihre Gesichtsdaten aufnehmen.</string>
+  <string name="choose_unlock_fingerprint_msg">Bildschirmsperre festlegen, bevor Sie Ihren Fingerabdruck hinzufügen.</string>
   <string name="choose_voice_input_title">Spracheingabe auswählen</string>
   <string name="cleaner">Bereinigung</string>
   <string name="clear_activities">Zurücksetzen</string>
@@ -1541,11 +1544,11 @@ Diese Funktion kann unter [Einstellungen] deaktiviert werden."</string>
   <string name="clear_uri_btn_text">Zugriff löschen</string>
   <string name="clear_user_data_text">Daten löschen</string>
   <string name="click_to_view">Zum Anzeigen antippen</string>
-  <string name="close_aod">"Diese Funktion kann nicht mit \"Immer an-Modus\" kombiniert werden. Schalten Sie zuerst \"Immer an-Modus\" aus."</string>
+  <string name="close_aod">Diese Funktion kann nicht mit \"Immer an-Modus\" kombiniert werden. Schalten Sie zuerst \"Immer an-Modus\" aus.</string>
   <string name="close_app">Aktuelle App schließen</string>
   <string name="close_demo_mode">Beenden</string>
-  <string name="close_fod">"Sie können Ihr Gerät nicht mit Ihrem Fingerabdruck entsperren, wenn der Bildschirm ausgeschaltet ist. Entsperrung mit Fingerabdruck funktioniert nur, wenn der Bildschirm eingeschaltet ist."</string>
-  <string name="close_fod_aod">"Sie können Ihr Gerät nicht mit Ihrem Fingerabdruck entsperren, wenn der Bildschirm ausgeschaltet ist. \"Immer an-Modus\" wird auch nicht verfügbar sein. Entsperrung mit Fingerabdruck funktioniert nur, wenn der Bildschirm eingeschaltet ist."</string>
+  <string name="close_fod">Sie können Ihr Gerät nicht mit Ihrem Fingerabdruck entsperren, wenn der Bildschirm ausgeschaltet ist. Entsperrung mit Fingerabdruck funktioniert nur, wenn der Bildschirm eingeschaltet ist.</string>
+  <string name="close_fod_aod">Sie können Ihr Gerät nicht mit Ihrem Fingerabdruck entsperren, wenn der Bildschirm ausgeschaltet ist. \"Immer an-Modus\" wird auch nicht verfügbar sein. Entsperrung mit Fingerabdruck funktioniert nur, wenn der Bildschirm eingeschaltet ist.</string>
   <string name="close_gesture">Mit Geste schließen</string>
   <string name="close_hotspot_hint">Tragbaren Hotspot vor der Übertragung ausschalten</string>
   <string name="close_miui_optimization_title">MIUI Optimierung abschalten</string>
@@ -2073,6 +2076,7 @@ Diese Einstellung betrifft alle Benutzer auf diesem Telefon."</string>
   <string name="delete_or_keep_legacy_passwords_confirm_msg">Diesen Fingerabdruck entfernen?</string>
   <string name="delete_rule">Regeln löschen</string>
   <string name="delete_saved_network">Gespeichertes Netzwerk löschen</string>
+  <string name="delete_sound_effect">Ton beim Löschen</string>
   <string name="deleted_apps">Gelöschte Apps</string>
   <string name="deletion_helper_automatic_title">Automatisch</string>
   <string name="deletion_helper_manual_title">Manuell</string>
@@ -2080,7 +2084,6 @@ Diese Einstellung betrifft alle Benutzer auf diesem Telefon."</string>
   <string name="demo_mode">Demomodus</string>
   <string name="demo_mode_summary">Demosymbol in der Statusleiste anzeigen</string>
   <string name="deny">Ablehnen</string>
-  <string name="delete_sound_effect">Ton beim Löschen</string>
   <string name="deselect_all">Alle abwählen</string>
   <string name="detail_app_button">App-Info</string>
   <string name="details_subtitle">Nutzungsdetails</string>
@@ -2128,8 +2131,8 @@ Diese Einstellung betrifft alle Benutzer auf diesem Telefon."</string>
   <string name="device_internal_memory">Interner Speicher</string>
   <string name="device_miui_more">Mehr anzeigen</string>
   <string name="device_miui_version">MIUI-Version</string>
-  <string name="device_miui_version_parameters">MIUI-Version</string>
   <string name="device_miui_version_for_POCO">MIUI Version (Für POCO)</string>
+  <string name="device_miui_version_parameters">MIUI-Version</string>
   <string name="device_miui_version_update">MIUI-Update verfügbar</string>
   <string name="device_name">Gerätename</string>
   <string name="device_name_input_error">Gerätename konnte nicht gespeichert werden</string>
@@ -3056,6 +3059,8 @@ Wenn Sie automatische Sicherungen einschalten, werden Geräte- und App-Daten per
   <string name="home">Einstellungen Startbildschirm</string>
   <string name="home_app_uninstall_button">Diese App entfernen</string>
   <string name="home_key">Startbildschirm</string>
+  <string name="home_title">Startbildschirm</string>
+  <string name="home_work_profile_not_supported">Unterstützt keine Arbeitsprofile</string>
   <string name="homepage_all_settings">Alle Einstellungen</string>
   <string name="homepage_condition_footer_content_description">Einklappen</string>
   <string name="homepage_personal_settings">Vorschläge</string>
@@ -3156,12 +3161,14 @@ Wenn Sie automatische Sicherungen einschalten, werden Geräte- und App-Daten per
   <string name="input_method_function_voice_des">Tippen, um Spracheingabe zu verwenden</string>
   <string name="input_method_function_xiaoai">Mi KI Spracheingabe</string>
   <string name="input_method_function_xiaoai_des">Tippen, um Mi KI Spracheingabe zu verwenden</string>
+  <string name="input_method_manage">Tastaturen verwalten</string>
   <string name="input_method_selector">Auswahl der Eingabemethoden</string>
   <string name="input_method_selector_always_hide_title">Nie anzeigen</string>
   <string name="input_method_selector_always_show_title">Immer anzeigen</string>
   <string name="input_method_selector_show_automatically_title">Automatisch</string>
   <string name="input_method_settings">Einstellungen</string>
   <string name="input_method_settings_button">Einstellungen</string>
+  <string name="input_method_settings_text">Einstellungen</string>
   <string name="input_methods_and_subtype_enabler_title">Aktive Eingabemethoden auswählen</string>
   <string name="input_methods_settings_label_format">%1$s-Einstellungen</string>
   <string name="input_methods_settings_title">Texteingabe</string>
@@ -3590,7 +3597,7 @@ Wenn Sie automatische Sicherungen einschalten, werden Geräte- und App-Daten per
   <string name="lock_settings_profile_unification_dialog_body">Sie können die Sperre Ihres Arbeitsprofils auch für Ihre Bildschirmsperre verwenden. Wenn Sie dies tun, gelten alle Arbeitsrichtlinien auch für die Bildschirmsperre.</string>
   <string name="lock_settings_profile_unification_dialog_confirm">Gerätesperre ändern</string>
   <string name="lock_settings_profile_unification_dialog_title">Die gleiche Sperre verwenden?</string>
-  <string name="lock_settings_profile_unification_dialog_uncompliant_body">"Ihre Arbeitsprofilsperre erfüllt nicht die Sicherheitsanforderungen Ihrer Organisation. Sie können die gleiche Sperre für Ihren Gerätebildschirm und Ihr Arbeitsprofil verwenden, aber alle Richtlinien für Arbeitssperren gelten."</string>
+  <string name="lock_settings_profile_unification_dialog_uncompliant_body">Ihre Arbeitsprofilsperre erfüllt nicht die Sicherheitsanforderungen Ihrer Organisation. Sie können die gleiche Sperre für Ihren Gerätebildschirm und Ihr Arbeitsprofil verwenden, aber alle Richtlinien für Arbeitssperren gelten.</string>
   <string name="lock_settings_profile_unification_dialog_uncompliant_confirm">Sperre ändern</string>
   <string name="lock_settings_profile_unification_summary">Bildschirmsperre übereinstimmend mit Arbeitsprofil ändern</string>
   <string name="lock_settings_profile_unification_title">Dieselbe Sperre verwenden</string>
@@ -4001,7 +4008,7 @@ Um auch Musik, Bilder und sonstige Benutzerdaten zu löschen, muss der <b>USB-Sp
   <string name="miui_sos_launching_summary">Aktivierung SOS-Notfallhilfe in %ds</string>
   <string name="miui_sos_menu_add">Hinzufügen</string>
   <string name="miui_sos_menu_edit">Bearbeiten</string>
-  <string name="miui_sos_msg_call_log_prefix">"Hier ist meine Anrufliste der letzten Stunde:"</string>
+  <string name="miui_sos_msg_call_log_prefix">"Hier ist meine Anrufliste der letzten Stunde: "</string>
   <string name="miui_sos_play_voice">SOS-Nachricht abspielen</string>
   <string name="miui_sos_remind_add">Hinzufügen</string>
   <string name="miui_sos_remind_infocontent">Ich habe Sie als meinen Notfallkontakt hinzugefügt. Sie erhalten eine Nachricht mit meinen Standortinformationen, falls ich in Gefahr bin. [Mi SOS-Notfallhilfe]</string>
@@ -4075,8 +4082,8 @@ Der Wechsel zu %1$s wird Ihren %2$s-Dienst nicht beenden."</string>
   <string name="mock_location_app_set">App für Scheinstandorte: %1$s</string>
   <string name="mode_disable">Aus</string>
   <string name="mode_enable">An</string>
-  <string name="model_info">Modell</string>
   <string name="model_hardware_summary">Modell: %1$s; Hardware: %2$s</string>
+  <string name="model_info">Modell</string>
   <string name="model_name">Modell</string>
   <string name="model_number">Geräteausführung</string>
   <string name="model_summary">Modell: %1$s</string>
@@ -4146,6 +4153,7 @@ Betriebssystem auswählen:"</string>
   <string name="mtp_connection_failed">Dateien auf den angeschlossenen Computer übertragen nicht möglich. Fehlerbehebung versuchen.</string>
   <string name="mtp_connection_failed_title">USB-Verbindung</string>
   <string name="mtp_connection_not_remind">Nicht mehr anzeigen</string>
+  <string name="mtp_ptp_mode_summary">MTP- oder PTP-Funktion ist aktiv</string>
   <string name="mtp_solution_button_cancel">Verstanden</string>
   <string name="mtp_solution_button_ok">Fehlerbehebung</string>
   <string name="mtrl_chip_close_icon_content_description">%1$s entfernen</string>
@@ -4601,6 +4609,7 @@ Dies ermöglicht der App auch, Nicht stören ein-/auszuschalten und entsprechend
   <string name="oem_unlock_enable_disabled_summary_connectivity_or_locked">Mit dem Internet verbinden oder wenden Sie sich an Ihren Mobilfunkanbieter</string>
   <string name="oem_unlock_enable_disabled_summary_sim_locked_device">Nicht verfügbar bei SIM-Lock-Geräten</string>
   <string name="oem_unlock_enable_summary">Entsperrung des Bootloaders erlauben</string>
+  <string name="off">Aus</string>
   <string name="ok_rules">Fertigstellen</string>
   <string name="old_sdk_deny_warning">App ist nicht kompatibel mit den neuesten Android-Rechteanforderungen. Verweigerte Rechte können die Funktionsweise dieser App beeinflussen.</string>
   <string name="oldman_app_label">Minimaler Desktop</string>
@@ -4610,7 +4619,6 @@ Dies ermöglicht der App auch, Nicht stören ein-/auszuschalten und entsprechend
   <string name="oldman_installed_not_current_des">Sie haben einen minimalen Desktop installiert, der als Standard-Desktop für ein besseres Erlebnis festgelegt werden kann.</string>
   <string name="oldman_mode_entry_name">Vereinfachter Desktop</string>
   <string name="oldman_uninstalled_btn">Installieren</string>
-  <string name="off">Aus</string>
   <string name="oldman_uninstalled_des">Der Lite-Modus befreit Sie von Unübersichtlichkeit und hält Ihren Startbildschirm einfach und minimalistisch.</string>
   <string name="on">An</string>
   <string name="one_cacrt">Ein CA-Zertifikat</string>
@@ -4728,9 +4736,11 @@ OTG schaltet sich nach 10 Minuten Inaktivität automatisch aus."</string>
   <string name="password_entrance_title">Bildschirmsperre festlegen</string>
   <string name="password_guard">Passwort</string>
   <string name="password_null">Passwort kann nicht leer sein</string>
+  <string name="password_security_settings_title">Passwörter &amp; Sicherheit</string>
   <string name="password_toggle_content_description">Passwort anzeigen</string>
   <string name="password_turned_off_text">Schutz wurde deaktiviert</string>
   <string name="password_turned_on_text">Schutz wurde aktiviert</string>
+  <string name="password_unlock_title">Passwort</string>
   <string name="payment_summary">%1$s ist Standard</string>
   <string name="peek_notification_icon_title">Symbole für eingehende Benachrichtigungen anzeigen</string>
   <string name="performance_category">Leistung</string>
@@ -4868,6 +4878,8 @@ OTG schaltet sich nach 10 Minuten Inaktivität automatisch aus."</string>
   <string name="power_mgr">Akku-Optimierung</string>
   <string name="power_mode">Stromeinstellungen</string>
   <string name="power_mode_balanced_title">Ausgeglichen</string>
+  <string name="power_monitor_summary">Tools zur Stromüberwachung</string>
+  <string name="power_monitor_title">Stromüberwachung</string>
   <string name="power_optimize">Strom sparen</string>
   <string name="power_overcounted">Überzählt</string>
   <string name="power_phone">Anrufe</string>
@@ -5150,7 +5162,9 @@ OTG schaltet sich nach 10 Minuten Inaktivität automatisch aus."</string>
   <string name="proxy_warning_limited_support">HTTP-Proxy wird vom Browser, aber nicht von anderen Apps verwendet</string>
   <string name="qtifeedback_settings_title">Hardware-Feedback</string>
   <string name="query_hint_text">Sucheinstellungen</string>
+  <string name="quick_reply_title">Schnellantworten</string>
   <string name="quick_settings_developer_tiles">Kacheln für Entwickler in den Schnelleinstellungen</string>
+  <string name="quick_settings_label">Schalter</string>
   <string name="quick_settings_under_keyguard_summary">Zugriff auf Schnelleinstellungen erlauben, während das Gerät gesperrt ist</string>
   <string name="quick_settings_under_keyguard_title">Zugriff Schnelleinstellungen</string>
   <string name="quiet">Nicht stören</string>
@@ -5451,6 +5465,8 @@ Mindestens %s freigeben."</string>
   <string name="screen_dark_mode_smart_dark_title">Dark Mode überall</string>
   <string name="screen_dark_mode_select_time_error_summary">Startzeit und Endzeit dürfen nicht identisch sein</string>
   <string name="screen_dark_mode_smart_dark_summary">Dark Mode auch auf Apps von Drittanbietern anwenden. Einige Apps werden möglicherweise falsch angezeigt.</string>
+  <string name="screen_dark_mode_smart_dark_title">Dark Mode überall</string>
+  <string name="screen_dark_mode_time_title">Zeitplan</string>
   <string name="screen_effect">Farbgebung</string>
   <string name="screen_fps_summary">Eine höhere Aktualisierungsrate macht das Bild glatter, während eine niedrigere Aktualisierungsrate den Akku schont</string>
   <string name="screen_fps_summary_power_save">Verwendung eines festen Taktes verbraucht weniger Strom</string>
@@ -7226,6 +7242,8 @@ Ihre gespeicherten Fingerabdrücke werden auch aus diesem Profil entfernt und Si
   <string name="unlock_set_unlock_summary">Bitte Bildschirmsperre einschalten</string>
   <string name="unlock_setup_wizard_fingerprint_details">Sobald Sie eine Bildschirmsperre eingerichtet haben, können Sie Ihren Fingerabdruck unter Einstellungen &gt; Sicherheit einrichten</string>
   <string name="unlock_type_category_title">Erkennungsmethode</string>
+  <string name="unlogin_account_summary">Alle Mi-Dienste. Ein Mi Konto</string>
+  <string name="unlogin_account_title">Beim Mi Konto anmelden</string>
   <string name="unmount_inform_text">USB-Speicher wird getrennt</string>
   <string name="unmute_sound_title">Stummschalten aus</string>
   <string name="unrestrict_max_aspect_ratio_title">Diese Apps sind für den Vollbildmodus optimiert</string>
@@ -7430,6 +7448,11 @@ Speicher freigeben oder nur wichtige Elemente übertragen."</string>
   <string name="use_open_wifi_automatically_summary_scorer_unsupported_disabled">Zur Nutzung kompatiblen Netzwerk-Bewertungsanbieter auswählen</string>
   <string name="use_open_wifi_automatically_summary_scoring_disabled">Zur Nutzung Netzwerk-Bewertungsanbieter auswählen</string>
   <string name="use_open_wifi_automatically_title">Verbindung zu offenen Netzwerken</string>
+  <string name="use_otg_charge_only">Umkehrladen</string>
+  <string name="use_otg_charge_only_summary">Schnelles 1.8A-Laden</string>
+  <string name="use_otg_file_transfers">Umkehrladen &amp; Übertragung von Dateien</string>
+  <string name="use_otg_file_transfers_summary">Langsames Laden mit 500mA und Dateiübertragungen</string>
+  <string name="use_otg_title">USB-OTG</string>
   <string name="use_personalized_ad_service">Personalisierte Werbung anzeigen</string>
   <string name="use_personalized_ad_service_summary">Wenn Empfehlungen ausgeschaltet sind, sehen Sie immer noch die gleiche Anzahl von Anzeigen wie bei aktivierter Funktion, jedoch nicht auf der Grundlage Ihrer Verhaltensdaten oder Ihrer persönlichen Daten.</string>
   <string name="use_privacy_password_immediate">Verwenden</string>
@@ -7715,8 +7738,10 @@ Jeder Benutzer kann aktualisierte App-Berechtigungen für alle anderen Benutzer 
   <string name="vt_provisioned_switch_string">Videoanrufe bereitgestellt</string>
   <string name="wait_for_debugger">Auf Debugger warten</string>
   <string name="wait_for_debugger_summary">Debugged-App wartet auf den Debugger, bevor sie ausgeführt wird</string>
-  <string name="wakeup_for_keyguard_notification_title">Bei Benachrichtigungen Bildschirmbeleuchtung einschalten</string>
+  <string name="wake_suppression_summary">Ihr Gerät reagiert möglicherweise auf eine versehentliche Berührung, aber auch auf Gestensteuerung an den Rändern</string>
+  <string name="wake_suppression_title">Kleiner Bereich</string>
   <string name="wakeup_and_sleep_settings_category_name">Einstellungen Sperrbildschirm</string>
+  <string name="wakeup_for_keyguard_notification_title">Bei Benachrichtigungen Bildschirmbeleuchtung einschalten</string>
   <string name="wallpaper_attributions">Hintergründe</string>
   <string name="wallpaper_attributions_values">"Satellitenbildanbieter:
  ©2014 CNES / Astrium, DigitalGlobe, Bluesky"</string>
