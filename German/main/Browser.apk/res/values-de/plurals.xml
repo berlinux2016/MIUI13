@@ -1,5 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+plurals
+  <plurals name="comment_detail_title">
+    <item quantity="other">%d Antworten</item>
+    <item quantity="one">%d Antwort</item>
+  </plurals>
+  <plurals name="comment_hour_ago">
+    <item quantity="other">vor %d Stunden</item>
+    <item quantity="one">vor %d Stunde</item>
+  </plurals>
+  <plurals name="comment_look_all">
+    <item quantity="other">%d Kommentare anzeigen</item>
+    <item quantity="one">%d Kommentar anzeigen</item>
+  </plurals>
+  <plurals name="comment_minute_ago">
+    <item quantity="other">vor %d Minuten</item>
+    <item quantity="one">vor %d Minuten</item>
+  </plurals>
+  <plurals name="comment_selected">
+    <item quantity="other">%d Kommentare ausgewählt</item>
+    <item quantity="one">%d Kommentar ausgewählt</item>
+  </plurals>
   <plurals name="adblock_rules_number_text">
     <item quantity="other">%d Elemente blockiert</item>
     <item quantity="one">%d Element blockiert</item>
