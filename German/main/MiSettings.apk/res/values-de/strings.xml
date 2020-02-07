@@ -97,32 +97,6 @@
   <string name="trend_from_yesterday_more_simple">%1$s mehr als gestern</string>
   <string name="unlock_times_per_day">"Tagesdurchschnitt: "</string>
   <string name="unlock_times_per_hour">"Entsperrt pro Std: "</string>
-  
-     <string name="usage_current_week_usage">Durchschnittliche tägliche Verbrauch von %s in der vergangenen Woche, bitte stellen Sie ihn vernünftig ein</string>
-     <string name="usage_device_limit_app_prolong">Erweiterte Nutzung</string>
-     <string name="usage_device_limit_app_prolong_time1">Für 20 Minuten verlängern</string>
-     <string name="usage_device_limit_app_prolong_time2">Für 40 Minuten verlängern</string>
-     <string name="usage_device_limit_app_prolong_time3">Für 60 Minuten verlängern</string>
-     <string name="usage_device_limit_app_prolong_time4">Heute eine Einschränkungen</string>
-     <string name="usage_device_limit_notifation_summary_start">Verbleibende Zeit: %1$s</string>
-     <string name="usage_device_limit_notifation_title">Verfügbare Zeit heute</string>
-     <string name="usage_device_limit_time_over">Heute verfügbar: %1$s</string>
-     <string name="usage_reach_device_limit">Erreicht das Gerät Xliff Zeitlimit, kann es nicht weiter verwendet werden</string>
-     <string name="usage_reach_device_limit_warning_text">Bildschirmzeit: heute verfügbare Zeit</string>
-     <string name="usage_remain_about_hour_miunte" formatted="false">Über %1s Std %1s Min</string>
-     <string name="usage_remain_hour_miunte" formatted="false">%1s Std %1s Min</string>>
-     <string name="usage_stats_device_limit">Nutzungsbeschränkungen für die Ausrüstung</string>
-     <string name="usage_stats_device_limit_summary">Verfügbare tägliche Gerätezeit einstellen</string>
-     <string name="usage_stats_limit_time_accuracy_title">Anzeigegenauigkeit der Restzeit</string>
-     <string name="usage_stats_limit_time_high_accuracy_summary">Die verbleibende Zeit ist minutengenau und der Stromverbrauch ist hoch.</string>
-     <string name="usage_stats_limit_time_high_accuracy_title">Hohe Genauigkeit</string>
-     <string name="usage_stats_limit_time_low_accuracy_summary">Minutengenau nur innerhalb von 2 Stunden verfügbare Zeit, geringer Stromverbrauch</string>
-     <string name="usage_stats_limit_time_low_accuracy_title">Geringe Genauigkeit</string>
-     <string name="usage_stats_limit_time_warn">Restzeiterinnerung</string>
-     <string name="usage_stats_limit_time_warn_summary">Nach dem Öffnen wird die noch verfügbare Zeit in der Benachrichtigungsleiste angezeigt</string>
-     <string name="usage_stats_limit_time_warn_title">Verfügbare Restzeiterinnerung anzeigen</string>
-     <string name="usage_stats_no_limit">Unbegrenzte Apps einstellen</string>
-
   <string name="usage_agree">Zustimmen</string>
   <string name="usage_app_get_it">Verstanden</string>
   <string name="usage_app_limit_alter_summary">Sieht aus, als wäre dieses Zeitlimit kürzer als die Zeit, die Sie heute diese App benutzt haben. Trotzdem Limit setzen?</string>
@@ -142,6 +116,15 @@
   <string name="usage_beat_fans">Besser als %s der Mi Fans</string>
   <string name="usage_continuous_days">Serie</string>
   <string name="usage_creating_weekly_report">Wochenbericht erstellen…</string>
+  <string name="usage_current_week_usage">%s im Durchschnitt innerhalb der letzten 7 Tage</string>
+  <string name="usage_device_limit_app_prolong">Zeit hinzufügen</string>
+  <string name="usage_device_limit_app_prolong_time1">20 Minuten hinzufügen</string>
+  <string name="usage_device_limit_app_prolong_time2">40 Minuten hinzufügen</string>
+  <string name="usage_device_limit_app_prolong_time3">60 Minuten hinzufügen</string>
+  <string name="usage_device_limit_app_prolong_time4">Heute nicht einschränken</string>
+  <string name="usage_device_limit_notifation_summary_start">Sie werden Ihr Limit in %1$s erreichen</string>
+  <string name="usage_device_limit_notifation_title">Verbleibende Zeit heute</string>
+  <string name="usage_device_limit_time_over">Sie haben das heutige Limit erreicht (%1$s)</string>
   <string name="usage_exit">Beenden</string>
   <string name="usage_focus_focus_premission_main_summary">Diese App muss auf Ihre Kontoinformationen zugreifen, um Ihre Konzentrationsstatistik aufzuzeichnen.</string>
   <string name="usage_focus_focus_premission_second_summary">Wenn Sie mit der Erteilung solcher Berechtigungen nicht einverstanden sind, können Sie einige Funktionen dieser App nicht nutzen, ihre Grundfunktionen stehen Ihnen jedoch weiterhin zur Verfügung. Sie können die Berechtigungen jederzeit einschränken oder in den Einstellungen widerrufen.</string>
@@ -173,6 +156,8 @@ Diese App muss außerdem eine Internetverbindung herstellen und benötigt folgen
 Wenn Sie nicht zustimmen, diese Berechtigungen zu erteilen oder Ihre persönlichen Daten zu teilen und hochzuladen, können Sie diese App nicht nutzen. 
 Sie können Ihre Berechtigung unter Bildschirmzeit &gt; Einstellungen &gt; Bildschirmzeit ausschalten widerrufen. Wenn Sie weitere Fragen zum Thema Datenschutz haben, können Sie uns unter privacy@xiaomi.com kontaktieren."</string>
   <string name="usage_no_net_summary">Netzwerkeinstellungen prüfen und erneut versuchen</string>
+  <string name="usage_reach_device_limit">Die Zeit ist vorbei! Sie haben Ihr Limit erreicht.</string>
+  <string name="usage_reach_device_limit_warning_text">Sie haben das Bildschirmzeitlimit für heute erreicht</string>
   <string name="usage_refresh">Erneut versuchen</string>
   <string name="usage_request_error_summary">Ein unbekannter Fehler ist aufgetreten</string>
   <string name="usage_request_timeout_summary">Zeitüberschreitung der Anfrage</string>
@@ -263,7 +248,18 @@ Sie können Ihre Berechtigung unter Bildschirmzeit &gt; Einstellungen &gt; Bilds
   <string name="usage_state_which_mouth">MMM</string>
   <string name="usage_state_work_day">Wochentags</string>
   <string name="usage_state_work_day_hour_minute">Wochentags: %1$d Std %2$d Min</string>
+  <string name="usage_stats_device_limit">Tägliches Bildschirmzeitlimit</string>
+  <string name="usage_stats_device_limit_summary">Tageslimits für die Verwendung festlegen</string>
   <string name="usage_stats_experience_text">Tippen zum Ausprobieren (1 Min)</string>
+  <string name="usage_stats_limit_time_accuracy_title">Genauigkeit der Restzeitschätzung</string>
+  <string name="usage_stats_limit_time_high_accuracy_summary">Verbleibende Zeit Minutengenau anzeigen. Dies erhöht den Stromverbrauch.</string>
+  <string name="usage_stats_limit_time_high_accuracy_title">Hohe Genauigkeit</string>
+  <string name="usage_stats_limit_time_low_accuracy_summary">Verbleibende Zeit Minutengenau innerhalb der letzten 2 verbleibenden Stunden anzeigen, um die Akku zu schonen</string>
+  <string name="usage_stats_limit_time_low_accuracy_title">Geringe Genauigkeit</string>
+  <string name="usage_stats_limit_time_warn">Bildschirmzeitwarnungen</string>
+  <string name="usage_stats_limit_time_warn_summary">Verbleibende Bildschirmzeit Benachrichtigungsleiste anzeigen</string>
+  <string name="usage_stats_limit_time_warn_title">Über verbleibende Bildschirmzeit warnen</string>
+  <string name="usage_stats_no_limit">App-Ausnahmen</string>
   <string name="usage_stats_normal_day">Wochentags</string>
   <string name="usage_stats_week_day">An Wochenenden</string>
   <string name="usage_total_days">Gesamttage</string>
