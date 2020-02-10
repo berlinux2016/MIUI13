@@ -22,6 +22,8 @@
   <string name="actionbar_overflow_item_desc">Mehr Einstellungen</string>
   <string name="add_automatically_alert_msg">Fotos von \"%1$s\" automatisch zu diesem Album hinzufügen?</string>
   <string name="add_automatically_alert_title">Füge Fotos automatisch hinzu</string>
+  <string name="add_nomedia_with_move_to_rubbish">\".nomedia\" Dateien zu ausgewählten Alben hinzufügen, um sie für andere Apps unsichtbar zu machen</string>
+  <string name="add_remove_nomedia_dialog_message">\".nomedia\" Dateien zu ausgewählten Alben hinzufügen? Andere Apps können diese Alben danach nicht mehr sehen.</string>
   <string name="add_secret_ensure_title">Verstecken</string>
   <string name="add_sharer">Benutzer hinzufügen</string>
   <string name="add_to_album">Album hinzufügen</string>
@@ -77,6 +79,8 @@
   <string name="album_jump_failed">Warten, bis die Alben mit der Cloud synchronisiert sind und erneut versuchen</string>
   <string name="album_member">Albumbenutzer %s</string>
   <string name="album_name">Albumname</string>
+  <string name="album_name_all_photos">Alle Fotos</string>
+  <string name="album_name_all_photos_shortcut">Alle</string>
   <string name="album_name_locations">Standorte</string>
   <string name="album_name_people">Menschen</string>
   <string name="album_name_recent_discovery">Neu hinzugekommen</string>
@@ -109,6 +113,12 @@
   <string name="album_share_title_new_album">Neues Album teilen</string>
   <string name="album_show_local_only">Nur lokale Alben anzeigen</string>
   <string name="album_show_local_only_summary">Einschalten, wenn Sie Ihre Fotos nur auf Ihrem Gerät anzeigen und löschen möchten.</string>
+  <string name="album_sort_type">Sortierreihenfolge</string>
+  <string name="album_sort_type_create_time_asc">Von alt nach neu</string>
+  <string name="album_sort_type_create_time_desc">Von neu nach alt</string>
+  <string name="album_sort_type_custom">Benutzerdefiniert</string>
+  <string name="album_sort_type_name_asc">Von A bis Z</string>
+  <string name="album_sort_type_name_desc">Von Z bis A</string>
   <string name="album_type_baby">Kinderalbum</string>
   <string name="album_type_share">Geteiltes Album</string>
   <string name="album_type_system">Systemalbum</string>
@@ -306,6 +316,7 @@
   <string name="choose_owner_relation">Beziehung</string>
   <string name="choose_people">Bitte wählen Sie ein Personenalbum</string>
   <string name="choose_some_people">Ein Personenalbum von %s</string>
+  <string name="choose_video_compress_quality">Auflösung wählen</string>
   <string name="chooser_fragment_mishare_title">Teilen mit</string>
   <string name="cleaner_photo_pick_delete_selected">Ausgewählte Fotos löschen</string>
   <string name="cleaner_raw_action">Löschen</string>
@@ -721,6 +732,8 @@
   <string name="flash_off">Blitz aus</string>
   <string name="flash_on">Blitz an</string>
   <string name="fmt_date_day">d.</string>
+  <string name="fmt_date_long_month_day">d. MMMM</string>
+  <string name="fmt_date_long_year_month_day">d. MMMM yyyy</string>
   <string name="fmt_date_numeric_day">d.</string>
   <string name="fmt_date_numeric_month">M.</string>
   <string name="fmt_date_short_month">MMM.</string>
@@ -729,7 +742,9 @@
   <string name="fmt_date_long_year_month_day">d. MMMM yyyy</string>
   <string name="fmt_date_numeric_month_day">dd.MM.</string>
   <string name="fmt_date_numeric_year_month_day">dd.MM.yyyy</string>
+  <string name="fmt_date_short_month">MMM.</string>
   <string name="fmt_date_short_month_day">d. MMM.</string>
+  <string name="fmt_date_short_year_month">MMM. yyyy</string>
   <string name="fmt_date_short_year_month_day">d. MMM. yyyy</string>
   <string name="fmt_time_12hour">"h 'Uhr'"</string>
   <string name="fmt_time_24hour">"H 'Uhr'"</string>
@@ -827,6 +842,7 @@
   <string name="loading_processing_tip">Fotos bearbeiten…</string>
   <string name="loading_suspend">Download angehalten. Er wird fortgesetzt, sobald eine WLAN-Verbindung verfügbar ist.</string>
   <string name="loading_video">Video herunterladen…</string>
+  <string name="loading_video_compress_lib">Videokompressions-Plugin herunterladen…</string>
   <string name="loading_video_fail_sync_without_network">Mit dem Netzwerk verbinden, um Metadaten herunterzuladen</string>
   <string name="loading_video_fail_syncing">Warten Sie, bis die Metadaten vollständig heruntergeladen wurden und versuchen Sie es erneut</string>
   <string name="loading_video_thumbnail">Videovorschau herunterladen…</string>
@@ -839,6 +855,8 @@
   <string name="main_save_compress">Komprimieren und speichern</string>
   <string name="main_save_error_msg">Änderungen konnten wegen eines Fehlers nicht gespeichert werden</string>
   <string name="main_save_origin">Originaldatei speichern</string>
+  <string name="manual_hide_manage">\".nomedia\" Dateien hinzufügen</string>
+  <string name="manual_hide_state">\".nomedia\" Dateien erfolgreich hinzugefügt</string>
   <string name="mark_myself_default_name">Ich</string>
   <string name="mark_myself_suggestion_load_more">Das bin ich nicht.</string>
   <string name="mark_myself_suggestion_title">Wählen Sie Fotos mit Ihrem Gesicht aus, um die Galerie zu personalisieren.</string>
@@ -1009,6 +1027,7 @@ zu wechseln."</string>
   <string name="operation_too_often">Zu viele Anfragen von Ihrer IP-Adresse. Warten Sie 1 oder 2 Minuten und versuchen Sie es erneut.</string>
   <string name="operation_unforce_top">Lösen</string>
   <string name="operation_unhide">Anzeigen</string>
+  <string name="operation_video_compress">Video komprimieren</string>
   <string name="orientation_lock_tip">Ausrichtung fixiert</string>
   <string name="orientation_unlock_tip">Automatisch drehen aktiviert</string>
   <string name="origin_gif_name">Originaldatei</string>
@@ -1084,8 +1103,8 @@ zu wechseln."</string>
   <string name="photo_editor_saving">Speichern…</string>
   <string name="photo_editor_talkback_cancel">Abbrechen</string>
   <string name="photo_editor_talkback_confirm">Bestätigen</string>
-  <string name="photo_editor_talkback_crop_1_1">1:1</string>
   <string name="photo_editor_talkback_crop_16_9">16:9</string>
+  <string name="photo_editor_talkback_crop_1_1">1:1</string>
   <string name="photo_editor_talkback_crop_2_3">Zwei bis drei</string>
   <string name="photo_editor_talkback_crop_3_2">3:2</string>
   <string name="photo_editor_talkback_crop_3_4">3:4</string>
@@ -1211,6 +1230,7 @@ zu wechseln."</string>
   <string name="recognizing_image">Bilderkennung…</string>
   <string name="recommanded_face_abandon_tip">Aus den Empfehlungen entfernt</string>
   <string name="recommanded_face_added_tip">Zu \"%s\" hinzugefügt</string>
+  <string name="recommend_category_title">Galerie auswählen</string>
   <string name="recovery_merge">Zusammenfügen</string>
   <string name="recovery_merge_or_rename">Alben zusammenfügen</string>
   <string name="recovery_merge_or_rename_message">Ein Album mit diesem Namen besteht bereits. Jetzt zusammenfügen?</string>
@@ -1227,7 +1247,6 @@ zu wechseln."</string>
   <string name="relation_text_maternal_grandmother">Großmutter mütterlicherseits</string>
   <string name="relation_text_mother">Mutter</string>
   <string name="relation_with_you">Beziehung zu Ihnen festlegen</string>
-  <string name="recommend_category_title">Galerie auswählen</string>
   <string name="remind_face_recommend_confirm">Bestätigen</string>
   <string name="remove_from_album_message">Dieses Foto wird hier nicht mehr angezeigt</string>
   <string name="remove_from_album_title">Aus diesem Album entfernen</string>
@@ -1241,6 +1260,7 @@ zu wechseln."</string>
   <string name="remove_hidden_status_tip">Dieses Album wird neben anderen Alben angezeigt, wenn Sie es einblenden.</string>
   <string name="remove_hidden_status_title">Einblenden</string>
   <string name="remove_single_album_from_rubbish_page_tip">Ausgewählte Alben wiederherstellen?</string>
+  <string name="remove_single_manual_hide_album_from_rubbish_page_tip">Ausgewählte Alben wiederherstellen und \".nomedia\" Dateien löschen?</string>
   <string name="remove_to_album_title">Zusammenführen mit</string>
   <string name="remove_to_other_album">Zusammenführen mit einer anderen Person</string>
   <string name="removed_from_favorites_desc">Aus Favoriten entfernt</string>
@@ -1270,6 +1290,7 @@ zu wechseln."</string>
   <string name="risk_control_deleted_message">Jemand hat Ihre Galerie-Elemente aus der Cloud mit einem %3$s am %1$s um %2$s gelöscht. Waren Sie das?</string>
   <string name="risk_control_deleted_title">Sicherheitswarnung</string>
   <string name="rubbish_album_move_to_other_album_success">Sie können sich diese Elemente jetzt unter \"Andere Alben\" ansehen.</string>
+  <string name="rubbish_nomedia_manager_button_text">Alben mit \".nomedia\" Dateien verwalten</string>
   <string name="runtime_permission_ungranted">Galerie wurde wegen fehlender Berechtigung beendet</string>
   <string name="same_name_album_exist_and_toast">"Ein Album mit demselben Namen ist bereits vorhanden. Stattdessen wurde '%s' erstellt."</string>
   <string name="saturday">Samstag</string>
@@ -1409,6 +1430,7 @@ zu wechseln."</string>
   <string name="slideshow_interval_invalid">Intervall muss zwischen 3 und 3600 Sekunden liegen</string>
   <string name="slideshow_interval_title">Jedes Foto anzeigen für</string>
   <string name="slideshow_interval_value">%1$d Sekunden</string>
+  <string name="slideshow_loop_title">Schleife für alle Dias</string>
   <string name="slim_complete">Fertig</string>
   <string name="slim_complete_action_title">Erfolgreich optimiert</string>
   <string name="slim_cost_time_minute">%dm übrig</string>
@@ -1447,6 +1469,7 @@ zu wechseln."</string>
   <string name="solar_term_white_dews">Weißer Tau</string>
   <string name="solar_term_winter_begins">Winteranfang</string>
   <string name="solar_term_winter_solstice">Wintersonnenwende</string>
+  <string name="sort">Sortieren</string>
   <string name="special_type_eye_repair">Geschlossene Augen mit KI fixiert</string>
   <string name="special_type_night_beauty">KI Schwachlicht-Portait</string>
   <string name="special_type_night_mode">KI Nachtmodus</string>
@@ -1623,13 +1646,13 @@ zu wechseln."</string>
   <string name="unpublishing">Abbrechen…</string>
   <string name="unrecognized_manufacture">Unbekannt</string>
   <string name="unrecognized_model">Unbekanntes Gerät</string>
+  <string name="unsupport_raw">%s funktioniert nicht mit RAW-Bildern</string>
+  <string name="unsupport_raw_and_video">%s funktioniert nicht mit Videos und RAW-Bildern</string>
+  <string name="unsupport_video">%s funktioniert nicht mit Videos.</string>
   <string name="unsupported_media_downloading_tip_common">Anzeigen von Originalbildern in diesem Format wird in dieser Version von Android nicht unterstützt. Trotzdem herunterladen?</string>
   <string name="unsupported_media_downloading_tip_format">Anzeigen von Original-%s-Bildern wird in dieser Version von Android nicht unterstützt. Trotzdem herunterladen?</string>
   <string name="unsupported_media_scanned_tip">%1$s Bilder wurden erkannt. Anzeigen von %2$s-Bildern wird in dieser Version von Android nicht unterstützt.</string>
   <string name="unsupported_media_view_tip">Anzeigen von Original-%s-Bildern wird in dieser Version von Android nicht unterstützt.</string>
-  <string name="unsupport_raw">%s funktioniert nicht mit RAW-Bildern</string>
-  <string name="unsupport_raw_and_video">%s funktioniert nicht mit Videos und RAW-Bildern</string>
-  <string name="unsupport_video">%s funktioniert nicht mit Videos.</string>
   <string name="user_agree">Zustimmen</string>
   <string name="user_agreement">" Nutzungsbedingungen"</string>
   <string name="user_agreement2">" Nutzungsbedingungen"</string>
@@ -1637,6 +1660,15 @@ zu wechseln."</string>
   <string name="user_alias_self">Ich</string>
   <string name="user_notice_identify_summary_format">"Wenn Sie diesen Service nutzen, stimmen Sie Xiaomi's %1$s und %2$s zu"</string>
   <string name="user_notice_title">Achtung</string>
+  <string name="video_compress_download_failed_for_notwork">Herunterladen nicht möglich. Netzwerkeinstellungen überprüfen und erneut versuchen.</string>
+  <string name="video_compress_encode_video">Video komprimieren…</string>
+  <string name="video_compress_lib_download">Videokompressions-Plugin herunterladen</string>
+  <string name="video_compress_lib_download_without_wifi">Sieht aus, als wäre Ihr Gerät nicht mit WLAN verbunden. Sie können mobile Daten verwenden, um das Videokomprimierungs-Plugin (1,3 MB) herunterzuladen.</string>
+  <string name="video_compress_not_with_8k">8K-Videos komprimieren nicht möglich</string>
+  <string name="video_compress_not_with_format">Videokomprimierung wird für dieses Format nicht unterstützt</string>
+  <string name="video_compress_not_with_low_quality">Aktuelle Auflösung ist die niedrigste</string>
+  <string name="video_compress_save_stop_tips">Erneutes tippen beendet die Kompression</string>
+  <string name="video_compress_size">≈ %s nach Kompression</string>
   <string name="video_edit_file_not_exits_tip">Sie müssen das Video zuerst herunterladen</string>
   <string name="video_editor_abandon_changes_tip_message">Wollen Sie die Änderungen an diesem Video wirklich verwerfen?</string>
   <string name="video_editor_abandon_changes_tip_title">Änderungen verwerfen</string>
@@ -1691,6 +1723,7 @@ zu wechseln."</string>
   <string name="video_editor_loading_warning_msg">Wegen eines Codierungsfehlers können einige Funktionen und Previews während des Bearbeitungsprozesses nicht verfügbar sein. Dies wird jedoch nicht die Ergebnis-Videodatei beeinflussen.</string>
   <string name="video_editor_loading_warning_title">Codierungsfehler</string>
   <string name="video_editor_more">Erweitert</string>
+  <string name="video_editor_not_support_8k_tips">8K-Videos bearbeiten nicht möglich</string>
   <string name="video_editor_not_support_tips">Videoformat wird nicht unterstützt</string>
   <string name="video_editor_regulator">Anpassen</string>
   <string name="video_editor_res_download_failed_tips">Download fehlgeschlagen, prüfen Sie die Einstellungen und versuchen Sie es erneut</string>
@@ -1732,7 +1765,15 @@ zu wechseln."</string>
   <string name="video_editor_watermark">Wasserzeichen</string>
   <string name="video_err">Video kann nicht abgespielt werden</string>
   <string name="video_not_exist">Video existiert nicht</string>
-  <string name="video_editor_not_support_8k_tips">8K-Videos bearbeiten nicht möglich</string>
+  <string name="video_quality_1080p">1080p</string>
+  <string name="video_quality_1080p_hd">1080p (hohe Auflösung)</string>
+  <string name="video_quality_1080p_original">1080P (unkomprimiert)</string>
+  <string name="video_quality_4k_hd">4K (hohe Auflösung)</string>
+  <string name="video_quality_4k_original">4K (unkomprimiert)</string>
+  <string name="video_quality_720p">720p</string>
+  <string name="video_quality_720p_hd">720p (hohe Auflösung)</string>
+  <string name="video_quality_720p_original">720p (unkomprimiert)</string>
+  <string name="video_quality_title_sub">Aktuelle Auflösung: %1$s (≈ %2$s)</string>
   <string name="video_with_time">Video aufgenommen %s</string>
   <string name="video_with_time_and_location">Video aufgenommen %1$s | Standort: %2$s</string>
   <string name="view_by_gallery_tip">MIUI Galerie</string>
