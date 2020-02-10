@@ -40,6 +40,7 @@
   <string name="action_item_hifi">Kopfhörer &amp; Audioeffekte</string>
   <string name="action_item_play_all">Alle in Zufallswiedergabe</string>
   <string name="action_item_play_next">Später abspielen</string>
+  <string name="action_item_play_video">Musikvideo abspielen</string>
   <string name="action_item_remove">Entfernen</string>
   <string name="action_item_remove_from_favorite">Aus Favoriten entfernen</string>
   <string name="action_item_share">Teilen</string>
@@ -103,7 +104,7 @@
   <string name="audio_picker_title">Titel auswählen</string>
   <string name="auto_payment">Automatisch erneuern</string>
   <string name="auto_payment_date">Nächste Zahlung: %s</string>
-  <string name="auto_recommend">Auto (empfohlen)</string>
+  <string name="auto_recommend">Automatisch (empfohlen)</string>
   <string name="auto_update">Automatisch aktualisieren</string>
   <string name="auto_update_tip">Sie können System-Apps über mobile Daten aktualisieren. Dies könnte Zusatzkosten verursachen.</string>
   <string name="available_playlist_name_format">Neue Wiedergabeliste %d</string>
@@ -140,6 +141,7 @@
   <string name="choose_language">Sprache auswählen</string>
   <string name="choose_music_lang_pref">Bevorzugte Sprache für Titel</string>
   <string name="choose_stream_quality">Streamingqualität einstellen</string>
+  <string name="click_and_watch_video_tip">Tippen, um Musikvideos abzuspielen</string>
   <string name="click_to_add_album_cover_and_lyric">Tippen, um Albumcover und Songtexte hinzuzufügen</string>
   <string name="click_to_shuffle">Zufallswiedergabe</string>
   <string name="close_music_time">"Verbleibende Zeit: "</string>
@@ -147,7 +149,7 @@
   <string name="cloud_empty_message">Keine Musik auf Xiaomi Cloud</string>
   <string name="cloud_empty_summary">Sichern Sie Ihre Musik auf Xiaomi Cloud, um Sie auf anderen Geräten abzuspielen</string>
   <string name="cloud_enable">Titel mit Xiaomi Cloud synchronisieren</string>
-  <string name="cloud_loading_message">Titel werden gesucht…</string>
+  <string name="cloud_loading_message">Titel suchen…</string>
   <string name="cloud_music">Titel auf Xiaomi Cloud</string>
   <string name="cloud_settings">Einstellungen synchronisieren</string>
   <string name="cloud_state_cloud_space_full">Zu wenig Cloud-Speicher, Backup angehalten</string>
@@ -393,6 +395,7 @@
   <string name="favorites">Favoriten</string>
   <string name="fcm_fallback_notification_channel_label">Sonstiges</string>
   <string name="file_not_found">"Datei existiert nicht"</string>
+  <string name="filter_by_MP4">Ordner mit MP4-Dateien anzeigen</string>
   <string name="filter_by_duration">Nach Länge</string>
   <string name="filter_by_duration_max">%d Min</string>
   <string name="filter_by_duration_min">%d Sek</string>
@@ -590,7 +593,7 @@
   <string name="my_music_empty">Wiedergabeliste ist leer</string>
   <string name="my_music_empty_goto_online">Keine Titel gefunden</string>
   <string name="my_playlist_add_song">Titeln hinzufügen</string>
-  <string name="my_playlist_create_self_playlist">Erstellen Sie Wiedergabelisten mit Ihren Lieblingstiteln</string>
+  <string name="my_playlist_create_self_playlist">Wiedergabelisten mit Ihren Lieblingstiteln erstellen</string>
   <string name="my_playlist_set_to_private">Privat machen</string>
   <string name="my_playlist_set_to_public">Öffentlich machen</string>
   <string name="nav_online_playlist">Wiedergabelisten</string>
@@ -825,6 +828,8 @@ Glücklich sein."</string>
   <string name="service_and_settings">Dienste und Einstellungen</string>
   <string name="session_create_error">Server meldet SESSION CREATE ERROR-Code, wenden Sie sich bitte an SDK-Entwickler!</string>
   <string name="set_as_ring">Als Klingelton auswählen</string>
+  <string name="set_online_home_subtitle">Online-Empfehlungen öffnen, wenn die App gestartet wird</string>
+  <string name="set_online_home_title">Online-Empfehlungen beim Start anzeigen</string>
   <string name="set_ringtones_failed">Klingelton konnte nicht eingestellt werden</string>
   <string name="set_ringtones_successful">%s als Klingelton eingestellt</string>
   <string name="setting_feature_setting">Funktionseinstellung</string>
@@ -987,4 +992,5 @@ Größe Delta-Update: %2$s"</string>
   <string name="xiaomi_update_sdk_external_storage_unavailable">Speicher nicht verfügbar, bitte prüfen Sie die SD-Karte</string>
   <string name="you_can_switch_mode_in_settings">In Einstellungen können Sie zwischen den Modi wechseln</string>
   <string name="you_may_like">Vielleicht gefällt Ihnen auch</string>
+  <string name="youtube_play_history">Wiedergabeverlauf</string>
 </resources>
