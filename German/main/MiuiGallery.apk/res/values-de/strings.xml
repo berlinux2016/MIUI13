@@ -21,9 +21,9 @@
   <string name="accept_or_deny">%1$s teilt das Album %2$s mit Ihnen</string>
   <string name="actionbar_overflow_item_desc">Mehr Einstellungen</string>
   <string name="add_automatically_alert_msg">Fotos von \"%1$s\" automatisch zu diesem Album hinzufügen?</string>
-  <string name="add_automatically_alert_title">Füge Fotos automatisch hinzu</string>
-  <string name="add_nomedia_with_move_to_rubbish">\".nomedia\" Dateien zu ausgewählten Alben hinzufügen, um sie für andere Apps unsichtbar zu machen</string>
-  <string name="add_remove_nomedia_dialog_message">\".nomedia\" Dateien zu ausgewählten Alben hinzufügen? Andere Apps können diese Alben danach nicht mehr sehen.</string>
+  <string name="add_automatically_alert_title">Fotos automatisch hinzufügen</string>
+  <string name="add_nomedia_with_move_to_rubbish">\".nomedia\"-Dateien zu ausgewählten Alben hinzufügen, um sie für andere Apps unsichtbar zu machen</string>
+  <string name="add_remove_nomedia_dialog_message">\".nomedia\"-Dateien zu ausgewählten Alben hinzufügen? Andere Apps können diese Alben danach nicht mehr sehen.</string>
   <string name="add_secret_ensure_title">Verstecken</string>
   <string name="add_sharer">Benutzer hinzufügen</string>
   <string name="add_to_album">Album hinzufügen</string>
@@ -855,8 +855,8 @@
   <string name="main_save_compress">Komprimieren und speichern</string>
   <string name="main_save_error_msg">Änderungen konnten wegen eines Fehlers nicht gespeichert werden</string>
   <string name="main_save_origin">Originaldatei speichern</string>
-  <string name="manual_hide_manage">\".nomedia\" Dateien hinzufügen</string>
-  <string name="manual_hide_state">\".nomedia\" Dateien erfolgreich hinzugefügt</string>
+  <string name="manual_hide_manage">\".nomedia\"-Dateien hinzufügen</string>
+  <string name="manual_hide_state">\".nomedia\"-Dateien erfolgreich hinzugefügt</string>
   <string name="mark_myself_default_name">Ich</string>
   <string name="mark_myself_suggestion_load_more">Das bin ich nicht.</string>
   <string name="mark_myself_suggestion_title">Wählen Sie Fotos mit Ihrem Gesicht aus, um die Galerie zu personalisieren.</string>
@@ -1260,7 +1260,7 @@ zu wechseln."</string>
   <string name="remove_hidden_status_tip">Dieses Album wird neben anderen Alben angezeigt, wenn Sie es einblenden.</string>
   <string name="remove_hidden_status_title">Einblenden</string>
   <string name="remove_single_album_from_rubbish_page_tip">Ausgewählte Alben wiederherstellen?</string>
-  <string name="remove_single_manual_hide_album_from_rubbish_page_tip">Ausgewählte Alben wiederherstellen und \".nomedia\" Dateien löschen?</string>
+  <string name="remove_single_manual_hide_album_from_rubbish_page_tip">Ausgewählte Alben wiederherstellen und \".nomedia\"-Dateien löschen?</string>
   <string name="remove_to_album_title">Zusammenführen mit</string>
   <string name="remove_to_other_album">Zusammenführen mit einer anderen Person</string>
   <string name="removed_from_favorites_desc">Aus Favoriten entfernt</string>
@@ -1290,7 +1290,7 @@ zu wechseln."</string>
   <string name="risk_control_deleted_message">Jemand hat Ihre Galerie-Elemente aus der Cloud mit einem %3$s am %1$s um %2$s gelöscht. Waren Sie das?</string>
   <string name="risk_control_deleted_title">Sicherheitswarnung</string>
   <string name="rubbish_album_move_to_other_album_success">Sie können sich diese Elemente jetzt unter \"Andere Alben\" ansehen.</string>
-  <string name="rubbish_nomedia_manager_button_text">Alben mit \".nomedia\" Dateien verwalten</string>
+  <string name="rubbish_nomedia_manager_button_text">Alben mit \".nomedia\"-Dateien verwalten</string>
   <string name="runtime_permission_ungranted">Galerie wurde wegen fehlender Berechtigung beendet</string>
   <string name="same_name_album_exist_and_toast">"Ein Album mit demselben Namen ist bereits vorhanden. Stattdessen wurde '%s' erstellt."</string>
   <string name="saturday">Samstag</string>
@@ -1648,7 +1648,7 @@ zu wechseln."</string>
   <string name="unrecognized_model">Unbekanntes Gerät</string>
   <string name="unsupport_raw">%s funktioniert nicht mit RAW-Bildern</string>
   <string name="unsupport_raw_and_video">%s funktioniert nicht mit Videos und RAW-Bildern</string>
-  <string name="unsupport_video">%s funktioniert nicht mit Videos.</string>
+  <string name="unsupport_video">%s funktioniert nicht mit Videos</string>
   <string name="unsupported_media_downloading_tip_common">Anzeigen von Originalbildern in diesem Format wird in dieser Version von Android nicht unterstützt. Trotzdem herunterladen?</string>
   <string name="unsupported_media_downloading_tip_format">Anzeigen von Original-%s-Bildern wird in dieser Version von Android nicht unterstützt. Trotzdem herunterladen?</string>
   <string name="unsupported_media_scanned_tip">%1$s Bilder wurden erkannt. Anzeigen von %2$s-Bildern wird in dieser Version von Android nicht unterstützt.</string>
@@ -1663,7 +1663,7 @@ zu wechseln."</string>
   <string name="video_compress_download_failed_for_notwork">Herunterladen nicht möglich. Netzwerkeinstellungen überprüfen und erneut versuchen.</string>
   <string name="video_compress_encode_video">Video komprimieren…</string>
   <string name="video_compress_lib_download">Videokompressions-Plugin herunterladen</string>
-  <string name="video_compress_lib_download_without_wifi">Sieht aus, als wäre Ihr Gerät nicht mit WLAN verbunden. Sie können mobile Daten verwenden, um das Videokomprimierungs-Plugin (1,3 MB) herunterzuladen.</string>
+  <string name="video_compress_lib_download_without_wifi">Sieht aus, als ist Ihr Gerät nicht mit WLAN verbunden. Sie können mobile Daten verwenden, um das Videokomprimierungs-Plugin (1,3 MB) herunterzuladen.</string>
   <string name="video_compress_not_with_8k">8K-Videos komprimieren nicht möglich</string>
   <string name="video_compress_not_with_format">Videokomprimierung wird für dieses Format nicht unterstützt</string>
   <string name="video_compress_not_with_low_quality">Aktuelle Auflösung ist die niedrigste</string>
