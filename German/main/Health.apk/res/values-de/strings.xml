@@ -77,6 +77,7 @@ um Karten hinzuzufügen"</string>
   <string name="chart_no_data">Keine Daten</string>
   <string name="chip_text">Chiptext</string>
   <string name="clear_text_end_icon_content_description">Text löschen</string>
+  <string name="collect_diagnosis_log">Diagnoseprotokoll erfassen</string>
   <string name="complete_preference_basic_info">Vervollständigen Sie Ihr Profil</string>
   <string name="copy_done">Erfolgreich kopiert</string>
   <string name="daily_consumption_label">Kalorien</string>
@@ -112,12 +113,18 @@ Wenn Sie sich entscheiden, Ihre Gesundheitsdaten zu löschen, nachdem Sie sich e
   <string name="day">Tag</string>
   <string name="deep_sleep">Tiefschlaf</string>
   <string name="delete_all_data">Alle Daten löschen</string>
+  <string name="delete_all_data_sources">Alle Datenquellen löschen</string>
+  <string name="delete_all_data_sources_description">Alle hinzugefügten Datenquellen löschen?</string>
   <string name="delete_menstruation_record_confirm">Diese Aufzeichnung löschen?</string>
   <string name="delete_origin_data_description">Alle von %1$s generierten Daten löschen?</string>
   <string name="device_data_manage">Geräte verwalten</string>
   <string name="device_data_sync">Gesundheitsdaten synchronisieren</string>
   <string name="device_list_origin_description">Diese Geräte sind mit dem Mi Konto %1$s verbunden. Wenn Sie das benötigte Gerät hier nicht finden, stellen Sie sicher, dass Sie es bereits in der entsprechenden App hinzugefügt haben.</string>
   <string name="device_off_sync_description">Auf diesem Gerät generierte Gesundheitsdaten werden nicht mit Mi Health synchronisiert.</string>
+  <string name="diagnosis_log_send_failed">Diagnoseprotokoll senden fehlgeschlagen</string>
+  <string name="diagnosis_log_sent_format">"Diagnoseprotokoll wurde gesendet.
+ID:%s
+Bitte senden Sie dem Techniker diesen Code."</string>
   <string name="dialog_abandon">Verwerfen</string>
   <string name="dialog_abandon_sleep_edit">Änderungen verwerfen?</string>
   <string name="dialog_account_perm_desc">Zum Zugriff auf Ihr Mi Konto</string>
@@ -180,6 +187,7 @@ Mi Health wird Sie nur über wichtige Dinge informieren."</string>
   <string name="feedback_need_permission_msg">Mi Health kann auf externen Speicher schreiben, um Protokolle für Feedback zu erstellen</string>
   <string name="feedback_permission_denied_msg">Mi Health kann Protokolle nicht auf dem externen Speicher speichern. Mi Health die erforderlichen Berechtigungen in den Einstellungen geben.</string>
   <string name="finish">Ende</string>
+  <string name="for_diagnosis_usage_only">Diese Informationen sind nur für die Diagnose zu verwenden.</string>
   <string name="gender_female">Weiblich</string>
   <string name="gender_male">Männlich</string>
   <string name="gender_other">Divers</string>
@@ -306,6 +314,8 @@ Mi Health wird Sie nur über wichtige Dinge informieren."</string>
   <string name="open_sync">Synchronisation einschalten</string>
   <string name="open_unrestricted_permissions">Mi Health immer im Hintergrund laufen lassen, um den Schlaf genauer zu verfolgen</string>
   <string name="other_can_add_data_source">Verfügbare Quellen</string>
+  <string name="passport_oauth_actionbar_title">Mi Konto</string>
+  <string name="passport_oauth_sucess_tip">Erfolgreich autorisiert</string>
   <string name="password_toggle_content_description">Passwort anzeigen</string>
   <string name="permission_check_result">Erfolgreich eingerichtet</string>
   <string name="permission_check_result_failed">Einrichtung nicht möglich</string>
@@ -353,6 +363,8 @@ Mi Health wird Sie nur über wichtige Dinge informieren."</string>
   <string name="sedentary_time_is_too_long">Zeit, sich zu bewegen! Etwas Wasser trinken und spazieren gehen.</string>
   <string name="sedentary_title">An Bewegung erinnern</string>
   <string name="sedentary_toggle_content">Mi Health wird Sie daran erinnern, aufzustehen und zu gehen, wenn Sie über einen längeren Zeitraum inaktiv waren.</string>
+  <string name="send_diagnosis_log">Diagnoseprotokoll senden</string>
+  <string name="sending">Senden…</string>
   <string name="select_menstruation_end_date">Enddatum dieser Periode auswählen</string>
   <string name="select_null">Nicht ausgewählt</string>
   <string name="setting">Einstellungen</string>
@@ -441,6 +453,7 @@ auf Ihren persönlichen Daten beraten."</string>
   <string name="sync_status_in_progress">Synchronisieren…</string>
   <string name="sync_status_network_failure">Synchronisation nicht möglich. Mit netzwerk verbinden und erneut versuchen.</string>
   <string name="sync_status_never_done">Nicht synchronisiert</string>
+  <string name="temporary_not_available">temporär nicht verfügbar</string>
   <string name="text_edit_exercise_goal">Ziel ändern</string>
   <string name="text_save_exercise_goal">Erledigt</string>
   <string name="tips_default">Keine Daten</string>
