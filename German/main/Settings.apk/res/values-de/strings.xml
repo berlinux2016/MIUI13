@@ -246,6 +246,7 @@ Schalten Sie diese Funktion ein und tippen Sie auf die Schaltfläche Eingabehilf
   <string name="account_sync_summary_all_on">Sync an für alle Elemente</string>
   <string name="account_sync_summary_some_on">Sync an für %1$d aus %2$d Elementen</string>
   <string name="account_sync_title">Kontosynchronisation</string>
+  <string name="acount_data">Konten</string>
   <string name="action_drag_label_move_bottom">Nach ganz unten</string>
   <string name="action_drag_label_move_down">Nach unten</string>
   <string name="action_drag_label_move_top">Nach ganz oben</string>
@@ -709,11 +710,18 @@ Um die App einzuschränken, schalten Sie zuerst die Akkuoptimierung ein."</strin
   <string name="backtouch_enable_title">Lautstärke auf der Rückseite anpassen</string>
   <string name="backup_configure_account_default_summary">Gesicherte Daten werden zurzeit in keinem Konto gespeichert</string>
   <string name="backup_configure_account_title">Konto sichern</string>
-  <string name="backup_data">Zu sichernde Elemente auswählen</string>
+  <string name="backup_data">Sicherungen</string>
   <string name="backup_data_management_title">Sicherungskonto verwalten</string>
   <string name="backup_data_summary">App-Daten, WLAN-Passwörter und andere Einstellungen auf Google-Servern sichern</string>
   <string name="backup_data_title">Meine Daten sichern</string>
   <string name="backup_delete">Löschen:</string>
+  <string name="backup_difference_content">"Lokale Sicherungen:
+Lokale Sicherungen können App-Daten enthalten und enthalten normalerweise mehr Elemente. Sicherungsdateien werden bei MIUI-backup-AllBackup gespeichert und müssen nach Abschluss des Sicherungsvorgangs auf einen Computer kopiert werden.
+
+Cloud-Sicherungen:
+Sicherungen werden in der Xiaomi-Cloud gespeichert und können drahtlos abgerufen werden. Diese Methode ist schneller und einfacher als lokale Sicherungen, aber Sie können keine App-Daten in der Xiaomi-Cloud sichern.
+"</string>
+  <string name="backup_difference_title">4. Wie unterscheiden sich lokale Sicherungen von Cloud-Sicherungen?</string>
   <string name="backup_disabled">Sicherung deaktiviert</string>
   <string name="backup_empty">Keine Sicherungen</string>
   <string name="backup_empty_info">Daten, Einstellungen und Apps sichern</string>
@@ -735,6 +743,9 @@ Um die App einzuschränken, schalten Sie zuerst die Akkuoptimierung ein."</strin
   <string name="backup_pw_cancel_button_text">Abbrechen</string>
   <string name="backup_pw_set_button_text">Sicherungspasswort festlegen</string>
   <string name="backup_report">Details anzeigen</string>
+  <string name="backup_restore_data_content">"Ihre Sicherungen können Kontakte, Nachrichten (SMS und MMS), Anrufverlauf, Kalenderereignisse, Fotos, Audiodateien, Videos, Dokumente, Apps, App-Daten und das Startbildschirm-Layout enthalten.
+"</string>
+  <string name="backup_restore_data_title">5. Welche Elemente kann ich sichern oder wiederherstellen?</string>
   <string name="backup_section_title">Sichern &amp; Wiederherstellen</string>
   <string name="backup_security_tips_message">Einige Apps können nicht gesichert oder wiederhergestellt werden</string>
   <string name="backup_security_tips_title">Sicherungen funktionieren eventuell nicht</string>
@@ -1326,7 +1337,7 @@ Sie können diese Funktion unter Einstellungen/Bluetooth/Gekoppelte Geräte auss
   <string name="bt_hci_snoop_log">Bluetooth HCI Snoop Log einschalten</string>
   <string name="bt_hci_snoop_log_summary">Alle Bluetooth-HCI-Pakete in einer Datei erfassen (Bluetooth umschalten nach Änderung dieser Einstellung)</string>
   <string name="bt_ldac_declaration">Wenn ein Bluetooth-Gerät LDAC unterstützt, wird es standardmäßig verbunden. LDAC bietet ein hochwertiges Audioerlebnis, erhöht aber auch den Stromverbrauch. Während der Wiedergabe kann es wegen Einschränkungen der Bluetooth-Hardware zu Problemen kommen.</string>
-  <string name="bt_ldac_dialog_summary">"LDAC sorgt für ein hochwertiges Klangerlebnis und einen höheren Stromverbrauch.
+  <string name="bt_ldac_dialog_summary">"LDAC sorgt für ein hochwertiges Klangerlebnis, sondern erhöht auch den Stromverbrauch. Diese Funktion kann in den Einstellungen abgeschaltet werden.
 Diese Funktion kann unter [Einstellungen] deaktiviert werden."</string>
   <string name="bt_ldac_dialog_title">Aktuelles Gerät unterstützt LDAC, das standardmäßig angeschlossen ist:</string>
   <string name="bt_ldac_open_dialog_summary">LDAC bietet ein hochwertiges Audioerlebnis, erhöht aber auch den Stromverbrauch. Während der Wiedergabe kann es wegen Einschränkungen der Bluetooth-Hardware zu Problemen kommen.</string>
@@ -1336,8 +1347,7 @@ Diese Funktion kann unter [Einstellungen] deaktiviert werden."</string>
   <string name="bt_ldac_remember_choice">Auswahl merken</string>
   <string name="bt_ldac_settings">Einstellungen</string>
   <string name="bt_lhdc_declaration">Wenn ein Bluetooth-Gerät LHDC unterstützt, wird es standardmäßig verbunden. LHDC bietet ein hochwertiges Audioerlebnis, erhöht aber auch den Stromverbrauch. Wegen Bluetooth-Hardwarebeschränkungen können während der Wiedergabe Probleme auftreten.</string>
-  <string name="bt_lhdc_dialog_summary">"LHDC bietet ein hochwertiges Audioerlebnis und bringt auch einen höheren Stromverbrauch mit sich.
-Diese Funktion kann unter [Einstellungen] deaktiviert werden."</string>
+  <string name="bt_lhdc_dialog_summary">LHDC bietet ein hochwertiges Audioerlebnis, erhöht aber auch den Stromverbrauch. Diese Funktion kann in den Einstellungen abgeschaltet werden.</string>
   <string name="bt_lhdc_dialog_title">Das aktuelle Gerät unterstützt LHDC und wurde standardmäßig angeschlossen:</string>
   <string name="bt_lhdc_open_dialog_summary">LHDC bietet ein hochwertiges Audioerlebnis, erhöht aber auch den Stromverbrauch. Wegen Bluetooth-Hardwarebeschränkungen können während der Wiedergabe Probleme auftreten.</string>
   <string name="bt_lhdc_open_dialog_title">LHDC aktivieren?</string>
@@ -1530,6 +1540,7 @@ Diese Funktion kann unter [Einstellungen] deaktiviert werden."</string>
   <string name="clear_activities">Zurücksetzen</string>
   <string name="clear_activities_summary">Diese App für einige Aktionen als Standard setzen</string>
   <string name="clear_adb_keys">USB-Debugging-Berechtigungen widerrufen</string>
+  <string name="clear_all_data">Alle Daten löschen</string>
   <string name="clear_cache_btn_text">Cache leeren</string>
   <string name="clear_data_dlg_text">Alle Daten dieser App werden endgültig gelöscht. Dazu zählen alle Dateien, Einstellungen, Konten, Datenbanken usw.</string>
   <string name="clear_data_dlg_title">App-Daten löschen?</string>
@@ -1538,6 +1549,7 @@ Diese Funktion kann unter [Einstellungen] deaktiviert werden."</string>
   <string name="clear_failed_dlg_title">Daten löschen</string>
   <string name="clear_instant_app_confirmation">Möchten Sie diese Instant App entfernen?</string>
   <string name="clear_instant_app_data">App-Daten löschen</string>
+  <string name="clear_phone_data_category">Die folgenden Elemente löschen</string>
   <string name="clear_text_end_icon_content_description">Text löschen</string>
   <string name="clear_uri_btn_text">Zugriff löschen</string>
   <string name="clear_user_data_text">Daten löschen</string>
@@ -1575,13 +1587,15 @@ Nach Erstellung einer neuen Sicherheitsfrage und Bestätigung Ihres Geburtsdatum
   <string name="cloud_no_backup">Keine Sicherungen</string>
   <string name="cloud_restore_guide">Um Benutzerdaten von %s wiederherzustellen, Wiederherstellen antippen</string>
   <string name="cloud_restore_section_summary">Wiederherstellen der Systemeinstellungen, des Layouts des Startbildschirms und der Apps</string>
-  <string name="cloud_restore_section_title">Wiederherstellung aus Xiaomi Cloud</string>
+  <string name="cloud_restore_section_summary_new">Sichern von Startbildschirm-Layout, Apps, Systemeinstellungen und mehr</string>
+  <string name="cloud_restore_section_title">Wiederherstellung aus Xiaomi-Cloud</string>
+  <string name="cloud_restore_section_title_new">In Xiaomi-Cloud</string>
   <string name="cloud_restore_title">Sicherung wiederherstellen</string>
   <string name="cloud_restore_window_title">Xiaomi Cloud Wiederherstellung</string>
   <string name="cloud_search">Suchen…</string>
   <string name="cmcc_hardware_version">Hardwareversion</string>
-  <string name="codec_low_latency_summary">Bietet eine niedrige Latenzzeit für die Audio-/Video-Synchronisation</string>
-  <string name="codec_low_latency_title">Niedrige Latenzzeit</string>
+  <string name="codec_low_latency_summary">Minimierung der Wartezeit bei der Audio- und Videosynchronisierung von Spielen</string>
+  <string name="codec_low_latency_title">Niedrige Wartezeit</string>
   <string name="collect_diagnostics_summary">Diagnosedaten für die Fehlersuche sammeln</string>
   <string name="collect_diagnostics_title">Diagnosedaten sammeln</string>
   <string name="color_black">Schwarz</string>
@@ -1736,6 +1750,7 @@ Nach Erstellung einer neuen Sicherheitsfrage und Bestätigung Ihres Geburtsdatum
   <string name="connected_wifi">Verbunden</string>
   <string name="connecting_to_vpn">Verbindung zum VPN</string>
   <string name="connection_and_sharing">Verbinden &amp; Teilen</string>
+  <string name="contact_data">Kontakte</string>
   <string name="contact_title">Kontakte</string>
   <string name="content_capture">App-Inhalt</string>
   <string name="content_capture_summary">Apps erlauben, Inhalte ans Android-System zu senden</string>
@@ -2012,6 +2027,8 @@ Diese Einstellung betrifft alle Benutzer auf diesem Telefon."</string>
   <string name="date_time_set_timezone_in_region">Zeitzonen in %1$s</string>
   <string name="date_time_set_timezone_title">Zeitzone</string>
   <string name="date_time_settings">Datum &amp; Uhrzeit</string>
+  <string name="datasize_decrease_content">Kontakte, Nachrichten und Systemdaten werden während der Sicherung komprimiert, was zu einer geringeren Dateigröße führt.</string>
+  <string name="datasize_decrease_title">6. Warum sind einige Sicherungsdateien kleiner als die eigentlichen Elemente?</string>
   <string name="day_of_week">Wochentag</string>
   <string name="dc_light_dialog_summary">Bildqualität kann beeinträchtigt werden, wenn der Anti-Flacker-Modus aktiviert ist. Trotzdem einschalten?</string>
   <string name="dc_light_summary">DC Dimming anwenden, um die Augenbelastung zu reduzieren</string>
@@ -3058,6 +3075,38 @@ Wenn Sie automatische Sicherungen einschalten, werden Geräte- und App-Daten per
   <string name="homepage_all_settings">Alle Einstellungen</string>
   <string name="homepage_condition_footer_content_description">Einklappen</string>
   <string name="homepage_personal_settings">Vorschläge</string>
+  <string name="how_backup_content">"Es gibt 3 Arten von Sicherungen, die Sie erstellen können: Lokal, Cloud und USB.
+
+Lokale Sicherungen:
+Lokale Sicherungen ermöglichen es Ihnen, Ihre Systemeinstellungen, Konten, App-Daten und andere Elemente in einer separaten Datei zu sichern, die auf Ihrem Gerät gespeichert ist (MIUI-backup-AllBackup). Nachdem die Sicherungsdatei erstellt wurde, können Sie sie über ein USB-Kabel auf Ihren Computer übertragen.
+Anmerkung:
+Sie können Mi PC Suite zur Sicherung und Wiederherstellung von Elementen verwenden.
+
+Cloud-Sicherung:
+Sie können Systemeinstellungen, Startbildschirm-Layout, Apps und andere Elemente drahtlos in der Xiaomi-Cloud sichern.
+
+USB-Sicherungen:
+Diese Methode ermöglicht es Ihnen, Systemeinstellungen, Konten, App-Daten und andere Elemente auf einem externen USB-Speichergerät zu speichern."</string>
+  <string name="how_backup_title">1. Wie kann ich eine Sicherung von Elementen erstellen?</string>
+  <string name="how_encrypt_content">"Sie können nur lokale Sicherungen verschlüsseln. Es gibt 2 Möglichkeiten, dies zu tun:
+a) Öffnen Sie die Seite mit Ihrer lokalen Sicherung, tippen Sie auf die Schaltfläche, um die Verschlüsselung zu aktivieren, und melden Sie sich bei Ihrem Mi-Konto an. Danach werden die Sicherung automatisch verschlüsselt. Denken Sie daran, dass Sie sich bei Ihrem Mi-Konto anmelden müssen, um Elemente aus verschlüsselten Sicherungen wiederherzustellen.
+b) Wenn Sie Mi PC Suite zur Sicherung von Elementen verwenden, können Sie dort Verschlüsselungsoptionen verwenden.
+
+Hinweis:
+Merken Sie sich das Passwort, das Sie für verschlüsselte Sicherungen festgelegt haben! Wenn Sie es vergessen, können Sie Ihre Sicherungen nicht mehr entschlüsseln."</string>
+  <string name="how_encrypt_title">3. Wie verschlüssele ich meine Sicherungen?</string>
+  <string name="how_restore_backup_content">"Here's how you can restore items that were backed up using different methods:
+
+Lokale Sicherungen:
+Kopieren Sie die Sicherungsdatei von Ihrem Computer auf Ihr Gerät (MIUI-backup-AllBackup). Gehen Sie zu Einstellungen > Sichern, Wiederherstellen oder Zurücksetzen > Auf diesem Gerät und wählen Sie die Sicherungsdatei aus.
+
+Cloud-Sicherungen:
+Melden Sie sich bei Ihrem Mi-Konto an, gehen Sie zu Einstellungen > Sichern, Wiederherstellen oder Zurücksetzen > In der Xiaomi-Cloud und wählen Sie die Sicherungsdatei aus.
+
+USB-Sicherungen:
+Kopieren Sie die Sicherungsdatei auf Ihr Gerät (MIUI-backup-AllBackup). Gehen Sie zu Einstellungen > Sichern, Wiederherstellen oder Zurücksetzen > Auf diesem Gerät und wählen Sie die Sicherungsdatei aus.
+"</string>
+  <string name="how_restore_backup_title">2. Wie kann ich gesicherte Elemente wiederherstellen?</string>
   <string name="hsa_code_null">Bestätigungscode darf nicht leer sein</string>
   <string name="hsa_input_hint">Bestätigungscode eingeben</string>
   <string name="hsa_input_tip">Ihre Apple ID verwendet eine Zwei-Faktor-Authentifizierung. Bitte Bestätigungscode eingeben.</string>
@@ -3437,7 +3486,9 @@ Wenn Sie automatische Sicherungen einschalten, werden Geräte- und App-Daten per
   <string name="local_backup_password_toast_success">Ein neues Sicherungspasswort wurde festgelegt</string>
   <string name="local_backup_password_toast_validation_failure">Das Sicherungspasswort konnte nicht festgelegt werden</string>
   <string name="local_backup_section_summary">Systemeinstellungen, Konten und Apps sichern</string>
+  <string name="local_backup_section_summary_new">Konten, App-Daten, Systemeinstellungen und mehr sichern</string>
   <string name="local_backup_section_title">Lokale Sicherungen</string>
+  <string name="local_backup_section_title_new">Auf diesem Gerät</string>
   <string name="local_backup_window_title">Lokale Sicherungsdaten</string>
   <string name="local_home_title">Lokale Sicherungen</string>
   <string name="local_no_backup">Keine lokalen Sicherungen</string>
@@ -3835,6 +3886,7 @@ Um auch Musik, Bilder und sonstige Benutzerdaten zu löschen, muss der <b>USB-Sp
   <string name="master_clear_short_title">Alle Daten löschen (Werksreset)</string>
   <string name="master_clear_summary">Alle Daten auf dem Telefon werden gelöscht</string>
   <string name="master_clear_title">Auf Werkszustand zurücksetzen</string>
+  <string name="master_clear_title_new">Alle Daten löschen (Werkszustand)</string>
   <string name="max_aspect_settings_all_app_display_loading">Einen Moment…</string>
   <string name="max_fingerprint_number_reached">Mehr als 5 Fingerabdrücke können nicht gespeichert werden. Um einen weiteren hinzuzufügen, müssen Sie zuerst einen löschen.</string>
   <string name="max_fingerprint_reached_toast">Sie können bis zu 5 Fingerabdrücke hinzufügen</string>
@@ -4647,6 +4699,7 @@ Dies ermöglicht der App auch, Nicht stören ein-/auszuschalten und entsprechend
 OTG schaltet sich nach 10 Minuten Inaktivität automatisch aus."</string>
   <string name="other">Andere</string>
   <string name="other_advanced_settings">Weitere Einstellungen</string>
+  <string name="other_data">Andere Elemente auf diesem Gerät</string>
   <string name="other_device_info">Andere</string>
   <string name="other_input_settings">Zusätzliche Tastatureinstellungen</string>
   <string name="other_personal_settings">Persönliche Einstellungen</string>
@@ -4770,6 +4823,7 @@ OTG schaltet sich nach 10 Minuten Inaktivität automatisch aus."</string>
   <string name="phone_index_label">Telefonindex wählen</string>
   <string name="phone_info_label">Über das Telefon</string>
   <string name="phone_language">Sprache</string>
+  <string name="photo_data">Fotos und Videos</string>
   <string name="physical_keyboard_title">Hardwaretastatur</string>
   <string name="pick_up_gesture_wakeup_title">Gerät zum Aufwecken anheben</string>
   <string name="pico_installed">Installiert</string>
@@ -4859,7 +4913,7 @@ OTG schaltet sich nach 10 Minuten Inaktivität automatisch aus."</string>
   <string name="power_last_full_charge_summary">Vor ^1</string>
   <string name="power_menu_under_keyguard_summary">Zugriff auf Power-Menü erlauben, während das Gerät gesperrt ist</string>
   <string name="power_menu_under_keyguard_title">Zugriff Power-Menü</string>
- <string name="power_mgr">Akku-Optimierung</string>
+  <string name="power_mgr">Akku-Optimierung</string>
   <string name="power_mode">Stromeinstellungen</string>
   <string name="power_mode_balanced_title">Ausgeglichen</string>
   <string name="power_monitor_summary">Tools zur Stromüberwachung</string>
@@ -5084,6 +5138,7 @@ OTG schaltet sich nach 10 Minuten Inaktivität automatisch aus."</string>
   <string name="privacy_protection_title">Datenschutz</string>
   <string name="privacy_relative">Datenschutzrelevant</string>
   <string name="privacy_settings">Sichern &amp; Wiederherstellen</string>
+  <string name="privacy_settings_new">Sichern, Wiederherstellen oder Zurücksetzen</string>
   <string name="privacy_settings_title">Sichern &amp; Wiederherstellen</string>
   <string name="privacy_thumbnail_blur_progress_message">Einen Moment…</string>
   <string name="privacy_thumbnail_blur_title">App-Vorschau verwischen</string>
@@ -5302,6 +5357,7 @@ UT Interface: %5$s"</string>
   <string name="reset_second_space_passwd_detail">Geben Sie im Hauptprofil das Passwort für Ihr Mi Konto ein</string>
   <string name="reset_shortcut_manager_throttling">Zählerbegrenzung des Shortcut-Managers zurücksetzen</string>
   <string name="reset_shortcut_manager_throttling_complete">Zählerbegrenzung des Shortcut-Managers wurde zurückgesetzt</string>
+  <string name="reset_title">Zurücksetzen</string>
   <string name="resetting_second_space_passwd">Zweitprofilpasswort wird zurückgesetzt</string>
   <string name="resident_timezone_summary">Duale Uhr</string>
   <string name="resolver_settings_label">Sortieren</string>
@@ -5583,6 +5639,7 @@ Mindestens %s freigeben."</string>
   <string name="screenshot_three_gesture_summary">Andere 3-Fingergesten werden deaktiviert</string>
   <string name="sd_card_settings_label">USB-Speicher/SD-Karte</string>
   <string name="sd_card_storage">USB-Speicher/SD-Karte</string>
+  <string name="sd_data">SD-Kartendaten</string>
   <string name="sd_eject">Gemeinsamen Speicher trennen</string>
   <string name="sd_eject_summary">Internen USB-Speicher/SD-Karte auswerfen</string>
   <string name="sd_ejecting_summary">Auswerfen läuft…</string>
@@ -6588,8 +6645,8 @@ Auf ^2 gespeicherte Apps könnten nicht richtig funktionieren, und Datenübertra
   <string name="storageuse_settings_title">Speichernutzung</string>
   <string name="strict_mode">Strikter Modus aktiviert</string>
   <string name="strict_mode_summary">Bei längeren Aktionen im Hauptthread Bildschirm kurz einblenden</string>
-  <string name="strong_suppression_summary">Ihr Gerät reagiert eventuell auf eine versehentliche Berührung, aber auch auf Gestensteuerung in der Nähe der Kanten</string>
-  <string name="strong_suppression_title">Kleiner Bereich</string>
+  <string name="strong_suppression_summary">Ihr Gerät reagiert weniger auf zufällige Berührungen, einige Gestensteuerungen funktionieren möglicherweise nicht an den Kanten</string>
+  <string name="strong_suppression_title">Großer Bereich</string>
   <string name="structure_add_facerecoginition_text">3D-Gesichtsdaten hinzufügen</string>
   <string name="structure_face_enroll_not_able_low_electric_itle">Funktion kann nicht verwendet werden, da der Akkustand niedrig ist</string>
   <string name="structure_face_enroll_not_able_low_electric_msg">Akku muss mindestens 5% geladen sein, um mit der Aufnahme beginnen zu können.</string>
@@ -6708,6 +6765,7 @@ Ein Google-Ansatz zur Synchronisation von Daten, um den Zugriff auf Ihre Kontakt
   <string name="system_backup">Sicherung</string>
   <string name="system_backup_info">Systemeinstellungen und Startbildschirmlayout</string>
   <string name="system_backup_section_title">Sicherung</string>
+  <string name="system_backup_section_title_new">Sichern oder Wiederherstellen</string>
   <string name="system_dashboard_summary">Sprachen, Zeit, Sicherung, Updates</string>
   <string name="system_default_app">(Systemstandard)</string>
   <string name="system_haptic_feedback">Haptisches Feedback</string>
@@ -6822,6 +6880,7 @@ Sie können Ihr Androidtelefon in einen mobilen WLAN-Hotspot verwandeln, um die 
   <string name="time_zone_auto_stub">Zeitzone auswählen</string>
   <string name="timer_switch_settings_title">Geplante Ein-/Ausschaltzeit</string>
   <string name="timezone_settings">Zeitzone</string>
+  <string name="tip_remove_data">Durch Zurücksetzen auf die Werkseinstellungen werden diese Elemente von Ihrem Gerät gelöscht</string>
   <string name="title_color_calibration">Farbkorrekturvoreinstellung</string>
   <string name="title_convert_fbe">In dateibasierte Verschlüsselung konvertieren</string>
   <string name="title_font">Schrift</string>
@@ -7711,7 +7770,7 @@ Jeder Benutzer kann aktualisierte App-Berechtigungen für alle anderen Benutzer 
   <string name="vt_provisioned_switch_string">Videoanrufe bereitgestellt</string>
   <string name="wait_for_debugger">Auf Debugger warten</string>
   <string name="wait_for_debugger_summary">Debugged-App wartet auf den Debugger, bevor sie ausgeführt wird</string>
-  <string name="wake_suppression_summary">Ihr Gerät reagiert möglicherweise auf eine versehentliche Berührung, aber auch auf Gestensteuerung an den Rändern</string>
+  <string name="wake_suppression_summary">Ihr Gerät reagiert besser auf zufällige Berührungen, reagiert aber auch auf die meisten Gestensteuerungen in der Nähe der Ränder.</string>
   <string name="wake_suppression_title">Kleiner Bereich</string>
   <string name="wakeup_and_sleep_settings_category_name">Einstellungen Sperrbildschirm</string>
   <string name="wakeup_for_keyguard_notification_title">Bei Benachrichtigungen Bildschirmbeleuchtung einschalten</string>
@@ -7818,13 +7877,14 @@ Bitte lesen Sie die Datenschutzerklärung Ihres Dienstanbieters."</string>
   <string name="wifi_ap_unable_to_handle_new_sta">Zugangspunkt zeitweise voll</string>
   <string name="wifi_ask_disable">%s will WLAN ausschalten</string>
   <string name="wifi_ask_enable">%s will WLAN anschalten</string>
-  <string name="wifi_assistant">WLAN-Assistent</string>
+  <string name="wifi_assist">WLAN-Assistent</string>
+  <string name="wifi_assistant">Automatische Auswahl der besten Netzwerke</string>
   <string name="wifi_assistant_auto_confirm_data_message">Dieses WLAN hat keinen Zugang zum Internet, stattdessen werden mobile Daten verwendet. Sie können den WLAN-Assistenten in den Einstellungen ausschalten.</string>
   <string name="wifi_assistant_card_message">Automatisch mit verfügbaren Netzwerken über den WLAN-Assistenten verbinden</string>
   <string name="wifi_assistant_confirm_always">Nicht mehr anzeigen</string>
   <string name="wifi_assistant_confirm_connection_title">Verbindung bestätigen</string>
   <string name="wifi_assistant_data_prompt">Eingabeaufforderung aktivieren</string>
-  <string name="wifi_assistant_data_prompt_summary">Eingabeaufforderung anzeigen, wenn der WLAN-Assistent auf mobile Daten umschaltet</string>
+  <string name="wifi_assistant_data_prompt_summary">Warnung zur Datennutzung beim Wechsel zu mobilen Daten anzeigen</string>
   <string name="wifi_assistant_description">"Nach Einschaltung der Funktion:
 1. Wenn die WLAN-Verbindung schlecht ist, probiert das System automatisch ein anderes verfügbares WLAN aus.
 2. Wenn alle vorhandenen WLAN-Verbindungen schlecht und die mobilen Daten aktiviert sind, wählt das System intelligent die beste Netzwerkverbindung aus."</string>
@@ -8056,9 +8116,13 @@ Das Netzwerk als versteckt einzustellen, wird Ihre Routereinstellungen nicht än
   <string name="wifi_link_turbo">Nutzung mobiler Daten zur Geschwindigkeitsteigerung</string>
   <string name="wifi_link_turbo_app_settings_summary">Apps auswählen, die diese Funktion verwenden sollen</string>
   <string name="wifi_link_turbo_app_settings_title">Apps auswählen</string>
+  <string name="wifi_link_turbo_customize">Benutzerdefinierte Apps</string>
+  <string name="wifi_link_turbo_customize_summary">Apps wählen, die mit dem WLAN-Assistenten funktionieren, entsprechend Ihren Präferenzen</string>
   <string name="wifi_link_turbo_no_app">Noch keine Apps vorhanden.</string>
   <string name="wifi_link_turbo_off">Aus</string>
   <string name="wifi_link_turbo_on">Ein</string>
+  <string name="wifi_link_turbo_recommendation">Empfohlene Apps</string>
+  <string name="wifi_link_turbo_recommendation_summary">Empfehlungen auf der Grundlage von Datenverwendungsstatistiken erhalten</string>
   <string name="wifi_link_turbo_summary">Verbindungsgeschwindigkeit bei der Auswahl von Apps mit mobilen Daten erhöhen, wenn die WLAN-Verbindung schlecht ist</string>
   <string name="wifi_menu_advanced">Erweitert</string>
   <string name="wifi_menu_configure">Konfigurieren</string>
