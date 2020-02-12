@@ -1,7 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-
-<!-- 3x chin. Strings -->
   <plurals name="app_behavior_desc_allow">
     <item quantity="other">%3$d-mal von %1$s bis %2$s erlaubt</item>
     <item quantity="one">%3$d-mal von %1$s bis %2$s erlaubt</item>
@@ -11,17 +9,13 @@
     <item quantity="one">%3$d-mal von %1$s bis %2$s verweigert</item>
   </plurals>
   <plurals name="app_behavior_privacy_manager_off">
-    <item quantity="other">Verhaltensbedingte Benachrichtigungen in %1$d Apps deaktiviert</item>
-    <item quantity="zero">Keine Apps mit deaktivierten verhaltensbedingten Benachrichtigungen</item>
-    <item quantity="one">Verhaltensbedingte Benachrichtigung in %1$d App deaktiviert</item>
+    <item quantity="other">Sie werden nicht über sensible Aktionen benachrichtigt, die von %1$d Apps ausgeführt werden</item>
+    <item quantity="one">Sie werden nicht über sensible Aktionen benachrichtigt, die von %1$d App ausgeführt werden</item>
   </plurals>
   <plurals name="app_behavior_privacy_manager_on">
-    <item quantity="other">Verhaltensbedingte Benachrichtigungen in %1$d Apps aktiviert</item>
-    <item quantity="zero">Keine App mit aktivierten verhaltensbedingten Benachrichtigungen</item>
-    <item quantity="one">Verhaltensbedingte Benachrichtigung in %1$d App aktiviert</item>
+    <item quantity="other">Sie werden über sensible Aktionen benachrichtigt, die von %1$d Apps durchgeführt werden</item>
+    <item quantity="one">Sie werden über sensible Aktionen benachrichtigt, die von %1$d App durchgeführt werden</item>
   </plurals>
-
-
   <plurals name="add_game_notification_title">
     <item quantity="other">%d Spiele hinzugefügt</item>
     <item quantity="one">%d Spiel hinzugefügt</item>

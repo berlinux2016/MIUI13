@@ -1,16 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-
-<!-- chin. String -->
-  <string-array name="app_behavior_type_menu">
-    <item>"Alle Verhaltensweisen     "</item>
-    <item>Autostart</item>
-    <item>Automatischer Kettenstart</item>
-    <item>Berechtigungen</item>
-    <item>Sensibles Verhalten</item>
-  </string-array>
-
-
   <string-array name="alarm_repeat_type">
     <item>Einmal</item>
     <item>Täglich</item>
@@ -24,6 +13,13 @@
     <item>Wochentags</item>
     <item>Benutzerdefiniert</item>
   </string-array>
+  <string-array name="app_behavior_type_menu">
+    <item>Alle Aufzeichnungen</item>
+    <item>Autostart</item>
+    <item>Kettenstart</item>
+    <item>Berechtigungen verwenden</item>
+    <item>Sensible Aktionen</item>
+  </string-array>
   <string-array name="auto_memory_clean">
     <item>in 1 Minute</item>
     <item>in 5 Minuten</item>
@@ -34,13 +30,13 @@
   <string-array name="date_of_traffic">
     <item>"Gestern "</item>
     <item>"Heute "</item>
-	<item>"Letzten Monat "</item>
+    <item>"Letzten Monat "</item>
     <item>"Diesen Monat "</item>
   </string-array>
   <string-array name="date_of_traffic_prefix">
     <item>"Gestern: "</item>
     <item>"Heute: "</item>
-	<item>"Letzten Monat: "</item>
+    <item>"Letzten Monat: "</item>
     <item>"Diesen Monat: "</item>
   </string-array>
   <string-array name="date_of_traffic_cmcc">
