@@ -24,11 +24,13 @@
   <string name="access_sd_fail">Zugriff auf SD-Karte nicht möglich</string>
   <string name="accessibility_shutter_button">Verschluss</string>
   <string name="action_search">Suchen</string>
+  <string name="add">Sind Sie sicher</string>
   <string name="address">Adresse:</string>
   <string name="agree_app_use">QR-Codes und andere Bilder scannen (einige Funktionen erfordern evtl. Standortzugriff)</string>
   <string name="agree_btn">Zustimmen</string>
   <string name="agree_camera_permission">Für die Aufnahme von Fotos und Videoaufnahmen</string>
   <string name="agree_storage_permission">Für den Zugriff auf Fotos und Dateien, die auf Ihrem Gerät gespeichert sind</string>
+  <string name="album_view">Album anzeigen</string>
   <string name="allow_check_website_security">Benachrichtigungen über Sicherheitscheck der Webseite anzeigen</string>
   <string name="always">Immer</string>
   <string name="amazon_assistant_shopping_title">Auf Amazon suchen</string>
@@ -146,6 +148,7 @@
   <string name="gps">Navigieren</string>
   <string name="grant_permission">Berechtigung erteilen</string>
   <string name="image_file_name_format">"'scanner'_yyyyMMdd_HHmmss"</string>
+  <string name="image_view">Bild anzeigen</string>
   <string name="import_contact">Kontaktimport</string>
   <string name="impunity_declaration_content">"Scanner muss Ihre Kamera verwenden und die Bilder verarbeiten, die Sie während der App-Nutzung aufnehmen. Verwenden Sie Scanner nicht, um Fotos von Objekten zu machen, die Ihre persönlichen Daten enthalten. Mit Tippen auf \"Zustimmen\" akzeptieren Sie unsere &lt;font color=\"#ff32b4ff\">&lt;a href=\"%1$s\" style=\"color:#ff32b4ff;\">Datenschutzerklärung&lt;/a>&lt;/font> und erlauben Scanner die Internetverbindung."</string>
   <string name="impunity_declaration_negative_text">Beenden</string>
@@ -179,6 +182,7 @@
   <string name="language_entry_russian">Russisch</string>
   <string name="language_entry_spanish">Spanisch</string>
   <string name="language_entry_swedish">Schwedisch</string>
+  <string name="limit_exceeded">Bis zu %d auswählen</string>
   <string name="logistics">Expresslieferung</string>
   <string name="low_version_tip">MIUI auf die neueste Version aktualisieren, um Scanner zu verwenden</string>
   <string name="miracast_connect">Übertragen</string>
@@ -196,6 +200,10 @@
   <string name="module_title_shopping">Einkaufen</string>
   <string name="module_title_study">Hausaufgaben</string>
   <string name="module_title_translation">Übersetzen</string>
+  <string name="msg_compress_failed">Bilder mit fehlgeschlagener Komprimierung</string>
+  <string name="msg_crop_canceled">" Schneiden abbrechen"</string>
+  <string name="msg_crop_failed">Schneiden fehlgeschlagen</string>
+  <string name="msg_operation_canceled">Vorgang abgebrochen</string>
   <string name="mtrl_chip_close_icon_content_description">%1$s löschen</string>
   <string name="namecard_recognize_failed_tip">Karte wurde nicht gelesen</string>
   <string name="namecard_recognizing">Lesen…</string>
@@ -264,6 +272,7 @@
   <string name="see_app_details">App-Details anzeigen</string>
   <string name="see_details">Tippen, um Details anzuzeigen</string>
   <string name="select_from_album">Aus Album wählen</string>
+  <string name="selected">Ausgewählt</string>
   <string name="send_mail">E-Mail senden</string>
   <string name="setting_choose_every_time">Immer fragen</string>
   <string name="setting_default_function">Standardfunktion</string>
@@ -330,6 +339,16 @@
   <string name="translation_see_more">Definition zeigen</string>
   <string name="translation_type_sentence">Ausdruck</string>
   <string name="translation_type_word">Wort</string>
+
+    <string name="tip_compress">Foto komprimieren…</string>
+    <string name="tip_compress_failed">%1$s Bildkomprimierung fehlgeschlagen: %2$s Bildpfad: %3$s</string>
+    <string name="tip_no_camera">Keine Kamera</string>
+    <string name="tip_permission_camera">Keine Berechtigung zur Verwendung der Kamera, bitte in Rechteverwaltung einschalten</string>
+    <string name="tip_permission_camera_storage">Keine Berechtigung zur Verwendung der Kamera und der SD-Karte, bitte in Rechteverwaltung einschalten</string>
+    <string name="tip_permission_storage">Keine Berechtigung zur Verwendung der SD-Karte, bitte in Rechteverwaltung einschalten</string>
+    <string name="tip_tips">Hinweis</string>
+    <string name="tip_type_not_image">Kein Bild</string>
+
   <string name="uninstall_prompt">Wenn bei der Installation Probleme auftreten, gehen Sie zu Einstellungen &gt; Apps &gt; Apps verwalten &gt; Scanner, tippen Sie auf \"Deinstallieren\" und versuchen Sie, die App neu zu installieren.</string>
   <string name="url_is_phish">Das könnte eine Phishing-Webseite sein</string>
   <string name="url_is_safety">Diese Webseite ist sicher</string>
