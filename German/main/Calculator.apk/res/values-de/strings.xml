@@ -39,7 +39,7 @@
   <string name="app_notification_info">Rechner arbeitet im Hintergrund</string>
   <string name="base_rate">Basiszinssatz</string>
   <string name="birthday">Geburtstag</string>
-  <string name="bmi_error_text">Ungültiger BMI! Bitte Eingabe prüfen.</string>
+  <string name="bmi_error_text">BMI ist nicht korrekt. Vergewissern Sie sich, dass Größe und Gewicht, die Sie eingegeben haben, korrekt sind.</string>
   <string name="bmi_label_overweight">Übergewicht</string>
   <string name="bmi_label_underweight">Untergewicht</string>
   <string name="bmi_over_weight">Übergewicht</string>
@@ -80,7 +80,7 @@
   <string name="cosDesc">Kosinus</string>
   <string name="currency_update_connect_to_get_data">Wechselkurse werden von Webull zur Verfügung gestellt. Mit Netzwerk verbinden, um die neuesten Informationen zu erhalten.</string>
   <string name="currency_update_support">Wechselkurse werden von Webull zur Verfügung gestellt</string>
-  <string name="currency_update_time_format">Aktualisiert am %s</string>
+  <string name="currency_update_time_format">Wechselkurse werden von Webull zur Verfügung gestellt (%s)</string>
   <string name="currency_update_updating">Kurse aktualisieren…</string>
   <string name="date_picker_dialog_title">Datum einstellen</string>
   <string name="date_time_done">Fertig</string>
@@ -137,7 +137,7 @@
   <string name="from_unit_en">Kilometer pro Stunde</string>
   <string name="fund_loan">Fondsdarlehen</string>
   <string name="further_education">Weiterbildung</string>
-  <string name="gay_other_search_result">For the time being, we do not support the same-sex marriage title inquiry, how to call you decide ~</string>
+  <string name="gay_other_search_result">Vorläufig unterstützen wir nicht die gleichgeschlechtliche Heiratstitelanfrage, wie Sie sich entscheiden sollen ~</string>
   <string name="gay_search_result">Es ist egal, ob männlich oder weiblich, nur Sie</string>
   <string name="global_network_confirm_content">Währungsrechner muss sich mit dem Internet verbinden, um zu funktionieren</string>
   <string name="global_search_key_area_convertion">Fläche;Flächenumrechner; Flächenumrechnung</string>
@@ -197,7 +197,7 @@
   <string name="label_emi">EMI</string>
   <string name="label_first_repayment">Erste Rückzahlung</string>
   <string name="label_from_date">Ab Datum</string>
-  <string name="label_interest">Interesse (%)</string>
+  <string name="label_interest">Interesse</string>
   <string name="label_loan_tenure">Darlehenslaufzeit</string>
   <string name="label_monthly">Monatlich</string>
   <string name="label_months">Monate</string>
@@ -237,7 +237,7 @@
   <string name="loan_repayment_detail_unit">Detaillierte Tilgung (EUR)</string>
   <string name="loan_type_title">Zinsstandard</string>
   <string name="lpr_ok">Verstanden</string>
-  <string name="lpr_tips_msg">"Ab dem 8. Oktober 2019 wird der private gewerbliche Wohnungsbaudarlehenszinssatz nach dem Darlehensleitzins (LPR) anstelle des bisher verwendeten Referenzzinssatzes von 4,9% berechnet. Nun wird der endgültige Kurs durch Hinzufügen eines LPR-Basispunktes bestätigt.
+  <string name="lpr_tips_msg">"Ab dem 8. Oktober 2019 wird der private gewerbliche Wohnungsbaudarlehenszinssatz nach dem Darlehensleitzins (LPR) anstelle des bisher verwendeten Referenzzinssatzes von 4.9% berechnet. Nun wird der endgültige Kurs durch Hinzufügen eines LPR-Basispunktes bestätigt.
 
 Einjährige und fünfjährige LPRs werden am 20. eines jeden Monats (Verzögerungen durch Bankfeiertage können auftreten) auf der Website der People's Bank of China notiert."</string>
   <string name="lpr_tips_title">LPR (Darlehensleitzins)</string>
@@ -296,7 +296,7 @@ Einjährige und fünfjährige LPRs werden am 20. eines jeden Monats (Verzögerun
   <string name="mt_max">Eingegebener Betrag ist zu groß</string>
   <string name="mulDesc">Multiplikation</string>
   <string name="name_amount">Betrag</string>
-  <string name="name_discount">Rabatt (% off)</string>
+  <string name="name_discount">Rabatt (% aus)</string>
   <string name="name_is">Ergebnis</string>
   <string name="name_original">Originalpreis</string>
   <string name="name_people">Leute</string>
@@ -476,7 +476,7 @@ Beachten Sie, dass diese App eine Internetverbindung und folgende Berechtigungen
   <string name="tax_threshold">Steuergrenze</string>
   <string name="tax_total_insurance_provident_fund">Versicherung &amp; Immobilienfonds</string>
   <string name="tax_unemployment">Arbeitslosigkeit</string>
-  <string name="tax_update_time_format">Daten im Jahr %s</string>
+  <string name="tax_update_time_format">Durch HeXun bereitgestellte Daten (%s)</string>
   <string name="tenure_months">%d Monate</string>
   <string name="the_anniversary_of_lifting_martial_law">Jahrestag der Aufhebung des Kriegsrechts</string>
   <string name="the_anti_aggression_day">Antiaggressionstag</string>
@@ -687,7 +687,7 @@ Beachten Sie, dass diese App eine Internetverbindung und folgende Berechtigungen
   <string name="weight_prompt">Gewicht</string>
   <string name="wf_word_figure">Finanzmathematik</string>
   <string name="word_figure_guide_text">Halten Sie den Text gedrückt, um zwischen den Fällen zu konvertieren</string>
-  <string name="xiaomi_connect_download_manager_fail">Verbindung fehlgeschlagen, prüfen Sie die Einstellungnen für Downloads</string>
+  <string name="xiaomi_connect_download_manager_fail">Verbindung zu Downloads herstellen nicht möglich. Prüfen Sie, ob diese App alle erforderlichen Berechtigungen unter Einstellungen &gt; Installierte Apps hat.</string>
   <string name="xiaomi_external_storage_unavailable">Kein freier Speicher, prüfen Sie die SD-Karte</string>
   <string name="xiaomi_update_dialog_message">"Version %1$s ist verfügbar
 Größe: %2$s"</string>
