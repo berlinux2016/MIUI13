@@ -384,8 +384,9 @@ Berühren Sie den Bildschirm, um GPS zu starten…"</string>
   <string name="cit_power_check_title">Akkuanzeige</string>
   <string name="cit_pressure_sensor_check_summary">Wert für den Druck sollte unten stehen</string>
   <string name="cit_pressure_sensor_check_title">Drucksensor</string>
-  <string name="cit_proximity_data_check_summary">"Bedecken Sie den Näherungssensor (oben am Telefon in der Nähe des Empfängers) mit Ihrer Hand und bewegen Sie dann Ihre Hand weg. Der Wert sollte sich von 0,0 erhöhen, wenn Sie Ihre Hand weiter vom Telefon weg bewegen.
-Wenn es sich um einen Ultraschallnäherungssensor handelt, simulieren Sie bitte die Aktion, das Telefon während des Tests abzuheben."</string>
+  <string name="cit_proximity_data_check_summary">"Infrarot-Näherungssensor: Decken Sie den Telefon-Näherungssensor mit der Hand ab, und dann lassen Sie den Näherungssensor los.
+ Ultraschall-Näherungssensor: Bitte simulieren Sie das Abheben des Telefons, um den Anruf zu beantworten.
+ Wenn der untere Testbereich bei der Annäherung einen Wert von 0,0 und bei Entfernung einen Wert von 5,0 anzeigt, ist der Test erfolgreich. Andernfalls schlägt der Test fehl."</string>
   <string name="cit_proximity_sensor_check_summary">"Bedecken Sie den Näherungssensor (oben am Telefon in der Nähe des Empfängers) mit Ihrer Hand und bewegen Sie dann Ihre Hand weg. Der Wert sollte sich von 0,0 erhöhen, wenn Sie Ihre Hand weiter vom Telefon weg bewegen.
 Achten Sie beim Kalibrieren darauf, dass sich nichts zwischen dem Sensor und Ihrer Hand befindet (z. B. Bildschirmschutzabdeckung oder Handschuhe)."</string>
   <string name="cit_proximity_sensor_check_title">Näherungssensor</string>
