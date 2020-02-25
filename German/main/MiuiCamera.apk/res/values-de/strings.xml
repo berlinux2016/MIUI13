@@ -74,8 +74,8 @@
   <string name="accessibility_intent_done_retry">Wiederholung</string>
   <string name="accessibility_lighting_panel_off">Studiobeleuchtungsleiste ausblenden</string>
   <string name="accessibility_lighting_panel_on">Studiobeleuchtungsleiste anzeigen</string>
-  <string name="accessibility_mimovie_off">Videomodus ist aus</string>
-  <string name="accessibility_mimovie_on">Videomodus ist an</string>
+  <string name="accessibility_mimovie_off">Keine Verwendung von Filmbildern</string>
+  <string name="accessibility_mimovie_on">Verwendung von Filmbildern</string>
   <string name="accessibility_mode">Aufnahmemodus</string>
   <string name="accessibility_mode_dismiss_button">Moduswahl schließen-Taste</string>
   <string name="accessibility_module_picker">Modulpicker</string>
@@ -797,7 +797,7 @@ Halten Sie das Motiv scharf, während Sie den Hintergrund verwischen.</string>
   <string name="pref_camera_coloreffect_entry_earlybird">Herbst</string>
   <string name="pref_camera_coloreffect_entry_fisheye">Fischauge</string>
   <string name="pref_camera_coloreffect_entry_gaussianblur">Verwischen</string>
-  <string name="pref_camera_coloreffect_entry_instagram_clarendon">Poppig</string>
+  <string name="pref_camera_coloreffect_entry_instagram_clarendon">Farbfokus</string>
   <string name="pref_camera_coloreffect_entry_instagram_crema">Rustikal</string>
   <string name="pref_camera_coloreffect_entry_instagram_hudson">Eisig</string>
   <string name="pref_camera_coloreffect_entry_jstyle">Japanisch</string>
@@ -831,7 +831,7 @@ Halten Sie das Motiv scharf, während Sie den Hintergrund verwischen.</string>
   <string name="pref_camera_facedetection_entry_off">Aus</string>
   <string name="pref_camera_facedetection_entry_on">An</string>
   <string name="pref_camera_facedetection_title">Gesichtserkennung</string>
-  <string name="pref_camera_first_tag_tips">Erfolgreich markiert</string>
+  <string name="pref_camera_first_tag_tips">Erfolgreich getaggt</string>
   <string name="pref_camera_fisheye_title">Fischauge</string>
   <string name="pref_camera_flashmode_entry_back_soft_light">Soft Light</string>
   <string name="pref_camera_flashmode_entry_off">Aus</string>
@@ -987,8 +987,8 @@ Halten Sie das Motiv scharf, während Sie den Hintergrund verwischen.</string>
   <string name="pref_camera_video_duration_entry_mms">30 Sekunden (MMS)</string>
   <string name="pref_camera_video_duration_title">Videodauer</string>
   <string name="pref_camera_video_sat_enable_title">Sanften Video-Zoom einschalten</string>
-  <string name="pref_camera_video_tag">Videos markieren erlauben</string>
-  <string name="pref_camera_video_tag_description">Während der Videoaufnahme auf \"Markieren\" tippen, um bei der Wiedergabe zu markierten Stellen zurückzukehren</string>
+  <string name="pref_camera_video_tag">Videos taggen erlauben</string>
+  <string name="pref_camera_video_tag_description">Während der Videoaufnahme auf \"Taggen\" tippen, um bei der Wiedergabe zu markierten Stellen zurückzukehren</string>
   <string name="pref_camera_volumekey_function_entry_exposure">Belichtung</string>
   <string name="pref_camera_volumekey_function_entry_shutter">Auslöser</string>
   <string name="pref_camera_volumekey_function_entry_timer">Countdown für Auslöser</string>
@@ -1017,7 +1017,7 @@ Halten Sie das Motiv scharf, während Sie den Hintergrund verwischen.</string>
   <string name="pref_camera2_clearsight_title">Klarer Blick</string>
   <string name="pref_camera2_mpo_title">MPO-Format</string>
   <string name="pref_capture_settings">Kameraeinstellungen</string>
-  <string name="pref_document_mode">Dokumentmodus</string>
+  <string name="pref_document_mode">Dokumente</string>
   <string name="pref_dualcamera_watermark_title">Dualkamera-Wasserzeichen</string>
   <string name="pref_exposure_title">Belichtung</string>
   <string name="pref_face_beauty_title">Hauttöne</string>
@@ -1213,8 +1213,8 @@ Halten Sie das Motiv scharf, während Sie den Hintergrund verwischen.</string>
   <string name="subtitle_network_exception_tips">Netzwerkverbindung fehlgeschlagen. Transkribieren nicht möglich.</string>
   <string name="success_image_saved_camera">Auf der Kamera gespeichertes Bild.</string>
   <string name="success_message_import_from_account">Importiert</string>
-  <string name="super_eis">Superstabilisierung</string>
-  <string name="super_eis_disabled_hint">Superstabilisierung ist aus</string>
+  <string name="super_eis">Videostabilisierung</string>
+  <string name="super_eis_disabled_hint">Videostabilisierung ist aus</string>
   <string name="super_night_hint">Bildoptimierung… Gerät ruhig halten.</string>
   <string name="super_night_se_tip">Nachtmodus</string>
   <string name="super_night_toast">Halten Sie Ihr Telefon ruhig, während Sie ein Foto machen.</string>
@@ -1274,7 +1274,7 @@ Der Ultraweitwinkelmodus hilft, wenn Sie sich nicht weiter von der Szene entfern
   <string name="video_effect_entry_blackwhite">Schwarz-Weiß</string>
   <string name="video_effect_entry_bygone">Vergangen</string>
   <string name="video_effect_entry_central">Zentral</string>
-  <string name="video_effect_entry_color_retention">Farbpop</string>
+  <string name="video_effect_entry_color_retention">Farbfokus</string>
   <string name="video_effect_entry_forest">Wald</string>
   <string name="video_effect_entry_holiday">Ferien</string>
   <string name="video_effect_entry_lost">Verloren</string>
@@ -1286,7 +1286,7 @@ Der Ultraweitwinkelmodus hilft, wenn Sie sich nicht weiter von der Szene entfern
   <string name="video_err">Videowiedergabe fehlgeschlagen</string>
   <string name="video_reach_size_limit">Maximale Größe erreicht</string>
   <string name="video_snapshot_hint">Machen Sie während der Videoaufnahme ein Foto, indem Sie den Bildschirm berühren</string>
-  <string name="video_tag_flag_title">Markieren</string>
+  <string name="video_tag_flag_title">Taggen</string>
   <string name="videocamera_settings_label">Videoeinstellungen</string>
   <string name="view_privacy_policy">Datenschutzerklärung anzeigen</string>
   <string name="visit_cloud_album">Cloud-Album besuchen</string>
