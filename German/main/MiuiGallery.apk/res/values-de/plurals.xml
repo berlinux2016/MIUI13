@@ -313,24 +313,28 @@
     <item quantity="one">Ausgewähltes Foto (%d MB) ist nicht auf diesem Gerät, über die mobile Datenverbindung herunterladen?"</item>
   </plurals>
   <plurals name="picker_cancel_confirm_message">
-    <item quantity="other">Download der verbleibenden %d Fotos abbrechen?</item>
-    <item quantity="one">Download des verbleibenden Fotos abbrechen?</item>
+    <item quantity="other">%d Dateien sind noch nicht heruntergeladen. Trotzdem abbrechen?</item>
+    <item quantity="one">%d Datei ist noch nicht heruntergeladen. Trotzdem abbrechen?</item>
   </plurals>
   <plurals name="picker_no_network_retry_image_confirm_message">
-    <item quantity="other">%1$d Fotos konnten nicht heruntergeladen werden. Internetverbindung herstellen und nochmals versuchen.</item>
-    <item quantity="one">Foto konnte nicht heruntergeladen werden. Internetverbindung herstellen und nochmals versuchen.</item>
+    <item quantity="other">%1$d Fotos wurden nicht heruntergeladen. Internetverbindung herstellen und nochmals versuchen.</item>
+    <item quantity="one">Foto wurde nicht heruntergeladen. Internetverbindung herstellen und nochmals versuchen.</item>
   </plurals>
   <plurals name="picker_no_network_retry_origin_confirm_message">
-    <item quantity="other">1$d Fotos (%2$d MB) konnten nicht heruntergeladen werden. Internetverbindung herstellen und nochmals versuchen.</item>
-    <item quantity="one">Foto (%2$d MB) konnten nicht heruntergeladen werden. Internetverbindung herstellen und nochmals versuchen.</item>
+    <item quantity="other">1$d Dateien (%2$d MB) wurden nicht heruntergeladen. Internetverbindung herstellen und nochmals versuchen.</item>
+    <item quantity="one">Datei (%2$d MB) wurde nicht heruntergeladen. Internetverbindung herstellen und nochmals versuchen.</item>
+  </plurals>
+  <plurals name="picker_origin_need_to_download">
+    <item quantity="other">%1$d-Dateien (%2$d MB) sind noch nicht heruntergeladen. Mit mobilen Daten herunterladen?</item>
+    <item quantity="one">%1$d-Datei (%2$d MB) ist noch nicht heruntergeladen. Mit mobilen Daten herunterladen?</item>
   </plurals>
   <plurals name="picker_retry_image_confirm_message">
-    <item quantity="other">%1$d Fotos konnten nicht heruntergeladen werden, nochmal versuchen?</item>
-    <item quantity="one">Foto konnten nicht heruntergeladen werden, nochmal versuchen?</item>
+    <item quantity="other">%1$d Fotos wurden nicht heruntergeladen, nochmal versuchen?</item>
+    <item quantity="one">Foto wurde nicht heruntergeladen, nochmal versuchen?</item>
   </plurals>
   <plurals name="picker_retry_origin_confirm_message">
-    <item quantity="other">%1$d Fotos (%2$d MB) konnten nicht heruntergeladen werden, nochmal versuchen?</item>
-    <item quantity="one">Foto (%2$d MB) konnten nicht heruntergeladen werden, nochmal versuchen?</item>
+    <item quantity="other">%1$d Fotos (%2$d MB) wurden nicht heruntergeladen, nochmal versuchen?</item>
+    <item quantity="one">Foto (%2$d MB) wurde nicht heruntergeladen, nochmal versuchen?</item>
   </plurals>
   <plurals name="picker_skip_unavailable_images">
     <item quantity="other">%d Fotos übersprungen, die nicht auf dem Gerät sind</item>
