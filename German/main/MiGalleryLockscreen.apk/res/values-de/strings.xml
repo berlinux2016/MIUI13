@@ -22,6 +22,39 @@
   <string name="about_item_function">Neuerungen</string>
   <string name="about_net_error">Netzwerkverbindung prüfen und erneut versuchen</string>
   <string name="about_newest">Hintergrundkarussell ist auf dem neuesten Stand</string>
+  <string name="account_bind_secure_email_title">Wiederherstellungs-E-Mail hinzufügen</string>
+  <string name="account_bind_secure_phone_title">Wiederherstellungs-Telefonnummer hinzufügen</string>
+  <string name="account_crop_user_avatar">Foto zuschneiden</string>
+  <string name="account_empty_user_name">Mi-Konto-Benutzernamen eingeben</string>
+  <string name="account_error_all_space_user_name">Benutzername darf nicht nur Leerzeichen enthalten</string>
+  <string name="account_error_invalid_user_name">Benutzername darf &lt;, &gt;, oder / nicht enthalten</string>
+  <string name="account_error_longer_user_name">Benutzername darf nicht länger als 20 Zeichen sein</string>
+  <string name="account_error_shorter_user_name">Benutzername muss länger als 2 Zeichen sein</string>
+  <string name="account_error_user_birthday">Das eingegebene Geburtsdatum ist ungültig</string>
+  <string name="account_error_user_name">Dieser Spitzname ist ungültig. Versuchen Sie einen anderen.</string>
+  <string name="account_invalid_user_avatar">Dieses Foto ist ungültig. Versuchen Sie ein anderes.</string>
+  <string name="account_limit_update_birthday">Geburtstag kann jetzt nicht aktualisiert werden</string>
+  <string name="account_no_set">Keiner</string>
+  <string name="account_none_bind_info">Keiner</string>
+  <string name="account_none_user_name">Keiner</string>
+  <string name="account_secure_info_pref_title">Kontoinfo</string>
+  <string name="account_security_info_pref_title">Sicherheitsinfo</string>
+  <string name="account_user_avatar">Profilfoto</string>
+  <string name="account_user_avatar_from_album">Galerie</string>
+  <string name="account_user_avatar_from_camera">Kamera</string>
+  <string name="account_user_base_info">Basisinfo</string>
+  <string name="account_user_birthday">Geburtstag</string>
+  <string name="account_user_details">Persönliche Info</string>
+  <string name="account_user_email">Wiederherstellungs-E-Mail</string>
+  <string name="account_user_gender">Geschlecht</string>
+  <string name="account_user_id">Mi-Konto-ID</string>
+  <string name="account_user_name">Spitzname</string>
+  <string name="account_user_name_dialog_title">Benutzernamen eingeben</string>
+  <string name="account_user_phone">Wiederherstellungs-Telefonnummer</string>
+  <string name="action_add_phone">Telefonnummer hinzufügen</string>
+  <string name="action_update_phone">Telefonnummer ändern</string>
+  <string name="activate_email_notice">Sie müssen Ihr Konto innerhalb von 24 Stunden aktivieren.</string>
+  <string name="activity_not_found_notice">App wurde nicht gefunden</string>
   <string name="ad_btn_connecting">Verbinden</string>
   <string name="ad_btn_download_continue">Fortsetzen</string>
   <string name="ad_btn_download_start">Herunterladen</string>
@@ -60,9 +93,10 @@
   <string name="apply_to_wallpaper">Als Startbildschirm einstellen</string>
   <string name="article_item_hot">Sehen Sie sich %s+ beliebte Elemente an</string>
   <string name="at_least_one">Mindestens eine Kategorie wählen</string>
+  <string name="auth_fail_warning">Sitzung abgelaufen. Erneut anmelden.</string>
   <string name="auto_interval">Automatisch</string>
   <string name="back_icon_content_description">Zurück</string>
-  <string name="bind_sign_in_title">An Mi-Konto binden</string>
+  <string name="bind_sign_in_title">Mi-Konto hinzufügen</string>
   <string name="cancel">Abbrechen</string>
   <string name="cancel_international">Abbrechen</string>
   <string name="cancel_lockscreen">Abbrechen</string>
@@ -97,6 +131,8 @@
   <string name="cat_8">Wissenschaft</string>
   <string name="cat_9">Mode</string>
   <string name="category_subscribe_failed">Abonnieren nicht möglich</string>
+  <string name="change_activate_email">E-Mail-Adresse ändern</string>
+  <string name="change_password">Passwort ändern</string>
   <string name="change_time">Hintergrundbilder wechseln</string>
   <string name="character_counter_content_description">Zeichenlimit überschritten: %1$d von %2$d</string>
   <string name="choose_to_signin">Ja</string>
@@ -104,11 +140,16 @@
   <string name="clear_history">Verlauf löschen</string>
   <string name="clear_search_edittext">Löschen</string>
   <string name="close_gallery">Ausschalten</string>
+  <string name="collect_diagnosis_log">Protokolle sammeln</string>
   <string name="comment_pop_cancel">Nicht jetzt</string>
   <string name="comment_pop_content">Bewerten Sie uns, wenn Ihnen das Hintergrundkarussell gefällt!</string>
   <string name="comment_pop_ok">Bewerten</string>
   <string name="comment_pop_title">Hintergrundkarussell bewerten</string>
   <string name="confirm">Einschalten</string>
+  <string name="confirm_activate_email">Verifiziert</string>
+  <string name="confirm_bundled_phone_dialog_title">Zugeordnete Telefonnummer bestätigen</string>
+  <string name="confirm_new_pwd">Neues Passwort bestätigen</string>
+  <string name="confirm_unbundled_phone_dialog_message">Diese Telefonnummer war mit dem Mi-Konto %2$s auf %1$s verbunden. Sie ist nicht mehr mit dem Mi-Konto %3$s verbunden, wenn Sie fortfahren. Weitermachen?</string>
   <string name="create_shortcut">Startbildschirmverknüpfung erstellen</string>
   <string name="create_shortcut_btn">Erstellen</string>
   <string name="create_shortcut_title">Startbildschirmverknüpfung erstellen</string>
@@ -182,6 +223,10 @@
   <string name="detail_toast_deny_favor">Zu Favoriten hinzufügen nicht möglich</string>
   <string name="detail_toast_dislike_fail">Löschen nicht möglich</string>
   <string name="detail_toast_favor_permission">Hintergrundkarussell den Speicherzugriff in Sicherheit erlauben</string>
+  <string name="diagnosis_log_send_failed">Protokolle wurden nicht gesendet. Erneut versuchen.</string>
+  <string name="diagnosis_log_sent_format">"Protokolle erfolgreich gesendet.
+ID:%s
+Senden Sie diesen Code an den Supervisor."</string>
   <string name="disable_dlg_cancel">Abbrechen</string>
   <string name="disable_dlg_content">Sie können sich keine aktuellen Bilder auf Ihren Start- und Sperrbildschirm liefern lassen, wenn Sie das Hintergrundkarussell deaktivieren. Trotzdem ausschalten?</string>
   <string name="disable_dlg_ok">Ausschalten</string>
@@ -194,15 +239,23 @@
   <string name="enable_toast_cw">Auf Diashow umgeschaltet</string>
   <string name="enable_toast_cwo">Hintergrundkarussell eingeschaltet und Diashow gestartet</string>
   <string name="enable_toast_subscribe">Hintergrundkarussell eingeschaltet und Abonnements aktiviert</string>
+  <string name="error_dup_binded_email">Diese E-Mail-Adresse ist bereits mit einem anderen Mi-Konto verbunden.</string>
+  <string name="error_invalid_bind_address">Die eingegebene E-Mail-Adresse ist ungültig.</string>
+  <string name="exceed_binded_phone_times_notice">Diese Telefonnummer ist bereits mit einem anderen Mi-Konto verbunden.</string>
   <string name="explorer_activity_title">Hintergrundkarussell</string>
+  <string name="failed_dup_secure_phone_number">Diese Telefonnummer ist bereits mit einem anderen Mi-Konto verbunden.</string>
   <string name="favor_list_no_data">Hier gibt es keine Elemente</string>
   <string name="favor_list_title">Favoriten</string>
   <string name="favor_success">Erfolgreich zu Favoriten hinzugefügt</string>
   <string name="feed_article_entrance_about">Über \"%s\"</string>
   <string name="find_psw">Passwort vergessen</string>
+  <string name="for_diagnosis_usage_only">Protokolle werden nur zur Diagnose verwendet.</string>
   <string name="from_migallerylockscreen">Vom MIUI Hintergrundkarussell</string>
   <string name="get_account_no_permission">Um sich anzumelden, legen Sie bitte die Berechtigung zum Benutzerkontozugriff fest:</string>
+  <string name="get_back_pwd">Passwort zurücksetzen</string>
   <string name="get_ph_ticket">Code erhalten</string>
+  <string name="get_phone_bind_exceed_limit">Bis zu 3 Mi Konten können mit einer Telefonnummer verbunden werden. Neue Konten können nicht hinzugefügt werden.</string>
+  <string name="get_phone_verifycode_exceed_limit">Zu viele Verifizierungscodes wurden an diese Nummer geschickt. 24 Stunden warten und erneut versuchen.</string>
   <string name="goto_sign_up">Konto erstellen</string>
   <string name="history_list_no_data">Hier gibt es keine Elemente</string>
   <string name="hour_1">Jede Stunde</string>
@@ -211,7 +264,12 @@
   <string name="idbct_opt_auto_select_desc_text">Download von Standardbildern mit mobilen Daten und HD-Bildern über WLAN</string>
   <string name="idbct_opt_high_def_desc_text">HD-Bilder immer herunterladen</string>
   <string name="idbct_title">Netzwerktypen</string>
+  <string name="identity">Identifikation</string>
+  <string name="inconsistent_pwd">Passwörter stimmen nicht überein</string>
+  <string name="input_email_address_notice">Wir werden diese E-Mail zur Verifizierung Ihres Kontos verwenden</string>
+  <string name="input_new_pwd">Neues Passwort eingeben</string>
   <string name="isornot_your_mi_account">Ist das Ihr Mi-Konto?</string>
+  <string name="just_a_second">Einen Moment…</string>
   <string name="later">Nicht ausschalten</string>
   <string name="launch_bg_permission_exception">Hintergrundkarussell darf Popup-Fenster anzeigen, während es im Hintergrund in Sicherheit ausgeführt wird</string>
   <string name="like">Zu Favoriten hinzufügen</string>
@@ -259,6 +317,7 @@
   <string name="lockscreen_magazine_system_title">Standard</string>
   <string name="lockscreen_magazine_title">Hintergrundkarussell</string>
   <string name="lockscreen_wallpaper_changed">Sperrbildschirmhintergrund aktualisiert</string>
+  <string name="logout_account">Abmelden</string>
   <string name="look_str">Populär</string>
   <string name="main_fragment_title_discover">Entdecken</string>
   <string name="main_fragment_title_home">Empfehlungen</string>
@@ -286,8 +345,11 @@
   <string name="mtrl_chip_close_icon_content_description">%1$s löschen</string>
   <string name="need_open_gallery">Hintergrundkarussell einschalten</string>
   <string name="new_feature_title">Was ist neu</string>
+  <string name="nick_name">Spitzname</string>
+  <string name="no_account">Nicht angemeldet</string>
   <string name="no_long_show">Nicht wieder anzeigen</string>
   <string name="no_networdk">Netzwerkverbindung nicht möglich</string>
+  <string name="no_phone">Keine Telefonnummer</string>
   <string name="no_pic_data">Keine Bilder gefunden</string>
   <string name="ok_enable_network_prov">Zustimmen und einschalten</string>
   <string name="ok_enable_network_prov2">Zustimmen</string>
@@ -317,7 +379,7 @@
   <string name="passport_account_set_password">Passwort setzen</string>
   <string name="passport_account_set_password_prompt">Legen Sie das Passwort für Ihr Konto fest, um sich das nächste Mal anzumelden.</string>
   <string name="passport_account_set_password_title">Passwort setzen</string>
-  <string name="passport_activate_token_expired">Verifizierung abgelaufen, bitte erneut versuchen</string>
+  <string name="passport_activate_token_expired">Verifizierungscode abgelaufen. Erneut versuchen</string>
   <string name="passport_active_email_visit">Prüfen Sie Ihren Posteingang bei %s</string>
   <string name="passport_activing_account">Aktivieren…</string>
   <string name="passport_adding_account">Konto hinzufügen…</string>
@@ -327,7 +389,8 @@
   <string name="passport_back">Zurück</string>
   <string name="passport_bad_authentication">Benutzername oder Passwort ungültig</string>
   <string name="passport_barcode_add_account_prompt">>Um ein Konto zu verbinden, scannen Sie den QR-Code nach der Anmeldung erneut.</string>
-  <string name="passport_change_account">&lt;u&gt;Konto ändern&lt;/u&gt;</string>
+  <string name="passport_can_not_receive_verification_code">Sie erhalten keinen Verifizierungscode?</string>
+  <string name="passport_change_account"><u>Konto ändern</u></string>
   <string name="passport_change_phone_number">Nummern tauschen</string>
   <string name="passport_checking_account">Passwort prüfen…</string>
   <string name="passport_checking_input">Eingabe prüfen…</string>
@@ -336,7 +399,7 @@
   <string name="passport_completed">Beenden</string>
   <string name="passport_confirm_login">Weiter</string>
   <string name="passport_confirm_recycle_account">Ja</string>
-  <string name="passport_confirm_recycle_account_msg">&lt;font color=Red&gt;Sieht so aus&lt;/font&gt;, als wäre die Nummer %s von Ihrem Mobilfunkanbieter wiederverwendet worden, und es ist ein Mi-Konto damit verbunden. Ist das Ihr Konto?</string>
+  <string name="passport_confirm_recycle_account_msg">&lt;font color=Red>Sieht aus&lt;/font>, als wäre die Nummer %s von Ihrem Mobilfunkanbieter wiederverwendet worden, und es ist ein Mi-Konto damit verbunden. Ist das Ihr Konto?</string>
   <string name="passport_continue">Weiter</string>
   <string name="passport_copy_message_text_success">Erfolgreich kopiert</string>
   <string name="passport_copy_message_vcode">Code kopieren</string>
@@ -357,6 +420,7 @@
   <string name="passport_error_empty_pwd">Passwort eingeben</string>
   <string name="passport_error_empty_username">Konto-ID eingeben</string>
   <string name="passport_error_empty_vcode">Verifizierungscode eingeben</string>
+  <string name="passport_error_empty_voice_code">Captcha eingeben</string>
   <string name="passport_error_illegal_pwd">Passwort ungültig</string>
   <string name="passport_error_invalid_dev_id">Ihre Geräte-ID ist ungültig.</string>
   <string name="passport_error_invalid_phone_num">Telefonnummer ungültig</string>
@@ -368,6 +432,7 @@
   <string name="passport_error_sim_not_ready">SIM-Karte nicht gefunden</string>
   <string name="passport_error_ssl_hand_shake">Verbindung mit Server nicht möglich</string>
   <string name="passport_error_unknown">Anmeldung nicht möglich</string>
+  <string name="passport_error_user_agreement_error">Erst den allgemeinen Geschäftsbedingungen zustimmen</string>
   <string name="passport_error_user_name">Eingegebener Benutzername ist ungültig</string>
   <string name="passport_error_verify_activator_phone_message">Stellen Sie sicher, dass Ihr SIM-Kartendienst aktiviert ist und das Gerät mit dem Netzwerk verbunden ist.</string>
   <string name="passport_error_verify_activator_phone_title">Telefonnummer wurde nicht verifiziert</string>
@@ -379,7 +444,7 @@
   <string name="passport_get_back_pwd">Kontopasswort abrufen</string>
   <string name="passport_get_innetdate_agree">Prüfen</string>
   <string name="passport_get_innetdate_disagree">Nein</string>
-  <string name="passport_get_innetdate_msg">&lt;font color=Red&gt;Sieht so aus&lt;/font&gt;, als wäre die Nummer %s von Ihrem Mobilfunkanbieter wiederverwendet worden. Prüfen, wann die Nummer online ging?</string>
+  <string name="passport_get_innetdate_msg">&lt;font color=Red>Sieht so aus&lt;/font>, als wäre die Nummer %s von Ihrem Mobilfunkanbieter wiederverwendet worden. Prüfen, wann die Nummer online ging?</string>
   <string name="passport_get_innetdate_title">Prüfen, wann die Nummer online ging</string>
   <string name="passport_get_verify_code">Code abrufen</string>
   <string name="passport_getting_activator_phone">SIM-Info abrufen…</string>
@@ -394,10 +459,11 @@
   <string name="passport_input_phone_hint">Telefonnummer eingeben</string>
   <string name="passport_input_vcode_hint">Verifizierungscode eingeben</string>
   <string name="passport_input_voice_captcha_hint">Sprachverifizierungscode eingeben</string>
-  <string name="passport_international_phone_password_login_tip">(Benutzer außerhalb Chinas geben bitte die Handynummer im folgenden Format ein: + Ländercode Handynummer, Beispiel: +91 817282982)</string>
+  <string name="passport_input_voice_hint">Sprachcode eingeben</string>
+  <string name="passport_international_phone_password_login_tip">(Benutzer außerhalb Chinas sollten die Handynummer im folgenden Format eingeben: +[Vorwahl][Telefonnummer], z.B: +91 817282982)</string>
   <string name="passport_license_host_unreachable">Netzwerkverbindung nicht möglich. Sie können diese Seite auf %s ansehen.</string>
   <string name="passport_loading">Laden…</string>
-  <string name="passport_log_detail">Protokolldetails anzeigen</string>
+  <string name="passport_log_detail">Details anzeigen</string>
   <string name="passport_login">Anmelden</string>
   <string name="passport_login_failed">Anmeldung nicht möglich</string>
   <string name="passport_login_instead_reg">Diese Nummer verwenden</string>
@@ -414,7 +480,7 @@
   <string name="passport_no">Nein</string>
   <string name="passport_notification_title">Anmeldefehler bei %1$s</string>
   <string name="passport_password_phone_login">Mit Mi-Konto anmelden</string>
-  <string name="passport_password_req_notice">Passwort muss 8-16 Zeichen lang sein und sowohl Ziffern als auch Groß-/Kleinbuchstaben enthalten</string>
+  <string name="passport_password_req_notice">Passwort muss 8-16 Zeichen lang sein und mindestens zwei der folgenden Elemente enthalten: Ziffern, Buchstaben und Sonderzeichen (z. B. 123abc@# oder 123abc oder abc@#).</string>
   <string name="passport_phone_num_hint_text">Telefonnummer</string>
   <string name="passport_phone_ticket_login">Mit SMS anmelden</string>
   <string name="passport_prev">Zurück</string>
@@ -428,7 +494,7 @@
   <string name="passport_quick_login_step2_title">2-stufige Verifizierung</string>
   <string name="passport_quick_login_title">Passwort eingeben</string>
   <string name="passport_quick_register">Registrieren</string>
-  <string name="passport_quick_register_notice">&lt;u&gt;Sie haben kein Mi-Konto? Erstellen Sie eins.&lt;/u&gt;</string>
+  <string name="passport_quick_register_notice"><u>Sie haben kein Mi-Konto? Erstellen Sie eins.</u></string>
   <string name="passport_re_get_verify_code">Code erneut erhalten</string>
   <string name="passport_re_register">Erneut anmelden</string>
   <string name="passport_recycle_account_prompt">Ist das Ihr Mi-Konto?</string>
@@ -442,7 +508,7 @@
   <string name="passport_reg_success">Konto eingerichtet</string>
   <string name="passport_reg_success_summary">%1$s wurde mit Ihrem Konto verknüpft. Sie können es zum Anmelden oder Rücksetzen Ihres Passworts nutzen.</string>
   <string name="passport_reg_type_email">E-Mail-Adresse nutzen</string>
-  <string name="passport_reg_using_other_phone">&lt;u&gt;Alternative Telefonnummer verwenden&lt;/u&gt;</string>
+  <string name="passport_reg_using_other_phone"><u>Alternative Telefonnummer verwenden</u></string>
   <string name="passport_reg_using_other_phone_number_prompt">"Neues Konto einrichten mit "</string>
   <string name="passport_reg_using_phone_number_prompt">Konto einrichten mit Telefonnummer</string>
   <string name="passport_reg_via_sms_alert">Ihr Mobilfunkanbieter könnte Gebühren berechnen für die SMS zur Aktivierung des Dienstes.</string>
@@ -450,7 +516,7 @@
   <string name="passport_register">Konto erstellen</string>
   <string name="passport_register_account_goto_email">Zum Posteingang gehen</string>
   <string name="passport_register_account_verified_confirm">Konto verifiziert</string>
-  <string name="passport_register_by_email">&lt;u&gt;Konto mit E-Mail-Adresse einrichten&lt;/u&gt;</string>
+  <string name="passport_register_by_email"><u>Konto mit E-Mail-Adresse einrichten</u></string>
   <string name="passport_register_restricted">Zu viele Konten mit dieser Nummer verknüpft, versuchen Sie eine andere</string>
   <string name="passport_register_restricted_title">Telefonnummer kann nicht verwendet werden</string>
   <string name="passport_registered_phone_num">Telefon: %s</string>
@@ -488,24 +554,30 @@
   <string name="passport_skip_register">Anmeldung überspringen</string>
   <string name="passport_skip_setup_account_msg">Sie können ein Mi-Konto später in den Einstellungen einrichten.</string>
   <string name="passport_skip_setup_account_title">Einrichtung überspringen</string>
-  <string name="passport_sms_phone_intro">Verifizierungscode wurde bereits an %1$s gesendet</string>
+  <string name="passport_sms_phone_intro">Code an %1$s gesendet</string>
   <string name="passport_sms_send_success">Gesendet</string>
   <string name="passport_sms_verification_code_login">Mit SMS anmelden</string>
   <string name="passport_sync_account_data">Kontoinfo synchronisieren…</string>
   <string name="passport_sync_account_data_failed_warning">Ihre Kontoinformationen werden jetzt synchronisiert, Sie können sich mit Ihrer Mi-Konto-ID anmelden. Wenn Sie sich mit Ihrem Telefon oder per E-Mail anmelden möchten, warten Sie, bis die Informationen vollständig synchronisiert sind.</string>
+  <string name="passport_talkback_image_captcha">Bildverifizierungscode</string>
+  <string name="passport_talkback_switch_image_captcha">Zum Bildverifizierungscode wechseln</string>
+  <string name="passport_talkback_switch_voice_captcha">Zum Sprachverifizierungscode wechseln</string>
+  <string name="passport_talkback_voice_captcha">Sprachverifizierungscode abspielen</string>
   <string name="passport_timeout_network_error">Timeout Netzwerkanfrage</string>
   <string name="passport_title_reg">Konto erstellen</string>
   <string name="passport_trust_device">Dieses Gerät zu den verifizierten Geräten hinzufügen</string>
   <string name="passport_trying_read_verify_code_sms">Verifizierungscode erhalten…</string>
-  <string name="passport_unknow_error">Sorry, ein unbekannter Fehler ist aufgetreten</string>
+  <string name="passport_unknow_error">Ein unbekannter Fehler ist aufgetreten</string>
   <string name="passport_unknow_host_network_error">Netzwerkeinstellungen prüfen und erneut versuchen</string>
-  <string name="passport_unknow_network_error">Sorry, ein Netzwerkfehler ist aufgetreten</string>
+  <string name="passport_unknow_network_error">Ein Netzwerkfehler ist aufgetreten</string>
   <string name="passport_uplink_reg">Telefonnummer verwenden</string>
   <string name="passport_uplink_slot1_reg">SIM1 verwenden</string>
   <string name="passport_uplink_slot2_reg">SIM2 verwenden</string>
   <string name="passport_use_generated_pwd_message">Vergessen Sie nicht, sich Ihr Passwort zu merken. Sie können es verwenden, um sich bei anderen Mi Diensten anzumelden.</string>
   <string name="passport_use_generated_pwd_title">Passwort merken</string>
   <string name="passport_user_agreement">Nutzervereinbarung</string>
+  <string name="passport_user_agreement_link">"&lt;Data>Ich habe Xiaomi's &lt;a href=%1$s>Nutzervereinbarung&lt;/a> und &lt;a href=%2$s>Datenschutzerklärung&lt;/a> gelesen und akzeptiert.&lt;/Data>"</string>
+  <string name="passport_user_agreement_link_more">"&lt;Data>Ich habe folgende Dokumente gelesen und akzeptiert: Xiaomi's &lt;a href=%1$s>Nutzervereinbarung&lt;/a> und &lt;a href=%4$s>Datenschutzerklärung&lt;/a>, &lt;a href=%2$s>%3$s&lt;/a>.&lt;/Data>"</string>
   <string name="passport_user_agreement_p1">"Zustimmen zur "</string>
   <string name="passport_user_agreement_p2">Nutzervereinbarung</string>
   <string name="passport_user_agreement_p3">" und "</string>
@@ -523,17 +595,20 @@
   <string name="passport_verify">Verifizieren</string>
   <string name="passport_verifying_activator_phone">Telefonsicherheit verifizieren…</string>
   <string name="passport_wait_for_sms_prompt">Jetzt neu beginnen? Die Zustellung von Bestätigungsnachrichten kann bis zu 10 Minuten dauern, wenn sich Ihr Telefon in Netzreichweite Ihres Mobilfunkanbieters befindet.</string>
-  <string name="passport_wechat_not_install">WeChat ist nicht installiert</string>
+  <string name="passport_wechat_not_install">Erst WeChat installieren</string>
   <string name="passport_wrong_captcha">Eingegebener Code ist falsch</string>
   <string name="passport_wrong_phone_number_format">Format der eingegebenen Telefonnummer ist ungültig</string>
   <string name="passport_wrong_vcode">Eingegebener Code ist falsch</string>
+  <string name="passport_wrong_voice">Der eingegebene Code ist falsch.</string>
   <string name="passport_yes">Ja</string>
   <string name="password_toggle_content_description">Passwortsichtbarkeit umschalten</string>
   <string name="permission_account_tip">Kontozugriff</string>
   <string name="permission_storage_tip">Auf Bilder auf Ihrem Gerät zugreifen, um sie als Hintergrundbilder zu nutzen</string>
   <string name="phone_bind_too_many">Dieses Telefon wurde in kurzer Zeit mit mehreren Mi Konten verknüpft. Versuchen Sie, eine andere Telefonnummer zu verwenden.</string>
   <string name="phone_hint">Telefonnummer</string>
+  <string name="phone_num_use_for">Telefonnummer wird verwendet für:</string>
   <string name="phone_number">Telefonnummer</string>
+  <string name="photoPickerNotFoundText">Keine Fotos verfügbar</string>
   <string name="platform_unavailable_qq">Bitte VK installieren</string>
   <string name="platform_unavailable_qzone">Bitte Telegram installieren</string>
   <string name="platform_unavailable_wechat">WeChat installieren</string>
@@ -559,11 +634,19 @@
   <string name="refresh_network">Aktualisieren</string>
   <string name="remove">Löschen</string>
   <string name="req_permission_dis_tip">Berechtigungen erforderlich</string>
+  <string name="resend_active_email">Erneut senden</string>
+  <string name="resend_email_reach_limit_message">Sie haben zu viele Verifizierungs-E-Mails angefordert. Prüfen Sie, ob die Bestätigungs-E-Mail nicht im Spam-Ordner Ihres Posteingangs ist.</string>
+  <string name="resend_email_reach_limit_title">Zu viele Versuche</string>
+  <string name="resend_email_success">Erfolgreich gesendet</string>
   <string name="resource_apply">Anwenden</string>
   <string name="resource_no_network_text">Netzwerkverbindung prüfen und erneut versuchen</string>
+  <string name="restart_action">Neu anfangen</string>
+  <string name="restart_phone_bind_message">SMS-Empfang kann einige Zeit dauern. Trotzdem neu anfangen?</string>
+  <string name="restart_phone_bind_title">Wiederherstellungs-Telefon ändern</string>
   <string name="rv_with_footer_empty">Hier ist noch nichts</string>
   <string name="rv_with_footer_loading"><CDATA>Einen Moment…</CDATA></string>
   <string name="rv_with_footer_pull_load_more">Herunterziehen, um mehr anzuzeigen</string>
+  <string name="same_new_and_old_pwd">Darf nicht identisch mit dem aktuellen Passwort sein</string>
   <string name="save_hdpicture_in_favor">HD-Bilder in Favoriten anzeigen</string>
   <string name="save_picture_success">Gespeichert</string>
   <string name="save_to_album">Erfolgreich in Galerie gespeichert</string>
@@ -580,6 +663,11 @@
   <string name="select_photo_album">Album wählen</string>
   <string name="select_picture">Bilder wählen</string>
   <string name="select_picture_des">Ihre Fotos und Online-Bilder zum Mix hinzufügen, damit sie automatisch in der Diashow erscheinen</string>
+  <string name="send_diagnosis_log">Protokolle senden</string>
+  <string name="send_email_activate_message">Verifizierungs-E-Mail erfolgreich versendet</string>
+  <string name="sending">Senden…</string>
+  <string name="service_error">Serverfehler</string>
+  <string name="set_success">Erfolgreich geändert</string>
   <string name="setting_about_item_title">Über Hintergrundkarussell</string>
   <string name="setting_des">Sie können Ihre Diashow unter Einstellungen &gt; Sperrbildschirm &amp; Passwort &gt; Hintergrundkarussell einrichten</string>
   <string name="setting_head">Einstellungen</string>
@@ -603,8 +691,13 @@
   <string name="shortcut_exist">Verknüpfung existiert bereits</string>
   <string name="shortcut_failed">Verknüpfung wurde nicht erstellt</string>
   <string name="show_wallpaper_loop_entry_title">Einstellungen Diashow</string>
+  <string name="sign_in">Anmelden</string>
+  <string name="sign_in_progress">Anmelden…</string>
   <string name="sign_in_title">Mit Mi-Konto anmelden</string>
   <string name="sliding_on_unlock">Hochwischen zum Entsperren</string>
+  <string name="sms_send_success">Erfolgreich gesendet</string>
+  <string name="sns_access_token_expired_warning">Sitzung abgelaufen. Erneut anmelden, um dieses Konto wieder zu verbinden.</string>
+  <string name="sns_bind_limit">Zu viele Versuche. Andere Art der Anmeldung probieren.</string>
   <string name="sns_sign_in">Andere Art der Anmeldung</string>
   <string name="sst_auto_recommand_desc">Abonnieren Sie Ihre Lieblingskategorien, um täglich neue Bilder und Geschichten auf Ihrem Sperrbildschirm zu erhalten.</string>
   <string name="sst_auto_recommand_title">Empfehlungen für individuelle Hintergrundbilder erhalten</string>
@@ -685,12 +778,13 @@
   <string name="subscribe_success_content_per_unlock">Hintergrundbild jedes Mal bei Sperrung des Geräts ändern</string>
   <string name="subscribe_update_time_setting">Anderes Intervall einstellen</string>
   <string name="summary">"Akzeptieren Sie unsere <a href='http://www.miui.com/res/doc/privacy/de.html'>Datenschutzerklärung</a>, um Online-Inhalte anzusehen. Wenn Sie nicht einverstanden sind, werden lokale Hintergrundbilder weiterhin verfügbar sein."</string>
-  <string name="summary2">"Mit der Nutzung dieser Funktion stimmen Sie unserer &lt;a href ='http://www.miui.com/res/doc/eula.html?lang=de_DE'&gt;Nutzervereinbarung&lt;/a&gt; und &lt;a href='http://www.miui.com/res/doc/privacy/de.html'&gt;Datenschutzerklärung&lt;/a&gt; zu. Diese Funktion benötigt eine Internetverbindung, um normal zu funktionieren."</string>
+  <string name="summary2">"Mit der Nutzung dieser Funktion stimmen Sie unserer &lt;a href ='http://www.miui.com/res/doc/eula.html?lang=de_DE'>Nutzervereinbarung&lt;/a> und &lt;a href='http://www.miui.com/res/doc/privacy/de.html'>Datenschutzerklärung&lt;/a> zu. Diese Funktion benötigt eine Internetverbindung, um normal zu funktionieren."</string>
   <string name="summary_international">"Mit der Nutzung dieser Funktion stimmen Sie unserer <a href ='http://www.miui.com/res/doc/eula.html?lang=de_DE'>Nutzervereinbarung</a> und <a href='http://www.miui.com/res/doc/privacy/de.html'>Datenschutzerklärung</a> zu. Diese Funktion benötigt eine Internetverbindung, um normal zu funktionieren."</string>
   <string name="sure_close_gallery">Hintergrundkarussell ausschalten?</string>
   <string name="sure_close_gallery_des">Sie können keine neuen Bilder auf Ihren Start- und Sperrbildschirm erhalten, wenn Sie das Hintergrundkarussell ausschalten. Trotzdem ausschalten?</string>
   <string name="system_default">Standard</string>
   <string name="tab_user_title_bar_text">Einstellungen</string>
+  <string name="temporary_not_available">Diese Funktion ist noch nicht verfügbar.</string>
   <string name="theme_apply_failured">Anwenden nicht möglich, bitte später erneut versuchen</string>
   <string name="theme_apply_lockscreen_apply">Hintergrundkarussell einschalten…</string>
   <string name="theme_apply_lockscreen_failed">Nicht anwendbar</string>
@@ -724,10 +818,16 @@
   <string name="uninstall_introduction_text_title">Über Hintergrundkarussell</string>
   <string name="uninstall_warning_text_desc">Ohne Hintergrundkarussell können Sie nicht regelmäßig neue Sperrbildschirmhintergründe erhalten. Sie können die App jedoch erneut herunterladen und installieren. Hintergrundkarussell löschen?</string>
   <string name="uninstall_warning_text_title">Hintergrundkarussell löschen</string>
+  <string name="update_email_address_dialog_message">Sie müssen Ihre Identität verifizieren, bevor Sie die Wiederherstellungs-E-Mail aktualisieren.</string>
+  <string name="update_email_address_dialog_title">Wiederherstellungs-E-Mail aktualisieren</string>
+  <string name="update_phone_notice">Sicherheitseinstellungen ändern</string>
+  <string name="upload_error_log">Protokoll hochladen</string>
   <string name="user_ac_click_to_login">Tippen zum Anmelden</string>
   <string name="user_ac_not_login">Nicht angemeldet</string>
-  <string name="user_id_hint">E-Mail/Telefon</string>
-  <string name="v_code_title">2-stufigen Verifizierungscode eingeben</string>
+  <string name="user_avatar_update_title">Profilbild ändern</string>
+  <string name="user_avatar_uploading">Einen Moment…</string>
+  <string name="user_id_hint">E-Mail/Telefon/Mi-Konto-ID</string>
+  <string name="v_code_title">Verifizierungscode eingeben</string>
   <string name="view_privacy_policy">Datenschutzerklärung</string>
   <string name="wallpaper">Hintergrundbild</string>
   <string name="wallpaper_feed_title">Vielleicht gefällt Ihnen auch</string>
