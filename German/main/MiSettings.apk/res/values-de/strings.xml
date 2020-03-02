@@ -25,12 +25,17 @@
   <string name="calendar_tip">Terminerinnerungstöne funktionieren bei Kalendererinnerungen, Notizen und Aufgaben</string>
   <string name="category_other">Andere</string>
   <string name="color_gamut">Farbraum</string>
+  <string name="contact_description">Kontaktverknüpfungen auf Ihrer Startseite platzieren und darauf tippen um einen Anruf zu tätigen.</string>
+  <string name="contact_title">Kontaktverknüpfungen</string>
   <string name="contrast_ratio">Kontrast</string>
   <string name="create">Erstellen</string>
   <string name="create_failed">Erstellen fehlgeschlagen</string>
   <string name="create_shortcut">Eine Verknüpfung erstellen</string>
   <string name="created">Erstellt</string>
   <string name="created_successfully">Erstellen erfolgreich</string>
+  <string name="display_description">Größere Symbole, großer Text, weniger visuelles Durcheinander</string>
+  <string name="display_title">Größere Elemente</string>
+  <string name="exit_easymode">Lite-Modus ausschalten</string>
   <string name="first_unlock_time">"Erste Entsperrung: "</string>
   <string name="focus_time_exception_tip">Sieht aus, als hätte sich die Systemzeit geändert. Konzentrationsmodus wurde ausgeschaltet.</string>
   <string name="follow_sim1">Einstellungen SIM1 übernehmen</string>
@@ -78,6 +83,7 @@
   <string name="sms_received_sound_title">Eingehende Nachricht</string>
   <string name="special_feature">Besondere Funktionen</string>
   <string name="srgb_color_region_summary">Alle Bildschirminhalte im sRGB-Farbraum anzeigen</string>
+  <string name="start_easymode">Lite-Modus einschalten</string>
   <string name="stop_app_timer">Bildschirmzeit deaktivieren</string>
   <string name="stop_app_timer_fail">Bildschirmzeit deaktivieren fehlgeschlagen</string>
   <string name="stop_app_timer_success">Bildschirmzeit erfolgreich deaktiviert</string>
@@ -85,8 +91,11 @@
   <string name="stop_summary">Alle Daten für die Bildschirmverwaltung werden nach der Deaktivierung gelöscht.</string>
   <string name="suggestion">Vorschläge und Feedback</string>
   <string name="thememanager_not_found">Themen öffnen nicht möglich. Stellen Sie sicher, dass diese App auf Ihrem Gerät installiert ist.</string>
+  <string name="title_activity_easy_mode">Lite-Modus</string>
   <string name="today_usage_title">Heute</string>
   <string name="today_use_time">Bildschirmzeit %1$s</string>
+  <string name="touch_description">Optimierte Schaltflächen und Verknüpfungen helfen Ihnen, versehentliche Berührungen zu vermeiden</string>
+  <string name="touch_title">Erweiterte Berührungssteuerung</string>
   <string name="trend_from_last_several_day_equal">Heutige Nutzungsdauer entspricht dem täglichen Durchschnitt von %1$d</string>
   <string name="trend_from_last_several_day_less">Heute durchschnittlich %2$s weniger als %1$d verwendet</string>
   <string name="trend_from_last_several_day_more">Heute durchschnittlich %2$s weniger als in den letzten %1$d Tagen täglich verwendet</string>
@@ -145,13 +154,15 @@
   <string name="usage_home_permission_phone_summary">Zur Geräteidentifizierung mit VAID</string>
   <string name="usage_home_permission_phone_title">Zugriff auf Geräteinformationen</string>
   <string name="usage_home_premission_main_summary">Willkommen bei Bildschirmzeit! Mit dieser App können Sie Bildschirmzeiten festlegen, Statistiken anzeigen und zum Konzentrationsmodus wechseln. Diese App muss Zeitinformationen über den Bildschirm sammeln (z. B. die Anzahl, wie oft Sie Ihr Telefon und den Bildschirm einschalten, sowie die App-Nutzungsdauer), um normal zu funktionieren.</string>
-  <string name="usage_home_premission_second_summary">Um normal arbeiten zu können, muss diese App Ihre persönlichen Daten erfassen. Wir werden Ihre personenbezogenen Daten in Übereinstimmung mit den einschlägigen Gesetzen, Vorschriften und Datenschutzrichtlinien schützen.</string>
   <string name="usage_home_premission_main_summary_new">"Willkommen bei Bildschirmzeit!
 Um normal arbeiten zu können, muss diese App Informationen zur Bildschirmzeit sammeln: die Anzahl der Telefonentsperrungen, App-Namen und App-Nutzungsdauer werden benötigt, um die Bildschirmzeit-Statistik zu generieren; die Einstellungen des Konzentrationsmodus sind erforderlich, um die Statistik dessen zu generieren.
 Diese App muss außerdem eine Internetverbindung herstellen und benötigt folgende Berechtigungen, um Ihre persönlichen Daten zu sammeln:"</string>
   <string name="usage_home_premission_main_summary_new_o">"Willkommen bei Bildschirmzeit!
 Um normal arbeiten zu können, muss diese App Informationen zur Bildschirmzeit sammeln: die Anzahl der Freischaltungen, App-Namen und App-Nutzungsdauer werden benötigt, um die Bildschirmzeit-Statistik zu generieren.
 Diese App muss außerdem eine Internetverbindung herstellen und benötigt folgende Berechtigungen, um Ihre persönlichen Daten zu sammeln:"</string>
+  <string name="usage_home_premission_second_summary">Um normal arbeiten zu können, muss diese App Ihre persönlichen Daten erfassen. Wir werden Ihre personenbezogenen Daten in Übereinstimmung mit den einschlägigen Gesetzen, Vorschriften und Datenschutzrichtlinien schützen.</string>
+  <string name="usage_home_premission_second_summary_double_link_prefix">Wir werden Ihre persönlichen Daten in Übereinstimmung mit den einschlägigen Gesetzen, Vorschriften und Datenschutzrichtlinien schützen. Wenn Sie nicht damit einverstanden sind, solche Genehmigungen zu erteilen oder Ihre persönlichen Daten zu teilen und hochzuladen, können Sie diese App nicht verwenden. Sie können Ihre Berechtigung unter Bildschirmzeit &gt; Einstellungen &gt; Bildschirmzeit ausschalten widerrufen.</string>
+  <string name="usage_home_premission_second_summary_double_link_suffix" formatted="false">&lt;Data&gt;"Bevor Sie diese App verwenden, lesen Sie unsere &amp;lt;a href='%1s'&amp;gt;Nutzervereinbarung&amp;lt;/a&amp;gt; und &amp;lt;a href='%2s'&amp;gt;Datenschutzerklärung&amp;lt;/a&amp;gt;."&lt;/Data&gt;</string>
   <string name="usage_home_premission_second_summary_new">"Wir schützen Ihre persönlichen Daten in Übereinstimmung mit den einschlägigen Gesetzen, Vorschriften und Datenschutzrichtlinien. 
 Wenn Sie nicht zustimmen, diese Berechtigungen zu erteilen oder Ihre persönlichen Daten zu teilen und hochzuladen, können Sie diese App nicht nutzen. 
 Sie können Ihre Berechtigung unter Bildschirmzeit &gt; Einstellungen &gt; Bildschirmzeit ausschalten widerrufen. Wenn Sie weitere Fragen zum Thema Datenschutz haben, können Sie uns unter privacy@xiaomi.com kontaktieren."</string>
