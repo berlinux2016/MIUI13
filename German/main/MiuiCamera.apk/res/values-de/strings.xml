@@ -1,5 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+
+
+    <string name="clone_don_not_move_phone">Bitte bewegen Sie Ihr Telefon nicht</string>
+    <string name="clone_landscape_hint">Avatar-Modus unterstützt nur Landschaftsaufnahmen</string>
+    <string name="clone_no_person_found_in_viewfinder">Es werden keine Personen im eingerahmten Bereich erkannt</string>
+    <string name="clone_offset_is_too_large">Telefonversatz ist zu groß, bitte wiederholen</string>
+    <string name="clone_photo_mode">Fotomodus</string>
+    <string name="clone_photo_mode_start_hint">Bitte auf den Auslöser tippen, um mit dem Fotografieren zu beginnen</string>
+    <string name="clone_preview_no_person">Niemand erkannt, fotografieren nicht möglich</string>
+    <string name="clone_put_phone_back_in_place">Bitte das Telefon wieder in seine ursprüngliche Position zurückstellen</string>
+    <string name="clone_start_capture">Aufnahme beginnen</string>
+    <string name="clone_video_mode">Videomodus</string>
+    <string name="clone_video_mode_start_hint">Bitte auf den Auslöser tippen, um mit der Videoaufnahme zu beginnen</string>
+    
+
   <string name="abc_action_bar_home_description">Zur Startseite</string>
   <string name="abc_action_bar_up_description">Nach oben</string>
   <string name="abc_action_menu_overflow_description">Mehr Optionen</string>
@@ -159,6 +174,7 @@ und optimiert Ihre Fotos anhand dieser Informationen."</string>
   <string name="auxiliary_exposure_feedback_status">Belichtungsprüfung ist an</string>
   <string name="auxiliary_focus_peak_status">Fokus-Peaking ist an</string>
   <string name="back_bokeh_use_hint">Halten Sie Ihr Motiv in einem Umkreis von 1,5 Metern für den besten Effekt.</string>
+  <string name="background">Hintergrund</string>
   <string name="beauty_body">Figur</string>
   <string name="beauty_body_body">Abnehmen</string>
   <string name="beauty_body_head">Kopf</string>
@@ -331,6 +347,7 @@ ausrichten und verbessern"</string>
   <string name="effect_none">Nichts</string>
   <string name="effect_setting_top_text">Kamerafilter</string>
   <string name="effect_silly_faces">EFFEKTE</string>
+  <string name="emoticon">Stickerpaket</string>
   <string name="error_app_unsupported">Nicht unterstützte Videoauflösung für diesen Encodertyp</string>
   <string name="error_app_unsupported_hfr_720p">720P kann bis zu 90FPS unterstützen.</string>
   <string name="error_app_unsupported_hfr_codec">Nur H264-Videocodierung wird nicht unterstützt, wenn HFR an ist</string>
@@ -570,7 +587,9 @@ Für ein besseres Bild, Kameraobjektiv bitte reinigen."</string>
   <string name="mimoji_check_no_face">Gesicht nicht erkannt</string>
   <string name="mimoji_check_normal">Bitte drücken Sie die Kamerataste</string>
   <string name="mimoji_confirm">Bestätigen</string>
-  <string name="mimoji_create_emoticon">Emoticons mit einem Klick generieren</string>
+  <string name="mimoji_create_emoticon">Stickerpaket erstellen</string>
+  <string name="mimoji_create_emoticon_error">Stickerpaket erstellen nicht möglich</string>
+  <string name="mimoji_create_emoticon_progress">Stickerpaket erstellen…</string>
   <string name="mimoji_create_tips">Schauen Sie direkt in die Kamera, um Ihren Mimoji zu erstellen</string>
   <string name="mimoji_delete">&lt;font fgcolor="#ffff0000">Löschen&lt;/font></string>
   <string name="mimoji_delete_dialog_title">Mimoji löschen?</string>
@@ -594,6 +613,8 @@ Für ein besseres Bild, Kameraobjektiv bitte reinigen."</string>
   <string name="mimoji_edit_cancel_alert">Alle Änderungen werden verworfen. Trotzdem abbrechen?</string>
   <string name="mimoji_edit_mimoji">Mimoji bearbeiten</string>
   <string name="mimoji_editor">Bearbeiten</string>
+  <string name="mimoji_emoticon_save">Stickerpaket speichern</string>
+  <string name="mimoji_emoticon_with_jpeg_save">Auch Bilder speichern</string>
   <string name="mimoji_eye">Auge</string>
   <string name="mimoji_eye_shape">Augenform</string>
   <string name="mimoji_eyebrow">Augenbraue</string>
@@ -602,15 +623,14 @@ Für ein besseres Bild, Kameraobjektiv bitte reinigen."</string>
   <string name="mimoji_eyelash">Wimpern</string>
   <string name="mimoji_featured_face">Gesichtstyp</string>
   <string name="mimoji_freckle">Sommersprossen</string>
-  <string name="mimoji_gif_accelerate">Beschleunigen</string>
-  <string name="mimoji_gif_clear_bg">Zum Hintergrund gehen</string>
-  <string name="mimoji_gif_edit_hint">Klicken, um Text hinzuzufügen</string>
+  <string name="mimoji_gif_accelerate">Geschwindigkeit</string>
+  <string name="mimoji_gif_clear_bg">Hintergrund entfernen</string>
+  <string name="mimoji_gif_edit_hint">Tippen, um Text hinzuzufügen</string>
   <string name="mimoji_gif_edit_title">GIF bearbeiten</string>
   <string name="mimoji_gif_reverse">Auf den Kopf stellen</string>
   <string name="mimoji_hairstyle">Frisur</string>
   <string name="mimoji_headwear">Kopfbedeckung</string>
   <string name="mimoji_mole">Leberfleck</string>
-  <string name="mimoji_save_finish">Fertig</string>
   <string name="mimoji_mole_freckle">Leberfleck &amp; Sommersprossen</string>
   <string name="mimoji_mouth_type">Mundart</string>
   <string name="mimoji_mustache">Bart</string>
@@ -622,8 +642,11 @@ Für ein besseres Bild, Kameraobjektiv bitte reinigen."</string>
   <string name="mimoji_recapture_alert">Alle Änderungen werden verworfen, wenn Sie neu beginnen. Trotzdem neu anfangen?</string>
   <string name="mimoji_reset">Zurücksetzen</string>
   <string name="mimoji_save">Speichern</string>
+  <string name="mimoji_save_finish">Fertig</string>
   <string name="mimoji_save_success">Erfolgreich gespeichert</string>
+  <string name="mimoji_select_number_error">Mindestens 1 Element auswählen</string>
   <string name="mimoji_selected">Auswählen</string>
+  <string name="share">Teilen</string>
   <string name="mimoji_start_create">Mimoji erstellen…</string>
   <string name="mimoji_tips">Tippen für Foto, langer Druck für Video</string>
   <string name="miservice_notification_content">Tippen, um mehr zu erfahren</string>
@@ -1224,6 +1247,12 @@ Halten Sie das Motiv scharf, während Sie den Hintergrund verwischen.</string>
   <string name="tap_to_focus">Zum Fokussieren berühren</string>
   <string name="text_ai_scene_selector_text_off">GEGENLICHT</string>
   <string name="text_copied_to_clipboard">Text in Zwischenablage kopiert</string>
+  <string name="timbre">Stimme</string>
+  <string name="timbre_baby">Kind</string>
+  <string name="timbre_gentlemen">Herr</string>
+  <string name="timbre_girl">Mädchen</string>
+  <string name="timbre_lady">Dame</string>
+  <string name="timbre_robot">Roboter</string>
   <string name="time">Zeit</string>
   <string name="time_lapse_error">Gewählte Videogröße kann nicht für Zeitrafferaufnahme genutzt werden</string>
   <string name="times">Zeiten</string>
@@ -1261,6 +1290,7 @@ Der Ultraweitwinkelmodus hilft, wenn Sie sich nicht weiter von der Szene entfern
   <string name="ultra_wide_recommend_tip_hint">Ultraweitwinkelmodus testen</string>
   <string name="ultra_wide_recommend_tip_hint_sat">Auf 0.6X Ultraweitwinkel umschalten</string>
   <string name="undo">Zurück</string>
+  <string name="unknow_error">Unbekannter Fehler</string>
   <string name="user_agree">Zustimmen</string>
   <string name="user_agreement2">Nutzungsbedingungen</string>
   <string name="user_agreement4">Datenschutzerklärung</string>

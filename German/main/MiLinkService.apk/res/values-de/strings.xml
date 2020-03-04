@@ -37,6 +37,11 @@ Für weitere Fragen lesen Sie bitte die Hilfe."</string>
   <string name="help_page_text_05">Schritt 1: Prüfen Sie Ihre Geräte und Netzwerkumgebung</string>
   <string name="help_page_text_06">"1. Sie müssen keine Verbindung zum Internet herstellen, wenn Sie etwas von einem Mi-Telefon zu einem Mi-Fernseher übertragen möchten.
 2. Wenn Sie keine Verbindung zwischen den beiden Geräten herstellen können, versuchen Sie, beide Geräte mit dem gleichen WLAN zu verbinden."</string>
+  <string name="help_page_text_06_global">"1. Mi Fernseher, Mi Boxen und Mi Projektoren:
+Schließen Sie sowohl Ihr Telefon als auch den externen Monitor an dasselbe WLAN an, um den besten Effekt zu erzielen. Wenn sie an verschiedene Netzwerke angeschlossen sind, kann es länger dauern, den externen Monitor zu finden und die Verbindung herzustellen.
+Hinweis: Ältere Mi Fernseher unterstützen das Übertragen über verschiedene Netzwerke möglicherweise nicht.
+2. Wenn Sie Fernseher, Set-Top-Boxen oder Projektoren anderer Marken verwenden, schließen Sie sowohl Ihr Telefon als auch den externen Monitor an dasselbe WLAN an.
+Wenn die beiden Geräte nicht an dasselbe Netzwerk angeschlossen werden können, schalten Sie Miracast auf Ihrem externen Monitor ein. Die Benennung der Miracast-Funktionalität kann variieren."</string>
   <string name="help_page_text_07">3. Einige Xiaomi TV-Geräte oder andere Marken-TVs, die kein Smart Screening unterstützen. Wenn es kein drahtloses Netzwerk gibt oder wenn der Fernseher und das Mobiltelefon keine Verbindung zum gleichen Netzwerk herstellen können, müssen Sie den Schalter TV (oder Großbildgerät)[Miracast] Bildschirmspiegelung) einschalten. Dieser Name kann für verschiedene TV-Marken variieren, Sie können nach unten auf dieser Seite navigieren, um mehr zu erfahren.</string>
   <string name="help_page_text_08">Schritt 2: Übertragung einschalten</string>
   <string name="help_page_text_09">"Tippen Sie auf den Schalter \"Übertragen\" in der Benachrichtigungsleiste Ihres Telefons. Schalten Sie sowohl WLAN als auch Bluetooth ein, um eine stabilere Verbindung herzustellen."</string>
@@ -75,7 +80,7 @@ Verbinden Sie sowohl Ihr Telefon als auch den externen Monitor (z. B. Ihren TV) 
   <string name="help_page_text_38">Sony Kundendienst: 400-810-9000</string>
   <string name="help_page_text_40">Stellen Sie zunächst sicher, dass die Miracast-Funktionalität auf Ihrem Gerät unterstützt wird. Bei einigen Modellen können Sie Apps > Mehrere Bildschirme auswählen.</string>
   <string name="help_page_text_41">Panasonic Kundendienst: 400-881-1315</string>
-  <string name="help_page_text_43">Stellen Sie zunächst sicher, dass die Miracast-Funktionalität auf Ihrem Gerät unterstützt wird. Bei einigen Modellen können Sie System > Systemprogramme > Mehrere Bildschirme > Bildschirmspiegelung wählen.</string>
+  <string name="help_page_text_43">Überprüfen Sie die Einstellungen Ihres Fernsehers, um sicherzustellen, dass Ihr externer Monitor die Miracast-Funktionalität unterstützt.</string>
   <string name="help_page_text_44">Changhong Kundendienst: 400-811-1666</string>
   <string name="help_page_text_46">Stellen Sie zunächst sicher, dass die Miracast-Funktionalität auf Ihrem Gerät unterstützt wird. Bei einigen Modellen können Sie Apps > Drahlose Anzeige auswählen.</string>
   <string name="help_page_text_47">TCL Kundendienst: 400-812-3456</string>
@@ -89,6 +94,7 @@ Verbinden Sie sowohl Ihr Telefon als auch den externen Monitor (z. B. Ihren TV) 
   <string name="help_page_text_55_global">"Wenn Sie keine Netzwerkverbindung herstellen können, prüfen Sie, ob Ihr externer Monitor die Miracast-Funktionalität unterstützt und sie eingeschaltet ist. Bei einigen Modellen wird diese Funktion als Wireless Display/Drahtlos-Display, Screen Mirroring oder Multiple Screens bezeichnet.
 4. Wenn Sie irgendwelche Probleme haben, können Sie diese mit Hilfe unserer App \"Dienste &amp; Feedback\" melden."</string>
   <string name="help_page_text_end">Wenn Ihre Gerätemarke hier nicht aufgeführt ist, wenden Sie sich an den Hersteller, um mehr über die Übertragungsfunktionalität zu erfahren.</string>
+  <string name="nfc_connect_failed_toast">Übertragung nicht möglich, erneut versuchen.</string>
   <string name="notification_rc_desc">Der beste TV-Assistent für Ihr Telefon, um Videos, Fotos und Apps auf die Xiaomi Mi Box (oder den Fernseher) zu übertragen, probieren Sie es einfach jetzt aus!</string>
   <string name="notification_show_more">Tippen, um weitere Funktionen anzuzeigen</string>
   <string name="privacy_text_1"><Data>"Willkommen bei Übertragung! Übertragung ermöglicht die Projektion der Elemente vom Telefonbildschirm auf einen größeren externen Monitor.
@@ -108,6 +114,7 @@ Bevor Sie diese App nutzen, lesen und akzeptieren Sie unsere <a href="%1$s">Nutz
   <string name="san_wait_msg_4">\"Hilfe\" ansehen, wenn Sie keine Geräte finden können</string>
   <string name="service_name">UniPlay-Dienste</string>
   <string name="small_window">Fenster minimieren</string>
+  <string name="small_window_not_supported">Diese App kann während der Übertragung nicht minimiert werden.</string>
   <string name="status_bar_in_casting">Übertragen…</string>
   <string name="status_bar_in_casting_long">Tippen, um weitere Übertragungsfunktionen anzuzeigen</string>
   <string name="tile_label">Übertragen</string>
