@@ -637,6 +637,7 @@ Sie verlieren keine App-Daten."</string>
   <string name="button_text_next_step_timer">Nächster Schritt (%d)</string>
   <string name="button_text_open_now">Öffnen</string>
   <string name="button_text_reject">Ablehnen</string>
+  <string name="button_text_trust">Diesem Netzwerk vertrauen</string>
   <string name="button_text_update_now">Aktualisieren</string>
   <string name="button_to_setting">Einstellungen</string>
   <string name="call_address">Gebietsperrliste</string>
@@ -2510,6 +2511,7 @@ Während der Kalibrierung sendet MIUI eine Textnachricht an Ihren Mobilfunkanbie
   <string name="sms_stranger_block">SMS von Unbekannten blockieren</string>
   <string name="sorted_dialog_title">Sortieren nach</string>
   <string name="sp_background_risk_dialog_summary">, bitte beachten Sie die Warnungen für eventuell unsichere Zahlungen</string>
+  <string name="sp_background_risk_dialog_summary_new">Das derzeitige Zahlungsumfeld könnte Sicherheitsrisiken bergen. Nehmen Sie sich einen Moment Zeit, um die bestehenden Probleme zu lösen.</string>
   <string name="sp_background_risk_dialog_summary_wifi_approve">Sie sind mit einem öffentlichen WLAN verbunden, das unsicher sein kann. Vergewissern Sie sich, dass Ihre Zahlung geschützt ist, bevor Sie sie abschließen.</string>
   <string name="sp_background_risk_dialog_title">Achtung</string>
   <string name="sp_background_risk_dialog_title_wifi_approve">Meldung über öffentliches WLAN</string>
@@ -2533,9 +2535,9 @@ Während der Kalibrierung sendet MIUI eine Textnachricht an Ihren Mobilfunkanbie
   <string name="sp_settings_check_item_title_virus_exception">Ausnahmen</string>
   <string name="sp_settings_exception_count_zero">Keine Elemente</string>
   <string name="sp_settings_group_title_check_item">Mehrere Elemente</string>
-  <string name="sp_settings_info_input_method">Systemeingabemethode in Bezahl-Apps verwenden</string>
+  <string name="sp_settings_info_input_method">Testtastaturen für Sicherheitsfragen bei Zahlungen</string>
   <string name="sp_settings_info_monitor">Systemumgebung überwachen, wenn Bezahl-Apps gestartet werden</string>
-  <string name="sp_settings_title_input_method">Sichere IME</string>
+  <string name="sp_settings_title_input_method">Testtastaturen für Sicherheitsfragen</string>
   <string name="sp_toast_removed_from_sign_white_list">Aus den Ausnahmen entfernt. Element wird beim nächsten Mal gescannt.</string>
   <string name="special_number_group">Gemeldete Nummern blockieren</string>
   <string name="sponsored_sec_fb">Gesponsert</string>
@@ -3108,13 +3110,16 @@ Wollen Sie es übernehmen?"</string>
   <string name="wakepath_confirm_start_activity">%1$s erlauben, %2$s zu öffnen?</string>
   <string name="website">Webseite</string>
   <string name="whitelist_prefix_add_hint">Alle Nummern mit Vorwahl zu Ausnahmen hinzufügen</string>
+  <string name="wifi_danger_dialog_messgae">Das derzeitige WLAN könnte Sicherheitsrisiken darstellen. Verwenden Sie es mit Vorsicht.</string>
+  <string name="wifi_danger_dialog_tips">Sie können die WLAN-Sicherheit unter Sicherheit &gt; Sicherheitsscan &gt; Einstellungen &gt; WLAN verwalten.</string>
+  <string name="wifi_danger_dialog_title">WLAN ist nicht sicher</string>
   <string name="wifi_exception_summary">Verfügbare WLAN testen</string>
   <string name="wifi_exception_title">WLAN testen</string>
   <string name="wifi_item_status_connection_no">Nicht verbunden</string>
   <string name="wifi_item_title_arp_attack">ARP-Angriff</string>
   <string name="wifi_item_title_connection">WLAN-Verbindung</string>
   <string name="wifi_item_title_dns">DNS-Serversicherheit</string>
-  <string name="wifi_item_title_encryption">WLAN-Verschlüsselung</string>
+  <string name="wifi_item_title_encryption">WLAN ist nicht verschlüsselt</string>
   <string name="wifi_item_title_fake">Gefälschtes WLAN erkannt</string>
   <string name="wifi_network_blocked_notification_title">Keine Internetverbindung</string>
   <string name="wifi_optizition_loading">Xunyou Netzwerkgeschwindigkeitsoptimierung aktivieren…</string>
