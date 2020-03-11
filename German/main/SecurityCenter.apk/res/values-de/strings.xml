@@ -243,10 +243,6 @@
   <string name="app_behavior_warning_audio_title">%1s nimmt Audio im Hintergrund auf</string>
   <string name="app_behavior_warning_content">Diesen Prozess beenden, wenn Sie es nicht erlaubt haben</string>
   <string name="app_behavior_warning_location_title">%1s greift auf Ihren Standort zu</string>
-  <string name="app_statusbar_audio_now">Aufnahme</string>
-  <string name="app_statusbar_camera_now">Fotografieren</string>
-  <string name="app_statusbar_location_now">Positionierung</string>
-
   <string name="app_bg_restrict_dialog_message">Einschränkung der Hintergrund-Netzwerkverbindung kann dazu führen, dass die App nicht normal funktioniert. Z. B. ist es nicht mehr möglich, Nachrichten zu empfangen oder Inhalte zu aktualisieren.</string>
   <string name="app_check_no_issue">Keine Probleme mit dem Akku. Cool!</string>
   <string name="app_error_tip_for_launcher">Ihre Gerätehardware oder die Androidversion können Kompatibilitätsprobleme verursachen und einige Apps dazu bringen, sich falsch zu verhalten, einzufrieren oder abzustürzen. Wenn Sie auf solche Probleme stoßen, senden Sie Ihr Feedback an die App-Entwickler.</string>
@@ -392,6 +388,9 @@ Sie verlieren keine App-Daten."</string>
   <string name="app_running_tip_dialog_text">%1$s beenden, damit die App nicht im Hintergrund läuft. Dies beschleunigt Ihr Gerät und reduziert den Stromverbrauch.</string>
   <string name="app_running_tip_dialog_title">App beenden</string>
   <string name="app_running_tip_uninstall">Diese App deinstallieren</string>
+  <string name="app_statusbar_audio_now">Aufnahme</string>
+  <string name="app_statusbar_camera_now">Fotografieren</string>
+  <string name="app_statusbar_location_now">Positionierung</string>
   <string name="app_usage_never">Lange nicht verwendet</string>
   <string name="app_usage_recently">Zuletzt verwendet</string>
   <string name="app_version">"Version: "</string>
@@ -1373,7 +1372,14 @@ Alle Daten auf Ihrem Gerät werden evtl. gelöscht und Ihr Sperrbildschirmpasswo
   <string name="gmscore_support_service">Google Dienste</string>
   <string name="go_to">Fortsetzen</string>
   <string name="go_to_setting_fingerprint">Einstellungen</string>
+  <string name="google_base_app_fail">Herunterladen nicht möglich. Prüfen Sie, ob Sicherheit die Internetverbindung erlaubt ist.</string>
   <string name="google_base_app_install_choice">App benötigt Google Service Framework, um richtig zu funktionieren. Jetzt herunterladen und installieren?</string>
+  <string name="google_base_app_installed">Erfolgreich installiert</string>
+  <string name="google_base_app_installing">Installieren…</string>
+  <string name="google_base_app_network_anomaly">Netzverbindung nicht möglich. Netzwerkeinstellungen prüfen und erneut versuchen.</string>
+  <string name="google_base_app_timeout">Sitzung unterbrochen. Einen Moment warten und erneut versuchen.</string>
+  <string name="google_base_app_title">Google-Dienste installieren</string>
+  <string name="google_base_app_toast">Google-Dienste-Framework wird im Hintergrund installiert. Einen Moment warten und erneut versuchen.</string>
   <string name="gs_advanced_setting_summary">Einstellungen für einzelne Spiele</string>
   <string name="gs_advanced_setting_title">Weitere Einstellungen</string>
   <string name="gs_anto_clean_memory_whitelist">Ausnahmen</string>
