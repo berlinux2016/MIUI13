@@ -752,7 +752,16 @@ Tippen Sie 'Löschen und konvertieren…', um fortzufahren."</string>
   <string name="daltonizer_mode_protanomaly">Protanomalie (Rotsehschwäche)</string>
   <string name="daltonizer_mode_tritanomaly">Tritanomalie (Blausehschwäche)</string>
   <string name="daltonizer_type_overridden">Von %1$s überschrieben</string>
+  <string name="data_disable_warning_with_mms">Sie können weiterhin MMS senden und empfangen, wenn Sie mobile Daten (WCDMA/LTE) ausschalten. Für die Internetnutzung verbinden Sie sich mit WLAN.</string>
+  <string name="data_disable_warning_with_mms_lgu">"Sie können weiterhin MMS senden und empfangen, wenn Sie mobile Daten ausschalten. Für die Internetnutzung verbinden Sie sich mit WLAN.
+
+Mobile Daten ausschalten?"</string>
+  <string name="data_enable_always_warn">Fragen, ob mobile Daten verwendet werden sollen</string>
   <string name="data_enable_summary">Datenzugriff über Mobilfunk einschalten</string>
+  <string name="data_enable_warning">Ständige Nutzung mobiler Daten kann zusätzliche Kosten zu Ihrem Mobilfunktarifs verursachen. Trotzdem verbinden?</string>
+  <string name="data_enable_warning_lgu">"Sofern in Ihrem Mobilfunktarif nicht anders angegeben, können bei der Nutzung mobiler Daten zusätzliche Kosten anfallen.
+
+Mobile Daten trotzdem nutzen?"</string>
   <string name="data_enabled">Datenverbindung einschalten</string>
   <string name="data_disable_warning_no_mms">Sie können keine MMS senden und empfangen, wenn Sie mobile Daten (WCDMA/LTE) ausschalten. Sie können dies jedoch tun, wenn Ihr Gerät mit WLAN verbunden ist.</string>
   <string name="data_plan">Mobile Datenpläne</string>
@@ -877,6 +886,12 @@ Tippen Sie 'Löschen und konvertieren…', um fortzufahren."</string>
   <string name="emergency_information_confirm_hint">Erneut tippen, um Infos anzuzeigen</string>
   <string name="emergency_information_hint">Notfallinformation</string>
   <string name="emergency_information_owner_hint">Besitzer</string>
+  <string name="emm_cause_11">Aktueller Anbieter unterstützt diesen Dienst nicht.</string>
+  <string name="emm_cause_14">Aktueller Anbieter unterstützt keine mobilen Datendienste.</string>
+  <string name="emm_cause_2">Telefonnummer wurde nicht registriert. Gerät ausschalten, wieder einschalten und erneut versuchen.</string>
+  <string name="emm_cause_3">Benutzer wurde nicht verifiziert. Gerät ausschalten, wieder einschalten und erneut versuchen.</string>
+  <string name="emm_cause_6">Gerät wurde nicht verifiziert. Gerät ausschalten, wieder einschalten und erneut versuchen.</string>
+  <string name="emm_cause_7_8_12_13_15_16_17_22">Sie können Roaming jetzt nicht verwenden. Gerät ausschalten, wieder einschalten und erneut versuchen. Wenn dieses Problem danach immer noch auftritt, wenden Sie sich an den Anbieter-Kundendienst (SKT: +82-2-6346-9000).</string>
   <string name="empty_alert">%s ist erforderlich und darf nicht leer sein</string>
   <string name="empty_networks_list">Kein Netzwerk gefunden</string>
   <string name="enable">Aktivieren</string>
@@ -1085,6 +1100,8 @@ Trotzdem zum neuen Mobilfunkanbieter wechseln?"</string>
   <string name="international_disable">Internationale Nachrichten ausgeschaltet</string>
   <string name="international_enable">Internationale Nachrichten eingeschaltet</string>
   <string name="international_roaming_setting">Datenroaming</string>
+  <string name="international_roaming_setting_kr">Internationales Roaming</string>
+  <string name="international_roaming_setting_kr_skt">T-Roaming</string>
   <string name="internet_phone">VoIP</string>
   <string name="invalidPin">Geben Sie eine 4- bis 8-stellige PIN ein</string>
   <string name="invalidPin2">Geben Sie eine 4- bis 8-stellige PIN2 ein</string>
@@ -1106,6 +1123,16 @@ Trotzdem zum neuen Mobilfunkanbieter wechseln?"</string>
   <string name="keep_screen_on">Eingeschaltet lassen</string>
   <string name="keep_screen_on_summary">Bildschirm während des Ladens nicht ausschalten</string>
   <string name="keywords_carrier_settings_euicc">Mobilfunkanbieter, esim, sim, euicc, Mobilfunkanbieter wechseln, Mobilfunkanbieter hinzufügen</string>
+  <string name="kt_lte_emm_cause_19_22">Am Netz anmelden... Einen Moment warten und erneut versuchen.</string>
+  <string name="kt_lte_emm_cause_3">Benutzer wurde nicht verifiziert. Gerät ausschalten, wieder einschalten und erneut versuchen. Wenn dieses Problem danach immer noch auftritt, gehen Sie zu einem Kundendienstzentrum.</string>
+  <string name="kt_lte_emm_cause_6">Gerät wurde nicht verifiziert. Gerät 2- oder 3-mal neu starten, nachdem Sie die neue USIM-Karte installiert haben. Wenn dieses Problem danach immer noch auftritt, gehen Sie zu einem Kundendienstzentrum.</string>
+  <string name="kt_lte_emm_cause_8">Aktivierung erforderlich. Gehen Sie zu einem Kundendienstzentrum.</string>
+  <string name="kt_lte_emm_cause_others">Netzanmeldung nicht möglich</string>
+  <string name="kt_lte_msim_emm_cause_19_22">SIM %d wird am Netz angemeldet... Einen Moment warten und erneut versuchen.</string>
+  <string name="kt_lte_msim_emm_cause_3">SIM %d hat den Benutzer nicht verifiziert. Gerät ausschalten, wieder einschalten und erneut versuchen. Wenn dieses Problem danach immer noch auftritt, gehen Sie zu einem Kundendienstzentrum.</string>
+  <string name="kt_lte_msim_emm_cause_6">SIM %d hat das Gerät nicht verifiziert. Wenn dieses Problem danach immer noch auftritt, gehen Sie zu einem Kundendienstzentrum.</string>
+  <string name="kt_lte_msim_emm_cause_8">SIM %d erfordert eine Aktivierung. Gehen Sie zu einem Kundendienstzentrum.</string>
+  <string name="kt_lte_msim_emm_cause_others">SIM %d wurde nicht am Netz angemeldet</string>
   <string name="labelCDMAMore">CDMA-Anrufeinstellungen</string>
   <string name="labelCF">Rufumleitung</string>
   <string name="labelCFB">Umleiten falls besetzt</string>
@@ -1155,6 +1182,22 @@ Trotzdem zum neuen Mobilfunkanbieter wechseln?"</string>
   <string name="launch_defaults_none">Keine Standards gesetzt</string>
   <string name="launch_defaults_some">Einige Standards gesetzt</string>
   <string name="legacy_dhcp_client_summary">DHCP Client von Lollipop verwenden statt neuen Android DHCP Client</string>
+  <string name="lgu_emm_16_17_22">Am Netz anmelden... Einen Moment warten und erneut versuchen.</string>
+  <string name="lgu_emm_cause_11_12_13_15">Netzanmeldung nicht möglich</string>
+  <string name="lgu_emm_cause_2">Aktivierung erforderlich. Gehen Sie zu einem Kundendienstzentrum (+82-2-3416-7010).</string>
+  <string name="lgu_emm_cause_3">Benutzer wurde nicht verifiziert. Gehen Sie zu einem Kundendienstzentrum (+82-2-3416-7010).</string>
+  <string name="lgu_emm_cause_6">Gerät wurde nicht verifiziert. Gehen Sie zu einem Kundendienstzentrum (+82-2-3416-7010).</string>
+  <string name="lgu_emm_cause_7_14">Netz bietet keine mobilen Datendienste</string>
+  <string name="lgu_emm_cause_8">Netzanmeldung nicht möglich. Gehen Sie zu einem Kundendienstzentrum (+82-2-3416-7010).</string>
+  <string name="lgu_emm_cause_others">Netzverbindung nicht möglich. Gehen Sie zu einem Kundendienstzentrum (+82-2-3416-7010).</string>
+  <string name="lgu_msim_emm_cause_11_12_13_15">SIM %d wurde nicht am Netz angemeldet</string>
+  <string name="lgu_msim_emm_cause_16_17_22">SIM %d wird am Netz angemeldet... Einen Moment warten und erneut versuchen.</string>
+  <string name="lgu_msim_emm_cause_2">SIM %d erfordert eine Aktivierung. Gehen Sie zu einem Kundendienstzentrum (+82-2-3416-7010).</string>
+  <string name="lgu_msim_emm_cause_3">SIM %d hat den Benutzer nicht verifiziert. Gehen Sie zu einem Kundendienstzentrum (+82-2-3416-7010).</string>
+  <string name="lgu_msim_emm_cause_6">SIM %d hat das Gerät nicht verifiziert. Gehen Sie zu einem Kundendienstzentrum (+82-2-3416-7010).</string>
+  <string name="lgu_msim_emm_cause_7_14">SIM %d-Netz bietet keine mobilen Datendienste</string>
+  <string name="lgu_msim_emm_cause_8">SIM %d wurde nicht am Netz angemeldet. Gehen Sie zu einem Kundendienstzentrum (+82-2-3416-7010).</string>
+  <string name="lgu_msim_emm_cause_others">SIM %d kann sich nicht mit dem Netz verbinden. Gehen Sie zu einem Kundendienstzentrum (+82-2-3416-7010).</string>
   <string name="list_language_dtitle">Sprachen</string>
   <string name="list_language_summary">Nachrichtensprache auswählen</string>
   <string name="list_language_title">Sprache</string>
@@ -1196,8 +1239,15 @@ Trotzdem zum neuen Mobilfunkanbieter wechseln?"</string>
   <string name="menu_edit">Kontakt bearbeiten</string>
   <string name="messageCFB">Nummer falls besetzt</string>
   <string name="messageCFNRc">Nummer nicht erreichbar</string>
+  <string name="messageCFNRc_kr_kt">"Netzdienst, der alle eingehenden Anrufe und Textnachrichten an eine bestimmte Nummer umleitet, wenn Sie keine Anrufe annehmen können (z. B. wenn Sie telefonieren oder Ihr Gerät ausgeschaltet ist). Sie müssen diesen Dienst abonnieren. Wenden Sie sich ans Kundenzentrum (114+[Senden]), um diesen Dienst zu abonnieren oder abzubestellen. *72+[Nummer zur Weiterleitung von Anrufen an][Senden] eingeben zum Aktivieren oder *720[Senden] zum Deaktivieren.
+
+Nummer, wenn nicht erreichbar"</string>
   <string name="messageCFNRy">Nummer falls unbeantwortet</string>
   <string name="messageCFU">Immer diese Nummer verwenden</string>
+  <string name="messageCFU_kr_kt">"Netzdienst, der alle eingehenden Anrufe und Textnachrichten an eine bestimmte Nummer umleitet. Sie müssen diesen Dienst abonnieren. Ihnen wird eine monatliche Grundgebühr berechnet. Wenden Sie sich ans Kundenzentrum (114+[Senden]), um diesen Dienst zu abonnieren oder abzubestellen. *71+[Nummer zur Weiterleitung von Anrufen an][Senden] eingeben zum Aktivieren oder *710[Senden] zum Deaktivieren.
+
+Immer diese Nummer verwenden"</string>
+  <string name="messageCW_kr_kt">Kostenloser Netzdienst, mit dem Sie während eines Anrufs einen zweiten annehmen können, wobei der erste Anruf auf \"Halten\" gesetzt wird. *40+[Senden] eingeben zum Aktivieren oder *400+[Senden] zum Deaktivieren.</string>
   <string name="messageCallBarring">Passwort eingeben</string>
   <string name="message_decode_error">Fehler beim Decodieren der Nachricht</string>
   <string name="mhh_disable">Medizin, Gesundheit und Krankenhaus ausgeschaltet</string>
@@ -1284,18 +1334,24 @@ Trotzdem zum neuen Mobilfunkanbieter wechseln?"</string>
   <string name="msim_disable_sim_card_summary_non_default_card">Sie können evtl. nicht mehr telefonieren oder die mobile Datenverbindung nutzen. %s SIM-Karte nicht mehr verwenden?</string>
   <string name="msim_disable_sim_card_summary_telecom_vice_card_inEcm">Schränken Sie Ihre 2. SIM-Karte im Notrufmodus nicht ein</string>
   <string name="msim_disable_sim_card_title">SIM-Karte nicht mehr verwenden</string>
+  <string name="msim_emm_cause_11">SIM %d-Anbieter unterstützt diesen Dienst nicht.</string>
+  <string name="msim_emm_cause_14">SIM %d-Anbieter unterstützt keine mobilen Datendienste.</string>
+  <string name="msim_emm_cause_2">SIM %d hat die Telefonnummer nicht registriert. Gerät ausschalten, wieder einschalten und erneut versuchen.</string>
+  <string name="msim_emm_cause_3">SIM %d hat den Benutzer nicht verifiziert. Gerät ausschalten, wieder einschalten und erneut versuchen.</string>
+  <string name="msim_emm_cause_6">SIM %d hat das Gerät nicht verifiziert. Gerät ausschalten, wieder einschalten und erneut versuchen.</string>
+  <string name="msim_emm_cause_7_8_12_13_15_16_17_22">SIM %d kann Roaming jetzt nicht verwenden. Gerät ausschalten, wieder einschalten und erneut versuchen. Wenn dieses Problem danach immer noch auftritt, wenden Sie sich an den Anbieter-Kundendienst (SKT: +82-2-6346-9000).</string>
   <string name="msim_enable_sim">Einschalten</string>
   <string name="msim_general_setting">Einstellungen</string>
   <string name="msim_has_been_disabled">(Gesperrt)</string>
   <string name="msim_info_editor_name">SIM-Kartenname ändern</string>
   <string name="msim_info_editor_number">SIM-Kartennummer ändern</string>
-  <string name="msim_info_editor_set_name_error">Nme wurde nicht gespeichert</string>
+  <string name="msim_info_editor_set_name_error">Name wurde nicht gespeichert</string>
   <string name="msim_mode_progress_activating_message">Aktivieren</string>
   <string name="msim_mode_progress_deactivating_message">Deaktivieren</string>
   <string name="msim_not_set_summary">Nicht eingerichtet</string>
   <string name="msim_pref_title_voice">Wählen</string>
   <string name="msim_set_icc_card_error">ICC-Kartenfehler</string>
-  <string name="msim_set_sub_not_supported_phone_in_call">Kann während eines Anrufs nicht eingestellt werden</string>
+  <string name="msim_set_sub_not_supported_phone_in_call">Einstellung während eines Anrufs nicht möglich</string>
   <string name="msim_set_sub_not_supported_slot_id_error">SIM-Kartenfehler</string>
   <string name="msim_setting_categery_title">SIM-Karteneinstellungen</string>
   <string name="msim_setting_no_sim_indicator">Keine SIM-Karte</string>
@@ -1312,6 +1368,8 @@ Trotzdem zum neuen Mobilfunkanbieter wechseln?"</string>
   <string name="national_enable">Nationale Nachrichten eingeschaltet</string>
   <string name="netcheck_title">Mobile Netzwerkdiagnostik</string>
   <string name="network_4G">4G (empfohlen)</string>
+  <string name="network_active">Aktive Netzwerke</string>
+  <string name="network_available">Verfügbare Netzwerke</string>
   <string name="network_connected">Verbunden</string>
   <string name="network_connecting">Verbinden…</string>
   <string name="network_could_not_connect">Verbindung nicht möglich</string>
@@ -1340,6 +1398,8 @@ Trotzdem zum neuen Mobilfunkanbieter wechseln?"</string>
   <string name="network_settings_title">Mobilfunknetze</string>
   <string name="network_settings_turn_off">Aus</string>
   <string name="network_settings_warn_message">Ihr Gerät wird sich nur mit manuell gewählten Netzen verbinden.</string>
+  <string name="network_state_display">Netzwerkstatus anzeigen</string>
+  <string name="network_state_display_title">Einstellungen Netwerkstatus</string>
   <string name="network_unlock">Entsperren</string>
   <string name="networks">Mobilfunkanbieter</string>
   <string name="networks_title">Mobilfunknetze</string>
@@ -1362,6 +1422,8 @@ Kontaktieren Sie Ihren Mobilfunkanbieter."</string>
   <string name="no_vm_number_msg">Auf der SIM-Karte ist keine Sprachboxnummer gespeichert</string>
   <string name="no_voip">SIP-Anrufe werden nicht unterstützt</string>
   <string name="no_wifi_available">Für SIP-Anrufe ist eine aktive WLAN-Verbindung notwendig (WLAN &amp; Netzwerkeinstellungen nutzen).</string>
+  <string name="notification_switch_auto_text">Sieht aus, als seien Sie wieder da. Auf lokale Netzwerke umgeschaltet.</string>
+  <string name="notification_switch_auto_title">Mobile Netze</string>
   <string name="nr_network_info">5G-Netznutzungsinfo</string>
   <string name="nr_usaged_first_used_time">Im 5G-Netz registriert</string>
   <string name="nr_usaged_module">Gerätemodell</string>
@@ -1721,6 +1783,10 @@ Erneut versuchen oder den Kundendienst für weitere Optionen anrufen."</string>
   <string name="report_method_entries_item1">Nur wenn Kopfhörer angeschlossen sind</string>
   <string name="report_method_entries_item2">Immer</string>
   <string name="report_method_entries_item3">Ausschalten</string>
+  <string name="reset_roaming_message">Gerät wird neu gestartet, um Roaming zurückzusetzen.</string>
+  <string name="reset_roaming_not_support">Diese SIM-Karte kann Roaming nicht initialisieren.</string>
+  <string name="reset_roaming_tip">Roaming zurücksetzen…</string>
+  <string name="reset_roaming_title">Roaming zurücksetzen</string>
   <string name="respond_via_sms_canned_response_1">"Kann jetzt nicht reden. Rufst du mich später an?"</string>
   <string name="respond_via_sms_canned_response_2">Ich rufe gleich zurück</string>
   <string name="respond_via_sms_canned_response_3">Ich rufe später zurück</string>
@@ -1753,11 +1819,17 @@ Erneut versuchen oder den Kundendienst für weitere Optionen anrufen."</string>
   <string name="roaming">Vom mobilen Datennetz getrennt</string>
   <string name="roaming_alert_title">Datenroaming erlauben?</string>
   <string name="roaming_check_price_warning">Erkundigen Sie sich bei Ihrem Mobilfunkanbieter nach Preisen</string>
+  <string name="roaming_customer_service_message_kr">Tippen, um den Roaming-Kundendienst zu kontaktieren (+82-2-2190-0901). Dieser Anruf ist im Ausland kostenlos.</string>
+  <string name="roaming_customer_service_summary_kr">Kostenlose Anrufe im Ausland</string>
+  <string name="roaming_customer_service_title_kr">Roaming-Kundendienst</string>
   <string name="roaming_disable">Stellen Sie beim Roaming eine Verbindung mit dem mobilen Datendienst her</string>
+  <string name="roaming_disable_kr">Einstellungen Datenroaming &amp; internat. Roaming</string>
   <string name="roaming_enable">Stellen Sie beim Roaming eine Verbindung mit dem mobilen Datendienst her</string>
   <string name="roaming_notification_content">Sie können Ländercodes automatisch hinzufügen, um das Wählen komfortabler zu machen</string>
   <string name="roaming_notification_title">Sieht so aus, als sei Roaming aktiv</string>
   <string name="roaming_reenable_message">Versuchen Sie, mit Roaming wieder eine Verbindung herzustellen.</string>
+  <string name="roaming_user_package_summary_kr">Kaufen, stornieren und bearbeiten Sie Ihr Roaming-Paket. Die Nutzung dieses Menüs während des Roamings wird Ihnen nicht berechnet.</string>
+  <string name="roaming_user_package_title_kr">Roaming-Paket verwenden</string>
   <string name="roaming_warning">Ihnen können erhebliche Kosten entstehen</string>
   <string name="rsp_unlock_failed">RUIM-Dienstanbieter entsperren fehlgeschlagen</string>
   <string name="rsp_unlock_success">RUIM-Dienstanbieter erfolgreich entsperrt</string>
@@ -1848,6 +1920,18 @@ Erneut versuchen oder den Kundendienst für weitere Optionen anrufen."</string>
   <string name="simulate_color_space">Farbraum simulieren</string>
   <string name="singleContactImportedMsg">Importierter Kontakt</string>
   <string name="single_emergency_number_title">Notfallnummer</string>
+  <string name="single_fiveg_deactivate_sim_dialog_btn_disable_sim">Deaktivieren</string>
+  <string name="single_fiveg_deactivate_sim_dialog_title_select_deactivate_sim">SIM zum Deaktivieren wählen</string>
+  <string name="single_fiveg_dialog_title_prompt">Achtung</string>
+  <string name="single_fiveg_dialog_title_remind">Achtung</string>
+  <string name="single_fiveg_disable_fiveg_dialog_btn_getit">Verstanden</string>
+  <string name="single_fiveg_disable_fiveg_dialog_msg_disable_fiveg">Für 5G-Netze kann nur eine SIM-Karte aktiviert werden. Wählen Sie zunächst einen anderen Netztyp für Ihre Daten-SIM.</string>
+  <string name="single_fiveg_dual_sim_dialog_btn_deactivate_sim">SIM-Karte deaktivieren</string>
+  <string name="single_fiveg_dual_sim_dialog_btn_enable_dual_sims">Dual SIM verwenden</string>
+  <string name="single_fiveg_dual_sim_dialog_msg_dual_sim">Nutzung von 5G-Netzen erfordert die Deaktivierung einer der SIM-Karten. Wenn Sie weiterhin Dual SIM verwenden möchten, wählen Sie einen anderen Netztyp.</string>
+  <string name="single_fiveg_dual_sim_dialog_title_important_prompt">Achtung</string>
+  <string name="single_fiveg_enable_fiveg_dialog_msg_enable_fiveg">Für 5G-Netze kann nur eine SIM-Karte aktiviert werden. Unten auf \"Aktivieren\" tippen deaktiviert die andere SIM-Karte.</string>
+  <string name="single_fivegg_enable_fiveg_dialog_btn_enable_sim">Aktivieren</string>
   <string name="sip_account_disable">Konto ist nicht aktiv, Anrufe annehmen nicht möglich</string>
   <string name="sip_account_list">SIP-Konten</string>
   <string name="sip_accounts">SIP-Konten</string>
@@ -1872,6 +1956,16 @@ Erneut versuchen oder den Kundendienst für weitere Optionen anrufen."</string>
   <string name="sip_save_register_error">Neues SIP-Profil kann nicht registriert und gespeichert werden</string>
   <string name="sip_settings">SIP-Einstellungen</string>
   <string name="sip_system_decide">Automatisch</string>
+  <string name="skt_emm_cause_12_13_16_17_22">Netzanmeldung nicht möglich. Gerät ausschalten, wieder einschalten und erneut versuchen.</string>
+  <string name="skt_emm_cause_2">Telefonnummer wurde nicht registriert. Gerät ausschalten, wieder einschalten und erneut versuchen. Wenn dieses Problem danach immer noch auftritt, wenden Sie sich an den Kundendienst (1599-0011).</string>
+  <string name="skt_emm_cause_3">Benutzer wurde nicht verifiziert. Gerät ausschalten, wieder einschalten und erneut versuchen. Wenn dieses Problem danach immer noch auftritt, wenden Sie sich an den Kundendienst (1599-0011).</string>
+  <string name="skt_emm_cause_6">Gerät wurde nicht verifiziert. Gerät ausschalten, wieder einschalten und erneut versuchen. Wenn dieses Problem danach immer noch auftritt, wenden Sie sich an den Kundendienst (1599-0011).</string>
+  <string name="skt_emm_cause_7_8_15">Netzanmeldung nicht möglich. Gerät ausschalten, wieder einschalten und erneut versuchen. Wenn dieses Problem danach immer noch auftritt, wenden Sie sich an den Kundendienst (1599-0011).</string>
+  <string name="skt_msim_emm_cause_12_13_16_17_22">SIM %d wurde nicht am Netz angemeldet. Gerät ausschalten, wieder einschalten und erneut versuchen.</string>
+  <string name="skt_msim_emm_cause_2">SIM %d hat die Telefonnummer nicht registriert. Gerät ausschalten, wieder einschalten und erneut versuchen. Wenn dieses Problem danach immer noch auftritt, wenden Sie sich an den Kundendienst (1599-0011).</string>
+  <string name="skt_msim_emm_cause_3">SIM %d hat den Benutzer nicht verifiziert. Gerät ausschalten, wieder einschalten und erneut versuchen. Wenn dieses Problem danach immer noch auftritt, wenden Sie sich an den Kundendienst (1599-0011).</string>
+  <string name="skt_msim_emm_cause_6">SIM %d hat das Gerät nicht verifiziert. Gerät ausschalten, wieder einschalten und erneut versuchen. Wenn dieses Problem danach immer noch auftritt, wenden Sie sich an den Kundendienst (1599-0011).</string>
+  <string name="skt_msim_emm_cause_7_8_15">SIM %d wurde nicht am Netz angemeldet. Gerät ausschalten, wieder einschalten und erneut versuchen. Wenn dieses Problem danach immer noch auftritt, wenden Sie sich an den Kundendienst (1599-0011).</string>
   <string name="smart_divert_summary">CFNRc Einstellungen</string>
   <string name="smart_divert_title">Smart Divert/Kluge Rufumleitung</string>
   <string name="smart_forwarding_settings_menu">Intelligente Weiterleitung</string>
