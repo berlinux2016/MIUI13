@@ -1,5 +1,22 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+  <string name="abc_action_bar_home_description">Zur Startseite</string>
+  <string name="abc_action_bar_up_description">Nach oben</string>
+  <string name="abc_action_menu_overflow_description">Mehr Optionen</string>
+  <string name="abc_action_mode_done">Fertig</string>
+  <string name="abc_activity_chooser_view_see_all">Alle anzeigen</string>
+  <string name="abc_activitychooserview_choose_application">App auswählen</string>
+  <string name="abc_capital_off">AUS</string>
+  <string name="abc_capital_on">EIN</string>
+  <string name="abc_search_hint">Suchen…</string>
+  <string name="abc_searchview_description_clear">Anfrage löschen</string>
+  <string name="abc_searchview_description_query">Suchanfrage</string>
+  <string name="abc_searchview_description_search">Suchen</string>
+  <string name="abc_searchview_description_submit">Anfrage absenden</string>
+  <string name="abc_searchview_description_voice">Sprachsuche</string>
+  <string name="abc_shareactionprovider_share_with">Teilen mit</string>
+  <string name="abc_shareactionprovider_share_with_application">Teilen mit %s</string>
+  <string name="abc_toolbar_collapse_description">Einklappen</string>
   <string name="action_firewall_setting">Sperrliste</string>
   <string name="action_get_otp">Code abfragen</string>
   <string name="action_sign_in">Anmelden</string>
@@ -195,6 +212,8 @@
   <string name="dialog_sim_locked_message">Ihre SIM-Karte ist mit diesem Telefon nicht voll funktionsfähig, da sie nicht den Bedingungen Ihres Abonnements entspricht. Wenn Sie Fragen haben oder weitere Informationen zu diesem Thema benötigen, wenden Sie sich bitte an die Xiaomi-Servicezentren oder den Shop, der Ihnen Produkte verkauft hat.</string>
   <string name="dialog_smart_message_privacy_tips">Smart Messaging-Dienste werden zum Teil von Dianhuabang bereitgestellt. Bevor Sie Smart Messaging nutzen können, müssen Sie unsere %1$s akzeptieren. Smart Messaging muss eine Verbindung zum Internet herstellen und auf Ihren Standort zugreifen, um normal arbeiten zu können. Zustimmen?</string>
   <string name="dialog_smart_message_privacy_tips_title">Dianhuabang Datenschutzerklärung</string>
+  <string name="dialog_title_correct_as_ad">Als Geschäftsnachricht einstellen</string>
+  <string name="dialog_title_correct_as_normal">Als normale Nachricht einstellen</string>
   <string name="dialog_title_fake_cell_detect_error">Korrektur</string>
   <string name="dialog_title_networking">Allgemeine Geschäftsbedingungen</string>
   <string name="disable_notifications_dialog_message">Doppelte SMS-Benachrichtigungen von der Standard-Nachrichten-App stoppen?</string>
@@ -238,8 +257,6 @@
   <string name="exceed_message_text_limitation">Maximale Textlänge erreicht</string>
   <string name="expire_on">Ablaufdatum: %s</string>
   <string name="exporting_progress_private_message">Exportieren…</string>
-  <string name="feature_mx_summary"><b>Mi Message ermöglicht es Ihnen, Nachrichten an andere Mi Message-Benutzer über das Internet zu versenden, ohne dass dafür Gebühren anfallen.</b>. Zur Aktivierung dieses Dienstes ist eine ausgehende SMS erforderlich. Ihr Anbieter wird Ihnen diese Nachricht in Rechnung stellen. Lesen und akzeptieren Sie unsere <font color="#B3000000"><a href="http://url1">Nutzervereinbarung</a></font> und <font color="#B3000000"><a href="http://url2">Datenschutzerklärung</a></font>, bevor Sie diese Funktion verwenden.</string>
-  <string name="feature_smart_sms_summary"><b>Smart Messaging bietet Sender-ID-Erkennung und intelligente Menüs</b>. Smart Messaging wird zum Teil von Yulore angeboten. Lesen Sie und akzeptieren Sie Yulores <font color="#B3000000"><a href="http://url3">Datenschutzerklärung</a></font>, bevor Sie diese Funktion verwenden.</string>
   <string name="fail_to_add_attachment">"Anhang konnte nicht hinzugefügt werden"</string>
   <string name="fail_to_view_attachment">"Anhang nicht verfügbar"</string>
   <string name="failed_to_add_media">%1$s konnte nicht zur Nachricht hinzugefügt werden</string>
@@ -251,6 +268,8 @@
   <string name="fake_cell_timeout_hint">Sicherheitsprüfung fehlgeschlagen</string>
   <string name="favorite_at_time">Favorisiert um: %1s</string>
   <string name="fdn_check_failure">Sie können nur Nachrichten an Nummern in Ihrer FDN-Liste senden</string>
+  <string name="feature_mx_summary"><b>Mi Message ermöglicht es Ihnen, Nachrichten an andere Mi Message-Benutzer über das Internet zu versenden, ohne dass dafür Gebühren anfallen.</b>. Zur Aktivierung dieses Dienstes ist eine ausgehende SMS erforderlich. Ihr Anbieter wird Ihnen diese Nachricht in Rechnung stellen. Lesen und akzeptieren Sie unsere <font color="#B3000000"><a href="http://url1">Nutzervereinbarung</a></font> und <font color="#B3000000"><a href="http://url2">Datenschutzerklärung</a></font>, bevor Sie diese Funktion verwenden.</string>
+  <string name="feature_smart_sms_summary"><b>Smart Messaging bietet Sender-ID-Erkennung und intelligente Menüs</b>. Smart Messaging wird zum Teil von Yulore angeboten. Lesen Sie und stimmen Sie Yulores zu <font color="#B3000000"><a href="http://url3">Datenschutzerklärung</a></font> zu, bevor Sie diese Funktion verwenden.</string>
   <string name="festival_networking_desc">Diese Funktion benötigt eine Internetverbindung</string>
   <string name="festival_sms_loading">Laden…</string>
   <string name="file_create_time">Erstellt um:</string>
@@ -290,6 +309,8 @@
   <string name="has_invalid_recipient">Ungültige(r) Empfänger: &lt;%1$s></string>
   <string name="hidden_sender_address">Ausgeblendete Absenderadresse</string>
   <string name="hold_to_talk">Zum Sprechen halten</string>
+  <string name="home_tab_ad">Geschäftlich</string>
+  <string name="home_tab_common">Normal</string>
   <string name="hybrid_check_network">Netzwerkeinstellungen</string>
   <string name="hybrid_data_error">Ein Fehler ist aufgetreten</string>
   <string name="hybrid_locating_fail">Ihr Standort konnte nicht bestimmt werden</string>
@@ -323,6 +344,8 @@
   <string name="menu_call">Anruf</string>
   <string name="menu_compose_new">Verfassen</string>
   <string name="menu_contact">Kontakt</string>
+  <string name="menu_correct_as_ad">Als Geschäftlich festlegen</string>
+  <string name="menu_correct_as_normal">Als Normal festlegen</string>
   <string name="menu_delete_messages">Nachrichten löschen</string>
   <string name="menu_edit">Ändern</string>
   <string name="menu_forward">Weiterleiten</string>
@@ -379,8 +402,8 @@ Diese Nachricht kann unerwünscht sein."</string>
   <string name="move_up">Nach oben verschieben</string>
   <string name="msg_no_member_selected">Mindestens einen Kontakt auswählen</string>
   <string name="msg_type_hint_mms">Multimedia-Nachricht (MMS)</string>
-  <string name="msg_type_hint_mx_b2c">Netzwerknachrichten</string>
-  <string name="msg_type_hint_mx_b2c_omit">Netzwerknachrichten</string>
+  <string name="msg_type_hint_mx_b2c">Mi-Nachricht</string>
+  <string name="msg_type_hint_mx_b2c_omit">Mi-Nachricht</string>
   <string name="msg_type_hint_sms">Textnachricht</string>
   <string name="msg_type_sms_rcs">SMS, MMS, und Internetnachrichten</string>
   <string name="msglist_continue_to_pull_for_more">Um mehr anzuzeigen, nach unten ziehen</string>
@@ -417,7 +440,7 @@ Diese Nachricht kann unerwünscht sein."</string>
   <string name="mx_btn_enable">Einschalten</string>
   <string name="mx_btn_enable_now">Einschalten</string>
   <string name="mx_count_dspt">Sie haben %1$d SMS und %2$d MMS gesendet</string>
-  <string name="mx_current_status">Zusätzliche Einstellungen</string>
+  <string name="mx_current_status">Mi-Nachrichteneinstellung</string>
   <string name="mx_dspt">Senden Sie kostenlos SMS und MMS an andere MIUI-Nutzer, wenn Sie mit einem WLAN verbunden sind</string>
   <string name="mx_dspt_listview">Senden Sie kostenlos Nachrichten an andere MIUI-Nutzer</string>
   <string name="mx_dspt_provision">Mit Mi Message können Sie Nachrichten an andere MIUI-Nutzer übers Internet senden, ohne dass Kosten entstehen. Eine ausgehende SMS-Nachricht kann erforderlich sein, um Mi Message zu reaktivieren. Ihr Mobilfunkanbieter wird Ihnen diese Nachricht in Rechnung stellen. Außerdem ist bei aktivierter Funktion eine geringe Menge an mobilen Daten erforderlich, um zu prüfen, ob der andere Nutzer online ist. Einverstanden?</string>
@@ -544,6 +567,7 @@ Für die Aktivierung von Mi Message ist eine ausgehende SMS-Nachricht erforderli
   <string name="pref_title_allow_upload_message_info">Spam-Nachrichten hochladen</string>
   <string name="pref_title_auto_delete">Alte Nachrichten löschen</string>
   <string name="pref_title_card_format">Visitenkarten-Teil-Methode</string>
+  <string name="pref_title_collapse_ad_notification">Werbungsbenachrichtigungen einklappen</string>
   <string name="pref_title_delivery_reports">Sendebestätigung</string>
   <string name="pref_title_fwd_sender_info">Weiterleitungsdetails</string>
   <string name="pref_title_manage_sim_messages">SIM-Kartenspeicher</string>
@@ -798,6 +822,7 @@ Schauen Sie sich die empfohlenen an!"</string>
   <string name="search_hint">SMS/MMS durchsuchen</string>
   <string name="search_keyword_mms">Nachrichten</string>
   <string name="search_label">SMS/MMS</string>
+  <string name="search_menu_title">Suchen</string>
   <string name="search_path_mms">Einstellungen/System-Apps/Nachrichten</string>
   <string name="search_setting_description">Text in Ihren Nachrichten</string>
   <string name="search_show_more_results">Mehr anzeigen</string>
