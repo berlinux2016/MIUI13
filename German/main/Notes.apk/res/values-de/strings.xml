@@ -1,5 +1,22 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+  <string name="abc_action_bar_home_description">Zur Startseite</string>
+  <string name="abc_action_bar_up_description">Nach oben</string>
+  <string name="abc_action_menu_overflow_description">Mehr Optionen</string>
+  <string name="abc_action_mode_done">Fertig</string>
+  <string name="abc_activity_chooser_view_see_all">Alle anzeigen</string>
+  <string name="abc_activitychooserview_choose_application">App wählen</string>
+  <string name="abc_capital_off">AUS</string>
+  <string name="abc_capital_on">EIN</string>
+  <string name="abc_search_hint">Suchen…</string>
+  <string name="abc_searchview_description_clear">Anfrage löschen</string>
+  <string name="abc_searchview_description_query">Suchanfrage</string>
+  <string name="abc_searchview_description_search">Suchen</string>
+  <string name="abc_searchview_description_submit">Anfrage absenden</string>
+  <string name="abc_searchview_description_voice">Sprachsuche</string>
+  <string name="abc_shareactionprovider_share_with">Teilen mit</string>
+  <string name="abc_shareactionprovider_share_with_application">Teilen mit %s</string>
+  <string name="abc_toolbar_collapse_description">Einklappen</string>
   <string name="action_folder_description">Ordner anzeigen</string>
   <string name="action_mode_switcher_grid_description">Rasteransicht</string>
   <string name="action_mode_switcher_list_description">Listenansicht</string>
@@ -25,6 +42,7 @@
   <string name="application_icon">App-Symbol</string>
   <string name="audio_create_normal_state">Loslassen zum Erstellen. Nach oben schieben zum Abbrechen.</string>
   <string name="audio_create_will_cancel_state">Loslassen zum Abbrechen</string>
+  <string name="audio_panel_time_counter_default">00:00</string>
   <string name="audio_toast_file_invalid">Audiodatei ist ungültig</string>
   <string name="audio_toast_file_undownload">Audiodatei ist nicht vollständig heruntergeladen oder fehlt</string>
   <string name="audio_toast_network_is_not_available">Konnte keine Verbindung zum Netzwerk herstellen</string>
@@ -35,11 +53,14 @@
   <string name="cloud_trash_bin_title">Notizen in der Cloud löschen</string>
   <string name="confirm_cancel">Nicht zustimmen</string>
   <string name="confirm_ok">Zustimmen</string>
+  <string name="copy">Kopieren</string>
   <string name="cta_confirm_cancel">Nicht erlauben</string>
   <string name="cta_confirm_ok">Erlauben</string>
   <string name="cta_dialog_message">Notizen benötigen Berechtigungen, um eine Internetverbindung herzustellen, Audio aufzunehmen und auf Ihre Kontakte zuzugreifen, damit sie normal funktionieren. Erlauben?</string>
   <string name="cta_dialog_title">Erforderliche Berechtigungen</string>
   <string name="cta_reminder">Notizen benötigt Berechtigungen zum Internetzugang, für Audioaufnahmen und zum Kontaktzugriff, um normal zu funktionieren. Erlauben?</string>
+  <string name="data_empty_note">Noch keine Notizen hier</string>
+  <string name="data_empty_todo">Noch keine Aufgaben hier</string>
   <string name="date_calculate_today">0 Tage</string>
   <string name="date_time_picker_alarm_reminder">Alarm</string>
   <string name="date_time_picker_dialog_title">Datum und Uhrzeit einstellen</string>
@@ -86,6 +107,7 @@
   <string name="error_unsupport_content">Diese Notiz enthält nicht unterstützte Inhalte</string>
   <string name="error_widget_exist_for_send_to_desktop">Diese Notiz ist bereits auf dem Desktop vorhanden</string>
   <string name="exceed_todo_text_limitation">Aufgabenbeschreibung zu lang</string>
+  <string name="expand_button_title">Erweitert</string>
   <string name="first_enter_custom_folder_hint">Hier können Sie Ordner umbenennen oder löschen.</string>
   <string name="folder_exist">Ein Ordner mit demselben Namen ist bereits vorhanden</string>
   <string name="folder_operation_delete">Löschen</string>
@@ -102,6 +124,7 @@
   <string name="info_note_enter_desktop">Zum Desktop hinzugefügt</string>
   <string name="loading_text">Einen Moment…</string>
   <string name="login_sync">Anmelden &amp; Synchronisieren</string>
+  <string name="lunar_day">Mond-%1$s</string>
   <string name="menu_add_audio_description">Audio-Notiz hinzufügen</string>
   <string name="menu_add_description">Notiz hinzufügen</string>
   <string name="menu_add_folder">Zu einem Ordner hinzufügen</string>
@@ -133,6 +156,7 @@
   <string name="new_audio_create_guide_tip">Taste gedrückt halten, um eine Sprachnotiz zu erstellen</string>
   <string name="new_audio_create_talkback_des">Hier tippen, um eine Textnotiz zu erstellen. Taste gedrückt halten, um eine Sprachnotiz zu erstellen. Taste loslassen, um die Aufnahme zu stoppen und die Notiz zu erstellen, oder nach oben schieben, um sie abzubrechen.</string>
   <string name="not_now">Jetzt nicht</string>
+  <string name="not_set">Nicht festgelegt</string>
   <string name="note_description_content">Die Notiz-App ist ein großartiges Tool, um Ihre Ideen zu aufzunehmen. Sie verfügt über integrierte Erinnerungen und synchronisiert Ihre Elemente mit der Cloud, so dass Sie jederzeit und überall darauf zugreifen können. Stellen Sie sicher, dass Sie auf diese Funktionen verzichten können, bevor Sie die App löschen.</string>
   <string name="note_description_title">Über Notizen</string>
   <string name="note_link_email">E-Mail verfassen</string>
@@ -168,6 +192,7 @@
   <string name="pref_title_show_root_folder_in_homepage">Schnellnotizen auf dem Hauptbildschirm anzeigen</string>
   <string name="pref_title_skip_confirm_for_quick_delete">Mit einer Geste löschen</string>
   <string name="pref_title_todo_float_mode">Aufgaben-Toolbox verwenden</string>
+  <string name="preference_copied">\"%1$s\" in Zwischenablage kopiert</string>
   <string name="privacy_note_content_empty">Hier noch keine Elemente vorhanden.</string>
   <string name="recover_notes_hint">Ein Fehler ist aufgetreten, stellen Sie Ihre Notizen von i.mi.com wieder her</string>
   <string name="redo">Wiederholen</string>
@@ -208,6 +233,7 @@
   <string name="search_hint">Notizen durchsuchen</string>
   <string name="search_keyword_notes">Notizen;Memo</string>
   <string name="search_label">Durchsuchen…</string>
+  <string name="search_menu_title">Suchen</string>
   <string name="search_path_notes">Einstellungen/System-Apps/Notizen</string>
   <string name="search_setting_description">Text in Notizen suchen</string>
   <string name="select_account_prompt">Notizen sychronisieren</string>
@@ -312,14 +338,14 @@ Ermöglichen Sie Notizen, Audio aufzunehmen."</string>
   <string name="todo_schedule_time_today">Heute</string>
   <string name="todo_schedule_time_tomorrow">Morgen</string>
   <string name="todo_schedule_time_yesterday">Gestern</string>
-  <string name="todo_schedule_time_ymdhm">dd.MM.yyyy HH:mm</string>
-  <string name="todo_search_hint">Nach Aufgaben suchen</string>
-  <string name="todo_time_picker_title">Erinnerung einstellen</string>
   <string name="todo_schedule_time_repeat_day">, jeden Tag</string>
   <string name="todo_schedule_time_repeat_month">, jeden Monat</string>
   <string name="todo_schedule_time_repeat_normal_workday">, Montag bis Freitag</string>
   <string name="todo_schedule_time_repeat_week">, jede Woche</string>
   <string name="todo_schedule_time_repeat_year">, jedes Jahr</string>
+  <string name="todo_schedule_time_ymdhm">dd.MM.yyyy HH:mm</string>
+  <string name="todo_search_hint">Nach Aufgaben suchen</string>
+  <string name="todo_time_picker_title">Erinnerung einstellen</string>
   <string name="todo_user_guide_fw_pop">Verknüpfung zum Startbildschirm hinzufügen</string>
   <string name="todo_user_guide_tip1">Willkommen bei Aufgaben!</string>
   <string name="todo_user_guide_tip2">Hier können Sie Text- und Sprachaufgaben hinzufügen.</string>
@@ -340,6 +366,8 @@ Ermöglichen Sie Notizen, Audio aufzunehmen."</string>
   <string name="unclassfied_folder_name">Nicht kategorisiert</string>
   <string name="undo">Rückgängig</string>
   <string name="unknown_source">Unbekannte Quelle</string>
+  <string name="v7_preference_off">AUS</string>
+  <string name="v7_preference_on">AN</string>
   <string name="widget_content_loading">Einen Moment…</string>
   <string name="widget_havenot_content">Tippen, um eine Notiz zu erstellen. Widget halten, um die Größe zu ändern.</string>
 </resources>
