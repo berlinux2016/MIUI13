@@ -19,6 +19,9 @@
   <string name="abc_shareactionprovider_share_with_application">Teilen mit %s</string>
   <string name="abc_toolbar_collapse_description">Einklappen</string>
   <string name="app_name">Benachrichtigungen</string>
+  <string name="cancel">Abbrechen</string>
+  <string name="category_other">Andere</string>
+  <string name="confirm">Bestätigen</string>
   <string name="default_list_type">Nach Empfangszeit sortieren</string>
   <string name="disable_float_notification">Popup ausgeschaltet</string>
   <string name="disable_lockscreen_notification">Sperrbildschirm-Benachrichtigung ausgeschaltet</string>
@@ -28,7 +31,11 @@
   <string name="enable_show_badge_notification">Plakette eingeschaltet</string>
   <string name="expand_top_notification">Top-Benachrichtigung erweitern</string>
   <string name="expandable_under_keyguard">Benachrichtigungsleiste auf Sperrbildschirm öffnen</string>
+  <string name="feedback_tip_cancel">Benachrichtigungsdaten werden nicht gesammelt.</string>
+  <string name="feedback_tip_msg">Um Benachrichtigungen genauer zu gruppieren, müssen wir den App-Namen, den Titel und Beschreibung sowie den Versandszeitpunkt der Benachrichtigung erfassen. Ihr Feedback zusenden?</string>
+  <string name="feedback_tip_title">Feedback zu den Benachrichtigungskategorien</string>
   <string name="float_notifications">Popup</string>
+  <string name="function_description">Über diese Funktion</string>
   <string name="hint_search_all">Apps suchen</string>
   <string name="hint_search_in_disabled_apps">Apps suchen, die Benachrichtigungen nicht anzeigen können</string>
   <string name="hint_search_in_enabled_apps">Apps suchen, die Benachrichtigungen anzeigen können</string>
@@ -37,13 +44,29 @@
   <string name="loading">Einen Moment…</string>
   <string name="lock_screen_tip_toast">Sperrbildschirm-Benachrichtigungen in \"Format\" zulassen</string>
   <string name="lockscreen_notifications">Sperrbildschirm-Benachrichtigungen</string>
+  <string name="menu_setting_recommend_to_minus">Weniger Benachrichtigungen anzeigen</string>
+  <string name="menu_setting_recommend_to_normal">Benachrichtigungen nicht reduzieren</string>
+  <string name="menu_setting_show_in_home">Nicht gruppieren</string>
+  <string name="menu_setting_tip_recommend_minus">Sie werden weniger Benachrichtigungen von %s sehen</string>
+  <string name="menu_setting_tip_recommend_normal">Benachrichtigungen von %s werden nicht reduziert</string>
+  <string name="menu_setting_tip_show_in_home">Benachrichtigungen von %s werden nicht gruppiert</string>
+  <string name="menu_setting_toast_recommend_minus">Sie werden weniger Benachrichtigungen von %s sehen</string>
+  <string name="menu_setting_toast_recommend_normal">Benachrichtigungen von %s werden nicht reduziert</string>
+  <string name="menu_setting_toast_show_in_home">Benachrichtigungen von %s werden nicht gruppiert</string>
   <string name="not_sent_recently">Keine zuletzt geöffneten</string>
   <string name="notch_and_status_bar_setting">Notch &amp; Statusleiste</string>
+  <string name="notification_aggregate_description1">MIUI kann Push-Benachrichtigungen und Werbenachrichten automatisch gruppieren, so dass Ihre Benachrichtigung weniger überfüllt ist.</string>
+  <string name="notification_aggregate_description2">Unsere Algorithmen analysieren den Benachrichtigungsinhalt und wenden diese Funktion nicht auf wichtige Instant Messenger-Benachrichtigungen und -Warnungen an. Wenn Sie feststellen, dass wichtige Benachrichtigungen versehentlich gruppiert sind, melden Sie das Problem, auf das Sie gestoßen sind, mit unserer \"Feedback\"-Funktion.</string>
+  <string name="notification_aggregate_summary">MIUI erlauben, Benachrichtigungen automatisch zu gruppieren</string>
+  <string name="notification_aggregate_summary_inner">Gruppen- und Werbebenachrichtigungen automtisch einschalten</string>
+  <string name="notification_aggregate_title">Gruppenbenachrichtigungen</string>
   <string name="notification_display_setting">Benachrichtigungsleiste</string>
   <string name="notification_display_style">Benachrichtigungsstil</string>
   <string name="notification_fold_summary">Alle unwichtigen Benachrichtigungen werden in einem separaten Ordner angezeigt</string>
   <string name="notification_fold_title">Benachrichtigungsordner</string>
   <string name="notification_manager">App-Benachrichtigungen</string>
+  <string name="notification_setting_menu_feedback_text">"Diese Benachrichtigung sollte nicht hier sein?
+Dieses Problem melden &gt;"</string>
   <string name="off">Aus</string>
   <string name="on">Ein</string>
   <string name="search_menu_title">Suchen</string>
@@ -61,5 +84,7 @@
   <string name="summary_float_enable_notification_first">Benachrichtigungen erlauben, Popups einzuschalten</string>
   <string name="summary_lock_screen_enable_notification_first">Benachrichtigungen erlauben, auf dem Sperrbildschirm angezeigt zu werden</string>
   <string name="summary_show_badge_enable_notification_first">Benachrichtigungen erlauben, Plaketten einzuschalten</string>
+  <string name="tip_feedback_success">Erfolgreich eingereicht</string>
+  <string name="tip_select_category">Benachrichtigungskategorie auswählen</string>
   <string name="tip_select_category">Benachrichtigungstyp auswählen</string>
 </resources>
