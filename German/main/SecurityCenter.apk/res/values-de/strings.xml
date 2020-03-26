@@ -1,5 +1,22 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+  <string name="abc_action_bar_home_description">Zur Startseite</string>
+  <string name="abc_action_bar_up_description">Nach oben</string>
+  <string name="abc_action_menu_overflow_description">Mehr Optionen</string>
+  <string name="abc_action_mode_done">Fertig</string>
+  <string name="abc_activity_chooser_view_see_all">Alle ansehen</string>
+  <string name="abc_activitychooserview_choose_application">App auswählen</string>
+  <string name="abc_capital_off">Aus</string>
+  <string name="abc_capital_on">An</string>
+  <string name="abc_search_hint">Suchen…</string>
+  <string name="abc_searchview_description_clear">Suchanfrage löschen</string>
+  <string name="abc_searchview_description_query">Suchanfrage</string>
+  <string name="abc_searchview_description_search">Suchen</string>
+  <string name="abc_searchview_description_submit">Suchanfrage senden</string>
+  <string name="abc_searchview_description_voice">Sprachsuche</string>
+  <string name="abc_shareactionprovider_share_with">Freigeben für</string>
+  <string name="abc_shareactionprovider_share_with_application">Teilen mit %s</string>
+  <string name="abc_toolbar_collapse_description">Minimieren</string>
 
 
   <string name="app_behavior_key_audio">Audioaufnahme</string>
@@ -27,20 +44,14 @@
   <string name="app_behavior_time_yesterday">Gestern</string>
   <string name="app_perm_manager_service">Rechteverwaltungsdienste</string>
   <string name="notify_channel_name_behavior">Verhaltensaufzeichnung</string>
-  
+
   <string name="app_behavior_desc_virtual_once">Leere Nachricht %1$s zurückgesendet</string>
-  <string name="permission_action_desc">App-Berechtigungen gewähren, aber leere Infos zurückgeben, um die Privatsphäre zu schützen</string>
+  <string name="permission_action_desc">Berechtigungen erteilen, aber leere Nachrichten an die App zurücksenden, um die Privatsphäre zu schützen</string>
   <string name="permission_upgrade_more">Weitere Datenschutzfunktionen anzeigen</string>
-  <string name="permission_upgrade_privacy_title">"Zum Schutz Ihrer persönlichen Daten
-Die Unterstützung für Aufzeichnung, Kontakte usw. ist auf \"Nur bei Verwendung zulassen\" eingestellt.
-Wenn dieser Status einmal gesetzt ist, können Apps diese Berechtigung nicht mehr im Hintergrund verwenden."</string>
-  <string name="permission_upgrade_runtime">"Bei Beantragung der Erlaubnis
-Die Unterstützung für Standort- und Kamera-Berechtigung ist auf \"In dieser Zeit erlauben\" eingestellt.
-Wenn Sie nach der Einstellung die App schließen, werden die Berechtigungen auf \"Fragen\" zurückgesetzt."</string>
-  <string name="permission_upgrade_title">Upgrade der Lizenzverwaltungsfunktion</string>
-  <string name="permission_upgrade_virtual">"Wenn Sie keine echten Informationen wie Kontakte, Anrufprotokolle usw. zur Verfügung stellen wollen.
-Kann die entsprechende Berechtigung auf \"Leere Informationsberechtigung\" gesetzt werden
-App-Berechtigungen gewähren, aber leere Informationen zurückgeben, um die Privatsphäre zu schützen"</string>
+  <string name="permission_upgrade_privacy_title">Berechtigungen für Audioaufnahme und Kontaktezugriff haben jetzt eine Option, die es Ihnen erlaubt, solche Berechtigungen nur zu erteilen, während Sie die entsprechenden App verwenden. Um die Privatsphäre Ihrer persönlichen Daten zu schützen, führen die Apps diese Aktionen nicht im Hintergrund aus.</string>
+  <string name="permission_upgrade_runtime">Berechtigungen auf Ihren Standortzugriff oder zum Fotografieren haben jetzt eine Option, die es Ihnen erlaubt, solche Berechtigungen nur einmal zu erteilen. Um die Privatsphäre Ihrer persönlichen Daten zu schützen, werden diese Aktionen nicht mehr ausgeführt, nachdem Sie die App verlassen haben. Sie werden erneut nach den Berechtigungen gefragt, wenn Sie die entsprechenden Funktionen das nächste Mal verwenden.</string>
+  <string name="permission_upgrade_title">Aktualisierte Berechtigungen</string>
+  <string name="permission_upgrade_virtual">Wenn Sie Apps nicht erlauben wollen, auf Ihre Kontakte oder den Anrufverlauf zuzugreifen, können Sie \"Leere Nachrichten zurücksenden\" auswählen, wenn Sie die entsprechenden Berechtigungen erteilen.</string>
 
 
   <string name="HIPS_Perm_CallLog_Desc">Anrufliste schreiben und löschen</string>
@@ -261,7 +272,7 @@ App-Berechtigungen gewähren, aber leere Informationen zurückgeben, um die Priv
   <string name="app_behavior_perm_change_tip_deny">Diese Aktion (%1s) ist jetzt eingeschränkt</string>
   <string name="app_behavior_perm_change_tip_foreground">Diese Aktion (%1s) ist nun erlaubt, während Sie die App benutzen</string>
 
-  <string name="app_behavior_perm_change_tip_virtual">\"%1s\" in Nullnachrichten-Autorisierung geändert</string>
+  <string name="app_behavior_perm_change_tip_virtual">\"%1s\" wird in \"Leere Nachrichten zurücksenden\" geändert</string>
 
   <string name="app_behavior_perm_change_toast">"%1s geändert in "</string>
   <string name="app_behavior_phonenum">%1s versuchte auf Ihre Telefonnummer zuzugreifen</string>
@@ -764,6 +775,7 @@ Sie verlieren keine App-Daten."</string>
   <string name="continue_install">Installieren</string>
   <string name="convenient_mode">Alle Apps auf einmal entsperren</string>
   <string name="convenient_summary">Passwort einmal eingeben, um alle Apps zu entsperren</string>
+  <string name="copy">Kopieren</string>
   <string name="correction_attention_dialog_message">Einstellungen werden angepasst. Warten, bis der Vorgang abgeschlossen ist und erneut versuchen.</string>
   <string name="cpu_usage_android_system">Android System</string>
   <string name="cpu_usage_app_bg_restrict_default">Automatisch (empfohlen)</string>
@@ -1099,6 +1111,7 @@ Alle Daten auf Ihrem Gerät werden evtl. gelöscht und Ihr Sperrbildschirmpasswo
   <string name="exo_track_surround_5_point_1">5.1 Surround Sound</string>
   <string name="exo_track_surround_7_point_1">7.1 Surround Sound</string>
   <string name="exo_track_unknown">Unbekannt</string>
+  <string name="expand_button_title">Erweitert</string>
   <string name="extreme_add_white_list_summary">Bis zu 4 Apps hinzufügen</string>
   <string name="extreme_add_white_list_title">Ausnahmen im Hintergrund</string>
   <string name="extreme_power_save_description">"• Extrem-Stromsparmodus stoppt alle Hintergrundaktivitäten einer App, wenn Sie sie verlassen und zum Startbildschirm zurückkehren. Diese App sendet keine Benachrichtigungen oder Updates.
@@ -1843,6 +1856,7 @@ Versuchen Sie ein anderes LAN-Kabel am Router. Wenn Sie vermuten, dass der Fehle
   <string name="news_change">Ändern</string>
   <string name="nickname">Spitzname</string>
   <string name="no_game">Keine Spiele gefunden</string>
+  <string name="not_set">Nicht festgelegt</string>
   <string name="not_available">Nicht verfügbar</string>
   <string name="not_limited_brand">Unbegrenzt</string>
   <string name="note">Notiz</string>
@@ -2086,6 +2100,8 @@ Versuchen Sie ein anderes LAN-Kabel am Router. Wenn Sie vermuten, dass der Fehle
   <string name="permission_action_foreground">Bei App-Nutzung</string>
   <string name="permission_action_prompt">Fragen</string>
   <string name="permission_action_reject">Verweigern</string>
+  <string name="permission_action_tag">Schutz der Privatsphäre</string>
+  <string name="permission_action_virtual">Leere Nachrichten zurücksenden</string>
   <string name="permission_close_permission_control_dialog_msg">Wenn die Rechteverwaltung ausgeschaltet ist, werden Apps nicht um Erlaubnis fragen vor dem Lesen Ihrer Kontakte, Anzeigen der Anrufliste, Ändern von Systemeinstellungen oder dem Zugriff auf Kamera und andere Gerätequellen.</string>
   <string name="permission_close_permission_control_dialog_title">Ausschalten?</string>
   <string name="permission_exception_title">Eingeschränkte Verbindung für Apps</string>
@@ -2328,6 +2344,7 @@ Versuchen Sie ein anderes LAN-Kabel am Router. Wenn Sie vermuten, dass der Fehle
   <string name="pref_traffic_unlimited_package">Unbegrenzter Datentarif</string>
   <string name="pref_warning_values">Datennutzungswarnstufe</string>
   <string name="pref_whitelist_setting">Ausnahmen beim Datenroaming</string>
+  <string name="preference_copied">\"%1$s\" in Zwischenablage kopiert</string>
   <string name="preferred_app_entries_camera">Kamera</string>
   <string name="preferred_app_entries_dial">Telefon</string>
   <string name="preferred_app_entries_email">E-Mail</string>
@@ -3109,6 +3126,8 @@ Wollen Sie es übernehmen?"</string>
   <string name="user_define_title">Regeln hinzufügen</string>
   <string name="user_guide">Nach oben schieben, um weitere neue Spiele zu entdecken.</string>
   <string name="user_guide_title">Joystick-Tipps</string>
+  <string name="v7_preference_off">AUS</string>
+  <string name="v7_preference_on">EIN</string>
   <string name="vb_advanced_settings">Bild</string>
   <string name="vb_advanced_settings_after_open">Nachher</string>
   <string name="vb_advanced_settings_before_open">Vorher</string>
