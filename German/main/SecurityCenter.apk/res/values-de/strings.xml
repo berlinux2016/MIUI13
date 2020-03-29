@@ -1,59 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string name="abc_action_bar_home_description">Zur Startseite</string>
-  <string name="abc_action_bar_up_description">Nach oben</string>
-  <string name="abc_action_menu_overflow_description">Mehr Optionen</string>
-  <string name="abc_action_mode_done">Fertig</string>
-  <string name="abc_activity_chooser_view_see_all">Alle ansehen</string>
-  <string name="abc_activitychooserview_choose_application">App auswählen</string>
-  <string name="abc_capital_off">Aus</string>
-  <string name="abc_capital_on">An</string>
-  <string name="abc_search_hint">Suchen…</string>
-  <string name="abc_searchview_description_clear">Suchanfrage löschen</string>
-  <string name="abc_searchview_description_query">Suchanfrage</string>
-  <string name="abc_searchview_description_search">Suchen</string>
-  <string name="abc_searchview_description_submit">Suchanfrage senden</string>
-  <string name="abc_searchview_description_voice">Sprachsuche</string>
-  <string name="abc_shareactionprovider_share_with">Freigeben für</string>
-  <string name="abc_shareactionprovider_share_with_application">Teilen mit %s</string>
-  <string name="abc_toolbar_collapse_description">Minimieren</string>
-
-
-  <string name="app_behavior_key_audio">Audioaufnahme</string>
-  <string name="app_behavior_key_camera">Fotografieren</string>
-  <string name="app_behavior_key_location">Standord</string>
-  <string name="app_behavior_key_protect">Schutz der Privatsphäre</string>
-  <string name="app_behavior_notification_audio_now_one">\"%1s\"-Aufnahme</string>
-  <string name="app_behavior_notification_audio_now_two">\"%1s\"-Aufnahmen</string>
-  <string name="app_behavior_notification_camera_one">\"%1s\"-Foto machen</string>
-  <string name="app_behavior_notification_camera_two">\"%1s\"-Fotos machen</string>
-  <string name="app_behavior_notification_location_one">\"%1s\"-Standort ermitteln</string>
-  <string name="app_behavior_notification_location_two">\"%1s\"-Standorte ermitteln</string>
-  <string name="app_behavior_settings_category_perm">An Rechteverwendung erinnern</string>
-  <string name="app_behavior_settings_category_privacy">Schutz der Privatsphäre</string>
-  <string name="app_behavior_settings_perm_tips">Wenn die App Positionierungs-, Aufnahme- und Fotoberechtigungen verwendet, wird die entsprechende Genehmigungsaufforderung in der Statusleiste angezeigt</string>
-  <string name="app_behavior_settings_privacy_tips">Wenn die App Ihre Kontakte, Anrufverlauf und andere Informationen im Hintergrund liest oder schreibt, sendet sie eine Benachrichtigung, um Sie daran zu erinnern</string>
-  <string name="app_behavior_start_from_app_single">Durch %1s gestarted</string>
-  <string name="app_behavior_start_from_launcher">%1s-Start durch Desktop-Symbol</string>
-  <string name="app_behavior_start_from_launcher_single">Start durch Desktop-Symbol</string>
-  <string name="app_behavior_start_from_notification">%1s-Start durch Benachrichtigung</string>
-  <string name="app_behavior_start_from_notification_single">Start durch Benachrichtigung</string>
-  <string name="app_behavior_start_from_recent">%1s startete mit der letzten Aufgabe</string>
-  <string name="app_behavior_start_from_recent_single">Mit den letzten Aufgaben beginnen</string>
-  <string name="app_behavior_time_today">Heute</string>
-  <string name="app_behavior_time_yesterday">Gestern</string>
-  <string name="app_perm_manager_service">Rechteverwaltungsdienste</string>
-  <string name="notify_channel_name_behavior">Verhaltensaufzeichnung</string>
-
-  <string name="app_behavior_desc_virtual_once">Leere Nachricht %1$s zurückgesendet</string>
-  <string name="permission_action_desc">Berechtigungen erteilen, aber leere Nachrichten an die App zurücksenden, um die Privatsphäre zu schützen</string>
-  <string name="permission_upgrade_more">Weitere Datenschutzfunktionen anzeigen</string>
-  <string name="permission_upgrade_privacy_title">Berechtigungen für Audioaufnahme und Kontaktezugriff haben jetzt eine Option, die es Ihnen erlaubt, solche Berechtigungen nur zu erteilen, während Sie die entsprechenden App verwenden. Um die Privatsphäre Ihrer persönlichen Daten zu schützen, führen die Apps diese Aktionen nicht im Hintergrund aus.</string>
-  <string name="permission_upgrade_runtime">Berechtigungen auf Ihren Standortzugriff oder zum Fotografieren haben jetzt eine Option, die es Ihnen erlaubt, solche Berechtigungen nur einmal zu erteilen. Um die Privatsphäre Ihrer persönlichen Daten zu schützen, werden diese Aktionen nicht mehr ausgeführt, nachdem Sie die App verlassen haben. Sie werden erneut nach den Berechtigungen gefragt, wenn Sie die entsprechenden Funktionen das nächste Mal verwenden.</string>
-  <string name="permission_upgrade_title">Aktualisierte Berechtigungen</string>
-  <string name="permission_upgrade_virtual">Wenn Sie Apps nicht erlauben wollen, auf Ihre Kontakte oder den Anrufverlauf zuzugreifen, können Sie \"Leere Nachrichten zurücksenden\" auswählen, wenn Sie die entsprechenden Berechtigungen erteilen.</string>
-
-
   <string name="HIPS_Perm_CallLog_Desc">Anrufliste schreiben und löschen</string>
   <string name="HIPS_Perm_Call_Desc">Telefonnummern direkt anrufen</string>
   <string name="HIPS_Perm_Contact_Desc">Kontakte ändern und löschen</string>
@@ -75,6 +21,23 @@
   <string name="Settings_title_garbage_cleanup">Bereinigungseinstellungen</string>
   <string name="Settings_title_network_assistants">Einstellungen Datennutzung</string>
   <string name="Settings_title_power_center">Einstellungen Akku-Optimierung</string>
+  <string name="abc_action_bar_home_description">Zur Startseite</string>
+  <string name="abc_action_bar_up_description">Nach oben</string>
+  <string name="abc_action_menu_overflow_description">Mehr Optionen</string>
+  <string name="abc_action_mode_done">Fertig</string>
+  <string name="abc_activity_chooser_view_see_all">Alle ansehen</string>
+  <string name="abc_activitychooserview_choose_application">App auswählen</string>
+  <string name="abc_capital_off">Aus</string>
+  <string name="abc_capital_on">An</string>
+  <string name="abc_search_hint">Suchen…</string>
+  <string name="abc_searchview_description_clear">Suchanfrage löschen</string>
+  <string name="abc_searchview_description_query">Suchanfrage</string>
+  <string name="abc_searchview_description_search">Suchen</string>
+  <string name="abc_searchview_description_submit">Suchanfrage senden</string>
+  <string name="abc_searchview_description_voice">Sprachsuche</string>
+  <string name="abc_shareactionprovider_share_with">Freigeben für</string>
+  <string name="abc_shareactionprovider_share_with_application">Teilen mit %s</string>
+  <string name="abc_toolbar_collapse_description">Minimieren</string>
   <string name="about_autostart">Über Autostart</string>
   <string name="ac_enter_applock">App-Sperre eingeben</string>
   <string name="ac_firstUseApplock_subTitle">Bessere Sicherheitstools auf Systemebene verwenden</string>
@@ -272,7 +235,32 @@
   <string name="app_behavior_perm_change_tip_deny">Diese Aktion (%1s) ist jetzt eingeschränkt</string>
   <string name="app_behavior_perm_change_tip_foreground">Diese Aktion (%1s) ist nun erlaubt, während Sie die App benutzen</string>
 
+  <string name="app_behavior_desc_virtual_once">Leere Nachricht %1$s zurückgesendet</string>
+  <string name="app_behavior_key_audio">Audioaufnahme</string>
+  <string name="app_behavior_key_camera">Fotografieren</string>
+  <string name="app_behavior_key_location">Standort</string>
+  <string name="app_behavior_key_protect">Schutz der Privatsphäre</string>
+  <string name="app_behavior_notification_audio_now_one">\"%1s\"-Aufnahme</string>
+  <string name="app_behavior_notification_audio_now_two">\"%1s\"-Aufnahmen</string>
+  <string name="app_behavior_notification_camera_one">\"%1s\"-Foto machen</string>
+  <string name="app_behavior_notification_camera_two">\"%1s\"-Fotos machen</string>
+  <string name="app_behavior_notification_location_one">\"%1s\"-Standort ermitteln</string>
+  <string name="app_behavior_notification_location_two">\"%1s\"-Standorte ermitteln</string>
   <string name="app_behavior_perm_change_tip_virtual">\"%1s\" wird in \"Leere Nachrichten zurücksenden\" geändert</string>
+  <string name="app_behavior_settings_category_perm">An Rechteverwendung erinnern</string>
+  <string name="app_behavior_settings_category_privacy">Schutz der Privatsphäre</string>
+  <string name="app_behavior_settings_perm_tips">Wenn die App Standort-, Aufnahme- und Fotoberechtigungen verwendet, wird die entsprechende Genehmigungsaufforderung in der Statusleiste angezeigt</string>
+  <string name="app_behavior_settings_privacy_tips">Wenn die App Ihre Kontakte, Anrufverlauf und andere Informationen im Hintergrund liest oder schreibt, sendet sie eine Benachrichtigung, um Sie daran zu erinnern</string>
+  <string name="app_behavior_start_from_app_single">Durch %1s gestarted</string>
+  <string name="app_behavior_start_from_launcher">%1s-Start durch Desktop-Symbol</string>
+  <string name="app_behavior_start_from_launcher_single">Start durch Desktop-Symbol</string>
+  <string name="app_behavior_start_from_notification">%1s-Start durch Benachrichtigung</string>
+  <string name="app_behavior_start_from_notification_single">Start durch Benachrichtigung</string>
+  <string name="app_behavior_start_from_recent">%1s startete mit der letzten Aufgabe</string>
+  <string name="app_behavior_start_from_recent_single">Mit den letzten Aufgaben beginnen</string>
+  <string name="app_behavior_time_today">Heute</string>
+  <string name="app_behavior_time_yesterday">Gestern</string>
+  <string name="app_perm_manager_service">Rechteverwaltungsdienste</string>
 
   <string name="app_behavior_perm_change_toast">"%1s geändert in "</string>
   <string name="app_behavior_phonenum">%1s versuchte auf Ihre Telefonnummer zuzugreifen</string>
@@ -1886,6 +1874,9 @@ Versuchen Sie ein anderes LAN-Kabel am Router. Wenn Sie vermuten, dass der Fehle
   <string name="notification_masked_subtitle">App-Sperre verwenden, um den Benachrichtigungsinhalt für ausgewählte Apps auszublenden</string>
   <string name="notification_open_extreme_mode_text">Extrem-Stromsparmodus eingeschaltet</string>
   <string name="notification_summary_cmcc_app_check">Berühren für mehr Details</string>
+
+  <string name="notify_channel_name_behavior">Verhaltensaufzeichnung</string>
+
   <string name="notify_channel_mipush">Push-Sicherheitsmeldungen</string>
   <string name="notify_channel_name_security">Systemsicherheit</string>
   <string name="notify_channel_optimize">Sicherheitsbenachrichtigungen</string>
@@ -2095,6 +2086,14 @@ Versuchen Sie ein anderes LAN-Kabel am Router. Wenn Sie vermuten, dass der Fehle
   <string name="permgroupdesc_sensors">Auf Körpersensordaten zugreifen</string>
   <string name="permgroupdesc_sms">SMS lesen oder senden</string>
   <string name="permgroupdesc_storage">Auf Fotos oder Dateien auf dem Gerät zugreifen</string>
+
+  <string name="permission_action_desc">Berechtigungen erteilen, aber leere Nachrichten an die App zurücksenden, um die Privatsphäre zu schützen</string>
+  <string name="permission_upgrade_more">Weitere Datenschutzfunktionen anzeigen</string>
+  <string name="permission_upgrade_privacy_title">Berechtigungen für Audioaufnahme und Kontaktezugriff haben jetzt eine Option, die es Ihnen erlaubt, solche Berechtigungen nur zu erteilen, während Sie die entsprechenden App verwenden. Um die Privatsphäre Ihrer persönlichen Daten zu schützen, führen die Apps diese Aktionen nicht im Hintergrund aus.</string>
+  <string name="permission_upgrade_runtime">Berechtigungen auf Ihren Standortzugriff oder zum Fotografieren haben jetzt eine Option, die es Ihnen erlaubt, solche Berechtigungen nur einmal zu erteilen. Um die Privatsphäre Ihrer persönlichen Daten zu schützen, werden diese Aktionen nicht mehr ausgeführt, nachdem Sie die App verlassen haben. Sie werden erneut nach den Berechtigungen gefragt, wenn Sie die entsprechenden Funktionen das nächste Mal verwenden.</string>
+  <string name="permission_upgrade_title">Aktualisierte Berechtigungen</string>
+  <string name="permission_upgrade_virtual">Wenn Sie Apps nicht erlauben wollen, auf Ihre Kontakte oder den Anrufverlauf zuzugreifen, können Sie \"Leere Nachrichten zurücksenden\" auswählen, wenn Sie die entsprechenden Berechtigungen erteilen.</string>
+
   <string name="permission_action_accept">Akzeptieren</string>
   <string name="permission_action_always">Immer erlauben</string>
   <string name="permission_action_foreground">Bei App-Nutzung</string>
