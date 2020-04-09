@@ -1,5 +1,38 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+  <plurals name="a_hour_ago">
+    <item quantity="other">vor 1 Stunde</item>
+  </plurals>
+  <plurals name="abbrev_a_hour_ago">
+    <item quantity="other">vor 1 Stunde</item>
+  </plurals>
+  <plurals name="abbrev_half_hour_ago">
+    <item quantity="other">Vor einer halben Stunde</item>
+  </plurals>
+  <plurals name="abbrev_in_a_hour">
+    <item quantity="other">In 1 Stunde</item>
+  </plurals>
+  <plurals name="abbrev_in_half_hour">
+    <item quantity="other">In einer halben Stunde</item>
+  </plurals>
+  <plurals name="abbrev_in_less_than_one_minute">
+    <item quantity="other">Sofort</item>
+  </plurals>
+  <plurals name="abbrev_in_num_minutes">
+    <item quantity="other">in %d Min</item>
+    <item quantity="one">in 1 Min</item>
+  </plurals>
+  <plurals name="abbrev_less_than_one_minute_ago">
+    <item quantity="other">Gerade jetzt</item>
+  </plurals>
+  <plurals name="abbrev_num_minutes_ago">
+    <item quantity="other">vor %d Min</item>
+    <item quantity="one">vor 1 Min</item>
+  </plurals>
+  <plurals name="count_duration_standard">
+    <item quantity="other">%1$d-%2$d-mal</item>
+    <item quantity="one">%1$d-%2$d-mal</item>
+  </plurals>
   <plurals name="daily_suggestions_steps">
     <item quantity="other">Jeden Tag mindestens %1$d Schritte gehen</item>
     <item quantity="one">Jeden Tag mindestens %1$d Schritt gehen</item>
@@ -16,6 +49,10 @@
     <item quantity="other">%1$d Datensätze löschen?</item>
     <item quantity="one">%1$d Datensatz löschen?</item>
   </plurals>
+  <plurals name="dream_talk_segment">
+    <item quantity="other">%1$d Aufnahmen</item>
+    <item quantity="one">%1$d Aufnahme</item>
+  </plurals>
   <plurals name="goal_format_with_unit">
     <item quantity="other">Ziel: %1$d Schritte</item>
     <item quantity="one">Ziel: %1$d Schritt</item>
@@ -28,9 +65,25 @@
     <item quantity="other">%1$d Schritte</item>
     <item quantity="one">%1$d Schritt</item>
   </plurals>
+  <plurals name="half_hour_ago">
+    <item quantity="other">Vor einer halben Stunde</item>
+  </plurals>
   <plurals name="hours">
     <item quantity="other">%1$d Std</item>
     <item quantity="one">%1$d Std</item>
+  </plurals>
+  <plurals name="in_a_hour">
+    <item quantity="other">In 1 Std</item>
+  </plurals>
+  <plurals name="in_half_hour">
+    <item quantity="other">In einer halben Stunde</item>
+  </plurals>
+  <plurals name="in_less_than_one_minute">
+    <item quantity="other">Sofort</item>
+  </plurals>
+  <plurals name="in_num_minutes">
+    <item quantity="other">in %d Minuten</item>
+    <item quantity="one">in 1 Minute</item>
   </plurals>
   <plurals name="last_measure_date_interval">
     <item quantity="other">%1$d Tage seit dem letzten Wiegen</item>
@@ -39,6 +92,9 @@
   <plurals name="last_measure_day_body_weight">
     <item quantity="other">%1$d Tage seit dem letzten Wiegen</item>
     <item quantity="one">%1$d Tag seit dem letzten Wiegen</item>
+  </plurals>
+  <plurals name="less_than_one_minute_ago">
+    <item quantity="other">Gerade jetzt</item>
   </plurals>
   <plurals name="menstruation_sum_days">
     <item quantity="other">%1$d-Tage-Periode</item>
@@ -60,9 +116,17 @@
     <item quantity="other">%1$d Min</item>
     <item quantity="one">%1$d Min</item>
   </plurals>
+  <plurals name="minutes_ago">
+    <item quantity="other">vor %1$d Min</item>
+    <item quantity="one">vor %1$d Min</item>
+  </plurals>
   <plurals name="mtrl_badge_content_description">
     <item quantity="other">%d neue Benachrichtigungen</item>
     <item quantity="one">%d neue Benachrichtigung</item>
+  </plurals>
+  <plurals name="num_minutes_ago">
+    <item quantity="other">vor %1$d Min</item>
+    <item quantity="one">vor 1 Min</item>
   </plurals>
   <plurals name="sleep_goal_by_hour">
     <item quantity="other">Ziel: %1$d Std</item>
@@ -96,6 +160,34 @@
     <item quantity="other">%1$d-Tageszyklus</item>
     <item quantity="one">%1$d-Tageszyklus</item>
   </plurals>
+  <plurals name="time_duration_compare_standard">
+    <item quantity="other">≤%1$d Minuten</item>
+    <item quantity="one">≤%1$d Minute</item>
+  </plurals>
+  <plurals name="time_duration_hour_float">
+    <item quantity="other">%1$.2f Std</item>
+    <item quantity="one">%1$.2f Std</item>
+  </plurals>
+  <plurals name="time_duration_hour_int">
+    <item quantity="other">%d Std</item>
+    <item quantity="one">%d std</item>
+  </plurals>
+  <plurals name="time_duration_hour_standard">
+    <item quantity="other">%1$.1f - %2$.1f Stunden</item>
+    <item quantity="one">%1$.1f - %2$.1f Stunden</item>
+  </plurals>
+  <plurals name="time_duration_minute">
+    <item quantity="other">%1$d Minuten</item>
+    <item quantity="one">%1$d Minute</item>
+  </plurals>
+  <plurals name="time_duration_minute_standard">
+    <item quantity="other">%1$d-%2$d Minuten</item>
+    <item quantity="one">%1$d-%2$d Minute</item>
+  </plurals>
+  <plurals name="time_duration_time">
+    <item quantity="other">%1$d-mal</item>
+    <item quantity="one">%1$d-mal</item>
+  </plurals>
   <plurals name="times_format">
     <item quantity="other">%1$d-mal</item>
     <item quantity="one">%1$d-mal</item>
@@ -119,6 +211,10 @@
   <plurals name="unit_days">
     <item quantity="other">" Tage"</item>
     <item quantity="one">" Tag"</item>
+  </plurals>
+  <plurals name="unit_times">
+    <item quantity="other">"-mal"</item>
+    <item quantity="one">"-mal"</item>
   </plurals>
   <plurals name="user_age_display_format_year">
     <item quantity="other">%1$d Jahre alt</item>
