@@ -17,6 +17,7 @@
   <string name="abc_shareactionprovider_share_with">Teilen mit</string>
   <string name="abc_shareactionprovider_share_with_application">Teilen mit %s</string>
   <string name="abc_toolbar_collapse_description">Einklappen</string>
+  <string name="abnormal">Nicht so gut</string>
   <string name="actionbar_button_up_description">Zurück</string>
   <string name="activity_title_basic_info">Basisinfo</string>
   <string name="activity_title_exercise">Aktivität</string>
@@ -143,13 +144,13 @@ Wenn Sie sich entscheiden, Ihre Gesundheitsdaten zu löschen, nachdem Sie sich e
   <string name="date_format_m_d">d.M.</string>
   <string name="date_format_m_d_2">dd.MM.</string>
   <string name="date_format_m_d_3">dd.MM.</string>
-  <string name="date_format_mm_dd">dd. MMM</string>
-  <string name="date_format_mm_dd_2">dd.MM</string>
+  <string name="date_format_mm_dd">dd. MMM.</string>
+  <string name="date_format_mm_dd_2">dd.MM.</string>
   <string name="date_format_y_m">MMM. yyyy</string>
   <string name="date_format_y_m_d">dd.MM.yyyy</string>
-  <string name="date_format_y_m_d_2">dd. MMM yyyy</string>
+  <string name="date_format_y_m_d_2">dd. MMM. yyyy</string>
   <string name="date_format_y_m_d_h_m">dd.MM. yyyy HH:mm</string>
-  <string name="date_format_y_m_d_h_m_2">dd. MMM yyyy, HH:mm</string>
+  <string name="date_format_y_m_d_h_m_2">dd. MMM. yyyy, HH:mm</string>
   <string name="date_format_y_m_d_h_m_3">dd.MM.yyyy HH:mm</string>
   <string name="date_format_y_m_d_h_m_4">dd.MM.yyyy HH:mm:ss</string>
   <string name="date_format_y_m_d_h_m_s">dd.MM.yyyy HH:mm:ss</string>
@@ -290,6 +291,8 @@ Wenn es für Sie nach 30 Minuten im Bett immer noch schwierig ist, einzuschlafen
   <string name="fmt_date_numeric_month_day">d.M.</string>
   <string name="fmt_date_numeric_year_month">d.yyyy</string>
   <string name="fmt_date_numeric_year_month_day">d.M.yyyy</string>
+  <string name="fmt_date_short_month_day">d. MMM.</string>
+  <string name="fmt_date_short_year_month">MMM. yyyy</string>
   <string name="fmt_date_short_year_month_day">d. MMM. yyyy</string>
   <string name="fmt_time_12hour">"h 'Uhr'"</string>
   <string name="fmt_time_24hour">"H 'Uhr'"</string>
@@ -398,7 +401,6 @@ Wenn es für Sie nach 30 Minuten im Bett immer noch schwierig ist, einzuschlafen
   <string name="manual_page_label_measure_date">Wiegezeit</string>
   <string name="manual_page_measure_date_title">Datum und Zeit</string>
   <string name="mark_end">Periodenende</string>
-  <string name="mark_start">Start</string>
   <string name="max_altitude">Max. Höhe</string>
   <string name="max_heart_rate">Höchster Puls</string>
   <string name="maximum_pace">Höchstes Tempo</string>
@@ -412,8 +414,6 @@ Wenn es für Sie nach 30 Minuten im Bett immer noch schwierig ist, einzuschlafen
   <string name="member_name_select_purpose2">Benutzername zum Synchronisieren der Gesundheitsdaten wählen</string>
   <string name="menses_auto_start_description">Xiaomi Health wird automatisch durch Einschalten von Erinnerungen gestartet</string>
   <string name="menses_features_description">Ihre Perioden erfassen und Erinnerungen erhalten</string>
-  <string name="menstrual_assistant">Menstruation</string>
-  <string name="menstruation">Menstruation</string>
   <string name="menstruation_cycle">Menstruationszyklus</string>
   <string name="menstruation_cycle_description">Intervall zwischen den Startdaten von 2 aufeinander folgenden Zyklen</string>
   <string name="menstruation_days">Periodendauer</string>
@@ -525,7 +525,7 @@ Wenn es für Sie nach 30 Minuten im Bett immer noch schwierig ist, einzuschlafen
   <string name="rb_gender_male">Geschlecht: Männlich</string>
   <string name="reach_standard">Erfüllt Standard</string>
   <string name="recommand_body_weight_msg">Empfohlenes Sollgewicht: %1$.1f kg. BMI %2$.1f erreichen, um das Risiko von Herz-Kreislauf- und Lebererkrankungen zu reduzieren.</string>
-  <string name="recommend_sleep_goal">21:00 - 11:00</string>
+  <string name="recommend_sleep_goal">21:00-11:00</string>
   <string name="record_body_weight_button">Gewicht erfassen</string>
   <string name="record_detail_page_title">Details</string>
   <string name="recorded_menstruation">Erfasste Periode</string>
@@ -575,6 +575,7 @@ Wenn es für Sie nach 30 Minuten im Bett immer noch schwierig ist, einzuschlafen
   <string name="share">Teilen</string>
   <string name="skip">Überspringen</string>
   <string name="sleep">Schlafen</string>
+  <string name="sleep_and_get_up_time">Schlafenszeitplan</string>
   <string name="sleep_auto_start_perm_grant">Berechtigungen erteilt</string>
   <string name="sleep_chart_empty">Keine Daten</string>
   <string name="sleep_chart_loading">Einen Moment…</string>
@@ -607,6 +608,7 @@ Wenn dieses Problem häufig auftritt, überprüfen Sie Ihr Gerät auf geplante A
   <string name="sleep_detection_question_two_title">Sollte ich mich zur Analyse von Schlafzyklen mit dem Internet verbinden?</string>
   <string name="sleep_detector_content">Xiaomi Health verfolgt Ihren Schlaf im Hintergrund</string>
   <string name="sleep_detector_title">Schlaf verfolgen</string>
+  <string name="sleep_detector_unopened">Sie haben noch nicht begonnen, Ihren Schlaf zu verfolgen.</string>
   <string name="sleep_duration">Schlafdauer</string>
   <string name="sleep_duration_description">Die Schlafdauer ist die Zeit zwischen dem Schlafengehen und dem Aufstehen. Die Zeiten, in denen Sie während der Nacht aufwachen und dann wieder einschlafen, werden abgezogen.</string>
   <string name="sleep_detector_unopened">Sie haben noch nicht begonnen, Ihren Schlaf zu verfolgen.</string>
@@ -668,6 +670,7 @@ nicht gefunden"</string>
   <string name="snore_detection_abnormal_state">Sitzung wurde unterbrochen</string>
   <string name="snore_detection_abnormal_state_description">Mikrofon ist aus</string>
   <string name="snore_detection_close_title">Schnarch- und Sprecherkennung ausschalten?</string>
+  <string name="snore_detection_enable">Schnarch- und Sprecherkennung</string>
   <string name="snore_detection_guide_one_description">Der Ton wird aufgenommen, während Sie schlafen. Durch maschinelles Lernen kann Xiaomi Health Schnarchen, Sprechen und laute Geräusche erkennen und die Aufnahmen auf Ihrem Gerät speichern.</string>
   <string name="snore_detection_guide_one_title">Audio mit Mikrofon aufnehmen</string>
   <string name="snore_detection_guide_schedule_suggest">Das Mikrofon wird je nach Ihrer Schlafzeit ein- und ausgeschaltet. Stellen Sie Ihren Schlafplan so ein, dass er funktioniert</string>
@@ -920,6 +923,7 @@ auf Ihren persönlichen Daten beraten."</string>
   <string name="thursday">Donnerstag</string>
   <string name="thursday_short">Do</string>
   <string name="thursday_shortest">D</string>
+  <string name="time_duration_date">%1$s - %2$s</string>
   <string name="time_picker_dialog_title">Zeit einstellen</string>
   <string name="time_picker_label_hour">Std</string>
   <string name="time_picker_label_minute">Min</string>
@@ -951,6 +955,7 @@ auf Ihren persönlichen Daten beraten."</string>
   <string name="total_distance_label">Gesamtstrecke</string>
   <string name="total_time_label">Gesamtzeit</string>
   <string name="tracking_progress_labe_pull_to_refresh">Zum Aktualisieren ziehen</string>
+  <string name="tracking_progress_labe_refreshed">Aktualisieren abgeschlossen</string>
   <string name="tracking_progress_labe_refreshing">Aktualisieren</string>
   <string name="tracking_progress_labe_release_to_refresh">Zum Aktualisieren loslassen</string>
   <string name="tracking_progress_labe_up_nodata">keine Daten</string>
