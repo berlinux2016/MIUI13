@@ -246,7 +246,7 @@ Sie können eine andere Datenquelle in Mehr &gt; Datenquellen auswählen."</stri
   <string name="exercise_detail_no_steps_hint">"Ausgewählte Datenquelle (%1$s) liefert keine Informationen zur Schrittzahl.
 Sie können eine andere Datenquelle unter Mehr &gt; Datenquellen auswählen."</string>
   <string name="exercise_duration">Dauer der Übung</string>
-  <string name="exercise_duration_consume">Dauer: %1$d Min(Sek), %2$d kcal</string>
+  <string name="exercise_duration_consume">Dauer: %1$s, %2$s</string>
   <string name="exercise">Aktivität</string>
   <string name="exercise_goal_accomplished">Ziel erreicht</string>
   <string name="exercise_goal_lack_exercise">Nicht genügend Aktivität</string>
@@ -433,6 +433,9 @@ Wenn es für Sie nach 30 Minuten im Bett immer noch schwierig ist, einzuschlafen
   <string name="min_heart_rate">Niedrigster Puls</string>
   <string name="min_pace">Niedrigstes Tempo</string>
   <string name="minute">Min</string>
+  <string name="miuix_appcompat_cloud_state_disabled">Synchronisieren mit Cloud ist aus</string>
+  <string name="miuix_appcompat_cloud_state_finished">Mit Cloud synchronisiert</string>
+  <string name="miuix_appcompat_cloud_state_syncing">Mit Cloud synchronieren…</string>
   <string name="model_card_setting">Karteneinstellungen</string>
   <string name="modify">Bearbeiten</string>
   <string name="modify_end_date">Enddatum ändern</string>
@@ -594,6 +597,7 @@ Wenn es für Sie nach 30 Minuten im Bett immer noch schwierig ist, einzuschlafen
   <string name="sleep_detection_guide_one_title">Ihren Schlaf verfolgen</string>
   <string name="sleep_detection_guide_schedule_hint_one">"Ohne Schlafplan werden Ihre Statistiken nicht korrekt sein. "</string>
   <string name="sleep_detection_guide_schedule_hint_two">Legen Sie Ihren Schlafplan fest.</string>
+  <string name="sleep_detection_guide_schedule_hint_two_details">Es wird empfohlen, dass Sie zur Arbeit gehen und die Verwaltungseinstellungen der Uhr ruhen lassen.</string>
   <string name="sleep_detection_guide_three_description">"Wenn der Zeitplan für das Schlafengehen festgelegt wird, wird Ihr Schlaf automatisch verfolgt. "</string>
   <string name="sleep_detection_guide_three_title">Automatische Statistikgenerierung</string>
   <string name="sleep_detection_guide_two_description">Um genaue Werte zu erhalten, legen Sie Ihr Gerät neben oder unter das Kissen und achten Sie darauf, dass es nicht mehr als 50 cm von Ihrem Körper entfernt ist.</string>
@@ -676,6 +680,7 @@ nicht gefunden"</string>
   <string name="snore_detection_guide_one_description">Der Ton wird aufgenommen, während Sie schlafen. Durch maschinelles Lernen kann Xiaomi Health Schnarchen, Sprechen und laute Geräusche erkennen und die Aufnahmen auf Ihrem Gerät speichern.</string>
   <string name="snore_detection_guide_one_title">Audio mit Mikrofon aufnehmen</string>
   <string name="snore_detection_guide_schedule_suggest">Das Mikrofon wird je nach Ihrer Schlafzeit ein- und ausgeschaltet. Stellen Sie Ihren Schlafplan so ein, dass er funktioniert</string>
+  <string name="snore_detection_guide_schedule_suggest_details">Das Mikrofon wird gemäß Ihrem Schlafensplan ein- und ausgeschaltet. Es wird empfohlen, dass Sie zur Arbeit gehen und die Verwaltungseinstellungen der Uhr ruhen lassen.</string>
   <string name="snore_detection_guide_three_description">Stellen Sie sicher, dass Ihr Gerät ausreichend aufgeladen ist, bevor Sie zu Bett gehen. Eine schwacher Akku kann die Tonaufnahme unterbrechen.</string>
   <string name="snore_detection_guide_three_title">Halten Sie Ihr Gerät aufgeladen</string>
   <string name="snore_detection_guide_two_description">Das Mikrofon wird je nach Ihrer Schlafzeit ein- und ausgeschaltet.</string>
@@ -795,14 +800,15 @@ auf Ihren persönlichen Daten beraten."</string>
   <string name="tb_exercise_exercise_duration">Übungsdauer in Minuten: %1$d. %2$s. Tippen, um Details anzuzeigen.</string>
   <string name="tb_exercise_exercise_no_data">Keine Angaben zur Übungsdauer</string>
   <string name="tb_exercise_goal_info">Tägliches Aktivitätsziel: %1$s. %2$s</string>
+  <string name="tb_exercise_home_banner">Täglicher Gesundheitscheck</string>
   <string name="tb_exercise_label_close">Aufforderung beenden</string>
   <string name="tb_exercise_list_add">Übungsstatistiken hinzufügen</string>
   <string name="tb_exercise_list_consume">Verbrannte Kalorien: %1$d. Endzeit: %2$s. Tippen, um Details anzuzeigen.</string>
   <string name="tb_exercise_list_sport">%1$s. Entfernung in Kilometer: %2$s. Endzeit: %3$s. Datenquelle: %4$s. Tippen, um Details anzuzeigen.</string>
   <string name="tb_exercise_list_sport_one">%1$s. Dauer: %2$s. Endzeit: %3$s. Datenquelle: %4$s. v</string>
   <string name="tb_exercise_list_walk">Schrittzahl: %1$s. Endzeit: %2$s. Tippen, um Details anzuzeigen.</string>
-  <string name="tb_exercise_sport_no_distance">%1$s. Dauer in Minuten: %2$d. Verbrannte Kalorien: %3$d.</string>
-  <string name="tb_exercise_sport_normal">%1$s. Entfernung in Kilometer %2$.1f. Dauer in Minuten: %3$d. Verbrannte Kalorien: %4$d.</string>
+  <string name="tb_exercise_sport_no_distance">%1$s. Dauer in Minuten: %2$s. Verbrannte Kalorien: %3$s.</string>
+  <string name="tb_exercise_sport_normal">%1$s. Entfernung %2$s. Dauer: %3$s. Verbrannte Kalorien: %4$s</string>
   <string name="tb_exercise_sport_sum">Übungsbericht %1$s. Tippen, um Details anzuzeigen.</string>
   <string name="tb_exercise_steps_no_data">Keine Schrittdaten. Aktuelles Ziel: %1$d. Tippen, um Details anzuzeigen.</string>
   <string name="tb_exercise_steps_no_goal">Schrittzahl: %1$d. Tippen, um Details anzuzeigen.</string>
