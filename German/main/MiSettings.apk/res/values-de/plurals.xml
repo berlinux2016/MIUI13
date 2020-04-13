@@ -1,8 +1,60 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+  <plurals name="a_hour_ago">
+    <item quantity="other">vor 1 Stunde</item>
+  </plurals>
+  <plurals name="abbrev_a_hour_ago">
+    <item quantity="other">vor 1 Stunde</item>
+  </plurals>
+  <plurals name="abbrev_half_hour_ago">
+    <item quantity="other">vor 1 halben Stunde</item>
+  </plurals>
+  <plurals name="abbrev_in_a_hour">
+    <item quantity="other">In 1 Stunde</item>
+  </plurals>
+  <plurals name="abbrev_in_half_hour">
+     <item quantity="other">In einer halben Stunde</item>
+  </plurals>
+  <plurals name="abbrev_in_less_than_one_minute">
+    <item quantity="other">Sofort</item>
+  </plurals>
+  <plurals name="abbrev_in_num_minutes">
+    <item quantity="one">in 1 Min</item>
+    <item quantity="other">in %d Min</item>
+  </plurals>
+  <plurals name="abbrev_less_than_one_minute_ago">
+    <item quantity="other">Gerade eben</item>
+  </plurals>
+  <plurals name="abbrev_num_minutes_ago">
+    <item quantity="one">vor 1 Minute</item>
+    <item quantity="other">vor 1 Minuten</item>
+  </plurals>
+  <plurals name="half_hour_ago">
+    <item quantity="other">Vor einer halben Stunde</item>
+  </plurals>
+  <plurals name="in_a_hour">
+    <item quantity="other">in 1 Stunde</item>
+  </plurals>
+  <plurals name="in_half_hour">
+    <item quantity="other">in einer halben Stunde</item>
+  </plurals>
+  <plurals name="in_less_than_one_minute">
+    <item quantity="other">Sofort</item>
+  </plurals>
+  <plurals name="in_num_minutes">
+    <item quantity="one">in 1 Minute</item>
+    <item quantity="other">in %d Minuten</item>
+  </plurals>
   <plurals name="last_several_days">
     <item quantity="other">%d Tage</item>
     <item quantity="one">%d Tag</item>
+  </plurals>
+  <plurals name="less_than_one_minute_ago">
+    <item quantity="other">Jetzt eben</item>
+  </plurals>
+  <plurals name="num_minutes_ago">
+    <item quantity="one">vor 1 Minute</item>
+    <item quantity="other">vor 1 Minuten</item>
   </plurals>
   <plurals name="steady_on_screen_notification_summary">
     <item quantity="other">Sie haben Ihr Gerät seit %d Minuten ohne Unterbrechungen benutzt</item>
@@ -27,6 +79,18 @@
   <plurals name="usage_days">
     <item quantity="other">%d Tage</item>
     <item quantity="one">%d Tag</item>
+  </plurals>
+  <plurals name="usage_new_home_avg_unlockc">
+    <item quantity="one">%.2f-mal im Durchschnitt pro Tag</item>
+    <item quantity="other">%.2f-mal im Durchschnitt pro Tag</item>
+  </plurals>
+  <plurals name="usage_new_home_total_unlocks">
+    <item quantity="one">%d-mal enstperrt</item>
+    <item quantity="other">%d-mal entsperrt</item>
+  </plurals>
+  <plurals name="usage_new_home_total_week_unlocks">
+    <item quantity="one">%d-mal enstperrt</item>
+    <item quantity="other">%d-mal enstperrt</item>
   </plurals>
   <plurals name="usage_remain_about_hour">
     <item quantity="other">≈ %s Std</item>
