@@ -1,5 +1,22 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+  <string name="abc_action_bar_home_description">Zur Startseite</string>
+  <string name="abc_action_bar_up_description">Nach oben</string>
+  <string name="abc_action_menu_overflow_description">Mehr Optionen</string>
+  <string name="abc_action_mode_done">Fertig</string>
+  <string name="abc_activity_chooser_view_see_all">Alle anzeigen</string>
+  <string name="abc_activitychooserview_choose_application">App wählen</string>
+  <string name="abc_capital_off">AUS</string>
+  <string name="abc_capital_on">EIN</string>
+  <string name="abc_search_hint">Suchen…</string>
+  <string name="abc_searchview_description_clear">Anfrage löschen</string>
+  <string name="abc_searchview_description_query">Suchanfrage</string>
+  <string name="abc_searchview_description_search">Suchen</string>
+  <string name="abc_searchview_description_submit">Anfrage absenden</string>
+  <string name="abc_searchview_description_voice">Sprachsuche</string>
+  <string name="abc_shareactionprovider_share_with">Teilen mit</string>
+  <string name="abc_shareactionprovider_share_with_application">Teilen mit %s</string>
+  <string name="abc_toolbar_collapse_description">Einklappen</string>
   <string name="allow">Erlauben</string>
   <string name="altitude_title">Höhe</string>
   <string name="altitude_uncalibrate_cancel">Abbrechen</string>
@@ -9,6 +26,7 @@
   <string name="app_description_content">Kompass wird für Navigation und Orientierung verwendet und zeigt Ihnen die Richtung. Vergewissern Sie sich, dass Sie auf diese Funktionen verzichten können, bevor Sie die App deinstallieren.</string>
   <string name="app_description_title">Über Kompass</string>
   <string name="app_label">Kompass</string>
+  <string name="app_name">Einstellung </string>
   <string name="calibrate_failed">Kalibrieren der Höhe fehlgeschlagen</string>
   <string name="calibrate_failed_no_location">Kalibrierung fehlgeschlagen</string>
   <string name="calibrate_failed_timeout">Verbindung zum Server fehlgeschlagen</string>
@@ -18,6 +36,7 @@
   <string name="calibrate_title">Kompass kalibrieren</string>
   <string name="cancel">Abbrechen</string>
   <string name="compass_settings">Einstellungen</string>
+  <string name="copy">Kopieren</string>
   <string name="cta_v2_app_purpose">Anzeige von Richtungen, Koordinaten, Atmosphärendruck und aktueller Höhe</string>
   <string name="dialog_body_no_network">Verbinden Sie sich mit WLAN oder schalten Sie mobile Daten ein.</string>
   <string name="dialog_calibrat_altitude">Kalibrieren…</string>
@@ -28,6 +47,7 @@
   <string name="do_not_show_next_time">Nicht mehr anzeigen</string>
   <string name="error_camera_unavailable">Prüfen Sie, ob eine andere App die Kamera verwendet</string>
   <string name="error_camera_unavailable_title">Kamera nicht verfügbar</string>
+  <string name="expand_button_title">Erweitert</string>
   <string name="first_using_dialog_message">Kompass benötigt eine Netzwerkverbindung, die Kamera und den Standortservice, um ordnungsgemäß zu funktionieren</string>
   <string name="first_using_dialog_title">Zugriffsberechtigung</string>
   <string name="guide_toast">Zum Kalibrieren bewegen Sie Ihr Gerät wie unten gezeigt.</string>
@@ -40,15 +60,20 @@
   <string name="location_not_enabled_title">Standortdienste aktivieren</string>
   <string name="mobiledata_alert_dialog_message">Mit dem Internet verbinden, um die Höhe zu kalibrieren?</string>
   <string name="mobiledata_alert_dialog_title">Datenverbrauchswarnung</string>
+  <string name="not_set">Nicht festgelegt</string>
   <string name="open_perm_msg">Kompass benötigt Zugriff auf Standort und Kamera. Dies ist notwendig, um Koordinaten zu ermitteln und eine Live-Vorschau zu erstellen. Erlauben?</string>
   <string name="open_perm_title">Benötigte Berechtigungen</string>
   <string name="permission_camera_desc">Wasserwaage verwenden</string>
   <string name="permission_location_desc">Koordinaten und Luftdruck anzeigen</string>
+  <string name="preference_copied">\"%1$s\" in die Zwischenablage kopiert</string>
   <string name="preference_other">Andere</string>
   <string name="preference_privacy_title">Datenschutzerklärung</string>
   <string name="pressure_title">Druck</string>
+  <string name="search_menu_title">Suchen</string>
   <string name="shake_enter_tip">Zum Kalibrieren schütteln</string>
   <string name="unit_degree">Grad</string>
   <string name="using_camera_confirm_cancel">Beenden</string>
   <string name="using_camera_confirm_ok">Zustimmen</string>
+  <string name="v7_preference_off">AUS</string>
+  <string name="v7_preference_on">AN</string>
 </resources>
