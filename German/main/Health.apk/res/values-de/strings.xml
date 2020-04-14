@@ -41,6 +41,8 @@ um Karten hinzuzufügen"</string>
   <string name="add_record">Hinzufügen</string>
   <string name="added_data_source">Quellen hinzugefügt</string>
   <string name="all_records">Alle Aufzeichnungen</string>
+  <string name="altitude">Höhe</string>
+  <string name="audio_record_permission_description">Zur Aufzeichnung von Sprechen und Schnarchen während der Schlafzyklusanalyse</string>
   <string name="auth_description">%1$s erlauben, Daten von den folgenden Geräten zu synchronisieren</string>
   <string name="auto_start_fail">Berechtigung wurde nicht erteilt</string>
   <string name="auto_start_success">Berechtigung erfolgreich erteilt</string>
@@ -171,8 +173,10 @@ Wenn Sie sich entscheiden, Ihre Gesundheitsdaten zu löschen, nachdem Sie sich e
   <string name="delete_all_data_sources_description">Alle hinzugefügten Datenquellen löschen?</string>
   <string name="delete_menstruation_record_confirm">Diese Aufzeichnung löschen?</string>
   <string name="delete_origin_data_description">Alle von %1$s generierten Daten löschen?</string>
+  <string name="detection_stop">Diese Sitzung endet, wenn Sie aufstehen</string>
   <string name="device_data_manage">Geräte verwalten</string>
   <string name="device_data_sync">Gesundheitsdaten synchronisieren</string>
+  <string name="device_description">Dieses Gerät ist mit Mi-Konto %s verbunden. Wenn Sie das von Ihnen benötigte Gerät nicht finden, fügen Sie es erst in Mi Fit oder Xiaomi Wear hinzu.</string>
   <string name="device_list_origin_description">Diese Geräte sind mit dem Mi-Konto %1$s verbunden. Wenn Sie das benötigte Gerät hier nicht finden, stellen Sie sicher, dass Sie es bereits in der entsprechenden App hinzugefügt haben.</string>
   <string name="device_off_sync_description">Auf diesem Gerät generierte Gesundheitsdaten werden nicht mit Xiaomi Health synchronisiert.</string>
   <string name="diagnosis_log_send_failed">Diagnoseprotokoll senden fehlgeschlagen</string>
@@ -182,7 +186,9 @@ Bitte senden Sie dem Techniker diesen Code."</string>
   <string name="dialog_abandon">Verwerfen</string>
   <string name="dialog_abandon_sleep_edit">Änderungen verwerfen?</string>
   <string name="dialog_account_perm_desc">Zum Zugriff auf Ihr Mi-Konto</string>
+  <string name="dialog_agree">Zustimmen</string>
   <string name="dialog_agree_and_continue">Zustimmen</string>
+  <string name="dialog_allow">Erlauben</string>
   <string name="dialog_auto_start_detail">"Xiaomi Health den Autostart erlauben, um Benachrichtigungen zu erhalten.
 Xiaomi Health wird Sie nur über wichtige Dinge informieren."</string>
   <string name="dialog_auto_start_title">Xiaomi Health den Autostart erlauben</string>
@@ -248,6 +254,7 @@ Sie können eine andere Datenquelle unter Mehr &gt; Datenquellen auswählen."</s
   <string name="exercise_duration">Dauer der Übung</string>
   <string name="exercise_duration_consume">Dauer: %1$s, %2$s</string>
   <string name="exercise">Aktivität</string>
+  <string name="exercise_goal">Aktivitätsziel</string>
   <string name="exercise_goal_accomplished">Ziel erreicht</string>
   <string name="exercise_goal_lack_exercise">Nicht genügend Aktivität</string>
   <string name="exercise_goal_not_accomplished">Ziel nicht erreicht</string>
@@ -617,6 +624,7 @@ Wenn dieses Problem häufig auftritt, überprüfen Sie Ihr Gerät auf geplante A
   <string name="sleep_detector_unopened">Sie haben noch nicht begonnen, Ihren Schlaf zu verfolgen.</string>
   <string name="sleep_duration">Schlafdauer</string>
   <string name="sleep_duration_description">Die Schlafdauer ist die Zeit zwischen dem Schlafengehen und dem Aufstehen. Die Zeiten, in denen Sie während der Nacht aufwachen und dann wieder einschlafen, werden abgezogen.</string>
+  <string name="sleep_duration_enough_description">Sie hatten genug Schlaf.</string>
   <string name="sleep_duration_everyday">Tägliche Schlafdauer</string>
   <string name="sleep_duration_fewer_description">Sie haben weniger als 7 Stunden geschlafen. Es wäre besser für Sie, mehr zu schlafen.</string>
   <string name="sleep_duration_insufficient_description">Weniger als 6 Stunden Schlaf ist für Sie zu wenig.</string>
