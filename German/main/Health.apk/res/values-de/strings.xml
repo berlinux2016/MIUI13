@@ -18,6 +18,8 @@
   <string name="abc_shareactionprovider_share_with_application">Teilen mit %s</string>
   <string name="abc_toolbar_collapse_description">Einklappen</string>
   <string name="abnormal">Nicht so gut</string>
+  <string name="achieve_goals">Ziel erreicht</string>
+  <string name="achieve_stand_goals">Stehziel erreichen</string>
   <string name="actionbar_button_up_description">Zurück</string>
   <string name="activity_title_basic_info">Basisinfo</string>
   <string name="activity_title_exercise">Aktivität</string>
@@ -41,7 +43,9 @@ um Karten hinzuzufügen"</string>
   <string name="add_record">Hinzufügen</string>
   <string name="added_data_source">Quellen hinzugefügt</string>
   <string name="all_records">Alle Aufzeichnungen</string>
+  <string name="allow_notice_periods">Erinnerungen an Periode zulassen</string>
   <string name="altitude">Höhe</string>
+  <string name="audio_record_perm_description">Schnarchen und Träumen im Schlaf aufzeichnen</string>
   <string name="audio_record_permission_description">Zur Aufzeichnung von Sprechen und Schnarchen während der Schlafzyklusanalyse</string>
   <string name="auth_description">%1$s erlauben, Daten von den folgenden Geräten zu synchronisieren</string>
   <string name="auto_start_fail">Berechtigung wurde nicht erteilt</string>
@@ -51,6 +55,7 @@ um Karten hinzuzufügen"</string>
   <string name="average_menstruation_days">Ø-Periodendauer</string>
   <string name="avg_altitude">Ø-Höhe</string>
   <string name="avg_day">Durchschnitt</string>
+  <string name="avg_finish_stand">Durchschnittliches tägliches Stehen</string>
   <string name="avg_heart_rate">Ø-Puls</string>
   <string name="avg_steps">Tägliche Schritte</string>
   <string name="awake_count">Aufgewacht</string>
@@ -111,15 +116,22 @@ um Karten hinzuzufügen"</string>
   <string name="character_counter_overflowed_content_description">Zeichenlimit überschritten: %1$d von %2$d</string>
   <string name="chart_no_data">Keine Daten</string>
   <string name="chip_text">Chiptext</string>
+  <string name="clear">Löschen</string>
   <string name="clear_text_end_icon_content_description">Text löschen</string>
   <string name="clearable_edittext_clear_description">Löschen</string>
+  <string name="click_finish_stand">Tippen, um Stehen zu beenden</string>
   <string name="climb">Treppensteigen</string>
   <string name="climbing">Klettern</string>
   <string name="close">Ausschalten</string>
   <string name="close_once">Einmal ausschalten</string>
+  <string name="close_stand_detection_tip">Steherinnerung ist ausgeschaltet, verpassen Sie nicht das Stehen und Aufzeichnen nach dem Einschalten</string>
+  <string name="close_stand_notice_and_detection_tip">Steherkennung und -erinnerung sind ausgeschaltet</string>
+  <string name="close_stand_notice_tip">Steherkennung wurde abgeschaltet, automatische Erkennung nach Öffnen ist problemloser</string>
   <string name="collect_diagnosis_log">Diagnoseprotokoll erfassen</string>
   <string name="complete_preference_basic_info">Vervollständigen Sie Ihr Profil</string>
   <string name="completed">"Abgeschlossen "</string>
+  <string name="completed_stand">Stehen abgeschlossen</string>
+  <string name="confirm_opening">Öffnen bestätigen</string>
   <string name="copy">Kopieren</string>
   <string name="copy_done">Erfolgreich kopiert</string>
   <string name="cross_hiking">Wandern</string>
@@ -133,6 +145,7 @@ um Karten hinzuzufügen"</string>
   <string name="data">Daten</string>
   <string name="data_account_info_loading">Kontoinfo abrufen…</string>
   <string name="data_delete_tip">Gesundheitsdaten von diesem Gerät löschen…</string>
+  <string name="data_details">Datendetails</string>
   <string name="data_empty">Keine Daten</string>
   <string name="data_safety_tip_details">Ihre Gesundheitsdaten werden auf diesem Gerät gespeichert, wenn Sie sich abmelden. Sie können Ihre Gesundheitsdaten unter Health &gt; Datenquellen löschen.</string>
   <string name="data_safety_tip_details2">"Einige Ihrer Gesundheitsdaten wurden in die Cloud hochgeladen. Sie können wählen, ob Sie Ihre Gesundheitsdaten auf diesem Gerät behalten oder löschen möchten. Wenn Sie unten \" Löschen\" auswählen, werden nur die Daten von diesem Gerät gelöscht, synchronisierte Elemente werden weiterhin in der Cloud gespeichert.
@@ -143,6 +156,7 @@ Wenn Sie sich entscheiden, Ihre Gesundheitsdaten zu löschen, nachdem Sie sich e
   <string name="data_source_list_description">"Xiaomi Health erhält Gesundheitsdaten (%1$s) aus diesen Quellen. Wenn die Daten in mehreren Quellen dupliziert werden, sehen Sie die Daten aus den Quellen, die in der Liste in Xiaomi Health an erster Stelle stehen."</string>
   <string name="data_source_manage">Datenquellen verwalten</string>
   <string name="data_source_not_support_hm_description">%1$s liefert keine detaillierte Schrittzahl. Sie können versuchen, auf andere Datenquellen in Weiteres &gt; Datenquellen umzuschalten.</string>
+  <string name="date">Datum</string>
   <string name="date_format_m_d">d.M.</string>
   <string name="date_format_m_d_2">dd.MM.</string>
   <string name="date_format_m_d_3">dd.MM.</string>
@@ -172,6 +186,7 @@ Wenn Sie sich entscheiden, Ihre Gesundheitsdaten zu löschen, nachdem Sie sich e
   <string name="delete_all_data_sources_description">Alle hinzugefügten Datenquellen löschen?</string>
   <string name="delete_menstruation_record_confirm">Diese Aufzeichnung löschen?</string>
   <string name="delete_origin_data_description">Alle von %1$s generierten Daten löschen?</string>
+  <string name="delete_record">Aufnahme löschen</string>
   <string name="detection_stop">Diese Sitzung endet, wenn Sie aufstehen</string>
   <string name="device_data_manage">Geräte verwalten</string>
   <string name="device_data_sync">Gesundheitsdaten synchronisieren</string>
@@ -226,6 +241,7 @@ Lesen Sie unsere &lt;font color=\"#0000FF\">&lt;a href=\"%1$s\">Nutzervereinbaru
   <string name="dialog_sleep_purpose">Willkommen beim Xiaomi Health Schlafverfolgungsdienst! Mit diesem Dienst können Sie Ihren Schlaf erfassen und Ihre Schlafdaten verwalten. Xiaomi Health zeichnet Ihren Schlaf automatisch auf, je nach Telefonnutzung, Aktivitätsstatistik, Einschlaf- und Aufwachzeit. Um die Genauigkeit der Schlafdaten zu garantieren, benötigt Xiaomi Health die Erlaubnis zum Autostart.  Alle zugehörigen Daten werden lokal auf Ihrem Gerät gespeichert.</string>
   <string name="dialog_sleep_record_auto_start">Xiaomi Health den Autostart erlauben, um den Schlaf genauer zu verfolgen</string>
   <string name="dialog_user_agreement_purpose">Willkommen bei Xiaomi Health! Mit dieser App können Sie Schritte zählen, den Schlaf, die Perioden und das Gewicht verfolgen und Ihre Statistik mit der Cloud synchronisieren.</string>
+  <string name="dialog_user_agreement_purpose2">Willkommen bei Xiaomi Health! Sie können diese App für Sportschrittzählung, Schlaf, Menstruationsaufzeichnung, Gewichtsverfolgung, Xiaomi Health Cloud Service und andere Funktionen nutzen.</string>
   <string name="disable">Aus</string>
   <string name="drag_sort">Neuordnung</string>
   <string name="dream_talk">Im Schlaf gesprochen %1$s</string>
@@ -260,6 +276,8 @@ Sie können eine andere Datenquelle unter Mehr &gt; Datenquellen auswählen."</s
   <string name="exercise_info_tool_bar_title">Aktivität</string>
   <string name="exercise_information_label">Geben Sie Ihre Informationen an, um die Statistik genauer zu machen</string>
   <string name="exercise_intensity">Intensität</string>
+  <string name="exercise_motor_perception">KI-Bewegungswahrnehmung</string>
+  <string name="exercise_motor_perception_description">Offline-KI-Algorithmus verwenden, kombiniert mit Mobiltelefon-Sensoren und stromsparender Computertechnologie, um Ihre Bewegungen automatisch aufzuzeichnen</string>
   <string name="exercise_no_question">Warum können Sie Ihre Statistik nicht einsehen?</string>
   <string name="exercise_notification_content">%1$d Min (Sek) der Übung (%2$d kcal)</string>
   <string name="exercise_notification_meet_title">Heutige Schritte: %d, Ziel erreicht!</string>
@@ -290,6 +308,7 @@ Wenn es für Sie nach 30 Minuten im Bett immer noch schwierig ist, einzuschlafen
   <string name="feedback_permission_denied_msg">Xiaomi Health kann Protokolle nicht auf dem externen Speicher speichern. Xiaomi Health die erforderlichen Berechtigungen in den Einstellungen geben.</string>
   <string name="fewer">Wenig</string>
   <string name="finish">Ende</string>
+  <string name="finish_stand">Stehen beenden</string>
   <string name="finished_rate">%1$d%% abgeschlossen</string>
   <string name="fmt_date_long_month_day">d. MMMM</string>
   <string name="fmt_date_long_year_month">MMMM yyyy</string>
@@ -318,6 +337,7 @@ Wenn es für Sie nach 30 Minuten im Bett immer noch schwierig ist, einzuschlafen
   <string name="getUp_time_late_description">Sie sind spät aufgestanden. Verschlafen bringt keine wesentlichen Vorteile für Ihre Gesundheit.</string>
   <string name="getUp_time_normal_description">Sie sind pünktlich aufgestanden. Weiter so!</string>
   <string name="go_back_to_today">Zurück zu heute</string>
+  <string name="go_on">Fortfahren</string>
   <string name="go_open_sleep_detector">Starten</string>
   <string name="go_setting">Einstellungen</string>
   <string name="go_to_open">Einschalten</string>
@@ -408,6 +428,7 @@ Wenn es für Sie nach 30 Minuten im Bett immer noch schwierig ist, einzuschlafen
   <string name="manual_page_label_body_weight_select">Gewicht eingeben</string>
   <string name="manual_page_label_measure_date">Wiegezeit</string>
   <string name="manual_page_measure_date_title">Datum und Zeit</string>
+  <string name="manual_record">Manuell aufzeichnen</string>
   <string name="mark_end">Periodenende</string>
   <string name="max_altitude">Max. Höhe</string>
   <string name="max_heart_rate">Höchster Puls</string>
@@ -453,6 +474,7 @@ Wenn es für Sie nach 30 Minuten im Bett immer noch schwierig ist, einzuschlafen
   <string name="month_february">Februar</string>
   <string name="month_january">Januar</string>
   <string name="month_july">Juli</string>
+  <string name="month_june">Juni</string>
   <string name="month_march">März</string>
   <string name="month_march_short">Mär</string>
   <string name="month_may">Mai</string>
@@ -481,6 +503,7 @@ Wenn es für Sie nach 30 Minuten im Bett immer noch schwierig ist, einzuschlafen
   <string name="no_data">Keine Daten</string>
   <string name="no_records">Noch keine Einträge vorhanden</string>
   <string name="no_snore">Sie haben im Schlaf nicht geschnarcht oder gesprochen</string>
+  <string name="not_achieve_stand_goals">Stehziel nicht erreicht</string>
   <string name="not_added">Nicht hinzugefügt</string>
   <string name="not_open_auto_sync">Synchronisation ist aus</string>
   <string name="not_set">Nicht eingestellt</string>
@@ -488,9 +511,11 @@ Wenn es für Sie nach 30 Minuten im Bett immer noch schwierig ist, einzuschlafen
   <string name="not_up_to_standard">Unterhalb der Norm</string>
   <string name="open">Einschalten</string>
   <string name="open_data_sync_description">Cloud-Synchronisation einschalten, um Gesundheitsdaten aus anderen Quellen zu synchronisieren</string>
+  <string name="open_stand_assistant">Tippen, um Stehassistent zu öffnen</string>
   <string name="open_swimming">Schwimmen im offenen Wasser</string>
   <string name="open_sync">Synchronisation einschalten</string>
   <string name="open_unrestricted_permissions">Xiaomi Health immer im Hintergrund laufen lassen, um den Schlaf genauer zu verfolgen</string>
+  <string name="origin">Herkunft</string>
   <string name="other_can_add_data_source">Verfügbare Quellen</string>
   <string name="outdoor_riding">Radfahren draußen</string>
   <string name="outdoor_running">Laufen</string>
@@ -503,6 +528,7 @@ Wenn es für Sie nach 30 Minuten im Bett immer noch schwierig ist, einzuschlafen
   <string name="permission_check_result_failed">Einrichtung nicht möglich</string>
   <string name="permission_manage">Berechtigungen verwalten</string>
   <string name="permission_tip">Xiaomi Health folgende Berechtigungen erteilen, damit es Ihren Schlaf genau verfolgen kann</string>
+  <string name="phone_detection">Telefonerkennung</string>
   <string name="picker_day">Ausgewählter Tag: %1$d. Zum Auswählen vertikal wischen.</string>
   <string name="picker_month">Ausgewählter Monat: %1$d. Zum Auswählen vertikal wischen.</string>
   <string name="picker_year">Ausgewähltes Jahr: %1$d. Zum Auswählen vertikal wischen.</string>
@@ -573,6 +599,7 @@ Wenn es für Sie nach 30 Minuten im Bett immer noch schwierig ist, einzuschlafen
   <string name="sedentary_time_is_too_long">Zeit, sich zu bewegen! Etwas Wasser trinken und spazieren gehen.</string>
   <string name="sedentary_title">An Bewegung erinnern</string>
   <string name="sedentary_toggle_content">Xiaomi Health wird Sie daran erinnern, aufzustehen und zu gehen, wenn Sie über einen längeren Zeitraum inaktiv waren.</string>
+  <string name="sedentaty_hazard_description">Bewegungsmangel verursacht viele Gesundheitsprobleme. Stehen Sie mind. 1 Minute pro Stunde, und erreichen Sie das Ziel von 12 Stunden Stehen pro Tag, fernab von sitzenden Tätigkeiten.</string>
   <string name="send_diagnosis_log">Diagnoseprotokoll senden</string>
   <string name="sending">Senden…</string>
   <string name="select_target">Ziel auswählen</string>
@@ -739,6 +766,21 @@ können Ihre Gesundheit verbessern."</string>
 und Sie werden basierend
 auf Ihren persönlichen Daten beraten."</string>
   <string name="sport_type">Workout-Typ</string>
+  <string name="stand">Stehen</string>
+  <string name="stand_assistant">Stehassistent</string>
+  <string name="stand_detection">Steherkennung</string>
+  <string name="stand_guide_page_title1">Stehziel jeden Tag vervollständigen und sich von sitzenden Tätigkeiten fernhalten</string>
+  <string name="stand_guide_page_title2">Automatische Erkennung, Aufzeichnung und Erinnerung ans Stehen</string>
+  <string name="stand_notice">Stehbenachrichtigung</string>
+  <string name="stand_notice_subtitle1">%1$s-%2$s haben das Stehen nicht erkannt. Wenn Sie bereits stehen, tippen Sie auf Beenden.</string>
+  <string name="stand_notice_subtitle2">Wenn Sie bereits gestanden haben, tippen Sie bitte zum Abschließen. Sie sind nicht aufgestanden und haben sich nicht gestreckt.</string>
+  <string name="stand_notice_title1">Aufstehen und aktiv werden!</string>
+  <string name="stand_notice_title2">Stehbenachrichtigung</string>
+  <string name="stand_notice_title3">Längeres Sitzen</string>
+  <string name="stand_notice_title4">Aufstehen und strecken</string>
+  <string name="stand_notice_title5">Seit fast 1 Stunde kein Stehen festgestellt</string>
+  <string name="stand_notice_title6">Gibt es in der letzten Stunde eine stehende Tätigkeit?</string>
+  <string name="stand_setting">Einstellungen Stehen</string>
   <string name="standard_format">(Normal: %1s)</string>
   <string name="state_agree">Zustimmen</string>
   <string name="state_auto_run_disenable">Aus</string>
@@ -776,6 +818,7 @@ auf Ihren persönlichen Daten beraten."</string>
   <string name="sync_status_never_done">Nicht synchronisiert</string>
   <string name="tb_audio_progress_bar">Audiowiedergabeleiste</string>
   <string name="tb_card_on_using_list">Hinzugefügt</string>
+  <string name="tb_click_finish_stand">Nicht beendetes Stehen seit fast 1 Stunde, tippen Sie zum Beenden des Stehens</string>
   <string name="tb_current_select">Aktuell %1$s ausgewählt</string>
   <string name="tb_date_label_info">Aktuell %1$s ausgewählt. Tippen, um das Datum zu ändern.</string>
   <string name="tb_deep_light_detection_main">Über die Schlafzyklus-Analyse: %1$s. Wischen Sie horizontal über den oberen Teil des Bildschirms, um zur nächsten Seite zu gelangen.</string>
@@ -877,6 +920,12 @@ auf Ihren persönlichen Daten beraten."</string>
   <string name="tb_sleep_ring_info">%1$s. Schlafen: %2$s. Tippen, um Details anzuzeigen.</string>
   <string name="tb_snore_detection_main">Über die Merkmale im Zusammenhang mit Sprechen und Schnarchen: %1%s. Horizontal über den oberen Teil des Bildschirms wischen, um zur nächsten Seite zu gelangen.</string>
   <string name="tb_snore_view_info">Sprech- und Schnarchdiagramm</string>
+  <string name="tb_stand_card_finish_stand">Heute wurden %1$s Stehen angesammelt. Ziel ist es, das Stehen mit 12 Stunden zu beenden. Die aktuelle Zeit ist %2$s-%3$s, und das Stehen wurde beendet.</string>
+  <string name="tb_stand_card_not_finish_stand">Heute wurden %1$s Stehen abgeschlossen. Ziel ist es, das Stehen mit 12 Stunden zu beenden. Die aktuelle Zeit ist %2$s-%3$s, und das Stehen ist noch nicht abgeschlossen.</string>
+  <string name="tb_stand_day_column_click">%1$s-%2$s Stehen wurden abgeschlossen (von %3$s)</string>
+  <string name="tb_stand_day_ring">Heute wurden %1$s angesammelt, um das Stehen abzuschließen. Ziel ist es, das Stehen mit 12 Stunden abzuschließen.</string>
+  <string name="tb_stand_wm_column_chart">%1$s-%2$s, Statistik Fertigstellung Stehzeit. Ziehen Sie nach links und rechts, um den Zeitbereich zu ändern, tippen Sie auf die Spalte, um Details anzuzeigen.</string>
+  <string name="tb_stand_wm_column_click">%1$s, Stehen %2$d, %3$s</string>
   <string name="tb_user_account_signed">Mi-Konto: %1$s.</string>
   <string name="tb_user_account_unsigned">Tippen, um sich mit dem Mi-Konto anzumelden</string>
   <string name="tb_user_sleep_card_info">Tägliches Schlafziel: %1$s.</string>
@@ -938,6 +987,7 @@ auf Ihren persönlichen Daten beraten."</string>
   <string name="thursday">Donnerstag</string>
   <string name="thursday_short">Do</string>
   <string name="thursday_shortest">D</string>
+  <string name="time">Zeit</string>
   <string name="time_duration_date">%1$s - %2$s</string>
   <string name="time_picker_dialog_title">Zeit einstellen</string>
   <string name="time_picker_label_hour">Std</string>
@@ -1008,6 +1058,7 @@ Jetzt aktualisieren?"</string>
   <string name="weight_trend_offset_date">"Von %1$s bis %2$s: "</string>
   <string name="weight_unit_kg">kg</string>
   <string name="well">Gut</string>
+  <string name="write_strorage_perm_description">Probleme aufzeichnen, auf die Sie bei der Verwendung gestoßen sind</string>
   <string name="xiaomi_update_sdk_bytes_unit">%1$s B</string>
   <string name="xiaomi_update_sdk_connect_download_manager_fail">Download-Manager verbinden fehlgeschlagen, bitte Download-Manager-Status in der App-Verwaltung prüfen</string>
   <string name="xiaomi_update_sdk_dialog_message">"Einführung der Version %1$s
