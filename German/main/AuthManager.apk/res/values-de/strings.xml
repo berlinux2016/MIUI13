@@ -1,5 +1,28 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+
+
+  <string name="HIPS_Perm_Intl_group_desc_audio_recorder">Audioaufzeichnung und Telefonieren</string>
+  <string name="HIPS_Perm_Intl_group_desc_auto_start">Automatisches Starten von Apps im Hintergrund</string>
+  <string name="HIPS_Perm_Intl_group_desc_calendar">Zugriff auf Kalenderereignisse</string>
+  <string name="HIPS_Perm_Intl_group_desc_call_log">Zugriff auf und Bearbeitung der Anrufverlaufs</string>
+  <string name="HIPS_Perm_Intl_group_desc_camera">Fotografieren und Videos aufnehmen</string>
+  <string name="HIPS_Perm_Intl_group_desc_contact">Bearbeiten und Löschen von Kontakten</string>
+  <string name="HIPS_Perm_Intl_group_desc_location">Zugriff auf den genauen Standort (GPS und netzwerkbasiert)</string>
+  <string name="HIPS_Perm_Intl_group_desc_storage">Hinzufügen und Löschen von Dateien auf dem internen Gerätspeicher</string>
+  <string name="HIPS_Perm_Intl_group_name_audio_recorder">Mikrofon</string>
+  <string name="HIPS_Perm_Intl_group_name_auto_start">Autostart</string>
+  <string name="HIPS_Perm_Intl_group_name_calendar">Kalenderder</string>
+  <string name="HIPS_Perm_Intl_group_name_call_log">Anrufverlauf</string>
+  <string name="HIPS_Perm_Intl_group_name_camera">Kamera</string>
+  <string name="HIPS_Perm_Intl_group_name_contact">Kontakte</string>
+  <string name="HIPS_Perm_Intl_group_name_location">Standort</string>
+  <string name="HIPS_Perm_Intl_group_name_storage">Speicher</string>
+  <string name="permission_group_title_sensitive_privacy_related">Sensible Berechtigungen</string>
+  <string name="permission_list_include">"Einschließlich der Folgenden:
+"</string>
+
+
   <string name="HIPS_Action_Accept">Erlauben</string>
   <string name="HIPS_Action_Accept_Once">Einmal erlauben</string>
   <string name="HIPS_Action_Reject">Verweigern</string>
@@ -16,10 +39,10 @@
   <string name="HIPS_Perm_Calendar_Desc">Ihre Kalendereinträge lesen</string>
   <string name="HIPS_Perm_Call">Anrufe machen</string>
   <string name="HIPS_Perm_CallLog">Anrufliste schreiben und löschen</string>
-  <string name="HIPS_Perm_CallLog_Desc">Anrufliste schreiben und löschen</string>
+  <string name="HIPS_Perm_CallLog_Desc">Anrufliste berbeiten</string>
   <string name="HIPS_Perm_Call_Desc">Telefonnummern direkt anrufen</string>
   <string name="HIPS_Perm_Contact">Kontakte ändern und löschen</string>
-  <string name="HIPS_Perm_Contact_Desc">Kontakte ändern und löschen</string>
+  <string name="HIPS_Perm_Contact_Desc">Kontakte bearbeiten</string>
   <string name="HIPS_Perm_clipboard">Zwischenablage</string>
   <string name="HIPS_Perm_clipboard_Desc">Zugriff auf und Änderung von Inhalten in der Zwischenablage</string>
   <string name="HIPS_Perm_deamon_notification">Dauerhafte Benachrichtigung</string>
@@ -86,7 +109,7 @@
   <string name="app_name">Rechtemanager</string>
   <string name="background_location_access_reminder_notification_content">Diese App hat jederzeit Zugriff auf Ihren Standort. Zum Ändern hier tippen.</string>
   <string name="background_location_access_reminder_notification_title">%s hat Ihren Standort genutzt</string>
-  <string name="current_permission_template">%1$s von %2$s</string>
+
   <string name="default_permission_description">unbekannte Aktionen ausführen</string>
   <string name="grant_dialog_button_allow">Erlauben</string>
   <string name="grant_dialog_button_allow_always">Immer erlauben</string>
@@ -147,9 +170,9 @@
   <string name="screen_overlay_message">Um diese Berechtigung zu ändern, müssen Sie das Bildschirmfenster unter Einstellungen &gt; Apps ausschalten.</string>
   <string name="screen_overlay_title">Bildschirmfenster erkannt</string>
   <string name="virtual_reject_notice_content">Eine leere Antwort wurde an die App geschickt, um Ihre persönlichen Daten zu schützen.</string>
-  <string name="virtual_reject_notice_title_calendar">%1$s versucht, auf den Kalender zuzugreifen</string>
-  <string name="virtual_reject_notice_title_calllog">%1$s versucht, auf den Anrufverlauf zuzugreifen</string>
-  <string name="virtual_reject_notice_title_contacts">%1$s versucht, auf Kontakte zuzugreifen</string>
-  <string name="virtual_reject_notice_title_phonestate">%1$s versucht, auf Geräteinfos zuzugreifen</string>
-  <string name="virtual_reject_notice_title_sms">%1$s versucht, auf Nachrichten zuzugreifen</string>
+  <string name="virtual_reject_notice_title_calendar">Kalenderzugriff durch %1$s</string>
+  <string name="virtual_reject_notice_title_calllog">Anrufverlaufzugriff durch %1$s</string>
+  <string name="virtual_reject_notice_title_contacts">Kontaktzugriff durch %1$s</string>
+  <string name="virtual_reject_notice_title_phonestate">Geräteinfozugriff durch %1$s</string>
+  <string name="virtual_reject_notice_title_sms">Nachrichtenzugriff durch %1$s</string>
 </resources>
