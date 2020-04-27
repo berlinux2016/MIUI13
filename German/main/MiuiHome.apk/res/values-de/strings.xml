@@ -19,10 +19,8 @@
   <string name="abc_toolbar_collapse_description">Einklappen</string>
   <string name="accessibility_menu_item_split_disable">App unterstützt geteilten Bildschirm nicht</string>
   <string name="accessibility_menu_item_split_enable">App unterstützt geteilten Bildschirm</string>
-
-  <string name="accessibility_recent_task_enter">Opened Recents</string>
-  <string name="accessibility_recent_task_exit">Closed Recents</string>
-
+  <string name="accessibility_recent_task_enter">Aktuelle geöffnet</string>
+  <string name="accessibility_recent_task_exit">Aktuelle geschlossen</string>
   <string name="accessibility_recent_task_locked_state">Gesperrt</string>
   <string name="accessibility_recent_task_memory_info">RAM gesamt: %2$s | RAM verfügbar: %1$s. Doppeltippen zum Löschen.</string>
   <string name="accessibility_recent_task_unlocked_state">Entsperrt</string>
@@ -167,6 +165,7 @@
   <string name="content_description_for_shortcut_icon_checked">%1$s geprüft</string>
   <string name="content_description_shortcut_icon_unchecked">%1$s ungeprüft</string>
   <string name="content_description_workspace_thumbnail_item">Bildschirmvorschau, Seite %1$s</string>
+  <string name="copy">Kopieren</string>
   <string name="current_preview">Vorschau</string>
   <string name="current_wallpaper">Aktuell</string>
   <string name="custom_wallpaper_picker">Durchstöbern</string>
@@ -215,6 +214,7 @@
   <string name="emptyplaylist">Tippen, um Titel hinzuzufügen</string>
   <string name="enable_wallpaper_scroll">Hintergrundscrollen einschalten</string>
   <string name="encryption">Verschlüsselung</string>
+  <string name="expand_button_title">Erweitert</string>
   <string name="failed_to_delete_temporary">Löschen nicht möglich</string>
   <string name="failed_to_drop">Verschieben nicht möglich</string>
   <string name="failed_to_drop_widget_invalid">Widget fehlerhaft</string>
@@ -346,6 +346,14 @@
   <string name="minus_one_screen">Infoassistent</string>
   <string name="minus_one_screen_none">Nichts anzeigen</string>
   <string name="miui_screen_config_title">Einstellungen Startbildschirm</string>
+  <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Zum Aktualisieren herunterziehen</string>
+  <string name="miuix_sbl_tracking_progress_labe_refreshed">Erfolgreich aktualisiert</string>
+  <string name="miuix_sbl_tracking_progress_labe_refreshing">Aktualisieren…</string>
+  <string name="miuix_sbl_tracking_progress_labe_release_to_refresh">Zum Aktualisieren loslassen</string>
+  <string name="miuix_sbl_tracking_progress_labe_up_nodata">Das ist im Moment alles.</string>
+  <string name="miuix_sbl_tracking_progress_labe_up_none">Das ist im Moment alles.</string>
+  <string name="miuix_sbl_tracking_progress_labe_up_refresh">Einen Moment…</string>
+  <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Element laden nicht möglich</string>
   <string name="mtzgadget_missing_text">Widget nicht verfügbar</string>
   <string name="multi_selecting_tips">Symbol berühren, um App auszuwählen</string>
   <string name="navigation_guide_hide_gesture_line_summary">Keine Vollbildanzeige bei Verwendung von Vollbildgesten</string>
@@ -354,6 +362,7 @@
   <string name="no_space_toast">Nicht genug Platz</string>
   <string name="no_space_toast_when_click_widget">Nicht genug Platz auf dieser Seite. Versuchen, dieses Element auf eine andere Seite zu ziehen.</string>
   <string name="normal_wallpaper">Hintergrundbild</string>
+  <string name="not_set">Nicht festgelegt</string>
   <string name="notification_installed">Erfolgreich installiert</string>
   <string name="notification_open_button">Öffnen</string>
   <string name="notification_reset_description">%1$s kann den Launcher auf %2$s zurücksetzen</string>
@@ -396,6 +405,7 @@
   <string name="pref_render_in_truecolor_title">Hochwertige Grafiken</string>
   <string name="pref_screen_transformation_type_title">Übergangseffekte</string>
   <string name="pref_wallpaper_scroll_type_title">Hintergrundausrichtung</string>
+  <string name="preference_copied">\"%1$s\" in Zwischenablage kopiert.</string>
   <string name="preferences_general_title">Erweiterte Einstellungen</string>
   <string name="preferences_title">Launchereinstellungen</string>
   <string name="preferred_app_settings_not_selected">Nichts ausgewählt</string>
@@ -416,6 +426,7 @@
   <string name="recents_exit_multi_window_mode">Beenden</string>
   <string name="recents_forbid_dock_when_screening_toast_text">Während der Übertragung geteilter Bildschirm nicht möglich.</string>
   <string name="recents_incompatible_app_message">Diese App unterstützt den geteilten Bildschirm nicht</string>
+  <string name="recents_smallwindow_text">Zum Hinzufügen freigeben</string>
   <string name="recents_task_screening">Übertragung</string>
   <string name="recents_title_app_manager">Apps verwalten</string>
   <string name="recents_title_game">Spiele</string>
@@ -423,6 +434,7 @@
   <string name="recents_title_garbage_deepclean">Tiefenreinigung</string>
   <string name="recents_title_market">Apps finden</string>
   <string name="recents_title_security_scan">Sicherheitsscan</string>
+  <string name="recents_tv_small_window_text">Popups</string>
   <string name="recommend_app">App-Vorschläge</string>
   <string name="recommend_apps_default_title">Leer</string>
   <string name="recommend_apps_no_data">Keine Daten</string>
@@ -469,6 +481,13 @@
   <string name="show_mem_info_title">RAM-Infos anzeigen</string>
   <string name="show_most_popular_apps_you_used">Am häufigsten verwendete Apps im Drawer anzeigen</string>
   <string name="show_recents_recommend_title">Empfehlungsleiste anzeigen</string>
+  <string name="small_window_button_complete">Fertig</string>
+  <string name="small_window_edit_content">Sie können bis zu %d Apps hinzufügen</string>
+  <string name="small_window_edit_title">Aktuelle Apps</string>
+  <string name="small_window_empty">Aus verfügbaren Apps auswählen</string>
+  <string name="small_window_select_title">Verfügbare Apps</string>
+  <string name="small_window_title_text">Tippen, um ein Popup zu öffnen</string>
+  <string name="small_window_toast">Sie können bis zu %d Apps hinzufügen</string>
   <string name="sort_by_abc">Nach Name sortieren</string>
   <string name="sort_by_frequency">Nach Nutzung sortieren</string>
   <string name="sort_by_not_defined">Autom. Sortierung</string>
@@ -518,6 +537,8 @@
   <string name="use_theme_screen_cells_title">Erlaubt dem Thema, das Bildschirmlayout zu überschreiben</string>
   <string name="user_query_notification_text">Ist die Desktop-Bedienung komfortabel? Wird die Animation flüssig dargestellt? Erzählen Sie uns von der Teilnahme an der Umfrage!</string>
   <string name="user_query_notification_title">Der MIUI System-Desktop lädt Sie zur Teilnahme an der Nutzungsumfrage ein</string>
+  <string name="v7_preference_off">AUS</string>
+  <string name="v7_preference_on">EIN</string>
   <string name="wallpaper">Hintergrund</string>
   <string name="wallpaper_auto_change_title">Bildschirmsperre</string>
   <string name="wallpaper_failed_message">Hintergrund wurde nicht angewendet</string>
