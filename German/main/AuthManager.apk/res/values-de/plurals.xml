@@ -1,19 +1,31 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-    <plurals name="days">
-        <item quantity="other">%s Tage</item>
-        <item quantity="one">%s Tag</item>
-    </plurals>
-    <plurals name="hours">
-        <item quantity="other">%s Stunden</item>
-        <item quantity="one">%s Stunde</item>
-    </plurals>
-    <plurals name="minutes">
-        <item quantity="other">%s Minuten</item>
-        <item quantity="one">%s Minute</item>
-    </plurals>
-    <plurals name="seconds">
-        <item quantity="other">%s Sekunden</item>
-        <item quantity="one">%s Sekunde</item>
-    </plurals>
+  <plurals name="data_item_count_pair">
+    <item quantity="other">%1$d/%2$d Elemente</item>
+    <item quantity="one">%1$d/%2$d Element</item>
+  </plurals>
+  <plurals name="days">
+    <item quantity="other">%s Tage</item>
+    <item quantity="one">%s Tag</item>
+  </plurals>
+  <plurals name="hours">
+    <item quantity="other">%s Stunden</item>
+    <item quantity="one">%s Stunde</item>
+  </plurals>
+  <plurals name="minutes">
+    <item quantity="other">%s Minuten</item>
+    <item quantity="one">%s Minute</item>
+  </plurals>
+  <plurals name="new_task_backup_failed">
+    <item quantity="other">Erfolgreich gesichert. %d Elemente sichern nicht möglich.</item>
+    <item quantity="one">Erfolgreich gesichert. %d Element sichern nicht möglich.</item>
+  </plurals>
+  <plurals name="new_task_restore_failed">
+    <item quantity="other">Erfolgreich wiederhergestellt. %d Elemente wiederherstellen nicht möglich.</item>
+    <item quantity="one">Erfolgreich wiederhergestellt. %d Element wiederherstellen nicht möglich.</item>
+  </plurals>
+  <plurals name="seconds">
+    <item quantity="other">%s Sekunden</item>
+    <item quantity="one">%s Sekunde</item>
+  </plurals>
 </resources>

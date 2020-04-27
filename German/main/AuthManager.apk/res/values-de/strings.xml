@@ -1,28 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-
-
-  <string name="HIPS_Perm_Intl_group_desc_audio_recorder">Audioaufzeichnung und Telefonieren</string>
-  <string name="HIPS_Perm_Intl_group_desc_auto_start">Automatisches Starten von Apps im Hintergrund</string>
-  <string name="HIPS_Perm_Intl_group_desc_calendar">Zugriff auf Kalenderereignisse</string>
-  <string name="HIPS_Perm_Intl_group_desc_call_log">Zugriff auf und Bearbeitung der Anrufverlaufs</string>
-  <string name="HIPS_Perm_Intl_group_desc_camera">Fotografieren und Videos aufnehmen</string>
-  <string name="HIPS_Perm_Intl_group_desc_contact">Bearbeiten und Löschen von Kontakten</string>
-  <string name="HIPS_Perm_Intl_group_desc_location">Zugriff auf den genauen Standort (GPS und netzwerkbasiert)</string>
-  <string name="HIPS_Perm_Intl_group_desc_storage">Hinzufügen und Löschen von Dateien auf dem internen Gerätspeicher</string>
-  <string name="HIPS_Perm_Intl_group_name_audio_recorder">Mikrofon</string>
-  <string name="HIPS_Perm_Intl_group_name_auto_start">Autostart</string>
-  <string name="HIPS_Perm_Intl_group_name_calendar">Kalenderder</string>
-  <string name="HIPS_Perm_Intl_group_name_call_log">Anrufverlauf</string>
-  <string name="HIPS_Perm_Intl_group_name_camera">Kamera</string>
-  <string name="HIPS_Perm_Intl_group_name_contact">Kontakte</string>
-  <string name="HIPS_Perm_Intl_group_name_location">Standort</string>
-  <string name="HIPS_Perm_Intl_group_name_storage">Speicher</string>
-  <string name="permission_group_title_sensitive_privacy_related">Sensible Berechtigungen</string>
-  <string name="permission_list_include">"Einschließlich der Folgenden:
-"</string>
-
-
   <string name="HIPS_Action_Accept">Erlauben</string>
   <string name="HIPS_Action_Accept_Once">Einmal erlauben</string>
   <string name="HIPS_Action_Reject">Verweigern</string>
@@ -43,12 +20,24 @@
   <string name="HIPS_Perm_Call_Desc">Telefonnummern direkt anrufen</string>
   <string name="HIPS_Perm_Contact">Kontakte ändern und löschen</string>
   <string name="HIPS_Perm_Contact_Desc">Kontakte bearbeiten</string>
-  <string name="HIPS_Perm_clipboard">Zwischenablage</string>
-  <string name="HIPS_Perm_clipboard_Desc">Zugriff auf und Änderung von Inhalten in der Zwischenablage</string>
-  <string name="HIPS_Perm_deamon_notification">Dauerhafte Benachrichtigung</string>
-  <string name="HIPS_Perm_deamon_notification_Desc">Dauerhafte Benachrichtigungen anzeigen</string>
   <string name="HIPS_Perm_External_Storage">Zugriff auf und Ändern von Dateien im internen Speicher</string>
   <string name="HIPS_Perm_External_Storage_Desc">auf Dateien im internen Gerätespeicher zugreifen und sie ändern</string>
+  <string name="HIPS_Perm_Intl_group_desc_audio_recorder">Audioaufzeichnung und Telefonieren</string>
+  <string name="HIPS_Perm_Intl_group_desc_auto_start">Automatisches Starten von Apps im Hintergrund</string>
+  <string name="HIPS_Perm_Intl_group_desc_calendar">Zugriff auf Kalenderereignisse</string>
+  <string name="HIPS_Perm_Intl_group_desc_call_log">Zugriff auf und Bearbeitung der Anrufverlaufs</string>
+  <string name="HIPS_Perm_Intl_group_desc_camera">Fotografieren und Videos aufnehmen</string>
+  <string name="HIPS_Perm_Intl_group_desc_contact">Bearbeiten und Löschen von Kontakten</string>
+  <string name="HIPS_Perm_Intl_group_desc_location">Zugriff auf den genauen Standort (GPS und netzwerkbasiert)</string>
+  <string name="HIPS_Perm_Intl_group_desc_storage">Hinzufügen und Löschen von Dateien auf dem internen Gerätspeicher</string>
+  <string name="HIPS_Perm_Intl_group_name_audio_recorder">Mikrofon</string>
+  <string name="HIPS_Perm_Intl_group_name_auto_start">Autostart</string>
+  <string name="HIPS_Perm_Intl_group_name_calendar">Kalenderder</string>
+  <string name="HIPS_Perm_Intl_group_name_call_log">Anrufverlauf</string>
+  <string name="HIPS_Perm_Intl_group_name_camera">Kamera</string>
+  <string name="HIPS_Perm_Intl_group_name_contact">Kontakte</string>
+  <string name="HIPS_Perm_Intl_group_name_location">Standort</string>
+  <string name="HIPS_Perm_Intl_group_name_storage">Speicher</string>
   <string name="HIPS_Perm_Location">Standort abrufen</string>
   <string name="HIPS_Perm_Location_Desc">genauen Standort abrufen (GPS und netzwerkbasiert)</string>
   <string name="HIPS_Perm_PhoneID">Geräteinfo abrufen</string>
@@ -82,6 +71,10 @@
   <string name="HIPS_Perm_add_voicemail_Desc">Systemsprachnachrichten hinzufügen</string>
   <string name="HIPS_Perm_background_start_activity">Popup-Fenster anzeigen, während sie im Hintergrund läuft</string>
   <string name="HIPS_Perm_background_start_activity_Desc">Popup-Fenster anzeigen, während sie im Hintergrund läuft</string>
+  <string name="HIPS_Perm_clipboard">Zwischenablage</string>
+  <string name="HIPS_Perm_clipboard_Desc">Zugriff auf und Änderung von Inhalten in der Zwischenablage</string>
+  <string name="HIPS_Perm_deamon_notification">Dauerhafte Benachrichtigung</string>
+  <string name="HIPS_Perm_deamon_notification_Desc">Dauerhafte Benachrichtigungen anzeigen</string>
   <string name="HIPS_Perm_get_accounts">Kontozugriff auf dem Gerät</string>
   <string name="HIPS_Perm_get_accounts_Desc">auf alle auf dem Gerät gespeicherten Konten zugreifen</string>
   <string name="HIPS_Perm_get_installed_apps">Info über alle installierten Apps</string>
@@ -109,7 +102,7 @@
   <string name="app_name">Rechtemanager</string>
   <string name="background_location_access_reminder_notification_content">Diese App hat jederzeit Zugriff auf Ihren Standort. Zum Ändern hier tippen.</string>
   <string name="background_location_access_reminder_notification_title">%s hat Ihren Standort genutzt</string>
-
+  <string name="current_permission_template">%1$s von %2$s</string>
   <string name="default_permission_description">unbekannte Aktionen ausführen</string>
   <string name="grant_dialog_button_allow">Erlauben</string>
   <string name="grant_dialog_button_allow_always">Immer erlauben</string>
@@ -161,7 +154,10 @@
   <string name="permission_description_summary_storage">Apps mit dieser Berechtigung haben Zugriff auf Fotos, Medien und Dateien auf Ihrem Gerät</string>
   <string name="permission_group_title_charges_related">Kosten</string>
   <string name="permission_group_title_privacy_related">Datenschutz</string>
+  <string name="permission_group_title_sensitive_privacy_related">Sensible Berechtigungen</string>
   <string name="permission_group_title_settings_related">Einstellungen</string>
+  <string name="permission_list_include">"Einschließlich der Folgenden:
+"</string>
   <string name="permission_reminders">Erinnerungen an Berechtigungen</string>
   <string name="permission_warning_template">%1$s Folgendes erlauben; %2$s?</string>
   <string name="permission_warning_template_ask">%1$s die folgenden Berechtigungen erteilen?</string>
