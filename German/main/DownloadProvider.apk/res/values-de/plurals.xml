@@ -1,5 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+
+     <plurals name="number_items">
+        <item quantity="other">%s items</item>
+        <item quantity="one">%s item</item>
+     </plurals>
+     
+     
   <plurals name="notification_download_failed_more">
    <item quantity="other">Konnte %1$d Elemente nicht herunterladen</item>
    <item quantity="one">Konnte %1$d Element nicht herunterladen</item>
