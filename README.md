@@ -1,4 +1,4 @@
-# ![logo](https://i41.servimg.com/u/f41/18/23/59/53/miui_110.png)
+# ![logo](https://i41.servimg.com/u/f41/18/23/59/53/miui-110.png)
 # MIUI V12 German Translation
 
 [![GitHub issues](https://img.shields.io/github/issues-raw/berlinux2016/MIUI11.svg)](https://github.com/berlinux2016/MIUI12/issues "GitHub issues")
