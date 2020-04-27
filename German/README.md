@@ -12,5 +12,5 @@ This repository is tracked by a script which validates all strings of each file 
 
 dir | description
 :------------: | :------------:
-/ German / extras | Widgets, Lockscreen e.g.
-/ German / main | MIUI Apps (APK's) across all official Xiaomi MIUI devices
+/German/extras | Widgets, Lockscreen e.g.
+/German/main | MIUI Apps (APK's) across all official Xiaomi MIUI devices
