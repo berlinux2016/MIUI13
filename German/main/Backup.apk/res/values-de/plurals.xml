@@ -1,20 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-
-  <plurals name="data_item_count_pair">
-    <item quantity="other">%1$d/%2$d Elemente</item>
-    <item quantity="one">%1$d/%2$d Element</item>
-  </plurals>
-  <plurals name="new_task_backup_failed">
-    <item quantity="other">Erfolgreich gesichert. %d Elemente sichern nicht möglich.</item>
-    <item quantity="one">Erfolgreich gesichert. %d Element sichern nicht möglich.</item>
-  </plurals>
-    <plurals name="new_task_restore_failed">
-    <item quantity="other">Erfolgreich wiederhergestellt. %d Elemente wiederherstellen nicht möglich.</item>
-    <item quantity="one">Erfolgreich wiederhergestellt. %d Element wiederherstellen nicht möglich.</item>
-  </plurals>
-
-
   <plurals name="backup_items_app_tailer">
     <item quantity="other">%d App-Datendateien</item>
     <item quantity="one">%d App-Datendatei</item>
@@ -31,9 +16,21 @@
     <item quantity="other">%d Elemente</item>
     <item quantity="one">%d Element</item>
   </plurals>
+  <plurals name="data_item_count_pair">
+    <item quantity="other">%1$d/%2$d Elemente</item>
+    <item quantity="one">%1$d/%2$d Element</item>
+  </plurals>
   <plurals name="local_main_backup_manage_summary">
     <item quantity="other">%1$s Sicherungen (%2$s)</item>
     <item quantity="one">%1$s Sicherung (%2$s)</item>
+  </plurals>
+  <plurals name="new_task_backup_failed">
+    <item quantity="other">Erfolgreich gesichert. %d Elemente sichern nicht möglich.</item>
+    <item quantity="one">Erfolgreich gesichert. %d Element sichern nicht möglich.</item>
+  </plurals>
+  <plurals name="new_task_restore_failed">
+    <item quantity="other">Erfolgreich wiederhergestellt. %d Elemente wiederherstellen nicht möglich.</item>
+    <item quantity="one">Erfolgreich wiederhergestellt. %d Element wiederherstellen nicht möglich.</item>
   </plurals>
   <plurals name="save_item_failed_summary_seg1">
     <item quantity="other">%d Elemente importiert</item>
