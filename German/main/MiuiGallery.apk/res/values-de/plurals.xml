@@ -77,6 +77,10 @@
     <item quantity="one">%d Album</item>
     <item quantity="other">%d Alben</item>
   </plurals>
+  <plurals name="album_member">
+    <item quantity="other">%s Personen können dieses Album ansehen</item>
+    <item quantity="one">%s Person kann dieses Album ansehen</item>
+  </plurals>
   <plurals name="album_photo_count_text">
     <item quantity="other">%1$d Elemente</item>
     <item quantity="one">%1$d Element</item>
@@ -317,8 +321,8 @@
     <item quantity="one">%d Datei ist noch nicht heruntergeladen. Trotzdem abbrechen?</item>
   </plurals>
   <plurals name="picker_file_will_download">
-    <item quantity="other">Herunterladen von %d verbleibenden Dateien</item>
-    <item quantity="one">Herunterladen von %d verbleibenden Datei</item>
+    <item quantity="other">%d verbleibende Dateien herunterladen</item>
+    <item quantity="one">%d verbleibende Datei herunterladen</item>
   </plurals>
   <plurals name="picker_no_network_retry_image_confirm_message">
     <item quantity="other">%1$d Fotos wurden nicht heruntergeladen. Internetverbindung herstellen und nochmals versuchen.</item>
