@@ -1,5 +1,55 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+
+
+    <string name="abc_action_bar_home_description">Navigate home</string>
+    <string name="abc_action_bar_up_description">Navigate up</string>
+    <string name="abc_action_menu_overflow_description">More options</string>
+    <string name="abc_action_mode_done">Done</string>
+    <string name="abc_activity_chooser_view_see_all">See all</string>
+    <string name="abc_activitychooserview_choose_application">Choose an app</string>
+    <string name="abc_capital_off">OFF</string>
+    <string name="abc_capital_on">ON</string>
+    <string name="abc_search_hint">Search…</string>
+    <string name="abc_searchview_description_clear">Clear query</string>
+    <string name="abc_searchview_description_query">Search query</string>
+    <string name="abc_searchview_description_search">Search</string>
+    <string name="abc_searchview_description_submit">Submit query</string>
+    <string name="abc_searchview_description_voice">Voice search</string>
+    <string name="abc_shareactionprovider_share_with">Share with</string>
+    <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
+    <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="aggree_desc">Allow this app to connect to the internet and grant the mandatory permissions listed above.</string>
+    <string name="app_all_purpose">Welcome to File Manager! You can use this app to manage the files stored on your device.</string>
+    <string name="copy">Copy</string>
+    <string name="expand_button_title">Advanced</string>
+    <string name="fab_menu_sort">Sort</string>
+    <string name="guide_newfunc_content">Now you can filter file formats, rearrange items, and switch between views by tapping the shortcut.</string>
+    <string name="guide_newfunc_title">New feature</string>
+    <string name="imm_str_storage">Storage</string>
+    <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">pull to refresh</string>
+    <string name="miuix_sbl_tracking_progress_labe_refreshed">refresh completed</string>
+    <string name="miuix_sbl_tracking_progress_labe_refreshing">refreshing</string>
+    <string name="miuix_sbl_tracking_progress_labe_release_to_refresh">release to refresh</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_nodata">no data</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_none">not do that</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_refresh">refreshing</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">fail</string>
+    <string name="not_set">Not set</string>
+    <string name="optional_change_wifi">For managing files remotely via Wi-Fi</string>
+    <string name="preference_copied">\"%1$s\" copied to clipboard.</string>
+    <string name="pull_to_enter_private">Pull down to open private folder</string>
+    <string name="refresh_success">Refresh complete</string>
+    <string name="release_enter_private">Release to open private folder</string>
+    <string name="search_menu_title">Search</string>
+    <string name="sort_hint_name">Sorted by name</string>
+    <string name="sort_hint_time">Sorted by time</string>
+    <string name="sort_hint_type">Sorted by type</string>
+    <string name="v7_preference_off">OFF</string>
+    <string name="v7_preference_on">ON</string>
+    <string name="view_type">View</string>
+
+
   <string name="a_week_share_rank">Wöchentliche Rangliste</string>
   <string name="action_mode_deselect_all">Keine</string>
   <string name="action_mode_select_all">Alle</string>
@@ -80,7 +130,7 @@
   <string name="click_login_str">Anmelden</string>
   <string name="click_to_refresh">Zum Aktualisieren hier antippen</string>
   <string name="click_to_switch_volume">Tippen, um zwischen internem Speicher und SD-Karte umzuschalten</string>
-  <string name="click_to_switch_volume_pad">Tippen, um zwischen internem Speicher und SD-Karte umzuschalten</string>
+  <string name="click_to_switch_volume_pad">Tippen, um zwischen den Laufwerken zu wechseln</string>
   <string name="clock_in">Einchecken…</string>
   <string name="clockin_failed">Anmeldung fehlgeschlagen, erneut versuchen</string>
   <string name="clockin_success">Erfolgreich angemeldet</string>
@@ -241,9 +291,9 @@
   <string name="ftp_username_and_passworld">Anmeldung</string>
   <string name="ftp_username_hint">Benutzername</string>
   <string name="full_gems">Tauschen Sie Ihre Edelsteine</string>
-  <string name="function_file_operation">"Zum Zugriff auf und Öffnen von Dateien; "</string>
-  <string name="function_set_private">"Zum Anzeigen und Verschlüsseln von Dateien; "</string>
-  <string name="function_use_imei">"Zum Zugriff auf die IMEI und zur Verschlüsselung von Dateien; "</string>
+  <string name="function_file_operation">Zum Anzeigen oder Bearbeiten von Dateien</string>
+  <string name="function_set_private">Zum Anzeigen und Verschlüsseln von Dateien</string>
+  <string name="function_use_imei">Für IMEI-Zugriff und Dateiverschlüsselung</string>
   <string name="gbk_summary">\"Vereinfachtes Chinesisch\" Windows Standardcodierung</string>
   <string name="gender_choose_sub_tile">Erhalten Sie personalisierte Inhalte</string>
   <string name="gender_choose_sub_title">Erhalten Sie hilfreiche Empfehlungen</string>
@@ -498,7 +548,7 @@
   <string name="privacy_policy">Datenschutzerklärung</string>
   <string name="private_files">Versteckt</string>
   <string name="private_folder">Versteckte Ordner</string>
-  <string name="private_folder_no_file_hints">Keine versteckten Dateien</string>
+  <string name="private_folder_no_file_hints">Dateien oder Ordner gedrückt halten, um sie zu Ihrem privaten Ordner hinzuzufügen.</string>
   <string name="private_folder_update">Versteckte Dateien aktualisieren…</string>
   <string name="private_toast_hint2">Um eine Datei zu verstecken, berühren und halten Sie diese und schieben sie in einen versteckten Ordner</string>
   <string name="prize_result_tip">Tauschen</string>
@@ -626,8 +676,8 @@
   <string name="smb_loading">Einen Moment…</string>
   <string name="sort_size_asc">Von klein nach groß</string>
   <string name="sort_size_desc">Von groß nach klein</string>
-  <string name="start_doc">Dateien</string>
-  <string name="start_phone">Speicher</string>
+  <string name="start_doc">Dokumente</string>
+  <string name="start_phone">Dateien</string>
   <string name="start_server">Server starten</string>
   <string name="stay_awake_summary">Bildschirm während Verwendung von FTP nie ausschalten</string>
   <string name="stay_awake_title">Bildschirm nicht abschalten</string>
