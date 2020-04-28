@@ -1,5 +1,41 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+
+
+    <string name="abc_action_bar_home_description">Navigate home</string>
+    <string name="abc_action_bar_up_description">Navigate up</string>
+    <string name="abc_action_menu_overflow_description">More options</string>
+    <string name="abc_action_mode_done">Done</string>
+    <string name="abc_activity_chooser_view_see_all">See all</string>
+    <string name="abc_activitychooserview_choose_application">Choose an app</string>
+    <string name="abc_capital_off">OFF</string>
+    <string name="abc_capital_on">ON</string>
+    <string name="abc_search_hint">Search…</string>
+    <string name="abc_searchview_description_clear">Clear query</string>
+    <string name="abc_searchview_description_query">Search query</string>
+    <string name="abc_searchview_description_search">Search</string>
+    <string name="abc_searchview_description_submit">Submit query</string>
+    <string name="abc_searchview_description_voice">Voice search</string>
+    <string name="abc_shareactionprovider_share_with">Share with</string>
+    <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
+    <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="cloud_storage_info_type_family">Family</string>
+    <string name="copy">Copy</string>
+    <string name="expand_button_title">Advanced</string>
+    <string name="feedback_custom_hint">"Describe the issues you've encountered here. If you're giving suggestions, we'd appreciate more details!"</string>
+    <string name="mi_drive_not_publish_toast">Mi Drive will be available soon</string>
+    <string name="mi_drive_summary">Access documents from Xiaomi Cloud on multiple devices</string>
+    <string name="mi_drive_title">Mi Drive</string>
+    <string name="not_set">Not set</string>
+    <string name="preference_copied">\"%1$s\" copied to clipboard.</string>
+    <string name="search_menu_title">Search</string>
+    <string name="special_func_title">Special features</string>
+    <string name="storage_upgrade_card_summary">Get more cloud storage space</string>
+    <string name="storage_upgrade_card_title">Upgrade your plan</string>
+    <string name="v7_preference_off">OFF</string>
+    <string name="v7_preference_on">ON</string>
+
+
   <string name="access_denied">Zugriff verweigert</string>
   <string name="account_related">Ihr Gerät ist mit einem bestehenden Mi-Konto verknüpft (%s). Stellen Sie eine Internetverbindung her, um das Gerät zu verifizieren.</string>
   <string name="activate_find_device_success">Gerät finden wurde aktiviert</string>
@@ -213,8 +249,8 @@ Suchen und sperren Sie Ihr Gerät, falls es verloren geht."</string>
   <string name="micloud_main_error_network_disallowed">Stellen Sie sicher, dass Sie Zugang zum Internet haben</string>
   <string name="micloud_main_error_permission_limit">Xiaomi Cloud den Speicherzugriff erlauben</string>
   <string name="micloud_main_head_menu_cloud_backup">Cloud-Sicherung</string>
-  <string name="micloud_main_head_menu_cloud_backup_summary">Startbildschirm-Layout, Apps und Systemeinstellungen</string>
-  <string name="micloud_main_head_menu_finddevice_summary">Finden und sperren Sie Ihr Gerät, wenn es verloren geht</string>
+  <string name="micloud_main_head_menu_cloud_backup_summary">Systemeinstellungen und Startbildschirm-Layout</string>
+  <string name="micloud_main_head_menu_finddevice_summary">Finden und sperren Sie Ihr Gerät</string>
   <string name="micloud_main_head_menu_finddevice_unavailable">Gerät finden ist nicht möglich im Zweitprofil, Sie können es im Hauptprofil verwenden.</string>
   <string name="micloud_main_head_menu_recycle_bin_summary">Kontakt und Fotos wiederherstellen</string>
   <string name="micloud_main_head_menu_recycle_bin_title">Gelöschte Objekte</string>
@@ -384,6 +420,14 @@ Verwenden Sie ein anderes Konto."</string>
   <string name="micloud_wipe_data_confirm_title">Alle Inhalte, die mit Xiaomi Cloud synchronisiert wurden, nach dem Abmelden vom Telefon löschen?</string>
   <string name="micloud_wipe_data_remove">Löschen</string>
   <string name="micloud_wipe_data_retain">Behalten</string>
+  <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">zum Aktualisieren ziehen</string>
+  <string name="miuix_sbl_tracking_progress_labe_refreshed">aktulisieren abgeschlossen</string>
+  <string name="miuix_sbl_tracking_progress_labe_refreshing">aktulisieren</string>
+  <string name="miuix_sbl_tracking_progress_labe_release_to_refresh">zum Aktualisieren loslassen</string>
+  <string name="miuix_sbl_tracking_progress_labe_up_nodata">keine Daten</string>
+  <string name="miuix_sbl_tracking_progress_labe_up_none">tun Sie das nicht</string>
+  <string name="miuix_sbl_tracking_progress_labe_up_refresh">aktualisieren</string>
+  <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">fehlgeschlagen</string>
   <string name="module_download_msg_replace">Aktualisiertes Audio für intelligente Alarme ist verfügbar. Mit dem Netzwerk verbinden und jetzt herunterladen?</string>
   <string name="mx_dspt_provision">"Mit Mi Message können Sie Nachrichten an andere MIUI Benutzer versenden, ohne dass SMS-Gebühren anfallen.
 Sie können diese Funktion jederzeit in den Einstellungen ein- oder ausschalten."</string>
