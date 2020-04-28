@@ -1,5 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+
+
+    <string name="usage_optional_summary">"These permissions are required when you' re using additional features."</string>
+    <string name="usage_optional_title">Optional permissions</string>
+    <string name="usage_permisison_agree_desc_o">To to provide Screen time stats to you, this app needs to collect the following data: the number of times you unlock the device, the list of your apps along with the corresponding usage duration.</string>
+    <string name="usage_permisison_agree_desc_p">To to provide Screen time and Focus mode stats to you, this app needs to collect the following data: the number of times you unlock the device, the list of your apps along with the corresponding usage duration, the number of times your screen lights up, and Focus mode settings.</string>
+    <string name="usage_permission_double_link" formatted="false"><Data>"This app needs to connect to the internet and collect the required personal data to be able to work normally. To fully understand your rights as a user as well as the ways in which we use your data, read and agree to our &lt;a href='%1s'>User Agreement&lt;/a> and &lt;a href='%2s'>Privacy Policy&lt;/a>."</Data></string>
+    <string name="usage_permission_main_desc">"Welcome to Screen time!
+This app needs to connect to the internet and requires the following permissions to be able to work normally:"</string>
+    <string name="usage_permission_title">Attention</string>
+    <string name="usage_runtime_per_des_summary">For saving your Screen time stats</string>
+    <string name="usage_runtime_per_des_title">"Adding and deleting files on device's internal storage"</string>
+    <string name="usage_runtime_summary">These permissions are required to make the basic features and services of this app available.</string>
+    <string name="usage_runtime_title">Mandatory permissions</string>
+
+
   <string name="abc_action_bar_home_description">Zur Startseite</string>
   <string name="abc_action_bar_up_description">Nach oben</string>
   <string name="abc_action_menu_overflow_description">Mehr Optionen</string>
