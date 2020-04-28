@@ -1,88 +1,22 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-
-    <string name="abc_action_bar_home_description">Navigate home</string>
-    <string name="abc_action_bar_up_description">Navigate up</string>
-    <string name="abc_action_menu_overflow_description">More options</string>
-    <string name="abc_action_mode_done">Done</string>
-    <string name="abc_activity_chooser_view_see_all">See all</string>
-    <string name="abc_activitychooserview_choose_application">Choose an app</string>
-    <string name="abc_capital_off">OFF</string>
-    <string name="abc_capital_on">ON</string>
-    <string name="abc_search_hint">Search…</string>
-    <string name="abc_searchview_description_clear">Clear query</string>
-    <string name="abc_searchview_description_query">Search query</string>
-    <string name="abc_searchview_description_search">Search</string>
-    <string name="abc_searchview_description_submit">Submit query</string>
-    <string name="abc_searchview_description_voice">Voice search</string>
-    <string name="abc_shareactionprovider_share_with">Share with</string>
-    <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
-    <string name="abc_toolbar_collapse_description">Collapse</string>
-    <string name="copy">Copy</string>
-    <string name="expand_button_title">Advanced</string>
-    <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">pull to refresh</string>
-    <string name="miuix_sbl_tracking_progress_labe_refreshed">refresh completed</string>
-    <string name="miuix_sbl_tracking_progress_labe_refreshing">refreshing</string>
-    <string name="miuix_sbl_tracking_progress_labe_release_to_refresh">release to refresh</string>
-    <string name="miuix_sbl_tracking_progress_labe_up_nodata">no data</string>
-    <string name="miuix_sbl_tracking_progress_labe_up_none">not do that</string>
-    <string name="miuix_sbl_tracking_progress_labe_up_refresh">refreshing</string>
-    <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">fail</string>
-    <string name="new_britem_audio">Audio</string>
-    <string name="new_britem_doc">Files</string>
-    <string name="new_britem_other">Other</string>
-    <string name="new_britem_pic">Images</string>
-    <string name="new_britem_video">Videos</string>
-    <string name="new_confirm_enable_encrypt_content">"MIUI associates encrypted backups with your Mi Account. You'll have to sign in to your Mi Account to restore items from such backups."</string>
-    <string name="new_confirm_enable_encrypt_title">Encrypt</string>
-    <string name="new_local_button_backup">Back up</string>
-    <string name="new_local_button_restore">Restore</string>
-    <string name="new_local_click_to_jump">Tap to view detailed instructions</string>
-    <string name="new_local_detail_description">"Note:
-%1$d. Copy backups to your computer to avoid data loss. %2$s.
-%3$d. Backups will be saved to MIUI-Backup-AllBackup."</string>
-    <string name="new_local_tab_backup">Back up to mobile device</string>
-    <string name="new_local_tab_restore">Restore from mobile device</string>
-    <string name="new_low_storage_title">Not enough storage space</string>
-    <string name="new_more_settings_label">Additional settings</string>
-    <string name="new_pc_backup_content1">%1$d. Open \"%2$s\".</string>
-    <string name="new_pc_backup_content2">%d. Wait until all items are backed up.</string>
-    <string name="new_pc_backup_content3">%d. Find the backup in MIUI-Backup-AllBackup.</string>
-    <string name="new_pc_backup_content4">%d. Copy the file to your computer.</string>
-    <string name="new_pc_backup_restore_link">Mobile device</string>
-    <string name="new_pc_backup_summary1">Select items and tap \"Back up\".</string>
-    <string name="new_pc_backup_summary2">Connect your mobile device to the computer via a USB cable.</string>
-    <string name="new_pc_backup_summary4">Note: you can also copy photos and videos from MIUI-DCIM.</string>
-    <string name="new_pc_restore_content1">%d. Connect your mobile device to the computer via a USB cable.</string>
-    <string name="new_pc_restore_content2">%d. Copy the backup from your computer to MIUI-Backup-AllBackup.</string>
-    <string name="new_pc_restore_content3">%1$d. Open \"%2$s\" and select items to restore.</string>
-    <string name="new_pc_title">Copy backups</string>
-    <string name="new_select_file">Audio, videos, and files</string>
-    <string name="new_select_message">SMS, contacts, and call history</string>
-    <string name="new_select_pic">Images</string>
-    <string name="new_select_system">Other system app data</string>
-    <string name="new_select_tencent">QQ and WeChat</string>
-    <string name="new_select_third">Third party apps and app data</string>
-    <string name="new_select_third_apk">Third party apps</string>
-    <string name="new_select_third_data">Third party app data</string>
-    <string name="new_tab_pc_backup">Back up to computer</string>
-    <string name="new_tab_pc_restore">Restore from computer</string>
-    <string name="new_task_finished">Done</string>
-    <string name="new_usb_detail_description">"Note:
-%1$d. This method allows backing up third party apps and app data.
-%2$d. Make sure there's enough storage space on your USB drive to store backups."</string>
-    <string name="new_usb_disconnect_dialog_message">Connect a USB drive first.</string>
-    <string name="new_usb_disconnect_dialog_title">"Couldn't find USB drive"</string>
-    <string name="new_usb_select_data_no_space">Only %s of storage is available on your USB drive. Free up storage space.</string>
-    <string name="new_usb_tab_backup">Back up to USB drive</string>
-    <string name="new_usb_tab_restore">Restore from USB drive</string>
-    <string name="not_set">Not set</string>
-    <string name="preference_copied">\"%1$s\" copied to clipboard.</string>
-    <string name="search_menu_title">Search</string>
-    <string name="v7_preference_off">OFF</string>
-    <string name="v7_preference_on">ON</string>
-
-
+  <string name="abc_action_bar_home_description">Zur Startseite</string>
+  <string name="abc_action_bar_up_description">Nach oben</string>
+  <string name="abc_action_menu_overflow_description">Weitere Optionen</string>
+  <string name="abc_action_mode_done">Fertig</string>
+  <string name="abc_activity_chooser_view_see_all">Alle ansehen</string>
+  <string name="abc_activitychooserview_choose_application">App auswählen</string>
+  <string name="abc_capital_off">Aus</string>
+  <string name="abc_capital_on">An</string>
+  <string name="abc_search_hint">Suchen…</string>
+  <string name="abc_searchview_description_clear">Suchanfrage löschen</string>
+  <string name="abc_searchview_description_query">Suchanfrage</string>
+  <string name="abc_searchview_description_search">Suchen</string>
+  <string name="abc_searchview_description_submit">Suchanfrage senden</string>
+  <string name="abc_searchview_description_voice">Sprachsuche</string>
+  <string name="abc_shareactionprovider_share_with">Teilen mit</string>
+  <string name="abc_shareactionprovider_share_with_application">Teilen mit %s</string>
+  <string name="abc_toolbar_collapse_description">Einklappen</string>
   <string name="abort_backup_confirm">Sicherung nicht abgeschlossen. Trotzdem abbrechen?</string>
   <string name="abort_restore_confirm">Wiederherstellung nicht abgeschlossen. Trotzdem abbrechen?</string>
   <string name="account_contact_backup_info">Google, Mi-Konto und Kontaktdaten</string>
@@ -153,8 +87,8 @@
   <string name="cancel_moving_dialog_message">Import jetzt abbrechen?</string>
   <string name="cancel_moving_dialog_title">Import abbrechen</string>
   <string name="cancel_restore">Anhalten</string>
-  <string name="click_to_view">Zum Anzeigen antippen</string>
   <string name="click_soft_ap_to_link">Hotspot zum Verbinden auswählen</string>
+  <string name="click_to_view">Zum Anzeigen antippen</string>
   <string name="close_twice_auth_btn">Zwei-Faktor-Authentifizierung deaktivieren</string>
   <string name="close_twice_auth_note">"Hinweis:
 Nach Erstellung einer neuen Sicherheitsfrage und Bestätigung Ihres Geburtsdatums wird Ihre Apple ID-Zwei-Faktor-Authentifizierung deaktiviert. Wenn Sie die Option zum Deaktivieren der Zwei-Faktor-Authentifizierung auf der Apple ID-Kontenseite nicht sehen, können Sie sie nicht deaktivieren."</string>
@@ -186,6 +120,7 @@ https://appleid.apple.com/#!&amp;page=signin zum Schließen"</string>
   <string name="confirm_exit_link_msg">Wenn Sie die App jetzt verlassen, wird die laufende Übertragung unterbrochen. Sie müssen die Verbindung zwischen den beiden Geräten erneut herstellen. Die App trotzdem verlassen?</string>
   <string name="confirm_exit_link_title">Unterbrechung der Übertragung</string>
   <string name="contact_title">Kontakte</string>
+  <string name="copy">Kopieren</string>
   <string name="current_account">Hallo %s</string>
   <string name="current_pad_location">Tablet</string>
   <string name="current_phone_location">Telefon</string>
@@ -236,6 +171,7 @@ https://appleid.apple.com/#!&amp;page=signin zum Schließen"</string>
   <string name="error_permissions">Diese App verfügt nicht über Zugriffsberechtigungen für den Kalender. Gehen Sie zu Einstellungen und prüfen Sie die Berechtigungen zum Fortfahren.</string>
   <string name="every_day">Täglich</string>
   <string name="exchange_account">Konto wechseln</string>
+  <string name="expand_button_title">Erweitert</string>
   <string name="fail">Fehlgeschlagen</string>
   <string name="failed_description">Fehlgeschlagen</string>
   <string name="feature_title_account">Konto</string>
@@ -343,6 +279,14 @@ Stellen Sie sicher, dass das USB-Laufwerk genügend Speicher hat, bevor Sie begi
   <string name="logining">Anmelden…</string>
   <string name="miliao_account_guide">Erstellen Sie ein Mi-Konto und profitieren Sie von Xiaomi\'s Online Diensten</string>
   <string name="miliao_account_login">Anmelden über Mi Talk</string>
+  <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">zum Aktualisieren ziehen</string>
+  <string name="miuix_sbl_tracking_progress_labe_refreshed">Aktualisierung abgeschlossen</string>
+  <string name="miuix_sbl_tracking_progress_labe_refreshing">aktualisieren</string>
+  <string name="miuix_sbl_tracking_progress_labe_release_to_refresh">zum Aktualisieren loslassen</string>
+  <string name="miuix_sbl_tracking_progress_labe_up_nodata">keine Daten</string>
+  <string name="miuix_sbl_tracking_progress_labe_up_none">tun Sie das nicht</string>
+  <string name="miuix_sbl_tracking_progress_labe_up_refresh">aktualisieren</string>
+  <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">fehlgeschlagen</string>
   <string name="mms_title">MMS</string>
   <string name="multi_select_title">%1$s ausgewählt</string>
   <string name="multi_user_mode_backup_message">Sicherung kann im Mehrbenutzermodus nicht verwendet werden. Schalten Sie den Mehrbenutzermodus aus zum Fortfahren.</string>
@@ -351,6 +295,52 @@ Stellen Sie sicher, dass das USB-Laufwerk genügend Speicher hat, bevor Sie begi
   <string name="name_password_not_consistent">Benutzername oder Passwort falsch</string>
   <string name="never">Nie</string>
   <string name="new_backup">Sichern</string>
+  <string name="new_britem_doc">Dateien</string>
+  <string name="new_britem_other">Andere</string>
+  <string name="new_britem_pic">Bilder</string>
+  <string name="new_confirm_enable_encrypt_content">MIUI verknüpft verschlüsselte Sicherungen mit Ihrem Mi-Konto. Sie müssen sich bei Ihrem Mi-Konto anmelden, um Elemente aus solchen Sicherungen wiederherzustellen.</string>
+  <string name="new_confirm_enable_encrypt_title">Verschlüsseln</string>
+  <string name="new_local_button_backup">Sichern</string>
+  <string name="new_local_button_restore">Wiederherstellen</string>
+  <string name="new_local_click_to_jump">Tippen, um detaillierte Anweisungen anzuzeigen</string>
+  <string name="new_local_detail_description">"Hinweis:
+%1$d. Kopieren Sie Sicherungen auf Ihren Computer, um Datenverluste zu vermeiden. %2$s.
+%3$d. Sicherungen werden in MIUI-Backup-AllBackup gespeichert."</string>
+  <string name="new_local_tab_backup">Sichern auf mobilem Gerät</string>
+  <string name="new_local_tab_restore">Wiederherstellen von mobilem Gerät</string>
+  <string name="new_low_storage_title">Nicht genug Speicherplatz</string>
+  <string name="new_more_settings_label">Weitere Einstellungen</string>
+  <string name="new_pc_backup_content1">%1$d. \"%2$s\" öffnen.</string>
+  <string name="new_pc_backup_content2">%d. Warten, bis alle Elemente gesichert sind.</string>
+  <string name="new_pc_backup_content3">%d. Sicherung zu finden in MIUI-Backup-AllBackup.</string>
+  <string name="new_pc_backup_content4">%d. Datei auf den Computer kopieren.</string>
+  <string name="new_pc_backup_restore_link">Mobiles Gerät</string>
+  <string name="new_pc_backup_summary1">Elemente wählen und auf \"Sichern\" tippen.</string>
+  <string name="new_pc_backup_summary2">Mobiles Gerät über ein USB-Kabel mit dem Computer verbinden.</string>
+  <string name="new_pc_backup_summary4">Hinweis: Sie können auch Fotos und Videos von MIUI-DCIM kopieren.</string>
+  <string name="new_pc_restore_content1">%d. Mobiles Gerät über ein USB-Kabel mit dem Computer verbinden.</string>
+  <string name="new_pc_restore_content2">%d. Sicherung von Ihrem Computer nach MIUI-Backup-AllBackup kopieren.</string>
+  <string name="new_pc_restore_content3">%1$d. \"%2$s\" öffnen und die wiederherzustellenden Elemente wählen.</string>
+  <string name="new_pc_title">Sicherungen kopieren</string>
+  <string name="new_select_file">Audio, Videos und Dateien</string>
+  <string name="new_select_message">SMS, Kontakte und Anrufverlauf</string>
+  <string name="new_select_pic">Bilder</string>
+  <string name="new_select_system">Andere Systemapp-Daten</string>
+  <string name="new_select_tencent">QQ und WeChat</string>
+  <string name="new_select_third">Apps und App-Daten von Drittanbietern</string>
+  <string name="new_select_third_apk">Drittanbieter-Apps</string>
+  <string name="new_select_third_data">Drittanbieter-App-Daten</string>
+  <string name="new_tab_pc_backup">Auf Computer sichern</string>
+  <string name="new_tab_pc_restore">Wiederherstellen vom Computer</string>
+  <string name="new_task_finished">Fertig</string>
+  <string name="new_usb_detail_description">"Hinweis:
+%1$d. Diese Methode erlaubt die Sicherung von Apps und App-Daten von Drittanbietern.
+%2$d. Stellen Sie sicher, dass auf Ihrem USB-Laufwerk genügend Speicher zum Speichern von Sicherungen ist."</string>
+  <string name="new_usb_disconnect_dialog_message">Zuerst ein USB-Laufwerk anschließen.</string>
+  <string name="new_usb_disconnect_dialog_title">USB-Laufwerk nicht gefunden</string>
+  <string name="new_usb_select_data_no_space">Nur %s an Speicherplatz auf Ihrem USB-Laufwerk verfügbar. Speicherplatz freigeben.</string>
+  <string name="new_usb_tab_backup">Sichern auf USB-Laufwerk</string>
+  <string name="new_usb_tab_restore">Wiederherstellen vom USB-Laufwerk</string>
   <string name="no_encrypt_password">Kein Passwort</string>
   <string name="no_network">Keine Netzwerkverbindung</string>
   <string name="note_title">Notizen</string>
@@ -384,6 +374,7 @@ Stellen Sie sicher, dass das USB-Laufwerk genügend Speicher hat, bevor Sie begi
   <string name="notif_trans_sending_completed">Daten erfolgreich versandt</string>
   <string name="notif_trans_sending_failed">Datenversand fehlgeschlagen</string>
   <string name="notif_trans_wait_for_reconnecting">Verbindung wurde getrennt. Erneut verbinden.</string>
+  <string name="not_set">Nicht festgelegt</string>
   <string name="old_soft_name">Verbindung über QR-Code</string>
   <string name="old_way">Sie können auch einen QR-Code auf Ihrem neuen Gerät generieren und ihn mit dem alten scannen.</string>
   <string name="page_loading">Einen Moment…</string>
@@ -401,6 +392,7 @@ Stellen Sie sicher, dass das USB-Laufwerk genügend Speicher hat, bevor Sie begi
   <string name="platform_chooser_item_android_others">Andere Marken</string>
   <string name="platform_chooser_item_ios">Von einem iOS-Gerät importieren</string>
   <string name="platform_chooser_title">Altes Gerät wählen</string>
+  <string name="preference_copied">\"%1$s\" in Zwischenablage kopiert.</string>
   <string name="progress_backup_hint">Sichern…</string>
   <string name="progress_restore_hint">Wiederherstellen…</string>
   <string name="prompt_reading">Lesen…</string>
@@ -449,6 +441,7 @@ Mindestens %s freigeben."</string>
   <string name="sdcard_no_enough_space">Nicht genügend Speicher</string>
   <string name="sdcard_no_enough_space_message">Nicht genügend Speicher auf Ihrer SD-Karte vorhanden</string>
   <string name="sdcard_unmounted">SD-Karte jetzt einlegen</string>
+  <string name="search_menu_title">Suchen</string>
   <string name="see_backup_files_on_router">Sicherungen auf Mi Router %s anzeigen</string>
   <string name="select_all">Alle auswählen</string>
   <string name="select_backup_item">Elemente auswählen</string>
@@ -705,12 +698,14 @@ Speicher freigeben oder mehrere kleinere Übertragungen durchführen."</string>
   <string name="usb_trans_old_phone_low_space_title">Nicht genügend Speicher</string>
   <string name="usb_trans_select_data_no_space">"Auf Ihrem USB-Laufwerk ist nur %s verfügbar.
 Speicher freigeben oder nur wichtige Elemente übertragen."</string>
-  <string name="user_name">Apple ID oder E-Mail</string>
-  <string name="user_name_null">Benutzername kann nicht leer sein</string>
-  <string name="user_notice_declaration_ignore">Nicht mehr anzeigen</string>
-  <string name="user_notice_message">Einige Funktionen erfordern eine Internetverbindung, um normal zu funktionieren</string>
-  <string name="user_notice_title">Hinweis</string>
   <string name="view_password_description">Passwort anzeigen</string>
+  <string name="v7_preference_on">AN</string>
+  <string name="v7_preference_off">AUS</string>
+  <string name="user_notice_title">Hinweis</string>
+  <string name="user_notice_message">Einige Funktionen erfordern eine Internetverbindung, um normal zu funktionieren</string>
+  <string name="user_notice_declaration_ignore">Nicht mehr anzeigen</string>
+  <string name="user_name_null">Benutzername kann nicht leer sein</string>
+  <string name="user_name">Apple ID oder E-Mail</string>
   <string name="wait_link">Öffnen Sie Mi Mover auf dem alten Gerät,
 tippen Sie auf \"Ich bin Absender"\ und wählen Sie einen Hotspot aus, der verbunden werden soll.
 Schließen Sie die Seite nicht, bevor die Verbindung hergestellt ist."</string>
