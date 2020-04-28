@@ -1,5 +1,53 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+
+
+    <string name="character_counter_content_description">Characters entered %1$d of %2$d</string>
+    <string name="character_counter_overflowed_content_description">Character limit exceeded %1$d of %2$d</string>
+    <string name="chip_text">Chip text</string>
+    <string name="choose_clock_panel_title">Lock screen layout</string>
+    <string name="choose_clock_third_theme_hint_text">Lock screen from the currently applied theme</string>
+    <string name="clear_text_end_icon_content_description">Clear text</string>
+    <string name="icon_content_description">Dialog Icon</string>
+    <string name="lock_screen_signature_msg">Show signature on the Lock screen</string>
+    <string name="lock_screen_signature_title">Lock screen owner info</string>
+    <string name="mtrl_chip_close_icon_content_description">Remove %1$s</string>
+    <string name="mtrl_picker_cancel">Cancel</string>
+    <string name="mtrl_picker_confirm">Save</string>
+    <string name="mtrl_picker_date_format">dd.MMM. yyyy</string>
+    <string name="mtrl_picker_header_prompt">Pick a Date</string>
+    <string name="mtrl_picker_range_header_prompt">Pick a Date Range</string>
+    <string name="notification_aggregate_text">Mark notifications from %1$s as unimportant</string>
+    <string name="notification_info_disabled_text">Blocked notifications from %1$s</string>
+    <string name="notification_info_enabled_text">Notifications from %1$s</string>
+    <string name="notification_menu_aggregate_description">Grouping options</string>
+    <string name="owner_info_settings_edit_text_hint">E.g., Joe’s Android.</string>
+    <string name="password_toggle_content_description">Show password</string>
+    <string name="pref_show_lunar_calendar_title">Show traditional Chinese calendar on Lock screen</string>
+    <string name="qs_control_big_tile_state_closed">Off</string>
+    <string name="qs_control_big_tile_state_closing">Turning off…</string>
+    <string name="qs_control_big_tile_state_connected">Connected</string>
+    <string name="qs_control_big_tile_state_connecting">Connecting…</string>
+    <string name="qs_control_big_tile_state_disconnected">Not connected</string>
+    <string name="qs_control_big_tile_state_disconnecting">Disconnecting…</string>
+    <string name="qs_control_big_tile_state_opened">On</string>
+    <string name="qs_control_big_tile_state_opening">Turning on…</string>
+    <string name="qs_control_big_tile_state_unavailable">Not available</string>
+    <string name="qs_control_customize_other_tiles_title">Available toggles</string>
+    <string name="qs_control_customize_save_text">Done</string>
+    <string name="qs_control_customize_sub_title">Drag added toggles to rearrange them</string>
+    <string name="qs_control_customize_title">Added toggles</string>
+    <string name="qs_control_expand_detail_title">My data</string>
+    <string name="qs_control_header_tiles_title">Control center</string>
+    <string name="small_window_guide_title">Floating window</string>
+    <string name="small_window_notification_text">Tap to learn more about this feature of MIUI %d</string>
+    <string name="small_window_notification_title">Floating windows</string>
+    <string name="wifi_security_none_owe">None/Enhanced Open</string>
+    <string name="wifi_security_short_none_owe">None/OWE</string>
+    <string name="status_bar_clock_date_weekday_format">EEE, dd.MM.</string>
+    <string name="status_bar_clock_date_weekday_format_12">EEE, dd.MM.</string> 
+
+
   <string name="abbrev_wday_month_day_no_year">EEEE, d. MMMM</string>
   <string name="abbrev_wday_month_day_no_year_alarm">EEE, d. MMM.</string>
   <string name="abc_action_bar_home_description">Zur Startseite</string>
@@ -1149,6 +1197,14 @@ Screenshot zu erstellen"</string>
   <string name="miui_toast_zen_to_dnd">Zum DND-Modus gewechselt. Töne und Vibration sind jetzt aus.</string>
   <string name="miui_toast_zen_to_standard">Zum Lautlos-Modus gewechselt. Anruf- und Benachrichtigungstöne sind jetzt aus.</string>
   <string name="miui_toast_zen_to_standard_when_shield_media">Zum Lautlos-Modus gewechselt, Anruf-, Benachrichtigungs- und Medientöne sind jetzt aus.</string>
+  <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">zum Aktualisieren ziehen</string>
+  <string name="miuix_sbl_tracking_progress_labe_refreshed">aktualisieren abgeschlossen</string>
+  <string name="miuix_sbl_tracking_progress_labe_refreshing">aktualisieren</string>
+  <string name="miuix_sbl_tracking_progress_labe_release_to_refresh">zum Aktualisieren loslassen</string>
+  <string name="miuix_sbl_tracking_progress_labe_up_nodata">keine Daten</string>
+  <string name="miuix_sbl_tracking_progress_labe_up_none">tun Sie das nicht</string>
+  <string name="miuix_sbl_tracking_progress_labe_up_refresh">aktualisieren</string>
+  <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">fehlgeschlagen</string>
   <string name="mobile_data">Mobile Daten</string>
   <string name="mobile_data_always_on">Mobile Daten immer aktiv</string>
   <string name="mobile_data_always_on_summary">Mobile Daten immer aktiv lassen, auch wenn WLAN aktiv ist (für schnelle Netzwerkumschaltung).</string>
