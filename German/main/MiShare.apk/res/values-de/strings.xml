@@ -1,32 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-
-
-    <string name="agree_desc">Grant the mandatory permissions listed above.</string>
-    <string name="btn_cancel_send">Cancel this transfer</string>
-    <string name="btn_exit_send">Exit</string>
-    <string name="copy">Copy</string>
-    <string name="device_status_failed">"Couldn't send"</string>
-    <string name="device_status_sending">Sending…</string>
-    <string name="device_status_success">Sent successfully</string>
-    <string name="device_status_waiting">Waiting…</string>
-    <string name="expand_button_title">Advanced</string>
-    <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">pull to refresh</string>
-    <string name="miuix_sbl_tracking_progress_labe_refreshed">refresh completed</string>
-    <string name="miuix_sbl_tracking_progress_labe_refreshing">refreshing</string>
-    <string name="miuix_sbl_tracking_progress_labe_release_to_refresh">release to refresh</string>
-    <string name="miuix_sbl_tracking_progress_labe_up_nodata">no data</string>
-    <string name="miuix_sbl_tracking_progress_labe_up_none">not do that</string>
-    <string name="miuix_sbl_tracking_progress_labe_up_refresh">refreshing</string>
-    <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">fail</string>
-    <string name="not_set">Not set</string>
-    <string name="preference_copied">\"%1$s\" copied to clipboard.</string>
-    <string name="purpose_v12">Welcome to Mi Share! You can use this app to transfer files between devices.</string>
-    <string name="user_instructions">Attention</string>
-    <string name="v7_preference_off">OFF</string>
-    <string name="v7_preference_on">ON</string>
-
-
   <string name="abc_action_bar_home_description">Zur Startseite</string>
   <string name="abc_action_bar_up_description">Nach oben</string>
   <string name="abc_action_menu_overflow_description">Weitere Optionen</string>
@@ -44,7 +17,10 @@
   <string name="abc_shareactionprovider_share_with">Teilen mit</string>
   <string name="abc_shareactionprovider_share_with_application">Teilen mit %s</string>
   <string name="abc_toolbar_collapse_description">Einklappen</string>
+  <string name="agree_desc">Die oben aufgeführten obligatorischen Genehmigungen erteilen.</string>
   <string name="btn_cancel">Abbrechen</string>
+  <string name="btn_cancel_send">Diese Übertragung abbrechen</string>
+  <string name="btn_exit_send">Beenden</string>
   <string name="can_not_transfer_when_screening">Funktioniert während der Übertragung nicht</string>
   <string name="cancel_current">ABBRECHEN AKTUELL</string>
   <string name="cancel_receive">Abbrechen</string>
@@ -52,8 +28,13 @@
   <string name="cancel_task">Abbrechen</string>
   <string name="confirm_cancel_task_files">Dateien an %1$s senden abbrechen?</string>
   <string name="confirm_cancel_task_images">Bildern an %1$s senden abbrechen?</string>
+  <string name="copy">Kopieren</string>
   <string name="device_name">Gerätename</string>
   <string name="device_offline">Anderes Gerät ist offline. Von vorne anfangen.</string>
+  <string name="device_status_failed">Senden nicht möglich</string>
+  <string name="device_status_sending">Senden…</string>
+  <string name="device_status_success">Sent successfully</string>
+  <string name="device_status_waiting">Einen Moment…</string>
   <string name="device_type_pc">Computer</string>
   <string name="device_type_realme_phone">Realme</string>
   <string name="device_type_vivo_phone">Vivo</string>
@@ -79,26 +60,38 @@
   <string name="error_timeout">Die Sitzung wurde unterbrochen. Einen Moment warten und erneut versuchen.</string>
   <string name="error_user_refuse">Senden fehlgeschlagen. Die Übertragung wurde abgelehnt.</string>
   <string name="error_wifi_display_in_use">Dateien während der Übertragung an andere Geräte senden nicht möglich</string>
-  <string name="go_to_settings">Einstellungen</string>
+  <string name="expand_button_title">Erweitert</string>
   <string name="file_cannot_print">Dieses Element kann nicht gedruckt werden.</string>
   <string name="file_cannot_screen_throw">Diese Element kann nicht übertragen werden.</string>
   <string name="file_receive_progress">Fortschritt: %1$d%%</string>
   <string name="file_sending">Dateien übertragen…</string>
   <string name="file_transfer_progress">Fortschritt: %1$d%%</string>
   <string name="functions_are_being_developed">Diese Funktion wird in Kürze verfügbar sein. Dran bleiben!</string>
+  <string name="go_to_settings">Einstellungen</string>
   <string name="help">Sie können keine Geräte finden?</string>
   <string name="hide">Ausblenden</string>
   <string name="location_enabled">Standortdienste einschalten, um Geräte in der Nähe zu finden</string>
   <string name="mi_drop">Mi Share</string>
   <string name="mishare_state_protection">Mi Share automatisch einschalten</string>
   <string name="mishare_state_protection_summary">Mi Share automatisch wieder einschalten, wenn Bluetooth oder WLAN wieder eingeschaltet sind.</string>
+  <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">zum Aktualisieren ziehen</string>
+  <string name="miuix_sbl_tracking_progress_labe_refreshed">aktualisieren abgeschlossen</string>
+  <string name="miuix_sbl_tracking_progress_labe_refreshing">aktualisieren</string>
+  <string name="miuix_sbl_tracking_progress_labe_release_to_refresh">zum Aktualisieren loslassen</string>
+  <string name="miuix_sbl_tracking_progress_labe_up_nodata">keine Daten</string>
+  <string name="miuix_sbl_tracking_progress_labe_up_none">tun Sie das nicht</string>
+  <string name="miuix_sbl_tracking_progress_labe_up_refresh">aktualisieren</string>
+  <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">fehlgeschlagen</string>
   <string name="no_longer_prompt">Blockieren</string>
   <string name="no_longer_receive">Dieses Gerät blockieren? Sie werden keine Dateien mehr von ihm empfangen können.</string>
+  <string name="not_set">Nicht festgelegt</string>
   <string name="operate_too_fast">Zu schnell! Warten Sie, bis die laufenden Vorgänge abgeschlossen sind.</string>
   <string name="oppo_phone">OPPO Telefon</string>
   <string name="permission_denied_hint">Erforderlichen Berechtigungen erteilen, um Mi Share nutzen zu können.</string>
+  <string name="preference_copied">\"%1$s\" in Zwischenablage kopiert.</string>
   <string name="purpose">"Willkommen bei Mi Share! Sie können diese App verwenden, um Dateien zwischen Geräten zu übertragen. Wir schützen Ihre personenbezogenen Daten in Übereinstimmung mit den einschlägigen Gesetzen, Vorschriften und Richtlinien.
 Bevor Sie Mi Share nutzen können, müssen Sie die folgenden Berechtigungen erteilen und zulassen, dass Mi Share die erforderlichen personenbezogenen Daten sammelt:"</string>
+  <string name="purpose_v12">Willkommen bei Mi Share! Mit dieser App können Sie Dateien zwischen Geräten übertragen.</string>
   <string name="queue_full">Beenden Sie laufende Übertragungen, bevor Sie neue hinzufügen.</string>
   <string name="receive_complete">Erfolgreich empfangen</string>
   <string name="receive_error">Empfangen fehlgeschlagen</string>
@@ -133,6 +126,9 @@ Bevor Sie Mi Share nutzen können, müssen Sie die folgenden Berechtigungen erte
   <string name="unkonw_device">Unbekanntes Gerät</string>
   <string name="unrecognized_manufacture">Unbekannt</string>
   <string name="unrecognized_model">Unbekanntes Model</string>
+  <string name="user_instructions">Achtung</string>
+  <string name="v7_preference_off">AUS</string>
+  <string name="v7_preference_on">EIN</string>
   <string name="vivo">Vivo</string>
   <string name="vivo_phone">Vivo Telefon</string>
   <string name="wait_receive_file">Auf Empfang warten…</string>
