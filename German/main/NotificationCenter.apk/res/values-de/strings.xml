@@ -1,33 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-
-
-  <string name="character_counter_content_description">Characters entered %1$d of %2$d</string>
-  <string name="character_counter_overflowed_content_description">Character limit exceeded %1$d of %2$d</string>
-  <string name="chip_text">Chip text</string>
-  <string name="clear_text_end_icon_content_description">Clear text</string>
-  <string name="clearable_edittext_clear_description">Clear</string>
-  <string name="copy">Copy</string>
-  <string name="error_icon_content_description">Error</string>
-  <string name="evening">Afternoon</string>
-  <string name="expand_button_title">Advanced</string>
-  <string name="exposed_dropdown_menu_content_description">Show dropdown menu</string>
-  <string name="feedback">Feedback</string>
-  <string name="menu_setting_unfold">Important</string>
-  <string name="midnight">Night</string>
-  <string name="miuix_appcompat_cloud_state_disabled">Sync with the cloud is off</string>
-  <string name="miuix_appcompat_cloud_state_finished">Synced with the cloud successfully</string>
-  <string name="miuix_appcompat_cloud_state_syncing">Syncing with the cloud…</string>
-  <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Zum Aktualisieren nach unten ziehen</string>
-  <string name="miuix_sbl_tracking_progress_labe_refreshed">Aktualisierung abgeschlossen</string>
-  <string name="miuix_sbl_tracking_progress_labe_refreshing">Aktualisieren</string>
-  <string name="miuix_sbl_tracking_progress_labe_release_to_refresh">Zum Aktualisieren loslassen</string>
-  <string name="miuix_sbl_tracking_progress_labe_up_nodata">Das ist im Moment alles</string>
-  <string name="miuix_sbl_tracking_progress_labe_up_none">Das ist im Moment alles</string>
-  <string name="miuix_sbl_tracking_progress_labe_up_refresh">Einen Moment…</string>
-  <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Elemente laden nicht möglich</string>
-
-
   <string name="abc_action_bar_home_description">Zur Startseite</string>
   <string name="abc_action_bar_up_description">Nach oben</string>
   <string name="abc_action_menu_overflow_description">Mehr Optionen</string>
@@ -49,7 +21,13 @@
   <string name="app_name">Benachrichtigungen</string>
   <string name="cancel">Abbrechen</string>
   <string name="category_other">Andere</string>
+  <string name="character_counter_content_description">Eingegebene Zeichen: %1$d von %2$d</string>
+  <string name="character_counter_overflowed_content_description">Zeichengrenze überschritten: %1$d von %2$d</string>
+  <string name="chip_text">Chiptext</string>
+  <string name="clear_text_end_icon_content_description">Text löschen</string>
+  <string name="clearable_edittext_clear_description">Löschen</string>
   <string name="confirm">Bestätigen</string>
+  <string name="copy">Kopieren</string>
   <string name="default_list_type">Nach Empfangszeit sortieren</string>
   <string name="disable_float_notification">Popup ausgeschaltet</string>
   <string name="disable_lockscreen_notification">Sperrbildschirm-Benachrichtigung ausgeschaltet</string>
@@ -57,8 +35,12 @@
   <string name="enable_float_notification">Popup eingeschaltet</string>
   <string name="enable_lockscreen_notification">Sperrbildschirm-Benachrichtigung eingeschaltet</string>
   <string name="enable_show_badge_notification">Plakette eingeschaltet</string>
+  <string name="error_icon_content_description">Fehler</string>
+  <string name="evening"></string>
+  <string name="expand_button_title">Erweitert</string>
   <string name="expand_top_notification">Top-Benachrichtigung erweitern</string>
   <string name="expandable_under_keyguard">Benachrichtigungsleiste auf Sperrbildschirm öffnen</string>
+  <string name="exposed_dropdown_menu_content_description">Dropdown-Menü anzeigen</string>
   <string name="feedback_tip_cancel">Benachrichtigungsdaten werden nicht gesammelt.</string>
   <string name="feedback_tip_msg">Um Benachrichtigungen genauer zu gruppieren, müssen wir den App-Namen, den Titel und Beschreibung sowie den Versandszeitpunkt der Benachrichtigung erfassen. Feedback senden?</string>
   <string name="feedback_tip_title">Feedback zu den Benachrichtigungskategorien</string>
@@ -81,6 +63,19 @@
   <string name="menu_setting_toast_recommend_minus">Sie werden weniger Benachrichtigungen von %s sehen</string>
   <string name="menu_setting_toast_recommend_normal">Benachrichtigungen von %s werden nicht reduziert</string>
   <string name="menu_setting_toast_show_in_home">Benachrichtigungen von %s werden nicht gruppiert</string>
+  <string name="menu_setting_unfold">Wichtig</string>
+  <string name="midnight"></string>
+  <string name="miuix_appcompat_cloud_state_disabled">Synchronisieren mit der Cloud ist aus</string>
+  <string name="miuix_appcompat_cloud_state_finished">Erfolgreich mit der Cloud synchronisiert</string>
+  <string name="miuix_appcompat_cloud_state_syncing">Mit der Cloud Synchronisieren…</string>
+  <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Zum Aktualisieren nach unten ziehen</string>
+  <string name="miuix_sbl_tracking_progress_labe_refreshed">Aktualisierung abgeschlossen</string>
+  <string name="miuix_sbl_tracking_progress_labe_refreshing">Aktualisieren</string>
+  <string name="miuix_sbl_tracking_progress_labe_release_to_refresh">Zum Aktualisieren loslassen</string>
+  <string name="miuix_sbl_tracking_progress_labe_up_nodata">Das ist im Moment alles</string>
+  <string name="miuix_sbl_tracking_progress_labe_up_none">Das ist im Moment alles</string>
+  <string name="miuix_sbl_tracking_progress_labe_up_refresh">Einen Moment…</string>
+  <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Elemente laden nicht möglich</string>
   <string name="not_sent_recently">Keine zuletzt geöffneten</string>
   <string name="notch_and_status_bar_setting">Notch &amp; Statusleiste</string>
   <string name="notification_aggregate_description1">MIUI kann Push-Benachrichtigungen und Werbenachrichten automatisch gruppieren, so dass Ihre Benachrichtigung weniger überfüllt ist.</string>
