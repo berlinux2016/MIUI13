@@ -1,99 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
 
-
-  <string name="allow_oaid_used_desc">Apps können nicht auf eine ID zugreifen, es sei denn, Sie erlauben ihnen dies ausdrücklich. Einige Funktionen für persönliche Empfehlungen funktionieren möglicherweise nicht richtig, wenn diese Funktion an ist.</string>
-  <string name="auto_clean_description">"Über diese Funktion
-1. Führen Sie diese Funktion ein- oder zweimal aus, wenn Sie feststellen, dass Ihr Lautsprecher leicht durch Staub blockiert ist.
-2. Wenn der Lautsprecher stark blockiert ist, führen Sie diese Funktion 2-5 Mal aus, während Sie Ihr Gerät mit dem Lautsprecher nach unten schütteln."</string>
-  <string name="backup_at_once">Sichern</string>
-  <string name="backup_more_settings">Einstellungen</string>
-  <string name="bluetooth_device_nearby_title">Geräte in der Nähe</string>
-  <string name="bottom_function_settings">Funktionen der zusätzlichen Schaltflächen</string>
-  <string name="change_lock_screen_password_title">Bildschirmsperre ändern</string>
-  <string name="clear_data_alert_info">Alle auf diesem Gerät gespeicherten Sicherungen werden endgültig gelöscht. Sichern Sie wichtige Elemente auf Ihrem Computer und in der Xiaomi Cloud, bevor Sie fortfahren.</string>
-  <string name="computer_backup_summary">Sichern und Wiederherstellen von Elementen mit einem Computer</string>
-  <string name="continue_reset_factory">Werkseinstellung</string>
-  <string name="current_password">Aktuelle Bildschirmsperre</string>
-  <string name="custom_color">Benutzerdefiniert</string>
-  <string name="dark_mode_contrast">Kontrast automatisch einstellen</string>
-  <string name="dark_mode_contrast_hint">Farben und geringeren Kontrast automatisch anpassen, wenn die Helligkeit reduziert wird</string>
-  <string name="default_keyboard">Standard</string>
-  <string name="device_oaid_desc">Anstelle Ihres realen Identifikators wird MIUI eine virtuelle ID (OAID) für Drittanbieter-Apps bereitstellen. Sie verhindert, dass Apps Ihr Verhalten und Ihre Präferenzen verfolgen können, und schützt Ihre Privatsphäre.</string>
-  <string name="device_oaid_title">Virtuelle ID</string>
-  <string name="dialog_backup_title">Sicherungen aktualisieren, bevor Sie auf Werkseinstellungen zurücksetzen?</string>
-  <string name="face_data_apply_for_category_title">Mit Gesichtsdaten entsperren</string>
-  <string name="face_data_apply_for_keyguard_title">Sperrbildschirm</string>
-  <string name="face_data_input_camera_fail">Kamera laden nicht möglich</string>
-  <string name="face_data_input_camera_ok">Kamera laden…</string>
-  <string name="face_data_input_cancel_msg">Gesichtsdaten hinzufügen nicht möglich</string>
-  <string name="face_data_input_ok">Fertig</string>
-  <string name="face_data_input_ok_title">Erfolgreich hinzugefügt</string>
-  <string name="face_data_input_structure_title">3D-Gesichtsdaten</string>
-  <string name="face_data_input_title">Gesichtsdaten hinzfügen</string>
-  <string name="face_data_introduction_msg">Gesichtsdaten können verwendet werden, um Ihr Gerät zu entsperren oder Ihre Identität zu überprüfen. Fügen Sie vor dem Hinzufügen Ihrer Gesichtsdaten das Passwort für den Sperrbildschirm hinzu.</string>
-  <string name="face_data_introduction_next">Weiter</string>
-  <string name="face_data_introduction_title">Gesichtserkennung</string>
-  <string name="face_data_manage_delete">Gesichtsdaten löschen?</string>
-  <string name="face_data_manage_delete_msg">Gesichtsdaten löschen</string>
-  <string name="face_data_manage_delete_sure">Nachdem Sie das Gerät gelöscht haben, können Sie es mit Ihren Gesichtsdaten nicht mehr entsperren.</string>
-  <string name="face_data_manage_unlock_liftcamera_msg">Nachdem der Bildschirm aufleuchtet, nach oben wischen, um das Gerät mit Hilfe der Gesichtsdaten zu entsperren.</string>
-  <string name="face_data_manage_unlock_msg">Gerät mit Ihren Gesichtsdaten entsperren</string>
-  <string name="face_data_manage_unlock_slide_msg">Slider-Verknüpfung durch Gesichtentsperrung ersetzen</string>
-  <string name="face_data_manage_unlock_title">Mit Gesichtsdaten entsperren</string>
-  <string name="face_data_siggesstion_next">Weiter</string>
-  <string name="face_data_siggesstion_next_time">Weiter (%ds)</string>
-  <string name="face_data_suggesstion_first">Security issues: Face unlock is less secure than a PIN, password, or pattern. Your device might be unlocked with your photo, as well as by people or objects with similar appearance.</string>
-  <string name="face_data_suggesstion_second">Achten Sie darauf, dass alle Teile Ihres Gesichts nicht von Objekten verdeckt werden und deutlich sichtbar sind. Ihr Gesicht sollte ebenfalls gut ausgeleuchtet sein.</string>
-  <string name="face_unlock">Gesichtentsperrung</string>
-  <string name="face_unlock_be_on_the_screen">Gerät vor Ihr Gesicht halten</string>
-  <string name="face_unlock_by_notification_screen_on_msg">Sie können das Gerät mit Hilfe von Gesichtsdaten entsperren, wenn der Bildschirm bei eingehenden Benachrichtigungen aufleuchtet. Dadurch kann der Akku schneller entladen werden.</string>
-  <string name="face_unlock_by_notification_screen_on_title">Gesichtentsperrung erlauben, wenn der Bildschirm aufleuchtet</string>
-  <string name="face_unlock_category_title">Sperrbildschirmoptionen</string>
-  <string name="face_unlock_check_failed">Sie wurden nicht erkannt</string>
-  <string name="face_unlock_close_screen">Näher an den Bildschirm herangehen</string>
-  <string name="face_unlock_down">Ihrer Kopf anheben</string>
-  <string name="face_unlock_not_found">Sie wurden nicht erkannt</string>
-  <string name="face_unlock_offset_bottom">Ihr Telefon ein wenig senken</string>
-  <string name="face_unlock_offset_left">Nach rechts bewegen</string>
-  <string name="face_unlock_offset_right">Nach links bewegen</string>
-  <string name="face_unlock_offset_top">Ihr Telefon ein wenig anheben</string>
-  <string name="face_unlock_open_eye">Ihre Augen etwas weiter öffen</string>
-  <string name="face_unlock_quality">Ihr Gesicht wurde nicht klar erkannt</string>
-  <string name="face_unlock_reveal_eye">Ihre Augen sichtbarer machen</string>
-  <string name="face_unlock_reveal_mouth">hre Lippen sichtbarer machen</string>
-  <string name="face_unlock_rise">Ihren Kopf senken</string>
-  <string name="face_unlock_rotated_left">Ihren Kopf nach rechts drehen</string>
-  <string name="face_unlock_rotated_right">Ihren Kopf nach links drehen</string>
-  <string name="face_unlock_sc_status">Bildschirm nach unten schieben, um die Kamera zu öffnen</string>
-  <string name="face_unlock_stay_away_screen">25 bis 40 cm vom Bildschirm entfernt bleiben</string>
-  <string name="face_unlock_success_show_message_dialog_msg">Benachrichtigungen auf dem Sperrbildschirm erlauben, um sie auf diesem anzeigen zu können.</string>
-  <string name="face_unlock_success_show_message_dialog_negative_btn">Nein danke</string>
-  <string name="face_unlock_success_show_message_dialog_positive_btn">Erlauben</string>
-  <string name="face_unlock_success_show_message_dialog_title">Sperrbildschirm-Benachrichtigungen</string>
-  <string name="face_unlock_success_show_message_msg">Nur Benachrichtigungsquelle anzeigen, wenn das Gerät gesperrt ist, und Benachrichtigungsdetails hinzufügen, nachdem die Gesichtsdaten überprüft wurden</string>
-  <string name="face_unlock_success_show_message_title">Benachrichtigungsdetails nach Überprüfung von Gesichtsdaten anzeigen</string>
-  <string name="face_unlock_success_show_message_toast">Benachrichtigungen werden auf dem Sperrbildschirm angezeigt</string>
-  <string name="face_unlock_success_stay_screen_msg">Auf dem Sperrbildschirm bleiben, nachdem Ihr Gesicht überprüft wurde. Nach oben wischen, um den Startbildschirm zu öffnen</string>
-  <string name="face_unlock_success_stay_screen_title">Nach dem Entsperren auf dem Sperrbildschirm bleiben</string>
-  <string name="feedback_btn_text">Feedback senden</string>
-  <string name="flash_drive_backup_disable">Zuerst USB-Laufwerk anschließen</string>
-  <string name="flash_drive_backup_enable">Ein USB-Laufwerk zum Sichern oder Wiederherstellen von Elementen verwenden</string>
-  <string name="freeform_guide_drop_down_to_fullscreen_summary">Die Aktionsleiste eines Popups gedrückt halten und nach unten ziehen.</string>
-  <string name="freeform_guide_drop_down_to_fullscreen_title">Popups im Vollbildmodus einzeigen</string>
-  <string name="freeform_guide_move_summary">Die Aktionsleiste eines Popups gedrückt halten, um es zu verschieben</string>
-  <string name="freeform_guide_move_title">Verschieben von Popups durch Ziehen</string>
-  <string name="freeform_guide_move_to_small_freeform_window_summary">Popup in die Ecke des Bildschirms ziehen</string>
-  <string name="freeform_guide_move_to_small_freeform_window_title">Popup minimieren</string>
-  <string name="freeform_guide_notification_drop_down_summary">Die Taste gedrückt halten, und die Aktionsleiste einer Benachrichtigung herunterziehen.</string>
-  <string name="freeform_guide_notification_drop_down_title">Popups öffnen</string>
-  <string name="freeform_guide_settings">Popups</string>
-  <string name="freeform_guide_slide_up_to_close_summary">Von der Aktionsleiste eines Popups hochklappen</string>
-  <string name="freeform_guide_slide_up_to_close_title">Popups schließen</string>
-  <string name="freeform_vedio_description">"·Die Taste gedrückt und eine Benachrichtigung herunterziehen, um sie in einem Popup zu öffnen.
-·Auf \"Popups\" in kürzlich Geöffnte tippen, um Apps auszuwählen."</string>
-  <string name="gps_description_global">Mehrere Satellitennavigationssysteme (%s) werden unterstützt</string>
-  <string name="help_and_feedback_title">Hilfe und Feedback</string>
   <string name="how_backup_content">"You can save backups locally or to the cloud. Local backups can be stored on your mobile device, computer, or USB drive.
 
 Mobile device
@@ -133,14 +40,7 @@ Open Xiaomi Cloud and restore items from there."</string>
   <string name="miui_accessibility_asr_title">Mi Ditto</string>
   <string name="miui_face_enroll_success">"You can unlock this device using your face data now.
 Continue to access additional settings."</string>
-  <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Zum Aktualisieren nach unten ziehen</string>
-  <string name="miuix_sbl_tracking_progress_labe_refreshed">Aktualisierung abgeschlossen</string>
-  <string name="miuix_sbl_tracking_progress_labe_refreshing">Aktualisieren</string>
-  <string name="miuix_sbl_tracking_progress_labe_release_to_refresh">Zum Aktualisieren loslassen</string>
-  <string name="miuix_sbl_tracking_progress_labe_up_nodata">Das ist im Moment alles</string>
-  <string name="miuix_sbl_tracking_progress_labe_up_none">Das ist im Moment alles</string>
-  <string name="miuix_sbl_tracking_progress_labe_up_refresh">Einen Moment…</string>
-  <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Elemente laden nicht möglich</string>
+
   <string name="multi_face_delete_message">Attention</string>
   <string name="multi_face_delete_show_message">Delete face data now?</string>
   <string name="multi_face_input">Add face data</string>
@@ -633,6 +533,7 @@ Schalten Sie diese Funktion ein und tippen Sie auf die Schaltfläche Eingabehilf
   <string name="allow_mock_location">Scheinstandorte zulassen</string>
   <string name="allow_mock_location_summary">Scheinstandorte zulassen</string>
   <string name="allow_oaid_used">Jeden ID-Zugriff einschränken</string>
+  <string name="allow_oaid_used_desc">Apps können nicht auf eine ID zugreifen, es sei denn, Sie erlauben ihnen dies ausdrücklich. Einige Funktionen für persönliche Empfehlungen funktionieren möglicherweise nicht richtig, wenn diese Funktion an ist.</string>
   <string name="allow_overlay_description">Diese Berechtigung erlaubt es einer App, über anderen Apps angezeigt zu werden und kann die Bedienung und Anzeige anderer Apps beeinträchtigen</string>
   <string name="allow_sound">Ton erlauben</string>
   <string name="allow_sound_title">Ton erlauben</string>
@@ -875,6 +776,9 @@ Schalten Sie diese Funktion ein und tippen Sie auf die Schaltfläche Eingabehilf
   <string name="auto_brightness_very_low_title">Sehr niedrig</string>
   <string name="auto_caps">Autom. Groß-/Kleinschr.</string>
   <string name="auto_caps_summary">Jeden Satz mit einem Großbuchstaben beginnen</string>
+  <string name="auto_clean_description">"Über diese Funktion:
+1. Führen Sie diese Funktion ein- oder zweimal aus, wenn Sie feststellen, dass Ihr Lautsprecher leicht durch Staub blockiert ist.
+2. Wenn der Lautsprecher stark blockiert ist, führen Sie diese Funktion 2-5 mal aus, während Sie Ihr Gerät mit dem Lautsprecher nach unten schütteln."</string>
   <string name="auto_clean_summary">Ein 30-Sekunden-Audio abspielen, um den Lautsprecher zu reinigen</string>
   <string name="auto_clean_title">Lautsprecher reinigen</string>
   <string name="auto_disable_screenbuttons_ask">Nachfragen</string>
@@ -961,6 +865,7 @@ Um die App einzuschränken, schalten Sie zuerst die Akkuoptimierung ein."</strin
   <string name="background_restrict_app_dialog_message">Einschränkung des Hintergrund-Netzwerkzugriffs für diese App kann dazu führen, dass die App nicht mehr normal arbeitet, Nachrichten empfängt, Inhalte herunterlädt etc. Trotzdem einschränken?</string>
   <string name="background_traffic">Hintergrund-%s</string>
   <string name="backtouch_enable_title">Lautstärke auf der Rückseite anpassen</string>
+  <string name="backup_at_once">Sichern</string>
   <string name="backup_configure_account_default_summary">Gesicherte Daten werden zurzeit in keinem Konto gespeichert</string>
   <string name="backup_configure_account_title">Konto sichern</string>
   <string name="backup_data">Sicherungen</string>
@@ -991,6 +896,7 @@ Sicherungen werden in der Xiaomi Cloud gespeichert und können drahtlos abgerufe
   <string name="backup_items_app_tailer">" App-Daten"</string>
   <string name="backup_items_sysdata_tailer">" Systemdaten,"</string>
   <string name="backup_lock_settings_picker_title">Sicherungssperre wählen</string>
+  <string name="backup_more_settings">Einstellungen</string>
   <string name="backup_new">Neu:</string>
   <string name="backup_progress">Sichern…</string>
   <string name="backup_pw_cancel_button_text">Abbrechen</string>
@@ -1290,6 +1196,7 @@ Apps:
   <string name="bluetooth_device_mac_address">Bluetooth-Geräteadresse: %1$s</string>
   <string name="bluetooth_device_misc_title">Selten verwendete BT-Geräte</string>
   <string name="bluetooth_device_name_summary">Sichtbar als “^1” für andere Geräte</string>
+  <string name="bluetooth_device_nearby_title">Geräte in der Nähe</string>
   <string name="bluetooth_device_searchable">Sichtbarkeit</string>
   <string name="bluetooth_devices">Bluetooth-Geräte</string>
   <string name="bluetooth_disable_a2dp_hw_offload">Bluetooth A2DP Hardware Offload deaktivieren</string>
@@ -1573,6 +1480,7 @@ Abtastrate"</string>
 Wenn Sie bereits eines der oben genannten Dinge getan haben, fügen Sie Ihr Mi-Konto erneut hinzu; andernfalls können Sie Ihr Gerät nicht entsperren.</string>
   <string name="bootloader_tips_ok">Verstanden</string>
   <string name="bootloader_tips_warning">Netzwerkverbindung nicht trennen, von Ihrem Mi-Konto nicht abmelden, kein Werksreset durchführen oder Systemdaten löschen.</string>
+  <string name="bottom_function_settings">Funktionen der zusätzlichen Schaltflächen</string>
   <string name="breathing_light_color_menu_title">LED-Farbe</string>
   <string name="breathing_light_color_summary">LED-Farbe bei Eingang einer Benachrichtigung</string>
   <string name="breathing_light_freq_summary">Zeit zwischen dem Blinken der LED</string>
@@ -1757,6 +1665,7 @@ Sie können diese Funktion unter Einstellungen/Bluetooth/Gekoppelte Geräte auss
   <string name="cellular_to_wlan_hint_toast">Verbindung Mobilfunk-&gt;WLAN kann betroffen sein</string>
   <string name="cellular_to_wlan_title">Mobilfunk-&gt;WLAN</string>
   <string name="change">Ändern</string>
+  <string name="change_lock_screen_password_title">Bildschirmsperre ändern</string>
   <string name="change_password">Bildschirmsperre ändern</string>
   <string name="change_security_lock">Andere Entsperrmethoden</string>
   <string name="change_storage">Speicher tauschen</string>
@@ -1798,6 +1707,7 @@ Sie können diese Funktion unter Einstellungen/Bluetooth/Gekoppelte Geräte auss
   <string name="clear_adb_keys">USB-Debugging-Berechtigungen widerrufen</string>
   <string name="clear_all_data">Alle Daten löschen</string>
   <string name="clear_cache_btn_text">Cache leeren</string>
+  <string name="clear_data_alert_info">Alle auf diesem Gerät gespeicherten Sicherungen werden endgültig gelöscht. Sichern Sie wichtige Elemente auf Ihrem Computer und in der Xiaomi Cloud, bevor Sie fortfahren.</string>
   <string name="clear_data_dlg_text">Alle Daten dieser App werden endgültig gelöscht. Dazu zählen alle Dateien, Einstellungen, Konten, Datenbanken usw.</string>
   <string name="clear_data_dlg_title">App-Daten löschen?</string>
   <string name="clear_data_failed">App-Daten können nicht gelöscht werden</string>
@@ -1911,6 +1821,7 @@ Nach Erstellung einer neuen Sicherheitsfrage und Bestätigung Ihres Geburtsdatum
   <string name="complete_settings">Erweitert</string>
   <string name="compute_backup_info">Sicherungsinfo abfragen…</string>
   <string name="compute_delete_contact_info">Info abfragen…</string>
+  <string name="computer_backup_summary">Sichern und Wiederherstellen von Elementen mit einem Computer</string>
   <string name="computing_size">Berechnen…</string>
   <string name="condition_airplane_summary">WLAN, Bluetooth und Mobilfunknetz sind ausgeschaltet. Telefonie und Internet funktionieren nicht.</string>
   <string name="condition_airplane_title">Flugmodus ist eingeschaltet</string>
@@ -1977,8 +1888,8 @@ Nach Erstellung einer neuen Sicherheitsfrage und Bestätigung Ihres Geburtsdatum
   <string name="confirm_reject_all_permission">Alle Apps daran hindern, diese Funktion zu nutzen?</string>
   <string name="confirm_reset_shortcut_manager_throttling_message">Drosselungsszähler für ShortcutManager zurücksetzen?</string>
   <string name="confirm_reset_shortcut_manager_throttling_title">Drosselung für ShortcutManager zurücksetzen?</string>
-  <string name="connect_mode">Verbindungstyp</string>
   <string name="connect_later">Verbindung zu diesem Netzwerk ist derzeit nicht möglich. Später erneut versuchen.</string>
+  <string name="connect_mode">Verbindungstyp</string>
   <string name="connect_to_internet">Verbindung zum Netzwerk</string>
   <string name="connect_wifi">Mit WLAN verbinden</string>
   <string name="connect_wifi_tip">Keine Netzwerkverbindung. Mit Netzwerk verbinden, um Elemente aus iCloud zu importieren.</string>
@@ -2018,6 +1929,7 @@ Nach Erstellung einer neuen Sicherheitsfrage und Bestätigung Ihres Geburtsdatum
   <string name="contextual_card_feedback_send">Feedback senden</string>
   <string name="contextual_card_removed_message">Vorschlag entfernt</string>
   <string name="contextual_card_undo_dismissal_text">Rückgängig</string>
+  <string name="continue_reset_factory">Werkseinstellung</string>
   <string name="contributors_title">Mitwirkende</string>
   <string name="controls_label">Steuerung</string>
   <string name="controls_subtitle">Stromverbrauch anpassen</string>
@@ -2108,6 +2020,7 @@ Damit Sie Ihr Gerät wieder verwenden können, müssen Sie es auf Werkseinstellu
   <string name="current_backup_pw_prompt">Aktuelles Passwort für vollständige Sicherung eingeben</string>
   <string name="current_input_method">Standard</string>
   <string name="current_pad_location">Tablet</string>
+  <string name="current_password">Aktuelle Bildschirmsperre</string>
   <string name="current_phone_location">Telefon</string>
   <string name="current_screen_lock">Aktuelle Bildschirmsperre</string>
   <string name="current_sim">Aktuelle SIM-Karte</string>
@@ -2118,6 +2031,7 @@ Damit Sie Ihr Gerät wieder verwenden können, müssen Sie es auf Werkseinstellu
   <string name="current_use_uicc_wallet">Sie verwenden SIM%1$s Bezahlung</string>
   <string name="current_zone">(aktuell)</string>
   <string name="custom_carrier_title">Mobilfunkanbietername bearbeiten</string>
+  <string name="custom_color">Benutzerdefiniert</string>
   <string name="custom_wifi_name_title">WLAN-Name bearbeiten</string>
   <string name="cutout_mode_always">Notch immer anzeigen</string>
   <string name="cutout_mode_default">Automatisch</string>
@@ -2140,6 +2054,8 @@ Damit Sie Ihr Gerät wieder verwenden können, müssen Sie es auf Werkseinstellu
   <string name="dark_color_summary">Verwenden Sie eine dunkle Farbpalette für Systemhintergründe und kompatible Apps</string>
   <string name="dark_color_summary_lcd">Verwenden Sie eine dunkle Farbpalette für Systemhintergründe und kompatible Apps. Dark Mode kann Ihnen helfen, die Augen zu schonen, wenn Sie Ihr Gerät im Dunkeln verwenden.</string>
   <string name="dark_color_summary_oled">Verwenden Sie eine dunkle Farbpalette für Systemhintergründe und kompatible Apps. Dark Mode reduziert den Stromverbrauch und hilft, die Augen zu schonen.</string>
+  <string name="dark_mode_contrast">Kontrast automatisch einstellen</string>
+  <string name="dark_mode_contrast_hint">Farben und geringeren Kontrast automatisch anpassen, wenn die Helligkeit reduziert wird</string>
   <string name="dark_ui_mode">Nachtmodus</string>
   <string name="dark_ui_mode_disabled_summary_dark_theme_off">Temporär eingeschaltet durch Stromsparen</string>
   <string name="dark_ui_mode_disabled_summary_dark_theme_on">An/Temporär ausgeschaltet durch Stromsparen</string>
@@ -2324,6 +2240,7 @@ Diese Einstellung betrifft alle Benutzer auf diesem Telefon."</string>
   <string name="default_for_sms">Standard für SMS</string>
   <string name="default_for_work">Standard für Arbeit</string>
   <string name="default_input_method">Standardtastatur wählen</string>
+  <string name="default_keyboard">Standard</string>
   <string name="default_keyboard_layout">Standard</string>
   <string name="default_launcher_set_jeejen_message">Home-Taste drücken, um den vereinfachten Launcher einzurichten</string>
   <string name="default_launcher_set_system_message">Home-Taste drücken, um den Standard-Launcher wiederherzustellen</string>
@@ -2385,13 +2302,13 @@ Diese Einstellung betrifft alle Benutzer auf diesem Telefon."</string>
   <string name="device_camera">Kamera</string>
   <string name="device_cellular_network">Mobilfunknetz scannen</string>
   <string name="device_complete_parameters">Alle Spezifikationen</string>
-  <string name="device_details_title">Gerätedetails</string>
   <string name="device_description_battery">Akkukapazität</string>
   <string name="device_description_camera">Hauptkamera</string>
   <string name="device_description_cpu">CPU</string>
   <string name="device_description_ram">RAM</string>
   <string name="device_description_resolution">Auflösung</string>
   <string name="device_description_screen">Bildschirmgröße</string>
+  <string name="device_details_title">Gerätedetails</string>
   <string name="device_display_layout_title">Funktionen</string>
   <string name="device_edit_title">Gerätename ändern</string>
   <string name="device_feedback">Feedback zu diesem Gerät senden</string>
@@ -2412,6 +2329,8 @@ Diese Einstellung betrifft alle Benutzer auf diesem Telefon."</string>
   <string name="device_name_input_overlength">Wortgrenze überschritten</string>
   <string name="device_name_usage_point">Dieser Name wird bei Bluetooth-Verbindungen, Tethering usw. angezeigt</string>
   <string name="device_oaid">Virtuelle ID verwalten</string>
+  <string name="device_oaid_desc">Anstelle Ihres realen Identifikators wird MIUI eine virtuelle ID (OAID) für Drittanbieter-Apps bereitstellen. Sie verhindert, dass Apps Ihr Verhalten und Ihre Präferenzen verfolgen können, und schützt Ihre Privatsphäre.</string>
+  <string name="device_oaid_title">Virtuelle ID</string>
   <string name="device_picker">Bluetooth-Geräteauswahl</string>
   <string name="device_rear_camera">Hintere Kamera</string>
   <string name="device_reset_title">Gerät zurücksetzen</string>
@@ -2433,6 +2352,7 @@ Diese Einstellung betrifft alle Benutzer auf diesem Telefon."</string>
 Um dieses Problem zu beheben, stoppen Sie %1$s und verhindern die Hintergrundaktivität."</string>
   <string name="dialog_background_check_ok">Ausschalten</string>
   <string name="dialog_background_check_title">Hintergrundaktivität ausschalten &amp; App stoppen?</string>
+  <string name="dialog_backup_title">Sicherungen aktualisieren, bevor Sie auf Werkseinstellungen zurücksetzen?</string>
   <string name="dialog_chose_item">Wählen Sie ein Element aus, das angezeigt werden soll</string>
   <string name="dialog_content_login">Für das Update mit Ihrem Mi-Konto anmelden?</string>
   <string name="dialog_location_message">"Ihr Telefon kann den Akku nicht normal verwalten, da %1$s immer wieder Ihren Standort abfragt, wenn Sie die App nicht verwenden.
@@ -2906,15 +2826,69 @@ Für weitere Informationen wenden Sie sich bitte an den Admin Ihres Unternehmens
   <string name="extreme_threats_summary">Erhalten Sie Benachrichtigungen, die Bedrohungen für Leben und Eigentum darstellen</string>
   <string name="extreme_threats_title">Extreme Bedrohungen</string>
   <string name="face_add_max">Sie können bis zu %d Gesichter hinzufügen</string>
+  <string name="face_data_apply_for_category_title">Mit Gesichtsdaten entsperren</string>
+  <string name="face_data_apply_for_keyguard_title">Sperrbildschirm</string>
+  <string name="face_data_input_camera_fail">Kamera laden nicht möglich</string>
+  <string name="face_data_input_camera_ok">Kamera laden…</string>
+  <string name="face_data_input_cancel_msg">Gesichtsdaten hinzufügen nicht möglich</string>
+  <string name="face_data_input_ok">Fertig</string>
+  <string name="face_data_input_ok_title">Erfolgreich hinzugefügt</string>
+  <string name="face_data_input_structure_title">3D-Gesichtsdaten</string>
+  <string name="face_data_input_title">Gesichtsdaten hinzfügen</string>
+  <string name="face_data_introduction_msg">Gesichtsdaten können verwendet werden, um Ihr Gerät zu entsperren oder Ihre Identität zu überprüfen. Fügen Sie vor dem Hinzufügen Ihrer Gesichtsdaten das Passwort für den Sperrbildschirm hinzu.</string>
+  <string name="face_data_introduction_next">Weiter</string>
+  <string name="face_data_introduction_title">Gesichtserkennung</string>
+  <string name="face_data_manage_delete">Gesichtsdaten löschen?</string>
+  <string name="face_data_manage_delete_msg">Gesichtsdaten löschen</string>
+  <string name="face_data_manage_delete_sure">Wenn Sie das Gerät gelöscht haben, können Sie es mit Ihren Gesichtsdaten nicht mehr entsperren.</string>
+  <string name="face_data_manage_unlock_liftcamera_msg">Wenn der Bildschirm aufleuchtet, nach oben wischen, um das Gerät mit Hilfe der Gesichtsdaten zu entsperren.</string>
+  <string name="face_data_manage_unlock_msg">Gerät mit Ihren Gesichtsdaten entsperren</string>
+  <string name="face_data_manage_unlock_slide_msg">Slider-Verknüpfung durch Gesichtsentsperrung ersetzen</string>
+  <string name="face_data_manage_unlock_title">Mit Gesichtsdaten entsperren</string>
+  <string name="face_data_siggesstion_next">Weiter</string>
+  <string name="face_data_siggesstion_next_time">Weiter (%ds)</string>
+  <string name="face_data_suggesstion_first">Sicherheit: Gesichtsentsperrung ist weniger sicher als eine PIN, ein Passwort oder ein Muster. Ihr Gerät kann mit Ihrem Foto entsperrt werden, aber auch durch Personen oder Gegenstände mit ähnlichem Aussehen.</string>
+  <string name="face_data_suggesstion_second">Achten Sie darauf, dass alle Teile Ihres Gesichts nicht von Objekten verdeckt werden und deutlich sichtbar sind. Ihr Gesicht sollte ebenfalls gut ausgeleuchtet sein.</string>
   <string name="face_intro_error_max">Sie haben die Maximalzahl an Gesichtern hinzugefügt</string>
   <string name="face_intro_error_unknown">Weitere Gesichter hinzufügen nicht möglich</string>
   <string name="face_lock_screen_setup_skip_dialog_text">Schützen Sie Ihr Telefon mit einer Bildschirmsperre, damit es bei Verlust oder Diebstahl nicht benutzt werden kann. Sie benötigen auch eine Bildschirmsperroption, um die Gesichtserkennung einzurichten. Abbrechen antippen, dann PIN, Muster oder Passwort festlegen.</string>
+  <string name="face_unlock">Gesichtsentsperrung</string>
+  <string name="face_unlock_be_on_the_screen">Gerät vor Ihr Gesicht halten</string>
+  <string name="face_unlock_by_notification_screen_on_msg">Sie können das Gerät mit Hilfe von Gesichtsdaten entsperren, wenn der Bildschirm bei eingehenden Benachrichtigungen aufleuchtet. Dadurch kann der Akku schneller entladen werden.</string>
+  <string name="face_unlock_by_notification_screen_on_title">Gesichtsentsperrung erlauben, wenn der Bildschirm aufleuchtet</string>
+  <string name="face_unlock_category_title">Sperrbildschirmoptionen</string>
+  <string name="face_unlock_check_failed">Sie wurden nicht erkannt</string>
+  <string name="face_unlock_close_screen">Näher an den Bildschirm herangehen</string>
   <string name="face_unlock_disable">Gesichtsentsperrung deaktiviert</string>
+  <string name="face_unlock_down">Kopf anheben</string>
   <string name="face_unlock_enable">Gesichtsentsperrung aktiviert</string>
+  <string name="face_unlock_not_found">Sie wurden nicht erkannt</string>
+  <string name="face_unlock_offset_bottom">Telefon ein wenig senken</string>
+  <string name="face_unlock_offset_left">Nach rechts bewegen</string>
+  <string name="face_unlock_offset_right">Nach links bewegen</string>
+  <string name="face_unlock_offset_top">Telefon ein wenig anheben</string>
+  <string name="face_unlock_open_eye">Augen etwas weiter öffen</string>
+  <string name="face_unlock_quality">Gesicht wurde nicht klar erkannt</string>
+  <string name="face_unlock_reveal_eye">Augen sichtbarer machen</string>
+  <string name="face_unlock_reveal_mouth">Lippen sichtbarer machen</string>
+  <string name="face_unlock_rise">Kopf senken</string>
+  <string name="face_unlock_rotated_left">Kopf nach rechts drehen</string>
+  <string name="face_unlock_rotated_right">Kopf nach links drehen</string>
+  <string name="face_unlock_sc_status">Bildschirm nach unten schieben, um die Kamera zu öffnen</string>
   <string name="face_unlock_set_unlock_password">Gesichtserkennung + Passwort</string>
   <string name="face_unlock_set_unlock_pattern">Gesichtserkennung + Muster</string>
   <string name="face_unlock_set_unlock_pin">Gesichtserkennung + PIN</string>
   <string name="face_unlock_skip_face">Ohne Gesichtserkennung fortfahren</string>
+  <string name="face_unlock_stay_away_screen">25 bis 40 cm vom Bildschirm entfernt bleiben</string>
+  <string name="face_unlock_success_show_message_dialog_msg">Benachrichtigungen auf dem Sperrbildschirm erlauben, um sie auf diesem anzeigen zu können.</string>
+  <string name="face_unlock_success_show_message_dialog_negative_btn">Nein danke</string>
+  <string name="face_unlock_success_show_message_dialog_positive_btn">Erlauben</string>
+  <string name="face_unlock_success_show_message_dialog_title">Sperrbildschirm-Benachrichtigungen</string>
+  <string name="face_unlock_success_show_message_msg">Nur Benachrichtigungsquelle anzeigen, wenn das Gerät gesperrt ist, und Benachrichtigungsdetails hinzufügen, nachdem die Gesichtsdaten überprüft wurden</string>
+  <string name="face_unlock_success_show_message_title">Benachrichtigungsdetails nach Überprüfung von Gesichtsdaten anzeigen</string>
+  <string name="face_unlock_success_show_message_toast">Benachrichtigungen werden auf dem Sperrbildschirm angezeigt</string>
+  <string name="face_unlock_success_stay_screen_msg">Auf dem Sperrbildschirm bleiben, nachdem Ihr Gesicht überprüft wurde. Nach oben wischen, um den Startbildschirm zu öffnen</string>
+  <string name="face_unlock_success_stay_screen_title">Nach dem Entsperren auf dem Sperrbildschirm bleiben</string>
   <string name="face_unlock_title">Sie können Ihr Telefon mit Ihrem Gesicht entsperren. Aus Sicherheitsgründen erfordert diese Option eine Backup-Sperre.</string>
   <string name="factory_reset_summary">Alle Daten aus dem internen Telefonspeicher löschen</string>
   <string name="fail">Fehlgeschlagen</string>
@@ -2934,6 +2908,7 @@ Für weitere Informationen wenden Sie sich bitte an den Admin Ihres Unternehmens
   <string name="feature_title_call_log">Anrufliste</string>
   <string name="feature_title_contacts">Kontakte</string>
   <string name="feature_title_sms">SMS</string>
+  <string name="feedback_btn_text">Feedback senden</string>
   <string name="feedback_settings">Dienste &amp; Feedback</string>
   <string name="file_privacy_password_role_instruction">Ihre privaten Dateien werden hier gespeichert</string>
   <string name="file_uploading">Hochladen…</string>
@@ -3045,6 +3020,8 @@ Für weitere Informationen wenden Sie sich bitte an den Admin Ihres Unternehmens
   <string name="firmware_version">Androidversion</string>
   <string name="fiveg_switch_title">5G Netzwerk</string>
   <string name="flash_drive_backup_btn">Sichern auf USB-Laufwerk</string>
+  <string name="flash_drive_backup_disable">Zuerst USB-Laufwerk anschließen</string>
+  <string name="flash_drive_backup_enable">USB-Laufwerk zum Sichern oder Wiederherstellen von Elementen verwenden</string>
   <string name="flash_drive_backup_note">"Apps auf USB-Laufwerk sichern.
 Stellen Sie sicher, dass das USB-Laufwerk genügend Speicher hat, bevor Sie beginnen."</string>
   <string name="flash_drive_backup_restore">USB-Laufwerk</string>
@@ -3140,6 +3117,19 @@ Die böse Hexe des Westens sendet Wölfe, Krähen, Bienen, ihre Winkie-Soldaten 
   <string name="free_wifi_user_agreement_allow">Zustimmen</string>
   <string name="free_wifi_user_agreement_title">Nutzungsbedingung</string>
   <string name="free_xiaomi_wifi_connect_summary">Tippen, um mit %1$s zu verbinden</string>
+  <string name="freeform_guide_drop_down_to_fullscreen_summary">Aktionsleiste eines Popups gedrückt halten und nach unten ziehen.</string>
+  <string name="freeform_guide_drop_down_to_fullscreen_title">Popups im Vollbildmodus einzeigen</string>
+  <string name="freeform_guide_move_summary">Aktionsleiste eines Popups gedrückt halten, um es zu verschieben</string>
+  <string name="freeform_guide_move_title">Verschieben von Popups durch Ziehen</string>
+  <string name="freeform_guide_move_to_small_freeform_window_summary">Popup in die Ecke des Bildschirms ziehen</string>
+  <string name="freeform_guide_move_to_small_freeform_window_title">Popup minimieren</string>
+  <string name="freeform_guide_notification_drop_down_summary">Taste gedrückt halten und Aktionsleiste einer Benachrichtigung herunterziehen.</string>
+  <string name="freeform_guide_notification_drop_down_title">Popups öffnen</string>
+  <string name="freeform_guide_settings">Popups</string>
+  <string name="freeform_guide_slide_up_to_close_summary">Von der Aktionsleiste eines Popups hochklappen</string>
+  <string name="freeform_guide_slide_up_to_close_title">Popups schließen</string>
+  <string name="freeform_vedio_description">"· Taste gedrückt halten und eine Benachrichtigung herunterziehen, um sie in einem Popup zu öffnen.
+· Auf \"Popups\" in kürzlich Geöffnte tippen, um Apps auszuwählen."</string>
   <string name="frequently_fragment_delete">Löschen</string>
   <string name="frequently_fragment_tempty">Oft genutzte Inhalte werden hier aufgelistet</string>
   <string name="fsg_mistake_touch_summary">In einigen Szenen, wie z. B. bei Vollbild-Spielen und -Videos, müssen Gesten doppelt gewischt werden, um wirksam zu werden.</string>
@@ -3229,6 +3219,7 @@ Wenn Sie automatische Sicherungen einschalten, werden Geräte- und App-Daten per
   <string name="google_service_title">Google Dienste</string>
   <string name="got_it">Verstanden</string>
   <string name="gps_description">Mehrere Satellitennavigationssysteme (GPS, BeiDou, GLONASS, Galileo) werden unterstützt</string>
+  <string name="gps_description_global">Mehrere Satellitennavigationssysteme (%s) werden unterstützt</string>
   <string name="gsm_to_wifi_connect_type_title">GSM zu WLAN</string>
   <string name="guarded_mode_dialog_backup_message">Sicherungen sind im Gastmodus nicht erlaubt</string>
   <string name="guarded_mode_dialog_title">Sie befinden sich im Gastmodus</string>
@@ -3301,6 +3292,7 @@ Wenn Sie automatische Sicherungen einschalten, werden Geräte- und App-Daten per
   <string name="header_data_and_synchronization">Daten &amp; Synchronisation</string>
   <string name="headset_settings_title">Audioeffekte</string>
   <string name="heavy_weight_stop_description">App kann nicht sicher beendet werden, es könnten dabei aktuelle Daten verloren gehen.</string>
+  <string name="help_and_feedback_title">Hilfe &amp; Feedback</string>
   <string name="help_feedback_label">Hilfe &amp; Feedback</string>
   <string name="help_label">Hilfe &amp; Feedback</string>
   <string name="hidden_ssid_label">Verborgene SSID:</string>
@@ -4311,6 +4303,14 @@ Um auch Musik, Bilder und sonstige Benutzerdaten zu löschen, muss der <b>USB-Sp
   <string name="miui_touch_filtered_warning">Wenn eine App einen Berechtigungsdialog blockiert, ziehen Sie das überlappende Element weg oder schließen Sie die App.</string>
   <string name="miui_updater">Systemupdate</string>
   <string name="miui_userguide">Benutzerhandbuch</string>
+  <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Zum Aktualisieren nach unten ziehen</string>
+  <string name="miuix_sbl_tracking_progress_labe_refreshed">Aktualisierung abgeschlossen</string>
+  <string name="miuix_sbl_tracking_progress_labe_refreshing">Aktualisieren</string>
+  <string name="miuix_sbl_tracking_progress_labe_release_to_refresh">Zum Aktualisieren loslassen</string>
+  <string name="miuix_sbl_tracking_progress_labe_up_nodata">Das ist im Moment alles</string>
+  <string name="miuix_sbl_tracking_progress_labe_up_none">Das ist im Moment alles</string>
+  <string name="miuix_sbl_tracking_progress_labe_up_refresh">Einen Moment…</string>
+  <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Elemente laden nicht möglich</string>
   <string name="mms_breathing_light_color_title">LED-Anzeige bei Nachrichten</string>
   <string name="mms_breathing_light_freq_title">Nachrichtenpulsfrequenz</string>
   <string name="mms_message_summary">Senden &amp; empfangen, wenn mobile Daten aus sind</string>
