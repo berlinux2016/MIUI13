@@ -1,14 +1,23 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
   <string-array name="aggregate_entries">
-    <item>Gruppe</item>
-    <item>Gruppe und niedrigere Priorität</item>
+    <item>Gruppieren</item>
+    <item>Gruppieren und niedrigere Priorität</item>
     <item>Nicht gruppieren</item>
   </string-array>
   <string-array name="aggregate_summaries">
-    <item>Werbe- und Inhaltsbezogene Push-Benachrichtigungen werden gruppiert</item>
+    <item>Werbe- und inhaltsbezogene Push-Benachrichtigungen werden gruppiert</item>
     <item>Push-Benachrichtigungen werden gruppiert und unter anderen Benachrichtigungen angezeigt</item>
     <item>Push-Benachrichtigungen werden nicht gruppiert</item>
+  </string-array>
+  <string-array name="agps_network_entries">
+    <item>Heimnetzwerk</item>
+    <item>Alle Netzwerke</item>
+  </string-array>
+  <string-array name="agps_reset_type_entries">
+     <item>HEISS</item>
+     <item>WARM</item>
+     <item>KALT</item>
   </string-array>
   <string-array name="ai_item_action_array">
     <item>Keine</item>
@@ -23,15 +32,6 @@
     <item>Lampe einschalten</item>
     <item>Lesemodus einschalten</item>
     <item>Nichts</item>
-  </string-array>
-  <string-array name="agps_network_entries">
-    <item>Heimnetzwerk</item>
-    <item>Alle Netzwerke</item>
-  </string-array>
-  <string-array name="agps_reset_type_entries">
-     <item>HEISS</item>
-     <item>WARM</item>
-     <item>KALT</item>
   </string-array>
   <string-array name="alarm_repeat_type">
     <item>Jeden Tag</item>
