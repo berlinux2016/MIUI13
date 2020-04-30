@@ -1,5 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+
+
+    <string name="oaid_reset_content_tip">Wenn Sie die virtuelle Identitäts-ID ausschalten, können einige Apps und Wufu möglicherweise nicht normal genutzt werden und Datenverlust verursachen, seien Sie bitte vorsichtig!</string>
+    <string name="oaid_reset_final_tip">Sind Sie sicher, dass Sie die virtuelle Identitäts-ID ausschalten möchten?</string>
+    <string name="privacy_mask_summary">MIUI stellt der Drittanbieter-App eine virtuelle Identitäts-ID (OAID) zur Verfügung, um Ihre wahre Identität zu ersetzen, zu verhindern, dass der Antrag Ihr Verhalten und Ihre Präferenzen verfolgt, und um Ihre persönlichen Daten zu schützen.</string>
+    <string name="privacy_mask_title">Virtuelle Identitäts-ID aktiviert</string>
+
+
   <string name="HIPS_Perm_Bluetooth_Connectivity_Desc">Ein- und Ausschalten von Bluetooth</string>
   <string name="HIPS_Perm_CallLog_Desc">Anrufliste schreiben und löschen</string>
   <string name="HIPS_Perm_Call_Desc">Telefonnummern direkt anrufen</string>
@@ -300,6 +308,7 @@
   <string name="app_install_tips_install_success">%1$s erfolgreich installiert</string>
   <string name="app_manager_advanced_setting">Erweiterte Einstellungen</string>
   <string name="app_manager_allow">Ja</string>
+  <string name="app_manager_anomaly_analysis">App-Abnormalitäten analysieren</string>
   <string name="app_manager_app_ifno_version">App-Version</string>
   <string name="app_manager_app_info_label">App-Info</string>
   <string name="app_manager_app_info_name">App-Name</string>
