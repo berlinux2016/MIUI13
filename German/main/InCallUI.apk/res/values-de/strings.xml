@@ -1,14 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-
-
-    <string name="ai_assistant">AI Call Assistant</string>
-    <string name="ai_assistant_not_installed">Install AI Call Assistant first</string>
-    <string name="enter_ai_assistant">Use</string>
-    <string name="enter_ai_assistant_tip">"AI Call Assistant can take this call and transcribe the other person's speech for you. Allow AI to answer now?"</string>
-    <string name="video_call_downgrade_insufficient_bandwidth">Insufficient bandwidth, downgrade to voice call</string>
-
-
+  <string name="ai_assistant">AI Anruf-Assistent</string>
+  <string name="ai_assistant_not_installed">Zuerst AI Anruf-Assistent installieren</string>
   <string name="antispam_local_marked">Lokal markiert</string>
   <string name="antispam_notification_title">Unbekannte Nummer</string>
   <string name="antispam_provider">Identifiziert von %s</string>
@@ -114,6 +107,8 @@
   <string name="description_target_answer">Antworten</string>
   <string name="do_not_support_video_calls_by_remote">Videoanrufe werden vom anderen Gerät nicht unterstützt</string>
   <string name="emergency_call_dialog_number_for_display">Notfallnummer</string>
+  <string name="enter_ai_assistant">Anwenden</string>
+  <string name="enter_ai_assistant_tip">AI Anruf-Assistent kann diesen Anruf entgegennehmen und das Gesprochene der anderen Person für Sie umwandeln. AI erlauben, jetzt zu antworten?</string>
   <string name="inCallLabel">Telefon</string>
   <string name="incall_bubble_hangup_click_hint">Erneut tippen, um zum Anruf zurückzukehren</string>
   <string name="incall_call_type_label_sip">Internetanruf</string>
@@ -175,16 +170,12 @@
   <string name="prompt_no_volte_when_failed">Anrufe nicht möglich. Ihr Gerät muss an ein 4G-Netz mit VoLTE-Unterstützung angeschlossen sein.</string>
   <string name="remind_unlock_message">Ihr Gerät ist jetzt gesperrt. Nach Entsperrung des Geräts wird \"%s\" verfügbar sein. Jetzt entsperren?</string>
   <string name="respond_via_sms_custom_message">Eigene SMS</string>
-  <string name="select_audio_dialog_title">Antwortmodus wählen</string>
+  <string name="select_audio_dialog_title">Antwortmodus auswählen</string>
   <string name="select_one_sim_title">Nur SIM %1$d möglich</string>
-  
   <string name="select_one_sim_title_for_heduohao">Kann nur SIM %1$d Sub %2$d verwenden.</string>
-  
   <string name="select_sim_hint">SIM %2$d nicht möglich, während SIM %1$d verwendet wird</string>
-  
   <string name="select_sim_hint_for_heduohao">Kann keine anderen verwenden, während SIM %1$d Sub %2$d verwendet wird.</string>
-  
-  <string name="select_voice_call_sim">SIM-Karte wählen</string>
+  <string name="select_voice_call_sim">SIM-Karte auswählen</string>
   <string name="separate_from_conference">Anruf trennen</string>
   <string name="sip_call_not_support_record">Aufname von SIP-Anrufen nicht möglich</string>
   <string name="supp_service_notification_call_waiting">Die von Ihnen gewählte Nummer ist besetzt. Bitte warten…</string>
@@ -193,11 +184,12 @@
   <string name="unlock_phone">Gerät entsperren</string>
   <string name="upgrade_vt_prompt">Auf Videoanruf umschalten?</string>
   <string name="user_locked_prompt">Gerät entsperren für Kontaktezugriff</string>
+  <string name="video_call_downgrade_insufficient_bandwidth">Unzureichende Bandbreite, Herabstufung auf Sprachanruf</string>
   <string name="video_conference_caller_info_name">%1$s Videokonferenz</string>
   <string name="video_crbt_title">Video-Rückrufton der Gegenstelle wird wiedergegeben</string>
   <string name="voicemail">Sprachnachricht</string>
-  <string name="volume_boost_text">Lautstärke erfolgreich erhöht</string>
   <string name="volte_call">VoLTE-Anruf</string>
+  <string name="volume_boost_text">Lautstärke erfolgreich erhöht</string>
   <string name="wait_prompt_str">Folgende Töne senden?</string>
   <string name="waiting_close_airplane_mode">Einen Moment…</string>
   <string name="wifi_call">VoWLAN-Anruf</string>
