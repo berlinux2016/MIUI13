@@ -1,44 +1,22 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-
-
-  <string name="abc_action_bar_home_description">Navigate home</string>
-  <string name="abc_action_bar_up_description">Navigate up</string>
-  <string name="abc_action_menu_overflow_description">More options</string>
-  <string name="abc_action_mode_done">Done</string>
-  <string name="abc_activity_chooser_view_see_all">See all</string>
-  <string name="abc_activitychooserview_choose_application">Choose an app</string>
-  <string name="abc_capital_off">OFF</string>
-  <string name="abc_capital_on">ON</string>
-  <string name="abc_search_hint">Search…</string>
-  <string name="abc_searchview_description_clear">Clear query</string>
-  <string name="abc_searchview_description_query">Search query</string>
-  <string name="abc_searchview_description_search">Search</string>
-  <string name="abc_searchview_description_submit">Submit query</string>
-  <string name="abc_searchview_description_voice">Voice search</string>
-  <string name="abc_shareactionprovider_share_with">Share with</string>
-  <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
-  <string name="abc_toolbar_collapse_description">Collapse</string>
-  <string name="dialog_delete_positive">Delete</string>
-  <string name="expand_button_title">Advanced</string>
-  <string name="h5_net_error" formatted="false">"Couldn't load %s (%s)"</string>
-  <string name="h5_net_error_tip">"Couldn't open URL"</string>
-  <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Zum Aktualisieren nach unten ziehen</string>
-  <string name="miuix_sbl_tracking_progress_labe_refreshed">Aktualisierung abgeschlossen</string>
-  <string name="miuix_sbl_tracking_progress_labe_refreshing">Aktualisieren</string>
-  <string name="miuix_sbl_tracking_progress_labe_release_to_refresh">Zum Aktualisieren loslassen</string>
-  <string name="miuix_sbl_tracking_progress_labe_up_nodata">Das ist im Moment alles</string>
-  <string name="miuix_sbl_tracking_progress_labe_up_none">Das ist im Moment alles</string>
-  <string name="miuix_sbl_tracking_progress_labe_up_refresh">Einen Moment…</string>
-  <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Elemente laden nicht möglich</string>
-  <string name="no_net">"Couldn't connect to the network"</string>
-  <string name="not_set">Not set</string>
-  <string name="preference_copied">\"%1$s\" in Zwischenablage kopiert</string>
-  <string name="search_menu_title">Search</string>
-  <string name="v7_preference_off">OFF</string>
-  <string name="v7_preference_on">ON</string>
-
-
+  <string name="abc_action_bar_home_description">Zur Startseite</string>
+  <string name="abc_action_bar_up_description">Nach oben</string>
+  <string name="abc_action_menu_overflow_description">Weitere Optionen</string>
+  <string name="abc_action_mode_done">Fertig</string>
+  <string name="abc_activity_chooser_view_see_all">Alle ansehen</string>
+  <string name="abc_activitychooserview_choose_application">App auswählen</string>
+  <string name="abc_capital_off">AUS</string>
+  <string name="abc_capital_on">AN</string>
+  <string name="abc_search_hint">Suchen…</string>
+  <string name="abc_searchview_description_clear">Suchanfrage löschen</string>
+  <string name="abc_searchview_description_query">Suchanfrage</string>
+  <string name="abc_searchview_description_search">Suchen</string>
+  <string name="abc_searchview_description_submit">Suchanfrage senden</string>
+  <string name="abc_searchview_description_voice">Sprachsuche</string>
+  <string name="abc_shareactionprovider_share_with">Teilen mit</string>
+  <string name="abc_shareactionprovider_share_with_application">Teilen mit %s</string>
+  <string name="abc_toolbar_collapse_description">Einklappen</string>
   <string name="app_label">Downloadmanager</string>
   <string name="auto_restart_under_wifi">Automatisch Datei über WLAN herunterladen</string>
   <string name="button_cancel_download">Abbrechen</string>
@@ -59,6 +37,7 @@
   <string name="dialog_data_limit_msg1">%s mobile Daten werden verwendet, um diese Datei herunterzuladen. Jetzt herunterladen?</string>
   <string name="dialog_data_limit_msg3">Limit ändern</string>
   <string name="dialog_data_limit_title">Warnhinweis Datennutzung</string>
+  <string name="dialog_delete_positive">Löschen</string>
   <string name="dialog_insufficient_space_on_cache">Nicht genug Platz auf internem Speicher</string>
   <string name="dialog_insufficient_space_on_external">Nicht genug Platz auf externem Speicher</string>
   <string name="dialog_not_show_again">Nicht mehr anzeigen</string>
@@ -76,8 +55,21 @@
   <string name="download_running">In Bearbeitung</string>
   <string name="download_unknown_title">&lt;Unbenannt&gt;</string>
   <string name="enter_garbage_clean">Internen Speicher bereinigen</string>
+  <string name="expand_button_title">Erweitert</string>
+  <string name="h5_net_error" formatted="false">%s (%s) laden fehlgeschlagen</string>
+  <string name="h5_net_error_tip">URL öffnen fehlgeschlagen</string>
   <string name="insufficient_space">Nicht genug Platz auf internem Speicher</string>
+  <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Zum Aktualisieren nach unten ziehen</string>
+  <string name="miuix_sbl_tracking_progress_labe_refreshed">Aktualisierung abgeschlossen</string>
+  <string name="miuix_sbl_tracking_progress_labe_refreshing">Aktualisieren</string>
+  <string name="miuix_sbl_tracking_progress_labe_release_to_refresh">Zum Aktualisieren loslassen</string>
+  <string name="miuix_sbl_tracking_progress_labe_up_nodata">Das ist im Moment alles</string>
+  <string name="miuix_sbl_tracking_progress_labe_up_none">Das ist im Moment alles</string>
+  <string name="miuix_sbl_tracking_progress_labe_up_refresh">Einen Moment…</string>
+  <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Elemente laden nicht möglich</string>
   <string name="mobile_recommended_title">Mobiler Datenverbrauch</string>
+  <string name="no_net">Netzwerkverbindung nicht möglich</string>
+  <string name="not_set">Nicht festgelegt</string>
   <string name="notif_text_engine_off">Xunlei-Beschleuniger ist aus</string>
   <string name="notif_text_engine_on">Beschleunigen…</string>
   <string name="notif_title_file_size">Insgesamt %1$d Dateien</string>
@@ -109,6 +101,7 @@
   <string name="permlab_downloadManagerAdvanced">Erweiterte Funktionen des Downloadmanagers</string>
   <string name="permlab_downloadWithoutNotification">Dateien ohne Benachrichtigung herunterladen</string>
   <string name="permlab_seeAllExternal">Alle Downloads im USB-Speicher anzeigen</string>
+  <string name="preference_copied">\"%1$s\" in Zwischenablage kopiert</string>
   <string name="privacy_notif_content">Tippen, um Details anzuzeigen</string>
   <string name="privacy_notif_title">Xunlei-Downloadbeschleuniger ist an</string>
   <string name="privacy_tip_cancel">Abbrechen</string>
@@ -116,7 +109,10 @@
   <string name="privacy_tip_title">Xunlei-Beschleuniger nutzen?</string>
   <string name="recommended_file_size_download_in_mobile">%s mobile Daten verwenden, um diese Datei herunterzuladen?</string>
   <string name="recommended_no_file_size_download_in_mobile">Mobile Datenverbindung zum Herunterladen dieser Datei verwenden?</string>
+  <string name="search_menu_title">Suchen</string>
   <string name="task_already_exist">Aufgabe bereits vorhanden</string>
+  <string name="v7_preference_off">AUS</string>
+  <string name="v7_preference_on">AN</string>
   <string name="warning_tip_content">Sie sind nicht mehr mit WLAN verbunden. Wenn Sie Ihre mobile Datenverbindung nutzen, um diesen Download abzuschließen, erhöht sich Ihren Datenverbrauch. Wenn Sie das Datenlimit Ihres Tarifs überschreiten, kann Ihr Mobilfunkanbieter Ihnen zusätzliche Gebühren in Rechnung stellen.</string>
   <string name="warning_tip_title">Warnhinweis Datennutzung</string>
   <string name="wifi_recommended_body" formatted="false">"Download von %s kann Ihre mobilen Daten extrem überschreiten. Je nach Tarif können zusätzliche Kosten bei Ihrem Mobilfunkanbieter entstehen.

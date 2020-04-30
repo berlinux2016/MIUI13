@@ -1,55 +1,23 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-
-
-  <string name="abc_action_bar_home_description">Navigate home</string>
-  <string name="abc_action_bar_up_description">Navigate up</string>
-  <string name="abc_action_menu_overflow_description">More options</string>
-  <string name="abc_action_mode_done">Done</string>
-  <string name="abc_activity_chooser_view_see_all">See all</string>
-  <string name="abc_activitychooserview_choose_application">Choose an app</string>
-  <string name="abc_capital_off">OFF</string>
-  <string name="abc_capital_on">ON</string>
-  <string name="abc_search_hint">Search…</string>
-  <string name="abc_searchview_description_clear">Clear query</string>
-  <string name="abc_searchview_description_query">Search query</string>
-  <string name="abc_searchview_description_search">Search</string>
-  <string name="abc_searchview_description_submit">Submit query</string>
-  <string name="abc_searchview_description_voice">Voice search</string>
-  <string name="abc_shareactionprovider_share_with">Share with</string>
-  <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
-  <string name="abc_toolbar_collapse_description">Collapse</string>
-  <string name="aggree_desc">Allow this app to connect to the internet and grant the mandatory permissions listed above.</string>
-  <string name="copy">Copy</string>
-  <string name="expand_button_title">Advanced</string>
-  <string name="fab_menu_sort">Sort</string>
-  <string name="guide_newfunc_content">Now you can filter file formats, rearrange items, and switch between views by tapping the shortcut.</string>
-  <string name="guide_newfunc_title">New feature</string>
-  <string name="imm_str_storage">Storage</string>
-  <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Zum Aktualisieren nach unten ziehen</string>
-  <string name="miuix_sbl_tracking_progress_labe_refreshed">Aktualisierung abgeschlossen</string>
-  <string name="miuix_sbl_tracking_progress_labe_refreshing">Aktualisieren</string>
-  <string name="miuix_sbl_tracking_progress_labe_release_to_refresh">Zum Aktualisieren loslassen</string>
-  <string name="miuix_sbl_tracking_progress_labe_up_nodata">Das ist im Moment alles</string>
-  <string name="miuix_sbl_tracking_progress_labe_up_none">Das ist im Moment alles</string>
-  <string name="miuix_sbl_tracking_progress_labe_up_refresh">Einen Moment…</string>
-  <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Elemente laden nicht möglich</string>
-  <string name="not_set">Not set</string>
-  <string name="optional_change_wifi">For managing files remotely via Wi-Fi</string>
-  <string name="preference_copied">\"%1$s\" in Zwischenablage kopiert</string>
-  <string name="pull_to_enter_private">Pull down to open private folder</string>
-  <string name="refresh_success">Refresh complete</string>
-  <string name="release_enter_private">Release to open private folder</string>
-  <string name="search_menu_title">Search</string>
-  <string name="sort_hint_name">Sorted by name</string>
-  <string name="sort_hint_time">Sorted by time</string>
-  <string name="sort_hint_type">Sorted by type</string>
-  <string name="v7_preference_off">OFF</string>
-  <string name="v7_preference_on">ON</string>
-  <string name="view_type">View</string>
-
-
   <string name="a_week_share_rank">Wöchentliche Rangliste</string>
+  <string name="abc_action_bar_home_description">Zur Startseite</string>
+  <string name="abc_action_bar_up_description">Nach oben</string>
+  <string name="abc_action_menu_overflow_description">Weitere Optionen</string>
+  <string name="abc_action_mode_done">Fertig</string>
+  <string name="abc_activity_chooser_view_see_all">Alle ansehen</string>
+  <string name="abc_activitychooserview_choose_application">App auswählen</string>
+  <string name="abc_capital_off">AUS</string>
+  <string name="abc_capital_on">AN</string>
+  <string name="abc_search_hint">Suchen…</string>
+  <string name="abc_searchview_description_clear">Suchanfrage löschen</string>
+  <string name="abc_searchview_description_query">Suchanfrage</string>
+  <string name="abc_searchview_description_search">Suchen</string>
+  <string name="abc_searchview_description_submit">Suchanfrage senden</string>
+  <string name="abc_searchview_description_voice">Sprachsuche</string>
+  <string name="abc_shareactionprovider_share_with">Teilen mit</string>
+  <string name="abc_shareactionprovider_share_with_application">Teilen mit %s</string>
+  <string name="abc_toolbar_collapse_description">Einklappen</string>
   <string name="action_mode_deselect_all">Keine</string>
   <string name="action_mode_select_all">Alle</string>
   <string name="activity_parse_video_title">Videolink einfügen</string>
@@ -57,6 +25,7 @@
   <string name="ad_txt">Werbung</string>
   <string name="add_private">Dateien jetzt verbergen</string>
   <string name="add_private_files">Dateien hinzufügen</string>
+  <string name="aggree_desc">Dieser App eine Internetverbindung erlauben und die oben aufgeführten obligatorischen Genehmigungen erteilen</string>
   <string name="album_creator">Erstellt von %s</string>
   <string name="album_name">Tägliche Auswahl: %s</string>
   <string name="all_topic">Alle Themen</string>
@@ -153,6 +122,7 @@
   <string name="connection_lost">Getrennt</string>
   <string name="contain_sensitive_words">Unangemessene Wörter entfernen und erneut versuchen</string>
   <string name="copied">Kopiert</string>
+  <string name="copy">Kopieren</string>
   <string name="copy_failed">Kopieren fehlgeschlagen</string>
   <string name="copy_text">Text kopieren</string>
   <string name="copy_to">Kopieren nach…</string>
@@ -250,8 +220,10 @@
   <string name="exo_controls_play_description">Abspielen</string>
   <string name="exo_controls_previous_description">Vorheriger Titel</string>
   <string name="exo_controls_rewind_description">Rücklauf</string>
+  <string name="expand_button_title">Erweitert</string>
   <string name="extended_storage_file_can_not_open">Datei kann nicht geöffnet werden. Kopieren Sie sie auf den internen Speicher.</string>
   <string name="extract">Entpacken</string>
+  <string name="fab_menu_sort">Sortieren</string>
   <string name="fail_to_create_folder_unknown">Ordner kann nicht erstellt werden</string>
   <string name="failed_not_access_sd_card">Erst Zugriff auf SD-Karte erlauben</string>
   <string name="failed_obtain_permissions">Berechtigung nicht erhalten</string>
@@ -304,6 +276,8 @@
   <string name="group_title_extra_backup">Sicherungen</string>
   <string name="group_title_extra_expire">Läuft bald ab</string>
   <string name="group_title_extra_new">Neu</string>
+  <string name="guide_newfunc_content">Jetzt können Sie Dateiformate filtern, Elemente neu anordnen und zwischen den Ansichten wechseln, indem Sie auf die Verknüpfung tippen.</string>
+  <string name="guide_newfunc_title">Neue Funktion</string>
   <string name="handsome_boy">Männlich</string>
   <string name="has_installed">Installiert</string>
   <string name="hint_switch_to_grid_mode">Auf Rasteransicht umschalten</string>
@@ -321,6 +295,7 @@
   <string name="hottest_sticker_str">Beliebt</string>
   <string name="if_cancel">Diese Aktion abbrechen?</string>
   <string name="image_loading_error">Bild konnte nicht geladen werden</string>
+  <string name="imm_str_storage">Speicher</string>
   <string name="input_memo_hint">Geben Sie weitere Gründe an (optional)</string>
   <string name="install_btn_download_install_text">Öffnen, um das Video und mehr zu sehen</string>
   <string name="install_btn_download_not_install_text">\"Want to Watch Video\" installieren, um das Video zu öffnen und mehr zu sehen</string>
@@ -390,6 +365,14 @@
   <string name="midrop_msg_1">Schalten Sie Mi Drop auf dem anderen Gerät ein</string>
   <string name="midrop_msg_2">Wenn Mi Drop eingeschaltet ist, können Sie nach Geräten in der Nähe suchen und Dateien senden</string>
   <string name="midrop_send_files">Dateien zum Senden auswählen</string>
+  <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Zum Aktualisieren nach unten ziehen</string>
+  <string name="miuix_sbl_tracking_progress_labe_refreshed">Aktualisierung abgeschlossen</string>
+  <string name="miuix_sbl_tracking_progress_labe_refreshing">Aktualisieren</string>
+  <string name="miuix_sbl_tracking_progress_labe_release_to_refresh">Zum Aktualisieren loslassen</string>
+  <string name="miuix_sbl_tracking_progress_labe_up_nodata">Das ist im Moment alles</string>
+  <string name="miuix_sbl_tracking_progress_labe_up_none">Das ist im Moment alles</string>
+  <string name="miuix_sbl_tracking_progress_labe_up_refresh">Einen Moment…</string>
+  <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Elemente laden nicht möglich</string>
   <string name="mobile_network_dialog_cancle">Abbrechen</string>
   <string name="mobile_network_dialog_confirm">OK</string>
   <string name="mobile_network_dialog_tip">Wenn Sie Videos über die mobile Datenverbindung ansehen, können höhere Kosten bei Ihrem Mobilfunkanbieter entstehen</string>
@@ -436,6 +419,7 @@
   <string name="no_wifi">Keine WLAN-Verbindung gefunden</string>
   <string name="no_wifi_hint">Keine Verbindung</string>
   <string name="not_installed_documentsui">DocumentsUI ist nicht installiert</string>
+  <string name="not_set">Nicht festgelegt</string>
   <string name="not_support_documentui">DocumentUI wird von diesem Gerät nicht unterstützt</string>
   <string name="notif_server_starting">FTP-Server starten…</string>
   <string name="notif_title">FTP-Server läuft</string>
@@ -482,6 +466,7 @@
   <string name="operation_show_privacy_policy">Datenschutzerklärung anzeigen</string>
   <string name="operation_show_sys">Versteckte Dateien anzeigen</string>
   <string name="operation_unfavorite">Aus Favoriten entfernen</string>
+  <string name="optional_change_wifi">Für die Fernverwaltung von Dateien über WLAN</string>
   <string name="original_user_desc">Laden Sie regelmäßig Videos hoch, um den Creator Status zu erhalten</string>
   <string name="original_user_qq_group">Dem Talent Team der QQ Gruppe beitreten</string>
   <string name="original_user_register">• &lt;font color=#fc7050>%1$s&lt;/font> ist der Community beigetreten</string>
@@ -543,6 +528,7 @@
   <string name="popup_msg_wb">Dieses Video mit Ihren Freunden über Weibo teilen</string>
   <string name="popup_msg_wx">Dieses Video mit Ihren Freunden über WeChat teilen</string>
   <string name="port_range">Port muss zwischen 1024-65535 sein</string>
+  <string name="preference_copied">\"%1$s\" in Zwischenablage kopiert</string>
   <string name="pretty_girl">Weiblich</string>
   <string name="privacy_policy">Datenschutzerklärung</string>
   <string name="private_files">Versteckt</string>
@@ -553,12 +539,15 @@
   <string name="prize_result_tip">Tauschen</string>
   <string name="prize_result_tip2">Edelsteine gehen in Ihre Schatzkammer</string>
   <string name="promot_enctypt_password">Um das Gerät zu entsperren, geben Sie das Passwort ein oder schalten Sie die Kindersicherung aus</string>
+  <string name="pull_to_enter_private">Herunterziehen zum Öffnen privater Ordner</string>
   <string name="qq_not_installed">QQ ist nicht installiert</string>
   <string name="recent_show">Zuletzt</string>
   <string name="recommend">Empfohlen</string>
   <string name="recommend_popup_title">Vorschläge</string>
   <string name="recommend_topic">Empfohlene Themen</string>
   <string name="recommend_user">Empfohlene Profile</string>
+  <string name="refresh_success">Aktualisieren abgeschlossen</string>
+  <string name="release_enter_private">Loslassen zum Öffnen privater Ordner</string>
   <string name="remote_video_report_success">Vielen Dank für Ihr Feedback! Wir schauen es uns sobald wie möglich an.</string>
   <string name="rename_alert">Wenn Sie die Dateierweiterung ändern, können Sie sie nicht mehr öffnen</string>
   <string name="rename_alert2">Datei wird ausgeblendet, wenn Sie die Dateierweiterung geändert haben</string>
@@ -607,6 +596,7 @@
   <string name="search_hot_sticker">Sticker; Sticker herunterladen</string>
   <string name="search_hot_video">Beliebte Videos;Videos hochladen;Video hochladen;Kurzfilm;kurze Videos;Kleines Video;Kleine Videos</string>
   <string name="search_kuai_chuan">Mi Drop;Transfer;Übertragung</string>
+  <string name="search_menu_title">Suchen</string>
   <string name="search_popup_tip">Sie können nach Personen und Themen suchen</string>
   <string name="search_recent_file">Dateien;Dateiexplorer;Datei;Daten verwalten;Dateimanager</string>
   <string name="search_result">Ergebnisse</string>
@@ -673,6 +663,9 @@
   <string name="shortcut_msg">Verknüpfung für beliebte Videos zu Startbildschirm hinzufügen</string>
   <string name="skip_file">Überspringen</string>
   <string name="smb_loading">Einen Moment…</string>
+  <string name="sort_hint_name">Nach Name sortiert</string>
+  <string name="sort_hint_time">Nach Zeit sortiert</string>
+  <string name="sort_hint_type">Nach Typ sortiert</string>
   <string name="sort_size_asc">Von klein nach groß</string>
   <string name="sort_size_desc">Von groß nach klein</string>
   <string name="start_doc">Dokumente</string>
@@ -810,6 +803,8 @@
   <string name="user_topic_text">Meine Themen</string>
   <string name="user_video_text">Meine Videos</string>
   <string name="utf8_summary">System-FTP-Standardcodierung</string>
+  <string name="v7_preference_off">AUS</string>
+  <string name="v7_preference_on">AN</string>
   <string name="video_ad_download">Installieren</string>
   <string name="video_comment_hint">Thema wählen</string>
   <string name="video_comment_limit">%1$s Zeichen übrig</string>
@@ -861,6 +856,7 @@
   <string name="view_master_rank">Youliao Top anzeigen</string>
   <string name="view_more_sticker">Weitere Sticker anzeigen</string>
   <string name="view_top_rank">Ranking anzeigen</string>
+  <string name="view_type">Anzeigen</string>
   <string name="wechat_video">Video auf %s</string>
   <string name="weibo_share_success">Erfolgreich geteilt</string>
   <string name="weixin_not_installed">WeChat nicht installiert</string>
