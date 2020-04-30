@@ -1,64 +1,32 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-
-
-  <plurals name="app_behavior_desc_allow_minute">
-    <item quantity="other">%2$d-mal bei %1$s erlaubt</item>
-    <item quantity="one">%2$d-mal bei %1$s erlaubt</item>
+  <plurals name="add_game_notification_title">
+    <item quantity="other">%d Spiele hinzugefügt</item>
+    <item quantity="one">%d Spiel hinzugefügt</item>
   </plurals>
-  <plurals name="app_behavior_desc_deny_minute">
-    <item quantity="other">%2$d-mal bei %1$s verweigert</item>
-    <item quantity="one">%2$d-mal bei %1$s verweigert</item>
-  </plurals>
-  <plurals name="app_behavior_desc_virtual_minute">
-    <item quantity="other">%2$d leere Nachrichten an %1$s gesendet</item>
-    <item quantity="one">%2$d leere Nachricht an %1$s gesendet</item>
-  </plurals>
-  <plurals name="app_behavior_wakepath_multiple">
-    <item quantity="other">%1$1s startete %2$d Apps</item>
-    <item quantity="one">%1$1s startete %2$d App</item>
-  </plurals>
-  <plurals name="app_behavior_wakepath_multiple_single">
-    <item quantity="other">Diese App startete %1$d andere Apps</item>
-    <item quantity="one">Diese App startete %1$d andere App</item>
-  </plurals>
-  <plurals name="pc_battery_history_hour">
-    <item quantity="other">" Std"</item>
-    <item quantity="one">" Std"</item>
-  </plurals>
-  <plurals name="pc_battery_history_minute">
-    <item quantity="other">" Min"</item>
-    <item quantity="one">" Min"</item>
-  </plurals>
-  <plurals name="power_off_warning_button_ok_time">
-    <item quantity="other">Verstanden (%ds)</item>
-    <item quantity="one">Verstanden (%ds)</item>
-  </plurals>
-  <plurals name="power_off_warning_notification_message">
-    <item quantity="other">Ihr Gerät schaltet sich in %d Sekunden ab. Ladegerät anschließen.</item>
-    <item quantity="one">Ihr Gerät schaltet sich in %d Sekunde (gleich) ab. Ladegerät anschließen.</item>
-  </plurals>
-  <plurals name="privacy_permission_summary">
-    <item quantity="other">%s Apps haben permanenten Zugriff</item>
-    <item quantity="one">%s Apps hat permanenten Zugriff</item>
-  </plurals>
-  <plurals name="privacy_pop_times">
-    <item quantity="other">%s-mal</item>
-    <item quantity="one">%s-mal</item>
-  </plurals>
-
-
   <plurals name="app_behavior_desc_allow">
     <item quantity="other">von %1$s - %2$s | %3$dx erlaubt</item>
     <item quantity="one">von %1$s - %2$s | %3$dx erlaubt</item>
+  </plurals>
+  <plurals name="app_behavior_desc_allow_minute">
+    <item quantity="other">%2$d-mal um %1$s erlaubt</item>
+    <item quantity="one">%2$d-mal um %1$s erlaubt</item>
   </plurals>
   <plurals name="app_behavior_desc_deny">
     <item quantity="other">von %1$s - %2$s | %3$dx verweigert</item>
     <item quantity="one">von %1$s - %2$s | %3$dx verweigert</item>
   </plurals>
+  <plurals name="app_behavior_desc_deny_minute">
+    <item quantity="other">%2$d-mal um %1$s verweigert</item>
+    <item quantity="one">%2$d-mal um %1$s verweigert</item>
+  </plurals>
   <plurals name="app_behavior_desc_virtual">
     <item quantity="other">von %1$s - %2$s | %3$d leere Nachrichten zurückgesendet</item>
     <item quantity="one">von %1$s - %2$s | %3$d leere Nachrichten zurückgesendet</item>
+  </plurals>
+  <plurals name="app_behavior_desc_virtual_minute">
+    <item quantity="other">%2$d leere Nachrichten an %1$s gesendet</item>
+    <item quantity="one">%2$d leere Nachricht an %1$s gesendet</item>
   </plurals>
   <plurals name="app_behavior_privacy_manager_off">
     <item quantity="other">Sie werden nicht über sensible Aktionen benachrichtigt, die von %1$d Apps ausgeführt werden</item>
@@ -80,9 +48,13 @@
     <item quantity="other">\"%1$1s\" wartet auf %2$d Apps, um Ihren Standort zu ermitteln</item>
     <item quantity="one">\"%1$1s\" wartet auf %2$d App, um Ihren Standort zu ermitteln</item>
   </plurals>
-  <plurals name="add_game_notification_title">
-    <item quantity="other">%d Spiele hinzugefügt</item>
-    <item quantity="one">%d Spiel hinzugefügt</item>
+  <plurals name="app_behavior_wakepath_multiple">
+    <item quantity="other">%1$1s startete %2$d Apps</item>
+    <item quantity="one">%1$1s startete %2$d App</item>
+  </plurals>
+  <plurals name="app_behavior_wakepath_multiple_single">
+    <item quantity="other">Diese App startete %1$d andere Apps</item>
+    <item quantity="one">Diese App startete %1$d andere App</item>
   </plurals>
   <plurals name="app_manager_permission_summary_accept">
     <item quantity="other">%d Berechtigungen erlaubt</item>
@@ -376,6 +348,14 @@ Wenn Sie mobile Daten wieder einschalten, kann Ihr Mobilfunkanbieter zusätzlich
     <item quantity="other">%d Apps entleeren den Akku</item>
     <item quantity="one">%d App entleert den Akku</item>
   </plurals>
+  <plurals name="pc_battery_history_hour">
+    <item quantity="other">" Std"</item>
+    <item quantity="one">" Std"</item>
+  </plurals>
+  <plurals name="pc_battery_history_minute">
+    <item quantity="other">" Min"</item>
+    <item quantity="one">" Min"</item>
+  </plurals>
   <plurals name="pc_main_power_center_battery_day">
     <item quantity="other">"%s Tage "</item>
     <item quantity="one">"%s Tag "</item>
@@ -468,6 +448,14 @@ Wenn Sie mobile Daten wieder einschalten, kann Ihr Mobilfunkanbieter zusätzlich
      <item quantity="other">%s Minuten bleiben</item>
      <item quantity="one">%s Minute bleiben</item>
   </plurals>
+  <plurals name="power_off_warning_button_ok_time">
+    <item quantity="other">Verstanden (%ds)</item>
+    <item quantity="one">Verstanden (%ds)</item>
+  </plurals>
+  <plurals name="power_off_warning_notification_message">
+    <item quantity="other">Ihr Gerät schaltet sich in %d Sekunden ab. Ladegerät anschließen.</item>
+    <item quantity="one">Ihr Gerät schaltet sich in %d Sekunde ab. Ladegerät anschließen.</item>
+  </plurals>
   <plurals name="privacy_apps_enable_header_title">
     <item quantity="other">%d App-Symbole sind nicht versteckt</item>
     <item quantity="one">%d App-Symbol ist nicht versteckt</item>
@@ -475,6 +463,14 @@ Wenn Sie mobile Daten wieder einschalten, kann Ihr Mobilfunkanbieter zusätzlich
   <plurals name="privacy_apps_disable_header_title">
     <item quantity="other">%d App-Symbole sind versteckt</item>
     <item quantity="one">%d App-Symbol ist versteckt</item>
+  </plurals>
+  <plurals name="privacy_permission_summary">
+    <item quantity="other">%s Apps haben permanenten Zugriff</item>
+    <item quantity="one">%s App hat permanenten Zugriff</item>
+  </plurals>
+  <plurals name="privacy_pop_times">
+    <item quantity="other">%s-mal</item>
+    <item quantity="one">%s-mal</item>
   </plurals>
   <plurals name="quick_optimize_issue_count">
     <item quantity="other">%d Akkuprobleme</item>

@@ -1,37 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-
-
-  <string-array name="debug_open_intercept">
-    <item>Es wird möglich sein, mit einem Computer auf Dateien auf Ihrem Gerät zuzugreifen und diese zu bearbeiten.</item>
-    <item>Die Installation von Apps auf Ihrem Gerät ohne Ihre ausdrückliche Genehmigung ist erlaubt.</item>
-    <item>Sie werden in der Lage sein, Ihren Bildschirminhalt aus der Ferne zu überwachen und aufzuzeichnen.</item>
-    <item>Es wird möglich sein, auf die detaillierten Informationen über Ihr Gerät zuzugreifen.</item>
-  </string-array>
-  <string-array name="miui_optimization_close_intercept">
-    <item>Wichtig: Mehrere System-Apps funktionieren möglicherweise nicht mehr richtig.</item>
-    <item>Textlayouts, Konten und Inhalte werden möglicherweise nicht korrekt angezeigt.</item>
-  </string-array>
-  <string-array name="perm_intercept_notification">
-    <item>Lesen Sie alle Ihre Benachrichtigungen, einschließlich des Inhalts Ihrer Textnachrichten und anderer Elemente, die persönliche Informationen enthalten könnten</item>
-    <item>Benachrichtigungen für einige App-Berechtigungen einschränken</item>
-    <item>Nachrichten abhören und offene Apps simulieren</item>
-    <item>Ein- und Ausschalten des DND-Modus</item>
-  </string-array>
-  <string-array name="perm_intercept_statitics">
-    <item>Sammeln Sie Daten über Ihre Interessen und Ihr Verhalten, indem Sie herausfinden, welche Anwendungen Sie benutzen und wie oft Sie sie benutzen</item>
-    <item>Greifen Sie auf Ihre trägerbezogenen und sprachlichen Einstellungen sowie auf andere Details zu</item>
-  </string-array>
-  <string-array name="perm_intercept_unknown_source">
-    <item>Drittanbieter-Apps, die nicht von GetApps verifiziert werden, können mehrere Probleme verursachen und die Systemstabilität beeinträchtigen</item>
-    <item>Einige Drittanbieter-Apps können Malware enthalten, die Ihre persönlichen Daten gefährden.</item>
-  </string-array>
-  <string-array name="priority_storage_entries">
-    <item>Interner Speicher</item>
-    <item>Externer Speicher</item>
-  </string-array>
-
-
   <string-array name="alarm_repeat_type">
     <item>Einmal</item>
     <item>Täglich</item>
@@ -101,6 +69,12 @@
     <item>"(WLAN) letzten Monat "</item>
     <item>"(WLAN) diesen Monat "</item>
   </string-array>
+  <string-array name="debug_open_intercept">
+    <item>Es wird möglich sein, mit einem Computer auf Dateien auf Ihrem Gerät zuzugreifen und diese zu bearbeiten.</item>
+    <item>Installation von Apps auf Ihrem Gerät ohne Ihre ausdrückliche Genehmigung ist erlaubt.</item>
+    <item>Sie werden in der Lage sein, Ihren Bildschirminhalt aus der Ferne zu überwachen und aufzuzeichnen.</item>
+    <item>Es wird möglich sein, auf detaillierte Informationen über Ihr Gerät zuzugreifen.</item>
+  </string-array>
   <string-array name="ew_emergency_organ_donation_arrays">
     <item>Ja</item>
     <item>Nein</item>
@@ -114,6 +88,10 @@
     <item>Stumm</item>
     <item>Gold</item>
     <item>Roter Umschlag</item>
+  </string-array>
+  <string-array name="miui_optimization_close_intercept">
+    <item>Wichtig: Mehrere System-Apps funktionieren eventuell nicht mehr richtig.</item>
+    <item>Textlayouts, Konten und Inhalte werden eventuell nicht korrekt angezeigt.</item>
   </string-array>
   <string-array name="network_speed_update_internals">
     <item>3 Sek.</item>
@@ -139,6 +117,20 @@
   <string-array name="pc_settings_thermal_summaries">
     <item>Standard-Temperaturregelung verwenden</item>
     <item>Leistung priorisieren</item>
+  </string-array>
+  <string-array name="perm_intercept_notification">
+    <item>Lesen Sie alle Ihre Benachrichtigungen, einschl. des Inhalts Ihrer Textnachrichten und anderer Elemente, die persönliche Informationen enthalten könnten.</item>
+    <item>Benachrichtigungen für einige App-Berechtigungen einschränken</item>
+    <item>Nachrichten abhören und offene Apps simulieren</item>
+    <item>Ein- und Ausschalten des DND-Modus</item>
+  </string-array>
+  <string-array name="perm_intercept_statitics">
+    <item>Sammeln Sie Daten über Ihre Interessen und Ihr Verhalten, indem Sie herausfinden, welche Apps und wie oft Sie sie benutzen.</item>
+    <item>Greifen Sie auf Ihre anbietebezogenen und Spracheinstellungen sowie auf andere Details zu.</item>
+  </string-array>
+  <string-array name="perm_intercept_unknown_source">
+    <item>Drittanbieter-Apps, die nicht von GetApps verifiziert werden, können mehrere Probleme verursachen und die Systemstabilität beeinträchtigen.</item>
+    <item>Einige Drittanbieter-Apps können Malware enthalten, die Ihre persönlichen Daten gefährden.</item>
   </string-array>
   <string-array name="power_dialog_auto_clean_memory_items">
     <item>Nach 1 Minute</item>
@@ -168,6 +160,10 @@
     <item>Ausschalten</item>
     <item>Einschalten</item>
     <item>Standard</item>
+  </string-array>
+  <string-array name="priority_storage_entries">
+    <item>Interner Speicher</item>
+    <item>Externer Speicher</item>
   </string-array>
   <string-array name="roaming_apps_sorted_type">
     <item>Am häufigsten verwendet</item>
