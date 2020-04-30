@@ -402,18 +402,18 @@ Kontaktkarten sind ausgeschaltet."</string>
   <string name="device_paired_dialog_title">Kontakte abrufen…</string>
   <string name="device_pairing_dialog_message">Verbinden…</string>
   <string name="device_pairing_dialog_title">Geräte verbinden</string>
-  <string name="device_transfer_by_bluetooth_message" formatted="false">"%d. Bitte schalten Sie \"Bluetooth\" auf dem anderen Gerät ein;
+  <string name="device_transfer_by_bluetooth_message">"%1$d. Bitte schalten Sie \"Bluetooth\" auf dem anderen Gerät ein;
 
 - Auf Android-Geräten finden Sie \"Bluetooth\" normalerweise bei den Netzwerkeinstellungen
 - Auf iOS-Geräten sollten Sie \"Bluetooth\" in den Einstellungen suchen
 
-%d. Auf Android-Geräten sollten Sie außerdem \"Sichtbarkeit für andere Geräte\" einschalten;
+%2$d. Auf Android-Geräten sollten Sie außerdem \"Sichtbarkeit für andere Geräte\" einschalten;
 
-%d. Tippen Sie \"Weiter\" und geben Sie Kontakte die erforderlichen Berechtigungen."</string>
-  <string name="device_transfer_by_sim_message" formatted="false">"%d. Speichern Sie die Kontakte des anderen Geräts auf der SIM-Karte;
+%3$d. Tippen Sie \"Weiter\" und geben Sie Kontakte die erforderlichen Berechtigungen."</string>
+  <string name="device_transfer_by_sim_message">"%1$d. Speichern Sie die Kontakte des anderen Geräts auf der SIM-Karte;
 
 
-%d. Gehen Sie zu "Kontakteinstellungen" - "Kontakte im-/exportieren" - "Von SIM-Karte importieren": einen Kontakt gedrückt halten, die zu importierenden Kontakte auswählen, dann "Importieren" antippen."</string>
+%2$d. Gehen Sie zu \"Kontakteinstellungen"\ &amp; \"Kontakte im-/exportieren\" &amp; \"Von SIM-Karte importieren"\: einen Kontakt gedrückt halten, die zu importierenden Kontakte auswählen, dann \"Importieren\" antippen."</string>
   <string name="device_version_header_bluetooth">Stellen Sie sicher, dass Bluetooth an ist</string>
   <string name="device_version_header_no_bluetooth">Kontakte von SIM-Karte importieren</string>
   <string name="dial">Wählen</string>
@@ -497,7 +497,7 @@ Guthabeninformationen werden einmal täglich aktualisiert, um die Anzahl der Abf
 Grund: \"%s\""</string>
   <string name="exporting_contact_failed_title">Export nicht möglich</string>
   <string name="exporting_contact_list_message">Ihre Kontaktdaten werden nach \"%s\" exportiert</string>
-  <string name="exporting_contact_list_progress" formatted="false">%s von %s Kontakten</string>
+  <string name="exporting_contact_list_progress">%1$s von %2$s Kontakten</string>
   <string name="exporting_contact_list_title">Kontaktdaten werden exportiert</string>
   <string name="exporting_vcard_canceled_title">Export von %s abgebrochen</string>
   <string name="exporting_vcard_finished_title">Export von %s abgeschlossen</string>
@@ -1154,8 +1154,8 @@ Drücken Sie auf Zusammenführen, um zu beginnen."</string>
   <string name="smart_group_company_label">Nach Firma</string>
   <string name="smart_group_company_unavailable">Keine Firma</string>
   <string name="smart_group_frequency_1">Innerhalb des letzten Monats</string>
-  <string name="smart_group_frequency_2" formatted="false">%d bis %d Monate</string>
-  <string name="smart_group_frequency_3" formatted="false">%d to %d Monate</string>
+  <string name="smart_group_frequency_2">%1$d bis %2$d Monate</string>
+  <string name="smart_group_frequency_3">%1$d to %2$d Monate</string>
   <string name="smart_group_frequency_4">Vor über %d Monaten</string>
   <string name="smart_group_frequency_label">Nach zuletzt kontaktiert</string>
   <string name="smart_group_label">Intelligente Sortierung</string>
