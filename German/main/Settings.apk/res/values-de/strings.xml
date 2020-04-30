@@ -1,158 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-
-  <string name="how_backup_content">"You can save backups locally or to the cloud. Local backups can be stored on your mobile device, computer, or USB drive.
-
-Mobile device
-Save your system settings, accounts, app data, and other items in a separate file stored on your device (MIUI-backup-AllBackup). Note: Performing a factory reset will delete such backups permanently. Remember to copy backups to your computer.
-
-Computer
-Create a backup on this device, then go to MIUI-backup-AllBackup and copy the backup to your computer via USB cable.
-
-USB drive
-Save your system settings, accounts, app data, and other items to a USB drive.
-
-Xiaomi Cloud
-Sync your contacts, photos, videos, the list of your apps, system settings, and Home screen layout with the cloud."</string>
-  <string name="how_backup_title">How can I back up items?</string>
-  <string name="how_encrypt_content">"You can only encrypt local backups. Here are some encryption methods you can use:
-a) Go to Settings > Additional settings on the page with your local backups, tap the button to turn on encryption, and sign in to your Mi Account. Backups will be encrypted automatically after that. Remember that you'll need to sign in to your Mi Account to restore items from encrypted backups.
-b) If you're using Mi PC Suite to back up items, you can use encryption options there.
-
-Note: Remember the password you set for encrypted backups! You won't be able to decrypt your backups if you forget it."</string>
-  <string name="how_encrypt_title">How do I encrypt my backups?</string>
-  <string name="how_restore_backup_content">"Here's how you can restore items that were backed up using different methods:
-
-Mobile device
-Tap \"Mobile device\" find the option to restore items and select the backup to continue.
-
-Computer
-Copy the backup from your computer to MIUI-backup-AllBackup via USB cable and restore items from your mobile device.
-
-USB drive
-Copy the backup from your USB drive to MIUI-backup-AllBackup and select the option to restore items from a USB drive to continue.
-
-Xiaomi Cloud
-Open Xiaomi Cloud and restore items from there."</string>
-  <string name="micloud_service_summary">Sync the list of apps, back up system settings and Home screen layout</string>
-  <string name="micloud_service_title">Xiaomi Cloud</string>
-  <string name="miui_accessibility_asr_summary">Transcribe audio and save text</string>
-  <string name="miui_accessibility_asr_title">Mi Ditto</string>
-  <string name="miui_face_enroll_success">"You can unlock this device using your face data now.
-Continue to access additional settings."</string>
-
-  <string name="multi_face_delete_message">Attention</string>
-  <string name="multi_face_delete_show_message">Delete face data now?</string>
-  <string name="multi_face_input">Add face data</string>
-  <string name="multi_face_input_reach_upper_limit">"Couldn't add face data. Wait a minute or two and try again."</string>
-  <string name="multi_face_input_success_name_title">Name</string>
-  <string name="multi_face_list">Face data</string>
-  <string name="multi_face_name_prefix">"Face "</string>
-  <string name="multi_face_number_reach_limit">"Can't add data for more than 2 faces"</string>
-  <string name="multifunction_keyboard">Multifunctional</string>
-  <string name="nfc_repair_action_btn">Restore</string>
-  <string name="nfc_repair_action_desc">Tap \"<b>Restore</b>"\" to fix the issues that prevent you from using NFC features. Don't leave the current page while NFC functionality is being restored. Reboot your device to apply changes."</string>
-  <string name="nfc_repair_btn_no">No</string>
-  <string name="nfc_repair_btn_reboot">Reboot</string>
-  <string name="nfc_repair_btn_reboot_later">Later</string>
-  <string name="nfc_repair_btn_retry">Try again</string>
-  <string name="nfc_repair_btn_yes">Yes</string>
-  <string name="nfc_repair_confirm_desc" formatted="false">"Have you experienced any of these issues?
-%d. You couldn't add or top up an NFC card.
-%d. Your NFC card didn't work.
-%d. Other NFC features won't load."</string>
-  <string name="nfc_repair_fail_desc">An error occurred that prevented NFC functionality from being restored. Try again.</string>
-  <string name="nfc_repair_fail_title">"Couldn't restore"</string>
-  <string name="nfc_repair_ongoing">"Restoring… Don't leave this page."</string>
-  <string name="nfc_repair_pass_desc">Reboot your device to apply changes.</string>
-  <string name="nfc_repair_pass_title">Restored successfully</string>
-  <string name="nfc_repair_summary">Fix the issues that prevent you from using NFC features</string>
-  <string name="nfc_repair_title">Restore NFC functionality</string>
-  <string name="oaid_string">"Current virtual ID:
-%1s"</string>
-  <string name="operation_guide_title">Tutorial</string>
-  <string name="other_password">Other passwords</string>
-  <string name="password_and_security">Passwords &amp; security</string>
-  <string name="phone_backup_summary">Back up and restore items on this device</string>
-  <string name="phone_backup_title">Mobile device</string>
-  <string name="privacy_protection">Privacy protection</string>
-  <string name="regional_screen_shot">Partial screenshot</string>
-  <string name="rgb_face_data_manage_delete_msg">Delete 2D face data</string>
-  <string name="sos_phone_call_privacy_dialog_message">"To call your emergency contacts and play SOS recording, this app needs the following permissions:
-• Making calls
-For making calls to your emergency contacts
-• Monitoring device status
-For playing SOS recording when your emergency contacts pick up
-If you don't agree to grant such permissions, you won't be able to use some features of this app; however, its basic functionality will still be available to you. You can always choose to turn this feature off."</string>
-  <string name="sos_phone_call_privacy_dialog_message_confirm">Allow</string>
-  <string name="sos_phone_log_privacy_dialog_message">"This app needs permission to access your call history to be able to share it with your emergency contacts.
-If you don't agree to grant such permissions, you won't be able to use some features of this app; however, its basic functionality will still be available to you. You can always choose to turn this feature off."</string>
-  <string name="sos_privacy_dialog_message_new_version">"Emergency SOS allows you to share your location in real time and send text messages to your emergency contacts.
-We shall protect your personal information in accordance with the relevant laws, regulations, and privacy policies.
-Note that this app needs to connect to the internet and requires the following permissions to collect your personal information:
-• Accessing storage
-For saving emergency contacts
-• Accessing contacts
-For marking contacts as emergency contacts
-• Sending SMS
-For sending text messages to emergency contacts
-• Accessing location
-For sharing your location with emergency contacts
-If you don't agree to grant such permissions or share and upload your personal information, you won't be able to use this app. You can choose to turn off or not use Emergency SOS in such cases.
-Before using our services, read and agree to our %s."</string>
-  <string name="sound_assist_summary">Customize your sound settings</string>
-  <string name="sound_assist_title">Sound assistant</string>
-  <string name="storage_use_title">Occupied</string>
-  <string name="structure_face_data_delete_fail">"Couldn't delete 3D face data. Try again."</string>
-  <string name="structure_face_data_input_down">Lower your head</string>
-  <string name="structure_face_data_input_error_away_screen">Bring the phone a bit farther away from your face</string>
-  <string name="structure_face_data_input_error_expose_features">"Can't see some parts of your face"</string>
-  <string name="structure_face_data_input_error_keep_inface">Keep your face inside the frame</string>
-  <string name="structure_face_data_input_error_overly_light">Backlight is too strong now</string>
-  <string name="structure_face_data_input_left">Turn your head to the left</string>
-  <string name="structure_face_data_input_right">Turn your head to the right</string>
-  <string name="structure_face_data_input_timeout_msg">"Couldn't record. Try again."</string>
-  <string name="structure_face_data_input_timeout_title">Try again</string>
-  <string name="structure_face_data_input_up">Look up</string>
-  <string name="structure_face_data_introduction_back">Back</string>
-  <string name="structure_face_data_introduction_msg">3D face data allows to unlock your device and verify your identity. You must set a password before using this feature.</string>
-  <string name="structure_face_data_introduction_title">Add 3D face data</string>
-  <string name="structure_face_data_ir_input_face">Move your head slightly</string>
-  <string name="structure_face_data_manage_delete_msg">Delete 3D face data</string>
-  <string name="structure_face_data_suggestion_text">"Make sure all parts of your face are clearly visible. Don't wear hats, sunglasses, or other accessories that might cover your face while recording 3D face data. Make sure your face is evenly lit as well."</string>
-  <string name="structure_face_data_suggestion_warning_text">Note: Using 3D face data is slightly less secure than using a password. People or objects that look a lot like you might be able to unlock your device.</string>
-  <string name="structure_face_delete_data_dialog_msg">"Couldn't launch Camera and get preview. Try again."</string>
-  <string name="structure_face_delete_data_dialog_msg_retry">Try again</string>
-  <string name="structure_face_delete_data_dialog_title">"Couldn't launch Camera"</string>
-  <string name="structure_face_hardware_abnormal_btn">Got it</string>
-  <string name="structure_face_hardware_abnormal_msg">"A hardware error occurred. Reboot your device. If this doesn't help, call 400–100–5678 to get help."</string>
-  <string name="structure_face_hardware_abnormal_title">Hardware error</string>
-  <string name="structure_face_modules_abnormal_btn">Reboot</string>
-  <string name="structure_face_modules_abnormal_msg">"Can't record face data due to an optical module error. Reboot your device and try again."</string>
-  <string name="structure_face_modules_abnormal_title">Optical module error</string>
-  <string name="structure_face_unlock_model2d_dialog_msg">"3D recognition will be turned off. Your 3D face data will be deleted. You'll also have to add your 2D face data. Turn on 2D recognition?"</string>
-  <string name="structure_face_unlock_model2d_dialog_title">Turning on 2D recognition</string>
-  <string name="structure_face_unlock_model3d_dialog_msg">"2D recognition will be turned off. Your 2D face data will be deleted. You'll also have to add your 3D face data. Turn on 3D recognition?"</string>
-  <string name="structure_face_unlock_model3d_dialog_title">Turning on 3D recognition</string>
-  <string name="structure_face_unlock_model_dialog_enable">Turn on</string>
-  <string name="structure_face_unlock_model_dialog_notenable">No thanks</string>
-  <string name="structure_face_unlock_model_other">Other</string>
-  <string name="structure_face_unlock_model_other_msg_2d">2D recognition</string>
-  <string name="structure_face_unlock_model_other_msg_3d">3D recognition</string>
-  <string name="structure_face_unlock_model_other_suggestion_2d">2D face recognition is less secure than a pattern, PIN, or password. When this feature is on, your device might be unlocked by your photo, as well as people or objects that look like you.</string>
-  <string name="structure_face_unlock_model_other_suggestion_3d">"3D face recognition is relatively secure. It's highly unlikely that your device can be unlocked with your photo when this feature is on. However, it might be unlocked by people or objects that look like you."</string>
-  <string name="structure_face_unlock_model_other_title">Face recognition</string>
-  <string name="structure_face_unlock_not_same_person">"You have to complete all the steps yourself. Don't switch places with anyone."</string>
-  <string name="structure_face_unlock_tof_covered">"Couldn't add face data. Move farther away from the screen."</string>
-  <string name="three_gesture_long_press">Press and hold with %d fingers</string>
-  <string name="turn_off_keyguard_password_title">Turn off screen lock</string>
-  <string name="unlock_failed">Internal error</string>
-  <string name="use_control_panel">Use Control center</string>
-  <string name="wifi_security_none_owe">None/Enhanced Open</string>
-  <string name="wifi_security_short_none_owe">None/OWE</string>
-
-
-
   <string name="Accounts_settings_title">Konten</string>
   <string name="Data_set">"Daten: "</string>
   <string name="a11y_settings_label">Einstellungen Barrierefreiheit</string>
@@ -3325,6 +3172,39 @@ Wenn Sie automatische Sicherungen einschalten, werden Geräte- und App-Daten per
   <string name="homepage_all_settings">Alle Einstellungen</string>
   <string name="homepage_condition_footer_content_description">Einklappen</string>
   <string name="homepage_personal_settings">Vorschläge</string>
+  <string name="how_backup_content">"Sie können Sicherungen lokal oder in der Cloud speichern. Lokale Sicherungen können auf Ihrem mobilen Gerät, Computer oder USB-Laufwerk gespeichert werden.
+
+Mobilgerät
+Speichern Sie Ihre Systemeinstellungen, Konten, App-Daten und andere Elemente in einer separaten Datei, die auf Ihrem Gerät gespeichert ist (MIUI-backup-AllBackup). Hinweis: Durch einen Werksreset werden solche Sicherungen dauerhaft gelöscht. Denken Sie daran, die Sicherungen auf Ihren Computer zu kopieren.
+
+Computer
+Erstellen Sie eine Sicherung auf diesem Gerät, gehen Sie dann zu MIUI-backup-AllBackup und kopieren Sie die Sicherung per USB-Kabel auf Ihren Computer.
+
+USB-Laufwerk
+Speichern Sie Ihre Systemeinstellungen, Konten, App-Daten und andere Elemente auf einem USB-Laufwerk.
+
+Xiaomi Cloud
+Synchronisieren Sie Ihre Kontakte, Fotos, Videos, die App-Liste, Systemeinstellungen und das Layout des Startbildschirms mit der Cloud."</string>
+  <string name="how_backup_title">Wie kann ich Elemente sichern?</string>
+  <string name="how_encrypt_content">"Sie können nur lokale Sicherungen verschlüsseln. Hier sind einige Verschlüsselungsmethoden, die Sie verwenden können:
+a) In Einstellungen > Weitere Einstellungen auf der Seite mit Ihren lokalen Sicherungen. Button antippen, um die Verschlüsselung einzuschalten, und bei Ihrem Mi-Konto anmelden. Sicherungen werden danach automatisch verschlüsselt. Nicht vergessen, sich beim Mi-Konto anzumelden, um Elemente aus verschlüsselten Sicherungen wiederherzustellen.
+b) Bei Verwendung von Mi PC Suite zur Sicherung von Elementen können Sie dort Verschlüsselungsoptionen nutzen.
+
+Hinweis: Vergessen Sie das Passwort für verschlüsselte Sicherungen nicht! Sie werden Ihre Sicherungen sonst nicht mehr entschlüsseln können."</string>
+  <string name="how_encrypt_title">Wie verschlüssele ich meine Sicherungen?</string>
+  <string name="how_restore_backup_content">"Hier erfahren Sie, wie Sie Elemente wiederherstellen können, die mit verschiedenen Methoden gesichert wurden:
+
+Mobilgerät
+Auf \"Mobilgerät\" tippen, Option zum Wiederherstellen von Elementen finden und Sicherung wählen, um fortzufahren.
+
+Computer
+Sicherung vom Computer per USB-Kabel auf MIUI-backup-AllBackup kopieren und Elemente vom mobilen Gerät wiederherstellen.
+
+USB-Laufwerk
+Sicherung vom USB-Laufwerk nach MIUI-backup-AllBackup kopieren und Option zur Wiederherstellung von Elementen von einem USB-Laufwerk wählen, um fortzufahren.
+
+Xiaomi Cloud
+Xiaomi Cloud öffnen und Elemente von dort aus wiederherstellen."</string>
   <string name="how_restore_backup_title">Wie kann ich gesicherte Elemente wiederherstellen?</string>
   <string name="hsa_code_null">Bestätigungscode darf nicht leer sein</string>
   <string name="hsa_input_hint">Bestätigungscode eingeben</string>
@@ -4208,6 +4088,7 @@ Um auch Musik, Bilder und sonstige Benutzerdaten zu löschen, muss der <b>USB-Sp
   <string name="mi_pay_summary">Buskarte/Mi Pay/Kartenemulator</string>
   <string name="mi_service_app_detail">Angaben zur Datennutzung</string>
   <string name="mi_upi_settings">Mi Pay-Konto</string>
+  <string name="micloud_service_summary">App-Liste synchronisieren, Systemeinstellungen und Startbildschirm-Layout sichern</string>
   <string name="miliao_account_guide">Melden Sie sich mit Ihrem Mi-Konto von überall bei Xiaomi Cloud, MIUI Theme Store und anderen Mi Diensten an.</string>
   <string name="miliao_account_login">Mit Mi Talk anmelden</string>
   <string name="misc_files">Sonstige Dateien</string>
@@ -4217,9 +4098,12 @@ Um auch Musik, Bilder und sonstige Benutzerdaten zu löschen, muss der <b>USB-Sp
   <string name="miui_allow_light">LED-Benachrichtigung</string>
   <string name="miui_allow_music">Medien</string>
   <string name="miui_allow_vibrate">Vibrationen</string>
+  <string name="miui_accessibility_asr_summary">Audio umwandeln und Text speichern</string>
   <string name="miui_data_usage_menu_metered">Mobile Hotspots</string>
   <string name="miui_enable_service_title">Dienst führt folgende Aktionen durch:</string>
   <string name="miui_experience_optimization">MIUI-Optimierung einschalten</string>
+  <string name="miui_face_enroll_success">Sie können dieses Gerät jetzt mit Ihren Gesichtsdaten entsperren.
+Fortfahren, um auf weitere Einstellungen zuzugreifen."</string>
   <string name="miui_ime_xiaoai_voice_hint">Schnellere und komfortablere Texteingabe</string>
   <string name="miui_ime_xiaoai_voice_title">Mi KI Spracheingabe</string>
   <string name="miui_input_method_settings">Einstellungen Eingabemethoden</string>
@@ -4240,8 +4124,8 @@ Um auch Musik, Bilder und sonstige Benutzerdaten zu löschen, muss der <b>USB-Sp
   <string name="miui_lab_features">MIUI Lab-Funktionen</string>
   <string name="miui_lab_gallery_search_desc">Verbesserte Bildsuche</string>
   <string name="miui_lab_gallery_search_title">Finde Fotos in der Galerie</string>
-  <string name="miui_lab_gesture_title">Vollbildschirm-Gesten</string>
   <string name="miui_lab_gesture_desc">Physische Tasten deaktivieren und Gesten im Vollbildmodus genießen</string>
+  <string name="miui_lab_gesture_title">Vollbildschirm-Gesten</string>
   <string name="miui_lab_home_feed_desc">Helle Ideen. Überzeugende Geschichten.</string>
   <string name="miui_lab_install_drive_mode_error">Konnte nicht installiert werden, erneut versuchen.</string>
   <string name="miui_lab_install_drive_mode_summary">Automodus ist eine System-App. Installation erfordert keine Internetverbindung.</string>
@@ -4252,7 +4136,6 @@ Um auch Musik, Bilder und sonstige Benutzerdaten zu löschen, muss der <b>USB-Sp
   <string name="miui_lab_super_resolution_title">Superauflösung</string>
   <string name="miui_master_clear_summary">Löscht alle Daten auf dem Telefon</string>
   <string name="miui_more_special_feature">Neue Funktionen entdecken</string>
-  <string name="miui_special_feature">Spezielle Funktionen</string>
   <string name="miui_optimization_disabled">MIUI-Optimierung ausschalten</string>
   <string name="miui_sos_audio_summary">SOS-Nachricht anhören, nachdem der Notfallkontakt abgehoben wurde</string>
   <string name="miui_sos_audio_title">SOS-Sprachnachricht</string>
@@ -4261,7 +4144,8 @@ Um auch Musik, Bilder und sonstige Benutzerdaten zu löschen, muss der <b>USB-Sp
   <string name="miui_sos_call_log_stranger">Fremder</string>
   <string name="miui_sos_call_log_summary">Senden Sie die Anrufliste für die letzte Stunde an Ihren Notfallkontakt.</string>
   <string name="miui_sos_call_log_title">Anrufliste senden</string>
-  <string name="miui_sos_call_warning_sim_unable">Kein Empfang. SMS senden noicht möglich.</string>
+  <string name="miui_special_feature">Spezielle Funktionen</string>
+  <string name="miui_sos_call_warning_sim_unable">Kein Empfang. SMS senden nicht möglich.</string>
   <string name="miui_sos_calling_summary">Ihr Gerät führt automatische Anrufe zu Ihren Notfallkontakten durch und spielt die von Ihnen aufgenommene SOS-Sprachnachricht ab. Der Anruf wird beendet, nachdem Ihre Nachricht abgespielt wurde. Die Auto-Anruf-Funktion stoppt nach dem ersten erfolgreichen Versuch.</string>
   <string name="miui_sos_calling_title">Auto-Anruf</string>
   <string name="miui_sos_contacts_add">Notfallkontakte</string>
@@ -4435,7 +4319,7 @@ Betriebssystem auswählen:"</string>
   <string name="msd_pc_system_install_summary_xp">1. Starten Sie die setup.exe, um die Installation zu starten</string>
   <string name="msg_wlan_signal_found">Mit %s verbinden?</string>
   <string name="msim_sim_radio_off">Aus</string>
- <string name="mtp_connection_failed">Dateien auf den angeschlossenen Computer übertragen nicht möglich. Fehlerbehebung versuchen.</string>
+  <string name="mtp_connection_failed">Dateien auf den angeschlossenen Computer übertragen nicht möglich. Fehlerbehebung versuchen.</string>
   <string name="mtp_connection_failed_title">USB-Verbindung</string>
   <string name="mtp_connection_not_remind">Nicht mehr anzeigen</string>
   <string name="mtp_ptp_mode_summary">MTP- oder PTP-Funktion ist aktiv</string>
@@ -4447,6 +4331,13 @@ Betriebssystem auswählen:"</string>
   <string name="mtrl_picker_date_format">dd. MMM. yyyy</string>
   <string name="mtrl_picker_header_prompt">Datum wählen</string>
   <string name="mtrl_picker_range_header_prompt">Datumsbereich wählen</string>
+  <string name="multi_face_delete_message">Vorsicht</string>
+  <string name="multi_face_delete_show_message">Gesichtsdaten jetzt löschen?</string>
+  <string name="multi_face_input">Gesichtsdaten hinzufügen</string>
+  <string name="multi_face_input_reach_upper_limit">Gesichtsdaten hinzufügen nicht möglich. Einen Moment warten und erneut versuchen.</string>
+  <string name="multi_face_list">Gesichtsdaten</string>
+  <string name="multi_face_name_prefix">"Gesicht "</string>
+  <string name="multi_face_number_reach_limit">Max. 2 Gesichter können hinzugefügt werden</string>
   <string name="multi_network_acceleration_app_settings">Netzwerkbeschleunigung für Apps</string>
   <string name="multi_select_title">%1$s ausgewählt</string>
   <string name="multi_touch_points_category_title">Multitouchpunkte</string>
@@ -4454,6 +4345,7 @@ Betriebssystem auswählen:"</string>
   <string name="multi_user_mode_backup_message">Sicherung kann im Mehrbenutzermodus nicht verwendet werden. Schalten Sie den Mehrbenutzermodus aus zum Fortfahren.</string>
   <string name="multi_user_mode_dialog_message">Mi Mover kann im Mehrbenutzermodus nicht verwendet werden. Schalten Sie den Mehrbenutzermodus aus zum Fortfahren.</string>
   <string name="multi_user_mode_dialog_title">Sie sind im Mehrbenutzermodus</string>
+  <string name="multifunction_keyboard">Multifunktional</string>
   <string name="music_app_unavailable">Musik-App wird benötigt. Stellen Sie sicher, dass diese installiert ist.</string>
   <string name="music_audio_effect_optimize">Audioeinstellungen</string>
   <string name="music_audio_effect_optimize_summary">Dirac, Kopfhörer und weitere Audioeinstellungen</string>
@@ -4620,6 +4512,24 @@ Betriebssystem auswählen:"</string>
   <string name="nfc_payment_settings_title">Mobil bezahlen</string>
   <string name="nfc_payment_use_default">Standard verwenden</string>
   <string name="nfc_quick_toggle_summary">Datenaustausch bei Kontakt mit anderen Geräten zulassen</string>
+  <string name="nfc_repair_action_btn">Wiederherstellen</string>
+  <string name="nfc_repair_action_desc">Auf \"<b>Wiederherstellen</b>\" tippen, um Probleme zu beheben, die die Verwendung von NFC-Funktionen verhindern. Verlassen Sie die aktuelle Seite nicht, während die NFC-Funktionalität wiederhergestellt wird. Starten Sie Ihr Gerät neu, um die Änderungen zu übernehmen.</string>
+  <string name="nfc_repair_btn_no">Nein</string>
+  <string name="nfc_repair_btn_reboot">Neu starten</string>
+  <string name="nfc_repair_btn_reboot_later">Später</string>
+  <string name="nfc_repair_btn_retry">Erneut versuchen</string>
+  <string name="nfc_repair_btn_yes">Ja</string>
+  <string name="nfc_repair_confirm_desc" formatted="false">"Haben Sie eines dieser Probleme erlebt?
+%d. Sie konnten keine NFC-Karte hinzufügen oder aufladen.
+%d. Ihre NFC-Karte hat nicht funktioniert.
+%d. Andere NFC-Funktionen funktionieren nicht."</string>
+  <string name="nfc_repair_fail_desc">Ein Fehler ist aufgetreten, der die Wiederherstellung der NFC-Funktionen verhinderte. Erneut versuchen.</string>
+  <string name="nfc_repair_fail_title">Wiederherstellen fehlgeschlagen</string>
+  <string name="nfc_repair_ongoing">"Wiederherstellen… Verlassen Sie diese Seite nicht"</string>
+  <string name="nfc_repair_pass_desc">Gerät neu starten, um die Änderungen zu übernehmen</string>
+  <string name="nfc_repair_pass_title">Erfolgreich wiederhergestellt</string>
+  <string name="nfc_repair_summary">Probleme beheben, die die Verwendung von NFC-Funktionen verhindern</string>
+  <string name="nfc_repair_title">NFC-Funktionen wiederherstellen</string>
   <string name="nfc_se_route_title">Sichere Elementposition</string>
   <string name="nfc_se_wallet_title">NFC-Zahlungen</string>
   <string name="nfc_secure_toggle_summary">NFC-Zahlung und -Transit nur dann zulassen, wenn der Bildschirm entsperrt ist</string>
@@ -4886,6 +4796,8 @@ Dies ermöglicht der App auch, Nicht stören ein-/auszuschalten und entsprechend
   <string name="nsd_quick_toggle_summary">Apps auf anderen Geräten erlauben, Apps auf diesem Gerät zu finden</string>
   <string name="nsd_quick_toggle_title">Netzwerkerkennungsdienst</string>
   <string name="number_of_device_admins_none">Keine aktiven Apps</string>
+  <string name="oaid_string">"Aktuelle virtuelle ID:
+%1s"</string>
   <string name="oem_lock_info_message">Starten Sie das Gerät neu, um den Geräteschutz zu aktivieren</string>
   <string name="oem_radio_info_label">OEM-spezifische Infos/Einstellungen</string>
   <string name="oem_unlock_enable">OEM-Entsperrung</string>
@@ -4929,6 +4841,7 @@ Dies ermöglicht der App auch, Nicht stören ein-/auszuschalten und entsprechend
   <string name="open_wifi_connect_summary">Tippen zum Anzeigen von Details</string>
   <string name="open_wifi_connect_title">Verbinden mit %1$s</string>
   <string name="opening_paragraph_delete_profile_unknown_company">Dieses Arbeitsprofil wird verwaltet von:</string>
+  <string name="operation_guide_title">Anleitung</string>
   <string name="operator_warning">Die Abrechnung der Mobilfunkanbieterdaten kann von Ihrem Gerät abweichen</string>
   <string name="optimization_cancel">Abbrechen</string>
   <string name="osu_completing_sign_up">Anmeldung abschließen…</string>
@@ -4948,6 +4861,7 @@ OTG schaltet sich nach 10 Minuten Inaktivität automatisch aus."</string>
   <string name="other_data">Andere Elemente auf diesem Gerät</string>
   <string name="other_device_info">Andere</string>
   <string name="other_input_settings">Zusätzliche Tastatureinstellungen</string>
+  <string name="other_password">Andere Passwörter</string>
   <string name="other_personal_settings">Persönliche Einstellungen</string>
   <string name="other_relative">Weitere Rechte</string>
   <string name="other_settings_sync_settings">Synchronisieren</string>
@@ -5018,6 +4932,7 @@ OTG schaltet sich nach 10 Minuten Inaktivität automatisch aus."</string>
   <string name="passpoint_label">Gespeichert via</string>
   <string name="password">Passwort</string>
   <string name="passwordIncorrect">Eingegebenes Passwort ist falsch</string>
+  <string name="password_and_security">Passwörter &amp; Sicherheit</string>
   <string name="password_entrance_title">Bildschirmsperre festlegen</string>
   <string name="password_guard">Passwort</string>
   <string name="password_null">Passwort kann nicht leer sein</string>
@@ -5065,6 +4980,8 @@ OTG schaltet sich nach 10 Minuten Inaktivität automatisch aus."</string>
   <string name="personal_data_section_title">Personenbezogene Daten</string>
   <string name="personal_device_admin_title">Persönlich</string>
   <string name="personal_section_title">Personalisierung</string>
+  <string name="phone_backup_summary">Elemente auf diesem Gerät sichern und wiederherstellen</string>
+  <string name="phone_backup_title">Mobilgerät</string>
   <string name="phone_call_noise_suppression">Anrufrauschunterdrückung</string>
   <string name="phone_index_label">Telefonindex wählen</string>
   <string name="phone_info_label">Über das Telefon</string>
@@ -5381,6 +5298,7 @@ OTG schaltet sich nach 10 Minuten Inaktivität automatisch aus."</string>
   <string name="privacy_password_use_finger_success">Eingeschaltet</string>
   <string name="privacy_password_visible_pattern">Muster anzeigen</string>
   <string name="privacy_protect_title">Datenschutz</string>
+  <string name="privacy_protection">Datenschutz</string>
   <string name="privacy_protection_title">Datenschutz</string>
   <string name="privacy_relative">Datenschutzrelevant</string>
   <string name="privacy_settings">Sichern &amp; Wiederherstellen</string>
@@ -5548,6 +5466,7 @@ UT Interface: %5$s"</string>
   <string name="recompute_size">Größe neu berechnen…</string>
   <string name="reconnect">Erneut verbinden</string>
   <string name="refresh">Aktualisieren</string>
+  <string name="regional_screen_shot">Partieller Screenshot</string>
   <string name="register_automatically">Automatische Registrierung…</string>
   <string name="register_on_network">Registrierung in %s…</string>
   <string name="registration_done">Im Netzwerk registriert</string>
@@ -5656,6 +5575,7 @@ UT Interface: %5$s"</string>
   <string name="retail_demo_reset_title">Passwort erforderlich</string>
   <string name="retry">Erneut versuchen</string>
   <string name="reverse_all">Alles löschen</string>
+  <string name="rgb_face_data_manage_delete_msg">2D-Gesichtsdaten löschen</string>
   <string name="rgb_manage_facerecoginition_text">2D-Gesichtsdaten verwalten</string>
   <string name="right_function_key">Verknüpfung rechts</string>
   <string name="ring_to_you">Benutzerdefinierter Klingelton</string>
@@ -6360,7 +6280,7 @@ Hinweis: Sie können Ihren Fingerabdruck nicht verwenden, um dieses Gerät zu en
   <string name="severe_threats_title">Starke Bedrohungen</string>
   <string name="share">Teilen</string>
   <string name="share_remote_bugreport_action">Teilen</string>
-  <string name="share_remote_bugreport_dialog_message">Ihr IT-Administrator hat einen Fehlerbericht angefordert, um die Problembehandlung bei diesem Gerät zu unterstützen. Apps und Daten können geteilt werden, die Ihr Gerät vorübergehend verlangsamen könnten.</string>
+  <string name="share_remote_bugreport_dialog_message">Ihr IT-Administrator hat einen Fehlerbericht angefordert, um die Problembehandlung bei diesem Gerät zu unterstützen. Apps und Daten können geteilt werden, die Ihr Gerät vorübergehend verlangsamen können.</string>
   <string name="share_remote_bugreport_dialog_message_finished">Ihr IT-Administrator hat einen Fehlerbericht angefordert, um die Problembehandlung bei diesem Gerät zu unterstützen. Apps und Daten können geteilt werden.</string>
   <string name="share_remote_bugreport_dialog_title">Fehlerbericht freigeben?</string>
   <string name="share_this_wifi">WLAN-Abdeckung erweitern</string>
@@ -6567,12 +6487,36 @@ Hinweis: Sie können Ihren Fingerabdruck nicht verwenden, um dieses Gerät zu en
   <string name="sort_order_frequent_notification">Häufigste</string>
   <string name="sort_order_recent_notification">Letzte</string>
   <string name="sort_order_size">Nach Größe sortieren</string>
+  <string name="sos_phone_call_privacy_dialog_message">"Um Ihre Notfallkontakte anzurufen und SOS-Aufnahmen abzuspielen, benötigt diese App folgende Berechtigungen:
+• Anrufe tätigen
+Für Anrufe bei Ihren Notfallkontakten
+• Überwachung des Gerätestatus
+Zum Abspielen der SOS-Aufnahme, wenn Ihre Notfallkontakte abheben
+Wenn Sie diese Berechtigungen nicht erteilen, können Sie einige Funktionen dieser App nicht nutzen; die Grundfunktionen stehen Ihnen jedoch weiterhin zur Verfügung. Sie können diese Funktion jederzeit ausschalten."</string>
+  <string name="sos_phone_call_privacy_dialog_message_confirm">Erlauben</string>
+  <string name="sos_phone_log_privacy_dialog_message">"Diese App benötigt die Zugriffsberechtigung auf Ihren Anrufverlauf, um ihn mit Ihren Notfallkontakten teilen zu können.
+Wenn Sie diese Berechtigung nicht erteilen, können Sie einige Funktionen dieser App nicht nutzen; die Grundfunktionen stehen Ihnen jedoch weiterhin zur Verfügung. Sie können diese Funktion jederzeit ausschalten."</string>
+  <string name="sos_privacy_dialog_message_new_version">"Mit SOS-Notfallhilfe können Sie Ihren Standort in Echtzeit mitteilen und Textnachrichten an Ihre Notfallkontakte senden.
+Wir schützen Ihre persönlichen Daten in Übereinstimmung mit den einschlägigen Gesetzen, Vorschriften und Datenschutzrichtlinien.
+Beachten Sie, dass diese App eine Internetverbindung und die folgenden Berechtigungen benötigt, um Ihre persönlichen Daten zu erfassen:
+• Speicherzugriff
+Zum Speichern von Notfallkontakten
+• Kontaktezugriff
+Zur Kennzeichnung von Kontakten als Notfallkontakte
+• SMS senden
+Zum Senden von Textnachrichten an Notfallkontakte
+• Standortzugriff
+Für die Weitergabe Ihres Standorts an Notfallkontakte
+Wenn Sie nicht damit einverstanden sind, solche Berechtigungen zu erteilen oder Ihre persönlichen Daten weiterzugeben und hochzuladen, können Sie diese App nicht verwenden. In diesem Fall entscheiden Sie, ob Sie SOS-Notfallhilfe ausschalten oder nicht verwenden möchten.
+Bevor Sie unsere Dienste nutzen, lesen und akzeptieren Sie unsere %s."</string>
   <string name="sos_privacy_and_content_policy">Nutzervereinbarung &amp; Datenschutzerklärung</string>
   <string name="sos_privacy_dialog_button_cancel">Abbrechen</string>
   <string name="sos_privacy_dialog_button_ok">Zustimmen</string>
   <string name="sos_privacy_dialog_message">"Lesen und akzeptieren Sie unsere %s, bevor Sie diese Funktion nutzen.
 Diese Funktion benötigt Berechtigungen, um auf Ihren Standort zuzugreifen, mobile Netzwerke zu nutzen und Ihre Kontakte zu lesen. Zustimmen?"</string>
   <string name="sos_privacy_dialog_title">AGB</string>
+  <string name="sound_assist_summary">Anpassen der Toneinstellungen</string>
+  <string name="sound_assist_title">Tonassistent</string>
   <string name="sound_category_call_ringtone_vibrate_title">Klingel- &amp; Benachrichtigungston</string>
   <string name="sound_category_notification_title">Benachrichtigungen</string>
   <string name="sound_category_sound_title">Allgemein</string>
@@ -6805,6 +6749,7 @@ Alle Apps auf ^1 werden deinstalliert und deren Daten werden gelöscht. Um diese
   <string name="storage_unmount_success">%1$s wurde sicher ausgeworfen</string>
   <string name="storage_usb">USB-Speicher</string>
   <string name="storage_usb_settings">Speicher &amp; USB</string>
+  <string name="storage_use_title">Belegt</string>
   <string name="storage_used">Verwendeter Speicher</string>
   <string name="storage_volume_summary">%1$s von %2$s verwendet</string>
   <string name="storage_volume_total">Von %1$s verwendet</string>
@@ -6899,8 +6844,49 @@ Auf ^2 gespeicherte Apps könnten nicht richtig funktionieren, und Datenübertra
   <string name="strong_suppression_summary">Ihr Gerät reagiert weniger auf zufällige Berührungen, einige Gestensteuerungen funktionieren evtl. nicht an den Kanten</string>
   <string name="strong_suppression_title">Großer Bereich</string>
   <string name="structure_add_facerecoginition_text">3D-Gesichtsdaten hinzufügen</string>
+  <string name="structure_face_data_delete_fail">3D-Gesichtsdaten löschen nicht möglich. Erneut versuchen.</string>
+  <string name="structure_face_data_input_down">Kopf senken</string>
+  <string name="structure_face_data_input_error_away_screen">Telefon etwas weiter vom Gesicht entfernt halten</string>
+  <string name="structure_face_data_input_error_expose_features">Einige Teile Ihres Gesichts sind nicht sichtbar</string>
+  <string name="structure_face_data_input_error_keep_inface">Gesicht innerhalb des Rahmens halten</string>
+  <string name="structure_face_data_input_error_overly_light">Gegenlicht ist jetzt zu stark</string>
+  <string name="structure_face_data_input_left">Kopf nach links drehen</string>
+  <string name="structure_face_data_input_right">Kopf nach rechts drehen</string>
+  <string name="structure_face_data_input_timeout_msg">Aufnahme nicht möglich. Erneut versuchen.</string>
+  <string name="structure_face_data_input_timeout_title">Erneut versuchen</string>
+  <string name="structure_face_data_input_up">Nach oben schauen</string>
+  <string name="structure_face_data_introduction_back">Zurück</string>
+  <string name="structure_face_data_introduction_msg">Mit 3D-Gesichtsdaten können Sie Ihr Gerät entsperren und Ihre Identität verifizieren. Sie müssen ein Passwort festlegen, bevor Sie diese Funktion nutzen können.</string>
+  <string name="structure_face_data_introduction_title">3D-Gesichtsdaten hinzufügen</string>
+  <string name="structure_face_data_ir_input_face">Kopf leicht bewegen</string>
+  <string name="structure_face_data_manage_delete_msg">3D-Gesichtsdaten löschen</string>
+  <string name="structure_face_data_suggestion_text">Stellen Sie sicher, dass alle Teile Ihres Gesichts deutlich sichtbar sind. Tragen Sie während der Aufnahme von 3D-Gesichtsdaten keine Hüte, Sonnenbrillen oder andere Accessoires, die Ihr Gesicht verdecken könnten. Achten Sie darauf, dass Ihr Gesicht gleichmäßig beleuchtet ist.</string>
+  <string name="structure_face_data_suggestion_warning_text">Hinweis: Die Verwendung von 3D-Gesichtsdaten ist etwas weniger sicher als ein Passwort. Personen oder Objekte, die Ihnen sehr ähnlich sehen, könnten Ihr Gerät eventuell entsperren.</string>
+  <string name="structure_face_delete_data_dialog_msg">Kamera starten und Vorschau anzeigen nicht möglich. Erneut versuchen.</string>
+  <string name="structure_face_delete_data_dialog_msg_retry">Erneut versuchen</string>
+  <string name="structure_face_delete_data_dialog_title">Kamera starten nicht möglich</string>
   <string name="structure_face_enroll_not_able_low_electric_itle">Funktion kann nicht verwendet werden, da der Akkustand niedrig ist</string>
   <string name="structure_face_enroll_not_able_low_electric_msg">Akku muss mindestens 5% geladen sein, um mit der Aufnahme beginnen zu können.</string>
+  <string name="structure_face_hardware_abnormal_btn">Verstanden</string>
+  <string name="structure_face_hardware_abnormal_msg">Ein Hardware-Fehler ist aufgetreten. Starten Sie Ihr Gerät neu. Wenn das nicht hilft, rufen Sie 400-100-5678 an, um Hilfe zu erhalten.</string>
+  <string name="structure_face_hardware_abnormal_title">Hardware-Fehler</string>
+  <string name="structure_face_modules_abnormal_btn">Neu starten</string>
+  <string name="structure_face_modules_abnormal_msg">Aufnehmen von Gesichtsdaten wegen eines Fehlers im Optikmodul nicht möglich. Gerät neu starten und erneut versuchen.</string>
+  <string name="structure_face_modules_abnormal_title">Fehler Optikmodul</string>
+  <string name="structure_face_unlock_model2d_dialog_msg">3D-Erkennung wird abgeschaltet. Ihre 3D-Gesichtsdaten werden gelöscht. Sie müssen Ihre 2D-Gesichtsdaten hinzufügen. 2D-Erkennung einschalten?</string>
+  <string name="structure_face_unlock_model2d_dialog_title">2D-Erkennung einschalten</string>
+  <string name="structure_face_unlock_model3d_dialog_msg">2D-Erkennung wird abgeschaltet. Ihre 2D-Gesichtsdaten werden gelöscht. Sie müssen Ihre 3D-Gesichtsdaten hinzufügen. 3D-Erkennung einschalten?</string>
+  <string name="structure_face_unlock_model3d_dialog_title">3D-Erkennung einschalten</string>
+  <string name="structure_face_unlock_model_dialog_enable">Einschalten</string>
+  <string name="structure_face_unlock_model_dialog_notenable">Nein danke</string>
+  <string name="structure_face_unlock_model_other">Andere</string>
+  <string name="structure_face_unlock_model_other_msg_2d">2D-Erkennung</string>
+  <string name="structure_face_unlock_model_other_msg_3d">3D-Erkennung</string>
+  <string name="structure_face_unlock_model_other_suggestion_2d">2D-Gesichtserkennung ist weniger sicher als ein Muster, eine PIN oder ein Passwort. Wenn diese Funktion eingeschaltet ist, wird Ihr Gerät eventuell durch Ihr Foto sowie durch Personen oder Objekte, die Ihnen ähnlich sehen, entsperrt.</string>
+  <string name="structure_face_unlock_model_other_suggestion_3d">3D-Gesichtserkennung ist relativ sicher. Es ist sehr unwahrscheinlich, dass Ihr Gerät mit Ihrem Foto entsperrt werden kann, wenn diese Funktion eingeschaltet ist. Es könnte jedoch von Personen oder Objekten, die wie Sie aussehen, entsperrt werden.</string>
+  <string name="structure_face_unlock_model_other_title">Gesichtserkennung</string>
+  <string name="structure_face_unlock_not_same_person">Sie müssen alle Schritte selbst durchführen. Tauschen Sie mit niemandem den Platz.</string>
+  <string name="structure_face_unlock_tof_covered">Gesichtsdaten hinzuzufügen nicht möglich. Entfernen Sie sich weiter vom Bildschirm.</string>
   <string name="structure_manage_facerecoginition_text">3D-Gesichtsdaten verwalten</string>
   <string name="style_and_wallpaper_settings_title">Stile &amp; Hintergrundbilder</string>
   <string name="style_suggestion_summary">Verschiedene Stile, Hintergrundbilder, Uhren und mehr ausprobieren</string>
@@ -7126,6 +7112,7 @@ Sie können Ihr Androidtelefon in einen mobilen WLAN-Hotspot verwandeln, um die 
   <string name="theme_settings_title">Themen</string>
   <string name="thememanager_not_found">Themen können nicht geöffnet werden. Stellen Sie sicher, dass die App installiert ist.</string>
   <string name="three_gesture_down">3 Finger nach unten ziehen</string>
+  <string name="three_gesture_long_press">Mit %d Fingern drücken und halten</string>
   <string name="time_format_category_title">Zeitformat</string>
   <string name="time_picker_title">Uhrzeit</string>
   <string name="time_spent_in_app_pref_title">Mit der App verbrachte Zeit</string>
@@ -7426,6 +7413,7 @@ Gefällt Ihnen Mi Mover?"</string>
   <string name="turn_off_common_password_confirm_msg">Sperrbildschirm wird ebenfalls deaktiviert</string>
   <string name="turn_off_keyguard_password_alert_title">Sperre ausschalten</string>
   <string name="turn_off_keyguard_password_confirm_msg">Sperrbildschirmpasswort ausschalten?</string>
+  <string name="turn_off_keyguard_password_title">Bildschirmsperre ausschalten</string>
   <string name="turn_off_keyguard_password_wait_dialog">Passwort ausschalten…</string>
   <string name="turn_off_keyguard_password_with_face_confirm_msg">Nachdem Sie Ihren Schutz für den Sperrbildschirm ausgeschaltet haben, werden die aufgezeichneten Gesichtsdaten gelöscht. Sie werden nicht in der Lage sein, das Gerät mit Ihrem Gesicht zu entsperren."</string>
   <string name="turn_off_keyguard_password_with_fingerprint_confirm_msg">Nachdem Sie das Sperrbildschirmpasswort ausgeschaltet haben, können Sie Ihren Fingerabdruck zum Entsperren nicht mehr verwenden</string>
@@ -7498,6 +7486,7 @@ Ihre gespeicherten Fingerabdrücke werden auch aus diesem Profil entfernt und Si
   <string name="unlock_disable_frp_warning_title_profile">Profilschutz entfernen?</string>
   <string name="unlock_disable_lock_pin_summary">PIN entfernen</string>
   <string name="unlock_disable_lock_title">Bildschirmsperre ausschalten</string>
+  <string name="unlock_failed">Interner Fehler</string>
   <string name="unlock_footer_high_complexity_requested">%1$s empfiehlt eine starke PIN oder ein starkes Passwort und funktioniert ohne evtl. nicht wie erwartet</string>
   <string name="unlock_footer_low_complexity_requested">%1$s empfiehlt ein neues Muster, eine neue PIN oder ein neues Passwort und funktioniert ohne evtl. nicht wie erwartet</string>
   <string name="unlock_footer_medium_complexity_requested">%1$s empfiehlt eine neue PIN oder ein neues Passwort und funktioniert ohne evtl. nicht wie erwartet</string>
@@ -7683,8 +7672,8 @@ oder Kopfhörer mit 3,5-mm-Buchse."</string>
   <string name="usb_mtp_title">Mediengerät (MTP)</string>
   <string name="use_otg_charge_only">Umkehrladen</string>
   <string name="use_otg_charge_only_summary">Schnelles 1.8A-Laden</string>
-  <string name="use_otg_file_transfers">Umkehrladen &amp; Übertragung von Dateien</string>
-  <string name="use_otg_file_transfers_summary">Langsames Laden mit 500mA und Dateiübertragungen</string>
+  <string name="use_otg_file_transfers">Umkehrladen &amp; Dateien übertragen</string>
+  <string name="use_otg_file_transfers_summary">Langsames Laden mit 500mA und Dateien übertragen</string>
   <string name="use_otg_title">USB-OTG</string>
   <string name="usb_preference">USB-Einstellungen</string>
   <string name="usb_ptp_summary">Ermöglicht die Übertragung von Fotos mit Hilfe der Kamerasoftware sowie die Übertragung von Dateien auf Computer, die MTP nicht unterstützen</string>
@@ -7730,6 +7719,7 @@ Speicher freigeben oder nur wichtige Elemente übertragen."</string>
   <string name="usb_use_photo_transfers_desc">Fotos oder Dateien übertragen, wenn MTP nicht unterstützt wird (PTP)</string>
   <string name="usb_use_power_only">Verbundenes Gerät laden</string>
   <string name="usb_use_power_only_desc">Laden des verbundenen Geräts. Funktioniert nur mit Geräten, die USB-Laden unterstützen.</string>
+  <string name="use_control_panel">Control Center verwenden</string>
   <string name="use_default_tts_settings_summary">Standardeinstellungen überschreiben App-Einstellungen</string>
   <string name="use_default_tts_settings_title">Immer meine Einstellungen verwenden</string>
   <string name="use_location_summary">Google darf Suchergebnisse und andere Dienste an Ihren Standort anpassen</string>
