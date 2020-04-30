@@ -1,16 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-
-
-    <string name="ota_recovery_theme_dialog_message">Some elements of the previously used theme might not be compatible with the new version of MIUI. Incompatible elements will be replaced by default options.</string>
-    <string name="ota_recovery_theme_dialog_title">Restoring original theme</string>
-    <string name="ota_recovery_theme_notity_btn">Restore</string>
-    <string name="ota_recovery_theme_notity_content">"You can go back to the theme you've been using before the update"</string>
-    <string name="ota_recovery_theme_notity_title">Restore your theme</string>
-    <string name="resource_incall_show_download">Download video</string>
-    <string name="super_wallpaper">Super Wallpaper</string>
-    <string name="theme_component_video_wallpaper">Dynamic wallpapers</string>
-    <string name="theme_wallpaper">Wallpaper Category</string>
   <string name="abc_action_bar_home_description">Zur Startseite</string>
   <string name="abc_action_bar_up_description">Nach oben</string>
   <string name="abc_action_menu_overflow_description">Mehr Optionen</string>
@@ -145,7 +134,7 @@ Themen erkennt, welche Apps Sie verwenden und zeigt transparente Hintergrundbild
   <string name="description_download">Heruntergeladen</string>
   <string name="description_size">Größe</string>
   <string name="description_summary">Übersicht</string>
-    <string name="description_version_szie">Version: %1$s | Größe: %2$s</string>
+  <string name="description_version_szie">Version: %1$s | Größe: %2$s</string>
   <string name="desktop_effects">Startbildschirmeffekte</string>
   <string name="desktop_wallpaper">Startbildschirm</string>
   <string name="detail_author_attention_head">Folgen Sie einigen unserer herausragendsten Designer</string>
@@ -286,7 +275,7 @@ Dieses Video hat keinen Ton. Die andere Person hört Ihren Klingelton, während 
   <string name="lockscreen_apply_failured_but_home_apply_success">Hintergrund auf Starbildschirm angewendet, aber nicht auf Sperrbildschirm</string>
   <string name="lockscreen_apply_success">Sperrbildschirmhintergrund wurde angewendet</string>
   <string name="lockscreen_apply_success_but_home_apply_failured">Hintergrund auf Sperrbildschirm angewendet, aber nicht auf Startbildschirm</string>
-    <string name="lockscreen_desk_wallpaper">Start- und Sperrbildschirmhintergründe</string>
+  <string name="lockscreen_desk_wallpaper">Start- und Sperrbildschirmhintergründe</string>
   <string name="lockscreen_magazine_subscribe">%1$s Follower</string>
   <string name="lockscreen_magazine_summary">Kategorien</string>
   <string name="lockscreen_magazine_system_subscribe">%1$s Hintergrundbilder</string>
@@ -335,10 +324,10 @@ Dieses Video hat keinen Ton. Die andere Person hört Ihren Klingelton, während 
   <string name="no_data">"Netzwerk nicht verfügbar, 
 auf den Bildschirm tippen, um neu zu laden."</string>
   <string name="no_net_work_connection">Prüfen Sie Ihre Netzwerkeinstellungen und versuchen Sie es erneut.</string>
-    <string name="no_network_desc">Verbindung herstellen nicht möglich</string>
-    <string name="no_network_please_retry">Überprüfen Sie Ihre Netzwerkeinstellungen und versuchen Sie es erneut</string>
-    <string name="no_wallpaper">Noch keine Elemente vorhanden</string>
-    <string name="not_support_incall_show">Dieses Hintergrundbild funktioniert nicht mit Profilvideos</string>
+  <string name="no_network_desc">Verbindung herstellen nicht möglich</string>
+  <string name="no_network_please_retry">Überprüfen Sie Ihre Netzwerkeinstellungen und versuchen Sie es erneut</string>
+  <string name="no_wallpaper">Noch keine Elemente vorhanden</string>
+  <string name="not_support_incall_show">Dieses Hintergrundbild funktioniert nicht mit Profilvideos</string>
   <string name="online_no_network">Keine Netzwerkverbindung</string>
   <string name="online_precust_animal">Tiere</string>
   <string name="online_precust_abstract">Abstrakt</string>
@@ -358,6 +347,11 @@ auf den Bildschirm tippen, um neu zu laden."</string>
   <string name="online_precust_scenery">Landschaft</string>
   <string name="online_precust_tiny">Winzig</string>
   <string name="online_search_hint">Online suchen</string>
+  <string name="ota_recovery_theme_dialog_message">Einige Elemente des zuvor genutzten Themas sind eventuell nicht mit der neuen MIUI-Version kompatibel. Inkompatible Elemente werden durch Standardoptionen ersetzt.</string>
+  <string name="ota_recovery_theme_dialog_title">Wiederherstellen des Original-Themas</string>
+  <string name="ota_recovery_theme_notity_btn">Wiederherstellen</string>
+  <string name="ota_recovery_theme_notity_content">Sie können zu dem Thema zurückgehen, das Sie vor der Aktualisierung genutzt haben.</string>
+  <string name="ota_recovery_theme_notity_title">Thema wiederherstellen</string>
   <string name="password_toggle_content_description">Passwortsichtbarkeit umschalten</string>
   <string name="playing_ringtone">Abspielen</string>
   <string name="pull_down_view_error_message">Hoppla! Keine Internetverbindung gefunden. Prüfen Sie Ihre Verbindung oder versuchen Sie es erneut.</string>
@@ -506,6 +500,7 @@ auf den Bildschirm tippen, um neu zu laden."</string>
   <string name="resource_import_failed">Import fehlgeschlagen</string>
   <string name="resource_import_successful">Download abgeschlossen</string>
   <string name="resource_importing">Importieren…</string>
+  <string name="resource_incall_show_download">Video herunterladen</string>
   <string name="resource_is_off_shelf">Nicht verfügbar</string>
   <string name="resource_is_off_shelf_can_not_share">Teilen nicht möglich. Dieses Element ist nicht mehr verfügbar.</string>
   <string name="resource_restore">Wiederherstellen</string>
@@ -646,6 +641,7 @@ auf den Bildschirm tippen, um neu zu laden."</string>
   <string name="show_mamual_hide_font">Ausgeblendete Fonts anzeigen</string>
   <string name="show_mamual_hide_theme">Ausgeblendete Themen anzeigen</string>
   <string name="show_mamual_hide_wallpaper">Ausgeblendete Hintergründe anzeigen</string>
+  <string name="super_wallpaper">Super Hintergrund</string>
   <string name="swipe_find_more">Nach links wischen, um mehr zu sehen</string>
   <string name="system_cta_main_purpose">Verwalten und Verwenden von Online- und Offline-Themen, Hintergrundbildern, Klingeltönen, Schriften und Video-Hintergründen</string>
   <string name="system_cta_runtime_perm_desc_get_accounts">Für den Zugriff auf die IMEI und die Bereitstellung von Download-Diensten</string>
@@ -698,6 +694,7 @@ auf den Bildschirm tippen, um neu zu laden."</string>
   <string name="theme_component_title_ringtone">Klingelton</string>
   <string name="theme_component_title_statusbar">Statusleiste</string>
   <string name="theme_component_title_wallpaper">Hintergrundbild</string>
+  <string name="theme_component_video_wallpaper">Dynamische Hintergründe</string>
   <string name="theme_current_using_has_update">Themenupdate verfügbar</string>
   <string name="theme_description_title_customized">Anpassen</string>
   <string name="theme_description_title_default">Standard</string>
@@ -745,6 +742,7 @@ auf den Bildschirm tippen, um neu zu laden."</string>
   <string name="theme_user_agreement_remind_never">Nicht mehr anzeigen</string>
   <string name="theme_user_agreement_remind_summary">Nutzungsbedingungen jedes Mal anzeigen. Wirksam nach dem nächsten Neustart.</string>
   <string name="theme_user_agreement_title">Nutzungsbedingungen</string>
+  <string name="theme_wallpaper">Hintergrundkategorie</string>
   <string name="theme_yes">Ja</string>
   <string name="third_party_pickers_activity_title">%1$s festlegen</string>
   <string name="tips_theme_gate_transfer_fail">Seite öffnen nicht möglich. Einen Moment warten und erneut versuchen.</string>
