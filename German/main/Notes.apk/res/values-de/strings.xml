@@ -1,47 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-
-
-  <string name="action_mode_cancel_folder_priority">"Don't show folders first"</string>
-  <string name="action_mode_switcher_folder_priority">Show folders first</string>
-  <string name="actionbar_button_up_description">Back</string>
-  <string name="cta_agree_desc">Allow this app to connect to the internet and grant the optional permissions to be able to use all its features.</string>
-  <string name="cta_v2_app_purpose">Creating, viewing, and managing notes</string>
-  <string name="cta_v2_app_purpose_v12">Welcome to Notes! You can use this app to create tasks and notes that contain text, images, and audio.</string>
-  <string name="float_todo_guide_cancel">Cancel</string>
-  <string name="float_todo_guide_message">Home screen shortcut allows you to swipe from the edge of the screen to view and create tasks. Create the shortcut now?</string>
-  <string name="float_todo_guide_ok">Create</string>
-  <string name="float_todo_guide_title">Home screen shortcut</string>
-  <string name="gesture_guide_cancel">Skip</string>
-  <string name="gesture_guide_message">You can tap, press and hold, and drag items to create and rearrange notes. Learn these gestures now?</string>
-  <string name="gesture_guide_ok">Learn</string>
-  <string name="gesture_guide_title">Gestures</string>
-  <string name="hear_note">Dictated notes</string>
-  <string name="menu_group">Create a folder</string>
-  <string name="merge_to_folder">Create a folder</string>
-  <string name="miuix_appcompat_cloud_state_disabled">Sync with the cloud is off</string>
-  <string name="miuix_appcompat_cloud_state_finished">Synced with the cloud</string>
-  <string name="miuix_appcompat_cloud_state_syncing">Syncing with the cloud</string>
-  <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Zum Aktualisieren nach unten ziehen</string>
-  <string name="miuix_sbl_tracking_progress_labe_refreshed">Aktualisierung abgeschlossen</string>
-  <string name="miuix_sbl_tracking_progress_labe_refreshing">Aktualisieren</string>
-  <string name="miuix_sbl_tracking_progress_labe_release_to_refresh">Zum Aktualisieren loslassen</string>
-  <string name="miuix_sbl_tracking_progress_labe_up_nodata">Das ist im Moment alles</string>
-  <string name="miuix_sbl_tracking_progress_labe_up_none">Das ist im Moment alles</string>
-  <string name="miuix_sbl_tracking_progress_labe_up_refresh">Einen Moment…</string>
-  <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Elemente laden nicht möglich</string>
-  <string name="permission_phone_state_desc">For stopping recording voice notes during calls</string>
-  <string name="permission_storage_desc">For saving notes as images</string>
-  <string name="private_entry_available">Release to open private folder</string>
-  <string name="private_entry_default">Slide down to open private folder</string>
-  <string name="time_picker_dialog_title">Set time</string>
-  <string name="todo_list">Checklist of subtasks</string>
-  <string name="todo_list_edit_text_hint">Tap \"Enter\" to create subtasks</string>
-  <string name="todo_list_new_finish_all_tip">New items should contain at least one uncompleted task</string>
-  <string name="todo_list_overflow_tip">"Can't create more subtasks"</string>
-  <string name="todo_user_guide_tip6">Tap \"Enter\" to create a checklist of subtasks</string>
-
-
   <string name="abc_action_bar_home_description">Zur Startseite</string>
   <string name="abc_action_bar_up_description">Nach oben</string>
   <string name="abc_action_menu_overflow_description">Mehr Optionen</string>
@@ -60,9 +18,12 @@
   <string name="abc_shareactionprovider_share_with_application">Teilen mit %s</string>
   <string name="abc_toolbar_collapse_description">Einklappen</string>
   <string name="action_folder_description">Ordner anzeigen</string>
+  <string name="action_mode_cancel_folder_priority">Ordner nicht zuerst anzeigen</string>
+  <string name="action_mode_switcher_folder_priority">Ordner zuerst anzeigen</string>
   <string name="action_mode_switcher_grid_description">Rasteransicht</string>
   <string name="action_mode_switcher_list_description">Listenansicht</string>
   <string name="action_settings_description">Einstellungen</string>
+  <string name="actionbar_button_up_description">Zurück</string>
   <string name="actionbar_close_description">Schließen</string>
   <string name="actionbar_home_description">Zurück</string>
   <string name="add_account_desc">Notizen mit dem Mi-Konto synchronisieren?</string>
@@ -74,7 +35,7 @@
   <string name="alert_message_restore">Diese Notiz konnte nicht geöffnet werden. Sie muss wiederhergestellt werden, um den Inhalt bearbeiten zu können.</string>
   <string name="alert_title_delete">Notiz löschen?</string>
   <string name="alert_title_edit_anyway">Bearbeiten kann zu Datenverlust führen. Wirklich bearbeiten?</string>
-  <string name="alert_title_hidden_note">Eine versteckte Notizerinnerung wurde erhalten</string>
+  <string name="alert_title_hidden_note">Eine versteckte Notizerinnerung erhalten</string>
   <string name="alert_title_restore">Notiz wiederherstellen</string>
   <string name="all_folder_name">Alle Notizen</string>
   <string name="all_terms">%1$s und %2$s</string>
@@ -96,11 +57,14 @@
   <string name="confirm_cancel">Nicht zustimmen</string>
   <string name="confirm_ok">Zustimmen</string>
   <string name="copy">Kopieren</string>
+  <string name="cta_agree_desc">Dieser App die Internetverbindung erlauben und die optionalen Berechtigungen erteilen, um alle ihre Funktionen nutzen zu können.</string>
   <string name="cta_confirm_cancel">Nicht erlauben</string>
   <string name="cta_confirm_ok">Erlauben</string>
   <string name="cta_dialog_message">Notizen benötigen Berechtigungen, um eine Internetverbindung herzustellen, Audio aufzunehmen und auf Ihre Kontakte zuzugreifen, damit sie normal funktionieren. Erlauben?</string>
   <string name="cta_dialog_title">Erforderliche Berechtigungen</string>
   <string name="cta_reminder">Notizen benötigt Berechtigungen zum Internetzugang, für Audioaufnahmen und zum Kontaktezugriff, um normal zu funktionieren. Erlauben?</string>
+  <string name="cta_v2_app_purpose">Erstellen, Anzeigen und Verwalten von Notizen</string>
+  <string name="cta_v2_app_purpose_v12">Willkommen bei Notizen! Mit dieser App können Sie Aufgaben und Notizen erstellen, die Text, Bilder und Audio enthalten.</string>
   <string name="data_empty_note">Noch keine Notizen hier</string>
   <string name="data_empty_todo">Noch keine Aufgaben hier</string>
   <string name="date_calculate_today">0 Tage</string>
@@ -151,6 +115,10 @@
   <string name="exceed_todo_text_limitation">Aufgabenbeschreibung zu lang</string>
   <string name="expand_button_title">Erweitert</string>
   <string name="first_enter_custom_folder_hint">Hier können Sie Ordner umbenennen oder löschen.</string>
+  <string name="float_todo_guide_cancel">Abbrechen</string>
+  <string name="float_todo_guide_message">Mit einer Startbildschirmverknüpfung können Sie vom Rand des Bildschirms wischen, um Aufgaben anzuzeigen und zu erstellen. Verknüpfung jetzt erstellen?</string>
+  <string name="float_todo_guide_ok">Erstellen</string>
+  <string name="float_todo_guide_title">Startbildschirmverknüpfung</string>
   <string name="folder_exist">Ein Ordner mit demselben Namen ist bereits vorhanden</string>
   <string name="folder_operation_delete">Löschen</string>
   <string name="folder_operation_rename">Umbennen</string>
@@ -159,6 +127,11 @@
   <string name="format_move_note_to_folder">Nach %1$s verschoben</string>
   <string name="format_move_notes_out_folder">%1$s verschieben</string>
   <string name="format_move_notes_to_folder">%1$s Notizen nach %2$s verschoben</string>
+  <string name="gesture_guide_cancel">Überspringen</string>
+  <string name="gesture_guide_message">Sie können tippen, drücken und halten sowie Elemente ziehen, um Notizen zu erstellen und neu anzuordnen. Diese Gesten jetzt lernen?</string>
+  <string name="gesture_guide_ok">Lernen</string>
+  <string name="gesture_guide_title">Gesten</string>
+  <string name="hear_note">Diktierte Notizen</string>
   <string name="hidden_notes_fragment_title">Versteckte Notizen</string>
   <string name="hide_arrow_description">Verstecken</string>
   <string name="hint_cannot_view_hidden_note_content">Inhalt der versteckten Notizen kann nicht angezeigt werden</string>
@@ -175,6 +148,7 @@
   <string name="menu_delete">Löschen</string>
   <string name="menu_delete_forever">Endgültig löschen</string>
   <string name="menu_folders">Ordner</string>
+  <string name="menu_group">Ordner erstellen</string>
   <string name="menu_hide">Verstecken</string>
   <string name="menu_more_description">Mehr</string>
   <string name="menu_move_parent_folder">Übergeordneter Ordner</string>
@@ -193,6 +167,18 @@
   <string name="menu_unhide">Sichtbar machen</string>
   <string name="menu_unmark_privacy">Nicht mehr verstecken</string>
   <string name="menu_unstick">Lösen</string>
+  <string name="merge_to_folder">Ordner erstellen</string>
+  <string name="miuix_appcompat_cloud_state_disabled">Synchronisation mit der Cloud ist ausgeschaltet</string>
+  <string name="miuix_appcompat_cloud_state_finished">Mit der Cloud synchronisiert</string>
+  <string name="miuix_appcompat_cloud_state_syncing">Mit der Cloud synchronisieren</string>
+  <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Zum Aktualisieren nach unten ziehen</string>
+  <string name="miuix_sbl_tracking_progress_labe_refreshed">Aktualisierung abgeschlossen</string>
+  <string name="miuix_sbl_tracking_progress_labe_refreshing">Aktualisieren</string>
+  <string name="miuix_sbl_tracking_progress_labe_release_to_refresh">Zum Aktualisieren loslassen</string>
+  <string name="miuix_sbl_tracking_progress_labe_up_nodata">Das ist im Moment alles</string>
+  <string name="miuix_sbl_tracking_progress_labe_up_none">Das ist im Moment alles</string>
+  <string name="miuix_sbl_tracking_progress_labe_up_refresh">Einen Moment…</string>
+  <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Elemente laden nicht möglich</string>
   <string name="new_audio_create_cancel_talkback_des">Abgebrochen</string>
   <string name="new_audio_create_done_talkback_des">Erstellt</string>
   <string name="new_audio_create_guide_tip">Taste gedrückt halten, um eine Sprachnotiz zu erstellen</string>
@@ -220,7 +206,9 @@
   <string name="permission_intro_storage">Zum Speichern von Notizen und Anhängen</string>
   <string name="permission_microphone_desc">Zur Aufnahme von Sprachnotizen</string>
   <string name="permission_network_for_cloud_desc">Um Notizen mit der Cloud zu synchronisieren, müssen Sie sich mit dem Internet verbinden. Mobile Daten können zur Synchronisierung von Elementen verwendet werden. Jetzt verbinden?</string>
+  <string name="permission_phone_state_desc">Zum Beenden der Aufnahme von Sprachnotizen während Anrufen</string>
   <string name="permission_read_contact_desc">Zuordnung der bei Anrufen erstellten Notizen zu Kontakten</string>
+  <string name="permission_storage_desc">Zum Speichern von Notizen als Bilder</string>
   <string name="permission_xiaoai_desc"><Data>Mi KI sammelt Ihre Sprachaufzeichnungen und Geräte-IDs, um Audio zu transkribieren und Sprachnotizen zu erstellen. Mehr in Mi KI &lt;a href=\"%1$s\">Datenschutzerklärung&lt;/a> erfahren.</Data></string>
   <string name="permlab_accessNote">Zugang zu Notizen</string>
   <string name="pref_desc_skip_confirm_for_quick_delete">Keinen Bestätigungsdialog anzeigen, wenn Notizen per Gesten gelöscht werden</string>
@@ -236,6 +224,8 @@
   <string name="pref_title_todo_float_mode">Aufgaben-Toolbox verwenden</string>
   <string name="preference_copied">\"%1$s\" in Zwischenablage kopiert</string>
   <string name="privacy_note_content_empty">Hier noch keine Elemente vorhanden.</string>
+  <string name="private_entry_available">Loslassen zum Öffnen privater Ordner</string>
+  <string name="private_entry_default">Nach unten schieben zum Öffnen privater Ordner</string>
   <string name="recover_notes_hint">Ein Fehler ist aufgetreten, stellen Sie Ihre Notizen von i.mi.com wieder her</string>
   <string name="redo">Wiederholen</string>
   <string name="refuse_to_open_as_pic_because_of_loading">Warten Sie, bis die Notiz geladen ist und versuchen Sie es erneut.</string>
@@ -317,6 +307,7 @@
   <string name="theme_title_yellow">Gelb</string>
   <string name="theme_white_description">Weiß</string>
   <string name="theme_yellow_description">Gelb</string>
+  <string name="time_picker_dialog_title">Zeit festlegen</string>
   <string name="time_picker_label_hour">Std</string>
   <string name="time_picker_label_minute">Min</string>
   <string name="toast_cancel_to_insert_image">Bild wurde nicht hinzugefügt</string>
@@ -370,6 +361,10 @@ Ermöglichen Sie Notizen, Audio aufzunehmen."</string>
   <string name="todo_item_status_delete">Löschen</string>
   <string name="todo_item_status_finished">Erledigt</string>
   <string name="todo_item_status_unfinished">Nicht erledigt</string>
+  <string name="todo_list">Checkliste mit Unteraufgaben</string>
+  <string name="todo_list_edit_text_hint">Auf \"Enter\" tippen, um Unteraufgaben zu erstellen</string>
+  <string name="todo_list_new_finish_all_tip">Neue Elemente sollten mindestens eine unerledigte Aufgabe enthalten</string>
+  <string name="todo_list_overflow_tip">Mehr Unteraufgaben sind nicht möglich</string>
   <string name="todo_menu_add_audio_description">Sprachaufgabe hinzufügen</string>
   <string name="todo_menu_add_description">Aufgabe hinzufügen</string>
   <string name="todo_menu_cancel">Abbrechen</string>
@@ -379,14 +374,14 @@ Ermöglichen Sie Notizen, Audio aufzunehmen."</string>
   <string name="todo_schedule_time_expired">" (Abgelaufen)"</string>
   <string name="todo_schedule_time_md">dd.MM.</string>
   <string name="todo_schedule_time_mdhm">dd.MM. HH:mm</string>
-  <string name="todo_schedule_time_today">Heute</string>
-  <string name="todo_schedule_time_tomorrow">Morgen</string>
-  <string name="todo_schedule_time_yesterday">Gestern</string>
   <string name="todo_schedule_time_repeat_day">, jeden Tag</string>
   <string name="todo_schedule_time_repeat_month">, jeden Monat</string>
   <string name="todo_schedule_time_repeat_normal_workday">, Montag bis Freitag</string>
   <string name="todo_schedule_time_repeat_week">, jede Woche</string>
   <string name="todo_schedule_time_repeat_year">, jedes Jahr</string>
+  <string name="todo_schedule_time_today">Heute</string>
+  <string name="todo_schedule_time_tomorrow">Morgen</string>
+  <string name="todo_schedule_time_yesterday">Gestern</string>
   <string name="todo_schedule_time_ymdhm">dd.MM.yyyy HH:mm</string>
   <string name="todo_search_hint">Nach Aufgaben suchen</string>
   <string name="todo_time_picker_title">Erinnerung einstellen</string>
@@ -396,6 +391,7 @@ Ermöglichen Sie Notizen, Audio aufzunehmen."</string>
   <string name="todo_user_guide_tip3">Um eine Textaufgabe zu bearbeiten, tippen Sie einfach darauf.</string>
   <string name="todo_user_guide_tip4">Vergessen Sie nicht, eine Verknüpfung für die Startseite der Aufgabe zu erstellen.</string>
   <string name="todo_user_guide_tip5">Auf dem Laufenden bleiben und nie etwas Wichtiges verpassen!</string>
+  <string name="todo_user_guide_tip6">Auf \"Enter\" tippen, um Checkliste mit Unteraufgaben</string>
   <string name="toolbar_check_description">Checkbox hinzufügen</string>
   <string name="toolbar_delete_description">Diese Notiz löschen</string>
   <string name="toolbar_gallery_description">Bild hinzufügen</string>
