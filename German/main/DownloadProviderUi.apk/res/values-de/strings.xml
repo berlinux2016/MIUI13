@@ -1,5 +1,22 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+  <string name="abc_action_bar_home_description">Zur Startseite</string>
+  <string name="abc_action_bar_up_description">Nach oben</string>
+  <string name="abc_action_menu_overflow_description">Weitere Optionen</string>
+  <string name="abc_action_mode_done">Fertig</string>
+  <string name="abc_activity_chooser_view_see_all">Alle ansehen</string>
+  <string name="abc_activitychooserview_choose_application">App auswählen</string>
+  <string name="abc_capital_off">AUS</string>
+  <string name="abc_capital_on">AN</string>
+  <string name="abc_search_hint">Suchen…</string>
+  <string name="abc_searchview_description_clear">Suchanfrage löschen</string>
+  <string name="abc_searchview_description_query">Suchanfrage</string>
+  <string name="abc_searchview_description_search">Suchen</string>
+  <string name="abc_searchview_description_submit">Suchanfrage senden</string>
+  <string name="abc_searchview_description_voice">Sprachsuche</string>
+  <string name="abc_shareactionprovider_share_with">Teilen mit</string>
+  <string name="abc_shareactionprovider_share_with_application">Teilen mit %s</string>
+  <string name="abc_toolbar_collapse_description">Einklappen</string>
   <string name="about">Über</string>
   <string name="action_back">Zurück</string>
   <string name="action_settings">Einstellungen</string>
@@ -16,10 +33,12 @@
   <string name="all_share_files_content">Ausgewählte Dateien wurden bereits gelöscht</string>
   <string name="all_the_internet">Alle Netzwerke</string>
   <string name="app_downloads">%s Downloads</string>
+  <string name="app_name">Einstellung</string>
   <string name="auth_activity_title">Xunlei-Konto</string>
   <string name="auth_fail">Authorisierung fehlgeschlagen</string>
   <string name="average_speed">Durchschnittsgeschwindigkeit</string>
   <string name="bind_xunlei_account">Xunlei-Konto %1$s hinzugefügt</string>
+  <string name="bt_download">Herunterladen</string>
   <string name="bt_path_not_exit">Dieser Pfad existiert nicht</string>
   <string name="bt_restart_dialog_message">Alle Downloads im Ordner \"BT\" neu starten?</string>
   <string name="bt_restart_dialog_title">Alle Downloads neu starten</string>
@@ -57,6 +76,7 @@
   <string name="dialog_confirm_delete_the_download_item_message">Diese Aufgaben löschen</string>
   <string name="dialog_content_limit0">Downloads beschränken</string>
   <string name="dialog_content_limit_max">Unbegrenzt</string>
+  <string name="dialog_delete_positive">Löschen</string>
   <string name="dialog_failed_body">Datei später herunterladen oder aus der Warteschlange entfernen?</string>
   <string name="dialog_file_already_exists">Zieldatei existiert bereits</string>
   <string name="dialog_file_missing_body">Datei nicht gefunden, sieht aus, als sei sie gelöscht worden.</string>
@@ -139,6 +159,7 @@
   <string name="engine_open">Öffnen</string>
   <string name="enter_search">Websuche</string>
   <string name="everyone_test">Alle testen</string>
+  <string name="expand_button_title">Erweitert</string>
   <string name="experience_xunlei_account_speed">Xunlei-Mitglieder genießen Downloads mit höherer Geschwindigkeit</string>
   <string name="expire_notification_msg">Xunlei-Mitgliedschaft läuft bald ab</string>
   <string name="expire_today_notification_msg">Xunlei-Mitgliedschaft läuft heute ab</string>
@@ -161,6 +182,8 @@
   <string name="get_order_fail_msg">Bestellung wurde nicht erstellt</string>
   <string name="goto_global_search">Im Web nach \"%1$s\" suchen</string>
   <string name="guess_like">Das könnte Ihnen auch gefallen</string>
+  <string name="h5_net_error" formatted="false">%s (%s) laden fehlgeschlagen</string>
+  <string name="h5_net_error_tip">URL öffnen fehlgeschlagen</string>
   <string name="high_speed_channel">"Xunlei-Beschleuniger (kostenpflichtig): "</string>
   <string name="high_speed_tryout">Downloadgeschwindigkeit ist langsam, werden Sie Xunlei-Mitglied</string>
   <string name="high_speed_tryout_percent">Geschwindigkeit gesteigert um %1$s, werden Sie Xunlei-Mitglied</string>
@@ -196,13 +219,23 @@
   <string name="menu_title_resume_all">Alle starten</string>
   <string name="menu_title_settings">Einstellungen</string>
   <string name="menu_vip_unbind">Trennen</string>
+  <string name="Only_the_wifi">Nur mit WLAN</string>
   <string name="missing_title">&lt;Unbekannt&gt;</string>
+  <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Zum Aktualisieren herunterziehen</string>
+  <string name="miuix_sbl_tracking_progress_labe_refreshed">Aktualisierung abgeschlossen</string>
+  <string name="miuix_sbl_tracking_progress_labe_refreshing">Aktualisieren</string>
+  <string name="miuix_sbl_tracking_progress_labe_release_to_refresh">Zum Aktualisieren loslassen</string>
+  <string name="miuix_sbl_tracking_progress_labe_up_nodata">Das ist im Moment alles</string>
+  <string name="miuix_sbl_tracking_progress_labe_up_none">Das ist im Moment alles</string>
+  <string name="miuix_sbl_tracking_progress_labe_up_refresh">Einen Moment…</string>
+  <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Elemente laden nicht möglich</string>
   <string name="net_error">Netzwerkverbindung nicht möglich, erneut versuchen</string>
   <string name="network_error">Netzwerkverbindung nicht möglich</string>
   <string name="new_add">Neuer Download</string>
   <string name="new_add_bt">Torrent hinzufügen</string>
   <string name="no_downloads">Keine Dateien</string>
   <string name="no_file_hint">Download-Aufgabe für diese Datei ist bereits vorhanden</string>
+  <string name="no_net">Netzwerkverbindung nicht möglich</string>
   <string name="no_result_for_keyword">\"%1$s\" wurde nicht gefunden</string>
   <string name="no_share_file">Datei wurde nicht geteilt</string>
   <string name="no_share_file_content">Ausgewählte Datei wurde bereits gelöscht</string>
@@ -210,13 +243,13 @@
   <string name="no_share_files_content">Einige Dateien, die Sie versuchen zu teilen, wurden bereits gelöscht. Andere Dateien wurden erfolgreich geteilt.</string>
   <string name="no_vip_info">Xunlei-Mitgliedschaft erwerben, um Downloads zu beschleunigen</string>
   <string name="no_vip_show_info">Beschleunigen Sie Downloads zwischen all Ihren Geräten mit Xunlei</string>
+  <string name="not_set">Nicht festgelegt</string>
   <string name="notify_disabled_net_by_app">Internetzugang eingeschränkt</string>
   <string name="notify_install_guide_forward_text">Öffnen</string>
   <string name="notify_install_guide_msg">Erfolgreich installiert</string>
   <string name="notify_install_guide_title">%s erfolgreich installiert</string>
   <string name="notify_not_support">Solche Benachrichtigungen werden nicht unterstützt, jetzt aktualisieren</string>
   <string name="notify_only_wifi_download">Auf WLAN warten</string>
-  <string name="Only_the_wifi">Nur mit WLAN</string>
   <string name="one_month">1 Monat</string>
   <string name="only_support_torrent">Nur Torrentdateien werden unterstützt</string>
   <string name="open">Öffnen</string>
@@ -249,6 +282,7 @@
   <string name="pref_summary_max_bytes_limit_format">Auf WLAN warten, wenn Datei größer als %s</string>
   <string name="pref_summary_no_limit_popup">Unbegrenzt</string>
   <string name="pref_title_enable_max_bytes_popup">Eingabeaufforderung zum Datenverbrauch anzeigen</string>
+  <string name="preference_copied">\"%1$s\" in Zwischenablage kopiert</string>
   <string name="preferences_title">Einstellungen</string>
   <string name="privacy_policy">Datenschutzerklärung</string>
   <string name="privacy_tip_cancel">Abbrechen</string>
@@ -379,6 +413,7 @@
   <string name="speed_title">WLAN-Geschwindigkeit testen</string>
   <string name="speed_title_result">WLAN-Geschwindigkeit testen</string>
   <string name="start_analysis">Jetzt prüfen</string>
+  <string name="start_download">Herunterladen</string>
   <string name="start_xunlei_speedup_info">Anmelden, um Ihre Downloads zu beschleunigen</string>
   <string name="starting_analysis">Info abrufen…</string>
   <string name="storage_internal">Interner Speicher</string>
@@ -398,6 +433,7 @@
   <string name="third_web_default">Diesen Ort speichern</string>
   <string name="third_web_filesize">Größe</string>
   <string name="third_web_savepath">Ort</string>
+  <string name="third_web_title">Herunterladen</string>
   <string name="time_consume">Dauer</string>
   <string name="title_homepage_infoflow">Kürzliche Aktualisierungen</string>
   <string name="title_tips">Achtung</string>
@@ -417,6 +453,8 @@
   <string name="unit_cn_hundredmillions">100 Millionen</string>
   <string name="unit_en_billion">Mrd.</string>
   <string name="unit_en_million">Mill.</string>
+  <string name="v7_preference_off">AUS</string>
+  <string name="v7_preference_on">AN</string>
   <string name="valid_in_this_month">Gültig für diesen Monat</string>
   <string name="vip_auto_speedup">Xunlei-Downloadbeschleunigung ist eingeschaltet</string>
   <string name="vip_expire_show_info">Xunlei-Mitgliedschaft abgelaufen</string>
@@ -445,13 +483,18 @@
   <string name="xl_privilege_title">Xunlei-Mitgliedschaft</string>
   <string name="xl_validate_title">"Gültig bis: "</string>
   <string name="xl_vip_annual">Jährlich: %1$s Mi Coins × 12</string>
+  <string name="xl_vip_annual_price">%1$s Mi Coins pro Monat (12 Monats)</string>
   <string name="xl_vip_combo">Tarife</string>
   <string name="xl_vip_month">Monatlich: %1$s Mi Coins × 1</string>
+  <string name="xl_vip_month_price">%1$s Mi Coins pro Monat (1 Monat)</string>
   <string name="xl_vip_open">Kaufen</string>
   <string name="xl_vip_overdue">Abgelaufen</string>
   <string name="xl_vip_pay">Erweitern</string>
   <string name="xl_vip_quarter">Vierteljährlich: %1$s Mi Coins × 3</string>
+  <string name="xl_vip_quarter_price">%1$s Mi Coins pro Monat (3 Monats)</string>
   <string name="xl_vip_semiannual">Halbjährlich: %1$s Mi Coins × 6 </string>
+  <string name="xl_vip_semiannual_price">%1$s Mi Coins pro Monat (6 Monats)</string>
+  <string name="xlunbind_sub_title">Löschen Sie Ihr Xunlei-Konto und fügen Sie Mi-Konto hinzu</string>
   <string name="xunlei_account_has_unbind_message">Xunlei-Konto entfernt</string>
   <string name="xunlei_close_tips_button">Einschalten</string>
   <string name="xunlei_close_tips_content">Xunlei-Downloadbeschleuniger</string>
