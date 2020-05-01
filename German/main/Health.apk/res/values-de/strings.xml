@@ -45,6 +45,7 @@ um Karten hinzuzufügen"</string>
   <string name="all_records">Alle Aufzeichnungen</string>
   <string name="allow_notice_periods">Erinnerungen an Periode zulassen</string>
   <string name="altitude">Höhe</string>
+  <string name="altitude_range">Höhe</string>
   <string name="audio_permission_dialog_desc">Erlaubnis für Audioaufnahmen wurde aufgehoben, bitte wieder erteilen.</string>
   <string name="audio_permission_dialog_title">Erlaubnis für Audio-Aufnahmen erteilen</string>
   <string name="audio_record_perm_description">Schnarchen und Träumen im Schlaf aufzeichnen</string>
@@ -137,6 +138,7 @@ um Karten hinzuzufügen"</string>
   <string name="confirm_opening">Öffnen bestätigen</string>
   <string name="copy">Kopieren</string>
   <string name="copy_done">Erfolgreich kopiert</string>
+  <string name="cousume_unit_float_format">%1$.2f kcal</string>
   <string name="cross_hiking">Wandern</string>
   <string name="cumulative_decline">Höhenverlust</string>
   <string name="cumulative_rise">Höhengewinn</string>
@@ -163,6 +165,7 @@ Wenn Sie sich entscheiden, Ihre Gesundheitsdaten zu löschen, nachdem Sie sich e
   <string name="date_format_m_d">d.M.</string>
   <string name="date_format_m_d_2">dd.MM.</string>
   <string name="date_format_m_d_3">dd.MM.</string>
+  <string name="date_format_m_d_h_m">dd.MM. HH:mm</string>
   <string name="date_format_mm_dd">dd. MMM.</string>
   <string name="date_format_mm_dd_2">dd.MM.</string>
   <string name="date_format_y_m">MMM. yyyy</string>
@@ -173,6 +176,7 @@ Wenn Sie sich entscheiden, Ihre Gesundheitsdaten zu löschen, nachdem Sie sich e
   <string name="date_format_y_m_d_h_m_3">dd.MM.yyyy HH:mm</string>
   <string name="date_format_y_m_d_h_m_4">dd.MM.yyyy HH:mm:ss</string>
   <string name="date_format_y_m_d_h_m_s">dd.MM.yyyy HH:mm:ss</string>
+  <string name="date_format_yyyy_m_d_h_m">dd.MM.yyyy HH:mm</string>
   <string name="date_picker_lunar">Mondkalender</string>
   <string name="date_week_index">"'KW' ww/yyyy"</string>
   <string name="day">Tag</string>
@@ -321,6 +325,8 @@ Wenn es für Sie nach 30 Minuten im Bett immer noch schwierig ist, einzuschlafen
   <string name="finished_rate">%1$d%% abgeschlossen</string>
   <string name="fmt_date_long_month_day">d. MMMM</string>
   <string name="fmt_date_long_year_month_day">d. MMMM yyyy</string>
+  <string name="fmt_date_numeric_day">d.</string>
+  <string name="fmt_date_numeric_month">M.</string>
   <string name="fmt_date_numeric_month_day">d.M.</string>
   <string name="fmt_date_numeric_year_month">M/yyyy</string>
   <string name="fmt_date_numeric_year_month_day">d.M.yyyy</string>
@@ -330,7 +336,7 @@ Wenn es für Sie nach 30 Minuten im Bett immer noch schwierig ist, einzuschlafen
   <string name="fmt_date_short_year_month_day">d. MMM. yyyy</string>
   <string name="fmt_time_12hour">"h 'Uhr'"</string>
   <string name="fmt_time_24hour">"H 'Uhr'"</string>
-  <string name="for_diagnosis_usage_only">Diese Informationen sind nur für die Diagnose zu verwenden.</string>
+  <string name="for_diagnosis_usage_only">Diese Informationen werden nur für die Diagnose verwendet.</string>
   <string name="free_training">Freistil-Workout</string>
   <string name="freestyle">Freistil</string>
   <string name="friday">Freitag</string>
@@ -354,6 +360,9 @@ Wenn es für Sie nach 30 Minuten im Bett immer noch schwierig ist, einzuschlafen
   <string name="goal_title">Gesund bleiben</string>
   <string name="goto_setting_auto_start">Einstellungen</string>
   <string name="guide_data_cloud_sync_tip">Sie können die Synchronisation unter Einstellungen &gt; Cloud-Dienste ausschalten.</string>
+  <string name="guide_exit">Xiaomi Health beenden</string>
+  <string name="guide_exit_description">Wir können keine Dienste für Personen unter 14 Jahren anbieten. Stellen Sie sicher, dass Sie dieses Gerät mit der Erlaubnis Ihres Erziehungsberechtigten verwenden. Tippen Sie auf die Schaltfläche unten, um die App zu beenden.</string>
+  <string name="guide_exit_title">Sie können Xiaomi Health ab Ihrem 14. Geburtstag nutzen.</string>
   <string name="guide_local_data_sync_subtitle">Schritte, Schlaf, Gewicht und Perioden</string>
   <string name="guide_local_data_sync_title">Daten dieses Geräts hochladen</string>
   <string name="guide_other_data_sync_subtitle">Telefone, Bänder, Waagen und andere Geräte</string>
@@ -420,12 +429,12 @@ Wenn es für Sie nach 30 Minuten im Bett immer noch schwierig ist, einzuschlafen
   <string name="last_measure_hours_minutes">%1$s seit letztem Wiegen</string>
   <string name="last_sync_time">Zuletzt synchronisiert: %1$s</string>
   <string name="late">Spät</string>
-  <string name="light_sleep">Leichter Schlaf</string>
-  <string name="light_sleep_duration">Leichte Schlafdauer</string>
-  <string name="light_sleep_duration_description">Wenn Menschen schlafen, treten periodisch schnelle Augenbewegungen auf. Der Schlaf kann in schnellen Augenbewegungsschlaf (REM-Schlaf) und nicht-schnellen Augenbewegungsschlaf (NREM-Schlaf) unterteilt werden. Leichter Schlaf tritt während der NREM-Schlafperioden auf, die etwa 50 - 60 %% der gesamten Schlafdauer ausmachen. Während des Leichtschlafs wird das Bewusstsein allmählich reduziert, und das Gehirn ist relativ statisch, kann aber dennoch leicht aufgeweckt werden.</string>
-  <string name="light_sleep_time_decrease_description">Ihr leichter Schlaf ist zu kurz</string>
-  <string name="light_sleep_time_increase_description">Ihr leichter Schlaf ist zu lang</string>
-  <string name="light_sleep_time_normal_description">Sie haben ausreichend leichten Schlaf</string>
+  <string name="light_sleep">Halbschlaf</string>
+  <string name="light_sleep_duration">Halbschlafdauer</string>
+  <string name="light_sleep_duration_description">Wenn Menschen schlafen, treten periodisch schnelle Augenbewegungen auf. Der Schlaf kann in schnellen Augenbewegungsschlaf (REM-Schlaf) und nicht-schnellen Augenbewegungsschlaf (NREM-Schlaf) unterteilt werden. Halbschlaf tritt während der NREM-Schlafperioden auf, die etwa 50 - 60 %% der gesamten Schlafdauer ausmachen. Während des Halbschlafs wird das Bewusstsein allmählich reduziert, und das Gehirn ist relativ statisch, kann aber dennoch leicht aufgeweckt werden.</string>
+  <string name="light_sleep_time_decrease_description">Ihr Halbschlaf ist zu kurz</string>
+  <string name="light_sleep_time_increase_description">Ihr Halbschlaf ist zu lang</string>
+  <string name="light_sleep_time_normal_description">Sie haben ausreichend Halbschlaf</string>
   <string name="login_and_open_sync">Anmelden und Synchronisieren einschalten</string>
   <string name="login_and_open_sync2">Anmelden und Synchronisieren einschalten</string>
   <string name="low_intensity">Niedrig</string>
@@ -468,9 +477,17 @@ Wenn es für Sie nach 30 Minuten im Bett immer noch schwierig ist, einzuschlafen
   <string name="min_heart_rate">Niedrigster Puls</string>
   <string name="min_pace">Niedrigstes Tempo</string>
   <string name="minute">Min</string>
-  <string name="miuix_appcompat_cloud_state_disabled">Synchronisieren mit Cloud ist aus</string>
+  <string name="miuix_appcompat_cloud_state_disabled">Synchronisierung mit der Cloud ist aus</string>
   <string name="miuix_appcompat_cloud_state_finished">Mit der Cloud synchronisiert</string>
-  <string name="miuix_appcompat_cloud_state_syncing">Mit der Cloud synchronieren…</string>
+  <string name="miuix_appcompat_cloud_state_syncing">Mit der Cloud synchronisieren…</string>
+  <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Zum Aktualisieren herunterziehen</string>
+  <string name="miuix_sbl_tracking_progress_labe_refreshed">Aktualisierung abgeschlossen</string>
+  <string name="miuix_sbl_tracking_progress_labe_refreshing">Aktualisieren</string>
+  <string name="miuix_sbl_tracking_progress_labe_release_to_refresh">Zum Aktualisieren loslassen</string>
+  <string name="miuix_sbl_tracking_progress_labe_up_nodata">Das ist im Moment alles</string>
+  <string name="miuix_sbl_tracking_progress_labe_up_none">Das ist im Moment alles</string>
+  <string name="miuix_sbl_tracking_progress_labe_up_refresh">Einen Moment…</string>
+  <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Elemente laden nicht möglich</string>
   <string name="model_card_setting">Karteneinstellungen</string>
   <string name="modify">Bearbeiten</string>
   <string name="modify_end_date">Enddatum ändern</string>
@@ -534,6 +551,7 @@ Wenn es für Sie nach 30 Minuten im Bett immer noch schwierig ist, einzuschlafen
   <string name="passport_oauth_sucess_tip">Erfolgreich autorisiert</string>
   <string name="password_toggle_content_description">Passwort anzeigen</string>
   <string name="per_time_minutes">%d pro Minute</string>
+  <string name="per_time_minutes1">" pro Minute"</string>
   <string name="permission_check_result">Erfolgreich eingerichtet</string>
   <string name="permission_check_result_failed">Einrichtung nicht möglich</string>
   <string name="permission_manage">Berechtigungen verwalten</string>
@@ -630,8 +648,10 @@ Wenn es für Sie nach 30 Minuten im Bett immer noch schwierig ist, einzuschlafen
   <string name="sleep_chart_loading">Einen Moment…</string>
   <string name="sleep_day">Tag</string>
   <string name="sleep_deep">Tiefschlaf</string>
-  <string name="sleep_deep_light_analysis">Leichter und tiefer Schlaf</string>
+  <string name="sleep_deep_light_analysis">Halbschlaf/Tiefschlaf</string>
   <string name="sleep_deep_light_close_tip">Tiefschlaf-Analyse ist aus</string>
+  <string name="sleep_deep_light_no_data">Keine Tiefschlaf-Aufzeichnung</string>
+  <string name="sleep_deep_light_no_data_improvement">Tief-Halbschlaf-Merkmale werden nicht identifiziert, und es werden Anstrengungen unternommen, den Algorithmus zu optimieren.</string>
   <string name="sleep_detection_enable">Schlafzyklus analysieren</string>
   <string name="sleep_detection_guide_four_description">Schlafaufzeichnungsfunktion verbraucht täglich etwa 1% Ihres Akkus.</string>
   <string name="sleep_detection_guide_four_high_power_description">Stellen Sie sicher, dass Ihr Gerät ausreichend aufgeladen ist, bevor Sie zu Bett gehen. Eine schwacher Akku kann die Schlafaufzeichnung unterbrechen.</string>
@@ -651,7 +671,11 @@ Wenn es für Sie nach 30 Minuten im Bett immer noch schwierig ist, einzuschlafen
   <string name="sleep_detection_question_four_title">Warum verbrauchen verschiedene Geräte unterschiedlich viel Strom, um den Schlaf zu verfolgen?</string>
   <string name="sleep_detection_question_one_answer">"Wenn Ihr Gerät ausgeschaltet oder neu gestartet wird oder der Akku schwach ist, wird die Schlafverfolgung unterbrochen, da die Sensoren keine Daten erfassen und analysieren können. In solchen Fällen erscheint die Schlafstatistik unvollständig.
 Wenn dieses Problem häufig auftritt, überprüfen Sie Ihr Gerät auf geplante Abschaltaufgaben oder nächtliche Systemaktualisierungen."</string>
+  <string name="sleep_detection_question_one_answer_1">"Tief-Halbschlaf-Analyse stützt sich auf die von Handysensoren gesammelten Bewegungsdaten des Körpers. Folgende Bedingungen können dazu führen, dass die Analyse keine Ergebnisse liefert:
+1. Fehler Datenerfassung. Datenerfassung und -berechnung kann wegen der Abschaltung des Mobiltelefons oder unzureichendem Akku während des Schlafs eventuell nicht normal durchgeführt werden. 
+2. Datenanalyse fehlgeschlagen. Es kann sein, dass das Mobiltelefon weit vom Körper entfernt platziert wurde oder die gesammelten Körperbewegungen nicht offensichtlich waren, sodass die Tief-Halbschlaf-Merkmale temporär nicht analysiert werden konnten. Wir werden den Algorithmus weiter optimieren."</string>
   <string name="sleep_detection_question_one_title">Warum ist meine Statistik unvollständig?</string>
+  <string name="sleep_detection_question_one_title_1">Warum wird der Halb-/Tiefschlaf nicht aufgezeichnet?</string>
   <string name="sleep_detection_question_three_answer">Ihr Gerät verfolgt Ihre Körperbewegungen während des Schlafs mit Hilfe eingebauter Sensoren. Um die Statistik genauer zu machen, legen Sie das Gerät auf eine weiche Oberfläche in Körpernähe. Vermeiden Sie es, es auf Nachttische oder zu weit von der Matratze entfernt aufzustellen.</string>
   <string name="sleep_detection_question_three_title">Wie kann ich meine Statistik genauer machen?</string>
   <string name="sleep_detection_question_two_answer">Ihre Schlafzyklen werden lokal auf dem Gerät analysiert. Die Ruhezustandsverfolgung funktioniert auch dann, wenn Sie nicht mit dem Netzwerk verbunden sind oder Ihre aktuelle Verbindung unterbrochen ist.</string>
@@ -674,9 +698,9 @@ Wenn dieses Problem häufig auftritt, überprüfen Sie Ihr Gerät auf geplante A
   <string name="sleep_goal_not_compliance">Nicht ausreichend geschlafen</string>
   <string name="sleep_goal_not_upto_standard">Sie haben nicht ausreichend geschlafen</string>
   <string name="sleep_health_model_hint">Empfehlungen zur Schlafbeurteilung von Miao Health</string>
-  <string name="sleep_incomplete_deep_light_data_tip">Warum ist die Information über den leichten und tiefen Schlaf unvollständig?</string>
+  <string name="sleep_incomplete_deep_light_data_tip">Warum ist die Information über den Halb-/Tiefschlaf unvollständig?</string>
   <string name="sleep_keep_hard">Probleme mit dem Einschlafen bleiben</string>
-  <string name="sleep_light">Leichtschlaf</string>
+  <string name="sleep_light">Halbschlaf</string>
   <string name="sleep_management_content1">Erinnerungen für das Schlafengehen und Aufstehen festlegen</string>
   <string name="sleep_management_exp_hours_minutes">Die aktuellen Einstellungen garantieren Ihnen nicht, dass Sie täglich %1$s %2$s Schlaf haben. Sie brauchen mehr als das.</string>
   <string name="sleep_management_label">Schlafzeit verwalten</string>
@@ -686,7 +710,7 @@ Wenn dieses Problem häufig auftritt, überprüfen Sie Ihr Gerät auf geplante A
   <string name="sleep_need_necessary_permissions">Erforderlichen Berechtigungen erteilen, um genauere Schlafdaten zu erfassen</string>
   <string name="sleep_no_data_info">"Durchlaufen eines kompletten
 Schlafzyklus"</string>
-  <string name="sleep_no_deep_light_data_tip">Warum wird der Leicht- und Tiefschlaf nicht aufgezeichnet?</string>
+  <string name="sleep_no_deep_light_data_tip">Warum wird der Halb-/Tiefschlaf nicht aufgezeichnet?</string>
   <string name="sleep_no_generate_report">"Schlafdaten
 nicht gefunden"</string>
   <string name="sleep_record_content">Xiaomi Health zeichnet Ihren Schlaf automatisch auf, basierend auf Ihrer Telefonnutzung, der Aktivitätsstatistik sowie der von Ihnen eingestellten Einschlaf- und Aufwachzeit.</string>
@@ -706,6 +730,7 @@ nicht gefunden"</string>
   <string name="sleep_snore_audio_enable_desc">Heute Nacht wird Ihr Schlaf automatisch aufgezeichnet.</string>
   <string name="sleep_snore_audio_hight_power_desc">Stellen Sie sicher, dass Ihr Gerät ausreichend aufgeladen ist, bevor Sie zu Bett gehen.</string>
   <string name="sleep_snore_detection">Schnarchen und Sprechen erkennen</string>
+  <string name="sleep_snore_detection_desc">Verfolgen Sie Ihren Schlaf</string>
   <string name="sleep_sober">Schlaflos</string>
   <string name="sleep_sober_times_title">Aufgewacht</string>
   <string name="sleep_status">Schlafstatus</string>
@@ -801,6 +826,7 @@ auf Ihren persönlichen Daten beraten."</string>
   <string name="stand_notice_title6">Gibt es in der letzten Stunde eine stehende Tätigkeit?</string>
   <string name="stand_setting">Einstellungen Stehen</string>
   <string name="standard_format">(Normal: %1s)</string>
+  <string name="standing_already">" Sie sind aufgestanden"</string>
   <string name="state_agree">Zustimmen</string>
   <string name="state_auto_run_disenable">Aus</string>
   <string name="state_auto_run_enable">An</string>
@@ -1022,9 +1048,13 @@ auf Ihren persönlichen Daten beraten."</string>
   <string name="title_no_record_menstruation">Sie haben Ihre Periode noch nicht erfasst</string>
   <string name="title_run_in_background">Im Hintergrund laufen</string>
   <string name="title_select_birthday">Geburtstag einstellen</string>
+  <string name="title_select_birthday_description">Wir passen unsere Dienste Ihrem Alter an</string>
   <string name="title_select_gender">Geschlecht auswählen</string>
+  <string name="title_select_gender_description">Wir passen unsere Dienste Ihrem Geschlecht an</string>
   <string name="title_select_height">Größe einstellen</string>
+  <string name="title_select_height_description">Das wird unsere Statistik genauer machen</string>
   <string name="title_select_weight">Gewicht einstellen</string>
+  <string name="title_select_weight_description">Das wird unsere Statistik genauer machen</string>
   <string name="title_start_use">Starten</string>
   <string name="title_start_use_menstruation_assistant">Menstruationszyklus erfassen</string>
   <string name="title_today_exercise_detail">Heutige Aktivität</string>
@@ -1077,6 +1107,13 @@ Jetzt aktualisieren?"</string>
   <string name="weight_keep_up">Großartig! Halten Sie ein gesundes Gewicht.</string>
   <string name="weight_trend_offset_date">"Von %1$s bis %2$s: "</string>
   <string name="weight_unit_kg">kg</string>
+  <string name="welcome_exercise">Workouts verfolgen</string>
+  <string name="welcome_exercise_description">Tragen Sie Ihr Gerät bei sich, um das Workout automatisch zu verfolgen</string>
+  <string name="welcome_sedentary">In Bewegung bleiben</string>
+  <string name="welcome_sedentary_description">Xiaomi Health kann Sie daran erinnern, aufzustehen, wenn Sie lange Zeit sitzen</string>
+  <string name="welcome_sleep">Schlafzyklus analysieren</string>
+  <string name="welcome_sleep_description">Legen Sie Ihr Telefon neben sich, um sich über Ihren Schlafzyklus am Morgen zu informieren</string>
+  <string name="welcome_start_use">Starten</string>
   <string name="well">Gut</string>
   <string name="write_strorage_perm_description">Probleme aufzeichnen, auf die Sie bei der Verwendung gestoßen sind</string>
   <string name="xiaomi_update_sdk_bytes_unit">%1$s B</string>
