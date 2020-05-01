@@ -50,6 +50,7 @@
   <string name="adjust_contrast">Kontrast</string>
   <string name="adjust_saturation">Sättigung</string>
   <string name="adjust_sharpen">Schärfen</string>
+  <string name="afternoon">Nachmittag</string>
   <string name="agreement_agree">Akzeptieren</string>
   <string name="agreement_optional_tip">(Optional)</string>
   <string name="agreement_quit">Beenden</string>
@@ -348,6 +349,7 @@
   <string name="cleaner_space_description">freigeben?</string>
   <string name="cleaner_space_detail_description">Fotoalben reinigen, um Ihr Telefon zu beschleunigen</string>
   <string name="cleaner_stop_scan">Scannen anhalten</string>
+  <string name="cleaner_title">Speicher bereinigen</string>
   <string name="cleaner_video_action">Jetzt löschen</string>
   <string name="cleaner_video_description">Videos löschen, die Speicherplatz beanspruchen</string>
   <string name="cleaner_video_pick_delete_selected">Ausgewählte Videos löschen</string>
@@ -360,6 +362,7 @@
   <string name="clear_thumbnail_cache">Vorschau-Cache leeren</string>
   <string name="clear_thumbnail_cache_confirm">Alle Vorschaubilder im Browsercache werden gelöscht</string>
   <string name="clear_thumbnail_cache_summary">Vorschaubilder im Browserscache werden gelöscht</string>
+  <string name="clearable_edittext_clear_description">Löschen</string>
   <string name="click_download_gif">Tippen, um GIFs herunterzuladen</string>
   <string name="click_to_add_picture">Tippen, um Fotos hinzuzufügen</string>
   <string name="click_top_right">Oben rechts auf das Symbol tippen</string>
@@ -435,6 +438,7 @@
   <string name="context_menu_add_contact">Zu Kontakten hinzufügen</string>
   <string name="context_menu_copy">Kopieren</string>
   <string name="context_menu_copy_notice">Auswahl in die Zwischenablage kopiert</string>
+  <string name="copy">Kopieren</string>
   <string name="correct_photo_time">Datum und Uhrzeit für Fotos korrigieren</string>
   <string name="correct_time_success">Erfolgreich korrigiert</string>
   <string name="correct_time_tip">Datum und Uhrzeit korrigieren…</string>
@@ -451,6 +455,7 @@
   <string name="custom_select_title_quickly_share">Teilen</string>
   <string name="custom_select_title_select_all">Alle auswählen</string>
   <string name="custom_select_title_select_item">Elemente auswählen</string>
+  <string name="date_picker_lunar">Traditioneller chinesischer Kalender</string>
   <string name="datetimepicker_dialog_title">Datum &amp; Zeit ändern</string>
   <string name="datetimepicker_updatetime_failed"> Zeit wurde nicht geändert </string>
   <string name="datetimepicker_updatetime_success">Zeit erfolgreich geändert</string>
@@ -619,6 +624,7 @@
   <string name="error_unknown_host">Keine Netzwerkverbindung. Datenverbindung prüfen und erneut versuchen.</string>
   <string name="error_unknown_msg">Ein Fehler ist aufgetreten. Senden Sie uns ein Feedback.</string>
   <string name="error_unknown_tip">Ein Fehler ist aufgetreten</string>
+  <string name="evening">Nachmittag</string>
   <string name="exit">Beenden</string>
   <string name="exit_choice_mode">Teilen-Dialog beendet</string>
   <string name="exit_share">Album beenden</string>
@@ -626,6 +632,7 @@
   <string name="exit_share_in_process">Beenden \"%s\"…</string>
   <string name="exit_share_successfully">%1$s beendet</string>
   <string name="exit_video_play">Beenden</string>
+  <string name="expand_button_title">Erweitert</string>
   <string name="expand_desc">Mehr</string>
   <string name="expand_people">Weitere Personen anzeigen</string>
   <string name="ext_sdcard_first_entrance_request_failed_text">Standardspeicherort für das Album wird in internen Speicher geändert. Sie können dies unter Einstellungen &gt; Speicher &gt; Speichereinstellungen ändern.</string>
@@ -789,7 +796,6 @@
   <string name="flash_off">Blitz aus</string>
   <string name="flash_on">Blitz an</string>
   <string name="fmt_date_day">d.</string>
-  <string name="fmt_date_day">d.</string>
   <string name="fmt_date_long_month_day">d. MMMM</string>
   <string name="fmt_date_long_year_month_day">d. MMMM yyyy</string>
   <string name="fmt_date_numeric_day">dd.</string>
@@ -938,6 +944,7 @@
   <string name="merge_album_title">Verbinde Alben</string>
   <string name="messagelist_sender_self">Ich</string>
   <string name="micloud_introduce">Fotos und Videos automatisch synchronisieren (Mi-Konto erforderlich)</string>
+  <string name="midnight">Nacht</string>
   <string name="miuix_appcompat_cloud_state_disabled">Synchronisierung mit der Cloud ist aus</string>
   <string name="miuix_appcompat_cloud_state_finished">Mit der Cloud synchronisiert</string>
   <string name="miuix_appcompat_cloud_state_syncing">Mit der Cloud synchronisieren…</string>
@@ -950,20 +957,33 @@
   <string name="miuix_sbl_tracking_progress_labe_up_refresh">Einen Moment…</string>
   <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Elemente laden nicht möglich</string>
   <string name="monday">Montag</string>
+  <string name="monday_shortest">M</string>
+  <string name="month_april_shortest">A</string>
+  <string name="month_august_shortest">A</string>
   <string name="month_december">Dezember</string>
   <string name="month_december_short">Dez</string>
+  <string name="month_december_shortest">D</string>
   <string name="month_february">Februar</string>
+  <string name="month_february_shortest">F</string>
   <string name="month_january">Januar</string>
+  <string name="month_january_shortest">J</string>
   <string name="month_july">Juli</string>
+  <string name="month_july_shortest">J</string>
   <string name="month_june">Juni</string>
+  <string name="month_june_shortest">J</string>
   <string name="month_march">März</string>
   <string name="month_march_short">Mär</string>
+  <string name="month_march_shortest">M</string>
   <string name="month_may">Mai</string>
   <string name="month_may_short">Mai</string>
+  <string name="month_may_shortest">M</string>
+  <string name="month_november_shortest">N</string>
   <string name="month_october">Oktober</string>
   <string name="month_october_short">Okt</string>
+  <string name="month_october_shortest">O</string>
   <string name="month_september">September</string>
   <string name="month_september_short">Sep</string>
+  <string name="month_september_shortest">S</string>
   <string name="month_view_tip_button_text">Verstanden</string>
   <string name="month_view_tip_sub_title">"Bildschirm zusammenziehen, um zur Monatsansicht
 zu wechseln."</string>
@@ -973,6 +993,7 @@ zu wechseln."</string>
   <string name="more_album_tip">Mehr Alben</string>
   <string name="more_face">Weitere Personen, die sich ähnlich sehen</string>
   <string name="more_face_album_name">Mehr Personen</string>
+  <string name="morning">Morgen</string>
   <string name="motion_photo_play">Abspielen</string>
   <string name="move_to_other_albums_tip">Synchronisation mit Xiaomi Cloud wird für dieses Album deaktiviert, wenn Sie dieses Album verschieben. Album jetzt verschieben?</string>
   <string name="move_to_rubbish_albums_tip">Ausgewählte Alben in den Papierkorb verschieben?</string>
@@ -1046,15 +1067,18 @@ zu wechseln."</string>
   <string name="new_relation_invalid_name">Gruppe \'%s\' existiert bereits, benennen Sie diese Gruppe um</string>
   <string name="new_relation_invalid_prefix">Gruppenname kann nicht mit \".\" oder \"_\" anfangen</string>
   <string name="next">Weiter</string>
+  <string name="night">Abend</string>
   <string name="no">Nein</string>
   <string name="no_ignore_faces">Keine Menschen hier</string>
   <string name="no_map_app">Keine Karten-App gefunden</string>
   <string name="no_network_connect">Aktion wurde nicht abgeschlossen. Netzwerkeinstellungen prüfen und erneut versuchen.</string>
   <string name="no_network_connected">Kein Netzwerk gefunden</string>
+  <string name="noon">Mittag</string>
   <string name="not_ask_any_more">Fragen Sie nicht wieder nach \"%s\" Antworten</string>
   <string name="not_is">nicht</string>
   <string name="not_remind_again">Nicht wieder anzeigen</string>
   <string name="not_remind_any_more">Nicht wieder anzeigen</string>
+  <string name="not_set">Nicht festgelegt</string>
   <string name="onekey_food">Lebensmittel</string>
   <string name="onekey_portrait">Porträt</string>
   <string name="onekey_scene">Landschaft</string>
@@ -1080,6 +1104,7 @@ zu wechseln."</string>
   <string name="operation_force_top">Anheften</string>
   <string name="operation_hide">Verstecken</string>
   <string name="operation_in_process">Verarbeiten…</string>
+  <string name="operation_move">Verschieben</string>
   <string name="operation_move_to_other_albums">Zu anderen Alben verschieben</string>
   <string name="operation_move_to_rubbish_albums">In Papierkorb verschieben</string>
   <string name="operation_not_show_in_photos_tab">Nicht im Fotoreiter anzeigen</string>
@@ -1387,6 +1412,7 @@ zu wechseln."</string>
   <string name="same_name_album_exist_and_toast">"Ein Album mit demselben Namen ist bereits vorhanden. Stattdessen wurde '%s' erstellt."</string>
   <string name="saturday">Samstag</string>
   <string name="saturday_short">Sa</string>
+  <string name="saturday_shortest">S</string>
   <string name="scan_barcode_guide">Teilensymbol berühren, um den QR-Code abzufragen</string>
   <string name="scan_barcode_to_join">QR-Code scannen, um dem Album beizutreten</string>
   <string name="scan_qr_code_buttom_text">QR-Code scannen, um Album anzuzeigen</string>
@@ -1698,6 +1724,7 @@ zu wechseln."</string>
   <string name="thursday">Donnerstag</string>
   <string name="thursday_short">Don</string>
   <string name="thursday_shortest">D</string>
+  <string name="time_picker_dialog_title">Zeit einstellen</string>
   <string name="tip_capture_location">"Ort: "</string>
   <string name="tip_capture_params">"Parameter: "</string>
   <string name="tip_capture_time">"Aufgenommen am: "</string>
@@ -1758,6 +1785,8 @@ zu wechseln."</string>
   <string name="user_alias_self">Ich</string>
   <string name="user_notice_identify_summary_format">"Wenn Sie diesen Service nutzen, stimmen Sie Xiaomi's %1$s und %2$s zu"</string>
   <string name="user_notice_title">Achtung</string>
+  <string name="v7_preference_off">AUS</string>
+  <string name="v7_preference_on">AN</string>
   <string name="video_analytic_cancel">Abbrechen</string>
   <string name="video_analytic_download">Herunterladen</string>
   <string name="video_analytic_download_failed_for_notwork">Herunterladen nicht möglich. Netzwerkeinstellungen prüfen und erneut versuchen.</string>
