@@ -135,10 +135,13 @@
   <string name="change_password">Passwort ändern</string>
   <string name="change_time">Hintergrundbilder wechseln</string>
   <string name="character_counter_content_description">Zeichenlimit überschritten: %1$d von %2$d</string>
+  <string name="character_counter_overflowed_content_description">Zeichenlimit überschritten: %1$d von %2$d</string>
+  <string name="chip_text">Chiptext</string>
   <string name="choose_to_signin">Ja</string>
   <string name="choose_to_signup">Nein, ich erstelle eins</string>
   <string name="clear_history">Verlauf löschen</string>
   <string name="clear_search_edittext">Löschen</string>
+  <string name="clear_text_end_icon_content_description">Text löschen</string>
   <string name="close_gallery">Ausschalten</string>
   <string name="collect_diagnosis_log">Protokolle sammeln</string>
   <string name="comment_pop_cancel">Nicht jetzt</string>
@@ -240,9 +243,11 @@ Senden Sie diesen Code an den Supervisor."</string>
   <string name="enable_toast_cwo">Hintergrundkarussell eingeschaltet und Diashow gestartet</string>
   <string name="enable_toast_subscribe">Hintergrundkarussell eingeschaltet und Abonnements aktiviert</string>
   <string name="error_dup_binded_email">Diese E-Mail-Adresse ist bereits mit einem anderen Mi-Konto verbunden.</string>
+  <string name="error_icon_content_description">Fehler</string>
   <string name="error_invalid_bind_address">Die eingegebene E-Mail-Adresse ist ungültig.</string>
   <string name="exceed_binded_phone_times_notice">Diese Telefonnummer ist bereits mit einem anderen Mi-Konto verbunden.</string>
   <string name="explorer_activity_title">Hintergrundkarussell</string>
+  <string name="exposed_dropdown_menu_content_description">Dropdown-Menü anzeigen</string>
   <string name="failed_dup_secure_phone_number">Diese Telefonnummer ist bereits mit einem anderen Mi-Konto verbunden.</string>
   <string name="favor_list_no_data">Hier gibt es keine Elemente</string>
   <string name="favor_list_title">Favoriten</string>
@@ -260,6 +265,7 @@ Senden Sie diesen Code an den Supervisor."</string>
   <string name="history_list_no_data">Hier gibt es keine Elemente</string>
   <string name="hour_1">Jede Stunde</string>
   <string name="hour_3">Alle 3 Stunden</string>
+  <string name="icon_content_description">Dialogsymbol</string>
   <string name="idbct_desc">Hintergrundkarussell nach Netzwerktypen anpassen</string>
   <string name="idbct_opt_auto_select_desc_text">Download von Standardbildern mit mobilen Daten und HD-Bildern über WLAN</string>
   <string name="idbct_opt_high_def_desc_text">HD-Bilder immer herunterladen</string>
@@ -325,6 +331,26 @@ Senden Sie diesen Code an den Supervisor."</string>
   <string name="manage">Verwalten</string>
   <string name="minutes_15">Alle 15 Minuten</string>
   <string name="minutes_5">Alle 5 Minuten</string>
+  <string name="miui_clock_city_name_local">Lokal</string>
+  <string name="miui_clock_city_name_second">Zweite Uhr</string>
+  <string name="miui_lock_screen_date">EEEE, d. MMMM</string>
+  <string name="miui_lock_screen_date_12">EEEE, d. MMMM</string>
+  <string name="miui_lock_screen_date_two_lines">"EEEE
+d. MMMM"</string>
+  <string name="miui_lock_screen_date_two_lines_12">"EEEE
+d. MMMM"</string>
+  <string name="miui_lock_screen_large_date">"EEE
+dd.MM."</string>
+  <string name="miui_lock_screen_large_date_12">"EEE
+dd.MM."</string>
+  <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Zum Aktualisieren herunterziehen</string>
+  <string name="miuix_sbl_tracking_progress_labe_refreshed">Aktualisierung abgeschlossen</string>
+  <string name="miuix_sbl_tracking_progress_labe_refreshing">Aktualisieren</string>
+  <string name="miuix_sbl_tracking_progress_labe_release_to_refresh">Zum Aktualisieren loslassen</string>
+  <string name="miuix_sbl_tracking_progress_labe_up_nodata">Das ist im Moment alles</string>
+  <string name="miuix_sbl_tracking_progress_labe_up_none">Das ist im Moment alles</string>
+  <string name="miuix_sbl_tracking_progress_labe_up_refresh">Einen Moment…</string>
+  <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Elemente laden nicht möglich</string>
   <string name="mode_auto_desc">Hintergrundkarussell einschalten, um automatisch neue Bilder zu erhalten</string>
   <string name="mode_auto_desc_open">Neue Bilder automatisch erhalten</string>
   <string name="mode_auto_desc_selected">Neue Bilder automatisch erhalten</string>
@@ -342,7 +368,32 @@ Senden Sie diesen Code an den Supervisor."</string>
   <string name="morning_greet_mark">" Mi Morgengrüße"</string>
   <string name="morning_greet_title">Morgengrüße</string>
   <string name="morning_picture_tab">Bild</string>
+  <string name="mtrl_badge_numberless_content_description">Neue Benachrichtigung</string>
   <string name="mtrl_chip_close_icon_content_description">%1$s löschen</string>
+  <string name="mtrl_picker_a11y_next_month">Zum nächsten Monat wechseln</string>
+  <string name="mtrl_picker_a11y_prev_month">Zum Vormonat wechseln</string>
+  <string name="mtrl_picker_announce_current_selection">Aktuelle Auswahl: %1$s</string>
+  <string name="mtrl_picker_date_header_title">Datum wählen</string>
+  <string name="mtrl_picker_date_header_unselected">Gewähltes Datum</string>
+  <string name="mtrl_picker_day_of_week_column_header">Tagesspalte: %1$s</string>
+  <string name="mtrl_picker_invalid_format">Ungültiges Format</string>
+  <string name="mtrl_picker_invalid_format_example">Beispiel: %1$s</string>
+  <string name="mtrl_picker_invalid_format_use">Verwendung: %1$s</string>
+  <string name="mtrl_picker_invalid_range">Ungültiger Bereich</string>
+  <string name="mtrl_picker_navigate_to_year_description">Zum Jahr %1$s navigieren</string>
+  <string name="mtrl_picker_out_of_range">Außerhalb des Bereichs: %1$s</string>
+  <string name="mtrl_picker_range_header_only_end_selected">Startdatum – %1$s</string>
+  <string name="mtrl_picker_range_header_only_start_selected">%1$s – Enddatum</string>
+  <string name="mtrl_picker_range_header_title">Datumsbereich wählen</string>
+  <string name="mtrl_picker_range_header_unselected">Startdatum – Enddatum</string>
+  <string name="mtrl_picker_save">Speichern</string>
+  <string name="mtrl_picker_text_input_date_hint">Datum</string>
+  <string name="mtrl_picker_text_input_date_range_end_hint">Enddatum</string>
+  <string name="mtrl_picker_text_input_date_range_start_hint">Startdatum</string>
+  <string name="mtrl_picker_toggle_to_calendar_input_mode">Zum Kalendereingabemodus wechseln</string>
+  <string name="mtrl_picker_toggle_to_day_selection">Tippen, um zur Tagesauswahl zu wechseln</string>
+  <string name="mtrl_picker_toggle_to_text_input_mode">Zum Texteingabemodus wechseln</string>
+  <string name="mtrl_picker_toggle_to_year_selection">Tippen, um zur Jahresauswahl zu wechseln</string>
   <string name="need_open_gallery">Hintergrundkarussell einschalten</string>
   <string name="new_feature_title">Was ist neu</string>
   <string name="nick_name">Spitzname</string>
@@ -680,6 +731,7 @@ Senden Sie diesen Code an den Supervisor."</string>
   <string name="share_today_morning">Teilen</string>
   <string name="shield">"Blockieren: "</string>
   <string name="shield_failed">Element nicht blockierbar</string>
+  <string name="shield_tag_ceil">Mehr Elemente blocken nicht möglich</string>
   <string name="shield_tag_dislike_desc">Auswählen, damit solche Bilder seltener erscheinen</string>
   <string name="shield_tag_dislike_title">Nicht interessiert</string>
   <string name="shield_tag_entrance_desc">Auswählen, um alle Bilder dieser Kategorie zu blockieren</string>
@@ -787,6 +839,7 @@ Senden Sie diesen Code an den Supervisor."</string>
   <string name="sure_close_gallery_des">Sie können keine neuen Bilder auf Ihren Start- und Sperrbildschirm erhalten, wenn Sie das Hintergrundkarussell ausschalten. Trotzdem ausschalten?</string>
   <string name="system_default">Standard</string>
   <string name="tab_user_title_bar_text">Einstellungen</string>
+  <string name="tb_collapse_desc">\"Teilen\"-Menü ausblenden</string>
   <string name="temporary_not_available">Diese Funktion ist noch nicht verfügbar.</string>
   <string name="theme_apply_failured">Anwenden nicht möglich, bitte später erneut versuchen</string>
   <string name="theme_apply_lockscreen_apply">Hintergrundkarussell einschalten…</string>
