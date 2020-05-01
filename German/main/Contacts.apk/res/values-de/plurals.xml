@@ -1,10 +1,33 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+  <plurals name="a_hour_ago">
+    <item quantity="other">vor 1 Stunde</item>
+  </plurals>
+  <plurals name="abbrev_a_hour_ago">
+    <item quantity="other">vor 1 Std</item>
+  </plurals>
+  <plurals name="abbrev_half_hour_ago">
+    <item quantity="other">vor einer halben Std</item>
+  </plurals>
+  <plurals name="abbrev_in_a_hour">
+    <item quantity="other">in 1 Std</item>
+  </plurals>
+  <plurals name="abbrev_in_half_hour">
+    <item quantity="other">in einer halben Std</item>
+  </plurals>
   <plurals name="abbrev_in_less_than_one_minute">
     <item quantity="other">Sofort</item>
   </plurals>
+  <plurals name="abbrev_in_num_minutes">
+    <item quantity="other">in %d Min</item>
+    <item quantity="one">in 1 Min</item>
+  </plurals>
   <plurals name="abbrev_less_than_one_minute_ago">
     <item quantity="other">Gerade eben</item>
+  </plurals>
+  <plurals name="abbrev_num_minutes_ago">
+    <item quantity="other">vor %d Min</item>
+    <item quantity="one">vor 1 Min</item>
   </plurals>
   <plurals name="batch_delete_msg">
     <item quantity="other">%1$d Kontakte löschen?</item>
@@ -66,6 +89,9 @@
     <item quantity="other">%1$d Nummern</item>
     <item quantity="one">%1$d Nummer</item>
   </plurals>
+  <plurals name="half_hour_ago">
+    <item quantity="other">vor einer halben Stunde</item>
+  </plurals>
   <plurals name="hint_account_contacts">
     <item quantity="other">%1$d Einträge gefunden</item>
     <item quantity="one">%1$d Eintrag gefunden</item>
@@ -81,6 +107,22 @@
   <plurals name="hint_search_phone_numbers">
     <item quantity="other">%1$d Nummern</item>
     <item quantity="one">%1$d Nummer</item>
+  </plurals>
+  <plurals name="in_a_hour">
+    <item quantity="other">in 1 Stunde</item>
+  </plurals>
+  <plurals name="in_half_hour">
+    <item quantity="other">in einer halben Stunde</item>
+  </plurals>
+  <plurals name="in_less_than_one_minute">
+    <item quantity="other">Sofort</item>
+  </plurals>
+  <plurals name="in_num_minutes">
+    <item quantity="other">in %d Minuten</item>
+    <item quantity="one">in 1 Minute</item>
+  </plurals>
+  <plurals name="less_than_one_minute_ago">
+    <item quantity="other">gerade eben</item>
   </plurals>
   <plurals name="listFoundAllContacts">
     <item quantity="other">%d gefunden</item>
@@ -118,6 +160,10 @@
   <plurals name="num_groups_in_account">
     <item quantity="other">%d Gruppen</item>
     <item quantity="one">%d Gruppe</item>
+  </plurals>
+  <plurals name="num_minutes_ago">
+    <item quantity="other">vor %d Minuten</item>
+    <item quantity="one">vor 1 Minute</item>
   </plurals>
   <plurals name="number_of_items_available">
     <item quantity="other">%1$d Elemente übrig</item>
