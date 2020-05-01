@@ -1,5 +1,34 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+  <plurals name="a_hour_ago">
+    <item quantity="other">vor 1 Stunde</item>
+  </plurals>
+  <plurals name="abbrev_a_hour_ago">
+    <item quantity="other">vor 1 Std</item>
+  </plurals>
+  <plurals name="abbrev_half_hour_ago">
+    <item quantity="other">vor einer halben Std</item>
+  </plurals>
+  <plurals name="abbrev_in_a_hour">
+    <item quantity="other">in 1 Std</item>
+  </plurals>
+  <plurals name="abbrev_in_half_hour">
+    <item quantity="other">in einer halben Std</item>
+  </plurals>
+  <plurals name="abbrev_in_less_than_one_minute">
+    <item quantity="other">Sofort</item>
+  </plurals>
+  <plurals name="abbrev_in_num_minutes">
+    <item quantity="other">in %d Min</item>
+    <item quantity="one">in 1 Min</item>
+  </plurals>
+  <plurals name="abbrev_less_than_one_minute_ago">
+    <item quantity="other">Gerade eben</item>
+  </plurals>
+  <plurals name="abbrev_num_minutes_ago">
+    <item quantity="other">vor %d Min</item>
+    <item quantity="one">vor 1 Min</item>
+  </plurals>
   <plurals name="alert_message_delete">
     <item quantity="other">%1$s Elemente löschen?</item>
     <item quantity="one">%1$s Element löschen?</item>
@@ -28,6 +57,25 @@
     <item quantity="other">%1$s Notizen nach %2$s verschieben</item>
     <item quantity="one">%1$s Notiz nach %2$s verschieben</item>
   </plurals>
+  <plurals name="half_hour_ago">
+    <item quantity="other">vor einer halben Stunde</item>
+  </plurals>
+  <plurals name="in_a_hour">
+    <item quantity="other">in 1 Stunde</item>
+  </plurals>
+  <plurals name="in_half_hour">
+    <item quantity="other">in einer halben Stunde</item>
+  </plurals>
+  <plurals name="in_less_than_one_minute">
+    <item quantity="other">Sofort</item>
+  </plurals>
+  <plurals name="in_num_minutes">
+    <item quantity="other">in %d Minuten</item>
+    <item quantity="one">in 1 Minute</item>
+  </plurals>
+  <plurals name="less_than_one_minute_ago">
+    <item quantity="other">gerade eben</item>
+  </plurals>
   <plurals name="note_count_in_folder">
     <item quantity="other">%1$s Notizen</item>
     <item quantity="one">%1$s Notiz</item>
@@ -35,6 +83,10 @@
   <plurals name="note_terms">
     <item quantity="other">%1$s Notizen</item>
     <item quantity="one">%1$s Notiz</item>
+  </plurals>
+  <plurals name="num_minutes_ago">
+    <item quantity="other">vor %d Minuten</item>
+    <item quantity="one">vor 1 Minute</item>
   </plurals>
   <plurals name="record_last_ten_seconds_reminder">
     <item quantity="other">%d Sekunden übrig</item>
