@@ -112,6 +112,7 @@
   <string name="chatbox_main_title">Mini-Apps</string>
   <string name="check_all">Alle</string>
   <string name="class_0_message_activity">Klasse 0 Nachricht</string>
+  <string name="classifing">Nachrichten gruppieren…</string>
   <string name="click_to_update">Tippen, um nach Updates zu suchen</string>
   <string name="click_to_view">Tippen zum Anzeigen</string>
   <string name="close">Schließen</string>
@@ -200,7 +201,10 @@
   <string name="delivery_report_activity">Zustellbericht</string>
   <string name="delivery_toast_body">%s hat die Nachricht erhalten.</string>
   <string name="delivery_toast_body_more">Nachricht empfangen von %1$s und %2$d anderen Personen</string>
+  <string name="dialog_choice_all_correct_as_normal">Alle Nachrichten von %s</string>
   <string name="dialog_complain_tips">Erlauben Sie Nachrichten die Netzwerkverbindung, um Elemente melden zu können.</string>
+  <string name="dialog_message_correct_as_ad">Alle Nachrichten von %s (außer Verifikationscodes) werden zu den Werbenachrichten verschoben.</string>
+  <string name="dialog_message_correct_as_normal">Nachrichten zum Verschieben auswählen</string>
   <string name="dialog_message_fake_cell_detect_error">Infos zu dieser Nachricht korrigieren? Dazu muss MIUI die Telefonnummer (%1$s), den Inhalt der Nachricht und die Informationen über den nahegelegenen Standort auf seine Server hochladen.</string>
   <string name="dialog_message_mx">Mi Message ermöglicht Ihnen, Nachrichten an andere MIUI-Benutzer zu senden, ohne dass Ihnen Kosten entstehen. Für die Aktivierung von Mi Message ist eine ausgehende SMS-Nachricht erforderlich. Ihr Mobilfunkanbieter wird Ihnen für diese Nachricht eine Gebühr in Rechnung stellen. Sie müssen unsere %1$s und %2$s akzeptieren, bevor Sie Mi Message nutzen können.</string>
   <string name="dialog_message_mx_rcs">Mit Mi Message können Sie Nachrichten an andere China Mobile-Nutzer auf dem chinesischen Festland senden, ohne dass Ihnen Kosten entstehen. Sie müssen unsere %1$s und %2$s akzeptieren, bevor Sie Mi Message nutzen können.</string>
@@ -497,6 +501,7 @@ Für die Aktivierung von Mi Message ist eine ausgehende SMS-Nachricht erforderli
   <string name="nosend_message">Nicht senden</string>
   <string name="not_prepare_for_send">Keine Nachricht zum senden</string>
   <string name="not_set">Nicht festgelegt</string>
+  <string name="notification_ad_content">Sie haben eine Werbenachricht von %s erhalten</string>
   <string name="notification_add_todo">Erinnern Sie mich</string>
   <string name="notification_add_todo_content">Abholcode: %s</string>
   <string name="notification_channel_msg_description">Benachrichtigungen über Nachrichten</string>
@@ -560,6 +565,8 @@ Für die Aktivierung von Mi Message ist eine ausgehende SMS-Nachricht erforderli
   <string name="pref_summary_allow_si_sl_push">Zulassen von Nachrichten, um Inhalte von Webseiten zu laden</string>
   <string name="pref_summary_allow_upload_message_info">Spam-Nachrichten und Absenderinformationen werden nach der Meldung an MIUI gesendet.</string>
   <string name="pref_summary_auto_delete">Alte Nachrichten beim Erreichen des Grenzwertes löschen</string>
+  <string name="pref_summary_collapse_ad_notification">Alle Werbenachrichten in einem separaten Ordner der Benachrichtigungsleiste anzeigen</string>
+  <string name="pref_summary_collapse_ad_notification_mms">Alle Werbenachrichten in einem separaten Register anzeigen</string>
   <string name="pref_summary_delete_limit">%1$s Nachrichten pro Unterhaltung</string>
   <string name="pref_summary_delivery_reports">Sendebestätigung für jede gesendete Nachricht anfordern</string>
   <string name="pref_summary_delivery_ringtone">Benachrichtigungston bei Sendebestätigung</string>
@@ -624,6 +631,8 @@ Für die Aktivierung von Mi Message ist eine ausgehende SMS-Nachricht erforderli
   <string name="privacy_password_title4">Passwort wurde aktualisiert</string>
   <string name="privacy_policy">Datenschutzerklärung</string>
   <string name="privacy_term">Datenschutzerklärung</string>
+  <string name="private_entry_available">Loslassen zum Öffnen privater Ordner</string>
+  <string name="private_entry_default">Runter schieben zum Öffnen privater Ordner</string>
   <string name="private_message">Private Nachrichten</string>
   <string name="private_new_notification">Nachrichtenbenachrichtigung</string>
   <string name="private_protect">Datenschutz</string>
@@ -774,6 +783,7 @@ Schauen Sie sich die empfohlenen an!"</string>
   <string name="rcs_wait_for_retry_text">Warten…</string>
   <string name="received_at_time">Empfangen um: %1s</string>
   <string name="received_label">"Empfangen: "</string>
+  <string name="recent_label">Neueste Kontakte</string>
   <string name="recipient_label">"Empfänger: "</string>
   <string name="recipients_contain_sub_sim_number">Sieht so aus, als gäbe es eine 2. SIM-Nummer unter den Empfängern. Senden Sie diese Nachricht mit der sekundären SIM-Karte.</string>
   <string name="recipients_over_size">Zu viele Empfänger</string>
@@ -787,6 +797,7 @@ Schauen Sie sich die empfohlenen an!"</string>
   <string name="refill_now">Jetzt aufladen</string>
   <string name="refreshing">Aktualisieren…</string>
   <string name="release_cancel">Abbrechen</string>
+  <string name="release_end">Loslassen zum Stoppen</string>
   <string name="remove">Entfernen</string>
   <string name="remove_music">Musik entfernen</string>
   <string name="remove_picture">Bild entfernen</string>
@@ -974,6 +985,9 @@ Wenn Sie nicht damit einverstanden sind, solche Genehmigungen zu erteilen oder I
   <string name="system_permission_perm_read_mms">MMS lesen</string>
   <string name="system_permission_perm_read_numbers">Telefonnummer lesen</string>
   <string name="system_permission_perm_send_mms">MMS senden</string>
+  <string name="tab_finance">Finanzen</string>
+  <string name="tab_message">Nachrichten</string>
+  <string name="tab_promotions">Werbung</string>
   <string name="text_in_popup_saved_to_clipboard">In die Zwischenablage kopiert</string>
   <string name="text_message">SMS</string>
   <string name="timed_message_expired_title_2">Erneut Senden?</string>
