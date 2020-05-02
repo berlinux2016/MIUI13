@@ -1,11 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+  <plurals name="announce_for_drag">
+    <item quantity="other">%1$d Elemente ziehen</item>
+    <item quantity="one">%1$d Element ziehen</item>
+  </plurals>
   <plurals name="announce_for_unread">
     <item quantity="other">%2$s von %1$s ungelesen</item>
   </plurals>
   <plurals name="announce_for_drag">
     <item quantity="other">%1$d Elemente ziehen</item>
     <item quantity="one">%1$d Element ziehen</item>
+  </plurals>
+  <plurals name="delete_wallpapers_message">
+    <item quantity="other">%1$d Hintergründe löschen?</item>
+    <item quantity="one">Einen Hintergrund löschen?</item>
   </plurals>
   <plurals name="editing_mode_title">
     <item quantity="other">%1$d Elemente ausgewählt</item>
