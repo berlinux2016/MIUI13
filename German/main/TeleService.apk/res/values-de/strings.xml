@@ -204,6 +204,7 @@
   <string name="antispam_setting">Sperrliste</string>
   <string name="apn_settings">Zugangspunktnamen</string>
   <string name="apn_settings_not_available">Einstellungen Zugangspunktnamen sind für diesen Benutzer nicht verfügbar</string>
+  <string name="app_name">Einstellung</string>
   <string name="app_process_limit_title">Hintergrundprozesslimit</string>
   <string name="atr_disable">Verkehrsmeldungen deaktiviert</string>
   <string name="atr_enable">Verkehrsmeldungen aktiviert</string>
@@ -1247,10 +1248,12 @@ Trotzdem zum neuen Mobilfunkanbieter wechseln?"</string>
 Nummer, wenn nicht erreichbar"</string>
   <string name="messageCFNRy">Nummer falls unbeantwortet</string>
   <string name="messageCFU">Immer diese Nummer verwenden</string>
+  <string name="messageCFU_kr" formatted="false">Netzdienst, der alle eingehenden Anrufe und Textnachrichten an eine bestimmte Nummer umleitet. Sie müssen diesen Dienst abonnieren. Ihnen wird eine monatliche Grundgebühr berechnet. Wenden Sie sich an das Kundenzentrum (114+[Senden]), um diesen Dienst zu abonnieren oder abzubestellen. %s+[Nummer zum Anrufe weiterleiten][Senden] eingeben zum Aktivieren oder %s[Senden] zum Deaktivieren.</string>
   <string name="messageCFU_kr_kt">"Netzdienst, der alle eingehenden Anrufe und Textnachrichten an eine bestimmte Nummer umleitet. Sie müssen diesen Dienst abonnieren. Ihnen wird eine monatliche Grundgebühr berechnet. Wenden Sie sich ans Kundenzentrum (114+[Senden]), um diesen Dienst zu abonnieren oder abzubestellen. *71+[Nummer zur Weiterleitung von Anrufen an][Senden] eingeben zum Aktivieren oder *710[Senden] zum Deaktivieren.
 
 Immer diese Nummer verwenden"</string>
-  <string name="messageCW_kr_kt">Kostenloser Netzdienst, mit dem Sie während eines Anrufs einen zweiten annehmen können, wobei der erste Anruf auf \"Halten\" gesetzt wird. *40+[Senden] eingeben zum Aktivieren oder *400+[Senden] zum Deaktivieren.</string>
+  <string name="messageCW_kr" formatted="false">Kostenloser Netzdienst, mit dem Sie während eines Anrufs einen zweiten annehmen können, wobei der erste Anruf gehalten wird. %s[Senden] eingeben zum Aktivieren oder %s[Senden] zum Deaktivieren.</string>
+  <string name="messageCW_kr_kt">Kostenloser Netzdienst, mit dem Sie während eines Anrufs einen zweiten annehmen können, wobei der erste Anruf gehalten wird. *40+[Senden] eingeben zum Aktivieren oder *400+[Senden] zum Deaktivieren.</string>
   <string name="messageCallBarring">Passwort eingeben</string>
   <string name="message_decode_error">Fehler beim Decodieren der Nachricht</string>
   <string name="mhh_disable">Medizin, Gesundheit und Krankenhaus ausgeschaltet</string>
@@ -1365,9 +1368,17 @@ Immer diese Nummer verwenden"</string>
   <string name="msim_set_sub_not_supported_phone_in_call">Einstellung während eines Anrufs nicht möglich</string>
   <string name="msim_set_sub_not_supported_slot_id_error">SIM-Kartenfehler</string>
   <string name="msim_setting_categery_title">SIM-Karteneinstellungen</string>
+  <string name="msim_setting_default_data">Datenkarte</string>
+  <string name="msim_setting_default_voice">Standard für Anrufe</string>
+  <string name="msim_setting_install_virtual_sim_install">Installieren</string>
+  <string name="msim_setting_install_virtual_sim_message">Mi Carrier Services installieren, um SIM-Karten zu kaufen und Ihren Tarif zu verwalten</string>
   <string name="msim_setting_no_sim_indicator">Keine SIM-Karte</string>
+  <string name="msim_setting_no_sim_number">Nicht festgelegt</string>
+  <string name="msim_setting_no_sim_package_info">Keine Guthabeninfo</string>
   <string name="msim_setting_operator_network_title">Mobilfunknetz</string>
+  <string name="msim_setting_pop_text">SIM-Karte zum Anrufen wählen</string>
   <string name="msim_setting_screen_title">SIM-Karten &amp; Mobilfunknetze</string>
+  <string name="msim_setting_set_package">Tarif wählen</string>
   <string name="msim_setting_sim_info_editor_title">SIM-Info ändern</string>
   <string name="msim_sim_lock">Gesperrt</string>
   <string name="msim_sim_radio_off">Aus</string>
