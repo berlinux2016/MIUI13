@@ -218,8 +218,8 @@
     <item quantity="one">PIN muss %d Zeichen lang sein</item>
   </plurals>
   <plurals name="lockpattern_recording_incorrect_too_short">
-    <item quantity="other">Mindestens %d Punkte verbinden, erneut versuchen.</item>
-    <item quantity="one">Mindestens %d Punkt verbinden, erneut versuchen.</item>
+    <item quantity="other">Mindestens %d Punkte verbinden. Erneut versuchen.</item>
+    <item quantity="one">Mindestens %d Punkt verbinden. Erneut versuchen.</item>
   </plurals>
   <plurals name="lockpattern_too_many_failed_confirmation_attempts">
     <item quantity="other">Zu viele falsche Versuche. Erneut in %d Sekunden versuchen.</item>
@@ -341,6 +341,10 @@
     <item quantity="other">%d Elemente wiederhergestellt</item>
     <item quantity="one">%d Element wiederhergestellt</item>
   </plurals>
+  <plurals name="saved_network_checked_num">
+    <item quantity="other">%d Elemente gewählt</item>
+    <item quantity="one">%d Element gewählt</item>
+  </plurals>
   <plurals name="seconds">
     <item quantity="other">%s Sekunden</item>
     <item quantity="one">%s Sekunde</item>
@@ -362,7 +366,7 @@
     <item quantity="one">%d verdecktes Element anzeigen</item>
   </plurals>
   <plurals name="settings_toggle_position_divider_page">
-    <item quantity="other">%1$d Schalter werden in der Benachrichtigunsleiste angezeigt</item>
+    <item quantity="other">%1$d Schalter werden in der Benachrichtigungsleiste angezeigt</item>
     <item quantity="one">%1$d Schalter wird in der Benachrichtigungsleiste angezeigt</item>
   </plurals>
   <plurals name="show_audio_logcat_countdown">
