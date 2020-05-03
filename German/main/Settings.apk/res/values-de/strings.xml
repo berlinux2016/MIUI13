@@ -321,11 +321,11 @@ Schalten Sie diese Funktion ein und tippen Sie auf die Schaltfläche Eingabehilf
   <string name="advanced_security_title">Erweiterte Einstellungen</string>
   <string name="advanced_settings">Erweiterte Einstellungen</string>
   <string name="advanced_settings_summary">Erweiterte Einstellungsoptionen aktivieren</string>
+  <string name="aggregate_title">Gruppierungsregeln von Benachrichtigungen</string>
   <string name="agps_roaming">A-GPS bei Daten-Roaming</string>
   <string name="agps_roaming_dia">Verwendung von A-GPS bei Daten-Roaming kann zu erhöhten Kosten führen</string>
   <string name="agps_roaming_dia_title">A-GPS bei Daten-Roaming verwenden</string>
   <string name="agps_roaming_summary">Verwendung von A-GPS bei Daten-Roaming kann zu erhöhten Kosten führen</string>
-  <string name="aggregate_title">Gruppierungsregeln von Benachrichtigungen</string>
   <string name="ai_button_title">Mi KI-Taste</string>
   <string name="ai_button_title_global">KI-Taste</string>
   <string name="ai_key">KI-Taste</string>
@@ -1050,13 +1050,13 @@ Apps:
   <string name="bluetooth_disable_a2dp_hw_offload_dialog_title">Gerät neu starten?</string>
   <string name="bluetooth_disable_absolute_volume">Absolute Volume deaktivieren</string>
   <string name="bluetooth_disable_absolute_volume_summary">Deaktiviert die Bluetooth Absolute Volume-Funktion, wenn es bei Remote-Geräten zu Lautstärkeproblemen kommt, wie z. B. bei unzulässig hoher Lautstärke oder mangelnder Kontrolle.</string>
-  <string name="bluetooth_disable_profile_message">Ausgeschaltet: %1$s Von: %2$s</string>
-  <string name="bluetooth_disable_profile_title">Profil ausschalten?</string>
-  <string name="bluetooth_disabled">Deaktiviert</string>
   <string name="bluetooth_disable_inband_ringing">In-Band Klingeln deaktivieren</string>
   <string name="bluetooth_disable_inband_ringing_summary">Keine benutzerdefinierten Klingeltöne auf Bluetooth-Headsets abspielen.</string>
   <string name="bluetooth_disable_mi_fast_connect">Mi Fast Connect deaktivieren</string>
   <string name="bluetooth_disable_mi_fast_connect_summary">Mi Fast Connect Funktion deaktivieren</string>
+  <string name="bluetooth_disable_profile_message">Ausgeschaltet: %1$s Von: %2$s</string>
+  <string name="bluetooth_disable_profile_title">Profil ausschalten?</string>
+  <string name="bluetooth_disabled">Deaktiviert</string>
   <string name="bluetooth_disconnect_a2dp_profile">%1$s wird von Audiomedien getrennt.</string>
   <string name="bluetooth_disconnect_all_profiles">Ihr Telefon wird von %1$s getrennt.</string>
   <string name="bluetooth_disconnect_dialog_ok">Trennen</string>
@@ -1790,8 +1790,7 @@ Drücken Sie 'Löschen und konvertieren…', um fortzufahren."</string>
   <string name="copyable_slice_toast">%1$s in Zwischenablage kopiert</string>
   <string name="copyright_title">Urheberrecht</string>
   <string name="corner_assistant_gesture_summary">Von unten links oder rechts nach oben wischen, um den Google-Assistenten zu wecken</string>
-  <string name="corner_assistant_gesture_title">Von Ecken wischen für Google Assistent</string>
-  <string name="customize_function">Verfügbare Muster</string>
+  <string name="corner_assistant_gesture_title">Von Ecken hochwischen für Google Assistent</string>
   <string name="country_name">%s (System)</string>
   <string name="create">Erstellen</string>
   <string name="credential_contains">Dieser Eintrag enthält:</string>
@@ -1877,6 +1876,7 @@ Damit Sie Ihr Gerät wieder verwenden können, müssen Sie es auf Werkseinstellu
   <string name="custom_carrier_title">Mobilfunkanbietername bearbeiten</string>
   <string name="custom_color">Benutzerdefiniert</string>
   <string name="custom_wifi_name_title">WLAN-Name bearbeiten</string>
+  <string name="customize_function">Verfügbare Muster</string>
   <string name="cutout_mode_always">Notch immer anzeigen</string>
   <string name="cutout_mode_default">Automatisch</string>
   <string name="cutout_mode_settings_title">Einige Apps werden eventuell falsch angezeigt, wenn Sie die Notch-Anzeige anpassen.</string>
@@ -2020,6 +2020,8 @@ Diese Einstellung betrifft alle Benutzer auf diesem Telefon."</string>
   <string name="data_used_template">%1$s verwendet</string>
   <string name="data_warning">Datenwarnung</string>
   <string name="data_warning_footnote">Datenwarnung und Datenlimit werden von Ihrem Gerät gemessen. Dies kann sich von den Mobilfunkanbieterdaten unterscheiden.</string>
+  <string name="datasize_decrease_content">Kontakte, Nachrichten und Systemdaten werden während der Sicherung komprimiert, was zu einer geringeren Dateigröße führt.</string>
+  <string name="datasize_decrease_title">Warum sind einige Sicherungsdateien kleiner als die eigentlichen Elemente?</string>
   <string name="date_and_time">Zeit- &amp; Datumseinstellungen</string>
   <string name="date_and_time_settings_summary">Datum, Uhrzeit, Zeitzone und Formate festlegen</string>
   <string name="date_and_time_settings_title">Datum &amp; Uhrzeit</string>
@@ -2044,8 +2046,6 @@ Diese Einstellung betrifft alle Benutzer auf diesem Telefon."</string>
   <string name="date_time_set_timezone_in_region">Zeitzonen in %1$s</string>
   <string name="date_time_set_timezone_title">Zeitzone</string>
   <string name="date_time_settings">Datum &amp; Uhrzeit</string>
-  <string name="datasize_decrease_content">Kontakte, Nachrichten und Systemdaten werden während der Sicherung komprimiert, was zu einer geringeren Dateigröße führt.</string>
-  <string name="datasize_decrease_title">Warum sind einige Sicherungsdateien kleiner als die eigentlichen Elemente?</string>
   <string name="day_of_week">Wochentag</string>
   <string name="dc_light_dialog_summary">Bildqualität kann beeinträchtigt werden, wenn der Anti-Flacker-Modus aktiviert ist. Trotzdem einschalten?</string>
   <string name="dc_light_summary">DC Dimming anwenden, um die Augenbelastung zu reduzieren</string>
@@ -2235,9 +2235,9 @@ Wenn es so bleibt, muss die App evtl. deinstalliert werden, um die Akkuleistung 
   <string name="dialog_yes">Ja</string>
   <string name="direct_boot_unaware_dialog_message">Hinweis: Nach einem Neustart startet diese App erst, wenn Sie Ihr Telefon entsperrt haben.</string>
   <string name="directory_access">Verzeichniszugriff</string>
+  <string name="disableNetwork">Netzwerk ausschalten</string>
   <string name="disable_encrypt_description">Nicht verschlüsseln</string>
   <string name="disable_encrypt_title">Verschlüsselung ausschalten</string>
-  <string name="disableNetwork">Netzwerk ausschalten</string>
   <string name="disable_overlays">HW-Overlays ausschalten</string>
   <string name="disable_overlays_summary">Immer GPU zur Darstellung verwenden</string>
   <string name="disable_power_key_long_press_under_keyguard">Powertaste deaktivieren</string>
@@ -2423,7 +2423,6 @@ Wenn es so bleibt, muss die App evtl. deinstalliert werden, um die Akkuleistung 
 Sie können die generierten Protokolle im Datei-Manager ansehen."</string>
   <string name="dump_log_title">Über diese Funktion</string>
   <string name="easymode_hint">Tippen, um den Lite-Modus auszuschalten</string>
-  <string name="eq_return">Zurück</string>
   <string name="edge_mode_back">Zurück</string>
   <string name="edge_mode_back_summary">Telefonkante 2x antippen, um zurückzukehren</string>
   <string name="edge_mode_clean">System-Cache bereinigen</string>
@@ -2520,6 +2519,7 @@ Sie können die generierten Protokolle im Datei-Manager ansehen."</string>
   <string name="encryption_and_credential_settings_title">Verschlüsselung &amp; Anmeldedaten</string>
   <string name="encryption_continue_button">Weiter</string>
   <string name="encryption_interstitial_header">Sicherer Start</string>
+  <string name="eq_return">Zurück</string>
   <string name="encryption_interstitial_message_password">"Sie können dieses Gerät zusätzlich durch Passwortabfrage beim Start schützen. Bis das Gerät hochfährt, kann es keine Anrufe, Nachrichten oder Benachrichtigungen, inkl. Alarme, empfangen.
 
 Das hilft, Daten auf verlorenen oder gestohlenen Geräten zu schützen. Passwort zum Gerätestart anfordern?"</string>
