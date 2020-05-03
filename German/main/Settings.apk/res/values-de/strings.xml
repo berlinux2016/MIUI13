@@ -3982,11 +3982,11 @@ Diese PIN muss so viele Ziffern enthalten wie das erste Profil."</string>
   <string name="master_clear_desc_also_erases_external">"<li>Musik</li>"
 "<li>Fotos</li>"
 "<li>Andere Benutzerdaten</li>"</string>
+  <string name="master_clear_desc_erase_external_storage">"
+Um auch Musik, Bilder und sonstige Benutzerdaten zu löschen, muss der <b>USB-Speicher</b> gelöscht werden."</string>
   <string name="master_clear_desc_no_cancel_mobile_plan">"
 
 Dadurch wird Ihr Mobilfunkvertrag nicht gekündigt."</string>
-  <string name="master_clear_desc_erase_external_storage">"
-Um auch Musik, Bilder und sonstige Benutzerdaten zu löschen, muss der <b>USB-Speicher</b> gelöscht werden."</string>
   <string name="master_clear_erase_application_progress">Apps löschen…</string>
   <string name="master_clear_failed">Zurücksetzung konnte nicht durchgeführt werden, weil der Dienst zur Systembereinigung nicht verfügbar ist</string>
   <string name="master_clear_final_button_text">Alles löschen</string>
@@ -4093,11 +4093,11 @@ Um auch Musik, Bilder und sonstige Benutzerdaten zu löschen, muss der <b>USB-Sp
   <string name="misc_files">Sonstige Dateien</string>
   <string name="misc_files_selected_count">%1$d von %2$d ausgewählt</string>
   <string name="misc_files_selected_count_bytes">%1$s von %2$s</string>
+  <string name="miui_accessibility_asr_summary">Audio umwandeln und Text speichern</string>
   <string name="miui_allow_alarm">Wecker</string>
   <string name="miui_allow_light">LED-Benachrichtigung</string>
   <string name="miui_allow_music">Medien</string>
   <string name="miui_allow_vibrate">Vibrationen</string>
-  <string name="miui_accessibility_asr_summary">Audio umwandeln und Text speichern</string>
   <string name="miui_data_usage_menu_metered">Mobile Hotspots</string>
   <string name="miui_enable_service_title">Dienst führt folgende Aktionen durch:</string>
   <string name="miui_experience_optimization">MIUI-Optimierung einschalten</string>
@@ -4143,7 +4143,6 @@ Fortfahren, um auf weitere Einstellungen zuzugreifen."</string>
   <string name="miui_sos_call_log_stranger">Fremder</string>
   <string name="miui_sos_call_log_summary">Senden Sie die Anrufliste für die letzte Stunde an Ihren Notfallkontakt.</string>
   <string name="miui_sos_call_log_title">Anrufliste senden</string>
-  <string name="miui_special_feature">Spezielle Funktionen</string>
   <string name="miui_sos_call_warning_sim_unable">Kein Empfang. SMS senden nicht möglich.</string>
   <string name="miui_sos_calling_summary">Ihr Gerät führt automatische Anrufe zu Ihren Notfallkontakten durch und spielt die von Ihnen aufgenommene SOS-Sprachnachricht ab. Der Anruf wird beendet, nachdem Ihre Nachricht abgespielt wurde. Die Auto-Anruf-Funktion stoppt nach dem ersten erfolgreichen Versuch.</string>
   <string name="miui_sos_calling_title">Auto-Anruf</string>
@@ -4182,6 +4181,7 @@ Fortfahren, um auf weitere Einstellungen zuzugreifen."</string>
   <string name="miui_sos_settings_category">Hilfe-Einstellung</string>
   <string name="miui_sos_statusbar_summary">Tippen zum Ausschalten</string>
   <string name="miui_sos_statusbar_title">SOS-Notfallhilfe ist aktiviert</string>
+  <string name="miui_special_feature">Spezielle Funktionen</string>
   <string name="miui_touch_filtered_touchassistant_warning">Berechtigungsdialog wird durch den Berührungsassistent abgedeckt. Schieben Sie den Berührungsassistent weg oder schalten Sie diese Funktion aus.</string>
   <string name="miui_touch_filtered_warning">Wenn eine App einen Berechtigungsdialog blockiert, ziehen Sie das überlappende Element weg oder schließen Sie die App.</string>
   <string name="miui_updater">Systemupdate</string>
@@ -4805,6 +4805,7 @@ Dies ermöglicht der App auch, Nicht stören ein-/auszuschalten und entsprechend
   <string name="oem_unlock_enable_disabled_summary_connectivity_or_locked">Mit dem Internet verbinden oder wenden Sie sich an Ihren Mobilfunkanbieter</string>
   <string name="oem_unlock_enable_disabled_summary_sim_locked_device">Nicht verfügbar bei SIM-Lock-Geräten</string>
   <string name="oem_unlock_enable_summary">Entsperrung des Bootloaders erlauben</string>
+  <string name="off">Aus</string>
   <string name="ok_rules">Fertigstellen</string>
   <string name="old_sdk_deny_warning">App ist nicht kompatibel mit den neuesten Android-Rechteanforderungen. Verweigerte Rechte können die Funktionsweise dieser App beeinflussen.</string>
   <string name="oldman_app_label">Minimaler Desktop</string>
@@ -4817,7 +4818,6 @@ Dies ermöglicht der App auch, Nicht stören ein-/auszuschalten und entsprechend
   <string name="oldman_uninstalled_btn">Installieren</string>
   <string name="oldman_uninstalled_des">Der Lite-Modus befreit Sie von Unübersichtlichkeit und hält Ihren Startbildschirm einfach und minimalistisch.</string>
   <string name="on">An</string>
-  <string name="off">Aus</string>
   <string name="one_cacrt">Ein CA-Zertifikat</string>
   <string name="one_usercrt">Ein Benutzerzertifikat</string>
   <string name="one_userkey">Ein Benutzerschlüssel</string>
@@ -6146,10 +6146,10 @@ Hinweis: Ihr Fingerabdruck ist evtl. weniger sicher als ein starkes Muster oder 
   <string name="security_settings_fingerprint_enroll_introduction_message_unlock_disabled">"Benutzen Sie Ihren Fingerabdruck, um Ihr Telefon zu entsperren oder Einkäufe zu autorisieren.
 
 Hinweis: Sie können Ihren Fingerabdruck nicht verwenden, um dieses Gerät zu entsperren. Für weitere Informationen wenden Sie sich bitte an den Administrator Ihres Unternehmens."</string>
-  <string name="security_settings_fingerprint_enroll_introduction_title">Mit Fingerabdruck entsperren</string>
-  <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">Verwenden Sie Ihren Fingerabdruck</string>
   <string name="security_settings_fingerprint_enroll_introduction_message_warning">Hinweis: Ihr Fingerabdruck ist evtl. weniger sicher als ein starkes Muster oder eine PIN.</string>
   <string name="security_settings_fingerprint_enroll_introduction_risk_link_text">Mehr erfahren</string>
+  <string name="security_settings_fingerprint_enroll_introduction_title">Mit Fingerabdruck entsperren</string>
+  <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">Verwenden Sie Ihren Fingerabdruck</string>
   <string name="security_settings_fingerprint_enroll_lift_touch_again">Finger anheben, danach den Sensor nochmals berühren</string>
   <string name="security_settings_fingerprint_enroll_onboard_message">Um mit Fingerabdruck den Bildschirm zu entsperren oder Einkäufe zu autorisieren, müssen Sie Folgendes tun:</string>
   <string name="security_settings_fingerprint_enroll_onboard_message_1">Einrichten einer Backup-Bildschirmsperre </string>
@@ -6497,6 +6497,11 @@ Wenn Sie diese Berechtigungen nicht erteilen, können Sie einige Funktionen dies
   <string name="sos_phone_call_privacy_dialog_message_confirm">Erlauben</string>
   <string name="sos_phone_log_privacy_dialog_message">"Diese App benötigt die Zugriffsberechtigung auf Ihre Anrufliste, um sie mit Ihren Notfallkontakten teilen zu können.
 Wenn Sie diese Berechtigung nicht erteilen, können Sie einige Funktionen dieser App nicht nutzen; die Grundfunktionen stehen Ihnen jedoch weiterhin zur Verfügung. Sie können diese Funktion jederzeit ausschalten."</string>
+  <string name="sos_privacy_and_content_policy">Nutzervereinbarung &amp; Datenschutzerklärung</string>
+  <string name="sos_privacy_dialog_button_cancel">Abbrechen</string>
+  <string name="sos_privacy_dialog_button_ok">Zustimmen</string>
+  <string name="sos_privacy_dialog_message">"Lesen und akzeptieren Sie unsere %s, bevor Sie diese Funktion nutzen.
+Diese Funktion benötigt Berechtigungen, um auf Ihren Standort zuzugreifen, mobile Netzwerke zu nutzen und Ihre Kontakte zu lesen. Zustimmen?"</string>
   <string name="sos_privacy_dialog_message_new_version">"Mit SOS-Notfallhilfe können Sie Ihren Standort in Echtzeit mitteilen und Textnachrichten an Ihre Notfallkontakte senden.
 Wir schützen Ihre persönlichen Daten in Übereinstimmung mit den einschlägigen Gesetzen, Vorschriften und Datenschutzrichtlinien.
 Beachten Sie, dass diese App eine Internetverbindung und die folgenden Berechtigungen benötigt, um Ihre persönlichen Daten zu erfassen:
@@ -6510,11 +6515,6 @@ Zum Senden von Textnachrichten an Notfallkontakte
 Für die Weitergabe Ihres Standorts an Notfallkontakte
 Wenn Sie nicht damit einverstanden sind, solche Berechtigungen zu erteilen oder Ihre persönlichen Daten weiterzugeben und hochzuladen, können Sie diese App nicht verwenden. In diesem Fall entscheiden Sie, ob Sie SOS-Notfallhilfe ausschalten oder nicht verwenden möchten.
 Bevor Sie unsere Dienste nutzen, lesen und akzeptieren Sie unsere %s."</string>
-  <string name="sos_privacy_and_content_policy">Nutzervereinbarung &amp; Datenschutzerklärung</string>
-  <string name="sos_privacy_dialog_button_cancel">Abbrechen</string>
-  <string name="sos_privacy_dialog_button_ok">Zustimmen</string>
-  <string name="sos_privacy_dialog_message">"Lesen und akzeptieren Sie unsere %s, bevor Sie diese Funktion nutzen.
-Diese Funktion benötigt Berechtigungen, um auf Ihren Standort zuzugreifen, mobile Netzwerke zu nutzen und Ihre Kontakte zu lesen. Zustimmen?"</string>
   <string name="sos_privacy_dialog_title">AGB</string>
   <string name="sound_assist_summary">Toneinstellungen anpassen</string>
   <string name="sound_assist_title">Tonassistent</string>
@@ -6673,7 +6673,7 @@ Dies wird durch vertrauenswürdige Anmeldedaten ermöglicht, die auf Ihrem Gerä
   <string name="storage_detail_cached">Daten im Cache</string>
   <string name="storage_detail_dialog_other">"Andere beinhaltet von Apps gespeicherte Dateien, Downloads, Androiddateien etc.
 Um den gesamten Inhalt von ^1 anzuzeigen, tippen Sie auf Erkunden."</string>
-<string name="storage_detail_dialog_system">System enthält Dateien, die zur Ausführung der Android-Version %s verwendet werden</string>
+  <string name="storage_detail_dialog_system">System enthält Dateien, die zur Ausführung der Android-Version %s verwendet werden</string>
   <string name="storage_detail_dialog_user">"^1 hat eventuell Musik, Videos, Apps oder andere Dateien gespeichert, die ^2 an Speicher belegen.
 Um Details anzuzeigen, wechseln Sie zu ^1."</string>
   <string name="storage_detail_explore">^1 erkunden</string>
@@ -7398,7 +7398,7 @@ Gefällt Ihnen Mi Mover?"</string>
   <string name="tts_play_example_title">Beispiel anhören</string>
   <string name="tts_reset">Zurücksetzen</string>
   <string name="tts_reset_speech_pitch_summary">Tonhöhe, in der der Text gesprochen wird, auf Standardeinstellung zurücksetzen</string>
- <string name="tts_reset_speech_pitch_title">Sprechtonhöhe zurücksetzen</string>
+  <string name="tts_reset_speech_pitch_title">Sprechtonhöhe zurücksetzen</string>
   <string name="tts_reset_speech_rate_summary">Geschwindigkeit, in der der Text gesprochen wird, auf normal zurücksetzen</string>
   <string name="tts_reset_speech_rate_title">Sprachfrequenz zurücksetzen</string>
   <string name="tts_settings">Einstellungen Text-in-Sprache</string>
@@ -7671,11 +7671,6 @@ oder Kopfhörer mit 3,5-mm-Buchse."</string>
   <string name="usb_msd_title">Massenspeicher</string>
   <string name="usb_mtp_summary">Ermöglicht die Übertragung von Mediendateien auf Windows oder mit der App Android File Transfer auf Mac (siehe www.android.com/filetransfer)</string>
   <string name="usb_mtp_title">Mediengerät (MTP)</string>
-  <string name="use_otg_charge_only">Umkehrladen</string>
-  <string name="use_otg_charge_only_summary">Schnelles 1.8A-Laden</string>
-  <string name="use_otg_file_transfers">Umkehrladen &amp; Dateien übertragen</string>
-  <string name="use_otg_file_transfers_summary">Langsames Laden mit 500mA und Dateien übertragen</string>
-  <string name="use_otg_title">USB-OTG</string>
   <string name="usb_preference">USB-Einstellungen</string>
   <string name="usb_ptp_summary">Ermöglicht die Übertragung von Fotos mit Hilfe der Kamerasoftware sowie die Übertragung von Dateien auf Computer, die MTP nicht unterstützen</string>
   <string name="usb_ptp_title">Kamera (PTP)</string>
@@ -7729,6 +7724,11 @@ Speicher freigeben oder nur wichtige Elemente übertragen."</string>
   <string name="use_open_wifi_automatically_summary_scorer_unsupported_disabled">Zur Nutzung kompatiblen Netzwerk-Bewertungsanbieter auswählen</string>
   <string name="use_open_wifi_automatically_summary_scoring_disabled">Zur Nutzung Netzwerk-Bewertungsanbieter auswählen</string>
   <string name="use_open_wifi_automatically_title">Verbindung zu offenen Netzwerken</string>
+  <string name="use_otg_charge_only">Umkehrladen</string>
+  <string name="use_otg_charge_only_summary">Schnelles 1.8A-Laden</string>
+  <string name="use_otg_file_transfers">Umkehrladen &amp; Dateien übertragen</string>
+  <string name="use_otg_file_transfers_summary">Langsames Laden mit 500mA und Dateien übertragen</string>
+  <string name="use_otg_title">USB-OTG</string>
   <string name="use_personalized_ad_service">Personalisierte Werbung anzeigen</string>
   <string name="use_personalized_ad_service_summary">Wenn Empfehlungen ausgeschaltet sind, sehen Sie immer noch die gleiche Anzahl von Anzeigen wie bei aktivierter Funktion, jedoch nicht auf der Grundlage Ihrer Verhaltensdaten oder Ihrer persönlichen Daten.</string>
   <string name="use_privacy_password_immediate">Verwenden</string>
@@ -8675,12 +8675,12 @@ Speicherung von Anmeldedaten ist evtl. nicht aktiviert."</string>
   <string name="wireless_closed">Aus</string>
   <string name="wireless_connected">Verbunden</string>
   <string name="wireless_networks_settings_title">Drahtlos &amp; Netzwerke</string>
+  <string name="wireless_off">Aus</string>
+  <string name="wireless_on">An</string>
   <string name="wireless_opened">An</string>
   <string name="wireless_tip">"Verwenden Sie Ihr Telefon, um andere Geräte kabellos zu laden.
 
 Diese Funktion wird automatisch ausgeschaltet, wenn der Ladevorgang nicht innerhalb von 90 Sekunden beginnt."</string>
-  <string name="wireless_off">Aus</string>
-  <string name="wireless_on">An</string>
   <string name="wizard_back">Zurück</string>
   <string name="wizard_finish">Fertig</string>
   <string name="wizard_next">Weiter</string>
