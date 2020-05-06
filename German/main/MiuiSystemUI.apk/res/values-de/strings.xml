@@ -214,8 +214,8 @@
   <string name="accessibility_recent">Letzte Apps</string>
   <string name="accessibility_recent_task_enter">Zuletzt geöffnete, verfügbare Apps: %d</string>
   <string name="accessibility_recent_task_exit">Zuletzt geschlossen</string>
-  <string name="accessibility_recent_task_first_enter_tips">Zuletzt geöffnete Apps: %d. Nach oben wischen zum Entfernen und nach unten zum Sperren.</string>
-  <string name="accessibility_recent_task_locked">Gesperrt. Nach unten wischen zum Entsperren.</string>
+  <string name="accessibility_recent_task_first_enter_tips">Zuletzt geöffnete Apps: %d. Hochwischen zum Entfernen und nach unten zum Sperren.</string>
+  <string name="accessibility_recent_task_locked">Gesperrt. Runterwischen zum Entsperren.</string>
   <string name="accessibility_recent_task_locked_state">Geperrt</string>
   <string name="accessibility_recent_task_memory_info">Gesamt RAM: %2$s | Verfügbarer RAM: %1$s. 2x tippen zum Freigeben.</string>
   <string name="accessibility_recent_task_unlocked">Entsperrt</string>
@@ -577,12 +577,12 @@ Drücken Sie 'Löschen und konvertieren…', um fortzufahren."</string>
   <string name="debug_monitoring_category">Überwachung</string>
   <string name="debug_networking_category">Netzwerk</string>
   <string name="debug_view_attributes">Attributprüfungsansicht aktivieren</string>
-  <string name="default_lockscreen_unlock_hint_text">Zum Entsperren nach oben wischen</string>
+  <string name="default_lockscreen_unlock_hint_text">Zum Entsperren hochwischen</string>
   <string name="default_theme">Standard</string>
   <string name="delete">Löschen</string>
   <string name="demo_mode">Demomodus</string>
   <string name="description_direction_left">Für %s nach links wischen</string>
-  <string name="description_direction_up">Für %s nach oben wischen</string>
+  <string name="description_direction_up">Für %s hochwischen</string>
   <string name="description_image_button_answer">Annehmen</string>
   <string name="description_image_button_bubble_answer">Lautsprecher</string>
   <string name="description_image_button_reject">Ablehnen</string>
@@ -713,7 +713,7 @@ innerhalb des Kreises befindet"</string>
   <string name="face_data_manage_delete_msg">Gesicht löschen</string>
   <string name="face_data_manage_delete_sure">Nach Löschen der Gesichtsdaten, können Sie die Gesichtsentsperrung nicht mehr verwenden. Löschvorgang bestätigen?</string>
   <string name="face_data_manage_delete_title">Gesichtsdaten</string>
-  <string name="face_data_manage_unlock_liftcamera_msg">Nachdem der Bildschirm an ist, nach oben wischen, um das Gerät mit Gesichtsdaten zu entsperren.</string>
+  <string name="face_data_manage_unlock_liftcamera_msg">Nachdem der Bildschirm an ist, hochwischen, um das Gerät mit Gesichtsdaten zu entsperren.</string>
   <string name="face_data_manage_unlock_msg">Gesichtserkennung verwenden, um Ihr Telefon zu entsperren</string>
   <string name="face_data_manage_unlock_slide_msg">Schiebereglerbefehle durch Gesichtsentsperrung ersetzen</string>
   <string name="face_data_manage_unlock_title">Telefon entsperren</string>
@@ -761,7 +761,7 @@ innerhalb des Kreises befindet"</string>
   <string name="face_unlock_success_show_message_msg">Nur Benachrichtigungsquelle bei gesperrtem Gerät anzeigen, Benachrichtigungsdetails nach Prüfung Gesichtsdaten hinzufügen</string>
   <string name="face_unlock_success_show_message_title">Benachrichtigungsdetails anzeigen nach Prüfung Gesichtsdaten</string>
   <string name="face_unlock_success_show_message_toast">Benachrichtigungen werden auf Sperrbildschirm angezeigt</string>
-  <string name="face_unlock_success_stay_screen_msg">Auf Sperrbildschirm bleiben, wenn Ihr Gesicht geprüft wurde. Nach oben wischen, um Startbildschirm zu öffnen.</string>
+  <string name="face_unlock_success_stay_screen_msg">Auf Sperrbildschirm bleiben, wenn Ihr Gesicht geprüft wurde. Hochwischen, um Startbildschirm zu öffnen.</string>
   <string name="face_unlock_success_stay_screen_title">Nach Entsperrung auf Sperrbildschirm bleiben</string>
   <string name="failed_to_open_app_settings_toast">Einstellungen öffnen für %1$s fehlgeschlagen</string>
   <string name="fake_cell_alert_detect_error">Das wurde nicht von einer gefälschten Basiszelle geschickt.</string>
@@ -860,7 +860,7 @@ innerhalb des Kreises befindet"</string>
   <string name="how_to_back_home">Zum Startbildschirm gehen</string>
   <string name="how_to_switch_recents">Zu den letzten Apps</string>
   <string name="how_to_use_app_quick">So wechselt man zwischen Apps</string>
-  <string name="how_to_use_app_quick_hide_line_summary">Vom unteren Bildschirmrand nach oben wischen, dann nach links oder rechts</string>
+  <string name="how_to_use_app_quick_hide_line_summary">Vom unteren Bildschirmrand hochwischen, dann nach links oder rechts</string>
   <string name="how_to_use_app_quick_summary">Links oder rechts von der Vollbildanzeige oder vom unteren Bildschirmrand wischen</string>
   <string name="how_to_use_drawer">So öffnet man den Drawer</string>
   <string name="how_to_use_drawer_summary">Von oben links wischen</string>
@@ -1235,9 +1235,9 @@ Screenshot zu erstellen"</string>
   <string name="multi_face_input_enroll">Gesichtsdaten hinzufügen</string>
   <string name="multi_face_input_enrolling">Gesichtsdaten hinzufügen…</string>
   <string name="multi_face_input_reach_upper_limit">Gesichtsdaten hinzufügen nicht möglich. Einen Moment warten und erneut versuchen.</string>
-  <string name="multi_face_input_success_msg_lift">Am Sperrbildschirm nach oben wischen für Gesichtsentsperrung</string>
+  <string name="multi_face_input_success_msg_lift">Am Sperrbildschirm hochwischen für Gesichtsentsperrung</string>
   <string name="multi_face_input_success_msg_normal">Gesichtsentsperrung verwenden, wenn Sperrbildschirm aufleuchtet</string>
-  <string name="multi_face_input_success_msg_slide">Am Sperrbildschirm nach unten wischen für Gesichtsentsperrung</string>
+  <string name="multi_face_input_success_msg_slide">Am Sperrbildschirm runterwischen für Gesichtsentsperrung</string>
   <string name="multi_face_list">Gesichtsdaten</string>
   <string name="multi_face_name_prefix">"Gesicht "</string>
   <string name="multi_face_number_reach_limit">Nur Daten für 2 Gesichter können hinzugefügt werden</string>
@@ -1996,7 +1996,7 @@ Screenshot zu erstellen"</string>
   <string name="voice_hint">Wischen vom Symbol für den Sprachassistenten</string>
   <string name="volume_and_do_not_disturb">Nicht stören</string>
   <string name="volume_dialog_accessibility_dismissed_message">Lautstärkeregler versteckt</string>
-  <string name="volume_dialog_accessibility_shown_message">%s Lautstärkeregler angezeigt. Nach oben wischen zum Verwerfen.</string>
+  <string name="volume_dialog_accessibility_shown_message">%s Lautstärkeregler angezeigt. Hochwischen zum Verwerfen.</string>
   <string name="volume_dnd_silent">Verknüpfung Lautstärketasten</string>
   <string name="volume_stream_content_description_mute">%1$s. Zum Stummschalten tippen. Eingabehilfen könnten stummgeschaltet werden.</string>
   <string name="volume_stream_content_description_mute_a11y">%1$s. Zum Stummschalten tippen.</string>
