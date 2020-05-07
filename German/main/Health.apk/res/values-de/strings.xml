@@ -260,9 +260,9 @@ Lesen Sie unsere &lt;font color=\"#0000FF\">&lt;a href=\"%1$s\">Nutzervereinbaru
   <string name="edit_basic_info_desc">Basisinfo</string>
   <string name="edit_sleep_record_button">Bearbeiten</string>
   <string name="enable">Ein</string>
-  <string name="enable_go_now">Ein</string>
-  <string name="enable_not_now">Aus</string>
-  <string name="enable_right_now">Ein</string>
+  <string name="enable_go_now">Einschalten</string>
+  <string name="enable_not_now">Ausschalten</string>
+  <string name="enable_right_now">Einschalten</string>
   <string name="enough">Ausreichend</string>
   <string name="enter_mi_health">Xiaomi Health öffnen</string>
   <string name="equivalent_exercise">≈%1$s km spazieren gehen (%2$s kcal)</string>
@@ -529,7 +529,7 @@ Wenn es für Sie nach 30 Minuten im Bett immer noch schwierig ist, einzuschlafen
   <string name="no_data">Keine Daten</string>
   <string name="no_records">Noch keine Einträge vorhanden</string>
   <string name="no_snore">Sie haben im Schlaf nicht geschnarcht oder gesprochen</string>
-  <string name="no_snore_1">Sie haben im Schlaf nicht geschnarcht oder gesprochen</string>
+  <string name="no_snore_1">Noch keine Einträge vorhanden</string>
   <string name="not_standing">Nicht stehen</string>
   <string name="not_achieve_stand_goals">Stehziel nicht erreicht</string>
   <string name="not_added">Nicht hinzugefügt</string>
@@ -629,7 +629,7 @@ Wenn es für Sie nach 30 Minuten im Bett immer noch schwierig ist, einzuschlafen
   <string name="sedentary_time_is_too_long">Zeit, sich zu bewegen! Etwas Wasser trinken und spazieren gehen.</string>
   <string name="sedentary_title">An Bewegung erinnern</string>
   <string name="sedentary_toggle_content">Xiaomi Health wird Sie daran erinnern, aufzustehen und zu gehen, wenn Sie über einen längeren Zeitraum inaktiv waren.</string>
-  <string name="sedentaty_hazard_description">Bewegungsmangel verursacht viele Gesundheitsprobleme. Stehen Sie mind. 1 Minute pro Stunde, und erreichen Sie das Ziel von 12 Stunden Stehen pro Tag, fernab von sitzenden Tätigkeiten.</string>
+  <string name="sedentaty_hazard_description">Bewegungsmangel verursacht viele Gesundheitsprobleme. 12 Stunden mit täglich 1-minütigen Stehpausen helfen Ihnen, die Risiken einer sitzenden Lebensweise zu vermeiden.</string>
   <string name="send_diagnosis_log">Diagnoseprotokoll senden</string>
   <string name="sending">Senden…</string>
   <string name="select_target">Ziel auswählen</string>
@@ -651,8 +651,8 @@ Wenn es für Sie nach 30 Minuten im Bett immer noch schwierig ist, einzuschlafen
   <string name="sleep_deep">Tiefschlaf</string>
   <string name="sleep_deep_light_analysis">Halbschlaf/Tiefschlaf</string>
   <string name="sleep_deep_light_close_tip">Tiefschlaf-Analyse ist aus</string>
-  <string name="sleep_deep_light_no_data">Keine Tiefschlaf-Aufzeichnung</string>
-  <string name="sleep_deep_light_no_data_improvement">Tief-Halbschlaf-Merkmale werden nicht identifiziert, und es werden Anstrengungen unternommen, den Algorithmus zu optimieren.</string>
+  <string name="sleep_deep_light_no_data">Noch keine Daten vorhanden</string>
+  <string name="sleep_deep_light_no_data_improvement">Keine Schlafphasen erknant. Wir sind dabei, unsere Algorithmen zu verbessern. Bleiben Sie dran!</string>
   <string name="sleep_detection_enable">Schlafzyklus analysieren</string>
   <string name="sleep_detection_guide_four_description">Schlafaufzeichnungsfunktion verbraucht täglich etwa 1% Ihres Akkus.</string>
   <string name="sleep_detection_guide_four_high_power_description">Stellen Sie sicher, dass Ihr Gerät ausreichend aufgeladen ist, bevor Sie zu Bett gehen. Eine schwacher Akku kann die Schlafaufzeichnung unterbrechen.</string>
@@ -672,11 +672,11 @@ Wenn es für Sie nach 30 Minuten im Bett immer noch schwierig ist, einzuschlafen
   <string name="sleep_detection_question_four_title">Warum verbrauchen verschiedene Geräte unterschiedlich viel Strom, um den Schlaf zu verfolgen?</string>
   <string name="sleep_detection_question_one_answer">"Wenn Ihr Gerät ausgeschaltet oder neu gestartet wird oder der Akku schwach ist, wird die Schlafverfolgung unterbrochen, da die Sensoren keine Daten erfassen und analysieren können. In solchen Fällen erscheint die Schlafstatistik unvollständig.
 Wenn dieses Problem häufig auftritt, überprüfen Sie Ihr Gerät auf geplante Abschaltaufgaben oder nächtliche Systemaktualisierungen."</string>
-  <string name="sleep_detection_question_one_answer_1">"Tief-Halbschlaf-Analyse stützt sich auf die von Handysensoren gesammelten Bewegungsdaten des Körpers. Folgende Bedingungen können dazu führen, dass die Analyse keine Ergebnisse liefert:
-1. Fehler Datenerfassung. Datenerfassung und -berechnung kann wegen der Abschaltung des Mobiltelefons oder unzureichendem Akku während des Schlafs eventuell nicht normal durchgeführt werden. 
-2. Datenanalyse fehlgeschlagen. Es kann sein, dass das Mobiltelefon weit vom Körper entfernt platziert wurde oder die gesammelten Körperbewegungen nicht offensichtlich waren, sodass die Tief-Halbschlaf-Merkmale temporär nicht analysiert werden konnten. Wir werden den Algorithmus weiter optimieren."</string>
+  <string name="sleep_detection_question_one_answer_1">"Tief- und Leichtschlafphasen werden auf der Grundlage von Körperbewegungsdaten, die von Ihren Gerätesensoren erfasst werden, erkannt. Hier ist der Grund, warum Sie die Statistiken möglicherweise nicht sehen können:
+1. Xiaomi Health konnte keine Daten sammeln. Dies kann passieren, wenn sich Ihr Gerät im Schlaf ausschaltet, sein Akku zu schwach ist oder die App nicht im Hintergrund arbeiten darf. Erlauben Sie Xiaomi Health einen automatischen Start, fügen Sie es zu den Ausnahmen des Batterieschoners hinzu und sperren Sie es im Hintergrund, um dies zu verhindern.
+2. Xiaomi Health konnte die gesammelten Daten nicht analysieren. Dies kann passieren, wenn das Telefon zu weit vom Körper entfernt ist, wenn Sie schlafen. Alternativ könnte Ihre Körperbewegung zu subtil sein, um irgendwelche Annahmen über Veränderungen Ihres Schlafzyklus zu treffen. Wir arbeiten ständig an der Verbesserung unserer Algorithmen, damit Xiaomi Health Ihren Schlaf besser analysieren kann."</string>
   <string name="sleep_detection_question_one_title">Warum ist meine Statistik unvollständig?</string>
-  <string name="sleep_detection_question_one_title_1">Warum wird der Halb-/Tiefschlaf nicht aufgezeichnet?</string>
+  <string name="sleep_detection_question_one_title_1">Warum sehe ich keine Schlafzyklusstatistiken?</string>
   <string name="sleep_detection_question_three_answer">Ihr Gerät verfolgt Ihre Körperbewegungen während des Schlafs mit Hilfe eingebauter Sensoren. Um die Statistik genauer zu machen, legen Sie das Gerät auf eine weiche Oberfläche in Körpernähe. Vermeiden Sie es, es auf Nachttische oder zu weit von der Matratze entfernt aufzustellen.</string>
   <string name="sleep_detection_question_three_title">Wie kann ich meine Statistik genauer machen?</string>
   <string name="sleep_detection_question_two_answer">Ihre Schlafzyklen werden lokal auf dem Gerät analysiert. Die Ruhezustandsverfolgung funktioniert auch dann, wenn Sie nicht mit dem Netzwerk verbunden sind oder Ihre aktuelle Verbindung unterbrochen ist.</string>
@@ -724,14 +724,14 @@ nicht gefunden"</string>
   <string name="sleep_service">Schlafverfolgungsdienst</string>
   <string name="sleep_service_background_running">Schlafverfolgungsdienst läuft im Hintergrund</string>
   <string name="sleep_setting_title">Schlafeinstellungen</string>
-  <string name="sleep_snore_audio_auto">Audio aufzeichnen</string>
-  <string name="sleep_snore_audio_auto_desc">Zeichnet Ihr Gespräch im Schlaf auf und speichert die Datei auf Ihrem Telefon, um Ihre Privatsphäre sicher zu schützen.</string>
-  <string name="sleep_snore_audio_close_desc">Sie können das in den Schlafeinstellungen deaktivieren.</string>
-  <string name="sleep_snore_audio_enable">Erkennung ist aktiviert</string>
+  <string name="sleep_snore_audio_auto">Schnarchen und Sprechen automatisch aufzeichnen</string>
+  <string name="sleep_snore_audio_auto_desc">Xiaomi Health kann Schnarchen und Sprechen automatisch auf der Grundlage Ihres Schlafenszeitplans aufzeichnen. Die Aufzeichnung wird gestoppt, wenn Sie aufstehen. Um Ihre Privatsphäre zu schützen, werden alle aufgezeichneten Dateien mit Hilfe eines integrierten Algorithmus lokal auf Ihrem Gerät gespeichert.</string>
+  <string name="sleep_snore_audio_close_desc">Sie können diese Funktion jederzeit in den Einstellungen abschalten.</string>
+  <string name="sleep_snore_audio_enable">Automatische Erkennung ist an</string>
   <string name="sleep_snore_audio_enable_desc">Heute Nacht wird Ihr Schlaf automatisch aufgezeichnet.</string>
   <string name="sleep_snore_audio_hight_power_desc">Stellen Sie sicher, dass Ihr Gerät ausreichend aufgeladen ist, bevor Sie zu Bett gehen.</string>
   <string name="sleep_snore_detection">Schnarchen und Sprechen erkennen</string>
-  <string name="sleep_snore_detection_desc">Verfolgen Sie Ihren Schlaf</string>
+  <string name="sleep_snore_detection_desc">Schnarchen und Sprechen erkennen, um mehr über Ihren Schlaf zu erfahren</string>
   <string name="sleep_sober">Schlaflos</string>
   <string name="sleep_sober_times_title">Aufgewacht</string>
   <string name="sleep_status">Schlafstatus</string>
@@ -768,13 +768,13 @@ nicht gefunden"</string>
   <string name="snore_detection_notification_title">Schlaftest wird durchgeführt</string>
   <string name="snore_detection_running_state">Erkennen…</string>
   <string name="snore_detection_running_state_description">Mikrofon ist an. Es arbeitet im Hintergrund weiter.</string>
-  <string name="snore_detection_sotp_opt_1">Stoppen und Ergebnisse löschen</string>
-  <string name="snore_detection_sotp_opt_2">Stoppen und Ergebnisse löschen</string>
+  <string name="snore_detection_sotp_opt_1">Anhalten und Ergebnisse löschen</string>
+  <string name="snore_detection_sotp_opt_2">Anhalten und Ergebnisse speichern</string>
   <string name="snore_detection_stop_pop_content">Sie können diese Sitzung nicht wieder aufnehmen, wenn Sie sie jetzt beenden. Die nächste Sitzung beginnt, wenn Sie das nächste Mal ins Bett gehen.</string>
-  <string name="snore_detection_stop_pop_title">Sitzung jetzt beenden?</string>
+  <string name="snore_detection_stop_pop_title">Die laufende Sitzung zur Schnarcherkennung stoppen?</string>
   <string name="snore_detection_stopped_notification_title">Schnarch- und Sprecherkennung gestoppt</string>
   <string name="snore_dream_talk">Schnarchen und Sprechen</string>
-  <string name="snore_duration_label">Schnarchdauer</string>
+  <string name="snore_duration_label">Dauer des Schnarchens</string>
   <string name="snore_label">Schnarchen</string>
   <string name="snore_record_audio_delete_message">Diese Aufnahme wird nur auf Ihrem Gerät gespeichert. Sie können sie nicht wiederherstellen, wenn Sie sie löschen. Trotzdem löschen?</string>
   <string name="snore_record_audio_delete_title">Aufnahme löschen?</string>
@@ -864,7 +864,7 @@ auf Ihren persönlichen Daten beraten."</string>
   <string name="sync_status_in_progress">Synchronisieren…</string>
   <string name="sync_status_network_failure">Synchronisation nicht möglich. Mit Netzwerk verbinden und erneut versuchen.</string>
   <string name="sync_status_never_done">Nicht synchronisiert</string>
-  <string name="sync_status_oauth_error">Synchronisation Datenquelle fehlgeschlagen, bitte erneut autorisieren</string>
+  <string name="sync_status_oauth_error">Datenquelle synchronisieren fehlgeschlagen, bitte erneut autorisieren</string>
   <string name="tb_audio_progress_bar">Audiowiedergabeleiste</string>
   <string name="tb_card_on_using_list">Hinzugefügt</string>
   <string name="tb_click_finish_stand">Nicht beendetes Stehen seit fast 1 Stunde, tippen Sie zum Beenden des Stehens</string>
@@ -960,8 +960,8 @@ auf Ihren persönlichen Daten beraten."</string>
   <string name="tb_picker_sleep_goal">Ausgewähltes Schlafziel: %1$s. Vertikal wischen, um das Ziel auszuwählen.</string>
   <string name="tb_picker_weight">Ausgewähltes Gewicht: %1$s. Vertikal wischen, um das Gewicht auszuwählen.</string>
   <string name="tb_picker_year">Ausgewähltes Jahr: %1$d. Vertikal wischen, um das Jahr auszuwählen.</string>
-  <string name="tb_play_next">Nächstes Audio</string>
-  <string name="tb_play_previous">Vorheriges Audio</string>
+  <string name="tb_play_next">Zur nächsten Aufzeichnung wechseln</string>
+  <string name="tb_play_previous">Zur vorherigen Aufzeichnung wechseln</string>
   <string name="tb_select_a_column">%1$s ausgewählt</string>
   <string name="tb_show_sleep_info">Schlafstatistik für %1$s anzeigen</string>
   <string name="tb_sleep_evaluation">Geschätztes Ergebnis: %1$s</string>
