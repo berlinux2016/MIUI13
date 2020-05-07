@@ -672,8 +672,8 @@ Wenn es für Sie nach 30 Minuten im Bett immer noch schwierig ist, einzuschlafen
   <string name="sleep_detection_question_four_title">Warum verbrauchen verschiedene Geräte unterschiedlich viel Strom, um den Schlaf zu verfolgen?</string>
   <string name="sleep_detection_question_one_answer">"Wenn Ihr Gerät ausgeschaltet oder neu gestartet wird oder der Akku schwach ist, wird die Schlafverfolgung unterbrochen, da die Sensoren keine Daten erfassen und analysieren können. In solchen Fällen erscheint die Schlafstatistik unvollständig.
 Wenn dieses Problem häufig auftritt, überprüfen Sie Ihr Gerät auf geplante Abschaltaufgaben oder nächtliche Systemaktualisierungen."</string>
-  <string name="sleep_detection_question_one_answer_1">"Tief- und Leichtschlafphasen werden auf der Grundlage von Körperbewegungsdaten, die von Ihren Gerätesensoren erfasst werden, erkannt. Hier ist der Grund, warum Sie die Statistiken möglicherweise nicht sehen können:
-1. Xiaomi Health konnte keine Daten sammeln. Dies kann passieren, wenn sich Ihr Gerät im Schlaf ausschaltet, sein Akku zu schwach ist oder die App nicht im Hintergrund arbeiten darf. Erlauben Sie Xiaomi Health einen automatischen Start, fügen Sie es zu den Ausnahmen des Batterieschoners hinzu und sperren Sie es im Hintergrund, um dies zu verhindern.
+  <string name="sleep_detection_question_one_answer_1">"Tief- und Halbschlafphasen werden auf der Grundlage von Körperbewegungsdaten, die von Ihren Gerätesensoren erfasst werden, erkannt. Hier ist der Grund, warum Sie die Statistiken möglicherweise nicht sehen können:
+1. Xiaomi Health konnte keine Daten sammeln. Dies kann passieren, wenn sich Ihr Gerät im Schlaf ausschaltet, sein Akku zu schwach ist oder die App nicht im Hintergrund arbeiten darf. Erlauben Sie Xiaomi Health einen automatischen Start, fügen Sie es zu den Stromspar-Ausnahmen hinzu und sperren Sie es im Hintergrund, um dies zu verhindern.
 2. Xiaomi Health konnte die gesammelten Daten nicht analysieren. Dies kann passieren, wenn das Telefon zu weit vom Körper entfernt ist, wenn Sie schlafen. Alternativ könnte Ihre Körperbewegung zu subtil sein, um irgendwelche Annahmen über Veränderungen Ihres Schlafzyklus zu treffen. Wir arbeiten ständig an der Verbesserung unserer Algorithmen, damit Xiaomi Health Ihren Schlaf besser analysieren kann."</string>
   <string name="sleep_detection_question_one_title">Warum ist meine Statistik unvollständig?</string>
   <string name="sleep_detection_question_one_title_1">Warum sehe ich keine Schlafzyklusstatistiken?</string>
@@ -725,7 +725,7 @@ nicht gefunden"</string>
   <string name="sleep_service_background_running">Schlafverfolgungsdienst läuft im Hintergrund</string>
   <string name="sleep_setting_title">Schlafeinstellungen</string>
   <string name="sleep_snore_audio_auto">Schnarchen und Sprechen automatisch aufzeichnen</string>
-  <string name="sleep_snore_audio_auto_desc">Xiaomi Health kann Schnarchen und Sprechen automatisch auf der Grundlage Ihres Schlafenszeitplans aufzeichnen. Die Aufzeichnung wird gestoppt, wenn Sie aufstehen. Um Ihre Privatsphäre zu schützen, werden alle aufgezeichneten Dateien mit Hilfe eines integrierten Algorithmus lokal auf Ihrem Gerät gespeichert.</string>
+  <string name="sleep_snore_audio_auto_desc">Xiaomi Health kann Schnarchen und Sprechen automatisch auf der Grundlage Ihres Schlafzeitplans aufzeichnen. Die Aufzeichnung wird gestoppt, wenn Sie aufstehen. Um Ihre Privatsphäre zu schützen, werden alle aufgezeichneten Dateien mit Hilfe eines integrierten Algorithmus lokal auf Ihrem Gerät gespeichert.</string>
   <string name="sleep_snore_audio_close_desc">Sie können diese Funktion jederzeit in den Einstellungen abschalten.</string>
   <string name="sleep_snore_audio_enable">Automatische Erkennung ist an</string>
   <string name="sleep_snore_audio_enable_desc">Heute Nacht wird Ihr Schlaf automatisch aufgezeichnet.</string>
@@ -771,10 +771,10 @@ nicht gefunden"</string>
   <string name="snore_detection_sotp_opt_1">Anhalten und Ergebnisse löschen</string>
   <string name="snore_detection_sotp_opt_2">Anhalten und Ergebnisse speichern</string>
   <string name="snore_detection_stop_pop_content">Sie können diese Sitzung nicht wieder aufnehmen, wenn Sie sie jetzt beenden. Die nächste Sitzung beginnt, wenn Sie das nächste Mal ins Bett gehen.</string>
-  <string name="snore_detection_stop_pop_title">Die laufende Sitzung zur Schnarcherkennung stoppen?</string>
+  <string name="snore_detection_stop_pop_title">Laufende Sitzung zur Schnarcherkennung stoppen?</string>
   <string name="snore_detection_stopped_notification_title">Schnarch- und Sprecherkennung gestoppt</string>
   <string name="snore_dream_talk">Schnarchen und Sprechen</string>
-  <string name="snore_duration_label">Dauer des Schnarchens</string>
+  <string name="snore_duration_label">Scharchdauer</string>
   <string name="snore_label">Schnarchen</string>
   <string name="snore_record_audio_delete_message">Diese Aufnahme wird nur auf Ihrem Gerät gespeichert. Sie können sie nicht wiederherstellen, wenn Sie sie löschen. Trotzdem löschen?</string>
   <string name="snore_record_audio_delete_title">Aufnahme löschen?</string>
