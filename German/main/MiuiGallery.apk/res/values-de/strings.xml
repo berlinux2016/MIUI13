@@ -120,6 +120,8 @@
   <string name="album_sort_type_custom">Benutzerdefiniert</string>
   <string name="album_sort_type_name_asc">Von A bis Z</string>
   <string name="album_sort_type_name_desc">Von Z bis A</string>
+  <string name="album_tab_page_switch_view_style_to_grid">Gitteransicht</string>
+  <string name="album_tab_page_switch_view_style_to_linear">Listenansicht</string>
   <string name="album_type_baby">Kinderalbum</string>
   <string name="album_type_share">Geteiltes Album</string>
   <string name="album_type_system">Systemalbum</string>
@@ -325,7 +327,7 @@
   <string name="choose_video_compress_quality">Auflösung wählen</string>
   <string name="chooser_fragment_mishare_title">Teilen mit</string>
   <string name="cleaner_photo_pick_delete_selected">Ausgewählte Fotos löschen</string>
-  <string name="cleaner_raw_action">Löschen</string>
+  <string name="cleaner_raw_action">Ansehen</string>
   <string name="cleaner_raw_description">Speicherplatz freigeben durch Löschen großer RAW-Bilder</string>
   <string name="cleaner_raw_title">RAW-Dateien löschen</string>
   <string name="cleaner_scan_description">Durch die Optimierung von Elementen wird Speicherplatz auf Ihrem Gerät frei</string>
@@ -336,10 +338,10 @@
   <string name="cleaner_scan_no_result">Es wurde keine Speicherplatz frei</string>
   <string name="cleaner_scan_ok">Fertig</string>
   <string name="cleaner_scan_title">Alben scannen…</string>
-  <string name="cleaner_screen_shot_action">Löschen</string>
+  <string name="cleaner_screen_shot_action">Ansehen</string>
   <string name="cleaner_screen_shot_description">Löschen Sie die Screenshots, die Sie nicht mehr benötigen.</string>
   <string name="cleaner_screen_shot_title">Screenshots löschen</string>
-  <string name="cleaner_similar_action">Jetzt löschen</string>
+  <string name="cleaner_similar_action">Ansehen</string>
   <string name="cleaner_similar_description">Doppelte Fotos löschen</string>
   <string name="cleaner_similar_title">Doppelte Fotos</string>
   <string name="cleaner_slim_action">Optimierung starten…</string>
@@ -350,7 +352,7 @@
   <string name="cleaner_space_detail_description">Fotoalben reinigen, um Ihr Telefon zu beschleunigen</string>
   <string name="cleaner_stop_scan">Scannen anhalten</string>
   <string name="cleaner_title">Speicher bereinigen</string>
-  <string name="cleaner_video_action">Jetzt löschen</string>
+  <string name="cleaner_video_action">Ansehen</string>
   <string name="cleaner_video_description">Videos löschen, die Speicherplatz beanspruchen</string>
   <string name="cleaner_video_pick_delete_selected">Ausgewählte Videos löschen</string>
   <string name="cleaner_video_title">Videos löschen</string>
@@ -438,6 +440,7 @@
   <string name="context_menu_add_contact">Zu Kontakten hinzufügen</string>
   <string name="context_menu_copy">Kopieren</string>
   <string name="context_menu_copy_notice">Auswahl in die Zwischenablage kopiert</string>
+  <string name="continue_feedback">Zusätzliches Feedback</string>
   <string name="copy">Kopieren</string>
   <string name="correct_photo_time">Datum und Uhrzeit für Fotos korrigieren</string>
   <string name="correct_time_success">Erfolgreich korrigiert</string>
@@ -917,7 +920,13 @@
   <string name="macarons_download_dialog_without_wifi_confirm">Herunterladen</string>
   <string name="macarons_download_dialog_without_wifi_message">WLAN-Verbindung fehlgeschlagen. Sie können mobile Daten verwenden, um das Plugin magische Vignette herunterzuladen.</string>
   <string name="macarons_download_fail">Plugin herunterladen fehlgeschlagen. Netzwerkeinstellungen prüfen und erneut versuchen.</string>
+  <string name="macarons_download_later">Ein paar Minuten warten und erneut versuchen</string>
+  <string name="macarons_download_network_fail">Plugin herunterladen nicht möglich. Überprüfen Sie Ihre Netzwerkeinstellungen und versuchen Sie es erneut.</string>
+  <string name="macarons_download_other_fail">Aufgrund eines Fehlers herunterladen nicht möglich</string>
+  <string name="macarons_download_sdscard_fail">Heruntergeladen nicht möglich. SD-Karte nicht verfügbar.</string>
+  <string name="macarons_download_storage_fail">Heruntergeladen nicht möglich. Nicht genügend Speicherplatz</string>
   <string name="macarons_download_success">Plugin erfolgreich heruntergeladen</string>
+  <string name="macarons_downloading">Plugin herunterladen…</string>
   <string name="macarons_select_image_range">Man kann nicht mehrere Bilder verwenden, um eine magische Vignette zu erstellen</string>
   <string name="macarons_select_video">Man kann keine Videos verwenden, um magische Vignetten zu erstellen</string>
   <string name="main_discard_confirm_message">Es gibt nicht gespeicherte Änderungen</string>
@@ -1508,8 +1517,8 @@ zu wechseln."</string>
   <string name="select_origin_tip">Originaldatei (%s)</string>
   <string name="send_file_beautify_failed">Teilen nicht möglich</string>
   <string name="send_files_to">Elemente senden nach</string>
-  <string name="send_heif_summary">Bilder vor dem Senden konvertieren, um die Kompatibilität sicherzustellen</string>
-  <string name="send_heif_title">Vor dem Senden HEIF in JPG konvertieren</string>
+  <string name="send_heif_summary">HEIF-Bilder in JPEG zur Kompatibilitätgewährleistung konvertieren</string>
+  <string name="send_heif_title">Vor dem Senden HEIF in JPEG konvertieren</string>
   <string name="send_multiple_files_hint_format">Senden (%s)</string>
   <string name="send_public_url">Albumlink senden</string>
   <string name="send_secret_file_failed">Teilen nicht möglich</string>
@@ -1913,7 +1922,7 @@ zu wechseln."</string>
   <string name="view_more_face_desc">Weitere Personen anzeigen</string>
   <string name="vlog_audio_changyang">Freizeit</string>
   <string name="vlog_audio_close_toast">Original-Soundtrack ist aus</string>
-  <string name="vlog_audio_fulan">nebel</string>
+  <string name="vlog_audio_fulan">Nebel</string>
   <string name="vlog_audio_guiyun">Wolken</string>
   <string name="vlog_audio_jianyue">Minimalistisch</string>
   <string name="vlog_audio_liuying">Reflexionen</string>
@@ -1929,7 +1938,7 @@ zu wechseln."</string>
   <string name="vlog_audio_weifeng">Brise</string>
   <string name="vlog_back_dialog_exit_cancel">Abbrechen</string>
   <string name="vlog_bottom_view_back">Zurück</string>
-  <string name="vlog_bottom_view_edit">Editieren</string>
+  <string name="vlog_bottom_view_edit">Bearbeiten</string>
   <string name="vlog_bottom_view_exit">Beenden</string>
   <string name="vlog_bottom_view_save">Speichern</string>
   <string name="vlog_cancel_download">Abbrechen</string>
@@ -1957,6 +1966,7 @@ zu wechseln."</string>
   <string name="vlog_clip_is_reversed">Umgekehrt</string>
   <string name="vlog_clip_select_trans">Übergang auswählen</string>
   <string name="vlog_clip_sort">Videos neu anordnen</string>
+  <string name="vlog_clip_zoom">Zwei Finger verwenden, um die Anzahl der Bilder in der Vorschau zu erhöhen oder zu verringern</string>
   <string name="vlog_cloud_file_download">Elemente aus der Cloud</string>
   <string name="vlog_download">Herunterladen</string>
   <string name="vlog_download_btn">Herunterladen</string>
@@ -1972,6 +1982,8 @@ zu wechseln."</string>
   <string name="vlog_end_of_film">Schließen</string>
   <string name="vlog_exit_ddit_message">Alle Änderungen gehen verloren, wenn Sie jetzt aufhören. Trotzdem beenden?</string>
   <string name="vlog_exit_edit_title">Editor beenden</string>
+  <string name="vlog_exit_message">Alle ungespeicherten Änderungen gehen verloren. Trotzdem zurückgehen?</string>
+  <string name="vlog_exit_title">Änderungen verwerfen</string>
   <string name="vlog_film_title">Öffnen</string>
   <string name="vlog_filter_chujing">Ruhig</string>
   <string name="vlog_filter_chunlu">Tau</string>
@@ -1987,6 +1999,7 @@ zu wechseln."</string>
   <string name="vlog_filter_zhaomu">Tagesanbruch</string>
   <string name="vlog_float_view_change_audio">Soundtrack ändern</string>
   <string name="vlog_float_view_ratio">Seitenverhältnis</string>
+  <string name="vlog_improt_encode_video_error">Kodierungsfehler aufgetreten, erneut versuchen.</string>
   <string name="vlog_load_data_fail">Daten laden nicht möglich</string>
   <string name="vlog_mi_clip">Video-Editor</string>
   <string name="vlog_mi_clip_cn">Video-Editor</string>
@@ -1995,6 +2008,7 @@ zu wechseln."</string>
   <string name="vlog_nav_title_ratio">Seitenverhältnis</string>
   <string name="vlog_nav_title_template">Vorlagen</string>
   <string name="vlog_none">Nichts</string>
+  <string name="vlog_photo_edit_not_support">Bilder bearbeiten nicht möglich</string>
   <string name="vlog_photo_not_support">Bilder bearbeiten nicht möglich</string>
   <string name="vlog_ratio_choose">Seitenverhältnis wählen</string>
   <string name="vlog_ratio_fullsize">Vollbild</string>
@@ -2037,6 +2051,7 @@ zu wechseln."</string>
   <string name="vlog_video_importing">Video importieren…</string>
   <string name="vlog_video_saved_in_my_create">Video erfolgreich gespeichert</string>
   <string name="vlog_video_selected_not_support">Gewähltes Video kann nicht bearbeitet werden</string>
+  <string name="vlog_video_trans_code_cons">Hochauflösende Datei berbeiten…</string>
   <string name="voice_assistant">Spracheingabe</string>
   <string name="wednesday">Mittwoch</string>
   <string name="wednesday_short">Mit</string>
