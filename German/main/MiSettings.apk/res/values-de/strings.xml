@@ -71,11 +71,12 @@
   <string name="focus_mode_timer_exist">Diese Sitzung existiert bereits</string>
   <string name="focus_mode_timer_pick_dialog_summary" formatted="false">%d bis %d Minuten</string>
   <string name="focus_mode_timer_pick_dialog_title">Dauer eingeben</string>
-  <string name="focus_time_exception_tip">Sieht aus, als hätte sich die Systemzeit geändert. Konzentrationsmodus wurde ausgeschaltet.</string>
+  <string name="focus_time_exception_tip">Sieht aus, als hätte sich die Systemzeit geändert. Fokus-Modus wurde ausgeschaltet.</string>
   <string name="follow_sim1">Einstellungen SIM1 übernehmen</string>
   <string name="friday">Freitag</string>
   <string name="friday_short">Fr</string>
   <string name="healthy_use_phone">Bildschirmzeit verwalten</string>
+  <string name="high_fps_description">Hohe Bildwiederholrate, höhere Leistungsaufnahme.</string>
   <string name="hsv_space_color">HSV-Farbraum</string>
   <string name="hsv_space_color_hue">Farbton</string>
   <string name="hsv_space_color_saturation">Sättigung</string>
@@ -83,6 +84,7 @@
   <string name="intelligent_recognition_item_summary">Speziellen Klingelton für Liefer- und Taxidienstanrufe verwenden. Funktioniert, wenn %s als Standardklingelton eingestellt ist.</string>
   <string name="intelligent_recognition_item_title">Dienste identifizieren</string>
   <string name="lock_summary">Umfassender Schutz Ihrer Privatsphäre</string>
+  <string name="low_fps_description">Niedrige Bildwiederholrate, Geringerer Stromverbrauch.</string>
   <string name="low_light_preview">Vorschau bei schwachem Licht</string>
   <string name="miuix_appcompat_cloud_state_disabled">Synchronisierung mit der Cloud ist aus</string>
   <string name="miuix_appcompat_cloud_state_finished">Mit der Cloud synchronisiert</string>
@@ -155,6 +157,7 @@
   <string name="search_menu_title">Suchen</string>
   <string name="several_days_use_time">Bildschirmzeit: %2$s</string>
   <string name="shortcut_created">Verknüpfung wurde erstellt</string>
+  <string name="silent_ringtone_hint">Ton ist jetzt stumm geschaltet. Lautstärke erhöhen und erneut versuchen.</string>
   <string name="sim_slot_1">" (SIM1)"</string>
   <string name="sim_slot_2">" (SIM2)"</string>
   <string name="sms_delivered_sound_title">Nachricht empfangen</string>
@@ -324,8 +327,12 @@ Diese App muss außerdem eine Internetverbindung herstellen und benötigt folgen
   <string name="usage_home_premission_second_summary_new">"Wir schützen Ihre persönlichen Daten in Übereinstimmung mit den einschlägigen Gesetzen, Vorschriften und Datenschutzrichtlinien.
 Wenn Sie nicht zustimmen, diese Berechtigungen zu erteilen oder Ihre persönlichen Daten zu teilen und hochzuladen, können Sie diese App nicht nutzen.
 Sie können Ihre Berechtigung unter Bildschirmzeit &gt; Einstellungen &gt; Bildschirmzeit ausschalten widerrufen. Wenn Sie weitere Fragen zum Thema Datenschutz haben, können Sie uns unter privacy@xiaomi.com kontaktieren."</string>
+  <string name="usage_new_home_app_limit_summary">Tägliches Bildschirmzeitlimit für diese Apps festlegen</string>
+  <string name="usage_new_home_app_limit_title">Bildschirmzeitlimit</string>
   <string name="usage_new_home_average">Durchschnitt</string>
+  <string name="usage_new_home_avg_usage_day">Tagesdurchschnitt %s </string>
   <string name="usage_new_home_category">Kategorie</string>
+  <string name="usage_new_home_classify_manage">App-kategorien verwalten</string>
   <string name="usage_new_home_compare_text1">%.2f mehr als am Vortag</string>
   <string name="usage_new_home_compare_text2">%.2f weniger als am Vortag</string>
   <string name="usage_new_home_compare_text3">Wie am Vortag</string>
@@ -338,9 +345,11 @@ Sie können Ihre Berechtigung unter Bildschirmzeit &gt; Einstellungen &gt; Bilds
   <string name="usage_new_home_first_unlock">Erstes Entsperren: %s</string>
   <string name="usage_new_home_show_more_data_summary">Sie können auch die Bildschirmzeit für einzelne Apps begrenzen</string>
   <string name="usage_new_home_show_more_data_title">Weitere Statistiken anzeigen</string>
+  <string name="usage_new_home_sys_no_limit_summary">Bildschirmzeit für System-Apps begrenzen nicht möglich</string>
   <string name="usage_new_home_unlock_equals_text">Wie am Vortag</string>
   <string name="usage_new_home_unused">Nicht verwendet</string>
   <string name="usage_new_home_update">Ändern</string>
+  <string name="usage_new_home_usage_detail">Nutzungsdetails</string>
   <string name="usage_new_home_week_category_title">App-Kategorien</string>
   <string name="usage_new_home_week_compare_text1">%.2f mehr als letzte Woche</string>
   <string name="usage_new_home_week_compare_text2">%.2f weniger als letzte Woche</string>
@@ -399,13 +408,13 @@ Diese App muss eine Internetverbindung herstellen und benötigt folgende Berecht
   <string name="usage_state_focus_call">Notruf</string>
   <string name="usage_state_focus_level1">Aufgehender Stern</string>
   <string name="usage_state_focus_level_summary">Aktuelles Level: %s</string>
-  <string name="usage_state_focus_mode_experience_warning_message">Konzentrationsmodus erlaubt nur Kamerabenutzung und Notrufe. Sie können den Konzentrationsmodus nicht vorzeitig deaktivieren.</string>
+  <string name="usage_state_focus_mode_experience_warning_message">Fokus-Modusmodus erlaubt nur Kamerabenutzung und Notrufe. Sie können den Fokus-Modus nicht vorzeitig deaktivieren.</string>
   <string name="usage_state_focus_mode_summary">Alle Funktionen außer Notrufe und Kamera einschränken</string>
   <string name="usage_state_focus_mode_summary1">Gut begonnen ist halb gewonnen</string>
   <string name="usage_state_focus_mode_summary2">Konzentriert bleiben</string>
   <string name="usage_state_focus_mode_summary3">Es ist anstrengend, konzentriert zu bleiben.</string>
-  <string name="usage_state_focus_mode_title">Konzentrationsmodus</string>
-  <string name="usage_state_focus_mode_warning_message">Konzentrationsmodus erlaubt nur Kamerabenutzung und Notrufe. Sie können den Konzentrationsmodus nicht vorzeitig deaktivieren.</string>
+  <string name="usage_state_focus_mode_title">Fokus-Modus</string>
+  <string name="usage_state_focus_mode_warning_message">Fokus-Modus erlaubt nur Kamerabenutzung und Notrufe. Sie können den Fokus-Modus nicht vorzeitig deaktivieren.</string>
   <string name="usage_state_focus_mode_warning_title">Achtung</string>
   <string name="usage_state_focus_success">Herausforderung abgeschlossen</string>
   <string name="usage_state_focus_take_photo">Kamera</string>
@@ -420,7 +429,7 @@ Diese App muss eine Internetverbindung herstellen und benötigt folgende Berecht
   <string name="usage_state_noti_mourth_day">Benachrichtigungen am %s</string>
   <string name="usage_state_notification">Benachrichtigungen verwalten</string>
   <string name="usage_state_notification_manager">App-Benachrichtigungen verwalten</string>
-  <string name="usage_state_open_focus_mode">Konzentrationsmodus einschalten</string>
+  <string name="usage_state_open_focus_mode">Fokus-Modus einschalten</string>
   <string name="usage_state_over_p">Besser als</string>
   <string name="usage_state_remind_new_summary">Benachrichtigung erhalten, wenn die Bildschirmzeit das eingestellte Limit erreicht</string>
   <string name="usage_state_remind_summary">Einschalten, um Bildschirmzeit-Alarme zu erhalten.</string>
