@@ -1,5 +1,34 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+  <plurals name="a_hour_ago">
+    <item quantity="other">Vor 1 Stunde</item>
+  </plurals>
+  <plurals name="abbrev_a_hour_ago">
+    <item quantity="other">Vor 1 Std</item>
+  </plurals>
+  <plurals name="abbrev_half_hour_ago">
+    <item quantity="other">Vor einer halben Std</item>
+  </plurals>
+  <plurals name="abbrev_in_a_hour">
+    <item quantity="other">In 1 Std</item>
+  </plurals>
+  <plurals name="abbrev_in_half_hour">
+    <item quantity="other">In einer halben Std</item>
+  </plurals>
+  <plurals name="abbrev_in_less_than_one_minute">
+    <item quantity="other">Sofort</item>
+  </plurals>
+  <plurals name="abbrev_in_num_minutes">
+    <item quantity="other">In %d Min</item>
+    <item quantity="one">In 1 Min</item>
+  </plurals>
+  <plurals name="abbrev_less_than_one_minute_ago">
+    <item quantity="other">Gerade eben</item>
+  </plurals>
+  <plurals name="abbrev_num_minutes_ago">
+    <item quantity="other">Vor %d Min</item>
+    <item quantity="one">Vor 1 Min</item>
+  </plurals>
   <plurals name="batch_delete_confirm_dialog_message">
     <item quantity="other"> %1$s Nachrichten löschen?</item>
     <item quantity="one">%1$s Nachricht löschen?</item>
@@ -30,10 +59,29 @@
     <item quantity="other">Senden an %d Kontakte fehlgeschlagen.</item>
     <item quantity="one">Senden an %d Kontakt fehlgeschlagen.</item>
   </plurals>
+  <plurals name="half_hour_ago">
+    <item quantity="other">Vor einer halben Stunde</item>
+  </plurals>
   <plurals name="hint_search_sms">
     <item quantity="other">%d Nachrichten</item>
     <item quantity="zero">%d Nachrichten</item>
     <item quantity="one">%d Nachricht</item>
+  </plurals>
+  <plurals name="in_a_hour">
+    <item quantity="other">In 1 Stunde</item>
+  </plurals>
+  <plurals name="in_half_hour">
+    <item quantity="other">In einer halben Stunde</item>
+  </plurals>
+  <plurals name="in_less_than_one_minute">
+    <item quantity="other">Sofort</item>
+  </plurals>
+  <plurals name="in_num_minutes">
+    <item quantity="other">In %d Minuten</item>
+    <item quantity="one">In 1 Minute</item>
+  </plurals>
+  <plurals name="less_than_one_minute_ago">
+    <item quantity="other">Gerade eben</item>
   </plurals>
   <plurals name="mark_number_dialog_subtitle">
     <item quantity="other">Von %1$d Personen als %2$s markiert</item>
@@ -46,6 +94,10 @@
   <plurals name="notification_multiple">
     <item quantity="other">"%s Nachrichten | "</item>
     <item quantity="one">"%s Nachricht | "</item>
+  </plurals>
+  <plurals name="num_minutes_ago">
+    <item quantity="other">Vor %d Minuten</item>
+    <item quantity="one">Vor 1 Minute</item>
   </plurals>
   <plurals name="rcs_group_notification_invitation_receive">
     <item quantity="other">Sie haben %d Gruppenchat-Einladungen erhalten</item>
