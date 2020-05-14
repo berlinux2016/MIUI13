@@ -380,7 +380,7 @@ Schalten Sie diese Funktion ein und tippen Sie auf die Schaltfläche Eingabehilf
   <string name="allow_mock_location">Scheinstandorte zulassen</string>
   <string name="allow_mock_location_summary">Scheinstandorte zulassen</string>
   <string name="allow_oaid_used">Virtuelle ID verwenden</string>
-  <string name="allow_oaid_used_desc">Apps können nicht auf eine ID zugreifen, es sei denn, Sie erlauben ihnen dies ausdrücklich. Einige Funktionen für persönliche Empfehlungen funktionieren möglicherweise nicht richtig, wenn diese Funktion an ist.</string>
+  <string name="allow_oaid_used_desc">MIUI stellt installierten Apps keine virtuelle ID (OAID) zur Verfügung. Einige Funktionen für persönliche Empfehlungen könnten deshalb nicht richtig funktionieren.</string>
   <string name="allow_overlay_description">Diese Berechtigung erlaubt es einer App, über anderen Apps angezeigt zu werden und kann die Bedienung und Anzeige anderer Apps beeinträchtigen</string>
   <string name="allow_sound">Ton erlauben</string>
   <string name="allow_sound_title">Ton erlauben</string>
@@ -2175,7 +2175,7 @@ Diese Einstellung betrifft alle Benutzer auf diesem Telefon."</string>
   <string name="device_name_input_overlength">Wortgrenze überschritten</string>
   <string name="device_name_usage_point">Dieser Name wird bei Bluetooth-Verbindungen, Tethering usw. angezeigt</string>
   <string name="device_oaid">Virtuelle ID verwalten</string>
-  <string name="device_oaid_desc">Anstelle Ihres realen Identifikators wird MIUI eine virtuelle ID (OAID) für Drittanbieter-Apps bereitstellen. Sie verhindert, dass Apps Ihr Verhalten und Ihre Präferenzen verfolgen können, und schützt Ihre Privatsphäre.</string>
+  <string name="device_oaid_desc">Anstelle Ihrer eindeutigen ID gibt MIUI den installierten Apps eine virtuelle ID (OAID). Sie verhindert, dass Apps Ihr Verhalten und Ihre Präferenzen verfolgen können, und schützt Ihre Privatsphäre.</string>
   <string name="device_oaid_title">Virtuelle ID</string>
   <string name="device_picker">Bluetooth-Geräteauswahl</string>
   <string name="device_rear_camera">Hintere Kamera</string>
