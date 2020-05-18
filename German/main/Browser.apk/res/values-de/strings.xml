@@ -259,11 +259,16 @@
   <string name="check_security_tip_user_agreement">Nutzungsbedingungen</string>
   <string name="checking_now">Prüfen…</string>
   <string name="choosertitle_sharevia">Teilen über</string>
+  <string name="clear_clipboard">Löschen</string>
+  <string name="clear_clipboard_confirm">Sind Sie sicher, dass Sie Ihre Zwischenablage komplett löschen möchten?</string>
   <string name="clear_history">Verlauf löschen</string>
+  <string name="clear_input_history_confirm">Sind Sie sicher, dass Sie Ihren Verlauf komplett löschen wollen?</string>
+  <string name="clear_input_history_confirm_bt_text">Bestätigen</string>
   <string name="clear_most_visited">Zuletzt besucht</string>
   <string name="clear_search_history">Verlauf löschen</string>
   <string name="clear_video_download">Videos löschen</string>
   <string name="clip_dialog_title">Kopierte URL öffnen?</string>
+  <string name="clipboard">Zwischenablage</string>
   <string name="close">Schließen</string>
   <string name="close_ads_choice_no">Erlauben</string>
   <string name="close_ads_choice_yes">Blockieren</string>
@@ -483,6 +488,26 @@ um Tabs von anderen Geräten zu sehen"</string>
   <string name="exit_browser_confirmation">Erneut drücken, um zum Startbildschirm zurückzukehren</string>
   <string name="exit_browser_warning">Browser jetzt verlassen?</string>
   <string name="exit_fullscreen">Vollbildmodus beenden</string>
+  <string name="exo_controls_fastforward_description">Schnellvorlauf</string>
+  <string name="exo_controls_fullscreen_description">Vollbildmodus</string>
+  <string name="exo_controls_next_description">Nächster Titel</string>
+  <string name="exo_controls_play_description">Abspielen</string>
+  <string name="exo_controls_previous_description">Vorheriger Titel</string>
+  <string name="exo_controls_repeat_all_description">Alle wiederholen</string>
+  <string name="exo_controls_repeat_off_description">Keinen wiederholen</string>
+  <string name="exo_controls_repeat_one_description">Einen wiederholen</string>
+  <string name="exo_controls_rewind_description">Rücklauf</string>
+  <string name="exo_controls_shuffle_description">Zufallswiedergabe</string>
+  <string name="exo_download_completed">Download vollständig</string>
+  <string name="exo_download_description">Herunterladen</string>
+  <string name="exo_download_downloading">Herunterladen</string>
+  <string name="exo_download_failed">Download fehlgeschlagen</string>
+  <string name="exo_download_removing">Downloads löschen</string>
+  <string name="exo_track_selection_none">Nichts</string>
+  <string name="exo_track_surround">Surround Sound</string>
+  <string name="exo_track_surround_5_point_1">5.1 Surround Sound</string>
+  <string name="exo_track_surround_7_point_1">7.1 Surround Sound</string>
+  <string name="exo_track_unknown">Unbekannt</string>
   <string name="expand_article">Ganzen Artikel ansehen</string>
   <string name="expand_button_title">Erweiterte</string>
   <string name="favorite">Favorit</string>
@@ -1040,6 +1065,7 @@ Denken Sie daran, dass heruntergeladene Dateien und hinzugefügte Lesezeichen we
   <string name="network_show_wifi_setting_tip_dialog_title">WLAN verfügbar</string>
   <string name="next_button_label">Weiter</string>
   <string name="no_app_open_document">Keine App für diese Aktion gefunden</string>
+  <string name="no_content">Noch kein Inhalt</string>
   <string name="no_memory_space">Kein Speicherplatz</string>
   <string name="no_space_alert_cancel">Später</string>
   <string name="no_space_alert_clean">Speicherplatz freigeben</string>
@@ -1286,6 +1312,7 @@ Denken Sie daran, dass heruntergeladene Dateien und hinzugefügte Lesezeichen we
   <string name="search_button_text">Los</string>
   <string name="search_description">Suchleiste</string>
   <string name="search_hint">Suchen</string>
+  <string name="search_history">Suchverlauf</string>
   <string name="search_menu_title">Suchen</string>
   <string name="search_notification_btn_title">Suchen</string>
   <string name="search_notification_guide_content">Jetzt erleben</string>
@@ -1377,6 +1404,25 @@ Browser muss mit dem Internet verbunden sein, um richtig zu funktionieren. Sie m
   <string name="snapshot_successed">Lesezeichen &amp; Verlauf -&gt; LOKAL öffnen, um die Seite anzuzeigen</string>
   <string name="soft_toast_see_view">Anzeigen</string>
   <string name="speech_engine_not_install">Sprachmodul ist nicht installiert</string>
+  <string name="srl_component_falsify" formatted="false">"%s Verzerrungsbereich.
+Stellt die Höhe [%.1fdp] des Widerstands zur Laufzeit dar.
+Es zeigt nichts an."</string>
+  <string name="srl_content_empty">Inhaltsansicht in SmartRefreshLayout ist leer. Haben Sie vergessen, es in die XML-Layoutdatei hinzuzufügen?</string>
+  <string name="srl_footer_failed">Laden fehlgeschlagen</string>
+  <string name="srl_footer_finish">Laden erfolgreich</string>
+  <string name="srl_footer_loading">Laden…</string>
+  <string name="srl_footer_nothing">Keine weiteren Daten</string>
+  <string name="srl_footer_pulling">Hochziehen, um mehr zu laden</string>
+  <string name="srl_footer_refreshing">Auf Aktualisierung warten…</string>
+  <string name="srl_footer_release">Loslassen, um mehr zu laden</string>
+  <string name="srl_header_failed">Aktualisieren fehlgeschlagen</string>
+  <string name="srl_header_finish">Aktualisieren erfolgreich</string>
+  <string name="srl_header_loading">Auf Laden warten…</string>
+  <string name="srl_header_pulling">Zum Aktualisieren herunterziehen</string>
+  <string name="srl_header_refreshing">Aktualisieren…</string>
+  <string name="srl_header_release">Loslassen zum Aktualisieren</string>
+  <string name="srl_header_secondary">In die zweite Ebene loslassen</string>
+  <string name="srl_header_update">"'Letztes Update' d.M. HH:mm"</string>
   <string name="ssl_bad_clock_date_settings">Datum einstellen</string>
   <string name="ssl_bad_clock_warning" formatted="false">Private Verbindung zu %s1 kann nicht hergestellt werden, da Ihre Datums- und Zeiteinstellungen (%s2) falsch sind</string>
   <string name="ssl_certificate">Sicherheitszertifikat</string>
