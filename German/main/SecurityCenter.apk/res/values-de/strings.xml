@@ -1255,10 +1255,9 @@ Alle Daten auf Ihrem Gerät werden evtl. gelöscht und Ihr Sperrbildschirmpasswo
   <string name="free_traffic_settings">Datennutzungslimit eingeben</string>
   <string name="function_close">Aus</string>
   <string name="function_gwsd_detail">"Über diese Funktion:
- 1. Eingehende Anrufe auf Ihre Daten-SIM unterbrechen die mobile Datenverbindung nicht. Die Verbindung wird nur dann unterbrochen, wenn Sie einen Anruf annehmen.
- 2. Wenn diese Funktion eingeschaltet ist, hört der Anrufer keine Anklopftöne. Eingehende Anrufe werden beendet, wenn Sie nicht innerhalb von 6 Sekunden antworten.
- 3. Diese Funktion funktioniert nur bei Daten-SIM-Karten. Anrufe zu Ihrer primären SIM-Karte unterbrechen die mobile Datenverbindung.
- 4. Diese Funktion wird nur von China Mobile und China Unicom unterstützt."</string>
+ 1. Wenn Sie mobile Daten auf einer Daten-SIM oder einer regulären SIM-Karte verwenden, die mit einem VoLTE-Netz verbunden ist, wird die Verbindung durch eingehende Anrufe nicht unterbrochen, bis Sie den Hörer abnehmen.
+ 2. Wenn diese Funktion aktiviert ist, kann die andere Person Ihr Freizeichen nicht hören, es sei denn, Sie verwenden eine normale SIM-Karte. Eingehende Anrufe werden nach 7-10 Sekunden Inaktivität automatisch abgewiesen.
+ 3. Daten-SIM-Karten, die von China Mobile und China Unicom ausgegeben wurden, werden unterstützt. Reguläre SIM-Karten, die von China Mobile, China Unicom und China Telecom ausgegeben wurden, werden unterstützt."</string>
   <string name="function_gwsd_title">Eingehende Anrufe dürfen die Daten-SIM-Verbindung nicht unterbrechen</string>
   <string name="function_shield_auto_bright">Auto-Helligkeit ausschalten</string>
   <string name="function_shield_eye_shield">Lesemodus ausschalten</string>
@@ -2183,6 +2182,7 @@ Stromverbrauch"</string>
   <string name="pm_auto_start_by_system">Apps starten</string>
   <string name="pm_auto_start_by_system_event">Apps erlauben, automatisch zu starten</string>
   <string name="pm_auto_start_proc_is_running">AKTIV</string>
+  <string name="pm_newfeature_sub_text">NEU</string>
   <string name="pm_remember_choice">Meine Auswahl merken</string>
   <string name="pm_root_success_notification_infomation">Seien Sie sich der Risiken durch Root-Zugriff bewusst</string>
   <string name="pm_root_success_notification_title">Root-Zugriff gewährt</string>
