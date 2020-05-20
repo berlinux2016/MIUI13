@@ -1,42 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-
-
+  <string name="access_change_text" formatted="false">Aktuell sind die %d und %d Tauschpositionen ausgewählt</string>
   <string name="access_deselect">%s abgewählt</string>
   <string name="access_deselected">%s abgewählt</string>
+  <string name="access_select">%s ausgewählt</string>
   <string name="access_selected">%s ausgewählt</string>
-  <string name="app_debug_settings">App-Debug-Einstellungen</string>
-  <string name="app_debug_settings_copied_to_clipboard">In Zwischenablage kopiert</string>
-  <string name="app_debug_settings_host_title">Host-Umgebung wechseln</string>
-  <string name="app_debug_settings_id_title">Geräte-ID</string>
-  <string name="app_debug_settings_oaid_summary">(Tippen zum OIAD kopieren)</string>
-  <string name="app_debug_settings_preview_title">Vorschau</string>
-  <string name="app_debug_settings_staging_title">Aufführung</string>
-  <string name="app_debug_settings_toast_switch_error">Env-Fehler umschalten</string>
-  <string name="app_debug_settings_vaid_summary">(Tippen zum VAID kopieren)</string>
-  <string name="app_version_name">"Version Infoassistent: "</string>
-  <string name="bluetooth_card_btm_btn_more">Mehr Geräte</string>
-  <string name="bluetooth_card_btm_btn_shrink">Ausblenden</string>
-  <string name="bluetooth_card_title">Akkuverbrauch</string>
-  <string name="bluetooth_item_double_battery_level_box">Box: %d%%</string>
-  <string name="bluetooth_item_double_battery_level_box_invalid">Box: Keine Daten</string>
-  <string name="bluetooth_item_double_battery_level_left">L: %d%%</string>
-  <string name="bluetooth_item_double_battery_level_left_invalid">L: Keine Daten</string>
-  <string name="bluetooth_item_double_battery_level_right">R: %d%%</string>
-  <string name="bluetooth_item_double_battery_level_right_invalid">R: Keine Daten</string>
-  <string name="bluetooth_setting_brief">Akkuverbrauchinfo der angeschlossenen Geräte anzeigen</string>
-  <string name="debug_card_brief">Debugging-Einstellungen und -Werkzeuge</string>
-  <string name="debug_card_detail">Debugging-Einstellungen und -Werkzeuge</string>
-  <string name="debug_card_title">Debugging</string>
-  <string name="miot_device_closed">Gerät ist aus</string>
-  <string name="miot_device_disabled">Gerät steuern jetzt nicht mehr möglich</string>
-  <string name="miot_device_opening">Gerät ist an</string>
-  <string name="trip_required_info">Obligatorisch</string>
-
-
-  <string name="access_change_text" formatted="false">Aktuell sind die %d und %d Tauschpositionen ausgewählt</string>
-  <string name="access_select">Ausgewählt: %s</string>
-  <string name="access_unselect">Abgewählt: %s</string>
+  <string name="access_unselect">%s abgewählt</string>
   <string name="accessibility_title">Infoassistent</string>
   <string name="accessibilty_back_button">Zurück</string>
   <string name="accessibilty_move_down">Nach unten</string>
@@ -287,6 +256,14 @@
   <string name="already_download">Heruntergeladen</string>
   <string name="amount_ten_million_format">%s Millionen</string>
   <string name="announce_for_drag">Ein Element ziehen</string>
+  <string name="app_debug_settings">App-Debug-Einstellungen</string>
+  <string name="app_debug_settings_copied_to_clipboard">In Zwischenablage kopiert</string>
+  <string name="app_debug_settings_host_title">Host-Umgebung wechseln</string>
+  <string name="app_debug_settings_id_title">Geräte-ID</string>
+  <string name="app_debug_settings_oaid_summary">(Tippen, um OAID zu kopieren)</string>
+  <string name="app_debug_settings_preview_title">Vorschau</string>
+  <string name="app_debug_settings_toast_switch_error">env-Fehler umschalten</string>
+  <string name="app_debug_settings_vaid_summary">(Tippen, um VAID zu kopieren)</string>
   <string name="app_label">Infoassistent</string>
   <string name="app_setting">Infoassistent-Einstellungen</string>
   <string name="app_setting_account">Konten</string>
@@ -307,6 +284,7 @@
   <string name="app_suggest_setting_brief">App-Vorschläge und Funktionen erhalten</string>
   <string name="app_suggest_setting_brief_detail">App-Vorschläge und Funktionen erhalten, die Sie am ehesten nutzen werden</string>
   <string name="app_suggest_setting_title">App-Vorschläge</string>
+  <string name="app_version_name">"Version Infoassistent: "</string>
   <string name="apps">App-Vorschläge</string>
   <string name="arr_airport">Zielflughafen</string>
   <string name="arr_airport_example">z. B. Shanghai Pudong T2</string>
@@ -356,7 +334,17 @@
   <string name="bl_open_failed">Auf das Armband kann nicht zugegriffen werden. Auf das andere Armband tippen, um es erneut zu versuchen.</string>
   <string name="bl_open_failed_exit">Auf das Armband kann nicht zugegriffen werden</string>
   <string name="bl_validate_failed_change_pwd">Kein Armband gefunden. Sie werden zur Passworteingabe weitergeleitet.</string>
+  <string name="bluetooth_card_btm_btn_more">Mehr Geräte</string>
+  <string name="bluetooth_card_btm_btn_shrink">Ausblenden</string>
+  <string name="bluetooth_card_title">Akkuverbrauch</string>
+  <string name="bluetooth_item_double_battery_level_box">Box: %d%%</string>
+  <string name="bluetooth_item_double_battery_level_box_invalid">Box: Keine Daten</string>
+  <string name="bluetooth_item_double_battery_level_left">L: %d%%</string>
+  <string name="bluetooth_item_double_battery_level_left_invalid">L: Keine Daten</string>
+  <string name="bluetooth_item_double_battery_level_right">R: %d%%</string>
+  <string name="bluetooth_item_double_battery_level_right_invalid">R: Keine Daten</string>
   <string name="bluetooth_open_ok">Bluetooth erfolgreich geöffnet</string>
+  <string name="bluetooth_setting_brief">Akkuverbrauchinfo der angeschlossenen Geräte anzeigen</string>
   <string name="book_add">Buchung hinzufügen</string>
   <string name="book_add_date_diff">Check-out-Datum muss nach dem Check-in-Datum liegen</string>
   <string name="book_add_dialog_continue">Nicht beenden</string>
@@ -510,6 +498,9 @@
   <string name="daily_greeting">Tägliche Grüße</string>
   <string name="data_error">Ein Fehler ist aufgetreten, kurz warten und erneut versuchen.</string>
   <string name="data_error_show">Bestellung ist abgeschlossen, Details werden nicht angezeigt</string>
+  <string name="debug_card_brief">Debugging-Einstellungen und -Werkzeuge</string>
+  <string name="debug_card_detail">Debugging-Einstellungen und -Werkzeuge</string>
+  <string name="debug_card_title">Debugging</string>
   <string name="delete">Löschen</string>
   <string name="dep_airport">Abflughafen</string>
   <string name="dep_airport_example">z. B. Beijing Capital T3</string>
@@ -1183,10 +1174,12 @@ Sendungsverfolgungsnummer prüfen."</string>
   <string name="miot_device_card_title">Mi Home Geräte</string>
   <string name="miot_device_click_show_detail">Tippen, um mehr über Smart Home-Geräte zu erfahren)</string>
   <string name="miot_device_click_show_img">Tippen, um das Bild anzuzeigen</string>
+  <string name="miot_device_closed">Gerät ist aus</string>
   <string name="miot_device_cta_and">und</string>
   <string name="miot_device_cta_message">Fügen Sie das Smart-Gerät zur einfachen Handhabung hinzu. Wenn Sie auf die Schaltfläche \"berechtigt\" tippen, erklären Sie sich mit der App einverstanden.</string>
   <string name="miot_device_cta_priv">Datenschutzerklärung</string>
   <string name="miot_device_cta_use_info">Nutzungsbedingungen</string>
+  <string name="miot_device_disabled">Gerät steuern jetzt nicht mehr möglich</string>
   <string name="miot_device_edit">Bearbeiten</string>
   <string name="miot_device_edit_device">Geräte neu ordnen</string>
   <string name="miot_device_empty_device_hint">Smart-Geräte wie Luftreiniger, Kameras und Robotersauger für eine schnelle Steuerung hinzufügen</string>
@@ -1202,6 +1195,7 @@ Sendungsverfolgungsnummer prüfen."</string>
   <string name="miot_device_mijia_uninstall_title">Nicht installiert</string>
   <string name="miot_device_network_error">Keine Verbindung</string>
   <string name="miot_device_no_recent_frame">Tippen, um anzuzeigen</string>
+  <string name="miot_device_opening">Gerät ist an</string>
   <string name="miot_device_personal_assistant_eula">Nutzungsvereinbarung</string>
   <string name="miot_device_personal_assistant_eula_priv">" und Assistenten"</string>
   <string name="miot_device_personal_assistant_priv">Datenschutzerklärung</string>
@@ -1242,6 +1236,9 @@ Sendungsverfolgungsnummer prüfen."</string>
   <string name="monthly_report_entry_text">Monatsbericht ansehen</string>
   <string name="monthly_report_lable">Monatsbericht</string>
   <string name="more_express_numbers">Mehr Kuriernummern</string>
+  <string name="mru_setting_brief">Quick-Apps und Verknüpfungen, die nach Herunterziehen im Infoassistent angezeigt werden</string>
+  <string name="mru_setting_brief_detail">"Kürzlich verwendete Quick-Apps und Verknüpfungen. "</string>
+  <string name="mru_title">Neueste Elemente</string>
   <string name="msp_memo_app_cancel">Überlastet，versuchen Sie es später erneut</string>
   <string name="msp_memo_repeat_pay">Gleiche Bestellung kann nicht mehrmals bezahlt werden</string>
   <string name="msp_memo_server_cancel">Überlastet, versuchen Sie es später erneut</string>
@@ -1254,7 +1251,7 @@ Sendungsverfolgungsnummer prüfen."</string>
   <string name="msp_phone_num_info">"Die von der Bank reservierte Telefonnummer ist die bei der Verarbeitung der Bankkarte eingegebene Telefonnummer.
 Keine Reservierung, vergessen oder deaktivieren Sie die Telefonnummer, wenden Sie sich bitte an den Bankkundenservice."</string>
   <string name="msp_phone_num_title">Telefonnummerbeschreibung</string>
-  <string name="msp_secure_key_and">Undzeichen</string>
+  <string name="msp_secure_key_and">Und-Zeichen</string>
   <string name="msp_secure_key_apostrophe">Hochkomma</string>
   <string name="msp_secure_key_ask">Fragezeichen</string>
   <string name="msp_secure_key_at">At-Zeichen</string>
@@ -1298,9 +1295,6 @@ Keine Reservierung, vergessen oder deaktivieren Sie die Telefonnummer, wenden Si
   <string name="msp_secure_keyboard_type_special_sign">Umschalten auf Sonderzeichentastatur</string>
   <string name="msp_secure_keyboard_type_uppercase_letter">Umschaltung auf Großbuchstabentastatur</string>
   <string name="msp_security_monitor">Sicherheitsprüfung</string>
-  <string name="mru_setting_brief">Quick-Apps und Verknüpfungen, die nach dem Herunterziehen im Infoassistent angezeigt werden</string>
-  <string name="mru_setting_brief_detail">"Kürzlich verwendete Quick-Apps und Verknüpfungen "</string>
-  <string name="mru_title">Neueste Elemente</string>
   <string name="music">Musik &amp; Radio</string>
   <string name="music_card_error_str">Ein Fehler ist aufgetreten. Öffnen Sie die Musik-App zum Abspielen.</string>
   <string name="music_open">Karte Musik &amp; Radio anzeigen</string>
@@ -1711,6 +1705,7 @@ Keine Reservierung, vergessen oder deaktivieren Sie die Telefonnummer, wenden Si
   <string name="trip_assistant_all_btn">Alle Reisen</string>
   <string name="trip_profession">Premium-Auto</string>
   <string name="trip_quick">Fahrer</string>
+  <string name="trip_required_info">Obligatorisch</string>
   <string name="try_again">Erneut versuchen</string>
   <string name="understandassistant">Über Infoassistent</string>
   <string name="uninstall">Nicht installiert</string>
