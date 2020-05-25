@@ -47,6 +47,7 @@
   <string name="btn_restore_resume">Fortsetzen</string>
   <string name="btn_restore_retry">Erneut versuchen</string>
   <string name="btn_restore_wait">Auf WLAN warten</string>
+  <string name="btn_restore_wait_china">Auf WLAN warten</string>
   <string name="btn_retry">Erneut prüfen</string>
   <string name="btn_skip">Diesen Schritt überspringen</string>
   <string name="button_cancel">Abbrechen</string>
@@ -77,6 +78,12 @@
 *\u0009\u0009\u0009\u0009Benachrichtigungseinstellungen
 *\u0009\u0009\u0009\u0009MIUI- und Systemeinstellungen
 Wichtig: Daten der einzelnen Apps werden dabei nicht in Xiaomi Cloud gesichert."</string>
+  <string name="cloud_back_up_detail_discription_china">"Diese Elemente werden in Xiaomi Cloud gesichert, wenn eine WLAN-Verbindung besteht:
+*\u0009\u0009\u0009\u0009Apps, Startbildschirm-Layout und Hintergrundbilder
+*\u0009\u0009\u0009\u0009Wecker-, Uhr- und Zeiteinstellungen
+*\u0009\u0009\u0009\u0009Benachrichtigungseinstellungen
+*\u0009\u0009\u0009\u0009MIUI- und Systemeinstellungen
+Wichtig: Daten der einzelnen Apps werden dabei nicht in Xiaomi Cloud gesichert."</string>
   <string name="cloud_back_up_frequence_choice_title">Sicherungszeitplan</string>
   <string name="cloud_back_up_frequence_long">Alle 7 Tage</string>
   <string name="cloud_back_up_frequence_short">Täglich</string>
@@ -92,7 +99,8 @@ Wichtig: Daten der einzelnen Apps werden dabei nicht in Xiaomi Cloud gesichert."
   <string name="cloud_backup_detail_frequence">Sicherungszeitplan</string>
   <string name="cloud_backup_detail_manage">Sicherungen verwalten</string>
   <string name="cloud_backup_detail_state">Automatische Sicherungen</string>
-  <string name="cloud_backup_detail_state_summary">Xiaomi Cloud-Sicherungen automatisch erstellen, wenn eine WLAN-Verbindung besteht.</string>
+  <string name="cloud_backup_detail_state_summary">Xiaomi Cloud-Sicherungen automatisch erstellen, wenn mit WLAN verbunden</string>
+  <string name="cloud_backup_detail_state_summary_china">Xiaomi Cloud-Sicherungen automatisch erstellen, wenn mit WLAN verbunden</string>
   <string name="cloud_backup_detail_time">Letzte Sicherung: %1$s</string>
   <string name="cloud_backup_detail_title">Startbildschirm, Apps und Einstellungen.</string>
   <string name="cloud_backup_have_data">Sicherung in Xiaomi Cloud gefunden</string>
@@ -129,7 +137,9 @@ Wichtig: Daten der einzelnen Apps werden dabei nicht in Xiaomi Cloud gesichert."
   <string name="dialog_cancel_backup_title">Laufende Sicherung abbrechen?</string>
   <string name="dialog_msg_overwrite_backup">Die lokale Sicherung unterscheidet sich von der in Xiaomi Cloud. Wenn Sie fortfahren, überschreibt die aktuelle Sicherung die vorherige.</string>
   <string name="dialog_msg_restore_require_wlan">Wiederherstellen von Sicherungen erfordert WLAN-Verbindung</string>
+  <string name="dialog_msg_restore_require_wlan_china">Wiederherstellen von Sicherungen erfordert WLAN-Verbindung</string>
   <string name="dialog_title_require_wlan">Mit WLAN verbinden</string>
+  <string name="dialog_title_require_wlan_china">Mit WLAN verbinden</string>
   <string name="dir_date_format">yyyyMMdd_HHmmss</string>
   <string name="doing_calc_backup_data_size">Größe berechnen…</string>
   <string name="doing_restore_home">Startbildschirm und Einstellungen wiederherstellen…</string>
