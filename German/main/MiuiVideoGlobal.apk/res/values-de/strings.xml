@@ -22,7 +22,7 @@
   <string name="abc_shareactionprovider_share_with">Teilen mit</string>
   <string name="abc_shareactionprovider_share_with_application">Teilen mit %s</string>
   <string name="abc_toolbar_collapse_description">Einklappen</string>
-  <string name="account_bind_secure_email_title">E-Mail zum Wiederherstellen hinzufügen</string>
+  <string name="account_bind_secure_email_title">Wiederherstellungs-E-Mail hinzufügen</string>
   <string name="account_bind_secure_phone_title">Telefonnr. zum Wiederherstellen hinzufügen</string>
   <string name="account_crop_user_avatar">Foto zuschneiden</string>
   <string name="account_empty_user_name">Mi-Konto-Benutzername eingeben</string>
@@ -52,7 +52,7 @@
   <string name="account_user_phone">Telefon zum Wiederherstellen</string>
   <string name="action_add_phone">Telefonnummer hinzufügen</string>
   <string name="action_update_phone">Telefonnummer ändern</string>
-  <string name="activate_email_notice">Stellen Sie sicher, dass Sie Ihr Konto innerhalb von 24 Stunden aktivieren</string>
+  <string name="activate_email_notice">Sie müssen Ihr Konto innerhalb von 24 Stunden aktivieren.</string>
   <string name="activity_not_found_notice">App nicht gefunden</string>
   <string name="ad_buy">Kaufen</string>
   <string name="ad_download">Herunterladen</string>
@@ -89,7 +89,7 @@
   <string name="auto_play_next_off">Autoplay ist aus</string>
   <string name="auto_play_next_on">Autoplay ist an</string>
   <string name="before_yestoday">Vor 2 Tagen</string>
-  <string name="bind_sign_in_title">Bindung an Mi-Konto</string>
+  <string name="bind_sign_in_title">Mi-Konto hinzufügen</string>
   <string name="browser_error">Zurzeit nicht verfügbar, bitte später wieder versuchen</string>
   <string name="cancel">Abbrechen</string>
   <string name="cancel_choose">Abwählen</string>
@@ -216,14 +216,14 @@
   <string name="confirm_activate_email">Bestätigt</string>
   <string name="confirm_bundled_phone_dialog_title">Zugehörige Telefonnummer bestätigen</string>
   <string name="confirm_new_pwd">Neues Passwort bestätigen</string>
-  <string name="confirm_unbundled_phone_dialog_message">Diese Telefonnummer wurde mit Mi-Konto %2$s auf %1$s verknüpft. Sie wird nicht mehr mit Mi-Konto %3$s verknüpft sein, wenn Sie fortfahren. Fortfahren?</string>
+  <string name="confirm_unbundled_phone_dialog_message">Diese Telefonnummer war mit dem Mi-Konto %2$s auf %1$s verbunden. Sie ist nicht mehr mit dem Mi-Konto %3$s verbunden, wenn Sie fortfahren. Fortfahren?</string>
   <string name="content">Inhalt</string>
   <string name="content_can_not_null">Feedback ohne Beschreibung nicht möglich</string>
   <string name="data_empty">Keine Elemente hier</string>
   <string name="day">Tag</string>
   <string name="description">Beschreibung</string>
-  <string name="diagnosis_log_send_failed">Logs senden nicht möglich. Erneut versuchen.</string>
-  <string name="diagnosis_log_sent_format">"Logs erfolgreich gesendet.
+  <string name="diagnosis_log_send_failed">Protokolle nicht gesendet. Erneut versuchen.</string>
+  <string name="diagnosis_log_sent_format">"Protokolle erfolgreich gesendet.
 ID:%s
 Senden Sie diesen Code an den Supervisor."</string>
   <string name="dialog_privacy_info_new2">"Um die Dienste nutzen zu können, müssen Sie zustimmen, dass %1$s Ihre personenbezogenen Daten erfasst, verarbeitet und nutzt. Unsere &lt;a href=%2$s>Datenschutzerklärung&lt;/a> gilt als gelesen und akzeptiert, wenn Sie unten auf \"Zustimmen\" tippen."</string>
@@ -240,8 +240,8 @@ Senden Sie diesen Code an den Supervisor."</string>
   <string name="error_drm_not_supported">Geschützte Inhalte, nicht unterstützt auf einem API-Level unter 18</string>
   <string name="error_drm_unknown">Ein unbekannter DRM-Fehler ist aufgetreten.</string>
   <string name="error_drm_unsupported_scheme">Dieses Gerät unterstützt nicht das erforderliche DRM-Schema.</string>
-  <string name="error_dup_binded_email">Diese E-Mail-Adresse ist bereits mit einem anderen Mi-Konto verknüpft.</string>
-  <string name="error_invalid_bind_address">Eingegebene E-Mail-Adresse ist ungültig</string>
+  <string name="error_dup_binded_email">Diese E-Mail-Adresse ist bereits mit einem anderen Mi-Konto verbunden.</string>
+  <string name="error_invalid_bind_address">Eingegebene E-Mail-Adresse ist ungültig.</string>
   <string name="error_mg_content_not_available">Dieser Inhalt ist in Ihrem Land nicht verfügbar.</string>
   <string name="error_mg_no_content">Keine Inhalte für diesen Film verfügbar. Bitte später erneut versuchen.</string>
   <string name="error_mg_no_content_for_tv">Keine Inhalte für diese TV-Show verfügbar. Bitte später erneut versuchen.</string>
@@ -252,7 +252,7 @@ Senden Sie diesen Code an den Supervisor."</string>
   <string name="error_msg_video_play_time_out">Sorry, wir können dieses Video im Moment nicht abspielen. Bitte versuchen Sie es später erneut.</string>
   <string name="error_msg_video_play_time_out_title">Zeitüberschreitung</string>
   <string name="error_no_content">Kein Inhalt verfügbar</string>
-  <string name="exceed_binded_phone_times_notice">Diese Telefonnummer ist bereits mit einem anderen Mi-Konto verknüpft.</string>
+  <string name="exceed_binded_phone_times_notice">Diese Telefonnummer ist bereits mit einem anderen Mi-Konto verbunden.</string>
   <string name="exit">Beenden</string>
   <string name="exo_controls_fastforward_description">Schnellvorlauf</string>
   <string name="exo_controls_fullscreen_description">Vollbildmodus</string>
@@ -278,7 +278,7 @@ Senden Sie diesen Code an den Supervisor."</string>
   <string name="explore">Entdecken</string>
   <string name="explore_On">Mehr über Mi Video erfahren</string>
   <string name="explore_on_mi_video">Mehr auf Mi Video</string>
-  <string name="failed_dup_secure_phone_number">Diese Telefonnummer ist bereits mit einem anderen Mi-Konto verknüpft.</string>
+  <string name="failed_dup_secure_phone_number">Diese Telefonnummer ist bereits mit einem anderen Mi-Konto verbunden.</string>
   <string name="failed_to_fetch_data">Info nicht geladen</string>
   <string name="favor_playlist">Playlisten</string>
   <string name="favorite">Favoriten</string>
@@ -302,7 +302,7 @@ Senden Sie diesen Code an den Supervisor."</string>
   <string name="feedback_text_empty_toast">Zuerst Feedback eingeben.</string>
   <string name="find_psw">Passwort vergessen</string>
   <string name="finish">Erledigt</string>
-  <string name="for_diagnosis_usage_only">Logs werden nur für Diagnosezwecke verwendet</string>
+  <string name="for_diagnosis_usage_only">Protokolle werden nur zur Diagnose verwendet.</string>
   <string name="for_you">Für Sie</string>
   <string name="friday">Freitag</string>
   <string name="fw_loading">Einen Moment…</string>
@@ -386,8 +386,8 @@ Senden Sie diesen Code an den Supervisor."</string>
   <string name="galleryplus_vp_videoview_error_title">Video kann nicht abgespielt werden</string>
   <string name="get_back_pwd">Passwort zurücksetzen</string>
   <string name="get_ph_ticket">Code erhalten</string>
-  <string name="get_phone_bind_exceed_limit">Bis zu 3 Mi Konten können mit einer Telefonnummer verknüpft werden. Neue Konten können nicht hinzugefügt werden.</string>
-  <string name="get_phone_verifycode_exceed_limit">Zu viele Bestätigungscodes wurden an diese Nummer gesendet. 24 Stunden warten und erneut versuchen.</string>
+  <string name="get_phone_bind_exceed_limit">Bis zu 3 Mi Konten können mit einer Telefonnummer verbunden werden. Neue Konten können nicht hinzugefügt werden.</string>
+  <string name="get_phone_verifycode_exceed_limit">Zu viele Verifizierungscodes wurden an diese Nummer geschickt. 24 Stunden warten und erneut versuchen.</string>
   <string name="goto_sign_up">Konto erstellen</string>
   <string name="grant_write_settings_permission">Bitte erlauben, um die Helligkeit des Players zu steuern</string>
   <string name="have_learned">Verstanden</string>
@@ -690,7 +690,7 @@ Aktualisieren Sie Mi Video erst auf die neueste Version."</string>
   <string name="passport_access_denied">Zugriff verweigert</string>
   <string name="passport_account_label">Mi-Konto</string>
   <string name="passport_account_name">"Konto: %1$s "</string>
-  <string name="passport_activate_token_expired">Verifizierung abgelaufen. Bitte erneut versuchen.</string>
+  <string name="passport_activate_token_expired">Verifizierungscode abgelaufen. Erneut versuchen</string>
   <string name="passport_area_code_title">Vorwahl</string>
   <string name="passport_bad_authentication">Benutzername oder Passwort ungültig</string>
   <string name="passport_barcode_add_account_prompt">Um ein Konto hinzuzufügen, scannen Sie den QR-Code nach dem Anmelden erneut.</string>
@@ -701,8 +701,8 @@ Aktualisieren Sie Mi Video erst auf die neueste Version."</string>
   <string name="passport_email">E-Mail-Adresse</string>
   <string name="passport_empty_password">Passwort darf nicht leer sein</string>
   <string name="passport_empty_user_name">Benutzername darf nicht leer sein</string>
-  <string name="passport_error_auth_fail">Sitzung abgelaufen. Erneut anmelden.</string>
-  <string name="passport_error_device_id">Geräte-ID nicht verfügbar</string>
+  <string name="passport_error_auth_fail">Sitzung abgelaufen. Erneut anmelden</string>
+  <string name="passport_error_device_id">Geräte-ID nicht erhalten</string>
   <string name="passport_error_email">Eingegebene E-Mail-Adresse ist ungültig</string>
   <string name="passport_error_empty_captcha_code">Captcha eingeben</string>
   <string name="passport_error_empty_email">E-Mail-Adresse eingeben</string>
