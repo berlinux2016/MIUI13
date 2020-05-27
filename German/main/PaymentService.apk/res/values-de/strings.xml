@@ -17,8 +17,8 @@
   <string name="abc_shareactionprovider_share_with">Teilen mit</string>
   <string name="abc_shareactionprovider_share_with_application">Teilen mit %s</string>
   <string name="abc_toolbar_collapse_description">Einklappen</string>
-  <string name="account_bind_secure_email_title">E-Mail zum Wiederherstellen hinzufügen</string>
-  <string name="account_bind_secure_phone_title">Telefonnr. zum Wiederherstellen hinzufügen</string>
+  <string name="account_bind_secure_email_title">Wiederherstellungs-E-Mail hinzufügen</string>
+  <string name="account_bind_secure_phone_title">Wiederherstellungstelefonnummer hinzufügen</string>
   <string name="account_crop_user_avatar">Foto zuschneiden</string>
   <string name="account_empty_user_name">Mi-Konto-Benutzername eingeben</string>
   <string name="account_error_all_space_user_name">Benutzername darf nicht leer sein</string>
@@ -26,7 +26,7 @@
   <string name="account_error_longer_user_name">Name darf max. 20 Zeichen haben</string>
   <string name="account_error_shorter_user_name">Name muss mehr als 2 Zeichen haben</string>
   <string name="account_error_user_birthday">Eingegebener Geburtstag ist ungültig</string>
-  <string name="account_error_user_name">Dieser Nickname ist ungültig. Einen anderen versuchen.</string>
+  <string name="account_error_user_name">Dieser Spitzname ist ungültig. Einen anderen versuchen.</string>
   <string name="account_invalid_user_avatar">Dieses Foto ist ungültig. Eine anderes versuchen.</string>
   <string name="account_limit_update_birthday">Geburtstag kann momentan nicht aktualisiert werden</string>
   <string name="account_no_set">Nichts</string>
@@ -445,13 +445,13 @@ Kundenservicecenter: 400-100-5678"</string>
   <string name="passport_error_invalid_phone_num">Ungültige Telefonnummer</string>
   <string name="passport_error_login">Anmeldung nicht möglich</string>
   <string name="passport_error_network">Netzwerkverbindung nicht möglich</string>
-  <string name="passport_error_no_password_user">Sie haben das Passwort noch nicht festgelegt. Melden Sie sich mit SMS an.</string>
+  <string name="passport_error_no_password_user">Passwort wurde noch nicht festgelegt. Mit SMS anmelden.</string>
   <string name="passport_error_phone_error">Ungültige Telefonnummer</string>
   <string name="passport_error_server">Serverfehler</string>
   <string name="passport_error_sim_not_ready">SIM-Karte nicht gefunden</string>
   <string name="passport_error_ssl_hand_shake">Verbindung mit Server nicht möglich</string>
-  <string name="passport_error_unknown">Anmeldung nicht möglich</string>
-  <string name="passport_error_user_agreement_error">Erst den allgemeinen Geschäftsbedingungen zustimmen</string>
+  <string name="passport_error_unknown">Unbekannter Fehler</string>
+  <string name="passport_error_user_agreement_error">Erst die allgemeinen Geschäftsbedingungen akzeptieren</string>
   <string name="passport_error_user_name">Eingegebener Benutzername ist ungültig</string>
   <string name="passport_error_verify_activator_phone_message">Stellen Sie sicher, dass Ihr SIM-Kartendienst aktiviert ist und das Gerät mit dem Netzwerk verbunden ist.</string>
   <string name="passport_error_verify_activator_phone_title">Telefonnummer konnte nicht verifiziert werden</string>
@@ -462,9 +462,9 @@ Kundenservicecenter: 400-100-5678"</string>
   <string name="passport_get_back_pwd">Kontopasswort abrufen</string>
   <string name="passport_get_verify_code">Code abrufen</string>
   <string name="passport_getting_activator_phone">SIM-Info abrufen…</string>
-  <string name="passport_getting_verify_code">Abrufen</string>
+  <string name="passport_getting_verify_code">Einen Moment…</string>
   <string name="passport_i_know">Fertig</string>
-  <string name="passport_identification_expired">Verifikationscode abgelaufen, erneut versuchen</string>
+  <string name="passport_identification_expired">Verifizierungscode abgelaufen. Neu beginnen.</string>
   <string name="passport_identitfication_expired">Verifizierungscode abgelaufen, neu starten</string>
   <string name="passport_imei_permission_denied_message">Wir brauchen die Berechtigung, Ihre Geräte-IMEI abzurufen. Mi-Konto nutzt die IMEI, um das Gerät zu identifizieren, auf dem Sie sich anmelden/angemeldet sind, um die Sicherheit Ihres Mi-Kontos zu gewährleisten</string>
   <string name="passport_imei_permission_denied_title">IMEI-Berechtigung anfordern</string>
@@ -495,7 +495,7 @@ Kundenservicecenter: 400-100-5678"</string>
   <string name="passport_no">Nein</string>
   <string name="passport_notification_title">Anmeldefehler bei %1$s</string>
   <string name="passport_password_phone_login">Mit Mi-Konto anmelden</string>
-  <string name="passport_password_req_notice">Passwort muss 8-16 Zeichen lang sein und sowohl Ziffern als auch Groß-/Kleinbuchstaben enthalten</string>
+  <string name="passport_password_req_notice">Passwort muss 8-16 Zeichen lang sein und mindestens zwei der folgenden Elemente enthalten: Ziffern, Buchstaben und Sonderzeichen (z. B. 123abc@# oder 123abc oder abc@#).</string>
   <string name="passport_phone_num_hint_text">Telefonnummer</string>
   <string name="passport_phone_ticket_login">Mit SMS anmelden</string>
   <string name="passport_prev">Zurück</string>
@@ -555,13 +555,13 @@ Kundenservicecenter: 400-100-5678"</string>
   <string name="passport_select_the_login_account">Konto zum Anmelden wählen</string>
   <string name="passport_select_the_recycle_phone_login">Konto wählen</string>
   <string name="passport_select_the_register_phone">Telefonnummer wählen, um Konto einzurichten</string>
-  <string name="passport_send_too_many_code">Zu viele Verifikationscodes wurden an diese Nummer geschickt. Warten Sie 24 Stunden und versuchen Sie es erneut.</string>
+  <string name="passport_send_too_many_code">Zu viele Verifikationscodes wurden an diese Nummer geschickt. 24 Stunden warten und erneut versuchen.</string>
   <string name="passport_send_too_many_sms">Zu viele Verifizierungscodes wurden an diese Nummer geschickt. 24 Stunden warten und erneut versuchen.</string>
-  <string name="passport_send_vcode_failed">Code konnte nicht gesendet werden</string>
+  <string name="passport_send_vcode_failed">Code wurde nicht gesendet</string>
   <string name="passport_sending_vcode">Code senden…</string>
   <string name="passport_set">Gesetzt</string>
   <string name="passport_set_password">Passwort festlegen</string>
-  <string name="passport_set_password_no_phone_msg">Telefonnummer hinzufügen, um Ihr Konto zu schützen.</string>
+  <string name="passport_set_password_no_phone_msg">Telefonnummer hinzufügen, um Ihr Konto zu schützen</string>
   <string name="passport_setting">Einrichten…</string>
   <string name="passport_sign_in">Anmelden</string>
   <string name="passport_sign_in_or_sign_up">Anmelden/Konto erstellen</string>
@@ -577,9 +577,9 @@ Kundenservicecenter: 400-100-5678"</string>
   <string name="passport_talkback_switch_image_captcha">Umschalten auf Bildverifizierungscode</string>
   <string name="passport_talkback_switch_voice_captcha">Umschalten auf Sprachverifizierungscode</string>
   <string name="passport_talkback_voice_captcha">Sprachverifizierungscode abspielen</string>
-  <string name="passport_timeout_network_error">Netzwerkanfrage abgelaufen </string>
+  <string name="passport_timeout_network_error">Timeout Netzwerkanfrage</string>
   <string name="passport_title_reg">Konto erstellen</string>
-  <string name="passport_trust_device">Dieses Gerät zu den verifizierten Geräten hinzufügen</string>
+  <string name="passport_trust_device">Dies ist ein vertrauenswürdiges Gerät</string>
   <string name="passport_trying_read_verify_code_sms">Verifikationscode erhalten…</string>
   <string name="passport_unknow_error">Ein unbekannter Fehler ist aufgetreten</string>
   <string name="passport_unknow_host_network_error">Netzwerkeinstellungen prüfen und erneut versuchen</string>
@@ -591,7 +591,7 @@ Kundenservicecenter: 400-100-5678"</string>
   <string name="passport_use_generated_pwd_title">Passwort merken</string>
   <string name="passport_user_agreement">Nutzervereinbarung</string>
   <string name="passport_user_agreement_link">"&lt;Data>Ich habe Xiaomi's &lt;a href=%1$s>Nutzervereinbarung&lt;/a> und &lt;a href=%2$s>Datenschutzerklärung&lt;/a> gelesen und akzeptiert.&lt;/Data>"</string>
-  <string name="passport_user_agreement_link_more">"&lt;Data>Ich habe die folgenden Dokumente gelesen und akzeptiert: Xiaomi's &lt;a href=%1$s>Nutzervereinbarung&lt;/a> and &lt;a href=%4$s>Datenschutzerklärung&lt;/a>, &lt;a href=%2$s>%3$s&lt;/a>.&lt;/Data>"</string>
+  <string name="passport_user_agreement_link_more">"&lt;Data>Ich habe folgende Dokumente gelesen und akzeptiert: Xiaomi's &lt;a href=%1$s>Nutzervereinbarung&lt;/a> und &lt;a href=%4$s>Datenschutzerklärung&lt;/a>, &lt;a href=%2$s>%3$s&lt;/a>.&lt;/Data>"</string>
   <string name="passport_user_agreement_p1">"Zustimmen zur "</string>
   <string name="passport_user_agreement_p2">Nutzervereinbarung</string>
   <string name="passport_user_agreement_p3">" und "</string>
@@ -603,7 +603,7 @@ Kundenservicecenter: 400-100-5678"</string>
   <string name="passport_v_code_error">Verifizierungscode ist falsch</string>
   <string name="passport_vcode_notification_title">Ihre Anmeldebestätigung ist unvollständig</string>
   <string name="passport_vcode_prompt_long">Verifikationscode eingeben</string>
-  <string name="passport_vcode_sms_send_prompt">Verifikationscode an %s senden</string>
+  <string name="passport_vcode_sms_send_prompt">Code an %s senden</string>
   <string name="passport_verification_failed">Authentifizierung fehlgeschlagen</string>
   <string name="passport_verify">Verifizieren</string>
   <string name="passport_verifying_activator_phone">Telefonsicherheit verifizieren…</string>
@@ -612,9 +612,9 @@ Kundenservicecenter: 400-100-5678"</string>
   <string name="passport_wrong_captcha">Eingegebener Code ist falsch</string>
   <string name="passport_wrong_phone_number_format">Format der eingegebenen Telefonnummer ist ungültig</string>
   <string name="passport_wrong_vcode">Eingegebener Code ist falsch</string>
-  <string name="passport_wrong_voice">Der eingegebene Code ist falsch</string>
+  <string name="passport_wrong_voice">Eingegebener Code ist falsch</string>
   <string name="passport_yes">Ja</string>
-  <string name="password_toggle_content_description">Passwortsichtbarkeit umschalten</string>
+  <string name="password_toggle_content_description">Passwort anzeigen</string>
   <string name="phone_bind_too_many">Dieses Telefon wurde in kurzer Zeit mit mehreren Mi-Konten in Verbindung gebracht. Versuchen Sie eine andere Telefonnummer.</string>
   <string name="phone_hint">Telefonnummer</string>
   <string name="phone_num_use_for">Telefonnummer wird verwendet für:</string>
@@ -628,11 +628,11 @@ Kundenservicecenter: 400-100-5678"</string>
 
 Wenn Sie nicht zustimmen, die oben genannten Berechtigungen zu erteilen, wird diese Funktion nicht richtig funktionieren, aber es wird die Nutzung der Grundfunktionen dieser App nicht beeinträchtigen. Sie können die oben genannte Berechtigungsabfrage in den Systemeinstellungen abschalten, um Ihre Zustimmung zurückzuziehen."</string>
   <string name="resend_active_email">Erneut senden</string>
-  <string name="resend_email_reach_limit_message">Sie haben zu viele Verifizierungs-E-Mails angefordert. Prüfen Sie, ob sich die Verifizierungs-E-Mail im Spam-Ordner des Posteingangs befindet.</string>
+  <string name="resend_email_reach_limit_message">Zu viele Verifizierungs-E-Mails wurden angefordert. Prüfen Sie, ob sich die Verifizierungs-E-Mail im Spam-Ordner des Posteingangs befindet.</string>
   <string name="resend_email_reach_limit_title">Zu viele Versuche</string>
   <string name="resend_email_success">Erfolgreich gesendet</string>
   <string name="restart_action">Neu beginnen</string>
-  <string name="restart_phone_bind_message">Der Empfang von SMS kann einige Zeit dauern. Trotzdem neu beginnen?</string>
+  <string name="restart_phone_bind_message">Empfang von SMS kann einige Zeit dauern. Trotzdem neu beginnen?</string>
   <string name="restart_phone_bind_title">Wiederherstellungstelefon ändern</string>
   <string name="same_new_and_old_pwd">Darf nicht mit dem aktuellen Passwort identisch sein</string>
   <string name="search_menu_title">Suchen</string>
@@ -646,17 +646,17 @@ Wenn Sie nicht zustimmen, die oben genannten Berechtigungen zu erteilen, wird di
   <string name="sign_in_title">Mit Mi-Konto anmelden</string>
   <string name="sms_send_success">Erfolgreich gesendet</string>
   <string name="sns_access_token_expired_warning">Sitzung abgelaufen. Erneut anmelden, um dieses Konto wieder zu verbinden.</string>
-  <string name="sns_bind_limit">Zu viele Versuche. Andere Wege zur Anmeldung versuchen.</string>
+  <string name="sns_bind_limit">Zu viele Versuche. Andere Wege zur Anmeldung probieren.</string>
   <string name="sns_sign_in">Andere Wege zur Anmeldung</string>
   <string name="temporary_not_available">Diese Funktion ist noch nicht verfügbar</string>
   <string name="ticket_hint">Verifizierungscode</string>
-  <string name="ticket_invalid">Der eingegebene Code ist falsch</string>
-  <string name="ticket_sign_in">Anmeldung per SMS</string>
+  <string name="ticket_invalid">Eingegebener Code ist falsch</string>
+  <string name="ticket_sign_in">Mit SMS anmelden</string>
   <string name="update_email_address_dialog_message">Sie müssen Ihre Identität verifizieren, bevor Sie die Wiederherstellungs-E-Mail aktualisieren.</string>
   <string name="update_email_address_dialog_title">Wiederherstellungs-E-Mail aktualisieren</string>
   <string name="update_phone_notice">Sicherheitseinstellungen ändern</string>
   <string name="upload_error_log">Protokoll hochladen</string>
-  <string name="user_avatar_update_title">Profilfoto ändern</string>
+  <string name="user_avatar_update_title">Profilbild ändern</string>
   <string name="user_avatar_uploading">Einen Moment…</string>
   <string name="user_id_hint">E-Mail/Telefon/Mi-Konto-ID</string>
   <string name="v_code_title">Verifizierungscode eingeben</string>

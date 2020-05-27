@@ -22,8 +22,8 @@
   <string name="about_item_function">Neuerungen</string>
   <string name="about_net_error">Netzwerkverbindung prüfen und erneut versuchen</string>
   <string name="about_newest">Hintergrundkarussell ist auf dem neuesten Stand</string>
-  <string name="account_bind_secure_email_title">E-Mail zum Wiederherstellen hinzufügen</string>
-  <string name="account_bind_secure_phone_title">Telefonnr. zum Wiederherstellen hinzufügen</string>
+  <string name="account_bind_secure_email_title">Wiederherstellungs-E-Mail hinzufügen</string>
+  <string name="account_bind_secure_phone_title">Wiederherstellungstelefonnummer hinzufügen</string>
   <string name="account_crop_user_avatar">Foto zuschneiden</string>
   <string name="account_empty_user_name">Mi-Konto-Benutzername eingeben</string>
   <string name="account_error_all_space_user_name">Benutzername darf nicht leer sein</string>
@@ -31,7 +31,7 @@
   <string name="account_error_longer_user_name">Name darf max. 20 Zeichen haben</string>
   <string name="account_error_shorter_user_name">Name muss mehr als 2 Zeichen haben</string>
   <string name="account_error_user_birthday">Eingegebener Geburtstag ist ungültig</string>
-  <string name="account_error_user_name">Dieser Nickname ist ungültig. Einen anderen versuchen.</string>
+  <string name="account_error_user_name">Dieser Spitzname ist ungültig. Einen anderen versuchen.</string>
   <string name="account_invalid_user_avatar">Dieses Foto ist ungültig. Eine anderes versuchen.</string>
   <string name="account_limit_update_birthday">Geburtstag kann momentan nicht aktualisiert werden</string>
   <string name="account_no_set">Nichts</string>
@@ -48,7 +48,7 @@
   <string name="account_user_email">E-Mail zum Wiederherstellen</string>
   <string name="account_user_gender">Geschlecht</string>
   <string name="account_user_id">Mi-Konto-ID</string>
-  <string name="account_user_name">Nickname</string>
+  <string name="account_user_name">Spitzname</string>
   <string name="account_user_name_dialog_title">Benutzernamen eingeben</string>
   <string name="account_user_phone">Telefon zum Wiederherstellen</string>
   <string name="action_add_phone">Telefonnummer hinzufügen</string>
@@ -616,7 +616,7 @@ dd.MM."</string>
   <string name="passport_talkback_voice_captcha">Sprachverifizierungscode abspielen</string>
   <string name="passport_timeout_network_error">Timeout Netzwerkanfrage</string>
   <string name="passport_title_reg">Konto erstellen</string>
-  <string name="passport_trust_device">Dieses Gerät zu den verifizierten Geräten hinzufügen</string>
+  <string name="passport_trust_device">Dies ist ein vertrauenswürdiges Gerät</string>
   <string name="passport_trying_read_verify_code_sms">Verifizierungscode erhalten…</string>
   <string name="passport_unknow_error">Ein unbekannter Fehler ist aufgetreten</string>
   <string name="passport_unknow_host_network_error">Netzwerkeinstellungen prüfen und erneut versuchen</string>
@@ -634,14 +634,14 @@ dd.MM."</string>
   <string name="passport_user_agreement_p3">" und "</string>
   <string name="passport_user_agreement_p4">Datenschutzerklärung</string>
   <string name="passport_user_agreement_prefix">"Zustimmen zu "</string>
-  <string name="passport_user_id_intro">An %1$s anmelden</string>
+  <string name="passport_user_id_intro">Passwort für %1$s eingeben</string>
   <string name="passport_user_id_notice">Ihre Mi-Konto-ID lautet %s</string>
   <string name="passport_user_reg_region">Land/Region</string>
   <string name="passport_user_reg_region_warning">Sie können Ihr Land/Ihre Region nicht mehr ändern, sobald das Konto erstellt wurde</string>
   <string name="passport_v_code_error">Verifizierungscode ist falsch</string>
   <string name="passport_vcode_notification_title">Ihre Anmeldebestätigung ist unvollständig</string>
   <string name="passport_vcode_prompt_long">Verifizierungscode eingeben</string>
-  <string name="passport_vcode_sms_send_prompt">Verifizierungscode an %s senden</string>
+  <string name="passport_vcode_sms_send_prompt">Code an %s senden</string>
   <string name="passport_verification_failed">Authentifizierung fehlgeschlagen</string>
   <string name="passport_verify">Verifizieren</string>
   <string name="passport_verifying_activator_phone">Telefonsicherheit verifizieren…</string>
@@ -650,9 +650,9 @@ dd.MM."</string>
   <string name="passport_wrong_captcha">Eingegebener Code ist falsch</string>
   <string name="passport_wrong_phone_number_format">Format der eingegebenen Telefonnummer ist ungültig</string>
   <string name="passport_wrong_vcode">Eingegebener Code ist falsch</string>
-  <string name="passport_wrong_voice">Der eingegebene Code ist falsch.</string>
+  <string name="passport_wrong_voice">Eingegebener Code ist falsch</string>
   <string name="passport_yes">Ja</string>
-  <string name="password_toggle_content_description">Passwortsichtbarkeit umschalten</string>
+  <string name="password_toggle_content_description">Passwort anzeigen</string>
   <string name="permission_account_tip">Kontozugriff</string>
   <string name="permission_storage_tip">Heruntergeladene Elemente auf Ihrem Gerät speichern</string>
   <string name="permission_storage_read_tip">Zugriff auf die auf Ihrem Gerät gespeicherten Fotos</string>
