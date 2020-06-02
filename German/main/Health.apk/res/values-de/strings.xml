@@ -44,6 +44,8 @@ um Karten hinzuzufügen"</string>
   <string name="added_data_source">Quellen hinzugefügt</string>
   <string name="afternoon">Nachmittag</string>
   <string name="all_records">Alle Aufzeichnungen</string>
+  <string name="allergic_drugs">Allergie-Medikamente</string>
+  <string name="allergic_drugs_hint">Allergie-Medikamente und -Reaktionen eintragen</string>
   <string name="allow_notice_periods">Erinnerungen an Periode zulassen</string>
   <string name="altitude">Höhe</string>
   <string name="altitude_range">Höhe</string>
@@ -55,6 +57,7 @@ um Karten hinzuzufügen"</string>
   <string name="auto_start_fail">Berechtigung wurde nicht erteilt</string>
   <string name="auto_start_success">Berechtigung erfolgreich erteilt</string>
   <string name="auto_start_tips">Unten auf \"Einstellungen\" tippen, um Xiaomi Health-Einstellungen zu öffnen und erforderliche Berechtigungen zu vergeben</string>
+  <string name="avatar_upload_failure">Upload fehlgeschlagen, bitte Netzwerkverbindung prüfen</string>
   <string name="average_cycle_days">Ø-Zyklus</string>
   <string name="average_menstruation_days">Ø-Periodendauer</string>
   <string name="avg_altitude">Ø-Höhe</string>
@@ -88,6 +91,10 @@ um Karten hinzuzufügen"</string>
   <string name="bg_control_dialog_go_set">Einstellungen</string>
   <string name="bg_control_dialog_msg">Stromsparen schränkt die Hintergrundaktivität von Xiaomi Health ein. Xiaomi Health die Hintergrundaktivität erlauben, um eine genaue Statistik zu erhalten</string>
   <string name="bg_control_dialog_title">Hintergrundbeschränkungen</string>
+  <string name="birthday">Geburtsdatum</string>
+  <string name="blood_type">Blutgruppe</string>
+  <string name="blood_type_rh">Rhesusfaktor</string>
+  <string name="blood_type_select">Typ %1$s</string>
   <string name="body_bmi_descripe_content">Der Body-Mass-Index (BMI) ist definiert als die Körpermasse in Kilogramm geteilt durch das Quadrat der Körpergröße in Metern. Die Kenntnis Ihres BMI könnte Ihnen helfen zu verstehen, ob Ihr Gewicht einen negativen Einfluss auf Ihre Gesundheit hat.</string>
   <string name="body_composition">Körperzusammensetzung</string>
   <string name="body_water">Wasser</string>
@@ -109,7 +116,9 @@ um Karten hinzuzufügen"</string>
   <string name="breaststroke">Brustschwimmen</string>
   <string name="butterfly_stroke">Schmetterling</string>
   <string name="button_record_menstruation">Aufzeichnung</string>
+  <string name="camera_permission_desc">Zum Setzen eines persönlichen Avatars</string>
   <string name="cancel">Abbrechen</string>
+  <string name="cancel_edit">Bearbeiten abbrechen</string>
   <string name="cancel_mark_end">Zeitraum ist noch nicht abgelaufen</string>
   <string name="cancel_mark_start">Diese Aufzeichnung löschen</string>
   <string name="card_on_using">Verwenden von</string>
@@ -120,6 +129,9 @@ um Karten hinzuzufügen"</string>
   <string name="character_counter_overflowed_content_description">Zeichenlimit überschritten: %1$d von %2$d</string>
   <string name="chart_no_data">Keine Daten</string>
   <string name="chip_text">Chiptext</string>
+  <string name="choose_from_album">Aus Telefonbuch wählen</string>
+  <string name="chronic">Chronische Krankheit</string>
+  <string name="chronic_hint">Einführung chronischer Krankheiten, wie Bluthochdruck, Asthma usw.</string>
   <string name="clear">Löschen</string>
   <string name="clear_text_end_icon_content_description">Text löschen</string>
   <string name="clearable_edittext_clear_description">Löschen</string>
@@ -137,6 +149,7 @@ um Karten hinzuzufügen"</string>
   <string name="completed">"Abgeschlossen "</string>
   <string name="completed_stand">Stehen abgeschlossen</string>
   <string name="confirm_opening">Öffnen bestätigen</string>
+  <string name="contact_permission_desc">Zur Einrichtung von Notfallkontakten</string>
   <string name="copy">Kopieren</string>
   <string name="copy_done">Erfolgreich kopiert</string>
   <string name="cousume_unit_float_format">%1$.2f kcal</string>
@@ -189,9 +202,13 @@ Wenn Sie sich entscheiden, Ihre Gesundheitsdaten zu löschen, nachdem Sie sich e
   <string name="deep_sleep_duration_increase_description">Ihr tiefer Schlaf ist zu lang</string>
   <string name="deep_sleep_duration_normal_description">Sie haben einen ausreichend tiefen Schlaf</string>
   <string name="delete">Löschen</string>
+  <string name="delete_aid_file">Datei löschen</string>
+  <string name="delete_aid_file_desc">Nach dem Löschen wird die Erste-Hilfe-Datei-Info gleichzeitig vom lokalen Speicher und aus der Cloud entfernt, sie kann auch nicht wiederhergestellt werden.</string>
   <string name="delete_all_data">Alle Daten löschen</string>
   <string name="delete_all_data_sources">Alle Datenquellen löschen</string>
   <string name="delete_all_data_sources_description">Alle hinzugefügten Datenquellen löschen?</string>
+  <string name="delete_avatar">Den aktuellen Avatar löschen</string>
+  <string name="delete_contact">Kontaktlöschen</string>
   <string name="delete_menstruation_record_confirm">Diese Aufzeichnung löschen?</string>
   <string name="delete_origin_data_description">Alle von %1$s generierten Daten löschen?</string>
   <string name="delete_record">Aufnahme löschen</string>
@@ -218,6 +235,7 @@ Xiaomi Health wird Sie nur über wichtige Dinge informieren."</string>
   <string name="dialog_body_weight_conflict">Sieht so aus, als hätten Sie das Gewicht während der ausgewählten Zeit bereits aufgezeichnet. Originaldaten überschreiben?</string>
   <string name="dialog_body_weight_select">Gewicht einstellen</string>
   <string name="dialog_cancel">Abbrechen</string>
+  <string name="dialog_cancel_edit_record">Sind Sie sicher, dass Sie die Bearbeitung dieser Aufzeichnung beenden wollen?</string>
   <string name="dialog_date_select">Datum wählen</string>
   <string name="dialog_delete">Löschen</string>
   <string name="dialog_delete_record_confirm">Diesen Datensatz löschen?</string>
@@ -259,8 +277,11 @@ Lesen Sie unsere &lt;font color=\"#0000FF\">&lt;a href=\"%1$s\">Nutzervereinbaru
   <string name="drink_water">Etwas Wasser trinken und spazieren gehen</string>
   <string name="early">Zeitig</string>
   <string name="early_morning">Morgen</string>
+  <string name="edit_aid_file">Datei bearbeiten</string>
   <string name="edit_basic_info_desc">Basisinfo</string>
+  <string name="edit_immediately">Jetzt ausfüllen</string>
   <string name="edit_sleep_record_button">Bearbeiten</string>
+  <string name="emergency_contact">Notfallkontakte</string>
   <string name="enable">Ein</string>
   <string name="enable_go_now">Einschalten</string>
   <string name="enable_not_now">Jetzt nicht</string>
@@ -273,6 +294,7 @@ Lesen Sie unsere &lt;font color=\"#0000FF\">&lt;a href=\"%1$s\">Nutzervereinbaru
   <string name="exercise_consume">%1$d kcal verbrannt</string>
   <string name="exercise_consume_description">Nach den Ernährungsrichtlinien für chinesische Einwohner sollte die tägliche körperliche Aktivität mehr als 15 %% des gesamten Energieverbrauchs ausmachen. Die für die tägliche körperliche Aktivität aufgewendete Energie wird hier zusammengefasst, beinhaltet jedoch nicht den Grundumsatz des Stoffwechsels. Wenn Sie Bedenken hinsichtlich der Gewichtskontrolle haben, müssen Sie sich auch auf die Energieaufnahme konzentrieren.</string>
   <string name="exercise_consume_exercise_description">Die Übungsdauer ist die Zeit, die für Aktivitäten mittlerer und hoher Intensität aufgewendet wird. Nach Angaben der chinesischen Gesundheitsbehörden sollte die wöchentliche Bewegungsdauer mindestens 150 Minuten betragen. Die Zeit, die für hochintensive Aktivitäten wie zügiges Gehen (Trittfrequenz von mehr als 100 Schritten pro Minute), Laufen und Treppensteigen aufgewendet wird, wird zu Ihrer Übungsdauer addiert.</string>
+  <string name="exercise_correct">Korrigieren</string>
   <string name="exercise_detail_duration">%1$s…%2$s… - …%3$s…%4$s</string>
   <string name="exercise_detail_no_consume_hint">"Ausgewählte Datenquelle (%1$s) liefert keine Informationen zur Kalorienzahl.
 Sie können eine andere Datenquelle in Mehr &gt; Datenquellen auswählen."</string>
@@ -302,6 +324,7 @@ Wenn Ihr Gerät hier aufgeführt ist, können Sie Datenquellen manuell in Xiaomi
   <string name="exercise_question_title">Warum können Sie Ihre Statistik nicht einsehen?</string>
   <string name="exercise_record">Workout-Verlauf</string>
   <string name="exercise_record_no_data">Hier noch keine Elemente vorhanden</string>
+  <string name="exercise_recog_confirm" formatted="false">Zwischen %1s-%2s is %3s?</string>
   <string name="exercise_reminder_accomplished">Sie haben Ihr Ziel erreicht!</string>
   <string name="exercise_reminder_title">Aktivitätserinnerung</string>
   <string name="exercise_reminder_unaccomplished">Sie haben Ihr Ziel noch nicht erreicht. Weiter so!</string>
@@ -318,6 +341,7 @@ Wenn Ihr Gerät hier aufgeführt ist, können Sie Datenquellen manuell in Xiaomi
   <string name="falling_duration_hard_description">"Einschlafen ist die Zeit zwischen dem Beginn des Schlafes und dem vollständigen Einschlafen. Wenn Sie länger als 30 Minuten zum Einschlafen brauchen, kann dies ein Zeichen von Schlaflosigkeit sein.
 Wenn es für Sie nach 30 Minuten im Bett immer noch schwierig ist, einzuschlafen, reduzieren Sie die Faktoren, die zu diesem Phänomen beitragen. Trinken Sie weniger Kaffee; überreizen Sie Ihr Nervensystem nicht visuell und emotional, indem Sie vor dem Schlafengehen Videos ansehen oder lesen; halten Sie Ihr Schlafzimmer dunkel, ruhig und behaglich. Wenn diese Maßnahmen keine Linderung bringen, konsultieren Sie Ihren Arzt."</string>
   <string name="falling_duration_normal_description">Einschlafen ist die Zeit zwischen dem Beginn des Schlafes und dem vollständigen Einschlafen. Zu wissen, wie lange es dauert, bis Sie einschlafen, ist wichtig für die Behandlung von Schlaflosigkeit und anderen schlafbezogenen Erkrankungen.</string>
+  <string name="fast">Schnell</string>
   <string name="fat_rate">Fett</string>
   <string name="fat_rate_descripe_content">Körperfettanteil bezieht sich auf den Anteil des Fettes am Gesamtgewicht des menschlichen Körpers.</string>
   <string name="feedback_need_permission_msg">Xiaomi Health kann auf externen Speicher schreiben, um Protokolle für Feedback zu erstellen</string>
@@ -345,6 +369,7 @@ Wenn es für Sie nach 30 Minuten im Bett immer noch schwierig ist, einzuschlafen
   <string name="freestyle">Freistil</string>
   <string name="friday">Freitag</string>
   <string name="friday_short">Fr</string>
+  <string name="full_name_hint">Name bearbeiten</string>
   <string name="gender_female">Weiblich</string>
   <string name="gender_male">Männlich</string>
   <string name="gender_other">Divers</string>
@@ -374,12 +399,15 @@ Wenn es für Sie nach 30 Minuten im Bett immer noch schwierig ist, einzuschlafen
   <string name="guide_setting">Folgende Informationen angeben, um eine genaue Menstruationsstatistik zu erhalten</string>
   <string name="harm_learn_more">Mehr erfahren</string>
   <string name="has_record">Aufzeichnungen</string>
+  <string name="health_app_name">Gesundheit</string>
   <string name="health_app_name_dev">Gesundheitsentwicklung</string>
   <string name="health_cloud_service">Cloud-Dienste</string>
   <string name="health_data_cloud_sync_subtitle">Gesundheitsdaten mit der Cloud synchronisieren und von jedem Gerät darauf zugreifen</string>
   <string name="health_data_cloud_sync_title">Mit der Cloud synchronisieren</string>
   <string name="health_score">Gesundheitswert </string>
   <string name="health_score_tips">Der Gesundheitswert wird basierend auf Ihrem BMI (Body-Mass-Index) sowie Ihren Schlaf- und Aktivitätsdaten berechnet. Je näher Sie Ihren Zielen sind, desto höher ist Ihr Gesundheitswert.</string>
+  <string name="health_setting">Einstellungen Gesundheit</string>
+  <string name="high">Hoch</string>
   <string name="high_intensity">Hoch</string>
   <string name="history_statistics">Statistik</string>
   <string name="home_page_card_setting">Startseitenkarten</string>
@@ -399,6 +427,7 @@ Wenn es für Sie nach 30 Minuten im Bett immer noch schwierig ist, einzuschlafen
   <string name="insufficient">Zu wenig ☹️!</string>
   <string name="jump_over">Überspringen</string>
   <string name="just_recently">Gerade eben</string>
+  <string name="keep_edit">Weiter bearbeiten</string>
   <string name="label_average_daily_sleep_duration">Ø-Schlafdauer</string>
   <string name="label_average_daily_sleep_time">Ø-Einschlafzeit</string>
   <string name="label_average_daily_sleep_time2">Ø-Einschlafzeit</string>
