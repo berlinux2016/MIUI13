@@ -1522,8 +1522,8 @@ Sie können diese Funktion unter Einstellungen/Bluetooth/Gekoppelte Geräte auss
   <string name="channel_notifications_off_desc">Android verhindert, dass diese Kategorie von Benachrichtigungen auf diesem Gerät erscheint</string>
   <string name="character_counter_content_description">Eingegebene Zeichen: %1$d von %2$d</string>
   <string name="character_counter_overflowed_content_description">Zeichenlimit überschritten: %1$d von %2$d</string>
-  <string name="charge_animation_style">Aufladeanimation</string>
-  <string name="charge_animation_style_summary">Wählen Sie Ihren bevorzugten Aufladeanimationsstil auf dem Sperrbildschirm</string>
+  <string name="charge_animation_style">Ladeanimation</string>
+  <string name="charge_animation_style_summary">Wählen Sie Ihren bevorzugten Ladeanimationsstil auf dem Sperrbildschirm</string>
   <string name="charge_animation_style_title">Aufladeanimation</string>
   <string name="charge_length_format">Vor %1$s</string>
   <string name="charging_sounds_title">Ton bei Ladekabel an/ab</string>
@@ -8127,8 +8127,12 @@ Bitte lesen Sie die Datenschutzerklärung Ihres Dienstanbieters."</string>
   <string name="wifi_allow_scan_with_traffic">WLAN-Scans immer erlauben</string>
   <string name="wifi_allow_scan_with_traffic_summary">WLAN-Roaming-Scans erlauben/verbieten, die auf der Menge des Datenverkehrs an der Schnittstelle basieren</string>
   <string name="wifi_and_mobile_skipped_message">Telefon kann nicht prüfen, ob Ihre Software auf dem neuesten Stand ist</string>
+  <string name="wifi_ap_2G">2,4 GHz</string>
+  <string name="wifi_ap_5G">5 GHz</string>
   <string name="wifi_ap_band_config">AP-Band auswählen</string>
   <string name="wifi_ap_band_select_one">Mind. ein Band für WLAN-Hotspot wählen:</string>
+  <string name="wifi_ap_choose_2G">2,4-GHz-Band</string>
+  <string name="wifi_ap_choose_5G">5-GHz-Band</string>
   <string name="wifi_ap_choose_dual">Beide</string>
   <string name="wifi_ap_choose_vendor_both">Beide</string>
   <string name="wifi_ap_prefer_5G">5-GHz-Band bevorzugt</string>
@@ -8176,6 +8180,7 @@ Bitte lesen Sie die Datenschutzerklärung Ihres Dienstanbieters."</string>
   <string name="wifi_automatically_manage_title">WLAN automatisch verwalten</string>
   <string name="wifi_available_title">Verbinden mit WLAN</string>
   <string name="wifi_avoid_poor_network_detection_summary">Nutzen Sie nur Netzwerke, die eine gute Internetverbindung haben</string>
+  <string name="wifi_band_24ghz">2,4 GHz</string>
   <string name="wifi_calling_mode_cellular_preferred_summary">Wenn das Mobilfunknetz nicht verfügbar ist, verwenden Sie WLAN.</string>
   <string name="wifi_calling_mode_dialog_title">WLAN-Anrufmodus</string>
   <string name="wifi_calling_mode_title">Anrufeinstellungen</string>

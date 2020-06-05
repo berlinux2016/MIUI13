@@ -9,7 +9,6 @@
   <string name="exercise_time">Duration</string>
   <string name="high_intensity_description">Rapid respiratory rate that allows you to finish short phrases</string>
   <string name="middle_intensity_description">Faster respiratory rate that allows you to finish sentences</string>
-  <string name="avatar_upload_failure">Couldn\'t upload. Check your network settings and try again.</string>
 
 
   <string name="abc_action_bar_home_description">Zur Startseite</string>
@@ -56,7 +55,7 @@ um Karten hinzuzufügen"</string>
   <string name="added_data_source">Quellen hinzugefügt</string>
   <string name="afternoon">Nachmittag</string>
   <string name="all_records">Alle Aufzeichnungen</string>
-  <string name="allergic_drugs">Medikamente-Allergien</string>
+  <string name="allergic_drugs">Medikamentenallergie</string>
   <string name="allergic_drugs_hint">Medikamente und Reaktion darauf eingeben</string>
   <string name="allow_notice_periods">Erinnerungen an Periode zulassen</string>
   <string name="altitude">Höhe</string>
@@ -69,6 +68,7 @@ um Karten hinzuzufügen"</string>
   <string name="auto_start_fail">Berechtigung wurde nicht erteilt</string>
   <string name="auto_start_success">Berechtigung erfolgreich erteilt</string>
   <string name="auto_start_tips">Unten auf \"Einstellungen\" tippen, um Xiaomi Health-Einstellungen zu öffnen und erforderliche Berechtigungen zu vergeben</string>
+  <string name="avatar">Profilfoto</string>
   <string name="avatar_upload_failure">Upload fehlgeschlagen, bitte Netzwerkverbindung prüfen</string>
   <string name="average_cycle_days">Ø-Zyklus</string>
   <string name="average_menstruation_days">Ø-Periodendauer</string>
@@ -77,8 +77,6 @@ um Karten hinzuzufügen"</string>
   <string name="avg_finish_stand">Ø tägl. Stehen</string>
   <string name="avg_heart_rate">Ø-Puls</string>
   <string name="avg_steps">Tägliche Schritte</string>
-  <string name="avatar">Profilfoto</string>
-  <string name="avatar_upload_failure">Hochladen nicht möglich. Überprüfen Sie Ihre Netzwerkeinstellungen und versuchen Sie es erneut.</string>
   <string name="awake_count">Aufgewacht</string>
   <string name="awake_count_abnormal_description">Sie sind in der Nacht sehr oft aufgewacht.</string>
   <string name="awake_count_normal_description">Sie sind in der Nacht einmal aufgewacht. Das ist normal.</string>
@@ -144,7 +142,7 @@ um Karten hinzuzufügen"</string>
   <string name="chart_no_data">Keine Daten</string>
   <string name="chip_text">Chiptext</string>
   <string name="choose_from_album">Galerie</string>
-  <string name="chronic">Chronische Zustände</string>
+  <string name="chronic">Chronische Krankheit</string>
   <string name="chronic_hint">Beschreiben Sie Ihre chronischen Erkrankungen (z. B. Bluthochdruck, Asthma usw.)</string>
   <string name="clear">Löschen</string>
   <string name="clear_text_end_icon_content_description">Text löschen</string>
@@ -510,7 +508,7 @@ Wenn es für Sie nach 30 Minuten im Bett immer noch schwierig ist, einzuschlafen
   <string name="maximum_pace">Höchstes Tempo</string>
   <string name="measure_date">Messdauer</string>
   <string name="medical_file_desc1">Wichtige medizinische Informationen, die im Notfall unerlässlich sind</string>
-  <string name="medical_file_desc2">Zeichnen Sie die grundlegenden Informationen über Ihren Gesundheitszustand auf, um sie im Notfall den Leistungserbringern des Gesundheitswesens zeigen zu können.</string>
+  <string name="medical_file_desc2">Zeichnen Sie die grundlegenden Informationen über Ihren Gesundheitszustand auf, um sie im Notfall dem Erste-Hilfe-Personal zeigen zu können.</string>
   <string name="medical_file_desc3">Xiaomi Health respektiert Ihre Privatsphäre und wird alle Informationen lokal speichern, ohne sie an anderer Stelle zu sammeln, zu speichern oder hochzuladen.</string>
   <string name="medical_first_aid_files">Medizinischer Notfallausweis</string>
   <string name="medication_and_treatment">Medikamente und laufende Behandlung</string>
@@ -624,7 +622,7 @@ Wenn es für Sie nach 30 Minuten im Bett immer noch schwierig ist, einzuschlafen
   <string name="not_standing">Nicht stehen</string>
   <string name="not_support_step">Ihr Gerät kann keine Schritte zählen</string>
   <string name="not_up_to_standard">Unterhalb der Norm</string>
-  <string name="oauth_account_failed">Kontoinformationen erhalten nicht möglich</string>
+  <string name="oauth_account_failed">Kontoinformationen abrufen nicht möglich</string>
   <string name="oauth_account_failed_desc">Um Datenquellen hinzuzufügen, muss Xiaomi health Ihr Mi-Konto verwenden. Melden Sie sich an, um fortzufahren.</string>
   <string name="open">Einschalten</string>
   <string name="open_data_sync_description">Cloud-Synchronisation einschalten, um Gesundheitsdaten aus anderen Quellen zu synchronisieren</string>
@@ -632,7 +630,7 @@ Wenn es für Sie nach 30 Minuten im Bett immer noch schwierig ist, einzuschlafen
   <string name="open_swimming">Schwimmen im offenen Wasser</string>
   <string name="open_sync">Synchronisation einschalten</string>
   <string name="open_unrestricted_permissions">Xiaomi Health immer im Hintergrund laufen lassen, um den Schlaf genauer zu verfolgen</string>
-  <string name="organ_donation_volunteer">Freiwilliger Organspender</string>
+  <string name="organ_donation_volunteer">Freiwillige Organspende</string>
   <string name="origin">Herkunft</string>
   <string name="other_can_add_data_source">Verfügbare Quellen</string>
   <string name="outdoor_riding">Radfahren draußen</string>
