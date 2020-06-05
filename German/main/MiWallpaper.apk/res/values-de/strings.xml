@@ -50,6 +50,7 @@
   <string name="fmt_time_24hour">"H 'Uhr'"</string>
   <string name="friday">Freitag</string>
   <string name="friday_short">Fr</string>
+  <string name="friday_shortest">F</string>
   <string name="game_view_content_description">Spieleansicht</string>
   <string name="install_failed">Installieren nicht möglich</string>
   <string name="mars_id">Mars</string>
@@ -88,6 +89,9 @@ dd.MM."</string>
 mm"</string>
   <string name="miui_vertical_time_format_24">"HH
 mm"</string>
+  <string name="miuix_appcompat_cloud_state_disabled">Synchronisation mit der Cloud ist aus</string>
+  <string name="miuix_appcompat_cloud_state_finished">Erfolgreich mit der Cloud synchronisiert</string>
+  <string name="miuix_appcompat_cloud_state_syncing">Mit der Cloud synchronisieren…</string>
   <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Zum Aktualisieren herunterziehen</string>
   <string name="miuix_sbl_tracking_progress_labe_refreshed">Erfolgreich aktualisiert</string>
   <string name="miuix_sbl_tracking_progress_labe_refreshing">Aktualisieren</string>
@@ -98,20 +102,33 @@ mm"</string>
   <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Elemente laden nicht möglich</string>
   <string name="monday">Montag</string>
   <string name="monday_short">Mo</string>
+  <string name="monday_shortest">M</string>
   <string name="month_april">April</string>
   <string name="month_april_short">Apr</string>
+  <string name="month_april_shortest">A</string>
+  <string name="month_august_shortest">A</string>
   <string name="month_december">Dezember</string>
   <string name="month_december_short">Dez</string>
+  <string name="month_december_shortest">D</string>
   <string name="month_february">Februar</string>
+  <string name="month_february_shortest">F</string>
   <string name="month_january">Januar</string>
+  <string name="month_january_shortest">J</string>
   <string name="month_july">Juli</string>
+  <string name="month_july_shortest">J</string>
   <string name="month_june">Juni</string>
+  <string name="month_june_shortest">J</string>
   <string name="month_march">März</string>
   <string name="month_march_short">Mär</string>
+  <string name="month_march_shortest">M</string>
   <string name="month_may">Mai</string>
   <string name="month_may_short">Mai</string>
+  <string name="month_may_shortest">M</string>
+  <string name="month_november_shortest">N</string>
   <string name="month_october">Oktober</string>
   <string name="month_october_short">Okt</string>
+  <string name="month_october_shortest">O</string>
+  <string name="month_september_shortest">S</string>
   <string name="more">Mehr</string>
   <string name="morning">Morgen</string>
   <string name="mtrl_chip_close_icon_content_description">%1$s entfernen</string>
@@ -124,6 +141,7 @@ mm"</string>
   <string name="preference_copied">\"%1$s\" in Zwischenablage kopiert</string>
   <string name="saturday">Samstag</string>
   <string name="saturday_short">Sa</string>
+  <string name="saturday_shortest">S</string>
   <string name="saturn_id">Saturn</string>
   <string name="saturn_summary">Die Ringe des Saturn bieten das unglaublichste Schauspiel im Sonnensystem.</string>
   <string name="saturn_super_wallpaper_label">Saturn</string>
@@ -155,6 +173,7 @@ mm"</string>
   <string name="solar_term_winter_solstice">Wintersonnenwende</string>
   <string name="sunday">Sonntag</string>
   <string name="sunday_short">So</string>
+  <string name="sunday_shortest">S</string>
   <string name="super_wallpaper_list_label">Superhintergründe</string>
   <string name="super_wallpaper_setting_apply_success_toast">Erfolgreich angewendet</string>
   <string name="super_wallpaper_setting_apply_super_wallpaper_button_text">Anwenden</string>
@@ -204,11 +223,13 @@ mm"</string>
   <string name="the_water_lantern_festival">Chinesisches Laternenfest</string>
   <string name="thursday">Donnerstag</string>
   <string name="thursday_short">Do</string>
+  <string name="thursday_shortest">D</string>
   <string name="time_picker_dialog_title">Zeit einstellen</string>
   <string name="today">Heute</string>
   <string name="tomorrow">Morgen</string>
   <string name="tuesday">Dienstag</string>
   <string name="tuesday_short">Di</string>
+  <string name="tuesday_shortest">D</string>
   <string name="update">Aktualisierung</string>
   <string name="v7_preference_off">AUS</string>
   <string name="v7_preference_on">AN</string>
@@ -223,5 +244,6 @@ mm"</string>
   <string name="wallpaper_setting_title">Hintergrund</string>
   <string name="wednesday">Mittwoch</string>
   <string name="wednesday_short">Mi</string>
+  <string name="wednesday_shortest">M</string>
   <string name="yesterday">Gestern</string>
 </resources>
