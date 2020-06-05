@@ -1,5 +1,22 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+
+  <string name="filter_general_blackice">Black Ice</string>
+  <string name="filter_general_greenorange">Zitrone</string>
+  <string name="filter_general_movie">Film</string>
+  <string name="filter_movie_portrait">Farbfokus</string>
+  <string name="online_video_normal_transcoding">Dieses Video wird gerade umgewandelt. Ein paar Minuten warten und erneut versuchen.</string>
+  <string name="online_video_vip_tip">Werden Sie VIP-Mitglied, um Videos zu streamen, ohne sie vollständig vorzuladen</string>
+  <string name="online_video_vip_transcoding">"Gleich beginnt das VIP-Streaming…
+Die Umwandlung kann einige Zeit in Anspruch nehmen, wenn Sie diese Funktion zum ersten Mal verwenden."</string>
+  <string name="operate_with_metered_network_msg">Ihr Gerät ist an ein kostenpflichtiges Netzwerk angeschlossen. Trotzdem fortfahren?</string>
+  <string name="sticker_graduation">Graduierung</string>
+  <string name="text_tab_city">Stadt</string>
+  <string name="text_tab_festival">Feiertag</string>
+  <string name="text_tab_scene">Szene</string>
+  <string name="text_tab_spot">Szenerie</string>
+
+
   <string name="abc_action_bar_home_description">Zur Startseite</string>
   <string name="abc_action_bar_up_description">Nach oben</string>
   <string name="abc_action_menu_overflow_description">Mehr Optionen</string>
@@ -327,7 +344,7 @@
   <string name="choose_video_compress_quality">Auflösung wählen</string>
   <string name="chooser_fragment_mishare_title">Teilen mit</string>
   <string name="cleaner_photo_pick_delete_selected">Ausgewählte Fotos löschen</string>
-  <string name="cleaner_raw_action">Ansehen</string>
+  <string name="cleaner_raw_action">Details anzeigen</string>
   <string name="cleaner_raw_description">Speicherplatz freigeben durch Löschen großer RAW-Bilder</string>
   <string name="cleaner_raw_title">RAW-Dateien löschen</string>
   <string name="cleaner_scan_description">Durch die Optimierung von Elementen wird Speicherplatz auf Ihrem Gerät frei</string>
@@ -341,7 +358,7 @@
   <string name="cleaner_screen_shot_action">Ansehen</string>
   <string name="cleaner_screen_shot_description">Löschen Sie die Screenshots, die Sie nicht mehr benötigen.</string>
   <string name="cleaner_screen_shot_title">Screenshots löschen</string>
-  <string name="cleaner_similar_action">Ansehen</string>
+  <string name="cleaner_similar_action">Details anzeigen</string>
   <string name="cleaner_similar_description">Doppelte Fotos löschen</string>
   <string name="cleaner_similar_title">Doppelte Fotos</string>
   <string name="cleaner_slim_action">Optimierung starten…</string>
@@ -820,7 +837,7 @@
   <string name="functions_are_being_developed">Diese Funktion wird bald verfügbar sein. Bleiben Sie dran!</string>
   <string name="gallery_setting">Einstellungen</string>
   <string name="gallery_sync_disable_toast">Synchronisation der Galerie ist deaktiviert</string>
-  <string name="generate_story_summary">MIUI analysiert Ihre Fotos und erstellt Erinnerungen. Schalten Sie diese Funktion aus, um die Erstellung von Erinnerungen zu unterbinden.</string>
+  <string name="generate_story_summary">Genügend Fotos aufnehmen, Ladegerät anschließen und Bildschirm ausschalten, damit Erinnerungen erscheinen</string>
   <string name="generate_story_title">Story-Alben</string>
   <string name="get_album_info_in_process">Albumdetails laden…</string>
   <string name="grant_permission_go_and_set">Einstellen</string>
@@ -1240,6 +1257,7 @@ zu wechseln."</string>
   <string name="photo_editor_talkback_recently">Zuletzt benutzt</string>
   <string name="photo_editor_talkback_redo">Wiederholen</string>
   <string name="photo_editor_talkback_undo">Rückgängig machen</string>
+  <string name="photo_editor_text">Wasserzeichen</string>
   <string name="photo_font_cancel_download">Abbrechen</string>
   <string name="photo_font_download">Herunterladen</string>
   <string name="photo_font_download_failed_for_notwork">Herunterladen nicht möglich. Mit Netzwerk verbinden und erneut versuchen.</string>
@@ -1684,7 +1702,7 @@ zu wechseln."</string>
   <string name="text_edit_dialog_style_shadow">Schatten</string>
   <string name="text_edit_dialog_style_transparent">Transparenz</string>
   <string name="text_edit_sub_menu_text">Blase</string>
-  <string name="text_tab_bubble">Blasen</string>
+  <string name="text_tab_bubble">Text</string>
   <string name="text_tab_watermark">Wasserzeichen</string>
   <string name="the_anniversary_of_lifting_martial_law">Jahrestag der Aufhebung des Kriegsrechts</string>
   <string name="the_anti_aggression_day">Antiaggressionstag</string>
