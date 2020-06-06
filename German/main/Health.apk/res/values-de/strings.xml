@@ -1,16 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-
-  <string name="exercise_recog_confirm_ridding">Were you cycling between %1$s and %2$s?</string>
-  <string name="exercise_recog_confirm_run">Were you running between %1$s and %2$s?</string>
-  <string name="exercise_recog_confirm_stair_climb">Were you climbing stairs between %1$s and %2$s?</string>
-  <string name="exercise_recog_confirm_walk">Were you walking between %1$s and %2$s?</string>
-  <string name="exercise_start">Start</string>
-  <string name="exercise_time">Duration</string>
-  <string name="high_intensity_description">Rapid respiratory rate that allows you to finish short phrases</string>
-  <string name="middle_intensity_description">Faster respiratory rate that allows you to finish sentences</string>
-
-
   <string name="abc_action_bar_home_description">Zur Startseite</string>
   <string name="abc_action_bar_up_description">Nach oben</string>
   <string name="abc_action_menu_overflow_description">Mehr Optionen</string>
@@ -106,7 +95,6 @@ um Karten hinzuzufügen"</string>
   <string name="birthday">Geburtsdatum</string>
   <string name="blood_type">Blutgruppe</string>
   <string name="blood_type_rh">Rhesusfaktor</string>
-  <string name="blood_type_select">Typ %1$s</string>
   <string name="body_bmi_descripe_content">Der Body-Mass-Index (BMI) ist definiert als die Körpermasse in Kilogramm geteilt durch das Quadrat der Körpergröße in Metern. Die Kenntnis Ihres BMI könnte Ihnen helfen zu verstehen, ob Ihr Gewicht einen negativen Einfluss auf Ihre Gesundheit hat.</string>
   <string name="body_composition">Körperzusammensetzung</string>
   <string name="body_water">Wasser</string>
@@ -142,7 +130,7 @@ um Karten hinzuzufügen"</string>
   <string name="chart_no_data">Keine Daten</string>
   <string name="chip_text">Chiptext</string>
   <string name="choose_from_album">Galerie</string>
-  <string name="chronic">Chronische Krankheit</string>
+  <string name="chronic">Chronische Krankheiten</string>
   <string name="chronic_hint">Beschreiben Sie Ihre chronischen Erkrankungen (z. B. Bluthochdruck, Asthma usw.)</string>
   <string name="clear">Löschen</string>
   <string name="clear_text_end_icon_content_description">Text löschen</string>
@@ -343,6 +331,10 @@ Wenn Ihr Gerät hier aufgeführt ist, können Sie Datenquellen manuell in Xiaomi
   <string name="exercise_question_title">Warum können Sie Ihre Statistik nicht einsehen?</string>
   <string name="exercise_record">Workout-Verlauf</string>
   <string name="exercise_record_no_data">Hier noch keine Elemente vorhanden</string>
+  <string name="exercise_recog_confirm_ridding">Sind Sie zwischen %1$s und %2$s radgefahren?</string>
+  <string name="exercise_recog_confirm_run">Waren Sie zwischen %1$s und %2$s laufen?</string>
+  <string name="exercise_recog_confirm_stair_climb">Sind Sie zwischen %1$s und %2$s Treppen gestiegen?</string>
+  <string name="exercise_recog_confirm_walk">Waren Sie zwischen %1$s und %2$s spazieren?</string>
   <string name="exercise_reminder_accomplished">Sie haben Ihr Ziel erreicht!</string>
   <string name="exercise_reminder_title">Aktivitätserinnerung</string>
   <string name="exercise_reminder_unaccomplished">Sie haben Ihr Ziel noch nicht erreicht. Weiter so!</string>
@@ -350,6 +342,7 @@ Wenn Ihr Gerät hier aufgeführt ist, können Sie Datenquellen manuell in Xiaomi
   <string name="exercise_setting_page_title">Aktivitätseinstellungen</string>
   <string name="exercise_strokes">Anzahl der Serien</string>
   <string name="exercise_sum">Übungsbericht</string>
+  <string name="exercise_time">Dauer</string>
   <string name="expand_all">Alle anzeigen</string>  
   <string name="exercise_walk_description">Nach den Ernährungsrichtlinien für chinesische Einwohner sollte die aktive körperliche Betätigung mindestens 40 Minuten pro Tag dauern, was dem Gehen von 6000 Schritten entspricht. Die Schritte, die Sie jeden Tag machen, um zu gehen, zu laufen und nach oben zu gehen, sind hier zusammengefasst.</string>
   <string name="expand_button_title">Erweitert</string>
@@ -428,6 +421,7 @@ Wenn es für Sie nach 30 Minuten im Bett immer noch schwierig ist, einzuschlafen
   <string name="health_setting">Einstellungen Gesundheit</string>
   <string name="high">Hoch</string>
   <string name="high_intensity">Hoch</string>
+  <string name="high_intensity_description">Schnelle Atemfrequenz, die Ihnen erlaubt, kurze Sätze zu beenden</string>
   <string name="history_statistics">Statistik</string>
   <string name="home_page_card_setting">Startseitenkarten</string>
   <string name="home_tip_open_data_sync">Cloud-Synchronisation einschalten</string>
@@ -536,6 +530,7 @@ Wenn es für Sie nach 30 Minuten im Bett immer noch schwierig ist, einzuschlafen
   <string name="mesens_card_title_today_begin">Periode könnte heute beginnen</string>
   <string name="mesens_card_title_tomorrow_begin">Periode könnte morgen beginnen</string>
   <string name="middle">Mittel</string>
+  <string name="middle_intensity_description">Schnellere Atemfrequenz, die Ihnen das Beenden von Sätzen erlaubt</string>
   <string name="midnight">Nacht</string>
   <string name="min_altitude">Min. Höhe</string>
   <string name="min_heart_rate">Niedrigster Puls</string>
