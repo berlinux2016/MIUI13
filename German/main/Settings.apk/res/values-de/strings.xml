@@ -2652,6 +2652,7 @@ Für weitere Informationen wenden Sie sich bitte an den Admin Ihres Unternehmens
   <string name="err_version_unsupported">Sicherungsversion wird nicht unterstützt</string>
   <string name="error_adding_apn_type">Mobilfunkanbieter erlaubt keine %s-APN-Typen</string>
   <string name="error_apn_empty">APN darf nicht leer sein</string>
+  <string name="error_apn_not_allowed">Diese APN ist auf diesem Gerät nicht erlaubt. Eine andere versuchen.</string>
   <string name="error_apn_restrict_string">APN-Feld darf %1$s nicht enthalten</string>
   <string name="error_capturing_system_heap_dump_message">System-Heap-Dump erfassen nicht möglich</string>
   <string name="error_mcc_not3">MCC-Feld muss 3 Zeichen enthalten</string>
@@ -4158,9 +4159,9 @@ Fortfahren, um auf weitere Einstellungen zuzugreifen."</string>
   <string name="miui_sos_emergency_contacts">Notfallkontakte</string>
   <string name="miui_sos_emergency_contacts_quantity">%d hinzugefügt</string>
   <string name="miui_sos_emergency_delete">Löschen</string>
-  <string name="miui_sos_emergency_delivered_sms" formatted="false">%1s (%2s) hat bereits akzeptiert</string>
-  <string name="miui_sos_emergency_delivered_sms_noname">%1s hat bereits akzeptiert</string>
-  <string name="miui_sos_emergency_failed_sms" formatted="false">%1s (%2s) SOS-Nachricht senden fehlgeschlagen</string>
+  <string name="miui_sos_emergency_delivered_sms">%1s (%2s) hat die Nachricht erhalten</string>
+  <string name="miui_sos_emergency_delivered_sms_noname">%1$s hat die Nachricht erhalten</string>
+  <string name="miui_sos_emergency_failed_sms">%1s (%2s) Nachricht senden nicht möglich</string>
   <string name="miui_sos_emergency_failed_sms_noname">%1s SOS-Nachricht senden fehlgeschlagen</string>
   <string name="miui_sos_enable_switch_summary">Power-Taste schnell 5-mal drücken, um eine SOS-SMS mit Ihrem Standort an Ihre Notfallkontakte zu senden</string>
   <string name="miui_sos_enable_switch_title">SOS-Notfallhilfe</string>
