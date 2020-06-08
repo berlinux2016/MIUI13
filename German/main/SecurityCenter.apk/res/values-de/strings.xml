@@ -1,5 +1,23 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+
+
+  <string name="intl_app_manager_card_permission_title">Privacy &amp; permissions</string>
+  <string name="intl_perm_privacy_control_calendar">"The app can access or edit calendar items only while you're using it"</string>
+  <string name="intl_perm_privacy_control_calllog">"The app can access or edit call history only while you're using it"</string>
+  <string name="intl_perm_privacy_control_camera">"The app can take photos or record video only while you're using it"</string>
+  <string name="intl_perm_privacy_control_contact">"The app can access or edit contacts only while you're using it"</string>
+  <string name="intl_perm_privacy_control_data">Control privacy</string>
+  <string name="intl_perm_privacy_control_message">Control what private data the apps are allowed to use</string>
+  <string name="intl_perm_privacy_control_microphone">"The app can record audio only while you're using it"</string>
+  <string name="intl_perm_privacy_control_notification_message">Control what private data the apps are allowed to use</string>
+  <string name="intl_perm_privacy_control_notification_title">Protect your privacy</string>
+  <string name="intl_perm_privacy_control_storage">"The app can access or edit items from internal storage only while you're using it"</string>
+  <string name="intl_perm_privacy_control_title">Control privacy</string>
+  <string name="warningcenter_disaster_search_keywords">Weather alerts</string>
+  <string name="warningcenter_mijia_search_keywords">Mi Home alerts</string>
+
+
   <string name="HIPS_Perm_Bluetooth_Connectivity_Desc">Ein- und Ausschalten von Bluetooth</string>
   <string name="HIPS_Perm_CallLog_Desc">Anrufliste schreiben und löschen</string>
   <string name="HIPS_Perm_Call_Desc">Telefonnummern direkt anrufen</string>
@@ -576,7 +594,7 @@ Sie verlieren keine App-Daten."</string>
   <string name="banner_optimizemanage_summary">Speicher freigeben</string>
   <string name="banner_red_money_assist_button">Einschalten</string>
   <string name="banner_red_money_assist_summary">Rote Umschläge schneller öffnen</string>
-  <string name="battery_and_property">Akku &amp; Leistung</string>
+  <string name="battery_and_property">Akku</string>
   <string name="battery_can_use_time">%s bleiben</string>
   <string name="battery_capacity_title">Akkukapazität</string>
   <string name="battery_charge_estimating">Berechnen…</string>
@@ -1283,7 +1301,7 @@ Alle Daten auf Ihrem Gerät werden evtl. gelöscht und Ihr Sperrbildschirmpasswo
   <string name="game_booster_title">Steigern</string>
   <string name="game_bootser_tab_settings">Boostereinstellungen</string>
   <string name="game_else_function">Andere</string>
-  <string name="game_manual_record_setting_setting">Über diese Funktion</string>
+  <string name="game_manual_record_setting_setting">Einstellungen</string>
   <string name="game_manual_record_setting_title">Schlüsselmomente</string>
   <string name="game_more_improve">Hintergrundaktivitäten und Downloadgeschwindigkeit einschränken, um Akku und Bandbreite fürs Spielen aufzuheben</string>
   <string name="game_setting">Spieleinstellungen</string>
@@ -1365,9 +1383,9 @@ Alle Daten auf Ihrem Gerät werden evtl. gelöscht und Ihr Sperrbildschirmpasswo
   <string name="gb_dialog_game_uninstall_deleting">Deinstallieren…</string>
   <string name="gb_dialog_game_uninstall_loading">Spiele laden…</string>
   <string name="gb_dialog_game_uninstall_multi_tips_title">%2$d Spiele deinstallieren, wie z. B. \"%1$s\"</string>
-  <string name="gb_dialog_game_uninstall_tips_message">Alle Spieledaten werden ebenfalls gelöscht.</string>
-  <string name="gb_dialog_game_uninstall_tips_message_xspace">Zugehörige Dual-App wird ebenfalls deinstalliert, zusammen mit den Spieledaten.</string>
-  <string name="gb_dialog_game_uninstall_tips_title">\"%s\" deinstallieren</string>
+  <string name="gb_dialog_game_uninstall_tips_message">Alle Spieledaten werden gelöscht.</string>
+  <string name="gb_dialog_game_uninstall_tips_message_xspace">Alle App-Daten und damit zusammenhängende Dual-Apps werden gelöscht.</string>
+  <string name="gb_dialog_game_uninstall_tips_title">%s deinstallieren</string>
   <string name="gb_dialog_record_way_ai">KI-Aufnahmen werden in der Gamebox gespeichert und dort 7 Tage lang aufbewahrt.</string>
   <string name="gb_dialog_record_way_finish">Fertig</string>
   <string name="gb_dialog_record_way_manual">Manuelle Aufnahme von bis zu 30 Sekunden langen Videos</string>
@@ -1388,16 +1406,16 @@ Alle Daten auf Ihrem Gerät werden evtl. gelöscht und Ihr Sperrbildschirmpasswo
   <string name="gb_first_window_start">Wiedergabe starten</string>
   <string name="gb_first_window_summary">Steigerung von Geschwindigkeit und Leistung auf Systemebene</string>
   <string name="gb_game_end_toast">Gehen Sie die Schlüsselmomente Ihrer Spiele noch einmal durch</string>
-  <string name="gb_game_video_bottom_tips">Schauen Sie sich die Aufzeichnungen Ihrer Spielstände in der Gamebox an. Videos werden dort standardmäßig 7 Tage lang gespeichert.</string>
+  <string name="gb_game_video_bottom_tips">Wichtige Momente aus Ihren Spielsitzungen in Game Turbo Revue passieren lassen. Videos werden nach 7 Tagen automatisch gelöscht.</string>
   <string name="gb_game_video_item_tag">Schlüsselmoment</string>
   <string name="gb_game_video_page_delete_success">Erfolgreich gelöscht</string>
   <string name="gb_game_video_page_null">Schlüsselmomente Ihrer Spielstände aufnehmen</string>
-  <string name="gb_game_video_record_finish_tips">Video erfolgreich gespeichert</string>
+  <string name="gb_game_video_record_finish_tips">Manuell aufgenommenes Video in Game Turbo gespeichert</string>
   <string name="gb_game_video_save">Speichern</string>
   <string name="gb_game_video_type_ai">KI</string>
   <string name="gb_game_video_type_manual">Manuell</string>
   <string name="gb_game_video_ai_record_finish_tips">KI hat %d Videos aufgenommen, die zur Spielbeschleunigung gespeichert wurden</string>
-  <string name="gb_game_video_type_ai_record">KI-Aufnahme</string>
+  <string name="gb_game_video_type_ai_record">Aufnahme mit KI</string>
   <string name="gb_game_video_type_manual_record">Manuelle Aufnahme</string>
   <string name="gb_get_gift_right_now">Jetzt anmelden</string>
   <string name="gb_global_settings">Allgemeine Einstellungen</string>
@@ -1422,8 +1440,8 @@ Alle Daten auf Ihrem Gerät werden evtl. gelöscht und Ihr Sperrbildschirmpasswo
   <string name="gb_signed_title">In diesem Monat angemeldet</string>
   <string name="gb_sound_audition">Probieren</string>
   <string name="gb_storage_game_uninstall">Spiele deinstallieren</string>
-  <string name="gb_storage_summary">Speichern Sie Spielesymbole in der Spielebox. Spielesymbole werden nicht mehr auf dem Startbildschirm angezeigt.</string>
-  <string name="gb_storage_title">Spielesymbole auf dem Startbildschirm speichern</string>
+  <string name="gb_storage_summary">Spiele die der Gamebox hinzugefügt wurden, auf dem Startbildschirm nicht anzeigen.</string>
+  <string name="gb_storage_title">Hinzugefügte Spiele vom Startbildschirm entfernen</string>
   <string name="gb_voice_change_settinged">Sprachwandler ist an</string>
   <string name="gb_voice_changer_dlg_button_agree">Erlauben</string>
   <string name="gb_voice_changer_dlg_button_refuse">Einschränken</string>
@@ -1434,14 +1452,15 @@ Alle Daten auf Ihrem Gerät werden evtl. gelöscht und Ihr Sperrbildschirmpasswo
   <string name="gb_voice_changer_permission_dlg_msg">Sprachwandler muss in der Lage sein, Audio aufzunehmen, um normal zu funktionieren.</string>
   <string name="gb_voice_changer_permission_dlg_title">Berechtigungen erforderlich</string>
   <string name="gb_voice_changer_robot">Roboter</string>
-  <string name="gb_wonderful_moment_toast_window_new_pop">Intelligente/manuelle Aufnahme einschalten und wundervolle Momente speichern</string>
+  <string name="gb_wonderful_moment_toast_window_new_pop">"Schlüsselmomente Ihrer 
+Spielsitzungen aufzeichnen".</string>
   <string name="gb_wonderful_video_cancel">Abbrechen</string>
   <string name="gb_wonderful_video_checkall">Alle wählen</string>
   <string name="gb_wonderful_video_date_format">dd. MMM.</string>
   <string name="gb_wonderful_video_delete">Löschen</string>
-  <string name="gb_wonderful_video_goto_box">Zur Ansicht Spielbeschleunigung gehen</string>
+  <string name="gb_wonderful_video_goto_box">Game Turbo öffnen</string>
   <string name="gb_wonderful_video_header_title">Heute</string>
-  <string name="gb_wonderful_video_save_suc">Erfolgreich gespeichert</string>
+  <string name="gb_wonderful_video_save_suc">Gespeichert</string>
   <string name="gb_xunyou_gift_type_one">Xunyou 1-Tag-Boost</string>
   <string name="gb_xunyou_gift_type_three">Xunyou 3-Tage-Boost</string>
   <string name="gb_xunyou_gift_type_two">Xunyou 2-Tage-Boost</string>
