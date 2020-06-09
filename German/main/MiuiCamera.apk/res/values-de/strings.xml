@@ -1,6 +1,29 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
 
+  <string name="camera_fastmotion_title">Einführung in die Zeitraffer-Fotografie-Funktion </string>
+  <string name="pref_camera_ai_audio">KI-Audio</string>
+  <string name="pref_camera_fastmotion_duration">Dauer</string>
+  <string name="pref_camera_fastmotion_duration_description">Sie dient zur Einstellung der Gesamtdauer der Aufnahme. Die Voreinstellung ist unbegrenzt; je länger die Aufnahmedauer, desto reichhaltiger ist der Inhalt der Zeitraffer-Fotografie. Wenn die eingestellte Zeit nicht "unbegrenzt" ist, geht sie in die Zeitrafferfotografie ein und stoppt automatisch nach dem Zeitraffer.</string>
+  <string name="pref_camera_fastmotion_duration_infinity">Unendliche Zeit</string>
+  <string name="pref_camera_fastmotion_duration_unit">%1$s Minuten</string>
+  <string name="pref_camera_fastmotion_speed">Geschwindigkeit</string>
+  <string name="pref_camera_fastmotion_speed_150x">Sonnenauf-und untergang</string>
+  <string name="pref_camera_fastmotion_speed_1800x">Pflanze</string>
+  <string name="pref_camera_fastmotion_speed_30x">Autobahn</string>
+  <string name="pref_camera_fastmotion_speed_750x">Nacht</string>
+  <string name="pref_camera_fastmotion_speed_90x">Cloud</string>
+  <string name="pref_camera_fastmotion_speed_description">Einstellbare Zeitkompression. Je höher der Geschwindigkeit, desto kürzer die Videodauer und desto schneller die Wiedergabegeschwindigkeit bei gleichzeitiger Aufnahmezeit. Für einige Aufnahmeszenarien werden die folgenden Geschwindigkeitswerte empfohlen:</string>
+  <string name="pref_camera_rec_type_3d_record">3D-Stereo</string>
+  <string name="pref_camera_rec_type_audio_zoom">Audioquelle zoomen</string>
+  <string name="pref_camera_rec_type_normal">Standard</string>
+  <string name="pref_front_denoise_summary">Turn on during pre-recording, you can filter the sound behind the phone</string>
+  <string name="pref_front_denoise_title">Front one-way noise reduction</string>
+  <string name="pref_video_denoise_off">Ausschalten</string>
+  <string name="pref_video_denoise_on">Einschalten</string>
+  <string name="pref_video_denoise_title">Videorauschreduzierung</string>
+  <string name="pref_wind_denoise_title">Windgeräuschredizierung</string>
+
   <string name="timer_burst">Timer burst</string>
   <string name="timer_burst_manu_param_interval">Time interval(not contains exposure time)</string>
   <string name="timer_burst_param_interval">Time interval</string>
