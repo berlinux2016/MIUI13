@@ -426,10 +426,26 @@ Wir schützen Ihre persönlichen Daten in Übereinstimmung mit den einschlägige
   <string name="permlab_sendSmsNoConfirmation">SMS im Hintergrund erlauben</string>
   <string name="phone">Telefon</string>
   <string name="privacy_policy">Datenschutzerklärung</string>
+  <string name="prompt_before_transmission_message1_summary">Wenn Sie sich dafür entscheiden, sie von Ihrem alten Gerät zu übertragen, werden die App-Daten (einschl. Chat-Verlauf) überschrieben.</string>
+  <string name="prompt_before_transmission_message1_title">Diese Apps haben bereits App-Daten auf Ihrem neuen Gerät generiert</string>
+  <string name="prompt_before_transmission_message2_summary">Dual-Apps können nicht übertragen werden. Sie können jedoch Original-Apps übertragen.</string>
+  <string name="prompt_before_transmission_message2_title">Sie verwenden duale Anwendungen für folgende Elemente</string>
+  <string name="prompt_before_transmission_message3_summary">Elemente aus dem Zweitprofil können wegen Systembeschränkungen nicht übertragen werden.</string>
+  <string name="prompt_before_transmission_message3_title">Sie nutzen ein Zweitprofil</string>
+  <string name="prompt_before_transmission_message4_summary">WLAN nicht ausschalten oder zwischen Netzwerken wechseln, bis die Übertragung abgeschlossen ist.</string>
+  <string name="prompt_before_transmission_message4_title">Während der gesamten Übertragung verbunden bleiben</string>
+  <string name="qq_app_receive_fail">QQ nicht erhalten</string>
+  <string name="qq_app_send_fail">QQ nicht gesendet</string>
   <string name="qq_data_external">QQ SD-Kartendaten</string>
   <string name="quit_now">Beenden</string>
   <string name="reconnect">Erneut verbinden</string>
+  <string name="recovery_progress">Elemente wiederherstellen (%1$d/%2$d)…</string>
   <string name="recreate_soft_ap_tips">Schaltfläche unten antippen, um es erneut zu versuchen</string>
+  <string name="restore_data_to_device_content">"Ihre Elemente wurden mit Xiaomi Cloud synchronisiert.
+Am Mi-Konto anmelden, um sie wiederherzustellen."</string>
+  <string name="restore_data_to_device_title">Elemente auf diesem Gerät wiederherstellen</string>
+  <string name="restore_right_now">Wiederherstellen</string>
+  <string name="retry">Erneut versuchen</string>
   <string name="sar">RF-Expositionsinfo</string>
   <string name="saturday">Samstag</string>
   <string name="saturday_short">Sa</string>
@@ -526,7 +542,17 @@ Mindestens %s freigeben."</string>
   <string name="sunday_short">So</string>
   <string name="sunday_shortest">S</string>
   <string name="switching_to_5g">Auf 5 GHz WLAN umschalten…</string>
+  <string name="sync_data_to_mi_cloud_content1">%d. Auf dem Reiter \"Kontakte\" auf \"Jetzt synchronisieren\" tippen.</string>
+  <string name="sync_data_to_mi_cloud_content2">%d. Auf dem Reiter \"Fotos\" auf \"Jetzt sichern\" tippen.</string>
+  <string name="sync_data_to_mi_cloud_summary">Xiaomi Cloud auf Ihrem iPhone öffnen und folgende Schritte ausführen, um Daten zu synchronisieren. Auf die Schaltfläche unten tippen, wenn die Synchronisation abgeschlossen ist.</string>
+  <string name="sync_data_to_mi_cloud_title">Daten synchronisieren</string>
   <string name="sync_one_time_sync">Zum Synchronisieren tippen ( %1$s )</string>
+  <string name="system_app_is_restore">Systemelemente wiederherstellen…</string>
+  <string name="system_app_restore_completed">Erfolgreich wiederhergestellt</string>
+  <string name="system_app_restore_completed_detail">Alle Systemelemente wurden erfolgreich wiederhergestellt</string>
+  <string name="system_app_restore_failed">Ein Fehler ist aufgetreten</string>
+  <string name="system_app_restore_failed_detail">Systemelemente wurden nicht wiederhergestellt. Netzwerkeinstellungen prüfen, aber Gerät nicht neu starten oder ausschalten, bis die Elemente vollständig wiederhergestellt sind. Auf Schaltfläche unten tippen, um es erneut zu versuchen.</string>
+  <string name="system_restore">Elemente wiederherstellen</string>
   <string name="task_backup_cancel_progress">Abbrechen…</string>
   <string name="task_canceled_all_local">Abgebrochen</string>
   <string name="task_pending">Warten…</string>
@@ -577,6 +603,7 @@ Mindestens %s freigeben."</string>
   <string name="time_picker_dialog_title">Zeit einstellen</string>
   <string name="time_spent">Zeit: <g id="time">%1$s</g></string>
   <string name="title_request_package_stats_perm">Berechtigungen erforderlich</string>
+  <string name="title_request_write_settings_perm">Berechtigung zum Ändern von Systemeinstellungen erforderlich</string>
   <string name="today">Heute</string>
   <string name="tomorrow">Morgen</string>
   <string name="trans_detail_item_app_data_skip_data">App-Daten übertragen nicht möglich</string>
@@ -597,6 +624,7 @@ Videos, Dokumente und Apps auf ein neues Gerät verschieben"</string>
   <string name="trans_time_format_second">Weniger als 1 Minute</string>
   <string name="trans_time_spent">Zeit: %s</string>
   <string name="transfer_bottom_tip">Während der Übertragung können Sie weder WLAN noch Bluetooth verwenden. Verlassen Sie diese Seite nicht.</string>
+  <string name="transfer_connect_fail_summary">Auf Schaltfläche unten tippen, um manuell zu verbinden</string>
   <string name="transfer_finish_bottom_tip">Wenn Sie Ihr altes Gerät nicht mehr verwenden, können Sie alle Daten auf dem Gerät löschen, wenn Sie bestätigt haben, dass alle wichtigen Elemente erfolgreich übertragen wurden.</string>
   <string name="transfer_lose_connect_summary">Sieht aus, als sei die Verbindung unterbrochen worden. Verbindung wieder herstellen.</string>
   <string name="transfer_lose_connect_title">Verbindung unterbrochen</string>
@@ -641,10 +669,15 @@ Videos, Dokumente und Apps auf ein neues Gerät verschieben"</string>
   <string name="user_name">Apple-ID eingeben</string>
   <string name="user_name_null">Apple-ID darf nicht leer sein</string>
   <string name="view_password_description">Passwort anzeigen</string>
+  <string name="waiting_restore_desktop">Apps von Drittanbietern übertragen zum Wiederherstellen des Startbildschirm-Layouts…</string>
   <string name="web_sso_login_fail">Sie müssen sich erneut anmelden</string>
   <string name="web_sso_login_message">Anmelden…</string>
   <string name="website">Webseite</string>
   <string name="webview_reload">Erneut versuchen</string>
+  <string name="wechat_and_qq_app_receive_fail">WeChat und QQ nicht erhalten</string>
+  <string name="wechat_and_qq_app_send_fail">WeChat und QQ nicht erhalten</string>
+  <string name="wechat_app_receive_fail">WeChat  nicht erhalten</string>
+  <string name="wechat_app_send_fail">WeChat nicht erhalten</string>
   <string name="wechat_data_external">WeChat SD-Kartendaten</string>
   <string name="wechat_qq">WeChat- und QQ-Daten</string>
   <string name="wechat_qq_data">WeChat- und QQ-Daten (inkl. Chat-Verlauf)</string>
