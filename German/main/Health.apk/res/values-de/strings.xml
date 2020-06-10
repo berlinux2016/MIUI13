@@ -661,11 +661,21 @@ Wenn es für Sie nach 30 Minuten im Bett immer noch schwierig ist, einzuschlafen
   <string name="preference_update_find_new_version">Auf Updates prüfen</string>
   <string name="preference_update_find_newer_version">Eine Aktualisierung ist verfügbar: %1$s</string>
   <string name="privacy_policy">Datenschutzerklärung</string>
+  <string name="prompt_before_transmission_message1_summary">Wenn Sie sich dafür entscheiden, sie von Ihrem alten Gerät zu übertragen, werden die App-Daten (einschl. Chat-Verlauf) überschrieben.</string>
+  <string name="prompt_before_transmission_message1_title">Diese Apps haben bereits App-Daten auf Ihrem neuen Gerät generiert</string>
+  <string name="prompt_before_transmission_message2_summary">Dual-Apps können nicht übertragen werden. Sie können jedoch Original-Apps übertragen.</string>
+  <string name="prompt_before_transmission_message2_title">Sie verwenden duale Anwendungen für folgende Elemente</string>
+  <string name="prompt_before_transmission_message3_summary">Elemente aus dem Zweitprofil können wegen Systembeschränkungen nicht übertragen werden.</string>
+  <string name="prompt_before_transmission_message3_title">Sie nutzen ein Zweitprofil</string>
+  <string name="prompt_before_transmission_message4_summary">WLAN nicht ausschalten oder zwischen Netzwerken wechseln, bis die Übertragung abgeschlossen ist.</string>
+  <string name="prompt_before_transmission_message4_title">Während der gesamten Übertragung verbunden bleiben</string>
   <string name="prompt_more_than_3h">Mehr als 3 Std</string>
   <string name="prompt_sleep_time_night">Nachtschlaf</string>
   <string name="prompt_sleep_time_noon">Mittagsschlaf</string>
   <string name="protein_rate">Eiweiß</string>
   <string name="protein_rate_descripe_content">Der Eiweißanteil bezieht sich auf den Anteil des Eiweiß am Gesamtgewicht des menschlichen Körpers. Er ist wichtig für die Erkennung eines Ernährungsungleichgewichts und die Aufrechterhaltung einer gesunden Ernährung.</string>
+  <string name="qq_app_receive_fail">QQ nicht erhalten</string>
+  <string name="qq_app_send_fail">QQ nicht gesendet</string>
   <string name="rate_bit_high">Hoch</string>
   <string name="rate_bit_low">Niedrig</string>
   <string name="rate_bone_mass_reduce">Knochenmasse reduziert</string>
@@ -681,6 +691,7 @@ Wenn es für Sie nach 30 Minuten im Bett immer noch schwierig ist, einzuschlafen
   <string name="record_detail_page_title">Details</string>
   <string name="record_more">Mehr aufnehmen</string>
   <string name="recorded_menstruation">Erfasste Periode</string>
+  <string name="recovery_progress">Elemente wiederherstellen (%1$d/%2$d)…</string>
   <string name="reference">Referenzmaterialien</string>
   <string name="relationship_with_contact">Beziehung</string>
   <string name="rem_Duration_increase_description">Ihr REM-Schlaf ist zu lang</string>
@@ -701,6 +712,10 @@ Wenn es für Sie nach 30 Minuten im Bett immer noch schwierig ist, einzuschlafen
   <string name="remind_title_menstruation_start">Erinnern, wann die Periode beginnt</string>
   <string name="remind_title_record">An das Aufzeichnen erinnern</string>
   <string name="remove">Entfernen</string>
+  <string name="restore_data_to_device_content">"Ihre Elemente wurden mit Xiaomi Cloud synchronisiert.
+Am Mi-Konto anmelden, um sie wiederherzustellen."</string>
+  <string name="restore_data_to_device_title">Elemente auf diesem Gerät wiederherstellen</string>
+  <string name="restore_right_now">Wiederherstellen</string>
   <string name="retry">Erneut versuchen</string>
   <string name="revert_to_default">Standardwerte wiederherstellen</string>
   <string name="run">Laufen</string>
@@ -961,6 +976,10 @@ auf Ihren persönlichen Daten beraten."</string>
   <string name="sustain_title">"Sie haben sich nicht bewegt seit "</string>
   <string name="swim">Schwimmen</string>
   <string name="swim_type">Stil</string>
+  <string name="sync_data_to_mi_cloud_content1">%d. Auf dem Reiter \"Kontakte\" auf \"Jetzt synchronisieren\" tippen.</string>
+  <string name="sync_data_to_mi_cloud_content2">%d. Auf dem Reiter \"Fotos\" auf \"Jetzt sichern\" tippen.</string>
+  <string name="sync_data_to_mi_cloud_summary">Xiaomi Cloud auf Ihrem iPhone öffnen und folgende Schritte ausführen, um Daten zu synchronisieren. Auf die Schaltfläche unten tippen, wenn die Synchronisation abgeschlossen ist.</string>
+  <string name="sync_data_to_mi_cloud_title">Daten synchronisieren</string>
   <string name="sync_immediately">Synchronisieren</string>
   <string name="sync_is_off">Synchronisation ist aus</string>
   <string name="sync_set_network">Netzwerkeinstellungen</string>
@@ -970,6 +989,12 @@ auf Ihren persönlichen Daten beraten."</string>
   <string name="sync_status_network_failure">Synchronisation nicht möglich. Mit Netzwerk verbinden und erneut versuchen.</string>
   <string name="sync_status_never_done">Nicht synchronisiert</string>
   <string name="sync_status_oauth_error">Daten synchronisieren nicht möglich. Zuerst die erforderlichen Berechtigungen erteilen.</string>
+  <string name="system_app_is_restore">Systemelemente wiederherstellen…</string>
+  <string name="system_app_restore_completed">Erfolgreich wiederhergestellt</string>
+  <string name="system_app_restore_completed_detail">Alle Systemelemente wurden erfolgreich wiederhergestellt</string>
+  <string name="system_app_restore_failed">Ein Fehler ist aufgetreten</string>
+  <string name="system_app_restore_failed_detail">Systemelemente wurden nicht wiederhergestellt. Netzwerkeinstellungen prüfen, aber Gerät nicht neu starten oder ausschalten, bis die Elemente vollständig wiederhergestellt sind. Auf Schaltfläche unten tippen, um es erneut zu versuchen.</string>
+  <string name="system_restore">Elemente wiederherstellen</string>
   <string name="tb_audio_progress_bar">Audiowiedergabeleiste</string>
   <string name="tb_card_on_using_list">Hinzugefügt</string>
   <string name="tb_click_finish_stand">Nicht beendetes Stehen seit fast 1 Stunde, tippen Sie zum Beenden des Stehens</string>
@@ -1157,6 +1182,7 @@ auf Ihren persönlichen Daten beraten."</string>
   <string name="title_month_exercise_sum">Monatliche Statistik</string>
   <string name="title_network_license">Netzwerkzugriff</string>
   <string name="title_no_record_menstruation">Sie haben Ihre Periode noch nicht erfasst</string>
+  <string name="title_request_write_settings_perm">Berechtigung zum Ändern von Systemeinstellungen erforderlich</string>
   <string name="title_run_in_background">Im Hintergrund laufen</string>
   <string name="title_select_birthday">Geburtstag einstellen</string>
   <string name="title_select_birthday_description">Wir passen unsere Dienste Ihrem Alter an</string>
@@ -1186,6 +1212,7 @@ auf Ihren persönlichen Daten beraten."</string>
   <string name="tracking_progress_labe_release_to_refresh">Zum Aktualisieren loslassen</string>
   <string name="tracking_progress_labe_up_nodata">keine Daten</string>
   <string name="tracking_progress_labe_up_refresh">Zum Aktualisieren ziehen</string>
+  <string name="transfer_connect_fail_summary">Auf Schaltfläche unten tippen, um manuell zu verbinden</string>
   <string name="tuesday">Dienstag</string>
   <string name="tuesday_short">Di</string>
   <string name="tuesday_shortest">D</string>
@@ -1216,7 +1243,12 @@ Jetzt aktualisieren?"</string>
   <string name="value_error_correct">Aufnahmefehler</string>
   <string name="visceral_fat">Viszerales Fett</string>
   <string name="visceral_fat_descripe_content">Viszerales Fett ist für die Stabilisierung und den Schutz der inneren Organe unerlässlich. Allerdings erhöht ein hoher viszeraler Fettanteil das Risiko von Herz-Kreislauf- und Stoffwechselerkrankungen.</string>
+  <string name="waiting_restore_desktop">Apps von Drittanbietern übertragen zum Wiederherstellen des Startbildschirm-Layouts…</string>
   <string name="walk">Wandern</string>
+  <string name="wechat_and_qq_app_receive_fail">WeChat und QQ nicht erhalten</string>
+  <string name="wechat_and_qq_app_send_fail">WeChat und QQ nicht erhalten</string>
+  <string name="wechat_app_receive_fail">WeChat  nicht erhalten</string>
+  <string name="wechat_app_send_fail">WeChat nicht erhalten</string>
   <string name="wednesday">Mittwoch</string>
   <string name="wednesday_short">Mi</string>
   <string name="wednesday_shortest">M</string>
