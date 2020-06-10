@@ -1,5 +1,33 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+
+
+     <string name="ad_experience_now">Öffnen</string>
+     <string name="community_community_message_trigger_summary">Benachrichtigungen über Antworten, Likes und Statusaktualisierungen der Mi-Community unter Verwendung Ihrer Mi-Konto-ID erhalten</string>
+     <string name="community_community_message_trigger_title">Über Aktivitäten benachrichtigen</string>
+     <string name="community_entrance_summary">Themenbezogene Inhalte in Mi Community entdecken. Diese Funktion wird durch ausgewählte Themen unterstützt.</string>
+     <string name="community_entrance_title">Mi Community Uhr-Widget</string>
+     <string name="community_message_trigger_disabled">Aus</string>
+     <string name="community_message_trigger_triggered">An</string>
+     <string name="forbid_transparent_wallpaper_by_second_space">Zuerst transparenten Hintergrund im Hauptprofil anwenden.</string>
+     <string name="forbid_video_wallpaper_by_second_space">Zuerst dynamisches Hintergrundbild im Zweitprofil anwenden.</string>
+     <string name="i_know">Verstanden</string>
+     <string name="miui_clock_city_name_local">Lokal</string>
+     <string name="miui_clock_city_name_second">Zweite Uhr</string>
+     <string name="miui_lock_screen_date">EEEE, d. MMMM</string>
+     <string name="miui_lock_screen_date_12">EEEE, d. MMMM</string>
+     <string name="miui_lock_screen_date_two_lines">"EEEE
+d. MMMM"</string>
+     <string name="miui_lock_screen_date_two_lines_12">"EEEE
+d. MMMM"</string>
+     <string name="miui_lock_screen_large_date">"EEE
+dd.M."</string>
+     <string name="miui_lock_screen_large_date_12">"EEE
+dd.M."</string>
+     <string name="theme_designer_products">Designer-Themen</string>
+     <string name="use_hint">Achtung</string>
+     
+
   <string name="abc_action_bar_home_description">Zur Startseite</string>
   <string name="abc_action_bar_up_description">Nach oben</string>
   <string name="abc_action_menu_overflow_description">Mehr Optionen</string>
@@ -126,7 +154,11 @@ Themen erkennt, welche Apps Sie verwenden und zeigt transparente Hintergrundbild
   <string name="common_signin_button_text">Anmelden</string>
   <string name="common_signin_button_text_long">Anmelden mit Google</string>
   <string name="common_skip">Überspringen</string>
-  <string name="community_cta_dialog_title">Uhr-Verknüpfung</string>
+  <string name="community_cta_dialog_cancel">Nein Danke</string>
+  <string name="community_cta_dialog_des"Drittanbieter-Themen unterstützen jetzt das Mi Community-Widget. Es funktioniert als eine Abkürzung, die Sie zum Unterforum Themen von Mi Community führt. Sie können diese Funktion in den Einstellungen abschalten.
+Erlauben Sie den Themen den Zugriff auf Ihre Mi-Konto-ID und den Mi-Community-Status, die mit dem Konto verknüpft sind, um sie hier anzeigen zu können. Sie können auch Benachrichtigungen über Mi-Community-Aktivitäten in den Einstellungen ein- und ausschalten.</string>
+  <string name="community_cta_dialog_ok">Erlauben</string>
+  <string name="community_cta_dialog_title">Berechtigung erforderlich</string>
   <string name="component_backup_preference_title">Thema sichern</string>
   <string name="component_category_finest_title">ALLGEMEIN</string>
   <string name="component_category_more_title">ERWEITERT</string>
@@ -620,7 +652,7 @@ auf den Bildschirm tippen, um neu zu laden."</string>
   <string name="resource_detail_window_title">%1$s Details</string>
   <string name="resource_download">Herunterladen</string>
   <string name="resource_download_notification_title_many">%1$s Themen runtergeladen</string>
-  <string name="resource_download_notification_title_one">Thema runtergeladen</string>
+  <string name="resource_download_notification_title_one">%1$s erfolgreich heruntergeladen</string>
   <string name="resource_download_trial">Testen</string>
   <string name="resource_downloaded_title">Runtergeladene Quellen</string>
   <string name="resource_downloading">Laden…</string>
@@ -636,7 +668,7 @@ auf den Bildschirm tippen, um neu zu laden."</string>
   <string name="resource_exchange_share_code_content">Sie haben einen Gutscheincode für das Thema %1$s im MIUI Theme Store erhalten. Der Code lautet: %2$s. Drücken Sie %3$s, um ihn jetzt einzulösen.</string>
   <string name="resource_exchange_share_code_dlg_content">Gutscheincode für Ihr gekauftes Thema %1$s ist: %2$s. Wenn Sie Ihn an einen anderen MIUI Benutzer senden, kann er/sie ihn dazu benutzen, das Thema runterzuladen.</string>
   <string name="resource_exchange_share_code_dlg_title">Senden</string>
-  <string name="resource_exchange_success">Viel Spaß! :)</string>
+    <string name="resource_exchange_success">Erfolgreich eingelöst</string>
   <string name="resource_exchange_unavailable">Das Ihrem Code zugeordnete Thema ist nicht verfügbar</string>
   <string name="resource_exchange_universal_finish">Benutzen Sie diesen Code, um einzelne Elemente aus dem Thema runterzuladen</string>
   <string name="resource_exchange_universal_goon">Mit diesem Code können Sie beliebige Themen im Store herunterladen</string>
@@ -840,7 +872,7 @@ auf den Bildschirm tippen, um neu zu laden."</string>
   <string name="sunday">Sonntag</string>
   <string name="sunday_short">So</string>
   <string name="sunday_shortest">S</string>
-  <string name="super_wallpaper">Superhintergrund</string>
+  <string name="super_wallpaper">Superhintergründe</string>
   <string name="support_theme_store_des">Gute Themen werden immer von talentierten Designern entworfen. Unsere App enthält eine kleine Anzahl an Werbung, mit der wir ihre Arbeit unterstützen.</string>
   <string name="support_theme_store_supported">Danke für Ihre Unterstützung!</string>
   <string name="support_theme_store_title">Unterstützen Sie unsere Designer</string>
@@ -994,7 +1026,7 @@ auf den Bildschirm tippen, um neu zu laden."</string>
   <string name="theme_user_agreement_remind_never">Nicht mehr anzeigen</string>
   <string name="theme_user_agreement_remind_summary">Nutzungsbedingungen jedes Mal anzeigen. Wirksam nach dem nächsten Neustart.</string>
   <string name="theme_user_agreement_title">Nutzungsbedingungen</string>
-  <string name="theme_wallpaper">Hintergrundkategorie</string>
+  <string name="theme_wallpaper">Hintergrundkategorien</string>
   <string name="theme_yes">Ja</string>
   <string name="third_party_pickers_activity_title">%1$s festlegen</string>
   <string name="thursday">Donnerstag</string>
