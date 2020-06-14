@@ -192,8 +192,9 @@
   <string name="item_title_date_calculator">Datum</string>
   <string name="item_title_discount">Rabatt</string>
   <string name="item_title_dress_size">Konfektionsgröße</string>
-  <string name="item_title_emi">Persönliches Darlehen</string>
+  <string name="item_title_emi">Darlehensrechner</string>
   <string name="item_title_length_conversion">Länge</string>
+  <string name="item_title_loan">Darlehen</string>
   <string name="item_title_mortgage">Hauskredit</string>
   <string name="item_title_percentage">Prozentsatz</string>
   <string name="item_title_radix">Zahlensystem</string>
@@ -216,8 +217,8 @@
   <string name="label_first_repayment">Erste Rückzahlung</string>
   <string name="label_from_date">Ab Datum</string>
   <string name="label_history">Verlauf</string>
-  <string name="label_interest">Interesse</string>
-  <string name="label_loan_tenure">Darlehenslaufzeit</string>
+  <string name="label_interest">Zinsen (Prozent)</string>
+  <string name="label_loan_tenure">Kreditlaufzeit</string>
   <string name="label_monthly">Monatlich</string>
   <string name="label_months">Monate</string>
   <string name="label_no_history">Hier noch keine Elemente</string>
@@ -248,8 +249,12 @@
   <string name="loan_edittext_hint_fund_combined">Fondsdarlehen</string>
   <string name="loan_edittext_title_commercial_combined">Kommerziell (×10K)</string>
   <string name="loan_edittext_title_fund_combined">Fondsdarlehen (×10K)</string>
+  <string name="loan_enter_amount">Betrag eingeben</string>
+  <string name="loan_enter_amount_interest">Betrag und Zinssatz eingeben</string>
+  <string name="loan_enter_interest">Zinssatz eingeben</string>
   <string name="loan_first_pay_date">Erster Zahlungstermin</string>
   <string name="loan_interest_rate">Zinsen</string>
+  <string name="loan_invalid_loan_tenure">Kreditlaufzeit muss größer als Null sein</string>
   <string name="loan_pay_years">Laufzeit</string>
   <string name="loan_payback_way">Rückzahlung</string>
   <string name="loan_repayment_detail">Detaillierte Tilgung</string>
@@ -317,7 +322,7 @@ Einjährige und fünfjährige LPRs werden am 20. eines jeden Monats (Verzögerun
   <string name="mortgage_item_repayment">Rückzahlung</string>
   <string name="mortgage_item_start_time">Tilgungsbeginn</string>
   <string name="mortgage_item_years">Kreditlaufzeit</string>
-  <string name="mortgage_loans_amount">Darlehensbetrag</string>
+  <string name="mortgage_loans_amount">Kreditbetrag</string>
   <string name="mortgage_provident_found_interest_rate">Fonds-Zinssatz</string>
   <string name="mortgage_provider_east_money">Daten werden von East Money zur Verfügung gestellt</string>
   <string name="mortgage_repayment_amount">Rückzahlungsbetrag</string>
