@@ -156,6 +156,7 @@ um Karten hinzuzufügen"</string>
   <string name="cross_hiking">Wandern</string>
   <string name="cumulative_decline">Höhenverlust</string>
   <string name="cumulative_rise">Höhengewinn</string>
+  <string name="current_phone">Dieses Gerät</string>
   <string name="cycle">Radfahren</string>
   <string name="daily_consumption_label">Kalorien</string>
   <string name="daily_distance_label">Entfernung</string>
@@ -175,6 +176,8 @@ Wenn Sie sich entscheiden, Ihre Gesundheitsdaten zu löschen, nachdem Sie sich e
   <string name="data_source_list_description">"Xiaomi Health erhält Gesundheitsdaten (%1$s) aus diesen Quellen. Wenn die Daten in mehreren Quellen dupliziert werden, sehen Sie die Daten aus den Quellen, die in der Liste in Xiaomi Health an erster Stelle stehen."</string>
   <string name="data_source_manage">Datenquellen verwalten</string>
   <string name="data_source_not_support_hm_description">%1$s liefert keine detaillierte Schrittzahl. Sie können versuchen, auf andere Datenquellen in Weiteres &gt; Datenquellen umzuschalten.</string>
+  <string name="data_source_not_support_hm_description_consume">Ausgewählte Datenquelle (%1$s) liefert keine detaillierten Infos über Kalorien. Unter Weiteres &gt; Datenquellen können Sie eine andere Datenquelle wählen.</string>
+  <string name="data_source_not_support_hm_description_duration">Ausgewählte Datenquelle (%1$s) liefert keine detaillierten Infos über Trainings mit mittlerer bis hoher Intensität. Unter Weiteres &gt; Datenquellen können Sie eine andere Datenquelle wählen.</string>
   <string name="date">Datum</string>
   <string name="date_format_m_d">d.M.</string>
   <string name="date_format_m_d_2">dd.MM.</string>
@@ -209,6 +212,10 @@ Wenn Sie sich entscheiden, Ihre Gesundheitsdaten zu löschen, nachdem Sie sich e
   <string name="delete_all_data_sources_description">Alle hinzugefügten Datenquellen löschen?</string>
   <string name="delete_avatar">Aktuelles Foto löschen</string>
   <string name="delete_contact">Löschen</string>
+  <string name="delete_data_source">Datenquelle löschen</string>
+  <string name="delete_dialog_close_sync_msg">Um %1$s zu löschen, zuerst die Synchronisation auf dem entsprechenden Gerät ausschalten</string>
+  <string name="delete_dialog_confirm_msg_cloud">%1$s zusammen mit den zugehörigen Daten auf diesem Gerät und in der Cloud löschen?</string>
+  <string name="delete_dialog_confirm_msg_local">%1$s zusammen mit den zugehörigen Daten löschen?</string>
   <string name="delete_menstruation_record_confirm">Diese Aufzeichnung löschen?</string>
   <string name="delete_origin_data_description">Alle von %1$s generierten Daten löschen?</string>
   <string name="delete_record">Aufnahme löschen</string>
@@ -338,6 +345,9 @@ Wenn Ihr Gerät hier aufgeführt ist, können Sie Datenquellen manuell in Xiaomi
   <string name="exercise_reminder_accomplished">Sie haben Ihr Ziel erreicht!</string>
   <string name="exercise_reminder_title">Aktivitätserinnerung</string>
   <string name="exercise_reminder_unaccomplished">Sie haben Ihr Ziel noch nicht erreicht. Weiter so!</string>
+  <string name="exercise_result_reminder_content">%1$d Min der Übung (%2$d Kcal). Tippen, um Details anzuzeigen.</string>
+  <string name="exercise_result_reminder_title">Heutiger Schrittzähler: %1$d. Sie haben das Ziel erreicht!</string>
+  <string name="exercise_result_reminder_title_unaccomplished">Heutiger Schrittzähler: %1$d. Sie können das Ziel noch erreichen!</string>
   <string name="exercise_setting_label_reach_standard_remind">Aktivitätsalarm</string>
   <string name="exercise_setting_page_title">Aktivitätseinstellungen</string>
   <string name="exercise_strokes">Anzahl der Serien</string>
@@ -395,6 +405,7 @@ Wenn es für Sie nach 30 Minuten im Bett immer noch schwierig ist, einzuschlafen
   <string name="go_on">Fortfahren</string>
   <string name="go_open_sleep_detector">Starten</string>
   <string name="go_setting">Einstellungen</string>
+  <string name="go_to_close">Einstellungen</string>
   <string name="go_to_open">Einschalten</string>
   <string name="goal_daily_exercise">Aktivitätsziel</string>
   <string name="goal_sleep_time">Schlafdauerziel</string>
@@ -696,6 +707,8 @@ Wenn es für Sie nach 30 Minuten im Bett immer noch schwierig ist, einzuschlafen
   <string name="remind_query_menstruation_end">Ist Ihre Periode beendet? Nicht vergessen aufzuzeichnen.</string>
   <string name="remind_query_menstruation_start">Hat Ihre Periode begonnen? Nicht vergessen aufzuzeichnen.</string>
   <string name="remind_sleep_report_complete">Schlafstatistik ist fertig</string>
+  <string name="remind_sleep_report_content">Sie haben letzte Nacht %1$d Std %2$d Min geschlafen. Tippen, um Details anzuzeigen.</string>
+  <string name="remind_sleep_report_title">Schlafstatistik ist fertig</string>
   <string name="remind_subtitle_menstruation_start">Erinnerung 2 Tage vor Beginn der nächsten Periode erhalten</string>
   <string name="remind_subtitle_record">Erinnerung erhalten, wenn Sie Start- und Enddaten Ihrer Perioden aufzeichnen müssen</string>
   <string name="remind_title_menstruation_start">Erinnern, wann die Periode beginnt</string>
@@ -811,11 +824,13 @@ Schlafzyklus"</string>
   <string name="sleep_no_deep_light_data_tip">Warum wird der Halb-/Tiefschlaf nicht aufgezeichnet?</string>
   <string name="sleep_no_generate_report">"Schlafdaten
 nicht gefunden"</string>
+  <string name="sleep_notice">Schlaf-Benachrichtigungen</string>
   <string name="sleep_record_content">Xiaomi Health zeichnet Ihren Schlaf automatisch auf, basierend auf Ihrer Telefonnutzung, der Aktivitätsstatistik sowie der von Ihnen eingestellten Einschlaf- und Aufwachzeit.</string>
   <string name="sleep_record_go_open">\"Schlaf verfolgen\"-Schalter betätigen, um mit Schlafdaten aufzeichnen zu beginnen</string>
   <string name="sleep_record_label">Schlaf aufzeichnen</string>
   <string name="sleep_remind">Schlaferinnerung</string>
   <string name="sleep_report">Schlafstatistik</string>
+  <string name="sleep_report_notice">Schlafstatistik-Benachrichtigungen</string>
   <string name="sleep_require_auto_start_permission">Xiaomi Health den Autostart erlauben, um Ihre Aktivitäten und Ihren Schlaf zu verfolgen</string>
   <string name="sleep_schedule">Schlafzeit</string>
   <string name="sleep_service">Schlafverfolgungsdienst</string>
@@ -922,11 +937,11 @@ auf Ihren persönlichen Daten beraten."</string>
   <string name="stand_detection">Steherkennung</string>
   <string name="stand_guide_page_title1">Stehziel jeden Tag vervollständigen und sich von sitzenden Tätigkeiten fernhalten</string>
   <string name="stand_guide_page_title2">Automatische Erkennung, Aufzeichnung und Erinnerung ans Stehen</string>
-  <string name="stand_notice">Stehbenachrichtigung</string>
+  <string name="stand_notice">Steh-Benachrichtigung</string>
   <string name="stand_notice_subtitle1">%1$s-%2$s haben das Stehen nicht erkannt. Wenn Sie bereits stehen, tippen Sie auf Beenden.</string>
   <string name="stand_notice_subtitle2">Wenn Sie bereits gestanden haben, tippen Sie bitte zum Abschließen. Sie sind nicht aufgestanden und haben sich nicht gestreckt.</string>
   <string name="stand_notice_title1">Aufstehen und aktiv werden!</string>
-  <string name="stand_notice_title2">Stehbenachrichtigung</string>
+  <string name="stand_notice_title2">Steh-Benachrichtigung</string>
   <string name="stand_notice_title3">Längeres Sitzen</string>
   <string name="stand_notice_title4">Aufstehen und strecken</string>
   <string name="stand_notice_title5">Seit fast 1 Stunde kein Stehen festgestellt</string>
@@ -962,6 +977,7 @@ auf Ihren persönlichen Daten beraten."</string>
   <string name="swim">Schwimmen</string>
   <string name="swim_type">Stil</string>
   <string name="sync_immediately">Synchronisieren</string>
+  <string name="sync_is_not_closed">Synchronisation ist jetzt an</string>
   <string name="sync_is_off">Synchronisation ist aus</string>
   <string name="sync_set_network">Netzwerkeinstellungen</string>
   <string name="sync_status">Synchronisationsstatus</string>
