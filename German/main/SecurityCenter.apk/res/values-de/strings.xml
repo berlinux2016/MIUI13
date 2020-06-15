@@ -628,7 +628,7 @@ Sie verlieren keine App-Daten."</string>
   <string name="battery_low_percent_format_save_mode_open">Weniger als %1$s Akku übrig. Schalten Sie den Stromsparmodus ein, um %2$s zusätzliche Zeit hinzuzufügen.</string>
   <string name="battery_low_title">Akku ist fast leer</string>
   <string name="battery_low_title_power_save">Stromsparmodus</string>
-  <string name="battery_statistics_activity_title">Stromverbrauchstatistik</string>
+  <string name="battery_statistics_activity_title">Verbrauchsstatistik</string>
   <string name="battery_stats_charging_label">Laden</string>
   <string name="battery_stats_gps_on_label">GPS an</string>
   <string name="battery_stats_on_battery">%1$s im Akkubetrieb</string>
@@ -1756,6 +1756,7 @@ Anbieters warten"</string>
   <string name="memory_clean_cleaning_title">Cache bereinigen</string>
   <string name="memory_clean_click_tip">Geschwindigkeit erhöhen</string>
   <string name="memory_clean_no_need_clean">Alles sieht gut aus</string>
+  <string name="memory_clean_no_need_clean_1" formatted="false">%s freigegeben. Ihr Gerät ist jetzt %d%% schneller.</string>
   <string name="memory_clean_no_running_process">Keine Prozesse zum Bereinigen</string>
   <string name="memory_clean_running_process_title">Überwachte Apps (%d)</string>
   <string name="memory_cleaned_memory_info">Verfügbarer Speicher</string>
@@ -1807,6 +1808,8 @@ Anbieters warten"</string>
   <string name="menu_summary_networkassistants_2">Limit überschritten</string>
   <string name="menu_summary_networkassistants_3">Ausreichend Daten vorhanden</string>
   <string name="menu_summary_networkassistants_4">Keine Daten mehr vorhanden</string>
+  <string name="menu_summary_optimize_manage">RAM freigeben</string>
+  <string name="menu_summary_optimize_manage_1">Machen Sie Ihr Gerät %d%% schneller</string>
   <string name="menu_summary_power_manager">Stromsparen gibt Ihnen mehr Zeit zwischen den Ladevorgängen</string>
   <string name="menu_summary_power_manager_1">Akku ist voll geladen</string>
   <!-- Ohne Leerzeichen, sonst sind 2 Leerzeichen dazwischen! -->
@@ -1822,6 +1825,7 @@ Anbieters warten"</string>
   <string name="menu_text_networkassistants_danger">%s über</string>
   <string name="menu_text_networkassistants_remain">%s verbleiben</string>
   <string name="menu_text_optimize_manage">Mehr Geschwindigkeit</string>
+  <string name="menu_text_optimize_manage_1">Geschwindigkeit steigern</string>
   <string name="menu_text_power_manager">Akku</string>
   <string name="menu_text_power_percent">%s Akku</string>
   <string name="menu_text_power_percent_title_default">Akku</string>
@@ -2020,9 +2024,11 @@ Versuchen Sie ein anderes LAN-Kabel am Router. Wenn Sie vermuten, dass der Fehle
   <string name="om_notify_cpu_load_too_high_title">CPU-Nutzung durch %s ist zu hoch</string>
   <string name="om_notify_need_clean_memory_summary">Cache löschen, um die Geschwindigkeit zu erhöhen</string>
   <string name="om_notify_need_clean_memory_title">Cachegröße erreicht %s</string>
+  <string name="om_optimzing_big_button_text">Geschwindigkeit steigern</string>
   <string name="om_other_processes">Andere Prozesse</string>
   <string name="om_other_processes_cpu_usage_summary">Durchschnittliche CPU-Auslastung ist niedriger als %s%%</string>
   <string name="om_promotion">Werbung</string>
+  <string name="om_running_app_info_summary">%s freigeben</string>
   <string name="om_running_locked_apps">Gesperrte laufende Apps</string>
   <string name="om_running_system_apps">Laufende System-Apps</string>
   <string name="om_running_third_apps">Laufende Drittanbieter-Apps</string>
@@ -2037,6 +2043,8 @@ Versuchen Sie ein anderes LAN-Kabel am Router. Wenn Sie vermuten, dass der Fehle
   <string name="om_settings_notify_manage">Benachrichtigungen</string>
   <string name="om_settings_speed_up_auto">Automatisch optimieren</string>
   <string name="om_settings_title">Einstellungen</string>
+  <string name="om_shortcut_added_toast_text">Erfolgreich hinzugefügt</string>
+  <string name="om_shortcut_dialog_summary">RAM Jet ermöglicht Ihnen die RAM-Freigabe und Geschwindigkeitssteigerung Ihres Geräts mit einem Fingertipp. RAM Jet zu Ihrem Startbildschirm hinzufügen?</string>
   <string name="open_activity_err">App wurde nicht gefunden</string>
   <string name="open_alarm_right_now">Jetzt öffnen</string>
   <string name="open_app">Öffnen</string>
@@ -2132,7 +2140,7 @@ Stromverbrauch"</string>
   <string name="pc_battery_history_consume_rank_menu_item">Verbrauchsliste</string>
   <string name="pc_battery_history_consumption_percent_title">Leistungsaufnahme in Prozent</string>
   <string name="pc_battery_history_idletime_title">Ruhezustand</string>
-  <string name="pc_battery_history_item_chart">Stromverbrauchgrafik</string>
+  <string name="pc_battery_history_item_chart">Stromverbrauchsgrafik</string>
   <string name="pc_battery_history_item_histogram">Stromverbrauchdetails</string>
   <string name="pc_battery_history_rank_mha_menu_item">mAh</string>
   <string name="pc_battery_history_rank_percent_menu_item">Prozent</string>
@@ -2710,7 +2718,10 @@ Während der Kalibrierung sendet MIUI eine Textnachricht an Ihren Mobilfunkanbie
   <string name="section_title_clear_acc">Cache leeren</string>
   <string name="section_title_security_defend">Sicherheit</string>
   <string name="section_title_system">Systemsicherheit</string>
+  <string name="security_bottom_guide_to_pm_text">Utility Kit öffnen…</string>
   <string name="security_center_slogan">Sicherheit - immer auf der Hut</string>
+  <string name="security_guide_bubble_text">Öffnen</string>
+  <string name="security_guide_summary">Zentrale Anlaufstelle für Tools und Dienstleistungen</string>
   <string name="security_scan_optimizing">Optimieren…</string>
   <string name="securityadd_install_fail">Plugin wurde nicht aktualisiert. Erneut versuchen.</string>
   <string name="securityadd_update_tips_cancle">Nicht jetzt</string>

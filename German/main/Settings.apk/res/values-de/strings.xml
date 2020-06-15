@@ -1781,6 +1781,7 @@ Nach Erstellung einer neuen Sicherheitsfrage und Bestätigung Ihres Geburtsdatum
   <string name="contextual_card_undo_dismissal_text">Rückgängig</string>
   <string name="continue_reset_factory">Werkseinstellung</string>
   <string name="contributors_title">Mitwirkende</string>
+  <string name="control_center">Kontrollzentrum</string>
   <string name="control_panel_switch_side">Kontrollzentrumseite umschalten</string>
   <string name="controls_label">Steuerung</string>
   <string name="controls_subtitle">Stromverbrauch anpassen</string>
@@ -2382,6 +2383,7 @@ Wenn es so bleibt, muss die App evtl. deinstalliert werden, um die Akkuleistung 
   <string name="done">Fertig</string>
   <string name="done_button">Fertig</string>
   <string name="double_click_power_key">Power-Taste zweimal drücken</string>
+  <string name="double_knock">Knöchel-Doppeltipp</string>
   <string name="double_tap_power_for_camera_suggestion_title">Kamera schnell öffnen</string>
   <string name="double_tap_power_for_camera_summary">Drücken Sie zweimal auf Power-Taste, um Kamera schnell zu öffnen. Funktioniert von jedem Bildschirm aus.</string>
   <string name="double_tap_power_for_camera_title">Zur Kamera springen</string>
@@ -3296,11 +3298,11 @@ Xiaomi Cloud öffnen und Elemente von dort aus wiederherstellen."</string>
   <string name="input_method_bottom_open">Ein</string>
   <string name="input_method_clipboard_settings">Einstellungen Zwischenablage</string>
   <string name="input_method_cloud_data_title">Cloud-Zwischenablage</string>
-  <string name="input_method_cloud_paste_mode_bubble_des">Sie sehen ein Popup, wenn neue Inhalte in der Cloud-Zwischenablage erscheinen. Tippen Sie auf das Popup, um den kopierten Text einzugeben.</string>
+  <string name="input_method_cloud_paste_mode_bubble_des">Sie werden ein Popup sehen. Popup antippen, um den kopierten Text einzugeben.</string>
   <string name="input_method_cloud_paste_mode_bubble_title">Popup</string>
-  <string name="input_method_cloud_paste_mode_no_des">Sie werden keine Benachrichtigungen sehen, wenn neue Inhalte in der Cloud-Zwischenablage erscheinen. Sie können jedoch weiterhin Ihre Zwischenablage verwenden, indem Sie auf das Symbol tippen.</string>
+  <string name="input_method_cloud_paste_mode_no_des">Sie werden keine Benachrichtigungen sehen. Sie können jedoch weiterhin Ihre Zwischenablage verwenden, indem Sie auf das Symbol tippen.</string>
   <string name="input_method_cloud_paste_mode_no_title">Keine</string>
-  <string name="input_method_cloud_paste_mode_red_point_des">Sie sehen einen roten Punkt unten auf der Tastatur, wenn neue Inhalte in der Cloud-Zwischenablage erscheinen. Tippen Sie auf das Symbol, um die Zwischenablage zu öffnen und den kopierten Inhalt zu verwenden.</string>
+  <string name="input_method_cloud_paste_mode_red_point_des">Sie werden einen roten Punkt unten auf der Tastatur sehen. Symbol antippen, um die Zwischenablage zu öffnen und den kopierten Inhalt zu verwenden.</string>
   <string name="input_method_cloud_paste_mode_red_point_title">Roter Punkt</string>
   <string name="input_method_function_clipboard">Zwischenablage und häufige Sätze</string>
   <string name="input_method_function_clipboard_des">Tippen, um die Zwischenablage und häufige Sätze anzuzeigen</string>
@@ -3316,6 +3318,7 @@ Xiaomi Cloud öffnen und Elemente von dort aus wiederherstellen."</string>
   <string name="input_method_quick_access">Schnellzugriff</string>
   <string name="input_method_quick_cloud_mode_title">Benachrichtigungen über neuen Inhalt der Zwischenablage</string>
   <string name="input_method_quick_cloud_summary">Kopieren Sie Elemente auf kompatible Computer und fügen Sie sie auf Ihrem Gerät ein</string>
+  <string name="input_method_quick_cloud_tips">Benachrichtigungstyp</string>
   <string name="input_method_quick_cloud_title">Cloud-Zwischenablage</string>
   <string name="input_method_quick_paste_summary">Anzeigen der kopierten Elemente durch Antippen des Zwischenablage-Symbols</string>
   <string name="input_method_quick_paste_title">Schnelles Einfügen</string>
@@ -3537,6 +3540,7 @@ Xiaomi Cloud öffnen und Elemente von dort aus wiederherstellen."</string>
   <string name="last_time_used_label">Zuletzt verwendet</string>
   <string name="later">SPÄTER</string>
   <string name="lattice_smartcover_title">Gitterfrontabdeckung</string>
+<string name="launch_ai_shortcut">Mi AI-Verknüpfung</string>
   <string name="launch_by_default">Standardmäßig öffnen</string>
   <string name="launch_camera">Kamera starten</string>
   <string name="launch_defaults_none">Kein Standard gesetzt</string>
@@ -8142,10 +8146,11 @@ Bitte lesen Sie die Datenschutzerklärung Ihres Dienstanbieters."</string>
   <string name="wifi_ask_enable">%s will WLAN anschalten</string>
   <string name="wifi_assist">WLAN-Assistent</string>
   <string name="wifi_assistant">Automatische Auswahl der besten Netzwerke</string>
-  <string name="wifi_assistant_auto_confirm_data_message">Dieses WLAN hat keinen Zugang zum Internet, stattdessen werden mobile Daten verwendet. Sie können den WLAN-Assistenten in den Einstellungen ausschalten.</string>
+  <string name="wifi_assistant_auto_confirm_data_help">Sie können diese Funktion unter Einstellungen &gt; WLAN &gt; WLAN-Assistent ausschalten.</string>
+  <string name="wifi_assistant_auto_confirm_data_message">Mobiles Datennetz verwenden, wenn Ihr Gerät keine Internetverbindung über WLAN herstellen kann</string>
   <string name="wifi_assistant_card_message">Automatisch mit verfügbaren Netzwerken über den WLAN-Assistenten verbinden</string>
   <string name="wifi_assistant_confirm_always">Nicht mehr anzeigen</string>
-  <string name="wifi_assistant_confirm_connection_title">Verbindung bestätigen</string>
+  <string name="wifi_assistant_confirm_connection_title">Bestes Netz automatisch wählen.</string>
   <string name="wifi_assistant_data_prompt">Eingabeaufforderung aktivieren</string>
   <string name="wifi_assistant_data_prompt_summary">Warnung zur Datennutzung beim Wechsel zu mobilen Daten anzeigen</string>
   <string name="wifi_assistant_description">"Nach Einschaltung der Funktion:

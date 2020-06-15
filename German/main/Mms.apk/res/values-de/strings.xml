@@ -99,7 +99,7 @@
   <string name="button_resend_message">Nochmals senden</string>
   <string name="button_unfold">Aufklappen</string>
   <string name="call_sender">Absender anrufen</string>
-  <string name="can_not_send_by_rcs">Kann China Mobile Nachrichten nicht benutzen</string>
+  <string name="can_not_send_by_rcs">China Mobile Nachrichten nicht möglich</string>
   <string name="can_not_view_group_chat_stranger">Details von Fremden nicht sichtbar</string>
   <string name="cannot_add_picture_and_video">Video und Bild können nicht zu einer Folie hinzugefügt werden</string>
   <string name="cannot_add_slide_anymore">Weiteren Folien können nicht hinzugefügt werden</string>
@@ -189,6 +189,7 @@
   <string name="copy_to_sdcard">Anhang speichern</string>
   <string name="copy_to_sdcard_fail">Anhang konnte nicht gespeichert werden</string>
   <string name="copy_to_sdcard_success">Anhang gespeichert als %s</string>
+  <string name="copy_verification_code_tip">Erfolgreich kopiert</string>
   <string name="current_data_version">Mi Message Version</string>
   <string name="date_picker_lunar">Traditioneller chin. Kalender</string>
   <string name="delete">Löschen</string>
@@ -234,7 +235,7 @@
   <string name="dl_failure_notification">Nachricht %1$s konnte nicht von %2$s heruntergeladen werden</string>
   <string name="done">Fertig</string>
   <string name="download">Herunterladen</string>
-  <string name="download_later">Kann im Moment nicht heruntergeladen werden. Später erneut versuchen.</string>
+  <string name="download_later">Herunterladen momentan nicht möglich. Später erneut versuchen.</string>
   <string name="downloading">Herunterladen</string>
   <string name="downloading_file_can_not_play">Warten, bis die Aufnahme den Download beendet hat</string>
   <string name="draft">Entwurf</string>
@@ -322,9 +323,9 @@
   <string name="group_member_is_composing">Schreiben…</string>
   <string name="group_message">Gruppennachricht</string>
   <string name="group_message_title">Gruppenchats</string>
-  <string name="group_not_exist_hint">Ich kann keine Nachrichten senden. Dieser Gruppenchat wurde gelöscht.</string>
+  <string name="group_not_exist_hint">Nachrichten senden nicht möglich. Dieser Gruppenchat wurde gelöscht.</string>
   <string name="group_notify_message_title">Gruppenchat-Benachrichtigungen</string>
-  <string name="group_rejoin_failed">Konnte nicht am Gruppenchat teilnehmen</string>
+  <string name="group_rejoin_failed">Teilnahme am Gruppenchat nicht möglich</string>
   <string name="group_resend_message">Erneut senden(%d)</string>
   <string name="group_verification_codes_summary">Einmalpasswörter (OTP) automatisch gruppieren</string>
   <string name="group_verification_codes_title">Einmalpasswörter für Gruppen</string>
@@ -381,6 +382,7 @@
   <string name="menu_make_call">Anruf</string>
   <string name="menu_mark">Markieren</string>
   <string name="menu_more">Mehr</string>
+  <string name="menu_multi_select">Wählen</string>
   <string name="menu_new_contact">Neuer Kontakt</string>
   <string name="menu_new_manual">Nummer eingeben</string>
   <string name="menu_pick_from_contact">Aus Kontakten auswählen</string>
@@ -556,6 +558,7 @@ Für die Aktivierung von Mi Message ist eine ausgehende SMS-Nachricht erforderli
   <string name="nosend_message">Nicht senden</string>
   <string name="not_prepare_for_send">Keine Nachricht zum senden</string>
   <string name="not_set">Nicht festgelegt</string>
+  <string name="not_support_audio_forward">Sprachnachrichten weiterleiten nicht möglich</string>
   <string name="notification_ad_content">Sie haben eine Werbenachricht von %s erhalten</string>
   <string name="notification_add_todo">Erinnern Sie mich</string>
   <string name="notification_add_todo_content">Abholcode: %s</string>
@@ -634,9 +637,10 @@ Für die Aktivierung von Mi Message ist eine ausgehende SMS-Nachricht erforderli
   <string name="pref_summary_on_system_mms_priority">MIUI SMS/MMS-App als Standard zum Senden/Empfangen von MMS benutzen</string>
   <string name="pref_summary_privacy_authority">Diesen Schalter betätigen, um Ihre Berechtigung zu erteilen oder zu widerrufen.</string>
   <string name="pref_summary_send_delivery_reports">Lieferbestätigungsmeldung an den Absender senden, wenn Sie eine Multimedia-Mitteilung erhalten</string>
+  <string name="pref_summary_voice_report">Einschalten, um Nachrichten beim Empfang laut vorzulesen. Lautstärke runter-Taste oder Ein/Aus-Taste drücken, um die Wiedergabe zu stoppen.</string>
   <string name="pref_summary_wake_up_screen">Bildschirm bei Eingang neuer Nachrichten einschalten</string>
   <string name="pref_switch_sdk_setting">Smart SMS-Engine ändern</string>
-  <string name="pref_title_allow_si_sl_push">"WAP-Pushmitteilungen erlauben            (SI/SL)"</string>
+  <string name="pref_title_allow_si_sl_push">"WAP-Push-Mitteilungen erlauben (SI/SL)"</string>
   <string name="pref_title_allow_upload_message_info">Spam-Nachrichten hochladen</string>
   <string name="pref_title_auto_delete">Alte Nachrichten löschen</string>
   <string name="pref_title_card_format">Visitenkarten-Teil-Methode</string>
@@ -665,6 +669,7 @@ Für die Aktivierung von Mi Message ist eine ausgehende SMS-Nachricht erforderli
   <string name="pref_title_storage_status">Nachrichtenspeicherstatus</string>
   <string name="pref_title_system_mms_priority">Als Standard setzen</string>
   <string name="pref_title_vcard">Per vCard-Datei senden</string>
+  <string name="pref_title_voice_report">Nachrichten laut vorlesen</string>
   <string name="pref_title_wake_up_screen">Bildschirm einschalten</string>
   <string name="preference_copied">\"%1$s\" in Zwischenablage kopiert</string>
   <string name="preferences_title">Einstellungen</string>
@@ -791,7 +796,7 @@ Schauen Sie sich die empfohlenen an!"</string>
   <string name="rcs_message_disable">Diese Nachricht kann nicht im zweiten Profil angezeigt werden</string>
   <string name="rcs_more_bar_title">Mehr Info</string>
   <string name="rcs_my_black_chatbot_title">Blockierliste</string>
-  <string name="rcs_not_online">Kann China Mobile Messaging nicht verwenden. Netzwerkeinstellungen prüfen und erneut versuchen.</string>
+  <string name="rcs_not_online">China Mobile Messaging nicht möglich. Netzwerkeinstellungen prüfen und erneut versuchen.</string>
   <string name="rcs_offline">Nicht bei UC angemeldet. Einen Moment warten und erneut versuchen.</string>
   <string name="rcs_offline_hint">China Mobile Messaging ist offline. Sie können diese Nachricht nicht weiterleiten.</string>
   <string name="rcs_pref_button_login">Anmelden</string>
@@ -816,7 +821,7 @@ Schauen Sie sich die empfohlenen an!"</string>
   <string name="rcs_recipient_type_group">Weiterleiten zum Gruppenchat</string>
   <string name="rcs_recipient_type_pc">An Computer weiterleiten</string>
   <string name="rcs_remember_my_choice">Meine Auswahl speichern</string>
-  <string name="rcs_resend_not_online">Kann China Mobile Messaging nicht benutzen</string>
+  <string name="rcs_resend_not_online">China Mobile Messaging nicht möglich</string>
   <string name="rcs_resend_sim_card_not_insert">Sieht so aus, als wäre Ihre SIM-Karte nicht installiert.</string>
   <string name="rcs_search_group_local">Mein Mini-Apps</string>
   <string name="rcs_search_group_recommend">Empfohlene Mini-Apps</string>
@@ -833,7 +838,7 @@ Schauen Sie sich die empfohlenen an!"</string>
   <string name="rcs_summary_auto_resend_mms">China Mobile Multimedianachrichten in MMS umwandeln, nachdem die ursprüngliche Nachricht nicht gesendet werden konnte. Ihr Mobilfunkanbieter wird Ihnen diese Nachricht in Rechnung stellen.</string>
   <string name="rcs_summary_auto_resend_sms">China Mobile Textnachrichten in SMS umwandeln, nachdem die ursprüngliche Nachricht nicht gesendet werden konnte. Ihr Mobilfunkanbieter wird Ihnen diese Nachricht in Rechnung stellen.</string>
   <string name="rcs_summary_silence_message">Benachrichtigungen über stumme Nachrichten, wenn der Desktop-Client arbeitet</string>
-  <string name="rcs_unavailable">China Mobile Messaging kann jetzt nicht verwendet werden. Die China Mobile SIM-Karte ist nicht Ihre Standard-Datenkarte.</string>
+  <string name="rcs_unavailable">China Mobile Messaging jetzt nicht möglich. Die China Mobile SIM-Karte ist nicht Ihre Standard-Datenkarte.</string>
   <string name="rcs_up_not_online">RCS ist offline. Netzwerkeinstellungen prüfen und erneut versuchen.</string>
   <string name="rcs_wait_for_retry_text">Warten…</string>
   <string name="received_at_time">Empfangen um: %1s</string>
@@ -872,8 +877,8 @@ Schauen Sie sich die empfohlenen an!"</string>
   <string name="restore_blocked_message">Nachricht wiederherstellen</string>
   <string name="restore_to_phone_memory_failed">Wiederherstellung fehlgeschlagen</string>
   <string name="restored_to_phone_memory">Wiederhergestellt</string>
-  <string name="rms_audio_file_duration_too_long">Kann Audio länger als 180 Sekunden nicht senden.</string>
-  <string name="rms_audio_file_length_too_large">Kann Audio größer als %1$dMB nicht senden</string>
+  <string name="rms_audio_file_duration_too_long">Audio länger als 180 Sekunden senden nicht möglich</string>
+  <string name="rms_audio_file_length_too_large">Audio größer als %1$dMB senden nicht möglich</string>
   <string name="rms_card_body">[Karte]</string>
   <string name="rms_cloud_file_body">[Cloud-Datei]</string>
   <string name="rms_file_body">[Datei]</string>
@@ -882,8 +887,8 @@ Schauen Sie sich die empfohlenen an!"</string>
   <string name="rms_illegal_extension">Ungültiges Dateiformat</string>
   <string name="rms_image_body">[Bild]</string>
   <string name="rms_location_body">[Standort]</string>
-  <string name="rms_normal_file_length_too_large">Kann keine Dateien senden, die größer als %1$dMB sind.</string>
-  <string name="rms_original_image_length_too_large">Kann keine Originalbilder größer als %1$dMB senden.</string>
+  <string name="rms_normal_file_length_too_large">Dateien größer als %1$dMB senden nicht möglich</string>
+  <string name="rms_original_image_length_too_large">Originalbilder größer als %1$dMB senden nicht möglich</string>
   <string name="rms_original_image_size_too_large">Sieht aus, als wäre das Originalbild zu groß</string>
   <string name="rms_vcard_body">[Kontakt]</string>
   <string name="saturday">Samstag</string>
@@ -1145,6 +1150,7 @@ Wenn Sie nicht damit einverstanden sind, solche Genehmigungen zu erteilen oder I
   <string name="too_many_attachments">Maximal %1$s Anhänge erlaubt. Nur die ersten %2$s werden hinzugefügt.</string>
   <string name="too_many_recipients">Nachricht hat zu viele Empfänger (%1$s). Die Anzahl der Empfänger ist auf %2$s begrenzt.</string>
   <string name="too_many_unsent_mms">Nachricht kann momentan nicht gesendet werden, zu viele ungesendete MMS vorhanden.</string>
+  <string name="top_conversation">Angepinntes Gespräch</string>
   <string name="train_edit_destination">Hinzufügen</string>
   <string name="try_to_send">Sendeversuch starten</string>
   <string name="tuesday">Dienstag</string>
@@ -1181,10 +1187,14 @@ Bisherige Versuche: %s."</string>
   <string name="v7_preference_off">AUS</string>
   <string name="v7_preference_on">EIN</string>
   <string name="verification_code_list_title">Verifizierungscodes</string>
+  <string name="verification_code_safety_warning">Geben Sie diese Codes nicht an andere Personen weiter</string>
   <string name="view">Anzeigen</string>
   <string name="view_bookmark">Originalnachricht anzeigen</string>
   <string name="view_hms_attachment_fail">Bild konnte nicht geladen werden</string>
   <string name="view_message_details">Zeige Details</string>
+  <string name="voice_report_anytime">Immer</string>
+  <string name="voice_report_off">Aus</string>
+  <string name="voice_report_wiredon">Mit Kopfhörern</string>
   <string name="warning_show">Senden in %ds</string>
   <string name="wednesday">Mittwoch</string>
   <string name="wednesday_short">Mi</string>
