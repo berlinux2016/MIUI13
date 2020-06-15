@@ -1,6 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
 
+  <string name="pref_camera_dynamic_frame_rate_summary">Um die Bildqualität in Umgebungen mit schlechten Lichtverhältnissen zu verbessern, wird die Bildrate automatisch von 60 fps auf 33 fps reduziert</string>
+  <string name="pref_camera_dynamic_frame_rate_title">Autom. Bildrate bei schlechten Lichtverhältnissen</string>
+  <string name="pref_hdr10_video_mode_description">Unterstützt H.265-codiertes Video mit 4K und 8K Auflösung</string>
+
   <string name="camera_fastmotion_title">Einführung in die Zeitraffer-Fotografie-Funktion </string>
   <string name="pref_camera_ai_audio">KI-Audio</string>
   <string name="pref_camera_fastmotion_duration">Dauer</string>
@@ -14,15 +18,17 @@
   <string name="pref_camera_fastmotion_speed_750x">Nacht</string>
   <string name="pref_camera_fastmotion_speed_90x">Cloud</string>
   <string name="pref_camera_fastmotion_speed_description">Einstellbare Zeitkompression. Je höher der Geschwindigkeit, desto kürzer die Videodauer und desto schneller die Wiedergabegeschwindigkeit bei gleichzeitiger Aufnahmezeit. Für einige Aufnahmeszenarien werden die folgenden Geschwindigkeitswerte empfohlen:</string>
-  <string name="pref_camera_rec_type_3d_record">3D-Stereo</string>
-  <string name="pref_camera_rec_type_audio_zoom">Audioquelle zoomen</string>
-  <string name="pref_camera_rec_type_normal">Standard</string>
-  <string name="pref_front_denoise_summary">Turn on during pre-recording, you can filter the sound behind the phone</string>
-  <string name="pref_front_denoise_title">Front one-way noise reduction</string>
-  <string name="pref_video_denoise_off">Ausschalten</string>
-  <string name="pref_video_denoise_on">Einschalten</string>
-  <string name="pref_video_denoise_title">Videorauschreduzierung</string>
-  <string name="pref_wind_denoise_title">Windgeräuschredizierung</string>
+  <string name="pref_camera_rec_type_3d_record">3D-Sound</string>
+  <string name="pref_camera_rec_type_audio_zoom">Audio-Zoom</string>
+  <string name="pref_camera_rec_type_normal">Normal</string>
+  <string name="pref_front_denoise_default">Aus</string>
+  <string name="pref_front_denoise_summary">Geräusche reduzieren, die hinter der Frontkamera entstehen</string>
+  <string name="pref_front_denoise_title">Selfie-Rauschfilter</string>
+  <string name="pref_video_denoise_off">Aus</string>
+  <string name="pref_video_denoise_on">Ein</string>
+  <string name="pref_video_denoise_title">Rauschfilter</string>
+  <string name="pref_wind_denoise_default">Ein</string>
+  <string name="pref_wind_denoise_title">Windfilter</string>
 
   <string name="timer_burst">Timer burst</string>
   <string name="timer_burst_manu_param_interval">Time interval(not contains exposure time)</string>
@@ -1375,6 +1381,7 @@ Halten Sie das Motiv scharf, während Sie den Hintergrund verwischen.</string>
   <string name="super_eis_disabled_hint">Videostabilisierung ist aus</string>
   <string name="super_eis_pro">Steady Video Pro</string>
   <string name="super_eis_pro_disabled_hint">Steady Video Pro ist aus</string>
+  <string name="super_macro_mode">Super-Makro</string>
   <string name="super_night_hint">Bildoptimierung… Gerät ruhig halten.</string>
   <string name="super_night_se_tip">Nachtmodus</string>
   <string name="super_night_toast">Halten Sie Ihr Telefon ruhig, während Sie ein Foto machen.</string>
