@@ -78,6 +78,7 @@ Ende Ladegerättest, bitte das Ladegerät herausziehen"</string>
   <string name="cit_abnormal_reboot_title">Gerätestabilitätsdaten</string>
   <string name="cit_ac_charger_in">Laden mit Netzteil</string>
   <string name="cit_ac_charger_out">Netzteil entfernt</string>
+  <string name="cit_accdata_second_sensor_check_title">Zweiter Beschleunigungssensor</string>
   <string name="cit_accdata_sensor_check_summary">Werte für X/Y/Z-Koordinaten sollten unten stehen</string>
   <string name="cit_accdata_sensor_check_title">Beschleunigungsmesser</string>
   <string name="cit_accelermeter_sensor_check_summary">"Bewegen Sie das Telefon schnell in eine Richtung. X/Y/Z-Koordinatenwerte werden unten angezeigt (wenn das Telefon in Bewegung ist: X steht für links/rechts, Y für vorn/hinten, Z für oben/unten).
@@ -292,6 +293,7 @@ Berühren Sie den Bildschirm, um GPS zu starten…"</string>
   <string name="cit_gps_first_fix_time">Zeit bis Fix: %s</string>
   <string name="cit_gps_location">Ort: %s</string>
   <string name="cit_gps_satellite_count">Anzahl Satelliten: %d</string>
+  <string name="cit_gyrodata_second_sensor_check_title">Zweites Gyroskop</string>
   <string name="cit_gyrodata_sensor_check_summary">Werte für X/Y/Z-Koordinaten sollten unten stehen</string>
   <string name="cit_gyrodata_sensor_check_title">Gyroskop</string>
   <string name="cit_gyroscope_sensor_check_summary">Werte für X/Y/Z-Koordinaten sollten unten stehen</string>
@@ -397,6 +399,7 @@ Achten Sie beim Kalibrieren darauf, dass sich nichts zwischen dem Sensor und Ihr
   <string name="cit_proximity_us_summary">Ultraschall-Näherungssensor-Kalibrierung</string>
   <string name="cit_rear_dual_camera_check_title">Doppelkameratest hinten (Dual-Kamera)</string>
   <string name="cit_rear_dual_second_camera_check_title">Doppelauslösetest hinten (Dual-Nebenkamera)</string>
+  <string name="cit_rear_dual_third_camera_check_title">Bokeh3-Kamera</string>
   <string name="cit_rear_sub_camera_check_summary">"Testanleitung:
 
 1. Auf die Kamerataste tippen, um die hintere untere Kamera aufzurufen.
@@ -488,6 +491,8 @@ Nachdem Sie \"music.mp3\" in das Verzeichnis der SD-Karte gelegt haben, zum Absp
   <string name="cit_tool_bluetooth_not_on">Bluetooth ist NICHT aktiviert</string>
   <string name="cit_tool_bluetooth_off">Bluetooth deaktivieren</string>
   <string name="cit_tool_bluetooth_on">Bluetooth aktivieren</string>
+  <string name="cit_tool_bluetooth_tx_chain">Antenne:</string>
+  <string name="cit_tool_bluetooth_tx_channel">Kanal:</string>
   <string name="cit_tool_cal_accelerometer">Beschleunigungssensor-Kalibrierungstool</string>
   <string name="cit_tool_cal_camera">Kamera-Kalibrierungstool</string>
   <string name="cit_tool_cal_gyroscope">Gyro-Kalibrierungstool</string>
@@ -506,7 +511,11 @@ Nachdem Sie \"music.mp3\" in das Verzeichnis der SD-Karte gelegt haben, zum Absp
   <string name="cit_tool_log_bugreport">Fehlerbericht</string>
   <string name="cit_tool_log_file_not_exist">%s existiert nicht</string>
   <string name="cit_tool_log_generate_bugreport">Fehlerbericht erstellen…</string>
+  <string name="cit_tool_log_kmsg">Letztes Kernel-Log</string>
+  <string name="cit_tool_log_logcat">ADB-Log</string>
+  <string name="cit_tool_log_modem">Modem-Log</string>
   <string name="cit_tool_log_no_sdcard">SD-Karte jetzt einlegen</string>
+  <string name="cit_tool_log_ril">RIL-Log</string>
   <string name="cit_tool_log_toast">Protokoll gespeichert unter %s</string>
   <string name="cit_tool_log_toast_generate_bugreport">Fehlerbericht erstellen (dauert ca. 1 Minute)…</string>
   <string name="cit_tool_mbn_default_notfiy">Standard-MBN</string>
