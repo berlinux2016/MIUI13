@@ -1,7 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string name="app_name">Updater</string>
-  <string name="battery_islow">&lt;font color=#f37981&gt;Ladegerät anschließen&lt;/font&gt;</string>
+  <string name="battery_islow">&lt;font color=#f37981>Ladegerät anschließen&lt;/font></string>
   <string name="battery_islow_desc">Akkustand zu niedrig, um die zip-Datei sicher zu installieren. Ladegerät anschließen und später erneut versuchen!</string>
   <string name="btn_changelog">Änderungsprotokoll</string>
   <string name="btn_download">Herunterladen (%1$s)</string>
@@ -12,9 +11,10 @@
   <string name="btn_stop">Stoppen</string>
   <string name="btn_wrong_md5">Ungültige MD5. Tippen, um die ROM zu entfernen!</string>
   <string name="btn_yes">Ja</string>
-  <string name="channel_downloading">Downloadfortschritt</string>
+  <string name="channel_downloading">Download-Fortschritt</string>
+  <string name="channel_service">Updater-Hintergrunddienst</string>
   <string name="channel_update">Neue Version verfügbar</string>
-  <string name="check_new_version">Prüfen</string>
+  <string name="check_new_version">Nach Update suchen</string>
   <string name="default_filedownloader_notification_content">FileDownloader läuft.</string>
   <string name="dialog_3g_desc">Beachten Sie, dass die Verwendung mobiler Daten zum Herunterladen von ROMs erhebliche Mengen Ihres Volumens beanspruchen kann.</string>
   <string name="dialog_3g_title">Warnung!</string>
@@ -34,13 +34,13 @@
   <string name="later_download">Später herunterladen</string>
   <string name="menu_title_current_version_log">Was ist neu?</string>
   <string name="menu_title_pick_rom_file">Update-Paket wählen</string>
-  <string name="menu_title_recovery">Neustart in Recoverymodus</string>
+  <string name="menu_title_recovery">Neustart in Recovery-Modus</string>
   <string name="message_checkbox">Zukünftige Nachrichten vom Xiaomi.eu-Team ausblenden</string>
   <string name="message_checkbox_device">Nicht mehr anzeigen</string>
   <string name="message_title">HINWEIS!</string>
   <string name="new_version">Neue Version gefunden!</string>
   <string name="no_info">Keine Informationen verfügbar</string>
-  <string name="no_mirror">Alle Server sind derzeit offline, später erneut versuchen…</string>
+  <string name="no_mirror">Alle Server sind derzeit offline, später versuchen…</string>
   <string name="no_network">Kein Netzwerkzugriff</string>
   <string name="no_update">Sie haben bereits die aktuellste Version!</string>
   <string name="no_wifi_msg">Sie nutzen jetzt das Mobilfunknetz. Herunterladen von Updates kann zusätzliche Datengebühren verursachen. Sie können jetzt Updates herunterladen oder warten, bis sich Ihr Gerät mit WLAN verbindet.</string>
@@ -50,6 +50,8 @@
   <string name="notif_install">Installieren</string>
   <string name="notif_new_summary">Tippen für Details</string>
   <string name="notif_new_title">Neue Version verfügbar!</string>
+  <string name="notif_service_summary">Halten, um die Benachrichtigung \"Hintergrunddienst\" zu deaktivieren!</string>
+  <string name="notif_service_title">App läuft im Hintergrund…</string>
   <string name="notifications_switch">Benachrichtigungen anzeigen</string>
   <string name="open_auto_download">Automatischer Download</string>
   <string name="permdesc_cache_filesystem">Erlaubt der App, Dateien auf /cache zu schreiben</string>
@@ -58,7 +60,7 @@
   <string name="permlab_reboot">Neustartzugriff</string>
   <string name="pick_not_found">Kein geeigneter Dateimanager gefunden</string>
   <string name="pick_title">Wählen Sie:</string>
-  <string name="recovery_desc">Gerät startet jetzt neu in Recoverymodus. Wenn Sie mit dem Modus nicht vertraut sind, brechen Sie den Vorgang ab. Fortsetzen?</string>
+  <string name="recovery_desc">Gerät startet jetzt neu in Recovery-Modus. Wenn Sie mit dem Modus nicht vertraut sind, brechen Sie den Vorgang ab. Fortsetzen?</string>
   <string name="security_space_button_neg">Neu starten und aktualisieren…</string>
   <string name="server_error">Server reagiert nicht, App funktioniert möglicherweise nicht richtig!</string>
   <string name="share_desc">Ihre MIUI-Version wurde auf %1$s aktualisiert, siehe letztes Changelog unter: %2$s</string>
