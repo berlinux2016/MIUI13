@@ -5,10 +5,10 @@
   <string name="filter_general_greenorange">Zitrone</string>
   <string name="filter_general_movie">Film</string>
   <string name="filter_movie_portrait">Farbfokus</string>
-  <string name="online_video_normal_transcoding">Dieses Video wird gerade umgewandelt. Ein paar Minuten warten und erneut versuchen.</string>
+  <string name="online_video_normal_transcoding">Dieses Video wird gerade umgewandelt. Einen Moment warten und erneut versuchen.</string>
   <string name="online_video_vip_tip">Werden Sie VIP-Mitglied, um Videos zu streamen, ohne sie vollständig vorzuladen</string>
   <string name="online_video_vip_transcoding">"Gleich beginnt das VIP-Streaming…
-Die Umwandlung kann einige Zeit in Anspruch nehmen, wenn Sie diese Funktion zum ersten Mal verwenden."</string>
+Umwandlung kann einige Zeit in Anspruch nehmen, wenn Sie diese Funktion zum ersten Mal verwenden."</string>
   <string name="operate_with_metered_network_msg">Ihr Gerät ist an ein kostenpflichtiges Netzwerk angeschlossen. Trotzdem fortfahren?</string>
   <string name="sticker_graduation">Graduierung</string>
   <string name="text_tab_city">Stadt</string>
@@ -35,6 +35,7 @@ Die Umwandlung kann einige Zeit in Anspruch nehmen, wenn Sie diese Funktion zum 
   <string name="abc_toolbar_collapse_description">Einklappen</string>
   <string name="accept">Annehmen</string>
   <string name="accept_or_deny">%1$s teilt das Album %2$s mit Ihnen</string>
+  <string name="actionbar_button_up_description">Zurück</string>
   <string name="actionbar_overflow_item_desc">Mehr Einstellungen</string>
   <string name="add_automatically_alert_msg">Fotos von \"%1$s\" automatisch zu diesem Album hinzufügen?</string>
   <string name="add_automatically_alert_title">Fotos automatisch hinzufügen</string>
@@ -87,6 +88,7 @@ Die Umwandlung kann einige Zeit in Anspruch nehmen, wenn Sie diese Funktion zum 
   <string name="album_camera_name">Kamera</string>
   <string name="album_cloud_list_page_title">Synchronisierte Alben verwalten</string>
   <string name="album_creative">Meine bearbeiteten Fotos</string>
+  <string name="album_detail_default_sort_tip">Auf chronologische Reihenfolge umgeschaltet</string>
   <string name="album_detail_page_empty">Kein Foto oder Video</string>
   <string name="album_faces_name">Personen</string>
   <string name="album_favorites_name">Favoriten</string>
@@ -265,6 +267,8 @@ Die Umwandlung kann einige Zeit in Anspruch nehmen, wenn Sie diese Funktion zum 
   <string name="browse_category">Anzeigen</string>
   <string name="browse_category_title">Durchstöbern</string>
   <string name="btn_cancel">Abbrechen</string>
+  <string name="btn_cancel_send">Diese Übertragung abbrechen</string>
+  <string name="btn_exit_send">Beenden</string>
   <string name="burst_image_download_item_title" formatted="false">Original herunterladen (%s|%s)</string>
   <string name="burst_preview_title">Burst Shot</string>
   <string name="burst_save_all">Alle Fotos behalten</string>
@@ -964,6 +968,10 @@ Die Umwandlung kann einige Zeit in Anspruch nehmen, wenn Sie diese Funktion zum 
   <string name="mark_operation_succeeded">Erfolgreich hinzugefügt</string>
   <string name="mark_people_ignore_info_message">Halten Sie Fotos von Personen gedrückt, um sie zu Gruppen hinzuzufügen.</string>
   <string name="menu_album_new_album">Neues Album</string>
+  <string name="menu_detail_sort_create_date">Erstellt</string>
+  <string name="menu_detail_sort_name">Dateiname</string>
+  <string name="menu_detail_sort_size">Dateigröße</string>
+  <string name="menu_detail_sort_update_date">Zuletzt aktualisiert</string>
   <string name="menu_item_sort_date">Datum</string>
   <string name="menu_item_sort_size">Größe</string>
   <string name="menu_view_contact">Kontakt anzeigen</string>
@@ -1129,6 +1137,7 @@ zu wechseln."</string>
   <string name="operation_favorites">Favoriten</string>
   <string name="operation_force_top">Anheften</string>
   <string name="operation_hide">Verstecken</string>
+  <string name="operation_hide_time">Datum ausblenden</string>
   <string name="operation_in_process">Verarbeiten…</string>
   <string name="operation_move">Verschieben</string>
   <string name="operation_move_to_other_albums">Zu anderen Alben verschieben</string>
@@ -1153,7 +1162,9 @@ zu wechseln."</string>
   <string name="operation_share_manage">Geteilte Elemente verwalten</string>
   <string name="operation_show_in_photos_tab">Auf Startseite anzeigen</string>
   <string name="operation_show_on_map">Auf Karte anzeigen</string>
+  <string name="operation_show_time">Datum anzeigen</string>
   <string name="operation_slide_show">Diashow starten</string>
+  <string name="operation_sort">Sortieren</string>
   <string name="operation_successful">Fertig</string>
   <string name="operation_too_often">Zu viele Anfragen von Ihrer IP-Adresse. Warten Sie 1 oder 2 Minuten und versuchen Sie es erneut.</string>
   <string name="operation_unforce_top">Lösen</string>
@@ -1564,6 +1575,7 @@ zu wechseln."</string>
   <string name="share_album">Album teilen</string>
   <string name="share_album_needs_auto_upload_tip">Synchronisation mit der Cloud kann für geteilte Alben nicht deaktiviert werden</string>
   <string name="share_album_qr_code">Alben QR-Code</string>
+  <string name="share_and_delete_screenshot">Nach Teilen löschen</string>
   <string name="share_by_email_start">%1$s im Hintergrund teilen</string>
   <string name="share_by_email_successfully">%1$s geteilt</string>
   <string name="share_public_url_text">Ich habe das Album %1$s mit Ihnen geteilt. Betrachten Sie es unter %2$s.</string>
