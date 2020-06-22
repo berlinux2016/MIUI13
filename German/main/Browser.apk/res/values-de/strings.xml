@@ -35,7 +35,7 @@
   <string name="action_menu_text_bandwidth">Datensparen</string>
   <string name="action_menu_text_bandwidth_off">Datensparen</string>
   <string name="action_menu_text_bandwidth_on">Datensparen</string>
-  <string name="action_menu_text_bookmark_add_off">Webseite konnte nicht hinzugefügt werden.</string>
+  <string name="action_menu_text_bookmark_add_off">Webseite wurde nicht hinzugefügt</string>
   <string name="action_menu_text_bookmark_removed">Lesezeichen löschen</string>
   <string name="action_menu_text_copy_url">URL kopieren</string>
   <string name="action_menu_text_create_qr_code">QR-Code</string>
@@ -210,7 +210,7 @@
   <string name="bookmark_add_to">Hinzufügen zu</string>
   <string name="bookmark_btn_select_all">Alle auswählen</string>
   <string name="bookmark_btn_select_none">Keine auswählen</string>
-  <string name="bookmark_cannot_save_url">Lesezeichen für diese Adresse konnte nicht gespeichert werden</string>
+  <string name="bookmark_cannot_save_url">Lesezeichen für diese Adresse wurde nicht gespeichert</string>
   <string name="bookmark_deleted">Lesezeichen löschen</string>
   <string name="bookmark_error_page_title">Ein Fehler ist aufgetreten</string>
   <string name="bookmark_folder_needs_title">Geben Sie einen Gruppennamen ein</string>
@@ -218,8 +218,8 @@
   <string name="bookmark_move_to">Verschieben nach</string>
   <string name="bookmark_needs_title">Lesezeichen benötigt einen Namen</string>
   <string name="bookmark_needs_url">Lesezeichen müssen eine Adresse beinhalten</string>
-  <string name="bookmark_not_deleted">Lesezeichen konnte nicht gelöscht werden</string>
-  <string name="bookmark_not_saved">Lesezeichen konnte nicht gespeichert werden</string>
+  <string name="bookmark_not_deleted">Lesezeichen wurde nicht gelöscht</string>
+  <string name="bookmark_not_saved">Lesezeichen wurde nicht gespeichert</string>
   <string name="bookmark_rename_group">Gruppe umbenennen</string>
   <string name="bookmark_saved">In Lesezeichen gespeichert</string>
   <string name="bookmark_title">Lesezeichenname</string>
@@ -349,6 +349,8 @@
   <string name="contextmenu_view_image">Bild anzeigen</string>
   <string name="contextmenu_webpage_html">Als HTML-Datei speichern</string>
   <string name="contextmenu_webpage_snapshot">Seite speichern</string>
+  <string name="contextmenu_webpage_translate">Web-Übersetzung</string>
+  <string name="contextmenu_webpage_translation_tips">Neue Übersetzungsfunktion in der Toolbox</string>
   <string name="copy">Kopieren</string>
   <string name="copy_url">URL kopieren</string>
   <string name="create_qr_code">QR-Code</string>
@@ -399,7 +401,7 @@ Bitte senden Sie diesen Code dem Techniker."</string>
   <string name="dialog_failed_body">Später nochmals versuchen oder Datei aus der Downloadswarteschlange entfernen?</string>
   <string name="dialog_file_already_exists">Diese Datei wurde bereits heruntergeladen</string>
   <string name="dialog_file_missing_body">Datei nicht gefunden. Vielleicht wurde diese verschoben oder gelöscht?</string>
-  <string name="dialog_file_missing_title">Datei konnte nicht geöffnet werden</string>
+  <string name="dialog_file_missing_title">Datei wurde nicht geöffnet</string>
   <string name="dialog_insufficient_space_on_cache">Download nicht möglich</string>
   <string name="dialog_insufficient_space_on_external">Nicht genügend externer Speicherplatz</string>
   <string name="dialog_media_not_found">Download nicht möglich: Kein Wechselmedium gefunden</string>
@@ -442,7 +444,7 @@ um unsere Arbeit zu unterstützen"</string>
   <string name="download_dialog_file_length_lessthan1kb">Weniger als 1 KB</string>
   <string name="download_dialog_file_length_nolength_error_txt">Download fehlgeschlagen</string>
   <string name="download_dialog_file_length_nolength_txt">Einen Moment…</string>
-  <string name="download_failed">Download konnte nicht abgeschlossen werden</string>
+  <string name="download_failed">Download wurde nicht abgeschlossen</string>
   <string name="download_filter_all">Alle</string>
   <string name="download_filter_audio">Musik</string>
   <string name="download_filter_image">Fotos</string>
@@ -601,7 +603,7 @@ um Tabs von anderen Geräten zu sehen"</string>
   <string name="home_hybrid_application_tips">Miniprogramme sind hier enthalten</string>
   <string name="homepage_delete_card_menu">Löschen</string>
   <string name="homepage_get_location">Standort bestimmen</string>
-  <string name="homepage_get_location_failed">Standort konnte nicht abgerufen werden, wählen Sie einen Ort</string>
+  <string name="homepage_get_location_failed">Standort wurde nicht abgerufen, wählen Sie einen Ort</string>
   <string name="homepage_more_cards">Weitere Karten</string>
   <string name="homepage_more_sites">Weitere Seiten</string>
   <string name="homepage_search_hint">Suchen</string>
@@ -628,6 +630,9 @@ um Tabs von anderen Geräten zu sehen"</string>
   <string name="js_disable_confirm_message">Deaktivieren von JavaScript führt möglicherweise dazu, dass einige Webseiten nicht korrekt angezeigt werden</string>
   <string name="js_disable_confirm_title">JavaScript deaktivieren?</string>
   <string name="keep_queued_download">Behalten</string>
+  <string name="leto_permission_rationale_ask">Ohne die angeforderten Berechtigungen funktioniert diese App evtl. nicht korrekt.</string>
+  <string name="leto_permission_rationale_ask_again">Ohne die angeforderten Berechtigungen funktioniert diese App evtl. nicht korrekt. Einstellungen der App öffnen, um die Berechtigungen zu ändern.</string>
+  <string name="leto_permission_title_settings_dialog">Berechtigungen erforderlich</string>
   <string name="load_error_tip">Ladefehler, auf erneut versuchen tippen</string>
   <string name="load_more_footer_status_msg_error_load">Laden fehlgeschlagen. Erneut versuchen.</string>
   <string name="load_more_footer_status_msg_error_no_network">Netzwerkverbindung nicht möglich</string>
@@ -641,7 +646,7 @@ um Tabs von anderen Geräten zu sehen"</string>
   <string name="max_tabs_warning">Weitere Tabs können nicht geöffnet werden</string>
   <string name="maximum_input_alert">Maximal 2048 Zeichen möglich</string>
   <string name="media_error_action_refresh">Neu laden</string>
-  <string name="media_error_action_replace_video_source">Quelle konnte nicht gewechselt werden</string>
+  <string name="media_error_action_replace_video_source">Quelle wurde nicht gewechselt</string>
   <string name="media_error_failure">Video kann nicht abgespielt werden</string>
   <string name="media_error_format">Videoformat wird nicht unterstützt</string>
   <string name="media_error_network_unreachable">Netzwerk nicht erreichbar</string>
@@ -854,7 +859,7 @@ Sind Sie sicher, dass Sie diese Seite verlassen wollen?"</string>
   <string name="mw_miuichromium_error_page_description_no_connection" formatted="false">Netzwerkverbindung wegen eines schwachen Signals oder einer falschen Netzwerkkonfiguration nicht möglich. Prüfen Sie Ihre %s1-Netzwerkeinstellungen %s2 und versuchen Sie es erneut.</string>
   <string name="mw_miuichromium_error_page_diagnose">Netzwerkdiagnose</string>
   <string name="mw_miuichromium_error_page_diagnose_banner">Netzwerkdiagnose</string>
-  <string name="mw_miuichromium_error_page_diagnose_certificate">Netzwerkprotolkoll konnte nicht verifiziert werden</string>
+  <string name="mw_miuichromium_error_page_diagnose_certificate">Netzwerkprotolkoll wurde nicht verifiziert</string>
   <string name="mw_miuichromium_error_page_diagnose_connection">Netzwerkverbindung nicht möglich</string>
   <string name="mw_miuichromium_error_page_diagnose_dns">URL inkorrekt</string>
   <string name="mw_miuichromium_error_page_diagnose_protocol">Netzwerkprotokollfehler</string>
@@ -886,7 +891,7 @@ Sind Sie sicher, dass Sie diese Seite verlassen wollen?"</string>
   <string name="mw_miuichromium_error_page_problem_connection_interrupted_reason_device_slept">Verbindung wurde unterbrochen, als Ihr Gerät in den Ruhezustand versetzt wurde.</string>
   <string name="mw_miuichromium_error_page_problem_connection_interrupted_reason_network_changed">Verbindung wurde unterbrochen wegen eines Netzwerkwechsels.</string>
   <string name="mw_miuichromium_error_page_problem_file_not_found_reason_moved_or_deleted">Datei wurde nicht gefunden. Sie wurde entweder verschoben oder gelöscht.</string>
-  <string name="mw_miuichromium_error_page_problem_file_not_readable_reason_access_denied">Datei konnte nicht gelesen werden. Dateiberechtigungen können den Zugriff verhindern.</string>
+  <string name="mw_miuichromium_error_page_problem_file_not_readable_reason_access_denied">Datei wurde nicht gelesen. Dateiberechtigungen können den Zugriff verhindern.</string>
   <string name="mw_miuichromium_error_page_problem_gateway_timed_out">%s0 braucht zu lange, um zu antworten.</string>
   <string name="mw_miuichromium_error_page_problem_network_access_denied">Netzwerkzugriff ist eingeschränkt.</string>
   <string name="mw_miuichromium_error_page_problem_no_internet_connection_reason_proxy_error">Internetverbindung nicht möglich, etwas stimmt mit dem Proxyserver nicht oder Proxyadresse ist inkorrekt.</string>
@@ -1053,7 +1058,7 @@ Sind Sie sicher, dass Sie diese Seite verlassen wollen?"</string>
   <string name="mw_photo_picker_camera">Kamera</string>
   <string name="mw_photo_picker_select_images">Bilder auswählen</string>
   <string name="mw_private_browsing_warning">Diese Funktion wird in dieser Androidversion nicht unterstützt.</string>
-  <string name="mw_profiler_error_toast">Profiler konnte nicht gestartet werden</string>
+  <string name="mw_profiler_error_toast">Profiler wurde nicht gestartet</string>
   <string name="mw_profiler_no_storage_toast">Profiler kann nicht gestartet werden, da der externe Speicher nicht bereit ist.</string>
   <string name="mw_profiler_started_toast">Profiler gestartet</string>
   <string name="mw_profiler_stopped_toast">Profiler beendet. Ergebnisse sind in %1$s.</string>
@@ -1083,7 +1088,7 @@ Sind Sie sicher, dass Sie diese Seite verlassen wollen?"</string>
   <string name="mw_video_buffering_percent">"Puffern "</string>
   <string name="mw_video_float_window">Popup-Benachrichtigung</string>
   <string name="mw_video_float_window_playing">Video abspielen</string>
-  <string name="mw_video_play_error">Video konnte nicht abgespielt werden</string>
+  <string name="mw_video_play_error">Video wurde nicht abgespielt</string>
   <string name="mw_webview_find_on_page">Auf Seite suchen</string>
   <string name="mw_webviewchromium_private_browsing_warning">Diese Funktion wird in dieser Androidversion nicht unterstützt.</string>
   <string name="mw_week_picker_dialog_title">Woche einstellen</string>
@@ -1127,7 +1132,7 @@ Denken Sie daran, dass heruntergeladene Dateien und hinzugefügte Lesezeichen we
   <string name="no_space_alert_clean">Speicherplatz freigeben</string>
   <string name="no_space_alert_text">Nicht genügend Speicherplatz</string>
   <string name="no_space_alert_title">Download angehalten</string>
-  <string name="no_space_clean_failed">Speicherplatz konnte nicht freigegeben werden</string>
+  <string name="no_space_clean_failed">Speicherplatz wurde nicht freigegeben</string>
   <string name="noon">Mittag</string>
   <string name="not_allowed_open">Browser kann im OOB Flow nicht verwendet werden</string>
   <string name="not_now">Jetzt nicht</string>
@@ -1139,7 +1144,7 @@ Denken Sie daran, dass heruntergeladene Dateien und hinzugefügte Lesezeichen we
   <string name="open_app_confirm_message">Dieser Seite erlauben, %s zu öffnen?</string>
   <string name="open_cloud_sync">Cloud-Synchronisation einschalten</string>
   <string name="open_cloud_sync_desc">Lesezeichen erfolgreich hinzugefügt. Synchronisation mit der Cloud einschalten, um auf anderen Geräten hinzugefügte Lesezeichen zu synchronisieren. Anmelden und einschalten?</string>
-  <string name="open_file_explorer_failed">Dateimanager konnte nicht geöffnet werden</string>
+  <string name="open_file_explorer_failed">Dateimanager wurde nicht geöffnet</string>
   <string name="open_voice_permission">Internetzugriff für Mikrofon erlauben</string>
   <string name="page_hang_message">Aktuelle Seite hängt, Sie müssen Ihren Browser neu starten.</string>
   <string name="page_hang_title">Seite hängt</string>
@@ -1302,7 +1307,7 @@ Denken Sie daran, dass heruntergeladene Dateien und hinzugefügte Lesezeichen we
   <string name="quicklink_bookmark_save">Speichern unter</string>
   <string name="quicklink_cannot_save_url">Diese URL kann nicht hinzugefügt werden</string>
   <string name="quicklink_folder_text">Top Apps</string>
-  <string name="quicklink_not_saved">Konnte nicht zur Startseite hinzugefügt werden</string>
+  <string name="quicklink_not_saved">Zur Startseite hinzufügen nicht möglich</string>
   <string name="quicklink_push_confirm_message">Nach dem Ausschalten dieser Funktion erhalten Sie keine Feedupdates mehr. Jetzt deaktivieren?</string>
   <string name="quicklink_saved">Auf Startseite gespeichert</string>
   <string name="quicklink_saved_before">Diese Seite wurde bereits hinzugefügt</string>
@@ -1358,13 +1363,13 @@ Denken Sie daran, dass heruntergeladene Dateien und hinzugefügte Lesezeichen we
   <string name="save_file_already_exist_alert_title">Datei überschreiben?</string>
   <string name="save_file_suffix">"-Datei"</string>
   <string name="save_form_data_confirm_message">Deaktivieren dieser Funktion kann die App beeinflussen</string>
-  <string name="save_image_failed">Bild konnte nicht gespeichert werden</string>
+  <string name="save_image_failed">Bild wurde nicht gespeichert</string>
   <string name="save_image_success">Bild gespeichert</string>
   <string name="save_page_capture_tip">Nachrichtenleiste öffnen, um den Screenshot zu sehen</string>
   <string name="save_page_capture_to_camera">Screenshot gespeichert</string>
   <string name="save_to_bookmark">Zu Lesezeichen hinzufügen</string>
   <string name="save_to_camera">In Galerie speichern</string>
-  <string name="save_to_camera_failed">Bild konnte nicht gespeichert werden</string>
+  <string name="save_to_camera_failed">Bild wurde nicht gespeichert</string>
   <string name="save_to_camera_success">In Galerie gespeichert</string>
   <string name="scanner_uninstalled_text">Scanner installieren zum Fortsetzen</string>
   <string name="scanner_uninstalled_title">Scanner wurde deinstalliert</string>
@@ -1462,7 +1467,7 @@ Browser muss mit dem Internet verbunden sein, um richtig zu funktionieren. Sie m
   <string name="small_video_net_error">Verbindungsfehler</string>
   <string name="small_video_no_more_date">Keine Daten</string>
   <string name="snapshot">Lokal</string>
-  <string name="snapshot_failed">Seite konnte nicht gespeichert werden</string>
+  <string name="snapshot_failed">Seite wurde nicht gespeichert</string>
   <string name="snapshot_successed">Lesezeichen &amp; Verlauf -&gt; LOKAL öffnen, um die Seite anzuzeigen</string>
   <string name="soft_toast_see_view">Anzeigen</string>
   <string name="solar_term_autumn_begins">Herbstanfang</string>
