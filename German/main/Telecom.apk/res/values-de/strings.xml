@@ -83,7 +83,7 @@
   <string name="blocked_numbers_block_emergency_number_message">Notrufnummer kann nicht blockiert werden</string>
   <string name="blocked_numbers_butter_bar_body">Nachdem Sie eine Notrufnummer gewählt oder eine SMS gesendet haben, wird die Sperrung deaktiviert, um sicherzustellen, dass die Notrufdienste Sie kontaktieren können</string>
   <string name="blocked_numbers_butter_bar_button">Jetzt wieder aktivieren</string>
-  <string name="blocked_numbers_butter_bar_title">Sperren vorübergehend aus</string>
+  <string name="blocked_numbers_butter_bar_title">Sperrliste aus</string>
   <string name="blocked_numbers_msg">Sie erhalten keine Anrufe oder Nachrichten von gesperrten Nummern</string>
   <string name="blocked_numbers_number_already_blocked_message">%1$s ist bereits gesperrt</string>
   <string name="blocked_numbers_number_blocked_message">%1$s gesperrt</string>
@@ -186,9 +186,9 @@ Abtastrate"</string>
   <string name="can_not_dial_while_vt_prompt">Während eines laufenden Videoanrufs kann nicht gewählt werden</string>
   <string name="cancel">Abbrechen</string>
   <string name="cant_call_due_to_no_supported_service">Sie können nicht anrufen, da es keine Anrufkonten gibt, die solche Anrufe unterstützen.</string>
-  <string name="cant_call_due_to_ongoing_call">Sie können nicht anrufen während Ihres %1$s-Anrufs</string>
-  <string name="cant_call_due_to_ongoing_calls">Sie können nicht anrufen während Ihrer %1$s-Anrufe</string>
-  <string name="cant_call_due_to_ongoing_unknown_call">Sie können nicht anrufen wegen eines Anrufs in einer anderen App</string>
+  <string name="cant_call_due_to_ongoing_call">Anrufen nicht möglich. Anderer %1$s-Anruf läuft.</string>
+  <string name="cant_call_due_to_ongoing_calls">Anrufen nicht möglich. Erst %1$s-Anruf beenden.</string>
+  <string name="cant_call_due_to_ongoing_unknown_call">Anrufen nicht möglich wegen eines Anrufs mit einer anderen App</string>
   <string name="category_personal">Persönlich</string>
   <string name="category_work">Arbeit</string>
   <string name="change_default_call_screening_dialog_affirmative">Standard festlegen</string>
@@ -196,7 +196,7 @@ Abtastrate"</string>
   <string name="change_default_call_screening_dialog_title">%s zur Standard-App für das Anrufauslesen machen?</string>
   <string name="change_default_call_screening_warning_message">%s kann Infos über Anrufer sehen, die nicht in Ihren Kontakten sind, und diese Anrufe blockieren. Nur Apps, denen Sie vertrauen, sollten als Standard-App für das Anrufauslesen festgelegt werden.</string>
   <string name="change_default_call_screening_warning_message_for_disable_old_app">%s wird nicht mehr in der Lage sein, Anrufe auszulesen</string>
-  <string name="change_default_dialer_dialog_affirmative">Standard setzen</string>
+  <string name="change_default_dialer_dialog_affirmative">Als Standard-Telefon-App festlegen</string>
   <string name="change_default_dialer_dialog_negative">Abbrechen</string>
   <string name="change_default_dialer_dialog_title">Standardtelefon-App ändern? (%s)</string>
   <string name="change_default_dialer_no_previous_app_set_text">%s als Standardtelefon-App nutzen?</string>
@@ -267,7 +267,7 @@ Drücken Sie 'Löschen und Konvertieren…', um fortzufahren."</string>
   <string name="disable_overlays_summary">Immer GPU zur Darstellung verwenden</string>
   <string name="disabled_by_admin">Vom Admin deaktiviert</string>
   <string name="disabled_by_admin_summary_text">Vom Admin kontrolliert</string>
-  <string name="duplicate_video_call_not_allowed">Anruf kann momentan nicht durchgeführt werden</string>
+  <string name="duplicate_video_call_not_allowed">Mehr Anrufe hinzufügen nicht möglich</string>
   <string name="enable_account_preference_title">Anrufkonten</string>
   <string name="enable_adb">USB Debugging</string>
   <string name="enable_adb_summary">Debug-Modus, wenn per USB verbunden</string>
@@ -386,7 +386,7 @@ Drücken Sie 'Löschen und Konvertieren…', um fortzufahren."</string>
   <string name="osu_sign_up_complete">Anmeldung abgeschlossen. Verbinden…</string>
   <string name="osu_sign_up_failed">Anmeldung wurde nicht abgeschlossen. Zum Wiederholen tippen.</string>
   <string name="outgoing_call_error_no_phone_number_supplied">Geben Sie eine gültige Nummer ein</string>
-  <string name="outgoing_call_not_allowed_no_permission">Diese App kann ohne Telefonberechtigung keine ausgehenden Anrufe starten</string>
+  <string name="outgoing_call_not_allowed_no_permission">Diese App kann ohne erforderliche Berechtigungen keine ausgehenden Anrufe tätigen.</string>
   <string name="outgoing_call_not_allowed_user_restriction">Geräteeigentümer hat nur Notrufe zugelassen</string>
   <string name="overlay_display_devices_title">Zweit-Displays simulieren</string>
   <string name="phone_settings_call_blocking_txt">Anrufsperre</string>
@@ -500,7 +500,7 @@ Drücken Sie 'Löschen und Konvertieren…', um fortzufahren."</string>
   <string name="strict_mode">Strikter Modus aktiviert</string>
   <string name="strict_mode_summary">Bei längeren Aktionen im Hauptthread Bildschirm kurz einblenden</string>
   <string name="tap_to_sign_up">Tippen zum Anmelden</string>
-  <string name="telecommAppLabel">Anrufverwaltung</string>
+  <string name="telecommAppLabel">Anrufe verwalten</string>
   <string name="telephony_monitor_switch">Telefoniemonitor</string>
   <string name="telephony_monitor_switch_summary">Telefoniemonitor sammelt Protokolle, wenn es ein Problem mit der Telefonie-/Modemfunktionalität entdeckt, und fordert den Benutzer auf, einen Bug zu melden</string>
   <string name="test_account_0_label">Q Mobile</string>
