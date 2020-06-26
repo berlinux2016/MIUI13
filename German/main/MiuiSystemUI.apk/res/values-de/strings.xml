@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
   <string name="abbrev_wday_month_day_no_year">EEEE, d. MMMM</string>
-  <string name="abbrev_wday_month_day_no_year_alarm">EEE, d. MMM.</string>
+  <string name="abbrev_wday_month_day_no_year_alarm">EEE, d. MMM</string>
   <string name="abc_action_bar_home_description">Zur Startseite</string>
   <string name="abc_action_bar_up_description">Nach oben</string>
   <string name="abc_action_menu_overflow_description">Mehr Optionen</string>
@@ -1731,14 +1731,16 @@ Screenshot zu erstellen"</string>
   <string name="status_bar_airplane">Flugmodus</string>
   <string name="status_bar_alarm">Alarm</string>
   <string name="status_bar_clear_all_button">Löschen</string>
-  <string name="status_bar_clock_date_format">EEEE, d. MMMM</string>
-  <string name="status_bar_clock_date_format_12">EEEE, d. MMMM</string>
-  <string name="status_bar_clock_date_time_format">d. MMMM H:mm</string>
-  <string name="status_bar_clock_date_time_format_12">d. MMMM, h:mm aa</string>
-  <string name="status_bar_clock_date_weekday_format">EEEE, dd. MMMM</string>
-  <string name="status_bar_clock_date_weekday_format_12">EEEE, dd. MMMM</string> 
-  <string name="status_bar_date_format">EEEE, d. MMMM</string>
-  <string name="status_bar_date_format_12">EEEE, d. MMMM</string>
+  <string name="status_bar_clock_date_format">E, d. MMM</string>
+  <string name="status_bar_clock_date_format_12">E, d. MMM</string>
+  <string name="status_bar_clock_date_time_format">H:mm E, d. MMM </string>
+  <string name="status_bar_clock_date_time_format_12"> h:mm aa E, d. MMM</string>
+  <string name="status_bar_clock_date_weekday_format">EEEE, d. MMMM</string>
+  <string name="status_bar_clock_date_weekday_format_12">EEEE, d. MMMM</string> 
+  <string name="status_bar_date_format">"E
+ d. MMM"</string>
+  <string name="status_bar_date_format_12">"E
+d. MMM"</string>
   <string name="status_bar_input_method_settings_configure_input_methods">Eingabemethoden einstellen</string>
   <string name="status_bar_latest_events_title">Benachrichtigungen</string>
   <string name="status_bar_network_flow_content">Heute: %1$s | Verbleibend: %2$s</string>
@@ -1757,8 +1759,8 @@ Screenshot zu erstellen"</string>
   <string name="status_bar_recent_inspect_item_title">App-Info</string>
   <string name="status_bar_recent_memory_info1">%1$sB von %2$sB verfügbar</string>
   <string name="status_bar_recent_remove_item_title">Aus Liste entfernen</string>
-  <string name="status_bar_recording_back">Zum Recorder zurückkehren</string>
-  <string name="status_bar_recording_pause">Recorder pausiert</string>
+  <string name="status_bar_recording_back">Zum Rekorder zurückkehren</string>
+  <string name="status_bar_recording_pause">Rekorder pausiert</string>
   <string name="status_bar_safepay_risk">Zahlungsumgebung ist riskant!</string>
   <string name="status_bar_safepay_safe">Zahlungsumgebung ist sicher</string>
   <string name="status_bar_safepay_scanning">Zahlungsumgebung prüfen…</string>
