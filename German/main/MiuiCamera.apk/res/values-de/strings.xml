@@ -1,18 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
 
-  <string name="module_name_super_moon">Supermond</string>
-  <string name="pixel_ai_108">AI 100 Millionen sehr lebendig</string>
-  <string name="pixel_ai_108_close">AI 100 Millionen sehr lebendig</string>
-  <string name="pref_camera_fastmotion_duration_description">Die Dauer einer Aufnahme ist standardmäßig unbegrenzt. Sie können auch den Timer einstellen, der die Sitzung zu einem bestimmten Zeitpunkt beendet.</string>
-
-  <string name="super_moon_improve_effect_tips">Den Mond in den Kreis stellen</string>
-  <string name="video_bokeh_blur">Unschärfe</string>
-  <string name="video_bokeh_color_point">Farbflecken</string>
-  <string name="video_bokeh_spin">Drehen</string>
-  <string name="video_bokeh_zoom_in">Vergrößern</string>
-  <string name="video_bokeh_zoom_out">Verkleinern</string>
-  <string name="watermark_tab_super_moon_silhouette">Schattenbild</string>
+  <string name="accessibility_8k_off">KI 8K ist aus</string>
+  <string name="accessibility_8k_on">KI 8K ist an</string>
+  <string name="camera_fastmotion_title">Zeitraffer-Videos</string>
   <string name="lighting_bright_red">Hellrot</string>
   <string name="lighting_dazzling">Blendend</string>
   <string name="lighting_dreamland">Traumland</string>
@@ -22,24 +13,17 @@
   <string name="lighting_nostalgia">Nostalgie</string>
   <string name="lighting_phantom">Phantom</string>
   <string name="lighting_rainbow">Regenbogen</string>
+  <string name="module_name_super_moon">Supermond</string>
+  <string name="pixel_ai_108">AI 100 Millionen sehr lebendig</string>
+  <string name="pixel_ai_108_close">AI 100 Millionen sehr lebendig</string>
+  <string name="popup_tips_near_range_mode">Fokus beenden</string>
+  <string name="pref_camera_ai_audio">KI-Audio</string>
   <string name="pref_camera_ai_shutter_description">Intelligente Zeitpunktauswahl zum Äuslöser betätigen</string>
   <string name="pref_camera_ai_shutter_title">KI-Schnappschuss</string>
-  <string name="unsupported_microphones_3d_record_tips">3D-Stereoton unterstützt kein externes Mikrofon</string>
-  <string name="unsupported_microphones_audio_zoom_tips">Der Zoom der Audioquelle unterstützt kein externes Mikrofon</string>
-  <string name="accessibility_8k_off">KI 8K ist aus</string>
-  <string name="accessibility_8k_on">KI 8K ist an</string>
-  <string name="camera_fastmotion_title">Zeitraffer-Videos</string>
-  <string name="popup_tips_near_range_mode">Fokus beenden</string>
-
   <string name="pref_camera_dynamic_frame_rate_summary">Bildfrequenz bei schlechten Lichtverhältnissen von %1$d auf %2$d FPS verringern, um die Videoqualität zu verbessern</string>
   <string name="pref_camera_dynamic_frame_rate_title">Bildfrequenz an schwaches Licht anpassen</string>
-  <string name="pref_hdr10_video_mode_description">Unterstützt 4K- und 8K-Videos, die mit H.265 kodiert sind</string>
-  <string name="settings_camera_near_range_description">Unschärfe-Effekt der Tiefenschärfe bei der Aufnahme von Objekten im Nahbereich entfernen</string>
-  <string name="settings_camera_near_range_title">Fokus beenden</string>
-
-  <string name="pref_camera_ai_audio">KI-Audio</string>
   <string name="pref_camera_fastmotion_duration">Dauer</string>
-  <string name="pref_camera_fastmotion_duration_description">Die Dauer einer Aufnahmesitzung ist standardmäßig unbegrenzt. Sie können auch den Timer einstellen, der die Sitzung zu einem bestimmten Zeitpunkt beendet.</string>
+  <string name="pref_camera_fastmotion_duration_description">Die Dauer einer Aufnahme ist standardmäßig unbegrenzt. Sie können auch den Timer einstellen, der die Sitzung zu einem bestimmten Zeitpunkt beendet.</string>
   <string name="pref_camera_fastmotion_duration_infinity">Unbegrenzt</string>
   <string name="pref_camera_fastmotion_duration_unit">%1$s Minuten</string>
   <string name="pref_camera_fastmotion_speed">Geschwindigkeit</string>
@@ -55,17 +39,28 @@
   <string name="pref_front_denoise_default">Aus</string>
   <string name="pref_front_denoise_summary">Geräusche reduzieren, die hinter der Frontkamera entstehen</string>
   <string name="pref_front_denoise_title">Selfie-Rauschfilter</string>
+  <string name="pref_hdr10_video_mode_description">Unterstützt 4K- und 8K-Videos, die mit H.265 kodiert sind</string>
   <string name="pref_video_denoise_off">Aus</string>
   <string name="pref_video_denoise_on">Ein</string>
   <string name="pref_video_denoise_title">Rauschfilter</string>
   <string name="pref_wind_denoise_default">Ein</string>
   <string name="pref_wind_denoise_title">Windfilter</string>
-
+  <string name="settings_camera_near_range_description">Unschärfe-Effekt der Tiefenschärfe bei der Aufnahme von Objekten im Nahbereich entfernen</string>
+  <string name="settings_camera_near_range_title">Fokus beenden</string>
+  <string name="super_moon_improve_effect_tips">Den Mond in den Kreis stellen</string>
   <string name="timer_burst">Zeitgesteuerter Selbstauslöser</string>
   <string name="timer_burst_manu_param_interval">Intervall ohne Belichtung</string>
   <string name="timer_burst_param_interval">Intervall</string>
   <string name="timer_burst_param_total_count">Gesamte Aufnahmezeit</string>
   <string name="timer_burst_setting_total_count">Anzahl der Fotos</string>
+  <string name="unsupported_microphones_3d_record_tips">3D-Stereoton unterstützt kein externes Mikrofon</string>
+  <string name="unsupported_microphones_audio_zoom_tips">Der Zoom der Audioquelle unterstützt kein externes Mikrofon</string>
+  <string name="video_bokeh_blur">Unschärfe</string>
+  <string name="video_bokeh_color_point">Farbflecken</string>
+  <string name="video_bokeh_spin">Drehen</string>
+  <string name="video_bokeh_zoom_in">Vergrößern</string>
+  <string name="video_bokeh_zoom_out">Verkleinern</string>
+  <string name="watermark_tab_super_moon_silhouette">Schattenbild</string>
 
   <string name="abc_action_bar_home_description">Zur Startseite</string>
   <string name="abc_action_bar_up_description">Nach oben</string>
