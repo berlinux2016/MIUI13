@@ -4,24 +4,8 @@
   <string name="module_name_super_moon">Supermond</string>
   <string name="pixel_ai_108">AI 100 Millionen sehr lebendig</string>
   <string name="pixel_ai_108_close">AI 100 Millionen sehr lebendig</string>
+  <string name="pref_camera_fastmotion_duration_description">Die Dauer einer Aufnahme ist standardmäßig unbegrenzt. Sie können auch den Timer einstellen, der die Sitzung zu einem bestimmten Zeitpunkt beendet.</string>
 
-  <string name="pref_camera_dynamic_frame_rate_summary">Bildfrequenz bei schlechten Lichtverhältnissen von %1$d auf %2$d FPS verringern, um die Videoqualität zu verbessern</string>
-  <string name="pref_camera_dynamic_frame_rate_title">Bildfrequenz an schwaches Licht anpassen</string>
-  <string name="pref_camera_fastmotion_duration">Dauer</string>
-  <string name="pref_camera_fastmotion_duration_description">The duration of a shooting session is unlimited by default. You can also set the timer which will stop the session at a fixed moment.</string>
-  <string name="pref_camera_fastmotion_duration_infinity">Unbegrenzt</string>
-  <string name="pref_camera_fastmotion_speed">Geschwindigkeit</string>
-  <string name="pref_camera_fastmotion_speed_150x">Sonnenauf- und Sonnenuntergänge</string>
-  <string name="pref_camera_fastmotion_speed_1800x">Pflanzen</string>
-  <string name="pref_camera_fastmotion_speed_30x">Straße</string>
-  <string name="pref_camera_fastmotion_speed_750x">Abenddämmerung</string>
-  <string name="pref_camera_fastmotion_speed_90x">Wolken</string>
-  <string name="pref_camera_fastmotion_speed_description">Mit höherer Geschwindigkeit aufgenommene Zeitraffervideos sind kürzer und komprimierter. Hier sind die für verschiedene Szenen geeigneten Geschwindigkeitswerte:</string>
-
-  <string name="pref_hdr10_video_mode_description">Unterstützt 4K- und 8K-Videos, die mit H.265 kodiert sind</string>
-  <string name="settings_camera_near_range_description">Entfernen von Unschärfen beim Fokussieren auf flache Oberflächen aus nächster Nähe</string>
-  <string name="settings_camera_near_range_title">Fokus beenden</string>
-  <string name="super_macro_mode">Supermacro</string>
   <string name="super_moon_improve_effect_tips">Den Mond in den Kreis stellen</string>
   <string name="video_bokeh_blur">Unschärfe</string>
   <string name="video_bokeh_color_point">Farbflecken</string>
@@ -47,25 +31,24 @@
   <string name="camera_fastmotion_title">Zeitraffer-Videos</string>
   <string name="popup_tips_near_range_mode">Fokus beenden</string>
 
-  <string name="pref_camera_dynamic_frame_rate_summary">Um die Bildqualität in Umgebungen mit schlechten Lichtverhältnissen zu verbessern, wird die Bildrate automatisch von 60 fps auf 33 fps reduziert</string>
-  <string name="pref_camera_dynamic_frame_rate_title">Autom. Bildrate bei schlechten Lichtverhältnissen</string>
-  <string name="pref_hdr10_video_mode_description">Unterstützt H.265-codiertes Video mit 4K und 8K Auflösung</string>
+  <string name="pref_camera_dynamic_frame_rate_summary">Bildfrequenz bei schlechten Lichtverhältnissen von %1$d auf %2$d FPS verringern, um die Videoqualität zu verbessern</string>
+  <string name="pref_camera_dynamic_frame_rate_title">Bildfrequenz an schwaches Licht anpassen</string>
+  <string name="pref_hdr10_video_mode_description">Unterstützt 4K- und 8K-Videos, die mit H.265 kodiert sind</string>
   <string name="settings_camera_near_range_description">Unschärfe-Effekt der Tiefenschärfe bei der Aufnahme von Objekten im Nahbereich entfernen</string>
-  <string name="settings_camera_near_range_title">Makromodus</string>
+  <string name="settings_camera_near_range_title">Fokus beenden</string>
 
-  <string name="camera_fastmotion_title">Einführung in die Zeitraffer-Fotografie-Funktion </string>
   <string name="pref_camera_ai_audio">KI-Audio</string>
   <string name="pref_camera_fastmotion_duration">Dauer</string>
-  <string name="pref_camera_fastmotion_duration_description">Sie dient zur Einstellung der Gesamtdauer der Aufnahme. Die Voreinstellung ist unbegrenzt; je länger die Aufnahmedauer, desto reichhaltiger ist der Inhalt der Zeitraffer-Fotografie. Wenn die eingestellte Zeit nicht "unbegrenzt" ist, geht sie in die Zeitrafferfotografie ein und stoppt automatisch nach dem Zeitraffer.</string>
-  <string name="pref_camera_fastmotion_duration_infinity">Unendliche Zeit</string>
+  <string name="pref_camera_fastmotion_duration_description">Die Dauer einer Aufnahmesitzung ist standardmäßig unbegrenzt. Sie können auch den Timer einstellen, der die Sitzung zu einem bestimmten Zeitpunkt beendet.</string>
+  <string name="pref_camera_fastmotion_duration_infinity">Unbegrenzt</string>
   <string name="pref_camera_fastmotion_duration_unit">%1$s Minuten</string>
   <string name="pref_camera_fastmotion_speed">Geschwindigkeit</string>
   <string name="pref_camera_fastmotion_speed_150x">Sonnenauf-und untergang</string>
   <string name="pref_camera_fastmotion_speed_1800x">Pflanze</string>
-  <string name="pref_camera_fastmotion_speed_30x">Autobahn</string>
-  <string name="pref_camera_fastmotion_speed_750x">Nacht</string>
-  <string name="pref_camera_fastmotion_speed_90x">Cloud</string>
-  <string name="pref_camera_fastmotion_speed_description">Einstellbare Zeitkompression. Je höher der Geschwindigkeit, desto kürzer die Videodauer und desto schneller die Wiedergabegeschwindigkeit bei gleichzeitiger Aufnahmezeit. Für einige Aufnahmeszenarien werden die folgenden Geschwindigkeitswerte empfohlen:</string>
+  <string name="pref_camera_fastmotion_speed_30x">Straßen</string>
+  <string name="pref_camera_fastmotion_speed_750x">Abenddämmerung</string>
+  <string name="pref_camera_fastmotion_speed_90x">Wolken</string>
+  <string name="pref_camera_fastmotion_speed_description">Mit höherer Geschwindigkeit aufgenommene Zeitraffervideos sind kürzer und komprimierter. Hier sind die für verschiedene Szenen geeigneten Geschwindigkeitswerte:</string>
   <string name="pref_camera_rec_type_3d_record">3D-Sound</string>
   <string name="pref_camera_rec_type_audio_zoom">Audio-Zoom</string>
   <string name="pref_camera_rec_type_normal">Normal</string>
