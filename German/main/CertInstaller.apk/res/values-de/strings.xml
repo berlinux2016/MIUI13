@@ -1,5 +1,23 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+
+  <string name="ca_cert_is_added">CA-Zertifikat installiert</string>
+  <string name="ca_certificate">CA-Zertifikat</string>
+  <string name="cert_temp_error">Vorübergehender Ausfall. Bitte später erneut versuchen.</string>
+  <string name="certificate">Zertifikat</string>
+  <string name="certificate_name">Zertifikatname</string>
+  <string name="invalid_certificate_close_button">Schließen</string>
+  <string name="invalid_certificate_message">Diese Datei kann nicht als %1$s verwendet werden</string>
+  <string name="invalid_certificate_title">Diese Datei kann nicht verwendet werden</string>
+  <string name="redirect_ca_certificate_close_button">Schließen</string>
+  <string name="redirect_ca_certificate_message">CA certificates can put your privacy at risk and must be installed in Settings</string>
+  <string name="redirect_ca_certificate_title">CA-Zertifikate installieren nicht möglich</string>
+  <string name="select_certificate_usage_title">Einen Zertifikattyp auswählen</string>
+  <string name="user_cert_is_added">Benutzerzertifikat installiert</string>
+  <string name="user_certificate">VPN &amp; App-Benutzerzertifikat</string>
+  <string name="wifi_cert_is_added">WLAN-Zertifikat installiert</string>
+  <string name="wifi_certificate">WLAN-Zertifikat</string>
+
   <string name="action_missing_private_key">Privater Schlüssel für die Installation eines Zertifikats erforderlich</string>
   <string name="action_missing_user_cert">Zertifikat für die Installation eines privaten Schlüssels erforderlich</string>
   <string name="app_name">Zertifikatinstallation</string>

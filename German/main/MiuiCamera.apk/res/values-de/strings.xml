@@ -1,6 +1,55 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
 
+  <string name="module_name_super_moon">Supermoon</string>
+  <string name="pixel_ai_108">AI 100 million ultra vivid</string>
+  <string name="pixel_ai_108_close">Close AI 100 million ultra vivid</string>
+
+  <string name="pref_camera_dynamic_frame_rate_summary">Decrease frame rate in low light conditions from %1$d to %2$d FPS to improve video quality</string>
+  <string name="pref_camera_dynamic_frame_rate_title">Adjust frame rate to low light</string>
+  <string name="pref_camera_fastmotion_duration">Duration</string>
+  <string name="pref_camera_fastmotion_duration_description">The duration of a shooting session is unlimited by default. You can also set the timer which will stop the session at a fixed moment.</string>
+  <string name="pref_camera_fastmotion_duration_infinity">Unlimited</string>
+  <string name="pref_camera_fastmotion_speed">Speed</string>
+  <string name="pref_camera_fastmotion_speed_150x">Sunrises and sunsets</string>
+  <string name="pref_camera_fastmotion_speed_1800x">Plants</string>
+  <string name="pref_camera_fastmotion_speed_30x">Street</string>
+  <string name="pref_camera_fastmotion_speed_750x">Dusk</string>
+  <string name="pref_camera_fastmotion_speed_90x">Clouds</string>
+  <string name="pref_camera_fastmotion_speed_description">Time-lapse videos shot at higher speed are shorter and more condensed. Here are the speed values suitable for different scenes:</string>
+
+  <string name="pref_hdr10_video_mode_description">Supports 4K and 8K videos encoded by H.265</string>
+  <string name="pref_hdr10_video_mode_title">HDR10</string>
+  <string name="settings_camera_near_range_description">Remove blurring when focusing on flat surfaces very close up</string>
+  <string name="settings_camera_near_range_title">Close focus</string>
+  <string name="super_macro_mode">Super macro</string>
+  <string name="super_moon_improve_effect_tips">Place the moon in the circle</string>
+  <string name="video_bokeh_blur">Blur</string>
+  <string name="video_bokeh_color_point">Color spots</string>
+  <string name="video_bokeh_spin">Spin</string>
+  <string name="video_bokeh_zoom_in">Zoom in</string>
+  <string name="video_bokeh_zoom_out">Zoom out</string>
+  <string name="watermark_tab_super_moon_silhouette">Silhouette</string>
+  <string name="watermark_tab_super_moon_text">Text</string>
+  
+  <string name="lighting_bright_red">Hellrot</string>
+  <string name="lighting_dazzling">Blendend</string>
+  <string name="lighting_dreamland">Traumland</string>
+  <string name="lighting_gorgeous">Wunderschön</string>
+  <string name="lighting_lanshan">Lanshan</string>
+  <string name="lighting_neon">Neon</string>
+  <string name="lighting_nostalgia">Nostalgie</string>
+  <string name="lighting_phantom">Phantom</string>
+  <string name="lighting_rainbow">Regenbogen</string>
+  <string name="pref_camera_ai_shutter_description">Intelligente Zeitpunktauswahl zum Äuslöser betätigen</string>
+  <string name="pref_camera_ai_shutter_title">KI-Schnappschuss</string>
+  <string name="unsupported_microphones_3d_record_tips">3D-Stereoton unterstützt kein externes Mikrofon</string>
+  <string name="unsupported_microphones_audio_zoom_tips">Der Zoom der Audioquelle unterstützt kein externes Mikrofon</string>
+  <string name="accessibility_8k_off">KI 8K ist aus</string>
+  <string name="accessibility_8k_on">KI 8K ist an</string>
+  <string name="camera_fastmotion_title">Zeitraffer-Videos</string>
+  <string name="popup_tips_near_range_mode">Fokus beenden</string>
+
   <string name="pref_camera_dynamic_frame_rate_summary">Um die Bildqualität in Umgebungen mit schlechten Lichtverhältnissen zu verbessern, wird die Bildrate automatisch von 60 fps auf 33 fps reduziert</string>
   <string name="pref_camera_dynamic_frame_rate_title">Autom. Bildrate bei schlechten Lichtverhältnissen</string>
   <string name="pref_hdr10_video_mode_description">Unterstützt H.265-codiertes Video mit 4K und 8K Auflösung</string>
@@ -32,11 +81,11 @@
   <string name="pref_wind_denoise_default">Ein</string>
   <string name="pref_wind_denoise_title">Windfilter</string>
 
-  <string name="timer_burst">Selbstauslöser</string>
-  <string name="timer_burst_manu_param_interval">Zeitabstand (enthält keine Belichtungszeit)</string>
-  <string name="timer_burst_param_interval">Zeitabstand</string>
+  <string name="timer_burst">Zeitgesteuerter Selbstauslöser</string>
+  <string name="timer_burst_manu_param_interval">Intervall ohne Belichtung</string>
+  <string name="timer_burst_param_interval">Intervall</string>
   <string name="timer_burst_param_total_count">Gesamte Aufnahmezeit</string>
-  <string name="timer_burst_setting_total_count">Gesamtzahl: %1$s</string>
+  <string name="timer_burst_setting_total_count">Anzahl der Fotos</string>
 
   <string name="abc_action_bar_home_description">Zur Startseite</string>
   <string name="abc_action_bar_up_description">Nach oben</string>
