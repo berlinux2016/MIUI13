@@ -1,5 +1,31 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+
+  <string name="adjust_temperature_title">Farbtemperatur</string>
+  <string name="advanced_screen_paper_mode_title">Lesemodus</string>
+  <string name="auto_adjst_effect_summary">Automatische Anpassung der Farbtemperatur an das Umgebungslicht, um ein optimales Komfortniveau aufrechtzuerhalten</string>
+  <string name="auto_adjust_effect_title">Farbtemperatur automatisch anpassen</string>
+  <string name="beauty_camera">Videoanrufe verschönern</string>
+  <string name="beauty_camera_summary">Verschönerung für WeChat-Videoanrufe verwenden</string>
+  <string name="beauty_camera_switch">Verschönern</string>
+  <string name="classic_mode_summary">Zu wärmeren Farben wechseln, um die Menge an blauem Licht zu reduzieren</string>
+  <string name="classic_mode_title">Klassisch</string>
+  <string name="effect_preview">Vorschau</string>
+  <string name="hint_unadjustable_text">Manuell einstellen nicht möglich. Die Farbtemperatur wird jetzt automatisch angepasst.</string>
+  <string name="paper_color_title">Farben</string>
+  <string name="paper_mode_reset">Standardwerte wiederherstellen</string>
+  <string name="paper_mode_summary">Zu wärmeren Farben wechseln und dem Hintergrund eine Papierstruktur hinzufügen, um die Augenbelastung zu verringern</string>
+  <string name="paper_mode_title">Papier</string>
+  <string name="papger_effect_category">Modus</string>
+  <string name="screen_paper_mode_description">Lesemodus passt Farben und Struktur der Elemente auf Ihrem Bildschirm an, so dass sich Ihre Augen entspannen können</string>
+  <string name="screen_paper_texture">Struktur</string>
+  <string name="set_screen_paper_mode">Lesemodus</string>
+  <string name="texture_adjust_temperature_title">Farbtemperatur</string>
+  <string name="wifi_unsaved_network_linking">SSID Bridging - Automatische verbindung</string>
+  <string name="wifi_unsaved_network_linking_summary">Automatische Verbindungsversuche zu einer neuen WPA/WPA2-PSK 5GHz SSID mit aktuell verbundenen WPA/WPA2-PSK 2GHz SSID-Zugangsdaten auf SSID und BSSID mit teilweiser Übereinstimmung aktivieren</string>
+  <string name="wifi_whitelist_roaming">SSID Bridging - Fast Handover</string>
+  <string name="wifi_whitelist_roaming_summary">Roaming zwischen verschiedenen SSID-WPA/WPA2-PSK-APs mit derselben Gateway-MAC-Adresse aktivieren</string>
+
   <string name="Accounts_settings_title">Konten</string>
   <string name="Data_set">"Daten: "</string>
   <string name="a11y_settings_label">Einstellungen Barrierefreiheit</string>
@@ -1258,12 +1284,12 @@ Abtastrate"</string>
   <string name="bluetooth_unlock_confirm_device_text_for_huami_band">Auf dem Band bestätigen</string>
   <string name="bluetooth_unlock_confirm_device_text_for_huami_watch">Auf der Uhr bestätigen</string>
   <string name="bluetooth_unlock_confirm_device_text_for_miband2">Zum Entsperren auf die Taste am Gerät tippen</string>
-  <string name="bluetooth_unlock_confirm_device_text_for_mi_wear">Auf Geräten bestätigen</string>
+  <string name="bluetooth_unlock_confirm_device_text_for_mi_wear">Auf Gerät bestätigen</string>
   <string name="bluetooth_unlock_delete_device">Dieses Gerät entfernen</string>
   <string name="bluetooth_unlock_delete_device_confirm_msg">Dieses Gerät entfernen?</string>
   <string name="bluetooth_unlock_device_matched_text">Dieses Gerät zum Entsperren verwenden</string>
   <string name="bluetooth_unlock_no_matched_device_yet">Kein Gerät verfügbar</string>
-  <string name="bluetooth_unlock_reject">Remote-Gerät lehnt die Entsperranforderung ab</string>
+  <string name="bluetooth_unlock_reject">Anfrage, dieses Gerät zu entsperren, wurde abgelehnt</string>
   <string name="bluetooth_unlock_settings_devices_title">Gerät</string>
   <string name="bluetooth_unlock_settings_toggle_title">Anwenden für</string>
   <string name="bluetooth_unlock_settings_unlock_device">Entsperrgerät</string>
@@ -1274,7 +1300,7 @@ Abtastrate"</string>
   <string name="bluetooth_unlock_title">BT-Gerät</string>
   <string name="bluetooth_unlock_turned_off">Ausgeschaltet</string>
   <string name="bluetooth_unlock_turned_on">Eingeschaltet</string>
-  <string name="bluetooth_unlock_unsupport">Nicht unterstützte Version</string>
+  <string name="bluetooth_unlock_unsupport">Die Firmware-Version dieses Geräts wird derzeit nicht unterstützt</string>
   <string name="bluetooth_unpair_dialog_body">Ihr Telefon bleibt nicht länger mit %1$s gekoppelt</string>
   <string name="bluetooth_unpair_dialog_forget_confirm_button">Gerät vergessen</string>
   <string name="bluetooth_unpair_dialog_title">Gerät vergessen?</string>
@@ -5683,7 +5709,7 @@ Mindestens %s freigeben."</string>
   <string name="screen_button_tips">Nach unten ziehen, um die Bildschirmtasten zu verbergen</string>
   <string name="screen_cancel">Abbrechen</string>
   <string name="screen_color_and_optimize">Farben &amp; Kontrast</string>
-  <string name="screen_color_and_optimize_disabled">Farbtemperatur kann im Lesemodus nicht geändert werden</string>
+  <string name="screen_color_and_optimize_disabled">Farbschema und Farbtemperatur im Lesemodus nicht einstellbar</string>
   <string name="screen_color_temperature">Farbtemperatur</string>
   <string name="screen_color_temperature_and_saturation">Farbtemperatur &amp; Sättigung</string>
   <string name="screen_compatibility_label">Bildschirmkompatibilität</string>
@@ -5729,7 +5755,7 @@ Mindestens %s freigeben."</string>
   <string name="screen_on_proximity_sensor_summary">Telefon wird automatisch gesperrt, wenn es in der Tasche ist</string>
   <string name="screen_on_proximity_sensor_title">Fehlbedienung verhindern</string>
   <string name="screen_optimize">Farben</string>
-  <string name="screen_optimize_disabled">Kontrast kann nicht angepasst werden, wenn der Lesemodus eingeschaltet ist</string>
+  <string name="screen_optimize_disabled">Farbschema im Lesemodus anpassen nicht möglich</string>
   <string name="screen_optimize_summary">Sprache und Text transformieren, um Anrufe lautlos entgegenzunehmen</string>
   <string name="screen_paper_mode_adjust_level">Stärke</string>
   <string name="screen_paper_mode_apps_loading">Einen Moment…</string>
