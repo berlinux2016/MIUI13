@@ -1,5 +1,36 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+
+    <string name="apply_failed">"Couldn't apply"</string>
+    <string name="apply_succeed">Applied successfully</string>
+    <string name="de_icon_text_reward">Reward</string>
+    <string name="detail_reward_alert">Reward talented designers for their work</string>
+    <string name="detail_reward_build_order_error">"Couldn't create order. Wait a minute or two and try again."</string>
+    <string name="detail_reward_custom_amount">Custom amount</string>
+    <string name="detail_reward_duplicate_order_error">Too many attempts. Wait a minute or two and try again.</string>
+    <string name="detail_reward_exceed_limit">Rewards can contain up to 200 CNY</string>
+    <string name="detail_reward_know_it">Got it</string>
+    <string name="detail_reward_limited_to_200">Rewards can contain up to 200 Mi Coins</string>
+    <string name="detail_reward_loading_failed">"Couldn't load info. Try again."</string>
+    <string name="detail_reward_no_one">No rewards yet. Give the first one!</string>
+    <string name="detail_reward_reached_upper_limit">"Can't reward today. Come back tomorrow!"</string>
+    <string name="detail_reward_resource_error">"Can't reward due to an error"</string>
+    <string name="detail_reward_server_error">A server error occurred. Wait a minute or two and try again.</string>
+    <string name="detail_reward_successed">Rewarded successfully</string>
+    <string name="detail_reward_thanks_for_fans_support">Thanks for your support!</string>
+    <string name="detail_reward_thanks_for_your_support">Thanks for your support!</string>
+    <string name="detail_reward_user_limited_to_display">Only first 100 people are displayed</string>
+    <string name="display">Display</string>
+    <string name="resource_comment_error_not_bought">You should use an item before commenting about it</string>
+    <string name="settings_search_keyword_font_free">Free fonts</string>
+    <string name="settings_search_keyword_font_home">Home screen fonts</string>
+    <string name="settings_search_keyword_font_input">Input method fonts</string>
+    <string name="settings_search_keyword_font_keyboard">Keyboard fonts</string>
+    <string name="settings_search_keyword_font_manager">Manage fonts</string>
+    <string name="settings_search_keyword_font_online">Online fonts</string>
+    <string name="settings_search_keyword_font_style">Font format</string>
+    <string name="settings_search_keyword_font_wechat">WeChat fonts</string>
+
   <string name="abc_action_bar_home_description">Zur Startseite</string>
   <string name="abc_action_bar_up_description">Nach oben</string>
   <string name="abc_action_menu_overflow_description">Mehr Optionen</string>
@@ -212,7 +243,7 @@ Themen erkennt, welche Apps Sie verwenden und zeigt transparente Hintergründe i
   <string name="enabling_all_free_mode">Einlösen…</string>
   <string name="error_icon_content_description">Fehler</string>
   <string name="evening"></string>
-  <string name="exchange_alert">Sie können während unserer Werbeveranstaltungen Gutscheine erhalten und diese gegen Themen eintauschen.</string>
+  <string name="exchange_alert">Sie können Codes während unserer Veranstaltungen erhalten und sie hier einlösen</string>
   <string name="exit_extreme_mode_dialog_agree">Zustimmen</string>
   <string name="exit_extreme_mode_dialog_cancel">Abbrechen</string>
   <string name="exit_extreme_mode_dialog_title">Extremmodus ausschalten</string>
@@ -643,7 +674,7 @@ Auf Bildschirm tippen, um neu zu laden."</string>
   <string name="resource_exchange_confirm">Bestätigen</string>
   <string name="resource_exchange_device_not_support">Dieses Element wird auf Ihrem Gerät nicht unterstützt</string>
   <string name="resource_exchange_empty_format">Gutscheincode eingeben</string>
-  <string name="resource_exchange_has_bought">Sie haben dieses Thema bereits gekauft</string>
+  <string name="resource_exchange_has_bought">Sie haben dieses Thema schon einmal gekauft</string>
   <string name="resource_exchange_has_expired">Eingegebener Code ist abgelaufen</string>
   <string name="resource_exchange_has_used">Eingegebener Code wurde bereits verwendet</string>
   <string name="resource_exchange_hint">Gutscheincode eingeben</string>
@@ -652,7 +683,7 @@ Auf Bildschirm tippen, um neu zu laden."</string>
   <string name="resource_exchange_share_code_dlg_content">Gutscheincode für Ihr gekauftes Thema %1$s: %2$s. Wenn Sie Ihn an einen anderen MIUI Benutzer senden, kann er/sie ihn dazu benutzen, das Thema herunterzuladen.</string>
   <string name="resource_exchange_share_code_dlg_title">Senden</string>
   <string name="resource_exchange_success">Erfolgreich eingelöst</string>
-  <string name="resource_exchange_unavailable">Das Ihrem Code zugeordnete Thema ist nicht verfügbar</string>
+  <string name="resource_exchange_unavailable">Dieser Artikel ist derzeit nicht verfügbar</string>
   <string name="resource_exchange_universal_finish">Benutzen Sie diesen Code, um einzelne Elemente aus dem Thema herunterzuladen</string>
   <string name="resource_exchange_universal_goon">Mit diesem Code können Sie beliebige Themen im Store herunterladen</string>
   <string name="resource_exchange_window_title">Einlösen</string>
