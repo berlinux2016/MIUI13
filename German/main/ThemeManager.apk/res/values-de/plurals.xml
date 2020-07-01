@@ -1,14 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <plurals name="detail_reward_few_times">
-    <item quantity="one">%s Belohnung</item>
-    <item quantity="other">%s Belohnungen</item>
-  </plurals>
-  <plurals name="detail_reward_times">
-    <item quantity="one">%s Belohnung</item>
-   <item quantity="other">%s Belohnungen</item>
-  </plurals>
-
   <plurals name="a_hour_ago">
     <item quantity="other">vor 1 Stunde</item>
   </plurals>
@@ -61,6 +52,14 @@
   <plurals name="de_more_comment">
      <item quantity="other">%1$d weitere Kommentare</item>
      <item quantity="one">%1$d weiterer Kommentar</item>
+  </plurals>
+  <plurals name="detail_reward_few_times">
+    <item quantity="other">%s Belohnungen</item>
+    <item quantity="one">%s Belohnung</item>
+  </plurals>
+  <plurals name="detail_reward_times">
+   <item quantity="other">%s Belohnungen</item>
+    <item quantity="one">%s Belohnung</item>
   </plurals>
   <plurals name="detail_update_time_hour">
     <item quantity="other">Vor %d Stunden</item>
