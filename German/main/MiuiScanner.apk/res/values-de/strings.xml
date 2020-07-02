@@ -20,8 +20,15 @@
   <string name="document_take_multiple_shots">Mehrere Aufnahmen machen</string>
   <string name="duplicate_file_name_please_rename">Doppelter Dateiname, bitte umbenennen</string>
   <string name="filename_cannot_beempty">Dateiname darf nicht leer sein</string>
+  <string name="general_error">Erkennung fehlgeschlagen</string>
+  <string name="general_feedback">Fehler und Feedback identifizieren</string>
+  <string name="general_location_dialog">Der Store-Dienst wird von Dianping bereitgestellt. Die von diesem Dienst aufgenommenen Fotos und die Standortinfo des Aufnahmeortes werden an Dianping weitergeleitet, um die Storeinfos zu überprüfen.</string>
+  <string name="general_location_prompt">Speicherdienst erfordert Standortberechtigung</string>
+  <string name="general_recognized">Ich erkenne für Sie:</string>
+  <string name="general_title">Bitte fotografieren Sie das zu erkennende Objekt</string>
   <string name="grayscale">Graustufen</string>
   <string name="intelligent_recognition">Intelligente Erkennung</string>
+  <string name="module_title_general">Kenntnisse</string>
   <string name="my_document">Mein Dokument</string>
   <string name="newbuildfile">Neue Datei erstellen</string>
   <string name="original_image">Originalbild</string>
@@ -46,14 +53,6 @@
   <string name="share_format">Format für das Teilen</string>
   <string name="text_to_be_translated_cannot_be_empty">Zu übersetzender Text darf nicht leer sein</string>
   <string name="textrecognition_results">Ergebnis Texterkennung</string>
-
-  <string name="general_error">Erkennung fehlgeschlagen</string>
-  <string name="general_feedback">Fehler und Feedback identifizieren</string>
-  <string name="general_location_dialog">Der Store-Dienst wird von Dianping bereitgestellt. Die von diesem Dienst aufgenommenen Fotos und die Standortinfo des Aufnahmeortes werden an Dianping weitergeleitet, um die Storeinfos zu überprüfen.</string>
-  <string name="general_location_prompt">Speicherdienst erfordert Standortberechtigung</string>
-  <string name="general_recognized">Ich erkenne für Sie:</string>
-  <string name="general_title">Bitte fotografieren Sie das zu erkennende Objekt</string>
-  <string name="module_title_general">Kenntnisse</string>
 
   <string name="Approval">Anwenden</string>
   <string name="Xiaomi_account_pending_approval">Bewerbung prüfen</string>
@@ -102,10 +101,11 @@
   <string name="business_new_contacts">Kontakt erstellen</string>
   <string name="business_no_result">Visitenkarte wurde nicht erkannt. Versuchen Sie es erneut.</string>
   <string name="calender">Kalender</string>
+  <string name="call_anyone">Anrufen</string>
   <string name="calories_logo_text">KI-Unterstützung durch Health Hope</string>
   <string name="calories_request_interface_text">KI-Unterstützung</string>
-  <string name="call_anyone">Anrufen</string>
   <string name="camera_error_title">Kamerafehler</string>
+  <string name="cancel">Abbrechen</string>
   <string name="carsHome_title">Auto</string>
   <string name="cars_is_public">Öffentlich</string>
   <string name="cars_no_public">Nicht öffentlich</string>
@@ -113,7 +113,6 @@
   <string name="cars_suitability">"Match/Autoeignung: "</string>
   <string name="cars_title">Autos oder Autoteile scannen</string>
   <string name="carshome_data">Technische Unterstützung durch Autohome Inc.</string>
-  <string name="cancel">Abbrechen</string>
   <string name="character_counter_content_description">Zeichenlimit überschritten: %1$d von %2$d</string>
   <string name="check_for_updates">Auf Beta-Updates prüfen</string>
   <string name="choose_open_code_app">Eine App auswählen</string>
@@ -143,13 +142,13 @@
   <string name="continue_to_website">Zur Webseite gehen</string>
   <string name="continue_waiting">Weiter warten</string>
   <string name="copy">Kopieren</string>
+  <string name="copy_text">Text kopieren</string>
+  <string name="copy_text_success">Text kopiert</string>
+  <string name="copy_tracknum">Sendungsverfolgungscode kopieren</string>
   <string name="create">QR-Code erzeugen</string>
   <string name="createFail">QR-Code erzeugen nicht möglich. Ihre Nachricht ist zu lang.</string>
   <string name="createQRCode_hint">Text eingeben</string>
   <string name="createQRCode_save">Speichern</string>
-  <string name="copy_text">Text kopieren</string>
-  <string name="copy_text_success">Text kopiert</string>
-  <string name="copy_tracknum">Sendungsverfolgungscode kopieren</string>
   <string name="create_again">Aktualisieren</string>
   <string name="crop__cancel">ABBRECHEN</string>
   <string name="crop__done">FERTIG</string>
@@ -184,6 +183,7 @@
   <string name="document_top_panel_title">Dokumentfoto</string>
   <string name="done">Erledigt</string>
   <string name="downloadAiVison">Plugin installieren, um diese Funktion zu nutzen</string>
+  <string name="downloadAiVisonReason">Abhängig von Plugins, die aktualisiert werden müssen</string>
   <string name="download_mipay">Mi Pay verwenden</string>
   <string name="download_stable_version">Stable Version verwenden</string>
   <string name="download_use_stable_version">Stable Version herunterladen</string>
@@ -224,11 +224,13 @@
   <string name="food_module_thumbs_up">Gefällt mir</string>
   <string name="food_module_tip">Lebensmittel im Rahmen platzieren</string>
   <string name="food_module_title_food">Kalorien</string>
+  <string name="function">Funktionen</string>
   <string name="got_it">Verstanden</string>
   <string name="gps">Navigieren</string>
   <string name="grant_permission">Berechtigung erteilen</string>
   <string name="history">Verlauf</string>
   <string name="history_empty">Noch keine Elemente hier</string>
+  <string name="if_open_result">Scan-Ergebnis anzeigen bei Rückkehr zur App</string>
   <string name="if_to_open_milogo_scanning">Xiaomi-Logo erkennen</string>
   <string name="image_file_name_format">"'scanner'_yyyyMMdd_HHmmss"</string>
   <string name="image_view">Bild anzeigen</string>
@@ -294,6 +296,9 @@
   <string name="module_title_shopping">Einkaufen</string>
   <string name="module_title_study">Hausaufgaben</string>
   <string name="module_title_translation">Übersetzen</string>
+  <string name="monitor_low_android">ANDROID-Version zu niedrig</string>
+  <string name="monitor_low_miui">MIUI-Version zu niedrig</string>
+  <string name="monitor_unsupport_device">Gerät wird derzeit nicht unterstützt</string>
   <string name="msg_compress_failed">Bilder mit fehlgeschlagener Komprimierung</string>
   <string name="msg_crop_canceled">" Schneiden abbrechen"</string>
   <string name="msg_crop_failed">Schneiden fehlgeschlagen</string>
@@ -342,8 +347,8 @@
   <string name="previous">Zurück</string>
   <string name="prompt">Achtung</string>
   <string name="qr_code_details">QR-Code Details:</string>
-  <string name="queryGoodsFailed">Produktinfos nicht gefunden</string>
   <string name="queryGoods">Nach Produkten suchen</string>
+  <string name="queryGoodsFailed">Produktinfos nicht gefunden</string>
   <string name="queryNum">Bestellung prüfen</string>
   <string name="query_faile">Auftragsstatus und Details wurden noch nicht synchronisiert. Prüfen Sie Ihre Bestellung manuell.</string>
   <string name="query_inai">Lassen Sie sich von Mi KI helfen</string>
@@ -407,6 +412,14 @@
   <string name="switch_open">Einschalten</string>
   <string name="take_a_picture">Kamera</string>
   <string name="tel">Telefon</string>
+  <string name="tip_compress">Foto komprimieren…</string>
+  <string name="tip_compress_failed">%1$s Bildkomprimierung fehlgeschlagen: %2$s Bildpfad: %3$s</string>
+  <string name="tip_no_camera">Keine Kamera</string>
+  <string name="tip_permission_camera">Keine Berechtigung zur Verwendung der Kamera, bitte in Rechteverwaltung einschalten</string>
+  <string name="tip_permission_camera_storage">Keine Berechtigung zur Verwendung der Kamera und der SD-Karte, bitte in Rechteverwaltung einschalten</string>
+  <string name="tip_permission_storage">Keine Berechtigung zur Verwendung der SD-Karte, bitte in Rechteverwaltung einschalten</string>
+  <string name="tip_tips">Hinweis</string>
+  <string name="tip_type_not_image">Kein Bild</string>
   <string name="tips_message">Stellen Sie eine Internetverbindung her, um die zu besuchende Seite auf Sicherheit zu prüfen</string>
   <string name="title">Titel:</string>
   <string name="to_install_title">Dieser QR-Code leitet Sie zu einer deinstallierten App weiter. Diese App jetzt herunterladen?</string>
@@ -444,16 +457,6 @@
   <string name="translation_see_more">Definition zeigen</string>
   <string name="translation_type_sentence">Ausdruck</string>
   <string name="translation_type_word">Wort</string>
-
-    <string name="tip_compress">Foto komprimieren…</string>
-    <string name="tip_compress_failed">%1$s Bildkomprimierung fehlgeschlagen: %2$s Bildpfad: %3$s</string>
-    <string name="tip_no_camera">Keine Kamera</string>
-    <string name="tip_permission_camera">Keine Berechtigung zur Verwendung der Kamera, bitte in Rechteverwaltung einschalten</string>
-    <string name="tip_permission_camera_storage">Keine Berechtigung zur Verwendung der Kamera und der SD-Karte, bitte in Rechteverwaltung einschalten</string>
-    <string name="tip_permission_storage">Keine Berechtigung zur Verwendung der SD-Karte, bitte in Rechteverwaltung einschalten</string>
-    <string name="tip_tips">Hinweis</string>
-    <string name="tip_type_not_image">Kein Bild</string>
-
   <string name="uninstall_prompt">Wenn bei der Installation Probleme auftreten, gehen Sie zu Einstellungen &gt; Apps &gt; Apps verwalten &gt; Scanner, tippen Sie auf \"Deinstallieren\" und versuchen Sie, die App neu zu installieren.</string>
   <string name="url_is_phish">Das könnte eine Phishing-Webseite sein</string>
   <string name="url_is_safety">Diese Webseite ist sicher</string>
@@ -465,6 +468,7 @@
   <string name="waybill_num">"Bestellung: "</string>
   <string name="web">Webseite:</string>
   <string name="website_details">Webseite:</string>
+  <string name="wechatcode_auto_processing_function_requires_permissions">Automatische Verarbeitungsfunktion des WeChat-Codes erfordert, dass WeChat über Kameraberechtigungen und Speicherberechtigungen verfügt</string>
   <string name="weixin_code_tip">WeChat nutzen, um diesen QR-Code zu scannen</string>
   <string name="welcome_to_thesweepversion">Willkommen bei Scanner Beta!</string>
   <string name="wifi_details">WLAN:</string>
