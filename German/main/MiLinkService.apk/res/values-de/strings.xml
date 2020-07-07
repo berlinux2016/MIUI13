@@ -38,8 +38,12 @@
   <string name="abc_shareactionprovider_share_with">Teilen mit</string>
   <string name="abc_shareactionprovider_share_with_application">Teilen mit %s</string>
   <string name="abc_toolbar_collapse_description">Einklappen</string>
+  <string name="account_other">Anderen</string>
   <string name="afternoon">Nachmittag</string>
   <string name="casting_tips">Ūbertragen…</string>
+  <string name="close_hotspot_hint">Tragbaren Hotspot vor der Übertragung ausschalten</string>
+  <string name="close_slave_wifi_hint">Von zusätzlichem WLAN trennen vor der Übertragung</string>
+  <string name="close_slave_wifi_hint_china">Von zusätzlichem WLAN trennen vor der Übertragung</string>
   <string name="console_guide_btn_got_it">Verstanden</string>
   <string name="console_guide_subtitle_hang_up">Sie können die Übertragung fortsetzen, wenn der Bildschirm Ihres Geräts ausgeschaltet ist. Diese Funktion reduziert den Stromverbrauch.</string>
   <string name="console_guide_subtitle_private">Keine Popup-Benachrichtigungen, eingehenden Anrufe und andere privaten Elemente auf externen Monitoren anzeigen</string>
@@ -75,6 +79,7 @@ Für weitere Fragen lesen Sie bitte die Hilfe."</string>
   <string name="dialog_show_help">Hilfe</string>
   <string name="disconnect">Übertragung stoppen</string>
   <string name="early_morning">Morgen</string>
+  <string name="enable_screen_projection_summary">Bildschirminhalt auf einen externen Monitor übertragen</string>
   <string name="evening">Nachmittag</string>
   <string name="fmt_date_day">d.</string>
   <string name="fmt_date_long_month_day">d. MMMM</string>
@@ -159,6 +164,7 @@ Verbinden Sie sowohl Ihr Telefon als auch den externen Monitor (z. B. Ihren TV) 
   <string name="help_page_text_55_global">"Wenn Sie keine Netzwerkverbindung herstellen können, prüfen Sie, ob Ihr externer Monitor die Miracast-Funktionalität unterstützt und sie eingeschaltet ist. Bei einigen Modellen wird diese Funktion als Wireless Display/Drahtlos-Display, Screen Mirroring oder Multiple Screens bezeichnet.
 4. Wenn Sie irgendwelche Probleme haben, können Sie diese mit Hilfe unserer App \"Dienste &amp; Feedback\" melden."</string>
   <string name="help_page_text_end">Wenn Ihre Gerätemarke hier nicht aufgeführt ist, wenden Sie sich an den Hersteller, um mehr über die Übertragungsfunktionalität zu erfahren.</string>
+  <string name="keyguard_security_setting_privacy_policy">Datenschutzerklärung</string>
   <string name="miuix_appcompat_cloud_state_disabled">Synchronisation mit der Cloud ist aus</string>
   <string name="miuix_appcompat_cloud_state_finished">Erfolgreich mit der Cloud synchronisiert</string>
   <string name="miuix_appcompat_cloud_state_syncing">Mit der Cloud synchronisieren…</string>
@@ -204,6 +210,7 @@ Verbinden Sie sowohl Ihr Telefon als auch den externen Monitor (z. B. Ihren TV) 
   <string name="noon">Mittag</string>
   <string name="notification_rc_desc">Der beste TV-Assistent für Ihr Telefon, um Videos, Fotos und Apps auf die Xiaomi Mi Box (oder den Fernseher) zu übertragen, probieren Sie es einfach jetzt aus!</string>
   <string name="notification_show_more">Tippen, um weitere Funktionen anzuzeigen</string>
+  <string name="open_game_accelerate">Game Turbo einschalten</string>
   <string name="privacy_text_1"><Data>"Willkommen bei Übertragung! Übertragung ermöglicht die Projektion der Elemente vom Telefonbildschirm auf einen größeren externen Monitor.
 Wir schützen Ihre persönlichen Daten in Übereinstimmung mit den relevanten Gesetzen, Vorschriften und Datenschutzrichtlinien. Einige Funktionen werden von dem Drittanbieter HappyCast bereitgestellt. Bevor Sie diese Funktion nutzen, lesen und akzeptieren Sie <a href="%2$s">HappyCast Rechtliche Hinweise</a> und <a href="%1$s">HappyCast Datenschutzerklärung</a>.
 Um normal arbeiten zu können, benötigt diese App eine Internetverbindung und die folgenden Berechtigungen, um Ihre persönlichen Daten zu erfassen:"</Data></string>
@@ -222,6 +229,23 @@ Bevor Sie diese App nutzen, lesen und akzeptieren Sie unsere <a href="%1$s">Nutz
   <string name="saturday">Samstag</string>
   <string name="saturday_short">Sa</string>
   <string name="saturday_shortest">S</string>
+  <string name="screen_projection">Übertragen</string>
+  <string name="screen_projection_characteristics">Besondere Merkmale</string>
+  <string name="screen_projection_characteristics_off_screen_summary">Sie können das Übertragen fortsetzen, wenn der Bildschirm Ihres Geräts ausgeschaltet ist. Diese Funktion reduziert den Stromverbrauch.</string>
+  <string name="screen_projection_characteristics_off_screen_title">Übertragen bei ausgeschaltetem Bildschirm</string>
+  <string name="screen_projection_characteristics_privacy_protect_summary">Keine Popup-Benachrichtigungen, eingehenden Anrufe und anderen privaten Elemente auf externen Monitoren anzeigen</string>
+  <string name="screen_projection_characteristics_privacy_protect_title">Private Elemente verstecken</string>
+  <string name="screen_projection_characteristics_small_window_summary">Übertragene Fenster minimieren, um andere Funktionen Ihres Telefons nutzen zu können</string>
+  <string name="screen_projection_characteristics_small_window_title">Fenster minimieren</string>
+  <string name="screen_projection_example_document_summary">Zeigen Sie Präsentationen auf einem externen Monitor an, während Sie mit Ihrem Telefon zwischen Folien und Notizen wechseln. Gehen Sie zu Dateimanager &gt; Dokumente, um diese Funktion auszuprobieren.</string>
+  <string name="screen_projection_example_document_title">Dokumente</string>
+  <string name="screen_projection_example_gallery_summary">Tippen Sie auf Teilen unter einem Element in der Galerie-App, um es auf einem externen Monitor anzuzeigen.</string>
+  <string name="screen_projection_example_gallery_title">Fotos &amp; Videos</string>
+  <string name="screen_projection_example_game_summary">Game Turbo ermöglicht Ihnen, Spiele auf einen externen Monitor zu übertragen. Verwenden Sie die Verknüpfung in der Toolbox von Game Turbo, um diese Funktion einzuschalten.</string>
+  <string name="screen_projection_example_game_title">Spiele</string>
+  <string name="screen_projection_help">Hilfe</string>
+  <string name="screen_projection_sample_summary">Dokumente, Spiele, Fotos und Videos übertragen</string>
+  <string name="screen_projection_title">Übertragen</string>
   <string name="search_menu_title">Suchen</string>
   <string name="service_name">UniPlay-Dienste</string>
   <string name="small_window">Fenster minimieren</string>
