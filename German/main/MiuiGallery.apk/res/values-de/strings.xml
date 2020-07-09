@@ -1,21 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-
-  <string name="filter_general_blackice">Black Ice</string>
-  <string name="filter_general_greenorange">Zitrone</string>
-  <string name="filter_general_movie">Film</string>
-  <string name="filter_movie_portrait">Farbfokus</string>
-  <string name="online_video_normal_transcoding">Dieses Video wird gerade umgewandelt. Einen Moment warten und erneut versuchen.</string>
-  <string name="online_video_vip_tip">Werden Sie VIP-Mitglied, um Videos zu streamen, ohne sie vollständig vorzuladen</string>
-  <string name="online_video_vip_transcoding">"Gleich beginnt das VIP-Streaming…
-Umwandlung kann einige Zeit in Anspruch nehmen, wenn Sie diese Funktion zum ersten Mal verwenden."</string>
-  <string name="operate_with_metered_network_msg">Ihr Gerät ist an ein kostenpflichtiges Netzwerk angeschlossen. Trotzdem fortfahren?</string>
-  <string name="sticker_graduation">Graduierung</string>
-  <string name="text_tab_city">Stadt</string>
-  <string name="text_tab_festival">Feiertag</string>
-  <string name="text_tab_scene">Szene</string>
-  <string name="text_tab_spot">Szenerie</string>
-
   <string name="abc_action_bar_home_description">Zur Startseite</string>
   <string name="abc_action_bar_up_description">Nach oben</string>
   <string name="abc_action_menu_overflow_description">Mehr Optionen</string>
@@ -276,6 +260,10 @@ Umwandlung kann einige Zeit in Anspruch nehmen, wenn Sie diese Funktion zum erst
   <string name="burst_save_confirm_dialog_title">Fotos speichern</string>
   <string name="burst_save_error_msg">Speichern nicht möglich</string>
   <string name="burst_save_processing">Verarbeiten…</string>
+  <string name="burst_save_video">Als Video speichern</string>
+  <string name="burst_save_video_fail">Speichern nicht möglich</string>
+  <string name="burst_save_video_progerss">Video erstellen…</string>
+  <string name="burst_save_video_title">Videoauflösung</string>
   <string name="buy_member_tip">Werden Sie Mitglied</string>
   <string name="by_email">E-Mail</string>
   <string name="by_others">Andere</string>
@@ -715,6 +703,7 @@ Umwandlung kann einige Zeit in Anspruch nehmen, wenn Sie diese Funktion zum erst
   <string name="filter_category_food">Lebensmittel</string>
   <string name="filter_category_general">Allgemein</string>
   <string name="filter_category_movie">Film</string>
+  <string name="filter_category_popular">Beliebt</string>
   <string name="filter_category_portrait">Porträt</string>
   <string name="filter_category_scene">Landschaft</string>
   <string name="filter_category_sky">Himmel</string>
@@ -733,10 +722,13 @@ Umwandlung kann einige Zeit in Anspruch nehmen, wenn Sie diese Funktion zum erst
   <string name="filter_food_fruit">Obst</string>
   <string name="filter_food_softdrink">Limo</string>
   <string name="filter_food_wholemeal">Getreide</string>
+  <string name="filter_general_blackice">Schwarzes Eis</string>
   <string name="filter_general_blackwhite">Schwarz-Weiß</string>
   <string name="filter_general_delicious">Essen</string>
   <string name="filter_general_df">Klarheit</string>
+  <string name="filter_general_greenorange">Limette</string>
   <string name="filter_general_japanese">Pastell</string>
+  <string name="filter_general_movie">Film</string>
   <string name="filter_general_nature">Natur</string>
   <string name="filter_general_portrait">Porträt</string>
   <string name="filter_general_rise">Aufgang</string>
@@ -752,6 +744,7 @@ Umwandlung kann einige Zeit in Anspruch nehmen, wenn Sie diese Funktion zum erst
   <string name="filter_movie_encounter">Begegnung</string>
   <string name="filter_movie_lost">Verloren</string>
   <string name="filter_movie_nordic">Nordisch</string>
+  <string name="filter_movie_portrait">Farbfokus</string>
   <string name="filter_movie_rome">Rom</string>
   <string name="filter_movie_summer">Sommer</string>
   <string name="filter_movie_travel">Reise</string>
@@ -771,7 +764,13 @@ Umwandlung kann einige Zeit in Anspruch nehmen, wenn Sie diese Funktion zum erst
   <string name="filter_people_roman">Romantisch</string>
   <string name="filter_people_story">Erzählung</string>
   <string name="filter_people_tea">Tee</string>
+  <string name="filter_popular_humanity">Dokumentation</string>
+  <string name="filter_popular_lnk">Tinte</string>
+  <string name="filter_popular_purple">Purpur</string>
+  <string name="filter_portrait_greyish">Asche</string>
   <string name="filter_portrait_hint">Farbfokus</string>
+  <string name="filter_portrait_mist">Dunst</string>
+  <string name="filter_portrait_painting">Gemälde</string>
   <string name="filter_scene_city">Stadt</string>
   <string name="filter_scene_df">Nebel</string>
   <string name="filter_scene_series">Reflexionen</string>
@@ -930,6 +929,7 @@ Umwandlung kann einige Zeit in Anspruch nehmen, wenn Sie diese Funktion zum erst
   <string name="loading_members">Mitglieder herunterladen…</string>
   <string name="loading_processing_tip">Fotos bearbeiten…</string>
   <string name="loading_suspend">Download angehalten. Er wird fortgesetzt, sobald eine WLAN-Verbindung verfügbar ist.</string>
+  <string name="loading_text_format" formatted="false">Private Infos aus Fotos entfernen (%d/%d)…</string>
   <string name="loading_video">Video herunterladen…</string>
   <string name="loading_video_compress_lib">Videokompressions-Plugin herunterladen…</string>
   <string name="loading_video_fail_sync_without_network">Mit dem Netzwerk verbinden, um Metadaten herunterzuladen</string>
@@ -1116,10 +1116,17 @@ zu wechseln."</string>
   <string name="onekey_food">Lebensmittel</string>
   <string name="onekey_portrait">Porträt</string>
   <string name="onekey_scene">Landschaft</string>
+  <string name="online_video_error_unknown">Fehler bei der Online-Wiedergabe aufgetreten. Stattdessen wurde das Element heruntergeladen.</string>
+  <string name="online_video_error_unsupported_type">Online-Player unterstützt dieses Format nicht. Stattdessen wurde das Element heruntergeladen.</string>
+  <string name="online_video_normal_transcoding">Online-Player ist noch nicht fertig. Stattdessen wurde das Element heruntergeladen.</string>
+  <string name="online_video_vip_tip">Werden Sie VIP-Mitglied, um Videos zu streamen, ohne sie vollständig vorzuladen</string>
+  <string name="online_video_vip_transcoding">"Gleich beginnt das VIP-Streaming…
+Umwandlung kann einige Zeit in Anspruch nehmen, wenn Sie diese Funktion zum ersten Mal verwenden."</string>
   <string name="open">Einschalten</string>
   <string name="open_public_message">Link erstellen und an andere senden</string>
   <string name="open_public_title">Teilen</string>
   <string name="operate_processing_file_error">Warten Sie, bis alle Fotos bearbeitet sind.</string>
+  <string name="operate_with_metered_network_msg">Ihr Gerät ist an ein kostenpflichtiges Netzwerk angeschlossen. Trotzdem fortfahren?</string>
   <string name="operation_add_album">Album hinzufügen</string>
   <string name="operation_add_picture">Fotos hinzufügen</string>
   <string name="operation_add_secret">Verstecken</string>
@@ -1459,8 +1466,15 @@ zu wechseln."</string>
   <string name="screen_doodle_talkback_size">Doodle-Linienbreite</string>
   <string name="screen_editor_btn_delete">Löschen</string>
   <string name="screen_editor_btn_save">Speichern</string>
+  <string name="screen_editor_btn_shell_off">Geräterahmen entfernen</string>
+  <string name="screen_editor_btn_shell_on">Geräterahmen hinzufügen</string>
+  <string name="screen_editor_crop_disallowed_with_shell">Screenshots mit Geräterahmen können nicht zugeschnitten werden</string>
   <string name="screen_editor_delete_dialog_msg">Diesen Screenshot löschen?</string>
   <string name="screen_editor_finish">Fertig</string>
+  <string name="screen_editor_shell_disallowed_with_crop">Hinzufügen von Geräterahmen zu zugeschnittenen Screenshots nicht möglich</string>
+  <string name="screen_editor_shell_net_error">Mit Netzwerk verbinden, um Geräterahmen herunterzuladen</string>
+  <string name="screen_editor_shell_res_downloading">Geräterahmen herunterladen…</string>
+  <string name="screen_editor_shell_storage_insufficient">Herunterladen von Geräterahmen wegen zu wenig Speicherplatz nicht möglich</string>
   <string name="screen_save_dialog_btn_cancel">Abbrechen</string>
   <string name="screen_save_dialog_btn_delete">Screenshot löschen</string>
   <string name="screen_save_dialog_btn_save">In Galerie speichern</string>
@@ -1650,6 +1664,7 @@ zu wechseln."</string>
   <string name="sticker_fit">Gesundes Mädchen</string>
   <string name="sticker_girl">Lustiges Mädchen</string>
   <string name="sticker_girly">Zubehör</string>
+  <string name="sticker_graduation">Graduierung</string>
   <string name="sticker_head">Tag der unschönen Haare</string>
   <string name="sticker_pupil">Schulmädchen</string>
   <string name="sticker_spring">Frühling</string>
@@ -1715,6 +1730,10 @@ zu wechseln."</string>
   <string name="text_edit_dialog_style_transparent">Transparenz</string>
   <string name="text_edit_sub_menu_text">Blase</string>
   <string name="text_tab_bubble">Text</string>
+  <string name="text_tab_city">Stadt</string>
+  <string name="text_tab_festival">Feiertag</string>
+  <string name="text_tab_scene">Szene</string>
+  <string name="text_tab_spot">Szenerie</string>
   <string name="text_tab_watermark">Wasserzeichen</string>
   <string name="the_anniversary_of_lifting_martial_law">Jahrestag der Aufhebung des Kriegsrechts</string>
   <string name="the_anti_aggression_day">Antiaggressionstag</string>
@@ -1765,6 +1784,8 @@ zu wechseln."</string>
   <string name="thursday">Donnerstag</string>
   <string name="thursday_short">Do</string>
   <string name="thursday_shortest">D</string>
+  <string name="time_burst_photo_enter">Zeitgesteuertes Serienbild</string>
+  <string name="time_burst_preview_title">Zeitgesteuertes Serienbild</string>
   <string name="time_picker_dialog_title">Zeit einstellen</string>
   <string name="tip_capture_location">"Ort: "</string>
   <string name="tip_capture_params">"Parameter: "</string>
