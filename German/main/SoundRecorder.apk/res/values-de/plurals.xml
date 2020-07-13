@@ -1,5 +1,22 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+  <plurals name="recovery_failed_dialog_message">
+    <item quantity="other">%d-Elemente aufgrund eines unbekannten Fehlers wiederherstellen nicht möglich.</item>
+    <item quantity="one">%d-Element aufgrund eines unbekannten Fehlers wiederherstellen nicht möglich.</item>
+  </plurals>
+  <plurals name="time_left_for_clear_file">
+    <item quantity="other">%d verbleibende Tage</item>
+    <item quantity="one">%d verbleibender Tag</item>
+  </plurals>
+  <plurals name="trash_box_delete_items">
+    <item quantity="other">%d ausgewählte Aufnahmen dauerhaft löschen?</item>
+    <item quantity="one">%d ausgewählte Aufnahme dauerhaft löschen?</item>
+  </plurals>
+  <plurals name="trash_box_tip">
+    <item quantity="other">Gelöschte Elemente können bis zu %d Tage im Papierkorb aufbewahrt werden</item>
+    <item quantity="one">Gelöschte Elemente können bis zu %d Tag im Papierkorb aufbewahrt werden</item>
+  </plurals>
+
   <plurals name="btn_clear_records">
     <item quantity="other">Aufnahmen löschen (%d Elemente)</item>
     <item quantity="one">Aufnahmen löschen (%d Element)</item>
