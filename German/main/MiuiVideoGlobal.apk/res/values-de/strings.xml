@@ -55,11 +55,13 @@
   <string name="activate_email_notice">Sie müssen Ihr Konto innerhalb von 24 Stunden aktivieren.</string>
   <string name="activity_not_found_notice">App nicht gefunden</string>
   <string name="ad_buy">Kaufen</string>
+  <string name="cast_expanded_controller_live_head_description">Aktuelle Position ist am Anfang des Live-Streams</string>
   <string name="ad_download">Herunterladen</string>
   <string name="ad_join">Der Community beitreten</string>
   <string name="ad_more">Mehr</string>
   <string name="add_to_trust_device">Dies ist ein vertrauenswürdiges Gerät</string>
   <string name="agree">Zustimmen</string>
+  <string name="agree_and_continue">Zustimmen</string>
   <string name="ai_animation_music_text">KI Soundtrack</string>
   <string name="ai_music_save_cancel">Abbrechen</string>
   <string name="ai_music_save_dialog_title">Speichern</string>
@@ -143,6 +145,12 @@
   <string name="cloud_online_switch_close_time">Personalisierte Inhaltsempfehlungen können Sie in %s einschalten</string>
   <string name="cloud_online_switch_open_time">Personalisierte Inhaltsempfehlungen anzeigen</string>
   <string name="collect_diagnosis_log">Logs sammeln</string>
+  <string name="columbus_player_close_desc">Sie werden Ihre Belohnung verlierenward</string>
+  <string name="columbus_player_close_resume">VIDEO FORTSETZEN</string>
+  <string name="columbus_player_close_title">Video schließen?</string>
+  <string name="columbus_player_close_video">VIDEO SCHLIESSEN</string>
+  <string name="columbus_player_install_now">JETZT INSTALLIEREN</string>
+  <string name="columbus_player_learn_more">Mehr erfahren</string>
   <string name="com_facebook_device_auth_instructions">Besuchen Sie &lt;b&gt;facebook.com/device&lt;/b&gt; und geben Sie den oben gezeigten Code ein.</string>
   <string name="com_facebook_image_download_unknown_error">Unerwarteter Fehler beim Herunterladen eines Bildes</string>
   <string name="com_facebook_internet_permission_error_message">WebView Login erfordert INTERNET-Berechtigung</string>
@@ -228,6 +236,7 @@
 ID:%s
 Senden Sie diesen Code an den Supervisor."</string>
   <string name="dialog_privacy_info_new2">"Um die Dienste nutzen zu können, müssen Sie zustimmen, dass %1$s Ihre personenbezogenen Daten erfasst, verarbeitet und nutzt. Unsere &lt;a href=%2$s>Datenschutzerklärung&lt;/a> gilt als gelesen und akzeptiert, wenn Sie unten auf \"Zustimmen\" tippen."</string>
+  <string name="dialog_privacy_info_new3">"Um die Dienste nutzen zu können, müssen Sie zustimmen, dass %1$s Ihre personenbezogenen Daten in Übereinstimmung mit der Datenschutzerklärung erfasst, verarbeitet und nutzt. Wenn Sie unten auf \"Zustimmen\" tippen, akzeptieren Sie Xiaomi's &lt;a href=%2$s>Datenschutzerklärung&lt;/a> und &lt;a href=%3$s>Nutzervereinbarung&lt;/a>."</string>
   <string name="dialog_privacy_title">Genehmigung</string>
   <string name="dialog_revoke_privacy_info_new2">Wenn Sie die Genehmigung widerrufen, stoppt die App die Datenerfassung, und alle damit verbundenen Daten werden von unseren Servern gelöscht. Dies könnte die App praktisch unbrauchbar machen. Genehmigung trotzdem widerrufen?</string>
   <string name="dialog_revoke_privacy_title">Genehmigung widerrufen</string>
@@ -235,6 +244,7 @@ Senden Sie diesen Code an den Supervisor."</string>
   <string name="do_not_show_again">Nicht mehr anzeigen</string>
   <string name="do_not_show_this_again">Nicht wieder anzeigen</string>
   <string name="download">Herunterladen</string>
+  <string name="download_checking_tip">Vorbereiten zum Herunterladen…</string>
   <string name="download_complete">Heruntergeladen</string>
   <string name="download_delete_tip">Gewählte Elemente löschen?</string>
   <string name="download_delete_title">Löschen</string>
@@ -242,6 +252,7 @@ Senden Sie diesen Code an den Supervisor."</string>
   <string name="download_pending">Ausstehend…</string>
   <string name="download_power_off_tips">Diese Funktion ist jetzt nicht verfügbar</string>
   <string name="download_retry">Erneut versuchen</string>
+  <string name="download_unable_tip">Element wurde nicht heruntergeladen</string>
   <string name="download_video">Video herunterladen</string>
   <string name="downloading">Herunterladen…</string>
   <string name="empty_channels">Kanäle verwalten</string>
@@ -312,6 +323,7 @@ Senden Sie diesen Code an den Supervisor."</string>
   <string name="feedback_success_toast">Erfolgrech gesendet. Danke für Ihr Feedback!</string>
   <string name="feedback_tag_title">Kategorie</string>
   <string name="feedback_text_empty_toast">Zuerst Feedback eingeben.</string>
+  <string name="file_cant_rename">Datei mit dem Namen %1$s existiert bereits. Bitte umbenennen.</string>
   <string name="find_psw">Passwort vergessen</string>
   <string name="finish">Erledigt</string>
   <string name="for_diagnosis_usage_only">Protokolle werden nur zur Diagnose verwendet.</string>
@@ -341,11 +353,14 @@ Senden Sie diesen Code an den Supervisor."</string>
   <string name="gallery_video_save_video">Video erstellen…</string>
   <string name="gallery_video_slow_edit">Zeitlupe</string>
   <string name="gallery_view_tags">Markierungen anzeigen</string>
+  <string name="galleryplus_already_cloud_member">VIP-Mitgliedschaft zum Spielen nutzen</string>
+  <string name="galleryplus_check_network">Einstellungen</string>
   <string name="galleryplus_chose_play_speed">Mit %1$.1fX-Geschwindigkeit abspielen</string>
   <string name="galleryplus_chose_play_speed_failure">Wiedergabegeschwindigkeit anpassen nicht möglich</string>
   <string name="galleryplus_click_to_higher_definition">Doppeltippen zum Öffnen der HD-Vorschau</string>
   <string name="galleryplus_cta_tips">Sie können uns helfen, unsere Dienste zu verbessern, indem Sie sich für das Benutzererfahrungsprogramm anmelden und Mi Video den Internetzugang erlauben. Zustimmen?</string>
   <string name="galleryplus_double_tap_to_higher_definition">Erneutes Doppeltippen zum Öffnen der HD-Vorschau</string>
+  <string name="galleryplus_fr_unsupport_restore_speed">Nicht unterstützte Bildfrequenz. Auf normale Geschwindigkeit umgeschaltet.</string>
   <string name="galleryplus_gallery_fold_tags">Markierungen ausblenden</string>
   <string name="galleryplus_gallery_video_adjust_hint">Nur 960fps-Videos werden unterstützt</string>
   <string name="galleryplus_gallery_video_adjust_text">Anpassen</string>
@@ -361,6 +376,15 @@ Senden Sie diesen Code an den Supervisor."</string>
   <string name="galleryplus_gallery_video_slow_edit">Zeitlupe</string>
   <string name="galleryplus_gallery_view_tags">Markierungen anzeigen</string>
   <string name="galleryplus_is_higher_definition">HD-Vorschau geöffnet</string>
+  <string name="galleryplus_network_connect_check">Keine Netzwerkverbindung</string>
+  <string name="galleryplus_network_connect_confirm">Mit WLAN verbinden oder mobile Daten in den Netzwerkeinstellungen einschalten.</string>
+  <string name="galleryplus_network_error">Keine Netzwerkverbindung</string>
+  <string name="galleryplus_network_not_wifi">Nutzung mobiler Daten zum Streamen von Videos kann zusätzliche Gebühren beim Anbieter verursachen</string>
+  <string name="galleryplus_online_cta">Mi Video benötigt eine Internetverbindung, um normal zu funktionieren. Zustimmen?</string>
+  <string name="galleryplus_online_cta_agree">Zustimmen</string>
+  <string name="galleryplus_online_cta_disagree">Ablehnen</string>
+  <string name="galleryplus_online_cta_title">Allgemeine Geschäftsbedingungen</string>
+  <string name="galleryplus_online_video_loading">Einen Moment…</string>
   <string name="galleryplus_permission_content">Mi Video die erforderlichen Berechtigungen geben, um diese Funktion nutzen zu können</string>
   <string name="galleryplus_permission_content2">"Um diese Funktion nutzen zu können, gehen Sie zu Einstellungen &gt; Apps &gt; Mi Video &gt; App-Berechtigungen und erlauben Sie Folgendes:
 
@@ -403,6 +427,7 @@ Senden Sie diesen Code an den Supervisor."</string>
   <string name="get_ph_ticket">Code erhalten</string>
   <string name="get_phone_bind_exceed_limit">Bis zu 3 Mi Konten können mit einer Telefonnummer verbunden werden. Neue Konten können nicht hinzugefügt werden.</string>
   <string name="get_phone_verifycode_exceed_limit">Zu viele Verifizierungscodes wurden an diese Nummer geschickt. 24 Stunden warten und erneut versuchen.</string>
+  <string name="got_it">Verstanden</string>
   <string name="goto_sign_up">Konto erstellen</string>
   <string name="grant_write_settings_permission">Bitte erlauben, um die Helligkeit des Players zu steuern</string>
   <string name="have_learned">Verstanden</string>
@@ -545,7 +570,7 @@ Senden Sie diesen Code an den Supervisor."</string>
   <string name="lv_subtitle_onlinesub_loading">Untertitel laden…</string>
   <string name="lv_subtitle_onlinesub_loading_wait">Untertitel laden…</string>
   <string name="lv_subtitle_onlinesub_right_declare">Haftungsausschluss</string>
-  <string name="lv_subtitle_onlinesub_right_declare_content">Untertitel &lt;br/&gt;&lt;br/&gt;von &lt;a href=http://www.opensubtitles.org&gt;opensubtitles.org&lt;/a&gt;erhalten.&lt;br/&gt;&lt;br/&gt;Alle Online-Untertitel werden zur Verfügung gestellt von &lt;a href=http://www.opensubtitles.org&gt;opensubtitles.org&lt;/a&gt;.</string>
+  <string name="lv_subtitle_onlinesub_right_declare_content">Untertitel &lt;br/>&lt;br/>von &lt;a href=http://www.opensubtitles.org>opensubtitles.org&lt;/a>erhalten.&lt;br/>&lt;br/>Alle Online-Untertitel werden zur Verfügung gestellt von &lt;a href=http://www.opensubtitles.org>opensubtitles.org&lt;/a>.</string>
   <string name="lv_subtitle_onlinesub_save_failed">Untertitel hinzufügen nicht möglich</string>
   <string name="lv_subtitle_onlinesub_save_success">Untertitel erfolgreich hinzugefügt</string>
   <string name="lv_subtitle_onlinesub_search_keyword">Schlüsselwörter zur Suche eingeben</string>
@@ -567,6 +592,7 @@ Senden Sie diesen Code an den Supervisor."</string>
   <string name="lv_video_null">Keine Videos</string>
   <string name="lv_volume">Lautstärke</string>
   <string name="manage">Verwalten</string>
+  <string name="mediation_ad_can_not_share">Video teilen nicht möglich</string>
   <string name="moment_guide_desc">Mit Gesten rein und raus zoomen</string>
   <string name="moment_tab_all">Alle</string>
   <string name="moment_tab_image">Bilder</string>
@@ -604,6 +630,7 @@ Senden Sie diesen Code an den Supervisor."</string>
   <string name="neverthink_player_loading">Neverthink-Video laden…</string>
   <string name="new_channel_tip">Werfen Sie einen Blick auf neue Kanäle!</string>
   <string name="next">Nächste</string>
+  <string name="next_step">Weiter</string>
   <string name="nick_name">Spitzname</string>
   <string name="no_account">Nicht angemeldet</string>
   <string name="no_longer_prompt">Nicht mehr anzeigen</string>
@@ -622,6 +649,8 @@ Senden Sie diesen Code an den Supervisor."</string>
   <string name="notice_message_title">Benachrichtigungen</string>
   <string name="notice_title">Nachrichten</string>
   <string name="notification_bar">Benachrichtigungsleiste</string>
+  <string name="notification_bar_player_subtitle">Minimierten Player in Benachrichtigungsleiste anzeigen</string>
+  <string name="notification_bar_player_title">Player minimieren</string>
   <string name="notification_open_tip">Einschalten, um Benachrichtigungen zu erhalten</string>
   <string name="notify_apk_installed">Erfolgreich heruntergeladen</string>
   <string name="off">[aus]</string>
@@ -898,7 +927,7 @@ Sicherheit Ihres Kontos erhöhen."</string>
   <string name="plus_player_subtitle_local_add_success">Untertitel erfolgreich</string>
   <string name="plus_player_subtitle_no_file">Hier keine Untertitel</string>
   <string name="plus_player_subtitle_online">Online-Untertitel</string>
-  <string name="plus_player_subtitle_online_declare_content">"Sie sind im Begriff, nach &lt;br/&gt;Untertiteln in der &lt;a href=http://www.opensubtitles.org&gt;opensubtitles.org&lt;/a&gt;-Datenbank zu suchen. &lt;br/&gt;Alle Untertitel werden zur Verfügung gestellt von &lt;a href=http://www.opensubtitles.org&gt;opensubtitles.org&lt;/a&gt;."</string>
+  <string name="plus_player_subtitle_online_declare_content">"Sie sind im Begriff, nach &lt;br/>Untertiteln in der &lt;a href=http://www.opensubtitles.org>opensubtitles.org&lt;/a>-Datenbank zu suchen. &lt;br/>Alle Untertitel werden zur Verfügung gestellt von &lt;a href=http://www.opensubtitles.org>opensubtitles.org&lt;/a>."</string>
   <string name="plus_player_subtitle_online_declare_title">Haftungsausschluss</string>
   <string name="plus_player_subtitle_online_download_fail">Untertitel herunterladen nicht möglich</string>
   <string name="plus_player_subtitle_online_download_start">Untertitel herunterladen…</string>
@@ -1087,6 +1116,7 @@ Schauen Sie sich andere Videos an!"</string>
   <string name="sns_bind_limit">Zu viele Versuche. Andere Möglichkeiten zur Anmeldung probieren.</string>
   <string name="sns_sign_in">Andere Art der Anmeldung</string>
   <string name="source">"Quelle: "</string>
+  <string name="special_type_8k">KI 8K</string>
   <string name="srl_component_falsify" formatted="false">"%s Verzerrungsbereich.
 Stellt die Höhe [%.1fdp] des Widerstands zur Laufzeit dar.
 Es zeigt nichts an."</string>
@@ -1186,6 +1216,8 @@ Es zeigt nichts an."</string>
   <string name="ticket_hint">Verifizierungscode</string>
   <string name="ticket_invalid">Eingegebener Code ist falsch</string>
   <string name="ticket_sign_in">Mit SMS anmelden</string>
+  <string name="tip_author_click">Tippen, um weitere Videos dieses Kontos anzuzeigen</string>
+  <string name="tip_topic_click">Tippen, um weitere Videos zu diesem Thema zu finden</string>
   <string name="title_publisher">Ersteller</string>
   <string name="title_subscribe">Abonnements</string>
   <string name="toast_no_data">Dieses Element ist jetzt nicht verfügbar. Kommen Sie später wieder.</string>
@@ -1272,6 +1304,7 @@ Es zeigt nichts an."</string>
   <string name="video_live_over">Diese Sitzung ist beendet</string>
   <string name="video_noyet_download_tip">Dieses Video wird noch heruntergeladen</string>
   <string name="video_offline">Dieses Element ist nicht mehr verfügbar</string>
+  <string name="view">Anzeigen</string>
   <string name="vp_VideoView_error_text_unknown">Ein Fehler ist aufgetreten</string>
   <string name="vp_VideoView_error_title">Unbekannter Fehler</string>
   <string name="vp_app_name">Videoplayer</string>
