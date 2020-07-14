@@ -1,151 +1,63 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <plurals name="days">
-    <item quantity="other">%1$d Tagen</item>
-    <item quantity="zero">%1$d Tagen</item>
-    <item quantity="one">einen Tag</item>
-    <item quantity="two">%1$d Tagen</item>
-    <item quantity="few">%1$d Tagen</item>
-    <item quantity="many">%1$d Tagen</item>
-  </plurals>
   <plurals name="days_ago">
-    <item quantity="other">%1$d Tage her</item>
-    <item quantity="zero">%1$d Tage her</item>
-    <item quantity="one">gestern</item>
-    <item quantity="two">%1$d Tage her</item>
-    <item quantity="few">%1$d Tage her</item>
-    <item quantity="many">%1$d Tage her</item>
+    <item quantity="other">Vor %1$d Tagen</item>
+    <item quantity="one">Vor %1$d Tage</item>
   </plurals>
-  <plurals name="delete_files">
-    <item quantity="other">%1$d Dateien löschen?</item>
-    <item quantity="one">Diese Datei löschen?</item>
+  <plurals name="download_done_info_for_sys_content">
+    <item quantity="other">%1$d Elemente erfolgreich heruntergeladen</item>
+    <item quantity="one">%1$d Element erfolgreich heruntergeladen</item>
   </plurals>
-  <plurals name="delete_files_confirm">
-    <item quantity="other">%1$d Dateien löschen</item>
-    <item quantity="zero">%1$d Dateien löschen</item>
-    <item quantity="one">eine Datei löschen</item>
-    <item quantity="two">%1$d Dateien löschen</item>
-    <item quantity="few">%1$d Dateien löschen</item>
-    <item quantity="many">%1$d Dateien löschen</item>
+  <plurals name="download_fail_info_for_sys_content">
+    <item quantity="other">%1$d Elemente wurden nicht heruntergeladen</item>
+    <item quantity="one">%1$d Element wurde nicht heruntergeladen</item>
   </plurals>
-  <plurals name="delete_folders">
-    <item quantity="other">%1$d Ordner löschen?</item>
-    <item quantity="one">Ordner löschen?</item>
+  <plurals name="downloading_info_for_sys_title">
+    <item quantity="other">Herunterladen… %1$d Elemente übrig (%2$s%%)</item>
+    <item quantity="one">Herunterladen… %1$d Element übrig (%2$s%%)</item>
   </plurals>
-  <plurals name="delete_folders_confirm">
-    <item quantity="other">" und %1$d Ordner?"</item>
-    <item quantity="zero">" und %1$d Ordner?"</item>
-    <item quantity="one">" und einen Ordner?"</item>
-    <item quantity="two">" und %1$d Ordner?"</item>
-    <item quantity="few">" und %1$d Ordner?"</item>
-    <item quantity="many">" und %1$d Ordner?"</item>
+  <plurals name="exception_copy_delete">
+    <item quantity="other">Einige Elemente fehlen. %1$d Elemente wurden nicht kopiert.</item>
+    <item quantity="one">Einige Elemente fehlen. %1$d Element wurden nicht kopiert.</item>
   </plurals>
-  <plurals name="des_running_trans">
-    <item quantity="other">%1$d Dateien wurden nicht übertragen</item>
-    <item quantity="one">Eine Datei wurde nicht übertragen</item>
-  </plurals>
-  <plurals name="directory_item_count">
-    <item quantity="other">%d Einträge</item>
-    <item quantity="zero">%d Einträge</item>
-    <item quantity="one">einen Eintrag</item>
-    <item quantity="two">%d Einträge</item>
-    <item quantity="few">%d Einträge</item>
-    <item quantity="many">%d Einträge</item>
-  </plurals>
-  <plurals name="file_count">
-    <item quantity="other">%1$d Elemente</item>
-    <item quantity="zero">%1$d Elemente</item>
-    <item quantity="one">ein Element</item>
-    <item quantity="two">%1$d Elemente</item>
-    <item quantity="few">%1$d Elemente</item>
-    <item quantity="many">%1$d Elemente</item>
-  </plurals>
-  <plurals name="hours">
-    <item quantity="other">%1$d Stunden</item>
-    <item quantity="zero">%1$d Stunden</item>
-    <item quantity="one">eine Stunde</item>
-    <item quantity="two">%1$d Stunden</item>
-    <item quantity="few">%1$d Stunden</item>
-    <item quantity="many">%1$d Stunden</item>
+  <plurals name="exception_move_delete">
+    <item quantity="other">Einige Elemente fehlen. %1$d Elemente wurden nicht verschoben.</item>
+    <item quantity="one">Einige Elemente fehlen. %1$d Element wurden nicht verschoben.</item>
   </plurals>
   <plurals name="hours_ago">
-    <item quantity="other">%1$d Stunden her</item>
-    <item quantity="zero">%1$d Stunden her</item>
-    <item quantity="one">eine Stunde her</item>
-    <item quantity="two">%1$d Stunden her</item>
-    <item quantity="few">%1$d Stunden her</item>
-    <item quantity="many">%1$d Stunden her</item>
-  </plurals>
-  <plurals name="items_file">
-    <item quantity="other"> (%1$d Elemente)</item>
-    <item quantity="zero"> (%1$d Elemente)</item>
-    <item quantity="one"> (ein Element)</item>
-    <item quantity="two"> (%1$d Elemente)</item>
-    <item quantity="few"> (%1$d Elemente)</item>
-    <item quantity="many"> (%1$d Elemente)</item>
-  </plurals>
-  <plurals name="items_picture">
-    <item quantity="other"> (%1$d Elemente)</item>
-    <item quantity="zero"> (%1$d Elemente)</item>
-    <item quantity="one"> (ein Element)</item>
-    <item quantity="two"> (%1$d Elemente)</item>
-    <item quantity="few"> (%1$d Elemente)</item>
-    <item quantity="many"> (%1$d Elemente)</item>
-  </plurals>
-  <plurals name="mins">
-    <item quantity="other">%1$d Minuten</item>
-    <item quantity="zero">%1$d Minuten</item>
-    <item quantity="one">eine Minute</item>
-    <item quantity="two">%1$d Minuten</item>
-    <item quantity="few">%1$d Minuten</item>
-    <item quantity="many">%1$d Minuten</item>
+    <item quantity="other">Vor %1$d Std</item>
+    <item quantity="one">Vor %1$d Std</item>
   </plurals>
   <plurals name="mins_ago">
-    <item quantity="other">%1$d Minuten her</item>
-    <item quantity="zero">%1$d Minuten her</item>
-    <item quantity="one">eine Minute her</item>
-    <item quantity="two">%1$d Minuten her</item>
-    <item quantity="few">%1$d Minuten her</item>
-    <item quantity="many">%1$d Minuten her</item>
+    <item quantity="other">Vor %1$d Min</item>
+    <item quantity="one">Vor %1$d Min</item>
   </plurals>
-  <plurals name="numSelectedFile">
-    <item quantity="other">%1$d ausgewählt</item>
-    <item quantity="zero">%1$d ausgewählt</item>
-    <item quantity="one">eine ausgewählt</item>
-    <item quantity="two">%1$d ausgewählt</item>
-    <item quantity="few">%1$d ausgewählt</item>
-    <item quantity="many">%1$d ausgewählt</item>
+  <plurals name="search_head_hint_file">
+    <item quantity="other">%2$d Elemente enhalten \"%1$s\"</item>
+    <item quantity="one">%2$d Element enthält \"%1$s\"</item>
   </plurals>
-  <plurals name="seconds">
-    <item quantity="other">%1$d Sekunden</item>
-    <item quantity="zero">%1$d Sekunden</item>
-    <item quantity="one">eine Sekunde</item>
-    <item quantity="two">%1$d Sekunden</item>
-    <item quantity="few">%1$d Sekunden</item>
-    <item quantity="many">%1$d Sekunden</item>
+  <plurals name="setting_file_list_item_desc">
+    <item quantity="other">%1$d Elemente | %2$s | %3$s</item>
+    <item quantity="one">%1$d Element | %2$s | %3$s</item>
   </plurals>
-  <plurals name="ui_bar_txt_download_progress">
-    <item quantity="other">%1$d Dateien übrig zum Herunterladen</item>
-    <item quantity="zero">%1$d Dateien übrig zum Herunterladen</item>
-    <item quantity="one">eine Datei übrig zum Herunterladen</item>
-    <item quantity="two">%1$d Dateien übrig zum Herunterladen</item>
-    <item quantity="few">%1$d Dateien übrig zum Herunterladen</item>
-    <item quantity="many">%1$d Dateien übrig zum Herunterladen</item>
+  <plurals name="setting_list_folder_item_desc">
+    <item quantity="other">%1$d Elemente | %2$s</item>
+    <item quantity="one">%1$d Element | %2$s</item>
   </plurals>
-  <plurals name="ui_bar_txt_transport_progress">
-    <item quantity="other">%1$d Dateien übrig zum Übertragen</item>
-    <item quantity="zero">%1$d Dateien übrig zum Übertragen</item>
-    <item quantity="one">eine Datei übrig zum Übertragen</item>
-    <item quantity="two">%1$d Dateien übrig zum Übertragen</item>
-    <item quantity="few">%1$d Dateien übrig zum Übertragen</item>
-    <item quantity="many">%1$d Dateien übrig zum Übertragen</item>
+  <plurals name="text_group_count">
+    <item quantity="other">%1$d Elemente</item>
+    <item quantity="one">%1$d Element</item>
   </plurals>
-  <plurals name="ui_bar_txt_upload_progress">
-    <item quantity="other">%1$d Dateien zum Hochladen übrig</item>
-    <item quantity="zero">%1$d Dateien zum Hochladen übrig</item>
-    <item quantity="one">eine Datei zum Hochladen übrig</item>
-    <item quantity="two">%1$d Dateien zum Hochladen übrig</item>
-    <item quantity="few">%1$d Dateien zum Hochladen übrig</item>
-    <item quantity="many">%1$d Dateien zum Hochladen übrig</item>
+  <plurals name="upload_done_info_for_sys_content">
+    <item quantity="other">%1$d Elemente erfolgreich hochgeladen</item>
+    <item quantity="one">%1$d Element erfolgreich hochgeladen</item>
+  </plurals>
+  <plurals name="upload_fail_info_for_sys_content">
+    <item quantity="other">%1$d Elemente wurden nicht hochgeladen</item>
+    <item quantity="one">%1$d Element wurde nicht hochgeladen</item>
+  </plurals>
+  <plurals name="uploading_info_for_sys_title">
+    <item quantity="other">Hochladen… %1$d Elemente übrig (%2$s%%)</item>
+    <item quantity="one">Hochladen… %1$d Element übrig (%2$s%%)</item>
   </plurals>
 </resources>
