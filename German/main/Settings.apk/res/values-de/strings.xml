@@ -1,19 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
 
-  <string name="accessibility_settings_tabs_general">Allgemein</string>
-  <string name="accessibility_settings_tabs_hearing">Anhörung</string>
-  <string name="accessibility_settings_tabs_physical">Physisch</string>
-  <string name="accessibility_settings_tabs_visual">Visual</string>
-  <string name="ai_call_assistant">AI Anrufe</string>
-  <string name="hearing_aids_category">Hörunterstützende Tools</string>
-  <string name="input_device_category">Eingabegerät</string>
-  <string name="security_input_enable">Sichere Tastatur</string>
-  <string name="security_input_num_order">Festgelegt</string>
-  <string name="security_input_num_random_order">Zufällig</string>
-  <string name="security_input_num_setting_title">Numerisches Tastenfeld</string>
-  <string name="voice_access">Sprachsteuerung</string>
-
   <string name="adjust_temperature_title">Farbtemperatur</string>
   <string name="advanced_screen_paper_mode_title">Lesemodus</string>
   <string name="auto_adjst_effect_summary">Automatische Anpassung der Farbtemperatur an das Umgebungslicht, um ein optimales Komfortniveau aufrechtzuerhalten</string>
@@ -195,6 +182,10 @@ Sie können nicht auf der Tastatur oder Navigationsleiste zoomen."</string>
   <string name="accessibility_setting_item_control_timeout_title">Zeit zum Handeln (Timeout Eingabehilfen)</string>
   <string name="accessibility_settings">Eingabehilfen</string>
   <string name="accessibility_settings_summary">Bildschirmleser, Bildschirm, Interaktionssteuerung</string>
+  <string name="accessibility_settings_tabs_general">Allgemein</string>
+  <string name="accessibility_settings_tabs_hearing">Gehör</string>
+  <string name="accessibility_settings_tabs_physical">Physisch</string>
+  <string name="accessibility_settings_tabs_visual">Visuell</string>
   <string name="accessibility_settings_title">Einstellungen für Eingabehilfen</string>
   <string name="accessibility_shortcut_description">Wenn die Verknüpfung aktiviert ist, drücken Sie beide Lautstärketasten 3 Sekunden lang, um eine Eingabehilfefunktion zu starten.</string>
   <string name="accessibility_shortcut_service_on_lock_screen_title">Am Sperrbildschirm erlauben</string>
@@ -368,6 +359,7 @@ Schalten Sie diese Funktion ein und tippen Sie auf die Schaltfläche Eingabehilf
   <string name="agps_roaming_summary">Verwendung von A-GPS bei Daten-Roaming kann zu erhöhten Kosten führen</string>
   <string name="ai_button_title">Mi KI-Taste</string>
   <string name="ai_button_title_global">KI-Taste</string>
+  <string name="ai_call_assistant">KI-Anrufe</string>
   <string name="ai_key">KI-Taste</string>
   <string name="ai_key_double_click">Doppelt drücken</string>
   <string name="ai_key_long_press">Gedrückt halten</string>
@@ -3189,6 +3181,7 @@ Wenn Sie automatische Sicherungen einschalten, werden Geräte- und App-Daten per
   <string name="header_category_wireless_networks">Netzwerk</string>
   <string name="header_data_and_synchronization">Daten &amp; Synchronisation</string>
   <string name="headset_settings_title">Audioeffekte</string>
+  <string name="hearing_aids_category">Hörunterstützende Tools</string>
   <string name="heavy_weight_stop_description">App kann nicht sicher beendet werden, es könnten dabei aktuelle Daten verloren gehen.</string>
   <string name="help_and_feedback_title">Hilfe &amp; Feedback</string>
   <string name="help_feedback_label">Hilfe &amp; Feedback</string>
@@ -3335,6 +3328,7 @@ Xiaomi Cloud öffnen und Elemente von dort aus wiederherstellen."</string>
   <string name="info_and_call">Anrufe &amp; SMS</string>
   <string name="information_dialog_button_text">Verstanden</string>
   <string name="input_assistance">Eingabeassistent</string>
+  <string name="input_device_category">Eingabegerät</string>
   <string name="input_hint_prefix">Eingabe %1$s</string>
   <string name="input_method">Tastatur</string>
   <string name="input_method_bottom_close">Aus</string>
@@ -6131,7 +6125,11 @@ Mindestens %s freigeben."</string>
   <string name="security_encryption_rejected_via_home_manager">Diese Funktion wird in der Demo-Version nicht unterstützt</string>
   <string name="security_encryption_title">Gerät mit Sperrbildschirmpasswort verschlüsseln</string>
   <string name="security_input">Sichere Tastatur</string>
+  <string name="security_input_enable">Sichere Tastatur</string>
   <string name="security_input_hint">Verwenden Sie eine sichere Tastatur, wenn Sie Passwörter eingeben.</string>
+  <string name="security_input_num_order">Festgelegt</string>
+  <string name="security_input_num_random_order">Zufällig</string>
+  <string name="security_input_num_setting_title">Numerisches Tastenfeld</string>
   <string name="security_keyguard_category_name">Sperrbildschirm</string>
   <string name="security_password_category_name">Bildschirmsperre</string>
   <string name="security_passwords_title">Datenschutz</string>
@@ -7968,6 +7966,7 @@ Jeder Benutzer kann aktualisierte App-Berechtigungen für alle anderen Benutzer 
   <string name="vision_settings_description">Sie können dieses Gerät an Ihre Bedürfnisse anpassen. Diese Eingabehilfen können später in Einstellungen geändert werden.</string>
   <string name="vision_settings_suggestion_title">Schriftgröße ändern</string>
   <string name="vision_settings_title">Einstellungen Bildverarbeitung</string>
+  <string name="voice_access">Sprachsteuerung</string>
   <string name="voice_category">Sprache</string>
   <string name="voice_helper_title">Sprachassistent</string>
   <string name="voice_input_output_settings">Sprachein- &amp; -ausgabe</string>
