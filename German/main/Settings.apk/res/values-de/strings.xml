@@ -475,6 +475,7 @@ benachrichtigungen"</string>
   <string name="app_floating_window_dlg_disable">"Ausschalten von %1$s's Popup-Einstellungen wird die App beenden. Möchten Sie sie wirklich ausschalten?"</string>
   <string name="app_floating_window_dlg_enable">"Aktivieren von %1$s's Popup-Einstellungen erfordert einen Neustart der App."</string>
   <string name="app_forward_locked">Diese App ist kopiergeschützt</string>
+  <string name="app_function">App-Funktionen</string>
   <string name="app_info_storage_title">Belegter Speicher</string>
   <string name="app_install_details_group_title">Speichern</string>
   <string name="app_install_details_summary">App wurde aus %1$s installiert</string>
@@ -2076,7 +2077,7 @@ Diese Einstellung betrifft alle Benutzer auf diesem Telefon."</string>
   <string name="day_of_week">Wochentag</string>
   <string name="dc_light_dialog_summary">Bildqualität kann beeinträchtigt werden, wenn der Anti-Flacker-Modus aktiviert ist. Trotzdem einschalten?</string>
   <string name="dc_light_summary">DC Dimming anwenden, um die Augenbelastung zu reduzieren</string>
-  <string name="dc_light_summary_new">DC Dimming verhindert ausgedehntes Flackern und reduziert die Augenbelastung bei schlechten Lichtverhältnissen. Die Bildqualität kann jedoch beeinträchtigt werden, wenn diese Funktion an ist.</string>
+  <string name="dc_light_summary_new">Ausgedehntes Flackern und Augenbelastung bei schlechten Lichtverhältnissen reduzieren</string>
   <string name="dc_light_title">Anti-Flacker-Modus</string>
   <string name="debug_app">Debug-App auswählen</string>
   <string name="debug_app_not_set">Keine Debug-App ausgewählt</string>
@@ -2956,6 +2957,7 @@ Es schien keine Pferde oder andere Tiere zu geben; die Männer beförderten Sach
   <string name="foreground_traffic">Vordergrund %s</string>
   <string name="forget">Vergessen</string>
   <string name="forget_passpoint_dialog_message">Sie können den Zugriff auf alle verbleibenden Zeitvolumen oder Daten verlieren. Erkundigen Sie sich vor Entfernen bei Ihrem Mobilfunkanbieter.</string>
+  <string name="forget_passpoint_wifi_message">Die Telefonverbindung mit diesem Netz wird automatisch unterbrochen.</string>
   <string name="forget_password_button_text"><u>Passwort vergessen</u></string>
   <string name="forget_password_dialog_button_text">Zurück</string>
   <string name="forget_password_dialog_content_four"><Data>2. [Daten löschen] wählen und warten, bis Ihr Gerät neu startet.</Data></string>
@@ -4974,6 +4976,13 @@ OTG schaltet sich nach 10 Minuten Inaktivität automatisch aus."</string>
   <string name="partial_connectivity_text">Einige Apps und Dienste funktionieren evtl. wegen eingeschränkter Konnektivität nicht. Trotzdem verwenden?</string>
   <string name="passpoint_content">%1$s Zugangsdaten</string>
   <string name="passpoint_label">Gespeichert via</string>
+  <string name="passpoint_r1_privacy_dialog_message">"Passpoint ist eine zuverlässige, sichere und automatische Wlan-Verbindungstechnologie, die von der WLAN-Allianz eingeführt wurde. Konfigurieren Sie Konten automatisch, um eine nahtlose Verbindung zwischen einem WLAN-konfigurierten Netzwerk und mobilen Geräten zu erreichen.
+
+Mit dieser Funktion wird Ihre WLAN-MAC-Adresse nur bei der erstmaligen Registrierung Ihres Kontos abgerufen. Wir werden Ihre Daten gemäß unseren %s verarbeiten. Bitte lesen Sie diese Richtlinie sorgfältig durch und erklären Sie sich damit einverstanden, fortzufahren".</string>
+  <string name="passpoint_r1_privacy_dialog_no">Abbrechen</string>
+  <string name="passpoint_r1_privacy_dialog_title">Achtung</string>
+  <string name="passpoint_r1_privacy_dialog_url_text">Datenschutzerklärung</string>
+  <string name="passpoint_r1_privacy_dialog_yes">Zustimmen und fortfahren</string>
   <string name="password">Passwort</string>
   <string name="passwordIncorrect">Eingegebenes Passwort ist falsch</string>
   <string name="password_and_security">Passwörter &amp; Sicherheit</string>
