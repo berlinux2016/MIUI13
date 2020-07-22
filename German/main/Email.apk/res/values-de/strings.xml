@@ -1,12 +1,55 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
 
+  <string name="actionbar_more_option">More options</string>
+  <string name="attendee_needed">Add at least one invitee.</string>
+  <string name="calendar_skip_no_account_alert">This account was not found</string>
+  <string name="compose_event">Invitation</string>
+  <string name="confirm_add_to_calendar">Adding to Calendar…</string>
+  <string name="delete_message_event">Delete this invitation?</string>
+  <string name="dtend">Ends</string>
+  <string name="dtstart">Starts</string>
+  <string name="editor_max_length_limit_hint">The message you entered is too long</string>
+  <string name="general_preference_load_picture">Load online images</string>
+  <string name="location_hint">Location</string>
+  <string name="login_des_126">Sign in to 126 Mail</string>
+  <string name="login_des_139">Sign in to 139 Mail</string>
+  <string name="login_des_163">Sign in to 163 Mail</string>
+  <string name="login_des_exchange">Sign in to Exchange</string>
+  <string name="login_des_gmail">Sign in to Gmail</string>
+  <string name="login_des_hotmail">Sign in to Hotmail</string>
+  <string name="login_des_mail_ru">Sign in to Mail.ru</string>
+  <string name="login_des_office365">Sign in to Office 365</string>
+  <string name="login_des_others">Sign in to other major email service clients</string>
+  <string name="login_des_outlook">Sign in to Outlook</string>
+  <string name="login_des_qq">Sign in to QQ Mail</string>
+  <string name="login_des_rediff">Sign in to Rediffmail</string>
+  <string name="login_des_yahoo">Sign in to Yahoo Mail</string>
+  <string name="login_des_yangdex">Sign in to Yandex Mail</string>
+  <string name="message_invite_end_time">End time</string>
+  <string name="message_invite_start_time">Start time</string>
+  <string name="message_invite_state_accpt">Accepted</string>
+  <string name="message_invite_state_decline">Declined</string>
+  <string name="message_invite_state_tentative">Waiting</string>
+  <string name="no_img_application_found">"Couldn't find apps to open this image"</string>
+  <string name="no_img_application_found_title">"Can't open this image"</string>
+  <string name="reminder">Reminder</string>
+  <string name="reminder_picker_title">Reminder</string>
+  <string name="replay_max_length_limit_hint">"The email is too long. Can't edit the original email."</string>
+  <string name="show_images_all">Load and show all images</string>
+  <string name="sync_question_feed">Report sync issues</string>
+  <string name="sync_upload_question">Feedback</string>
+  <string name="trigger_before_day">%d day before</string>
+  <string name="trigger_before_hour">%d hour before</string>
+  <string name="trigger_before_minute">%d minutes before</string>
+  <string name="trigger_before_week">%d week before</string>
+
   <string name="changepw_dialog_auth_tips">Autorisierungscode für %s erneut eingeben</string>
   <string name="font_bold_remove">BoldFont abbrechen</string>
   <string name="font_color">Aktuelle Schriftfarbe ist %s</string>
   <string name="font_color_black">Schwarz</string>
   <string name="font_color_blue">Blau</string>
-  <string name="font_color_cyan_blue">Zyanblau</string>
+  <string name="font_color_cyan_blue">Zyan</string>
   <string name="font_color_gray">Grau</string>
   <string name="font_color_green">Grün</string>
   <string name="font_color_purple">Violett</string>
@@ -15,7 +58,7 @@
   <string name="font_italic_remove">FontSlant abbrechen</string>
   <string name="font_size">Aktuelle Schriftgröße ist %s</string>
   <string name="font_underline">Unterstreichen</string>
-  <string name="font_underline_remove">Unterstreichen entfernen</string>
+  <string name="font_underline_remove">Unterstrichenes entfernen</string>
   <string name="ser_resp_err_map_serclosed_info">%s-Server geschlossen.</string>
   <string name="toolbar_add_image">Bilder hinzufügen</string>
   <string name="toolbar_part_num">Absatznummer</string>
@@ -113,7 +156,7 @@
   <string name="account_setup_failed_certificate_inaccessible">Zertifikat ist ungültig oder nicht verfügbar</string>
   <string name="account_setup_failed_certificate_required">Clientzertifikat erforderlich. Möchten Sie eine Verbindung zum Server mit Clientzertifikat herstellen?</string>
   <string name="account_setup_failed_check_credentials_message">Server meldet einen Fehler zurück. Prüfen Sie Ihren Benutzernamen und Ihr Passwort und versuchen Sie es erneut.</string>
-  <string name="account_setup_failed_dlg_auth_message">Benutzername oder Passwort ist falsch</string>
+  <string name="account_setup_failed_dlg_auth_message">Benutzername oder Passwort, das Sie eingegeben haben ist nicht korrekt. Erneut eingeben.</string>
   <string name="account_setup_failed_dlg_bar_title">Möglichkeiten, sich an %s anzumelden</string>
   <string name="account_setup_failed_dlg_certificate_message">Keine sichere Verbindung zum Server möglich.</string>
   <string name="account_setup_failed_dlg_certificate_message_fmt">Keine sichere Verbindung zum Server möglich.
@@ -195,7 +238,7 @@
   <string name="add_pre_message_attachments_no">Nicht hinzufügen</string>
   <string name="add_pre_message_attachments_yes">Hinzufügen</string>
   <string name="add_star">Favorisieren</string>
-  <string name="all_purpose">Willkommen bei Mail! Dieser E-Mail-Client wurde von Kingsoft für Xiaomi erstellt. Mit dieser App können Sie E-Mails senden und empfangen.</string>
+  <string name="all_purpose">Willkommen bei E-Mail, einem E-Mail-Client, der von Kingsoft speziell für Xiaomi entwickelt wurde. Sie können diese App zum Verfassen, Senden und Empfangen von E-Mails verwenden.</string>
   <string name="allread">Alle lesen</string>
   <string name="always_bcc_myself">Bcc immer an mich</string>
   <string name="always_show_images">Immer Bilder dieses Absenders anzeigen</string>
@@ -280,7 +323,7 @@
   <string name="cant_move_or_change_labels">Elemente von mehreren Konten können nicht verschoben werden</string>
   <string name="certificate_add_failed">Zertifikat \"%s\" hinzufügen nicht möglich</string>
   <string name="certificate_added">Zertifikat \"%s\" erfolgreich hinzugefügt</string>
-  <string name="certificate_alias_prompt_hit">Bitte Zertifikats-Alias eingeben</string>
+  <string name="certificate_alias_prompt_hit">Zertifikatname eingeben</string>
   <string name="certificate_alias_prompt_title">Dieses Zertifikat benennen</string>
   <string name="certificate_alias_prompt_w">Ein Zertifikat mit diesem Namen existiert bereits</string>
   <string name="certificate_password_hit">Passwort eingeben</string>
@@ -308,7 +351,7 @@
   <string name="compose">Verfassen</string>
   <string name="compose_attachment_number_limit">Nicht mehr als 10 Anhänge können hinzugefügt werden</string>
   <string name="compose_paste_address_oob">Zu viele Zeichen</string>
-  <string name="compose_picturesexceedlimits">Maximal 5 Bilder können eingebettet werden</string>
+  <string name="compose_picturesexceedlimits">Sie können weitere Bilder als Anhänge hinzufügen</string>
   <string name="compose_send">Senden</string>
   <string name="compose_sent">E-Mail gesendet</string>
   <string name="config">139 Mailbox Telefonnummer konfiguriert</string>
@@ -389,10 +432,10 @@
   <string name="credit_limit_text">Kreditlimit</string>
   <string name="cur_debt">Kontostand</string>
   <string name="custom_from_account_label">E-Mail senden als:</string>
-  <string name="database_exception">Datenfehler, bitte erneut anmelden</string>
+  <string name="database_exception">Ein Fehler ist aufgetreten. Erneut anmelden.</string>
   <string name="date_heading">"Datum: "</string>
   <string name="date_message_received_today">Heute, %1$s</string>
-  <string name="db_error">Es gibt einen Fehler in den E-Mail-Daten. Bitte erneut anmelden. E-Mail-Daten können nach dem Login wiederhergestellt werden.</string>
+  <string name="db_error">Ein Fehler ist aufgetreten. Erneut anmelden.</string>
   <string name="debug_mode_preferencecategory">Protokollausgabe einrichten</string>
   <string name="debug_mode_settings">Debug-Moduseinstellungen</string>
   <string name="default_">STANDARD</string>
@@ -472,7 +515,7 @@
   <string name="exception_cancel">Dieses Ereignis wurde abgebrochen für: %s</string>
   <string name="exception_updated">Details für dieses Ereignis wurden geändert für: %s</string>
   <string name="expand_recipient_details">Empfängerdetails erweitern</string>
-  <string name="expand_slide">Seitenleiste ausklappen</string>
+  <string name="expand_slide">Seitenleiste anzeigen</string>
   <string name="fail_get_email_message">Nachricht laden fehlgeschlagen</string>
   <string name="failed">Bild wurde nicht geladen</string>
   <string name="failed_parse_eml_file">EML-Datei wurde nicht geöffnet, erneut versuchen.</string>
@@ -519,6 +562,12 @@
   <string name="folder_trash_name_en0">Papierkorb</string>
   <string name="folder_trash_name_en1">Gelöschte Nachrichten</string>
   <string name="folder_trash_name_en2">Gelöschte Nachricht</string>
+  <string name="font_bold_add">Fettschrift</string>
+  <string name="font_bold_remove">Fettschrift entfernen</string>
+  <string name="font_color">Aktuelle Textfarbe: %s</string>
+  <string name="font_italic_add">Kursivschrift</string>
+  <string name="font_italic_remove">Kursivschrift entfernen</string>
+  <string name="font_size">Aktuelle Textgröße: %s</string>
   <string name="forever">Immer</string>
   <string name="forward">Weiterleiten</string>
   <string name="forward_attachment">Weiterleiten</string>
@@ -546,13 +595,13 @@
   <string name="gmail_login_failed_non_proxy_title">Kein Zugriff auf Gmail-Server</string>
   <string name="gmail_server_authorization_deleted">Authentifizierung fehlgeschlagen. Nochmals versuchen.</string>
   <string name="gmail_web_login_required_message">Bei Gmail anmelden</string>
-  <string name="go_to_mail_content">Mail anzeigen</string>
+  <string name="go_to_mail_content">E-Mail anzeigen</string>
   <string name="have_auth_code">Ich habe einen Code</string>
   <string name="header_category_account">Konten</string>
   <string name="header_label_general_preferences">Allgemein</string>
   <string name="help_and_info">Hilfe</string>
   <string name="help_config">Selbstkonfiguration</string>
-  <string name="help_me_get_qq_auth">Autorisierungscode erhalten</string>
+  <string name="help_me_get_qq_auth">Code erhalten</string>
   <string name="help_weixin_title">"Wenn Sie Fragen haben, können Sie uns gerne eine Nachricht in unserem offiziellen WeChat-Konto hinterlassen: "</string>
   <string name="hide_atts_remaining">%1$d Anhänge ausblenden</string>
   <string name="hide_elided">▼ Zitierten Text ausblenden</string>
@@ -594,7 +643,7 @@
   <string name="login_failed_tip">"Kontaktieren Sie uns über WeChat, um Hilfe zu bekommen: "</string>
   <string name="login_failed_title">Anmeldung nicht möglich</string>
   <string name="login_mail">Anmelden</string>
-  <string name="login_qq_psw">Mit Autorisierungscode anmelden</string>
+  <string name="login_qq_psw">Code manuell eingeben</string>
   <string name="login_support_tip_text">Unterstützt alle gängigen E-Mail-Anbieter</string>
   <string name="long_press_to_select_tip">Berühren &amp; halten, um eine Unterhaltung zu wählen, dann tippen, um weitere zu wählen</string>
   <string name="long_string">laaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaang</string>
@@ -685,7 +734,7 @@
   <string name="mibill_privacy_policy_link">Durch Verwendung dieser Funktion stimmen Sie unseren &lt;a href=\"https://www.mipay.com/res/doc/eula/email.html\">Nutzungsbedingungen&lt;/a> zu.</string>
   <string name="mibill_privacy_policy_title">Rechnungen automatisch verwalten</string>
   <string name="min_payment_text">Mindestbetrag</string>
-  <string name="modify_contact_address">E-Mail-Kontaktadresse ändern</string>
+  <string name="modify_contact_address">E-Mail-Kontaktadresse bearbeiten</string>
   <string name="more_atts_remaining">Mehr als %1$d verbleibend</string>
   <string name="more_context">Mehr</string>
   <string name="move_to_selection_dialog_title">In anderen Ordner verschieben</string>
@@ -742,7 +791,7 @@ Versuchen Sie einen anderen Posteingang."</string>
   <string name="oauth_login_continue">Weiter</string>
   <string name="oauth_login_continue_qq">"Autorisierungscode erhalten und anmelden >"</string>
   <string name="oauth_login_usr_proxy">Anmeldung über Proxy</string>
-  <string name="obtain_new_auth_code">Neuen Autorisierungscode erhalten</string>
+  <string name="obtain_new_auth_code">Neuen Code erhalten</string>
   <string name="one_day">1 Tag</string>
   <string name="one_month">1 Monat</string>
   <string name="one_week">1 Woche</string>
@@ -914,7 +963,7 @@ Versuchen Sie einen anderen Posteingang."</string>
   <string name="qq_login_send_message">\"SMS senden\" tippen, um Verifizierungscode zu erhalten</string>
   <string name="qq_login_webview">Zum Anmelden beim QQ-Webclient auf Anmelden mit dem Passwort tippen</string>
   <string name="qq_next_generation_auth_toast">Aktivieren Sie Passwortschutz in Ihrem Browser</string>
-  <string name="qq_pwd_or_qq_auth_code">Autorisierungscode eingeben</string>
+  <string name="qq_pwd_or_qq_auth_code">Code eingeben</string>
   <string name="qq_uthentication_failed">Authentifizierung fehlgeschlagen, ereneut anmelden</string>
   <string name="qq_verify_code">(QQ-Verifizierungscode benötigt)</string>
   <string name="qq_webview_loading">Einen Moment…</string>
