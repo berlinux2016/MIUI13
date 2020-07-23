@@ -1,5 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <string name="accessibility_tutorial_pager">Page %1$d of %2$d</string>
+    <string name="bubble_app_setting_bubble_conversation">Turn on bubbles for this conversation</string>
+    <string name="bubble_app_setting_unbubble_conversation">Turn off bubbles for this conversation</string>
+    <string name="call_connected_tones_title">Call connected tones</string>
+    <string name="conversation_section_switch_summary">Allow app to use conversation section</string>
+    <string name="conversation_section_switch_title">Conversation section</string>
+    <string name="dialog_network_priority_title">Priority</string>
+    <string name="gsm_umts_network_preferences_dialogtitle">Network Mode</string>
+    <string name="gsm_umts_network_preferences_title">Network Mode</string>
+    <string name="interact_across_profiles_summary_3">You can disconnect apps anytime in your device’s privacy settings.</string>
+    <string name="keywords_storage_menu_free">clean, storage</string>
+    <string name="keywords_vibrate_for_calls">Vibration</string>
+    <string name="keywords_wifi_display_settings">mirror</string>
+    <string name="network_id">Network ID</string>
+    <string name="notification_conversation_summary_low">No sound or vibration and appears lower in conversation section</string>
+    <string name="overlay_settings_summary">Allow apps that can display over other apps to overlay Settings screens</string>
+    <string name="overlay_settings_title">Allow screen overlays on Settings</string>
+    <string name="peak_refresh_rate_summary">Automatically raises the refresh rate from 60 to 90 Hz for some content. Increases battery usage.</string>
+    <string name="peak_refresh_rate_title">Smooth Display</string>
+    <string name="plmn_failure_radio_off">Selecting network failure due to radio OFF or unavailable</string>
+    <string name="power_menu_privacy_show_cards">Show cards when locked</string>
+    <string name="priority_conversation_count_zero">No priority conversations</string>
+    <string name="reading_settings">Reading settings…</string>
+    <string name="runtime_permissions_summary_control_app_access">Control app access to your data</string>
+    <string name="updating_settings">Updating settings…</string>
+    <string name="uplmn_list_setting_add_plmn">New PLMN</string>
+    <string name="uplmn_settings_summary">Define the preferred PLMNs in priority order</string>
+    <string name="uplmn_settings_title">User Controlled PLMN</string>
+    <string name="voicemail_number_not_set">&lt;Not set></string>
+    <string name="wifi_ap_hidden_ssid">Hide its SSID</string>
+    <string name="wifi_ap_ssid_off">Off</string>
+    <string name="wifi_ap_ssid_on">On</string>
+
     <string name="accessibility_display_daltonizer_preference_subtitle">Diese Funktion ist experimentell und kann die Leistung beeinträchtigen.</string>
 <!-- not translated -->
     <string name="accessibility_work_profile_app_description">Work %s</string>
