@@ -1,5 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <string name="biometric_dialog_authenticated">Authenticated</string>
+    <string name="biometric_dialog_credential_attempts_before_wipe">Try again. Attempt %1$d of %2$d.</string>
+    <string name="biometric_dialog_credential_too_many_attempts">"Too many incorrect attempts.
+Try again in %d seconds."</string>
+    <string name="biometric_dialog_empty_space_description">Tap to cancel authentication</string>
+    <string name="biometric_dialog_face_icon_description_authenticated">Face authenticated</string>
+    <string name="biometric_dialog_face_icon_description_authenticating">Looking for your face</string>
+    <string name="biometric_dialog_face_icon_description_confirmed">Confirmed</string>
+    <string name="biometric_dialog_face_icon_description_idle">Please try again</string>
+    <string name="biometric_dialog_failed_attempts_now_wiping_device">Too many incorrect attempts. This device’s data will be deleted.</string>
+    <string name="biometric_dialog_failed_attempts_now_wiping_profile">Too many incorrect attempts. This work profile and its data will be deleted.</string>
+    <string name="biometric_dialog_failed_attempts_now_wiping_user">Too many incorrect attempts. This user will be deleted.</string>
+    <string name="biometric_dialog_last_attempt_before_wipe_dialog_title">Your data will be deleted</string>
+    <string name="biometric_dialog_last_password_attempt_before_wipe_device">If you enter an incorrect password on the next attempt, this device’s data will be deleted.</string>
+    <string name="biometric_dialog_last_password_attempt_before_wipe_profile">If you enter an incorrect password on the next attempt, your work profile and its data will be deleted.</string>
+    <string name="biometric_dialog_last_password_attempt_before_wipe_user">If you enter an incorrect password on the next attempt, this user will be deleted.</string>
+    <string name="biometric_dialog_last_pattern_attempt_before_wipe_device">If you enter an incorrect pattern on the next attempt, this device’s data will be deleted.</string>
+    <string name="biometric_dialog_last_pattern_attempt_before_wipe_profile">If you enter an incorrect pattern on the next attempt, your work profile and its data will be deleted.</string>
+    <string name="biometric_dialog_last_pattern_attempt_before_wipe_user">If you enter an incorrect pattern on the next attempt, this user will be deleted.</string>
+    <string name="biometric_dialog_last_pin_attempt_before_wipe_device">If you enter an incorrect PIN on the next attempt, this device’s data will be deleted.</string>
+    <string name="biometric_dialog_last_pin_attempt_before_wipe_profile">If you enter an incorrect PIN on the next attempt, your work profile and its data will be deleted.</string>
+    <string name="biometric_dialog_last_pin_attempt_before_wipe_user">If you enter an incorrect PIN on the next attempt, this user will be deleted.</string>
+    <string name="biometric_dialog_now_wiping_dialog_dismiss">Dismiss</string>
+    <string name="biometric_dialog_tap_confirm">Tap Confirm to complete</string>
+    <string name="biometric_dialog_use_password">Use password</string>
+    <string name="biometric_dialog_use_pattern">Use pattern</string>
+    <string name="biometric_dialog_use_pin">Use PIN</string>
+    <string name="biometric_dialog_wrong_password">Wrong password</string>
+    <string name="biometric_dialog_wrong_pattern">Wrong pattern</string>
+    <string name="biometric_dialog_wrong_pin">Wrong PIN</string>
+    <string name="keyguard_retry">Swipe up to try again</string>
+
     <string name="accessibility_display_daltonizer_preference_subtitle">Mit der Farbkorrektur kannst du anpassen, wie Farben auf deinem Display angezeigt werden</string>
 <!-- not translated -->
     <string name="accessibility_work_profile_app_description">Work %s</string>
