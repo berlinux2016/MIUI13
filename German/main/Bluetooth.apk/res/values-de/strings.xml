@@ -1,15 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-
-  <string name="audio_relay_default_device_name">Xiaomi-KI-Lautsprecher</string>
-  <string name="mi_audio_relay_cancel">Ok</string>
-  <string name="mi_audio_relay_connect_failed">Fehlgeschlagen</string>
-  <string name="mi_audio_relay_localphone">Telefon</string>
-  <string name="mi_audio_relay_phone_name">Xiaomi-Telefon</string>
-  <string name="mi_audio_relay_title">Wiedergabegeräte auswählen</string>
-
   <string name="ErrorTooManyRequests">Zurzeit werden zu viele Anfragen verarbeitet. Versuchen Sie es später erneut.</string>
   <string name="ack_record">Eintrag bestätigen</string>
+  <string name="audio_relay_default_device_name">Xiaomi-KI-Lautsprecher</string>
   <string name="airplane_can_not_share">Im Flugmodus kann nicht über Bluetooth geteilt werden</string>
   <string name="airplane_error_msg">Sie können Bluetooth im Flugmodus nicht verwenden</string>
   <string name="airplane_error_title">Flugmodus</string>
@@ -95,6 +88,11 @@
   <string name="incoming_line3">Größe</string>
   <string name="insert_record">Eintrag hinzufügen</string>
   <string name="localPhoneName">Mein Name</string>
+  <string name="mi_audio_relay_cancel">Ok</string>
+  <string name="mi_audio_relay_connect_failed">Fehlgeschlagen</string>
+  <string name="mi_audio_relay_localphone">Telefon</string>
+  <string name="mi_audio_relay_phone_name">Xiaomi-Telefon</string>
+  <string name="mi_audio_relay_title">Wiedergabegeräte auswählen</string>
   <string name="miui_transfer_history_title">Bluetooth-Übertragungen</string>
   <string name="miui_transfer_inbound_title">Empfangen</string>
   <string name="miui_transfer_outbound_title">Gesendet</string>
@@ -150,6 +148,16 @@
   <string name="switch_audio_device_phone">Dieses Gerät</string>
   <string name="switch_audio_notification_content">"Aktuelles Audio-Ausgabegerät: "</string>
   <string name="switch_audio_notification_title">Gerätekonnektivität</string>
+  <string name="switch_audio_device_bt_a2dp">Bluetooth (Medien-Audio)</string>
+  <string name="switch_audio_device_bt_a2dp_summary">Medienaudiowiedergabe auf einem angeschlossenen Gerät</string>
+  <string name="switch_audio_device_bt_hfp">Bluetooth (Anrufe)</string>
+  <string name="switch_audio_device_bt_hfp_summary">Anrufaudiowiedergabe auf einem angeschlossenen Gerät. Diese Funktion muss manuell deaktiviert werden.</string>
+  <string name="switch_audio_device_default">Standard</string>
+  <string name="switch_audio_device_default_summary">Derzeit verwendetes Gerät</string>
+  <string name="switch_audio_device_hfp_hint">Umschalten zur Standardausgabe</string>
+  <string name="switch_audio_device_hfp_toast_hint">Standardaudioausgabe auswählen, um die Audiowiedergabe auf diesem Gerät erneut zu starten.</string>
+  <string name="switch_audio_device_phone_summary">Audio auf diesem Gerät abspielen</string>
+  <string name="switch_audio_dialog_title">Audioausgang auswählen</string>
   <string name="transfer_clear_dlg_msg">Alle Einträge werden aus der Liste gelöscht</string>
   <string name="transfer_clear_dlg_title">Löschen</string>
   <string name="transfer_menu_clear">Aus Liste löschen</string>
