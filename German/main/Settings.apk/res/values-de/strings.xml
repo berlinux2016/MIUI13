@@ -469,6 +469,7 @@ benachrichtigungen"</string>
   <string name="app_disable_dlg_title">System-App ausschalten?</string>
   <string name="app_disable_notifications_dlg_text">Wenn Sie Benachrichtigungen für diese App ausschalten, verpassen Sie evtl. wichtige Warnungen und Updates</string>
   <string name="app_disable_notifications_dlg_title">Benachrichtigungen ausschalten?</string>
+  <string name="app_enable_bluetooth_record">Apps schalten Bluetooth ein</string>
   <string name="app_factory_reset">Updates entfernen</string>
   <string name="app_factory_reset_dlg_text">Alle Updates dieser Android-System-App werden entfernt</string>
   <string name="app_factory_reset_dlg_title">Updates entfernen?</string>
@@ -597,7 +598,7 @@ benachrichtigungen"</string>
   <string name="audio_list_loading">Laden…</string>
   <string name="audio_profile_settings_title">Audioprofile</string>
   <string name="audio_record_proc_title">Geräuschunterdrückung</string>
-  <string name="auto_adjst_effect_summary">Automatische Anpassung der Farbtemperatur an das Umgebungslicht, um ein optimales Komfortniveau aufrechtzuerhalten</string>
+  <string name="auto_adjst_effect_summary">Automatische Anpassung der Farbtemperatur an das Umgebungslicht</string>
   <string name="auto_adjust_effect_title">Farbtemperatur automatisch anpassen</string>
   <string name="auto_backup">Regelmäßige Sicherung planen</string>
   <string name="auto_backup_all_user_apps">Alle Apps</string>
@@ -697,7 +698,10 @@ Zuletzt am %2$s ausgeführt"</string>
   <string name="avoid_ui">Berührung sperren</string>
   <string name="awake">Aktive Zeit des Geräts</string>
   <string name="back_button">Zurück</string>
+  <string name="back_double_tap">Doppeltippen zurück</string>
   <string name="back_key">Zurück</string>
+  <string name="back_tap">Zurück tippen</string>
+  <string name="back_triple_tap">Dreimal tippen zurück</string>
   <string name="back_sensitivity_dialog_message">Höhere Empfindlichkeit kann mit allen Gesten der Apps an den Bildschirmrändern kollidieren</string>
   <string name="back_sensitivity_dialog_title">Zurück-Empfindlichkeit</string>
   <string name="background_activity_disabled_dialog_text">"Da diese App nicht auf Akkuoptimierung eingestellt ist, können Sie sie nicht einschränken.
@@ -1361,6 +1365,10 @@ Sie können dies in den Einstellungen ändern."</string>
 Sie können diese Funktion unter Einstellungen/Bluetooth/Gekoppelte Geräte ausschalten."</string>
   <string name="bt_aac_open_dialog_title">Umschalten auf AAC-Codec</string>
   <string name="bt_aac_pre_title">AAC</string>
+  <string name="bt_absVolume_open_dialog_summary">Aufgrund von Kompatibilitätsproblemen können einige Bluetooth-Geräte anormale Lautstärkepegel aufweisen, die durch Ausschalten dieser Funktion behoben werden können.</string>
+  <string name="bt_absVolume_open_dialog_title">Achtung</string>
+  <string name="bt_absVolume_pre_title">Absolute Lautstärke</string>
+  <string name="bt_absVolume_summary">Lautstärke der Bluetooth-Geräte und des Telefons strikt einheitlich halten</string>
   <string name="bt_dialog_remember_choice">Auswahl speichern</string>
   <string name="bt_dialog_settings">Einstellungen</string>
   <string name="bt_hci_snoop_log">Bluetooth HCI Snoop Log einschalten</string>
@@ -1903,6 +1911,7 @@ Damit Sie Ihr Gerät wieder verwenden können, müssen Sie es auf Werkseinstellu
   <string name="current_zone">(aktuell)</string>
   <string name="custom_carrier_title">Mobilfunkanbietername bearbeiten</string>
   <string name="custom_color">Benutzerdefiniert</string>
+  <string name="custom_gesture_title">Benutzerdefinierte Gesten</string>
   <string name="custom_wifi_name_title">WLAN-Name bearbeiten</string>
   <string name="customize_function">Verfügbare Muster</string>
   <string name="cutout_mode_always">Notch immer anzeigen</string>
@@ -2202,6 +2211,7 @@ Diese Einstellung betrifft alle Benutzer auf diesem Telefon."</string>
   <string name="device_oaid">Virtuelle ID verwalten</string>
   <string name="device_oaid_desc">Anstelle Ihrer eindeutigen ID gibt MIUI den installierten Apps eine virtuelle ID (OAID). Sie verhindert, dass Apps Ihr Verhalten und Ihre Präferenzen verfolgen können, und schützt Ihre Privatsphäre.</string>
   <string name="device_oaid_title">Virtuelle ID</string>
+  <string name="device_opcust_version">Angepasste Version</string>
   <string name="device_picker">Bluetooth-Geräteauswahl</string>
   <string name="device_rear_camera">Hintere Kamera</string>
   <string name="device_reset_title">Gerät zurücksetzen</string>
@@ -3569,16 +3579,24 @@ Xiaomi Cloud öffnen und Elemente von dort aus wiederherstellen."</string>
   <string name="last_time_used_label">Zuletzt verwendet</string>
   <string name="later">SPÄTER</string>
   <string name="lattice_smartcover_title">Gitterfrontabdeckung</string>
+  <string name="launch_ai_shortcut">Mi AI-Verknüpfung</string>
   <string name="launch_ai_shortcut">Mi KI-Verknüpfung</string>
+  <string name="launch_alipay_payment_code">Alipay-Zahlungscode</string>
+  <string name="launch_alipay_scanner">Alipay-Scanner</string>
   <string name="launch_by_default">Standardmäßig öffnen</string>
+  <string name="launch_calculator">Rechner</string>
   <string name="launch_camera">Kamera starten</string>
+  <string name="launch_control_center">Kontrollzentrum</string>
   <string name="launch_defaults_none">Kein Standard gesetzt</string>
   <string name="launch_defaults_some">Einige Standards gesetzt</string>
   <string name="launch_google_search">Google Assistent starten</string>
   <string name="launch_instant_app">Öffnen</string>
   <string name="launch_mdp_app_text">Plan anzeigen</string>
+  <string name="launch_notification_center">Notification shade</string>
   <string name="launch_recents">Zuletzt verwendet</string>
   <string name="launch_voice_assistant">Sprachassistenten starten</string>
+  <string name="launch_wechat_payment_code">WeChat-Zahlungscode</string>
+  <string name="launch_wechat_scanner">WeChat-Scanner</string>
   <string name="launch_wifi_text">Details anzeigen</string>
   <string name="launcher_icon">Symbole</string>
   <string name="launcher_title">Startbildschirm &amp; Schnellzugriff</string>
@@ -4430,6 +4448,7 @@ Betriebssystem auswählen:"</string>
   <string name="music_mi_effect_title">Mi Klangverbesserung</string>
   <string name="music_unsupport_effect_summary">USB-Kopfhörer werden nicht unterstützt</string>
   <string name="musicfx_title">Musikeffekte</string>
+  <string name="mute">Lautlosmodus</string>
   <string name="mute_music_stream">Musik-Stream stumm schalten</string>
   <string name="mute_voiceassist_stream">Sprachassistent stummschalten</string>
   <string name="mvno_match_data">MVNO-Wert</string>
