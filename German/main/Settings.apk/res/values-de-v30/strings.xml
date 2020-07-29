@@ -1,41 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
  <resources>
-  <string name="accessibility_tutorial_pager">Seite %1$d von %2$d</string>
-  <string name="bubble_app_setting_bubble_conversation">Blasen für dieses Gespräch einschalten</string>
-  <string name="bubble_app_setting_unbubble_conversation">Blasen für dieses Gespräch ausschalten</string>
-  <string name="call_connected_tones_title">Anrufverbindungstöne</string>
-  <string name="conversation_section_switch_summary">App die Verwendung des Konversationsabschnitts erlauben</string>
-  <string name="conversation_section_switch_title">Konversation Abschnitt</string>
-  <string name="dndm_wristband_detailed">\"Bitte nicht stören\" einschalten, wenn Ihr tragbares Gerät innerhalb einer Stunde vor der geplanten Startzeit feststellt, dass Sie schlafen</string>
-  <string name="dialog_network_priority_title">Priorität</string>
-  <string name="doze_always_on_title">Always-On-Display</string>
-  <string name="gsm_umts_network_preferences_dialogtitle">Netzwerkmodus</string>
-  <string name="gsm_umts_network_preferences_title">Netzwerkmodus</string>
-  <string name="interact_across_profiles_summary_3">You can disconnect apps anytime in your device’s privacy settings.</string>
-  <string name="keywords_storage_menu_free">bereinigen, Speicher</string>
-  <string name="keywords_vibrate_for_calls">Vibration</string>
-  <string name="keywords_wifi_display_settings">spiegeln</string>
-  <string name="network_id">Netzwerk-ID</string>
-  <string name="notification_conversation_summary_low">Kein Ton oder VibraPPAtion und erscheint im Gesprächsteil weiter unten</string>
-  <string name="overlay_settings_summary">Apps erlauben, die über anderen Apps angezeigt werden können, Einstellungsbildschirme zu überlagern</string>
-  <string name="overlay_settings_title">Bildschirmüberlagerungen unter Einstellungen zulassen</string>
-  <string name="peak_refresh_rate_summary">Erhöht die Aktualisierungsrate für einige Inhalte automatisch von 60 auf 90 Hz. Erhöht den Akkuverbrauch.</string>
-  <string name="peak_refresh_rate_title">Glatte Anzeige</string>
-  <string name="plmn_failure_radio_off">Auswahl eines Netzwerkfehlers aufgrund von Funkausfall oder Nichtverfügbarkeit</string>
-  <string name="power_menu_privacy_show_cards">Karten anzeigen, wenn gesperrt</string>
-  <string name="priority_conversation_count_zero">Gespräche ohne Priorität</string>
-  <string name="reading_settings">Einstellungen lesen…</string>
-  <string name="runtime_permissions_summary_control_app_access">App-Zugriff auf Ihre Daten kontrollieren</string>
-  <string name="search_user_agreement">Nutzerbedingungen;Nutzervereinbarung</string>
-  <string name="updating_settings">Einstellungen aktualisieren…</string>
-  <string name="uplmn_list_setting_add_plmn">Neue PLMN</string>
-  <string name="uplmn_settings_summary">Definieren Sie die bevorzugten PLMNs in Prioritätsreihenfolge</string>
-  <string name="uplmn_settings_title">Benutzergesteuertes PLMN</string>
-  <string name="voicemail_number_not_set">&lt;Nicht festgelegt></string>
-  <string name="wifi_ap_hidden_ssid">Eigene SSID ausblenden</string>
-  <string name="wifi_ap_ssid_off">Aus</string>
-  <string name="wifi_ap_ssid_on">Ein</string> 
- 
   <string name="accessibility_autoclick_custom_title">Benutzerdefiniert</string>
   <string name="accessibility_autoclick_default_title">Aus</string>
   <string name="accessibility_autoclick_description">Automatische Klicks funktionieren mit einer verbundenen Maus. Du kannst festlegen, dass der Mauszeiger automatisch klickt, wenn er sich für eine bestimmte Zeit nicht bewegt.</string>
@@ -101,6 +65,7 @@
   <string name="accessibility_tutorial_dialog_message_gesture_talkback">Du kannst diese Funktion aktivieren und deaktivieren, indem du vom unteren Bildschirmrand mit drei Fingern nach oben wischst.\n\nWenn du zwischen den Funktionen wechseln möchtest, wische mit drei Fingern über das Display nach oben und halte.</string>
   <string name="accessibility_tutorial_dialog_message_triple">Tippe dreimal auf das Display, um die Vergrößerung zu starten oder zu beenden.</string>
   <string name="accessibility_tutorial_dialog_message_volume">Wenn du diese Funktion aktivieren oder deaktivieren möchtest, halte beide Lautstärketasten gedrückt.</string>
+  <string name="accessibility_tutorial_pager">Seite %1$d von %2$d</string>
   <string name="accessibility_work_profile_app_description">Work %s</string>
   <string name="accessor_expires_text">Freigabe läuft am %s ab</string>
   <string name="accessor_info_title">Apps, die Daten teilen</string>
@@ -167,10 +132,12 @@
   <string name="bluetooth_select_map_version_dialog_title">Bluetooth MAP-Version auswählen</string>
   <string name="bluetooth_select_map_version_string">Bluetooth MAP-Version</string>
   <string name="bubble_app_setting_all">Alle Unterhaltungen können als Bubble angezeigt werden</string>
+  <string name="bubble_app_setting_bubble_conversation">Blasen für dieses Gespräch einschalten</string>
   <string name="bubble_app_setting_excluded_conversation_title">Alle Unterhaltungen können als Bubble erscheinen, außer</string>
   <string name="bubble_app_setting_none">Unterhaltungen können nicht als Bubble angezeigt werden</string>
   <string name="bubble_app_setting_selected">Ausgewählte Unterhaltungen können als Bubble angezeigt werden</string>
   <string name="bubble_app_setting_selected_conversation_title">Unterhaltungen</string>
+  <string name="bubble_app_setting_unbubble_conversation">Blasen für dieses Gespräch ausschalten</string>
   <string name="bubbles_conversation_app_link">Alle Einstellungen für Bubbles</string>
   <string name="bubbles_conversation_toggle_summary">Unverankertes Symbol über anderen Apps anzeigen</string>
   <string name="bubbles_conversation_toggle_title">Diese Unterhaltung als Bubble anzeigen</string>
@@ -187,6 +154,7 @@
   <string name="cached_apps_freezer_disabled">Disabled</string>
   <string name="cached_apps_freezer_enabled">Enabled</string>
   <string name="cached_apps_freezer_reboot_dialog_text">Your device must be rebooted for this change to apply. Reboot now or cancel.</string>
+  <string name="call_connected_tones_title">Anrufverbindungstöne</string>
   <string name="captioning_caption_appearance_summary">Textgröße: %1$s</string>
   <string name="captioning_caption_appearance_title">Untertitelgröße und -stil</string>
   <string name="captioning_more_options_title">Weitere Optionen</string>
@@ -214,6 +182,8 @@
   <string name="conversation_category_title">Unterhaltung</string>
   <string name="conversation_onboarding_summary">Wenn du einer Unterhaltung Priorität gibst oder andere Änderungen daran vornimmst, wird sie hier angezeigt. \n\nSo änderst du die Einstellungen für eine Unterhaltung:\nWische vom oberen Displayrand nach unten, um die Benachrichtigungsleiste zu öffnen, und halte die entsprechende Unterhaltung gedrückt.</string>
   <string name="conversation_onboarding_title">Hier werden vorrangige und geänderte Unterhaltungen angezeigt</string>
+  <string name="conversation_section_switch_summary">App die Verwendung des Gesprächsteil erlauben</string>
+  <string name="conversation_section_switch_title">Gesprächsteil</string>
   <string name="conversations_category_title">Unterhaltungen</string>
   <string name="convo_not_supported_summary">%1$s unterstützt die meisten Konversationsfunktionen nicht. Sie können eine Konversation nicht als Priorität festlegen und Konversationen werden nicht als schwebende Blasen angezeigt.</string>
   <string name="credentials_install">Ein Zertifikat installieren</string>
@@ -255,6 +225,7 @@
   <string name="delete_blob_text">Geteilte Daten löschen</string>
   <string name="demote_conversation_summary">Aus dem Bereich für Unterhaltungen entfernen</string>
   <string name="demote_conversation_title">Keine Unterhaltung</string>
+  <string name="dialog_network_priority_title">Priorität</string>
   <string name="disable_wifi_hotspot_title">WLAN-Hotspot nicht verwenden</string>
   <string name="disable_wifi_hotspot_when_bluetooth_and_ethernet_on">Internet nur über Bluetooth und Ethernet freigeben</string>
   <string name="disable_wifi_hotspot_when_bluetooth_on">Internet nur über Bluetooth teilen</string>
@@ -264,9 +235,11 @@
   <string name="disable_wifi_hotspot_when_usb_and_ethernet_on">Internet nur über USB und Ethernet freigeben</string>
   <string name="disable_wifi_hotspot_when_usb_on">Internet nur über USB freigeben</string>
   <string name="disabled_by_administrator_summary">Nicht verfügbar</string>
+  <string name="dndm_wristband_detailed">\"Bitte nicht stören\" einschalten, wenn Ihr tragbares Gerät innerhalb einer Stunde vor der geplanten Startzeit feststellt, dass Sie schlafen</string>
   <string name="double_twist_for_camera_mode_title">Kamera für Selfie umschalten</string>
   <string name="double_twist_for_camera_suggestion_title">Schnell Selfies aufnehmen</string>
   <string name="doze_always_on_summary">Erhöhter Akkuverbrauch</string>
+  <string name="doze_always_on_title">Always-On-Display</string>
   <string name="doze_summary">Wenn das Display inaktiv ist, wird es bei neuen Benachrichtigungen aktiviert</string>
   <string name="doze_title">Display bei Benachrichtigungen aktivieren</string>
   <string name="enable_adb_wireless">Debugging über WLAN</string>
@@ -302,6 +275,8 @@
   <string name="graphics_driver_dashboard_summary">Grafiktreiber-Einstellungen ändern</string>
   <string name="graphics_driver_dashboard_title">Grafiktreiber-Einstellungen</string>
   <string name="graphics_driver_footer_text">Wenn es mehrere Grafiktreiber gibt, kannst du für Apps auf diesem Gerät den aktualisierten Grafiktreiber nutzen.</string>
+  <string name="gsm_umts_network_preferences_dialogtitle">Netzwerkmodus</string>
+  <string name="gsm_umts_network_preferences_title">Netzwerkmodus</string>
   <string name="guest_exit_guest">Gast entfernen</string>
   <string name="guest_new_guest">Gast hinzufügen</string>
   <string name="guest_nickname">Gast</string>
@@ -328,6 +303,7 @@
   <string name="interact_across_profiles_number_of_connected_apps_none">Keine Apps verknüpft</string>
   <string name="interact_across_profiles_summary_1">Verknüpfte Apps teilen Berechtigungen und können auf Daten der jeweils anderen Apps zugreifen.</string>
   <string name="interact_across_profiles_summary_2">Apps nur dann verbinden, wenn Sie darauf vertrauen, dass sie keine persönlichen Daten an Ihren IT-Administrator weitergeben.</string>
+  <string name="interact_across_profiles_summary_3">Sie können die Apps jederzeit in den Datenschutzeinstellungen Ihres Geräts trennen.</string>
   <string name="interact_across_profiles_summary_allowed">Verbunden</string>
   <string name="interact_across_profiles_summary_not_allowed">Nicht verbunden</string>
   <string name="interact_across_profiles_switch_disabled">Diese Apps verknüpfen</string>
@@ -343,9 +319,12 @@
   <string name="keywords_enhance_4g_lte">VoLTE, erweiterte Anruffunktionen, 4G-Anrufe</string>
   <string name="keywords_gesture_navigation_settings">bedienung über gesten, gestensteuerung, gestenbedienung, empfindlichkeit bei touch-geste zurück, empfindlichkeit geste zurück, empfindlichkeit zurückgeste, touch-geste zurück, geste zurück, zurückgeste</string>
   <string name="keywords_lockscreen_bypass">Sperrbildschirm, überspringen, umgehen</string>
+  <string name="keywords_storage_menu_free">bereinigen, Speicher</string>
   <string name="keywords_styles">Symbolform, Akzentfarbe, Schriftart</string>
   <string name="keywords_system_navigation">Systemsteuerung, Bedienung über 2 Schaltflächen, Bedienung über 3 Schaltflächen, Gestensteuerung, Bedienung über Gesten, wischen</string>
+  <string name="keywords_vibrate_for_calls">Vibration</string>
   <string name="keywords_wifi_data_usage">Datennutzung</string>
+  <string name="keywords_wifi_display_settings">spiegeln</string>
   <string name="left_edge">Linker Rand</string>
   <string name="location_app_level_permissions">Standortzugriff von Apps</string>
   <string name="lock_after_timeout">Sperren nach autom. Ausschalten des Displays</string>
@@ -388,6 +367,7 @@
   <string name="network_connection_request_dialog_summary">%1$s app wants to use a temporary WLAN network to connect to your device</string>
   <string name="network_connection_request_dialog_title">Connect to device</string>
   <string name="network_connection_searching_message">Gerät wird gesucht…</string>
+  <string name="network_id">Netzwerk-ID</string>
   <string name="network_recommended">" (empfohlen)"</string>
   <string name="nfc_and_payment_settings_no_payment_installed_summary">Installiere zuerst eine Zahlungs-App, damit du die Option verwenden kannst</string>
   <string name="nfc_and_payment_settings_payment_off_nfc_off_summary">Nicht verfügbar, weil NFC deaktiviert ist</string>
@@ -410,6 +390,7 @@
   <string name="notification_channels">Kategorien</string>
   <string name="notification_conversation_add_to_home">Zum Startbildschirm hinzufügen</string>
   <string name="notification_conversation_important">Wichtig</string>
+  <string name="notification_conversation_summary_low">Ohne Ton oder Vibration und erscheint im Gesprächsteil weiter unten</string>
   <string name="notification_history">Benachrichtigungsverlauf</string>
   <string name="notification_history_dismiss">Kürzlich geschlossen</string>
   <string name="notification_history_off_summary">Benachrichtigungsverlauf aktivieren, um neue und zurückgestellte Benachrichtigungen zu sehen</string>
@@ -433,12 +414,17 @@
   <string name="open_supported_links_footer">App gibt an, die folgenden Links zu verarbeiten:</string>
   <string name="other_conversations">Andere Gespräche</string>
   <string name="other_conversations_summary">Unterhaltungen, an denen Änderungen vorgenommen wurden</string>
+  <string name="overlay_settings_summary">Apps erlauben, die über anderen Apps angezeigt werden können, Einstellungsbildschirme zu überlagern</string>
+  <string name="overlay_settings_title">Bildschirmüberlagerungen unter Einstellungen zulassen</string>
+  <string name="peak_refresh_rate_summary">Erhöht die Aktualisierungsrate für einige Inhalte automatisch von 60 auf 90 Hz. Erhöht den Akkuverbrauch.</string>
+  <string name="peak_refresh_rate_title">Reibungslose Anzeige</string>
   <string name="permit_manage_external_storage">Zugriff zum Verwalten aller Dateien zulassen</string>
   <string name="personal_profile_app_subtext">Persönlich</string>
   <string name="platform_compat_dashboard_summary">Änderungen bei der Kompatibilität von Apps festlegen</string>
   <string name="platform_compat_dashboard_title">Änderungen der Kompatibilität von Apps</string>
   <string name="platform_compat_default_disabled_title">Standardmäßig deaktivierte Änderungen</string>
   <string name="platform_compat_default_enabled_title">Standardmäßig aktivierte Änderungen</string>
+  <string name="plmn_failure_radio_off">Auswahl eines Netzwerkfehlers aufgrund von Funkausfall oder Nichtverfügbarkeit</string>
   <string name="power_charging_duration">%1$s – %2$s bis zur Aufladung</string>
   <string name="power_menu_cards_passes">Karten und Tickets anzeigen</string>
   <string name="power_menu_cards_passes_device_controls">Karten, Tickets und Gerätesteuerung anzeigen</string>
@@ -449,6 +435,7 @@
   <string name="power_menu_privacy_hide">Karten und Steuerelemente bei aktiviertem Sperrbildschirm ausblenden</string>
   <string name="power_menu_privacy_not_secure">Leg zuerst eine Displaysperre fest</string>
   <string name="power_menu_privacy_show">Karten und Steuerelemente bei aktiviertem Sperrbildschirm anzeigen</string>
+  <string name="power_menu_privacy_show_cards">Karten anzeigen, wenn gesperrt</string>
   <string name="power_menu_privacy_show_controls">Auf dem Sperrbildschirm werden Steuerelemente angezeigt</string>
   <string name="power_menu_setting_name">Ein-/Aus-Menü</string>
   <string name="power_menu_setting_title">Ein-/Aus-Menü</string>
@@ -472,6 +459,7 @@
   <string name="preferred_network_mode_nr_lte_tdscdma_wcdma_summary">Bevorzugter Netzmodus: NR/LTE/TDSCDMA/WCDMA</string>
   <string name="preferred_network_mode_nr_lte_wcdma_summary">Bevorzugter Netzmodus: NR/LTE/WCDMA</string>
   <string name="preferred_network_mode_nr_only_summary">Bevorzugter Netzmodus: nur NR</string>
+  <string name="priority_conversation_count_zero">Gespräche ohne Priorität</string>
   <string name="private_dns_broken">Auf den privaten DNS-Server kann nicht zugegriffen werden</string>
   <string name="private_dns_mode_on">An</string>
   <string name="profile_connect_timeout_subtext">Verbindung kann nicht hergestellt werden. Schalte das Gerät aus &amp; und wieder ein.</string>
@@ -480,6 +468,7 @@
   <string name="quick_controls_lower">Gerätesteuerung</string>
   <string name="quick_settings_media_player">Media resumption</string>
   <string name="quick_settings_media_player_summary">Shows and persists media player in Quick Settings. Requires reboot.</string>
+  <string name="reading_settings">Einstellungen lesen…</string>
   <string name="repeat_days_in_week">Repeat</string>
   <string name="reset_dashboard_summary_onlyApps">Apps können zurückgesetzt werden</string>
   <string name="right_edge">Rechter Rand</string>
@@ -488,11 +477,13 @@
   <string name="ringer_mode_setting_title">Silent mode</string>
   <string name="roaming_warning">Eventuell fallen Roaminggebühren an.</string>
   <string name="roaming_warning_multiuser">Wenn du Daten-Roaming zulässt, fallen eventuell Roaminggebühren an.\n\nDiese Einstellung betrifft alle Nutzer auf diesem Smartphone.</string>
+  <string name="runtime_permissions_summary_control_app_access">App-Zugriff auf Ihre Daten kontrollieren</string>
   <string name="screen_locking_sounds_title">Ton bei Displaysperre</string>
   <string name="screen_pinning_description">App pinning allows you to keep the current app in view until you unpin it. This feature can be used, for example, to let a trusted friend play a specific game. \n\nWhen an app is pinned, the pinned app may open other apps and personal data may be accessible. \n\nTo use app pinning: \u0009\n1.\u0009Turn on app pinning \u0009\n2.\u0009Open Overview \u0009\n3.\u0009Tap the app icon at the top of the screen, then tap Pin</string>
   <string name="screen_pinning_dialog_message">When app is pinned: \n\n•\u0009\u0009Personal data may be accessible \n\u0009\u0009(such as contacts and email content) \n•\u0009\u0009Pinned app may open other apps \n\nOnly use app pinning with people you trust.</string>
   <string name="screen_pinning_guest_user_description">App pinning allows you to keep the current app in view until you unpin it. This feature can be used, for example, to let a trusted friend play a specific game. \n\nWhen an app is pinned, the pinned app may open other apps and personal data may be accessible. \n\nIf you want to securely share your device with someone, try using a guest user instead. \n\nTo use app pinning: \u0009\n1.\u0009Turn on app pinning \u0009\n2.\u0009Open Overview \u0009\n3.\u0009Tap the app icon at the top of the screen, then tap Pin</string>
   <string name="screen_pinning_title">App pinning</string>
+  <string name="search_user_agreement">Nutzerbedingungen;Nutzervereinbarung</string>
   <string name="security_patch">Android-Sicherheitsupdate</string>
   <string name="security_settings_face_enroll_improve_face_alert_body">Du musst die aktuellen Gesichtsdaten löschen, um Face Unlock neu einzurichten.\n\nDie Daten werden endgültig und sicher gelöscht. Nach dem Entfernen benötigst du wieder deine PIN, dein Muster oder dein Passwort, um dein Smartphone entsperren, dich bei Apps anmelden und Zahlungen bestätigen zu können.</string>
   <string name="security_settings_face_enroll_improve_face_alert_title">Face Unlock einrichten</string>
@@ -561,6 +552,10 @@
   <string name="twilight_mode_launch_location">Location settings</string>
   <string name="twilight_mode_location_off_dialog_message">Device location needed to determine your sunset and sunrise times.</string>
   <string name="unlock_set_unlock_pin_summary">Enter %1$d-%2$d numbers to unlock device</string>
+  <string name="updating_settings">Einstellungen aktualisieren…</string>
+  <string name="uplmn_list_setting_add_plmn">Neues PLMN</string>
+  <string name="uplmn_settings_summary">Definieren Sie die bevorzugten PLMNs in Prioritätsreihenfolge</string>
+  <string name="uplmn_settings_title">Benutzergesteuertes PLMN</string>
   <string name="usage_state_app_usage_tip_title">Screen time between %1$d:00 and %2$d:00</string>
   <string name="usage_state_device_noti_today_tip_title">Notifications between %1$d:00 and %2$d:00</string>
   <string name="usage_state_device_unlock_today_tip_title">Unlocked device between %1$d:00 and %2$d:00</string>
@@ -578,6 +573,7 @@
   <string name="vibrate_when_ringing_option_ramping_ringer">Erst vibrieren, dann immer lauter klingeln</string>
   <string name="view_saved_network">Wähle zum Ansehen ein gespeichertes Netzwerk aus</string>
   <string name="virtual_keyboard_category">Bildschirmtastatur</string>
+  <string name="voicemail_number_not_set">&lt;Nicht festgelegt></string>
   <string name="volte_5G_limited_text">Dadurch wird auch deine 5G-Verbindung deaktiviert.\nWährend eines Sprachanrufs kannst du das Internet nicht nutzen und manche Apps funktionieren möglicherweise nicht.</string>
   <string name="volte_5G_limited_title">VoLTE deaktivieren?</string>
   <string name="wifi_add_app_network_save_failed_summary">Speichern nicht möglich. Noch einmal versuchen.</string>
@@ -593,6 +589,9 @@
   <string name="wifi_advanced_randomized_mac_address_title">Zufällige MAC-Adresse</string>
   <string name="wifi_advanced_toggle_description">Drop-down-Liste \"Erweiterte Optionen\"</string>
   <string name="wifi_advanced_toggle_description_collapsed">maximieren</string>
+  <string name="wifi_ap_hidden_ssid">Eigene SSID ausblenden</string>
+  <string name="wifi_ap_ssid_off">Aus</string>
+  <string name="wifi_ap_ssid_on">Ein</string> 
   <string name="wifi_auto_connect_summary">Zulassen, dass das Smartphone automatisch eine Verbindung herstellt, wenn es in der Nähe dieses Netzwerks ist</string>
   <string name="wifi_auto_connect_title">Automatische Verbindung</string>
   <string name="wifi_band_60ghz">60 GHz</string>
