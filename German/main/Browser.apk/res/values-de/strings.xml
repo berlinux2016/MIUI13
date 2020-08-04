@@ -1,17 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-
-  <string name="download_confirm_dialog_title">Risikowarnung</string>
-  <string name="download_proceed">Normales Herunterladen</string>
-  <string name="download_risk_alert_content">Das Spiel wird nicht von Xiaomi Market verifiziert. Indem Sie Normaler Download wählen, zeigen Sie an, dass Sie sich der Risiken und Konsequenzen bewusst sind.</string>
-  <string name="download_safe">Sicheres Herunterladen</string>
-  <string name="saved_sucess">Erfolgreich gespeichert</string>
-  <string name="debug_browser_user_task_title">Adresse des Task Centers lautet:</string>
-  <string name="dev_pref_debug_login">Debug-Anmeldung simulieren</string>
-  <string name="load_sever_data_error">Server ist offline, bitte später erneut versuchen</string>
-  <string name="slide_guide_back">Nach rechts wischen, um die Webseite wiederherzustellen</string>
-  <string name="vo_info_flow_refresh_sever_data_error">Server ist offline, bitte später erneut versuchen</string>
-
   <string name="abc_action_bar_home_description">Zur Startseite</string>
   <string name="abc_action_bar_up_description">Nach oben</string>
   <string name="abc_action_menu_overflow_description">Mehr Optionen</string>
@@ -396,6 +384,7 @@
   <string name="date_picker_lunar">Traditioneller chin. Kalender</string>
   <string name="debug_browser_positive">Ok</string>
   <string name="debug_browser_title">"Gewünschten Domainnamen eingeben: "</string>
+  <string name="debug_browser_user_task_title">Adresse des Task Centers lautet:</string>
   <string name="debug_mode_toast">Debug-Modus ist aktiviert</string>
   <string name="delete">Löschen</string>
   <string name="delete_bookmark">Löschen</string>
@@ -403,6 +392,7 @@
   <string name="delete_bookmark_group_warning">\"%s\" löschen? Alle Lesezeichen in dieser Gruppe werden gelöscht.</string>
   <string name="delete_bookmark_warning">Lesezeichen \"%s\" löschen?</string>
   <string name="delete_download">Löschen</string>
+  <string name="dev_pref_debug_login">Debug-Anmeldung simulieren</string>
   <string name="diagnosis_log_send_failed">Diagnoseprotokoll senden fehlgeschlagen</string>
   <string name="diagnosis_log_sent_format">"Diagnoseprotokoll wurde gesendet.
 ID:%s
@@ -454,6 +444,7 @@ um unsere Arbeit zu unterstützen"</string>
   <string name="download_btn_select_none">Alles abwählen</string>
   <string name="download_complete">Download fertig</string>
   <string name="download_completed">Heruntergeladen</string>
+  <string name="download_confirm_dialog_title">Risikowarnung</string>
   <string name="download_default_path_txt">Meine Auswahl merken</string>
   <string name="download_dialog_default_path_invalid">Downloadpfad ist ungültig. Wird auf Standard zurückgesetzt…</string>
   <string name="download_dialog_file_length_default_txt">Einen Moment…</string>
@@ -475,7 +466,10 @@ um unsere Arbeit zu unterstützen"</string>
   <string name="download_no_sdcard_dlg_title">Keine SD-Karte</string>
   <string name="download_pending">Download starten…</string>
   <string name="download_phone_tip">Telefon</string>
+  <string name="download_proceed">Normales Herunterladen</string>
+  <string name="download_risk_alert_content">Das Spiel wird nicht von Xiaomi Market verifiziert. Indem Sie Normaler Download wählen, zeigen Sie an, dass Sie sich der Risiken und Konsequenzen bewusst sind.</string>
   <string name="download_router_tip">Auf Mi Router herunterladen</string>
+  <string name="download_safe">Sicheres Herunterladen</string>
   <string name="download_sdcard_busy_dlg_msg">SD-Karte ist beschäftigt. Um Downloads zu ermöglichen, bitte den USB-Speicher in Benachrichtigungsleiste ausschalten.</string>
   <string name="download_sdcard_busy_dlg_title">SD-Karte nicht verfügbar</string>
   <string name="download_status_failed">Download nicht möglich</string>
@@ -501,6 +495,8 @@ um Tabs von anderen Geräten zu sehen"</string>
   <string name="enter_the_group_name">Bitte den Gruppennamen eingeben</string>
   <string name="enter_the_password">Bitte Passwort eingeben</string>
   <string name="enter_the_user_name">Bitte Benutzernamen eingeben</string>
+  <string name="eras_ad">n. Chr.</string>
+  <string name="eras_bc">v. Chr.</string>
   <string name="error_console_eval_button_text">Auswerten</string>
   <string name="error_console_eval_text_hint">JavaScript auswerten</string>
   <string name="error_console_header_text_maximized">JavaScript Konsole</string>
@@ -644,6 +640,7 @@ um Tabs von anderen Geräten zu sehen"</string>
   <string name="ignore_add_pwa_dialog_today">Heute nicht mehr zeigen</string>
   <string name="in_incognito">Sie sind inkognito! Seiten, die Sie auf diesem Tab besuchen, werden nicht im Verlauf angezeigt.</string>
   <string name="in_secureaccess">Browser ist im sicheren Modus</string>
+  <string name="incognito">Inkognito</string>
   <string name="info_flow_description">Infokanal</string>
   <string name="isReplacePage">Datei existiert bereits, ersetzen?</string>
   <string name="is_first_history_item">Dies ist die erste Seite in Ihrem Browserverlauf</string>
@@ -664,6 +661,7 @@ um Tabs von anderen Geräten zu sehen"</string>
   <string name="load_more_footer_status_msg_full">Das ist vorerst alles.</string>
   <string name="load_more_footer_status_msg_idle">Tippen, um mehr zu laden</string>
   <string name="load_more_footer_status_msg_loading">Einen Moment…</string>
+  <string name="load_sever_data_error">Server ist offline, bitte später erneut versuchen</string>
   <string name="loading_dialog_title">Verschieben…</string>
   <string name="loading_tips">Nach unten ziehen, um zu aktualisieren</string>
   <string name="login_failed_toast">Anmeldung fehlgeschlagen, neu laden und erneut versuchen</string>
@@ -1126,9 +1124,8 @@ Sind Sie sicher, dass Sie diese Seite verlassen wollen?"</string>
   <string name="nav_lunch_duokan">Duokan öffnen…</string>
   <string name="nav_screen_container_tab_incognito">Privater Tab</string>
   <string name="nav_screen_container_tab_normal">Normaler Tab</string>
-  <string name="nav_screen_incognito_message">"Ihr Browser- und Suchverlauf wird im Inkognitomodus nicht gespeichert.
-Denken Sie daran, dass heruntergeladene Dateien und hinzugefügte Lesezeichen weiterhin gespeichert werden."</string>
-  <string name="nav_screen_incognito_title">Inkognitomodus</string>
+  <string name="nav_screen_incognito_message">Jetzt können Sie privat browsen. Ihr Browserverlauf, Ihre Suchanfragen und Downloads werden nicht aufgezeichnet. Wir werden auch keine Website-Daten speichern.</string>
+  <string name="nav_screen_incognito_title">Sie sind in den Inkognito-Modus gewechselt.</string>
   <string name="nav_screen_tab_incognito_enter">Inkognito-Tab aufrufen</string>
   <string name="nav_screen_tab_incognito_exit">Inkognito-Tab beenden</string>
   <string name="navigate_feedback_dislike">Nicht interessiert</string>
@@ -1398,6 +1395,7 @@ Denken Sie daran, dass heruntergeladene Dateien und hinzugefügte Lesezeichen we
   <string name="save_to_camera">In Galerie speichern</string>
   <string name="save_to_camera_failed">Bild wurde nicht gespeichert</string>
   <string name="save_to_camera_success">In Galerie gespeichert</string>
+  <string name="saved_sucess">Erfolgreich gespeichert</string>
   <string name="scanner_uninstalled_text">Scanner installieren zum Fortsetzen</string>
   <string name="scanner_uninstalled_title">Scanner wurde deinstalliert</string>
   <string name="screenshot_loading_dialog_title">Aufnahme</string>
@@ -1478,6 +1476,7 @@ Browser muss mit dem Internet verbunden sein, um richtig zu funktionieren. Sie m
   <string name="skip_button_label">Überspringen</string>
   <string name="skip_current_version">Diese Version überspringen</string>
   <string name="slide_guide">Schieben, um zurückzukehren</string>
+  <string name="slide_guide_back">Nach rechts wischen, um die Webseite wiederherzustellen</string>
   <string name="small_video_ad_app_text_click">Herunterladen</string>
   <string name="small_video_ad_app_text_open">Öffnen</string>
   <string name="small_video_ad_app_text_resume">Fortsetzen</string>
@@ -1681,6 +1680,7 @@ Es zeigt nichts an."</string>
   <string name="title_bar_loading">Laden…</string>
   <string name="title_notice_push">Hinweis einschalten</string>
   <string name="toast_feedback">Sie werden weniger solche Elemente sehen</string>
+  <string name="toast_not_support">Diese Funktion wird noch nicht unterstützt</string>
   <string name="today">Heute</string>
   <string name="tomorrow">Morgen</string>
   <string name="too_many_windows_dialog_message">Browser kann keinen neuen Tab öffnen, solange kein anderer geschlossen wird</string>
@@ -1846,6 +1846,7 @@ Es zeigt nichts an."</string>
   <string name="vo_info_flow_load_more_title">Versuchen Sie, weitere Elemente manuell zu laden</string>
   <string name="vo_info_flow_refresh_empty">Zurzeit keine Updates. Prüfen Sie andere Kanäle!</string>
   <string name="vo_info_flow_refresh_error">Netzwerkverbindung nicht möglich. Netzwerkeinstellungen prüfen und erneut versuchen.</string>
+  <string name="vo_info_flow_refresh_sever_data_error">Server ist offline, bitte später erneut versuchen</string>
   <string name="vo_info_flow_rs_hint">Suchen</string>
   <string name="vo_like_text">Gefällt mir</string>
   <string name="vo_location_change_cancel">Nicht jetzt</string>
