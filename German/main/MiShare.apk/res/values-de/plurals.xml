@@ -1,6 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-
+  <plurals name="file_type_detail_count">
+    <item quantity="other">%1$d Dateien</item>
+    <item quantity="one">%1$d Datei</item>
+  </plurals>
   <plurals name="send_apk_dialog_desc">
     <item quantity="other">%2$d Installationspakete (%3$s) von %1$s</item>
     <item quantity="one">%2$d Installationspaket (%3$s) von %1$s</item>
@@ -11,7 +14,7 @@
   </plurals>
   <plurals name="send_apk_dialog_desc_receiving">
     <item quantity="other">%2$d Installationspakete (%3$s) von %1$s empfangen…</item>
-    <item quantity="one">%2$d Installationspakete (%3$s) von %1$s empfangen…</item>
+    <item quantity="one">%2$d Installationspaket (%3$s) von %1$s empfangen…</item>
   </plurals>
   <plurals name="send_audio_dialog_desc">
     <item quantity="other">%2$d Audiodateien (%3$s) von %1$s</item>
@@ -36,6 +39,22 @@
     <plurals name="send_file_dialog_desc_receiving">
     <item quantity="other">%2$d %3$s Dateien (%4$s) von %1$s empfangen…</item>
     <item quantity="one">%2$d %3$s Datei (%4$s) von %1$s empfangen…</item>
+  </plurals>
+  <plurals name="send_file_success_detail_files">
+    <item quantity="other">%1$s Dateien erfolgreich gesendet</item>
+    <item quantity="one">%1$s Datei erfolgreich gesendet</item>
+  </plurals>
+  <plurals name="send_file_success_detail_images">
+    <item quantity="other">%1$s Bilder erfolgreich gesendet</item>
+    <item quantity="one">%1$s Bild erfolgreich gesendet</item>
+  </plurals>
+  <plurals name="send_files_to_device_files">
+    <item quantity="other">%2$d Dateien zum Senden an %1$s vorbereiten…</item>
+    <item quantity="one">%2$d Datei zum Senden an %1$s vorbereiten…</item>
+  </plurals>
+  <plurals name="send_files_to_device_images">
+    <item quantity="other">%2$d Bilder zum Senden an %1$s vorbereiten…</item>
+    <item quantity="one">%2$d Bild zum Senden an %1$s vorbereiten…</item>
   </plurals>
   <plurals name="send_image_dialog_desc">
     <item quantity="other">%2$d Bilder von %1$s</item>
@@ -96,27 +115,6 @@
   <plurals name="send_zip_dialog_desc_receiving">
     <item quantity="other">%2$d Archive (%3$s) von %1$s empfangen…</item>
     <item quantity="one">%2$d Archiv (%3$s) von %1$s empfangen…</item>
-  </plurals>
-
-  <plurals name="file_type_detail_count">
-    <item quantity="other">%1$d Dateien</item>
-    <item quantity="one">%1$d Datei</item>
-  </plurals>
-  <plurals name="send_file_success_detail_files">
-    <item quantity="other">%1$s Dateien erfolgreich gesendet</item>
-    <item quantity="one">%1$s Datei erfolgreich gesendet</item>
-  </plurals>
-  <plurals name="send_file_success_detail_images">
-    <item quantity="other">%1$s Bilder erfolgreich gesendet</item>
-    <item quantity="one">%1$s Bild erfolgreich gesendet</item>
-  </plurals>
-  <plurals name="send_files_to_device_files">
-    <item quantity="other">%2$d Dateien zum Senden an %1$s vorbereiten…</item>
-    <item quantity="one">%2$d Datei zum Senden an %1$s vorbereiten…</item>
-  </plurals>
-  <plurals name="send_files_to_device_images">
-    <item quantity="other">%2$d Bilder zum Senden an %1$s vorbereiten…</item>
-    <item quantity="one">%2$d Bild zum Senden an %1$s vorbereiten…</item>
   </plurals>
   <plurals name="someone_send_file_to_you_files">
     <item quantity="other">%1$s sendet %2$d Dateien an Sie…</item>
