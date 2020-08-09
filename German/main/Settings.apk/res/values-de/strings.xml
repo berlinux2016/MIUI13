@@ -592,7 +592,7 @@ benachrichtigungen"</string>
   <string name="asst_capabilities_actions_replies_summary">Automatisch vorgeschlagene Aktionen &amp; Antworten anzeigen</string>
   <string name="asst_capabilities_actions_replies_title">Vorgeschlagene Aktionen &amp; Antworten</string>
   <string name="asst_capability_prioritizer_summary">Automatisch Benachrichtigungen mit niedrigerer Priorität auf \"Weich\" einstellen</string>
-  <string name="asst_capability_prioritizer_title">Anpassbare Benachrichtigungspriorität</string>
+  <string name="asst_capability_prioritizer_title">Benachrichtigungsprio anpassbar</string>
   <string name="attempt_other_network">Netzwerk wechseln</string>
   <string name="audio_and_captions_category_title">Audio &amp; Bildschirmtext</string>
   <string name="audio_files_title">Audiodateien</string>
@@ -2944,7 +2944,7 @@ Es schien keine Pferde oder andere Tiere zu geben; die Männer beförderten Sach
   <string name="font_size_summary2">Minimaler Desktop</string>
   <string name="forbidden_network">(verboten)</string>
   <string name="forbidden_switch_apn_string">Ausgewählte APN-Einstellungen stimmen mit dem Netzwerktyp nicht überein</string>
-  <string name="force_allow_on_external">Erzwingen, dass Apps auf externen Speicher schreiben</string>
+  <string name="force_allow_on_external">Auf ext. Speicher schreiben erzwingen</string>
   <string name="force_allow_on_external_summary">Ermöglicht das Schreiben jeder App auf externen Speicher, unabhängig von Manifestwerten</string>
   <string name="force_desktop_mode">Desktop-Modus erzwingen</string>
   <string name="force_desktop_mode_summary">Experimentellen Desktop-Modus auf sekundären Displays erzwingen</string>
@@ -2956,7 +2956,7 @@ Es schien keine Pferde oder andere Tiere zu geben; die Männer beförderten Sach
   <string name="force_immersive_compatibility_hint_title">Kompatibilitätsprobleme</string>
   <string name="force_msaa">4x MSAA erzwingen</string>
   <string name="force_msaa_summary">4x MSAA in OpenGL ES 2.0-Apps einschalten</string>
-  <string name="force_resizable_activities">Größenänderung von Aktivitäten erzwingen</string>
+  <string name="force_resizable_activities">Größenänd. Aktivitäten erzwingen</string>
   <string name="force_resizable_activities_summary">Größenänderung von Aktivitäten für Multifenster unabhängig von vorgeschriebenen Werten erzwingen</string>
   <string name="force_rtl_layout_all_locales">RTL-Layout erzwingen</string>
   <string name="force_rtl_layout_all_locales_summary">RTL-Bildschirmlayout für alle Sprachen erzwingen</string>
@@ -6406,7 +6406,7 @@ Hinweis: Sie können Ihren Fingerabdruck nicht verwenden, um dieses Gerät zu en
   <string name="show_menu">Menü anzeigen</string>
   <string name="show_network_speed_title">Verbindungsgeschwindigkeit anzeigen</string>
   <string name="show_non_rect_clip">Nicht rechteckige Clipoperationen debuggen</string>
-  <string name="show_notification_channel_warnings">Benachrichtigungskanalwarnungen anzeigen</string>
+  <string name="show_notification_channel_warnings">Benachr.-Kanalwarnungen anzeigen</string>
   <string name="show_notification_channel_warnings_summary">Bildschirmwarnung anzeigen, wenn eine App eine Benachrichtigung ohne gültigen Kanal sendet</string>
   <string name="show_notification_icon_title">Benachrichtigungssymbole anzeigen</string>
   <string name="show_operator_name_summary">Netzwerkname in Statusleiste anzeigen</string>
@@ -6557,7 +6557,7 @@ Hinweis: Sie können Ihren Fingerabdruck nicht verwenden, um dieses Gerät zu en
   <string name="smartcover_lock_or_unlock_screen_tittle">Bildschirm mit Smartcover sperren oder entsperren</string>
   <string name="smartcover_sensitive_summary">Telefon mit Smartcover einfach sperren oder entsperren</string>
   <string name="smartcover_sensitive_title">Smartcover-Modus</string>
-  <string name="sms_access_restriction_enabled">Zugriff auf SMS- &amp; Anrufprotokolle einschränken</string>
+  <string name="sms_access_restriction_enabled">Zugriff SMS-/Anruflogs einschränken</string>
   <string name="sms_access_restriction_enabled_summary">Nur Standard-Telefon-/-Messaging-Apps haben SMS- &amp; Anrufprotokollberechtigungen</string>
   <string name="sms_application_title">Nachrichten</string>
   <string name="sms_change_default_dialog_text">%1$s anstelle von %2$s als Ihre SMS-App verwenden?</string>
@@ -7439,9 +7439,9 @@ skala"</string>
   <string name="trigger_carrier_provisioning">Carrier Provisioning auslösen</string>
   <string name="trust_agent_disabled_device_admin">Vom Administrator deaktiviert</string>
   <string name="trust_agents_extend_unlock_summary">Wenn aktiviert, halten Trust Agents Ihr Gerät länger entsperrt, können aber ein gesperrtes Gerät nicht mehr entsperren.</string>
-  <string name="trust_agents_extend_unlock_title">Trust Agents verlängern nur die Entsperrung</string>
+  <string name="trust_agents_extend_unlock_title">Trust Agents verlängern Entsperrung</string>
   <string name="trust_lost_locks_screen_summary">Wenn aktiviert, wird das Gerät gesperrt, wenn der letzte Trust Agent das Vertrauen verliert.</string>
-  <string name="trust_lost_locks_screen_title">Bildschirm bei Vertrauensverlust sperren</string>
+  <string name="trust_lost_locks_screen_title">Display sperren b. Vertrauensverlust</string>
   <string name="trusted_credentials">Vertrauenswürdige Anmeldedaten</string>
   <string name="trusted_credentials_disable_confirmation">System-CA-Zertifikat deaktivieren?</string>
   <string name="trusted_credentials_disable_label">Ausschalten</string>
@@ -8315,7 +8315,7 @@ Bitte lesen Sie die Datenschutzerklärung Ihres Dienstanbieters."</string>
   <string name="wifi_context_menu_change_wapi_certificate">WAPI-Zertifikate ändern</string>
   <string name="wifi_context_menu_connect">Verbinden</string>
   <string name="wifi_context_menu_forget">Entfernen</string>
-  <string name="wifi_coverage_extend">WLAN-Abdeckungserweiterung aktivieren</string>
+  <string name="wifi_coverage_extend">WLAN-Abdeckungserweiterung</string>
   <string name="wifi_coverage_extend_summary">WLAN-Abdeckung mit Hotspot erweitern</string>
   <string name="wifi_data_template">^1 WLAN-Daten</string>
   <string name="wifi_data_usage">WLAN-Datennutzung</string>
@@ -8716,7 +8716,7 @@ Drücken Sie <b>Zurück</b>, um eine Verbindung zu einem anderen WLAN herzustell
   <string name="wifi_unspecified">Bitte wählen</string>
   <string name="wifi_update">Statistik aktualisieren</string>
   <string name="wifi_use_system_certs">Systemzertifikate verwenden</string>
-  <string name="wifi_verbose_logging">Ausführliche WLAN-Protokollierung aktivieren</string>
+  <string name="wifi_verbose_logging">Ausführliche WLAN-Logs</string>
   <string name="wifi_verbose_logging_summary">WLAN-Logging-Level erhöhen, Anzeige per SSID RSSI im WLAN-Picker</string>
   <string name="wifi_wakeup">WLAN automatisch einschalten</string>
   <string name="wifi_wakeup_summary">WLAN schaltet sich in der Nähe von gespeicherten High Quality-Netzwerken, wie z. B. Ihrem Heimnetzwerk, wieder ein</string>
