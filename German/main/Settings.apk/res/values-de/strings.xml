@@ -323,6 +323,7 @@ Schalten Sie diese Funktion ein und tippen Sie auf die Schaltfläche Eingabehilf
   <string name="advanced_apps">Erweiterte Einstellungen</string>
   <string name="advanced_battery_graph_subtext">Schätzung für verbleibende Akkuladung basiert auf der Nutzung Ihres Geräts</string>
   <string name="advanced_battery_title">Erweiterter Akkuverbrauch</string>
+  <string name="advanced_gesture">Benutzerdefinierte Gesten</string>
   <string name="advanced_screen_paper_mode_title">Lesemodus</string>
   <string name="advanced_section_header">Erweiterte Einstellungen</string>
   <string name="advanced_security_title">Erweiterte Einstellungen</string>
@@ -350,7 +351,7 @@ Schalten Sie diese Funktion ein und tippen Sie auf die Schaltfläche Eingabehilf
   <string name="ai_settings_single_click_title">Drücken</string>
   <string name="ai_settings_single_press_des">KI-Taste drücken, um mit Google Assistent zu sprechen, dann loslassen für die Antwort</string>
   <string name="airplane_mode">Flugmodus</string>
-  <string name="airplane_mode_summary">Deaktiviert Anrufe, SMS, mobile Daten</string>
+  <string name="airplane_mode_summary">Gerät einschalten, um es von den Mobilfunknetzen zu trennen. Wenn diese Funktion an ist, können Sie keine Anrufe tätigen, keine Textnachrichten senden und empfangen und keine mobilen Daten verwenden.</string>
   <string name="alarm_ringtone_title">Standardweckton</string>
   <string name="alarm_sound_dialog_title">Weckton wählen</string>
   <string name="alarm_sound_title">Weckton</string>
@@ -1539,6 +1540,7 @@ Sie können diese Funktion unter Einstellungen/Bluetooth/Gekoppelte Geräte auss
   <string name="cellular_to_wlan_hint_toast">Verbindung Mobilfunk-&gt;WLAN kann betroffen sein</string>
   <string name="cellular_to_wlan_title">Mobilfunk-&gt;WLAN</string>
   <string name="change">Ändern</string>
+  <string name="change_brightness">Helligkeit einstellen</string>
   <string name="change_lock_screen_password_title">Bildschirmsperre ändern</string>
   <string name="change_password">Bildschirmsperre ändern</string>
   <string name="change_security_lock">Andere Entsperrmethoden</string>
@@ -2344,6 +2346,7 @@ Wenn es so bleibt, muss die App evtl. deinstalliert werden, um die Akkuleistung 
   <string name="dlg_remove_locales_error_title">Alle Sprachen können nicht entfernt werden</string>
   <string name="dlg_remove_locales_message">Text wird in einer anderen Sprache angezeigt</string>
   <string name="dlg_switch">Umschalten</string>
+  <string name="double_click_volume_down_when_lock">Zweimal auf Lautstärke leise drücken, wenn der Bildschirm gesperrt ist.</string>
   <string name="dndm_alarm_content">Töne</string>
   <string name="dndm_alarm_content_all">Alles erlauben</string>
   <string name="dndm_alarm_content_call">Anrufe</string>
@@ -2830,7 +2833,7 @@ Für weitere Informationen wenden Sie sich bitte an den Admin Ihres Unternehmens
   <string name="find_my_device">Gerät finden</string>
   <string name="find_my_device_disable">Aus</string>
   <string name="find_my_device_enable">An</string>
-  <string name="find_my_device_summary">Anmeldung am Mi-Konto erforderlich</string>
+  <string name="find_my_device_summary">Diese Funktion erfordert Anmeldung am Mi-Konto</string>
   <string name="findlost_contact">Kontakte wiederherstellen</string>
   <string name="findlost_contact_online">Kontakte aus Xiaomi Cloud wiederherstellen</string>
   <string name="fingerprint_add_max">Sie können bis zu %d Fingerabdrücke hinzufügen</string>
@@ -2944,7 +2947,7 @@ Es schien keine Pferde oder andere Tiere zu geben; die Männer beförderten Sach
   <string name="font_size_summary2">Minimaler Desktop</string>
   <string name="forbidden_network">(verboten)</string>
   <string name="forbidden_switch_apn_string">Ausgewählte APN-Einstellungen stimmen mit dem Netzwerktyp nicht überein</string>
-  <string name="force_allow_on_external">Auf ext. Speicher schreiben erzwingen</string>
+  <string name="force_allow_on_external">Auf externen Speicher schreiben erzwingen</string>
   <string name="force_allow_on_external_summary">Ermöglicht das Schreiben jeder App auf externen Speicher, unabhängig von Manifestwerten</string>
   <string name="force_desktop_mode">Desktop-Modus erzwingen</string>
   <string name="force_desktop_mode_summary">Experimentellen Desktop-Modus auf sekundären Displays erzwingen</string>
@@ -3076,6 +3079,8 @@ Wenn Sie automatische Sicherungen einschalten, werden Geräte- und App-Daten per
   <string name="gentle_notifications_title">Weiche Benachrichtigungen</string>
   <string name="gesture_c">C-Muster</string>
   <string name="gesture_m">M-Muster</string>
+  <string name="gesture_function_dialog_message">%1$s wird für \"%2$s\" verwendet. Ersetzen durch \"%3$s\"?</string>
+  <string name="gesture_settings_title">Gestenverknüpfungen</string>
   <string name="gesture_not_supported_dialog_message">Nicht unterstützt von Ihrer Standard-Startbildschirm-App, %s</string>
   <string name="gesture_not_supported_positive_button">Standard-Startbildschirm-App wechseln</string>
   <string name="gesture_open_alipay">Alipay öffnen</string>
@@ -3424,6 +3429,7 @@ Xiaomi Cloud öffnen und Elemente von dort aus wiederherstellen."</string>
   <string name="keep_screen_on_summary">Bildschirm bleibt während des Ladevorgangs an</string>
   <string name="kernel_version">Kernelversion</string>
   <string name="key_combination_power_back">Ein/Aus + Zurücktaste</string>
+  <string name="key_combination_power_volume_down">Lautstärke leise + Power</string>
   <string name="key_combination_power_home">Ein/Aus + Home-Taste</string>
   <string name="key_combination_power_menu">Ein/Aus + Menütaste</string>
   <string name="key_fsg_dialog_message">Sie verwenden Vollbildgesten zur Navigation. Schaltflächenbezogene Funktionen sind jetzt nicht verfügbar. Zu Tasten wechseln?</string>
@@ -3974,7 +3980,8 @@ Diese PIN muss so viele Ziffern enthalten wie das erste Profil."</string>
   <string name="long_press_menu_key">Menütaste lange drücken</string>
   <string name="long_press_menu_key_when_lock">Menütaste auf dem Sperrbildschirm lange drücken</string>
   <string name="long_press_power_key">Lange die Power-Taste drücken</string>
-  <string name="long_press_power_key_half_of_second">Power-Taste 0,5 s gedrückt halten, um Google Assistent einzuschalten</string>
+  <string name="long_press_power_key_half_of_second">Power-Taste 0,5 Sek gedrückt halten, um Google Assistent einzuschalten</string>
+  <string name="long_press_power_key_half_second">Power-Taste 0,5 Sek gedrückt halten</string>
   <string name="long_press_power_key_tips">&lt;Data>Lange die Power-Taste drücken &lt;font color=\"#999999\">Schneller und komfortabler&lt;/font>&lt;/Data></string>
   <string name="long_press_volume_down">Langer Druck auf Lautstärke leiser</string>
   <string name="lost_internet_access_cancel">Auf WLAN bleiben</string>
