@@ -1,10 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string name="setting_content_promotion">Inhalte fördern</string>
-  <string name="setting_experience_plan_title">Anwender-Erfahrungsprogramm</string>
-  <string name="setting_today_news">Nachrichten heute</string>
-  <string name="setting_weather_video">Wettervideo</string>
-
   <string name="abc_action_bar_home_description">Zur Startseite</string>
   <string name="abc_action_bar_up_description">Nach oben</string>
   <string name="abc_action_menu_overflow_description">Mehr Optionen</string>
@@ -160,6 +155,7 @@
 Nach unten ziehen, um zu aktualisieren, oder prüfen Sie die Netzwerkeinstellungen."</string>
   <string name="data_provided_by">Zur Verfügung gestellt von</string>
   <string name="delete">Löschen</string>
+  <string name="dynamic_weather">Wetter</string>
   <string name="dislike_alert_dialog_title">Warum wollen Sie diesen Inhalt nicht sehen?</string>
   <string name="edit_alert_city_title">Warnungen verwalten</string>
   <string name="edit_city">Städte verwalten</string>
@@ -263,7 +259,7 @@ Nach unten ziehen, um zu aktualisieren, oder prüfen Sie die Netzwerkeinstellung
   <string name="life_index_title">Wetterindex</string>
   <string name="locate_fail_detail_err">Standort nicht ermittelt. Button antippen, um den Standort manuell hinzuzufügen oder erneut versuchen. </string>
   <string name="location_management">Standorte</string>
-  <string name="location_provider_btn_text">Standortdienste einschalten</string>
+  <string name="location_provider_btn_text">Wetter Standortzugriff erlauben</string>
   <string name="location_tag">Lokalisieren</string>
   <string name="manager_city_option_add_city_back_search">Zurück zur Suche</string>
   <string name="manager_city_option_add_city_content">Diesen Ort erfolgreich zur Startseite hinzugefügt</string>
@@ -374,10 +370,17 @@ Nach unten ziehen, um zu aktualisieren, oder prüfen Sie die Netzwerkeinstellung
   <string name="request_permission_read_phone_state_dialog_content">Zum Identifizieren Ihres Geräts</string>
   <string name="request_permission_storage_dialog_content">Zum Teilen von Wetterinformationen im Bildformat</string>
   <string name="retry">Wiederholen</string>
+  <string name="save_to_gallery_failure_message">In Gallerie speichern nicht möglich</string>
+  <string name="save_to_gallery_icon_name">In Galerie speichern</string>
+  <string name="save_to_gallery_success_message">Erfolgreich in Galerie gespeichert</string>
   <string name="search_menu_title">Suchen</string>
   <string name="search_weather">Wetter</string>
   <string name="search_weather_keywords">Temperatur;Wettervorhersage;Wetter;Luftqualität;Verschmutzungsgrad;Luftfeuchtigkeit</string>
   <string name="set">Einstellungen</string>
+  <string name="setting_content_promotion">Inhalte fördern</string>
+  <string name="setting_experience_plan_title">Anwender-Erfahrungsprogramm</string>
+  <string name="setting_today_news">Nachrichten heute</string>
+  <string name="setting_weather_video">Wettervideo</string>
   <string name="settings">Einstellungen</string>
   <string name="settings_atmospheric_pressure_atm">Physikalische Atmosphäre (atm)</string>
   <string name="settings_atmospheric_pressure_hpa">Hektopascal (hPa)</string>
