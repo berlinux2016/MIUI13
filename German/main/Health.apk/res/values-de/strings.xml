@@ -456,6 +456,7 @@ Wenn es für Sie nach 30 Minuten im Bett immer noch schwierig ist, einzuschlafen
   <string name="health_score">Gesundheitswert </string>
   <string name="health_score_tips">Der Gesundheitswert wird basierend auf Ihrem BMI (Body-Mass-Index) sowie Ihren Schlaf- und Aktivitätsdaten berechnet. Je näher Sie Ihren Zielen sind, desto höher ist Ihr Gesundheitswert.</string>
   <string name="health_setting">Einstellungen Gesundheit</string>
+  <string name="heart_rate">Herzfrequenz</string>
   <string name="high">Hoch</string>
   <string name="high2">Hoch</string>
   <string name="high_intensity">Hoch</string>
@@ -468,6 +469,13 @@ Wenn es für Sie nach 30 Minuten im Bett immer noch schwierig ist, einzuschlafen
   <string name="home_tip_sync_immediately">Einige Elemente wurden nicht synchronisiert. Tippen, um jetzt zu synchronisieren.</string>
   <string name="home_tip_syncing">Gesundheitsdaten synchronisieren…</string>
   <string name="hour">Std</string>
+  <string name="hr_heart_rate_unit">Herzfrequenz (BPM)</string>
+  <string name="hr_input_heart_rate">Herzfrequenz aufzeichnen</string>
+  <string name="hr_state_active">Aktiv</string>
+  <string name="hr_state_fast">Schnell</string>
+  <string name="hr_state_regular">Regelmäßig</string>
+  <string name="hr_state_resting">Ruhend</string>
+  <string name="hr_state_slow">Langsam</string>
   <string name="icon_content_description">Dialogsymbol</string>
   <string name="improve_step_target">Sie erreichen Ihr Ziel zu oft. Versuchen Sie es mit einem höheren Wert.</string>
   <string name="improve_your_health_default_tips">Trainieren und schlafen Sie ausreichend, um gesund zu bleiben</string>
@@ -762,6 +770,8 @@ Wenn es für Sie nach 30 Minuten im Bett immer noch schwierig ist, einzuschlafen
   <string name="remind_weight_title">Gewicht</string>
   <string name="remove">Entfernen</string>
   <string name="repeat_mode">Wiederholen</string>
+  <string name="resting_heart_rate">Ruheherzfrequenz</string>
+  <string name="resting_heart_rate_desc">Eine normale Herzfrequenz für Erwachsene in Ruhe liegt zwischen 60 und 100 Schlägen pro Minute. Sie kann je nach Alter, Geschlecht und anderen Faktoren variieren.</string>
   <string name="retry">Erneut versuchen</string>
   <string name="revert_to_default">Standardwerte wiederherstellen</string>
   <string name="run">Laufen</string>
@@ -1105,12 +1115,15 @@ auf Ihren persönlichen Daten beraten."</string>
   <string name="tb_go_next_a_day">Vorheriger Tag</string>
   <string name="tb_go_on_detection">Fortsetzen </string>
   <string name="tb_has_snore_dream_talk">Sprechen und Schnarchen entdeckt</string>
-  <string name="tb_home_blood_pressure_card">Blutdruck - Systolisch %1$d | Diastolisch %2$d | Aufgenommen: %3$s | Zustand: %4$</string>
+  <string name="tb_heart_rate_max_min">Herzfrequenz. Höchste: %1$d. Niedrigste: %2$d.</string>
+  <string name="tb_home_blood_pressure_card">Blutdruck - Systolisch %1$d | Diastolisch %2$d | Aufgezeichnet: %3$s | Zustand: %4$</string>
   <string name="tb_home_blood_pressure_card_no_data">Blutdruck, keine Daten.</string>
   <string name="tb_home_exercise_card_finish">Übung: %1$s. Abgeschlossen: %2$s. Ziel: %3$s. Abgeschlossen: %4$s.</string>
   <string name="tb_home_exercise_card_not_set_goal">Übung: %1$s. Abgeschlossen: %2$s. Ziel öffnen.</string>
   <string name="tb_home_exercise_card_not_supported_step">Übung: Dieses Gerät zählt keine Schritte.</string>
   <string name="tb_home_exercise_card_speed_of_progress">Übung: %1$s. Abgeschlossen: %2$s. Ziel: %3$s. Fortschritt: %4$s.</string>
+  <string name="tb_home_heart_rate_card">Herzfrequenz. %1$d Schläge pro Minute. Aufgezeichnet am %2$s.</string>
+  <string name="tb_home_heart_rate_card_no_data">Herzfrequenz. Keine Daten.</string>
   <string name="tb_home_sleep_card">Geschlafen: heute %1$s. Um %2$s zu Bett gegangen. Aufgewacht um %3$s. %4$s.</string>
   <string name="tb_home_sleep_card_no_data">Schlafen: Heute keine Daten.</string>
   <string name="tb_home_sleep_card_not_open_trace">Schlafen: Die Schlafzyklusanalyse ist aus.</string>
@@ -1147,6 +1160,9 @@ auf Ihren persönlichen Daten beraten."</string>
   <string name="tb_picker_year">Ausgewähltes Jahr: %1$d. Vertikal wischen, um das Jahr auszuwählen.</string>
   <string name="tb_play_next">Zur nächsten Aufzeichnung wechseln</string>
   <string name="tb_play_previous">Zur vorherigen Aufzeichnung wechseln</string>
+  <string name="tb_range">Von %1$s bis %2$s</string>
+  <string name="tb_resting_heart_rate_avg">Durchschnittliche Ruheherzfrequenz: %1$d. Status: %2$s.</string>
+  <string name="tb_resting_heart_rate_avg2">Durchschnittliche Ruheherzfrequenz. Höchste: %1$d. Niedrigste: %2$d.</string>
   <string name="tb_select_a_column">%1$s ausgewählt</string>
   <string name="tb_show_sleep_info">Schlafstatistik für %1$s anzeigen</string>
   <string name="tb_sleep_evaluation">Geschätztes Ergebnis: %1$s</string>
