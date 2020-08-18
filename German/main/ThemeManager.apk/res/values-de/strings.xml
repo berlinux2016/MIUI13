@@ -52,6 +52,21 @@ Themen erkennt, welche Apps Sie verwenden und zeigt transparente Hintergründe i
   <string name="afternoon">Nachmittag</string>
   <string name="all_resources">Alle</string>
   <string name="all_ringtone_resource">Alle</string>
+  <string name="anonymous_resource_link_error">Hinzufügen nicht möglich</string>
+  <string name="anonymous_resource_link_hint">Einige Elemente wurden Ihrem Konto nicht hinzugefügt. Jetzt hinzufügen?</string>
+  <string name="anonymous_resource_link_now">Hinzufügen</string>
+  <string name="anonymous_resource_link_retry">Es ist ein Fehler aufgetreten. Etwas warten und erneut versuchen.</string>
+  <string name="anonymous_resource_link_retry_cancel">Abbrechen</string>
+  <string name="anonymous_resource_link_retry_confirm">Erneut versuchen</string>
+  <string name="anonymous_resource_link_success">Erfolgreich hinzugefügt</string>
+  <string name="anonymous_resource_linking">Hinzufügen…</string>
+  <string name="anonymous_resource_login_confirm">Anmelden</string>
+  <string name="anonymous_resource_login_title">Zuerst anmelden</string>
+  <string name="anonymous_resource_unlink">Neine danke</string>
+  <string name="anonymous_resource_unlink_cancel">Abbrechen</string>
+  <string name="anonymous_resource_unlink_confirm">Nicht hinzufügen</string>
+  <string name="anonymous_resource_unlink_hint">Wenn Sie keine Elemente hinzufügen, werden diese nicht mit Ihrem Konto verknüpft.</string>
+  <string name="anonymous_resource_unlink_title">Ihre Aktion bestätigen</string>
   <string name="already_latest_version">Aktuell</string>
   <string name="app_ad_title">Tägliche Empfehlungen</string>
   <string name="app_disable_transparent_wallpaper">Ohne transparenten Hintergrund</string>
@@ -148,6 +163,7 @@ Themen erkennt, welche Apps Sie verwenden und zeigt transparente Hintergründe i
   <string name="count_down_tip">%ds übrig</string>
   <string name="current_using">Aktuell</string>
   <string name="current_using_desktop_wallpaper_text">Startbildschirm</string>
+  <string name="current_using_float_wallpaper_text">Durchsichtig</string>
   <string name="current_using_lockscreen_wallpaper_text">Sperrbildschirm</string>
   <string name="current_version">Aktuelle Version: %1$s</string>
   <string name="current_version_incompatible">Dieses Thema ist inkompatibel</string>
@@ -409,6 +425,7 @@ Dieses Video hat keinen Ton. Die andere Person hört Ihren Klingelton, während 
   <string name="mine_tab_not_login">"Anmelden, um Elemente anzuzeigen.
 Hier tippen, um sich jetzt anzumelden."</string>
   <string name="mine_tab_title_favorite">Favoriten</string>
+  <string name="mine_tab_title_like">Gefällt mir</string>
   <string name="mine_tab_title_local">Lokal</string>
   <string name="mine_tab_title_purchase">Gekaufte</string>
   <string name="miui_clock_city_name_local">Lokal</string>
@@ -430,6 +447,7 @@ dd.MM."</string>
   <string name="miuishare_account_login_ok">Anmelden</string>
   <string name="miuishare_account_need_activate">Weitergabe an Weibo erfordert das Weibo-Konto, das Ihrem Mi-Konto zugeordnet ist. Aktivieren Sie Ihr Mi-Konto, um fortzufahren.</string>
   <string name="miuishare_account_need_login">Weitergabe an Weibo erfordert das Weibo-Konto, das Ihrem Mi-Konto zugeordnet ist. Melden Sie sich bei Ihrem Mi-Konto an, um fortzufahren.</string>
+  <string name="miuishare_app_name">MIUI-Share</string>
   <string name="miuishare_mini_program_title">Seht euch den Hintergrund an, den ich gefunden habe!</string>
   <string name="miuishare_no_network">Netzwerkverbindung nicht möglich</string>
   <string name="miuishare_please_retry">Informationen nicht verfügbar. Netzwerkeinstellungen prüfen und erneut versuchen.</string>
@@ -441,9 +459,18 @@ dd.MM."</string>
   <string name="miuishare_timeline_title">Finden Sie Ihren nächsten Hintergrund</string>
   <string name="miuishare_title_more">Mehr</string>
   <string name="miuishare_title_share">Teilen</string>
+  <string name="miuishare_wechat_timeline_title">WeChat-Momente</string>
   <string name="miuix_appcompat_cloud_state_disabled">Synchronisation mit der Cloud ist aus</string>
   <string name="miuix_appcompat_cloud_state_finished">Erfolgreich mit der Cloud synchronisiert</string>
   <string name="miuix_appcompat_cloud_state_syncing">Mit der Cloud synchronisieren…</string>
+  <string name="miuix_compat_contact">Kontakte</string>
+  <string name="miuix_compat_dialog_button">Verstanden</string>
+  <string name="miuix_compat_dialog_cancel">Abbrechen</string>
+  <string name="miuix_compat_dialog_checkbox">Nicht mehr anzeigen</string>
+  <string name="miuix_compat_dialog_content">Die aktuelle Version von \"%s\" ist mit diesem Thema nicht kompatibel.</string>
+  <string name="miuix_compat_dialog_title">Standardthema auf \"%s\" angewendet</string>
+  <string name="miuix_compat_dialog_update_title">Eine Aktualisierung ist erforderlich</string>
+  <string name="miuix_compat_mms">Nachrichten</string>
   <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Zum Aktualisieren herunterziehen</string>
   <string name="miuix_sbl_tracking_progress_labe_refreshed">Erfolgreich aktualisiert</string>
   <string name="miuix_sbl_tracking_progress_labe_refreshing">Aktualisieren</string>
@@ -511,6 +538,9 @@ dd.MM."</string>
   <string name="mtrl_picker_text_input_date_hint">Datum</string>
   <string name="mtrl_picker_text_input_date_range_end_hint">Enddatum</string>
   <string name="mtrl_picker_text_input_date_range_start_hint">Startdatum</string>
+  <string name="mtrl_picker_text_input_day_abbr">d</string>
+  <string name="mtrl_picker_text_input_month_abbr">m</string>
+  <string name="mtrl_picker_text_input_year_abbr">y</string>
   <string name="mtrl_picker_toggle_to_calendar_input_mode">Zum Kalendereingabemodus wechseln</string>
   <string name="mtrl_picker_toggle_to_day_selection">Tippen, um zur Tagesauswahl zu wechseln</string>
   <string name="mtrl_picker_toggle_to_text_input_mode">Zum Texteingabemodus wechseln</string>
@@ -539,6 +569,8 @@ Auf Bildschirm tippen, um neu zu laden."</string>
   <string name="online_precust_animal">Tiere</string>
   <string name="online_precust_building">Gebäude</string>
   <string name="online_precust_creative">Kreativ</string>
+  <string name="online_precust_hatsune">Hatsune</string>
+  <string name="online_precust_lifestyle">Lebensstil</string>
   <string name="online_precust_museum">Britisches Museum</string>
   <string name="online_precust_plant">Pflanzen</string>
   <string name="online_precust_scenery">Landschaft</string>
@@ -624,6 +656,7 @@ Auf Bildschirm tippen, um neu zu laden."</string>
   <string name="resource_comment_limit">Nicht so schnell! Kommen Sie wieder, nachdem Sie dieses Thema etwas länger verwendet haben.</string>
   <string name="resource_comment_loading_list">Laden…</string>
   <string name="resource_comment_name_default">Spitzname</string>
+  <string name="resource_comment_no_average_score">N/A</string>
   <string name="resource_comment_no_comment">Noch keine Kommentare hier. Seien Sie der Erste, der einen Kommentar hinterlässt.</string>
   <string name="resource_comment_over_limit">Kommentar zu lang. Kürzen Sie ihn und versuchen Sie es erneut.</string>
   <string name="resource_comment_publish">Senden</string>
@@ -652,10 +685,13 @@ Auf Bildschirm tippen, um neu zu laden."</string>
   <string name="resource_delta_update_total">%1$d Update (%2$s) gespeichert</string>
   <string name="resource_detail_comment_title">Kommentare</string>
   <string name="resource_detail_description_pic_text">%1$d Symbole insgesamt</string>
+  <string name="resource_detail_header_theme_designer_title">Ersteller: %1$s</string>
+  <string name="resource_detail_jump_to_online_title">Online-Seite anzeigen</string>
   <string name="resource_detail_jump_to_same_author_title">Gleicher Autor</string>
   <string name="resource_detail_recommend_desiner_other_themes">Weitere Themen von %1$s</string>
   <string name="resource_detail_recommend_desiner_themes">%1$s Themen</string>
   <string name="resource_detail_recommend_other_themes">Benutzer mochten auch</string>
+  <string name="resource_detail_update_log_title">Aktualisierungen</string>
   <string name="resource_detail_window_title">%1$s Details</string>
   <string name="resource_download">Herunterladen</string>
   <string name="resource_download_notification_title_many">%1$s Themen heruntergeladen</string>
@@ -712,6 +748,7 @@ Auf Bildschirm tippen, um neu zu laden."</string>
   <string name="resource_local_picker">Lokalen Klingelton auswählen</string>
   <string name="resource_menu_refresh">Aktualisieren</string>
   <string name="resource_mute">Keine</string>
+  <string name="resource_my">Lokal</string>
   <string name="resource_network_diagnostics">&lt;u&gt;Netzwerk testen&lt;/u&gt;</string>
   <string name="resource_no_match_app">Keine App gefunden, die diese Aktion ausführen kann</string>
   <string name="resource_no_network_text">Netzwerkverbindung nicht möglich</string>
@@ -728,6 +765,7 @@ Auf Bildschirm tippen, um neu zu laden."</string>
   <string name="resource_present">Gutschein</string>
   <string name="resource_preview">Vorschau</string>
   <string name="resource_price_free">Kostenlos</string>
+  <string name="resource_price_unit">Mi Credits</string>
   <string name="resource_purchase_common_error">Vorgang fehlgeschlagen, versuchen Sie es erneut</string>
   <string name="resource_purchase_continue_to_pay">Mit dem Bezahlen von %s fortfahren</string>
   <string name="resource_purchase_getting_order">Bestellinformation abrufen…</string>
@@ -737,6 +775,9 @@ Auf Bildschirm tippen, um neu zu laden."</string>
   <string name="resource_ranking">Beliebte</string>
   <string name="resource_ranking_free">Kostenlos</string>
   <string name="resource_ranking_purchase">Kostenpflichtig</string>
+  <string name="resource_restore">Wiederherstellen</string>
+  <string name="resource_restore_fail">Wiederherstellen nicht möglich</string>
+  <string name="resource_restore_succ">Erfolgreich wiederhergestellt</string>
   <string name="resource_ringtone_default">Klingeltöne</string>
   <string name="resource_ringtone_playing_error">Abspielfehler</string>
   <string name="resource_ringtone_volume_mute">Ihr Klingelton steht aktuell auf lautlos</string>
@@ -773,6 +814,7 @@ Auf Bildschirm tippen, um neu zu laden."</string>
   <string name="resource_tip_select_none">Nichts ausgewählt</string>
   <string name="resource_title_category">Kategorien</string>
   <string name="resource_title_hot_subject">Beliebt</string>
+  <string name="resource_title_local">Lokal</string>
   <string name="resource_title_rank">Top Charts</string>
   <string name="resource_title_select_ringtone">Klingelton auswählen</string>
   <string name="resource_title_subject">Empfohlen</string>
@@ -797,6 +839,7 @@ Auf Bildschirm tippen, um neu zu laden."</string>
   <string name="resource_trial_hours_minutes">Testversion :%1$d Stunden %2$d Minuten</string>
   <string name="resource_trial_minutes">Testversion : %1$d Minuten</string>
   <string name="resource_unknow_error">Unbekannter Fehler</string>
+  <string name="resource_update">Aktualisierung</string>
   <string name="resource_waiting_download">Warten</string>
   <string name="resource_wallpaper_download">Hintergrund herunterladen</string>
   <string name="ringtone_set_success">Erfolgreich festgelegt</string>
@@ -945,6 +988,7 @@ Auf Bildschirm tippen, um neu zu laden."</string>
   <string name="the_united_nations_day">Tag der Vereinten Nationen</string>
   <string name="the_valentines_day">Valentinstag</string>
   <string name="the_water_lantern_festival">Chinesisches Laternenfest</string>
+  <string name="theme_apply_audio_dialog_item_alarm">Wecker</string>
   <string name="theme_apply_audio_dialog_item_color_ring_back_tone">Benutzerdefinierter Klingelton</string>
   <string name="theme_apply_audio_dialog_item_mms">Nachrichtenklingelton</string>
   <string name="theme_apply_audio_dialog_item_notification">Benachrichtigungen</string>
@@ -961,11 +1005,13 @@ Auf Bildschirm tippen, um neu zu laden."</string>
   <string name="theme_changing_dialog_title">"Anwenden "</string>
   <string name="theme_comment_detail_no_more">Das ist alles für den Moment</string>
   <string name="theme_comment_detail_sub_comment_title">Alle Antworten</string>
+  <string name="theme_comment_detail_title">Details überprüfen</string>
   <string name="theme_comment_dialog_cancel">Nicht jetzt</string>
   <string name="theme_comment_dialog_message">Bewerten Sie diese App und sagen Sie uns, was Sie davon halten.</string>
   <string name="theme_comment_dialog_ok">Bewerten</string>
   <string name="theme_comment_sub_comment_bar_hint">Teilen Sie Ihre Ideen mit unserer Community</string>
   <string name="theme_component_icon">Symbole</string>
+  <string name="theme_component_title_alarm">Alarmton</string>
   <string name="theme_component_title_alarmstyle">Alarmstil</string>
   <string name="theme_component_title_all">Themen</string>
   <string name="theme_component_title_aod">Always-On-Display</string>
@@ -974,6 +1020,7 @@ Auf Bildschirm tippen, um neu zu laden."</string>
   <string name="theme_component_title_boot_audio">Bootsound</string>
   <string name="theme_component_title_clock">Uhr</string>
   <string name="theme_component_title_contact">Telefon</string>
+  <string name="theme_component_title_font">Fonts</string>
   <string name="theme_component_title_framework">Rahmen</string>
   <string name="theme_component_title_homepage">Startseite</string>
   <string name="theme_component_title_icon">Symbole</string>
@@ -1041,6 +1088,7 @@ Auf Bildschirm tippen, um neu zu laden."</string>
   <string name="third_party_pickers_activity_title">%1$s festlegen</string>
   <string name="thursday">Donnerstag</string>
   <string name="thursday_short">Do</string>
+  <string name="time_picker_dialog_title">Zeit festlegen</string>
   <string name="thursday_shortest">D</string>
   <string name="time_picker_dialog_title">Zeit einstellen</string>
   <string name="tips_theme_gate_transfer_fail">Seite öffnen nicht möglich. Einen Moment warten und erneut versuchen.</string>
@@ -1201,5 +1249,7 @@ Größe: %2$s"</string>
 Delta-Update-Größe: %2$s"</string>
   <string name="xiaomi_update_sdk_dialog_title">%1$s aktualisieren!</string>
   <string name="xiaomi_update_sdk_external_storage_unavailable">Speicher nicht verfügbar, bitte prüfen Sie die SD-Karte.</string>
+  <string name="xiaomi_update_sdk_kilobytes_unit">%1$s KB</string>
+  <string name="xiaomi_update_sdk_megabytes_unit">%1$s MB</string>
   <string name="yesterday">Gestern</string>
 </resources>
