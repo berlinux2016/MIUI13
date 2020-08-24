@@ -1025,6 +1025,11 @@ Alle Daten auf Ihrem Gerät werden evtl. gelöscht und Ihr Sperrbildschirmpasswo
   <string name="ew_button_exit">Ablehnen</string>
   <string name="ew_china_version_first_start_network_msg">&lt;Data>"Diese Funktion bietet Ihnen eine Möglichkeit zur Erdbebenwarnung. Sie werden über bevorstehende Erdbeben informiert und hören Warntöne. Sie können den nächstgelegenen Schutzraum finden, Ihren Notfallkontakt anrufen und bei Bedarf Ihre Krankenversicherungskarte vorlegen. &lt;br>Wir werden Ihre personenbezogenen Daten in Übereinstimmung mit den einschlägigen Gesetzen, Vorschriften und Datenschutzrichtlinien schützen. &lt;br>Um normal zu arbeiten, benötigt diese Funktion die folgenden Berechtigungen, um Ihre personenbezogenen Daten zu erfassen: &lt;br>&amp;#8226; Standortinfo: &lt;br>Für den Standortzugriff und die Bereitstellung genauer Erdbebenwarnungen. &lt;br>Wenn Sie nicht damit einverstanden sind, solche Rechte zu erteilen oder Ihre personenbezogenen Daten weiterzugeben und hochzuladen, können Sie diese Funktion nicht nutzen. Sie können diese Funktion wahlweise deaktivieren oder in solchen Fällen nicht aktivieren. &lt;br>Sie müssen unsere &lt;a href=\"http://api.sec.miui.com/res/docs/disclaimer/privacy/earthquake_alert?region=%1$s&amp;amp;lang=%2$s\">Datenscvhutzerklärung&lt;/a> lesen und akzeptieren, bevor Sie diese Funktion nutzen."&lt;/Data></string>
   <string name="ew_close">Alarm ausschalten</string>
+  <string name="ew_close_warning">Ausschalten</string>
+  <string name="ew_concern_city">Orte hinzugefügt</string>
+  <string name="ew_concern_date_empty">Keiner</string>
+  <string name="ew_concern_manage">Verwalten</string>
+  <string name="ew_current_location">Aktueller Standort</string>
   <string name="ew_emergency_allergy">Allergien</string>
   <string name="ew_emergency_basic_info">Basisinformationen</string>
   <string name="ew_emergency_birthday">Geburtsdatum</string>
@@ -1046,9 +1051,13 @@ Alle Daten auf Ihrem Gerät werden evtl. gelöscht und Ihr Sperrbildschirmpasswo
   <string name="ew_emergency_recent_medicine">Aktuelle aktive Medikamente</string>
   <string name="ew_emergency_title">Krankenversicherungskarte</string>
   <string name="ew_first_start_network_title">Allgemeine Geschäftsbedingungen</string>
+  <string name="ew_get_location">Lokalisieren</string>
   <string name="ew_guide_law_agree">Zustimmen</string>
   <string name="ew_guide_law_done">Verstanden</string>
   <string name="ew_guide_law_exit">Ablehnen</string>
+  <string name="ew_guide_start">Einschalten</string>
+  <string name="ew_guide_start_agree">Einschalten</string>
+  <string name="ew_guide_start_find_area">Nach Gebieten suchen</string>
   <string name="ew_guide_law_text">Diese Funktion bietet Ihnen eine Möglichkeit zur Erdbebenwarnung. Sie müssen wissen, dass die Erdbebenwarninformationen von einer dritten Frühwarnstelle zur Verfügung gestellt werden. Xiaomi beaufsichtigt keine Drittanbieter und hat keine Kontrolle über diese. Xiaomi verspricht oder garantiert nicht die Genauigkeit, Gültigkeit und Aktualität von Erdbebenwarninformationen und garantiert auch nicht, dass der Erdbebenwarndienst alle Ihre Bedürfnisse erfüllt. Sie müssen wissen, dass diese Funktion nur zu Ihrer Information zur Verfügung steht. Sie sind allein verantwortlich für die Risiken und Folgen aller Handlungen, die Sie auf der Grundlage der von dieser Funktion bereitgestellten Informationen durchführen.</string>
   <string name="ew_guide_law_title">Haftungsausschluss</string>
   <string name="ew_guide_next_text">Weiter</string>
@@ -1059,6 +1068,12 @@ Alle Daten auf Ihrem Gerät werden evtl. gelöscht und Ihr Sperrbildschirmpasswo
   <string name="ew_guide_tips_2">Informationen und Warntöne werden während des Erdbebens aktualisiert</string>
   <string name="ew_guide_tips_3">Sie können den nächstgelegenen Schutzraum finden, Ihren Notfallkontakt anrufen und bei Bedarf Ihre Krankenversicherungskarte vorlegen</string>
   <string name="ew_guide_title">Demo anzeigen</string>
+  <string name="ew_info_agreement">Haftungsausschluss</string>
+  <string name="ew_info_other">Andere</string>
+  <string name="ew_info_range">Leistungsumfang</string>
+  <string name="ew_info_rule">Regeln</string>
+  <string name="ew_info_rule_warning">Über das Warnsystem</string>
+  <string name="ew_info_service_range">Leistungsumfang</string>
   <string name="ew_list_all">Alle</string>
   <string name="ew_list_empty_text">Noch keine Warnungen hier</string>
   <string name="ew_list_not_receive_tips">*Epizentrum ist weit weg von Ihnen.  Vielleicht spüren Sie das Erdbeben nicht.</string>
@@ -1085,9 +1100,11 @@ Alle Daten auf Ihrem Gerät werden evtl. gelöscht und Ihr Sperrbildschirmpasswo
   <string name="ew_main_place_title">Nächstgelegene Schutzräume</string>
   <string name="ew_main_setting_warning_desc">Mehr erfahren</string>
   <string name="ew_main_settings">Einstellungen</string>
+  <string name="ew_main_warning_all_title">Zuvor ausgegebene Warnungen anzeigen</string>
   <string name="ew_main_warning_list">Warnungen anzeigen</string>
   <string name="ew_main_warning_list_tips">Anzeigen</string>
   <string name="ew_main_warning_list_title">Warnungsverlauf</string>
+  <string name="ew_not_support_area">Warnungen werden in diesem Gebiet nicht unterstützt</string>
   <string name="ew_push_message">Geschätzte Intensität: %s. Erwarten Sie ein leichtes Beben in Ihrer Nähe.</string>
   <string name="ew_push_title">Erdbebenwarnung für %s</string>
   <string name="ew_safe_place_no_maps_tips">Suche jetzt nicht möglich. Zuerst Baidu Maps oder Amap installieren.</string>
@@ -1098,6 +1115,16 @@ Alle Daten auf Ihrem Gerät werden evtl. gelöscht und Ihr Sperrbildschirmpasswo
   <string name="ew_setting_normal_push_title">Systembenachrichtigungen erhalten</string>
   <string name="ew_setting_strong_push_message">Bei Erdbeben mit einer Intensität von 2,0 und höher</string>
   <string name="ew_setting_strong_push_title">Warnung vor starken Erdbeben (standardmäßig an)</string>
+  <string name="ew_settings_choose_level">Warnschwelle einstellen</string>
+  <string name="ew_settings_choose_level_title">Geschätzte Stärke: %s</string>
+  <string name="ew_settings_choose_level_value_1">" (Erschütterungen in Hochhäusern)"</string>
+  <string name="ew_settings_choose_level_value_2">" (Erschütterung)"</string>
+  <string name="ew_settings_choose_level_value_3">" (Starke Erschütterung)"</string>
+  <string name="ew_settings_choose_level_value_4">" (Schwere Erschütterung)"</string>
+  <string name="ew_settings_push_tips">Warnungen über Gebiete außerhalb Ihres Standortes erfolgen nur in Form von Benachrichtigungen.</string>
+  <string name="ew_subscribe_area_title">Hinzugefügte Gebiete verwalten</string>
+  <string name="ew_subscribe_city">Hinzugefügte Gebiete</string>
+  <string name="ew_subscribe_search_hint">Nach Gebieten suchen</string>
   <string name="examination_score_100">Alles in Ordnung!</string>
   <string name="examination_score_60_0">Jetzt scannen</string>
   <string name="examination_score_80_100">Einige wenige Punkte können optimiert werden</string>
