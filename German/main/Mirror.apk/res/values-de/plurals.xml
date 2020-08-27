@@ -1,5 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+  <plurals name="a_hour_ago">
+    <item quantity="other">1 hour ago</item>
+  </plurals>
   <plurals name="abbrev_a_hour_ago">
     <item quantity="other">vor 1 Std</item>
   </plurals>
@@ -38,6 +41,9 @@
   </plurals>
   <plurals name="in_half_hour">
     <item quantity="other">in einer halben Stunde</item>
+  </plurals>
+  <plurals name="in_less_than_one_minute">
+    <item quantity="other">Sofort</item>
   </plurals>
   <plurals name="in_num_minutes">
     <item quantity="other">in %d Minuten</item>
