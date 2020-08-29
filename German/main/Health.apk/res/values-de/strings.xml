@@ -1,5 +1,44 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+
+  <string name="delete_dailog_confirm_msg_wear">%1$s jetzt löschen?</string>
+  <string name="delete_wear_data_toast">Daten löschen, die von %1$s bereitgestellt werden nicht möglich</string>
+  <string name="exercise_remind_content_improve_goal">Gesünder bleiben, indem Sie Ihr Aktivitätsziel schrittweise erhöhen</string>
+  <string name="exercise_remind_content_lower_goal">Motiviert bleiben, indem Sie sich Ziele setzen, die Sie erreichen können</string>
+  <string name="exercise_remind_title_improve_goal">Ein höheres Ziel setzen</string>
+  <string name="exercise_remind_title_lower_goal">Ein realistisches Ziel setzen</string>
+  <string name="hr_choose_detect_state">Den Zustand bei der Erkennung auswählen.</string>
+  <string name="hr_detect">Pulserkennung</string>
+  <string name="hr_detect_desc">Durch Blitzlampe als Dauerlichtquelle, Telefonkamera zur Erfassung von Blutflussänderungen, durch Bildanalyse kann stabiles Pulswellensignal erfasst werden, wissenschaftliche Pulserfassung</string>
+  <string name="hr_detect_finished">Erkennung abgeschlossen</string>
+  <string name="hr_detect_principle_desc_1">Durch die Blitzlampe neben der Kamera als Dauerlichtquelle liegt der Finger sanft an der Kamera, kann das Blutflussbild erhalten, kann durch die Bildanalyse das stabile Pulswellensignal erfassen und so den Pulswert ermitteln.</string>
+  <string name="hr_detect_principle_desc_2">Durch eine große Anzahl von Experimenten liegt der Pulsfehlerwert innerhalb von +/- 2.</string>
+  <string name="hr_detect_principle_desc_3">Da es sich bei der Kamera und dem Blitz um nicht professionelle Aufnahmegeräte handelt, wird empfohlen, mehrfach zu messen und zu beobachten.</string>
+  <string name="hr_detect_principle_title">Prinzip der Pulskennung</string>
+  <string name="hr_detect_report_title">Testbericht</string>
+  <string name="hr_detect_state_after_activity">Nach der Übung</string>
+  <string name="hr_detect_state_after_activity_desc">Messen unmittelbar nach der Übung</string>
+  <string name="hr_detect_state_regular">Allgemeiner Status</string>
+  <string name="hr_detect_state_regular_desc">Tägliche Arbeit und Studienstatus</string>
+  <string name="hr_detect_state_reseting">Ruhender Zustand</string>
+  <string name="hr_detect_state_reseting_desc">Einfach aufwachen oder völlig entspannt</string>
+  <string name="hr_disturb_detect">Erkennung unterbrechen</string>
+  <string name="hr_disturb_detect_desc">Erneuter Test, bitte während des Prozesses still halten</string>
+  <string name="hr_in_detect">Bitte Ihre Finger während des Tests nicht loslassen</string>
+  <string name="hr_measure_heart_rate">Puls messen</string>
+  <string name="hr_open_permission_desc">Mi Health benötigt Kameraberechtigungen, um Änderungen des Blutflusses zur Pulserkennung zu erhalten. Sind Sie damit einverstanden?</string>
+  <string name="hr_open_permission_title">Bitte die entsprechenden Berechtigungen öffnen</string>
+  <string name="hr_phone_detect_records">Telefonerkennungsaufzeichnung</string>
+  <string name="hr_pre_detect">Bitte Ihre Finger benutzen, um die Kamera und den Blitz zur Erkennung vollständig abzudecken</string>
+  <string name="hr_pre_detect_finger">Den Finger abtasten</string>
+  <string name="hr_pre_detect_finger_desc">Finger abdecken wird erkannt. Bitte nicht loslassen.</string>
+  <string name="hr_see_report">Bericht anzeigen</string>
+  <string name="hr_start_detect">Erfahrung starten</string>
+  <string name="inquire_recover_data">Gesundheitsdaten jetzt wiederherstellen?</string>
+  <string name="inquire_recover_data_subtitle">Sieht so aus, als wären Gesundheitsdaten mit Ihrem Mi-Konto (%1$s) verbunden. Jetzt die Synchronisierung mit der Cloud einschalten und Daten wiederherstellen?</string>
+  <string name="open_sync_and_enter_app">Synchronisierung einschalten</string>
+  <string name="welcome_back">Willkommen zurück!</string>
+
   <string name="abc_action_bar_home_description">Zur Startseite</string>
   <string name="abc_action_bar_up_description">Nach oben</string>
   <string name="abc_action_menu_overflow_description">Mehr Optionen</string>
@@ -219,7 +258,7 @@ Wenn Sie sich entscheiden, Ihre Gesundheitsdaten zu löschen, nachdem Sie sich e
   <string name="deep_sleep">Tiefschlaf</string>
   <string name="deep_sleep_duration">Dauer des Tiefschlafs</string>
   <string name="deep_sleep_duration_decrease_description">Ihr Tiefschlaf ist zu kurz</string>
-  <string name="deep_sleep_duration_description">Wenn Menschen schlafen, gibt es periodisch schnelle Augenbewegungen, so dass der Schlaf in schnellen Augenbewegungsschlaf und nicht-schnellen Augenbewegungsschlaf unterteilt werden kann. Der Tiefschlaf tritt während der Perioden des nicht schnellen Augenbewegungsschlafs auf und macht etwa 20 - 25 %% des gesamten Nachtschlafs aus. Während des Tiefschlafs gibt es weniger bewusste Aktivität und das Gehirn befindet sich in einem relativ statischen Zustand, der sich nur schwer erwecken lässt.</string>
+  <string name="deep_sleep_duration_description">Wenn Menschen schlafen, treten periodisch schnelle Augenbewegungen auf. Der Schlaf kann in schnellen Augenbewegungsschlaf (REM-Schlaf) und nicht-schnellen Augenbewegungsschlaf (NREM-Schlaf) unterteilt werden. Tiefschlaf tritt während der Perioden des NREM-Schlafs auf und macht etwa 20 bis 25 %% der gesamten Schlafdauer aus. Ihr Gehirn ruht während des Tiefschlafs und zeigt ein geringes Maß an bewusster Aktivität, so dass das Aufwachen nicht leicht ist.</string>
   <string name="deep_sleep_duration_increase_description">Ihr tiefer Schlaf ist zu lang</string>
   <string name="deep_sleep_duration_normal_description">Sie haben einen ausreichend tiefen Schlaf</string>
   <string name="delete">Löschen</string>
@@ -456,7 +495,7 @@ Wenn es für Sie nach 30 Minuten im Bett immer noch schwierig ist, einzuschlafen
   <string name="health_score">Gesundheitswert </string>
   <string name="health_score_tips">Der Gesundheitswert wird basierend auf Ihrem BMI (Body-Mass-Index) sowie Ihren Schlaf- und Aktivitätsdaten berechnet. Je näher Sie Ihren Zielen sind, desto höher ist Ihr Gesundheitswert.</string>
   <string name="health_setting">Einstellungen Gesundheit</string>
-  <string name="heart_rate">Herzfrequenz</string>
+  <string name="heart_rate">Puls</string>
   <string name="high">Hoch</string>
   <string name="high2">Hoch</string>
   <string name="high_intensity">Hoch</string>
@@ -469,8 +508,8 @@ Wenn es für Sie nach 30 Minuten im Bett immer noch schwierig ist, einzuschlafen
   <string name="home_tip_sync_immediately">Einige Elemente wurden nicht synchronisiert. Tippen, um jetzt zu synchronisieren.</string>
   <string name="home_tip_syncing">Gesundheitsdaten synchronisieren…</string>
   <string name="hour">Std</string>
-  <string name="hr_heart_rate_unit">Herzfrequenz (BPM)</string>
-  <string name="hr_input_heart_rate">Herzfrequenz aufzeichnen</string>
+  <string name="hr_heart_rate_unit">Puls (BPM)</string>
+  <string name="hr_input_heart_rate">Puls aufzeichnen</string>
   <string name="hr_state_active">Aktiv</string>
   <string name="hr_state_fast">Schnell</string>
   <string name="hr_state_regular">Regelmäßig</string>
@@ -747,7 +786,7 @@ Wenn es für Sie nach 30 Minuten im Bett immer noch schwierig ist, einzuschlafen
   <string name="rem_Duration_increase_description">Ihr REM-Schlaf ist zu lang</string>
   <string name="rem_duration">REM-Schlafdauer</string>
   <string name="rem_duration_decrease_description">Ihr REM-Schlaf ist zu kurz</string>
-  <string name="rem_duration_description" formatted="false">REM bezieht sich auf die schnelle Augenbewegung. Der Schlaf kann in schnellen Augenbewegungsschlaf (REM) und nicht-schnellen Augenbewegungsschlaf (NREM) unterteilt werden. Der Schlaf bei schnellen Augenbewegungen macht etwa 20 - 25 %% der gesamten Schlafdauer aus. Wenn Menschen in diesem Stadium aufwachen, sagen 74 - 95 %% von ihnen, dass sie geträumt haben und sich an ihre Träume erinnern können. Das Gehirn ist sehr aktiv, und der Körper ist während des REM-Schlafs völlig entspannt, was diese Schlafphase für die Aufrechterhaltung der kognitiven Funktionen unerlässlich macht.</string>
+  <string name="rem_duration_description">REM bezieht sich auf die schnelle Augenbewegung. Der Schlaf kann in schnellen Augenbewegungsschlaf (REM) und nicht-schnellen Augenbewegungsschlaf (NREM) unterteilt werden. Der Schlaf bei schnellen Augenbewegungen macht etwa 20 - 25 %% der gesamten Schlafdauer aus. Wenn Menschen in diesem Stadium aufwachen, sagen 74 - 95 %% von ihnen, dass sie geträumt haben und sich an ihre Träume erinnern können. Das Gehirn ist sehr aktiv, und der Körper ist während des REM-Schlafs völlig entspannt, was diese Schlafphase für die Aufrechterhaltung der kognitiven Funktionen unerlässlich macht.</string>
   <string name="rem_duration_normal_description">REM-Schlafdauer ist normal</string>
   <string name="remarks">Anmerkung</string>
   <string name="remind">Erinnern</string>
@@ -771,7 +810,7 @@ Wenn es für Sie nach 30 Minuten im Bett immer noch schwierig ist, einzuschlafen
   <string name="remove">Entfernen</string>
   <string name="repeat_mode">Wiederholen</string>
   <string name="resting_heart_rate">Ruheherzfrequenz</string>
-  <string name="resting_heart_rate_desc">Eine normale Herzfrequenz für Erwachsene in Ruhe liegt zwischen 60 und 100 Schlägen pro Minute. Sie kann je nach Alter, Geschlecht und anderen Faktoren variieren.</string>
+  <string name="resting_heart_rate_desc">Eine normaler Puls für Erwachsene im Ruhezustand liegt zwischen 60 und 100 Schlägen pro Minute. Er kann je nach Alter, Geschlecht und anderen Faktoren variieren.</string>
   <string name="retry">Erneut versuchen</string>
   <string name="revert_to_default">Standardwerte wiederherstellen</string>
   <string name="run">Laufen</string>
@@ -826,7 +865,7 @@ Wenn es für Sie nach 30 Minuten im Bett immer noch schwierig ist, einzuschlafen
   <string name="sleep_deep_light_no_data">Noch keine Daten vorhanden</string>
   <string name="sleep_deep_light_no_data_improvement">Keine Schlafphasen erkannt. Wir sind dabei, unsere Algorithmen zu verbessern. Bleiben Sie dran!</string>
   <string name="sleep_detection_enable">Schlafzyklus analysieren</string>
-  <string name="sleep_detection_guide_four_description">Schlafaufzeichnungsfunktion verbraucht täglich etwa 1% Ihres Akkus.</string>
+  <string name="sleep_detection_guide_four_description">Schlafaufzeichnungsfunktion verbraucht täglich etwa 1 %% Ihres Akkus.</string>
   <string name="sleep_detection_guide_four_high_power_description">Stellen Sie sicher, dass Ihr Gerät ausreichend aufgeladen ist, bevor Sie zu Bett gehen. Eine schwacher Akku kann die Schlafaufzeichnung unterbrechen.</string>
   <string name="sleep_detection_guide_four_high_power_title">Halten Sie Ihren Geräteakku geladen</string>
   <string name="sleep_detection_guide_four_title">Niedriger Stromverbrauch</string>
@@ -1115,15 +1154,15 @@ auf Ihren persönlichen Daten beraten."</string>
   <string name="tb_go_next_a_day">Vorheriger Tag</string>
   <string name="tb_go_on_detection">Fortsetzen </string>
   <string name="tb_has_snore_dream_talk">Sprechen und Schnarchen entdeckt</string>
-  <string name="tb_heart_rate_max_min">Herzfrequenz. Höchste: %1$d. Niedrigste: %2$d.</string>
+  <string name="tb_heart_rate_max_min">Puls. Höchste: %1$d. Niedrigste: %2$d.</string>
   <string name="tb_home_blood_pressure_card">Blutdruck - Systolisch %1$d | Diastolisch %2$d | Aufgezeichnet: %3$s | Zustand: %4$</string>
   <string name="tb_home_blood_pressure_card_no_data">Blutdruck, keine Daten.</string>
   <string name="tb_home_exercise_card_finish">Übung: %1$s. Abgeschlossen: %2$s. Ziel: %3$s. Abgeschlossen: %4$s.</string>
   <string name="tb_home_exercise_card_not_set_goal">Übung: %1$s. Abgeschlossen: %2$s. Ziel öffnen.</string>
   <string name="tb_home_exercise_card_not_supported_step">Übung: Dieses Gerät zählt keine Schritte.</string>
   <string name="tb_home_exercise_card_speed_of_progress">Übung: %1$s. Abgeschlossen: %2$s. Ziel: %3$s. Fortschritt: %4$s.</string>
-  <string name="tb_home_heart_rate_card">Herzfrequenz. %1$d Schläge pro Minute. Aufgezeichnet am %2$s.</string>
-  <string name="tb_home_heart_rate_card_no_data">Herzfrequenz. Keine Daten.</string>
+  <string name="tb_home_heart_rate_card">Puls. %1$d Schläge pro Minute. Aufgezeichnet am %2$s.</string>
+  <string name="tb_home_heart_rate_card_no_data">Puls. Keine Daten.</string>
   <string name="tb_home_sleep_card">Geschlafen: heute %1$s. Um %2$s zu Bett gegangen. Aufgewacht um %3$s. %4$s.</string>
   <string name="tb_home_sleep_card_no_data">Schlafen: Heute keine Daten.</string>
   <string name="tb_home_sleep_card_not_open_trace">Schlafen: Die Schlafzyklusanalyse ist aus.</string>
@@ -1161,8 +1200,8 @@ auf Ihren persönlichen Daten beraten."</string>
   <string name="tb_play_next">Zur nächsten Aufzeichnung wechseln</string>
   <string name="tb_play_previous">Zur vorherigen Aufzeichnung wechseln</string>
   <string name="tb_range">Von %1$s bis %2$s</string>
-  <string name="tb_resting_heart_rate_avg">Durchschnittliche Ruheherzfrequenz: %1$d. Status: %2$s.</string>
-  <string name="tb_resting_heart_rate_avg2">Durchschnittliche Ruheherzfrequenz. Höchste: %1$d. Niedrigste: %2$d.</string>
+  <string name="tb_resting_heart_rate_avg">Ø-Ruheherzfrequenz: %1$d. Status: %2$s.</string>
+  <string name="tb_resting_heart_rate_avg2">Ø-Ruheherzfrequenz. Höchste: %1$d. Niedrigste: %2$d.</string>
   <string name="tb_select_a_column">%1$s ausgewählt</string>
   <string name="tb_show_sleep_info">Schlafstatistik für %1$s anzeigen</string>
   <string name="tb_sleep_evaluation">Geschätztes Ergebnis: %1$s</string>
