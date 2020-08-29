@@ -1,44 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-
-  <string name="delete_dailog_confirm_msg_wear">%1$s jetzt löschen?</string>
-  <string name="delete_wear_data_toast">Daten löschen, die von %1$s bereitgestellt werden nicht möglich</string>
-  <string name="exercise_remind_content_improve_goal">Gesünder bleiben, indem Sie Ihr Aktivitätsziel schrittweise erhöhen</string>
-  <string name="exercise_remind_content_lower_goal">Motiviert bleiben, indem Sie sich Ziele setzen, die Sie erreichen können</string>
-  <string name="exercise_remind_title_improve_goal">Ein höheres Ziel setzen</string>
-  <string name="exercise_remind_title_lower_goal">Ein realistisches Ziel setzen</string>
-  <string name="hr_choose_detect_state">Den Zustand bei der Erkennung auswählen.</string>
-  <string name="hr_detect">Pulserkennung</string>
-  <string name="hr_detect_desc">Durch Blitzlampe als Dauerlichtquelle, Telefonkamera zur Erfassung von Blutflussänderungen, durch Bildanalyse kann stabiles Pulswellensignal erfasst werden, wissenschaftliche Pulserfassung</string>
-  <string name="hr_detect_finished">Erkennung abgeschlossen</string>
-  <string name="hr_detect_principle_desc_1">Durch die Blitzlampe neben der Kamera als Dauerlichtquelle liegt der Finger sanft an der Kamera, kann das Blutflussbild erhalten, kann durch die Bildanalyse das stabile Pulswellensignal erfassen und so den Pulswert ermitteln.</string>
-  <string name="hr_detect_principle_desc_2">Durch eine große Anzahl von Experimenten liegt der Pulsfehlerwert innerhalb von +/- 2.</string>
-  <string name="hr_detect_principle_desc_3">Da es sich bei der Kamera und dem Blitz um nicht professionelle Aufnahmegeräte handelt, wird empfohlen, mehrfach zu messen und zu beobachten.</string>
-  <string name="hr_detect_principle_title">Prinzip der Pulskennung</string>
-  <string name="hr_detect_report_title">Testbericht</string>
-  <string name="hr_detect_state_after_activity">Nach der Übung</string>
-  <string name="hr_detect_state_after_activity_desc">Messen unmittelbar nach der Übung</string>
-  <string name="hr_detect_state_regular">Allgemeiner Status</string>
-  <string name="hr_detect_state_regular_desc">Tägliche Arbeit und Studienstatus</string>
-  <string name="hr_detect_state_reseting">Ruhender Zustand</string>
-  <string name="hr_detect_state_reseting_desc">Einfach aufwachen oder völlig entspannt</string>
-  <string name="hr_disturb_detect">Erkennung unterbrechen</string>
-  <string name="hr_disturb_detect_desc">Erneuter Test, bitte während des Prozesses still halten</string>
-  <string name="hr_in_detect">Bitte Ihre Finger während des Tests nicht loslassen</string>
-  <string name="hr_measure_heart_rate">Puls messen</string>
-  <string name="hr_open_permission_desc">Mi Health benötigt Kameraberechtigungen, um Änderungen des Blutflusses zur Pulserkennung zu erhalten. Sind Sie damit einverstanden?</string>
-  <string name="hr_open_permission_title">Bitte die entsprechenden Berechtigungen öffnen</string>
-  <string name="hr_phone_detect_records">Telefonerkennungsaufzeichnung</string>
-  <string name="hr_pre_detect">Bitte Ihre Finger benutzen, um die Kamera und den Blitz zur Erkennung vollständig abzudecken</string>
-  <string name="hr_pre_detect_finger">Den Finger abtasten</string>
-  <string name="hr_pre_detect_finger_desc">Finger abdecken wird erkannt. Bitte nicht loslassen.</string>
-  <string name="hr_see_report">Bericht anzeigen</string>
-  <string name="hr_start_detect">Erfahrung starten</string>
-  <string name="inquire_recover_data">Gesundheitsdaten jetzt wiederherstellen?</string>
-  <string name="inquire_recover_data_subtitle">Sieht so aus, als wären Gesundheitsdaten mit Ihrem Mi-Konto (%1$s) verbunden. Jetzt die Synchronisierung mit der Cloud einschalten und Daten wiederherstellen?</string>
-  <string name="open_sync_and_enter_app">Synchronisierung einschalten</string>
-  <string name="welcome_back">Willkommen zurück!</string>
-
   <string name="abc_action_bar_home_description">Zur Startseite</string>
   <string name="abc_action_bar_up_description">Nach oben</string>
   <string name="abc_action_menu_overflow_description">Mehr Optionen</string>
@@ -48,7 +9,7 @@
   <string name="abc_capital_off">AUS</string>
   <string name="abc_capital_on">EIN</string>
   <string name="abc_search_hint">Suchen…</string>
-  <string name="abc_searchview_description_clear">Anfrage löschen</string>
+  <string name="abc_searchview_description_clear">Suchanfrage löschen</string>
   <string name="abc_searchview_description_query">Suchanfrage</string>
   <string name="abc_searchview_description_search">Suchen</string>
   <string name="abc_searchview_description_submit">Anfrage absenden</string>
@@ -269,6 +230,7 @@ Wenn Sie sich entscheiden, Ihre Gesundheitsdaten zu löschen, nachdem Sie sich e
   <string name="delete_all_data_sources_description">Alle hinzugefügten Datenquellen löschen?</string>
   <string name="delete_avatar">Aktuelles Foto löschen</string>
   <string name="delete_contact">Löschen</string>
+  <string name="delete_dailog_confirm_msg_wear">%1$s jetzt löschen?</string>
   <string name="delete_data_source">Datenquelle löschen</string>
   <string name="delete_dialog_close_sync_msg">Um %1$s zu löschen, zuerst die Synchronisation auf dem entsprechenden Gerät ausschalten</string>
   <string name="delete_dialog_confirm_msg_cloud">%1$s zusammen mit den zugehörigen Daten auf diesem Gerät und in der Cloud löschen?</string>
@@ -276,6 +238,7 @@ Wenn Sie sich entscheiden, Ihre Gesundheitsdaten zu löschen, nachdem Sie sich e
   <string name="delete_menstruation_record_confirm">Diese Aufzeichnung löschen?</string>
   <string name="delete_origin_data_description">Alle von %1$s generierten Daten löschen?</string>
   <string name="delete_record">Aufnahme löschen</string>
+  <string name="delete_wear_data_toast">Daten löschen, die von %1$s bereitgestellt werden nicht möglich</string>
   <string name="detection_has_no_data">Keine Daten</string>
   <string name="detection_not_start">Noch nicht begonnen</string>
   <string name="detection_not_start_detail">Nicht so lange aufbleiben</string>
@@ -369,6 +332,7 @@ Lesen Sie unsere &lt;font color=\"#0000FF\">&lt;a href=\"%1$s\">Nutzervereinbaru
   <string name="evening">Nachmittag</string>
   <string name="every_day">Jeden Tag</string>
   <string name="excessive">Zu viel</string>
+  <string name="exercise">Aktivität</string>
   <string name="exercise_consume">%1$d kcal verbrannt</string>
   <string name="exercise_consume_description">Nach den Ernährungsrichtlinien für chinesische Einwohner sollte die tägliche körperliche Aktivität mehr als 15 %% des gesamten Energieverbrauchs ausmachen. Die für die tägliche körperliche Aktivität aufgewendete Energie wird hier zusammengefasst, beinhaltet jedoch nicht den Grundumsatz des Stoffwechsels. Wenn Sie Bedenken hinsichtlich der Gewichtskontrolle haben, müssen Sie sich auch auf die Energieaufnahme konzentrieren.</string>
   <string name="exercise_consume_exercise_description">Die Übungsdauer ist die Zeit, die für Aktivitäten mittlerer und hoher Intensität aufgewendet wird. Nach Angaben der chinesischen Gesundheitsbehörden sollte die wöchentliche Bewegungsdauer mindestens 150 Minuten betragen. Die Zeit, die für hochintensive Aktivitäten wie zügiges Gehen (Trittfrequenz von mehr als 100 Schritten pro Minute), Laufen und Treppensteigen aufgewendet wird, wird zu Ihrer Übungsdauer addiert.</string>
@@ -406,6 +370,12 @@ Wenn Ihr Gerät hier aufgeführt ist, können Sie Datenquellen manuell in Xiaomi
   <string name="exercise_recog_confirm_run">Waren Sie zwischen %1$s und %2$s laufen?</string>
   <string name="exercise_recog_confirm_stair_climb">Sind Sie zwischen %1$s und %2$s Treppen gestiegen?</string>
   <string name="exercise_recog_confirm_walk">Waren Sie zwischen %1$s und %2$s spazieren?</string>
+  <string name="exercise_record">Workout-Verlauf</string>
+  <string name="exercise_record_no_data">Hier noch keine Elemente vorhanden</string>
+  <string name="exercise_remind_content_improve_goal">Gesünder bleiben, indem Sie Ihr Aktivitätsziel schrittweise erhöhen</string>
+  <string name="exercise_remind_content_lower_goal">Motiviert bleiben, indem Sie sich Ziele setzen, die Sie erreichen können</string>
+  <string name="exercise_remind_title_improve_goal">Ein höheres Ziel setzen</string>
+  <string name="exercise_remind_title_lower_goal">Ein realistisches Ziel setzen</string>
   <string name="exercise_reminder_accomplished">Sie haben Ihr Ziel erreicht!</string>
   <string name="exercise_reminder_title">Aktivitätserinnerung</string>
   <string name="exercise_reminder_unaccomplished">Sie haben Ihr Ziel noch nicht erreicht. Weiter so!</string>
@@ -414,11 +384,12 @@ Wenn Ihr Gerät hier aufgeführt ist, können Sie Datenquellen manuell in Xiaomi
   <string name="exercise_result_reminder_title_unaccomplished">Heutiger Schrittzähler: %1$d. Sie können das Ziel noch erreichen!</string>
   <string name="exercise_setting_label_reach_standard_remind">Aktivitätsalarm</string>
   <string name="exercise_setting_page_title">Aktivitätseinstellungen</string>
+  <string name="exercise_speed">Geschwindigkeit</string>
   <string name="exercise_strokes">Anzahl der Serien</string>
   <string name="exercise_sum">Übungsbericht</string>
   <string name="exercise_time">Dauer</string>
-  <string name="expand_all">Alle anzeigen</string>  
   <string name="exercise_walk_description">Nach den Ernährungsrichtlinien für chinesische Einwohner sollte die aktive körperliche Betätigung mindestens 40 Minuten pro Tag dauern, was dem Gehen von 6000 Schritten entspricht. Die Schritte, die Sie jeden Tag machen, um zu gehen, zu laufen und nach oben zu gehen, sind hier zusammengefasst.</string>
+  <string name="expand_all">Alle anzeigen</string>  
   <string name="expand_button_title">Erweitert</string>
   <string name="exposed_dropdown_menu_content_description">Dropdown-Menü anzeigen</string>
   <string name="fall_sleep_hard">Einschlafprobleme</string>
@@ -508,8 +479,35 @@ Wenn es für Sie nach 30 Minuten im Bett immer noch schwierig ist, einzuschlafen
   <string name="home_tip_sync_immediately">Einige Elemente wurden nicht synchronisiert. Tippen, um jetzt zu synchronisieren.</string>
   <string name="home_tip_syncing">Gesundheitsdaten synchronisieren…</string>
   <string name="hour">Std</string>
+  <string name="hr_choose_detect_state">Den Zustand bei der Erkennung auswählen.</string>
+  <string name="hr_detect">Pulserkennung</string>
+  <string name="hr_detect_desc">Durch Blitzlampe als Dauerlichtquelle, Telefonkamera zur Erfassung von Blutflussänderungen, durch Bildanalyse kann stabiles Pulswellensignal erfasst werden, wissenschaftliche Pulserfassung</string>
+  <string name="hr_detect_finished">Erkennung abgeschlossen</string>
+  <string name="hr_detect_principle_desc_1">Durch die Blitzlampe neben der Kamera als Dauerlichtquelle liegt der Finger sanft an der Kamera, kann das Blutflussbild erhalten, kann durch die Bildanalyse das stabile Pulswellensignal erfassen und so den Pulswert ermitteln.</string>
+  <string name="hr_detect_principle_desc_2">Durch eine große Anzahl von Experimenten liegt der Pulsfehlerwert innerhalb von +/- 2.</string>
+  <string name="hr_detect_principle_desc_3">Da es sich bei der Kamera und dem Blitz um nicht professionelle Aufnahmegeräte handelt, wird empfohlen, mehrfach zu messen und zu beobachten.</string>
+  <string name="hr_detect_principle_title">Prinzip der Pulskennung</string>
+  <string name="hr_detect_report_title">Testbericht</string>
+  <string name="hr_detect_state_after_activity">Nach der Übung</string>
+  <string name="hr_detect_state_after_activity_desc">Messen unmittelbar nach der Übung</string>
+  <string name="hr_detect_state_regular">Allgemeiner Status</string>
+  <string name="hr_detect_state_regular_desc">Tägliche Arbeit und Studienstatus</string>
+  <string name="hr_detect_state_reseting">Ruhender Zustand</string>
+  <string name="hr_detect_state_reseting_desc">Einfach aufwachen oder völlig entspannt</string>
+  <string name="hr_disturb_detect">Erkennung unterbrechen</string>
+  <string name="hr_disturb_detect_desc">Erneuter Test, bitte während des Prozesses still halten</string>
   <string name="hr_heart_rate_unit">Puls (BPM)</string>
+  <string name="hr_in_detect">Bitte Ihre Finger während des Tests nicht loslassen</string>
   <string name="hr_input_heart_rate">Puls aufzeichnen</string>
+  <string name="hr_measure_heart_rate">Puls messen</string>
+  <string name="hr_open_permission_desc">Mi Health benötigt Kameraberechtigungen, um Änderungen des Blutflusses zur Pulserkennung zu erhalten. Sind Sie damit einverstanden?</string>
+  <string name="hr_open_permission_title">Bitte die entsprechenden Berechtigungen öffnen</string>
+  <string name="hr_phone_detect_records">Telefonerkennungsaufzeichnung</string>
+  <string name="hr_pre_detect">Bitte Ihre Finger benutzen, um die Kamera und den Blitz zur Erkennung vollständig abzudecken</string>
+  <string name="hr_pre_detect_finger">Den Finger abtasten</string>
+  <string name="hr_pre_detect_finger_desc">Finger abdecken wird erkannt. Bitte nicht loslassen.</string>
+  <string name="hr_see_report">Bericht anzeigen</string>
+  <string name="hr_start_detect">Erfahrung starten</string>
   <string name="hr_state_active">Aktiv</string>
   <string name="hr_state_fast">Schnell</string>
   <string name="hr_state_regular">Regelmäßig</string>
@@ -522,6 +520,8 @@ Wenn es für Sie nach 30 Minuten im Bett immer noch schwierig ist, einzuschlafen
   <string name="indoor_rinding">Radfahren drinnen</string>
   <string name="indoor_running">Laufband</string>
   <string name="input_body_weight">Gewichtsdaten eingeben, um eine Gesundheitsberatung zu erhalten</string>
+  <string name="inquire_recover_data">Gesundheitsdaten jetzt wiederherstellen?</string>
+  <string name="inquire_recover_data_subtitle">Sieht so aus, als wären Gesundheitsdaten mit Ihrem Mi-Konto (%1$s) verbunden. Jetzt die Synchronisierung mit der Cloud einschalten und Daten wiederherstellen?</string>
   <string name="instructions_provider">Verfügbare Anweisungen von Miao Health</string>
   <string name="insufficient">Zu wenig ☹️!</string>
   <string name="jump_over">Überspringen</string>
@@ -606,6 +606,8 @@ Wenn es für Sie nach 30 Minuten im Bett immer noch schwierig ist, einzuschlafen
   <string name="member_name_select_purpose2">Benutzername zum Synchronisieren der Gesundheitsdaten wählen</string>
   <string name="menses_auto_start_description">Xiaomi Health wird automatisch durch Einschalten von Erinnerungen gestartet</string>
   <string name="menses_features_description">Ihre Perioden erfassen und Erinnerungen erhalten</string>
+  <string name="menstrual_assistant">Menstruation</string>
+  <string name="menstruation">Menstruation</string>
   <string name="menstruation_cycle">Menstruationszyklus</string>
   <string name="menstruation_cycle_description">Intervall zwischen den Startdaten von 2 aufeinander folgenden Zyklen</string>
   <string name="menstruation_days">Periodendauer</string>
@@ -721,6 +723,7 @@ Wenn es für Sie nach 30 Minuten im Bett immer noch schwierig ist, einzuschlafen
   <string name="open_stand_assistant">Tippen, um Stehassistent zu öffnen</string>
   <string name="open_swimming">Schwimmen im offenen Wasser</string>
   <string name="open_sync">Synchronisation einschalten</string>
+  <string name="open_sync_and_enter_app">Synchronisierung einschalten</string>
   <string name="open_unrestricted_permissions">Xiaomi Health immer im Hintergrund laufen lassen, um den Schlaf genauer zu verfolgen</string>
   <string name="organ_donation_volunteer">Freiwillige Organspende</string>
   <string name="origin">Herkunft</string>
@@ -743,6 +746,7 @@ Wenn es für Sie nach 30 Minuten im Bett immer noch schwierig ist, einzuschlafen
   <string name="picker_month">Ausgewählter Monat: %1$d. Zum Auswählen vertikal wischen.</string>
   <string name="picker_year">Ausgewähltes Jahr: %1$d. Zum Auswählen vertikal wischen.</string>
   <string name="play">Spielen</string>
+  <string name="pm">PM</string>
   <string name="pool_swimming">Im Pool schwimmen</string>
   <string name="predict_menstruation">Erwartete Periode</string>
   <string name="preference_about">Über</string>
@@ -982,7 +986,7 @@ nicht gefunden"</string>
   <string name="snore_detection_guide_two_description">Mikrofon wird je nach Ihrer Schlafzeit ein- und ausgeschaltet.</string>
   <string name="snore_detection_guide_two_title">Töne automatisch erkennen</string>
   <string name="snore_detection_model_hint">" Algorithmen zur Schnarch- und Sprecherkennung, bereitgestellt
- durch Snail Sleep"</string>
+durch Snail Sleep"</string>
   <string name="snore_detection_normal_notification_title">Schnarch- und Sprecherkennung</string>
   <string name="snore_detection_notification_content">Mikrofon ist an. Es arbeitet im Hintergrund weiter.</string>
   <string name="snore_detection_notification_title">Schlaftest wird durchgeführt</string>
@@ -1025,9 +1029,9 @@ nicht gefunden"</string>
   <string name="solar_term_white_dews">Weißer Tau</string>
   <string name="solar_term_winter_begins">Winteranfang</string>
   <string name="solar_term_winter_solstice">Wintersonnenwende</string>
+  <string name="splash_edit_basic_save_btn">Weiter</string>
   <string name="splash_header_subtitle">"Regelmäßige Bewegung und Schlaf
 können Ihre Gesundheit verbessern."</string>
-  <string name="splash_edit_basic_save_btn">Weiter</string>
   <string name="splash_header_title">Globale Gesundheitsbehörden sagen:</string>
   <string name="splash_next_btn">Basisinfos eingeben</string>
   <string name="splash_title">"In Xiaomi Health können Sie Ihre Aktivitätsziele setzen
@@ -1361,6 +1365,7 @@ Jetzt aktualisieren?"</string>
   <string name="weight_setting">Gewichteinstellungen</string>
   <string name="weight_trend_offset_date">"Von %1$s bis %2$s: "</string>
   <string name="weight_unit_kg">kg</string>
+  <string name="welcome_back">Willkommen zurück!</string>
   <string name="welcome_exercise">Workouts verfolgen</string>
   <string name="welcome_exercise_description">Tragen Sie Ihr Gerät bei sich, um das Workout automatisch zu verfolgen</string>
   <string name="welcome_sedentary">In Bewegung bleiben</string>
