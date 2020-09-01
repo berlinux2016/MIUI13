@@ -1,21 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-
-  <string name="backup_action_buy_cloud_space">Mehr Speicherplatz erhalten</string>
-  <string name="backup_action_check_network">Netzwerkeinstellungen prüfen</string>
-  <string name="backup_action_clean_disk_space">Platz freigeben</string>
-  <string name="backup_action_retry_now">Erneut versuchen</string>
-  <string name="backup_remind_buy_cloud_space">Ihre Cloud-Speicherlimit erweitern</string>
-  <string name="backup_remind_clean_disk_space">Speicherplatz freigeben</string>
-  <string name="backup_remind_cloud_space_cost">Sicherungsgröße: %s</string>
-  <string name="backup_warning_reason_cloud_space_not_enough">Zurück nicht möglich</string>
-  <string name="backup_warning_reason_disk_space_not_enough">"Nicht genügend Speicherplatz
-vorhanden, sichern nicht möglich "</string>
-  <string name="backup_warning_reason_network_error">"Netzwerkfehler,
-sichern nicht möglich"</string>
-  <string name="backup_warning_reason_no_server_response">"Verbindung wurde unterbrochen,
-erneut versuchen"</string>
-
   <string name="abc_action_bar_home_description">Zur Startseite</string>
   <string name="abc_action_bar_up_description">Nach oben</string>
   <string name="abc_action_menu_overflow_description">Mehr Optionen</string>
@@ -36,6 +20,7 @@ erneut versuchen"</string>
   <string name="about_to_recover">Einen Moment…</string>
   <string name="app_is_running">App läuft…</string>
   <string name="app_name">Xiaomi Cloud-Sicherung</string>
+   <string name="backup_remind_buy_cloud_space">Ihre Cloud-Speicherlimit erweitern</string>
   <string name="arrange_restore_order">Apps neu ordnen…</string>
   <string name="as_new_device">Vorherige Einstellungen und Startbildschirm ersetzen</string>
   <string name="as_new_device_summary">Vorherige Xiaomi Cloud-Sicherungen löschen</string>
@@ -43,18 +28,31 @@ erneut versuchen"</string>
   <string name="back_up_task_in_process">Sichern…</string>
   <string name="back_up_task_unfinished">Sicherung nicht vollständig</string>
   <string name="backing_up_to_micloud">Sichern…</string>
+  <string name="backup_action_buy_cloud_space">Mehr Speicherplatz erhalten</string>
+  <string name="backup_action_check_network">Netzwerkeinstellungen prüfen</string>
+  <string name="backup_action_clean_disk_space">Platz freigeben</string>
+  <string name="backup_action_retry_now">Erneut versuchen</string>
   <string name="backup_fail_wifi_needed">Sicherung fehlgeschlagen, WLAN benötigt</string>
   <string name="backup_failed_reason_cloud_space_not_enough">Nicht mehr genug Cloud-Speicher vorhanden, um diese Sicherung zu speichern. Erweitern Sie Ihr Limit oder geben Sie Cloud-Speicherplatz frei.</string>
   <string name="backup_failed_reason_disk_space_not_enough">Nicht genügend Speicherplatz. Erst Speicherplatz freigeben.</string>
-  <string name="backup_failed_reason_network_error">Ihre Netzwerkeinstellungen überprüfen und erneut versuchen</string>
+  <string name="backup_failed_reason_network_error">Netzwerkeinstellungen prüfen und erneut versuchen</string>
   <string name="backup_finished_notification_content">Startbildschirm, Systemeinstellungen etc. wurden gesichert</string>
   <string name="backup_now">Jetzt sichern</string>
+  <string name="backup_remind_clean_disk_space">Speicherplatz freigeben</string>
+  <string name="backup_remind_cloud_space_cost">Sicherungsgröße: %s</string>
   <string name="backup_size">Größe: %s</string>
   <string name="backup_stopped_msg">Aktuelle Sicherung überschreibt die vorherige. Tippen zum Anzeigen.</string>
   <string name="backup_stopped_title">Sicherung wurde gestoppt</string>
   <string name="backup_success">App-Sicherung erfolgreich</string>
   <string name="backup_successfully">Erfolgreich gesichert</string>
   <string name="backup_to_cloud">App sichern</string>
+  <string name="backup_warning_reason_cloud_space_not_enough">Zurück nicht möglich</string>
+  <string name="backup_warning_reason_disk_space_not_enough">"Nicht genügend Speicherplatz
+vorhanden, sichern nicht möglich "</string>
+  <string name="backup_warning_reason_network_error">"Netzwerkfehler,
+sichern nicht möglich"</string>
+  <string name="backup_warning_reason_no_server_response">"Verbindung wurde unterbrochen,
+erneut versuchen"</string>
   <string name="btn_back">Zurück</string>
   <string name="btn_continue">Fortfahren</string>
   <string name="btn_restore_abort">Abbrechen</string>
