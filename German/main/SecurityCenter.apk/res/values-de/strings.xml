@@ -1,5 +1,45 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+
+  <string name="charger_detect_button_ok">Got it</string>
+  <string name="charger_detect_info1">Check whether the power adapter and cable are properly connected.</string>
+  <string name="charger_detect_info2">"Charging may also slow down if you're using non-standard or old power adapters and cables."</string>
+  <string name="charger_detect_no_remind">"Don't show again"</string>
+  <string name="charger_detect_title">Charging is slow</string>
+  <string name="function_auto_reject_detail">"About this feature:
+1. While you're playing games, all incoming calls to the SIM card without mobile data service will be rejected automatically.
+2. You'll see notifications about missed calls and the other person will hear an audio message saying that you're busy at the moment.
+3. This feature is only supported by mobile carriers in China."</string>
+  <string name="function_auto_reject_title">Reject VoLTE calls to SIM cards without data service</string>
+  <string name="vb_fps_settings">Auto refresh rate</string>
+  <string name="vb_fps_settings_tips">This feature adjusts screen refresh rate to video frame rate, which saves battery and makes playback smooth. Turning on floating comments will turn off auto refresh rate.</string>
+
+  <string name="auto_send_correcting_msg">未填写系统将自动发送短信校验</string>
+  <string name="auto_set_by_brand">根据您的品牌自动设置流量及免流信息</string>
+  <string name="continue_set">继续设置</string>
+  <string name="day_overflow_tips">每日流量超出提示阀值</string>
+  <string name="fixed_package_tips">每月享有固定流量，超出将产生额外扣费</string>
+  <string name="fixed_traffic_quota">固定流量额度（选填）</string>
+  <string name="get_detail_by_click">点击查看详情</string>
+  <string name="go_to_send">去发送</string>
+  <string name="ignore_special_app">所选应用所消耗流量不计入套餐流量</string>
+  <string name="limit_speed_by_quota">流量不限量使用，超出阀值会降速</string>
+  <string name="make_sure_package_type">确认您的流量类型</string>
+  <string name="no_limit_by_month">每月无限流量</string>
+  <string name="number_address">号码归属地</string>
+  <string name="operator_name_virtual_operator">虚拟运营商</string>
+  <string name="priority_statistics_fixed_traffic">若套餐中包含每月固定流量将优先统计该流量</string>
+  <string name="select_province_and_city">请选择省市</string>
+  <string name="send_msg_to_query">帮您免费发送短信进行查询</string>
+  <string name="set_complete">设置完成</string>
+  <string name="set_location">设置归属地</string>
+  <string name="set_package_tips">系统将向运营商发送免费短信为您校正流量信息，同时将加密上传您所填写的信息用于获取校正短信模板。</string>
+  <string name="set_package_tips_detail">您所填写的运营商信息、手机号、IMEI号及小米账号将加密上传至小米公司服务器。</string>
+  <string name="set_traffic_tips">设置套餐能够帮助您更有效的查看和管理流量的使用，防止超出套餐产生额外的费用。</string>
+  <string name="traffic_calculation">流量按天计算，如1元/1GB/天</string>
+  <string name="traffic_limit_input">流量预警限额（选填）</string>
+  <string name="unknown_package">不清楚自己的套餐是什么？</string>
+
   <string name="HIPS_Perm_Bluetooth_Connectivity_Desc">Ein- und Ausschalten von Bluetooth</string>
   <string name="HIPS_Perm_CallLog_Desc">Anrufliste schreiben und löschen</string>
   <string name="HIPS_Perm_Call_Desc">Telefonnummern direkt anrufen</string>
