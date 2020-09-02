@@ -1,44 +1,44 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
 
-  <string name="charger_detect_button_ok">Got it</string>
-  <string name="charger_detect_info1">Check whether the power adapter and cable are properly connected.</string>
-  <string name="charger_detect_info2">"Charging may also slow down if you're using non-standard or old power adapters and cables."</string>
-  <string name="charger_detect_no_remind">"Don't show again"</string>
-  <string name="charger_detect_title">Charging is slow</string>
-  <string name="function_auto_reject_detail">"About this feature:
-1. While you're playing games, all incoming calls to the SIM card without mobile data service will be rejected automatically.
-2. You'll see notifications about missed calls and the other person will hear an audio message saying that you're busy at the moment.
-3. This feature is only supported by mobile carriers in China."</string>
-  <string name="function_auto_reject_title">Reject VoLTE calls to SIM cards without data service</string>
-  <string name="vb_fps_settings">Auto refresh rate</string>
-  <string name="vb_fps_settings_tips">This feature adjusts screen refresh rate to video frame rate, which saves battery and makes playback smooth. Turning on floating comments will turn off auto refresh rate.</string>
+  <string name="charger_detect_button_ok">Verstanden</string>
+  <string name="charger_detect_info1">Überprüfen Sie, ob Netzadapter und Kabel richtig angeschlossen sind.</string>
+  <string name="charger_detect_info2">Das Aufladen kann sich auch verlangsamen, wenn Sie nicht standardmäßige oder alte Netzteile und Kabel verwenden.</string>
+  <string name="charger_detect_no_remind">Nicht mehr anzeigen</string>
+  <string name="charger_detect_title">Aufladen ist langsam</string>
+  <string name="function_auto_reject_detail">"Über diese Funktion:
+1. Während Sie Spiele spielen, werden alle eingehenden Anrufe auf die SIM-Karte ohne mobilen Datendienst automatisch abgewiesen.
+2. Sie sehen Benachrichtigungen über verpasste Anrufe und die andere Person hört eine Audiobotschaft, die besagt, dass Sie im Moment beschäftigt sind.
+3. Diese Funktion wird nur von Mobilfunkbetreibern in China unterstützt."</string>
+  <string name="function_auto_reject_title">VoLTE-Anrufe an SIM-Karten ohne Datendienst ablehnen</string>
+  <string name="vb_fps_settings">Automatische Aktualisierungsrate</string>
+  <string name="vb_fps_settings_tips">Diese Funktion passt die Bildwiederholrate des Bildschirms an die Videobildfrequenz an, was den Akku schont und eine reibungslose Wiedergabe ermöglicht. Das Einschalten von Popup-Kommentaren schaltet die automatische Aktualisierungsrate ab.</string>
 
-  <string name="auto_send_correcting_msg">未填写系统将自动发送短信校验</string>
-  <string name="auto_set_by_brand">根据您的品牌自动设置流量及免流信息</string>
-  <string name="continue_set">继续设置</string>
-  <string name="day_overflow_tips">每日流量超出提示阀值</string>
-  <string name="fixed_package_tips">每月享有固定流量，超出将产生额外扣费</string>
-  <string name="fixed_traffic_quota">固定流量额度（选填）</string>
-  <string name="get_detail_by_click">点击查看详情</string>
-  <string name="go_to_send">去发送</string>
-  <string name="ignore_special_app">所选应用所消耗流量不计入套餐流量</string>
-  <string name="limit_speed_by_quota">流量不限量使用，超出阀值会降速</string>
-  <string name="make_sure_package_type">确认您的流量类型</string>
-  <string name="no_limit_by_month">每月无限流量</string>
-  <string name="number_address">号码归属地</string>
-  <string name="operator_name_virtual_operator">虚拟运营商</string>
-  <string name="priority_statistics_fixed_traffic">若套餐中包含每月固定流量将优先统计该流量</string>
-  <string name="select_province_and_city">请选择省市</string>
-  <string name="send_msg_to_query">帮您免费发送短信进行查询</string>
-  <string name="set_complete">设置完成</string>
-  <string name="set_location">设置归属地</string>
-  <string name="set_package_tips">系统将向运营商发送免费短信为您校正流量信息，同时将加密上传您所填写的信息用于获取校正短信模板。</string>
-  <string name="set_package_tips_detail">您所填写的运营商信息、手机号、IMEI号及小米账号将加密上传至小米公司服务器。</string>
-  <string name="set_traffic_tips">设置套餐能够帮助您更有效的查看和管理流量的使用，防止超出套餐产生额外的费用。</string>
-  <string name="traffic_calculation">流量按天计算，如1元/1GB/天</string>
-  <string name="traffic_limit_input">流量预警限额（选填）</string>
-  <string name="unknown_package">不清楚自己的套餐是什么？</string>
+  <string name="auto_send_correcting_msg">Wenn nicht ausgefüllt, sendet das System automatisch eine SMS-Bestätigung</string>
+  <string name="auto_set_by_brand">Automatically set flow and free flow information according to your brand</string>
+  <string name="continue_set">Continue setting</string>
+  <string name="day_overflow_tips">Daily flow exceeds the prompt threshold</string>
+  <string name="fixed_package_tips">Enjoy a fixed monthly flow, if you exceed it, you will incur additional deductions</string>
+  <string name="fixed_traffic_quota">Fixed flow quota (optional)</string>
+  <string name="get_detail_by_click">Click for details</string>
+  <string name="go_to_send">To send</string>
+  <string name="ignore_special_app">The data consumed by the selected application is not included in the package data</string>
+  <string name="limit_speed_by_quota">Unlimited use of flow, speed will be reduced if the threshold is exceeded</string>
+  <string name="make_sure_package_type">Confirm your traffic type</string>
+  <string name="no_limit_by_month">Unlimited monthly data</string>
+  <string name="number_address">Number attribution</string>
+  <string name="operator_name_virtual_operator">Virtual operator</string>
+  <string name="priority_statistics_fixed_traffic">If the package includes monthly fixed data, the data will be counted first</string>
+  <string name="select_province_and_city">Please select a province</string>
+  <string name="send_msg_to_query">Help you send SMS for free to check</string>
+  <string name="set_complete">Set up</string>
+  <string name="set_location">Set attribution</string>
+  <string name="set_package_tips">The system will send free SMS to the operator to correct the traffic information for you, and at the same time, the information you fill out will be encrypted and uploaded to obtain the correction SMS template.</string>
+  <string name="set_package_tips_detail">The operator information, mobile phone number, IMEI number and Xiaomi account you filled in will be encrypted and uploaded to the Xiaomi server.</string>
+  <string name="set_traffic_tips">Setting up a package can help you view and manage data usage more effectively, and prevent extra charges from exceeding the package.</string>
+  <string name="traffic_calculation">The traffic is calculated by day, such as 1 yuan/1GB/day</string>
+  <string name="traffic_limit_input">Flow warning limit (optional)</string>
+  <string name="unknown_package">Not sure what your package is?</string>
 
   <string name="HIPS_Perm_Bluetooth_Connectivity_Desc">Ein- und Ausschalten von Bluetooth</string>
   <string name="HIPS_Perm_CallLog_Desc">Anrufliste schreiben und löschen</string>
