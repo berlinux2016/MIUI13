@@ -679,12 +679,20 @@ Wenn Sie nicht zustimmen, die oben genannten Berechtigungen zu erteilen, wird di
   <string name="sns_access_token_expired_warning">Sitzung abgelaufen. Erneut anmelden, um dieses Konto wieder zu verbinden.</string>
   <string name="sns_bind_limit">Zu viele Versuche. Andere Art der Anmeldung probieren.</string>
   <string name="sns_sign_in">Andere Art der Anmeldung</string>
+  <string name="stop_full_log_dialog_cancel">Jetzt nicht</string>
+  <string name="stop_full_log_dialog_confirm">Hochladen</string>
+  <string name="stop_full_log_dialog_content">Sieht aus, als würden jetzt Protokolle erstellt. Erstellen stoppen und die fertigen Protokolle hochladen?</string>
+  <string name="stop_full_log_dialog_title">Protokolle erstellen…</string>
   <string name="submit_dialog_cancel">Nicht zustimmen</string>
   <string name="submit_dialog_confirm">Zustimmen</string>
   <string name="submit_dialog_content"><Data>Ihr Feedback wird zusammen mit Anhängen und Protokollen an MIUI Server gesendet. Es kann persönliche Informationen und Ihre Standortdaten enthalten. \"Zustimmen"\ bedeutet, dass Sie unsere &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Datenschutzerklärung&lt;/a> und &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Nutzervereinbarung&lt;/a> gelesen und akzeptiert haben.</Data></string>
   <string name="submit_dialog_content_global"><Data>Ihr Feedback wird zusammen mit Anhängen (falls vorhanden) und Protokollen (Sie können die Kästchen für die Elemente, die Sie nicht hochladen möchten, deaktivieren) an die MIUI Server gesendet. Informationen über Ihre Threads und Forenaktivitäten werden ebenfalls zur Analyse und weiteren Kommunikation gesammelt. Protokolle können persönliche Informationen und Ihre Standortdaten enthalten. \"Zustimmen"\ bedeutet, dass Sie unsere &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Datenschutzerklärung&lt;/a> und &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Nutzervereinbarung&lt;/a> gelesen und akzeptiert haben.</Data></string>
   <string name="submit_dialog_title">Bericht senden</string>
   <string name="submit_feedback_info_failed">Bericht senden nicht möglich</string>
+  <string name="suggest_upload_log_dialog_cancel">Nein danke</string>
+  <string name="suggest_upload_log_dialog_confirm">Hochladen</string>
+  <string name="suggest_upload_log_dialog_content">Um unseren Ingenieuren zu helfen, das von Ihnen gefundene Problem so schnell wie möglich zu lokalisieren und zu lösen, empfehlen wir, die entsprechenden Protokolle hochzuladen. Protokolle werden nur zur Problemanalyse und nicht für andere Zwecke verwendet.</string>
+  <string name="suggest_upload_log_dialog_title">Entsprechende Protokolle hochladen</string>
   <string name="suggestion_description">Hier Beschreibung ergänzen</string>
   <string name="system_app_select">System-Apps</string>
   <string name="systemui">Benachrichtigungsleiste</string>
@@ -708,7 +716,7 @@ Wenn Sie nicht zustimmen, die oben genannten Berechtigungen zu erteilen, wird di
   <string name="toast_app_tag_required">Erst Problem auswählen</string>
   <string name="toast_catch_full_log_catching">Sie können immer nur ein Protokoll auf einmal erstellen.</string>
   <string name="toast_catch_full_log_open_failed">Aufzeichnung des Protokolls wurde nicht gestartet</string>
-  <string name="toast_description_required">Beschreibung erforderlich</string>
+  <string name="toast_description_required">Beschreiben Sie zunächst das Problem</string>
   <string name="toast_feedback_collect_store">Protokollierung…</string>
   <string name="toast_feedback_network_unavailable">Netzwerkverbindung nicht möglich</string>
   <string name="toast_feedback_pending_wlan">Bericht wird gesendet, wenn Sie mit WLAN verbunden sind</string>
@@ -720,6 +728,7 @@ Wenn Sie nicht zustimmen, die oben genannten Berechtigungen zu erteilen, wird di
   <string name="toast_loading_app_id">Informationen abrufen…</string>
   <string name="toast_log_not_exists">Angefordertes Protokoll wurde gelöscht oder existiert nicht</string>
   <string name="toast_log_too_large">Upload fehlgeschlagen, Protokoll ist zu groß.</string>
+  <string name="toast_min_description_count">Ihre Beschreibung sollte länger sein</string>
   <string name="toast_module_required">Zuerst Problem wählen</string>
   <string name="toast_network_unavailable">Senden fehlgeschlagen. Keine Netzwerkverbindung.</string>
   <string name="toast_pending_log_collection">Protokollierung läuft noch…</string>
