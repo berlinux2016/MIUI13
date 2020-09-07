@@ -1,98 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-
-  <string name="account_import_calendar">Kalender importieren</string>
-  <string name="account_manager_delete">Konto löschen</string>
-  <string name="account_manager_delete_calendar_tips">Den mit diesem Konto verbundenen Kalender jetzt löschen?</string>
-  <string name="account_manager_delete_dialog">Dieses Konto jetzt löschen?</string>
-  <string name="account_manager_delete_events">Termine löschen</string>
-  <string name="account_manager_install_email">System-E-Mail installieren</string>
-  <string name="account_manager_install_email_tips">Der E-Mail-Client des Systems wurde deinstalliert. Nach der Neuinstallation des E-Mail-Clients kann das zugehörige Kalenderkonto wiederhergestellt oder ein neues Konto hinzugefügt werden.</string>
-  <string name="account_manager_install_immediately">Jetzt installieren</string>
-  <string name="account_manager_installing">Installation, einen Moment warten…</string>
-  <string name="account_manager_not_display">Nicht anzeigen</string>
-  <string name="account_manager_settings_sync">Synchronisationsrequenz einstellen</string>
-  <string name="account_manager_settings_sync_immediately">Sofort synchronisieren</string>
-  <string name="account_manager_tips">Konto löschen nicht möglich, bitte gehen Sie zum Konto, um einen Löschantrag hinzuzufügen</string>
-  <string name="account_name_calendar">Kalender</string>
-  <string name="account_not_exist">Konto existiert nicht</string>
-  <string name="account_read_only">Ereignis wird in diesem Konto nur gelesen</string>
-  <string name="add_account_success">Erfolgreich hinzugefügt</string>
-  <string name="add_caldav_account">Caldav-Konto hinzufügen</string>
-  <string name="app_name">Kalender</string>
-  <string name="calendar_account_settings">Kontoeinstellungen</string>
-  <string name="calendar_import_source">Pfadquelle</string>
-  <string name="calendar_subscription_group_title">Kalender-Abos</string>
-  <string name="certificate_notification_connection_security">Verbindungssicherheit</string>
-  <string name="certificate_notification_user_interaction">Bitte das Zertifikat überprüfen</string>
-  <string name="display_to_calendar">Im Kalender anzeigen</string>
-  <string name="event_import">Termine importieren</string>
-  <string name="ics_file_not_found">ics-Datei nicht gefunden</string>
-  <string name="ics_import_from_local_file">ics-Datei importieren</string>
-  <string name="ics_import_from_url">Abonnieren von url</string>
-  <string name="import_help">Hilfe</string>
-  <string name="import_text">Importieren</string>
-  <string name="item_view_role_description">Tab</string>
-  <string name="latest_sync_time">Letzte Synchronisationszeit %1$s</string>
-  <string name="library_cert4android_libraryDescription">Bibliothek zur Verwaltung benutzerdefinierter Zertifikate in einem app-privaten Schlüsselspeicher</string>
-  <string name="library_ical4android_libraryDescription">Bibliothek, die iCalendar und Android zusammenführt</string>
-  <string name="loading_ics_files">ics-Dateien laden</string>
-  <string name="login_caldav">Hinzufügen</string>
-  <string name="logining_caldav_account">Adding…</string>
-  <string name="miuix_appcompat_action_mode_deselect_all">Deselect</string>
-  <string name="miuix_appcompat_action_mode_select_all">Select all</string>
-  <string name="miuix_appcompat_action_mode_title_empty">Select items</string>
-  <string name="miuix_appcompat_actionbar_immersion_button_more_description">More</string>
-  <string name="miuix_appcompat_cancel_description">Cancel</string>
-  <string name="miuix_appcompat_confirm_description">Confirm</string>
-  <string name="miuix_appcompat_delete_description">Delete</string>
-  <string name="miuix_appcompat_deselect_all_description">Deselect all</string>
-  <string name="miuix_appcompat_search_action_mode_cancel">Cancel</string>
-  <string name="miuix_appcompat_search_input_description">Search</string>
-  <string name="miuix_appcompat_select_all_description">Select all</string>
-  <string name="mtrl_exceed_max_badge_number_content_description">More than %1$d new notifications</string>
-  <string name="mtrl_slider_range_content_description">%1$s to %2$s</string>
-  <string name="service_rejected_temporarily">Certificate temporarily rejected</string>
-  <string name="setting_import_events">Import events</string>
-  <string name="subscribe_text">Subscribe</string>
-  <string name="summary_import_by_caldav">Support import events from iCloud,lark account</string>
-  <string name="summary_import_by_email">Support Outlook,QQ account etc.</string>
-  <string name="summary_import_by_local">Support ICS calendar file</string>
-  <string name="summary_import_by_url">Support subscribe calendar by url</string>
-  <string name="tip_input_calendar_link">Please input calendar link url</string>
-  <string name="title_import_by_caldav">Import by CalDav account</string>
-  <string name="title_import_by_email">Import by email account</string>
-  <string name="title_import_by_local">Import by local</string>
-  <string name="title_import_by_url">Import by url</string>
-  <string name="toast_block_by_other_work">Wait until the current task is completed and try again</string>
-  <string name="toast_cannot_access_server">"Can't access server"</string>
-  <string name="toast_create_account_failed">"Couldn't create account"</string>
-  <string name="toast_failed_get_server_config">"Can't get account info"</string>
-  <string name="toast_import_failed">Import failed</string>
-  <string name="toast_import_success">Import success</string>
-  <string name="toast_invalid_url">Invalid url</string>
-  <string name="toast_login_by_exchange">Please login by exchange</string>
-  <string name="toast_no_authority">"Can't access account. Check account settings and try again."</string>
-  <string name="toast_sync_failed">Sync failed</string>
-  <string name="toast_sync_success">Sync successfully</string>
-  <string name="trust_certificate_accept">Accept</string>
-  <string name="trust_certificate_fingerprint_verified">I have manually verified the whole fingerprint.</string>
-  <string name="trust_certificate_fingerprints">Fingerprints</string>
-  <string name="trust_certificate_issued_by">Issued by</string>
-  <string name="trust_certificate_issued_for">Issued for</string>
-  <string name="trust_certificate_reject">Reject</string>
-  <string name="trust_certificate_reset_info">You can reset all custom certificates in the app settings.</string>
-  <string name="trust_certificate_unknown_certificate_found">cert4android has encountered an unknown certificate. Do you want to trust it?</string>
-  <string name="trust_certificate_validity_period">Validity period</string>
-  <string name="trust_certificate_validity_period_value">%1$s – %2$s (will not be enforced)</string>
-  <string name="trust_certificate_x509_certificate_details">X509 certificate details</string>
-  <string name="txt_account">Account</string>
-  <string name="txt_account_exist">Account already exist</string>
-  <string name="txt_account_name_empty">Empty account name</string>
-  <string name="txt_caldav_account_info_not_found">"Can't get caldav account info"</string>
-  <string name="txt_password">Password</string>
-  <string name="txt_server_url">Server</string>
-
   <string name="abc_action_bar_home_description">Zur Startseite</string>
   <string name="abc_action_bar_up_description">Nach oben</string>
   <string name="abc_action_menu_overflow_description">Mehr Optionen</string>
@@ -125,6 +32,22 @@
   <string name="accessibility_year_item_selected">Ausgewählter Monat: %d. Tippen, um Monatsansicht zu öffnen.</string>
   <string name="accessibility_year_page_selected">Jahresansicht für %d. Nach links oder rechts wischen, um zwischen den Jahren zu wechseln. Tippen, um Monate auszuwählen.</string>
   <string name="account_and_calendar">Konten</string>
+  <string name="account_import_calendar">Kalender importieren</string>
+  <string name="account_manager_delete">Konto löschen</string>
+  <string name="account_manager_delete_calendar_tips">Den mit diesem Konto verbundenen Kalender jetzt löschen?</string>
+  <string name="account_manager_delete_dialog">Dieses Konto jetzt löschen?</string>
+  <string name="account_manager_delete_events">Termine löschen</string>
+  <string name="account_manager_install_email">System-E-Mail installieren</string>
+  <string name="account_manager_install_email_tips">Der E-Mail-Client des Systems wurde deinstalliert. Nach der Neuinstallation des E-Mail-Clients kann das zugehörige Kalenderkonto wiederhergestellt oder ein neues Konto hinzugefügt werden.</string>
+  <string name="account_manager_install_immediately">Jetzt installieren</string>
+  <string name="account_manager_installing">Installation, einen Moment warten…</string>
+  <string name="account_manager_not_display">Nicht anzeigen</string>
+  <string name="account_manager_settings_sync">Synchronisationsfrequenz einstellen</string>
+  <string name="account_manager_settings_sync_immediately">Sofort synchronisieren</string>
+  <string name="account_manager_tips">Konto löschen nicht möglich, bitte gehen Sie zum Konto, um einen Löschantrag hinzuzufügen</string>
+  <string name="account_name_calendar">Kalender</string>
+  <string name="account_not_exist">Konto existiert nicht</string>
+  <string name="account_read_only">Eintrag wird in diesem Konto nur gelesen</string>
   <string name="accounts">Konten &amp; Synchronisation</string>
   <string name="acct_not_synced">Konto wird nicht synchronisiert. Ihre Kalender sind möglicherweise nicht aktuell.</string>
   <string name="acessibility_selected_marker_description">Ausgewählter Termin</string>
@@ -147,7 +70,9 @@
   <string name="ad_card_open_app">Jetzt öffnen</string>
   <string name="ad_card_spread">Verbreitung</string>
   <string name="ad_card_try">Jetzt probieren</string>
+  <string name="add_account_success">Erfolgreich hinzugefügt</string>
   <string name="add_anniversary">Jahrestag hinzufügen</string>
+  <string name="add_caldav_account">CalDav-Konto hinzufügen</string>
   <string name="add_countdown">Countdown hinzufügen</string>
   <string name="add_event">Eintrag hinzufügen</string>
   <string name="address">Adresse</string>
@@ -166,6 +91,7 @@
   <string name="anniversary_event_title">[Jahrestag]%1$s</string>
   <string name="anniversary_secondary_tag">Jahrestag</string>
   <string name="app_label">Kalender</string>
+  <string name="app_name">Kalender</string>
   <string name="attendees">Teilnehmer</string>
   <string name="birthday_born">Geburtsdatum</string>
   <string name="birthday_calendar_display_name">Geburtstagserinnerungen</string>
@@ -189,8 +115,11 @@
   <string name="button_month">Monat</string>
   <string name="button_week">Woche</string>
   <string name="calculate_result">Ergebnis berechnen</string>
+  <string name="calendar_account_settings">Kontoeinstellungen</string>
+  <string name="calendar_import_source">Pfadquelle</string>
   <string name="calendar_network_error">Netzwerkfehler</string>
   <string name="calendar_refresh">Aktualisieren</string>
+  <string name="calendar_subscription_group_title">Kalender-Abos</string>
   <string name="can_not_create_long_event">Eintrag ist zu lang</string>
   <string name="can_not_modify_allday_event">Ganztägige Einträge können nicht verändert werden</string>
   <string name="can_not_modify_event">Eintrag kann nicht verändert werden</string>
@@ -207,6 +136,8 @@
   <string name="card_manager">Kartenverwaltung</string>
   <string name="card_manager_no_data">Noch keine Abos</string>
   <string name="card_title_change">Änderung</string>
+  <string name="certificate_notification_connection_security">Verbindungssicherheit</string>
+  <string name="certificate_notification_user_interaction">Bitte Zertifikat prüfen</string>
   <string name="change_response_title">Antwort ändern</string>
   <string name="character_counter_content_description">Eingegebene Zeichen: %1$d von %2$d</string>
   <string name="character_counter_overflowed_content_description">Zeichenlimit überschritten: %1$d von %2$d</string>
@@ -277,6 +208,7 @@
   <string name="description_calendar_edit_event">Einstellungen/System-Apps/Kalender/Agenda</string>
   <string name="directory_searching_fmt">%s durchsuchen…</string>
   <string name="discard_label">Abbrechen</string>
+  <string name="display_to_calendar">Im Kalender anzeigen</string>
   <string name="does_not_repeat">Einmaliger Termin</string>
   <string name="done">Fertig</string>
   <string name="download">Download</string>
@@ -353,6 +285,7 @@
   <string name="event_created_text">Erinnerung wurde erstellt</string>
   <string name="event_delete">Termin löschen</string>
   <string name="event_edit">Termin bearbeiten</string>
+  <string name="event_import">Termine importieren</string>
   <string name="event_info_descrip">Beschreibung\u0009\u0009\u0009</string>
   <string name="event_info_end">Ende\u0009\u0009\u0009</string>
   <string name="event_info_jump_to_email">Zur E-Mail</string>
@@ -388,7 +321,6 @@
   <string name="fb_calendar_owner_account">Mi Kalender</string>
 
 <!-- eventuell noch bearbeiten anfang -->
-
   <string name="feed_actionbar_day">Tag</string>
   <string name="feed_close_open_feed">Heute Wichtiges öffnen</string>
   <string name="feed_dislike_reason">Nicht interessiert</string>
@@ -423,7 +355,6 @@
   <string name="feed_tips_see_details">Details anzeigen</string>
   <string name="feed_tips_subscribe_more">Abonnieren Sie weitere Kanäle</string>
   <string name="feed_title">Heute wichtig</string>
-
 <!-- eventuell noch bearbeiten ende -->
 
   <string name="festival_detail_title">Festival</string>
@@ -502,8 +433,13 @@
   <string name="huangli_bad_type">Meiden</string>
   <string name="huangli_good_type">Passend</string>
   <string name="icon_content_description">Dialogsymbol</string>
+  <string name="ics_file_not_found">ICS-Datei nicht gefunden</string>
+  <string name="ics_import_from_local_file">ICS-Datei importieren</string>
+  <string name="ics_import_from_url">Abonnieren von URL</string>
   <string name="import_action">Importieren</string>
   <string name="import_birthday">Geburtstage importieren</string>
+  <string name="import_help">Hilfe</string>
+  <string name="import_text">Importieren</string>
   <string name="imported">Wurden importiert</string>
   <string name="insert_event_dialog_btn_negative">Nein</string>
   <string name="insert_event_dialog_btn_positive">Ja</string>
@@ -517,11 +453,15 @@
   <string name="install_weather_app_loading">Laden…</string>
   <string name="installing_email">Installieren…</string>
   <string name="item_num_selected">%1$d ausgewählt</string>
+  <string name="item_view_role_description">Tab</string>
   <string name="joke_card_click_toast">Lange drücken, um Witze zu kopieren</string>
   <string name="joke_card_icon_text">%1$s Personen lachen</string>
   <string name="joke_card_long_click_toast">Wurde kopiert. Lange drücken, um die Auswahl einzufügen.</string>
   <string name="joke_card_paste_suffix">"[Aus Mi Kalender]"</string>
   <string name="landscape_week_view">Wochenplan im Querformat</string>
+  <string name="latest_sync_time">Letzte Synchronisationszeit %1$s</string>
+  <string name="library_cert4android_libraryDescription">Bibliothek zur Verwaltung benutzerdefinierter Zertifikate in einem app-privaten Schlüsselspeicher</string>
+  <string name="library_ical4android_libraryDescription">Bibliothek, die iCalendar und Android zusammenführt</string>
   <string name="life_assistant_group_title">Assistent</string>
   <string name="life_card_credit_primary">Kreditkartenrückzahlung (Nr. %1$s)</string>
   <string name="life_card_credit_primary_no_account">Kreditkartenrückzahlung</string>
@@ -545,12 +485,15 @@
   <string name="load_more_events_default">Einträge für nächstes Jahr anzeigen</string>
   <string name="load_more_hint">Einträge für %1$d aktualisieren</string>
   <string name="loading">Einen Moment…</string>
+  <string name="loading_ics_files">ICS-Dateien laden</string>
   <string name="loan">Darlehensrückzahlung</string>
   <string name="loan_event_delete_successfully">Darlehensrückzahlungstermin erfolgreich gelöscht</string>
   <string name="loan_event_title">Darlehensrechnung</string>
   <string name="local_calendar_display_name">Lokaler Kalender</string>
   <string name="local_owner_account_name">Lokales Konto</string>
+  <string name="login_caldav">Hinzufügen</string>
   <string name="login_failed_toast">Ich konnte mich nicht anmelden, aktualisieren und erneut versuchen".</string>
+  <string name="logining_caldav_account">Hinzufügen…</string>
   <string name="lottery_blue_ball_tip">Blauer Ball</string>
   <string name="lottery_red_ball_tip">Roter Ball</string>
   <string name="lunar_date">Monddatum</string>
@@ -585,9 +528,20 @@ einstellungen"</string>
   <string name="miuishare_title_share">Teilen</string>
   <string name="miuishare_wechat_timeline_title">WeChat Moments</string>
   <string name="miuishare_weibo_title">Weibo</string>
+  <string name="miuix_appcompat_action_mode_deselect_all">Abwählen</string>
+  <string name="miuix_appcompat_action_mode_select_all">Alle wählen</string>
+  <string name="miuix_appcompat_action_mode_title_empty">Elemente wählen</string>
+  <string name="miuix_appcompat_actionbar_immersion_button_more_description">Mehr</string>
+  <string name="miuix_appcompat_cancel_description">Abbrechen</string>
   <string name="miuix_appcompat_cloud_state_disabled">Synchronisation mit der Cloud ist aus</string>
   <string name="miuix_appcompat_cloud_state_finished">Erfolgreich mit der Cloud synchronisiert</string>
   <string name="miuix_appcompat_cloud_state_syncing">Mit der Cloud synchronisieren…</string>
+  <string name="miuix_appcompat_confirm_description">Bestätigen</string>
+  <string name="miuix_appcompat_delete_description">Löschen</string>
+  <string name="miuix_appcompat_deselect_all_description">Alle abwählen</string>
+  <string name="miuix_appcompat_search_action_mode_cancel">Abbrechen</string>
+  <string name="miuix_appcompat_search_input_description">Suchen</string>
+  <string name="miuix_appcompat_select_all_description">Alle wählen</string>
   <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Zum Aktualisieren herunterziehen</string>
   <string name="miuix_sbl_tracking_progress_labe_refreshed">Erfolgreich aktualisiert</string>
   <string name="miuix_sbl_tracking_progress_labe_refreshing">Aktualisieren</string>
@@ -655,6 +609,7 @@ einstellungen"</string>
   <string name="movie_event_title">Film:</string>
   <string name="mtrl_badge_numberless_content_description">Neue Benachrichtigung</string>
   <string name="mtrl_chip_close_icon_content_description">%1$s entfernen</string>
+  <string name="mtrl_exceed_max_badge_number_content_description">Mehr als %1$d neue Benachrichtigungen</string>
   <string name="mtrl_picker_a11y_next_month">Zum nächsten Monat wechseln</string>
   <string name="mtrl_picker_a11y_prev_month">Zum Vormonat wechseln</string>
   <string name="mtrl_picker_announce_current_selection">Aktuelle Auswahl: %1$s</string>
@@ -679,6 +634,7 @@ einstellungen"</string>
   <string name="mtrl_picker_toggle_to_day_selection">Tippen, um zur Tagesauswahl zu wechseln</string>
   <string name="mtrl_picker_toggle_to_text_input_mode">Zum Texteingabemodus wechseln</string>
   <string name="mtrl_picker_toggle_to_year_selection">Tippen, um zur Jahresauswahl zu wechseln</string>
+  <string name="mtrl_slider_range_content_description">%1$s bis %2$s</string>
   <string name="n_day_before">Tag davor</string>
   <string name="n_day_later">Tag danach</string>
   <string name="n_week_first">1.</string>
@@ -839,6 +795,7 @@ einstellungen"</string>
   <string name="select_date">Datum auswählen</string>
   <string name="select_synced_calendars_title">Zu synchronisierender Kalender</string>
   <string name="select_today_tip">Heute</string>
+  <string name="service_rejected_temporarily">Zertifikat vorübergehend abgelehnt</string>
   <string name="setting">Einstellungen</string>
   <string name="setting_about_calendar_version">Kalenderversion: %1$s-%2$s</string>
   <string name="setting_about_imei">IMEI: %1$s</string>
@@ -861,6 +818,7 @@ einstellungen"</string>
   <string name="setting_holiday_reminder">Feiertagserinnerung</string>
   <string name="setting_homepage">Startseitenansicht</string>
   <string name="setting_huangli">Huangli</string>
+  <string name="setting_import_events">Einträge importieren</string>
   <string name="setting_others">Andere</string>
   <string name="setting_recommend">Empfehlung</string>
   <string name="setting_recommend_summary">Abo-Empfehlungen auf Startseite</string>
@@ -873,7 +831,6 @@ einstellungen"</string>
   <string name="setting_title_limit_card_desc">Als Limitkarte auf der Startseite des Kalenders benötigt der Dienst eine Internetverbindung</string>
 
 <!-- noch bearbeiten anfang -->
-
   <string name="setting_title_limit_card_display">Limitservice anzeigen</string>
   <string name="setting_title_lottery_card_desc">Lottery draw card located on the calendar homepage, the service needs to be networked/Lotterielos auf der Kalenderhomepage, der Service muss vernetzt werden</string>
   <string name="setting_title_lottery_card_display">Lotterieservice</string>
@@ -881,7 +838,6 @@ einstellungen"</string>
   <string name="setting_title_shift_card_display">Show shift assistant/Schaltassistent anzeigen/Einrichtungsassistent anzeigen</string>
   <string name="setting_title_weather_card_desc">Wetterinformationen auf der rechten Seite der Mondkarte</string>
   <string name="setting_title_weather_card_display">Wetterdienst anzeigen</string>
-
 <!-- noch bearbeiten ende -->
 
   <string name="setting_title_yiji_display">Yiji-Bogey Kalender anzeigen</string>
@@ -939,7 +895,12 @@ Sie können auch Erinnerungen einrichten, damit Sie nichts verpassen."</string>
   <string name="subscribe_channel_subscribe">Abonnieren</string>
   <string name="subscribe_channel_subscribing">Abonnieren</string>
   <string name="subscribe_channel_title">Kanal</string>
+  <string name="subscribe_text">Abonnieren</string>
   <string name="subscribing_card">Jetzt abonnieren</string>
+  <string name="summary_import_by_caldav">Unterstützt den Import von Einträgen aus iCloud, Lark-Konto</string>
+  <string name="summary_import_by_email">Unterstützt Outlook, QQ-Konto etc.</string>
+  <string name="summary_import_by_local">Unterstützt ICS-Kalenderdateien</string>
+  <string name="summary_import_by_url">Unterstützt Kalender abonnieren nach URL </string>
   <string name="sunday">Sonntag</string>
   <string name="sunday_short">So</string>
   <string name="sunday_shortest">S</string>
@@ -1013,7 +974,23 @@ Sie können auch Erinnerungen einrichten, damit Sie nichts verpassen."</string>
   <string name="time_picker_dialog_title">Zeit einstellen</string>
   <string name="time_zone">Zeitzone</string>
   <string name="timezone_label">Zeitzone</string>
+  <string name="tip_input_calendar_link">Bitte Kalender-Link-URL eingeben</string>
   <string name="title_confirm_close_chinese_calendar">Chinesischen Kalender ausschalten</string>
+  <string name="title_import_by_caldav">Importieren vom CalDav-Konto</string>
+  <string name="title_import_by_email">Importieren vom E-Mail-Konto</string>
+  <string name="title_import_by_local">Lokal importieren</string>
+  <string name="title_import_by_url">Von URL importieren</string>
+  <string name="toast_block_by_other_work">Warten, bis die aktuelle Aufgabe abgeschlossen ist, und erneut versuchen</string>
+  <string name="toast_cannot_access_server">Kein Zugriff auf Server</string>
+  <string name="toast_create_account_failed">Konto erstellen nicht möglich</string>
+  <string name="toast_failed_get_server_config">Kontoinfo abrufen nicht möglich</string>
+  <string name="toast_import_failed">Import fehlgeschlagen</string>
+  <string name="toast_import_success">Import erfolgreich</string>
+  <string name="toast_invalid_url">Ungültige URL</string>
+  <string name="toast_login_by_exchange">Bitte mit Exchange anmelden</string>
+  <string name="toast_no_authority">Kein Zugriff auf Konto. Kontoeinstellungen prüfen und erneut versuchen.</string>
+  <string name="toast_sync_failed">Synchronisation fehlgeschlagen</string>
+  <string name="toast_sync_success">Synchronisation erfolgreich</string>
   <string name="today">Heute</string>
   <string name="today_at_time_fmt">Heute um %s</string>
   <string name="today_flight_event">Flug</string>
@@ -1075,9 +1052,25 @@ Sie können auch Erinnerungen einrichten, damit Sie nichts verpassen."</string>
   <string name="trip_card_train_primary">Reise %1$s %2$s - %3$s</string>
   <string name="trip_card_train_primary_no_arr">Reise %1$s Abfahrt: %2$s</string>
   <string name="trip_card_travel_secondary">Abfahrt %1$s</string>
+  <string name="trust_certificate_accept">Zustimmen</string>
+  <string name="trust_certificate_fingerprint_verified">Ich habe den ganzen Fingerabdruck manuell verifiziert.</string>
+  <string name="trust_certificate_fingerprints">Fingerabdrücke</string>
+  <string name="trust_certificate_issued_by">Ausgestellt von</string>
+  <string name="trust_certificate_issued_for">Ausgestellt für</string>
+  <string name="trust_certificate_reject">Ablehnen</string>
+  <string name="trust_certificate_reset_info">Sie können alle benutzerdefinierten Zertifikate in den App-Einstellungen zurücksetzen.</string>
+  <string name="trust_certificate_unknown_certificate_found">cert4android ist auf ein unbekanntes Zertifikat gestoßen. Wollen Sie ihm vertrauen?</string>
+  <string name="trust_certificate_validity_period">Gültigkeitsdauer</string>
+  <string name="trust_certificate_validity_period_value">%1$s – %2$s (wird nicht erzwungen)</string>
+  <string name="trust_certificate_x509_certificate_details">X509-Zertifikatdetails</string>
   <string name="tuesday">Dienstag</string>
   <string name="tuesday_short">Di</string>
   <string name="tuesday_shortest">D</string>
+  <string name="txt_account">Konto</string>
+  <string name="txt_account_exist">Konto existiert bereits</string>
+  <string name="txt_account_name_empty">Kontoname leer</string>
+  <string name="txt_caldav_account_info_not_found">CalDav-Kontoinfo abrufen nicht möglich</string>
+  <string name="txt_password">Passwort</string>
   <string name="unsubscribe_card">Karte abbestellen</string>
   <string name="unsubscribe_card_success">Von "%1$s" erfolgreich abgemeldet</string>
   <string name="unsubscribing_card">Karte abbestellt</string>
