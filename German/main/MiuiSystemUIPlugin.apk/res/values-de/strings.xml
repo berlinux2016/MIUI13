@@ -1,22 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-
-  <string name="accessibility_desc_edit">Bearbeiten</string>
-  <string name="controls_edit_panel_not_added_title">Verfügbare Geräte</string>
-  <string name="controls_edit_panel_save_button">Fertig</string>
-  <string name="controls_edit_panel_subtitle">Neu anzuordnende Elemente ziehen</string>
-  <string name="controls_edit_panel_title">Hinzugefügte Geräte</string>
-  <string name="controls_no_device_subtitle">Zuerst Geräte in %s hinzufügen</string>
-  <string name="controls_no_device_title">Keine Geräte vorhanden</string>
-  <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Zum Aktualisieren herunterziehen</string>
-  <string name="miuix_sbl_tracking_progress_labe_refreshed">Erfolgreich aktualisiert</string>
-  <string name="miuix_sbl_tracking_progress_labe_refreshing">Aktualisieren…</string>
-  <string name="miuix_sbl_tracking_progress_labe_release_to_refresh">Loslassen zum Aktualisieren</string>
-  <string name="miuix_sbl_tracking_progress_labe_up_nodata">Das ist im Moment alles</string>
-  <string name="miuix_sbl_tracking_progress_labe_up_none">Das ist im Moment alles</string>
-  <string name="miuix_sbl_tracking_progress_labe_up_refresh">Einen Moment…</string>
-  <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Elemente laden nicht möglich</string>
-
   <string name="abc_action_bar_home_description">Zur Startseite</string>
   <string name="abc_action_bar_up_description">Nach oben</string>
   <string name="abc_action_menu_overflow_description">Weitere Optionen</string>
@@ -35,6 +18,7 @@
   <string name="abc_shareactionprovider_share_with_application">Teilen mit %s</string>
   <string name="abc_toolbar_collapse_description">Einklappen</string>
   <string name="accessibility_desc_close">Schließen</string>
+  <string name="accessibility_desc_edit">Bearbeiten</string>
   <string name="accessibility_menu">Menü</string>
   <string name="accessibility_quick_settings_page">Seite %1$d von %2$d</string>
   <string name="actionbar_button_up_description">Zurück</string>
@@ -46,16 +30,20 @@
   <string name="controls_dialog_message">%s schlug vor, dieses Steuerelement zu Ihren Favoriten hinzuzufügen.</string>
   <string name="controls_dialog_ok">Zu Favoriten hinzufügen</string>
   <string name="controls_dialog_title">Zur Gerätesteuerung hinzufügen</string>
-  <string name="controls_dismiss_dialog_cancel">Abbrechen</string>
+  <string name="controls_dismiss_dialog_cancel">Nein danke</string>
   <string name="controls_dismiss_dialog_cancel_international">Abbrechen</string>
-  <string name="controls_dismiss_dialog_confirm">Zu den Einstellungen</string>
-  <string name="controls_dismiss_dialog_confirm_international">Zu den Einstellungen</string>
-  <string name="controls_dismiss_dialog_message">Einrichten einer Chipkarte. Sie können Smart-Geräte zu Hause im Kontrollzentrum anzeigen und steuern. Ünterstützt nur bestimmte Apps, kann in den Einstellungen hinzugefügt werden.</string>
-  <string name="controls_dismiss_dialog_message_international">Einrichten einer Chipkarte. Sie können Smart-Geräte zu Hause im Kontrollzentrum anzeigen und steuern. Ünterstützt nur bestimmte Apps, kann in den Einstellungen hinzugefügt werden.</string>
-  <string name="controls_dismiss_dialog_title">Chipkarte</string>
-  <string name="controls_dismiss_dialog_title_international">Chipkarte</string>
+  <string name="controls_dismiss_dialog_confirm">Einstellungen</string>
+  <string name="controls_dismiss_dialog_confirm_international">Entfernen</string>
+  <string name="controls_dismiss_dialog_message">Smart Home-Geräte über mehrere Apps im Kontrollzentrum verwalten</string>
+  <string name="controls_dismiss_dialog_message_international">\"Smart Home\"-Karte jetzt entfernen? Sie können sie unter Einstellungen &gt; Kontrollzentrum wiederherstellen.</string>
+  <string name="controls_dismiss_dialog_title">Smart Home-Geräte</string>
+  <string name="controls_dismiss_dialog_title_international">Karte entfernen</string>
+  <string name="controls_edit_panel_not_added_title">Verfügbare Geräte</string>
+  <string name="controls_edit_panel_save_button">Fertig</string>
+  <string name="controls_edit_panel_subtitle">Elemente ziehen zum neu anordnen</string>
+  <string name="controls_edit_panel_title">Hinzugefügte Geräte</string>
   <string name="controls_error_failed">Fehler, erneut versuchen</string>
-  <string name="controls_error_generic">Status laden nicht möglich</string>
+  <string name="controls_error_generic">Fehler</string>
   <string name="controls_error_removed">Gerät entfernt</string>
   <string name="controls_favorite_default_title">Steuerelemente</string>
   <string name="controls_favorite_load_error">Liste aller Steuerelemente laden nicht möglich.</string>
@@ -66,10 +54,12 @@
   <string name="controls_favorite_toast_no_changes">Nicht gespeicherte Änderungen</string>
   <string name="controls_menu_add">Steuerelemente hinzufügen</string>
   <string name="controls_menu_edit">Steuerelemente bearbeiten</string>
-  <string name="controls_mijia_setup_subtitle">App zur Steuerung Ihres Smart Home wählen.</string>
-  <string name="controls_mijia_setup_subtitle_login">Anmelden, um Ihr Smart Home zu steuern.</string>
-  <string name="controls_mijia_setup_title">Mi Home - Smart Home</string>
-  <string name="controls_no_favorites_title">App zur Steuerung Ihres Smart Home wählen.</string>
+  <string name="controls_mijia_setup_subtitle">Apps zum Hinzufügen und Verwalten von Geräten hier wählen</string>
+  <string name="controls_mijia_setup_subtitle_login">Tippen, um Geräte hinzuzufügen</string>
+  <string name="controls_mijia_setup_title">Smart Home-Geräte</string>
+  <string name="controls_no_device_subtitle">Zuerst Geräte in %s hinzufügen</string>
+  <string name="controls_no_device_title">Keine Geräte vorhanden</string>
+  <string name="controls_no_favorites_title">Apps zum Verwalten von Smart Home-Geräten hier wählen</string>
   <string name="controls_pin_instructions">PIN eingeben</string>
   <string name="controls_pin_instructions_retry">Andere PIN probieren</string>
   <string name="controls_pin_use_alphanumeric">PIN enthält Buchstaben oder Symbole</string>
@@ -80,7 +70,7 @@
   <string name="controls_structure_tooltip">Wischen, um mehr zu sehen</string>
   <string name="copy">Kopieren</string>
   <string name="date_picker_lunar">Traditioneller chin. Kalender</string>
-  <string name="disabled">Daktiviert</string>
+  <string name="disabled">Deaktiviert</string>
   <string name="early_morning">Morgen</string>
   <string name="eras_ad">n. Chr.</string>
   <string name="eras_bc">v. Chr.</string>
@@ -103,12 +93,20 @@
   <string name="friday">Freitag</string>
   <string name="friday_short">Fr</string>
   <string name="friday_shortest">F</string>
-  <string name="loading">Unbekannt</string>
+  <string name="loading">Status unbekannt</string>
   <string name="midnight">Nacht</string>
   <string name="miuix_appcompat_cloud_state_disabled">Synchronisation mit der Cloud ist aus</string>
   <string name="miuix_appcompat_cloud_state_finished">Erfolgreich mit der Cloud synchronisiert</string>
   <string name="miuix_appcompat_cloud_state_syncing">Mit der Cloud synchronisieren…</string>
   <string name="miuix_appcompat_search_input_description">Suchen</string>
+  <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Zum Aktualisieren herunterziehen</string>
+  <string name="miuix_sbl_tracking_progress_labe_refreshed">Erfolgreich aktualisiert</string>
+  <string name="miuix_sbl_tracking_progress_labe_refreshing">Aktualisieren…</string>
+  <string name="miuix_sbl_tracking_progress_labe_release_to_refresh">Zum Aktualisieren loslassen</string>
+  <string name="miuix_sbl_tracking_progress_labe_up_nodata">Das ist im Moment alles</string>
+  <string name="miuix_sbl_tracking_progress_labe_up_none">Das ist im Moment alles</string>
+  <string name="miuix_sbl_tracking_progress_labe_up_refresh">Einen Moment…</string>
+  <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Elemente laden nicht möglich</string>
   <string name="monday">Montag</string>
   <string name="monday_short">Mo</string>
   <string name="monday_shortest">M</string>

@@ -1,15 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-
-  <string name="cloud_space_full_gallery_notification_content_text">Ihren Tarif upgraden, um mehr Cloud-Speicherplatz zu erhalten</string>
-  <string name="cta_notification_content_text">%s eine Internetverbindung erlauben, um Elemente wiederherzustellen</string>
-  <string name="cta_notification_content_title">Elemente aus %s wiederherstellen nicht möglich</string>
-  <string name="micloud_manual_request_permission_cancel">Abbrechen</string>
-  <string name="micloud_manual_request_permission_confirm">Einstellungen</string>
-  <string name="micloud_manual_request_permission_content">Um unsere Dienste nutzen zu können, Xiaomi Cloud die folgenden Berechtigungen in den Einstellungen erteilen: \"%s\".</string>
-  <string name="micloud_manual_request_permission_content_on_provision">Zuerst die erforderlichen Berechtigungen in Sicherheit eingeben</string>
-  <string name="micloud_manual_request_permission_title">Berechtigungen erforderlich</string>
-
   <string name="abc_action_bar_home_description">Zur Startseite</string>
   <string name="abc_action_bar_up_description">Nach oben</string>
   <string name="abc_action_menu_overflow_description">Weitere Optionen</string>
@@ -47,6 +37,7 @@
   <string name="cloud_find_device">Gerät finden</string>
   <string name="cloud_find_device_off">Aus</string>
   <string name="cloud_find_device_on">An</string>
+  <string name="cloud_space_full_gallery_notification_content_text">Tarif upgraden, um mehr Cloud-Speicherplatz zu erhalten</string>
   <string name="cloud_storage_already_full">Cloud-Speicher ist voll: %1$s/%2$s</string>
   <string name="cloud_storage_already_used">Belegt: %1$s/%2$s</string>
   <string name="cloud_storage_default_title">Cloud-Speicher</string>
@@ -65,6 +56,8 @@
   <string name="connect_wlan">Mit WLAN verbinden</string>
   <string name="connect_wlan_china">Mit WLAN verbinden</string>
   <string name="copy">Kopieren</string>
+  <string name="cta_notification_content_text">%s die Internetverbindung erlauben, um Elemente wiederherzustellen</string>
+  <string name="cta_notification_content_title">Elemente aus %s wiederherstellen nicht möglich</string>
   <string name="data_merge_dialog_alert_active_on_phone_msg_more_than_two">Dieses Konto wird auch auf einem anderen Gerät verwendet. Elemente von mehreren Apps (einschl. %1$s und %2$s) mit den Elementen auf diesem Gerät zusammenführen?</string>
   <string name="data_merge_dialog_alert_active_on_phone_msg_one">Dieses Konto wird auch auf einem anderen Gerät verwendet. Elemente von %s mit den Elementen auf diesem Gerät zusammenführen?</string>
   <string name="data_merge_dialog_alert_active_on_phone_msg_two">Dieses Konto wird auch auf einem anderen Gerät verwendet. Elemente von %1$s und %2$s mit den Elementen auf diesem Gerät zusammenführen?</string>
@@ -332,6 +325,11 @@ Nutzen Sie ein anderes Konto."</string>
   <string name="micloud_manual_pausing">Synchronisation gestoppt</string>
   <string name="micloud_manual_pending">Ausstehend…</string>
   <string name="micloud_manual_reactivate">Reaktivieren</string>
+  <string name="micloud_manual_request_permission_cancel">Abbrechen</string>
+  <string name="micloud_manual_request_permission_confirm">Einstellungen</string>
+  <string name="micloud_manual_request_permission_content">Um unsere Dienste nutzen zu können, Xiaomi Cloud die folgenden Berechtigungen in den Einstellungen erteilen: \"%s\".</string>
+  <string name="micloud_manual_request_permission_content_on_provision">Zuerst in Sicherheit die erforderlichen Berechtigungen erteilen</string>
+  <string name="micloud_manual_request_permission_title">Berechtigungen erforderlich</string>
   <string name="micloud_manual_sync_all">Alle Elemente synchronisieren</string>
   <string name="micloud_manual_sync_now">Synchronisieren</string>
   <string name="micloud_manual_sync_now_retry">Erneut versuchen</string>
@@ -435,7 +433,7 @@ Nutzen Sie ein anderes Konto."</string>
   <string name="micloud_wipe_data_retain">Behalten</string>
   <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Zum Aktualisieren herunterziehen</string>
   <string name="miuix_sbl_tracking_progress_labe_refreshed">Erfolgreich aktualisiert</string>
-  <string name="miuix_sbl_tracking_progress_labe_refreshing">Aktualisieren</string>
+  <string name="miuix_sbl_tracking_progress_labe_refreshing">Aktualisieren…</string>
   <string name="miuix_sbl_tracking_progress_labe_release_to_refresh">Zum Aktualisieren loslassen</string>
   <string name="miuix_sbl_tracking_progress_labe_up_nodata">Das ist im Moment alles</string>
   <string name="miuix_sbl_tracking_progress_labe_up_none">Das ist im Moment alles</string>
@@ -458,7 +456,7 @@ Diese Funktion verschlüsselt und sendet Ihre Geräte-ID zum Mi-Server."</string
   <string name="not_set">Nicht festgelegt</string>
   <string name="other_sync_item">Andere Inhalte zur Synchronisation</string>
   <string name="pay_info_dialog_confirm_to_pay">%s zahlen</string>
-  <string name="pay_info_dialog_mibi_balance_prefix">Verbleibende Mi Münzen nutzen: %s</string>
+  <string name="pay_info_dialog_mibi_balance_prefix">Verbleibende Mi Coins nutzen: %s</string>
   <string name="pay_info_dialog_title">Zahlmethode wählen</string>
   <string name="phone_number_required_dspt_provision">Dieser Service benötigt Ihre Telefonnummer. </string>
   <string name="picker_list_empty">Hier keine Kontakte vorhanden</string>
