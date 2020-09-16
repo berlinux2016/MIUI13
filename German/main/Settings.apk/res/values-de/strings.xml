@@ -381,12 +381,12 @@ Schalten Sie diese Funktion ein und tippen Sie auf die Schaltfläche Eingabehilf
   <string name="allow_data_usage_title">Datennutzung beim Roaming erlauben</string>
   <string name="allow_device_id_access">Apps mit Zugriff auf die Geräte-ID</string>
   <string name="allow_float_summary">Popup-Benachrichtigungen zulassen</string>
-  <string name="allow_float_title">Popup-Benachrichtigungen</string>
+  <string name="allow_float_title">Popup-Benachrichtigungen erlauben</string>
   <string name="allow_interruption">Unterbrechungen erlauben</string>
   <string name="allow_interruption_summary"> App darf Töne machen, vibrieren und/oder Benachrichtungen auf dem Bildschirm einblenden</string>
   <string name="allow_keyguard_summary">Benachrichtigungen am Sperrbildschirm anzeigen</string>
   <string name="allow_keyguard_title">"Sperrbildschirm-
-benachrichtigungen"</string>
+benachrichtigungen erlauben"</string>
   <string name="allow_lights_title">LED zulassen</string>
   <string name="allow_mock_location">Scheinstandorte zulassen</string>
   <string name="allow_mock_location_summary">Scheinstandorte zulassen</string>
@@ -394,7 +394,7 @@ benachrichtigungen"</string>
   <string name="allow_oaid_used_desc">MIUI stellt installierten Apps keine virtuelle ID (OAID) zur Verfügung. Einige Funktionen für persönliche Empfehlungen könnten deshalb nicht richtig funktionieren.</string>
   <string name="allow_overlay_description">Diese Berechtigung erlaubt es einer App, über anderen Apps angezeigt zu werden und kann die Bedienung und Anzeige anderer Apps beeinträchtigen</string>
   <string name="allow_sound">Ton erlauben</string>
-  <string name="allow_sound_title">Ton erlauben</string>
+  <string name="allow_sound_title">Ton abspielen erlauben</string>
   <string name="allow_vibrate_title">Vibration erlauben</string>
   <string name="already_enable_encrypt">Verschlüsselung bereits aktiviert</string>
   <string name="always">Immer</string>
@@ -789,7 +789,7 @@ Sicherungen werden in der Xiaomi Cloud gespeichert und können drahtlos abgerufe
   <string name="backup_summary_state_off">Aus</string>
   <string name="backup_summary_state_on">An</string>
   <string name="backup_update">Aktualisieren</string>
-  <string name="badge_title">App-Symbolplaketten anzeigen</string>
+  <string name="badge_title">Symbolplakettenbenachrichtigung erlauben</string>
   <string name="band_24G">" (2,4-GHz-Band)"</string>
   <string name="band_5G">" (5-GHz-Band)"</string>
   <string name="band_mode_failed">Fehlgeschlagen</string>
@@ -3607,6 +3607,9 @@ Xiaomi Cloud öffnen und Elemente von dort aus wiederherstellen."</string>
   <string name="launch_google_search">Google Assistent starten</string>
   <string name="launch_instant_app">Öffnen</string>
   <string name="launch_mdp_app_text">Plan anzeigen</string>
+  <string name="launch_noapp_dialog_cancel">Abbrechen</string>
+  <string name="launch_noapp_dialog_install">Installieren</string>
+  <string name="launch_noapp_dialog_replace">Einstellungen</string>
   <string name="launch_notification_center">Benachrichtigungsleiste</string>
   <string name="launch_recents">Zuletzt verwendet</string>
   <string name="launch_voice_assistant">Sprachassistenten starten</string>
