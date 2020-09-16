@@ -57,6 +57,7 @@
   <string name="calories_logo_text">KI-Unterstützung durch Health Hope</string>
   <string name="calories_request_interface_text">KI-Unterstützung</string>
   <string name="camera_error_title">Kamerafehler</string>
+  <string name="can_only_be_English_Chinese">Online-Übersetzungssprache kann nur Englisch und Vereinfachtes Chinesisch sein.</string>
   <string name="cancel">Abbrechen</string>
   <string name="cancel_pdf_save">PDF speichern abgebrochen</string>
   <string name="carsHome_title">Auto</string>
@@ -113,6 +114,7 @@
   <string name="crop_title_study">Foto zuschneiden</string>
   <string name="crop_title_translation">Text zum Übersetzen wählen</string>
   <string name="cropping">Zuschneiden…</string>
+  <string name="current_word_is_locked">Aktuelles Wort ist gesperrt</string>
   <string name="delete">Löschen</string>
   <string name="dialog_dismiss">Ablehnen</string>
   <string name="dialog_report">Bericht</string>
@@ -193,12 +195,12 @@
   <string name="function">Funktionen</string>
   <string name="general_error">Erkennung fehlgeschlagen</string>
   <string name="general_feedback">Falsches Ergebnis melden</string>
-  <string name="general_location">Speicher-Identifikationsfunktion muss Standortinformationen zur Autorisierung einholen</string>
+  <string name="general_location">Scanner auf Ihren Standort zugreifen lassen, um standortbezogene Dienste zu erhalten</string>
   <string name="general_location_dialog">Einige Funktionen der Objekterkennung werden von Dianping bereitgestellt. Wenn Sie Objekte in Geschäften erkennen möchten, muss Dianping die Fotos, die Sie bei der Verwendung dieser Funktion machen, zusammen mit ihren Standortinfos verwenden, um Ihnen die entsprechenden Ergebnisse zu liefern.</string>
   <string name="general_location_prompt">Standortzugriff</string>
-  <string name="general_no">Keine Elementinfos gefunden</string>
-  <string name="general_no_found">Ähnliche für Sie empfohlene Produkte</string>
-  <string name="general_plant">Wonach Sie vielleicht suchen:</string>
+  <string name="general_no">Keine Ergebnisse gefunden</string>
+  <string name="general_no_found">Werfen Sie einen Blick auf diese Produkte</string>
+  <string name="general_plant">Vielleicht suchen Sie danach:</string>
   <string name="general_recognized">"Ergebnis: "</string>
   <string name="general_title">Bitte fotografieren Sie das zu erkennende Objekt</string>
   <string name="got_it">Verstanden</string>
@@ -207,6 +209,7 @@
   <string name="grayscale">Graustufen</string>
   <string name="history">Verlauf</string>
   <string name="history_empty">Noch keine Elemente hier</string>
+  <string name="hold_down">Gedrückt halten, um das Wort zu übernehmen</string>
   <string name="if_open_result">Scan-Ergebnis anzeigen bei Rückkehr zur App</string>
   <string name="if_to_open_milogo_scanning">Xiaomi-Logo erkennen</string>
   <string name="image_file_name_format">"'scanner'_yyyyMMdd_HHmmss"</string>
@@ -247,8 +250,15 @@
   <string name="language_entry_spanish">Spanisch</string>
   <string name="language_entry_swedish">Schwedisch</string>
   <string name="limit_exceeded">Bis zu %d auswählen</string>
+  <string name="local_ocr_recognition">Lokale OCR-Erkennung</string>
+  <string name="local_ocr_recognition_str">Auf Offline-Übersetzung umgestellt</string>
   <string name="logistics">Expresslieferung</string>
   <string name="low_version_tip">MIUI auf die neueste Version aktualisieren, um Scanner zu verwenden</string>
+  <string name="mihome_goto_install">Installieren</string>
+  <string name="mihome_install_message">Erst die Mi Home-App installieren und dort anmelden</string>
+  <string name="mihome_install_title">Mi Home installieren</string>
+  <string name="mihome_update_message">Mi Home auf die neueste Version aktualisieren und erneut versuchen</string>
+  <string name="mihome_update_title">Mi Home aktualisieren</string>
   <string name="mipayin_dialog_more">Mehr</string>
   <string name="mipayin_dialog_title">Öffnen mit</string>
   <string name="miracast_connect">Übertragen</string>
@@ -302,9 +312,14 @@
   <string name="not_tips">Nicht wieder anzeigen</string>
   <string name="note">Anmerkung:</string>
   <string name="now_state">"Aktueller Status: "</string>
+  <string name="offline_translation">Offline-Übersetzung</string>
   <string name="once">Nur einmal</string>
+  <string name="online_ocr_recognition">Online-OCR-Erkennung</string>
+  <string name="online_ocr_recognition_str">Bereits auf Online-Übersetzung umgestellt</string>
+  <string name="online_translation">Online-Übersetzung</string>
   <string name="open_url">URL öffnen</string>
   <string name="original_image">Original</string>
+  <string name="page_does_not_exist">Seite existiert nicht, wechseln nicht möglich</string>
   <string name="password_toggle_content_description">Passwort anzeigen</string>
   <string name="path_scanner_setting">Einstellungen/System-Apps/Scanner</string>
   <string name="pay_no_tip">Nicht mehr anzeigen</string>
@@ -356,6 +371,8 @@
   <string name="recognition_error_downloading">Erkennungssoftware runterladen…</string>
   <string name="recognize">Scannen</string>
   <string name="recognize_fail">Code wurde nicht gelesen</string>
+  <string name="release_lock">Sperre lösen</string>
+  <string name="release_locked_word">Gesperrtes Wort lösen</string>
   <string name="rename_the_file">Datei umbenennen</string>
   <string name="request_server_failed">Keine Verbindung zum Server</string>
   <string name="result_of_identifying_text_is_empty">Text nicht erkannt</string>
@@ -412,6 +429,7 @@
   <string name="suggested_submission_success">Feedback erfolgreich übermittelt</string>
   <string name="switch_open">Einschalten</string>
   <string name="take_a_picture">Kamera</string>
+  <string name="take_the_word">Lange auf den Knopf unten drücken, um das Wort zu übernehmen</string>
   <string name="tel">Telefon</string>
   <string name="text_to_be_translated_cannot_be_empty">Scanner benötigt Text zum Übersetzen</string>
   <string name="textrecognition_results">Text erkannt</string>
@@ -476,11 +494,14 @@
   <string name="welcome_to_thesweepversion">Willkommen bei Scanner Beta!</string>
   <string name="wifi_details">WLAN:</string>
   <string name="wifi_exist_fail">Hotspot \"%1$s\" existiert bereits. Löschen und erneut scannen, um eine Verbindung herzustellen.</string>
+  <string name="wifi_low_version_prompt">WLAN-Eingabeaufforderung</string>
   <string name="wifi_open_fail">WLAN einschalten nicht möglich</string>
   <string name="wifi_psd_toolong">Passwort zu lang. Manuell eingeben.</string>
   <string name="wifi_pwd">Passwort:</string>
   <string name="wifi_security">Sicherheit:</string>
   <string name="will_be_sent_tothe_background_review">" (Ihre Bewerbung wird in Kürze zur Prüfung weitergeleitet.)"</string>
+  <string name="word_to_be_recognized_is_aligned_with_cross">Das zu erkennende Wort wird am Kreuz ausgerichtet</string>
+  <string name="word_translation">Wortübersetzung</string>
   <string name="wx_not_installed_toast">Diese Funktion muss WeChat öffnen. Zuerst WeChat installieren.</string>
   <string name="xiaoai_dialog">"Versuchen Sie zu sagen, was Sie
 mit Mi KI scannen wollen"</string>
