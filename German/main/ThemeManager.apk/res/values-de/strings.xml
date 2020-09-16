@@ -1,22 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-
-  <string name="home_daily">Tägliche Höhepunkte</string>
-  <string name="loading_picture">Bild laden…</string>
-  <string name="material_slider_range_end">Bereichsende,</string>
-  <string name="material_slider_range_start">Bereichanfang,</string>
-  <string name="mtrl_exceed_max_badge_number_content_description">Mehr als %1$d neue Benachrichtigungen</string>
-  <string name="resource_status_error">Ein Fehler aufgetreten. Dieses Hintergrundbild kann jetzt nicht mehr angezeigt werden.</string>
-  <string name="share_copy_theme_url">Themen-URL kopieren</string>
-  <string name="share_copy_url_success">Erfolgreich kopiert</string>
-  <string name="share_copy_wallpaper_url">Hintergrundbild-URL kopieren</string>
-  <string name="share_picture_loading">Bild laden…</string>
-  <string name="share_save_success">Erfolgreich gespeichert</string>
-  <string name="share_save_to_photo">Galerie</string>
-  <string name="share_theme_content_text">"You can download an amazing theme \"%1$s\" here: %2$s. From "</string>
-  <string name="share_wallpaper_content_text">"You can download an amazing wallpaper \"%1$s\" here: %2$s. From "</string>
-  <string name="wallpaper_setting_library">Bibliothek</string>
-
   <string name="abc_action_bar_home_description">Zur Startseite</string>
   <string name="abc_action_bar_up_description">Nach oben</string>
   <string name="abc_action_menu_overflow_description">Mehr Optionen</string>
@@ -389,6 +372,7 @@ Themen erkennt, welche Apps Sie verwenden und zeigt transparente Hintergründe i
   <string name="hide_pull_down_positive">Ausblenden</string>
   <string name="home_apply_failured">Startbildschirmhintergrund wurde nicht angewendet</string>
   <string name="home_apply_success">Startbildschirmhintergrund wurde angewendet</string>
+  <string name="home_daily">Tägliche Höhepunkte</string>
   <string name="i_know">Verstanden</string>
   <string name="icon_content_description">Dialogsymbol</string>
   <string name="in_the_end">Keine Elemente zum Anzeigen</string>
@@ -418,6 +402,7 @@ Dieses Video hat keinen Ton. Die andere Person hört Ihren Klingelton, während 
   <string name="like_list">Elemente, die mir gefallen haben</string>
   <string name="live_wallpaper">Dynamisches Hintergrundbild</string>
   <string name="loading">Laden…</string>
+  <string name="loading_picture">Bild laden…</string>
   <string name="loading_resource_detail_fail">Laden der Quelle fehlgeschlagen</string>
   <string name="loading_resource_detail_info">Laden…</string>
   <string name="local_photos">Lokale Fotos</string>
@@ -437,6 +422,8 @@ Dieses Video hat keinen Ton. Die andere Person hört Ihren Klingelton, während 
   <string name="long_click_can_hide_resource">Gedrückt halten, um Elemente auszublenden</string>
   <string name="long_ringtone_resource">Lang</string>
   <string name="loop_wallpaper_is_here">Hintergrund-Diashows sind ab sofort verfügbar</string>
+  <string name="material_slider_range_end">Bereichsende,</string>
+  <string name="material_slider_range_start">Bereichanfang,</string>
   <string name="mi_wallpaper">MIUI Hintergrund</string>
   <string name="midnight">Nacht</string>
   <string name="mine_tab_not_login">"Anmelden, um Elemente anzuzeigen.
@@ -535,6 +522,7 @@ dd.MM."</string>
   <string name="morning">Morgen</string>
   <string name="mtrl_badge_numberless_content_description">Neue Benachrichtigung</string>
   <string name="mtrl_chip_close_icon_content_description">%1$s entfernen</string>
+  <string name="mtrl_exceed_max_badge_number_content_description">Mehr als %1$d neue Benachrichtigungen</string>
   <string name="mtrl_picker_a11y_next_month">Zum nächsten Monat wechseln</string>
   <string name="mtrl_picker_a11y_prev_month">Zum Vormonat wechseln</string>
   <string name="mtrl_picker_announce_current_selection">Aktuelle Auswahl: %1$s</string>
@@ -820,6 +808,7 @@ Auf Bildschirm tippen, um neu zu laden."</string>
   <string name="resource_share_subject">Thema teilen: %1$s</string>
   <string name="resource_share_text">Hier ist ein Thema, bei dem ich an Dich gedacht habe: %1$s! Link: %2$s</string>
   <string name="resource_share_title">Teilen</string>
+  <string name="resource_status_error">Ein Fehler ist aufgetreten. Dieses Hintergrundbild kann jetzt nicht mehr angezeigt werden.</string>
   <string name="resource_system_title">Systemquellen</string>
   <string name="resource_tab_to_view">Zum Anzeigen antippen</string>
   <string name="resource_tip_select_none">Nichts ausgewählt</string>
@@ -894,6 +883,14 @@ Auf Bildschirm tippen, um neu zu laden."</string>
   <string name="settings_search_keyword_font_online">Online-Schriften</string>
   <string name="settings_search_keyword_font_style">Schrift-Format</string>
   <string name="settings_search_keyword_font_wechat">WeChat-Schrift</string>
+  <string name="share_copy_theme_url">Themen-URL kopieren</string>
+  <string name="share_copy_url_success">Erfolgreich kopiert</string>
+  <string name="share_copy_wallpaper_url">Hintergrundbild-URL kopieren</string>
+  <string name="share_picture_loading">Bild laden…</string>
+  <string name="share_save_success">Erfolgreich gespeichert</string>
+  <string name="share_save_to_photo">Galerie</string>
+  <string name="share_theme_content_text">"Sie können das erstaunliche Thema \"%1$s\" hier herunterladen: %2$s. Von "</string>
+  <string name="share_wallpaper_content_text">"Sie können den erstaunlichen Hintergrund \"%1$s\" hier herunterladen: %2$s. Von "</string>
   <string name="short_ringtone_resource">Kurz</string>
   <string name="shortcut_add">Hinzufügen</string>
   <string name="shortcut_cancel">Nein danke</string>
@@ -1233,6 +1230,7 @@ Gehen Sie zu Themen > Mein Konto > Themenlabor für weitere Optionen.</string>
   <string name="wallpaper_set_as_incall_show">Als Profilvideo festlegen</string>
   <string name="wallpaper_set_as_lockscreen">Als Sperrbildschirm festlegen</string>
   <string name="wallpaper_setting_all">Alle Hintergründe</string>
+  <string name="wallpaper_setting_library">Bibliothek</string>
   <string name="wallpaper_setting_live">Live-Hintergründe</string>
   <string name="wallpaper_settings">Einstellungen Hintergründe</string>
   <string name="wallpaper_settings_loading_text">Laden…</string>

@@ -1,20 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-
-  <string name="activity_check_context">Ihr Gerät versucht gerade, eine Internetverbindung herzustellen. Dieser Prozess kann länger als erwartet dauern, wenn Sie mobile Daten verwenden. Sie können stattdessen zurückgehen und eine WLAN-Verbindung herstellen oder warten, bis die mobile Datenverbindung hergestellt ist.</string>
-  <string name="activity_check_title">Mit Internet verbinden</string>
-  <string name="dialog_check_button_negative">Erneut versuchen</string>
-  <string name="dialog_check_button_positive">Mit WLAN verbinden</string>
-  <string name="dialog_check_context">"Ihr Gerät kann jetzt keine Internetverbindung herstellen.
-1. Auf \"Mit WLAN verbinden\" tippen, um eines der verfügbaren Netzwerke auszuwählen.
-2. Wenn Sie mobile Daten verwenden möchten, auf \"Erneut versuchen\" tippen oder Ihre SIM-Karte entfernen und wieder einlegen."</string>
-  <string name="dialog_check_title">Internetverbindung herstellen nicht möglich</string>
-  <string name="dialog_wifi_button_negative">Nein</string>
-  <string name="dialog_wifi_button_positive">Ja</string>
-  <string name="dialog_wifi_context">Sie müssen eine Internetverbindung herstellen, um Ihr Gerät einzurichten. Wenn Sie keine WLAN-Verbindung herstellen, werden möglicherweise mobile Daten verwendet. Die Nutzung mobiler Daten könnte zusätzliche Gebühren für den Netzbetreiber verursachen. Mobile Daten trotzdem nutzen?</string>
-  <string name="dialog_wifi_title">Mobile Daten verwenden</string>
-  <string name="font_size_kddi">Mittel</string>
-
   <string name="Accounts_settings_title">Konten</string>
   <string name="Data_set">"Daten: "</string>
   <string name="a11y_settings_label">Einstellungen Barrierefreiheit</string>
@@ -275,6 +260,8 @@ Schalten Sie diese Funktion ein und tippen Sie auf die Schaltfläche Eingabehilf
   <string name="activating">Aktivieren…</string>
   <string name="active_device_admin_msg">Geräteadministrator</string>
   <string name="active_input_method_subtypes">Aktive Eingabemethoden</string>
+  <string name="activity_check_context">Ihr Gerät versucht gerade, eine Internetverbindung herzustellen. Dieser Prozess kann länger als erwartet dauern, wenn Sie mobile Daten verwenden. Sie können stattdessen zurückgehen und eine WLAN-Verbindung herstellen oder warten, bis die mobile Datenverbindung hergestellt ist.</string>
+  <string name="activity_check_title">Mit Internet verbinden</string>
   <string name="activity_list_empty">Keine passenden Aktivitäten gefunden</string>
   <string name="activity_not_found">App ist nicht auf dem Gerät installiert</string>
   <string name="activity_picker_label">Aktivität auswählen</string>
@@ -804,7 +791,7 @@ Sicherungen werden in der Xiaomi Cloud gespeichert und können drahtlos abgerufe
   <string name="backup_summary_state_off">Aus</string>
   <string name="backup_summary_state_on">An</string>
   <string name="backup_update">Aktualisieren</string>
-  <string name="badge_title">Symbolplakettenbenachrichtigung erlauben</string>
+  <string name="badge_title">Benachrichtigungspunkt auf App-Symbol erlauben</string>
   <string name="band_24G">" (2,4-GHz-Band)"</string>
   <string name="band_5G">" (5-GHz-Band)"</string>
   <string name="band_mode_failed">Fehlgeschlagen</string>
@@ -2255,6 +2242,12 @@ Um dieses Problem zu beheben, stoppen Sie %1$s und verhindern die Hintergrundakt
   <string name="dialog_background_check_ok">Ausschalten</string>
   <string name="dialog_background_check_title">Hintergrundaktivität ausschalten &amp; App stoppen?</string>
   <string name="dialog_backup_title">Sicherungen aktualisieren, bevor Sie auf Werkseinstellungen zurücksetzen?</string>
+  <string name="dialog_check_button_negative">Erneut versuchen</string>
+  <string name="dialog_check_button_positive">Mit WLAN verbinden</string>
+  <string name="dialog_check_context">"Ihr Gerät kann jetzt keine Internetverbindung herstellen.
+1. Auf \"Mit WLAN verbinden\" tippen, um eines der verfügbaren Netzwerke auszuwählen.
+2. Wenn Sie mobile Daten verwenden möchten, auf \"Erneut versuchen\" tippen oder Ihre SIM-Karte entfernen und wieder einlegen."</string>
+  <string name="dialog_check_title">Internetverbindung herstellen nicht möglich</string>
   <string name="dialog_chose_item">Wählen Sie ein Element aus, das angezeigt werden soll</string>
   <string name="dialog_content_login">Für das Update mit Ihrem Mi-Konto anmelden?</string>
   <string name="dialog_location_message">"Ihr Telefon kann den Akku nicht normal verwalten, da %1$s immer wieder Ihren Standort abfragt, wenn Sie die App nicht verwenden.
@@ -2290,6 +2283,10 @@ Wenn es so bleibt, muss die App evtl. deinstalliert werden, um die Akkuleistung 
   <string name="dialog_title_font_size">Schriftgröße</string>
   <string name="dialog_title_hdmi_color_calibration">Standardfarbkorrektur</string>
   <string name="dialog_title_login">An Ihrem Mi-Konto anmelden</string>
+  <string name="dialog_wifi_button_negative">Nein</string>
+  <string name="dialog_wifi_button_positive">Ja</string>
+  <string name="dialog_wifi_context">Sie müssen eine Internetverbindung herstellen, um Ihr Gerät einzurichten. Wenn Sie keine WLAN-Verbindung herstellen, werden evtl. mobile Daten verwendet. Die Nutzung mobiler Daten könnte zusätzliche Gebühren beim Anbieter verursachen. Mobile Daten trotzdem verwenden?</string>
+  <string name="dialog_wifi_title">Mobile Daten verwenden</string>
   <string name="dialog_yes">Ja</string>
   <string name="direct_boot_unaware_dialog_message">Hinweis: Nach einem Neustart startet diese App erst, wenn Sie Ihr Telefon entsperrt haben.</string>
   <string name="directory_access">Verzeichniszugriff</string>
@@ -2945,6 +2942,7 @@ Sicherungsdateien nicht ändern oder umbenennen."</string>
   <string name="fold_title">Regeln für gruppierte Benachrichtigungen</string>
   <string name="font_size_exhuge">Extra Groß</string>
   <string name="font_size_huge">Sehr Groß</string>
+  <string name="font_size_kddi">Mittel</string>
   <string name="font_size_large">Groß</string>
   <string name="font_size_make_larger_desc">Vergrößern</string>
   <string name="font_size_make_smaller_desc">Verkleinern</string>
