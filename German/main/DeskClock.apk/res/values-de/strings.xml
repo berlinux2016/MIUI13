@@ -97,6 +97,7 @@
   <string name="check_theme_app_install">Stellen Sie sicher, dass die Themen-App auf Ihrem Gerät installiert ist.</string>
   <string name="check_voice_assist_app_version">Aktualisieren Sie Mi KI auf die neueste Version.</string>
   <string name="city_time_contrast_desc">Tippen, um die Zeit in verschiedenen Städten zu vergleichen</string>
+  <string name="click_listen_news_container">Auf die Morgennachrichtenkarte tippen</string>
   <string name="clock_bg_button_setting_summary_common">Hintergrundfarbe für die Uhr auswählen</string>
   <string name="clock_bg_button_setting_summary_follow_sys">Schwarz wird als Hintergrundfarbe verwendet, wenn Sie in den Dark Mode wechseln.</string>
   <string name="clock_bg_button_setting_title">Hintergrundfarbe</string>
@@ -164,6 +165,7 @@
   <string name="hour">1 Std</string>
   <string name="hour_unit">Std +</string>
   <string name="hours">%d Std</string>
+  <string name="install_news_app_error">Sprung fehlgeschlagen</string>
   <string name="install_weather_app_error">App konnte nicht geladen werden</string>
   <string name="install_weather_app_loading">Nur eine Sekunde…</string>
   <string name="invalid_time">Ungültige Uhrzeit: %3$s %1$d: %2$d</string>
@@ -194,9 +196,12 @@
   <string name="life_post_setting_open_background_subtitle">Hintergrundbilder für zugehörige Wecker anzeigen</string>
   <string name="life_post_setting_open_background_title">Hintergrundbild anzeigen</string>
   <string name="life_post_setting_open_desc">Deaktivieren Sie wiederholte Wecker zwischen 04:00 und 10:00 Uhr, um den aktuellen Wetterbericht anzuhören</string>
+  <string name="life_post_setting_open_listen_news_summary">Nach der Eröffnung zeigt Ihnen die Life Morning Post die Nachrichtenkarte</string>
+  <string name="life_post_setting_open_listen_news_title">Morgens die neuesten Nachrichten anhören</string>
   <string name="life_post_setting_open_subtitle">Aktuelles Wetter nach dem Ausschalten des Weckers zwischen 4:00 und 9:00 Uhr erhalten</string>
   <string name="life_post_setting_open_summary">Wetterinfos in den ersten Wecker einfügen, der zwischen 4:00 und 10:00 Uhr ausgeschaltet wird</string>
   <string name="life_post_setting_open_title">Morgenreport einschalten</string>
+  <string name="life_post_setting_video_news_remind">Bitte die neueste Version von Mi Musik installieren, um den morgendlichen Nachrichtendienst zu nutzen</string>
   <string name="life_post_setting_wake_up_list_title">Weckerverlauf</string>
   <string name="life_post_wake_up_acumu_day_title">Tageszähler</string>
   <string name="life_post_wake_up_item_acumu_day">%1$s Tage</string>
@@ -207,6 +212,7 @@
   <string name="life_post_wake_up_time_title">Weckzeit</string>
   <string name="life_post_weather_invalid">Tippen, um Wetterdaten zu erhalten</string>
   <string name="life_post_weather_no_network">Mit Netzwerk verbinden, um Wetterinformationen zu aktualisieren</string>
+  <string name="listen_news_msg">Die Uhr muss mit dem Internet verbunden sein, um den morgendlichen Nachrichtendienst anbieten zu können. Sind Sie damit einverstanden?</string>
   <string name="listen_news_privacy"><Data>Um personalisierte Dienste anbieten zu können und Morgennachrichten in Ihre Wecker aufzunehmen, braucht die Uhr eine Internetverbindung. Vor Nutzung der Uhr müssen Sie auch unsere &lt;a href=\"%1$s\">Nutzervereinbarung&lt;/a> und &lt;a href=\"%2$s\">Datenschutzerklärung&lt;/a> lesen und akzeptieren. Zustimmen?</Data></string>
   <string name="loading_ringtone">Klingelton laden…</string>
   <string name="menu_add_worldclock">Neue Weltzeit</string>
@@ -321,6 +327,7 @@
   <string name="shortcut_new_alarm">Wecker einstellen</string>
   <string name="shortcut_start_timer">Timer starten</string>
   <string name="shortcut_stop_watch">Stoppuhr starten</string>
+  <string name="shut_down_alarm_no_news">Wecker ausschalten, sonst kann der morgendlichen Nachrichtendienst nicht genossen werden</string>
   <string name="shut_down_keep_screen">Bildschirm bleibt nicht eingeschaltet</string>
   <string name="shutdown_alarm_alert_enable_summary">Standby-Wecker werden mindestens 10 Minuten nach dem Ausschalten des Geräts ausgelöst</string>
   <string name="shutdown_alarm_alert_title">Standby-Wecker</string>
