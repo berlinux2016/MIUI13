@@ -1,6 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
 
+  <string name="bottom_func_guide_default_text">More features</string>
+  <string name="exit_dialog_exit">Exit</string>
+  <string name="exit_dialog_garbage_clean_message_new"><Data>Cleaner can free up &lt;font color=#0099ff>%s&lt;/font> of storage space. Clean now?</Data></string>
+  <string name="exit_dialog_release_memory_positive_button">Close</string>
+  <string name="exit_dialog_release_memory_title"><Data>Speed up your device by &lt;font color=#0099ff>%d%%&lt;/font></Data></string>
+  <string name="menu_item_notification_optimize_text">%d%% occupied</string>
+  <string name="menu_text_deepclean_summary" formatted="false">%1s/%2s occupied</string>
+  <string name="stranger_call_dialog_add_block_list">Block</string>
+  <string name="stranger_call_dialog_add_contacts">New contact</string>
+  <string name="stranger_call_dialog_notification_body">Add to contacts or block this number</string>
+  <string name="stranger_call_dialog_notification_title_format">Unknown number %s</string>
+  <string name="stranger_call_dialog_subtitle_format">"%s isn't among your contacts. You can add this phone number to contacts or block it."</string>
+  <string name="stranger_call_dialog_title">"Unknown number "</string>
+
   <string name="charger_detect_button_ok">Verstanden</string>
   <string name="charger_detect_info1">Überprüfen Sie, ob Netzadapter und Kabel richtig angeschlossen sind.</string>
   <string name="charger_detect_info2">Das Aufladen kann sich auch verlangsamen, wenn Sie nicht standardmäßige oder alte Netzteile und Kabel verwenden.</string>
@@ -1201,7 +1215,7 @@ Alle Daten auf Ihrem Gerät werden evtl. gelöscht und Ihr Sperrbildschirmpasswo
   <string name="exit">Beenden</string>
   <string name="exit_dialog_garbage_clean_message">Müllgröße auf Ihrem Gerät beträgt mehr als %s. Müll bereinigen?</string>
   <string name="exit_dialog_garbage_clean_positive_button">Bereinigen</string>
-  <string name="exit_dialog_garbage_clean_title">Müll bereinigen</string>
+  <string name="exit_dialog_garbage_clean_title">Speicherplatz freigeben</string>
   <string name="exit_dialog_homepage_optimise_message">Leistungsbewertung Ihres Geräts liegt unter 80 Punkten. Jetzt optimieren?</string>
   <string name="exit_dialog_release_storage_message">Mehr als 80% des Speichers auf Ihrem Gerät ist belegt. Geben Sie Speicherplatz frei durch Deinstallieren von Apps, die Sie nie verwenden.</string>
   <string name="exit_dialog_release_storage_positive_button">Speicherplatz freigeben</string>
@@ -1942,6 +1956,7 @@ Ihr Gerät ist jetzt %d%% schneller."</string>
   <string name="menu_text_antispam">Sperrliste</string>
   <string name="menu_text_antivirus">Virenscanner</string>
   <string name="menu_text_garbage_cleanup">Müllbeseitigung</string>
+  <string name="menu_text_garbage_cleanup_danger">%s Datenmüll</string>
   <string name="menu_text_license_manager">Rechte</string>
   <string name="menu_text_networkassistants">Datennutzung</string>
   <string name="menu_text_networkassistants_danger">%s über</string>
@@ -2761,7 +2776,7 @@ Während der Kalibrierung sendet MIUI eine Textnachricht an Ihren Mobilfunkanbie
   <string name="renew_now">Aktualisieren</string>
   <string name="repair">Reparieren</string>
   <string name="repair_loading_text">Einen Moment…</string>
-  <string name="repeated_marked_number_summary">Blockieren Sie keinen zweiten Anruf von der gleichen gemeldeten Nummer innerhalb von 3 Minuten</string>
+  <string name="repeated_marked_number_summary">Blockieren Sie keinen zweiten Anruf von der gleichen gemeldeten Nummer innerhalb von %d Minuten</string>
   <string name="repeated_marked_number_title">Blockieren Sie keine wiederholten Anrufe von gemeldeten Rufnummern</string>
   <string name="replace_dns">DNS automatisch ersetzen</string>
   <string name="report">Melden</string>
@@ -3036,7 +3051,7 @@ Während der Kalibrierung sendet MIUI eine Textnachricht an Ihren Mobilfunkanbie
   <string name="st_msg_settings">SMS-Sperrliste</string>
   <string name="st_msg_stranger_group">SMS von Fremden blockieren</string>
   <string name="st_settings_name">Sperrlisteneinstellungen</string>
-  <string name="st_share_settings">Einstellungen SIM1 nutzen</string>
+  <string name="st_share_settings">Einstellungen SIM %d nutzen</string>
   <string name="st_sub_title_whiteblack_list_group">Sperrliste</string>
   <string name="st_sum_call_wait">Ihre ausgehende Nachricht wird auch als Besetztzeichen für eingehende Anrufe abgespielt</string>
   <string name="st_summary_blacklist_numbers">Anrufe und Nachrichten von bestimmten Nummern und Gebieten blockieren </string>
