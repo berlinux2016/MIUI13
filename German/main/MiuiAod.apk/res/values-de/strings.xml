@@ -1,17 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-
-  <string name="aod_component">Angezeigte Elemente</string>
-  <string name="component_battery">Akku</string>
-  <string name="component_date_time">Datum und Uhrzeit</string>
-  <string name="component_lunar">Traditioneller chin. Kalender</string>
-  <string name="component_notification">Benachrichtigungen</string>
-  <string name="component_step">Schritte</string>
-  <string name="continue_to_use">Weiter</string>
-  <string name="step_component_info_active_tip">Die Schrittzahl wird von Xiaomi Health zur Verfügung gestellt. Den Geschäftsbedingungen von Xiaomi Health zustimmen, um fortzufahren.</string>
-  <string name="step_component_info_desc">Die Schrittzahl wird zu einer Trophäe, wenn Ihr Ziel erreicht ist. Die Schrittzählung wird von Xiaomi Health bereitgestellt.</string>
-  <string name="step_component_info_tip">Die Schrittzahl wird von Xiaomi Health zur Verfügung gestellt. Installieren oder aktualisieren Sie Xiaomi Health und stimmen Sie den Bedingungen und Konditionen zu, um fortzufahren.</string>
-
   <string name="abc_action_bar_home_description">Zur Startseite</string>
   <string name="abc_action_bar_up_description">Nach oben</string>
   <string name="abc_action_menu_overflow_description">Mehr Optionen</string>
@@ -34,10 +22,12 @@
   <string name="accessibility_battery_level_charging">Akku laden, %d Prozent</string>
   <string name="actionbar_button_up_description">Zurück</string>
   <string name="add_from_album">Aus Galerie hinzufügen</string>
+  <string name="afternoon">Nachmittag</string>
   <string name="align_type">Ausrichten</string>
   <string name="always_style">Immer</string>
   <string name="animation_clock_panel">Wellenzifferblatt</string>
   <string name="aod_close_color_inversion">Diese Funktion kann nicht mit der Farbumkehr kombiniert werden. Zuerst Farbumkehr ausschalten.</string>
+  <string name="aod_component">Angezeigte Elemente</string>
   <string name="aod_dual_clock_date">dd.MM. HH:mm</string>
   <string name="aod_dual_clock_date_12">dd.MM. hh:mm aa</string>
   <string name="aod_lock_screen_date">EE, d. MMMM</string>
@@ -79,6 +69,12 @@ dd.MM."</string>
   <string name="clock_panel_icon">Zifferblatt </string>
   <string name="color_change_with_time_description">Textfarbe im Laufe der Zeit automatisch ändern</string>
   <string name="color_change_with_time_title">Farbe automatisch ändern</string>
+  <string name="component_battery">Akku</string>
+  <string name="component_date_time">Datum und Uhrzeit</string>
+  <string name="component_lunar">Traditioneller chin. Kalender</string>
+  <string name="component_notification">Benachrichtigungen</string>
+  <string name="component_step">Schritte</string>
+  <string name="continue_to_use">Weiter</string>
   <string name="copy">Kopieren</string>
   <string name="custom_image">Eigenes Bild</string>
   <string name="date_picker_lunar">Traditioneller chin. Kalender</string>
@@ -88,10 +84,12 @@ dd.MM."</string>
   <string name="disable_aod_in_dark_room">Ausschalten, wenn es im Dunkeln liegt</string>
   <string name="disable_aod_in_power_save_mode">Ausschalten, wenn Stromsparmodus an ist</string>
   <string name="disable_aod_in_power_save_mode_summary">Keine Elemente anzeigen, um Strom zu sparen</string>
+  <string name="dual_clock_tip">Duale Uhr ist an. Tippen, um Einstellungen zu öffnen.</string>
+  <string name="early_morning">Morgen</string>
   <string name="error_icon_content_description">Fehler</string>
+  <string name="evening">Nachmittag</string>
   <string name="expand_button_title">Erweitert</string>
   <string name="exposed_dropdown_menu_content_description">Dropdown-Menü anzeigen</string>
-  <string name="font_thickness">Fettschrift</string>
   <string name="fmt_date_day">d.</string>
   <string name="fmt_date_long_month_day">d. MMMM</string>
   <string name="fmt_date_long_year_month_day">d. MMMM yyyy</string>
@@ -104,8 +102,18 @@ dd.MM."</string>
   <string name="fmt_date_short_month_day">dd.MM.</string>
   <string name="fmt_date_short_year_month">MMM yyyy</string>
   <string name="fmt_date_short_year_month_day">dd.MM.yyyy</string>
+  <string name="fmt_date_time_timezone">D T z</string>
+  <string name="fmt_date_timezone">D z</string>
   <string name="fmt_time_12hour">"h 'Uhr'"</string>
   <string name="fmt_time_24hour">"H 'Uhr'"</string>
+  <string name="fmt_time_timezone">T z</string>
+  <string name="fmt_weekday_date">W, D</string>
+  <string name="fmt_weekday_date_time">W, D T</string>
+  <string name="fmt_weekday_date_time_timezone">W, D T z</string>
+  <string name="fmt_weekday_date_timezone">W, D z</string>
+  <string name="fmt_weekday_time_timezone">W T z</string>
+  <string name="fmt_weekday_timezone">W z</string>
+  <string name="font_thickness">Fettschrift</string>
   <string name="friday">Freitag</string>
   <string name="friday_short">Fr</string>
   <string name="friday_shortest">F</string>
@@ -115,8 +123,20 @@ dd.MM."</string>
   <string name="line_space">Zeilenabstand</string>
   <string name="material_slider_range_end">Ende Bereich,</string>
   <string name="material_slider_range_start">Anfang Bereich,</string>
+  <string name="midnight">Nacht</string>
   <string name="mini_time">Kleine Uhr</string>
   <string name="minimalist_clock">Einfache Uhr</string>
+  <string name="miuix_appcompat_action_mode_deselect_all">Abwählen</string>
+  <string name="miuix_appcompat_action_mode_select_all">Alle wählen</string>
+  <string name="miuix_appcompat_action_mode_title_empty">Elemente wählen</string>
+  <string name="miuix_appcompat_actionbar_immersion_button_more_description">Mehr</string>
+  <string name="miuix_appcompat_cancel_description">Abbrechen</string>
+  <string name="miuix_appcompat_confirm_description">Bestätigen</string>
+  <string name="miuix_appcompat_delete_description">Löschen</string>
+  <string name="miuix_appcompat_deselect_all_description">Alle abwählen</string>
+  <string name="miuix_appcompat_search_action_mode_cancel">Abbrechen</string>
+  <string name="miuix_appcompat_search_input_description">Suche</string>
+  <string name="miuix_appcompat_select_all_description">Alle wählen</string>
   <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Zum Aktualisieren herunterziehen</string>
   <string name="miuix_sbl_tracking_progress_labe_refreshed">Erfolgreich aktualisiert</string>
   <string name="miuix_sbl_tracking_progress_labe_refreshing">Aktualisieren…</string>
@@ -155,6 +175,7 @@ dd.MM."</string>
   <string name="month_september_shortest">S</string>
   <string name="more">Mehr</string>
   <string name="more_online_theme">Online-Elemente</string>
+  <string name="morning">Morgen</string>
   <string name="mtrl_badge_numberless_content_description">Neue Benachrichtigung</string>
   <string name="mtrl_chip_close_icon_content_description">%1$s entfernen</string>
   <string name="mtrl_exceed_max_badge_number_content_description">Mehr als %1$d neue Benachrichtigungen</string>
@@ -183,6 +204,8 @@ dd.MM."</string>
   <string name="mtrl_picker_toggle_to_text_input_mode">In den Texteingabemodus wechseln</string>
   <string name="mtrl_picker_toggle_to_year_selection">Tippen, um zur Jahresauswahl zu wechseln</string>
   <string name="my_style_title">Mein Stil</string>
+  <string name="night">Abend</string>
+  <string name="noon">Mittag</string>
   <string name="not_set">Nicht festgelegt</string>
   <string name="notification_anim_pulse">Pulsieren</string>
   <string name="notification_anim_rhythm">Rhythmus</string>
@@ -243,13 +266,16 @@ Wunderbares passieren wird."</string>
   <string name="solar_term_white_dews">Weißer Tau</string>
   <string name="solar_term_winter_begins">Winteranfang</string>
   <string name="solar_term_winter_solstice">Wintersonnenwende</string>
+  <string name="step_component_info_active_tip">Die Schrittzahl wird von Xiaomi Health zur Verfügung gestellt. Den Geschäftsbedingungen von Xiaomi Health zustimmen, um fortzufahren.</string>
+  <string name="step_component_info_desc">Die Schrittzahl wird zu einer Trophäe, wenn Ihr Ziel erreicht ist. Die Schrittzählung wird von Xiaomi Health bereitgestellt.</string>
+  <string name="step_component_info_tip">Die Schrittzahl wird von Xiaomi Health zur Verfügung gestellt. Installieren oder aktualisieren Sie Xiaomi Health und stimmen Sie den Bedingungen und Konditionen zu, um fortzufahren.</string>
   <string name="summary">Um den Stromverbrauch zu reduzieren, werden Elemente nicht angezeigt, wenn Ihr Gerät längere Zeit im Dunkeln liegt.</string>
   <string name="sunday">Sonntag</string>
   <string name="sunday_short">So</string>
   <string name="sunday_shortest">S</string>
   <string name="super_wallpaper_date">"EEEE
 dd.MM."</string>
-  <string name="super_wallpaper_date_inter">"EEEE
+  <string name="super_wallpaper_date_lunar">"EEEE
 dd.MM."</string>
   <string name="theme_cate_title">Thema</string>
   <string name="temporary_style">Für 10 Sekunden nach Antippen</string>
@@ -301,6 +327,8 @@ dd.MM."</string>
   <string name="thursday_shortest">D</string>
   <string name="time_location">Position der Uhr</string>
   <string name="time_picker_dialog_title">Zeit einstellen</string>
+  <string name="time_picker_label_hour">Std</string>
+  <string name="time_picker_label_minute">Min</string>
   <string name="time_style">Stil</string>
   <string name="time_style_layout">Anordnung</string>
   <string name="tip_to_open_aod_mode">Always-On-Display ist aus. Jetzt einschalten?</string>

@@ -28,16 +28,16 @@
   <string name="photodetail_rename_success">Erfolgreich umbenannt</string>
   <string name="photodetail_rename_title">Umbenennen</string>
   <string name="photodetail_rename_too_long">Der von Ihnen eingegebene Dateiname ist zu lang</string>
-  <string name="pic_to_pdf_a4_format">A4 Papier</string>
+  <string name="pic_to_pdf_a4_format">A4-Papier</string>
   <string name="pic_to_pdf_all_not_support">Ausgewählte Bilder als PDF speichern nicht möglich</string>
   <string name="pic_to_pdf_exit_notice">Dieses PDF wird nicht gespeichert, wenn Sie jetzt beenden. Trotzdem beenden?</string>
   <string name="pic_to_pdf_not_support_video">Videos können nicht als PDF gespeichert werden</string>
   <string name="pic_to_pdf_preview_loading">Vorschau laden…</string>
   <string name="pic_to_pdf_save_in">PDF unter %s gespeichert</string>
-  <string name="save_error_try_a_different_template_msg">Speichern fehlgeschlagen, Bild ist zu groß.</string>
+  <string name="save_error_try_a_different_template_msg">Speichern fehlgeschlagen, Bild ist zu groß</string>
   <string name="search_title_photo_name">Dateiname</string>
   <string name="toast_invalid_char">Dateinamen dürfen keine \"%s\" enthalten.</string>
-  <string name="toast_invalid_prefix">Dateinamen dürfen nicht beginnen mit \".\" or \"_\"</string>
+  <string name="toast_invalid_prefix">Dateinamen dürfen nicht mit \".\" oder \"_\" beginnen</string>
   <string name="toast_rename_exit">Diese Datei existiert bereits</string>  
 
   <string name="abc_action_bar_home_description">Zur Startseite</string>
@@ -891,12 +891,17 @@
   <string name="fmt_date_short_month_day">dd.MM.</string>
   <string name="fmt_date_short_year_month">MMM yyyy</string>
   <string name="fmt_date_short_year_month_day">dd.MM.yyyy</string>
+  <string name="fmt_date_time_timezone">D T z</string>
+  <string name="fmt_date_timezone">D z</string>
   <string name="fmt_time_12hour">"h 'Uhr'"</string>
   <string name="fmt_time_24hour">"H 'Uhr'"</string>
+  <string name="fmt_time_timezone">T z</string>
   <string name="fmt_weekday_date">W, D</string>
   <string name="fmt_weekday_date_time">W, D T</string>
   <string name="fmt_weekday_date_time_timezone">W, D T z</string>
   <string name="fmt_weekday_date_timezone">W, D z</string>
+  <string name="fmt_weekday_time_timezone">W T z</string>
+  <string name="fmt_weekday_timezone">W z</string>
   <string name="frame_not_support_image_ratio">Dieses Seitenverhältnis wird nicht unterstützt.</string>
   <string name="free_view_desc">3D zeigen</string>
   <string name="friday">Freitag</string>
@@ -1144,6 +1149,7 @@ zu wechseln."</string>
   <string name="movie_template_dull2">Zeit</string>
   <string name="movie_template_dull3">Schönheit</string>
   <string name="movie_template_food">Feinschmecker</string>
+  <string name="movie_template_cool">Lichter</string>
   <string name="movie_template_new_year">Neujahr</string>
   <string name="movie_template_normal">Melodie</string>
   <string name="movie_template_pet">Pfoten</string>

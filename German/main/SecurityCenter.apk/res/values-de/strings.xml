@@ -832,6 +832,8 @@ Sie verlieren keine App-Daten."</string>
 3. Ihr Mobilfunkanbieter unterstützt evtl. nicht das Senden von Textnachrichten mit den verbleibenden Daten und dem Telefonguthaben. Wenden Sie sich an Ihren Mobilfunkanbieter, um mehr zu erfahren.
 4. Ein Fehler in den Mobilfunkanbieterdaten kann vorkommen. Versuchen Sie die Mobilfunkanbieterdiagnose, um das Problem zu lösen.
 5. Nichts scheint zu helfen? Tippen Sie auf \"Bericht per SMS\", um Ihr Feedback an Xiaomi per Textnachricht zu senden."</string>
+  <string name="cellular_data_auto_check">Automatisch prüfen</string>
+  <string name="cellular_package_daily_input">Eingeben</string>
   <string name="charging_text_battery_full_time">"Akkuladezeit "</string>
   <string name="charging_text_battery_nearly_full">Fast aufgeladen</string>
   <string name="charging_text_battery_perfect">Voll aufgeladen</string>
@@ -1362,6 +1364,7 @@ Alle Daten auf Ihrem Gerät werden evtl. gelöscht und Ihr Sperrbildschirmpasswo
   <string name="first_settings_subtitle">Hier sind die sicheren Elemente für die gemeinsame Nutzung, die Ihnen zur Verfügung stehen:</string>
   <string name="first_settings_title">Privatsphäre schützen</string>
   <string name="five_percent_total_pkg">%s (5%% der monatlichen Daten)</string>
+  <string name="fixed_cellular_data_quota_monthly">Monatliches Datenlimit</string>
   <string name="fod_authentication_shift_button">Abbrechen</string>
   <string name="fod_button_finger">Fingerabdruck verwenden</string>
   <string name="fod_button_password">Passwort eingeben</string>
@@ -1387,6 +1390,8 @@ Alle Daten auf Ihrem Gerät werden evtl. gelöscht und Ihr Sperrbildschirmpasswo
   <string name="free_time_traffic_settings">Einstellungen Datennutzungslimit</string>
   <string name="free_time_traffic_title">Datennutzungslimit einstellen</string>
   <string name="free_traffic_settings">Datennutzungslimit eingeben</string>
+  <string name="full_fill_oprator_and_location">Anbieterdaten und Standort angeben.</string>
+  <string name="full_fill_sim_location">Erst Standort festlegen</string>
   <string name="function_close">Aus</string>
   <string name="function_gwsd_detail">"Über diese Funktion:
  1. Wenn Sie mobile Daten auf einer Daten-SIM oder einer regulären SIM-Karte verwenden, die mit einem VoLTE-Netz verbunden ist, wird die Verbindung durch eingehende Anrufe nicht unterbrochen, bis Sie den Hörer abnehmen.
@@ -1693,7 +1698,10 @@ Spielsitzungen aufzeichnen"</string>
   <string name="info_unantispam_phone_sms">Anrufe &amp; SMS erlauben</string>
   <string name="info_unantispam_sms">SMS erlauben</string>
   <string name="information_setting">Empfehlungen</string>
+  <string name="input_available_cellular_data_daily_hint">Tägliches Datenlimit eingeben</string>
   <string name="input_aviable_traffic">Datenlimit einstellen</string>
+  <string name="input_celluar_data_quota_hint">Datenlimit eingeben</string>
+  <string name="input_cellular_data_warn_hint">Warngrenze für Datennutzung eingeben</string>
   <string name="input_password_hint_text">Passwort eingeben</string>
   <string name="input_traffic_pkg">Datenvolumen eingeben</string>
   <string name="input_used_hint">Datenvolumen eingeben</string>
@@ -1991,6 +1999,7 @@ Ihr Gerät ist jetzt %d%% schneller."</string>
   <string name="mixed_recording_intro_header">%1$s-%2$s Zeichen eingeben</string>
   <string name="mixed_retry_button_text">Abbrechen</string>
   <string name="mixed_settings_help_how_to_record">So legen Sie das Passwort fest.</string>
+  <string name="modify_cellular_type">Tippen, um Ihren Tarif auszuwählen</string>
   <string name="modify_password_mode">&lt;u>Passworttyp ändern&lt;/u></string>
   <string name="modifypassword">Passworttyp ändern</string>
   <string name="monitor_app_add">Hinzufügen</string>
@@ -2066,6 +2075,7 @@ Versuchen Sie ein anderes LAN-Kabel am Router. Wenn Sie vermuten, dass der Fehle
   <string name="nickname">Spitzname</string>
   <string name="no_game">Keine Spiele gefunden</string>
   <string name="not_set">Nicht festgelegt</string>
+  <string name="not_settled">Nicht festgelegt</string>
   <string name="not_available">Nicht verfügbar</string>
   <string name="not_limited_brand">Unbegrenzt</string>
   <string name="note">Notiz</string>
@@ -3499,6 +3509,7 @@ Wollen Sie es übernehmen?"</string>
   <string name="traffic_config_alert_setted">Einstellungen übernommen</string>
   <string name="traffic_config_alert_title">%s Korrektur</string>
   <string name="traffic_correction_failed">Info nicht verfügbar</string>
+  <string name="traffic_correction_failed_tips">Datentarif konnte nicht geprüft werden. Stellen Sie sicher, dass die Anbietereinstellungen korrekt sind, oder stellen Sie Ihren Tarif manuell ein.</string>
   <string name="traffic_correction_start_correction">Mit Mobilfunkanbieterserver verbinden…</string>
   <string name="traffic_correction_start_correction_failed">Anforderung fehlgeschlagen. Bitte Mobilfunkanbietereinstellungen prüfen.</string>
   <string name="traffic_correction_success">Datennutzung aktualisiert</string>
@@ -3551,6 +3562,7 @@ Wollen Sie es übernehmen?"</string>
   <string name="uninstall_danagerous_msg">\"%s\" kann Ihr Gerät beschädigen, die Leistung beeinträchtigen oder Neustarts verursachen</string>
   <string name="uninstall_danagerous_title">Bösartige Apps deinstallieren</string>
   <string name="unlike">Nein danke</string>
+  <string name="unlimited_cellular_data_monthly">Unbegrenzter Tarif</string>
   <string name="unlock_failed">Interner Fehler</string>
   <string name="unlock_pattern"><u>Muster</u></string>
   <string name="unlock_pattern_to_bind_fingerprint">Passwort eingeben, um Fingerabdruck zu aktivieren</string>
