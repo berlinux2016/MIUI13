@@ -108,6 +108,10 @@
     <item quantity="other">%1$d Std</item>
     <item quantity="one">%1$d Std</item>
   </plurals>
+  <plurals name="hr_fp_detect_time_remainder">
+    <item quantity="other">%1$d Sekunden verbleiben</item>
+    <item quantity="one">%1$d Sekunde verbleibt</item>
+  </plurals>
   <plurals name="in_a_hour">
     <item quantity="other">In 1 Std</item>
   </plurals>
@@ -260,6 +264,26 @@
     <item quantity="other">" Zyklen"</item>
     <item quantity="one">" Zyklus"</item>
    </plurals>
+  <plurals name="unit_hours">
+    <item quantity="other">" Std "</item>
+    <item quantity="one">" Std "</item>
+  </plurals>
+  <plurals name="unit_hours2">
+    <item quantity="other">" Stunden "</item>
+    <item quantity="one">" Stunde "</item>
+  </plurals>
+  <plurals name="unit_mins">
+    <item quantity="other">" Min "</item>
+    <item quantity="one">" Min "</item>
+  </plurals>
+  <plurals name="unit_mins2">
+    <item quantity="other">" Minuten "</item>
+    <item quantity="one">" Minute "</item>
+  </plurals>
+  <plurals name="unit_seconds">
+    <item quantity="other">" Sek "</item>
+    <item quantity="one">" Sek "</item>
+  </plurals>
   <plurals name="unit_times">
     <item quantity="other">"-mal"</item>
     <item quantity="one">"-mal"</item>

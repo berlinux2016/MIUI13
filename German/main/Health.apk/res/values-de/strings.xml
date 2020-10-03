@@ -219,6 +219,7 @@ um Karten hinzuzufügen"</string>
   <string name="breaststroke">Brustschwimmen</string>
   <string name="butterfly_stroke">Schmetterling</string>
   <string name="button_record_menstruation">Aufzeichnung</string>
+  <string name="calories">Kalorien</string>
   <string name="camera_permission_desc">Zum Einstellen von Profilfotos</string>
   <string name="cancel">Abbrechen</string>
   <string name="cancel_edit">Änderungen verwerfen</string>
@@ -575,10 +576,12 @@ Wenn es für Sie nach 30 Minuten im Bett immer noch schwierig ist, einzuschlafen
   <string name="home_tip_sync_immediately">Einige Elemente wurden nicht synchronisiert. Tippen, um jetzt zu synchronisieren.</string>
   <string name="home_tip_syncing">Gesundheitsdaten synchronisieren…</string>
   <string name="hour">Std</string>
+  <string name="hr_camera_permission_desc">Um die Frequenz der Lichtveränderungen um den Finger herum durch die Kamera zu erhalten, zur Bestimmung des Herzfrequenzwertes</string>
   <string name="hr_choose_detect_state">In welchem Zustand befinden Sie sich gerade?</string>
   <string name="hr_detect">Puls messen</string>
   <string name="hr_detect_desc">Während der Messung wird der Blitz Ihres Telefons als kontinuierliche Lichtquelle verwendet und die Kamera erkennt Veränderungen im Blutfluss. Die Bilder werden dann analysiert und Ihr Puls wird auf der Grundlage der wiederholten Muster bestimmt.</string>
   <string name="hr_detect_finished">Fertig!</string>
+  <string name="hr_detect_fps_jitter">Herzfrequenz nicht messbar. Erneut versuchen.</string>
   <string name="hr_detect_paused">Angehalten</string>
   <string name="hr_detect_principle_desc_1">Sie können Ihren Puls messen, indem Sie einfach den Blitz und die Kamera Ihres Telefons mit einem Finger abdecken. Der Blitz wird als kontinuierliche Lichtquelle verwendet und die Kamera erkennt Veränderungen im Blutfluss. Die Bilder werden dann analysiert und Ihr Puls wird auf der Grundlage der wiederholten Muster bestimmt.</string>
   <string name="hr_detect_principle_desc_2">Mehrere Tests zeigen, dass die Fehlererkennung für diese Methode bei etwa 2 Schlägen pro Minute liegt.</string>
@@ -593,6 +596,16 @@ Wenn es für Sie nach 30 Minuten im Bett immer noch schwierig ist, einzuschlafen
   <string name="hr_detect_state_reseting_desc">Einfach aufwachen oder völlig entspannt</string>
   <string name="hr_disturb_detect">Messung unterbrochen</string>
   <string name="hr_disturb_detect_desc">Neu anfangen. Versuchen Sie, den Finger während der Messung nicht zu bewegen.</string>
+  <string name="hr_fp_area">Fingerabdruckbereich</string>
+  <string name="hr_fp_detect_desc">Der Blutfluss zu den Fingern nimmt während des Herzschlags zu. Durch die helle Lichtquelle im Fingerabdruckbereich unter dem Bildschirm kann die Änderungsfrequenz des Fingerblutes ermittelt werden. Die Frequenz wird in ein Pulssignal umgewandelt, um die genaue Herzfrequenz zu berechnen.</string>
+  <string name="hr_fp_detect_principle_desc">"Blut kann Licht absorbieren. Mit jedem Herzschlag fließt mehr Blut zu den Fingern und es wird mehr Licht absorbiert; im Intervall zwischen den Herzschlägen wird weniger Licht absorbiert. Durch die helle Lichtquelle im Fingerabdruckbereich unter dem Bildschirm kann die Änderungsfrequenz des Fingerblutes ermittelt werden. Die Frequenz wird in ein Pulssignal umgewandelt, um die genaue Herzfrequenz zu berechnen. 
+
+Dank einer großen Anzahl von Experimenten beträgt der durchschnittliche Herzfrequenzfehler weniger als 3 BPM."</string>
+  <string name="hr_fp_detect_principle_desc_2">Hinweis: Bitte achten Sie darauf, dass der Finger den Fingerabdruckbereich vollständig abdeckt; drücken Sie ihn während der Erkennung leicht an. Wenn der Druck zu hoch ist, wird der Blutfluss im Finger reduziert, was zu ungenauen Ergebnissen führt. Die Testdaten dienen nur als Referenz, nicht für medizinische Instrumente.</string>
+  <string name="hr_fp_detect_start_desc">Bitte drücken Sie Ihren Finger leicht. Verschieben Sie den Fingerabdruckbereich nicht.</string>
+  <string name="hr_fp_detecting">Erkennen...</string>
+  <string name="hr_fp_not_put_well">Finger nicht an der richtigen Stelle, erneut versuchen.</string>
+  <string name="hr_fp_report_common_desc">Die normale Herzfrequenz liegt zwischen 60 und 100 Schlägen pro Minute. Eine Herzfrequenz unter 60 BPM ist ein Zeichen für eine Bradykardie, während eine Herzfrequenz über 100 BPM bei Erwachsenen als Tachykardie gilt.</string>
   <string name="hr_heart_rate_unit">Puls (BPM)</string>
   <string name="hr_in_detect">Pulsmessung, bewegen Sie Ihren Finger nicht.</string>
   <string name="hr_input_heart_rate">Puls aufzeichnen</string>
@@ -943,11 +956,14 @@ mit einem Finger"</string>
   <string name="setting_avatar">Profilfoto</string>
   <string name="setting_birthday">Geburtsdatum einstellen</string>
   <string name="setting_blood_type">Blutgruppe einstellen</string>
+  <string name="setting_cycling_goals">Ziele für das Radfahren setzen</string>
   <string name="setting_data_cloud_sync_tip">Diese Funktion dient zum Sichern von Elementen dieses Geräts und zum Synchronisieren von Gesundheitsdaten anderer Geräte.</string>
   <string name="setting_gender">Geschlecht einstellen</string>
+  <string name="setting_running_goals">Ziele für das Laufen setzen</string>
   <string name="setting_sedentary_off">AUS</string>
   <string name="setting_sedentary_on">AN</string>
   <string name="setting_sedentary_title">An Bewegung erinnern</string>
+  <string name="setting_walking_goals">Ziele für das Gehen setzen</string>
   <string name="severe_abnormal">Hypertensive Krisen</string>
   <string name="severe_abnormal_tip">Täglich nach dem Aufstehen, nach dem Mittagessen und vor dem Schlafengehen</string>
   <string name="share">Teilen</string>
@@ -1152,6 +1168,9 @@ auf Ihren persönlichen Daten beraten."</string>
   <string name="stand_stop_reminding">Keine Steh-Benachrichtigung mehr erhalten</string>
   <string name="standard_format">(Normal: %1s)</string>
   <string name="standing_already">" Sie sind aufgestanden"</string>
+  <string name="start_cycling">Radfahren starten</string>
+  <string name="start_running">Laufen starten</string>
+  <string name="start_walking">Gehen starten</string>
   <string name="state_agree">Zustimmen</string>
   <string name="state_auto_run_disenable">Aus</string>
   <string name="state_auto_run_enable">An</string>
