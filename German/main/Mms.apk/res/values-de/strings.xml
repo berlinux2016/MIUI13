@@ -344,7 +344,7 @@
   <string name="from_pkg_name">"Von der App: "</string>
   <string name="ft_cfs_dialog_content">Dateien konnten nicht über RCS empfangen werden. Stattdessen einen Link in einer Textnachricht senden?</string>
   <string name="ft_cfs_dialog_title">Alternative Dateiübertragung</string>
-  <string name="google_message_promo_content">Xiaomi empfiehlt den Wechsel zu Messages von Google. Damit können Sie über WLAN texten, hochwertige Medien austauschen und mehr. &lt;font color="#B3000000">&lt;a href="https://support.google.com/messages/answer/6089066">Details anzeigen&lt;/a>&lt;/font>.</string>
+  <string name="google_message_promo_content">Xiaomi empfiehlt ein Upgrade auf Messages von Google. Installieren Sie es jetzt, um Fotos in hoher Qualität zu teilen, über WLAN zu chatten und vieles mehr. <font color="#B3000000"><a href="https://support.google.com/messages/answer/6089066">Mehr erfahren</a></font></string>
   <string name="google_message_promo_title">Aktualisieren Sie Ihre Messaging-App</string>
   <string name="group_already_kicked_hint">Nachrichten senden nicht möglich. Sie sind kein Mitglied dieses Gruppenchats.</string>
   <string name="group_member_is_composing">Schreiben…</string>
@@ -382,8 +382,8 @@
   <string name="importing_progress_private_message">Nachrichten importieren…</string>
   <string name="in_sms">Nachricht</string>
   <string name="ignore">Jetzt nicht</string>
-  <string name="installed_google_message_promo_content">Xiaomi empfiehlt die Nutzung von Messages von Google. Damit können Sie über WLAN texten, hochwertige Medien austauschen und mehr.</string>
-  <string name="installed_google_message_promo_title">Mit Messages beginnen</string>
+  <string name="installed_google_message_promo_content">Xiaomi empfiehlt die Nutzung von Messages von Google. Öffnen Sie Messages, um Fotos in hoher Qualität zu teilen, über WLAN zu chatten und vieles mehr.</string>
+  <string name="installed_google_message_promo_title">Öffnen Sie Messages für einen besseren Chat</string>
   <string name="insufficient_drm_rights">Nicht ausreichende DRM-Rechte vorhanden</string>
   <string name="invalid_conversation">Ungültige Unterhaltung</string>
   <string name="invalid_destination">Ungültige Zieladresse</string>
@@ -651,7 +651,7 @@ Für die Aktivierung von Mi Message ist eine ausgehende SMS-Nachricht erforderli
   <string name="pref_show_photo_word_summary">Automatisches Zuordnen eines Bildes zu Kontakten ohne Foto</string>
   <string name="pref_show_sms_template_entry_summary">Erkennung von Einmalpasswörtern und Anzeige von Schnellmenüs</string>
   <string name="pref_show_sms_template_in_summary">Einmalpasswörter (OTP) in SMS automatisch erkennen</string>
-  <string name="pref_show_sms_template_summary">Bestätigungscodes automatisch kopieren und einfügen</string>
+  <string name="pref_show_sms_template_summary">Kopieren von Einmal-Passwörtern, Sendungsverfolgung, Abfrage des Telefonguthabens und automatische Anzeige von Tickets und Rechnungen als Karten</string>
   <string name="pref_smart_messages_settings">Intelligente Nachrichten</string>
   <string name="pref_sms_storage_title">Speicher</string>
   <string name="pref_sms_theme_title">Thema</string>
@@ -730,6 +730,12 @@ Für die Aktivierung von Mi Message ist eine ausgehende SMS-Nachricht erforderli
   <string name="privacy_password_title3">Aktualisieren Sie Ihr Passwort</string>
   <string name="privacy_password_title4">Passwort wurde aktualisiert</string>
   <string name="privacy_policy">Datenschutzerklärung</string>
+  <string name="privacy_state_revoked_cancel">Abbrechen</string>
+  <string name="privacy_state_revoked_content">Indem Sie den Schalter abwählen, widerrufen Sie Ihre Zustimmung zur Messaging-Datenschutzerklärung. Wir werden die Erfassung Ihrer persönlichen Daten einstellen. Die bereits gesammelten und gespeicherten persönlichen Daten werden innerhalb des von den geltenden Gesetzen vorgeschriebenen Zeitraums gelöscht. Mi Message und Smart Messaging, die von Messaging zur Verfügung gestellt werden, müssen die notwendigen persönlichen Informationen sammeln, um Ihnen Basisdienste anbieten zu können. Wenn Sie Ihre Zustimmung zur Messaging-Datenschutzerklärung zurückziehen, gilt dies als Annahmeverweigerung der Dienste, die auf den von Mi Message und Smart Messaging bereitgestellten gesammelten persönlichen Daten basieren.</string>
+  <string name="privacy_state_revoked_dialog_title">Widerruf Einwilligung</string>
+  <string name="privacy_state_revoked_revoked">Widerruf</string>
+  <string name="privacy_state_revoked_switch">Widerruf Einwilligung</string>
+  <string name="privacy_state_revoked_synopsis">Indem Sie den Schalter abwählen, widerrufen Sie Ihre Zustimmung zur Messaging-Datenschutzerklärung.</string>
   <string name="privacy_term">Datenschutzerklärung</string>
   <string name="private_entry_available">Loslassen zum Öffnen privater Ordner</string>
   <string name="private_entry_default">Runter schieben zum Öffnen privater Ordner</string>
@@ -1022,10 +1028,12 @@ Schauen Sie sich die empfohlenen an!"</string>
   <string name="slide_up_to_cancel">Zum Abbrechen hochwischen</string>
   <string name="slideshow_activity">Diashow</string>
   <string name="smart_message_title">Smart Messaging</string>
+  <string name="smart_message_upgrade_title">Aktualisierung Smart Messaging Datenschutzerklärung</string>
   <string name="smart_messages_network_allow_message">Mi Message muss eine Internetverbindung herstellen, damit seine Dienste normal funktionieren. Jetzt erlauben?</string>
   <string name="smart_messages_network_allow_title">Internetverbindung ist erforderlich</string>
   <string name="smart_msg_main_purpose">Smart Messaging bietet Sender-ID-Erkennung und intelligente Menüdienste</string>
   <string name="smart_msg_privacy_policy">Smart Messaging Datenschutzerklärung</string>
+  <string name="smart_msg_upgrade_main_purpose">Smart Messaging funktioniert jetzt auch mit MMS. Sie können mehr von den Absendern bereitgestellte Dienste nutzen und Nachrichten in neuen Formaten empfangen.</string>
   <string name="sms_card_partner_label">"SMS-Partnerkarte: "</string>
   <string name="sms_content">Inhalt:</string>
   <string name="sms_full_body">Eingehende Nachricht wurde zurückgewiesen, da der Speicher voll ist. Löschen Sie alte Nachrichten.</string>
@@ -1111,7 +1119,8 @@ Schauen Sie sich die empfohlenen an!"</string>
   <string name="system_permission_declare_no_say_no">Wir werden Ihre personenbezogenen Daten in Übereinstimmung mit den einschlägigen Gesetzen, Vorschriften und Datenschutzrichtlinien schützen.
 Wenn Sie nicht damit einverstanden sind, solche Genehmigungen zu erteilen oder Ihre personenbezogenen Daten weiterzugeben und hochzuladen, können Sie diese App nicht nutzen.</string>
   <string name="system_permission_declare_privacy_declare">"%1s muss Ihre Daten sammeln und benötigt die folgenden Berechtigungen, um normal zu arbeiten: "</string>
- <string name="system_permission_declare_privacy_declare_new">Diese App muss mit dem Internet verbunden sein und benötigt die folgenden Berechtigungen, um normal arbeiten zu können:</string>
+  <string name="system_permission_declare_privacy_declare_new">Diese App muss mit dem Internet verbunden sein und benötigt die folgenden Berechtigungen, um normal arbeiten zu können:</string>
+  <string name="system_permission_declare_privacy_link">Um Ihre Rechte als Benutzer sowie die Art und Weise, in der wir Ihre Daten verwenden, vollständig zu verstehen, lesen und akzeptieren Sie unsere %1s.</string>
   <string name="system_permission_declare_revoke_path">In den Nachrichteneinstellungen können Sie Ihre Autorisierung widerrufen und Dienste deaktivieren.</string>
   <string name="system_permission_declare_single_link">Lesen und akzeptieren Sie unsere %1s, bevor Sie diese Funktion nutzen.</string>
   <string name="system_permission_declare_triple_link" formatted="false">Lesen und akzeptieren Sie unsere %1s, %2s und %3s, bevor Sie diese Funktionen nutzen.</string>
@@ -1246,6 +1255,7 @@ Bisherige Versuche: %s."</string>
   <string name="voice_report_off">Aus</string>
   <string name="voice_report_wiredon">Mit Kopfhörern</string>
   <string name="warning_show">Senden in %ds</string>
+  <string name="web_content_invalid_hint">Die Anzeige dieses Elements ist durch die örtlichen Gesetze und Vorschriften eingeschränkt.</string>
   <string name="wednesday">Mittwoch</string>
   <string name="wednesday_short">Mi</string>
   <string name="wednesday_shortest">M</string>
