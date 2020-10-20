@@ -131,7 +131,7 @@
   <string name="bh_express_name">Lieferdienst</string>
   <string name="bh_express_number">Paketnummer</string>
   <string name="bh_fetch_balance">Guthaben prüfen</string>
-  <string name="bh_flight_mode_on"><Data>&lt;font color =#FF6666>Flugmodus iat an&lt;/font></Data></string>
+  <string name="bh_flight_mode_on"><Data>&lt;font color =#FF6666>Flugmodus ist an&lt;/font></Data></string>
   <string name="bh_flow_exceed">Limit überstiegen</string>
   <string name="bh_flow_order">Mobile Daten</string>
   <string name="bh_flow_service">Mobile Daten</string>
@@ -343,6 +343,7 @@
   <string name="callrecordview_menu_show_sim">%s Anrufe</string>
   <string name="callrecordview_menu_show_stranger">Unbekannte Anrufe</string>
   <string name="callrecordview_menu_show_title">Anruflistenanzeige</string>
+  <string name="cancel">Abbrechen</string>
   <string name="cancel_confirmation_dialog_message">Änderungen verwerfen?</string>
   <string name="cancel_confirmation_dialog_title">Abbrechen</string>
   <string name="cancel_export_confirmation_message">Export von %s abbrechen?</string>
@@ -350,6 +351,7 @@
   <string name="cancel_import_dialog_message">Import der Kontakte abbrechen?</string>
   <string name="cancel_import_dialog_title">Abbrechen</string>
   <string name="cancel_vcard_import_or_export_failed">vCard-Import/Export kann nicht abgebrochen werden</string>
+  <string name="category_order_detail">Bestelldetails</string>
   <string name="chat_aim">Über AIM chatten</string>
   <string name="chat_gtalk">Über Google Talk chatten</string>
   <string name="chat_icq">Über ICQ chatten</string>
@@ -395,6 +397,7 @@
   <string name="confirm_delete_sim_entry_miui_title">SIM-Karte löschen</string>
   <string name="confirm_export_message">Ihre Kontaktliste in die Datei \"%s\" exportieren</string>
   <string name="confirm_export_title">Kontakte exportieren?</string>
+  <string name="confirming_pay_result">Zahlung bestätigen…</string>
   <string name="connections">Verbindungen</string>
   <string name="contactDetailAbout">Über</string>
   <string name="contactDetailCalllog">Anrufliste</string>
@@ -482,6 +485,19 @@ Kontaktkarten sind ausgeschaltet."</string>
   <string name="create_group_dialog_title">Neue Gruppe erstellen</string>
   <string name="create_group_item_label">Neue Gruppe erstellen</string>
   <string name="create_qrcode_fail_message">Erstellung des QR-Code fehlgeschlagen</string>
+  <string name="cta_content_seg1"><Data>"&lt;strong>Wichtiger Hinweis:
+Durch tippen auf \"Zustimmen\" unten akzeptieren Sie die &lt;font color=#33aaff>&lt;a href ='https://static.account.xiaomi.com/html/agreement/account/en.html'>Mi-Konto-Servicevereinbarung&lt;/a>&lt;/font>, &lt;font color=#33aaff>&lt;a href ='https://cnbj1-fds.api.xiaomi.com/mimobile-static/mi-carrier-services-useragreement.html'>Mi Roaming-Nutzervereinbarung&lt;/a>&lt;/font>, und &lt;font color=#33aaff>&lt;a href ='http://www.miui.com/res/doc/privacy/en.html'>Datenschutzerklärung&lt;/a>&lt;/font>. Lesen und verstehen Sie diese Dokumente und die damit verbundenen allgemeinen Geschäftsbedingungen sorgfältig und vollständig, bevor Sie zustimmen.&lt;/strong>"</Data></string>
+  <string name="cta_content_seg2">"
+Mi Roaming benötigt eine Internetverbindung und Zugriff auf Ihre Standortdaten, um normal arbeiten zu können. Zusätzlich kann Mi Roaming Ihre persönlichen Daten sammeln, verwenden und weitergeben. Sie werden in Übereinstimmung mit den örtlichen Gesetzen und Vorschriften geschützt."</string>
+  <string name="cta_dialog_cancel">Beenden</string>
+  <string name="cta_dialog_ok">Zustimmen</string>
+  <string name="cta_dialog_title">Allgemeine Geschäftsbedingungen</string>
+  <string name="cta_newcontent_seg1"><Data>"Wir haben die &lt;font color=#33aaff>&lt;a href ='https://static.account.xiaomi.com/html/agreement/account/en.html'>Mi-Konto-Servicevereinbarung&lt;/a>&lt;/font>, &lt;font color=#33aaff>&lt;a href ='https://cnbj1-fds.api.xiaomi.com/mimobile-static/mi-carrier-services-useragreement.html'>Mi Roaming-Nutzervereinbarungt&lt;/a>&lt;/font>, und &lt;font color=#33aaff>&lt;a href ='https://privacy.mi.com/business_hall/zh_CN/'>Datenschutzerklärung&lt;/a>&lt;/font> aktualisiert. &lt;strong>Lesen und verstehen Sie diese Dokumente und die damit verbundenen allgemeinen Geschäftsbedingungen sorgfältig und vollständig, bevor Sie zustimmen.&lt;/strong>"</Data></string>
+  <string name="cta_newcontent_seg2">"
+Mi Roaming kann Ihre persönlichen Daten sammeln, verwenden und weitergeben. Sie werden in Übereinstimmung mit den lokalen Gesetzen und Vorschriften geschützt.
+"</string>
+  <string name="cta_newcontent_seg3"><Data>"&lt;strong>Wichtiger Hinweis:
+Durch tippen auf \"Zustimmen\" unten akzeptieren Sie die allgemeinen Geschäftsbedingungen in den oben genannten Dokumenten.&lt;/strong>"</Data></string>
   <string name="customLabelPickerTitle">Eigener Labelname</string>
   <string name="custom_list_filter">Ansicht festlegen</string>
   <string name="custom_nickname_hint">Spitzname eingeben</string>
@@ -656,6 +672,7 @@ Guthabeninformationen werden einmal täglich aktualisiert, um die Anzahl der Abf
   <string name="enter_contact_name">Name der Person eingeben</string>
   <string name="eras_ad">n. Chr.</string>
   <string name="eras_bc">v. Chr.</string>
+  <string name="err_dont_install_mipay">Mi Pay installieren, um die Zahlung abzuschließen</string>
   <string name="evening">Nachmittag</string>
   <string name="eventLabelsGroup">Geburtstag</string>
   <string name="eventTypeCustom">Eigene</string>
@@ -701,6 +718,7 @@ Grund: \"%s\""</string>
   <string name="favoritesFrequentContacted">Häufig kontaktiert</string>
   <string name="favorites_list_empty">Keine Favoriten</string>
   <string name="firewall_setting">Sperrliste</string>
+  <string name="flow_use_analyse">Nutzungsstatistik</string>
   <string name="fmt_date_day">d.</string>
   <string name="fmt_date_long_month_day">d. MMMM</string>
   <string name="fmt_date_long_year_month_day">d. MMMM yyyy</string>
@@ -979,6 +997,10 @@ Grund: \"%s\""</string>
   <string name="miuix_sbl_tracking_progress_labe_up_none">Das ist im Moment alles</string>
   <string name="miuix_sbl_tracking_progress_labe_up_refresh">Einen Moment…</string>
   <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Elemente laden nicht möglich</string>
+  <string name="mm_charge_title">Aufladen</string>
+  <string name="mm_confirming_order_result">Kauf bestätigen…</string>
+  <string name="mm_confirming_pay_result">Kauf bestätigen…</string>
+  <string name="mm_err_dont_install_mipay">Mi Wallet installieren, um fortzufahren</string>
   <string name="mobile_equipment_identification">Mobilgeräteidentifikation</string>
   <string name="monday">Montag</string>
   <string name="monday_short">Mo</string>
@@ -1095,6 +1117,8 @@ Um einen Kontakt zu den Favoriten hinzuzufügen:
   <string name="option_view_group">Anzeigen</string>
   <string name="other_contacts">Andere Kontakte</string>
   <string name="other_phone">Andere Telefone</string>
+  <string name="outof_service_msg">Mi Hall wird aktualisiert. Nach Abschluss erhalten Sie Zugang zu sämtlichen Funktionen.</string>
+  <string name="outof_service_title">System aktualisieren, Dienste werden ausgesetzt</string>
   <string name="path_batch_delete">Einstellungen/System-Apps/Kontakte/Kontaktoptionen/Mehrere löschen</string>
   <string name="path_contacts_display">Einstellungen/System-Apps/Kontakte/Anzeigeeinstellungen</string>
   <string name="path_contacts_more">Einstellungen/System-Apps/Kontakte/Kontaktoptionen</string>
@@ -1119,8 +1143,18 @@ Um einen Kontakt zu den Favoriten hinzuzufügen:
   <string name="path_simple_mode">Einstellungen/System-Apps/Kontakte/Bilder und Kontaktdaten</string>
   <string name="path_smart_group_title">Einstellungen/System-Apps/Kontakte/Anzeigeeinstellungen/intelligente Gruppen</string>
   <string name="path_wipe_data">Einstellungen/System-Apps/Kontakte/Kontaktoptionen/Daten löschen</string>
+  <string name="pay_fail">Zahlung wurde nicht abgeschlossen</string>
+  <string name="pay_success">Zahlung erfolgreich abgeschlossen</string>
+  <string name="pay_success_desc">%1$s-Datenpaket erfolgreich gekauft</string>
   <string name="payphone">Telefonzelle</string>
   <string name="people">Kontakte</string>
+  <string name="permission_access_fine_location_desc">Zur Verbesserung des lokalen Netzwerksignals</string>
+  <string name="permission_camera_desc">Für das Fotografieren während der ID-Verifizierung</string>
+  <string name="permission_contact_desc">Zur Aufladung des Guthabens Ihrer Kontakte</string>
+  <string name="permission_dailog_positive_button">Weiter</string>
+  <string name="permission_dailog_title">Berechtigung erforderlich</string>
+  <string name="permission_record_audio_desc">Zur Stimmverwendung während der ID-Verifizierung</string>
+  <string name="permission_write_external_storage_desc">Zum Speichern von App-Daten</string>
   <string name="phoneLabelsGroup">Telefon</string>
   <string name="phone_number_too_long_toast">Nummer ist zu lang</string>
   <string name="phone_primary">Primär</string>
@@ -1216,6 +1250,7 @@ Um einen Kontakt zu den Favoriten hinzuzufügen:
   <string name="preview_contact_card_title">Kontakte importieren…</string>
   <string name="preview_incall_show_entry">Videovorschau</string>
   <string name="previous">Zurück</string>
+  <string name="privacy_policy_and_user_agreement">Datenschutzerklärung und Nutzervereinbarung</string>
   <string name="private_num">Private Nummer</string>
   <string name="profileSavedErrorToast">Konnte meine Profiländerungen nicht speichern</string>
   <string name="profileSavedToast">Profil gespeichert</string>
@@ -1236,6 +1271,7 @@ Um einen Kontakt zu den Favoriten hinzuzufügen:
   <string name="quick_dial_setting_set_dialog_option_set">Ja</string>
   <string name="quick_dial_setting_title">Kurzwahl</string>
   <string name="quickcontact_missing_app">Für diese Aktion wurde keine App gefunden</string>
+  <string name="quit">Verlassen</string>
   <string name="quit_dialog_confirm_message">Sie haben noch keine Kontakte zusammengeführt</string>
   <string name="quit_dialog_confirm_title">Sie haben noch keine Kontakte zusammengeführt</string>
   <string name="rcs_app_name">Mini-App</string>
@@ -1306,6 +1342,10 @@ Drücken Sie auf Zusammenführen, um zu beginnen."</string>
   <string name="search_display_sim_contacts">Kontakte;Anzeige</string>
   <string name="search_export_to_sdcard">Kontakte;Exportieren;SD-Karte</string>
   <string name="search_export_to_sim">Kontakte;Exportieren;SIM-Karte</string>
+  <string name="search_group_call">Anrufen</string>
+  <string name="search_group_contacts">Kontakte</string>
+  <string name="search_group_expland">Erweitern</string>
+  <string name="search_group_pick_up">Aufheben</string>
   <string name="search_import_export">Importieren;Exportieren;Teilen</string>
   <string name="search_import_from_other_phone">Kontakte;Importieren;anderes Telefon</string>
   <string name="search_import_from_sdcard">Kontakte;Importieren;SD-Karte</string>
@@ -1457,6 +1497,8 @@ Drücken Sie auf Zusammenführen, um zu beginnen."</string>
   <string name="status_available">Verfügbar</string>
   <string name="status_away">Abwesend</string>
   <string name="status_busy">Beschäftigt</string>
+  <string name="status_not_allow_use">Nicht verfügbar</string>
+  <string name="status_not_enable"><Data>&lt;font color =#0D84FF>Nicht aktiviert&lt;/font></Data></string>
   <string name="strequentList">Favoriten</string>
   <string name="success_message_import_from_account">Kontakt importiert</string>
   <string name="summary_kind_title">Zusammenfassung</string>
@@ -1473,6 +1515,22 @@ Drücken Sie auf Zusammenführen, um zu beginnen."</string>
   <string name="t9_search_guide_zhuyin_title2" formatted="false">%d und %d eingeben, um nach <font fgcolor="">J</font>eff <font fgcolor="">M</font>ax zu suchen</string>
   <string name="take_new_photo">Neues Bild aufnehmen</string>
   <string name="take_photo">Bild aufnehmen</string>
+  <string name="text_buy_time">Bestellung erstellt</string>
+  <string name="text_charge_name">Betrag</string>
+  <string name="text_misim_balance">Guthaben: %1$s CNY</string>
+  <string name="text_misim_used_flow_month">Diesen Monat verbraucht</string>
+  <string name="text_msim_balance">Heute verbraucht</string>
+  <string name="text_msim_used_flow">Heute verbraucht</string>
+  <string name="text_no_order">Keine Bestellungen hier</string>
+  <string name="text_operator">Anbieter</string>
+  <string name="text_order_id">Bestellnummer</string>
+  <string name="text_paid_fee">Bestellbetrag</string>
+  <string name="text_phone_num">Telefonnummer</string>
+  <string name="text_status_otherModel"><Data>"&lt;font color =#0D84FF>Aktivieren nicht möglich&lt;/font>"</Data></string>
+  <string name="text_status_using"><Data>&lt;font color =#FF6666>Verwenden&lt;/font></Data></string>
+  <string name="text_traffic_package">Datenpaket</string>
+  <string name="text_vsim_remain_time">Verbleibende Minuten</string>
+  <string name="text_vsim_used_flow">Verbrauchte Daten</string>
   <string name="the_anniversary_of_lifting_martial_law">Jahrestag der Aufhebung des Kriegsrechts</string>
   <string name="the_anti_aggression_day">Antiaggressionstag</string>
   <string name="the_arbor_day">Tag des Baumes</string>
@@ -1523,8 +1581,10 @@ Drücken Sie auf Zusammenführen, um zu beginnen."</string>
   <string name="time_picker_label_hour">Std</string>
   <string name="time_picker_label_minute">Min</string>
   <string name="titleJoinContactDataWith">Kontakte zusammenführen</string>
+  <string name="title_finished_order">Erledigt</string>
   <string name="title_other_devices">Andere verfügbare Geräte</string>
   <string name="title_paired_devices">Verbundene Geräte</string>
+  <string name="title_processing_order">Verarbeitung…</string>
   <string name="toast_call_detail_error">Details für den angeforderten Anruf wurden nicht gelesen</string>
   <string name="toast_call_no_SoundRecorder">Rekorder nicht verfügbar</string>
   <string name="toast_call_no_notes">Notiz nicht verfügbar</string>
@@ -1581,6 +1641,7 @@ Drücken Sie auf Zusammenführen, um zu beginnen."</string>
   <string name="video_chat">Videochat</string>
   <string name="viewContactDesription">Kontakt anzeigen</string>
   <string name="viewContactTitle">Kontaktdetails</string>
+  <string name="view_details">Details anzeigen</string>
   <string name="view_updates_from_group">Updates anzeigen</string>
   <string name="voicemail">Mailbox</string>
   <string name="voicemail_buffering">Puffern…</string>
@@ -1601,6 +1662,8 @@ Drücken Sie auf Zusammenführen, um zu beginnen."</string>
   <string name="voip_audio_description">VoIP-Anruf</string>
   <string name="voip_video_description">VoIP-Videoanruf</string>
   <string name="websiteLabelsGroup">Webseite</string>
+  <string name="webview_btn_retry">Erneut versuchen</string>
+  <string name="webview_network_failure">Netzwerkverbindung nicht möglich</string>
   <string name="wednesday">Mittwoch</string>
   <string name="wednesday_short">Mi</string>
   <string name="wednesday_shortest">M</string>
