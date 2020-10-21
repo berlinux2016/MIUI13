@@ -101,6 +101,7 @@
   <string name="confirm_activate_email">Verifiziert</string>
   <string name="confirm_and_continue">Fortfahren</string>
   <string name="confirm_bundled_phone_dialog_title">Zugeordnete Telefonnummer bestätigen</string>
+  <string name="confirm_know">Zurück</string>
   <string name="confirm_new_pwd">Neues Passwort bestätigen</string>
   <string name="confirm_unbundled_phone_dialog_message">Diese Telefonnummer war mit dem Mi-Konto %2$s auf %1$s verbunden. Sie ist nicht mehr mit dem Mi-Konto %3$s verbunden, wenn Sie fortfahren. Fortfahren?</string>
   <string name="consumption_alert">Internetverbindung</string>
@@ -185,6 +186,11 @@ Senden Sie diesen Code an den Supervisor."</string>
   <string name="file_already_downlaoded">Datei in \"%1$s\" gespeichert</string>
   <string name="file_change_btn_download">Datei herunterladen</string>
   <string name="file_change_btn_upload">Datei hochladen</string>
+  <string name="file_info_created">"Hochgeladen: "</string>
+  <string name="file_info_local_created">"Erstellt: "</string>
+  <string name="file_info_location">"Standort: "</string>
+  <string name="file_info_modified">"Letzte Änderung: "</string>
+  <string name="file_info_size">"Größe: "</string>
   <string name="file_is_downloaded">Element ist bereits heruntergeladen</string>
   <string name="file_loading">Einen Moment…</string>
   <string name="file_name_empty">Sie müssen einen Namen angeben</string>
@@ -199,6 +205,10 @@ Senden Sie diesen Code an den Supervisor."</string>
   <string name="file_send_no_support">Dieser Dateityp kann nicht geteilt werden</string>
   <string name="file_size_is_zero">Dateigröße muss größer als 0 sein</string>
   <string name="file_size_lager_than_4g">Dateigröße darf 4 GB nicht übersteigen</string>
+  <string name="file_sort_create_time">Nach Erstelldatum sortieren</string>
+  <string name="file_sort_modify_time">Nach Änderungsdatum sortieren</string>
+  <string name="file_sort_name">Nach Name sortieren</string>
+  <string name="file_sort_size">Nach Größe sortieren</string>
   <string name="file_too_large">Diese Datei ist zu groß zum Hochladen</string>
   <string name="file_upload_dialog_cancel">Abbrechen</string>
   <string name="file_upload_dialog_title">Kategorie wählen</string>
@@ -272,7 +282,10 @@ Stellen Sie sicher, dass Sie das aktuelle Mi-Konto als Ihr MIUI-Systemkonto verw
   <string name="move_failed_retry">Verschieben nicht möglich, %1$s warten und erneut versuchen</string>
   <string name="move_file_success">Erfolgreich verschoben</string>
   <string name="mtrl_chip_close_icon_content_description">%1$s entfernen</string>
+  <string name="music_format_not_support">Vorschau dieser Datei nicht möglich</string>
   <string name="music_picker_title">Musik wählen</string>
+  <string name="music_play_attention_network_traffic">Nutzung mobiler Daten zum Streamen von Audio und Video kann zusätzliche Kosten verursachen</string>
+  <string name="music_play_online_network_not_available">Netzwerkverbindung nicht möglich. Netzwerkeinstellungen prüfen und erneut versuchen.</string>
   <string name="music_preview_download_failed">Laden nicht möglich</string>
   <string name="music_preview_failed">Diese Audiodatei kann nicht abgespielt werden</string>
   <string name="music_preview_title_loading">Einen Moment…</string>
@@ -455,6 +468,9 @@ Stellen Sie sicher, dass Sie das aktuelle Mi-Konto als Ihr MIUI-Systemkonto verw
   <string name="pre_user_agreement">Nutzervereinbarung</string>
   <string name="preference_copied">\"%1$s\" in Zwischenablage kopiert</string>
   <string name="privacy_policy">Datenschutzerklärung</string>
+  <string name="private_empty_desc">Hier können Sie Dateien privat speichern.</string>
+  <string name="private_empty_sub_desc">Versuchen Sie, Dateien hierher zu verschieben oder laden Sie sie direkt hoch.</string>
+  <string name="private_folder_name">Private Dateien</string>
   <string name="psw_hint">Passwort</string>
   <string name="psw_sign_in">Mit Passwort anmelden</string>
   <string name="quota_info">Mi Drive: %1$s verfügbar, %2$s insgesamt</string>
@@ -462,6 +478,7 @@ Stellen Sie sicher, dass Sie das aktuelle Mi-Konto als Ihr MIUI-Systemkonto verw
   <string name="refresh_label_refreshed">Erfolgreich aktualisiert</string>
   <string name="refresh_label_refreshing">Aktualisieren…</string>
   <string name="refresh_label_release_to_refresh">Zum Aktualisieren loslassen</string>
+  <string name="release_enter_private">Loslassen, um private Dateien anzuzeigen</string>
   <string name="remove_success">Erfolgreich gelöscht</string>
   <string name="rename_alert">Wenn Sie die Dateiendung ändern, können Sie die Datei eventuell nicht mehr öffnen</string>
   <string name="rename_ext_confirm_dialog_desc">Ändern des Dateityps kann die Datei unbrauchbar machen</string>
@@ -500,6 +517,8 @@ Stellen Sie sicher, dass Sie das aktuelle Mi-Konto als Ihr MIUI-Systemkonto verw
   <string name="send_to_midrive_failed">Dieser Dateityp wird nicht unterstützt</string>
   <string name="sending">Senden…</string>
   <string name="service_error">Serverfehler</string>
+  <string name="set_lock_password_dialog_msg">Datenschutzpasswort wird für Fotos, Notizen und Dateien verwendet</string>
+  <string name="set_lock_password_dialog_title">Neues Passwort festlegen</string>
   <string name="set_success">Erfolgreich geändert</string>
   <string name="setting_clear_cache">Cache löschen</string>
   <string name="setting_create_shortcut">Startbildschirmverknüpfung</string>
@@ -541,6 +560,8 @@ Stellen Sie sicher, dass Sie das aktuelle Mi-Konto als Ihr MIUI-Systemkonto verw
   <string name="transfer_done">Erledigt</string>
   <string name="transing">Senden</string>
   <string name="transport_end_button">Bearbeiten</string>
+  <string name="unlock_password_dialog_msg">Datenschutzpasswort wird verwendet. Es funktioniert für Fotos, Notizen und Dateien.</string>
+  <string name="unlock_password_dialog_title">Datenschutzpasswort</string>
   <string name="update_dialog_button_cancel">Jetzt nicht</string>
   <string name="update_dialog_button_ok">Aktualisierung</string>
   <string name="update_dialog_content">"Neue Version: %1$s
