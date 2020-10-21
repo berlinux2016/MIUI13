@@ -74,6 +74,7 @@
   <string name="already_download_btn">Herunterladen…</string>
   <string name="already_favorited">Bereits zu Favoriten hinzugefügt</string>
   <string name="always_use_metered">Immer mobile Daten nutzen</string>
+  <string name="app_name">Einstellung</string>
   <string name="app_permission_confirm">Verstanden</string>
   <string name="app_permission_optional">Optionale Rechte</string>
   <string name="app_permission_require">Obligatorische Rechte</string>
@@ -228,6 +229,7 @@
   <string name="desktop_lyric_lock_toast">Gesperrt. Verwenden Sie zum Entsperren den Miniplayer in der Benachrichtigungsleiste.</string>
   <string name="desktop_lyric_setting_summary">Songtext in Popup am Startbildschirm anzeigen</string>
   <string name="desktop_lyric_setting_title">Startbildschirm-Songtexte</string>
+  <string name="develop_mode">Entwicklermodus</string>
   <string name="device_connected">Verbunden</string>
   <string name="device_not_connected">Nicht verbunden</string>
   <string name="dialog_button_agree">Zustimmen</string>
@@ -280,6 +282,7 @@
   <string name="disable_auto_payment_success_message">Automatische Verlängerung deaktiviert. Nach dem Ablauf Ihres Abonnements müssen Sie sich erneut anmelden, um wieder Musik herunterladen zu können.</string>
   <string name="disallow_add_to_fm">Titel können nicht von UKW-Radiosendern hinzugefügt werden.</string>
   <string name="disallow_add_to_personal_radio">Kann nicht zu benutzerdefiniertem Radio hinzugefügt werden</string>
+  <string name="discover_more_music">Weitere Titel entdecken</string>
   <string name="do_not_remind_this_version">Nicht an diese Version erinnnern</string>
   <string name="do_not_support_google_voice_search">Google-Sprachsuche wird auf Ihrem Gerät nicht unterstützt.</string>
   <string name="download">Herunterladen</string>
@@ -397,11 +400,15 @@
   <string name="exo_controls_shuffle_description">Zufallswiedergabe</string>
   <string name="exo_controls_shuffle_off_description">Zufallswiedergabe aus</string>
   <string name="exo_controls_shuffle_on_description">Zufallswiedergabe an</string>
+  <string name="exo_controls_vr_description">VR-Modus</string>
   <string name="exo_download_completed">Download vollständig</string>
   <string name="exo_download_description">Herunterladen</string>
   <string name="exo_download_downloading">Herunterladen</string>
   <string name="exo_download_failed">Download fehlgeschlagen</string>
   <string name="exo_download_removing">Downloads löschen</string>
+  <string name="exo_media_action_repeat_all_description">Alle wiederholen</string>
+  <string name="exo_media_action_repeat_off_description">Nichts wiederholen</string>
+  <string name="exo_media_action_repeat_one_description">Einen wiederholen</string>
   <string name="exo_track_role_alternate">Wechseln</string>
   <string name="exo_track_role_commentary">Kommentar</string>
   <string name="exo_track_role_supplementary">Ergänzend</string>
@@ -425,6 +432,7 @@
   <string name="favorite_tracks">Lieblingsmusik</string>
   <string name="favorites">Favoriten</string>
   <string name="fcm_fallback_notification_channel_label">Sonstiges</string>
+  <string name="feedback_send_email_body_extra_info">Löschen Sie die folgenden Infos nicht. Sie helfen uns, das Problem zu lokalisieren.</string>
   <string name="file_not_found">"Datei existiert nicht"</string>
   <string name="filter_by_MP4">Ordner mit MP4-Dateien anzeigen</string>
   <string name="filter_by_duration">Nach Länge</string>
@@ -552,6 +560,11 @@
   <string name="individuation_recommend_title">Induviduelle Empfehlung</string>
   <string name="individuation_setting_summary">Inhaltsempfehlungen basierend auf Ihren Interessen erhalten</string>
   <string name="individuation_setting_title">Personalisierte Empfehlungen</string>
+  <string name="info_app_package_name">Paketname:</string>
+  <string name="info_app_version">App-Version:</string>
+  <string name="info_language">Sprache:</string>
+  <string name="info_product">Gerät:</string>
+  <string name="info_system_version">Systemversion:</string>
   <string name="input_hint_prefix">Bitte %1$s eingeben</string>
   <string name="installing_apk">Installation…</string>
   <string name="insufficient_space">Zu wenig Speicherplatz auf internem Speicher</string>
@@ -733,6 +746,7 @@
   <string name="my_playlist_set_to_private">Privat machen</string>
   <string name="my_playlist_set_to_public">Öffentlich machen</string>
   <string name="nav_online_playlist">Wiedergabelisten</string>
+  <string name="network_disable">Netzwerkverbindung nicht möglich</string>
   <string name="network_error_and_retry">Prüfen Sie Ihre Verbindung und versuchen Sie es erneut.</string>
   <string name="network_failure">Prüfen Sie Ihre Verbindung und versuchen Sie es erneut.</string>
   <string name="network_request_error">Keine Netzwerkverbindung</string>
@@ -874,6 +888,15 @@
   <string name="privacy_authorize_revoking">Genehmigung widerrufen…</string>
   <string name="privacy_desc">Datenschutzerklärung (obligatorisch)</string>
   <string name="privacy_policy">Datenschutzerklärung</string>
+  <string name="privacy_request_desc"><Data>"Mi Music muss notwendige persönliche Daten sammeln, um Ihnen Online-Streaming-Dienste anbieten zu können. Wie wir mit den gesammelten Daten umgehen, erfahren Sie in unserer &lt;a href=\"%1$s\">Datenschutzerklärung&lt;/a>. Sie können Ihre Zustimmung zur Mi Music Datenschutzerklärung jederzeit in den Einstellungen zurückziehen.
+Lesen und akzeptieren Sie unsere &lt;a href=\"%2$s\">Nutzervereinbarung &lt;/a> und &lt;a href=\"%1$s\">Datenschutzerklärung&lt;/a>, bevor Sie Mi Music nutzen.
+Wenn Sie mit der Nutzung der oben genannten Dienste nicht einverstanden sind, können Sie einige Funktionen dieser App nicht nutzen; die Grundfunktionen stehen Ihnen jedoch weiterhin zur Verfügung."</Data></string>
+  <string name="privacy_request_subtitle">"Willkommen bei Mi Music! Diese App bietet die folgenden Dienste:
+
+- Ein lokaler Audioplayer
+
+- Online-Streaming-Dienste"</string>
+  <string name="privacy_request_title">Allgemeine Geschäftsbedingungen</string>
   <string name="pro_member">PRO-Mitglied</string>
   <string name="project_device">Mi Telefon</string>
   <string name="prompt_grant_write_settings_permission">Systemeinstellungen ändern erlauben</string>
@@ -914,12 +937,14 @@
   <string name="remove">Entfernen</string>
   <string name="remove_download">Entfernen</string>
   <string name="remove_user_privacy_dialog_message">Wenn Sie die Genehmigung widerrufen, hört Mi Music auf, Daten zu sammeln, und alle zugehörigen Daten werden von den Servern gelöscht. Dies könnte Mi Music praktisch unbrauchbar machen. Trotzdem Genehmigung widerrufen?</string>
+  <string name="remove_user_privacy_dialog_message_canuse">Indem Sie den Schalter ausschalten, widerrufen Sie Ihre Zustimmung zur Mi Music Datenschutzerklärung. Wir werden die Erfassung Ihrer persönlichen Daten einstellen. Die bereits gesammelten und aufbewahrten persönlichen Daten werden innerhalb der von den geltenden Gesetzen vorgeschriebenen Frist gelöscht. Mi Music muss die erforderlichen persönlichen Daten erfassen, um Ihnen Online-Streaming-Dienste anbieten zu können. Ihr Widerruf der Zustimmung zur Datenschutzerklärung wird als Annahmeverweigerung der oben genannten Online-Dienste auf Grundlage der gesammelten persönlichen Daten gewertet.</string>
   <string name="remove_user_privacy_dialog_title">Genehmigung widerrufen</string>
   <string name="renew_dialog_title">"Zu PRO gehen.
 Glücklich sein."</string>
   <string name="repeat_all_notif">Alle Titel wiederholen</string>
   <string name="repeat_current_notif">Aktuellen Titel wiederholen</string>
   <string name="request_overlay_permission_desc">Erlauben Sie Mi Music, Popup-Benachrichtigungen anzuzeigen, um diese Funktion nutzen zu können.</string>
+  <string name="request_privacy_permission_title">Lesen und akzeptieren Sie die nachstehenden allgemeinen Geschäftsbedingungen, um Zugang zu allen unseren Diensten zu erhalten.</string>
   <string name="request_share_info">Nur eine Sekunde…</string>
   <string name="request_subscription_status">Nur eine Sekunde…</string>
   <string name="restart_immediate">Jetzt neustarten</string>
@@ -1072,12 +1097,14 @@ Glücklich sein."</string>
   <string name="start_to_check_new_version">Nach Updates suchen…</string>
   <string name="start_to_download">Mit Herunterladen beginnen…</string>
   <string name="start_to_play">Abspielen</string>
+  <string name="start_update">Neue Version installieren…</string>
   <string name="storage_cloned_app">Speicher für Dual Apps</string>
   <string name="storage_internal">Interner Speicher</string>
   <string name="storage_sd_card">SD-Karte</string>
   <string name="storage_usb">USB-Speicher</string>
   <string name="stream_quality">Streamqualität</string>
   <string name="streamloadingtext">Verbinde zu %s</string>
+  <string name="summary_command_mode">Einschalten, um in den Befehlsmodus zu gelangen</string>
   <string name="sunday">Sonntag</string>
   <string name="sunday_short">So</string>
   <string name="sunday_shortest">S</string>
@@ -1165,10 +1192,12 @@ Glücklich sein."</string>
   <string name="time_picker_label_hour">Std</string>
   <string name="time_picker_label_minute">Min</string>
   <string name="time_to_upgrade">Update ist verfügbar</string>
+  <string name="title_command_mode">Befehlsmodus</string>
   <string name="title_online_fm_recommend">Empfohlene FM</string>
   <string name="title_online_recommend">Empfohlene Wiedergabelisten</string>
   <string name="title_search_history">Verlauf durchsuchen</string>
   <string name="title_search_hot">Beliebt</string>
+  <string name="toast_cant_commit_without_title">Songtitel eingeben</string>
   <string name="toast_download_error_by_count_limit">Sie haben Ihr Downloadlimit für diesen Monat verbraucht.</string>
   <string name="toast_download_error_by_not_login">Mit Mi-Konto anmelden und erneut versuchen.</string>
   <string name="toast_download_error_by_vip_required">Holen Sie sich ein Premiumpaket, um diesen Titel herunterladen zu können.</string>
@@ -1183,6 +1212,9 @@ Glücklich sein."</string>
   <string name="toast_normal_songs_for_download">Downloadqualität auf Standard gesetzt</string>
   <string name="toast_normal_songs_for_stream">Streamingqualität auf Standard gesetzt</string>
   <string name="toast_not_pro">Diese Funktion ist nur für PRO-Mitglieder verfügbar.</string>
+  <string name="toast_playmode_loop_playback">Aktuelle Wiedergabeliste ist in einer Schleife</string>
+  <string name="toast_playmode_shuffle_play">Zufallswiedergabe</string>
+  <string name="toast_playmode_single_cycle">Aktueller Titel ist in einer Schleife</string>
   <string name="toast_uhd_songs_for_download">Downloadqualität auf hoch eingestellt</string>
   <string name="toast_uhd_songs_for_stream">Streamingqualität auf hoch eingestellt</string>
   <string name="toast_will_play_list_when_ad_pause">Wiedergabeliste wird nach der Werbung abgespielt</string>
