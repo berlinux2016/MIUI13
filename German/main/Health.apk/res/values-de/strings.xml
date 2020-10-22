@@ -13,8 +13,11 @@
   <string name="buy">Kaufen</string>
   <string name="data_source_cannot_be_synchronized">Daten synchronisieren nicht möglich</string>
   <string name="detail_record_pace_describe">Tempo (Zeit/km)</string>
-  <string name="detail_record_pace_title">Geschw./km</string>
+  <string name="detail_record_pace_title">Zeitabschnitt</string>
   <string name="device_unbound_from_account">Dieses Gerät ist nicht mehr mit Ihrem Konto verbunden</string>
+  <string name="dialog_agree_permission">Erlauben</string>
+  <string name="dialog_permission_title">Erforderliche Berechtigungen</string>
+  <string name="dialog_reject">Einschränken</string>
   <string name="elliptical_machine">Elliptisch</string>
   <string name="exit_running_tips_cancel">Sport beenden</string>
   <string name="exit_running_tips_confirm">Regelmäßig Sport treiben</string>
@@ -22,8 +25,8 @@
   <string name="exit_running_tips_title">Übung beenden bestätigen</string>
   <string name="finish_stand2">Aufstehen</string>
   <string name="go_to_upgrade">Aktualisierung</string>
-  <string name="gps_no_signal_hint">Mit dem aktuellen GPS-Signal ist es unmöglich, die Bewegungsdaten und die Flugbahn genau aufzuzeichnen. Um das GPS-Signal besser zu empfangen, begeben Sie sich bitte auf offenes Gelände.</string>
-  <string name="gps_unauthorized">GPS nicht autorisiert</string>
+  <string name="gps_no_signal_hint">Das aktuelle GPS-Signal erlaubt es nicht, Ihr Training zu verfolgen und Routen aufzuzeichnen. Gehen Sie zu einem flachen, offenen Außenbereich.</string>
+  <string name="gps_unauthorized">GPS ist aus</string>
   <string name="gps_unopened">GPS ist aus</string>
   <string name="group">Zyklen</string>
   <string name="height">Höhe</string>
@@ -31,6 +34,7 @@
   <string name="highest_jump">Höchster Sprung</string>
   <string name="hr_cover_to_red">"Kamera vollständig mit Ihrem Finger bedecken.
 Warten, bis sich der Kreis rot färbt."</string>
+  <string name="hr_finger_permission_desc">Um Ihre Herzfrequenz zu messen, muss diese Funktion auf einen Fingerabdruck-Scanner zugreifen, um Veränderungen in Ihrem Blutfluss erkennen zu können. Erlauben?</string>
   <string name="hr_re_detect_title">Neu anfangen</string>
   <string name="hr_report_active_desc">Messung Ihrer Herzfrequenz direkt nach dem Training kann Ihnen helfen, Ihre Trainingsgewohnheiten anzupassen, da Trainings mit unterschiedlicher Intensität unterschiedliche optimale Herzfrequenzbereiche haben. Wenn Ihre Herzfrequenz zu hoch ist, kann sich die Aktivität nachteilig auf Ihre Gesundheit auswirken und zu Schwindel, Engegefühl in der Brust und anderen Risiken führen. Eine niedrige Herzfrequenz kann ein Zeichen für die geringe Wirksamkeit eines bestimmten Trainings sein.</string>
   <string name="hr_report_common_desc">Eine normale Herzfrequenz wird vom menschlichen Körper während der täglichen Aktivitäten beibehalten und reicht von 60 bis 100 Schlägen pro Minute. Eine Herzfrequenz unter 60 BPM ist ein Zeichen für eine Bradykardie, während eine Herzfrequenz über 100 BPM bei Erwachsenen als Tachykardie (Herzrasen) angesehen wird.</string>
@@ -83,6 +87,11 @@ Warten, bis sich der Kreis rot färbt."</string>
   <string name="rope_skipping">Springseil</string>
   <string name="rowing_machine">Ruderer</string>
   <string name="slide_freq">Schlagfrequenz</string>
+  <string name="snore_detection_close_prompt_desc">Sie haben Schnarchen und Sprechen schon eine Weile nicht mehr wahrgenommen. Wir haben diese Funktion für Sie abgeschaltet, um Akku zu sparen. Tippen, um die Einstellungen zu überprüfen.</string>
+  <string name="sport_btn_lock">Sperren</string>
+  <string name="sport_btn_unlock">Entsperren</string>
+  <string name="sporting_location">Standortbestimmung</string>
+  <string name="sport_share_success">Erfolgreich geteilt</string>
   <string name="supported_data_type">Verfügbare Daten: %1$s</string>
   <string name="tb_mens_mark_success">Erfolgreich markiert</string>
   <string name="tb_mens_select_column">Zyklus beginnt am %1$s.%2$s.%3$s.</string>
@@ -93,7 +102,7 @@ Warten, bis sich der Kreis rot färbt."</string>
   <string name="unit_count">" zählen"</string>
   <string name="unknown_state">Unbekannter Status</string>
   <string name="upgrade_suggestion">Xiaomi Health auf die neueste Version aktualisieren und erneut versuchen</string>
-  <string name="user_center">Nutzerzentrum</string>
+  <string name="user_center">Profil</string>
   <string name="yoga">Yoga</string>
 
   <string name="abc_action_bar_home_description">Zur Startseite</string>
@@ -604,15 +613,17 @@ Wenn es für Sie nach 30 Minuten im Bett immer noch schwierig ist, einzuschlafen
   <string name="hr_detect_state_reseting_desc">Einfach aufwachen oder völlig entspannt</string>
   <string name="hr_disturb_detect">Messung unterbrochen</string>
   <string name="hr_disturb_detect_desc">Neu anfangen. Versuchen Sie, den Finger während der Messung nicht zu bewegen.</string>
-  <string name="hr_fp_area">Fingerabdruckbereich</string>
-  <string name="hr_fp_detect_desc">Der Blutfluss zu den Fingern nimmt während des Herzschlags zu. Durch die helle Lichtquelle im Fingerabdruckbereich unter dem Bildschirm kann die Änderungsfrequenz des Fingerblutes ermittelt werden. Die Frequenz wird in ein Pulssignal umgewandelt, um die genaue Herzfrequenz zu berechnen.</string>
-  <string name="hr_fp_detect_principle_desc">"Blut kann Licht absorbieren. Mit jedem Herzschlag fließt mehr Blut zu den Fingern und es wird mehr Licht absorbiert; im Intervall zwischen den Herzschlägen wird weniger Licht absorbiert. Durch die helle Lichtquelle im Fingerabdruckbereich unter dem Bildschirm kann die Änderungsfrequenz des Fingerblutes ermittelt werden. Die Frequenz wird in ein Pulssignal umgewandelt, um die genaue Herzfrequenz zu berechnen. 
+  <string name="hr_fp_area">Fingerscanner</string>
+  <string name="hr_fp_detect_desc">Mit jedem Herzschlag fließt Blut zu Ihren Fingern. Helles Licht im Bereich des Fingerabdruckscanners unter dem Bildschirm ermöglicht es uns, die Veränderungen in Ihrem Blutfluss zu verfolgen, die Muster zu analysieren und in Herzfrequenzwerte umzuwandeln.</string>
+  <string name="hr_fp_detect_principle_desc">"Blut ist nicht völlig undurchsichtig, daher kann Licht hindurchtreten. Bei jedem Herzschlag strömt Blut zu den Fingern und blockiert mehr Licht als zwischen den Herzschlägen. Helles Licht im Bereich des Fingerabdruckscanners unter dem Bildschirm ermöglicht es uns, die Veränderungen in Ihrem Blutfluss zu verfolgen, die Muster zu analysieren und sie in Herzfrequenzwerte umzuwandeln.
 
-Dank einer großen Anzahl von Experimenten beträgt der durchschnittliche Herzfrequenzfehler weniger als 3 BPM."</string>
-  <string name="hr_fp_detect_principle_desc_2">Hinweis: Bitte achten Sie darauf, dass der Finger den Fingerabdruckbereich vollständig abdeckt; drücken Sie ihn während der Erkennung leicht an. Wenn der Druck zu hoch ist, wird der Blutfluss im Finger reduziert, was zu ungenauen Ergebnissen führt. Die Testdaten dienen nur als Referenz, nicht für medizinische Instrumente.</string>
-  <string name="hr_fp_detect_start_desc">Bitte drücken Sie Ihren Finger leicht. Verschieben Sie den Fingerabdruckbereich nicht.</string>
-  <string name="hr_fp_detecting">Erkennen…</string>
-  <string name="hr_fp_not_put_well">Finger nicht an der richtigen Stelle, erneut versuchen.</string>
+Unsere Tests zeigen, dass diese Methode Ihre Herzfrequenz mit einem Fehler von nur ≤3 BPM misst."</string>
+  <string name="hr_fp_detect_principle_desc_2">Hinweis: Achten Sie darauf, dass Ihr Finger das Fingerabdrucksymbol während der Messung vollständig bedeckt. Wenden Sie keine Kraft an, da dies den Blutfluss in Ihrer Fingerbeere blockieren und die Ergebnisse ungenau machen könnte. Diese Messung dient nur zu Ihrer Information. Sie kann medizinische Tests nicht ersetzen.</string>
+  <string name="hr_fp_detect_start_desc">Drücken Sie leicht auf das Fingerabdrucksymbol.
+Bewegen Sie Ihren Finger nicht.</string>
+  <string name="hr_fp_detecting">Messen…</string>
+  <string name="hr_fp_not_put_well">Ihr Finger hat sich bewegt.
+Fangen Sie von vorne an.</string>
   <string name="hr_fp_report_common_desc">Die normale Herzfrequenz liegt zwischen 60 und 100 Schlägen pro Minute. Eine Herzfrequenz unter 60 BPM ist ein Zeichen für eine Bradykardie, während eine Herzfrequenz über 100 BPM bei Erwachsenen als Tachykardie gilt.</string>
   <string name="hr_heart_rate_unit">Puls (BPM)</string>
   <string name="hr_in_detect">Pulsmessung, bewegen Sie Ihren Finger nicht.</string>
@@ -688,16 +699,16 @@ mit einem Finger"</string>
   <string name="light_sleep_time_increase_description">Ihr Halbschlaf ist zu lang</string>
   <string name="light_sleep_time_normal_description">Sie haben ausreichend Halbschlaf</string>
   <string name="load_failed">Elemente wurden nicht geladen. Einen Moment warten und erneut versuchen.</string>
-  <string name="location_permission_dialog_content">Die aktuelle Gesundheits-App ist nicht berechtigt, die Berechtigungen zu lokalisieren, und kann Ihre Standortinformationen nicht bestätigen und Funktionen zur Aufzeichnung von Übungen im Freien bereitstellen. Weitere Informationen finden Sie unter Berechtigung zur Verwaltung der Positionierung des Gesundheits-Berechtigungsmanagements.</string>
-  <string name="location_permission_dialog_negative">Nicht in Gebrauch</string>
-  <string name="location_permission_dialog_positive">Zur Autorisierung gehen</string>
-  <string name="location_permission_dialog_title">Nicht autorisierte Standortberechtigung</string>
-  <string name="location_service_dialog_content">Die Ortungsdienstfunktion des aktuellen Geräts ist nicht aktiviert und Ihr Standort kann nicht abgerufen werden, um eine Funktion zur Aufzeichnung von Übungen im Freien bereitzustellen. Gehen Sie zur Einstellung der Standortinformationen, um sie zu aktivieren.</string>
-  <string name="location_service_dialog_negative">Nicht offen</string>
-  <string name="location_service_dialog_positive">Zum Öffnen gehen</string>
-  <string name="location_service_dialog_title">Der Ortungsdienst ist nicht aktiviert</string>
-  <string name="location_service_ntfc_content">Xiaomi Gesundheit</string>
-  <string name="location_service_ntfc_title">Nach GPS suchen</string>
+  <string name="location_permission_dialog_content">Erlauben Sie Xiaomi Health den Zugriff auf Ihren Standort in \"Xiaomi Health\" &gt; \"Berechtigungen verwalten\", um Ihre Workouts im Freien verfolgen zu können.</string>
+  <string name="location_permission_dialog_negative">Jetzt nicht</string>
+  <string name="location_permission_dialog_positive">Erlauben</string>
+  <string name="location_permission_dialog_title">Standortberechtigungen erforderlich</string>
+  <string name="location_service_dialog_content">Schalten Sie in den Einstellungen die Standortdienste ein, um Ihre Workouts im Freien verfolgen zu können.</string>
+  <string name="location_service_dialog_negative">Jetzt nicht</string>
+  <string name="location_service_dialog_positive">Einschalten</string>
+  <string name="location_service_dialog_title">Standortdienste sind aus</string>
+  <string name="location_service_ntfc_content">Xiaomi Health</string>
+  <string name="location_service_ntfc_title">Nach GPS suchen…</string>
   <string name="login_and_open_sync">Anmelden und Synchronisieren einschalten</string>
   <string name="login_and_open_sync2">Anmelden und Synchronisieren einschalten</string>
   <string name="low">Niedrig</string>
@@ -1004,7 +1015,7 @@ mit einem Finger"</string>
   <string name="sleep_deep_light_no_data">Noch keine Daten vorhanden</string>
   <string name="sleep_deep_light_no_data_improvement">Keine Schlafphasen erkannt. Wir sind dabei, unsere Algorithmen zu verbessern. Bleiben Sie dran!</string>
   <string name="sleep_detection_enable">Schlafzyklus analysieren</string>
-  <string name="sleep_detection_guide_four_description">Schlafaufzeichnungsfunktion verbraucht täglich etwa 1 %% Ihres Akkus.</string>
+  <string name="sleep_detection_guide_four_description">Schlafaufzeichnung verbraucht nur etwa 1 %% Ihres Akkus (pro Nacht)</string>
   <string name="sleep_detection_guide_four_high_power_description">Stellen Sie sicher, dass Ihr Gerät ausreichend aufgeladen ist, bevor Sie zu Bett gehen. Eine schwacher Akku kann die Schlafaufzeichnung unterbrechen.</string>
   <string name="sleep_detection_guide_four_high_power_title">Halten Sie Ihren Geräteakku geladen</string>
   <string name="sleep_detection_guide_four_title">Niedriger Stromverbrauch</string>
@@ -1172,33 +1183,33 @@ können Ihre Gesundheit verbessern."</string>
   <string name="splash_title">"In Xiaomi Health können Sie Ihre Aktivitätsziele setzen
 und Sie werden basierend
 auf Ihren persönlichen Daten beraten."</string>
-  <string name="sport_btn_continue">weiter machen</string>
+  <string name="sport_btn_continue">Fortsetzen</string>
   <string name="sport_btn_finish">Ende</string>
-  <string name="sport_btn_pause">Auszeit</string>
-  <string name="sport_counter_begin">Direkt starten</string>
+  <string name="sport_btn_pause">Pause</string>
+  <string name="sport_counter_begin">Jetzt starten</string>
   <string name="sport_home_begin">Start</string>
   <string name="sport_home_set_goal">Ziel festlegen</string>
   <string name="sport_invalid_dialog_distance_content">Die Entfernung dieser Übung ist zu kurz und das Übungsprotokoll kann am Ende dieser Zeit nicht erstellt werden. Ist die Bestätigung beendet?</string>
-  <string name="sport_invalid_dialog_time_content">Diese Übung dauert weniger als 5 Sekunden und der Übungsaufzeichnung kann nicht erstellt werden, wenn sie vorbei ist. Können Sie das Ende bestätigen?</string>
-  <string name="sport_invalid_dialog_title">Ineffektive Übung</string>
+  <string name="sport_invalid_dialog_time_content">Dieses Workout dauerte weniger als 5 Sekunden. Jetzt beenden, ohne es aufzuzeichnen?</string>
+  <string name="sport_invalid_dialog_title">Viel zu schnell!</string>
   <string name="sport_menu_share">Teilen</string>
-  <string name="sport_pace_chart_last_km">Weniger als einen Kilometer</string>
+  <string name="sport_pace_chart_last_km">Weniger als 1 km</string>
   <string name="sport_pace_step_unit">Schritte/Minute</string>
-  <string name="sport_pref_category_voice">Spracheinstellungen</string>
-  <string name="sport_pref_gps_voice_title">GPS-Signal Sprachaufforderung</string>
-  <string name="sport_pref_voice_assist_summary">Bereitstellung von Datenübertragung und Vorschlägen für den Sport</string>
-  <string name="sport_pref_voice_assist_title">Sprachansagen</string>
-  <string name="sport_settings_title">Sporteinstellungen</string>
-  <string name="sport_share_fail">Teilen fehlgeschlagen, bitte erneut versuchen</string>
-  <string name="sport_share_save_local">Lokal speichern</string>
+  <string name="sport_pref_category_voice">Audio</string>
+  <string name="sport_pref_gps_voice_title">Sprachanweisungen für GPS-Signale</string>
+  <string name="sport_pref_voice_assist_summary">Während des Workouts Informationen und Vorschläge anhören</string>
+  <string name="sport_pref_voice_assist_title">Sprachanweisungen</string>
+  <string name="sport_settings_title">Workouts</string>
+  <string name="sport_share_fail">Teilen nicht möglich, erneut versuchen</string>
+  <string name="sport_share_save_local">Erfolgreich gespeichert</string>
   <string name="sport_share_save_local_fail">Speichern fehlgeschlagen, bitte erneut versuchen</string>
   <string name="sport_share_save_local_success">Datensatz gespeichert</string>
-  <string name="sport_share_title">Sport teilen</string>
-  <string name="sport_step_average_frequency">Durchschnittliche Schrittfrequenz</string>
-  <string name="sport_step_max_frequency">Max. Schrittfrequenz</string>
-  <string name="sport_step_min_frequency">Min. Schrittfrequenz</string>
-  <string name="sport_title_step_frequency">Frequenz</string>
-  <string name="sport_tts_begin_riding">Mit Reiten beginnen</string>
+  <string name="sport_share_title">Teilen</string>
+  <string name="sport_step_average_frequency">Durchschnitt</string>
+  <string name="sport_step_max_frequency">Max.</string>
+  <string name="sport_step_min_frequency">Min.</string>
+  <string name="sport_title_step_frequency">Trittrequenz</string>
+  <string name="sport_tts_begin_riding">Mit Radfahren beginnen</string>
   <string name="sport_tts_begin_running">Mit Rennen beginnen</string>
   <string name="sport_tts_begin_walking">Mit Laufen beginnen</string>
   <string name="sport_tts_finish_by_user">Herzlichen Glückwunsch, beenden Sie die Übung!</string>
@@ -1206,7 +1217,7 @@ auf Ihren persönlichen Daten beraten."</string>
   <string name="sport_tts_goal_distance">%s km vom Ziel entfernt</string>
   <string name="sport_tts_goal_finish">Ziel erreicht! Herzlichen Glückwunsch!</string>
   <string name="sport_tts_goal_finish_half">Das Übungsziel wurde zur Hälfte erreicht, großartig!</string>
-  <string name="sport_tts_last_km_spent">Übrige Kilometer: %s</string>
+  <string name="sport_tts_last_km_spent">Sie haben den letzten Kilometer in %s zurückgelegt</string>
   <string name="sport_tts_pause_by_user">Übung wird angehalten</string>
   <string name="sport_tts_riding_distance">Sie sind %s km gefahren</string>
   <string name="sport_tts_running_distance">Sie sind %s km gelaufen</string>
@@ -1214,16 +1225,16 @@ auf Ihren persönlichen Daten beraten."</string>
   <string name="sport_tts_walking_distance">Sie sind %s km gelaufen</string>
   <string name="sport_type">Workout-Typ</string>
   <string name="sporting_goal">Ziele</string>
-  <string name="sporting_hint_exit_map">Sportkarte verlassen</string>
+  <string name="sporting_hint_exit_map">Karte schließen</string>
   <string name="sporting_hint_long_press">Zum Beenden lange drücken</string>
-  <string name="sporting_hint_switch_to_map">Zur Sportkarte wechseln</string>
-  <string name="sporting_key_calories">Kcal</string>
+  <string name="sporting_hint_switch_to_map">Zur Karte wechseln</string>
+  <string name="sporting_key_calories">Kalorien</string>
   <string name="sporting_key_km">km</string>
   <string name="sporting_key_speed">Tempo</string>
-  <string name="sporting_key_step">Schrittzahl</string>
-  <string name="sporting_key_time">Zeitkosten</string>
-  <string name="sporting_title_outdoor_riding">Reiten</string>
-  <string name="sporting_title_pause">Pausieren</string>
+  <string name="sporting_key_step">Schritte</string>
+  <string name="sporting_key_time">Dauer</string>
+  <string name="sporting_title_outdoor_riding">Radfahren</string>
+  <string name="sporting_title_pause">Pausiert</string>
   <string name="sporting_title_running">Laufen</string>
   <string name="sporting_title_waking">Gehen</string>
   <string name="sporting_unit_step">Schritte</string>

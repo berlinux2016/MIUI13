@@ -1,7 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
   <plurals name="sport_tts_goal_time">
-    <item quantity="other">%s Minuten bis zu Ihrem Ziel</item>
+    <item quantity="other">%s mehr Minuten, bis Sie Ihr Ziel erreichen</item>
+    <item quantity="one">%s mehr Minute, bis Sie Ihr Ziel erreichen</item>
   </plurals>
   <plurals name="sporting_content_calories">
     <item quantity="other">Gesamtverbrauch: %1$d kcal</item>
@@ -25,10 +26,39 @@
     <item quantity="other">Sie sind %1$d Schritte gelaufen</item>
   </plurals>
   <plurals name="sporting_unit_calories">
-    <item quantity="other">%1$d kcal</item>
+    <item quantity="other">%1$d Kalorien</item>
+    <item quantity="one">%1$d Kalorie</item>
   </plurals>
   <plurals name="sporting_unit_km">
     <item quantity="other">%1$s km</item>
+  </plurals>
+  <plurals name="sport_tts_goal_consume">
+    <item quantity="other">%s Kalorien mehr, die Sie noch verbrennen können, bis Sie Ihr Ziel erreichen</item>
+    <item quantity="one">%s Kalorie mehr, die Sie noch verbrennen können, bis Sie Ihr Ziel erreichen</item>
+  </plurals>
+  <plurals name="sport_tts_goal_distance">
+    <item quantity="other">Noch %s Kilometer mehr bis Sie Ihr Ziel erreichen</item>
+    <item quantity="one">Noch %s Kilometer mehr bis Sie Ihr Ziel erreichen</item>
+  </plurals>
+  <plurals name="sport_tts_riding_distance">
+    <item quantity="other">Sie sind %s Kilometer Rad gefahren</item>
+    <item quantity="one">Sie sind %s Kilometer Rad gefahren</item>
+  </plurals>
+  <plurals name="sport_tts_running_distance">
+    <item quantity="other">Sie sind %s Kilometer gerannt</item>
+    <item quantity="one">Sie sind %s Kilometer gerannt</item>
+  </plurals>
+  <plurals name="sport_tts_total_consume">
+    <item quantity="other">Sie haben %s Kalorien verbrannt</item>
+    <item quantity="one">Sie haben %s Kalorien verbrannt</item>
+  </plurals>
+  <plurals name="sport_tts_walking_distance">
+    <item quantity="other">Sie sind %s Kilometer gelaufen</item>
+    <item quantity="one">Sie sind %s Kilometer gelaufen</item>
+  </plurals>
+  <plurals name="sporting_unit_step">
+    <item quantity="other">Schritte</item>
+    <item quantity="one">Schritt</item>
   </plurals>
 
   <plurals name="a_hour_ago">
