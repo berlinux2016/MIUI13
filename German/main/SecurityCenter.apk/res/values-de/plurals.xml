@@ -1,5 +1,33 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+
+  <plurals name="gb_voice_changer_trial_gain_fail">
+    <item quantity="other">"Couldn't receive a %d-day free trial"</item>
+    <item quantity="one">"Couldn't receive a %d-day free trial"</item>
+  </plurals>
+  <plurals name="gb_voice_changer_trial_gain_success">
+    <item quantity="other">Received a %d-day free trial successfully</item>
+    <item quantity="one">Received a %d-day free trial successfully</item>
+  </plurals>
+  <plurals name="gb_voice_changer_user_status_get_trial_card">
+    <item quantity="other">Get a %d-day free trial</item>
+    <item quantity="one">Get a %d-day free trial</item>
+  </plurals>
+  <plurals name="gb_voice_changer_user_status_get_twice_trial_card_dialog">
+    <item quantity="other">"Your subscriptions expired.
+You can get a %d-day free trial now!"</item>
+   <item quantity="one">"Your subscriptions expired.
+You can get a %d-day free trial now!"</item>
+  </plurals>
+  <plurals name="gb_voice_changer_user_tips_info">
+    <item quantity="other">Get a %d-day free trial</item>
+    <item quantity="one">Get a %d-day free trial</item>
+  </plurals>
+  <plurals name="notification_checker_installed_apk_text">
+    <item quantity="other">Delete %d installation packages</item>
+    <item quantity="one">Delete %d installation package</item>
+  </plurals>
+
   <plurals name="add_game_notification_title">
     <item quantity="other">%d Spiele hinzugefügt</item>
     <item quantity="one">%d Spiel hinzugefügt</item>

@@ -434,7 +434,7 @@ Senden Sie diesen Code an den Supervisor."</string>
   <string name="passport_account_hint_text">E-Mail-Adresse oder Mi-Konto-ID</string>
   <string name="passport_account_identity_title">Prüfen Sie Ihre Identität</string>
   <string name="passport_account_label">Mi-Konto</string>
-  <string name="passport_account_name">Konto: %1$s</string>
+  <string name="passport_account_name">"Konto: %1$s "</string>
   <string name="passport_account_not_activated">Konto wurde nicht aktiviert</string>
   <string name="passport_account_not_actived">Ihr Konto wurde nicht aktiviert</string>
   <string name="passport_active_email_visit">Überüfen Sie Ihren Posteingang unter %s</string>
@@ -599,8 +599,8 @@ Senden Sie diesen Code an den Supervisor."</string>
   <string name="passport_use_generated_pwd_message">Achten Sie darauf, dass Sie sich Ihr Passwort merken. Sie können es benutzen, um Sich bei anderen Mi Diensten anzumelden.</string>
   <string name="passport_use_generated_pwd_title">Merken Sie sich Ihr Passwort</string>
   <string name="passport_user_agreement">Nutzervereinbarung</string>
-  <string name="passport_user_agreement_link">"&lt;Data>Ich habe Xiaomi's &lt;a href=%1$s>Nutzervereinbarung&lt;/a> und &lt;a href=%2$s>Datenschutzerklärung&lt;/a> gelesen und akzeptiert.&lt;/Data>"</string>
-  <string name="passport_user_agreement_link_more">"&lt;Data>Ich habe folgende Dokumente gelesen und akzeptiert: Xiaomi's &lt;a href=%1$s>Nutzervereinbarung&lt;/a> und &lt;a href=%4$s>Datenschutzerklärung&lt;/a>, &lt;a href=%2$s>%3$s&lt;/a>.&lt;/Data>"</string>
+  <string name="passport_user_agreement_link">"&lt;Data>Ich habe Xiaomi's &lt;a href=\"%1$s\">Nutzervereinbarung&lt;/a> und &lt;a href=\"%2$s\">Datenschutzerklärung&lt;/a> gelesen und akzeptiert.&lt;/Data>"</string>
+  <string name="passport_user_agreement_link_more">"&lt;Data>Ich habe folgende Dokumente gelesen und akzeptiert: Xiaomi's &lt;a href=\"%1$s\">Nutzervereinbarung&lt;/a> und &lt;a href=\"%4$s\">Datenschutzerklärung&lt;/a>, &lt;a href=\"%2$s\">\"%3$s\"&lt;/a>.&lt;/Data>"</string>
   <string name="passport_user_agreement_p1">Nutzervereinbarung</string>
   <string name="passport_user_agreement_p2">" und "</string>
   <string name="passport_user_agreement_p3">"Datenschutzerklärung "</string>
@@ -687,6 +687,7 @@ Wenn Sie nicht zustimmen, die oben genannten Berechtigungen zu erteilen, wird di
   <string name="submit_dialog_confirm">Zustimmen</string>
   <string name="submit_dialog_content"><Data>Ihr Feedback wird zusammen mit Anhängen und Protokollen an MIUI Server gesendet. Es kann persönliche Informationen und Ihre Standortdaten enthalten. \"Zustimmen"\ bedeutet, dass Sie unsere &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Datenschutzerklärung&lt;/a> und &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Nutzervereinbarung&lt;/a> gelesen und akzeptiert haben.</Data></string>
   <string name="submit_dialog_content_global"><Data>Ihr Feedback wird zusammen mit Anhängen (falls vorhanden) und Protokollen (Sie können die Kästchen für die Elemente, die Sie nicht hochladen möchten, deaktivieren) an die MIUI Server gesendet. Informationen über Ihre Threads und Forenaktivitäten werden ebenfalls zur Analyse und weiteren Kommunikation gesammelt. Protokolle können persönliche Informationen und Ihre Standortdaten enthalten. \"Zustimmen"\ bedeutet, dass Sie unsere &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Datenschutzerklärung&lt;/a> und &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Nutzervereinbarung&lt;/a> gelesen und akzeptiert haben.</Data></string>
+  <string name="submit_dialog_not_show_again">Nicht mehr anzeigen</string>
   <string name="submit_dialog_title">Bericht senden</string>
   <string name="submit_feedback_info_failed">Bericht senden nicht möglich</string>
   <string name="suggest_upload_log_dialog_cancel">Nein danke</string>
