@@ -1,42 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
   <string name="HIPS_ACTION_REJECT_CLEAR">Zwischenablage einschränken &amp; löschen</string>
-  <string name="HIPS_Action_Accept_This">Einmal erlauben</string>
-  <string name="HIPS_Action_Reject_This">Einmal einschränkn</string>
-  <string name="HIPS_Perm_read_clipboard">Zugriff auf Elemente in der Zwischenablage</string>
-  <string name="HIPS_Perm_read_clipboard_Desc">Apps den Zugriff auf Elemente in der Zwischenablage erlauben</string>
-  <string name="HIPS_Perm_write_clipboard">Elemente in der Zwischenablage speichern</string>
-  <string name="HIPS_Perm_write_clipboard_Desc">Apps erlauben, Elemente in der Zwischenablage zu speichern</string>  
-  <string name="HIPS_SecurityPrompt_Reject_Clear_This">Zwischenablage einschränken und löschen (%d)</string>
-  <string name="HIPS_SecurityPrompt_Reject_This">Einmal einschränken (%d)</string>
-  <string name="clipboard_ai_allow_once">Erlaubt %1$s, automatisch auf Elemente in der Zwischenablage zuzugreifen</string>
-  <string name="clipboard_data">Einträge in Zwischenablage</string>
-  <string name="clipboard_data_request">%1$s versucht, auf Elemente in der Zwischenablage zuzugreifen</string>
-  <string name="clipboard_deny_notification_content">Dieser Versuch wurde blockiert. Auf tippen, um die Berechtigungen zu verwalten.</string>
-  <string name="clipboard_deny_notification_operation">Verwalten</string>
-  <string name="clipboard_deny_notification_title">%1$s versucht, auf Elemente in der Zwischenablage zuzugreifen</string>
-  <string name="clipboard_may_sensitive">Möglicherweise sensible Informationen</string>
-  <string name="clipboard_read_allow_once">Auf %1$s zugegriffene Elemente in der Zwischenablage</string>
-  <string name="go_perm_manager">Berechtigungen verwalten</string>   
-  <string name="no">Nein</string>
-  <string name="perm_manager_suggest_operation">Berechtigungen verwalten</string>
-  <string name="perm_manager_suggest_title">Berechtigungen anpassen?</string>   
-  <string name="yes">Ja</string>
-   
-  <string name="HIPS_Perm_tencentControl">Zugang zu sozialen Informationen</string>
-  <string name="HIPS_Perm_tencentControl_Desc">Apps den Zugang zu sozialen Informationen ermöglichen</string>
-  <string name="storage_policy_notify_gallery_title">%1$s wurde das Lesen von Alben verboten</string>
-  <string name="storage_policy_notify_sociality_title">%1$s wurde verboten, soziale Informationen zu lesen</string>
-
-  <string name="HIPS_Perm_dcimControl">Album ansehen</string>
-  <string name="HIPS_Perm_dcimControl_Desc">App-Zugriff auf das Album erlauben</string>
-  <string name="storage_policy_notify_content">Um es lesen zu können tippen, um zu den Einstellungen zu gelangen</string>
-  <string name="storage_policy_notify_title">%1$s wurde das Lesen von Telefonalben verboten</string>
-
   <string name="HIPS_Action_Accept">Erlauben</string>
   <string name="HIPS_Action_Accept_Once">Einmal erlauben</string>
+  <string name="HIPS_Action_Accept_This">Einmal erlauben</string>
   <string name="HIPS_Action_Reject">Verweigern</string>
   <string name="HIPS_Action_Reject_Once">Einmal verweigern</string>
+  <string name="HIPS_Action_Reject_This">Einmal einschränkn</string>
   <string name="HIPS_Perm_AudioRecorder">Audio aufnehmen</string>
   <string name="HIPS_Perm_AudioRecorder_Desc">Audio und Anrufe aufnehmen</string>
   <string name="HIPS_Perm_AutoStart">Beim Start ausführen</string>
@@ -86,8 +56,6 @@
   <string name="HIPS_Perm_Read_MMS_Desc">MMS lesen</string>
   <string name="HIPS_Perm_Read_SMS">SMS lesen</string>
   <string name="HIPS_Perm_Read_SMS_Desc">SMS lesen</string>
-  <string name="HIPS_Perm_recognition">Aktivitätsinfo aufrufen</string>
-  <string name="HIPS_Perm_recognition_Desc">App-Zugriff auf Ihre Aktivitätsinformationen erlauben</string>
   <string name="HIPS_Perm_SendMMS">MMS senden</string>
   <string name="HIPS_Perm_SendMMS_Desc">MMS direkt senden</string>
   <string name="HIPS_Perm_SendSMS">SMS senden</string>
@@ -108,6 +76,8 @@
   <string name="HIPS_Perm_background_start_activity_Desc">Popup-Fenster anzeigen, während sie im Hintergrund läuft</string>
   <string name="HIPS_Perm_clipboard">Zwischenablage</string>
   <string name="HIPS_Perm_clipboard_Desc">Zugriff auf und Änderung von Inhalten in der Zwischenablage</string>
+  <string name="HIPS_Perm_dcimControl">Album ansehen</string>
+  <string name="HIPS_Perm_dcimControl_Desc">App-Zugriff auf das Album erlauben</string>
   <string name="HIPS_Perm_deamon_notification">Dauerhafte Benachrichtigung</string>
   <string name="HIPS_Perm_deamon_notification_Desc">Dauerhafte Benachrichtigungen anzeigen</string>
   <string name="HIPS_Perm_get_accounts">Kontozugriff auf dem Gerät</string>
@@ -123,24 +93,43 @@
   <string name="HIPS_Perm_process_nfc_Desc">Zugriff auf NFC-Hardware</string>
   <string name="HIPS_Perm_process_outgoing_calls">Zugriff auf Telefon-App</string>
   <string name="HIPS_Perm_process_outgoing_calls_Desc">Eingehende Anrufe überwachen</string>
+  <string name="HIPS_Perm_read_clipboard">Zugriff auf Elemente in der Zwischenablage</string>
+  <string name="HIPS_Perm_read_clipboard_Desc">Apps den Zugriff auf Elemente in der Zwischenablage erlauben</string>
   <string name="HIPS_Perm_read_notification_sms">Service-SMS</string>
   <string name="HIPS_Perm_read_notification_sms_Desc">Service-SMS lesen</string>
+  <string name="HIPS_Perm_recognition">Aktivitätsinfo aufrufen</string>
+  <string name="HIPS_Perm_recognition_Desc">App-Zugriff auf Ihre Aktivitätsinformationen erlauben</string>
   <string name="HIPS_Perm_service_foreground">Vordergrunddienste</string>
   <string name="HIPS_Perm_service_foreground_Desc">Dienste in den Vordergrund stellen</string>
   <string name="HIPS_Perm_show_when_locked">Am Sperrbildschirm anzeigen</string>
   <string name="HIPS_Perm_show_when_locked_Desc">am Sperrbildschirm angezeigt werden</string>
+  <string name="HIPS_Perm_tencentControl">Zugang zu sozialen Informationen</string>
+  <string name="HIPS_Perm_tencentControl_Desc">Apps den Zugang zu sozialen Informationen ermöglichen</string>
   <string name="HIPS_Perm_use_sip">Videodienste</string>
   <string name="HIPS_Perm_use_sip_Desc">Session Initiation Protocol zum Streamen von Videos verwenden</string>
+  <string name="HIPS_Perm_write_clipboard">Elemente in der Zwischenablage speichern</string>
+  <string name="HIPS_Perm_write_clipboard_Desc">Apps erlauben, Elemente in der Zwischenablage zu speichern</string>  
   <string name="HIPS_SecurityPrompt_Caption">Sicherheitswarnung</string>
   <string name="HIPS_SecurityPrompt_Reject">Verweigern (%d)</string>
+  <string name="HIPS_SecurityPrompt_Reject_Clear_This">Zwischenablage einschränken und löschen (%d)</string>
   <string name="HIPS_SecurityPrompt_Reject_Once">Einmal verweigern (%d)</string>
+  <string name="HIPS_SecurityPrompt_Reject_This">Einmal einschränken (%d)</string>
   <string name="HIPS_SecurityPrompt_Title">%1$s möchte %2$s</string>
   <string name="Su_Package_Forbidden2">hat keinen Rootzugriff</string>
   <string name="app_name">Rechtemanager</string>
   <string name="background_location_access_reminder_notification_content">Diese App hat jederzeit Zugriff auf Ihren Standort. Zum Ändern hier tippen.</string>
   <string name="background_location_access_reminder_notification_title">%s hat Ihren Standort genutzt</string>
+  <string name="clipboard_ai_allow_once">Erlaubt %1$s, automatisch auf Elemente in der Zwischenablage zuzugreifen</string>
+  <string name="clipboard_data">Einträge in Zwischenablage</string>
+  <string name="clipboard_data_request">%1$s versucht, auf Elemente in der Zwischenablage zuzugreifen</string>
+  <string name="clipboard_deny_notification_content">Dieser Versuch wurde blockiert. Auf tippen, um die Berechtigungen zu verwalten.</string>
+  <string name="clipboard_deny_notification_operation">Verwalten</string>
+  <string name="clipboard_deny_notification_title">%1$s versucht, auf Elemente in der Zwischenablage zuzugreifen</string>
+  <string name="clipboard_may_sensitive">Möglicherweise sensible Informationen</string>
+  <string name="clipboard_read_allow_once">Auf %1$s zugegriffene Elemente in der Zwischenablage</string>
   <string name="current_permission_template">%1$s von %2$s</string>
   <string name="default_permission_description">unbekannte Aktionen ausführen</string>
+  <string name="go_perm_manager">Berechtigungen verwalten</string>   
   <string name="grant_dialog_button_allow">Erlauben</string>
   <string name="grant_dialog_button_allow_always">Immer erlauben</string>
   <string name="grant_dialog_button_allow_background">Immer erlauben</string>
@@ -153,8 +142,11 @@
   <string name="location_settings">Standorteinstellungen</string>
   <string name="location_warning">%1$s ist ein Anbieter von Standortdiensten für dieses Gerät. Der Standortzugriff kann über die Standorteinstellungen geändert werden.</string>
   <string name="never_ask_again">Nicht wieder fragen</string>
+  <string name="no">Nein</string>
   <string name="perm_action_allow">Erlauben</string>
   <string name="perm_action_deny">Nie erlauben</string>
+  <string name="perm_manager_suggest_operation">Berechtigungen verwalten</string>
+  <string name="perm_manager_suggest_title">Berechtigungen anpassen?</string>   
   <string name="perm_modem_location">Auf Standort zugreifen</string>
   <string name="perm_modem_location_desc">Ihr Anbieter versucht, auf Ihre Standortdaten zuzugreifen. Standortdaten mit dem Anbieter teilen?</string>
   <string name="permdesc_camera">Fotografieren und Videos aufnehmen</string>
@@ -197,6 +189,10 @@
   <string name="permission_group_title_privacy_related">Datenschutz</string>
   <string name="permission_group_title_sensitive_privacy_related">Sensible Berechtigungen</string>
   <string name="permission_group_title_settings_related">Einstellungen</string>
+  <string name="storage_policy_notify_content">Um es lesen zu können tippen, um zu den Einstellungen zu gelangen</string>
+  <string name="storage_policy_notify_gallery_title">%1$s wurde das Lesen von Alben verboten</string>
+  <string name="storage_policy_notify_sociality_title">%1$s wurde verboten, soziale Informationen zu lesen</string>
+  <string name="storage_policy_notify_title">%1$s wurde das Lesen von Telefonalben verboten</string>
   <string name="permission_list_include">"Einschl. der Folgenden:
 "</string>
   <string name="permission_reminders">Erinnerungen an Berechtigungen</string>
@@ -212,4 +208,5 @@
   <string name="virtual_reject_notice_title_contacts">Kontaktezugriff durch %1$s</string>
   <string name="virtual_reject_notice_title_phonestate">Geräteinfozugriff durch %1$s</string>
   <string name="virtual_reject_notice_title_sms">Nachrichtenzugriff durch %1$s</string>
+  <string name="yes">Ja</string>
 </resources>
