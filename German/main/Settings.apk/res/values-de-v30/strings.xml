@@ -1,14 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
  <resources>
-
-  <string name="dpp_qrcode_generator_summary">Diesen QR-Code mit einem Gerät scannen, das Easy Connect unterstützt</string>
-  <string name="miui_wifi_wakeup_summary">WLAN wird automatisch eingeschaltet, wenn Ihr Gerät gespeicherte Netzwerke in der Nähe erkennt und nach 15 Minuten abgeschaltet, wenn keine Verbindung hergestellt wird.</string>
-  <string name="wifi_wakeup_location_summary">Standortdienste einschalten, um diese Funktion nutzen zu können</string>
-  <string name="wifi_wakeup_negative_button">Abbrechen</string>
-  <string name="wifi_wakeup_positive_button">Einschalten</string>
-  <string name="wifi_wakeup_scan_summary">Apps und Diensten erlauben, nach WLAN zu suchen, um es automatisch einschalten zu können. Wenn Sie diese Funktion einschalten, kann Ihr Gerät automatisch eine Verbindung zu gespeicherten Netzwerken in der Nähe herstellen.</string>
-  <string name="wifi_wakeup_title">Zusätzliche Funktionen einschalten</string> 
-
+ 
+    <string name="silent_mode_disable_media">Alles lautlos</string>
+    <string name="silent_mode_enable_media">Medien abspielen</string>
+    <string name="silent_mode_summary">Anruf, Benachrichtigungen und Medien lautlos</string>
+    <string name="silent_mode_toggle_title">Lautlosmodus</string>
+    <string name="volume_adjustment">Lautstärke einstellen</string>
+    <string name="zen_mode_always">Immer</string>
+    <string name="zen_mode_auto_rule">DND-Sitzungen planen</string>
+    <string name="zen_mode_lockscreen">Wenn gesperrt</string>
+    <string name="zen_mode_more_actions">Mehr DND-Optionen</string>
+    <string name="zen_mode_summary2">Anrufe und Benachrichtigungen lautlos, Vibrationen ausschalten</string>
+ 
   <string name="accessibility_autoclick_custom_title">Benutzerdefiniert</string>
   <string name="accessibility_autoclick_default_title">Aus</string>
   <string name="accessibility_autoclick_description">Automatische Klicks funktionieren mit einer verbundenen Maus. Du kannst festlegen, dass der Mauszeiger automatisch klickt, wenn er sich für eine bestimmte Zeit nicht bewegt.</string>
@@ -251,6 +254,7 @@
   <string name="doze_always_on_title">Always-On-Display</string>
   <string name="doze_summary">Wenn das Display inaktiv ist, wird es bei neuen Benachrichtigungen aktiviert</string>
   <string name="doze_title">Display bei Benachrichtigungen aktivieren</string>
+  <string name="dpp_qrcode_generator_summary">Diesen QR-Code mit einem Gerät scannen, das Easy Connect unterstützt</string>
   <string name="enable_adb_wireless">Debugging über WLAN</string>
   <string name="enable_adb_wireless_summary">Debugging-Modus, wenn eine WLAN-Verbindung besteht</string>
   <string name="enable_blurs_on_windows_summary">Aktiviert das Weichzeichnen für Fenster auf Composition-Manager-Ebene. Erfordert einen Neustart des Geräts.</string>
@@ -368,6 +372,7 @@
   <string name="media_output_switching">Wird gewechselt…</string>
   <string name="media_transfer_this_device_name">Smartphone-Lautsprecher</string>
   <string name="media_transfer_wired_device_name">Netzbetriebenes Audiogerät</string>
+  <string name="miui_wifi_wakeup_summary">WLAN wird automatisch eingeschaltet, wenn Ihr Gerät gespeicherte Netzwerke in der Nähe erkennt und nach 15 Minuten abgeschaltet, wenn keine Verbindung hergestellt wird.</string>
   <string name="mute_media_sound_title">Lautlose Medien im Lautlosmodus</string>
   <string name="network_2G_3G_preferred">2G/3G preferred</string>
   <string name="network_2G_only">2G only</string>
@@ -487,7 +492,7 @@
   <string name="roaming_warning">Eventuell fallen Roaminggebühren an.</string>
   <string name="roaming_warning_multiuser">Wenn du Daten-Roaming zulässt, fallen eventuell Roaminggebühren an.\n\nDiese Einstellung betrifft alle Nutzer auf diesem Smartphone.</string>
   <string name="runtime_permissions_summary_control_app_access">App-Zugriff auf Ihre Daten kontrollieren</string>
-  <string name="screen_locking_sounds_title">Ton bei Displaysperre</string>
+  <string name="screen_locking_sounds_title">Ton bei Bildschirmsperre</string>
   <string name="screen_pinning_description">App pinning allows you to keep the current app in view until you unpin it. This feature can be used, for example, to let a trusted friend play a specific game. \n\nWhen an app is pinned, the pinned app may open other apps and personal data may be accessible. \n\nTo use app pinning: \u0009\n1.\u0009Turn on app pinning \u0009\n2.\u0009Open Overview \u0009\n3.\u0009Tap the app icon at the top of the screen, then tap Pin</string>
   <string name="screen_pinning_dialog_message">When app is pinned: \n\n•\u0009\u0009Personal data may be accessible \n\u0009\u0009(such as contacts and email content) \n•\u0009\u0009Pinned app may open other apps \n\nOnly use app pinning with people you trust.</string>
   <string name="screen_pinning_guest_user_description">App pinning allows you to keep the current app in view until you unpin it. This feature can be used, for example, to let a trusted friend play a specific game. \n\nWhen an app is pinned, the pinned app may open other apps and personal data may be accessible. \n\nIf you want to securely share your device with someone, try using a guest user instead. \n\nTo use app pinning: \u0009\n1.\u0009Turn on app pinning \u0009\n2.\u0009Open Overview \u0009\n3.\u0009Tap the app icon at the top of the screen, then tap Pin</string>
@@ -628,6 +633,11 @@
   <string name="wifi_subscription_summary">Einstellungen für das OpenRoaming-Abo ansehen oder ändern</string>
   <string name="wifi_time_remaining">Noch %1$s</string>
   <string name="wifi_venue_website_button_text">Website öffnen</string>
+  <string name="wifi_wakeup_location_summary">Standortdienste einschalten, um diese Funktion nutzen zu können</string>
+  <string name="wifi_wakeup_negative_button">Abbrechen</string>
+  <string name="wifi_wakeup_positive_button">Einschalten</string>
+  <string name="wifi_wakeup_scan_summary">Apps und Diensten erlauben, nach WLAN zu suchen, um es automatisch einschalten zu können. Wenn Sie diese Funktion einschalten, kann Ihr Gerät automatisch eine Verbindung zu gespeicherten Netzwerken in der Nähe herstellen.</string>
+  <string name="wifi_wakeup_title">Zusätzliche Funktionen einschalten</string> 
   <string name="work_profile_app_subtext">Arbeit</string>
   <string name="wrong_pin_code_one">Falscher PIN-Code der SIM-Karte. Du hast noch einen Versuch, bevor du das Gerät von deinem Mobilfunkanbieter entsperren lassen musst.</string>
   <string name="zen_category_apps">Apps</string>
