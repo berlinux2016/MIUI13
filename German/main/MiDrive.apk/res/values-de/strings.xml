@@ -1,33 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-
-  <string name="ai_ppt_to_pdf">In PDF konvertiert</string>
-  <string name="ai_recommend_pdf">In PDF konvertiert</string>
-  <string name="album">Galerie</string>
-  <string name="all">Alle</string>
-  <string name="auto_save_to_file">Unter \"In PDF konvertiert\"-Ordner speichern</string>
-  <string name="camera">Kamera</string>
-  <string name="cloud_gallery_to_pdf">Automatisch generiert</string>
-  <string name="create_other_pdf">Neue PDF</string>
-  <string name="create_pdf_manual">Neue PDF</string>
-
-  <string name="dialog_content_delete_pdf_content">Diese PDF jetzt löschen?</string>
-  <string name="dialog_immediately_open">Einschalten</string>
-  <string name="dialog_open_ai_recommend_ppt_to_pdf_content">Fotos von Folien, die in der Cloud gespeichert sind, können automatisch angepasst und in PDF konvertiert werden. Diese Funktion jetzt einschalten?</string>
-  <string name="dialog_select_photo_title">Bildquelle auswählen</string>
-  <string name="dialog_title_delete_pdf">PDF löschen</string>
-  <string name="dialog_title_open_ai_recommend_ppt_to_pdf">Folien in PDF konvertieren</string>
-  <string name="error_ppt_to_pdf_algorithm">Bild verarbeiten nicht möglich. Stattdessen wurde die Originaldatei verwendet.</string>
-  <string name="error_ptp_ai_recommend_pdf_save_fail">Speichern nicht möglich, erneut versuchen</string>
-  <string name="h5_ppt_to_pdf_introduce_title">Über die Konvertierung von Folien in PDF</string>
-  <string name="operation_save">Speichern</string>
-  <string name="ppt_to_pdf">In PDF konvertiert</string>
-  <string name="preview">Vorschau</string>
-  <string name="ptp_ai_recommend_empty_page">"Keine automatisch generierten PDF's hier"</string>
-  <string name="save">Speichern</string>
-  <string name="save_pdf">Speichern</string>
-  <string name="saving_pdf">Speichern…</string>
-
   <string name="abc_action_bar_home_description">Zur Startseite</string>
   <string name="abc_action_bar_up_description">Nach oben</string>
   <string name="abc_action_menu_overflow_description">Weitere Optionen</string>
@@ -89,12 +61,18 @@
   <string name="adding_download_tasks">Fügt Downloadtasks#8230 hinzu;</string>
   <string name="adding_upload_tasks">Fügt Uploadtasks#8230 hinzu;</string>
   <string name="agree">Erlauben</string>
+  <string name="ai_ppt_to_pdf">In PDF konvertiert</string>
+  <string name="ai_recommend_pdf">In PDF konvertiert</string>
+  <string name="album">Galerie</string>
+  <string name="all">Alle</string>
   <string name="app_function">Speichern, Vorschau, Herunterladen von Dateien und mehr</string>
   <string name="app_is_running">App läuft gerade…</string>
   <string name="auth_fail_warning">Sitzung abgelaufen. Erneut anmelden.</string>
+  <string name="auto_save_to_file">Unter \"In PDF konvertiert\"-Ordner speichern</string>
   <string name="background">Verstecken</string>
   <string name="be_sure_to_clear_cache">Jetzt Cache löschen?</string>
   <string name="bind_sign_in_title">Mi-Konto hinzufügen</string>
+  <string name="camera">Kamera</string>
   <string name="cancel">Abbrechen</string>
   <string name="category_document">Dokumente</string>
   <string name="category_document_title">Dokumente</string>
@@ -115,6 +93,7 @@
   <string name="choose_to_signin">Ja</string>
   <string name="choose_to_signup">Nein, ich werde eins erstellen</string>
   <string name="clear_cache_success">Erfolgreich gelöscht</string>
+  <string name="cloud_gallery_to_pdf">Automatisch generiert</string>
   <string name="cloud_storage_already_full">Cloud-Speicher voll: %1$s/%2$s</string>
   <string name="cloud_storage_already_used">Belegt: %1$s/%2$s</string>
   <string name="cloud_storage_default_title">Cloud-Speicher</string>
@@ -141,6 +120,8 @@
   <string name="copy_file_success">Erfolgreich kopiert</string>
   <string name="create_folder_success">Ordner erfolgreich erstellt</string>
   <string name="create_new_folder_failed">Ordner konnte nicht erstellt werden</string>
+  <string name="create_other_pdf">Neue PDF</string>
+  <string name="create_pdf_manual">Neue PDF</string>
   <string name="current_speed_content">Aktuelle Geschwindigkeit: %1$s</string>
   <string name="delete_failed">Kann nicht löschen</string>
   <string name="delete_failed_retry">Konnte nicht löschen, warten Sie %1$s und versuchen es nochmals</string>
@@ -152,11 +133,17 @@
   <string name="diagnosis_log_sent_format">"Protokolle erfolgreich gesendet.
 ID:%s
 Senden Sie diesen Code an den Supervisor."</string>
+  <string name="dialog_content_delete_pdf_content">Diese PDF jetzt löschen?</string>
   <string name="dialog_copy_storage_full_desc">Elemente wurden wegen unzureichendem Cloud-Speicherplatz nicht kopiert. Tarif aktualisieren, um mehr Speicherplatz zu erhalten.</string>
   <string name="dialog_copy_storage_full_title">Kopieren nicht möglich</string>
+  <string name="dialog_immediately_open">Einschalten</string>
   <string name="dialog_new_folder_hint">Ordnernamen eingeben</string>
   <string name="dialog_new_folder_title">Neuer Ordner</string>
+  <string name="dialog_open_ai_recommend_ppt_to_pdf_content">Fotos von Folien, die in der Cloud gespeichert sind, können automatisch angepasst und in PDF konvertiert werden. Diese Funktion jetzt einschalten?</string>
+  <string name="dialog_select_photo_title">Bildquelle auswählen</string>
   <string name="dialog_select_type">Dateityp wählen</string>
+  <string name="dialog_title_delete_pdf">PDF löschen</string>
+  <string name="dialog_title_open_ai_recommend_ppt_to_pdf">Folien in PDF konvertieren</string>
   <string name="dialog_type_image">Bild</string>
   <string name="dialog_upload_storage_full_desc">Elemente wurden wegen unzureichendem Cloud-Speicherplatz nicht hochgeladen. Tarif aktualisieren, um mehr Speicherplatz zu erhalten.</string>
   <string name="dialog_upload_storage_full_title">Hochladen nicht möglich</string>
@@ -192,6 +179,8 @@ Senden Sie diesen Code an den Supervisor."</string>
   <string name="error_filename_too_long">Dateiname ist zu lang</string>
   <string name="error_invalid_bind_address">Eingegebene E-Mail-Adresse ist ungültig</string>
   <string name="error_open_file_failed_no_app_found">Keine App zum Öffnen dieses Elements gefunden</string>
+  <string name="error_ppt_to_pdf_algorithm">Bild verarbeiten nicht möglich. Stattdessen wurde die Originaldatei verwendet.</string>
+  <string name="error_ptp_ai_recommend_pdf_save_fail">Speichern nicht möglich, erneut versuchen</string>
   <string name="exceed_binded_phone_times_notice">Diese Telefonnummer ist bereits mit einem anderen Mi-Konto verknüpft.</string>
   <string name="exception_cloud_storage_is_full">Cloud-Speicher ist volll</string>
   <string name="exception_copy_file_exist">Das von Ihnen kopierte Element ist bereits im Zielordner</string>
@@ -253,6 +242,7 @@ Senden Sie diesen Code an den Supervisor."</string>
   <string name="get_phone_bind_exceed_limit">Sie können bis zu 3 Mi-Konten mit einer Telefonnummer verknüpfen. Sie können keine neuen Konten hinzufügen.</string>
   <string name="get_phone_verifycode_exceed_limit">An diese Nummer wurden zu viele Verifizierungscodes gesendet. 24 Stunden warten und erneut versuchen.</string>
   <string name="goto_sign_up">Konto erstellen</string>
+  <string name="h5_ppt_to_pdf_introduce_title">Über die Konvertierung von Folien in PDF</string>
   <string name="i_know">Verstanden</string>
   <string name="identity">Identifikation</string>
   <string name="image_loading_error">Bild konnte nicht geladen werden</string>
@@ -381,6 +371,7 @@ Stellen Sie sicher, dass Sie das aktuelle Mi-Konto als Ihr MIUI-Systemkonto verw
   <string name="operation_renaming">Umbenennen…</string>
   <string name="operation_resume">Start</string>
   <string name="operation_resume_all">Alle fortsetzen</string>
+  <string name="operation_save">Speichern</string>
   <string name="operation_sure_to_delete">Jetzt löschen?</string>>
   <string name="operation_task_manage">Transfers anschauen</string>
   <string name="operation_transport_success">Erfolgreich zu Transfers hinzugefügt</string>
@@ -492,15 +483,18 @@ Stellen Sie sicher, dass Sie das aktuelle Mi-Konto als Ihr MIUI-Systemkonto verw
   <string name="play_metered_network_dialog_desc">Ihr Gerät ist nicht mit WLAN verbunden. Mit mobilen Daten spielen?</string>
   <string name="play_metered_network_dialog_ok">Spielen</string>
   <string name="play_metered_network_dialog_title">Mobile Daten verwenden</string>
+  <string name="ppt_to_pdf">In PDF konvertiert</string>
   <string name="pre_privacy_policy">Datenschutzerklärung</string>
   <string name="pre_user_agreement">Nutzervereinbarung</string>
   <string name="preference_copied">\"%1$s\" in Zwischenablage kopiert</string>
+  <string name="preview">Vorschau</string>
   <string name="privacy_policy">Datenschutzerklärung</string>
   <string name="private_empty_desc">Hier können Sie Dateien privat speichern.</string>
   <string name="private_empty_sub_desc">Versuchen Sie, Dateien hierher zu verschieben oder laden Sie sie direkt hoch.</string>
   <string name="private_folder_name">Private Dateien</string>
   <string name="psw_hint">Passwort</string>
   <string name="psw_sign_in">Mit Passwort anmelden</string>
+  <string name="ptp_ai_recommend_empty_page">"Keine automatisch generierten PDF's hier"</string>
   <string name="quota_info">Mi Drive: %1$s verfügbar, %2$s insgesamt</string>
   <string name="refresh_label_pull_to_refresh">Zum Aktualisieren herunterziehen</string>
   <string name="refresh_label_refreshed">Erfolgreich aktualisiert</string>
@@ -527,6 +521,9 @@ Stellen Sie sicher, dass Sie das aktuelle Mi-Konto als Ihr MIUI-Systemkonto verw
   <string name="restart_phone_bind_title">Wiederherstellungs-Telefon ändern</string>
   <string name="root_page_name">Mein Drive</string>
   <string name="same_new_and_old_pwd">Darf nicht identisch mit dem aktuellen Passwort sein</string>
+  <string name="save">Speichern</string>
+  <string name="save_pdf">Speichern</string>
+  <string name="saving_pdf">Speichern…</string>
   <string name="sd_full">Ihre SD-Karte ist voll</string>
   <string name="sd_invalid">Ihre SD-Karte ist fehlerhaft</string>
   <string name="search_cancel">Abbrechen</string>
