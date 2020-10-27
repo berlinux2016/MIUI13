@@ -1,17 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-
-  <string name="enabled">Ein</string>
-  <string name="not_enabled">Aus</string>
-  <string name="other_input_method">Andere Tastatur</string>
-  <string name="sync_success">Erfolgreich synchronisiert</string>
-  <string name="xiaomi_custom_input_method">Angepasst für Xiaomi</string>
-
-  <string name="usb_reverse_charge">Aufladen umkehren</string>
-  <string name="usb_use_file_transfers_miui12_5">Dateiübertragungen</string>
-  <string name="usb_use_miui12_5">USB verwenden für</string>
-  <string name="usb_use_photo_transfers_miui12_5">Fotoübertragungen</string>
-
   <string name="Accounts_settings_title">Konten</string>
   <string name="Data_set">"Daten: "</string>
   <string name="a11y_settings_label">Einstellungen Barrierefreiheit</string>
@@ -2535,6 +2523,7 @@ Sie können die generierten Protokolle im Datei-Manager ansehen."</string>
   <string name="empty_title_auto_start_list">Keine App kann automatisch starten</string>
   <string name="empty_title_perm_apps">Keine App hat diese Berechtigung</string>
   <string name="empty_title_permission_apps_list">Keine Apps</string>
+  <string name="enabled">Ein</string>
   <string name="enable_adb">USB-Debugging</string>
   <string name="enable_adb_summary">Debug-Modus bei Anschluss über USB</string>
   <string name="enable_atrace">ATrace einschalten</string>
@@ -4738,6 +4727,7 @@ Betriebssystem auswählen:"</string>
   <string name="normal_smartcover_title">Blickdichte Frontabdeckung</string>
   <string name="not_allowed">Ihre SIM-Karte erlaubt keine Verbindung zu diesem Netzwerk</string>
   <string name="not_battery_optimizing">Nicht mit Akku-Optimierung</string>
+  <string name="not_enabled">Aus</string>
   <string name="not_installed">Nicht installiert</string>
   <string name="not_set">Nicht festgelegt</string>
   <string name="notch_and_status_bar_settings">"Kontrollzentrum &amp;
@@ -4990,6 +4980,7 @@ OTG schaltet sich nach 10 Minuten Inaktivität automatisch aus."</string>
   <string name="other_advanced_settings">Weitere Einstellungen</string>
   <string name="other_data">Andere Elemente auf diesem Gerät</string>
   <string name="other_device_info">Andere</string>
+  <string name="other_input_method">Andere Tastatur</string>
   <string name="other_input_settings">Zusätzliche Tastatureinstellungen</string>
   <string name="other_password">Passwörter</string>
   <string name="other_personal_settings">Persönliche Einstellungen</string>
@@ -7154,6 +7145,7 @@ Auf ^2 gespeicherte Apps könnten nicht richtig funktionieren, und Datenübertra
   <string name="sync_plug">"&lt;font fgcolor="#ffffffff">Willkommen bei Google Sync!&lt;/font>
 Ein Google-Ansatz zur Synchronisation von Daten, um den Zugriff auf Ihre Kontakte, Termine und mehr von überall her zu ermöglichen."</string>
   <string name="sync_settings">Konten &amp; Synchronisation</string>
+  <string name="sync_success">Erfolgreich synchronisiert</string>
   <string name="sync_wifi_only">Nur WLAN</string>
   <string name="system_alert_window_access_title">Apps überlagern</string>
   <string name="system_alert_window_off">Nein</string>
@@ -7843,6 +7835,7 @@ oder Kopfhörer mit 3,5-mm-Buchse."</string>
   <string name="usb_ptp_title">Kamera (PTP)</string>
   <string name="usb_restore_select_data_too_large">"Sicherungsdateien sind groß. Die Wiederherstellung kann eine Weile dauern.
 Wiederherstellen nur wichtiger Elemente geht schneller."</string>
+  <string name="usb_reverse_charge">Aufladen umkehren</string>
   <string name="usb_summary_MIDI">Gerät als MIDI nutzen</string>
   <string name="usb_summary_MIDI_power">MIDI und Stromversorgung</string>
   <string name="usb_summary_charging_only">Dieses Gerät laden</string>
@@ -7878,8 +7871,11 @@ Speicher freigeben oder nur wichtige Elemente übertragen."</string>
   <string name="usb_use_charging_only_desc">Dieses Gerät nur laden</string>
   <string name="usb_use_file_transfers">Dateien übertragen (MTP)</string>
   <string name="usb_use_file_transfers_desc">Dateien auf ein anderes Gerät übertragen</string>
+  <string name="usb_use_file_transfers_miui12_5">Dateiübertragungen</string>
+  <string name="usb_use_miui12_5">USB verwenden für</string>
   <string name="usb_use_photo_transfers">Fotos übertragen (PTP)</string>
   <string name="usb_use_photo_transfers_desc">Fotos oder Dateien übertragen, wenn MTP nicht unterstützt wird (PTP)</string>
+  <string name="usb_use_photo_transfers_miui12_5">Fotoübertragungen</string>
   <string name="usb_use_power_only">Verbundenes Gerät laden</string>
   <string name="usb_use_power_only_desc">Laden des verbundenen Geräts. Funktioniert nur mit Geräten, die USB-Laden unterstützen.</string>
   <string name="usb_use_tethering">USB-Tethering</string>
@@ -8915,6 +8911,7 @@ Diese Funktion wird automatisch ausgeschaltet, wenn der Ladevorgang nicht innerh
   <string name="xiaomi_cloud_service_disabled">Aus</string>
   <string name="xiaomi_cloud_service_unknown">Unbekannt</string>
   <string name="xiaomi_connect_download_manager_fail">Download wurde nicht gestartet. Stellen Sie sicher, dass der Downloadmanager normal funktioniert.</string>
+  <string name="xiaomi_custom_input_method">Angepasst für Xiaomi</string>
   <string name="xiaomi_external_storage_unavailable">Kein Speicher verfügbar, prüfen Sie die SD-Karte</string>
   <string name="xiaomi_router_available_notif_summary">Tippen für weitere Infos</string>
   <string name="xiaomi_router_available_notif_title">Mi Router verfügbar</string>
