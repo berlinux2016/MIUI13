@@ -1,5 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+  <plurals name="clipboard_ai_allow_more">
+    <item quantity="other">Erlaubt %1$s, auf Elemente in der Zwischenablage automatisch %2$d-mal zuzugreifen</item>
+    <item quantity="one">Erlaubt %1$s, auf Elemente in der Zwischenablage automatisch %2$d-mal zuzugreifen</item>
+  </plurals>
+  <plurals name="clipboard_read_allow_more">
+    <item quantity="other">%2$d-mal %1$s-Zugriffe auf Elemente in der Zwischenablage</item>
+    <item quantity="one">%2$d-mal %1$s-Zugriff auf Elemente in der Zwischenablage</item>
+  </plurals>
   <plurals name="data_item_count_pair">
     <item quantity="other">%1$d/%2$d Elemente</item>
     <item quantity="one">%1$d/%2$d Element</item>
@@ -23,6 +31,14 @@
   <plurals name="new_task_restore_failed">
     <item quantity="other">Erfolgreich wiederhergestellt. %d Elemente wiederherstellen nicht möglich.</item>
     <item quantity="one">Erfolgreich wiederhergestellt. %d Element wiederherstellen nicht möglich.</item>
+  </plurals>
+  <plurals name="perm_manager_suggest_allow_content">
+    <item quantity="other">Sie haben %2$s bereits %1$d-mal den Zugriff auf die Zwischenablage erlaubt. Wollen Sie %3$s immer erlauben, auf die Zwischenablage zuzugreifen?</item>
+    <item quantity="one">Sie haben %2$s bereits %1$d-mal den Zugriff auf die Zwischenablage erlaubt. Wollen Sie %3$s immer erlauben, auf die Zwischenablage zuzugreifen?</item>
+  </plurals>
+  <plurals name="perm_manager_suggest_deny_content">
+    <item quantity="other">Sie haben den Zugriff auf die Zwischenablage bereits für %2$s %1$d-mal eingeschränkt. Den Zugriff auf die Zwischenablage für %3$s dauerhaft einschränken?</item>
+    <item quantity="one">Sie haben den Zugriff auf die Zwischenablage bereits für %2$s %1$d-mal eingeschränkt. Den Zugriff auf die Zwischenablage für %3$s dauerhaft einschränken?</item>
   </plurals>
   <plurals name="seconds">
     <item quantity="other">%s Sekunden</item>

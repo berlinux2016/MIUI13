@@ -1,6 +1,28 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-
+  <string name="HIPS_ACTION_REJECT_CLEAR">Zwischenablage einschränken &amp; löschen</string>
+  <string name="HIPS_Action_Accept_This">Einmal erlauben</string>
+  <string name="HIPS_Action_Reject_This">Einmal einschränkn</string>
+  <string name="HIPS_Perm_read_clipboard">Zugriff auf Elemente in der Zwischenablage</string>
+  <string name="HIPS_Perm_read_clipboard_Desc">Apps den Zugriff auf Elemente in der Zwischenablage erlauben</string>
+  <string name="HIPS_Perm_write_clipboard">Elemente in der Zwischenablage speichern</string>
+  <string name="HIPS_Perm_write_clipboard_Desc">Apps erlauben, Elemente in der Zwischenablage zu speichern</string>  
+  <string name="HIPS_SecurityPrompt_Reject_Clear_This">Zwischenablage einschränken und löschen (%d)</string>
+  <string name="HIPS_SecurityPrompt_Reject_This">Einmal einschränken (%d)</string>
+  <string name="clipboard_ai_allow_once">Erlaubt %1$s, automatisch auf Elemente in der Zwischenablage zuzugreifen</string>
+  <string name="clipboard_data">Einträge in Zwischenablage</string>
+  <string name="clipboard_data_request">%1$s versucht, auf Elemente in der Zwischenablage zuzugreifen</string>
+  <string name="clipboard_deny_notification_content">Dieser Versuch wurde blockiert. Auf tippen, um die Berechtigungen zu verwalten.</string>
+  <string name="clipboard_deny_notification_operation">Verwalten</string>
+  <string name="clipboard_deny_notification_title">%1$s versucht, auf Elemente in der Zwischenablage zuzugreifen</string>
+  <string name="clipboard_may_sensitive">Möglicherweise sensible Informationen</string>
+  <string name="clipboard_read_allow_once">Auf %1$s zugegriffene Elemente in der Zwischenablage</string>
+  <string name="go_perm_manager">Berechtigungen verwalten</string>   
+  <string name="no">Nein</string>
+  <string name="perm_manager_suggest_operation">Berechtigungen verwalten</string>
+  <string name="perm_manager_suggest_title">Berechtigungen anpassen?</string>   
+  <string name="yes">Ja</string>
+   
   <string name="HIPS_Perm_tencentControl">Zugang zu sozialen Informationen</string>
   <string name="HIPS_Perm_tencentControl_Desc">Apps den Zugang zu sozialen Informationen ermöglichen</string>
   <string name="storage_policy_notify_gallery_title">%1$s wurde das Lesen von Alben verboten</string>
