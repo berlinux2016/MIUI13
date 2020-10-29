@@ -5,13 +5,24 @@
     <item quantity="one">%s mehr Minute, bis Sie Ihr Ziel erreichen</item>
   </plurals>
   <plurals name="sporting_content_calories">
-    <item quantity="other">Gesamtverbrauch: %1$d kcal</item>
+    <item quantity="other">Sie haben bereits %1$s Kalorien verbrannt</item>
+    <item quantity="one">Sie haben bereits %1$s Kalorie verbrannt</item>   
+  </plurals>
+  <plurals name="sporting_content_min">
+    <item quantity="other">%1$d Minuten</item>
+    <item quantity="one">%1$d Minute</item>
+  </plurals>
+  <plurals name="sporting_content_sec">
+    <item quantity="other">%1$d Sekunden</item>
+    <item quantity="one">%1$d Sekunde</item>
   </plurals>
   <plurals name="sporting_content_riding_km">
-    <item quantity="other">Sie sind %1$s Kilometer gefahren</item>
+    <item quantity="other">Sie sind bereits %1$s Kilometer Rad gefahren</item>
+    <item quantity="one">Sie sind bereits %1$s Kilometer Rad gefahren</item>
   </plurals>
   <plurals name="sporting_content_running_km">
-    <item quantity="other">Sie sind %1$s Kilometer gelaufen</item>
+    <item quantity="other">Sie sind bereits %1$s Kilometer gerannt</item>
+    <item quantity="one">Sie sind bereits %1$s Kilometer gerannt</item>
   </plurals>
   <plurals name="sporting_content_speed">
     <item quantity="other">Aktuelle Geschwindigkeit beträgt %1$d Min %2$d Sek pro Kilometer</item>
@@ -20,10 +31,12 @@
     <item quantity="other">%1$d Min %2$d Sek beim Teilen</item>
   </plurals>
   <plurals name="sporting_content_walking_km">
-    <item quantity="other">Insgesamt %1$s Kilometer entfernt</item>
+    <item quantity="other">Sie sind bereits %1$s Kilometer gelaufen</item>
+    <item quantity="one">Sie sind bereits %1$s Kilometer gelaufen</item>
   </plurals>
   <plurals name="sporting_content_walking_stpe">
-    <item quantity="other">Sie sind %1$d Schritte gelaufen</item>
+    <item quantity="other">Sie sind bereits %1$s Schritte gelaufen</item>
+    <item quantity="one">Sie sind bereits %1$s Schritt gelaufen</item>
   </plurals>
   <plurals name="sporting_unit_calories">
     <item quantity="other">%1$d Kalorien</item>
