@@ -5,13 +5,12 @@
         <item>MAP 1.3</item>
         <item>MAP 1.4</item>
     </string-array>
-<!-- not translated -->
     <string-array name="captioning_font_size_selector_summaries">
-        <item>Very small text size</item>
-        <item>Small text size</item>
-        <item>Default text size</item>
-        <item>Large text size</item>
-        <item>Very large text size</item>
+        <item>Sehr kleiner Text</item>
+        <item>Kleiner Text</item>
+        <item>Standarttext</item>
+        <item>Großer Text</item>
+        <item>Sehr großer Text</item>
     </string-array>
     <string-array name="captioning_font_size_selector_titles">
         <item>Sehr klein</item>
@@ -34,9 +33,8 @@
         <item>Zertifikatstatus erforderlich</item>
         <item>Alle nicht vertrauenswürdigen Zertifikatstatus erforderlich</item>
     </string-array>
-<!-- not translated -->
     <string-array name="enabled_networks_subsidy_locked_choices">
-        <item>LTE Only</item>
+        <item>Nur LTE</item>
         <item>GSM/WCDMA/LTE</item>
     </string-array>
     <string-array name="preferred_network_mode_choices">
@@ -75,11 +73,10 @@
         <item>NR/LTE/TDSCDMA/GSM/WCDMA</item>
         <item>NR/LTE/TDSCDMA/CDMA/EvDo/GSM/WCDMA</item>
     </string-array>
-<!-- not translated -->
     <string-array name="preferred_network_mode_gsm_wcdma_choices">
-        <item>GSM only</item>
-        <item>WCDMA only</item>
-        <item>GSM/WCDMA preferred</item>
+        <item>Nur GSM</item>
+        <item>Nur WCDMA</item>
+        <item>GSM/WCDMA bevorzugt</item>
     </string-array>
     <string-array name="uplmn_prefer_network_mode_w_choices">
         <item>GSM</item>
@@ -98,21 +95,20 @@
         <item>IKEv2/IPSec-VPN mit vorinstallierten Schlüsseln</item>
         <item>IKEv2/IPSec-VPN mit Zertifikaten</item>
     </string-array>
-<!-- not translated -->
+    <string-array name="wifi_calling_mode_choices_v2">
+        <item>WLAN</item>
+        <item>Mobil</item>
+        <item>Nur WLAN</item>
+    </string-array>
     <string-array name="wifi_calling_mode_choices_v2_with_ims_preferred">
-        <item>Ims Preferred</item>
+        <item>Ims beforzugt</item>
         <item>WLAN</item>
         <item>Mobile</item>
         <item>WLAN only</item>
     </string-array>
     <string-array name="wifi_calling_mode_choices_v2_without_wifi_only_with_ims_preferred">
-        <item>Ims Preferred</item>
+        <item>Ims bevorzugt</item>
         <item>WLAN</item>
         <item>Mobile</item>
-    </string-array>
-    <string-array name="wifi_calling_mode_choices_v2">
-        <item>WLAN</item>
-        <item>Mobil</item>
-        <item>Nur WLAN</item>
     </string-array>
 </resources>
