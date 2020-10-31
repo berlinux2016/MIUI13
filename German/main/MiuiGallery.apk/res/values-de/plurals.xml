@@ -226,8 +226,8 @@
     <item quantity="one">Foto bearbeiten…</item>
   </plurals>
   <plurals name="fast_share_auto_render_failed">
-    <item quantity="other">%1$d Fotos nicht gerendert und übersprungen</item>
-    <item quantity="one">Foto nicht gerendert und übersprungen</item>
+    <item quantity="other">%1$d Fotos übersprungen die nicht gerendert werden konnten</item>
+    <item quantity="one">%1$d Foto übersprungen das nicht gerendert werden konnte</item>
   </plurals>
   <plurals name="file_count_format">
     <item quantity="other">%1$d gesamt</item>
@@ -338,7 +338,7 @@
   </plurals>
   <plurals name="picker_no_network_retry_origin_confirm_message">
     <item quantity="other">1$d Dateien (%2$d MB) wurden nicht heruntergeladen. Internetverbindung herstellen und erneut versuchen.</item>
-    <item quantity="one">Datei (%2$d MB) wurde nicht heruntergeladen. Internetverbindung herstellen und erneut versuchen.</item>
+    <item quantity="one">1$d Datei (%2$d MB) wurde nicht heruntergeladen. Internetverbindung herstellen und erneut versuchen.</item>
   </plurals>
   <plurals name="picker_origin_need_to_download">
     <item quantity="other">%1$d-Dateien (%2$d MB) sind noch nicht heruntergeladen. Mit mobilen Daten herunterladen?</item>
@@ -346,7 +346,7 @@
   </plurals>
   <plurals name="picker_retry_image_confirm_message">
     <item quantity="other">%1$d Fotos wurden nicht heruntergeladen, erneut versuchen?</item>
-    <item quantity="one">Foto wurde nicht heruntergeladen, erneut versuchen?</item>
+    <item quantity="one">%1$d Foto wurde nicht heruntergeladen, erneut versuchen?</item>
   </plurals>
   <plurals name="picker_retry_origin_confirm_message">
     <item quantity="other">%1$d Fotos (%2$d MB) wurden nicht heruntergeladen, erneut versuchen?</item>
@@ -358,7 +358,7 @@
   </plurals>
   <plurals name="quickly_discovery_message_format">
     <item quantity="other">%1$d neue Fotos gefunden</item>
-    <item quantity="one">Neues Foto gefunden</item>
+    <item quantity="one">%1$d neues Foto gefunden</item>
   </plurals>
   <plurals name="remind_face_recommend_confirm_text">
     <item quantity="other">Insgesamt %d Fotos</item>
