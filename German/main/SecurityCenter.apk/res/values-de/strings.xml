@@ -1,37 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-
-  <string name="app_behavior_clipboard_bg_new">%1s Elemente im Hintergrund in die Zwischenablage kopiert</string>
-  <string name="app_behavior_clipboard_bg_single_new">Diese App kopierte Elemente im Hintergrund in die Zwischenablage</string>
-  <string name="app_behavior_clipboard_new">%1s Elemente in die Zwischenablage kopiert</string>
-  <string name="app_behavior_clipboard_read_bg_single">Diese App griff im Hintergrund auf Elemente in der Zwischenablage zu</string>
-  <string name="app_behavior_clipboard_read_single">Diese App griff auf Elemente in der Zwischenablage zu</string>
-  <string name="app_behavior_clipboard_single_new">Diese App kopierte Elemente in die Zwischenablage</string>
-  <string name="app_behavior_read_clipboard">%1s-Zugriff auf Elemente in der Zwischenablage</string>
-  <string name="app_behavior_read_clipboard_bg">%1s-Zugriff im Hintergrund auf Elemente in der Zwischenablage</string>
-  <string name="permission_action_ai_prompt">Benachrichtigen, wenn Berechtigung verwendet wird</string>
-  <string name="permission_with_read_write_clipboard">Apps den Zugriff auf und das Speichern von Elementen in der Zwischenablage erlauben</string>
-  <string name="read_and_write_clipboard">Zugriff auf und Speichern von Elementen in der Zwischenablage</string>
-  <string name="read_clipboard_ai_close_no">Jetzt nicht</string>
-  <string name="read_clipboard_ai_close_tip">Sie erhalten keine Benachrichtigungen mehr, wenn Apps auf die Zwischenablage zugreifen. Stattdessen dürfen sie diese Berechtigung nur noch verwenden, während Sie die App verwenden. Berechtigungen anpassen?"</string>
-  <string name="read_clipboard_ai_close_yes">Anpassen</string>
-  <string name="read_clipboard_op_content">Anstatt die Berechtigung nur dann zu erteilen, wenn Sie die App verwenden, erhalten Sie jedes Mal eine Benachrichtigung, wenn Apps auf Ihre Zwischenablage zugreifen.</string>
-  <string name="read_clipboard_op_title">Benachrichtigen, wenn Apps auf Elemente in der Zwischenablage zugreifen</string>
-  <string name="read_clipboard_tip_content">Diese Berechtigung erlaubt es Apps, alle von Ihnen kopierten Inhalte zu lesen, die private Informationen enthalten können (z. B. Kontodaten, Bankkartennummern und Passwörter).</string>
-  <string name="read_clipboard_tip_title">Zugriff auf Elemente in der Zwischenablage</string>
-  <string name="vb_video_effects_setting_girl">Erröten</string>
-  <string name="vb_video_effects_setting_gorgeous">Lebendig</string>
-  <string name="vb_video_effects_setting_green_orange">Orange</string>
-  <string name="vb_video_effects_setting_grim">Cool</string>
-  <string name="vb_video_effects_setting_hdr">HDR</string>
-  <string name="vb_video_effects_setting_knight">Metal</string>
-  <string name="vb_video_effects_setting_mecha">Roboter</string>
-  <string name="vb_video_effects_setting_nostalgia">Nostalgisch</string>
-  <string name="vb_video_effects_setting_solar">Verblassen</string>
-  <string name="vb_video_effects_setting_warmth">Warm</string>
-  <string name="write_clipboard_tip_content">Diese App-Berechtigung erlaubt, Elemente in der Zwischenablage zu speichern. Spam-Nachrichten können Ihre normale Nutzung der Zwischenablage beeinträchtigen.</string>
-  <string name="write_clipboard_tip_title">Elemente in Zwischenablage speichern</string>
-
   <string name="HIPS_Perm_Bluetooth_Connectivity_Desc">Ein- und Ausschalten von Bluetooth</string>
   <string name="HIPS_Perm_CallLog_Desc">Anrufliste schreiben und löschen</string>
   <string name="HIPS_Perm_Call_Desc">Telefonnummern direkt anrufen</string>
@@ -230,8 +198,14 @@
   <string name="app_behavior_camera_single">Diese App machte Foto- oder Videoaufnahmen</string>
   <string name="app_behavior_clipboard">%1s-Zugriff auf Elemente oder Speicherung dieser in der Zwischenablage</string>
   <string name="app_behavior_clipboard_bg">%1s-Zugriff im Hintergrund auf Elemente oder Speicherung dieser in der Zwischenablage</string>
+  <string name="app_behavior_clipboard_bg_new">%1s Elemente im Hintergrund in die Zwischenablage kopiert</string>
   <string name="app_behavior_clipboard_bg_single">Diese App griff im Hintergrund auf Elemente zu oder speicherte diese in der Zwischenablage</string>
+  <string name="app_behavior_clipboard_bg_single_new">Diese App kopierte Elemente im Hintergrund in die Zwischenablage</string>
+  <string name="app_behavior_clipboard_new">%1s Elemente in die Zwischenablage kopiert</string>
+  <string name="app_behavior_clipboard_read_bg_single">Diese App griff im Hintergrund auf Elemente in der Zwischenablage zu</string>
+  <string name="app_behavior_clipboard_read_single">Diese App griff auf Elemente in der Zwischenablage zu</string>
   <string name="app_behavior_clipboard_single">Diese App griff auf Elemente zu oder speicherte diese in der Zwischenablage</string>
+  <string name="app_behavior_clipboard_single_new">Diese App kopierte Elemente in die Zwischenablage</string>
   <string name="app_behavior_contacts">%1s-Zugriff auf Ihre Kontakte</string>
   <string name="app_behavior_contacts_bg">%1s-Zugriff auf Ihre Kontakte im Hintergrund</string>
   <string name="app_behavior_contacts_bg_single">Diese App griff im Hintergrund auf Ihre Kontakte zu</string>
@@ -300,6 +274,8 @@
   <string name="app_behavior_phonestate">%1s versuchte auf Geräteinformationen zuzugreifen</string>
   <string name="app_behavior_phonestate_single">Diese App griff auf Geräteinformationen zu</string>
   <string name="app_behavior_privacy_manager">Sensible Aktionsbenachrichtigungen</string>
+  <string name="app_behavior_read_clipboard">%1s-Zugriff auf Elemente in der Zwischenablage</string>
+  <string name="app_behavior_read_clipboard_bg">%1s-Zugriff im Hintergrund auf Elemente in der Zwischenablage</string>
   <string name="app_behavior_recognition">%1s versuchte auf Ihre Aktivitätsinformationen zuzugreifen</string>
   <string name="app_behavior_recognition_single">Diese App griff auf Ihre Aktivitätsinformationen zu</string>
   <string name="app_behavior_search">Suchen</string>
@@ -2417,6 +2393,8 @@ Stromverbrauch"</string>
   <string name="permgroupdesc_sensors">Auf Körpersensordaten zugreifen</string>
   <string name="permgroupdesc_sms">SMS lesen oder senden</string>
   <string name="permgroupdesc_storage">Auf Fotos oder Dateien auf dem Gerät zugreifen</string>
+  <string name="permission_action_ai_prompt">Benachrichtigen, wenn Berechtigung verwendet wird</string>
+  <string name="permission_with_read_write_clipboard">Apps den Zugriff auf und das Speichern von Elementen in der Zwischenablage erlauben</string>  
   <string name="permission_action_accept">Akzeptieren</string>
   <string name="permission_action_always">Immer erlauben</string>
   <string name="permission_action_desc">Berechtigungen erteilen, aber leere Nachrichten an die App zurücksenden, um die Privatsphäre zu schützen</string>
@@ -2897,6 +2875,14 @@ Während der Kalibrierung sendet MIUI eine Textnachricht an Ihren Mobilfunkanbie
   <string name="reach_daily_limit_value_body">Reduzieren Sie Ihre mobile Datennutzung</string>
   <string name="reach_daily_limit_value_title">Tägliches Datenlimit erreicht</string>
   <string name="read_all_sms">Alles lesen</string>
+  <string name="read_and_write_clipboard">Zugriff auf und Speichern von Elementen in der Zwischenablage</string>
+  <string name="read_clipboard_ai_close_no">Jetzt nicht</string>
+  <string name="read_clipboard_ai_close_tip">Sie erhalten keine Benachrichtigungen mehr, wenn Apps auf die Zwischenablage zugreifen. Stattdessen dürfen sie diese Berechtigung nur noch verwenden, während Sie die App verwenden. Berechtigungen anpassen?"</string>
+  <string name="read_clipboard_ai_close_yes">Anpassen</string>
+  <string name="read_clipboard_op_content">Anstatt die Berechtigung nur dann zu erteilen, wenn Sie die App verwenden, erhalten Sie jedes Mal eine Benachrichtigung, wenn Apps auf Ihre Zwischenablage zugreifen.</string>
+  <string name="read_clipboard_op_title">Benachrichtigen, wenn Apps auf Elemente in der Zwischenablage zugreifen</string>
+  <string name="read_clipboard_tip_content">Diese Berechtigung erlaubt es Apps, alle von Ihnen kopierten Inhalte zu lesen, die private Informationen enthalten können (z. B. Kontodaten, Bankkartennummern und Passwörter).</string>
+  <string name="read_clipboard_tip_title">Zugriff auf Elemente in der Zwischenablage</string>
   <string name="receive_now">Erhalten</string>
   <string name="recently_reject_message">Installation von %1$s und %2$d weiteren Apps verweigert</string>
   <string name="recently_reject_message_one">Installationsanfrage von %1$s verweigert</string>
@@ -3766,6 +3752,16 @@ Wollen Sie es übernehmen?"</string>
   <string name="vb_video_effects_display_style">Stil</string>
   <string name="vb_video_effects_setting_black_white">SW</string>
   <string name="vb_video_effects_setting_cinema">Kino</string>
+  <string name="vb_video_effects_setting_girl">Erröten</string>
+  <string name="vb_video_effects_setting_gorgeous">Lebendig</string>
+  <string name="vb_video_effects_setting_green_orange">Orange</string>
+  <string name="vb_video_effects_setting_grim">Cool</string>
+  <string name="vb_video_effects_setting_hdr">HDR</string>
+  <string name="vb_video_effects_setting_knight">Metal</string>
+  <string name="vb_video_effects_setting_mecha">Roboter</string>
+  <string name="vb_video_effects_setting_nostalgia">Nostalgisch</string>
+  <string name="vb_video_effects_setting_solar">Verblassen</string>
+  <string name="vb_video_effects_setting_warmth">Warm</string>
   <string name="vb_video_effects_settings_liquid">Klarheit</string>
   <string name="vb_video_effects_settings_stereo">Lautstärke</string>
   <string name="vb_video_effects_srs_premium_sound">Ton</string>
@@ -3898,6 +3894,8 @@ Wollen Sie es übernehmen?"</string>
   <string name="wlan_change_protection_title">Netzwerkwechsel verhindern</string>
   <string name="wlan_optimization_summary">Verzögerungen im WLAN reduzieren</string>
   <string name="wlan_optimization_title">WLAN-Optimierung</string>
+  <string name="write_clipboard_tip_content">Diese App-Berechtigung erlaubt, Elemente in der Zwischenablage zu speichern. Spam-Nachrichten können Ihre normale Nutzung der Zwischenablage beeinträchtigen.</string>
+  <string name="write_clipboard_tip_title">Elemente in Zwischenablage speichern</string>
   <string name="wrong_password">Falsches Passwort</string>
   <string name="xunyou_net_booster">Mehr Netzwerkgeschwindigkeit</string>
   <string name="xunyou_net_booster_detail">Xunyou-Dienste für mehr Geschwindigkeit nutzen</string>
