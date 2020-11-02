@@ -1,79 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <plurals name="sport_tts_goal_time">
-    <item quantity="other">%s mehr Minuten, bis Sie Ihr Ziel erreichen</item>
-    <item quantity="one">%s mehr Minute, bis Sie Ihr Ziel erreichen</item>
-  </plurals>
-  <plurals name="sporting_content_calories">
-    <item quantity="other">Sie haben bereits %1$s Kalorien verbrannt</item>
-    <item quantity="one">Sie haben bereits %1$s Kalorie verbrannt</item>   
-  </plurals>
-  <plurals name="sporting_content_min">
-    <item quantity="other">%1$d Minuten</item>
-    <item quantity="one">%1$d Minute</item>
-  </plurals>
-  <plurals name="sporting_content_sec">
-    <item quantity="other">%1$d Sekunden</item>
-    <item quantity="one">%1$d Sekunde</item>
-  </plurals>
-  <plurals name="sporting_content_riding_km">
-    <item quantity="other">Sie sind bereits %1$s Kilometer Rad gefahren</item>
-    <item quantity="one">Sie sind bereits %1$s Kilometer Rad gefahren</item>
-  </plurals>
-  <plurals name="sporting_content_running_km">
-    <item quantity="other">Sie sind bereits %1$s Kilometer gerannt</item>
-    <item quantity="one">Sie sind bereits %1$s Kilometer gerannt</item>
-  </plurals>
-  <plurals name="sporting_content_speed">
-    <item quantity="other">Aktuelle Geschwindigkeit beträgt %1$d Min %2$d Sek pro Kilometer</item>
-  </plurals>
-  <plurals name="sporting_content_time">
-    <item quantity="other">%1$d Min %2$d Sek beim Teilen</item>
-  </plurals>
-  <plurals name="sporting_content_walking_km">
-    <item quantity="other">Sie sind bereits %1$s Kilometer gelaufen</item>
-    <item quantity="one">Sie sind bereits %1$s Kilometer gelaufen</item>
-  </plurals>
-  <plurals name="sporting_content_walking_stpe">
-    <item quantity="other">Sie sind bereits %1$s Schritte gelaufen</item>
-    <item quantity="one">Sie sind bereits %1$s Schritt gelaufen</item>
-  </plurals>
-  <plurals name="sporting_unit_calories">
-    <item quantity="other">%1$d Kalorien</item>
-    <item quantity="one">%1$d Kalorie</item>
-  </plurals>
-  <plurals name="sporting_unit_km">
-    <item quantity="other">%1$s km</item>
-  </plurals>
-  <plurals name="sport_tts_goal_consume">
-    <item quantity="other">%s Kalorien mehr, die Sie noch verbrennen können, bis Sie Ihr Ziel erreichen</item>
-    <item quantity="one">%s Kalorie mehr, die Sie noch verbrennen können, bis Sie Ihr Ziel erreichen</item>
-  </plurals>
-  <plurals name="sport_tts_goal_distance">
-    <item quantity="other">Noch %s Kilometer mehr, bis Sie Ihr Ziel erreichen</item>
-    <item quantity="one">Noch %s Kilometer mehr, bis Sie Ihr Ziel erreichen</item>
-  </plurals>
-  <plurals name="sport_tts_riding_distance">
-    <item quantity="other">Sie sind %s Kilometer Rad gefahren</item>
-    <item quantity="one">Sie sind %s Kilometer Rad gefahren</item>
-  </plurals>
-  <plurals name="sport_tts_running_distance">
-    <item quantity="other">Sie sind %s Kilometer gelaufen</item>
-    <item quantity="one">Sie sind %s Kilometer gelaufen</item>
-  </plurals>
-  <plurals name="sport_tts_total_consume">
-    <item quantity="other">Sie haben %s Kalorien verbrannt</item>
-    <item quantity="one">Sie haben %s Kalorien verbrannt</item>
-  </plurals>
-  <plurals name="sport_tts_walking_distance">
-    <item quantity="other">Sie sind %s Kilometer gewalkt</item>
-    <item quantity="one">Sie sind %s Kilometer gewalkt</item>
-  </plurals>
-  <plurals name="sporting_unit_step">
-    <item quantity="other">Schritte</item>
-    <item quantity="one">Schritt</item>
-  </plurals>
-
   <plurals name="a_hour_ago">
     <item quantity="other">vor 1 Stunde</item>
   </plurals>
@@ -257,6 +183,79 @@
   <plurals name="sleep_management_exp_hours">
     <item quantity="other">Die aktuellen Einstellungen garantieren Ihnen keine %1$d Stunden Schlaf täglich. Sie brauchen mehr als das.</item>
     <item quantity="one">Die aktuellen Einstellungen garantieren Ihnen keine Stunde Schlaf täglich. Sie brauchen mehr als das.</item>
+  </plurals>
+  <plurals name="sport_tts_goal_consume">
+    <item quantity="other">%s Kalorien mehr, die Sie noch verbrennen können, bis Sie Ihr Ziel erreichen</item>
+    <item quantity="one">%s Kalorie mehr, die Sie noch verbrennen können, bis Sie Ihr Ziel erreichen</item>
+  </plurals>
+  <plurals name="sport_tts_goal_distance">
+    <item quantity="other">Noch %s Kilometer mehr, bis Sie Ihr Ziel erreichen</item>
+    <item quantity="one">Noch %s Kilometer mehr, bis Sie Ihr Ziel erreichen</item>
+  </plurals>
+  <plurals name="sport_tts_goal_time">
+    <item quantity="other">%s mehr Minuten, bis Sie Ihr Ziel erreichen</item>
+    <item quantity="one">%s mehr Minute, bis Sie Ihr Ziel erreichen</item>
+  </plurals>
+  <plurals name="sport_tts_riding_distance">
+    <item quantity="other">Sie sind %s Kilometer Rad gefahren</item>
+    <item quantity="one">Sie sind %s Kilometer Rad gefahren</item>
+  </plurals>
+  <plurals name="sport_tts_running_distance">
+    <item quantity="other">Sie sind %s Kilometer gelaufen</item>
+    <item quantity="one">Sie sind %s Kilometer gelaufen</item>
+  </plurals>
+  <plurals name="sport_tts_total_consume">
+    <item quantity="other">Sie haben %s Kalorien verbrannt</item>
+    <item quantity="one">Sie haben %s Kalorien verbrannt</item>
+  </plurals>
+  <plurals name="sport_tts_walking_distance">
+    <item quantity="other">Sie sind %s Kilometer gewalkt</item>
+    <item quantity="one">Sie sind %s Kilometer gewalkt</item>
+  </plurals>
+  <plurals name="sporting_content_calories">
+    <item quantity="other">Sie haben bereits %1$s Kalorien verbrannt</item>
+    <item quantity="one">Sie haben bereits %1$s Kalorie verbrannt</item>   
+  </plurals>
+  <plurals name="sporting_content_min">
+    <item quantity="other">%1$d Minuten</item>
+    <item quantity="one">%1$d Minute</item>
+  </plurals>
+  <plurals name="sporting_content_sec">
+    <item quantity="other">%1$d Sekunden</item>
+    <item quantity="one">%1$d Sekunde</item>
+  </plurals>
+  <plurals name="sporting_content_riding_km">
+    <item quantity="other">Sie sind bereits %1$s Kilometer Rad gefahren</item>
+    <item quantity="one">Sie sind bereits %1$s Kilometer Rad gefahren</item>
+  </plurals>
+  <plurals name="sporting_content_running_km">
+    <item quantity="other">Sie sind bereits %1$s Kilometer gelaufen</item>
+    <item quantity="one">Sie sind bereits %1$s Kilometer gelaufen</item>
+  </plurals>
+  <plurals name="sporting_content_speed">
+    <item quantity="other">Aktuelle Geschwindigkeit beträgt %1$d Min %2$d Sek pro Kilometer</item>
+  </plurals>
+  <plurals name="sporting_content_time">
+    <item quantity="other">%1$d Min %2$d Sek beim Teilen</item>
+  </plurals>
+  <plurals name="sporting_content_walking_km">
+    <item quantity="other">Sie sind bereits %1$s Kilometer gelaufen</item>
+    <item quantity="one">Sie sind bereits %1$s Kilometer gelaufen</item>
+  </plurals>
+  <plurals name="sporting_content_walking_stpe">
+    <item quantity="other">Sie sind bereits %1$s Schritte gelaufen</item>
+    <item quantity="one">Sie sind bereits %1$s Schritt gelaufen</item>
+  </plurals>
+  <plurals name="sporting_unit_calories">
+    <item quantity="other">%1$d Kalorien</item>
+    <item quantity="one">%1$d Kalorie</item>
+  </plurals>
+  <plurals name="sporting_unit_km">
+    <item quantity="other">%1$s km</item>
+  </plurals>
+  <plurals name="sporting_unit_step">
+    <item quantity="other">Schritte</item>
+    <item quantity="one">Schritt</item>
   </plurals>
   <plurals name="step_num_format">
     <item quantity="other">%1$d Schritte</item>
