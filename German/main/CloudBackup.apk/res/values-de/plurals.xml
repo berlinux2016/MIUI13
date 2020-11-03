@@ -1,6 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
   <plurals name="cloud_backup_detail_frequence_day">
+    <item quantity="other">Back up every %d days</item>
+    <item quantity="one">Back up every day</item>
+  </plurals>
+  <plurals name="cloud_backup_detail_frequence_day">
     <item quantity="other">Alle %d Tage sichern</item>
     <item quantity="one">Jeden Tag sichern</item>
   </plurals>
