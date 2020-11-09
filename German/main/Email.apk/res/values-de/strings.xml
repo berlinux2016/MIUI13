@@ -1,5 +1,46 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+  <string name="bottom_bar_more_pdf">Als PDF exportieren</string>
+  <string name="bottom_bar_more_pdf_exporting">Exportieren…</string>
+  <string name="contain_view_all_body">Vollständigen Text der Nachricht anzeigen</string>
+  <string name="copy">Kopieren</string>
+  <string name="drive_card_button_tips">Extrahierten Code kopieren und den freigegebenen Inhalt erhalten</string>
+  <string name="drive_card_code">Extraktionscode</string>
+  <string name="drive_card_tips">Gefundener Freigabelink von %s</string>
+  <string name="drive_card_title">Speicherkartenlink</string>
+  <string name="expand_button_title">Erweitert</string>
+  <string name="invoice_card_amount">Betrag</string>
+  <string name="invoice_card_buyer">Käufer</string>
+  <string name="invoice_card_date">Datum</string>
+  <string name="invoice_card_open">Offene Rechnung</string>
+  <string name="invoice_card_save">Rechnung speichern</string>
+  <string name="invoice_card_seller">Verkäufer</string>
+  <string name="invoice_card_title">E-Rechnung</string>
+  <string name="login_err_outlook_msg">"%s
+Bitte bestätigen Sie, ob das App-Kennwort an ist. Falls es an ist, gehen Sie bitte auf die Microsoft-Webseite, um das App-Kennwort zurückzusetzen."</string>
+  <string name="message_all_body">Vollständiger Text</string>
+  <string name="not_set">Nicht festgelegt</string>
+  <string name="pdf_save_error">Dokument (Body?) ist zu gross, es kann nicht als PDF-Datei exportiert werden</string>
+  <string name="pdf_save_no_body">Warten Sie, bis der Text erfolgreich geladen wurde und versuchen Sie es erneut</string>
+  <string name="pdf_save_to">Gespeichert in</string>
+  <string name="preference_copied">\"%1$s\" in Zwischenablage kopiert.</string>
+  <string name="train_card_title">Zugfahrkarte erfolgreich gekauft</string>
+  <string name="train_card_title_alternate">Warten auf Zugfahrkarte erfolgreich</string>
+  <string name="train_card_title_change">Zugfahrkarte erfolgreich geändert</string>
+  <string name="train_card_title_change_arrival">Zugfahrkarte erfolgreich geändert</string>
+  <string name="train_card_title_refund">Zugfahrkarte erfolgreich zurückerstattet</string>
+  <string name="v7_preference_off">AUS</string>
+  <string name="v7_preference_on">EIN</string>
+  <string name="wps_card_button_tips">Kingsoft-Dokument öffnen</string>
+  <string name="wps_card_tips">Gefundenen Link von \"%s\" teilen</string>
+  <string name="wps_card_title">Kingsoft-Dokument</string>
+
+  <string name="account_settings_only_notify_inbox">Only notification reminder inbox mail</string>
+  <string name="net_error">Network error, please try again later</string>
+  <string name="toastbar_calendar_and_contacts_permission_switch_allow_only_using">Schedule and contact information cannot be synchronized in real time, please set related permissions to \"Always Allow\"</string>
+  <string name="toastbar_calendar_permission_switch_allow_only_using">The email schedule cannot be synchronized in real time, please set the calendar permission to \"Always Allow\"</string>
+  <string name="toastbar_contacts_permission_switch_allow_only_using">Contact information cannot be synchronized in real time, please set the contact permission to \"Always Allow\"</string>
+  <string name="train_travel_refund_info" formatted="false">Refund fee ¥%s, refundable fee ¥%s</string>
 
   <string name="about_checking_update">Update prüfen…</string>
   <string name="about_go_to_update">Zum Update gehen</string>
@@ -685,7 +726,8 @@
   <string name="mail_login_help_details2">2. Client-Verifizierungscode: Wenn Sie bereits einen Client-Verifizierungscode eingerichtet haben, müssen Sie diesen zur Anmeldung verwenden und prüfen, dass das POP3/IMAP/SMTP-Protokoll geöffnet war.</string>
   <string name="mail_login_help_title">Beschreibung E-Mail-Passwort oder Client-Verifizierungscode:</string>
   <string name="mail_outlook_login_tips">Gemäß den Microsoft-Anforderungen müssen Sie das Passwort auf der Microsoft Autorisierungsseite eingeben.</string>
-  <string name="mail_outlook_oauth_login">Mit OAuth anmelden</string>
+  <string name="mail_outlook_oauth_login">"Mit OAuth anmelden
+(Nutzer von Personal-Outlook können Ihre Kalender nicht synchronisieren, wenn sie sich mit OAuth anmelden)".</string>
   <string name="mail_outlook_psw_login">Mit Passwort anmelden</string>
   <string name="mail_search_lab">Suchbegriff</string>
   <string name="mailbox_list_account_selector_combined_view">Kombiniertes Konto</string>
