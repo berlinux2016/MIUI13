@@ -566,8 +566,11 @@
   <string name="download_title">Dateien vorbereiten…</string>
   <string name="download_type_origin">Originaldateien</string>
   <string name="download_type_origin_desc">Originaldateien</string>
+  <string name="download_type_origin_subtitle_china">Originalbilder brauchen mehr Speicherplatz und können nur über WLAN heruntergeladen werden</string>
   <string name="download_type_thumbnail">Hohe Qualität</string>
   <string name="download_type_thumbnail_desc">Hohe Qualität</string>
+  <string name="download_type_thumbnail_subtitle">Bilder in hoher Qualität sehen fast identisch mit den Originalbildern aus, brauchen aber weniger Speicherplatz</string>
+  <string name="download_type_thumbnail_title">Hohe Qualität</string>
   <string name="download_type_title">Downloadqualität</string>
   <string name="download_with_metered_network_msg">Das Herunterladen von Originaldateien kann zusätzliche Mobilfunkanbietergebühren verursachen. Trotzdem herunterladen?</string>
   <string name="download_with_metered_network_title">Sie sind mit einem kostenpflichtigen Netzwerk verbunden</string>
@@ -1165,6 +1168,7 @@ zu wechseln."</string>
   <string name="need_to_turn_on_sync_first">Zuerst mit der Cloud synchronisieren einschalten</string>
   <string name="need_to_turn_on_wlan">Zuerst mit WLAN verbinden</string>
   <string name="network_connected_rescan">Netzwerkverbindung fehlgeschlagen</string>
+  <string name="new_album_invalid_byte">Dieser Name ist zu lang</string>
   <string name="new_album_invalid_char">Name enthält ungültige Zeichen \"%s\", bitte geben Sie Buchstaben und Ziffern ein</string>
   <string name="new_album_invalid_name">\"%s\" ist ein Systemalbum, verwenden Sie bitte einen anderen Namen</string>
   <string name="new_album_invalid_prefix">Verwenden Sie nicht \".\" oder \"_\" als erstes Zeichen</string>
@@ -1184,6 +1188,7 @@ zu wechseln."</string>
   <string name="not_remind_again">Nicht wieder anzeigen</string>
   <string name="not_remind_any_more">Nicht wieder anzeigen</string>
   <string name="not_set">Nicht festgelegt</string>
+  <string name="notice_click_lock_orientation">Tippen zum Sperren der Ausrichtung</string>
   <string name="ocr_abnormal">Text erkennen nicht möglich</string>
   <string name="ocr_abnormal_pic_format">Text erkennen nicht möglich. Dieses Bildformat wird nicht unterstützt.</string>
   <string name="ocr_abnormal_pic_too_large">Text erkennen nicht möglich. Dieses Bild ist zu groß.</string>
@@ -1249,6 +1254,9 @@ Umwandlung kann einige Zeit in Anspruch nehmen, wenn Sie diese Funktion zum erst
   <string name="operation_remove_rubbish">Wiederherstellen</string>
   <string name="operation_remove_secret">Sichtbar machen</string>
   <string name="operation_rename">Umbenennen</string>
+  <string name="operation_replace_album_cover">Albumcover ändern</string>
+  <string name="operation_replace_album_cover_custom_mode">Eigenes</string>
+  <string name="operation_replace_album_cover_default_mode">Standard</string>
   <string name="operation_save">Speichern</string>
   <string name="operation_send">Senden</string>
   <string name="operation_set_contact_photo">Als Kontaktfoto festlegen</string>

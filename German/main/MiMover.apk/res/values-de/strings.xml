@@ -169,6 +169,7 @@ Wir schützen Ihre persönlichen Daten in Übereinstimmung mit den einschlägige
   <string name="error_title">Synchronisieren fehlgeschlagen</string>
   <string name="error_unauthorized">Synchronisation wurde wegen zu vieler Anmeldeversuche deaktiviert.</string>
   <string name="evening">Nachmittag</string>
+  <string name="fail_list_tips">Folgende Elemente konnten nicht auf das neue Gerät übertragen werden:</string>
   <string name="failed_description">Fehlgeschlagen</string>
   <string name="finished">Fertig</string>
   <string name="fmt_date_day">d.</string>
@@ -199,6 +200,8 @@ Wir schützen Ihre persönlichen Daten in Übereinstimmung mit den einschlägige
   <string name="friday_shortest">F</string>
   <string name="get_known_tip">Erneut versuchen</string>
   <string name="group_info_scanning">Berechnen…</string>
+  <string name="guest_connect_dialog_ensure_text">Verbinden</string>
+  <string name="guest_connect_dialog_fail_message">Verbinden nicht möglich. Erneut versuchen.</string>
   <string name="guest_hint_connect_new_device">Auf das neue Gerät tippen, um eine Verbindung herzustellen.</string>
   <string name="guest_install_app_hint_ensure">Herunterladen</string>
   <string name="guest_install_app_hint_summary">Die neue Version von Mi Mover ist nicht kompatibel mit der auf diesem Gerät installierten. Neue Version herunterladen und installieren.</string>
@@ -227,6 +230,7 @@ Wir schützen Ihre persönlichen Daten in Übereinstimmung mit den einschlägige
   <string name="host_dialog_known_button">Verstanden</string>
   <string name="host_dialog_message">Stellen Sie sicher, dass die neueste Version von Mi Mover auf dem anderen Gerät installiert ist; andernfalls können sich evtl. die zwei Geräte nicht verbinden.</string>
   <string name="host_dialog_title">Verbindung für längere Zeit nicht möglich</string>
+  <string name="host_install_hint">Mi Mover ist nicht installiert?</string>
   <string name="host_manual_connect_link_text">Wenn es zu lange dauert, bis Ihr altes Gerät den Hotspot findet, versuchen Sie manuell zu verbinden.</string>
   <string name="host_memory_insuff_cancel">Abbrechen</string>
   <string name="host_memory_insuff_confirm">Erneut auswählen</string>
@@ -299,6 +303,10 @@ Wir schützen Ihre persönlichen Daten in Übereinstimmung mit den einschlägige
   <string name="main_chooser_item_android_others">Import von anderem Android-Telefon</string>
   <string name="main_chooser_item_ios">Import von einem iOS-Gerät</string>
   <string name="main_chooser_title">Altes Gerät wählen</string>
+  <string name="main_receiver_summary">Tippen, um Elemente zu empfangen</string>
+  <string name="main_receiver_title">Neu</string>
+  <string name="main_sender_summary">Tippen, um Elemente zu senden</string>
+  <string name="main_sender_title">Alt</string>
   <string name="manual_connection_content1">1. \"Manuell mit dem neuen Gerät verbinden\" auf dem alten Gerät antippen.</string>
   <string name="manual_connection_content2">2. Den folgenden WLAN-Hotspot auswählen.</string>
   <string name="manual_connection_content3">3. Dieses Passwort auf dem alten Gerät eingeben, um zu verbinden.</string>
@@ -482,6 +490,10 @@ Wir schützen Ihre persönlichen Daten in Übereinstimmung mit den einschlägige
   <string name="qq_app_send_fail">QQ nicht gesendet</string>
   <string name="qq_data_external">QQ SD-Kartendaten</string>
   <string name="quit_now">Beenden</string>
+  <string name="receiver_finish_detail_button">Bericht anzeigen</string>
+  <string name="receiver_finish_detail_fail">Übertragen nicht möglich</string>
+  <string name="receiver_finish_detail_success">Übertragene Elemente</string>
+  <string name="receiver_finish_title">Es ist alles bereit!</string>
   <string name="reconnect">Erneut verbinden</string>
   <string name="recovery_progress">Elemente wiederherstellen (%1$d/%2$d)…</string>
   <string name="recreate_soft_ap_tips">Schaltfläche unten antippen, um es erneut zu versuchen</string>
@@ -521,7 +533,8 @@ Mindestens %s freigeben."</string>
   <string name="searching_for_new_device">Nach Geräten in der Nähe suchen…</string>
   <string name="select_all">Alles auswählen</string>
   <string name="select_all_description">Alles auswählen</string>
-  <string name="select_empty">Zuerst zu importierende Elemente wählen</string>
+  <string name="select_android_summary">Huawei, OPPO, Vivo und mehr</string>
+  <string name="select_empty">Erst zu importierende Elemente wählen</string>
   <string name="select_item">Elemente wählen</string>
   <string name="select_item_calendar">Kalender</string>
   <string name="select_item_contacts">Kontakte</string>
@@ -530,8 +543,12 @@ Mindestens %s freigeben."</string>
   <string name="select_item_photos">Fotos</string>
   <string name="select_item_remind">Erinnerungen</string>
   <string name="select_item_summary_loading">Einen Moment…</string>
+  <string name="select_mi_summary">Xiaomi und Redmi</string>
+  <string name="select_old_device_title">Altes Gerätemodell wählen</string>
   <string name="selected">Ausgewählt</string>
   <string name="send">Senden</string>
+  <string name="sender_finish_bottom_tips">Sichern Sie alle wichtigen Elemente, bevor Sie Daten auf diesem Gerät löschen.</string>
+  <string name="sender_finish_title">Erfolgreich übertragen</string>
   <string name="send_sms_for_sync_notice">Zur Aktivierung dieses Dienstes kann eine ausgehende SMS erforderlich sein. Ihr Anbieter wird Ihnen diese Nachricht in Rechnung stellen.</string>
   <string name="send_sms_for_sync_title">Datennutzungswarnung</string>
   <string name="send_verification_code_fail">Senden des Bestätigungscodes fehlgeschlagen</string>
@@ -673,6 +690,7 @@ Videos, Dokumente und Apps auf ein neues Gerät verschieben"</string>
   <string name="transfer_bottom_tip">Während der Übertragung können Sie weder WLAN noch Bluetooth verwenden. Verlassen Sie diese Seite nicht.</string>
   <string name="transfer_connect_fail_summary">Auf Schaltfläche unten tippen, um manuell zu verbinden</string>
   <string name="transfer_finish_bottom_tip">Wenn Sie Ihr altes Gerät nicht mehr verwenden, können Sie alle Daten auf dem Gerät löschen, wenn Sie bestätigt haben, dass alle wichtigen Elemente erfolgreich übertragen wurden.</string>
+  <string name="transfer_finish_summary">%1$s (%2$s) übertragen</string>
   <string name="transfer_lose_connect_summary">Sieht aus, als sei die Verbindung unterbrochen worden. Verbindung wieder herstellen.</string>
   <string name="transfer_lose_connect_title">Verbindung unterbrochen</string>
   <string name="transfer_multi_connect_summary">Ihre Übertragung wurde aus Sicherheitsgründen unterbrochen. Sie können auf \"Erneut verbinden"\ tippen, um trotzdem weiterzumachen.</string>
