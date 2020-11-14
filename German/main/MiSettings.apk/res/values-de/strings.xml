@@ -396,11 +396,16 @@ Sie können Ihre Berechtigung unter Bildschirmzeit &gt; Einstellungen &gt; Bilds
   <string name="usage_new_home_unused">Nicht verwendet</string>
   <string name="usage_new_home_update">Ändern</string>
   <string name="usage_new_home_usage_detail">Nutzungsdetails</string>
+  <string name="usage_new_home_week_average_count">Im Ø %s</string>
   <string name="usage_new_home_week_category_title">App-Kategorien</string>
   <string name="usage_new_home_week_compare_text1">%.2f mehr als letzte Woche</string>
+  <string name="usage_new_home_week_compare_text1_new">(%s%% mehr als letzte Woche)</string>
   <string name="usage_new_home_week_compare_text2">%.2f weniger als letzte Woche</string>
+  <string name="usage_new_home_week_compare_text2_new">(%s%% weniger als letzte Woche)</string>
   <string name="usage_new_home_week_equals_text">Wie in der letzten Woche</string>
   <string name="usage_new_home_week_title">Woche</string>
+  <string name="usage_new_home_week_unlock_compare_decrease">(%.2f weniger als letzte Woche)</string>
+  <string name="usage_new_home_week_unlock_compare_increase">(%.2f mehr als letzte Woche)</string>
   <string name="usage_new_home_week_unlock_equals_text">Wie in der letzten Woche</string>
   <string name="usage_new_home_week_usage_title">Einzelne Apps</string>
   <string name="usage_new_home_which_week">%d Woche</string>
@@ -516,8 +521,10 @@ Diese App muss eine Internetverbindung herstellen und benötigt folgende Berecht
   <string name="usage_stats_experience_text">Tippen zum Ausprobieren (1 Min)</string>
   <string name="usage_stats_limit_time_accuracy_title">Genauigkeit der Restzeitschätzung</string>
   <string name="usage_stats_limit_time_high_accuracy_summary">Verbleibende Zeit minutengenau anzeigen. Dies erhöht den Stromverbrauch.</string>
+  <string name="usage_stats_limit_time_high_accuracy_summary_new">Auf die Minute genau (verbraucht mehr Strom)</string>
   <string name="usage_stats_limit_time_high_accuracy_title">Hohe Genauigkeit</string>
   <string name="usage_stats_limit_time_low_accuracy_summary">Verbleibende Zeit minutengenau innerhalb der letzten 2 verbleibenden Stunden anzeigen, um den Akku zu schonen</string>
+  <string name="usage_stats_limit_time_low_accuracy_summary_new">Auf die Minute genau innerhalb der %d verbleibenden Stunden (spart Strom)</string>
   <string name="usage_stats_limit_time_low_accuracy_title">Geringe Genauigkeit</string>
   <string name="usage_stats_limit_time_warn">Bildschirmzeitwarnungen</string>
   <string name="usage_stats_limit_time_warn_summary">Verbleibende Bildschirmzeit Benachrichtigungsleiste anzeigen</string>
