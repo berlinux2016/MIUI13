@@ -280,6 +280,18 @@ Wenn Sie mobile Daten wieder einschalten, kann Ihr Mobilfunkanbieter zusätzlich
     <item quantity="other">Datenverbrauch für %d Apps wird nicht aufgezeichnet</item>
     <item quantity="one">Datenverbrauch für %d App wird nicht aufgezeichnet</item>
   </plurals>
+  <plurals name="image_protect_del_tips">
+    <item quantity="other">%d Bilder endgültig löschen?</item>
+    <item quantity="one">%d Bild endgültig löschen?</item>
+  </plurals>
+  <plurals name="image_protect_exit_del_tips">
+    <item quantity="other">%d Bilder werden endgültig gelöscht, nachdem Sie diese Seite verlassen haben. Trotzdem löschen?</item>
+    <item quantity="one">%d Bild wird endgültig gelöscht, nachdem Sie diese Seite verlassen haben. Trotzdem löschen?</item>
+  </plurals>
+  <plurals name="image_protect_try_del_tips">
+    <item quantity="other">%d Bilder löschen</item>
+    <item quantity="one">%d Bild löschen</item>
+  </plurals>
   <plurals name="install_game_count_title">
     <item quantity="other">%d Spiele hinzugefügt</item>
     <item quantity="one">%d Spiel hinzugefügt</item>
@@ -516,6 +528,10 @@ Wenn Sie mobile Daten wieder einschalten, kann Ihr Mobilfunkanbieter zusätzlich
     <item quantity="other">Ihr Gerät schaltet sich in %d Sekunden ab. Ladegerät anschließen.</item>
     <item quantity="one">Ihr Gerät schaltet sich in %d Sekunde ab. Ladegerät anschließen.</item>
   </plurals>
+  <plurals name="pp_times">
+    <item quantity="other">%s-mal</item>
+    <item quantity="one">%s-mal</item>
+  </plurals>
   <plurals name="privacy_apps_enable_header_title">
     <item quantity="other">%d App-Symbole sind nicht versteckt</item>
     <item quantity="one">%d App-Symbol ist nicht versteckt</item>
@@ -531,6 +547,50 @@ Wenn Sie mobile Daten wieder einschalten, kann Ihr Mobilfunkanbieter zusätzlich
   <plurals name="privacy_pop_times">
     <item quantity="other">%s-mal</item>
     <item quantity="one">%s-mal</item>
+  </plurals>
+  <plurals name="privacy_risk_app_count">
+    <item quantity="other">%d Apps</item>
+    <item quantity="one">%d App</item>
+  </plurals>
+  <plurals name="privacy_risk_dangerous_permissions_tip">
+    <item quantity="other">%d risikoreiche Berechtigungen erteilt</item>
+    <item quantity="one">%d risikoreiche Berechtigung erteilt</item>
+  </plurals>
+  <plurals name="privacy_risk_install_app_tip">
+    <item quantity="other">%d risikoreiche Apps gefunden</item>
+    <item quantity="one">%d risikoreiche App gefunden</item>
+  </plurals>
+  <plurals name="privacy_risk_photo_location_tip">
+    <item quantity="other">%d risikoreiche Offenlegungen von Standortinfos entdeckt</item>
+    <item quantity="one">%d risikoreiche Offenlegung von Standortinfo entdeckt</item>
+  </plurals>
+  <plurals name="privacy_risk_result_item_error">
+    <item quantity="other">%d Risiken erkannt</item>
+    <item quantity="one">%d Risiko erkannt</item>
+  </plurals>
+  <plurals name="privacy_risk_result_msg">
+    <item quantity="other">%d mögliche Risiken gefunden</item>
+    <item quantity="one">%d mögliches Risiko gefunden</item>
+  </plurals>
+  <plurals name="privacy_risk_result_photo_sensitive_msg">
+    <item quantity="other">%d Fotos könnten private oder sensible Infos enthalten</item>
+    <item quantity="one">%d Foto könnte private oder sensible Infos enthalten</item>
+  </plurals>
+  <plurals name="privacy_risk_result_protection_tip">
+    <item quantity="other">%d Funktionen, die Ihre Privatsphäre schützen, sind abgeschaltet</item>
+    <item quantity="one">%d Funktion, die Ihre Privatsphäre schützen, sind abgeschaltet</item>
+  </plurals>
+  <plurals name="privacy_risk_sensitive_permissions_tip">
+    <item quantity="other">%d sensible Berechtigungen erteilt</item>
+    <item quantity="one">%d sensible Berechtigung erteilt</item>
+  </plurals>
+  <plurals name="privacy_risk_uninstall_btn">
+    <item quantity="other">%d Apps deinstallieren</item>
+    <item quantity="one">%d App deinstallieren</item>
+  </plurals>
+  <plurals name="privacy_risk_work_encryption_msg">
+    <item quantity="other">%d Elemente benötigen zusätzlichen Schutz</item>
+    <item quantity="one">%d Element benötigt zusätzlichen Schutz</item>
   </plurals>
   <plurals name="quick_optimize_issue_count">
     <item quantity="other">%d Akkuprobleme</item>
