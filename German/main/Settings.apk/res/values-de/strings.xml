@@ -604,6 +604,8 @@ benachrichtigungen erlauben"</string>
   <string name="audio_list_loading">Laden…</string>
   <string name="audio_profile_settings_title">Audioprofile</string>
   <string name="audio_record_proc_title">Geräuschunterdrückung</string>
+  <string name="audio_share_cancel">Nein danke</string>
+  <string name="audio_share_confirm">Teilen</string>
   <string name="auto_adjst_effect_summary">Automatische Anpassung der Farbtemperatur an das Umgebungslicht</string>
   <string name="auto_adjust_effect_title">Farbtemperatur automatisch anpassen</string>
   <string name="auto_backup">Regelmäßige Sicherung planen</string>
@@ -1023,6 +1025,8 @@ Apps:
   <string name="bluetooth_ask_lasting_discovery">%1$s versucht Ihr Gerät für andere Bluetooth-Geräte sichtbar zu machen. Dies kann in den Bluetooth-Einstellungen geändert werden.</string>
   <string name="bluetooth_ask_lasting_discovery_no_name">Eine App möchte Ihr Telefon für andere Bluetooth-Geräte sichtbar machen. Sie können dies später in den Bluetooth-Einstellungen ändern.</string>
   <string name="bluetooth_ask_start_broadcast">%1$s möchte Bluetoothbroadcasting aktivieren, um mit anderen Geräten in der Umgebung zu kommunizieren. Sie können das später in den Bluetooth-Einstellungen ändern.</string>
+  <string name="bluetooth_audio_share_feature_notice_summary">Audio mit anderen angeschlossenen Geräten teilen?</string>
+  <string name="bluetooth_audio_share_feature_notice_title">Audio teilen</string>
   <string name="bluetooth_auto_connect">Automatisch verbinden</string>
   <string name="bluetooth_battery_level">Akku %1$s</string>
   <string name="bluetooth_battery_level_untethered">L: %1$s Akku, R: %2$s Akku</string>
@@ -1376,12 +1380,15 @@ Sie können diese Funktion unter Einstellungen/Bluetooth/Gekoppelte Geräte auss
   <string name="bt_absVolume_open_dialog_title">Achtung</string>
   <string name="bt_absVolume_pre_title">Absolute Lautstärke</string>
   <string name="bt_absVolume_summary">Lautstärke der Bluetooth-Geräte und des Telefons strikt einheitlich halten. Sie können diese Funktion ein- und ausschalten, wenn die Medien nicht im Hintergrund abgespielt werden.</string>
+  <string name="bt_audio_share_property">Teilen</string>
+  <string name="bt_audio_share_switch_summary">Audio mit angeschlossenen Bluetooth-Geräten teilen</string>
+  <string name="bt_audio_share_switch_title">Audio teilen</string>
   <string name="bt_dialog_remember_choice">Auswahl speichern</string>
   <string name="bt_dialog_settings">Einstellungen</string>
   <string name="bt_hci_snoop_log">Bluetooth HCI Snoop Log einschalten</string>
   <string name="bt_hci_snoop_log_summary">Alle Bluetooth-HCI-Pakete in einer Datei erfassen (Bluetooth umschalten nach Änderung dieser Einstellung)</string>
   <string name="bt_ldac_declaration">Wenn ein Bluetooth-Gerät LDAC unterstützt, wird es standardmäßig verbunden. LDAC bietet ein hochwertiges Audioerlebnis, erhöht aber auch den Stromverbrauch. Während der Wiedergabe kann es wegen Einschränkungen der Bluetooth-Hardware zu Problemen kommen.</string>
-  <string name="bt_ldac_dialog_summary">"LDAC sorgt für ein hochwertiges Klangerlebnis, erhöht aber auch den Stromverbrauch. Diese Funktion kann in den Einstellungen abgeschaltet werden."</string>
+  <string name="bt_ldac_dialog_summary">"LDAC sorgt für ein hochwertiges Klangerlebnis, erhöht aber auch den Stromverbrauch. Diese Funktion kann in den Einstellungen abgeschaltet werden.</string>
   <string name="bt_ldac_dialog_title">Aktuelles Gerät unterstützt LDAC, das standardmäßig angeschlossen ist:</string>
   <string name="bt_ldac_open_dialog_summary">LDAC bietet ein hochwertiges Audioerlebnis, erhöht aber auch den Stromverbrauch. Während der Wiedergabe kann es wegen Einschränkungen der Bluetooth-Hardware zu Problemen kommen.</string>
   <string name="bt_ldac_open_dialog_title">LDAC wirklich einschalten?</string>
