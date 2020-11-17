@@ -1,7 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string name="HIPS_SecurityPrompt_Reject_Never">Ablehnen und nicht erneut fragen (%d)</string>
-
   <string name="HIPS_ACTION_REJECT_CLEAR">Zwischenablage einschränken &amp; löschen</string>
   <string name="HIPS_Action_Accept">Erlauben</string>
   <string name="HIPS_Action_Accept_Once">Einmal erlauben</string>
@@ -114,6 +112,7 @@
   <string name="HIPS_SecurityPrompt_Caption">Sicherheitswarnung</string>
   <string name="HIPS_SecurityPrompt_Reject">Verweigern (%d)</string>
   <string name="HIPS_SecurityPrompt_Reject_Clear_This">Zwischenablage einschränken und löschen (%d)</string>
+  <string name="HIPS_SecurityPrompt_Reject_Never">Ablehnen und nicht erneut fragen (%d)</string>
   <string name="HIPS_SecurityPrompt_Reject_Once">Einmal verweigern (%d)</string>
   <string name="HIPS_SecurityPrompt_Reject_This">Einmal einschränken (%d)</string>
   <string name="HIPS_SecurityPrompt_Title">%1$s möchte %2$s</string>
@@ -140,7 +139,7 @@
   <string name="grant_dialog_button_deny_and_dont_ask_again">Ablehnen und nicht wieder fragen</string>
   <string name="grant_dialog_button_deny_background">Nur während App-Nutzung</string>
   <string name="grant_dialog_button_deny_background_and_dont_ask_again">Immer nur während App-Nutzung</string>
-  <string name="grant_dialog_storage_category_title">Diese App erfordert Berechtigungen für den Zugriff auf die Galerie und Nachrichten in Social Media-Apps</string>
+  <string name="grant_dialog_storage_category_title">Diese App erfordert Zugriffsberechtigungen auf die Galerie und Nachrichten in Social-Media-Apps</string>
   <string name="grant_dialog_storage_gallery_title">Galerie</string>
   <string name="grant_dialog_storage_sociality_title">Nachrichten in Social Media-Apps</string>
   <string name="location_settings">Standorteinstellungen</string>
