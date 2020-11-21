@@ -1,33 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-
-  <plurals name="gb_voice_changer_trial_gain_fail">
-    <item quantity="other">Kostenlose %d-Tage Testversion erhalten nicht möglich</item>
-    <item quantity="one">Kostenlose %d-Tag Testversion erhalten nicht möglich</item>
-  </plurals>
-  <plurals name="gb_voice_changer_trial_gain_success">
-    <item quantity="other">%d-Tage Testversion erfolgreich erhalten</item>
-    <item quantity="one">%d-Tag Testversion erfolgreich erhalten</item>
-  </plurals>
-  <plurals name="gb_voice_changer_user_status_get_trial_card">
-    <item quantity="other">Kostenlose %d-Tage Testversion erhalten</item>
-    <item quantity="one">Kostenlose %d-Tag Testversion erhalten</item>
-  </plurals>
-  <plurals name="gb_voice_changer_user_status_get_twice_trial_card_dialog">
-    <item quantity="other">"Ihre Abos sind abgelaufen.
-Sie können jetzt eine kostenlose %d-Tage Testversion erhalten!"</item>
-   <item quantity="one">"Ihre Abos sind abgelaufen.
-Sie können jetzt eine kostenlose %d-Tag Testversion erhalten!"</item>
-  </plurals>
-  <plurals name="gb_voice_changer_user_tips_info">
-    <item quantity="other">Kostenlose %d-Tage Testversion erhalten</item>
-    <item quantity="one">Kostenlose %d-Tag Testversion erhalten</item>
-  </plurals>
-  <plurals name="notification_checker_installed_apk_text">
-    <item quantity="other">%d Installationspakete löschen</item>
-    <item quantity="one">%d Installationspaket löschen</item>
-  </plurals>
-
   <plurals name="add_game_notification_title">
     <item quantity="other">%d Spiele hinzugefügt</item>
     <item quantity="one">%d Spiel hinzugefügt</item>
@@ -57,12 +29,12 @@ Sie können jetzt eine kostenlose %d-Tag Testversion erhalten!"</item>
     <item quantity="one">%2$d leere Nachricht an %1$s gesendet</item>
   </plurals>
   <plurals name="app_behavior_privacy_manager_off">
-    <item quantity="other">Sie werden nicht über sensible Aktionen benachrichtigt, die von %1$d Apps ausgeführt werden</item>
-    <item quantity="one">Sie werden nicht über sensible Aktionen benachrichtigt, die von %1$d App ausgeführt werden</item>
+    <item quantity="other">Sie werden nicht über die von %1$d Apps ausgeführten sensiblen Aktionen benachrichtigt</item>
+    <item quantity="one">Sie werden nicht über die von %1$d App ausgeführten sensiblen Aktionen benachrichtigt</item>
   </plurals>
   <plurals name="app_behavior_privacy_manager_on">
-    <item quantity="other">Sie werden über sensible Aktionen benachrichtigt, die von %1$d Apps durchgeführt werden</item>
-    <item quantity="one">Sie werden über sensible Aktionen benachrichtigt, die von %1$d App durchgeführt werden</item>
+    <item quantity="other">Sie werden über die von %1$d Apps ausgeführten sensiblen Aktionen benachrichtigt</item>
+    <item quantity="one">Sie werden über die von %1$d App ausgeführten sensiblen Aktionen benachrichtigt</item>
   </plurals>
   <plurals name="app_behavior_notification_audio_more">
     <item quantity="other">\"%1$1s\" wartet auf Aufnahmen von %2$d</item>
@@ -121,52 +93,52 @@ Sie können jetzt eine kostenlose %d-Tag Testversion erhalten!"</item>
     <item quantity="one">%s App wird mit App-Sperre geschützt</item>
   </plurals>
   <plurals name="bg_network_allow_count">
-    <item quantity="other">%d Apps können sich im Hintergrund mit dem Netzwerk verbinden</item>
-    <item quantity="one">%d App kann sich im Hintergrund mit dem Netzwerk verbinden</item>
+    <item quantity="other">%d Apps dürfen sich im Hintergrund mit dem Netzwerk verbinden</item>
+    <item quantity="one">%d App darf sich im Hintergrund mit dem Netzwerk verbinden</item>
   </plurals>
   <plurals name="bg_network_restrict_count">
-    <item quantity="other">%d Apps können sich im Hintergrund nicht mit dem Netzwerk verbinden</item>
-    <item quantity="one">%d App kann sich im Hintergrund nicht mit dem Netzwerk verbinden</item>
+    <item quantity="other">%d Apps dürfen sich im Hintergrund nicht mit dem Netzwerk verbinden</item>
+    <item quantity="one">%d App darf sich im Hintergrund nicht mit dem Netzwerk verbinden</item>
   </plurals>
   <plurals name="cache_check_content">
     <item quantity="other">%d Apps schützen</item>
     <item quantity="one">%d App schützen</item>
   </plurals>
   <plurals name="daily_sim_over_limit_dialog_message">
-    <item quantity="other">"Sie haben bereits %s vom täglichen Datenlimit verwendet.
+    <item quantity="other">"Sie haben bereits %s tägliches Datenlimit verwendet.
 
-Wenn Sie mobile Daten wieder einschalten, kann Ihr Mobilfunkanbieter zusätzliche Daten berechnen."</item>
-    <item quantity="one">"Sie haben bereits %s vom täglichen Datenlimit verwendet.
+Beim Einschalten mobiler Daten kann Ihr Mobilfunkanbieter zusätzliche Kosten berechnen."</item>
+    <item quantity="one">"Sie haben bereits %s tägliches Datenlimit verwendet.
 
-Wenn Sie mobile Daten wieder einschalten, kann Ihr Mobilfunkanbieter zusätzliche Daten berechnen."</item>
+Beim Einschalten mobiler Daten kann Ihr Mobilfunkanbieter zusätzliche Kosten berechnen."</item>
   </plurals>
   <plurals name="daily_sim_over_limit_notify_title">
-    <item quantity="other">Sie haben bereits %s vom täglichen Datenlimit genutzt</item>
+    <item quantity="other">Sie haben bereits %s tägliches Datenlimit genutzt</item>
     <item quantity="one">Sie haben bereits %s tägliches Datenlimit genutzt</item>
   </plurals>
   <plurals name="deep_clean_auto_memory_clean">
-    <item quantity="other">In %1$d Minuten</item>
-    <item quantity="one">In %1$d Minute</item>
+    <item quantity="other">In %1$d Min</item>
+    <item quantity="one">In %1$d Min</item>
   </plurals>
   <plurals name="ew_alert_second_after">
-    <item quantity="other">In %d Sekunden</item>
-    <item quantity="one">In %d Sekunde</item>
+    <item quantity="other">In %d Sek</item>
+    <item quantity="one">In %d Sek</item>
   </plurals>
   <plurals name="ew_concern_date">
     <item quantity="other">Vor %d Tagen</item>
     <item quantity="one">Vor %d Tag</item>
   </plurals>
   <plurals name="exit_dialog_release_memory_message">
-    <item quantity="other">&lt;Data>&lt;font color=#0099ff>%d&lt;/font> Apps zur Beschleunigung Ihres Geräts schließen?&lt;/Data></item>
-    <item quantity="one">&lt;Data>&lt;font color=#0099ff>%d&lt;/font> App zur Beschleunigung Ihres Geräts schließen?&lt;/Data></item>
+    <item quantity="other">&lt;Data>&lt;font color=#0099ff>%d&lt;/font> Apps zur Gerätebeschleunigung schließen?&lt;/Data></item>
+    <item quantity="one">&lt;Data>&lt;font color=#0099ff>%d&lt;/font> App zur Gerätebeschleunigung schließen?&lt;/Data></item>
   </plurals>
   <plurals name="find_applications">
     <item quantity="other">%d Apps durchsuchen</item>
     <item quantity="one">%d App durchsuchen</item>
   </plurals>
   <plurals name="first_aid_card_float_window_summary">
-    <item quantity="other">%d Apps werden eventuell falsch angezeigt. Popup-Benachrichtigungen einschränken.</item>
-    <item quantity="one">%d App wird eventuell falsch angezeigt. Popup-Benachrichtigung einschränken.</item>
+    <item quantity="other">%d Apps werden evtl. falsch angezeigt. Popup-Benachrichtigungen einschränken.</item>
+    <item quantity="one">%d App wird evtl. falsch angezeigt. Popup-Benachrichtigung einschränken.</item>
   </plurals>
   <plurals name="first_aid_result_summary_exception">
     <item quantity="other">%1$d Probleme erfordern Optimierung</item>
@@ -181,11 +153,11 @@ Wenn Sie mobile Daten wieder einschalten, kann Ihr Mobilfunkanbieter zusätzlich
     <item quantity="one">%d Funktion</item>
   </plurals>
   <plurals name="fw_blocked_count_call">
-    <item quantity="other">%1$d Anrufe von %2$s und andere</item>
+    <item quantity="other">%1$d Anrufe von %2$s und anderen</item>
     <item quantity="one">%1$d Anruf von %2$s</item>
   </plurals>
   <plurals name="fw_blocked_count_call_one">
-    <item quantity="other">%1$d Anrufe von %2$s und andere</item>
+    <item quantity="other">%1$d Anrufe von %2$s und anderen</item>
     <item quantity="one">%1$d Anruf von %2$s</item>
   </plurals>
   <plurals name="fw_blocked_count_sms">
@@ -220,6 +192,28 @@ Wenn Sie mobile Daten wieder einschalten, kann Ihr Mobilfunkanbieter zusätzlich
     <item quantity="other">%d Tage in Folge angemeldet</item>
     <item quantity="one">%d-mal</item>
   </plurals>
+  <plurals name="gb_voice_changer_trial_gain_fail">
+    <item quantity="other">Kostenlose %d-Tage-Testversion erhalten nicht möglich</item>
+    <item quantity="one">Kostenlose %d-Tag-Testversion erhalten nicht möglich</item>
+  </plurals>
+  <plurals name="gb_voice_changer_trial_gain_success">
+    <item quantity="other">%d-Tage-Testversion erfolgreich erhalten</item>
+    <item quantity="one">%d-Tag-Testversion erfolgreich erhalten</item>
+  </plurals>
+  <plurals name="gb_voice_changer_user_status_get_trial_card">
+    <item quantity="other">Kostenlose %d-Tage-Testversion erhalten</item>
+    <item quantity="one">Kostenlose %d-Tag-Testversion erhalten</item>
+  </plurals>
+  <plurals name="gb_voice_changer_user_status_get_twice_trial_card_dialog">
+    <item quantity="other">"Ihre Abos sind abgelaufen.
+Sie können jetzt eine kostenlose %d-Tage-Testversion erhalten!"</item>
+   <item quantity="one">"Ihre Abos sind abgelaufen.
+Sie können jetzt eine kostenlose %d-Tag-Testversion erhalten!"</item>
+  </plurals>
+  <plurals name="gb_voice_changer_user_tips_info">
+    <item quantity="other">Kostenlose %d-Tage-Testversion erhalten</item>
+    <item quantity="one">Kostenlose %d-Tag-Testversion erhalten</item>
+  </plurals>
   <plurals name="hide_txt_hint_with_blank_2">
     <item quantity="other">    +%1$d Zeichen mehr</item>
     <item quantity="one">    +%1$d Zeichen mehr</item>
@@ -237,12 +231,12 @@ Wenn Sie mobile Daten wieder einschalten, kann Ihr Mobilfunkanbieter zusätzlich
     <item quantity="one">%d App startet automatisch</item>
   </plurals>
   <plurals name="hints_get_root_disable_title">
-    <item quantity="other">%d Apps haben keinen Rootzugriff</item>
-    <item quantity="one">%d App hat keinen Rootzugriff</item>
+    <item quantity="other">%d Apps haben keinen Root-Zugriff</item>
+    <item quantity="one">%d App hat keinen Root-Zugriff</item>
   </plurals>
   <plurals name="hints_get_root_enable_title">
-    <item quantity="other">%d Apps haben Rootzugriff</item>
-    <item quantity="one">%d App hat Rootzugriff</item>
+    <item quantity="other">%d Apps haben Root-Zugriff</item>
+    <item quantity="one">%d App hat Root-Zugriff</item>
   </plurals>
    <plurals name="hints_handle_item_text_risk_number">
     <item quantity="other">"%d Risiken | "</item>
@@ -285,8 +279,8 @@ Wenn Sie mobile Daten wieder einschalten, kann Ihr Mobilfunkanbieter zusätzlich
     <item quantity="one">%d Bild endgültig löschen?</item>
   </plurals>
   <plurals name="image_protect_exit_del_tips">
-    <item quantity="other">%d Bilder werden endgültig gelöscht, nachdem Sie diese Seite verlassen haben. Trotzdem löschen?</item>
-    <item quantity="one">%d Bild wird endgültig gelöscht, nachdem Sie diese Seite verlassen haben. Trotzdem löschen?</item>
+    <item quantity="other">%d Bilder werden nach Verlassen der Seite endgültig gelöscht. Trotzdem löschen?</item>
+    <item quantity="one">%d Bild wird nach Verlassen der Seite endgültig gelöscht. Trotzdem löschen?</item>
   </plurals>
   <plurals name="image_protect_try_del_tips">
     <item quantity="other">%d Bilder löschen</item>
@@ -309,8 +303,8 @@ Wenn Sie mobile Daten wieder einschalten, kann Ihr Mobilfunkanbieter zusätzlich
    <item quantity="one">Mind. %d Punkt verbinden</item>
   </plurals>
   <plurals name="lockpattern_too_many_failed_confirmation_attempts_footer">
-    <item quantity="other">%d Sekunden warten und erneut versuchen</item>
-    <item quantity="one">%d Sekunde warten und erneut versuchen</item>
+    <item quantity="other">%d Sek warten und erneut versuchen</item>
+    <item quantity="one">%d Sek warten und erneut versuchen</item>
   </plurals>
   <plurals name="manual_white_list_header">
     <item quantity="other">%d Ausnahmen</item>
@@ -325,8 +319,8 @@ Wenn Sie mobile Daten wieder einschalten, kann Ihr Mobilfunkanbieter zusätzlich
     <item quantity="one">%d Element</item>
   </plurals>
   <plurals name="menu_text_antispam_ex">
-    <item quantity="other">%d Nachrichten und Anrufe wurden blockiert</item>
-    <item quantity="one">%d Nachricht oder Anruf wurde blockiert</item>
+    <item quantity="other">%d Nachrichten/Anrufe wurden blockiert</item>
+    <item quantity="one">%d Nachricht/Anruf wurde blockiert</item>
   </plurals>
   <plurals name="menu_text_antivirus_2">
     <item quantity="other">%d Elemente</item>
@@ -337,8 +331,8 @@ Wenn Sie mobile Daten wieder einschalten, kann Ihr Mobilfunkanbieter zusätzlich
     <item quantity="one">%d Tag</item>
   </plurals>
   <plurals name="menu_text_antivirus_day_ex">
-    <item quantity="other">Letzte 12 Tage nicht gescannt</item>
-    <item quantity="one">Seit 1 Tag nicht gescannt</item>
+    <item quantity="other">Seit %d Tagen nicht gescannt</item>
+    <item quantity="one">Seit %d Tag nicht gescannt</item>
   </plurals>
   <plurals name="menu_text_antivirus_virus_ex">
     <item quantity="other">%d Apps enthalten Viren oder Malware</item>
@@ -357,8 +351,8 @@ Wenn Sie mobile Daten wieder einschalten, kann Ihr Mobilfunkanbieter zusätzlich
    <item quantity="one">Mind. %d Zeichen eingeben</item>
   </plurals>
   <plurals name="net_booster_expire_notification_tip">
-    <item quantity="other">%d Tage bleiben, bevor die Netzwerkgeschwindigkeit wieder gesenkt wird. Erneuern Sie die Sitzung, um Netzwerkgeschwindigkeitsprobleme zu vermeiden.</item>
-    <item quantity="one">%d Tag bleiben, bevor die Netzwerkgeschwindigkeit wieder gesenkt wird. Erneuern Sie die Sitzung, um Netzwerkgeschwindigkeitsprobleme zu vermeiden.</item>
+    <item quantity="other">%d Tage bleiben, bevor die Netzwerkgeschwindigkeit wieder gesenkt wird. Sitzung erneuern, um Geschwindigkeitsprobleme zu vermeiden.</item>
+    <item quantity="one">%d Tag bleiben, bevor die Netzwerkgeschwindigkeit wieder gesenkt wird. Sitzung erneuern, um Geschwindigkeitsprobleme zu vermeiden.</item>
   </plurals>
   <plurals name="network_restrict_count">
     <item quantity="other">"Netzwerkzugang beschränkt auf &lt;font color='#ff0000'>%d&lt;/font> Apps"</item>
@@ -369,8 +363,12 @@ Wenn Sie mobile Daten wieder einschalten, kann Ihr Mobilfunkanbieter zusätzlich
     <item quantity="one">In der letzten %1$d Min wurden %2$d%% des Akkus entleert</item>
   </plurals>
   <plurals name="notification_battery_scan_consume_abnormal_title_split">
-    <item quantity="other">%2$d Apps, einschließlich %1$s, entleeren den Akku</item>
-    <item quantity="one">%2$d App, einschließlich %1$s, entleert den Akku</item>
+    <item quantity="other">%2$d Apps, einschl. %1$s, entleeren den Akku</item>
+    <item quantity="one">%2$d App, einschl. %1$s, entleert den Akku</item>
+  </plurals>
+  <plurals name="notification_checker_installed_apk_text">
+    <item quantity="other">%d Installationspakete löschen</item>
+    <item quantity="one">%d Installationspaket löschen</item>
   </plurals>
   <plurals name="notification_title_cmcc_app_check">
     <item quantity="other">%d Tage seit letzter Prüfung</item>
@@ -385,8 +383,8 @@ Wenn Sie mobile Daten wieder einschalten, kann Ihr Mobilfunkanbieter zusätzlich
     <item quantity="one">%d</item>
   </plurals>
   <plurals name="number_masked_text">
-     <item quantity="other">%d Benachrichtigungen wurden ausgeblendet</item>
-     <item quantity="one">%d Benachrichtigung wurde ausgeblendet</item>
+     <item quantity="other">%d Benachrichtigungen ausgeblendet</item>
+     <item quantity="one">%d Benachrichtigung ausgeblendet</item>
   </plurals>
   <plurals name="numeric_recording_incorrect_too_short">
     <item quantity="other">Mind. %d Ziffern eingeben</item>
@@ -445,40 +443,40 @@ Wenn Sie mobile Daten wieder einschalten, kann Ihr Mobilfunkanbieter zusätzlich
      <item quantity="one">%s Tag bis voll geladen</item>
   </plurals>
   <plurals name="pc_main_power_manager_hour">
-     <item quantity="other">%s Stunden bis voll geladen</item>
-     <item quantity="one">%s Stunde bis voll geladen</item>
+     <item quantity="other">%s Std bis voll geladen</item>
+     <item quantity="one">%s Std bis voll geladen</item>
   </plurals>
   <plurals name="pc_main_power_manager_minute">
-     <item quantity="other">%s Minuten bis voll geladen</item>
-     <item quantity="one">%s Minute bis voll geladen</item>
+     <item quantity="other">%s Min bis voll geladen</item>
+     <item quantity="one">%s Min bis voll geladen</item>
   </plurals>
   <plurals name="pc_main_sub_battery_text_day">
      <item quantity="other">%s Tage bleiben</item>
      <item quantity="one">%s Tag bleiben</item>
   </plurals>
   <plurals name="pc_main_sub_battery_text_hour">
-     <item quantity="other">%s Stunden bleiben</item>
-     <item quantity="one">%s Stunde bleiben</item>
+     <item quantity="other">%s Std bleiben</item>
+     <item quantity="one">%s Std bleiben</item>
   </plurals>
   <plurals name="pc_main_sub_battery_text_minute">
-     <item quantity="other">%s Minuten bleiben</item>
-     <item quantity="one">%s Minute bleiben</item>
+     <item quantity="other">%s Min bleiben</item>
+     <item quantity="one">%s Min bleiben</item>
   </plurals>
   <plurals name="pc_statistics_battery_last_hour">
-    <item quantity="other">%d Stunden bleiben</item>
-    <item quantity="one">%d Stunde bleibt</item>
+    <item quantity="other">%d Std bleiben</item>
+    <item quantity="one">%d Std bleibt</item>
   </plurals>
   <plurals name="pc_statistics_battery_last_minute">
-    <item quantity="other">%d Minuten bleiben</item>
-    <item quantity="one">%d Minute bleibt</item>
+    <item quantity="other">%d Min bleiben</item>
+    <item quantity="one">%d Min bleibt</item>
   </plurals>
   <plurals name="pc_statistics_battery_use_minute">
-    <item quantity="other">%d Minuten seit letztem Laden</item>
-    <item quantity="one">%d Minute seit letztem Laden</item>
+    <item quantity="other">%d Min seit letztem Laden</item>
+    <item quantity="one">%d Min seit letztem Laden</item>
   </plurals>
   <plurals name="pc_statistics_battery_use_second">
-    <item quantity="other">%d Sekunden seit letztem Laden</item>
-    <item quantity="one">%d Sekunde seit letztem Laden</item>
+    <item quantity="other">%d Sek seit letztem Laden</item>
+    <item quantity="one">%d Sek seit letztem Laden</item>
   </plurals>
   <plurals name="people">
     <item quantity="other">Von %1$d Leuten heruntergeladen</item>
@@ -486,7 +484,7 @@ Wenn Sie mobile Daten wieder einschalten, kann Ihr Mobilfunkanbieter zusätzlich
   </plurals>
   <plurals name="people_million">
     <item quantity="other">Von %1$d Leuten heruntergeladen</item>
-    <item quantity="one">Von %1$d Leuten heruntergeladen</item>
+    <item quantity="one">Von %1$d Person heruntergeladen</item>
   </plurals>
   <plurals name="power_center_battery_day">
     <item quantity="other">"%d Tage "</item>
@@ -513,20 +511,20 @@ Wenn Sie mobile Daten wieder einschalten, kann Ihr Mobilfunkanbieter zusätzlich
      <item quantity="one">%s Tag bleiben</item>
   </plurals>
   <plurals name="power_main_battery_last_hour">
-     <item quantity="other">%s Stunden bleiben</item>
-     <item quantity="one">%s Stunde bleiben</item>
+     <item quantity="other">%s Std bleiben</item>
+     <item quantity="one">%s Std bleiben</item>
   </plurals>
   <plurals name="power_main_battery_last_minute">
-     <item quantity="other">%s Minuten bleiben</item>
-     <item quantity="one">%s Minute bleiben</item>
+     <item quantity="other">%s Min bleiben</item>
+     <item quantity="one">%s Min bleiben</item>
   </plurals>
   <plurals name="power_off_warning_button_ok_time">
     <item quantity="other">Verstanden (%ds)</item>
     <item quantity="one">Verstanden (%ds)</item>
   </plurals>
   <plurals name="power_off_warning_notification_message">
-    <item quantity="other">Ihr Gerät schaltet sich in %d Sekunden ab. Ladegerät anschließen.</item>
-    <item quantity="one">Ihr Gerät schaltet sich in %d Sekunde ab. Ladegerät anschließen.</item>
+    <item quantity="other">Ihr Gerät schaltet sich in %d Sek ab. Ladegerät anschließen.</item>
+    <item quantity="one">Ihr Gerät schaltet sich in %d Sek ab. Ladegerät anschließen.</item>
   </plurals>
   <plurals name="pp_times">
     <item quantity="other">%s-mal</item>
@@ -577,8 +575,8 @@ Wenn Sie mobile Daten wieder einschalten, kann Ihr Mobilfunkanbieter zusätzlich
     <item quantity="one">%d Foto könnte private oder sensible Infos enthalten</item>
   </plurals>
   <plurals name="privacy_risk_result_protection_tip">
-    <item quantity="other">%d Funktionen, die Ihre Privatsphäre schützen, sind abgeschaltet</item>
-    <item quantity="one">%d Funktion, die Ihre Privatsphäre schützt, ist abgeschaltet</item>
+    <item quantity="other">%d Funktionen, die Ihre Privatsphäre schützen, sind aus</item>
+    <item quantity="one">%d Funktion, die Ihre Privatsphäre schützt, ist aus</item>
   </plurals>
   <plurals name="privacy_risk_sensitive_permissions_tip">
     <item quantity="other">%d sensible Berechtigungen erteilt</item>
@@ -661,8 +659,8 @@ Wenn Sie mobile Daten wieder einschalten, kann Ihr Mobilfunkanbieter zusätzlich
     <item quantity="one">Update für %d App vorhanden</item>
   </plurals>
   <plurals name="summary_flow_verify">
-    <item quantity="other">Datennutzungsstatistik wurde seit %d Tagen nicht mehr synchronisiert</item>
-    <item quantity="one">Datennutzungsstatistik wurde seit %d Tag nicht mehr synchronisiert</item>
+    <item quantity="other">Datennutzungsstatistik seit %d Tagen nicht synchronisiert</item>
+    <item quantity="one">Datennutzungsstatistik seit %d Tag nicht synchronisiert</item>
   </plurals>
   <plurals name="system_check_content">
     <item quantity="other">%1$d sicher</item>
