@@ -1,6 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-plurals
   <plurals name="abc_slice_duration_days">
     <item quantity="other">vor %d Tagen</item>
     <item quantity="one">vor %d Tag</item>
@@ -18,16 +17,16 @@ plurals
     <item quantity="one">%s Steuerelement hinzugefügt</item>
   </plurals>
   <plurals name="kg_password_default_pin_message_multi_sim">
-    <item quantity="other">SIM%1$d-PIN eingeben, Sie haben %2$d verbleibende Versuche</item>
-    <item quantity="one">SIM%1$d-PIN eingeben, Sie haben %2$d verbleibenden Versuch, bevor Sie Ihren Anbieter kontaktieren müssen, um Ihr Gerät freizuschalten.</item>
+    <item quantity="other">PIN SIM %1$d eingeben, Sie haben %2$d verbleibende Versuche</item>
+    <item quantity="one">PIN SIM %1$d eingeben, Sie haben %2$d verbleibenden Versuch, bevor Sie Ihren Anbieter kontaktieren müssen, um Ihr Gerät freizuschalten.</item>
   </plurals>
   <plurals name="kg_password_wrong_pin_code_multi_sim">
-    <item quantity="other">Falscher SIM%1$d-PIN, Sie haben noch %2$d Versuche übrig.</item>
-    <item quantity="one">Falscher SIM%1$d-PIN, Sie haben noch %2$d Versuch, bevor Sie Ihren Anbieter kontaktieren müssen, um Ihr Gerät freizuschalten.</item>
+    <item quantity="other">Falsche PIN SIM %1$d, Sie haben noch %2$d Versuche übrig.</item>
+    <item quantity="one">Falsche PIN SIM %1$d, Sie haben noch %2$d Versuch, bevor Sie Ihren Anbieter kontaktieren müssen, um Ihr Gerät freizuschalten.</item>
   </plurals>
   <plurals name="kg_too_many_failed_attempts_countdown">
-    <item quantity="other">In %d Sekunden erneut versuchen.</item>
-    <item quantity="one">In 1 Sekunde erneut versuchen.</item>
+    <item quantity="other">In %d Sekunden erneut versuchen</item>
+    <item quantity="one">In 1 Sekunde erneut versuchen</item>
   </plurals>
   <plurals name="quick_settings_hotspot_secondary_label_num_devices">
     <item quantity="other">%d Geräte</item>
@@ -50,6 +49,6 @@ plurals
   </plurals>
   <plurals name="kg_password_default_pin_message">
      <item quantity="other">SIM-PIN eingeben. Sie haben %d verbleibende Versuche.</item>
-     <item quantity="one">SIM-PIN eingeben. Sie haben %d verbleibenden Versuch, bevor Sie Ihren Anbieter kontaktieren müssen, um Ihr Gerät zu entsperren.</item>
+     <item quantity="one">SIM-PIN eingeben. Sie haben %d letzten Versuch, bevor Sie Ihren Anbieter kontaktieren müssen, um Ihr Gerät zu entsperren.</item>
   </plurals>
 </resources>
