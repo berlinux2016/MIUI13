@@ -1,11 +1,53 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+  <string name="activate_phone_failed_notif_title_sim">"Couldn't activate %2$s using SIM %1$d"</string>
+  <string name="activate_phone_register_xiaomi_account_success_notif_title_sim">Created Mi Account using SIM %d successfully</string>
+  <string name="activate_phone_registered_xiaomi_account_failed_notif_title_sim">"Couldn't create Mi Account using SIM %d"</string>
+  <string name="activate_phone_server_failed_notif_title">"Couldn't activate %s"</string>
+  <string name="activate_phone_server_success_notif_title">Activated %s successfully</string>
+  <string name="activate_phone_success_notif_title_sim">Activated %2$s using SIM %1$d successfully</string>
+  <string name="activate_popup_desc_2_intl_sim_cards_msg">To activate %2$s, %1$d international SMS will be sent. Your carrier will charge you for these messages.</string>
+  <string name="activate_popup_desc_2_sim_cards_msg">To activate %2$s, %1$d regular SMS will be sent. Your carrier will charge you for these messages.</string>
+  <string name="activate_popup_desc_error_device">Invalid IMEI. Tap to try again.</string>
+  <string name="activate_popup_desc_failed_query_info_msg">"Couldn't check phone number. Make sure SIM %d works properly and try again."</string>
+  <string name="activate_popup_desc_failed_server_msg">A server error occurred. Check your network settings and try again.</string>
+  <string name="activate_popup_desc_find_device_postfix_msg">%1$s. To activate %3$s, enter the phone number of SIM %2$d. If you replace this SIM card, another activation SMS will be sent.</string>
+  <string name="activate_popup_desc_intl_sim_card_msg">To activate %2$s, %1$d international SMS will be sent. Your carrier will charge you for this message.</string>
+  <string name="activate_popup_desc_mi_account_user_manual">%1$s. <Data>Refer to the &lt;a href=https://account.xiaomi.com/helpcenter/faq>Mi Account User Manual&lt;/a> if you have any questions.</Data></string>
+  <string name="activate_popup_desc_mixed_sim_cards_msg">To activate %3$s, %1$d regular and %2$d international SMS will be sent. Your carrier will charge you for this message.</string>
+  <string name="activate_popup_desc_sim_card_downlink_msg">To activate %2$s, enter the phone number of SIM %1$d.</string>
+  <string name="activate_popup_desc_sim_card_msg">To activate %2$s, %1$d regular SMS will be sent. Your carrier will charge you for this message.</string>
+  <string name="activate_popup_desc_voip_privacy_prefix_msg">%1$s. To activate %3$s, enter the phone number of SIM %2$d. Technical support is provided in part by Weihuitel. Refer to the Weihuitel Privacy Policy for details.</string>
+  <string name="activate_popup_failed_send_sms_desc">"Couldn't send activation SMS. Make sure SIM %d works properly and try again."</string>
+  <string name="activate_progress_status_title">Activating %s…</string>
+  <string name="activate_registered_xiaomi_account_failed_notif_title">"Couldn't create Mi Account"</string>
+  <string name="activate_registered_xiaomi_account_success_notif_title">Created Mi Account successfully</string>
+  <string name="activate_status_desc_acquire_phone_number_server_no_info_tip">"Couldn't verify phone number. Make sure SIM %d works properly and try again."</string>
+  <string name="activate_status_desc_completed_with_sms_sent_for_activate_server">%d regular SMS was sent to activate this service.</string>
+  <string name="activate_status_desc_query_activation_server_info">Getting info…</string>
+  <string name="activate_status_desc_request_activation_sms_server_error_tip">"Couldn't receive activation SMS. Make sure SIM %d works properly and try again."</string>
+  <string name="activate_status_title_activating_sim">Activating %2$s using SIM %1$d…</string>
+  <string name="activate_status_title_registering_xiaomi_account">Creating Mi Account…</string>
+  <string name="activate_status_title_registering_xiaomi_account_sim">Creating Mi Account using SIM %d…</string>
+  <string name="error_checking_client_tip">"Couldn't check activation environment. Tap to try again."</string>
+  <string name="error_network_io_tip">Check your network settings and try again</string>
+  <string name="error_no_get_send_sms_permission">Allow SIM %d to send SMS first.</string>
+  <string name="error_sim_not_in_service_tip">"SIM %d can't connect to the network. Make sure SIM card works properly and try again."</string>
+  <string name="explain_activate_feature_server_title">Activate %s</string>
+  <string name="explain_activate_register_xiaomi_account_title">Create Mi Account</string>
+  <string name="explain_activate_send_sms_permission_msg">To activate %s, your device needs permissions to send activation SMS. Your carrier will charge you for this message.</string>
+  <string name="privacy_revoke_failed_msg_tip">Allow this service to access your phone number first.</string>
+  <string name="sim_activated_failed_msg">"Couldn't activate service. Tap to try again."</string>
+  <string name="sim_unactivated_feature_title">"%s wasn't activated"</string>
+  <string name="sim_unactivated_msg">"This service isn't activated. Tap to try again."</string>
+  <string name="sim_unactivated_register_xiaomi_account_feature_title">"Mi Account wasn't created"</string>
+
   <string name="activate">Aktivieren</string>
   <string name="activate_auto_sms_notification_desc_1_card">SMS gesendet, um \"Gerät finden\" zu aktivieren</string>
   <string name="activate_auto_sms_notification_desc_2_cards">SMS von SIM-Karte %s gesendet, um \"Gerät finden\" zu aktivieren</string>
   <string name="activate_auto_sms_notification_title">SIM-Kartenaktivierung</string>
   <string name="activate_feature_call_log_sync">Anrufliste synchronisieren</string>
-  <string name="activate_feature_find_device">Gerät finden</string>
+  <string name="activate_feature_find_device">\"Gerät finden\" keine Netzwerkverbindung möglich</string>
   <string name="activate_feature_live_talk">Aufladepaket</string>
   <string name="activate_feature_mms_sync">SMS synchronisieren</string>
   <string name="activate_feature_mx_and_voip">Mi Message und Voice</string>
