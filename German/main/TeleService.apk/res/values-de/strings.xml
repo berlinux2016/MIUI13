@@ -145,14 +145,45 @@
   <string name="accessibility_wifi_signal_full">WLAN volles Signal</string>
   <string name="accessibility_wifi_three_bars">WLAN 3 Balken</string>
   <string name="accessibility_wifi_two_bars">WLAN 2 Balken</string>
+  <string name="accessibility_work_profile_app_description">Arbeits-%s</string>
+  <string name="accessor_expires_text">Mietvertrag läuft ab am %s</string>
+  <string name="accessor_info_title">Apps, die Daten teilen</string>
+  <string name="accessor_no_description_text">Keine Beschreibung durch die App</string>
   <string name="actionBarCBVideo">Videoanruf sperren (%s)</string>
   <string name="actionBarCBVoice">Videoanruf sperren (%s)</string>
   <string name="actionBarCFVideo">Videorufumleitung (%s)</string>
   <string name="actionBarCFVoice">Videorufumleitung (%s)</string>
   <string name="active_input_method_subtypes">Aktive Eingabemethoden</string>
+  <string name="adb_device_fingerprint_title_format">Gerätefingerabdruck: %1$s</string>
+  <string name="adb_device_forget">Vergessen</string>
   <string name="adb_keys_warning_message">Zugriff auf USB-Debugging für alle zuvor autorisierten Computer aufheben?</string>
+  <string name="adb_pair_method_code_summary">Koppeln Sie neue Geräte mit einem sechsstelligen Code</string>
+  <string name="adb_pair_method_code_title">Gerät mit Kopplungscode koppeln</string>
+  <string name="adb_pair_method_qrcode_summary">Neue Geräte mit QR-Code-Scanner koppeln</string>
+  <string name="adb_pair_method_qrcode_title">Gerät mit QR-Code koppeln</string>
+  <string name="adb_paired_devices_title">Gekoppelte Geräte</string>
+  <string name="adb_pairing_device_dialog_dialog_pairing_code_label">WLAN-Kopplungscode</string>
+  <string name="adb_pairing_device_dialog_failed_msg">Vergewissern Sie sich, dass das Gerät an dasselbe Netzwerk angeschlossen ist</string>
+  <string name="adb_pairing_device_dialog_failed_title" >Kopplung erfolglos</string>
+  <string name="adb_pairing_device_dialog_title">Mit Gerät koppeln</string>
+  <string name="adb_qrcode_pairing_device_failed_msg">Gerät wurde nicht gekoppelt. Entweder war der QR-Code falsch, oder das Gerät ist nicht mit demselben Netzwerk verbunden.</string>
   <string name="adb_warning_message">USB-Debugging ist nur für Entwicklungszwecke gedacht. Verwenden Sie diese Option, um Daten zwischen Ihrem Computer und Ihrem Gerät zu kopieren, Apps ohne Benachrichtigung auf Ihrem Gerät zu installieren und Protokolldaten zu lesen.</string>
   <string name="adb_warning_title">USB-Debugging erlauben?</string>
+  <string name="adb_wireless_connection_failed_message">Vergewissern Sie sich, dass %1$s mit dem richtigen Netzwerk verbunden ist</string>
+  <string name="adb_wireless_connection_failed_title">Verbindung fehlgeschlagen</string>
+  <string name="adb_wireless_device_connected_summary">Aktuell verbunden</string>
+  <string name="adb_wireless_device_details_title">Gerätedetails</string>
+  <string name="adb_wireless_error">Fehler</string>
+  <string name="adb_wireless_ip_addr_preference_title">IP-Adresse &amp; Port</string>
+  <string name="adb_wireless_list_empty_off">Um verfügbare Geräte zu sehen und zu verwenden, schalten Sie drahtloses Debugging ein</string>
+  <string name="adb_wireless_no_network_msg">Bitte verbinden Sie sich mit einem WLAN</string>
+  <string name="adb_wireless_qrcode_pairing_description">Gerät über WLAN koppeln durch Scannen eines QR-Codes</string>
+  <string name="adb_wireless_qrcode_pairing_title">QR-Code scannen</string>
+  <string name="adb_wireless_qrcode_summary">Gerät über WLAN koppeln, durch Scannen eines QR-Codes</string>
+  <string name="adb_wireless_settings">Drahtloses Debugging</string>
+  <string name="adb_wireless_verifying_qrcode_text">Gerät koppeln...</string>
+  <string name="adbwifi_warning_message" > Drahtloses Debugging ist nur für Entwicklungszwecke vorgesehen. Verwenden Sie es, um Daten zwischen Ihrem Computer und Ihrem Gerät zu kopieren, Apps ohne Benachrichtigung auf Ihrem Gerät zu installieren und Protokolldaten zu lesen.</string>
+  <string name="adbwifi_warning_title">Drahtloses Debugging erlauben?</string>
   <string name="add">Hinzufügen</string>
   <string name="addSimEntries">SIM-Kontakt hinzufügen</string>
   <string name="add_ecc_number">Notfallnummer hinzufügen</string>
@@ -227,6 +258,7 @@
   <string name="auto_answer_scenario_title">Einstellungen Auto-Antwort</string>
   <string name="auto_answer_setting_title">Einstellungen Auto-Antwort</string>
   <string name="auto_answer_summary_not_enabled">Aus</string>
+  <string name="auto_connect_disable">Auto-Verbinden ist aus</string>
   <string name="auto_record_yellowpage">Verzeichnis</string>
   <string name="auto_redial_pref_summary">Bei Besetzt Auto-Wahlwiederholung</string>
   <string name="auto_redial_pref_title">Auto-Wahlwiederholung</string>
@@ -249,6 +281,7 @@
   <string name="autoip_setting">Automatische IP-Einstellungen</string>
   <string name="autoip_summary">IP-Vorwahl zu einer fremden Nummer hinzufügen</string>
   <string name="autoip_support_local_numbers">Immer IP-Vorwahl verwenden</string>
+  <string name="available_via_app">Verfügbar über %1$s</string>
   <string name="available_via_carrier">Verfügbar via %1$s</string>
   <string name="available_via_passpoint">Verfügbar via %1$s</string>
   <string name="back">Zurück</string>
@@ -260,9 +293,16 @@
   <string name="bad_pin2_old">Eingegebene alte PIN2 ist falsch</string>
   <string name="bad_puk">Eingegebene PUK ist falsch</string>
   <string name="bad_puk2">Eingegebene PUK2 ist falsch</string>
+  <string name="band_mode_failed">Erfolglos</string>
+  <string name="band_mode_loading">Bandliste laden...</string>
+  <string name="band_mode_set">Festlegen</string>
+  <string name="band_mode_succceeded">Erfolgreich</string>
+  <string name="band_mode_title">Radioband-Modus einstellen</string>
   <string name="battery_info_status_charging">Laden</string>
   <string name="battery_info_status_charging_ac">Laden mit Netzstecker</string>
   <string name="battery_info_status_charging_ac_short">Laden</string>
+  <string name="battery_info_status_charging_fast">Schnell laden</string>
+  <string name="battery_info_status_charging_slow">Langsam laden</string>
   <string name="battery_info_status_charging_lower">Laden</string>
   <string name="battery_info_status_charging_usb">Laden über USB</string>
   <string name="battery_info_status_charging_usb_short">Laden</string>
@@ -273,6 +313,8 @@
   <string name="battery_info_status_not_charging">Eingesteckt, laden gerade nicht möglich</string>
   <string name="battery_info_status_unknown">Unbekannt</string>
   <string name="bf_news_settings">Wirtschafts- und Finanznachrichten</string>
+  <string name="blob_expires_text">Läuft ab am %s</string>
+  <string name="blob_id_text">Freigegebene Daten-ID: %d</string>
   <string name="bluetooth_a2dp_profile_summary_connected">Mit Audiomedien verbunden</string>
   <string name="bluetooth_a2dp_profile_summary_use_for">Für Audiomedien</string>
   <string name="bluetooth_active_battery_level">Aktiv | Akku: %1$s</string>
@@ -296,6 +338,8 @@
   <string name="bluetooth_disconnecting">Trennen…</string>
   <string name="bluetooth_dun_profile_summary_connected">Mit DFÜ-Server verbunden</string>
   <string name="bluetooth_dun_profile_summary_use_for">Für DFÜ-Verbindung verwenden</string>
+  <string name="bluetooth_enable_gabeldorsche">Gabeldorsche aktivieren</string>
+  <string name="bluetooth_enable_gabeldorsche_summary"> Aktiviert den Bluetooth Gabeldorsche Feature Stack</string>
   <string name="bluetooth_enable_inband_ringing">In-Band-Klingeln aktivieren</string>
   <string name="bluetooth_enable_inband_ringing_summary">Erlaubt die Wiedergabe von Telefonklingeltönen über Bluetooth-Kopfhörer</string>
   <string name="bluetooth_headset_profile_summary_connected">Mit Sprachtelefonie verbunden</string>
@@ -354,7 +398,9 @@ Wiedergabequalität"</string>
   <string name="bluetooth_select_a2dp_codec_sample_rate_dialog_title">"Bluetooth Audio Codec wählen:
 Abtastrate"</string>
   <string name="bluetooth_select_a2dp_codec_type_dialog_title">Bluetooth Audio Codec wählen</string>
+  <string name="bluetooth_select_a2dp_codec_type_help_info">Ausgegraut bedeutet, dass Telefon oder Headset nicht unterstützt werden</string>
   <string name="bluetooth_select_avrcp_version_dialog_title">Bluetooth AVRCP Version wählen</string>
+  <string name="bluetooth_select_map_version_dialog_title">Bluetooth MAP Version wählen</string>
   <string name="bluetooth_show_devices_without_names">Bluetooth-Geräte ohne Namen anzeigen</string>
   <string name="bluetooth_show_devices_without_names_summary">Bluetooth-Geräte ohne Namen (nur MAC-Adressen) werden angezeigt</string>
   <string name="bluetooth_talkback_headphone">Kopfhörer</string>
@@ -366,6 +412,10 @@ Abtastrate"</string>
   <string name="bugreport_in_power">Verknüpfung Fehlerbericht</string>
   <string name="bugreport_in_power_summary">Im Powermenü eine Taste anzeigen, um einen Fehlerbericht zu erstellen</string>
   <string name="button_convert_fbe">Löschen und konvertieren…</string>
+  <string name="cached_apps_freezer_device_default">Gerätevoreinstellung</string>
+  <string name="cached_apps_freezer_disabled">Deaktiviert</string>
+  <string name="cached_apps_freezer_enabled">Aktiviert</string>
+  <string name="cached_apps_freezer_reboot_dialog_text">Ihr Gerät muss neu gestartet werden, damit diese Änderung wirksam wird. Starten Sie jetzt neu oder brechen Sie ab.</string>
   <string name="callEnded_pulled">Anruf zu anderem Gerät übertragen</string>
   <string name="callFailed_NetworkBusy">Netzwerk voll. Anruf bitte später erneut versuchen.</string>
   <string name="callFailed_NetworkCongested">Netzwerk überlastet. Wenden Sie sich an Ihren Mobilfunkanbieter, um Hilfe zu erhalten.</string>
@@ -399,6 +449,7 @@ Abtastrate"</string>
   <string name="callFailed_dsac_restricted">Alle Anrufe sind durch Zugriffskontrolle eingeschränkt</string>
   <string name="callFailed_dsac_restricted_emergency">Notrufe sind durch Zugriffskontrolle eingeschränkt</string>
   <string name="callFailed_dsac_restricted_normal">Normale Anrufe sind durch Zugriffskontrolle eingeschränkt</string>
+  <string name="callFailed_emergency_call_call_over_wfc_not_available">Notrufe über WLAN sind an diesem Ort nicht verfügbar</string>
   <string name="callFailed_facility_rejected">Einrichtung abgelehnt</string>
   <string name="callFailed_fdn_only">Ausgehende Anrufe durch Rufnummernbeschränkung eingeschränkt</string>
   <string name="callFailed_imei_not_accepted">Verbindung nicht möglich, bitte eine gültige SIM-Karte einlegen</string>
@@ -457,6 +508,7 @@ Abtastrate"</string>
   <string name="callFailed_userBusy">Leitung besetzt</string>
   <string name="callFailed_user_not_member_of_CUG">Benutzer kein Mitglied der CUG (Teilnehmerbetriebsklasse)</string>
   <string name="callFailed_video_call_tty_enabled">Videoanruf nicht möglich bei aktiviertem TTY</string>
+  <string name="callFailed_wfc_service_not_available_in_this_location">WLAN-Anrufe sind an diesem Standort nicht verfügbar</string>
   <string name="callFailed_wifi_lost">WLAN-Verbindung verloren, Anruf beendet</string>
   <string name="callUnanswered_forwarded">Anruf unbeantwortet und umgeleitet</string>
   <string name="call_advanced_setting_title">Erweiterte Einstellungen</string>
@@ -565,6 +617,7 @@ Abtastrate"</string>
   <string name="card_title_redialing">Wahlwiederholung</string>
   <string name="card_title_unconditionalCF">Sofortige Rufumleitung ist eingeschaltet</string>
   <string name="carrier_info">Mobilfunkanbieterinfo</string>
+  <string name="carrier_mmi_msg_title">%s-Nachricht</string>
   <string name="carrier_settings_euicc">Mobilfunkanbieter</string>
   <string name="carrier_settings_title">Mobilfunkanbietereinstellungen</string>
   <string name="category_personal">Privat</string>
@@ -800,6 +853,8 @@ Mobile Daten trotzdem nutzen?"</string>
   <string name="delete">Löschen</string>
   <string name="deleteAllSimEntries">Alle SIM-Kontakte löschen</string>
   <string name="deleteSimContacts">SIM-Kontakte löschen</string>
+  <string name="delete_blob_confirmation_text">Sind Sie sicher, dass Sie diese geteilten Daten löschen möchten?</string>
+  <string name="delete_blob_text">Geteilte Daten löschen</string>
   <string name="delete_ecc_number">Notfallnummer löschen</string>
   <string name="delete_fdn_contact">Rufnummernbeschränkung löschen</string>
   <string name="deleting_fdn_contact">Rufnummernbeschränkung löschen…</string>
@@ -864,6 +919,11 @@ Mobile Daten trotzdem nutzen?"</string>
   <string name="display_name_title">Anzeigename</string>
   <string name="do_not_show_again">Nicht mehr anzeigen</string>
   <string name="doneButton">Fertig</string>
+  <string name="dsds_dialog_cancel">Abbrechen</string>
+  <string name="dsds_dialog_confirm">Neustart</string>
+  <string name="dsds_dialog_message">Sie müssen Ihr Gerät neu starten, um diese Einstellung zu ändern.</string>
+  <string name="dsds_dialog_title">Gerät neu starten?</string>
+  <string name="dsds_switch_string">DSDS aktivieren</string>
   <string name="dtmf_tone_entries_long">Lang</string>
   <string name="dtmf_tones_summary">Länge der DTMF-Töne festlegen</string>
   <string name="dtmf_tones_title">DTMF-Töne</string>
@@ -907,6 +967,8 @@ Mobile Daten trotzdem nutzen?"</string>
   <string name="enable_4G_data_summary">4G für besseren und schnelleren Internetzugang</string>
   <string name="enable_adb">USB-Debugging</string>
   <string name="enable_adb_summary">Debug-Modus, wenn mit USB verbunden</string>
+  <string name="enable_adb_wireless">Drahtloses Debugging</string>
+  <string name="enable_adb_wireless_summary">Debug-Modus, wenn WLAN verbunden ist</string>
   <string name="enable_antispam_strange_summary">Ersten Anruf einer unbekannten Nummer lautlos stellen</string>
   <string name="enable_antispam_strange_title">Erstes Klingeln stummschalten</string>
   <string name="enable_disable_administrative">Verwaltung</string>
@@ -942,6 +1004,8 @@ Mobile Daten trotzdem nutzen?"</string>
   <string name="enable_sim_pin">SIM-PIN festlegen</string>
   <string name="enable_terminal_summary">Terminal-App aktivieren, die lokalen Shell-Zugriff ermöglicht</string>
   <string name="enable_terminal_title">Lokales Terminal</string>
+  <string name="enable_verbose_vendor_logging">Ausführliches Vendor-Logging aktivieren</string>
+  <string name="enable_verbose_vendor_logging_summary">Zusätzliche gerätespezifische Vendor-Logs in Fehlerberichte aufnehmen, die private Infos enthalten, mehr Akku und/oder mehr Speicherplatz benötigen können</string>
   <string name="enable_vice_volte_if_dual_ct">VoLTE für die zweite SIM-Karte automatisch einschalten, wenn zwei China Telecom SIM-Karten installiert sind.</string>
   <string name="enable_video_calling_dialog_close">Schließen</string>
   <string name="enable_video_calling_dialog_msg">Um Videotelefonie zu aktivieren, müssen Sie unter Systemeinstellungen 4G LTE-Modus einschalten</string>
@@ -957,6 +1021,8 @@ Mobile Daten trotzdem nutzen?"</string>
   <string name="enhanced_4g_lte_mode_summary_o2">4G-Dienste zur Verbesserung der Sprache und anderer Kommunikation nutzen (empfohlen)</string>
   <string name="enhanced_4g_lte_mode_title">Erweiterter 4G LTE-Modus</string>
   <string name="enhanced_4g_lte_mode_title_variant">Erweiterte Anrufe</string>
+  <string name="enhanced_connectivity">Erweiterte Konnektivität</string>
+  <string name="enhanced_connectivity_summary">Aktiviert die Funktion Erweiterte Konnektivität</string>
   <string name="enterNumber">Telefonnummer</string>
   <string name="enter_callbarring_password">Passwort für Anrufsperre eingeben (%d Ziffern)</string>
   <string name="enter_input" formatted="false">USSD-Mitteilung muss zwischen %d und %d Zeichen lang sein. Bitte erneut versuchen.</string>
@@ -1055,6 +1121,9 @@ Trotzdem zum neuen Mobilfunkanbieter wechseln?"</string>
   <string name="gsm_umts_network_preferences_dialogtitle">Netzwerkmodus</string>
   <string name="gsm_umts_network_preferences_title">Netzwerkmodus</string>
   <string name="gsm_umts_options">GSM/UMTS-Optionen</string>
+  <string name="guest_exit_guest">Gast entfernen</string>
+  <string name="guest_new_guest">Gast hinzufügen</string>
+  <string name="guest_nickname">Gast</string>
   <string name="hac_mode_summary">Hörgeräte-Kompatibilität einschalten</string>
   <string name="hac_mode_title">Hörgeräte</string>
   <string name="handon_ringer_summary">Lautstärke für eingehende Anrufe reduzieren, wenn das Telefon angehoben wird</string>
@@ -1062,7 +1131,7 @@ Trotzdem zum neuen Mobilfunkanbieter wechseln?"</string>
   <string name="hdcp_checking_dialog_title">HDCP-Prüfverhalten einstellen</string>
   <string name="hdcp_checking_title">HDCP-Prüfung</string>
   <string name="help_feedback_label">Hilfe &amp; Feedback</string>
-  <string name=" hide_error_from_network_text">Anfrage kann nicht bearbeitet werden</string>
+  <string name="help_label">Hilfe &amp; Feedback</string>
   <string name="hintName">Name</string>
   <string name="hintPhonenumber">Telefonnummer</string>
   <string name="home">Einstellungen Startbildschirm</string>
@@ -1078,6 +1147,7 @@ Trotzdem zum neuen Mobilfunkanbieter wechseln?"</string>
   <string name="ims_reg_status_registered">Registriert</string>
   <string name="ims_reg_title">IMS Registrierungsstatus</string>
   <string name="ims_settings">IMS Einstellungen</string>
+  <string name="imsi_protection_warning">Dieses Netzwerk erhält eine eindeutige ID, die zur Verfolgung des Gerätestandorts verwendet werden kann. <annotation id="url">Mehr erfahren</annotation ></string>
   <string name="inactive_app_active_summary">Aktiv,  tippen zum Umstellen</string>
   <string name="inactive_app_inactive_summary">Inaktiv, tippen zum Umstellen</string>
   <string name="inactive_apps_title">Standby-Apps</string>
@@ -1088,8 +1158,8 @@ Trotzdem zum neuen Mobilfunkanbieter wechseln?"</string>
   <string name="incall_error_low_battery">Verbindung wegen geringer Akkuleistung nicht möglich</string>
   <string name="incall_error_missing_voicemail_number">Unbekannte Sprachboxnummer</string>
   <string name="incall_error_no_phone_number_supplied">Anruf fehlgeschlagen. Kein gültige Nummer eingegeben.</string>
-  <string name="incall_error_out_of_service_kr">Nur Notruf verfügbar.</string>
   <string name="incall_error_out_of_service">Mobilfunknetz nicht verfügbar</string>
+  <string name="incall_error_out_of_service_kr">Nur Notruf verfügbar.</string>
   <string name="incall_error_out_of_service_wfc">Mobilfunknetzt nicht verfügbar. Mit WLAN verbinden zum Telefonieren.</string>
   <string name="incall_error_outgoing_call_failed">Ausgehender Anruf fehlgeschlagen</string>
   <string name="incall_error_power_off">Flugmodus ausschalten, um einen Anruf zu tätigen</string>
@@ -1186,6 +1256,7 @@ Trotzdem zum neuen Mobilfunkanbieter wechseln?"</string>
   <string name="label_cdp">SIM Firmenentsperr-PIN</string>
   <string name="label_ndp">SIM-Netzwerk Entsperr-PIN</string>
   <string name="label_nsdp">SIM Netzbereichentsperr-PIN</string>
+  <string name="label_phoneid">Perso gesperrt für</string>
   <string name="label_puk">PUK eingeben</string>
   <string name="label_puk2_code">PUK2 eingeben</string>
   <string name="label_rcdp">RUIM Firmenentsperr-PIN</string>
@@ -1228,6 +1299,15 @@ Trotzdem zum neuen Mobilfunkanbieter wechseln?"</string>
   <string name="lgu_msim_emm_cause_7_14">SIM %d-Netz bietet keine mobilen Datendienste</string>
   <string name="lgu_msim_emm_cause_8">SIM %d wurde nicht am Netz angemeldet. Gehen Sie zu einem Kundendienstzentrum (+82-2-3416-7010).</string>
   <string name="lgu_msim_emm_cause_others">SIM %d kann sich nicht mit dem Netz verbinden. Gehen Sie zu einem Kundendienstzentrum (+82-2-3416-7010).</string>
+  <string name="limited_service_alert_dialog_description"><b>Notrufe über WLAN-Anrufe</b>"
+Notrufe sind über WLAN-Anrufe nicht möglich.
+
+Das Gerät schaltet automatisch auf ein Mobilfunknetz (2G/3G) um, um einen Notruf zu tätigen.
+
+Notrufe sind nur in Gebieten mit Mobilfunkversorgung möglich."</string>
+  <string name="limited_sim_function_notification_message">%1$s-Anrufe und -Datendienste können blockiert werden, wenn eine andere SIM verwendet wird</string>
+  <string name="limited_sim_function_notification_title">Begrenzte SIM-Funktionalität</string>
+  <string name="limited_sim_function_with_phone_num_notification_message">%1$s-Anrufe und -Datendienste können blockiert werden, wenn %2$s verwendet wird</string>
   <string name="list_language_dtitle">Sprachen</string>
   <string name="list_language_summary">Nachrichtensprache auswählen</string>
   <string name="list_language_title">Sprache</string>
@@ -1262,6 +1342,8 @@ Trotzdem zum neuen Mobilfunkanbieter wechseln?"</string>
   <string name="manual_mode_disallowed_summary">Nicht verfügbar, wenn mit %1$s verbunden</string>
   <string name="media_category">Medien</string>
   <string name="media_transfer_this_device_name">Dieses Gerät</string>
+  <string name="media_transfer_wired_device_name">Kabelgebundenes Audiogerät</string>
+  <string name="media_transfer_wired_usb_device_name" >Kabelgebundener Kopfhörer</string>
   <string name="menu_add">Kontakt hinzufügen</string>
   <string name="menu_delete">Kontakt löschen</string>
   <string name="menu_dial">Kontakt anwählen</string>
@@ -1433,6 +1515,7 @@ Immer diese Nummer verwenden"</string>
   <string name="network_mode_updating_title">Netzwerktyp</string>
   <string name="network_operator_category">Netzwerk</string>
   <string name="network_query_error">Kein Netzwerk gefunden. Erneut versuchen.</string>
+  <string name="network_recommended">" (empfohlen)"</string>
   <string name="network_select_title">Netzwerk</string>
   <string name="network_setting_all_forbidden_dialog">Keine Netzwerke verfügbar</string>
   <string name="network_settings_auto_select_title">Netzwerk manuell wählen?</string>
@@ -1467,6 +1550,7 @@ Immer diese Nummer verwenden"</string>
   <string name="no_internet_available">Erst Internetverbindung prüfen, bevor Sie einen SIP-Anruf tätigen</string>
   <string name="no_mobile_data">Mobile Daten nicht verfügbar</string>
   <string name="no_mobile_data_roaming">Datenroaming nicht verfügbar</string>
+  <string name="no_rtt_when_roaming">Hinweis: RTT ist beim Roaming nicht verfügbar</string>
   <string name="no_unlock_chance_hint">"Sie haben keine Versuche mehr.
 Kontaktieren Sie Ihren Mobilfunkanbieter."</string>
   <string name="no_vm_number">Fehlende Sprachboxnummer</string>
@@ -1501,6 +1585,7 @@ Kontaktieren Sie Ihren Mobilfunkanbieter."</string>
   <string name="numerous_emergency_numbers_title">Notfallnummern</string>
   <string name="nw_subset_unlock_failed">SIM-Netzbereichentsperranfrage erfolglos</string>
   <string name="nw_subset_unlock_success">SIM-Netzbereichentsperranfrage erfolgreich</string>
+  <string name="oem_radio_info_label">OEM-spezifische Info/Einstellungen</string>
   <string name="oem_unlock_enable">OEM-Entsperrung</string>
   <string name="oem_unlock_enable_summary">Entsperrung des Bootloaders erlauben</string>
   <string name="oldPin2Label">Alte PIN2</string>
@@ -1621,8 +1706,12 @@ Erneut versuchen oder den Kundendienst für weitere Optionen anrufen."</string>
   <string name="phone_accounts_settings_header">Einstellungen</string>
   <string name="phone_entered_ecm_text">Notfallrückrufmodus einschalten</string>
   <string name="phone_in_ecm_call_notification_text">Datenverbindung ausgeschaltet</string>
+  <string name="phone_in_ecm_call_notification_text_without_data_restriction_hint">Das Telefon befindet sich im Notfall-Rückrufmodus</string>
   <string name="phone_in_ecm_notification_complete_time">Keine Datenverbindung bis %s</string>
+  <string name="phone_in_ecm_notification_complete_time_without_data_restriction_hint">Bis %s</string>
   <string name="phone_in_ecm_notification_title">Notfallrückrufmodus</string>
+  <string name="phone_index_label">Telefonindex auswählen</string>
+  <string name="phone_info_label">Telefoninfo</string>
   <string name="phone_number_hint_text">Telefonnummer</string>
   <string name="phone_report_title">Eingehende Anrufinformationen lesen</string>
   <string name="picture_color_mode">Bildfarbmodus</string>
@@ -1643,6 +1732,8 @@ Erneut versuchen oder den Kundendienst für weitere Optionen anrufen."</string>
   <string name="pin_progress_set_fdn_lock">Rufnummernbeschränkungssperre einstellen…</string>
   <string name="pin_progress_set_icc_lock">ICC-Sperre einstellen…</string>
   <string name="pin_progress_unlock_icc">SIM-Karte entsperren…</string>
+  <string name="pin_puk_system_user_only">Nur der Besitzer des Geräts kann PIN-/PUK-Codes eingeben.</string>
+  <string name="ping_test_label">Ping-Test ausführen</string>
   <string name="pointer_location">Zeigerposition</string>
   <string name="pointer_location_summary">Bildschirmüberlagerung mit Anzeige aktueller Berührungsdaten</string>
   <string name="police_type_description">Polizei</string>
@@ -1670,12 +1761,13 @@ Erneut versuchen oder den Kundendienst für weitere Optionen anrufen."</string>
   <string name="power_remaining_less_than_duration_only">Weniger als %1$s übrig</string>
   <string name="power_remaining_more_than_subtext">Mehr als %1$s übrig (%2$s)</string>
   <string name="power_remaining_only_more_than_subtext">Mehr als %1$s übrig</string>
+  <string name="power_suggestion_battery_run_out">Akku kann um %1$s leer sein</string>
   <string name="power_suggestion_extend_battery">Akkulaufzeit auf über %1$s verlängern</string>
   <string name="prefered_network_type_3g_promp">Sie sollten VoLTE ausschalten, bevor Sie 3G als bevorzugten Netzwerktyp auswählen. Jetzt ausschalten?</string>
   <string name="preference_auto_ip_summary_disable">Deaktiviert</string>
   <string name="preference_category_ringtone">Klingelton &amp; Vibration</string>
-  <string name="preference_countrycode_title">Ländercode</string>
   <string name="preference_copied">\"%1$s\" in Zwischenablage kopiert</string>
+  <string name="preference_countrycode_title">Ländercode</string>
   <string name="preference_data_usage_summary">Datenvolumen festlegen, um Ihre mobilen Daten zu kontrollieren</string>
   <string name="preference_data_usage_title">Datenvolumen festlegen</string>
   <string name="preference_dial_pad_touch_tone_default">Standard</string>
@@ -1750,6 +1842,7 @@ Erneut versuchen oder den Kundendienst für weitere Optionen anrufen."</string>
   <string name="preferred_wificall_title">Netzwerkeinstellungen</string>
   <string name="primary_account_summary_with">Hauptkonto %s</string>
   <string name="privacy_policy_title">Datenschutzerklärung</string>
+  <string name="private_dns_broken">Private DNS-Server ist nicht erreichbar</string>
   <string name="private_dns_mode_off">Aus</string>
   <string name="private_dns_mode_opportunistic">Automatisch</string>
   <string name="private_dns_mode_provider">Hostname Private DNS-Anbieter</string>
@@ -1758,6 +1851,8 @@ Erneut versuchen oder den Kundendienst für weitere Optionen anrufen."</string>
   <string name="private_num">Privatnummer</string>
   <string name="private_num_kr">Rufnummmer unterdrückt</string>
   <string name="proceed">Weiter</string>
+  <string name="profile_connect_timeout_subtext">Problem beim Verbinden. Gerät aus- &amp; wieder einschalten</string>
+  <string name="profile_info_settings_title">Profilinfo</string>
   <string name="progress_dialog_exiting_ecm">Notfallrückrufmodus beenden…</string>
   <string name="prompt_to_suggest_no_call_service_notification_content">Anrufe tätigen und annehmen nicht möglich. VoLTE-Service ist jetzt für Ihre SIM-Karte (China Telecom) deaktiviert.</string>
   <string name="prompt_to_suggest_no_call_service_notification_content2">Anrufe tätigen und annehmen nicht möglich. VoLTE-Service ist jetzt für SIM%d (China Telecom) deaktiviert.</string>
@@ -1790,6 +1885,58 @@ Erneut versuchen oder den Kundendienst für weitere Optionen anrufen."</string>
   <string name="puk_unlock_success">PUK erfolgreich entsperrt</string>
   <string name="puk_unlocked">Ihre SIM-Karte wurde entsperrt. Ihr Telefon wird nun entsperrt…</string>
   <string name="quick_dial_setting_title">Kurzwahl</string>
+  <string name="radioInfo_data_connected">Verbunden</string>
+  <string name="radioInfo_data_connecting">Verbinden</string>
+  <string name="radioInfo_data_data_disconnected">Getrennt</string>
+  <string name="radioInfo_data_suspended">Ausgesetzt</string>
+  <string name="radioInfo_menu_viewADN">SIM-Adressbuch anzeigen</string>
+  <string name="radioInfo_menu_viewFDN">Festnetznummern anzeigen</string>
+  <string name="radioInfo_menu_viewSDN">Dienstwahlnummern anzeigen</string>
+  <string name="radioInfo_phone_idle">Leerlauf</string>
+  <string name="radioInfo_phone_offhook">Anruf läuft</string>
+  <string name="radioInfo_phone_ringing">Klingeln</string>
+  <string name="radioInfo_roaming_not">Kein Roaming</string>
+  <string name="radioInfo_service_emergency">Nur Notrufe</string>
+  <string name="radioInfo_service_in">In Betrieb</string>
+  <string name="radioInfo_service_off">Radio aus</string>
+  <string name="radioInfo_service_out">Außer Betrieb</string>
+  <string name="radioInfo_unknown">Unbekannt</string>
+  <string name="radio_info_band_mode_label" >Radioband wählen</string>
+  <string name="radio_info_call_redirect_label">Rufumleitung:</string>
+  <string name="radio_info_call_status_label">Sprachanrufstatus:</string>
+  <string name="radio_info_cell_info_refresh_rate">Zellinfo-Aktualisierungsrate:</string>
+  <string name="radio_info_cellinfo_label">Alle Zellmessungsinfo:</string>
+  <string name="radio_info_current_network_label">Aktuelles Netzwerk:</string>
+  <string name="radio_info_data_connection_disable">Datenverbindung deaktivieren</string>
+  <string name="radio_info_data_connection_enable">Datenverbindung aktivieren</string>
+  <string name="radio_info_data_network_type_label">Datennetzwerktyp:</string>
+  <string name="radio_info_dds">SubId der Standarddaten-SIM:</string>
+  <string name="radio_info_dl_kbps">DL-Bandbreite (kbps):</string>
+  <string name="radio_info_ims_feature_status_available">Verfügbar</string>
+  <string name="radio_info_ims_feature_status_unavailable">Nicht verfügbar</string>
+  <string name="radio_info_ims_reg_status">"IMS-Registrierung: %1$s
+Voice over LTE: %2$s
+Voice over WLAN: %3$s
+Video-Anrufe: %4$s
+UT-Schnittstelle: %5$s"</string>
+  <string name="radio_info_ims_reg_status_not_registered">Nicht_registriert</string>
+  <string name="radio_info_ims_reg_status_registered">Registriert</string>
+  <string name="radio_info_message_waiting_label">Nachricht wartet:</string>
+  <string name="radio_info_phone_number_label">Telefonnummer:</string>
+  <string name="radio_info_phy_chan_config">LTE physikalische Kanalkonfiguration:</string>
+  <string name="radio_info_ppp_received_label">Empfangene Daten:</string>
+  <string name="radio_info_ppp_resets_label">Anzahl der PPP-Resets seit Boot:</string>
+  <string name="radio_info_ppp_sent_label">Gesendete Daten:</string>
+  <string name="radio_info_radio_power">Mobilfunkleistung</string>
+  <string name="radio_info_set_perferred_label">Einstellung bevorzugter Netzwerktyp:</string>
+  <string name="radio_info_signal_location_label">Zellstandort-Info (veraltet):</string>
+  <string name="radio_info_signal_strength_label">Signalstärke:</string>
+  <string name="radio_info_smsc_refresh_label">Aktualisieren</string>
+  <string name="radio_info_smsc_update_label">Update</string>
+  <string name="radio_info_subid">Aktuelle SubId:</string>
+  <string name="radio_info_toggle_dns_check_label">DNS-Prüfung umschalten</string>
+  <string name="radio_info_ul_kbps">UL-Bandbreite (kbps):</string>
+  <string name="radio_info_voice_network_type_label">Sprach-Netzwerktyp:</string>
   <string name="radio_off_during_emergency_call">Flugmodus nicht möglich während eines Notrufs</string>
   <string name="radio_off_error">Aktivieren Sie Ihre Mobilfunkverbindung, bevor Sie diese Einstellungen anzeigen</string>
   <string name="rc_unlock_failed">Firmen-RUIM-Entsperrung fehlgeschlagen</string>
@@ -1878,8 +2025,10 @@ Erneut versuchen oder den Kundendienst für weitere Optionen anrufen."</string>
   <string name="roaming_disable">Beim Roaming eine Verbindung mit dem mobilen Datendienst herstellen</string>
   <string name="roaming_disable_kr">Einstellungen Datenroaming &amp; internat. Roaming</string>
   <string name="roaming_enable">Stellen Sie beim Roaming eine Verbindung mit dem mobilen Datendienst her</string>
+  <string name="roaming_enabled_message">Roaming-Kosten können anfallen. Tippen zum Ändern.</string>
   <string name="roaming_notification_content">Sie können Ländercodes automatisch hinzufügen, um das Wählen komfortabler zu machen</string>
   <string name="roaming_notification_title">Sieht so aus, als sei Roaming aktiv</string>
+  <string name="roaming_on_notification_title">Datenroaming ist eingeschaltet </string>
   <string name="roaming_reenable_message">Versuchen Sie, mit Roaming wieder eine Verbindung herzustellen.</string>
   <string name="roaming_user_package_summary_kr">Kaufen, stornieren und bearbeiten Sie Ihr Roaming-Paket. Die Nutzung dieses Menüs während des Roamings wird Ihnen nicht berechnet.</string>
   <string name="roaming_user_package_title_kr">Roaming-Paket verwenden</string>
@@ -1933,6 +2082,12 @@ Erneut versuchen oder den Kundendienst für weitere Optionen anrufen."</string>
   <string name="set_smsc_address_title">Nummer SMS-Zentrale einstellen</string>
   <string name="set_time_period">Zeitperiode einstellen</string>
   <string name="settings_label">Netzwerkeinstellungen</string>
+  <string name="shared_data_delete_failure_text">Fehler beim Löschen der geteilten Daten</string>
+  <string name="shared_data_no_accessors_dialog_text">Es wurden keine Mietverträge für diese geteilten Daten abgeschlossen. Möchten Sie sie löschen?</string>
+  <string name="shared_data_no_blobs_text">Es gibt keine geteilten Daten für diesen Benutzer.</string>
+  <string name="shared_data_query_failure_text">Es gab einen Fehler beim Abrufen geteilter Daten. Erneut versuchen.</string>
+  <string name="shared_data_summary">Geteilte Daten anzeigen und ändern</string>
+  <string name="shared_data_title">Geteilte Daten</string>
   <string name="show_all_anrs">Hintergrund-ANRs anzeigen</string>
   <string name="show_all_anrs_summary">Dialog \"App antwortet nicht\" für Hintergrund-Apps anzeigen</string>
   <string name="show_cpu_usage">CPU-Auslastung anzeigen</string>
@@ -2049,6 +2204,7 @@ Erneut versuchen oder den Kundendienst für weitere Optionen anrufen."</string>
   <string name="stk_cc_ss_to_ussd_error">SS-Anfrage geändert zu USSD-Anfrage</string>
   <string name="stock_quotes_disable">Börsennotierungen deaktiviert</string>
   <string name="stock_quotes_enable">Börsennotierungen aktiviert</string>
+  <string name="storage_category">Speicher</string>
   <string name="strPasswordLengthIncorrect">4-16 Ziffern</string>
   <string name="strict_mode">Strikter Modus aktiviert</string>
   <string name="strict_mode_summary">Bei längeren Aktionen im Hauptthread Bildschirm kurz einblenden</string>
@@ -2109,6 +2265,7 @@ Erneut versuchen oder den Kundendienst für weitere Optionen anrufen."</string>
   <string name="switch_on">An</string>
   <string name="t9_indexing_method_title">T9-Sucheingabe</string>
   <string name="t9_indexing_rebuilding_message">T9-Index wiederaufbauen…</string>
+  <string name="tap_to_renew_subscription_and_connect">Abonnement erneuern und verbinden</string>
   <string name="tap_to_sign_up">Tippen zum Anmelden</string>
   <string name="technology_news_disable">Techniknachrichten ausgeschaltet</string>
   <string name="technology_news_enable">Techniknachrichten eingeschaltet</string>
@@ -2235,7 +2392,32 @@ Nächster Datenzeitraum startet in %2$d Tagen (%3$s)"</string>
   <string name="usb_audio_disable_routing">USB Audiorouting deaktivieren</string>
   <string name="usb_audio_disable_routing_summary">Autorouting zu USB Audioperipheriegeräten deaktivieren</string>
   <string name="use_system_language_to_select_input_method_subtypes">Systemsprachen verwenden</string>
+  <string name="user_add_profile_item_summary">Sie können den Zugriff auf Apps und Inhalte Ihres Kontos einschränken</string>
+  <string name="user_add_profile_item_title">Eingeschränktes Profil</string>
+  <string name="user_add_user_item_summary">Benutzer haben ihre eigenen Apps und Inhalte</string>
+  <string name="user_add_user_item_title">Benutzer</string>
+  <string name="user_add_user_message_long">"Sie können dieses Gerät für andere Personen freigeben, indem Sie zusätzliche Benutzer erstellen. Jeder Benutzer hat seinen eigenen Bereich, den er mit Apps, Hintergrundbildern usw. anpassen kann. Benutzer können auch Geräteeinstellungen anpassen, die alle betreffen, wie z. B. WLAN.
+
+Wenn Sie einen neuen Benutzer hinzufügen, muss dieser seinen Bereich einrichten.
+
+Jeder Benutzer kann Apps für alle anderen Benutzer aktualisieren. Eingabehilfen-Einstellungen und Dienste können nicht auf den neuen Benutzer übertragen werden."</string>
+  <string name="user_add_user_message_short">"Wenn Sie einen neuen Benutzer hinzufügen, muss dieser seinen Bereich einrichten.
+
+Jeder Benutzer kann Apps für alle anderen Benutzer aktualisieren."</string>
+  <string name="user_add_user_title">Neuen Benutzer hinzufügen?</string>
+  <string name="user_add_user_type_title">Hinzufügen</string>
   <string name="user_guest">Gast</string>
+  <string name="user_info_settings_title">Benutzerinfo</string>
+  <string name="user_need_lock_message">Bevor Sie ein eingeschränktes Profil erstellen können, müssen Sie eine Bildschirmsperre einrichten, um Ihre Apps und persönlichen Daten zu schützen.</string>
+  <string name="user_new_profile_name">Neues Profil</string>
+  <string name="user_new_user_name">Neuer Benutzer</string>
+  <string name="user_set_lock_button">Sperre setzen</string>
+  <string name="user_setup_button_setup_later" > Jetzt nicht</string>
+  <string name="user_setup_button_setup_now">Jetzt einrichten</string>
+  <string name="user_setup_dialog_message">Vergewissern Sie sich, dass die Person verfügbar ist, um das Gerät zu nehmen und ihren Bereich einzurichten</string>
+  <string name="user_setup_dialog_title">Benutzer jetzt einrichten?</string>
+  <string name="user_setup_profile_dialog_message">Profil jetzt einrichten?</string>
+  <string name="user_switch_to_user">Umschalten auf %s</string>
   <string name="username_title">Benutzername</string>
   <string name="ussdRunning">USSD-Code ausführen…</string>
   <string name="ut_not_support">UT ist nicht verfügbar</string>
@@ -2246,6 +2428,8 @@ Nächster Datenzeitraum startet in %2$d Tagen (%3$s)"</string>
   <string name="verify_apps_over_usb_title">Apps über USB verifizieren</string>
   <string name="vibrate_after_connected_summary">Beim Annehmen vibieren</string>
   <string name="vibrate_after_connected_title">Vibrieren wenn verbunden</string>
+  <string name="vibrating_for_outgoing_call_accepted_summary">Vibrationsmodus für ausgehenden angenommenen Anruf aktivieren</string>
+  <string name="vibrating_for_outgoing_call_accepted_title">Vibration für ausgehenden angenommenen Anruf</string>
   <string name="vice_card_data_in_use_alert">Es können zusätzliche Datengebühren anfallen.</string>
   <string name="vice_slot_volte_data_switch_prompt">Ihr Gerät verbindet sich mit einem mobilen Datennetz mit SIM2 während laufender VoLTE-Anrufe. Dadurch können zusätzliche Datengebühren entstehen. Wenden Sie sich an Ihren lokalen Mobilfunkanbieter, um Details zu Ihrem Datentarif zu erfahren.</string>
   <string name="vice_slot_volte_data_switch_summary">Während VoLTE-Anrufen verbindet sich das Gerät mit einem mobilen Datennetz mit SIM2.</string>
@@ -2313,8 +2497,8 @@ Falls dieses Problem weiterhin besteht, setzen Sie sich mit Ihrem Mobilfunkanbie
   <string name="volte_switch_summary2">Vergewissern Sie sich vor dem Einschalten, dass Ihr Mobilfunkanbieter diese Funktion unterstützt. Andernfalls können reguläre Anrufe beeinträchtigt werden.</string>
   <string name="volte_switch_title">VoLTE verwenden</string>
   <string name="volte_tips_when_turn_on">China Telecom VoLTE-Dienste werden nur in den Gebieten mit VoLTE-Netzabdeckung angeboten. Die VoLTE-Dienste werden vom Mobilfunkanbieter bereitgestellt.</string>
-  <string name="vonr_switch_summary">VoNR zur Verbesserung der Sprachanrufqualität anwenden</string>
-  <string name="vonr_switch_title">VoNR anwenden</string>
+  <string name="vonr_switch_summary">VoNR zur Verbesserung der Qualität von Sprachanrufen verwenden</string>
+  <string name="vonr_switch_title">VoNR verwenden</string>
   <string name="vowifi_emergency_notification_channel">WLAN-Anrufe - Notfallwarnung</string>
   <string name="vowifi_emergency_notification_content">Notrufe nur in Gebieten mit Mobilfunkabdeckung</string>
   <string name="vowifi_emergency_notification_title">Vodafone WiFi Calling</string>
@@ -2409,6 +2593,7 @@ Wenn Sie sich für Mobilfunknetze entscheiden, werden diese standardmäßig für
   <string name="wifi_disconnected">Getrennt</string>
   <string name="wifi_display_certification">Wireless-Display-Zertifizierung</string>
   <string name="wifi_display_certification_summary">Optionen für Wireless-Display-Zertifizierung anzeigen</string>
+  <string name="wifi_enhanced_mac_randomization_summary">Wenn dieser Modus aktiviert ist, kann sich die MAC-Adresse dieses Geräts jedes Mal ändern, wenn es mit einem Netzwerk verbunden wird, in dem MAC-Randomisierung aktiviert ist.</string>
   <string name="wifi_fail_to_scan">Netzwerkscannen nicht möglich</string>
   <string name="wifi_hand_sel_wapi_cert">WAPI-Zertifikat</string>
   <string name="wifi_limited_connection">Eingeschränkte Verbindung</string>
