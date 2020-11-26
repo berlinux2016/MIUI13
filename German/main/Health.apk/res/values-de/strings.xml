@@ -118,7 +118,7 @@ um Karten hinzuzufügen"</string>
 
 Um Ihnen Empfehlungen geben zu können, werden wir Ihre Gesundheitsdaten an einen Drittdienstleister weitergeben. Zu den Elementen, die wir weitergeben werden, gehören persönliche Informationen (Alter, Geschlecht), Gesundheitsstatistiken (Größe, Gewicht, Workout-Routine), Verhaltensdaten (Start- und Endzeit sowie die Dauer Ihres Workouts).
 
-Wir bearbeiten diese Elemente, bevor wir sie weitergeben, um zu verhindern, dass Drittdienstleister Sie anhand der erhaltenen Daten persönlich identifizieren können.
+Wir anonymisieren diese Elemente, bevor wir sie weitergeben, um zu verhindern, dass Drittdienstleister Sie anhand der erhaltenen Daten persönlich identifizieren können.
 
 Wenn Sie keinen Zugang zu den empfohlenen Kursen erhalten möchten, können Sie immer noch die regulären Workouts verwenden."</string>
   <string name="auth_dialog_link">Um Ihre Rechte als Nutzer sowie die Art und Weise, in der wir Ihre Daten verwenden, vollständig zu verstehen, lesen Sie unsere &lt;font color=\"#0D84FF\">&lt;a href=%1$s>Nutzervereinbarung&lt;/a>&lt;/font> und &lt;font color=\"#0D84FF\">&lt;a href=%2$s>Datenschutzerklärung&lt;/a>&lt;/font>.</string>
@@ -619,10 +619,9 @@ Warten, bis sich der Kreis rot färbt."</string>
   <string name="hr_fp_detect_desc">Mit jedem Herzschlag fließt Blut zu Ihren Fingern. Helles Licht im Bereich des Fingerabdruckscanners unter dem Bildschirm ermöglicht es uns, Veränderungen in Ihrem Blutfluss zu verfolgen,  Muster zu analysieren und in Herzfrequenzwerte umzuwandeln.</string>
   <string name="hr_fp_detect_principle_desc">Blut ist nicht völlig undurchsichtig, daher kann Licht hindurchtreten. Bei jedem Herzschlag strömt Blut zu den Fingern und blockiert mehr Licht als zwischen den Herzschlägen. Helles Licht im Bereich des Fingerabdruck-Scanners unter dem Bildschirm ermöglicht es uns, die Veränderungen in Ihrem Blutfluss zu verfolgen, die Muster zu analysieren und sie in Herzfrequenzwerte umzuwandeln.</string>
   <string name="hr_fp_detect_principle_desc_2">Hinweis: Achten Sie darauf, dass Ihr Finger das Fingerabdrucksymbol während der Messung vollständig bedeckt. Wenden Sie keine Kraft an, da dies den Blutfluss in Ihrer Fingerbeere blockieren und die Ergebnisse ungenau machen könnte. Diese Messung dient nur zu Ihrer Information. Sie kann medizinische Tests nicht ersetzen.</string>
+  <string name="hr_fp_detect_start_desc">Bedecken Sie das Symbol mit Ihrem Finger</string>
   <string name="hr_fp_detect_principle_desc_3">Unsere Tests zeigen, dass diese Methode Ihre Herzfrequenz mit einem Fehler von nur ≤3 BPM misst.</string>
-  <string name="hr_fp_detect_start_desc">Drücken Sie leicht auf das Fingerabdrucksymbol.
-Bewegen Sie Ihren Finger nicht.</string>
-  <string name="hr_fp_detecting">Messen…</string>
+  <string name="hr_fp_detecting">Bewegen Sie Ihren Finger nicht</string>
   <string name="hr_fp_not_put_well">Ihr Finger hat sich bewegt.
 Fangen Sie von vorne an.</string>
   <string name="hr_fp_report_common_desc">Die normale Herzfrequenz liegt zwischen 60 und 100 Schlägen pro Minute. Eine Herzfrequenz unter 60 BPM ist ein Zeichen für eine Bradykardie, während eine Herzfrequenz über 100 BPM bei Erwachsenen als Tachykardie gilt.</string>
