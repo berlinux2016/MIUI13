@@ -104,6 +104,7 @@
   <string name="currency_update_support">Wechselkurse werden von Webull zur Verfügung gestellt</string>
   <string name="currency_update_time_format">Wechselkurse werden von Webull zur Verfügung gestellt (%s)</string>
   <string name="currency_update_updating">Kurse aktualisieren…</string>
+  <string name="date_format">dd. MMM yyyy</string>
   <string name="date_picker_dialog_title">Datum einstellen</string>
   <string name="date_time_done">Fertig</string>
   <string name="date_time_picker_dialog_title">Datum und Uhrzeit einstellen</string>
@@ -121,6 +122,8 @@
   <string name="deselect_all">Alle abwählen</string>
   <string name="devided_by_zero_reminder_message">Division durch Null nicht möglich</string>
   <string name="dialog_privacy_content">&lt;Data>Neben den Grundfunktionen eines Taschenrechners enthält unsere App auch einen wissenschaftlichen Rechner und einen Mehrzweck-Konverter. Einige Funktionen benötigen eine Verbindung zum Internet, um normal zu funktionieren. Sie müssen unserer &lt;a href=\"%1$s\">Nutzervereinbarung&lt;/a> und &lt;a href=\"%2$s\">Datenschutzerklärung&lt;/a> lesen und akzeptieren, bevor Sie Rechner nutzen.&lt;/Data></string>
+  <string name="dialog_privacy_disagree_msg">Indem Sie den Schalter umlegen, widerrufen Sie Ihre Zustimmung zur Datenschutzerklärung von Rechner. Wir werden die Erfassung Ihrer persönlichen Daten einstellen. Die bereits gesammelten und gespeicherten persönlichen Daten werden innerhalb des von geltenden Gesetzen vorgeschriebenen Zeitraums gelöscht. Rechner muss notwendige persönliche Daten sammeln, um Ihnen grundlegende Dienste anbieten zu können. Wenn Sie Ihre Zustimmung zu seiner Datenschutzerklärung widerrufen, wird dies als Verweigerung der Annahme seiner Dienste auf der Basis der gesammelten persönlichen Daten gewertet.</string>
+  <string name="dialog_privacy_revoke_btn_ok">Widerrufen</string>
   <string name="dialog_privacy_title">Allgemeine Geschäftsbedingungen</string>
   <string name="dialog_rating_desc_ask">Was halten Sie von dem Rechner?</string>
   <string name="dialog_rating_desc_less">Können Sie uns auch Ihr Feedback geben?</string>
@@ -246,6 +249,7 @@
   <string name="item_title_vel_conversion">Geschwindigkeit</string>
   <string name="item_title_volume_conversion">Volumen</string>
   <string name="item_title_weight_conversion">Gewicht</string>
+  <string name="l_name_discount">Preisnachlass (%s Rabatt)</string>
   <string name="label_about">Über</string>
   <string name="label_clear_history">Alles löschen</string>
   <string name="label_date_difference">Datumsunterschied</string>
@@ -380,6 +384,7 @@ Einjährige und fünfjährige LPRs werden am 20. eines jeden Monats (Verzögerun
   <string name="name_amount">Betrag</string>
   <string name="name_discount">Rabatt (% aus)</string>
   <string name="name_is">Ergebnis</string>
+  <string name="name_of">Gesamt</string>
   <string name="name_original">Originalpreis</string>
   <string name="name_people">Leute</string>
   <string name="name_percentage">Prozent (%)</string>
@@ -391,6 +396,7 @@ Einjährige und fünfjährige LPRs werden am 20. eines jeden Monats (Verzögerun
   <string name="network_confirm_title">Netzwerkanforderung</string>
   <string name="network_privacy">Beachten Sie, dass diese App eine Internetverbindung herstellen und die erforderlichen persönlichen Daten sammeln muss, um Ihnen Dienste anbieten zu können. Wir werden Ihre persönlichen Daten in Übereinstimmung mit den relevanten Gesetzen, Vorschriften und Datenschutzrichtlinien schützen.</string>
   <string name="network_purpose">Willkommen bei Rechner! Rechner ermöglicht Ihnen Währungsumrechnung, Berechnung von Hypothekenrückzahlungen und vieles mehr.</string>
+  <string name="new_privacy_string"><Data>"Willkommen bei Rechner!&lt;br/>Diese App enthält die folgenden Funktionen:&lt;br/>• Einfacher Rechner&lt;br/>• Wissenschaftlicher Rechner&lt;br/>• Universalumrechner (z. B. Währung, Maßeinheiten etc.)&lt;br/>• Berechnungsvorlagen für Kredite, Investitionen, EMI und mehr&lt;br/>Rechner muss erforderliche persönliche Informationen sammeln, um Ihnen grundlegende Dienste anbieten zu können. Wie wir mit den Informationen umgehen, die wir in unserer sammeln, erfahren Sie in unserer  &lt;a href= \"%1$s\">Datenschutzerklärung&lt;/a>. Lesen und akzeptieren Sie unsere &lt;a href=\"%2$s\">Nutzervereinbarung&lt;/a> und &lt;a href=\"%3$s\">Datenschutzerklärung&lt;/a>, bevor Sie Rechner nutzen. Sie können Ihre Zustimmung zur Datenschutzerklärung von Rechner jederzeit in den Einstellungen widerrufen. Wenn Sie mit unserer Datenschutzerklärung nicht einverstanden sind, können Sie einige Funktionen dieser App nicht nutzen; die Grundfunktionalität steht Ihnen jedoch weiterhin zur Verfügung."</Data></string>
   <string name="night">Abend</string>
   <string name="no_network">Keine Netzwerkverbindung</string>
   <string name="no_sim">Keine SIM-Karte gefunden</string>
@@ -435,8 +441,11 @@ Beachten Sie, dass diese App eine Internetverbindung und folgende Berechtigungen
   <string name="preference_use_voice">Sprachausgabe</string>
   <string name="preference_use_voice_summary">Option aktivieren, um Sprachausgabe während der Berechnungen zu verwenden</string>
   <string name="preference_use_voice_title">Sprachausgabe</string>
+  <string name="privacy_dialog_title">Datenschutz</string>
   <string name="privacy_disagree">Wenn Sie mit unseren Datenschutzbestimmungen nicht einverstanden sind, wird Mi Rechner die Datensammlung beenden und alle zugehörigen Daten werden von den Servern gelöscht. Eventuell können Sie bestimmte Funktionen in der App nicht nutzen. Lehnen Sie trotzdem ab?</string>
   <string name="privacy_policy">Datenschutzerklärung</string>
+  <string name="privacy_revoke_error">Widerrufen nicht möglich. Erneut versuchen.</string>
+  <string name="privacy_revoke_progress">Widerrufen…</string>
   <string name="privacy_switch">Datenschutzerklärung akzeptieren</string>
   <string name="privacy_switch_disagree">Ablehnen</string>
   <string name="pull_to_refresh">Für Verlaufsansicht herunterziehen</string>
@@ -812,6 +821,7 @@ Beachten Sie, dass diese App eine Internetverbindung und folgende Berechtigungen
   <string name="unit_yuan">EUR</string>
   <string name="updating">Rechner aktualisieren…</string>
   <string name="user_agreement">Nutzervereinbarung</string>
+  <string name="user_experience_program_title">Anwender-Erfahrungsprogramm</string>
   <string name="user_manual">Benutzerhandbuch</string>
   <string name="view_float_window_move">Minimierten Rechner verschieben</string>
   <string name="voiceDesc">Sprachsteuerung</string>
@@ -826,6 +836,7 @@ Beachten Sie, dass diese App eine Internetverbindung und folgende Berechtigungen
   <string name="wednesday_shortest">M</string>
   <string name="weight_prompt">Gewicht</string>
   <string name="wf_word_figure">Finanzmathematik</string>
+  <string name="withdraw_network_error">Ihr Gerät benötigt eine Netzwerkverbindung, um Ihre Zustimmung widerrufen zu können. Netzwerkeinstellungen prüfen und erneut versuchen.</string>
   <string name="word_figure_guide_text">Text gedrückt halten, um zwischen den Fällen zu konvertieren</string>
   <string name="xiaomi_connect_download_manager_fail">Verbindung zu Downloads herstellen nicht möglich. Prüfen Sie, ob diese App alle erforderlichen Berechtigungen unter Einstellungen &gt; Installierte Apps hat.</string>
   <string name="xiaomi_external_storage_unavailable">Kein freier Speicher, prüfen Sie die SD-Karte</string>

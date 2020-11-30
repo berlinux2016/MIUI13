@@ -1,5 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+  <string name="about_checking_update">Update prüfen…</string>
+  <string name="about_go_to_update">Zum Update gehen</string>
+  <string name="about_lasted_version">Es ist die neueste Ausgabe</string>
+  <string name="account_setting_general_summry">Allgemeine E-Mail-Funktionen festlegen</string>
+  <string name="account_setting_general_title">Funktionseinstellungen</string>
+  <string name="account_settings_background_attachments_title">Anhänge automatisch herunterladen</string>
+  <string name="account_settings_does_not_support_pop">Das POP3-Protokoll unterstützt die Einstellung dieses Elements nicht</string>
+  <string name="account_settings_only_notify_inbox">Nur Push für E-Mail-Eingang</string>
+  <string name="action_filter">Filter</string>
   <string name="bottom_bar_more_pdf">Als PDF exportieren</string>
   <string name="bottom_bar_more_pdf_exporting">Exportieren…</string>
   <string name="contain_view_all_body">Vollständigen Text der Nachricht anzeigen</string>
@@ -9,6 +18,8 @@
   <string name="drive_card_tips">Gefundener Freigabelink von %s</string>
   <string name="drive_card_title">Speicherkartenlink</string>
   <string name="expand_button_title">Erweitert</string>
+  <string name="install_mime_encrypt_cert">S/MIME-Verschlüsselungszertifikat installieren</string>
+  <string name="install_mime_sign_cert">S/MIME-Signatur-Zertifikat installieren</string>
   <string name="invoice_card_amount">Betrag</string>
   <string name="invoice_card_buyer">Käufer</string>
   <string name="invoice_card_date">Datum</string>
@@ -16,52 +27,39 @@
   <string name="invoice_card_save">Rechnung speichern</string>
   <string name="invoice_card_seller">Verkäufer</string>
   <string name="invoice_card_title">E-Rechnung</string>
+  <string name="login_manual">Manuelle Einstellung</string>
   <string name="login_err_outlook_msg">"%s
 Bitte bestätigen Sie, ob das App-Kennwort an ist. Falls es an ist, gehen Sie bitte auf die Microsoft-Webseite, um das App-Kennwort zurückzusetzen."</string>
+  <string name="mailbox_setting_preference_sync_summary_close">Synchronisierung: Aus</string>
+  <string name="mailbox_setting_preference_sync_summary_open">Synchronisierung: Ein</string>
   <string name="message_all_body">Vollständiger Text</string>
+  <string name="net_error">Netzwerkfehler, später erneut versuchen</string>
   <string name="not_set">Nicht festgelegt</string>
   <string name="pdf_save_error">Dokument (Body?) ist zu gross, es kann nicht als PDF-Datei exportiert werden</string>
   <string name="pdf_save_no_body">Warten Sie, bis der Text erfolgreich geladen wurde und versuchen Sie es erneut</string>
   <string name="pdf_save_to">Gespeichert in</string>
   <string name="preference_copied">\"%1$s\" in Zwischenablage kopiert.</string>
+  <string name="server_log">Dienstvereinbarung</string>
+  <string name="toastbar_calendar_and_contacts_permission_switch_allow_only_using">Kalender und Kontaktinformationen können nicht in Echtzeit synchronisiert werden, bitte setzen Sie die entsprechenden Berechtigungen auf \"Immer erlauben\".</string>
+  <string name="toastbar_calendar_permission_switch_allow_only_using">Der E-Mail-Kalender kann nicht in Echtzeit synchronisiert werden, bitte setzen Sie die Kalenderberechtigung auf \"Immer erlauben\".</string>
+  <string name="toastbar_contacts_permission_switch_allow_only_using">Kontaktinformationen können nicht in Echtzeit synchronisiert werden, bitte setzen Sie die Kontakberechtigung auf \"Immer erlauben\".</string>
   <string name="train_card_title">Zugfahrkarte erfolgreich gekauft</string>
   <string name="train_card_title_alternate">Warten auf Zugfahrkarte erfolgreich</string>
   <string name="train_card_title_change">Zugfahrkarte erfolgreich geändert</string>
   <string name="train_card_title_change_arrival">Zugfahrkarte erfolgreich geändert</string>
   <string name="train_card_title_refund">Zugfahrkarte erfolgreich zurückerstattet</string>
-  <string name="v7_preference_off">AUS</string>
-  <string name="v7_preference_on">EIN</string>
-  <string name="wps_card_button_tips">Kingsoft-Dokument öffnen</string>
-  <string name="wps_card_tips">Gefundenen Link von \"%s\" teilen</string>
-  <string name="wps_card_title">Kingsoft-Dokument</string>
-
-  <string name="account_settings_only_notify_inbox">Nur Push für E-Mail-Eingang</string>
-  <string name="net_error">Netzwerkfehler, später erneut versuchen</string>
-  <string name="toastbar_calendar_and_contacts_permission_switch_allow_only_using">Schedule and contact information cannot be synchronized in real time, please set related permissions to \"Always Allow\"</string>
-  <string name="toastbar_calendar_permission_switch_allow_only_using">The email schedule cannot be synchronized in real time, please set the calendar permission to \"Always Allow\"</string>
-  <string name="toastbar_contacts_permission_switch_allow_only_using">Contact information cannot be synchronized in real time, please set the contact permission to \"Always Allow\"</string>
-  <string name="train_travel_refund_info" formatted="false">Refund fee ¥%s, refundable fee ¥%s</string>
-
-  <string name="about_checking_update">Update prüfen…</string>
-  <string name="about_go_to_update">Zum Update gehen</string>
-  <string name="about_lasted_version">Es ist die neueste Ausgabe</string>
-  <string name="account_setting_general_summry">Allgemeine E-Mail-Funktionen festlegen</string>
-  <string name="account_setting_general_title">Funktionseinstellungen</string>
-  <string name="account_settings_background_attachments_title">Anhänge automatisch herunterladen</string>
-  <string name="account_settings_does_not_support_pop">Das POP3-Protokoll unterstützt die Einstellung dieses Elements nicht</string>
-  <string name="action_filter">Filter</string>
-  <string name="install_mime_encrypt_cert">S/MIME-Verschlüsselungszertifikat installieren</string>
-  <string name="install_mime_sign_cert">S/MIME-Signatur-Zertifikat installieren</string>
-  <string name="login_manual">Manuelle Einstellung</string>
-  <string name="mailbox_setting_preference_sync_summary_close">Synchronisierung: Aus</string>
-  <string name="mailbox_setting_preference_sync_summary_open">Synchronisierung: Ein</string>
-  <string name="server_log">Dienstvereinbarung</string>
+  <string name="train_travel_refund_info" formatted="false">Rückerstattungsgebühr ¥%s, erstattungsfähige Gebühr ¥%s</string>
   <string name="user_experience_content">Bitte bestätigen Sie, dass Sie den \"Benutzererfahrungsplan\" gelesen haben und diesem zustimmen.</string>
   <string name="user_experience_log">Benutzererfahrungsplan</string>
   <string name="user_experience_login">Teilnehmen</string>
   <string name="user_experience_logout">Das Erfahrungsprogramm beenden</string>
   <string name="user_experience_positive">Zustimmen und weiter</string>
   <string name="user_experience_title">Erklärung und Bedingungen</string>
+  <string name="v7_preference_off">AUS</string>
+  <string name="v7_preference_on">EIN</string>
+  <string name="wps_card_button_tips">Kingsoft-Dokument öffnen</string>
+  <string name="wps_card_tips">Gefundenen Link von \"%s\" teilen</string>
+  <string name="wps_card_title">Kingsoft-Dokument</string>
 
   <string name="SMTP_independent_verification_text">SMTP-unabhängige Verifizierung</string>
   <string name="SMTP_password_text">Passwort</string>
