@@ -3,14 +3,14 @@
     <string name="abc_slice_error">Verbindung nicht möglich</string>
     <string name="abc_slice_more">Mehr</string>
     <string name="abc_slice_permission_allow">Erlauben</string>
-    <string name="abc_slice_permission_checkbox">%1$s erlauben, Slices aus jeder App anzuzeigen</string>
+    <string name="abc_slice_permission_checkbox">%1$s erlauben, Teile aus jeder App anzuzeigen</string>
     <string name="abc_slice_permission_deny">Ablehnen</string>
     <string name="abc_slice_permission_text_1">- Kann Informationen aus %1$s lesen</string>
     <string name="abc_slice_permission_text_2">- Kann Aktionen innerhalb von %1$s durchführen</string>
-    <string name="abc_slice_permission_title">%1$s erlauben, %2$s Scheiben anzuzeigen?</string>
+    <string name="abc_slice_permission_title">%1$s erlauben, %2$s Teile anzuzeigen?</string>
     <string name="abc_slice_show_more">Mehr anzeigen</string>
     <string name="abc_slice_updated">%1$s aktulisiert</string>
-    <string name="abc_slices_permission_request">%1$s will %2$s Scheiben anzeigen</string>
+    <string name="abc_slices_permission_request">%1$s will %2$s Teile anzeigen</string>
     <string name="accessibility_action_pip_resize">Größe ändern</string>
     <string name="accessibility_battery_level_with_estimate">Akku %1$s Prozent, ca. %2$s übrig auf Ihrem Verbrauch basierend</string>
     <string name="accessibility_bubble_dismissed">Blase abgewiesen</string>
@@ -358,81 +358,81 @@ Weiterhin anzeigen?"</string>
     <string name="screenrecord_start_label">Aufnahme starten?</string>
     <string name="screenrecord_stop_label">Anhalten</string>
     <string name="screenrecord_stop_text">Tippen zum Anhalten</string>
-    <string name="screenrecord_taps_label">Show touches on screen</string>
-    <string name="screenshot_dismiss_ui_description">Dismiss screenshot</string>
-    <string name="screenshot_failed_to_save_unknown_text">Try taking screenshot again</string>
-    <string name="screenshot_preview_description">Screenshot preview</string>
-    <string name="see_more_title">See more</string>
-    <string name="sensor_privacy_mode">Sensors off</string>
-    <string name="slice_permission_allow">Allow</string>
-    <string name="slice_permission_checkbox">Allow %1$s to show slices from any app</string>
-    <string name="slice_permission_deny">Deny</string>
-    <string name="slice_permission_text_1">- It can read information from %1$s</string>
-    <string name="slice_permission_text_2">- It can take actions inside %1$s</string>
-    <string name="slice_permission_title">Allow %1$s to show %2$s slices?</string>
-    <string name="tile_unavailable">Unavailable</string>
-    <string name="tuner_low_priority">Show low-priority notification icons</string>
-    <string name="usb_accessory_confirm_prompt">Open %1$s to handle %2$s?</string>
-    <string name="usb_accessory_permission_prompt">Allow %1$s to access %2$s?</string>
-    <string name="usb_contaminant_message">"To protect your device from liquid or debris, the USB port is disabled and won’t detect any accessories.
+    <string name="screenrecord_taps_label">Berührungen auf dem Bildschirm anzeigen</string>
+    <string name="screenshot_dismiss_ui_description">Screenshot verwerfen</string>
+    <string name="screenshot_failed_to_save_unknown_text">Versuchen Sie erneut, einen Screenshot zu machen</string>
+    <string name="screenshot_preview_description">Screenshot-Vorschau</string>
+    <string name="see_more_title">Mehr anzeigen</string>
+    <string name="sensor_privacy_mode">Sensoren aus</string>
+    <string name="slice_permission_allow">Erlauben</string>
+    <string name="slice_permission_checkbox">%1$s erlauben, Teile aus jeder App anzuzeigen</string>
+    <string name="slice_permission_deny">Ablehnen</string>
+    <string name="slice_permission_text_1">- Kann Informationen aus %1$s lesen</string>
+    <string name="slice_permission_text_2">- Kann Aktionen innerhalb von %1$s durchführen</string>
+    <string name="slice_permission_title">Erlauben Sie %1$s, %2$s Teile anzuzeigen?</string>
+    <string name="tile_unavailable">Nicht verfügbar</string>
+    <string name="tuner_low_priority">Symbole für Benachrichtigungen mit niedriger Priorität anzeigen</string>
+    <string name="usb_accessory_confirm_prompt">%1$s öffnen, um %2$s zu bearbeiten?</string>
+    <string name="usb_accessory_permission_prompt">%1$s den Zugriff auf %2$s erlauben?</string>
+    <string name="usb_contaminant_message">"Um Ihr Gerät vor Flüssigkeit oder Schmutz zu schützen, ist der USB-Anschluss deaktiviert und erkennt kein Zubehör.
 
-You’ll be notified when it’s okay to use the USB port again."</string>
-    <string name="usb_contaminant_title">USB port disabled</string>
-    <string name="usb_debugging_allow">Allow</string>
-    <string name="usb_device_confirm_prompt">Open %1$s to handle %2$s?</string>
-    <string name="usb_device_confirm_prompt_warn">"Open %1$s to handle %2$s?
-This app has not been granted record permission but could capture audio through this USB device."</string>
-    <string name="usb_device_permission_prompt">Allow %1$s to access %2$s?</string>
-    <string name="usb_device_permission_prompt_warn">"Allow %1$s to access %2$s?
-This app has not been granted record permission but could capture audio through this USB device."</string>
-    <string name="usb_disable_contaminant_detection">Enable USB</string>
-    <string name="usb_port_enabled">USB port enabled to detect chargers and accessories</string>
-    <string name="user_limit_reached_title">User limit reached</string>
-    <string name="volume_dialog_ringer_guidance_ring">Calls and notifications will ring (%1$s)</string>
-    <string name="volume_dialog_title">%s volume controls</string>
-    <string name="volume_odi_captions_content_description">Captions overlay</string>
-    <string name="volume_odi_captions_hint_disable">disable</string>
-    <string name="volume_odi_captions_hint_enable">enable</string>
-    <string name="volume_odi_captions_tip">Automatically caption media</string>
-    <string name="volume_ringer_status_normal">Ring</string>
-    <string name="volume_ringer_status_silent">Mute</string>
-    <string name="volume_ringer_status_vibrate">Vibrate</string>
+Sie werden benachrichtigt, wenn es in Ordnung ist, den USB-Anschluss wieder zu benutzen."</string>
+    <string name="usb_contaminant_title">USB-Port dektiviert</string>
+    <string name="usb_debugging_allow">Erlauben</string>
+    <string name="usb_device_confirm_prompt">%1$s öffnen, um %2$s zu bearbeiten?</string>
+    <string name="usb_device_confirm_prompt_warn">%1$s öffnen, um %2$s zu bearbeiten?
+Diese App hat keine Aufnahmeberechtigung erhalten, konnte aber Audio über dieses USB-Gerät aufnehmen."</string>
+    <string name="usb_device_permission_prompt">%1$s Zugriff auf %2$s erlauben?</string>
+    <string name="usb_device_permission_prompt_warn">"%1$s Zugriff auf %2$s erlauben?
+Diese App hat keine Aufnahmeberechtigung erhalten, konnte aber Audio über dieses USB-Gerät aufnehmen."</string>
+    <string name="usb_disable_contaminant_detection">USB aktivieren</string>
+    <string name="usb_port_enabled">USB-Port zur Erkennung von Ladegeräten und Zubehör aktiviert</string>
+    <string name="user_limit_reached_title">Nutzerlimit erreicht</string>
+    <string name="volume_dialog_ringer_guidance_ring">Anrufe und Benachrichtigungen werden klingeln (%1$s)</string>
+    <string name="volume_dialog_title">%s Lautstärkeregler</string>
+    <string name="volume_odi_captions_content_description">Beschriftungen überlagern</string>
+    <string name="volume_odi_captions_hint_disable">deaktivieren</string>
+    <string name="volume_odi_captions_hint_enable">aktivieren</string>
+    <string name="volume_odi_captions_tip">Medien automatisch beschriften</string>
+    <string name="volume_ringer_status_normal">Klingeln</string>
+    <string name="volume_ringer_status_silent">Stumm</string>
+    <string name="volume_ringer_status_vibrate">Vibrieren</string>
 
-  <string name="biometric_dialog_authenticated">Authenticated</string>
-  <string name="biometric_dialog_credential_attempts_before_wipe">Try again. Attempt %1$d of %2$d.</string>
-  <string name="biometric_dialog_credential_too_many_attempts">"Too many incorrect attempts.
-Try again in %d seconds."</string>
-  <string name="biometric_dialog_empty_space_description">Tap to cancel authentication</string>
-  <string name="biometric_dialog_face_icon_description_authenticated">Face authenticated</string>
-  <string name="biometric_dialog_face_icon_description_authenticating">Looking for your face</string>
-  <string name="biometric_dialog_face_icon_description_confirmed">Confirmed</string>
-  <string name="biometric_dialog_face_icon_description_idle">Please try again</string>
-  <string name="biometric_dialog_failed_attempts_now_wiping_device">Too many incorrect attempts. This device’s data will be deleted.</string>
-  <string name="biometric_dialog_failed_attempts_now_wiping_profile">Too many incorrect attempts. This work profile and its data will be deleted.</string>
-  <string name="biometric_dialog_failed_attempts_now_wiping_user">Too many incorrect attempts. This user will be deleted.</string>
-  <string name="biometric_dialog_last_attempt_before_wipe_dialog_title">Your data will be deleted</string>
-  <string name="biometric_dialog_last_password_attempt_before_wipe_device">If you enter an incorrect password on the next attempt, this device’s data will be deleted.</string>
-  <string name="biometric_dialog_last_password_attempt_before_wipe_profile">If you enter an incorrect password on the next attempt, your work profile and its data will be deleted.</string>
-  <string name="biometric_dialog_last_password_attempt_before_wipe_user">If you enter an incorrect password on the next attempt, this user will be deleted.</string>
-  <string name="biometric_dialog_last_pattern_attempt_before_wipe_device">If you enter an incorrect pattern on the next attempt, this device’s data will be deleted.</string>
-  <string name="biometric_dialog_last_pattern_attempt_before_wipe_profile">If you enter an incorrect pattern on the next attempt, your work profile and its data will be deleted.</string>
-  <string name="biometric_dialog_last_pattern_attempt_before_wipe_user">If you enter an incorrect pattern on the next attempt, this user will be deleted.</string>
-  <string name="biometric_dialog_last_pin_attempt_before_wipe_device">If you enter an incorrect PIN on the next attempt, this device’s data will be deleted.</string>
-  <string name="biometric_dialog_last_pin_attempt_before_wipe_profile">If you enter an incorrect PIN on the next attempt, your work profile and its data will be deleted.</string>
-  <string name="biometric_dialog_last_pin_attempt_before_wipe_user">If you enter an incorrect PIN on the next attempt, this user will be deleted.</string>
-  <string name="biometric_dialog_now_wiping_dialog_dismiss">Dismiss</string>
-  <string name="biometric_dialog_tap_confirm">Tap Confirm to complete</string>
-  <string name="biometric_dialog_use_password">Use password</string>
-  <string name="biometric_dialog_use_pattern">Use pattern</string>
-  <string name="biometric_dialog_use_pin">Use PIN</string>
-  <string name="biometric_dialog_wrong_password">Wrong password</string>
-  <string name="biometric_dialog_wrong_pattern">Wrong pattern</string>
-  <string name="biometric_dialog_wrong_pin">Wrong PIN</string>
-  <string name="keyguard_retry">Swipe up to try again</string>
+  <string name="biometric_dialog_authenticated">Authentifizieren</string>
+  <string name="biometric_dialog_credential_attempts_before_wipe">Erneut versuchen. Versuch %1$d von %2$d.</string>
+  <string name="biometric_dialog_credential_too_many_attempts">"Zu viele Fehlversuche.
+In %d Sekunden erneut versuchen."</string>
+  <string name="biometric_dialog_empty_space_description">Tippen zum Authentifizierung abbrechen</string>
+  <string name="biometric_dialog_face_icon_description_authenticated">Gesicht authentifiziert</string>
+  <string name="biometric_dialog_face_icon_description_authenticating">Nach Ihrem Gesicht suchen</string>
+  <string name="biometric_dialog_face_icon_description_confirmed">Bestätigt</string>
+  <string name="biometric_dialog_face_icon_description_idle">Bitte erneut versuchen</string>
+  <string name="biometric_dialog_failed_attempts_now_wiping_device">Zu viele Fehlversuche. Daten dieses Geräts werden gelöscht.</string>
+  <string name="biometric_dialog_failed_attempts_now_wiping_profile">Zu viele Fehlversuche. Dieses Arbeitsprofil und seine Daten werden gelöscht.</string>
+  <string name="biometric_dialog_failed_attempts_now_wiping_user">Zu viele Fehlversuche. Dieser Nutzer wird gelöscht.</string>
+  <string name="biometric_dialog_last_attempt_before_wipe_dialog_title">Ihre Daten werden gelöscht</string>
+  <string name="biometric_dialog_last_password_attempt_before_wipe_device">Wenn Sie beim nächsten Versuch ein falsches Passwort eingeben, werden die Daten dieses Geräts gelöscht.</string>
+  <string name="biometric_dialog_last_password_attempt_before_wipe_profile">Wenn Sie beim nächsten Versuch ein falsches Passwort eingeben, werden Ihr Arbeitsprofil und dessen Daten gelöscht.</string>
+  <string name="biometric_dialog_last_password_attempt_before_wipe_user">Wenn Sie beim nächsten Versuch ein falsches Passwort eingeben, wird dieser Nutzer gelöscht.</string>
+  <string name="biometric_dialog_last_pattern_attempt_before_wipe_device">Wenn Sie beim nächsten Versuch ein falsches Muster eingeben, werden die Daten dieses Geräts gelöscht.</string>
+  <string name="biometric_dialog_last_pattern_attempt_before_wipe_profile">Wenn Sie beim nächsten Versuch ein falsches Muster eingeben, werden Ihr Arbeitsprofil und dessen Daten gelöscht.</string>
+  <string name="biometric_dialog_last_pattern_attempt_before_wipe_user">Wenn Sie beim nächsten Versuch ein falsches Muster eingeben, wird dieser Nutzer gelöscht.</string>
+  <string name="biometric_dialog_last_pin_attempt_before_wipe_device">Wenn Sie beim nächsten Versuch eine falsche PIN eingeben, werden die Daten dieses Geräts gelöscht.</string>
+  <string name="biometric_dialog_last_pin_attempt_before_wipe_profile">Wenn Sie beim nächsten Versuch eine falsche PIN eingeben, werden Ihr Arbeitsprofil und dessen Daten gelöscht.</string>
+  <string name="biometric_dialog_last_pin_attempt_before_wipe_user">Wenn Sie beim nächsten Versuch eine falsche PIN eingeben, wird dieser Nutzer gelöscht.</string>
+  <string name="biometric_dialog_now_wiping_dialog_dismiss">Verwerfen</string>
+  <string name="biometric_dialog_tap_confirm">Zum Abschließen auf Bestätigen tippen</string>
+  <string name="biometric_dialog_use_password">Passwort verwenden</string>
+  <string name="biometric_dialog_use_pattern">Muster verwenden</string>
+  <string name="biometric_dialog_use_pin">PIN verwenden</string>
+  <string name="biometric_dialog_wrong_password">Falsches Passwort</string>
+  <string name="biometric_dialog_wrong_pattern">Falsches Muster</string>
+  <string name="biometric_dialog_wrong_pin">Falscher PIN</string>
+  <string name="keyguard_retry">Nach oben wischen für einen neuen Versuch</string>
 
   <string name="accessibility_display_daltonizer_preference_subtitle">Mit der Farbkorrektur können Sie anpassen, wie Farben auf Ihrem Bildschirm angezeigt werden</string>
 <!-- not translated -->
-  <string name="accessibility_work_profile_app_description">Work %s</string>
+  <string name="accessibility_work_profile_app_description">Arbeit %s</string>
   <string name="accessor_expires_text">Freigabe läuft am %s ab</string>
   <string name="accessor_info_title">Apps, die Daten teilen</string>
   <string name="accessor_no_description_text">Keine von der App bereitgestellte Beschreibung verfügbar.</string>
@@ -443,25 +443,25 @@ Try again in %d seconds."</string>
   <string name="adb_pair_method_qrcode_summary">Neue Geräte über QR-Codescanner koppeln</string>
   <string name="adb_pair_method_qrcode_title">Gerät über einen QR-Code koppeln</string>
   <string name="adb_paired_devices_title">Gekoppelte Geräte</string>
-  <string name="adb_pairing_device_dialog_failed_msg">Prüfe, ob das Gerät mit demselben Netzwerk verbunden ist.</string>
+  <string name="adb_pairing_device_dialog_failed_msg">Prüfen Sie, ob das Gerät mit demselben Netzwerk verbunden ist.</string>
   <string name="adb_pairing_device_dialog_failed_title">Kopplung fehlgeschlagen</string>
   <string name="adb_pairing_device_dialog_pairing_code_label">WLAN-Kopplungscode</string>
   <string name="adb_pairing_device_dialog_title">Mit Gerät koppeln</string>
   <string name="adb_qrcode_pairing_device_failed_msg">Das Gerät konnte nicht gekoppelt werden. Der QR-Code war nicht korrekt oder das Gerät ist nicht mit demselben Netzwerk verbunden.</string>
-  <string name="adb_wireless_connection_failed_message">Prüfe, ob %1$s mit dem richtigen Netzwerk verbunden ist</string>
+  <string name="adb_wireless_connection_failed_message">Prüfen Sie, ob %1$s mit dem richtigen Netzwerk verbunden ist</string>
   <string name="adb_wireless_connection_failed_title">Verbindung fehlgeschlagen</string>
   <string name="adb_wireless_device_connected_summary">Derzeit verbunden</string>
   <string name="adb_wireless_device_details_title">Gerätedetails</string>
   <string name="adb_wireless_error">Fehler</string>
   <string name="adb_wireless_ip_addr_preference_title">IP-Adresse &amp; Port</string>
-  <string name="adb_wireless_list_empty_off">Aktiviere \"Debugging über WLAN\", um verfügbare Geräte zu sehen und zu verwenden</string>
-  <string name="adb_wireless_no_network_msg">Bitte stell eine WLAN-Verbindung her</string>
-  <string name="adb_wireless_qrcode_pairing_description">Scanne einen QR-Code, um ein Gerät über WLAN zu koppeln</string>
+  <string name="adb_wireless_list_empty_off">\"Debugging über WLAN\" aktivieren, um verfügbare Geräte zu sehen und zu verwenden</string>
+  <string name="adb_wireless_no_network_msg">Bitte eine WLAN-Verbindung herstellen</string>
+  <string name="adb_wireless_qrcode_pairing_description">Einen QR-Code scannen, um ein Gerät über WLAN zu koppeln</string>
   <string name="adb_wireless_qrcode_pairing_title">QR-Code scannen</string>
-  <string name="adb_wireless_qrcode_summary">Scanne einen QR-Code, um das Gerät über WLAN zu koppeln</string>
+  <string name="adb_wireless_qrcode_summary">Einen QR-Code scannen, um das Gerät über WLAN zu koppeln</string>
   <string name="adb_wireless_settings">Debugging über WLAN</string>
-  <string name="adb_wireless_verifying_qrcode_text">Gerät wird gekoppelt…</string>
-  <string name="adbwifi_warning_message">\"Debugging über WLAN\" ist nur für Entwicklungszwecke vorgesehen. Damit kannst du Daten zwischen deinem Computer und deinem Gerät kopieren, Apps auf deinem Gerät ohne Benachrichtigung installieren und Protokolldaten lesen.</string>
+  <string name="adb_wireless_verifying_qrcode_text">Gerät koppeln…</string>
+  <string name="adbwifi_warning_message">\"Debugging über WLAN\" ist nur für Entwicklungszwecke vorgesehen. Damit können Sie Daten zwischen Ihrem Computer und Ihrem Gerät kopieren, Apps auf Ihrem Gerät ohne Benachrichtigung installieren und Protokolldaten lesen.</string>
   <string name="adbwifi_warning_title">\"Debugging über WLAN\" zulassen?</string>
   <string name="auto_connect_disable">Automatische Verbindung ist deaktiviert</string>
   <string name="available_via_app">Über %1$s verfügbar</string>
@@ -470,21 +470,21 @@ Try again in %d seconds."</string>
   <string name="blob_expires_text">Läuft am %s ab</string>
   <string name="blob_id_text">ID für geteilte Daten: %d</string>
 <!-- change for and11 -->
-  <string name="bluetooth_connected_battery_level">Connected, battery %1$s%2$s</string>
-  <string name="bluetooth_connected_no_a2dp_battery_level">Connected (no media), battery %1$s%2$s</string>
-  <string name="bluetooth_connected_no_headset_battery_level">Connected (no phone), battery %1$s%2$s</string>
-  <string name="bluetooth_connected_no_headset_no_a2dp_battery_level">Connected (no phone or media), battery %1$s%2$s</string>
+  <string name="bluetooth_connected_battery_level">Verbunden, Akku %1$s%2$s</string>
+  <string name="bluetooth_connected_no_a2dp_battery_level">Verbunden (keine Medien), Akku %1$s%2$s</string>
+  <string name="bluetooth_connected_no_headset_battery_level">Verbunden (keine Telefon), Akku %1$s%2$s</string>
+  <string name="bluetooth_connected_no_headset_no_a2dp_battery_level">Verbunden (kein Telefon oder Medien), Akku %1$s%2$s</string>
   <string name="bluetooth_enable_gabeldorsche">Bluetooth-Gabeldorsche aktivieren</string>
   <string name="bluetooth_enable_gabeldorsche_summary">Aktiviert das Bluetooth-Gabeldorsche-Funktionspaket.</string>
-  <string name="bluetooth_select_a2dp_codec_type_help_info">Wenn etwas ausgegraut ist, wird es nicht vom Telefon oder Headset unterstützt</string>
+  <string name="bluetooth_select_a2dp_codec_type_help_info">Wenn etwas ausgegraut ist, wird es nicht vom Telefon oder Kopfhörer unterstützt</string>
   <string name="bluetooth_select_map_version_dialog_title">Bluetooth MAP-Version auswählen</string>
   <string name="bluetooth_select_map_version_string">Bluetooth MAP-Version</string>
 <!-- not translated -->
-  <string name="cached_apps_freezer_device_default">Device default</string>
-  <string name="cached_apps_freezer_disabled">Disabled</string>
-  <string name="cached_apps_freezer_enabled">Enabled</string>
-  <string name="cached_apps_freezer_reboot_dialog_text">Your device must be rebooted for this change to apply. Reboot now or cancel.</string>
-  <string name="delete_blob_confirmation_text">Bist du sicher, dass du diese geteilten Daten löschen möchtest?</string>
+  <string name="cached_apps_freezer_device_default">Gerätevoreinstellung</string>
+  <string name="cached_apps_freezer_disabled">Deaktiviert</string>
+  <string name="cached_apps_freezer_enabled">Aktiviert</string>
+  <string name="cached_apps_freezer_reboot_dialog_text">Ihr Gerät muss neu gestartet werden, damit diese Änderung wirksam wird. Starten Sie jetzt neu oder brechen Sie den Vorgang ab.</string>
+  <string name="delete_blob_confirmation_text">Sind Sie sicher, dass Sie diese geteilten Daten löschen möchten?</string>
   <string name="delete_blob_text">Geteilte Daten löschen</string>
   <string name="enable_adb_wireless">Debugging über WLAN</string>
   <string name="enable_adb_wireless_summary">Debugging-Modus, wenn eine WLAN-Verbindung besteht</string>
@@ -499,14 +499,14 @@ Try again in %d seconds."</string>
   <string name="imsi_protection_warning">Dieses Netzwerk empfängt eine eindeutige ID, mit der der Gerätestandort erfasst werden kann. <annotation id="url">Weitere Informationen</annotation></string>
   <string name="keywords_adb_wireless">ADB, Debug, Dev</string>
 <!-- change for and11 -->
-  <string name="lockscreen_failed_attempts_almost_at_wipe">You have incorrectly attempted to unlock the phone %1$d times. After %2$d more unsuccessful attempts, the phone will be reset to factory default and all user data will be lost.</string>
-  <string name="lockscreen_failed_attempts_almost_glogin">"You have incorrectly entered your password %1$d times. After %2$d more unsuccessful attempts, you will be asked to unlock your phone using your Mi Account sign-in.
+  <string name="lockscreen_failed_attempts_almost_at_wipe">Sie haben fälschlicherweise mehrmals versucht, das Telefon %1$d zu entsperren. Nach weiteren erfolglosen Versuchen von %2$d wird das Telefon auf die Werkseinstellungen zurückgesetzt und alle Benutzerdaten gehen verloren.</string>
+  <string name="lockscreen_failed_attempts_almost_glogin">"Sie haben Ihr Passwort %1$d-mal falsch eingegeben. Nach weiteren erfolglosen Versuchen von %2$d werden Sie aufgefordert, Ihr Telefon mit der Anmeldung für Ihr Mi-Konto zu entsperren.
 
- Try again in %3$d seconds."</string>
+In %3$d Sekunden erneut versuchen."</string>
   <string name="media_transfer_this_device_name">Telefonlautsprecher</string>
   <string name="media_transfer_wired_device_name">Netzbetriebenes Audiogerät</string>
-  <string name="power_charging_duration">%1$s – %2$s bis zur Aufladung</string>
-  <string name="power_remaining_charging_duration_only">Noch %1$s bis zur Aufladung</string>
+  <string name="power_charging_duration">%1$s – %2$s bis zum Aufladen</string>
+  <string name="power_remaining_charging_duration_only">Noch %1$s bis zum Aufladen</string>
   <string name="power_remaining_duration_only_shutdown_imminent">Telefon wird eventuell bald ausgeschaltet</string>
   <string name="power_remaining_duration_shutdown_imminent">Telefon wird eventuell bald ausgeschaltet (%1$s)</string>
   <string name="power_remaining_less_than_duration">Weniger als %1$s verbleibend (%2$s)</string>
@@ -515,32 +515,32 @@ Try again in %d seconds."</string>
   <string name="power_remaining_only_more_than_subtext">Mehr als %1$s verbleibend</string>
   <string name="power_suggestion_battery_run_out">Der Akku ist voraussichtlich um %1$s leer</string>
   <string name="private_dns_broken">Auf den privaten DNS-Server kann nicht zugegriffen werden</string>
-  <string name="profile_connect_timeout_subtext">Verbindung kann nicht hergestellt werden. Schalte das Gerät aus &amp; und wieder ein.</string>
+  <string name="profile_connect_timeout_subtext">Verbindung herstellen nicht möglich. Gerät aus und wieder einschalten.</string>
   <string name="profile_info_settings_title">Profilinformationen</string>
   <string name="shared_data_delete_failure_text">Beim Löschen der geteilten Daten ist ein Fehler aufgetreten.</string>
-  <string name="shared_data_no_accessors_dialog_text">Für diese geteilten Daten gibt es keine Freigaben. Möchtest du sie löschen?</string>
+  <string name="shared_data_no_accessors_dialog_text">Für diese geteilten Daten gibt es keine Freigaben. Möchten Sie sie löschen?</string>
   <string name="shared_data_no_blobs_text">Es gibt keine geteilten Daten für diesen Nutzer.</string>
-  <string name="shared_data_query_failure_text">Beim Abrufen der geteilten Daten ist ein Fehler aufgetreten. Versuch es noch einmal.</string>
+  <string name="shared_data_query_failure_text">Beim Abrufen der geteilten Daten ist ein Fehler aufgetreten, erneut versuchen.</string>
   <string name="shared_data_summary">Geteilte Daten anzeigen und ändern</string>
   <string name="shared_data_title">Geteilte Daten</string>
   <string name="storage_category">Speicher</string>
-  <string name="tap_to_renew_subscription_and_connect">Tippen, um das Abo zu verlängern und eine Verbindung herzustellen</string>
-  <string name="user_add_profile_item_summary">Du kannst den Zugriff auf Apps und Inhalte aus deinem Konto beschränken.</string>
+  <string name="tap_to_renew_subscription_and_connect">Tippen Sie, um das Abo zu verlängern und eine Verbindung herzustellen</string>
+  <string name="user_add_profile_item_summary">Sie können den Zugriff auf Apps und Inhalte aus Ihrem Konto beschränken.</string>
   <string name="user_add_profile_item_title">Eingeschränkte Profile</string>
   <string name="user_add_user_item_summary">Die Nutzer haben eigene Apps und Inhalte.</string>
   <string name="user_add_user_item_title">Nutzer</string>
-  <string name="user_add_user_message_long">"Du kannst dieses Gerät zusammen mit anderen nutzen, indem du weitere Nutzer erstellst. Jeder erhält einen eigenen Bereich, in dem er Apps, den Hintergrund usw. personalisieren kann. Außerdem lassen sich Geräteeinstellungen wie WLAN ändern, die sich auf alle Nutzer auswirken.
+  <string name="user_add_user_message_long">"Sie können dieses Gerät zusammen mit anderen nutzen, indem Sie weitere Nutzer erstellen. Jeder erhält einen eigenen Bereich, in dem er Apps, den Hintergrund usw. personalisieren kann. Außerdem lassen sich Geräteeinstellungen wie WLAN ändern, die sich auf alle Nutzer auswirken.
 
-Wenn du einen neuen Nutzer hinzufügst, muss dieser seinen Bereich einrichten.
+Wenn Sie einen neuen Nutzer hinzufügen, muss dieser seinen Bereich einrichten.
 
 Jeder Nutzer kann Apps für alle anderen Nutzer aktualisieren. Bedienungshilfen-Einstellungen und -Dienste werden möglicherweise nicht auf den neuen Nutzer übertragen."</string>
-  <string name="user_add_user_message_short">"Wenn du einen neuen Nutzer hinzufügst, muss dieser seinen Bereich einrichten.
+  <string name="user_add_user_message_short">"Wenn Sie einen neuen Nutzer hinzufügen, muss dieser seinen Bereich einrichten.
 
 Jeder Nutzer kann Apps für alle anderen Nutzer aktualisieren."</string>
   <string name="user_add_user_title">Neuen Nutzer hinzufügen?</string>
   <string name="user_add_user_type_title">Hinzufügen</string>
   <string name="user_info_settings_title">Nutzerinformationen</string>
-  <string name="user_need_lock_message">Vor dem Erstellen eines eingeschränkten Profils musst du eine Displaysperre einrichten, um deine Apps und personenbezogenen Daten zu schützen.</string>
+  <string name="user_need_lock_message">Vor dem Erstellen eines eingeschränkten Profils müsen Sie eine Bildschirmsperre einrichten, um Ihre Apps und personenbezogenen Daten zu schützen.</string>
   <string name="user_new_profile_name">Neues Profil</string>
   <string name="user_new_user_name">Neuer Nutzer</string>
   <string name="user_set_lock_button">Sperre einrichten</string>
