@@ -1,5 +1,33 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+  <string name="add">Hinzufügen</string>
+  <string name="create_home_icon">Verknüpfung zum Startbildschirm</string>
+  <string name="exo_controls_cc_disabled_description">Untertitel aktivieren</string>
+  <string name="exo_controls_cc_enabled_description">Untertitel deaktivieren</string>
+  <string name="exo_controls_fullscreen_enter_description">Vollbild festlegen</string>
+  <string name="exo_controls_fullscreen_exit_description">Vollbild beenden</string>
+  <string name="exo_controls_hide">Spielersteuerung ausblenden</string>
+  <string name="exo_controls_overflow_hide_description">Zusätzliche Einstellungen ausblenden</string>
+  <string name="exo_controls_overflow_show_description">Zusätzliche Einstellungen anzeigen</string>
+  <string name="exo_controls_playback_speed">Geschw.</string>
+  <string name="exo_controls_playback_speed_normal">Normal</string>
+  <string name="exo_controls_seek_bar_description">Wiedergabe läuft…</string>
+  <string name="exo_controls_settings_description">Eintellungen</string>
+  <string name="exo_controls_show">Spielersteuerung anzeigen</string>
+  <string name="exo_controls_shuffle_off_description">Zufall aus</string>
+  <string name="exo_controls_shuffle_on_description">Zufall ein</string>
+  <string name="exo_controls_vr_description">VR-Modus</string>
+  <string name="exo_track_role_alternate">Stellvertreter</string>
+  <string name="exo_track_role_closed_captions">CC</string>
+  <string name="exo_track_role_commentary">Kommentar</string>
+  <string name="exo_track_role_supplementary">Ergänzend</string>
+  <string name="more_icon_style">Weitere Symbole</string>
+  <string name="no_more_notice">Nicht mehr anzeigen</string>
+  <string name="restore_home_icon_text">Zum Startbildschirm hinzufügen</string>
+  <string name="restore_icon_later">Sie können die Verknüpfung zum Startbildschirm in den Einstellungen wieder hinzufügen</string>
+  <string name="uninstall_theme">\"Themen\" vom startbildchirm entfernen?</string>
+  <string name="uninstall_theme_description">Themen ist eine System-App. Sie bietet Hintergrundbilder und mehrere Personalisierungsoptionen. Sie können die Themen weiterhin über Einstellungen verwenden, nachdem Sie die Verknüpfung für den Startbildschirm entfernt haben.</string>
+
   <string name="abc_action_bar_home_description">Zur Startseite</string>
   <string name="abc_action_bar_up_description">Nach oben</string>
   <string name="abc_action_menu_overflow_description">Mehr Optionen</string>
@@ -270,10 +298,10 @@ Themen erkennt, welche Apps Sie verwenden und zeigt transparente Hintergründe i
   <string name="exit_extreme_mode_dialog_title">Extremmodus ausschalten</string>
   <string name="exo_controls_fastforward_description">Schnellvorlauf</string>
   <string name="exo_controls_fullscreen_description">Vollbildmodus</string>
-  <string name="exo_controls_next_description">Nächster Titel</string>
+  <string name="exo_controls_next_description">Nächster</string>
   <string name="exo_controls_pause_description">Pausieren</string>
   <string name="exo_controls_play_description">Abspielen</string>
-  <string name="exo_controls_previous_description">Vorheriger Titel</string>
+  <string name="exo_controls_previous_description">Vorheriger</string>
   <string name="exo_controls_repeat_all_description">Alle wiederholen</string>
   <string name="exo_controls_repeat_off_description">Keinen wiederholen</string>
   <string name="exo_controls_repeat_one_description">Einen wiederholen</string>
@@ -287,7 +315,6 @@ Themen erkennt, welche Apps Sie verwenden und zeigt transparente Hintergründe i
   <string name="exo_download_notification_channel_name">Downloads</string>
   <string name="exo_download_removing">Downloads entfernen</string>
   <string name="exo_item_list">%1$s, %2$s</string>
-  <string name="exo_track_mono">Mono</string>
   <string name="exo_track_selection_auto">Automatisch</string>
   <string name="exo_track_selection_none">Nichts</string>
   <string name="exo_track_selection_title_audio">Audio</string>
@@ -1318,6 +1345,9 @@ Gehen Sie zu Themen > Mein Konto > Themenlabor für weitere Optionen.</string>
   <string name="xiaoai_speech_not_installed_download">Herunterladen</string>
   <string name="xiaoai_speech_not_installed_message">Mi KI Sprachassistent herunterladen und installieren, um fortzufahren</string>
   <string name="xiaoai_speech_not_installed_title">Mi KI Sprachassistent ist nicht installiert</string>
+  <string name="xiaomi_market_sdk_update_dialog_cancel">Jetzt nicht</string>
+  <string name="xiaomi_market_sdk_update_dialog_ok">Aktulisieren</string>
+  <string name="xiaomi_market_sdk_update_dialog_title">Aktualisierung verfügbar</string>
   <string name="xiaomi_update_sdk_connect_download_manager_fail">Verbinden mit Download-Manager fehlgeschlagen. Status des Download-Managers im App-Management prüfen.</string>
   <string name="xiaomi_update_sdk_dialog_message">"Vorstellung der Version %1$s
 Größe: %2$s"</string>
