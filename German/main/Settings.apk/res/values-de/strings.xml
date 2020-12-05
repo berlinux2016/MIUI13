@@ -3459,6 +3459,7 @@ Xiaomi Cloud öffnen und Elemente von dort aus wiederherstellen."</string>
   <string name="instruction_privacy_password">Dieses Passwort schützt die folgenden Inhalte</string>
   <string name="instruction_title">Wichtige Sicherheitshinweise</string>
   <string name="insufficient_storage">Nicht genügend Speicher</string>
+  <string name="intelligence_suppression_title">Automatisch (empfohlen)</string>
   <string name="intent_sender_account_label">Konto:</string>
   <string name="intent_sender_action_label">Aktion:</string>
   <string name="intent_sender_data_label">Daten:</string>
@@ -5720,8 +5721,8 @@ UT Interface: %5$s"</string>
   <string name="reset_title">Zurücksetzen</string>
   <string name="resetting_second_space_passwd">Zweitprofilpasswort wird zurückgesetzt</string>
   <string name="resident_timezone_summary">Duale Uhr</string>
-  <string name="resolution_fhd_summary">2400×1080 (schont den Akku)</string>
-  <string name="resolution_qhd_summary">3200×1440 (sorgt für Klarheit)</string>
+  <string name="resolution_fhd_summary" formatted="false">%d×%d (schont den Akku)</string>
+  <string name="resolution_qhd_summary" formatted="false">%d×%d (sorgt für Klarheit)</string>
   <string name="resolution_sub_title">MIUI könnte die im Hintergrund laufenden Apps schließen, während die Auflösung gewechselt wird</string>
   <string name="resolver_settings_label">Sortieren</string>
   <string name="resource_ringtone_volume_mute">Ihr Klingelton ist auf lautlos eingestellt</string>
@@ -5882,13 +5883,16 @@ Mindestens %s freigeben."</string>
   <string name="screen_enhance_engine_ai_open">Bilder verbessern</string>
   <string name="screen_enhance_engine_ai_pic_summary">Objekte identifizieren (z. B. Pflanzen, Tiere, Gebäude) und Anzeigeeffekte dynamisch anpassen. Diese Funktion erhöht den Stromverbrauch leicht.</string>
   <string name="screen_enhance_engine_ai_title">KI-Bildverbesserung</string>
+  <string name="screen_enhance_engine_memc_note">Videos können nicht verbessert werden, wenn die Superauflösung an ist. Wenn Sie verbesserte Videos einschalten, Superauflösung ausschalten.</string>
   <string name="screen_enhance_engine_memc_pic_summary">Videos zusätzliche Frames hinzufügen, um den Inhalt glatt und die Übergänge lebendig erscheinen zu lassen.</string>
   <string name="screen_enhance_engine_s2h_open">KI HDR-Verbesserung</string>
   <string name="screen_enhance_engine_s2h_pic_summary">Videos mit HDR-Effekten verarbeiten, um mehr Details in den helleren und dunkleren Bereichen hervorzuheben und die Farben lebendiger zu machen. Diese Funktion wird von ausgewählten Apps unterstützt.</string>
   <string name="screen_enhance_engine_s2h_title">KI HDR-Verbesserung</string>
   <string name="screen_enhance_engine_sr_for_pic">Bilder verbessern</string>
   <string name="screen_enhance_engine_sr_for_video">Videos verbessern</string>
+  <string name="screen_enhance_engine_sr_for_video_note">Die Superauflösung funktioniert nicht mit verbesserten Videos. Wenn Sie die Superauflösung aktivieren, verbesserten Videos ausschalten.</string>
   <string name="screen_enhance_engine_sr_pic_summary">Auflösung von Bildern oder Videos auf bis zu 1440p erhöhen. Diese Funktion wird von ausgewählten Apps unterstützt und erhöht den Stromverbrauch leicht.</string>
+  <string name="screen_enhance_engine_sr_pic_summary_video_only">Auflösung von Videos auf bis zu 1440p erhöhen. Diese Funktion wird von ausgewählten Apps unterstützt und erhöht den Stromverbrauch geringfügig.</string>
   <string name="screen_enhance_engine_sr_title">Superauflösung</string>
   <string name="screen_enhance_engine_title">KI-Bildgenerator</string>
   <string name="screen_enhance_status_disable">Aus</string>
