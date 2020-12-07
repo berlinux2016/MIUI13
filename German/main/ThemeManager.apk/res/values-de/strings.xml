@@ -1,33 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string name="add">Hinzufügen</string>
-  <string name="create_home_icon">Verknüpfung zum Startbildschirm</string>
-  <string name="exo_controls_cc_disabled_description">Untertitel aktivieren</string>
-  <string name="exo_controls_cc_enabled_description">Untertitel deaktivieren</string>
-  <string name="exo_controls_fullscreen_enter_description">Vollbild festlegen</string>
-  <string name="exo_controls_fullscreen_exit_description">Vollbild beenden</string>
-  <string name="exo_controls_hide">Spielersteuerung ausblenden</string>
-  <string name="exo_controls_overflow_hide_description">Zusätzliche Einstellungen ausblenden</string>
-  <string name="exo_controls_overflow_show_description">Zusätzliche Einstellungen anzeigen</string>
-  <string name="exo_controls_playback_speed">Geschw.</string>
-  <string name="exo_controls_playback_speed_normal">Normal</string>
-  <string name="exo_controls_seek_bar_description">Wiedergabe läuft…</string>
-  <string name="exo_controls_settings_description">Eintellungen</string>
-  <string name="exo_controls_show">Spielersteuerung anzeigen</string>
-  <string name="exo_controls_shuffle_off_description">Zufall aus</string>
-  <string name="exo_controls_shuffle_on_description">Zufall ein</string>
-  <string name="exo_controls_vr_description">VR-Modus</string>
-  <string name="exo_track_role_alternate">Stellvertreter</string>
-  <string name="exo_track_role_closed_captions">CC</string>
-  <string name="exo_track_role_commentary">Kommentar</string>
-  <string name="exo_track_role_supplementary">Ergänzend</string>
-  <string name="more_icon_style">Weitere Symbole</string>
-  <string name="no_more_notice">Nicht mehr anzeigen</string>
-  <string name="restore_home_icon_text">Zum Startbildschirm hinzufügen</string>
-  <string name="restore_icon_later">Sie können die Verknüpfung zum Startbildschirm in den Einstellungen wieder hinzufügen</string>
-  <string name="uninstall_theme">\"Themen\" vom startbildchirm entfernen?</string>
-  <string name="uninstall_theme_description">Themen ist eine System-App. Sie bietet Hintergrundbilder und mehrere Personalisierungsoptionen. Sie können die Themen weiterhin über Einstellungen verwenden, nachdem Sie die Verknüpfung für den Startbildschirm entfernt haben.</string>
-
   <string name="abc_action_bar_home_description">Zur Startseite</string>
   <string name="abc_action_bar_up_description">Nach oben</string>
   <string name="abc_action_menu_overflow_description">Mehr Optionen</string>
@@ -77,6 +49,7 @@ Themen erkennt, welche Apps Sie verwenden und zeigt transparente Hintergründe i
   <string name="ad_download_resume">Wiederaufnehmen</string>
   <string name="ad_downloading_tip">Dieses Element wird gerade heruntergeladen. Sie können den Fortschritt in der Benachrichtigungleiste sehen.</string>
   <string name="ad_experience_now">Öffnen</string>
+  <string name="add">Hinzufügen</string>
   <string name="add_resource_detail_fail">Ressource kann nicht hinzugefügt werden</string>
   <string name="afternoon">Nachmittag</string>
   <string name="all_resources">Alle</string>
@@ -195,6 +168,7 @@ Themen erkennt, welche Apps Sie verwenden und zeigt transparente Hintergründe i
   <string name="concentration_old_period">Mehr</string>
   <string name="copy">Kopieren</string>
   <string name="count_down_tip">%ds übrig</string>
+  <string name="create_home_icon">Startbildschirm-Verknüpfung</string>
   <string name="current_using">Aktuell</string>
   <string name="current_using_desktop_wallpaper_text">Startbildschirm</string>
   <string name="current_using_float_wallpaper_text">Durchsichtig</string>
@@ -296,25 +270,43 @@ Themen erkennt, welche Apps Sie verwenden und zeigt transparente Hintergründe i
   <string name="exit_extreme_mode_dialog_agree">Zustimmen</string>
   <string name="exit_extreme_mode_dialog_cancel">Abbrechen</string>
   <string name="exit_extreme_mode_dialog_title">Extremmodus ausschalten</string>
+  <string name="exo_controls_cc_disabled_description">Untertitel aktivieren</string>
+  <string name="exo_controls_cc_enabled_description">Untertitel deaktivieren</string>
   <string name="exo_controls_fastforward_description">Schnellvorlauf</string>
   <string name="exo_controls_fullscreen_description">Vollbildmodus</string>
+  <string name="exo_controls_fullscreen_enter_description">Vollbild festlegen</string>
+  <string name="exo_controls_fullscreen_exit_description">Vollbild beenden</string>
+  <string name="exo_controls_hide">Spielersteuerung ausblenden</string>
   <string name="exo_controls_next_description">Nächster</string>
+  <string name="exo_controls_overflow_hide_description">Zusätzliche Einstellungen ausblenden</string>
+  <string name="exo_controls_overflow_show_description">Zusätzliche Einstellungen anzeigen</string>
   <string name="exo_controls_pause_description">Pausieren</string>
   <string name="exo_controls_play_description">Abspielen</string>
+  <string name="exo_controls_playback_speed">Geschw.</string>
+  <string name="exo_controls_playback_speed_normal">Normal</string>
+  <string name="exo_controls_previous_description">Vorherige</string>
   <string name="exo_controls_previous_description">Vorheriger</string>
   <string name="exo_controls_repeat_all_description">Alle wiederholen</string>
   <string name="exo_controls_repeat_off_description">Keinen wiederholen</string>
   <string name="exo_controls_repeat_one_description">Einen wiederholen</string>
   <string name="exo_controls_rewind_description">Rücklauf</string>
+  <string name="exo_controls_seek_bar_description">Wiedergabe läuft…</string>
+  <string name="exo_controls_settings_description">Einstellungen</string>
+  <string name="exo_controls_show">Spielersteuerung anzeigen</string>
   <string name="exo_controls_shuffle_description">Zufallswiedergabe</string>
+  <string name="exo_controls_shuffle_off_description">Zufallswiedergabe aus</string>
+  <string name="exo_controls_shuffle_on_description">Zufallswiedergabe ein</string>
   <string name="exo_controls_stop_description">Beenden</string>
+  <string name="exo_controls_vr_description">VR-Modus</string>
   <string name="exo_download_completed">Herunterladen vollständig</string>
   <string name="exo_download_description">Herunterladen</string>
   <string name="exo_download_downloading">Herunterladen…</string>
   <string name="exo_download_failed">Herunterladen fehlgeschlagen</string>
   <string name="exo_download_notification_channel_name">Downloads</string>
   <string name="exo_download_removing">Downloads entfernen</string>
-  <string name="exo_item_list">%1$s, %2$s</string>
+  <string name="exo_track_role_alternate">Stellvertreter</string>
+  <string name="exo_track_role_commentary">Kommentar</string>
+  <string name="exo_track_role_supplementary">Ergänzend</string>
   <string name="exo_track_selection_auto">Automatisch</string>
   <string name="exo_track_selection_none">Nichts</string>
   <string name="exo_track_selection_title_audio">Audio</string>
@@ -570,6 +562,7 @@ dd.MM."</string>
   <string name="month_october_shortest">O</string>
   <string name="month_september_shortest">S</string>
   <string name="more">Mehr</string>
+  <string name="more_icon_style">Weitere Symbole</string>
   <string name="more_sub_comment">Alle Antworten anzeigen (%1$d)&gt;</string>
   <string name="more_system_wallpaper">Weitere Systemhintergründe</string>
   <string name="morning">Morgen</string>
@@ -614,6 +607,7 @@ dd.MM."</string>
   <string name="no_data">"Netzwerk nicht verfügbar.
 Auf Bildschirm tippen, um neu zu laden."</string>
   <string name="no_install_permission">Sie haben keine Berechtigung, dieses Element zu installieren</string>
+  <string name="no_more_notice">Nicht mehr anzeigen</string>
   <string name="no_net_work_connection">Netzwerkeinstellungen prüfen und erneut versuchen</string>
   <string name="no_network_desc">Verbindung herstellen nicht möglich</string>
   <string name="no_network_please_retry">Netzwerkeinstellungen prüfen und erneut versuchen</string>
@@ -912,6 +906,8 @@ Auf Bildschirm tippen, um neu zu laden."</string>
   <string name="resource_update">Aktualisierung</string>
   <string name="resource_waiting_download">Warten</string>
   <string name="resource_wallpaper_download">Hintergrund herunterladen</string>
+  <string name="restore_home_icon_text">Startbildschirm-Verknüpfung hinzufügen</string>
+  <string name="restore_icon_later">Sie können die Startbildschirm-Verknüpfung in den Einstellungen wieder hinzufügen</string>
   <string name="ringtone_set_success">Erfolgreich festgelegt</string>
   <string name="s1">Bild speichern</string>
   <string name="s2">Erlauben Sie Werbung, Bilder in der Galerie zu speichern?</string>
@@ -1230,6 +1226,8 @@ Gehen Sie zu Themen > Mein Konto > Themenlabor für weitere Optionen.</string>
   <string name="uid_change_dialog_ok">Verstanden</string>
   <string name="uid_change_dialog_title">Gerät neu starten</string>
   <string name="unable_connect_network">Netzwerkverbindung nicht möglich</string>
+  <string name="uninstall_theme">\"Themen\" vom startbildchirm entfernen?</string>
+  <string name="uninstall_theme_description">Themen ist eine System-App. Sie bietet Hintergrundbilder und viele Personalisierungsoptionen. Sie können Themen weiterhin über Einstellungen verwenden, wenn Sie die Verknüpfung für den Startbildschirm entfernen.</string>
   <string name="up_to_the_end">Das ist alles für den Moment. Kommen Sie später wieder.</string>
   <string name="update">Aktualisierung</string>
   <string name="update_btn">JETZT AKTUALISIEREN</string>
@@ -1346,7 +1344,7 @@ Gehen Sie zu Themen > Mein Konto > Themenlabor für weitere Optionen.</string>
   <string name="xiaoai_speech_not_installed_message">Mi KI Sprachassistent herunterladen und installieren, um fortzufahren</string>
   <string name="xiaoai_speech_not_installed_title">Mi KI Sprachassistent ist nicht installiert</string>
   <string name="xiaomi_market_sdk_update_dialog_cancel">Jetzt nicht</string>
-  <string name="xiaomi_market_sdk_update_dialog_ok">Aktulisieren</string>
+  <string name="xiaomi_market_sdk_update_dialog_ok">Aktualisieren</string>
   <string name="xiaomi_market_sdk_update_dialog_title">Aktualisierung verfügbar</string>
   <string name="xiaomi_update_sdk_connect_download_manager_fail">Verbinden mit Download-Manager fehlgeschlagen. Status des Download-Managers im App-Management prüfen.</string>
   <string name="xiaomi_update_sdk_dialog_message">"Vorstellung der Version %1$s
