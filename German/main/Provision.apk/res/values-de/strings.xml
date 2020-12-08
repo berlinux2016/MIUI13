@@ -1,10 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-
-  <string name="home_settings_miui_home">Klassisch</string>
-  <string name="home_settings_poco_launcher">App drawer</string>
-  <string name="home_settings_title">Standard-Launcher auswählen</string>
-
   <string name="accessibility_enabled">Eingabehilfen aktiviert</string>
   <string name="agree">Zustimmen</string>
   <string name="agree_and_next">Zustimmen</string>
@@ -68,6 +63,9 @@
   <string name="framwork_base_service">Um Ihnen diese Dienste anbieten zu können, muss sich Mi Services Framework (MiAccount, Mi Push, Mi Stats, MIUI BI) mit dem Internet verbinden, auf Ihre Telefonnummer, IMEI und IMSI zugreifen und Ihrem Gerät ermöglichen, Push-Benachrichtigungen zu erhalten</string>
   <string name="game_introduction">Das Spiele-Plugin ermöglicht Ihnen, sich anzumelden, Bestellungen zu erstellen, Zahlungen abzuschließen, Coupons zu verwenden und an Werbeveranstaltungen teilzunehmen.</string>
   <string name="google_service_introduction">Um normal arbeiten zu können, muss Google Play eine Verbindung zum Internet herstellen, auf Ihren Standort zugreifen, Audio aufzeichnen, Anrufe tätigen und auf Kalendertermine, Anrufliste, Sensoren, Speicher, Kamera, Geräteinformationen und Konten zugreifen.</string>
+  <string name="home_settings_miui_home">Klassisch</string>
+  <string name="home_settings_poco_launcher">App Drawer</string>
+  <string name="home_settings_title">Standard-Launcher auswählen</string>
   <string name="ime_privacy_policy">Datenschutzerklärung der ausgewählten Tastatur</string>
   <string name="ime_privacy_policy_no_network">Keine Netzwerkverbindung. Sehen Sie sich die Datenschutzerklärung für die Tastatur auf %s an</string>
   <string name="input_method_category">Standardtastatur wählen, die Sie zum Schreiben von Nachrichten, Notizen und fast allem anderen verwenden. Beachten Sie, dass Sie später auch andere Drittanbieter-Tastaturen  installieren können.</string>
@@ -105,8 +103,8 @@
   <string name="next_fingerprint">Weiter</string>
   <string name="note_introduction">Mit dieser App können Sie Notizen erstellen, anzeigen und bearbeiten.</string>
   <string name="other_settings">Weitere Einstellungen</string>
-  <string name="other_settings_ad_dialog_content">Wenn personalisierte Anzeigenempfehlungen ausgeschaltet sind, sehen Sie immer noch die gleiche Menge an Werbung wie bei eingeschalteter Funktion. Die Werbung ist jedoch nicht mehr relevant, da sie nicht mehr auf Ihren persönlichen Präferenzen basiert.</string>
   <string name="other_settings_ad_dialog_agree">Einschalten</string>
+  <string name="other_settings_ad_dialog_content">Wenn personalisierte Werbung ausgeschaltet ist, sehen Sie immer noch die gleiche Menge an Werbung wie bei eingeschalteter Funktion. Die Werbung ist jedoch nicht mehr relevant, da sie nicht auf Ihren persönlichen Präferenzen basiert.</string>
   <string name="other_settings_ad_dialog_disagree">Ausschalten</string>
   <string name="other_settings_ad_disable_summary">Persönliche Werbung einschalten</string>
   <string name="other_settings_ad_enable">Personalisierte Werbung vorschlagen</string>
@@ -323,11 +321,11 @@ Sie müssen die Kika Datenschutzerklärung akzeptieren, bevor Sie diese Funktion
   <string name="wc_dialog_summary">Hintergrundkarussell liefert täglich atemberaubende Bilder und spannende Geschichten auf Ihren Sperrbildschirm.</string>
   <string name="wc_dialog_title">Neuauflage des Sperrbildschirms</string>
   <string name="wc_double_check_agree">Probieren</string>
-  <string name="wc_double_check_reject">Nein Danke</string>
-  <string name="wc_double_check_summary">Sie können Hintergrundkarussell einschalten, um zu sehen, ob es für Sie funktioniert. Bedenken Sie, dass Sie das Hintergrundkarussell jederzeit unter Einstellungen &lt; Bildschirm sperren ein- und ausschalten können.</string>
+  <string name="wc_double_check_reject">Nein danke</string>
+  <string name="wc_double_check_summary">Sie können Hintergrundkarussell einschalten, um zu sehen, ob es für Sie passt. Bedenken Sie, dass Sie das Hintergrundkarussell jederzeit unter Einstellungen &lt; Sperrbildschirm ein- und ausschalten können.</string>
   <string name="wc_double_check_title">Hintergrundkarussell probieren</string>
-  <string name="wc_notice_link_announcement_summary">Lesen Sie die &lt;a href=\"%1$s\">Datenschutzerklärung&lt;/a> und &lt;a href=\"%2$s\">Nutzervereinbarung&lt;/a> des Drittanbieters von Inhalten und stimmen Sie diesen zu, bevor Sie diese Funktion nutzen.</string>
   <string name="wc_notice_link_agreement_index">Nutzervereinbarung</string>
+  <string name="wc_notice_link_announcement_summary">Lesen und akzeptieren Sie die &lt;a href=\"%1$s\">Datenschutzerklärung&lt;/a> und &lt;a href=\"%2$s\">Nutzervereinbarung&lt;/a> des Drittanbieters von Inhalten, bevor Sie diese Funktion nutzen.</string>
   <string name="wc_notice_link_privacy_index">Datenschutzerklärung</string>
   <string name="wc_notice_link_summary">Lesen Sie die %1$s und %2$s des Drittanbieters und stimmen Sie ihnen zu</string>
   <string name="welcome">Willkommen</string>
