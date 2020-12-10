@@ -53,6 +53,7 @@
   <string name="ad_setting">Zusätzliche Einstellungen</string>
   <string name="add_music">Titel hinzufügen</string>
   <string name="add_to_last_of_playlist">Am Ende der Wiedergabeliste hinzufügen</string>
+  <string name="add_to_playlist">Zur Warteschlange hinzufügen</string>
   <string name="add_to_playlist_successful">Erfolgreich hinzugefügt</string>
   <string name="added_next_play">Hinzugefügt, um als nächstes abgespielt zu werden</string>
   <string name="afternoon">Nachmittag</string>
@@ -129,6 +130,7 @@
   <string name="btn_earlier_items_progress">Letzte Nachrichten laden…</string>
   <string name="btn_more_items">Mehr Nachrichten laden</string>
   <string name="btn_more_items_progress">Mehr Nachrichten laden…</string>
+  <string name="btn_text_edit">Bearbeiten</string>
   <string name="buffering">Puffern…</string>
   <string name="button_cancel_download">Abbrechen</string>
   <string name="button_download_now">Jetzt herunterladen</string>
@@ -242,6 +244,7 @@
   <string name="dialog_insufficient_space_on_cache">Nicht genügend Platz auf dem internen Speicher</string>
   <string name="dialog_insufficient_space_on_external">Nicht genügend Platz auf dem externen Speicher</string>
   <string name="dialog_media_not_found">Download kann nicht beendet werden, Medium nicht verfügbar.</string>
+  <string name="dialog_message_unfollow">Diesem Nutzer nicht mehr folgen?</string>
   <string name="dialog_my_playlist_online_changed_merge">Behalten</string>
   <string name="dialog_my_playlist_online_changed_message">Anscheinend hat sich diese Wiedergabeliste geändert. Sie können sie durch die neue Version ersetzen oder die alte behalten.</string>
   <string name="dialog_my_playlist_online_changed_replace">Ersetzen</string>
@@ -269,6 +272,7 @@
   <string name="dialog_song_view_type_artist">Nach Interpret</string>
   <string name="dialog_song_view_type_folder">Nach Ordnern</string>
   <string name="dialog_song_view_type_song">Nach Titel</string>
+  <string name="dialog_subtitle_make_playlist_public">Öffentliche Wiedergabelisten sind für andere Nutzer verfügbar. Private Wiedergabelisten sind nur für Sie auf allen synchronisierten Geräten sichtbar.</string>
   <string name="dialog_title_clearlist_tracks">Wiedergabeliste löschen</string>
   <string name="dialog_title_delete_tracks">Löschen</string>
   <string name="dialog_title_name_playlist">Wiedergabeliste benennen</string>
@@ -423,11 +427,13 @@
   <string name="fail_to_play">Titel kann nicht abgespielt werden</string>
   <string name="failed_not_access_sd_card">Erst Zugriff auf SD-Karte erlauben</string>
   <string name="failed_obtain_permissions">Berechtigung nicht erhalten</string>
+  <string name="fans">Anhänger</string>
   <string name="fav_login_msg">In Ihrem Mi-Konto anmelden, um Titel herunterzuladen</string>
   <string name="favorite_canceled">Von Favoriten entfernt</string>
   <string name="favorite_playlist">Favoriten</string>
   <string name="favorite_singer">Lieblingssänger</string>
   <string name="favorite_succeed">Zu Favoriten hinzugefügt</string>
+  <string name="favorite_to_playlist">Zur Wiedergabeliste hinzufügen</string>
   <string name="favorite_tracks">Lieblingsmusik</string>
   <string name="favorites">Favoriten</string>
   <string name="fcm_fallback_notification_channel_label">Sonstiges</string>
@@ -559,11 +565,11 @@
   <string name="individuation_recommend_title">Induviduelle Empfehlung</string>
   <string name="individuation_setting_summary">Inhaltsempfehlungen basierend auf Ihren Interessen erhalten</string>
   <string name="individuation_setting_title">Personalisierte Empfehlungen</string>
-  <string name="info_app_package_name">Paketname:</string>
-  <string name="info_app_version">App-Version:</string>
-  <string name="info_language">Sprache:</string>
-  <string name="info_product">Gerät:</string>
-  <string name="info_system_version">Systemversion:</string>
+  <string name="info_app_package_name">"Paketname: "</string>
+  <string name="info_app_version">"App-Version: "</string>
+  <string name="info_language">"Sprache: "</string>
+  <string name="info_product">"Gerät: "</string>
+  <string name="info_system_version">"Systemversion: "</string>
   <string name="input_hint_prefix">Bitte %1$s eingeben</string>
   <string name="installing_apk">Installation…</string>
   <string name="insufficient_space">Zu wenig Speicherplatz auf internem Speicher</string>
@@ -757,8 +763,10 @@
   <string name="no_album_info">Keine Albuminfos</string>
   <string name="no_artist_info">Keine Infos zum Interpreten</string>
   <string name="no_downloads">Keine Downloads</string>
+  <string name="no_fans_empty_title">Sie haben noch keine Anhänger</string>
   <string name="no_favorites_songs">Leer</string>
   <string name="no_file_picker_find">Dateimanager nicht installiert</string>
+  <string name="no_follow_empty_title">Sie folgen noch niemandem</string>
   <string name="no_local_songs">Leer</string>
   <string name="no_local_songs_selected">Titel können nicht gesendet werden, da diese nicht heruntergeladen wurden</string>
   <string name="no_local_source_find">Titel nicht gefunden</string>
@@ -1035,6 +1043,7 @@ Glücklich sein."</string>
   <string name="share_end_note">Aus Mi Musik</string>
   <string name="share_failed">Teilen fehlgeschlagen</string>
   <string name="share_image_error">Bild konnte wegen Downloadfehlers nicht geteilt werden</string>
+  <string name="share_song">Teilen</string>
   <string name="share_text_list">"Ich habe eine Wiedergabeliste auf Mi Musik gefunden: "</string>
   <string name="share_text_song">"Ich habe einen Titel auf Mi Musik gefunden: "</string>
   <string name="show_float_first_hint">Player minimieren</string>
@@ -1196,11 +1205,14 @@ Glücklich sein."</string>
   <string name="title_online_recommend">Empfohlene Wiedergabelisten</string>
   <string name="title_search_history">Verlauf durchsuchen</string>
   <string name="title_search_hot">Beliebt</string>
+  <string name="toast_cant_collect_mine_playlist">Eigene Wiedergabelisten können nicht zu den Favoriten hinzugefügt werden</string>
   <string name="toast_cant_commit_without_title">Songtitel eingeben</string>
   <string name="toast_download_error_by_count_limit">Sie haben Ihr Downloadlimit für diesen Monat verbraucht.</string>
   <string name="toast_download_error_by_not_login">Mit Mi-Konto anmelden und erneut versuchen.</string>
   <string name="toast_download_error_by_vip_required">Holen Sie sich ein Premiumpaket, um diesen Titel herunterladen zu können.</string>
   <string name="toast_download_in_process">Download in Bearbeitung</string>
+  <string name="toast_favorite_has_been_added">Erfolgreich zur Wiedergabeliste hinzugefügt</string>
+  <string name="toast_follow_success">Erfolgreich gefolgt</string>
   <string name="toast_is_pro">Sie sind bereits PRO-Mitglied</string>
   <string name="toast_my_playlist_illegal_name">Name dieser Wiedergabeliste ist ungültig. Benennen Sie diese Wiedergabeliste um.</string>
   <string name="toast_my_playlist_set_to_private">Diese Wiedergabeliste ist jetzt privat. Andere Leute können sie nicht sehen.</string>
@@ -1211,6 +1223,9 @@ Glücklich sein."</string>
   <string name="toast_normal_songs_for_download">Downloadqualität auf Standard gesetzt</string>
   <string name="toast_normal_songs_for_stream">Streamingqualität auf Standard gesetzt</string>
   <string name="toast_not_pro">Diese Funktion ist nur für PRO-Mitglieder verfügbar.</string>
+  <string name="toast_playlist_has_been_added">Erfolgreich zur Warteschlange hinzugefügt</string>
+  <string name="toast_playlist_has_been_private">Diese Wiedergabeliste ist privat</string>
+  <string name="toast_playlist_has_been_public">Diese Wiedergabeliste ist öffentlich</string>
   <string name="toast_playmode_loop_playback">Aktuelle Wiedergabeliste ist in einer Schleife</string>
   <string name="toast_playmode_shuffle_play">Zufallswiedergabe</string>
   <string name="toast_playmode_single_cycle">Aktueller Titel ist in einer Schleife</string>
@@ -1241,6 +1256,10 @@ Glücklich sein."</string>
   <string name="upload_playlist_to_hungama_title">Synchronisieren Sie Online-Titel mit Hungama, um auf sie auf anderen Geräten, auf denen Sie Ihr Mi-Konto verwenden, zugreifen zu können.</string>
   <string name="upload_playlist_to_hungama_toast">Online-Titel werden mit Hungama synchronisiert</string>
   <string name="user_agreement">Nutzervereinbarung</string>
+  <string name="user_playlist_plaza">Wiedergabelisten</string>
+  <string name="user_profile_created_playlist_title">Benutzerdefinierte Wiedergabelisten</string>
+  <string name="user_profile_fans_count">Änhänger: %s</string>
+  <string name="user_profile_follow_count">Anhänger: %s</string>
   <string name="user_privacy_dialog_negative_text">Abbrechen</string>
   <string name="user_privacy_dialog_positive_count_down_text">Widerrufen (%ss)</string>
   <string name="user_privacy_dialog_positive_text">Widerrufen</string>
