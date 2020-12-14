@@ -104,7 +104,7 @@ um Karten hinzuzufügen"</string>
   <string name="allergic_drugs_hint">Medikamente und Reaktion darauf eingeben</string>
   <string name="allow_notice_periods">Erinnerungen an Periode zulassen</string>
   <string name="altitude">Höhe</string>
-  <string name="altitude_pressure_hint">*Berechnung anhand des Luftdrucks weist einige Fehler auf</string>
+  <string name="altitude_pressure_hint">*Die aufgrund des Luftdrucks berechnete Höhe ist ein Näherungswert</string>
   
   <string name="altitude_range">Höhe</string>
   <string name="app_setting">Apps</string>
@@ -1115,7 +1115,7 @@ mit einem Finger"</string>
   <string name="skipping_detection_no">Ihr Training wurde nicht erkannt.</string>
   <string name="skipping_detection_no_hint">Vermeiden Sie laute Orte und behalten Sie dieses Gerät in der Nähe.</string>
   <string name="skipping_kcal">Kalorien</string>
-  <string name="skipping_pause">Pause überspringen</string>
+  <string name="skipping_pause">Workout unterbrochen</string>
   <string name="skipping_pause_tips">Angehalten | Training fortsetzen, um das Tracking automatisch fortzusetzen</string>
   <string name="skipping_ready">Sie können Ihr Training jetzt beginnen</string>
   <string name="skipping_ready_hint_one">Behalten Sie dieses Gerät nicht weiter als 1 Meter entfernt.</string>
@@ -1123,11 +1123,11 @@ mit einem Finger"</string>
   <string name="skipping_ready_toast">Wir haben die Lautstärke erhöht, damit Sie die Anweisungen besser hören.</string>
   <string name="skipping_reset_time">Ausruhen</string>
   <string name="skipping_time">Dauer</string>
-  <string name="skipping_upload_dialog_agree_and_upload">Zustimmen und hochladen</string>
-  <string name="skipping_upload_dialog_msg">Um eine genauere Zählung des Seilspringens zu ermöglichen, wird Xiaomi Health dessen Aufzeichnung unter %s-Bedingungen hochladen, um den Erkennungseffekt des Seilspringens zu optimieren. Um Ihre Privatsphäre zu schützen, wird das Hochladen und Speichern der Aufzeichnungen streng verschlüsselt.</string>
-  <string name="skipping_upload_dialog_reject_not_remind">Ablehnen und nicht wieder auffordern</string>
-  <string name="skipping_upload_dialog_title">Hochladen von Seilspringen-Aufzeichnungen zur Optimierung der Erkennung</string>
-  <string name="skipping_upload_tips">Diese Seilspringen-Aufzeichnung hochladen, um den Wiedererkennungseffekt zu verbessern</string>
+  <string name="skipping_upload_dialog_agree_and_upload">Hochladen</string>
+  <string name="skipping_upload_dialog_msg">Wenn Ihr Gerät mit %s verbunden ist, können Sie wählen, ob Sie die während des Trainings aufgezeichneten Audiodaten hochladen möchten, um die Genauigkeit der Trainingsstatistiken zu verbessern. Um Ihre Privatsphäre zu schützen, werden die Audiodateien verschlüsselt.</string>
+  <string name="skipping_upload_dialog_reject_not_remind">Nein danke</string>
+  <string name="skipping_upload_dialog_title">Audio hochladen</string>
+  <string name="skipping_upload_tips">Audio hochladen, um Statistiken genauer zu machen</string>
   <string name="sleep">Schlafen</string>
   <string name="sleep_and_get_up_time">Schlafzeitplan</string>
   <string name="sleep_auto_start_perm_grant">Berechtigungen erteilt</string>
@@ -1140,7 +1140,7 @@ mit einem Finger"</string>
   <string name="sleep_deep">Tiefschlaf</string>
   <string name="sleep_deep_light_analysis">Halbschlaf/Tiefschlaf</string>
   <string name="sleep_deep_light_close_tip">Tiefschlaf-Analyse ist aus</string>
-  <string name="sleep_deep_light_no_data">Wenn Sie Ihr mobiles Gerät neben das Kissen legen, werden die Schlafdaten genauer</string>
+  <string name="sleep_deep_light_no_data">Schlaf aufzeichnen nicht möglich. Wenn Sie Ihr Mobilgerät neben dem Kopfkissen platzieren, werden die Schlafdaten genauer.</string>
   <string name="sleep_deep_light_no_data_improvement">Keine Schlafphasen erkannt. Wir sind dabei, unsere Algorithmen zu verbessern. Bleiben Sie dran!</string>
   <string name="sleep_detection_enable">Schlafzyklus analysieren</string>
   <string name="sleep_detection_guide_four_description">Schlafaufzeichnung verbraucht nur etwa 1 %% Ihres Akkus (pro Nacht)</string>
