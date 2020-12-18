@@ -5,7 +5,7 @@
 
 ## Introduction
 
-This repository contains the german translation of the MIUI V12 Weekly ROM Releases from [xiaomi.eu](https://xiaomi.eu/community/forums/miui-rom-releases.103/) and other MIUI custom ROMs.
+This repository contains the german translation of the MIUI V12.5 Weekly ROM Releases from [xiaomi.eu](https://xiaomi.eu/community/forums/miui-rom-releases.103/) and other MIUI custom ROMs.
 
 All strings were translated by the community - special thanks go to:
 
