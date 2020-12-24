@@ -527,6 +527,14 @@
   <string name="match_ing">Laufend</string>
   <string name="match_not_started">Noch nicht begonnen</string>
   <string name="match_select_activity_label">Ligen</string>
+  <string name="menstruation_card_default_title">Keine Daten zum Menstruationsassistenten</string>
+  <string name="menstruation_card_error_sub_title">Versuchen Sie, den Kalender zu beenden und neu zu starten</string>
+  <string name="menstruation_card_error_title">Aktuelle Datenanforderung ist abnormal</string>
+  <string name="menstruation_card_private_mode_sub_title">Derzeit im Privatmodus</string>
+  <string name="menstruation_card_private_mode_title">Menstruationszyklus****</string>
+  <string name="menstruation_dialog_tips">Die Menstruation-Assistentfunktion wird von Xiaomi Health bereitgestellt. Klicken Sie auf Weiter, um den Kalender zum Herunterladen oder Aktualisieren der Xiaomi Health-App für Sie zu verwenden.</string>
+  <string name="menstruation_title">Menstruationsassistent</string>
+  <string name="menstruation_use_button">Weiter verwenden</string>
   <string name="menu_general_preferences">Allgemein</string>
   <string name="menu_preferences">Einstellungen</string>
   <string name="menu_reminder_preferences">"Erinnerungs-
@@ -666,11 +674,15 @@ einstellungen"</string>
   <string name="new_event_description">Neu</string>
   <string name="new_event_dialog_label">Neuer Termin</string>
   <string name="new_event_dialog_option">Neuer Termin</string>
+  <string name="new_years_day">Neujahr</string>
+  <string name="new_years_day_tradition">Neujahr</string>
   <string name="next_alarm_time">Nächste Erinnerung um %1$s</string>
   <string name="night">Abend</string>
   <string name="no_contact_birthday_hint">Keine Geburtstage zum Importieren</string>
   <string name="no_events_hint">Keine Einträge</string>
   <string name="no_more_events">Keine weiteren Einträge mehr anzuzeigen</string>
+  <string name="no_network">"Netzwerkverbindung herstellen nicht möglich.
+Netzwerkeinstellungen überprüfen und erneut versuchen."</string>
   <string name="no_network">Keine Netzwerkverbindung</string>
   <string name="no_network_btn">Nochmals versuchen</string>
   <string name="no_title_label">(Kein Titel)</string>
@@ -692,6 +704,8 @@ einstellungen"</string>
   <string name="olympic_total">Gesamt</string>
   <string name="online_reminder_header_text">Erinnerung</string>
   <string name="pack_up">Ausblenden</string>
+  <string name="partys_day">Party-Tag</string>
+  <string name="partys_day_tradition">Party-Tag</string>
   <string name="passenger">Passagier</string>
   <string name="password_toggle_content_description">Passwort anzeigen</string>
   <string name="path_calendar_settings">Einstellungen/System-Apps/Kalender</string>
@@ -803,13 +817,21 @@ einstellungen"</string>
   <string name="response_maybe">Vielleicht</string>
   <string name="response_no">Nein</string>
   <string name="response_yes">Ja</string>
+  <string name="rest_day_indication_chinese_calendar">休</string>
   <string name="saturday">Samstag</string>
   <string name="saturday_short">Sa</string>
+  <string name="retrocession_day_tradition">Befreiungsfest</string>
   <string name="saturday_shortest">S</string>
   <string name="saving_event">Termin gespeichert</string>
   <string name="saving_event_with_guest">Updates werden gesendet</string>
+  <string name="save_to_gallery_failure_message">Im Album speichern nicht möglich</string>
+  <string name="save_to_gallery_icon_name">Album speichern</string>
+  <string name="save_to_gallery_success_message">Erfolgreich im Album gespeichert</string>
+  <string name="saving_event">Termin gespeichert</string>
+  <string name="saving_event_with_guest">Aktualisierungen senden…</string>
+  <string name="search_calendar_edit_event">Treffen, Erinnerung, Tagesordnung</string>
   <string name="search">Suchen</string>
-  <string name="search_calendar">Kalender;Tagesplanung;Erinnerung</string>
+  <string name="search_calendar">Datum;Sonnenzeit;Lunar;Almanach;Glück;Tagesordnung;Besprechung;Erinnerung;Urlaub;Feiertag;Geburtstag;2016;2017;Frühlingsfest;Neujahr;Internationaler Tag der Arbeit;Mittherbstfest</string>
   <string name="search_calendar_edit_event">Meeting;Erinnerung;Agenda</string>
   <string name="search_calendar_settings">Kalender;Agenda;Erinnerung</string>
   <string name="search_events">Nach Terminen suchen</string>
@@ -852,7 +874,6 @@ einstellungen"</string>
   <string name="setting_title_holiday_display">Feiertage anzeigen</string>
   <string name="setting_title_import_todo">Geplante Aufgaben</string>
   <string name="setting_title_limit_card_desc">Als Limitkarte auf der Startseite des Kalenders benötigt der Dienst eine Internetverbindung</string>
-
 <!-- noch bearbeiten anfang -->
   <string name="setting_title_limit_card_display">Limitservice anzeigen</string>
   <string name="setting_title_lottery_card_desc">Lottery draw card located on the calendar homepage, the service needs to be networked/Lotterielos auf der Kalenderhomepage, der Service muss vernetzt werden</string>
@@ -862,15 +883,16 @@ einstellungen"</string>
   <string name="setting_title_weather_card_desc">Wetterinformationen auf der rechten Seite der Mondkarte</string>
   <string name="setting_title_weather_card_display">Wetterdienst anzeigen</string>
 <!-- noch bearbeiten ende -->
-
   <string name="setting_title_yiji_display">Yiji-Bogey Kalender anzeigen</string>
   <string name="setting_user_experience">Benutzerfeedbackprogramm</string>
-  <string name="share_title">Teilen</string>
   <string name="share_not_install_wechat">Bitte Wechat installieren.</string>
   <string name="share_not_install_weibo">Bitte Weibo installieren.</string>
+  <string name="share_title">Teilen</string>
+
   <string name="shortcut_new_event">Termin hinzufügen</string>
   <string name="shortcut_next_agenda">Nächster Termin</string>
   <string name="shortcut_settings">Einstellungen</string>
+  <string name="show_day_view">Tag anzeigen</string>
   <string name="show_controls">Steuerelemente ein</string>
   <string name="show_day_view">Tag anzeigen</string>
   <string name="sms_import_description">Zur besseren Verwaltung Textnachrichten mit Kalendereinträgen in Kalender importieren</string>
@@ -878,7 +900,6 @@ einstellungen"</string>
   <string name="solar_lunar_convert_description">Gregorianisch in traditionelles Chinesisch</string>
   <string name="solar_lunar_convert_description_2">Umschalten zwischen traditionell chinesischem und gregorianischem Kalender</string>
   <string name="solar_lunar_convert_tab">Umwandeln</string>
-  <string name="solar_to_lunar_chinese_calendar">Gregorianisch in Chinesisch</string>
   <string name="solar_term_autumn_begins">Herbstanfang</string>
   <string name="solar_term_autumn_equinox">Herbst-Tagundnachtgleiche</string>
   <string name="solar_term_clear_and_bright">Klar und hell</string>
@@ -903,6 +924,7 @@ einstellungen"</string>
   <string name="solar_term_white_dews">Weißer Tau</string>
   <string name="solar_term_winter_begins">Winteranfang</string>
   <string name="solar_term_winter_solstice">Wintersonnenwende</string>
+  <string name="solar_to_lunar_chinese_calendar">Gregorianisch in Chinesisch</string>
   <string name="start_date_calculate">Berechnen</string>
   <string name="subscribe_card">Jetzt abonnieren</string>
   <string name="subscribe_card_success">Erfolgreich abonniert! Sehen Sie sich die Details auf der Startseite an.</string>
@@ -917,13 +939,19 @@ einstellungen"</string>
 Sie können auch Erinnerungen einrichten, damit Sie nichts verpassen."</string>
   <string name="subscribe_channel_subscribe">Abonnieren</string>
   <string name="subscribe_channel_subscribing">Abonnieren</string>
+  <string name="subscribe_failed">Abo fehlgeschlagen, Netzwerkproblem, später erneut veruschen</string>
   <string name="subscribe_channel_title">Kanal</string>
   <string name="subscribe_text">Hinzufügen</string>
   <string name="subscribing_card">Jetzt abonnieren</string>
+  <string name="subscription_service_unsupported">Abo-Dienst anwenden nicht möglichen, ohne den Netzwerkberechtigungen zuzustimmen</string>
   <string name="summary_import_by_caldav">Wir unterstützen CalDAV-Konten von Feishu und iCloud</string>
   <string name="summary_import_by_email">Wir unterstützen Exchange-Unternehmenskonten, QQ Mail und Outlook</string>
   <string name="summary_import_by_local">Wir unterstützen ICS-Dateien</string>
   <string name="summary_import_by_url">URL-Abonnement hinzufügen</string>
+  <string name="summer_begins">Sommeranfang</string>
+  <string name="summer_begins_tradition">Sommeranfang</string>
+  <string name="summer_solstice">Sommersonnenwende</string>
+  <string name="summer_solstice_tradition">Sommersonnenwende</string>
   <string name="sunday">Sonntag</string>
   <string name="sunday_short">So</string>
   <string name="sunday_shortest">S</string>
@@ -935,6 +963,10 @@ Sie können auch Erinnerungen einrichten, damit Sie nichts verpassen."</string>
   <string name="tab_title_month">Monat</string>
   <string name="tab_title_week">Woche</string>
   <string name="taishen">Gottes Kind</string>
+  <string name="talk_back_description_close_ad_card">Anzeigenkarte schließen</string>
+  <string name="talk_back_description_close_ad_text">Werbekette schließen</string>
+  <string name="talk_back_description_hide_menstruation">Menstruationinfos ausblenden</string>
+  <string name="talk_back_description_show_menstruation">Menstruationinfos anzeigen</string>
   <string name="talk_back_read_date">%1$s (%2$s entspricht dem Mondkalender)</string>
   <string name="talk_back_setting">Einstellungen</string>
   <string name="talk_back_tab_switch">Zwischen den Ansichten wechseln</string>
@@ -962,6 +994,8 @@ Sie können auch Erinnerungen einrichten, damit Sie nichts verpassen."</string>
   <string name="the_hksar_establishment_day">HKSAR Gründungstag</string>
   <string name="the_international_womens_day">Weltfrauentag</string>
   <string name="the_laba_festival">Laba Festival</string>
+  <string name="the_laba_rice_porridge_festival">Laba</string>
+  <string name="the_laba_rice_porridge_festival_tradition">Laba</string>
   <string name="the_labour_day">1. Mai</string>
   <string name="the_lantern_festival">Laternenfest</string>
   <string name="the_mid_autumn_festival">Mitte-Herbst-Festival</string>
@@ -971,6 +1005,8 @@ Sie können auch Erinnerungen einrichten, damit Sie nichts verpassen."</string>
   <string name="the_night_of_sevens">Nacht der Siebener</string>
   <string name="the_partys_day">Tag der Partys</string>
   <string name="the_peace_day">Tag des Friedens</string>
+  <string name="the_rains">Regenwasser</string>
+  <string name="the_rains_tradition">Regenwasser</string>
   <string name="the_retrocession_day">Tag der Retrozession</string>
   <string name="the_second_day">Zweiter Tag</string>
   <string name="the_seventh_day">Siebter Tag</string>
@@ -987,10 +1023,13 @@ Sie können auch Erinnerungen einrichten, damit Sie nichts verpassen."</string>
   <string name="thursday">Donnerstag</string>
   <string name="thursday_short">Do</string>
   <string name="thursday_shortest">D</string>
+  <string name="tian_gan">Himmlisch</string>
   <string name="ticket_activity_card_date_day">Tag</string>
   <string name="ticket_activity_card_date_month">Monat</string>
   <string name="ticket_card_date">%1$s Monat %2$s Tag</string>
   <string name="ticket_card_description">Heute kann geplant werden</string>
+  <string name="ticket_card_lunar">%1$s Bahnticket</string>
+  <string name="ticket_card_phase">- Ausgabe %1$s</string>
   <string name="ticket_card_dialog_positive_button_text">Installieren</string>
   <string name="ticket_card_lunar">%1$s Bahn</string>
   <string name="ticket_card_phase">- Das erste %1$s von</string>
@@ -1091,18 +1130,28 @@ Sie können auch Erinnerungen einrichten, damit Sie nichts verpassen."</string>
   <string name="tuesday">Dienstag</string>
   <string name="tuesday_short">Di</string>
   <string name="tuesday_shortest">D</string>
+  <string name="tw_childrens_day">Kindertag</string>
+  <string name="tw_childrens_day_tradition">Kindertag</string>
+  <string name="tw_youth_day">Tag der Jugend</string>
+  <string name="tw_youth_day_tradition">Tag der Jugend</string>
   <string name="txt_account">Konto</string>
   <string name="txt_account_exist">Dieses Konto existiert bereits</string>
   <string name="txt_account_name_empty">Kontoname eingeben</string>
   <string name="txt_caldav_account_info_not_found">CalDav-Kontoinfo wurde nicht gefunden</string>
   <string name="txt_password">Passwort</string>
   <string name="txt_server_url">Serveradresse</string>
+  <string name="united_nations_day">Tag der Vereinten Nationen</string>
+  <string name="united_nations_day_tradition">Tag der Vereinten Nationen</string>
   <string name="unsubscribe_card">Karte abbestellen</string>
   <string name="unsubscribe_card_success">Von "%1$s" erfolgreich abgemeldet</string>
   <string name="unsubscribing_card">Karte abbestellt</string>
   <string name="user_notice_button_exit">Beenden</string>
   <string name="user_notice_message">Sie müssen unsere %1$s und %2$s akzeptieren, bevor Sie den Kalender nutzen können. Einige Funktionen, Zugang zum Standort, Kontakte und SMS, erfordern eine Internetverbindung, um normal zu funktionieren.</string>
   <string name="user_notice_title">Achtung</string>
+  <string name="valentines_day">Valentinstag</string>
+   <string name="valentines_day_tradition">Valentinstag</string>
+  <string name="vernal_equinox">Frühjahrstagundnachtgleiche</string>
+  <string name="vernal_equinox_tradition">Frühjahrstagundnachtgleiche</string>
   <string name="view_event_calendar_label">Kalender:</string>
   <string name="view_event_organizer_label">Veranstalter:</string>
   <string name="view_event_response_label">Teilnehmen?</string>
@@ -1119,10 +1168,15 @@ Sie können auch Erinnerungen einrichten, damit Sie nichts verpassen."</string>
   <string name="widget_get_weather_info">Wetterinfos erhalten &gt;</string>
   <string name="widget_no_events">Keine Termine</string>
   <string name="widget_select_style">Stil auswählen</string>
+  <string name="winter_begins">Winteranfang</string>
+  <string name="winter_begins_tradition">Winteranfang</string>
+  <string name="winter_solstice">Wintersonnenwende</string>
+  <string name="winter_solstice_tradition">Wintersonnenwende</string>
   <string name="work_day_default_banner_title">Ich wünsche Ihnen einen produktiven Arbeitstag!</string>
   <string name="wuxing">Fünf</string>
   <string name="xiaomi_calendar_display_name">Mi Kalender</string>
   <string name="xingxiu">Sterne</string>
+  <string name="year_indicator_month">Erster Tag des Mondkalenders</string>
   <string name="yearly">Jährlich (am %s)</string>
   <string name="yearly_plain">Jährlich</string>
   <string name="yesterday">Gestern</string>
