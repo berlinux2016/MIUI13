@@ -42,6 +42,8 @@
   <string name="base_rate">Basiszinssatz</string>
   <string name="birthday">Geburtstag</string>
   <string name="bmi_error_text">BMI ist nicht korrekt. Vergewissern Sie sich, dass Sie Größe und Gewicht richtig eingegeben haben.</string>
+  <string name="bmi_label_information">Informationen</string>
+  <string name="bmi_label_normal">Normal</string>
   <string name="bmi_label_overweight">Übergewicht</string>
   <string name="bmi_label_underweight">Untergewicht</string>
   <string name="bmi_over_weight">Übergewicht</string>
@@ -790,6 +792,7 @@ Beachten Sie, dass diese App eine Internetverbindung und folgende Berechtigungen
   <string name="unit_data_display_velocity_mps">Meter pro Sekunde</string>
   <string name="unit_data_display_velocity_nmiph">Knoten</string>
   <string name="unit_data_display_volume_cl">Zentiliter</string>
+  <string name="unit_data_display_volume_cu.af">Morgen-Fuß</string>
   <string name="unit_data_display_volume_cu.cm">Kubikzentimeter</string>
   <string name="unit_data_display_volume_cu.dm">Kubukdezimeter</string>
   <string name="unit_data_display_volume_cu.ft">Kubikfuß</string>
@@ -800,13 +803,20 @@ Beachten Sie, dass diese App eine Internetverbindung und folgende Berechtigungen
   <string name="unit_data_display_volume_cu.yd">Kubikyard</string>
   <string name="unit_data_display_volume_dl">Deziliter</string>
   <string name="unit_data_display_volume_hl">Hektoliter</string>
+  <string name="unit_data_display_volume_l">Liter</string>
+  <string name="unit_data_display_volume_ml">Milliliter</string>
   <string name="unit_data_display_weight_ct">Karat</string>
   <string name="unit_data_display_weight_g">Gramm</string>
   <string name="unit_data_display_weight_gr">Gran</string>
   <string name="unit_data_display_weight_kg">Kilogramm</string>
   <string name="unit_data_display_weight_lb">Pfund</string>
+  <string name="unit_data_display_weight_liang">Liang</string>
+  <string name="unit_data_display_weight_lt">Britische Tonne</string>
   <string name="unit_data_display_weight_mg">Milligramm</string>
   <string name="unit_data_display_weight_oz">Unze</string>
+  <string name="unit_data_display_weight_q">Doppelzentner</string>
+  <string name="unit_data_display_weight_st">Amerikanische Tonne</string>
+  <string name="unit_data_display_weight_t">Tonne</string>
   <string name="unit_data_display_weight_ug">Mikrogramm</string>
   <string name="unit_data_display_weight_uk.cwt">Britischer Zentner</string>
   <string name="unit_data_display_weight_un.cwt">Zentner</string>
@@ -816,7 +826,7 @@ Beachten Sie, dass diese App eine Internetverbindung und folgende Berechtigungen
   <string name="unit_kg">Kilogramm</string>
   <string name="unit_meter">Meter</string>
   <string name="unit_pound">Pfund</string>
-  <string name="unit_year">a</string>
+  <string name="unit_year">J</string>
   <string name="unit_year_format">Jahr %s</string>
   <string name="unit_yuan">EUR</string>
   <string name="updating">Rechner aktualisieren…</string>
@@ -840,6 +850,8 @@ Beachten Sie, dass diese App eine Internetverbindung und folgende Berechtigungen
   <string name="word_figure_guide_text">Text gedrückt halten, um zwischen den Fällen zu konvertieren</string>
   <string name="xiaomi_connect_download_manager_fail">Verbindung zu Downloads herstellen nicht möglich. Prüfen Sie, ob diese App alle erforderlichen Berechtigungen unter Einstellungen &gt; Installierte Apps hat.</string>
   <string name="xiaomi_external_storage_unavailable">Kein freier Speicher, prüfen Sie die SD-Karte</string>
+  <string name="xiaomi_kilobytes_unit">%1$s KB</string>
+  <string name="xiaomi_megabytes_unit">%1$s MB</string>
   <string name="xiaomi_update_dialog_message">"Version %1$s ist verfügbar
 Größe: %2$s"</string>
   <string name="xiaomi_update_dialog_message_diff">"Version %1$s ist verfügbar
