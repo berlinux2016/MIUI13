@@ -1,5 +1,58 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+  <string name="ac_notification_action_text">Einschalten</string>
+  <string name="allow_all">Alle erlauben</string>
+  <string name="app_behavior_access_gallery">%1s-Zugriff auf Galerie</string>
+  <string name="app_behavior_access_gallery_single">Diese App greift auf die Galerie zu</string>
+  <string name="app_behavior_access_sociality">%1s-Zugriff auf Nachrichten in Social Media-Apps</string>
+  <string name="app_behavior_access_sociality_single">Diese App griff auf Nachrichten in Social Media-Apps zu</string>
+  <string name="app_behavior_delete_pic">%1s löschte Galerieelemenente</string>
+  <string name="app_behavior_delete_pic_single">Diese App löscht Elemente aus der Galerie</string>
+  <string name="confirm_allow_all_permission">Allen Apps verbieten, diese Funktion zu nutzen?</string>
+  <string name="ew_guide_start_warning_range">Frühwarnungen werden für die Gebiete bereitgestellt, die vom Festland-Erdbebenwarnnetz des Chengdu Hi-tech Disaster Reduction Institute abgedeckt werden. Die spezifischen Abdeckungsbereiche finden Sie in den Einstellungen.</string>
+  <string name="ew_guide_statement_text_new">"Dieser Haftungsausschluss gilt für alle Benutzer (im Folgenden als "Sie" bezeichnet), die die Erdbebenwarnfunktion einschalten. Indem Sie diesem Haftungsausschluss zustimmen, gehen Sie einen rechtsverbindlichen Vertrag mit der Xiaomi Inc. und ihren verbundenen Unternehmen (im Folgenden als \"Xiaomi\" bezeichnet) ein. Sie bestätigen, dass Sie den gesamten Inhalt dieses Haftungsausschlusses gelesen haben, und dass Sie alle Bedingungen dieses Haftungsausschlusses vollständig verstehen und ihnen zustimmen; andernfalls sollten Sie die Erdbebenwarnfunktion sofort ausschalten.
+In Übereinstimmung mit den relevanten Gesetzen und Vorschriften wird Xiaomi Ihnen Frühwarndienste zur Verfügung stellen, die auf dem Umfang des Erdbeben-Frühwarngebietes basieren, das von den relevanten Behörden abgedeckt wird. Das heißt, wenn Sie die Erdbebenwarnfunktion einschalten, können Sie Erdbebenwarnungen empfangen, die für bestimmte Gebiete ausgegeben werden. Sie können bestimmte Abdeckungsbereiche in den Einstellungen finden.
+Mit dieser Funktion erhalten Sie eine Erdbebenwarnung. Sie müssen wissen, dass die Informationen zur Erdbebenwarnung vom Chengdu Hi-tech Disaster Reduction Institute bereitgestellt werden. Xiaomi beaufsichtigt diese Organisation nicht und hat keine Kontrolle über sie.
+Xiaomi verspricht oder garantiert nicht die Genauigkeit, Gültigkeit und Aktualität der Erdbebenwarninformationen und garantiert auch nicht, dass der Erdbebenwarndienst alle Ihre Anforderungen erfüllt.
+Für den Empfang von Erdbebenwarninformationen müssen Sie Ihr Gerät mit dem Mobilfunknetz verbunden halten. Ausfälle von Kommunikationsleitungen Dritter, technische Probleme, Netzwerk- oder Endgeräteausfälle, Systeminstabilität und andere verschiedene Ereignisse höherer Gewalt können dazu führen, dass Sie keine Erdbebenwarninformationen empfangen können. Xiaomi trägt keine Verantwortung für Verluste, die durch solche Ereignisse verursacht werden.
+Sie müssen verstehen, dass diese Funktion nur zu Ihrer Information zur Verfügung gestellt wird. Die Warnung, die Sie erhalten, kann Sekunden vor dem Ausbruch eines Erdbebens kommen. Sie tragen die alleinige Verantwortung für die Risiken und Folgen von Handlungen, die Sie auf Grundlage der von dieser Funktion bereitgestellten Informationen durchführen."</string>
+  <string name="ew_location_failed">Standort unbekannt</string>
+  <string name="file_confirm_start_activity">%s ist nicht berechtigt, auf Ihre Galerie- und Social Media-Apps zuzugreifen. Diese App möchte auf Dateien zugreifen, die auf diesem Gerät gespeichert sind, um Elemente zu teilen. Erlauben?</string>
+  <string name="miuix_appcompat_action_mode_deselect_all">Abwählen</string>
+  <string name="miuix_appcompat_action_mode_select_all">Alle auswählen</string>
+  <string name="miuix_appcompat_action_mode_title_empty">Elemente auswählen</string>
+  <string name="miuix_appcompat_actionbar_immersion_button_more_description">Mehr</string>
+  <string name="miuix_appcompat_cancel_description">Abbrechen</string>
+  <string name="miuix_appcompat_confirm_description">Bestätigen</string>
+  <string name="miuix_appcompat_delete_description">Löschen</string>
+  <string name="miuix_appcompat_deselect_all">Abwählen</string>
+  <string name="miuix_appcompat_deselect_all_description">Alle abwählen</string>
+  <string name="miuix_appcompat_search_action_mode_cancel">Abbrechen</string>
+  <string name="miuix_appcompat_search_input_description">Suchen</string>
+  <string name="miuix_appcompat_select_all">Alle auswählen</string>
+  <string name="miuix_appcompat_select_all_description">Alle auswählen</string>
+  <string name="miuix_appcompat_select_item">Elemente auswählen</string>
+  <string name="notification_antivirus_button_text">Scan</string>
+  <string name="notification_antivirus_message">Jetzt scannen, um Risiken zu neutralisieren</string>
+  <string name="notification_link_cleaner_2001">%s Müll löschen</string>
+  <string name="notification_link_cleaner_2002">Papierkorb leeren, um Ihr Gerät zu beschleunigen</string>
+  <string name="notification_link_cleaner_2003">Weniger als %s Speicherplatz übrig. Jetzt Speicherplatz freigeben.</string>
+  <string name="notification_link_cleaner_2004">Nur noch %s Speicherplatz vorhanden. Jetzt Speicherplatz freigeben.</string>
+  <string name="notification_link_cleaner_2005">Speicher leeren, um Ihr Gerät zu beschleunigen</string>
+  <string name="notification_link_cleaner_3001">WeChat-Papierkorb leeren, um Ihr Gerät zu beschleunigen</string>
+  <string name="notification_link_cleaner_3002">WeChat-Papierkorb leeren</string>
+  <string name="notification_link_cleaner_4000">QQ-Papierkorb leeren</string>
+  <string name="notification_link_optimizemanage_1011">%d%% Speicher belegt. Jetzt bereinigen.</string>
+  <string name="notification_optimize_button_text">Bereinigen</string>
+  <string name="notification_optimize_message">Speicher leeren, um die Geschwindigkeit zu erhöhen</string>
+  <string name="notification_optimize_title">%d%% Speichers belegt</string>
+  <string name="read_clipboard_ai_action_desc">Benachrichtigungen erhalten, wenn der Zugriff erlaubt oder eingeschränkt ist</string>
+   <string name="real_location_off">Ungefährer Standort ist an</string>
+  <string name="real_location_on">Ungefährer Standort ist aus</string>
+  <string name="version_can_update">Sie können %s auf die neueste Beta-Version aktualisieren, um zuerst auf neue Funktionen zuzugreifen.</string>
+  <string name="version_check_update">Auf Aktualisierung prüfen</string>
+  <string name="version_update_title">%s aktualisieren</string>
+    
   <string name="HIPS_Perm_Access_Gallery">Galeriezugriff</string>
   <string name="HIPS_Perm_Access_Gallery_Desc">App den Zugriff auf Elemente in Ihrer Galerie erlauben</string>
   <string name="HIPS_Perm_Bluetooth_Connectivity_Desc">Ein- und Ausschalten von Bluetooth</string>
@@ -59,10 +112,10 @@
   <string name="ac_firstUseApplock_subTitle">Bessere Sicherheitstools auf Systemebene verwenden</string>
   <string name="ac_firstUseApplock_title">Apps mit einem Passwort schützen</string>
   <string name="ac_mask_all_apps">Für alle ausblenden</string>
-  <string name="ac_notification_contentText">Zum Einschalten tippen</string>
-  <string name="ac_notification_contentTitle">Apps mit App-Sperre schützen</string>
-  <string name="ac_post_notification_contentText">Holen Sie sich Schutz auf Systemebene</string>
-  <string name="ac_post_notification_contentTitle">App-Sperre einschalten</string>
+  <string name="ac_notification_contentText">Sensible Informationen mit einem Passwort verstecken</string>
+  <string name="ac_notification_contentTitle">App-Sperre ausprobieren!</string>
+  <string name="ac_post_notification_contentText">Sie kann alle Arten von sensiblen Apps schützen</string>
+  <string name="ac_post_notification_contentTitle">Apps mit App-Sperre schützen</string>
   <string name="ac_pre_notification_contentText">Schützen Sie Ihre persönlichen Daten</string>
   <string name="ac_pre_notification_contentTitle">App-Sperre ausprobieren</string>
   <string name="ac_recommend_guide_dialog_app_content">Nutzen Sie App-Sperre mit dieser App, um Ihre persönlichen Daten zu schützen und Datenlecks zu vermeiden.</string>
@@ -130,7 +183,7 @@
   <string name="adjust_traffic_carrier_summary_yesterday">Gestern um %s aktualisiert</string>
   <string name="adjust_traffic_data">Datennutzung festlegen</string>
   <string name="after_the_lock_screen">Apps zusammen mit dem Bildschirm sperren</string>
-  <string name="ai_allow_all">Benachrichtigen, wenn alle die Berechtigung verwenden</string>
+  <string name="ai_allow_all">In allen Fällen für mich entscheiden</string>
   <string name="alarm_lock_screen_summary">Eine große Welle von roten Paketen regnet auf die Straße…</string>
   <string name="alarm_lockscreen_btn">Sperrbildschirm</string>
   <string name="alarm_setting_title">Einstellungen</string>
@@ -1414,7 +1467,7 @@ Alle Daten auf Ihrem Gerät werden evtl. gelöscht und Ihr Sperrbildschirmpasswo
   <string name="fw_blocked_join">" und "</string>
   <string name="fw_oversea">Blockieren von Anrufen aus dem Ausland</string>
   <string name="fw_oversea_content">Blockieren Sie eingehende Anrufe von ausländischen Telefonnummern.</string>
-  <string name="gallery_confirm_start_activity">%s versucht, über eine andere App auf Bilder zuzugreifen. Erlauben?</string>
+  <string name="gallery_confirm_start_activity">%s ist nicht berechtigt, auf Ihre Galerie- und Social Media-Apps zuzugreifen. Diese App möchte auf Bilder zugreifen, die auf diesem Gerät gespeichert sind, um Elemente zu teilen. Erlauben?</string>
   <string name="game_ad_recommendation">Jeder spielt</string>
   <string name="game_anti_disturb_msg">Spiel nicht stören</string>
   <string name="game_booster_close">Game Turbo deaktiviert</string>
@@ -2182,8 +2235,8 @@ Versuchen Sie ein anderes LAN-Kabel am Router. Wenn Sie vermuten, dass der Fehle
   <string name="notification_low_storage_size_1p5_gb_hint">Müll entfernen, um Ihr Gerät zu beschleunigen</string>
   <string name="notification_mask_summary">Keine Benachrichtigungsinhalte für geschützte Apps anzeigen</string>
   <string name="notification_mask_title">Benachrichtigungsinhalt ausblenden</string>
-  <string name="notification_masked_item">Wie kann man den Benachrichtigungsinhalt ausblenden?</string>
-  <string name="notification_masked_subtitle">App-Sperre verwenden, um den Benachrichtigungsinhalt für ausgewählte Apps auszublenden</string>
+  <string name="notification_masked_item">Inhalt von Benachrichtigungen ausblenden?</string>
+  <string name="notification_masked_subtitle">App-Sperre kann den Job erledigen</string>
   <string name="notification_open_extreme_mode_text">Extrem-Stromsparmodus eingeschaltet</string>
   <string name="notification_power_consume_issue_summary">Hoher Stromverbrauch</string>
   <string name="notification_power_consume_suggest_summary">Probleme beheben, um den Akku zu schonen</string>
@@ -2437,7 +2490,7 @@ Stromverbrauch"</string>
   <string name="permgroupdesc_sensors">Auf Körpersensordaten zugreifen</string>
   <string name="permgroupdesc_sms">SMS lesen oder senden</string>
   <string name="permgroupdesc_storage">Auf Fotos oder Dateien auf dem Gerät zugreifen</string>
-  <string name="permission_action_ai_prompt">Benachrichtigen, wenn Berechtigung verwendet wird</string>
+  <string name="permission_action_ai_prompt">Entscheiden Sie für mich</string>
   <string name="permission_with_read_write_clipboard">Apps den Zugriff auf und das Speichern von Elementen in der Zwischenablage erlauben</string>  
   <string name="permission_action_accept">Akzeptieren</string>
   <string name="permission_action_always">Immer erlauben</string>
@@ -2772,7 +2825,7 @@ Stromverbrauch"</string>
   <string name="pp_hide_app_form_desktop">App-Symbole vom Startbildschirm entfernen</string>
   <string name="pp_icon_layout_status_bg_content_enable">Geschützt</string>
   <string name="pp_icon_layout_status_bg_content_unable">Aus</string>
-  <string name="pp_interception_net_visit_content_manager">Schützen von Galerie- und Social Media-Apps</string>
+  <string name="pp_interception_net_visit_content_manager">Schützen von Galerie- und Social-Media-Apps</string>
   <string name="pp_interception_net_visit_content_manager_detail">Auswählen, welche Apps auf Ihre Fotos, Videos und den Chat-Verlauf zugreifen dürfen</string>
   <string name="pp_local_msg">Standortinfo</string>
   <string name="pp_manage_apps_location_information">Apps den Zugriff auf Ihren Standort erlauben</string>
@@ -3061,7 +3114,7 @@ Während der Kalibrierung sendet MIUI eine Textnachricht an Ihren Mobilfunkanbie
   <string name="privacy_risk_space_uninstall_dialog_msg">Ausgewählte Apps einschließlich ihrer Dual Apps deinstallieren?</string>
   <string name="privacy_risk_uninstall_dialog_msg">Ausgewählte Apps jetzt deinstallieren?</string>
   <string name="privacy_risk_uninstall_title">Apps deinstallieren</string>
-  <string name="privacy_risk_work_encryption">Social Media und Office-Dateien sind nicht geschützt</string>
+  <string name="privacy_risk_work_encryption">Social-Media und Office-Dateien sind nicht geschützt</string>
   <string name="privacy_search_key_1">Datenschutz</string>
   <string name="privacy_search_key_10">Geräte-ID</string>
   <string name="privacy_search_key_2">Netzwerküberwachung</string>
@@ -3121,7 +3174,7 @@ Während der Kalibrierung sendet MIUI eine Textnachricht an Ihren Mobilfunkanbie
   <string name="read_clipboard_ai_close_no">Jetzt nicht</string>
   <string name="read_clipboard_ai_close_tip">Sie erhalten keine Benachrichtigungen mehr, wenn Apps auf die Zwischenablage zugreifen. Stattdessen dürfen sie diese Berechtigung nur noch verwenden, während Sie die App verwenden. Berechtigungen anpassen?"</string>
   <string name="read_clipboard_ai_close_yes">Anpassen</string>
-  <string name="read_clipboard_op_content">Anstatt die Berechtigung nur dann zu erteilen, wenn Sie die App verwenden, erhalten Sie jedes Mal eine Benachrichtigung, wenn Apps auf Ihre Zwischenablage zugreifen.</string>
+  <string name="read_clipboard_op_content">Benachrichtigungen erhalten, wenn der Zugriff erlaubt oder eingeschränkt ist</string>
   <string name="read_clipboard_op_title">Benachrichtigen, wenn Apps auf Elemente in der Zwischenablage zugreifen</string>
   <string name="read_clipboard_tip_content">Diese Berechtigung erlaubt Apps, alle von Ihnen kopierten Inhalte zu lesen, die private Informationen enthalten können (z. B. Kontodaten, Bankkartennummern und Passwörter).</string>
   <string name="read_clipboard_tip_title">Zugriff auf Elemente in der Zwischenablage</string>
@@ -3378,7 +3431,7 @@ Während der Kalibrierung sendet MIUI eine Textnachricht an Ihren Mobilfunkanbie
   <string name="special_perm_intercept_action_title">Erfahren Sie mehr über Ihr Verhalten und automatisierte Aktionen</string>
   <string name="special_perm_intercept_analyze_msg">Erlauben Sie Apps zu erfahren, welche Apps Sie wie oft benutzen</string>
   <string name="special_perm_intercept_analyze_title">Analysieren Sie Ihre Präferenzen und Ihr Verhalten</string>
-  <string name="special_perm_intercept_app_msg">Einschl. Benachrichtigungen von Social Media- und Banking-Apps</string>
+  <string name="special_perm_intercept_app_msg">Einschl. Benachrichtigungen von Social-Media- und Banking-Apps</string>
   <string name="special_perm_intercept_app_title">Alle Benachrichtigungen lesen</string>
   <string name="special_perm_intercept_barrier_free">Eingabehilfen</string>
   <string name="special_perm_intercept_camera_msg">Jegliche Kameraaktivität einschränken</string>
