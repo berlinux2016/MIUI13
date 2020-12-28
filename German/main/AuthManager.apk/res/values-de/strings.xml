@@ -1,6 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string name="clipboard_ai_allow_tip">Smart erlaubt %1$s, %2$s in der Zwischenablage zu lesen</string>
+  <string name="blur_location_is_on_tip">%1$s hat den ungefähren Standortdienst gestartet. Soll der ungefähre Standortdienst eingeschaltet bleiben?</string>
+  <string name="blur_location_title">Ungefährer Standort</string>
+  <string name="gold_master_dialog_reject">Ablehnen (%d)</string>
+  <string name="gold_master_dialog_title">%1$s wollen Zwischenablage lesen</string>
+  <string name="keep_blur_location">Weitermachen</string>
+  <string name="miuix_appcompat_deselect_all">Abwählen</string>
+  <string name="miuix_appcompat_select_all">Alle auswählen</string>
+  <string name="miuix_appcompat_select_item">Elemente auswählen</string>
+  <string name="stop_blur_location">Ausschalten</string>
+
 
   <string name="HIPS_ACTION_REJECT_CLEAR">Zwischenablage einschränken &amp; löschen</string>
   <string name="HIPS_Action_Accept">Erlauben</string>
@@ -126,6 +135,7 @@
   <string name="background_location_access_reminder_notification_title">%s hat Ihren Standort genutzt</string>
   <string name="blur_location_now_tip">Ungefährer Standort ist an</string>
   <string name="clipboard_ai_allow_once">Erlaubt %1$s, automatisch auf Elemente in der Zwischenablage zuzugreifen</string>
+  <string name="clipboard_ai_allow_tip">Smart erlaubt %1$s, %2$s in der Zwischenablage zu lesen</string>
   <string name="clipboard_data">"• Zwischenablageinhalt
 » "</string>
   <string name="clipboard_data_request">%1$s versucht, auf Elemente in der Zwischenablage zuzugreifen</string>
