@@ -1,5 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+  <string name="provision_back">Zurück</string>
+  <string name="provision_next">Weiter</string>
+  <string name="provision_skip_underline">Überspringen</string>
+
   <string name="abc_action_bar_home_description">Zur Startseite</string>
   <string name="abc_action_bar_up_description">Nach oben</string>
   <string name="abc_action_menu_overflow_description">Mehr Optionen</string>
@@ -178,8 +182,9 @@ Ihre Konto ID: %s"</string>
   <string name="diagnosis_log_sent_format">"Protokolle erfolgreich gesendet.
 ID:%s
 Senden Sie diesen Code an den Supervisor."</string>
+  <string name="download_file">%s herunterladen…</string>
   <string name="empty_device_list_notice">Keine Geräte</string>
-  <string name="ep_unsupported">Ihr Gerät unterstützt keine Anmeldung im XiaoMi-Konto</string>
+  <string name="ep_unsupported">Ihr Gerät unterstützt keine Anmeldung im Xiaomi-Konto</string>
   <string name="error_dup_binded_email">Diese E-Mail-Adresse ist bereits mit einem anderen Mi-Konto verbunden.</string>
   <string name="error_invalid_bind_address">Eingegebene E-Mail-Adresse ist ungültig.</string>
   <string name="exceed_binded_phone_times_notice">Diese Telefonnummer ist bereits mit einem anderen Mi-Konto verbunden.</string>
@@ -401,6 +406,7 @@ Senden Sie diesen Code an den Supervisor."</string>
   <string name="passport_login_instead_reg">Diese Nummer verwenden</string>
   <string name="passport_login_instead_reg_with_email">Diese E-Mail verwenden</string>
   <string name="passport_login_other_account">Anderes Konto</string>
+  <string name="passport_login_other_phone">Anderes Konto verwenden</string>
   <string name="passport_login_prompt">Ein Mi-Konto. Alle Mi Services.</string>
   <string name="passport_login_recycle_account_no">Nein</string>
   <string name="passport_login_recycle_account_yes">Ja</string>
@@ -418,6 +424,8 @@ Senden Sie diesen Code an den Supervisor."</string>
   <string name="passport_prev">Zurück</string>
   <string name="passport_privacy_policy">Datenschutzerklärung</string>
   <string name="passport_privacy_policy_required">Datenschutzerklärung (obligatorisch)</string>
+  <string name="passport_provision_input_email_register_prompt">Ihre persönlichen Daten werden in Übereinstimmung mit den Gesetzen und Vorschriften der von Ihnen gewählten Region gespeichert.</string>
+  <string name="passport_provision_password_req_notice">%1$d-%2$d Zeichen von mindestens %3$d der folgenden Typen: Buchstaben, Ziffern, Sonderzeichen</string>
   <string name="passport_pwd_generate_failure">Passwort konnte nicht erstellt werden</string>
   <string name="passport_pwd_generating">Erstellen…</string>
   <string name="passport_querying_phone_info">Kontoinfo abrufen…</string>
@@ -454,6 +462,7 @@ Senden Sie diesen Code an den Supervisor."</string>
   <string name="passport_register_restricted_title">Telefonnummer kann nicht verwendet werden</string>
   <string name="passport_register_using_other_ways">Andere Wege zur Registrierung</string>
   <string name="passport_registered_phone_num">Telefon: %s</string>
+  <string name="passport_registered_phone_num_v2">Telefonnummer</string>
   <string name="passport_registered_phone_user_ID">Benutzer-ID: %s</string>
   <string name="passport_registered_phone_user_name">Benutzername: %s</string>
   <string name="passport_reject_recycle_account">Nein</string>
