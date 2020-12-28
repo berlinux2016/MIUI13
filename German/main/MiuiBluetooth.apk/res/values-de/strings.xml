@@ -1,19 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-
   <string name="wifi_unsaved_network_linking">SSID Bridging - Auto Connection</string>
   <string name="wifi_unsaved_network_linking_summary">Automatische Verbindungsversuche zu einer neuen WPA/WPA2-PSK 5GHz SSID mit aktuell verbundenen WPA/WPA2-PSK 2GHz SSID-Zugangsdaten auf SSID und BSSID mit teilweiser Übereinstimmung aktivieren</string>
   <string name="wifi_whitelist_roaming">SSID Bridging - Fast Handover</string>
   <string name="wifi_whitelist_roaming_summary">Roaming zwischen verschiedenen SSID-WPA/WPA2-PSK-APs mit derselben Gateway-MAC-Adresse aktivieren</string>
-
-  <string name="headset_device_error_box_close">Die Ladebox ist geschlossen</string>
-  <string name="headset_device_error_disconnect">Beide Ohrhörer sind nicht verbunden. Bitte schließen und öffnen Sie die Abdeckung, um erneut zu aktualisieren</string>
-  <string name="headset_device_error_no_device">Kein Gerät oder Einzelgerät in der Ladebox</string>
-  <string name="headset_device_error_single_device">Einohrbetrieb kann nicht nachgerüstet werden, bitte neu koppeln</string>
-  <string name="headset_device_sync_donot_move_device">Gerät nicht während der Synchronisation benutzen</string>
-  <string name="headset_device_sync_wait_connect">Während der Synchronisation bitte Gerät nicht benutzen und auf die automatische Wiederverbindung warten</string>
-  <string name="headset_loss_notify_summary">Ihre Köpfhörer wurden nach dem Gebrauch nicht in die Ladebox gelegt. Bitte überprüfen Sie, ob die Kopfhörer fehlen</string>
-  <string name="headset_loss_notify_title">Kopfhörer nicht vorhanden Erinnerung</string>
+  <string name="headset_loss_notify_title">Erinnerung Kopfhörer nicht vorhanden</string>
 
   <string name="abc_action_bar_home_description">Zur Startseite</string>
   <string name="abc_action_bar_up_description">Nach oben</string>
@@ -278,7 +269,13 @@ Drücken Sie 'Löschen und konvertieren…', um fortzufahren."</string>
   <string name="headset_device_check_failed">Auf Aktualisierungen prüfen nicht möglich</string>
   <string name="headset_device_donot_move">Gerät in der Nähe halten</string>
   <string name="headset_device_enter_upgrade_failed">Aktualisierung wurde nicht initiiert</string>
+  <string name="headset_device_error_box_close">Die Ladebox ist geschlossen</string>
+  <string name="headset_device_error_disconnect">Beide Ohrhörer sind nicht verbunden. Bitte schließen und öffnen Sie die Abdeckung, um erneut zu aktualisieren</string>
   <string name="headset_device_error_failed">Aktualisieren nicht möglich</string>
+  <string name="headset_device_error_no_device">Kein Gerät oder Einzelgerät in der Ladebox</string>
+  <string name="headset_device_error_single_device">Einohrbetrieb kann nicht nachgerüstet werden, bitte neu koppeln</string>
+  <string name="headset_device_sync_donot_move_device">Gerät nicht während der Synchronisation benutzen</string>
+  <string name="headset_device_sync_wait_connect">Während der Synchronisation bitte Gerät nicht benutzen und auf die automatische Wiederverbindung warten</string>
   <string name="headset_download_failed">Herunterladen nicht möglich</string>
   <string name="headset_download_fw">Aktualisierung</string>
   <string name="headset_downloading">Herunterladen</string>
@@ -289,6 +286,7 @@ Drücken Sie 'Löschen und konvertieren…', um fortzufahren."</string>
   <string name="headset_fw_error_failed">Aktualisieren nicht möglich. Firmware-Info ist falsch.</string>
   <string name="headset_fw_file_position_failed">Dateizugriff nicht möglich</string>
   <string name="headset_fw_file_readfailed">Aktualisierungsinfo erhalten nicht möglich</string>
+  <string name="headset_loss_notify_summary">Ihre Köpfhörer wurden nach dem Gebrauch nicht in die Ladebox gelegt. Bitte überprüfen Sie, ob die Kopfhörer fehlen</string>
   <string name="headset_read_fw_state">Aktualisierungsinfo erhalten nicht möglich</string>
   <string name="headset_update_failed">Aktualisieren nicht möglich</string>
   <string name="headset_update_ok">Fertig</string>
