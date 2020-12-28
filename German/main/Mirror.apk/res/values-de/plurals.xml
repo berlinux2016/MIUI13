@@ -29,6 +29,14 @@
     <item quantity="other">vor %d Min</item>
     <item quantity="one">vor 1 Min</item>
   </plurals>
+  <plurals name="download_canceled_title_multi">
+    <item quantity="other">%2$d abgelehnte Dateien, einschließlich %1$s</item>
+    <item quantity="one">%2$d abgelehnte Datei, einschließlich %1$s</item>
+  </plurals>
+  <plurals name="download_succeeded_title_multi">
+    <item quantity="other">%2$d empfangene Dateien, einschließlich %1$ss</item>
+    <item quantity="one">%2$d empfangene Datei, einschließlich %1$s</item>
+  </plurals>
   <plurals name="download_title_multi">
     <item quantity="other">%2$d Dateien, inklusive %1$s</item>
     <item quantity="one">%2$d Datei, inklusive %1$s</item>
@@ -51,6 +59,10 @@
   </plurals>
   <plurals name="less_than_one_minute_ago">
     <item quantity="other">Gerade eben</item>
+  </plurals>
+  <plurals name="miuix_appcompat_items_selected">
+    <item quantity="other">%d ausgewählte Elemente</item>
+    <item quantity="one">%d ausgewähltes Element</item>
   </plurals>
   <plurals name="num_minutes_ago">
     <item quantity="other">vor %d Minuten</item>
