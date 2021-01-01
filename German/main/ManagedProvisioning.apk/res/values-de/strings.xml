@@ -44,8 +44,19 @@
   <string name="cant_replace_or_remove_work_profile">Arbeitsprofil kann nicht ersetzt oder entfernt werden</string>
   <string name="cant_set_up_device">Gerät kann nicht eingerichtet werden</string>
   <string name="cant_set_up_profile">Profil kann nicht eingerichtet werden</string>
+  <string name="car_ui_alert_dialog_default_button">Schließen</string>
+  <string name="car_ui_preference_switch_off">Aus</string>
+  <string name="car_ui_preference_switch_on">An</string>
+  <string name="car_ui_restricted_while_driving">Funktion während der Fahrt nicht verfügbar</string>
+  <string name="car_ui_scrollbar_page_down_button">Runterscrollen</string>
+  <string name="car_ui_scrollbar_page_up_button">Hochscrollen</string>
+  <string name="car_ui_toolbar_default_search_hint">Suchen…</string>
+  <string name="car_ui_toolbar_menu_item_overflow_title">Überlauf</string>
+  <string name="car_ui_toolbar_menu_item_search_title">Suchen</string>
+  <string name="car_ui_toolbar_menu_item_settings_title">Einstellungen</string>
+  <string name="car_ui_toolbar_nav_icon_content_description">Zurück</string>
   <string name="change_device_launcher">Gerätelauncher ändern</string>
-  <string name="character_counter_content_description">Zeichenlimit überschritten: %1$d von %2$d</string>
+  <string name="character_counter_content_description">%1$d von %2$d Zeichen eingegeben</string>
   <string name="character_counter_overflowed_content_description">Zeichenlimit überschritten: %1$d von %2$d</string>
   <string name="chip_text">Chiptext</string>
   <string name="clear_text_end_icon_content_description">Text löschen</string>
@@ -61,9 +72,14 @@
   <string name="continue_button">Fortfahren</string>
   <string name="continue_provisioning_notify_text">Tippen, um Ihr Arbeitsprofil weiter einzurichten</string>
   <string name="continue_provisioning_notify_title">Vollständig verschlüsselt</string>
+  <string name="cope_provisioning_step_1_header">Arbeits-Apps werden in Ihrem Arbeitsprofil aufbewahrt &amp; verwaltet von Ihrem IT-Admin</string>
+  <string name="cope_provisioning_step_2_header">Persönliche Apps sind separat &amp; versteckt vor Arbeits-Apps</string>
+  <string name="cope_provisioning_step_3_header">Ihr IT-Admin kann dieses Gerät steuern &amp; bestimmte Apps sperren</string>
+  <string name="cope_provisioning_summary">Arbeits-Apps werden in Ihrem Arbeitsprofil aufbewahrt und von Ihrem IT-Admin verwaltet. Persönliche Apps sind von den Arbeits-Apps getrennt und versteckt. Ihr IT-Admin kann dieses Gerät steuern und bestimmte Apps sperren.</string>
   <string name="copy">Kopieren</string>
   <string name="copying_certs">Richte CA-Zertifikate ein</string>
   <string name="couldnt_set_up_device">Gerät konnte nicht eingerichtet werden. Für Hilfe kontaktieren Sie Ihren Admin.</string>
+  <string name="creditor_capabilities_header">%1$s kann:</string>
   <string name="default_first_meat_user_name">Hauptnutzer</string>
   <string name="default_managed_profile_name">Arbeitsprofil</string>
   <string name="default_owned_device_username">Benutzer des Arbeitsgerätes</string>
@@ -107,6 +123,7 @@
   <string name="error_wifi">WLAN-Verbindung nicht möglich</string>
   <string name="expand">Erweitern</string>
   <string name="expand_button_title">Erweitert</string>
+  <string name="financed_device_screen_header">Dieses Gerät wurde auf Kredit bei %1$s gekauft</string>
   <string name="for_help_contact_admin">Für Hilfe kontaktieren Sie Ihren Admin</string>
   <string name="frp_clear_progress_text">Bitte warten…</string>
   <string name="frp_clear_progress_title">Löschen</string>
@@ -123,12 +140,15 @@
   <string name="info_anim_title_0">Ändern Sie Ihre Arbeitsweise</string>
   <string name="info_anim_title_1">Trennung von Arbeit und Persönlichem</string>
   <string name="info_anim_title_2">Schalten Sie die Arbeit ab, wenn Sie fertig sind</string>
+  <string name="install_creditor_app_description">%1$s-App installieren, damit Sie Zahlungen für dieses Gerät vornehmen können</string>
   <string name="join_many_items_last">%1$s und %2$s</string>
   <string name="join_two_items">%1$s und %2$s</string>
+  <string name="just_a_sec">Einen Moment…</string>
   <string name="launcher_app_cant_be_used_by_work_profile">Diese Launcher-App kann von Ihrem Arbeitsprofil nicht genutzt werden.</string>
   <string name="learn_more_label">Mehr erfahren</string>
   <string name="learn_more_link">Mehr erfahren</string>
   <string name="link_isnt_secure_and_cant_be_opened_until_device_setup_finished">Dieser Link ist nicht sicher und kann nicht geöffnet werden, bis die Geräteeinrichtung beendet ist: %1$s</string>
+  <string name="lock_device_description">Zugriff auf dieses Gerät einschränken, wenn Sie keine Zahlungen leisten</string>
   <string name="managed_device_info">Info Geräteverwaltung</string>
   <string name="managed_provisioning_error_text">Arbeitsprofil konnte nicht eingerichtet werden. Kontaktieren Sie Ihre IT-Abteilung oder versuchen Sie es später erneut.</string>
   <string name="managed_provisioning_not_supported">Ihr Gerät unterstützt kein Arbeitsprofil</string>
@@ -144,6 +164,7 @@
   <string name="next">Weiter</string>
   <string name="not_set">Nicht festgelegt</string>
   <string name="now_lets_set_up_everything_else">Nun lassen Sie uns alles andere einrichten</string>
+  <string name="now_lets_set_up_everything_else_explanation">Jetzt, wo Ihr Arbeitsprofil fertig ist, können Sie auch ein persönliches Google-Konto hinzufügen, um auf Ihre Apps und Inhalte zuzugreifen.</string>
   <string name="one_place_for_work_apps">Ein Ort für Arbeits-Apps</string>
   <string name="opening_paragraph_delete_profile">Sie haben bereits ein Arbeitsprofil und es wird verwaltet von folgender App:</string>
   <string name="opening_paragraph_delete_profile_known_company">Dieses Arbeitsprofil wird für %s verwaltet:</string>
@@ -176,6 +197,7 @@
   <string name="read_more_delete_profile">Bevor Sie fortfahren, <a href="#read_this_link">lesen Sie hier</a></string>
   <string name="read_terms">Lesen Sie die Bedingungen</string>
   <string name="reset">Zurücksetzen</string>
+  <string name="reset_device">Dieses Gerät zurücksetzen und versuchen, es erneut einzurichten</string>
   <string name="scroll_bar_page_down_button">Nach unten scrollen</string>
   <string name="scroll_bar_page_up_button">Nach oben scrollen</string>
   <string name="search_menu_title">Suchen</string>
@@ -199,6 +221,7 @@
   <string name="setup_work_device">Arbeitsgerät einrichten</string>
   <string name="setup_work_profile">Arbeitsprofil einrichten</string>
   <string name="setup_work_space">Ihr Profil einrichten</string>
+  <string name="something_went_wrong">Etwas ist schief gelaufen</string>
   <string name="speed_bump_lockout_message">Auf den Weg gebracht</string>
   <string name="stop_setup_reset_device_question">Einrichtung beenden &amp; Gerät zurücksetzen?</string>
   <string name="sud_back_button_label">Zurück</string>

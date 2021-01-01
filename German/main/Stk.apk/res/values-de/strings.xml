@@ -1,10 +1,31 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+  <string name="abc_action_bar_home_description">Zur Startseite</string>
+  <string name="abc_action_bar_up_description">Nach oben</string>
+  <string name="abc_action_menu_overflow_description">Weitere Optionen</string>
+  <string name="abc_action_mode_done">Fertig</string>
+  <string name="abc_activity_chooser_view_see_all">Alle ansehen</string>
+  <string name="abc_activitychooserview_choose_application">App auswählen</string>
+  <string name="abc_capital_off">AUS</string>
+  <string name="abc_capital_on">AN</string>
+  <string name="abc_search_hint">Suchen…</string>
+  <string name="abc_searchview_description_clear">Suchanfrage löschen</string>
+  <string name="abc_searchview_description_query">Suchanfrage</string>
+  <string name="abc_searchview_description_search">Suchen</string>
+  <string name="abc_searchview_description_submit">Suchanfrage senden</string>
+  <string name="abc_searchview_description_voice">Sprachsuche</string>
+  <string name="abc_shareactionprovider_share_with">Teilen mit</string>
+  <string name="abc_shareactionprovider_share_with_application">Teilen mit %s</string>
+  <string name="abc_toolbar_collapse_description">Einklappen</string>
   <string name="alphabet">Buchstaben</string>
   <string name="app_name">SIM-Toolkit</string>
   <string name="button_cancel">Abbrechen</string>
   <string name="button_no">Nein</string>
   <string name="button_yes">Ja</string>
+  <string name="character_counter_content_description">%1$d von %2$d Zeichen eingegeben</string>
+  <string name="character_counter_overflowed_content_description">Zeichenlimit überschritten: %1$d von %2$d</string>
+  <string name="chip_text">Chiptext</string>
+  <string name="clear_text_end_icon_content_description">Text löschen</string>
   <string name="default_call_setup_msg">Anruf läuft…</string>
   <string name="default_close_channel_msg">Kanal geschlossen</string>
   <string name="default_open_channel_msg">Kanal öffnen?</string>
@@ -16,9 +37,18 @@
   <string name="disable_app">Deaktiviert</string>
   <string name="enable_app">Aktiviert</string>
   <string name="help">Hilfe</string>
+  <string name="icon_content_description">Dialogsymbol</string>
   <string name="menu_back">Zurück</string>
   <string name="menu_end_session">Sitzung beenden</string>
+  <string name="mtrl_chip_close_icon_content_description">%1$s entfernen</string>
+  <string name="mtrl_picker_cancel">Abbrechen</string>
+  <string name="mtrl_picker_confirm">Speichern</string>
+  <string name="mtrl_picker_date_format">dd. MMM yyyy</string>
+  <string name="mtrl_picker_header_prompt">Datum wählen</string>
+  <string name="mtrl_picker_range_header_prompt">Datumsbereich wählen</string>
   <string name="no_sim_card_inserted">SIM-Karte einlegen, um das SIM-Toolkit zu starten.</string>
+  <string name="password_toggle_content_description">Passwort anzeigen</string>
+  <string name="search_menu_title">Suchen</string>
   <string name="service_name">Name des Dienstes</string>
   <string name="sim_type_sim_name">SIM-Toolkit</string>
   <string name="sim_type_uim_name">UIM-Toolkit</string>
@@ -28,6 +58,8 @@
   <string name="stk_dialog_accept">JA</string>
   <string name="stk_dialog_reject">NEIN</string>
   <string name="stk_dialog_title">SIM-Toolkit</string>
+  <string name="stk_ic_remove_content">Nach dem Entfernen der Startbildschirm-Verknüpfung können Sie das USIM-Toolkit weiterhin über die Einstellungen-App verwenden.</string>
+  <string name="stk_ic_remove_title">USIM-Toolkit vom Startbildschirm entfernen?</string>
   <string name="stk_intent_permission">Berechtigungen werden benötigt</string>
   <string name="stk_no_service">Kein Dienst verfügbar</string>
 </resources>

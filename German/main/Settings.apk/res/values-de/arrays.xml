@@ -256,6 +256,7 @@
     <item>1xRTT</item>
     <item>IS95B</item>
     <item>IS95A</item>
+    <item>NR</item>
   </string-array>
   <string-array name="bluetooth_a2dp_codec_aptxadaptive_mode_summaries">
     <item>Hoher Qualitätsmodus (Standard)</item>
@@ -499,8 +500,8 @@
   </string-array>
   <string-array name="dark_ui_mode_entries">
     <item>Automatisch (je nach Tageszeit)</item>
-    <item>Immer an</item>
-    <item>Immer aus</item>
+    <item>Dunkel</item>
+    <item>Hell</item>
   </string-array>
   <string-array name="data_usage_data_range">
     <item>Die letzten 30 Tage</item>
@@ -1146,9 +1147,12 @@ Hinweis: Nur für Ubuntu 8.04!"</item>
     <item>PPTP-VPN</item>
     <item>L2TP-/IPSec-VPN mit vorinstallierten Schlüsseln</item>
     <item>L2TP-/IPSec-VPN mit Zertifikaten</item>
-    <item>IPSec-VPN mit vorinstallierten Schlüsseln und Xauth-Authentifizierung</item>
+    <item>IPSec-VPN mit Pre-shared Keys und Xauth-Authentifizierung</item>
     <item>IPSec-VPN mit Zertifikaten und Xauth-Authentifizierung</item>
     <item>IPSec-VPN mit Zertifikaten und Hybrid-Authentifizierung</item>
+    <item>IKEv2/IPSec VPN mit Zertifikaten und Benutzername/Passwort-Authentifizierung</item>
+    <item>IKEv2/IPSec VPN mit Pre-shared Keys</item>
+    <item>IKEv2/IPSec VPN mit Zertifikaten</item>
   </string-array>
   <string-array name="wfd_status">
     <item>Sitzung erstellen…</item>

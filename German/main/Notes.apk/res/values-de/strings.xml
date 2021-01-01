@@ -23,6 +23,7 @@
   <string name="action_mode_switcher_grid_description">Rasteransicht</string>
   <string name="action_mode_switcher_list_description">Listenansicht</string>
   <string name="action_settings_description">Einstellungen</string>
+  <string name="action_to_link">URL öffnen</string>
   <string name="actionbar_button_up_description">Zurück</string>
   <string name="actionbar_close_description">Schließen</string>
   <string name="actionbar_home_description">Zurück</string>
@@ -31,6 +32,7 @@
   <string name="alarm_bar_title">Erinnerung</string>
   <string name="alert_action_edit_anyway">Bearbeiten</string>
   <string name="alert_message_delete">%1$s löschen?</string>
+  <string name="alert_message_delete_excerpt">Diese Notiz löschen? Der Auszug wird ebenfalls gelöscht.</string>
   <string name="alert_message_delete_note">Diese Notiz löschen?</string>
   <string name="alert_message_edit_anyway">Diese Notiz enthält nicht unterstützte Inhalte. Bearbeiten kann zu Datenverlust führen.</string>
   <string name="alert_message_restore">Diese Notiz konnte nicht geöffnet werden. Sie muss wiederhergestellt werden, um den Inhalt bearbeiten zu können.</string>
@@ -99,6 +101,8 @@
   <string name="cloud_trash_bin_title">Notizen in der Cloud löschen</string>
   <string name="confirm_cancel">Nicht zustimmen</string>
   <string name="confirm_ok">Zustimmen</string>
+  <string name="continuous_default_hint">Text kopieren, Bilder und Screenshots als Auszüge speichern</string>
+  <string name="continuous_new_excerpt_title">Neuer Auszug</string>
   <string name="copy">Kopieren</string>
   <string name="cta_agree_desc">Dieser App die Internetverbindung erlauben und die optionalen Berechtigungen erteilen, um alle ihre Funktionen nutzen zu können.</string>
   <string name="cta_confirm_cancel">Nicht erlauben</string>
@@ -155,12 +159,18 @@
   <string name="doodle_action_exit_immersion_mode">Immersiv-Modus ausgeschaltet</string>
   <string name="doodle_action_hide_tool_panel">Tools verbergen</string>
   <string name="doodle_action_show_tool_panel">Tools anzeigen</string>
+  <string name="doodle_background_dot">Gepunktet</string>
+  <string name="doodle_background_white">Weiß</string>
   <string name="doodle_brush_config_alpha">Strichtrübung</string>
   <string name="doodle_brush_config_width_level">Strichstärke</string>
   <string name="doodle_brush_pen">Füller</string>
   <string name="doodle_brush_pencil">Bleistift</string>
   <string name="doodle_brush_watercolor">Aquarellstift</string>
   <string name="doodle_feature">Doodles</string>
+  <string name="doodle_guide_brush_config_hint">Erneut tippen, um Strichstärke und Deckkraft einzustellen</string>
+  <string name="doodle_guide_dialog_skip">Überspringen</string>
+  <string name="doodle_guide_dialog_title">Skizzieren</string>
+  <string name="doodle_guide_quick_shape_hint" formatted="false">Drücken und halten Sie die Skizze für %d-%d Sekunden, um die Striche automatisch anzupassen</string>
   <string name="doodle_palette">Farbpalette</string>
   <string name="doodle_save_progress_text">Speichern…</string>
   <string name="doodle_saving">Speichern</string>
@@ -196,8 +206,16 @@
   <string name="error_widget_exist_for_send_to_desktop">Diese Notiz ist bereits auf dem Desktop vorhanden</string>
   <string name="evening">Nachmittag</string>
   <string name="exceed_todo_text_limitation">Aufgabenbeschreibung zu lang</string>
+  <string name="excerpt">Auszug erstellen</string>
+  <string name="excerpt_bubble_tips">Kopierter Text und gespeicherte Bilder werden in Notizen gespeichert</string>
+  <string name="excerpt_link_bubble_tips">Tippen, um in Notizen zu speichern</string>
+  <string name="excerpt_note">Meine Auszüge</string>
+  <string name="excerpted_to_note">Auszug in Notizen gespeichert</string>
+  <string name="excerpting">Auszug erstellen…</string>
   <string name="expand_button_title">Erweitert</string>
   <string name="first_enter_custom_folder_hint">Hier können Sie Ordner umbenennen oder löschen.</string>
+  <string name="float_note_empty">Keine Notizen hier</string>
+  <string name="float_note_title">Notizen</string>
   <string name="float_todo_guide_cancel">Abbrechen</string>
   <string name="float_todo_guide_message">Mit einer Startbildschirm-Verknüpfung können Sie vom Rand des Bildschirms wischen, um Aufgaben anzuzeigen und zu erstellen. Verknüpfung jetzt erstellen?</string>
   <string name="float_todo_guide_message_v2">Mit Gesten können Sie Aufgaben anzeigen und erstellen, indem Sie vom Bildschirmrand wischen. Sie können diese Funktion in den Einstellungen ein- und ausschalten.</string>
@@ -236,6 +254,7 @@
   <string name="format_move_note_to_folder">Nach %1$s verschoben</string>
   <string name="format_move_notes_out_folder">%1$s verschieben</string>
   <string name="format_move_notes_to_folder">%1$s Notizen nach %2$s verschoben</string>
+  <string name="frequently_click_tips">Zu schnell! Einen Moment warten und erneut versuchen.</string>
   <string name="friday">Freitag</string>
   <string name="friday_short">Fr</string>
   <string name="friday_shortest">F</string>
@@ -257,6 +276,7 @@
   <string name="image_annotation_edit_hint">Bildbeschreibung</string>
   <string name="image_annotation_edit_length_warning">Bildbeschreibung kann bis zu %d Zeichen enthalten</string>
   <string name="info_note_enter_desktop">Zum Desktop hinzugefügt</string>
+  <string name="last_excerpt_unfinish_hint">Der letzte Auszug ist unvollständig</string>
   <string name="loading_text">Einen Moment…</string>
   <string name="login_sync">Anmelden &amp; Synchronisieren</string>
   <string name="lunar_day">Mond-%1$s</string>
@@ -289,6 +309,7 @@
   <string name="menu_unstick">Lösen</string>
   <string name="merge_to_folder">Ordner erstellen</string>
   <string name="midnight">Nacht</string>
+  <string name="mind_note_first_enter_guide">Tippen, um eine Merkhilfe zu erstellen</string>
   <string name="miuix_appcompat_action_mode_deselect_all">Abwählen</string>
   <string name="miuix_appcompat_action_mode_select_all">Alle wählen</string>
   <string name="miuix_appcompat_action_mode_title_empty">Elemente wählen</string>
@@ -340,6 +361,7 @@
   <string name="month_september_shortest">S</string>
   <string name="more">Mehr</string>
   <string name="morning">Morgen</string>
+  <string name="new_app_name">Mi Notizen</string>
   <string name="new_audio_create_cancel_talkback_des">Abgebrochen</string>
   <string name="new_audio_create_done_talkback_des">Erstellt</string>
   <string name="new_audio_create_guide_tip">Taste gedrückt halten, um eine Sprachnotiz zu erstellen</string>
@@ -356,6 +378,7 @@
   <string name="note_gesture_guide_step1">Gedrückt halten, um eine Sprachnotiz zu erstellen</string>
   <string name="note_gesture_guide_step2">Notiz gedrückt halten und sie dann über eine andere Notiz ziehen, um einen Ordner zu erstellen</string>
   <string name="note_gesture_guide_step3">Notiz gedrückt halten und sie dann über einen Ordner ziehen, um diese Notiz zu verschieben</string>
+  <string name="note_header_first_enter_guide">Runterziehen, um mehr zu sehen</string>
   <string name="note_invalid_mindnote_hint">Merkzettel sind in dieser Version nicht verfügbar. App aktualisieren, um diese Funktion zu nutzen.</string>
   <string name="note_link_email">E-Mail verfassen</string>
   <string name="note_link_other">Öffnen mit der Karten-App</string>
@@ -394,7 +417,7 @@
   <string name="pc_note_edit_create_time">"Erstellt: "</string>
   <string name="pc_note_edit_insert_doodle_by_phone">Doodle auf dem Telefon erstellen</string>
   <string name="pc_note_edit_insert_picture_from_pc">Bild vom Computer wählen</string>
-  <string name="pc_note_edit_insert_picture_from_phone">Bild vom mobilen Gerät wählen</string>
+  <string name="pc_note_edit_insert_picture_from_phone">Bild vom Mobilgerät wählen</string>
   <string name="pc_note_edit_last_modified_time">"Zuletzt bearbeitet: "</string>
   <string name="pc_note_edit_lock_dialog_doodle_by_phone">Doodle auf dem Telefon erstellen…</string>
   <string name="pc_note_edit_lock_dialog_take_photo_by_phone">Foto mit dem Telefon machen…</string>
@@ -417,18 +440,24 @@
   <string name="permission_phone_state_desc">Zum Beenden der Aufnahme von Sprachnotizen während Anrufen</string>
   <string name="permission_read_contact_desc">Zuordnung der bei Anrufen erstellten Notizen zu Kontakten</string>
   <string name="permission_storage_desc">Zum Speichern von Notizen als Bilder</string>
+  <string name="permission_storage_desc_v12">Zum Hinzufügen von Bildern zu Notizen und Speichern von Notizen als Bilder</string>
   <string name="permission_xiaoai_desc"><Data>Mi KI sammelt Ihre Sprachaufzeichnungen und Geräte-IDs, um Audio umzuwandeln und Sprachnotizen zu erstellen. Mehr in Mi KI &lt;a href=\"%1$s\">Datenschutzerklärung&lt;/a> erfahren.</Data></string>
   <string name="permlab_accessNote">Zugang zu Notizen</string>
+  <string name="pref_category_title_quick_func">Schnellfunktionen</string>
   <string name="pref_desc_skip_confirm_for_quick_delete">Keinen Bestätigungsdialog anzeigen, wenn Notizen per Gesten gelöscht werden</string>
   <string name="pref_desc_todo_float_mode">Vom Bildschirmrand streichen, um die Aufgaben-Toolbox zu öffnen</string>
+  <string name="pref_excerpt_link_float">Erinnerung zum Erstellen eines Auszugs erhalten, wenn eine URL kopiert wird</string>
+  <string name="pref_quick_note_desc">Verknüpfung am Bildschirmrand verwenden, um Notizen und Aufgaben zu erstellen, sowie kopierte URLs, Text und Bilder in Notizen zu speichern.</string>
   <string name="pref_remind_type_summary">Erinnerungston im Lautlosmodus abspielen</string>
   <string name="pref_remind_type_summary_new">Stumm-Modus ignorieren und Ton weiter abspielen, bis der Alarm ausgeschaltet wird</string>
   <string name="pref_remind_type_title">Lautlosmodus ignorieren</string>
   <string name="pref_remind_type_title_new">Erinnerung mit hoher Priorität</string>
   <string name="pref_title_cloud_trash_bin">Notizen in der Cloud löschen</string>
   <string name="pref_title_common">Weitere Einstellungen</string>
+  <string name="pref_title_excerpt_remind">Erinnerungen an Auszüge</string>
   <string name="pref_title_font_size">Schriftgröße</string>
   <string name="pref_title_note_style">Stil</string>
+  <string name="pref_title_quick_note">Kurznotizen</string>
   <string name="pref_title_show_root_folder_in_homepage">Schnellnotizen auf dem Hauptbildschirm anzeigen</string>
   <string name="pref_title_skip_confirm_for_quick_delete">Mit einer Geste löschen</string>
   <string name="pref_title_todo_float_mode">Aufgaben-Toolbox verwenden</string>
@@ -436,6 +465,7 @@
   <string name="privacy_note_content_empty">Hier noch keine Elemente vorhanden.</string>
   <string name="private_entry_available">Loslassen zum Öffnen privater Ordner</string>
   <string name="private_entry_default">Runter schieben zum Öffnen privater Ordner</string>
+  <string name="quick_note_new_user_guide">Mit Kurznotizen können Sie Notizen und Ausschnitte erstellen</string>
   <string name="recover_notes_hint">Ein Fehler ist aufgetreten, stellen Sie Ihre Notizen von i.mi.com wieder her</string>
   <string name="redo">Wiederholen</string>
   <string name="refuse_to_open_as_pic_because_of_loading">Warten Sie, bis die Notiz geladen ist und versuchen Sie es erneut.</string>
@@ -477,6 +507,7 @@
   <string name="saturday">Samstag</string>
   <string name="saturday_short">Sa</string>
   <string name="saturday_shortest">S</string>
+  <string name="save_single_excerpt">Speichern</string>
   <string name="save_to_gallery_failure_message">Konnte nicht in der Galerie speichern</string>
   <string name="save_to_gallery_icon_name">In Galerie speichern</string>
   <string name="save_to_gallery_success_message">Bild erfolgreich in Galerie gespeichert</string>
@@ -491,6 +522,8 @@
   <string name="set_alarm_description">Alarm einstellen</string>
   <string name="setting_other">ANDERE</string>
   <string name="setting_privacy">Datenschutzerklärung</string>
+  <string name="single_link_excerpt_saving">Elemente speichern…</string>
+  <string name="single_new_excerpt_title">Auszüge</string>
   <string name="snippet_audio_stub">Sprachnotiz</string>
   <string name="snippet_image_stub">Bildnotiz</string>
   <string name="snippet_image_template">[Bild %1$s]</string>
@@ -608,6 +641,10 @@
   <string name="time_picker_label_hour">Std</string>
   <string name="time_picker_label_minute">Min</string>
   <string name="toast_cancel_to_insert_image">Bild wurde nicht hinzugefügt</string>
+  <string name="toast_excerpt_end">Auszug erfolgreich erstellt</string>
+  <string name="toast_excerpt_no_content">Keine Auszüge hier</string>
+  <string name="toast_excerpt_open_note">Öffnete die Notiz mit dem Auszug</string>
+  <string name="toast_excerpt_saved">Auszug in Notizen speichern…</string>
   <string name="toast_message_add_image_fail">Bild wurde nicht hinzugefügt</string>
   <string name="toast_notes_delete_success">Erfolgreich gelöscht</string>
   <string name="toast_notes_hidden">Erfolgreich versteckt</string>
@@ -631,6 +668,7 @@ Erlauben Sie Notizen, den Inhalt Ihrer SD-Karte zu lesen."</string>
 Ermöglichen Sie Notizen, den Status und die Identität des Telefons zu lesen."</string>
   <string name="toast_refuse_to_use_record_audio">"Mikrofonrechte sind eingeschränkt.
 Ermöglichen Sie Notizen, Audio aufzunehmen."</string>
+  <string name="toast_refuse_to_use_storage_in_excerpt">Notizen den Speicherzugriff erlauben, um Bilder zu Ihren Notizen hinzufügen zu können</string>
   <string name="today">Heute</string>
   <string name="todo_alert_title_delete">Erledigte Aufgaben löschen</string>
   <string name="todo_audio_default_content">"[Sprachaufgabe] "</string>
@@ -713,6 +751,7 @@ Ermöglichen Sie Notizen, Audio aufzunehmen."</string>
   <string name="unknown_source">Unbekannte Quelle</string>
   <string name="v7_preference_off">AUS</string>
   <string name="v7_preference_on">AN</string>
+  <string name="view_all_notes">Alle anzeigen</string>
   <string name="wednesday">Mittwoch</string>
   <string name="wednesday_short">Mi</string>
   <string name="wednesday_shortest">M</string>

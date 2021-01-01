@@ -1,5 +1,22 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+  <string name="abc_action_bar_home_description">Zur Startseite</string>
+  <string name="abc_action_bar_up_description">Nach oben</string>
+  <string name="abc_action_menu_overflow_description">Weitere Optionen</string>
+  <string name="abc_action_mode_done">Fertig</string>
+  <string name="abc_activity_chooser_view_see_all">Alle ansehen</string>
+  <string name="abc_activitychooserview_choose_application">App auswählen</string>
+  <string name="abc_capital_off">AUS</string>
+  <string name="abc_capital_on">AN</string>
+  <string name="abc_search_hint">Suchen…</string>
+  <string name="abc_searchview_description_clear">Suchanfrage löschen</string>
+  <string name="abc_searchview_description_query">Suchanfrage</string>
+  <string name="abc_searchview_description_search">Suchen</string>
+  <string name="abc_searchview_description_submit">Suchanfrage senden</string>
+  <string name="abc_searchview_description_voice">Sprachsuche</string>
+  <string name="abc_shareactionprovider_share_with">Teilen mit</string>
+  <string name="abc_shareactionprovider_share_with_application">Teilen mit %s</string>
+  <string name="abc_toolbar_collapse_description">Einklappen</string>
   <string name="accessibility_enabled">Eingabehilfen aktiviert</string>
   <string name="agree">Zustimmen</string>
   <string name="agree_and_next">Zustimmen</string>
@@ -176,8 +193,8 @@
   <string name="position_subheading">Standortinfo</string>
   <string name="pref_title_data_slot">Bervorzugte Daten-SIM-Karte</string>
   <string name="pref_title_voice_slot">Bervorzugte Telefon-SIM-Karte</string>
-  <string name="priv_dialog_sync_all_purpose">Willkommen bei Xiaomi Cloud-Diensten! Sie können Xiaomi Cloud verwenden, um Ihre Nachrichten, Anrufliste, Kontakte, Notizen, Browsereinstellungen, Songs, Fotos und Videos, WLAN-Einstellungen, Aufnahmen, Startbildschirmanordnung, Apps, Kalendertermine, Sperrlistenelemente und Infoassistent über alle verbundenen Geräte zu synchronisieren.</string>
-  <string name="priv_doc_cloudservice">Willkommen bei Xiaomi Cloud-Diensten! Sie können Xiaomi Cloud verwenden, um Ihre Nachrichten, Anrufliste, Kontakte, Notizen, Browsereinstellungen, Songs, Fotos und Videos, WLAN-Einstellungen, Aufnahmen, Startbildschirmanordnung, Apps, Kalendertermine, Sperrlistenelemente und Infoassistent über alle verbundenen Geräte zu synchronisieren. Greifen Sie von jedem Browser aus auf die Dinge zu, die Sie synchronisieren. &lt;b>&lt;font color=\"#FF0000\">i.mi.com.&lt;/font>&lt;/b>"
+  <string name="priv_dialog_sync_all_purpose">Willkommen bei Xiaomi Cloud-Diensten! Sie können Xiaomi Cloud verwenden, um Ihre Nachrichten, Anrufliste, Kontakte, Notizen, Browsereinstellungen, Songs, Fotos und Videos, WLAN-Einstellungen, Aufnahmen, Startbildschirm-Layout, Apps, Kalendertermine, Sperrlistenelemente und Infoassistent über alle verbundenen Geräte zu synchronisieren.</string>
+  <string name="priv_doc_cloudservice">Willkommen bei Xiaomi Cloud-Diensten! Sie können Xiaomi Cloud verwenden, um Ihre Nachrichten, Anrufliste, Kontakte, Notizen, Browsereinstellungen, Songs, Fotos und Videos, WLAN-Einstellungen, Aufnahmen, Startbildschirm-Layout, Apps, Kalendertermine, Sperrlistenelemente und Infoassistent über alle verbundenen Geräte zu synchronisieren. Greifen Sie von jedem Browser aus auf die Dinge zu, die Sie synchronisieren. &lt;b>&lt;font color=\"#FF0000\">i.mi.com.&lt;/font>&lt;/b>"
 Zur Aktivierung dieses Dienstes kann eine ausgehende SMS erforderlich sein. Ihr Anbieter wird Ihnen für diese Nachricht eine Gebühr in Rechnung stellen. Wenn Sie Ihre SIM-Karte wechseln, kann automatisch eine Nachricht gesendet werden, um diese Funktion wieder zu aktivieren.
 
 Wir werden Ihre personenbezogenen Daten in Übereinstimmung mit den einschlägigen Gesetzen, Vorschriften und Datenschutzrichtlinien schützen.
@@ -247,11 +264,12 @@ Lesen und akzeptieren Sie unsere "&lt;u>&lt;a href=\"app://com.miui.cloudservice
   <string name="require_authority_statement">Damit wir Ihnen grundlegende Dienstleistungen anbieten können, müssen Sie die folgenden Genehmigungen erteilen, damit wir Ihre personenbezogenen Daten erfassen können:</string>
   <string name="require_network_authority_statement">Damit wir Ihnen grundlegenden Dienstleistungen anbieten können, müssen Sie eine Internetverbindung herstellen und die folgenden Berechtigungen erteilen, damit wir Ihre personenbezogenen Daten erfassen können:</string>
   <string name="screen_recording_introduction">Mit dieser App können Sie aufzeichnen, was auf Ihrem Bildschirm passiert.</string>
+  <string name="search_menu_title">Suchen</string>
   <string name="security_introduction">Mit dieser App können Sie den Papierkorb auf Ihrem Gerät löschen, Viren finden und neutralisieren, die Leistung für Spiele optimieren, Akku sparen, Apps und Berechtigungen verwalten und vieles mehr.</string>
   <string name="security_mobile_account_introduction">Zur Systemkontenanmeldung und -verwaltung</string>
   <string name="service_agreement">Ich habe die Allgemeinen Geschäftsbedingungen gelesen und akzeptiert.</string>
-  <string name="service_name_backup">Sicherungen</string>
   <string name="service_name_album">Galerie</string>
+  <string name="service_name_backup">Sicherungen</string>
   <string name="service_name_application_package">Paket-Installer</string>
   <string name="service_name_calculator">Recher</string>
   <string name="service_name_camera">Kamera</string>

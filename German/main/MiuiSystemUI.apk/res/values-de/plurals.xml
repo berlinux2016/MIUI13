@@ -1,5 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+  <plurals name="abc_slice_duration_days">
+    <item quantity="other">Vor %d Tagen</item>
+    <item quantity="one">Vor %d Tag</item>
+  </plurals>
+  <plurals name="abc_slice_duration_min">
+    <item quantity="other">Vor %d Min.</item>
+    <item quantity="one">Vor %d Min.</item>
+  </plurals>
+  <plurals name="abc_slice_duration_years">
+    <item quantity="other">Vor %d Jr.</item>
+    <item quantity="one">Vor %d Jr.</item>
+  </plurals>
   <plurals name="accessibility_recent_task_enter">
     <item quantity="other">Zuletzt verwendet, verfügbare Apps: %d</item>
     <item quantity="one">Zuletzt verwendet, verfügbare App: %d</item>
@@ -19,6 +31,10 @@
   <plurals name="block_record_notification_more_text">
     <item quantity="other">Benachrichtigungen von %1$s &amp; %2$d Apps ausblenden</item>
     <item quantity="one">Benachrichtigungen von %1$s &amp; %2$d App ausblenden</item>
+  </plurals>
+  <plurals name="controls_number_of_favorites">
+    <item quantity="other">%s Steuerungen hinzugefügt</item>
+    <item quantity="one">%s Steuerung hinzugefügt</item>
   </plurals>
   <plurals name="disable_notification_confirm_title">
     <item quantity="other">%d App-Benachrichtigungen verbergen?</item>
@@ -84,6 +100,10 @@
     <item quantity="other">SIM PIN eingeben. Sie haben noch %d Versuche.</item>
     <item quantity="one">SIM PIN eingeben. Sie haben noch %d Versuch, bevor Sie Ihren Mobilfunkanbieter kontaktieren müssen, um Ihr Gerät zu entsperren.</item>
   </plurals>
+  <plurals name="kg_password_default_pin_message_multi_sim">
+    <item quantity="other">SIM%1$d-PIN eingeben. Sie haben %2$d verbleibende Versuche.</item>
+    <item quantity="one">SIM%1$d-PIN eingeben. Sie haben %2$d verbleibenden Versuch, bevor Sie Ihren Anbieter kontaktieren müssen, um Ihr Gerät zu entsperren.</item>
+  </plurals>
   <plurals name="kg_password_default_puk_message">
     <item quantity="other">SIM ist jetzt gesperrt. PUK Code eingeben, um fortzufahren. Sie haben noch %d Versuche, bevor die SIM-Karte dauerhaft unbrauchbar wird. Mobilfunkanbieter kontaktieren für Details.</item>
     <item quantity="one">SIM ist jetzt gesperrt. PUK Code eingeben, um fortzufahren. Sie haben noch %d Versuch, bevor die SIM-Karte dauerhaft unbrauchbar wird. Mobilfunkanbieter kontaktieren für Details.</item>
@@ -91,6 +111,10 @@
   <plurals name="kg_password_wrong_pin_code">
     <item quantity="other">Falscher SIM PIN Code, Sie haben noch %d Versuche</item>
     <item quantity="one">Falscher SIM PIN Code. Sie haben noch %d Versuch, bevor Sie Ihren Mobilfunkanbieter kontaktieren müssen, um Ihr Gerät zu entsperren.</item>
+  </plurals>
+  <plurals name="kg_password_wrong_pin_code_multi_sim">
+    <item quantity="other">Falscher SIM%1$d-PIN-Code. Sie haben %2$d verbleibende Versuche.</item>
+    <item quantity="one">Falscher SIM%1$d-PIN-Code. Sie haben %2$d verbleibenden Versuch, bevor Sie Ihren Anbieter kontaktieren müssen, um Ihr Gerät zu entsperren.</item>
   </plurals>
   <plurals name="kg_password_wrong_puk_code">
     <item quantity="other">Falscher SIM PIN Code. Sie haben noch %d Versuche, bevor die SIM-Karte dauerhaft unbrauchbar wird.</item>
@@ -107,6 +131,10 @@
   <plurals name="kg_prompt_reason_time_pin">
     <item quantity="other">Gerät wurde für %d Std nicht entsperrt. PIN bestätigen.</item>
     <item quantity="one">Gerät wurde für %d Std nicht entsperrt. PIN bestätigen.</item>
+  </plurals>
+  <plurals name="kg_too_many_failed_attempts_countdown">
+    <item quantity="other">In %d Sek. erneut versuchen</item>
+    <item quantity="one">In %d Sek. erneut versuchen</item>
   </plurals>
   <plurals name="new_notifications_msg">
     <item quantity="other">%d neue Benachrichtigungen</item>
@@ -136,13 +164,32 @@
     <item quantity="other">In %d Sekunden erneut versuchen</item>
     <item quantity="one">In %d Sekunde erneut versuchen</item>
   </plurals>
+  <plurals name="quick_settings_hotspot_secondary_label_num_devices">
+    <item quantity="other">%d Geräte</item>
+    <item quantity="one">%d Gerät</item>
+  </plurals>
   <plurals name="settings_toggle_position_divider_page">
     <item quantity="other">%1$d Schalter über diesem Balken sind aktiv</item>
     <item quantity="one">%1$d Schalter über diesem Balken ist aktiv</item>
   </plurals>
+  <plurals name="snoozeHourOptions">
+    <item quantity="other">%d Std.</item>
+    <item quantity="one">%d Std.</item>
+    <item quantity="two">%d Std.</item>
+    <item quantity="few">%d Std.</item>
+  </plurals>
+  <plurals name="snoozeMinuteOptions">
+    <item quantity="other">%d Min.</item>
+    <item quantity="one">%d Min.</item>
+    <item quantity="few">%d Min.</item>
+  </plurals>
   <plurals name="status_bar_accessibility_recent_apps">
     <item quantity="other">%d Bildschirme im Überblick</item>
     <item quantity="one">1 Bildschirm im Überblick</item>
+  </plurals>
+  <plurals name="user_limit_reached_message">
+    <item quantity="other">Sie können bis zu %d Benutzer hinzufügen.</item>
+    <item quantity="one">Nur 1 Benutzer kann angelegt werden.</item>
   </plurals>
   <plurals name="view_realtime_clear">
     <item quantity="other">Löschen</item>

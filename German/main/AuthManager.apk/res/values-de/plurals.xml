@@ -1,5 +1,34 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+  <plurals name="a_hour_ago">
+    <item quantity="other">Vor 1 Stunde</item>
+  </plurals>
+  <plurals name="abbrev_a_hour_ago">
+    <item quantity="other">Vor 1 Std</item>
+  </plurals>
+  <plurals name="abbrev_half_hour_ago">
+    <item quantity="other">Vor einer halben Std</item>
+  </plurals>
+  <plurals name="abbrev_in_a_hour">
+    <item quantity="other">In 1 Std</item>
+  </plurals>
+  <plurals name="abbrev_in_half_hour">
+    <item quantity="other">In einer halben Std</item>
+  </plurals>
+  <plurals name="abbrev_in_less_than_one_minute">
+    <item quantity="other">Sofort</item>
+  </plurals>
+  <plurals name="abbrev_in_num_minutes">
+    <item quantity="other">In %d Min</item>
+    <item quantity="one">In 1 Min</item>
+  </plurals>
+  <plurals name="abbrev_less_than_one_minute_ago">
+    <item quantity="other">Gerade eben</item>
+  </plurals>
+  <plurals name="abbrev_num_minutes_ago">
+    <item quantity="other">Vor %d Min</item>
+    <item quantity="one">Vor 1 Min</item>
+  </plurals>
   <plurals name="clipboard_ai_allow_more">
     <item quantity="other">Erlaubt %1$s, auf Elemente in der Zwischenablage automatisch %2$d-mal zuzugreifen</item>
     <item quantity="one">Erlaubt %1$s, auf Elemente in der Zwischenablage automatisch %2$d-mal zuzugreifen</item>
@@ -20,9 +49,28 @@
     <item quantity="other">%s Tage</item>
     <item quantity="one">%s Tag</item>
   </plurals>
+  <plurals name="half_hour_ago">
+    <item quantity="other">Vor einer halben Stunde</item>
+  </plurals>
   <plurals name="hours">
     <item quantity="other">%s Stunden</item>
     <item quantity="one">%s Stunde</item>
+  </plurals>
+  <plurals name="in_a_hour">
+    <item quantity="other">In 1 Stunde</item>
+  </plurals>
+  <plurals name="in_half_hour">
+    <item quantity="other">In einer halben Stunde</item>
+  </plurals>
+  <plurals name="in_less_than_one_minute">
+    <item quantity="other">Sofort</item>
+  </plurals>
+  <plurals name="in_num_minutes">
+    <item quantity="other">In %d Minuten</item>
+    <item quantity="one">In 1 Minute</item>
+  </plurals>
+  <plurals name="less_than_one_minute_ago">
+    <item quantity="other">Gerade eben</item>
   </plurals>
   <plurals name="minutes">
     <item quantity="other">%s Minuten</item>
@@ -39,6 +87,10 @@
   <plurals name="new_task_restore_failed">
     <item quantity="other">Erfolgreich wiederhergestellt. %d Elemente wiederherstellen nicht möglich.</item>
     <item quantity="one">Erfolgreich wiederhergestellt. %d Element wiederherstellen nicht möglich.</item>
+  </plurals>
+  <plurals name="num_minutes_ago">
+    <item quantity="other">Vor %d Minuten</item>
+    <item quantity="one">Vor 1 Minute</item>
   </plurals>
   <plurals name="perm_manager_suggest_allow_content">
     <item quantity="other">Sie haben %2$s bereits %1$d-mal den Zugriff auf die Zwischenablage erlaubt. Wollen Sie %3$s immer erlauben, auf die Zwischenablage zuzugreifen?</item>

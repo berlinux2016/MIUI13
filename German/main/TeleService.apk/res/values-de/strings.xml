@@ -165,6 +165,7 @@
   <string name="adb_pairing_device_dialog_dialog_pairing_code_label">WLAN-Kopplungscode</string>
   <string name="adb_pairing_device_dialog_failed_msg">Vergewissern Sie sich, dass das Gerät an dasselbe Netzwerk angeschlossen ist</string>
   <string name="adb_pairing_device_dialog_failed_title" >Kopplung erfolglos</string>
+  <string name="adb_pairing_device_dialog_pairing_code_label">WLAN-Kopplungscode</string>
   <string name="adb_pairing_device_dialog_title">Mit Gerät koppeln</string>
   <string name="adb_qrcode_pairing_device_failed_msg">Gerät wurde nicht gekoppelt. Entweder war der QR-Code falsch, oder das Gerät ist nicht mit demselben Netzwerk verbunden.</string>
   <string name="adb_warning_message">USB-Debugging ist nur für Entwicklungszwecke gedacht. Verwenden Sie diese Option, um Daten zwischen Ihrem Computer und Ihrem Gerät zu kopieren, Apps ohne Benachrichtigung auf Ihrem Gerät zu installieren und Protokolldaten zu lesen.</string>
@@ -296,7 +297,7 @@
   <string name="band_mode_failed">Erfolglos</string>
   <string name="band_mode_loading">Bandliste laden…</string>
   <string name="band_mode_set">Festlegen</string>
-  <string name="band_mode_succceeded">Erfolgreich</string>
+  <string name="band_mode_succeeded">Erfolgreich</string>
   <string name="band_mode_title">Radioband-Modus einstellen</string>
   <string name="battery_info_status_charging">Laden</string>
   <string name="battery_info_status_charging_ac">Laden mit Netzstecker</string>
@@ -449,7 +450,7 @@ Abtastrate"</string>
   <string name="callFailed_dsac_restricted">Alle Anrufe sind durch Zugriffskontrolle eingeschränkt</string>
   <string name="callFailed_dsac_restricted_emergency">Notrufe sind durch Zugriffskontrolle eingeschränkt</string>
   <string name="callFailed_dsac_restricted_normal">Normale Anrufe sind durch Zugriffskontrolle eingeschränkt</string>
-  <string name="callFailed_emergency_call_call_over_wfc_not_available">Notrufe über WLAN sind an diesem Ort nicht verfügbar</string>
+  <string name="callFailed_emergency_call_over_wfc_not_available">Notrufe über WLAN-Calling sind an diesem Standort nicht verfügbar</string>
   <string name="callFailed_facility_rejected">Einrichtung abgelehnt</string>
   <string name="callFailed_fdn_only">Ausgehende Anrufe durch Rufnummernbeschränkung eingeschränkt</string>
   <string name="callFailed_imei_not_accepted">Verbindung nicht möglich, bitte eine gültige SIM-Karte einlegen</string>
@@ -1761,7 +1762,7 @@ Erneut versuchen oder den Kundendienst für weitere Optionen anrufen."</string>
   <string name="power_remaining_less_than_duration_only">Weniger als %1$s übrig</string>
   <string name="power_remaining_more_than_subtext">Mehr als %1$s übrig (%2$s)</string>
   <string name="power_remaining_only_more_than_subtext">Mehr als %1$s übrig</string>
-  <string name="power_suggestion_battery_run_out">Akku kann um %1$s leer sein</string>
+  <string name="power_suggestion_battery_run_out">Akku ist voraussichtlich um %1$s leer</string>
   <string name="power_suggestion_extend_battery">Akkulaufzeit auf über %1$s verlängern</string>
   <string name="prefered_network_type_3g_promp">Sie sollten VoLTE ausschalten, bevor Sie 3G als bevorzugten Netzwerktyp auswählen. Jetzt ausschalten?</string>
   <string name="preference_auto_ip_summary_disable">Deaktiviert</string>
@@ -1790,6 +1791,7 @@ Erneut versuchen oder den Kundendienst für weitere Optionen anrufen."</string>
   <string name="preferred_network_mode_global_summary">Bevorzugter Netzwerkmodus: Global (CDMA/EVDO/LTE/GSM/WCDMA)</string>
   <string name="preferred_network_mode_gsm_only_summary">Bevorzugter Netzwerkmodus: Nur GSM</string>
   <string name="preferred_network_mode_gsm_wcdma_summary">Bevorzugter Netzwerkmodus: GSM/WCDMA</string>
+  <string name="preferred_network_mode_lte_cdma_evdo_gsm_wcdma_summary">Bevorzugter Netzwerkmodus: LTE/CDMA/EvDo/GSM/WCDMA</string>
   <string name="preferred_network_mode_lte_cdma_evdo_summary">Bevorzugter Netzwerkmodus: CDMA+LTE/EVDO</string>
   <string name="preferred_network_mode_lte_cdma_summary">Bevorzugter Netzwerkmodus: LTE/CDMA</string>
   <string name="preferred_network_mode_lte_gsm_umts_summary">Bevorzugter Netzwerkmodus: LTE/GSM/UMTS</string>
@@ -1801,6 +1803,17 @@ Erneut versuchen oder den Kundendienst für weitere Optionen anrufen."</string>
   <string name="preferred_network_mode_lte_tdscdma_summary">Bevorzugter Netzwerkmodus: LTE/TDSCDMA</string>
   <string name="preferred_network_mode_lte_tdscdma_wcdma_summary">Bevorzugter Netzwerkmodus: LTE/TDSCDMA/WCDMA</string>
   <string name="preferred_network_mode_lte_wcdma_summary">Bevorzugter Netzwerkmodus: LTE/WCDMA</string>
+  <string name="preferred_network_mode_nr_lte_cdma_evdo_gsm_wcdma_summary">Bevorzugter Netzwerkmodus: NR/LTE/CDMA/EvDo/GSM/WCDMA</string>
+  <string name="preferred_network_mode_nr_lte_cdma_evdo_summary">Bevorzugter Netzwerkmodus: NR/LTE/CDMA/EvDo</string>
+  <string name="preferred_network_mode_nr_lte_gsm_wcdma_summary">Bevorzugter Netzwerkmodus: NR/LTE/GSM/WCDMA</string>
+  <string name="preferred_network_mode_nr_lte_summary">Bevorzugter Netzwerkmodus: NR / LTE</string>
+  <string name="preferred_network_mode_nr_lte_tdscdma_cdma_evdo_gsm_wcdma_summary">Bevorzugter Netzwerkmodus: NR/LTE/TDSCDMA/CDMA/EvDo/GSM/WCDMA</string>
+  <string name="preferred_network_mode_nr_lte_tdscdma_gsm_summary">Bevorzugter Netzwerkmodus: NR/LTE/TDSCDMA/GSM</string>
+  <string name="preferred_network_mode_nr_lte_tdscdma_gsm_wcdma_summary">Bevorzugter Netzwerkmodus: NR/LTE/TDSCDMA/GSM/WCDMA</string>
+  <string name="preferred_network_mode_nr_lte_tdscdma_summary">Bevorzugter Netzwerkmodus: NR/LTE/TDSCDMA</string>
+  <string name="preferred_network_mode_nr_lte_tdscdma_wcdma_summary">Bevorzugter Netzwerkmodus: NR/LTE/TDSCDMA/WCDMA</string>
+  <string name="preferred_network_mode_nr_lte_wcdma_summary">Bevorzugter Netzwerkmodus: NR/LTE/WCDMA</string>
+  <string name="preferred_network_mode_nr_only_summary">Bevorzugter Netzwerkmodus: NR only</string>
   <string name="preferred_network_mode_summary">Netzwerkmodus ändern</string>
   <string name="preferred_network_mode_td_scdma_cdma_evdo_gsm_wcdma_summary">Bevorzugter Netzwerkmodus: TD-SCDMA/CDMA/EvDo/GSM/WCDMA</string>
   <string name="preferred_network_mode_td_scdma_gsm_lte_summary">Bevorzugter Netzwerkmodus: TD-SCDMA/GSM/LTE</string>
@@ -1825,11 +1838,14 @@ Erneut versuchen oder den Kundendienst für weitere Optionen anrufen."</string>
   <string name="preferred_network_type_pref_entries_3g_preferred">3G bevorzugt</string>
   <string name="preferred_network_type_pref_entries_3g_preferred_cdma">3G (CDMA) bevorzugt</string>
   <string name="preferred_network_type_pref_entries_3g_preferred_lm_cr">WCDMA/GSM Automatisch</string>
+  <string name="preferred_network_type_pref_entries_3g_preferred_mx_at">3G/2G (3G bevorzugt)</string>
   <string name="preferred_network_type_pref_entries_4g_preferred">LTE bevorzugt</string>
   <string name="preferred_network_type_pref_entries_4g_preferred_cdma">4G (CDMA) bevorzugt</string>
   <string name="preferred_network_type_pref_entries_4g_preferred_custom">Bevorzugt 4G</string>
   <string name="preferred_network_type_pref_entries_4g_preferred_lm_cr">LTE/WCDMA/GSM Automatisch</string>
+  <string name="preferred_network_type_pref_entries_4g_preferred_mx_at">4G/3G/2G (4G bevorzugt)</string>
   <string name="preferred_network_type_pref_entries_5g_preferred">5G bevorzugt</string>
+  <string name="preferred_network_type_pref_entries_5g_preferred_mx_at">5G/4G/3G/2G (5G/4G bevorzugt)</string>
   <string name="preferred_network_type_pref_entries_auto">Automatisch</string>
   <string name="preferred_network_type_pref_entries_only_2g">Nur 2G</string>
   <string name="preferred_network_type_pref_entries_only_2g_lm_cr">Nur GSM</string>
@@ -1888,6 +1904,7 @@ Erneut versuchen oder den Kundendienst für weitere Optionen anrufen."</string>
   <string name="radioInfo_data_connected">Verbunden</string>
   <string name="radioInfo_data_connecting">Verbinden</string>
   <string name="radioInfo_data_data_disconnected">Getrennt</string>
+  <string name="radioInfo_data_disconnected">Getrennt</string>
   <string name="radioInfo_data_suspended">Ausgesetzt</string>
   <string name="radioInfo_menu_viewADN">SIM-Adressbuch anzeigen</string>
   <string name="radioInfo_menu_viewFDN">Festnetznummern anzeigen</string>
@@ -2604,6 +2621,7 @@ Wenn Sie sich für Mobilfunknetze entscheiden, werden diese standardmäßig für
   <string name="wifi_not_in_range">Nicht in Reichweite</string>
   <string name="wifi_p2p_allow_passive_listen">WLAN P2p passives Zuhören zulassen</string>
   <string name="wifi_p2p_allow_passive_listen_summary">WLAN P2p passives Zuhören zulassen/nicht zulassen, das Gerät kann keine anderen Geräte scannen, aber andere Geräte können das aktuelle Gerät scannen.</string>
+  <string name="wifi_passpoint_expired">Abgelaufen</string>
   <string name="wifi_remembered">Gespeichert</string>
   <string name="wifi_scan_throttling">WLAN-Scan-Drosselung</string>
   <string name="wifi_scan_throttling_summary">Reduziert den Akkuverbrauch &amp; verbessert die Netzwerkleistung</string>

@@ -213,7 +213,7 @@ Wenn Sie keinen Zugang zu den empfohlenen Kursen erhalten möchten, können Sie 
   <string name="channel_desc_background">Für die Erbringung von Dienstleistungen im Hintergrund</string>
   <string name="channel_id_background_service">Hintergrunddienste</string>
   <string name="channel_name_background">Hintergrunddienste</string>
-  <string name="character_counter_content_description">Eingegebene Zeichen: %1$d von %2$d</string>
+  <string name="character_counter_content_description">%1$d von %2$d Zeichen eingegeben</string>
   <string name="character_counter_overflowed_content_description">Zeichenlimit überschritten: %1$d von %2$d</string>
   <string name="chart_no_data">Keine Daten</string>
   <string name="chip_text">Chiptext</string>
@@ -941,6 +941,7 @@ mit einem Finger"</string>
   <string name="oar_time">Fahrzeit</string>
   <string name="oauth_account_failed">Kontoinformationen abrufen nicht möglich</string>
   <string name="oauth_account_failed_desc">Um Datenquellen hinzuzufügen, muss Xiaomi health Ihr Mi-Konto verwenden. Melden Sie sich an, um fortzufahren.</string>
+  <string name="oauth_invalid">Sitzung ist abgelaufen. Erneut anmelden.</string>
   <string name="open">Einschalten</string>
   <string name="open_data_sync_description">Cloud-Synchronisation einschalten, um Gesundheitsdaten aus anderen Quellen zu synchronisieren</string>
   <string name="open_stand_assistant">Tippen, um Stehassistent zu öffnen</string>
@@ -1019,6 +1020,8 @@ mit einem Finger"</string>
   <string name="rb_gender_female">Geschlecht: Weiblich</string>
   <string name="rb_gender_male">Geschlecht: Männlich</string>
   <string name="reach_standard">Erfüllt Standard</string>
+  <string name="recog_permission_dialog_content">Xiaomi Health den Zugriff auf Ihre Aktivitätsdaten erlauben, damit Sie die Schrittzahl sehen können.</string>
+  <string name="recog_permission_dialog_title">Erforderliche Berechtigungen</string>
   <string name="recommand_body_weight_msg">Empfohlenes Sollgewicht: %1$.1f kg. BMI %2$.1f erreichen, um das Risiko von Herz-Kreislauf- und Lebererkrankungen zu reduzieren.</string>
   <string name="recommend_sleep_goal">21:00 - 11:00</string>
   <string name="record_blood_pressure">Messung aufzeichnen</string>
@@ -1108,6 +1111,31 @@ mit einem Finger"</string>
   <string name="severe_abnormal">Hypertensive Krisen</string>
   <string name="severe_abnormal_tip">Täglich nach dem Aufstehen, nach dem Mittagessen und vor dem Schlafengehen</string>
   <string name="share">Teilen</string>
+  <string name="share_card_key_avg_pace">Tempo</string>
+  <string name="share_card_key_consume">Kalorien</string>
+  <string name="share_card_key_groups">Intervalle</string>
+  <string name="share_card_key_step">Schritte</string>
+  <string name="share_card_key_time">Dauer</string>
+  <string name="share_card_title_climbing">Klettern %s</string>
+  <string name="share_card_title_cross_hiking">Wandern %s</string>
+  <string name="share_card_title_elliptical_trainer">Crosstrainer</string>
+  <string name="share_card_title_free_training">Freestyle-Training</string>
+  <string name="share_card_title_indoor_rinding">Heimtrainer %s</string>
+  <string name="share_card_title_indoor_running">Laufen %s</string>
+  <string name="share_card_title_open_swimming">Freiwasserschwimmen %s</string>
+  <string name="share_card_title_outdoor_hiking">Wandern %s</string>
+  <string name="share_card_title_outdoor_riding">Radfahren %s</string>
+  <string name="share_card_title_outdoor_running">Laufen %s</string>
+  <string name="share_card_title_outdoor_walking">Gehen %s</string>
+  <string name="share_card_title_pool_swimming">Poolschwimmen %s</string>
+  <string name="share_card_title_riding">Radfahren %s</string>
+  <string name="share_card_title_rope_skipping">Seilspringen %s</string>
+  <string name="share_card_title_rowing_machine">Rudergerät %s</string>
+  <string name="share_card_title_running">Laufen %s</string>
+  <string name="share_card_title_stair_climbing">Treppensteigen</string>
+  <string name="share_card_title_swimming">Schwimmen %s</string>
+  <string name="share_card_title_treadmill">Laufband %s</string>
+  <string name="share_card_title_walking">Gehen %s</string>
   <string name="skip">Überspringen</string>
   <string name="skip_to_next_item_button_content_description">Zum nächsten Punkt springen</string>
   <string name="skip_to_previous_item_button_content_description">Zum vorherigen Punkt springen</string>
@@ -1122,6 +1150,7 @@ mit einem Finger"</string>
   <string name="skipping_ready_hint_two">Ihr Training wird auf Basis der von Ihnen erzeugten Geräusche automatisch angehalten und wieder aufgenommen.</string>
   <string name="skipping_ready_toast">Wir haben die Lautstärke erhöht, damit Sie die Anweisungen besser hören.</string>
   <string name="skipping_reset_time">Ausruhen</string>
+  <string name="skipping_start_counting">Starten</string>
   <string name="skipping_time">Dauer</string>
   <string name="skipping_upload_dialog_agree_and_upload">Hochladen</string>
   <string name="skipping_upload_dialog_msg">Wenn Ihr Gerät mit %s verbunden ist, können Sie wählen, ob Sie die während des Trainings aufgezeichneten Audiodaten hochladen möchten, um die Genauigkeit der Trainingsstatistiken zu verbessern. Um Ihre Privatsphäre zu schützen, werden die Audiodateien verschlüsselt.</string>
@@ -1157,7 +1186,7 @@ mit einem Finger"</string>
   <string name="sleep_detection_guide_two_description">Um genaue Werte zu erhalten, legen Sie Ihr Gerät neben oder unter das Kissen und achten Sie darauf, dass es nicht mehr als 50 cm von Ihrem Körper entfernt ist.</string>
   <string name="sleep_detection_guide_two_title">Legen Sie das Gerät neben Ihr Kopfkissen</string>
   <string name="sleep_detection_hint">" Die Angaben dienen nur zu Ihrer Information. Sie können nicht als Grundlage für eine medizinische Diagnose verwendet werden."</string>
-  <string name="sleep_detection_question_four_answer">Verschiedene Arten von mobilen Geräten sind mit unterschiedlichen Sensoren ausgestattet. Die Werte für die Leistungsaufnahme können für verschiedene Hardware-Elemente variieren.</string>
+  <string name="sleep_detection_question_four_answer">Verschiedene Arten von Mobilgeräten sind mit unterschiedlichen Sensoren ausgestattet. Die Werte für die Leistungsaufnahme können für verschiedene Hardware-Elemente variieren.</string>
   <string name="sleep_detection_question_four_title">Warum verbrauchen verschiedene Geräte unterschiedlich viel Strom, um den Schlaf zu verfolgen?</string>
   <string name="sleep_detection_question_one_answer">"Wenn Ihr Gerät ausgeschaltet oder neu gestartet wird oder der Akku schwach ist, wird die Schlafverfolgung unterbrochen, da die Sensoren keine Daten erfassen und analysieren können. In solchen Fällen erscheint die Schlafstatistik unvollständig.
 Wenn dieses Problem häufig auftritt, überprüfen Sie Ihr Gerät auf geplante Abschaltaufgaben oder nächtliche Systemaktualisierungen."</string>
@@ -1350,6 +1379,9 @@ auf Ihren persönlichen Daten beraten."</string>
   <string name="sport_step_max_frequency">Max.</string>
   <string name="sport_step_min_frequency">Min.</string>
   <string name="sport_title_step_frequency">Trittrequenz</string>
+  <string name="sport_tts_1">Eins</string>
+  <string name="sport_tts_2">Zwei</string>
+  <string name="sport_tts_3">Drei</string>
   <string name="sport_tts_begin_riding">Mit Radfahren beginnen</string>
   <string name="sport_tts_begin_running">Mit Rennen beginnen</string>
   <string name="sport_tts_begin_walking">Mit Laufen beginnen</string>

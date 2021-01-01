@@ -35,24 +35,59 @@
   <string name="accessibility_wifi_signal_full">Voller WLAN-Empfang</string>
   <string name="accessibility_wifi_three_bars">WLAN 3 Balken</string>
   <string name="accessibility_wifi_two_bars">WLAN 2 Balken</string>
+  <string name="accessibility_work_profile_app_description">Arbeit %s</string>
+  <string name="accessor_expires_text">Mietvertrag läuft ab am %s</string>
+  <string name="accessor_info_title">Apps, die Daten teilen</string>
+  <string name="accessor_no_description_text">Die App liefert keine Beschreibung.</string>
   <string name="active_input_method_subtypes">Aktive Eingabemethoden</string>
+  <string name="adb_device_fingerprint_title_format">Gerätefingerabdruck: %1$s</string>
+  <string name="adb_device_forget">Vergessen</string>
   <string name="adb_keys_warning_message">Zugriff auf USB-Debugging für alle zuvor autorisierten Computer aufheben?</string>
+  <string name="adb_pair_method_code_summary">Neue Geräte mit 6-stelligem Code koppeln</string>
+  <string name="adb_pair_method_code_title">Gerät mit Pairing-Code koppeln</string>
+  <string name="adb_pair_method_qrcode_summary">Neue Geräte mit QR-Code-Scanner koppeln</string>
+  <string name="adb_pair_method_qrcode_title">Gerät mit QR-Code koppeln</string>
+  <string name="adb_paired_devices_title">Gekoppelte Geräte</string>
+  <string name="adb_pairing_device_dialog_failed_msg">Sicherstellen, dass das Gerät mit demselben Netzwerk verbunden ist</string>
+  <string name="adb_pairing_device_dialog_failed_title">Kopplung erfolglos</string>
+  <string name="adb_pairing_device_dialog_pairing_code_label">WLAN-Pairing-Code</string>
+  <string name="adb_pairing_device_dialog_title">Mit Gerät koppeln</string>
+  <string name="adb_qrcode_pairing_device_failed_msg">Gerät koppeln fehlgeschlagen. Entweder war der QR-Code falsch, oder das Gerät ist nicht mit demselben Netzwerk verbunden.</string>
   <string name="adb_warning_message">USB-Debugging ist nur für Entwicklungszwecke vorgesehen. Damit können Sie Daten zwischen Ihrem Computer und Ihrem Gerät kopieren, Apps auf Ihrem Gerät ohne Benachrichtigung installieren und Protokolldaten lesen.</string>
   <string name="adb_warning_title">USB-Debugging erlauben?</string>
+  <string name="adb_wireless_connection_failed_message">Sicherstellen, dass %1$s mit dem richtigen Netzwerk verbunden ist</string>
+  <string name="adb_wireless_connection_failed_title">Verbindung fehlgeschlagen</string>
+  <string name="adb_wireless_device_connected_summary">Aktuell verbunden</string>
+  <string name="adb_wireless_device_details_title">Gerätedetails</string>
+  <string name="adb_wireless_error">Fehler</string>
+  <string name="adb_wireless_ip_addr_preference_title">IP-Adresse &amp; Port</string>
+  <string name="adb_wireless_list_empty_off">Um verfügbare Geräte zu sehen und zu verwenden, schalten Sie Wireless-Debugging ein</string>
+  <string name="adb_wireless_no_network_msg">Bitte verbinden Sie sich mit einem WLAN</string>
+  <string name="adb_wireless_qrcode_pairing_description">Gerät über WLAN durch Scannen eines QR-Codes koppeln</string>
+  <string name="adb_wireless_qrcode_pairing_title">QR-Code scannen</string>
+  <string name="adb_wireless_qrcode_summary">Gerät über WLAN durch Scannen eines QR-Codes koppeln</string>
+  <string name="adb_wireless_settings">Wireless-Debugging</string>
+  <string name="adb_wireless_verifying_qrcode_text">Gerät koppeln…</string>
+  <string name="adbwifi_warning_message">Wireless-Debugging ist nur für Entwicklungszwecke vorgesehen. Verwenden Sie es, um Daten zwischen Ihrem Computer und Ihrem Gerät zu kopieren, Apps ohne Benachrichtigung auf Ihrem Gerät zu installieren und Protokolldaten zu lesen.</string>
+  <string name="adbwifi_warning_title">Wireless-Debugging zulassen?</string>
   <string name="alarm_template">um %1$s</string>
   <string name="alarm_template_far">um %1$s</string>
   <string name="allow_mock_location">Scheinstandorte zulassen</string>
   <string name="allow_mock_location_summary">Scheinstandorte zulassen</string>
   <string name="animator_duration_scale_title">Skala Animationsdauer</string>
-  <string name="audio_relay_default_device_name">Mi KI-Lautsprecher</string>
   <string name="apn_settings_not_available">APN-Einstellungen sind für diesen Benutzer nicht verfügbar</string>
   <string name="app_process_limit_title">Hintergrundprozesslimit</string>
-  <string name="available_via_carrier">Verfügbar via %1$s</string>
-  <string name="available_via_passpoint">Verfügfbar via %1$s</string>
+  <string name="audio_relay_default_device_name">Mi KI-Lautsprecher</string>
+  <string name="auto_connect_disable">Auto-Verbinden ist aus</string>
+  <string name="available_via_app">Verfügbar über %1$s</string>
+  <string name="available_via_carrier">Verfügbar über %1$s</string>
+  <string name="available_via_passpoint">Verfügfbar über %1$s</string>
   <string name="band_24G">" (2,4-GHz-Band)"</string>
   <string name="band_5G">" (5-GHz-Band)"</string>
   <string name="battery_info_status_charging">Laden</string>
+  <string name="battery_info_status_charging_fast">Schnelles Laden</string>
   <string name="battery_info_status_charging_lower">Laden</string>
+  <string name="battery_info_status_charging_slow">Langsames Laden</string>
   <string name="battery_info_status_discharging">Entladen</string>
   <string name="battery_info_status_full">Akku voll</string>
   <string name="battery_info_status_not_charging">Eingesteckt, laden gerade nicht möglich</string>
@@ -62,6 +97,8 @@
   <string name="ble_device_profile_header_title">Einstellungen</string>
   <string name="ble_device_profile_title">Verbundenes Bluetooth-Smart-Gerät</string>
   <string name="ble_device_rename">Umbenennen</string>
+  <string name="blob_expires_text">Läuft ab am %s</string>
+  <string name="blob_id_text">Gemeinsame Daten-ID: %d</string>
   <string name="bluetooth_a2dp_profile_summary_connected">Mit Audiomedien verbunden</string>
   <string name="bluetooth_a2dp_profile_summary_use_for">Für Audiomedien nutzen</string>
   <string name="bluetooth_active_battery_level">Aktiv | Akku: %1$s</string>
@@ -86,6 +123,8 @@
   <string name="bluetooth_disconnecting">Trennen…</string>
   <string name="bluetooth_dun_profile_summary_connected">Mit DFÜ-Server verbunden</string>
   <string name="bluetooth_dun_profile_summary_use_for">Für DFÜ-Verbindung verwenden</string>
+  <string name="bluetooth_enable_gabeldorsche">Gabeldorsche aktivieren</string>
+  <string name="bluetooth_enable_gabeldorsche_summary">Aktiviert den Bluetooth Gabeldorsche Funktions-Stack</string>
   <string name="bluetooth_headset_profile_summary_connected">Mit Sprachtelefonie verbunden</string>
   <string name="bluetooth_headset_profile_summary_use_for">Für Sprachtelefonie verwenden</string>
   <string name="bluetooth_hearing_aid_profile_summary_connected">Mit Hörgerät verbunden</string>
@@ -146,8 +185,12 @@ Wiedergabequalität"</string>
   <string name="bluetooth_select_a2dp_codec_sample_rate">Bluetooth Audio Abtastrate</string>
   <string name="bluetooth_select_a2dp_codec_sample_rate_dialog_title">"Bluetooth Audio Codec wählen:
 Abtastrate"</string>
+  <string name="bluetooth_select_a2dp_codec_type">Bluetooth Audiocodec</string>
   <string name="bluetooth_select_a2dp_codec_type_dialog_title">Bluetooth Audio Codec wählen</string>
+  <string name="bluetooth_select_a2dp_codec_type_help_info">Ausgegraut bedeutet keine Unterstützung durch Telefon oder Headset</string>
   <string name="bluetooth_select_avrcp_version_dialog_title">Bluetooth AVRCP Version wählen</string>
+  <string name="bluetooth_select_avrcp_version_string">Bluetooth AVRCP Version</string>
+  <string name="bluetooth_select_map_version_dialog_title">Bluetooth MAP Version wählen</string>
   <string name="bluetooth_show_devices_without_names">Bluetooth-Geräte ohne Namen anzeigen</string>
   <string name="bluetooth_show_devices_without_names_summary">Bluetooth-Geräte ohne Namen (nur MAC-Adressen) werden angezeigt</string>
   <string name="bluetooth_talkback_headphone">Kopfhörer</string>
@@ -159,6 +202,9 @@ Abtastrate"</string>
   <string name="bugreport_in_power">Verknüpfung zum Fehlerbericht</string>
   <string name="bugreport_in_power_summary">Schaltfläche für Fehlerberichte im Power-Menü anzeigen</string>
   <string name="button_convert_fbe">Löschen und konvertieren…</string>
+  <string name="cached_apps_freezer_disabled">Deaktiviert</string>
+  <string name="cached_apps_freezer_enabled">Aktiviert</string>
+  <string name="cached_apps_freezer_reboot_dialog_text">Ihr Gerät muss neu gestartet werden, damit diese Änderung wirksam wird. Jetzt neu starten oder abbrechen.</string>
   <string name="cancel">Abbrechen</string>
   <string name="category_personal">Persönlich</string>
   <string name="category_work">Arbeit</string>
@@ -202,6 +248,8 @@ Drücken Sie 'Löschen und konvertieren…', um fortzufahren."</string>
   <string name="debug_monitoring_category">Überwachung</string>
   <string name="debug_networking_category">Netzwerk</string>
   <string name="debug_view_attributes">Attributprüfungsansicht aktivieren</string>
+  <string name="delete_blob_confirmation_text">Sind Sie sicher, dass Sie diese gemeinsamen Daten löschen wollen?</string>
+  <string name="delete_blob_text">Gemeinsame Daten löschen</string>
   <string name="dev_logpersist_clear_warning_message">Wenn wir nicht mehr mit dem dauerhaften Protokoll überwachen, müssen wir die auf Ihrem Gerät gespeicherten Protokolldaten löschen.</string>
   <string name="dev_logpersist_clear_warning_title">Dauerhaften Protokollspeicher löschen?</string>
   <string name="dev_settings_warning_message">Diese Einstellungen sind nur für Entwickler gedacht. Sie können Ihr Gerät und die installierten Apps beschädigen oder zu unerwünschtem Verhalten führen.</string>
@@ -222,6 +270,8 @@ Drücken Sie 'Löschen und konvertieren…', um fortzufahren."</string>
   <string name="disconnect_device">Gerät trennen</string>
   <string name="enable_adb">USB-Debugging</string>
   <string name="enable_adb_summary">>Debug-Modus bei Anschluss über USB</string>
+  <string name="enable_adb_wireless">Kabelloses Debugging</string>
+  <string name="enable_adb_wireless_summary">Debug-Modus, wenn WLAN verbunden ist</string>
   <string name="enable_freeform_support">Freiformfenster aktivieren</string>
   <string name="enable_freeform_support_summary">Unterstützung für experimentelle Freiformfenster aktivieren.</string>
   <string name="enable_gpu_debug_layers">GPU Debug-Ebenen aktivieren</string>
@@ -229,7 +279,11 @@ Drücken Sie 'Löschen und konvertieren…', um fortzufahren."</string>
   <string name="enable_opengl_traces_title">OpenGL-Traces einschalten</string>
   <string name="enable_terminal_summary">Terminal-App aktivieren, die den lokalen Shell-Zugriff bietet</string>
   <string name="enable_terminal_title">Lokales Terminal</string>
+  <string name="enable_verbose_vendor_logging">Ausführliche Vendor-Protokollierung einschalten</string>
+  <string name="enable_verbose_vendor_logging_summary">Zusätzliche gerätespezifische Vendor-Protokolle in Fehlerberichte einbeziehen, die eventuell private Informationen enthalten, mehr Akku verbrauchen und/oder mehr Speicherplatz benötigen</string>
   <string name="enabled_by_admin">Vom Administrator aktiviert</string>
+  <string name="enhanced_connectivity">Erweiterte Konnektivität</string>
+  <string name="enhanced_connectivity_summary">Aktiviert die Funktion Erweiterte Konnektivität</string>
   <string name="expand_button_title">Erweitert</string>
   <string name="external_source_trusted">Zulassen</string>
   <string name="external_source_untrusted">Nicht zulassen</string>
@@ -262,6 +316,9 @@ Drücken Sie 'Löschen und konvertieren…', um fortzufahren."</string>
   <string name="force_rtl_layout_all_locales_summary">RTL-Bildschirmlayout für alle Sprachen erzwingen</string>
   <string name="get_target_info">Zielinfo abrufen</string>
   <string name="goto_package">%1$s öffnen</string>
+  <string name="guest_exit_guest">Gast entfernen</string>
+  <string name="guest_new_guest">Gast hinzufügen</string>
+  <string name="guest_nickname">Gast</string>
   <string name="hdcp_checking_dialog_title">HDCP-Prüfverhalten festlegen</string>
   <string name="hdcp_checking_title">HDCP-Prüfung</string>
   <string name="headset_battery_fw_failed">Akku schwach</string>
@@ -292,6 +349,7 @@ Drücken Sie 'Löschen und konvertieren…', um fortzufahren."</string>
   <string name="headset_update_ok">Fertig</string>
   <string name="headset_updating">Aktualisieren…</string>
   <string name="help_feedback_label">Hilfe &amp; Feedback</string>
+  <string name="help_label">Hilfe &amp; Feedback</string>
   <string name="home">Einstellungen Startseite</string>
   <string name="ime_security_warning">Diese Eingabemethode kann den gesamten von Ihnen eingegebenen Text erfassen, inkl. persönlicher Daten wie Passwörter und Kreditkartennummern. Sie gehört zur App %1$s. Verwenden Sie diese Eingabemethode?</string>
   <string name="ime_security_warning_global">Eingabemethoden können evtl. den von Ihnen eingegebenen Text erfassen, einschl. persönlicher Daten wie Passwort und Kreditkartennummern. %1$s verwenden?</string>
@@ -301,6 +359,7 @@ Drücken Sie 'Löschen und konvertieren…', um fortzufahren."</string>
   <string name="ims_reg_status_not_registered">Nicht registriert</string>
   <string name="ims_reg_status_registered">Registriert</string>
   <string name="ims_reg_title">IMS Registrierungsstatus</string>
+  <string name="imsi_protection_warning">Dieses Netzwerk erhält eine eindeutige ID, mit der der Gerätestandort verfolgt werden kann. <annotation id="url">Mehr erfahren.</annotation></string>
   <string name="inactive_app_active_summary">Aktiv, tippen zum Umschalten</string>
   <string name="inactive_app_inactive_summary">Inaktiv, tippen zum Umschalten</string>
   <string name="inactive_apps_title">Standby-Apps</string>
@@ -320,6 +379,8 @@ Drücken Sie 'Löschen und konvertieren…', um fortzufahren."</string>
   <string name="managed_user_title">Alle Arbeits-Apps</string>
   <string name="media_category">Medien</string>
   <string name="media_transfer_this_device_name">Dieses Gerät</string>
+  <string name="media_transfer_wired_device_name">Kabelgebundenes Audiogerät</string>
+  <string name="media_transfer_wired_usb_device_name">Kabelgebundener Kopfhörer</string>
   <string name="mi_audio_relay_connect_failed">Erneut versuchen</string>
   <string name="mi_audio_relay_localphone">Dieses Telefon</string>
   <string name="mi_audio_relay_phone_name">Mein Telefon</string>
@@ -401,6 +462,7 @@ Drücken Sie 'Löschen und konvertieren…', um fortzufahren."</string>
   <string name="perm_ble_lab">Zugriff auf BLE-Einstellungen</string>
   <string name="picture_color_mode">Bildfarbenmodus</string>
   <string name="picture_color_mode_desc">sRGB verwenden</string>
+  <string name="play_decode_audio">Audio abspielen</string>
   <string name="pointer_location">Zeigerposition</string>
   <string name="pointer_location_summary">Bildschirm-Overlay mit aktuellen Touch-Daten</string>
   <string name="power_charging_duration">%1$s - %2$s bis voll</string>
@@ -421,13 +483,17 @@ Drücken Sie 'Löschen und konvertieren…', um fortzufahren."</string>
   <string name="power_remaining_less_than_duration_only">Weniger als %1$s übrig</string>
   <string name="power_remaining_more_than_subtext">Mehr als %1$s übrig (%2$s)</string>
   <string name="power_remaining_only_more_than_subtext">Mehr als %1$s übrig</string>
+  <string name="power_suggestion_battery_run_out">Akku ist voraussichtlich um %1$s leer</string>
   <string name="power_suggestion_extend_battery">Akkulaufzeit auf über %1$s verlängern</string>
   <string name="preference_copied">\"%1$s\" in Zwischenablage kopiert</string>
+  <string name="private_dns_broken">Private-DNS-Server ist nicht erreichbar</string>
   <string name="private_dns_mode_off">Aus</string>
   <string name="private_dns_mode_opportunistic">Automatisch</string>
   <string name="private_dns_mode_provider">Hostname Private DNS-Anbieter</string>
   <string name="private_dns_mode_provider_failure">Verbindung nicht möglich</string>
   <string name="private_dns_mode_provider_hostname_hint">Hostname des DNS-Providers eingeben</string>
+  <string name="profile_connect_timeout_subtext">Problem beim Verbinden. Gerät aus- &amp; wieder einschalten</string>
+  <string name="profile_info_settings_title">Profilinfo</string>
   <string name="progress_scanning">Suchen…</string>
   <string name="remaining_length_format">%1$s verbleiben</string>
   <string name="reset_function_msg">Wenn Sie diese Funktion zurücksetzen, funktioniert %1$s eventuell nicht mehr ordungsgemäß</string>
@@ -458,6 +524,12 @@ Drücken Sie 'Löschen und konvertieren…', um fortzufahren."</string>
   <string name="select_webview_provider_dialog_title">WebView-Implementierung festsetzen</string>
   <string name="select_webview_provider_title">WebView-Implementierung</string>
   <string name="select_webview_provider_toast_text">Diese Auswahl ist nicht mehr gültig. Erneut versuchen.</string>
+  <string name="shared_data_delete_failure_text">Beim Löschen der gemeinsamen Daten ist ein Fehler aufgetreten.</string>
+  <string name="shared_data_no_accessors_dialog_text">Für diese gemeinsamen Daten wurden keine Mietverträge abgeschlossen. Möchten Sie sie löschen?</string>
+  <string name="shared_data_no_blobs_text">Für diesen Benutzer gibt es keine gemeinsamen Daten.</string>
+  <string name="shared_data_query_failure_text">Beim Abrufen der gemeinsamen Daten ist ein Fehler aufgetreten. Erneut versuchen.</string>
+  <string name="shared_data_summary">Gemeinsame Daten anzeigen und ändern</string>
+  <string name="shared_data_title">Gemeinsame Daten</string>
   <string name="show_all_anrs">Alle ANRs anzeigen</string>
   <string name="show_all_anrs_summary">App antwortet nicht-Dialog für Hintergrund-Apps anzeigen</string>
   <string name="show_hw_layers_updates">Hardware-Layer-Updates anzeigen</string>
@@ -482,8 +554,10 @@ Drücken Sie 'Löschen und konvertieren…', um fortzufahren."</string>
   <string name="start_speech">Sprechen starten</string>
   <string name="status_unavailable">Nicht verfügbar</string>
   <string name="stop_speech">Sprechen stoppen</string>
+  <string name="storage_category">Speicher</string>
   <string name="strict_mode">Strict-Modus aktiv</string>
   <string name="strict_mode_summary">Bildschirm blinkt, wenn Apps lange Operationen ausführen</string>
+  <string name="tap_to_renew_subscription_and_connect">Tippen, um das Abo zu verlängern und eine Verbindung herzustellen</string>
   <string name="tap_to_sign_up">Tippen zum Anmelden</string>
   <string name="tether_settings_title_all">Tethering &amp; Mobiler Hotspot</string>
   <string name="tether_settings_title_bluetooth">Bluetooth-Tethering</string>
@@ -532,7 +606,32 @@ Drücken Sie 'Löschen und konvertieren…', um fortzufahren."</string>
   <string name="usb_audio_disable_routing">USB-Audio-Routing deaktivieren</string>
   <string name="usb_audio_disable_routing_summary">Automatisches Routing auf USB-Audio-Peripheriegeräte deaktivieren</string>
   <string name="use_system_language_to_select_input_method_subtypes">Systemsprache nutzen</string>
+  <string name="user_add_profile_item_summary">Sie können den Zugriff auf Apps und Inhalte Ihres Kontos einschränken</string>
+  <string name="user_add_profile_item_title">Eingeschränktes Profil</string>
+  <string name="user_add_user_item_summary">Benutzer haben ihre eigenen Apps und Inhalte</string>
+  <string name="user_add_user_item_title">Benutzer</string>
+  <string name="user_add_user_message_long">"Sie können dieses Gerät mit anderen Personen teilen, indem Sie weitere Benutzer anlegen. Jeder Benutzer hat seinen eigenen Bereich, den er mit Apps, Hintergrundbildern usw. anpassen kann. Benutzer können auch Geräteeinstellungen wie WLAN anpassen, die für alle gelten.
+
+Wenn Sie einen neuen Benutzer hinzufügen, muss diese Person ihren Bereich einrichten.
+
+Jeder Benutzer kann Apps für alle anderen Benutzer aktualisieren. Eingabehilfen-Einstellungen und Dienste werden evtl. nicht auf den neuen Benutzer übertragen."</string>
+  <string name="user_add_user_message_short">"Wenn Sie einen neuen Benutzer hinzufügen, muss diese Person ihren Bereich einrichten.
+
+Jeder Benutzer kann Apps für alle anderen Benutzer aktualisieren."</string>
+  <string name="user_add_user_title">Neuen Benutzer hinzufügen?</string>
+  <string name="user_add_user_type_title">Hinzufügen</string>
   <string name="user_guest">Gast</string>
+  <string name="user_info_settings_title">Benutzerinfo</string>
+  <string name="user_need_lock_message">Vor der Erstellung eines eingeschränkten Profils müssen Sie eine Bildschirmsperre einrichten, um Ihre Apps und persönlichen Daten zu schützen</string>
+  <string name="user_new_profile_name">Neues Profil</string>
+  <string name="user_new_user_name">Neuer Benutzer </string>
+  <string name="user_set_lock_button">Sperre einstellen</string>
+  <string name="user_setup_button_setup_later">Jetzt nicht</string>
+  <string name="user_setup_button_setup_now">Jetzt einrichten</string>
+  <string name="user_setup_dialog_message">Stellen Sie sicher, dass die Person verfügbar ist, um ihren Bereich auf dem Gerät einzurichten.</string>
+  <string name="user_setup_dialog_title">Benutzer jetzt einrichten?</string>
+  <string name="user_setup_profile_dialog_message">Profil jetzt einrichten?</string>
+  <string name="user_switch_to_user">Wechseln zu %s</string>
   <string name="v7_preference_off">AUS</string>
   <string name="v7_preference_on">AN</string>
   <string name="verify_apps_over_usb_summary">Check apps installed via ADB/ADT for harmful behavior.</string>
@@ -582,6 +681,7 @@ Drücken Sie 'Löschen und konvertieren…', um fortzufahren."</string>
   <string name="wifi_disconnected">Getrennt</string>
   <string name="wifi_display_certification">Wireless-Display-Zertifizierung</string>
   <string name="wifi_display_certification_summary">Optionen für Wireless-Display-Zertifizierung anzeigen</string>
+  <string name="wifi_enhanced_mac_randomization_summary">Wenn dieser Modus aktiviert ist, kann sich die MAC-Adresse dieses Geräts jedes Mal ändern, wenn es sich mit einem Netzwerk verbindet, in dem die MAC-Randomisierung aktiviert ist.</string>
   <string name="wifi_fail_to_scan">Netzwerksuche nicht möglich</string>
   <string name="wifi_hand_sel_wapi_cert">WAPI-Zertifikat</string>
   <string name="wifi_limited_connection">Eingeschränkte Verbindung</string>
@@ -589,6 +689,7 @@ Drücken Sie 'Löschen und konvertieren…', um fortzufahren."</string>
   <string name="wifi_no_internet">Internetverbindung nicht möglich</string>
   <string name="wifi_no_internet_no_reconnect">Keine automatische Verbindung</string>
   <string name="wifi_not_in_range">Nicht in Reichweite</string>
+  <string name="wifi_passpoint_expired">Abgelaufen</string>
   <string name="wifi_remembered">Gespeichert</string>
   <string name="wifi_scan_throttling">WLAN-Scan-Drosselung</string>
   <string name="wifi_scan_throttling_summary">Reduziert den Akkuverbrauch &amp; verbessert die Netzwerkleistung</string>
