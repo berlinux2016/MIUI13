@@ -38,9 +38,9 @@
   <string name="bluetooth_enable_notification_content">%s hat Bluetooth eingeschaltet</string>
   <string name="bluetooth_enable_notification_title">Bluetooth ist an</string>
   <string name="bluetooth_open">Diese App hat Bluetooth eingeschaltet</string>
+  <string name="bottom_bar_smallwindow_text">Angeheftete freigeben</string>
   <string name="btn_cancel">Abbrechen</string>
   <string name="btn_sure">Bestätigen</string>
-  <string name="bottom_bar_smallwindow_text">Angeheftete freigeben</string>
   <string name="button_text_cancel">Abbrechen</string>
   <string name="button_text_delete">Deinstallieren</string>
   <string name="button_text_delete_timer">Deinstallieren (%d)</string>
@@ -49,8 +49,8 @@
   <string name="call_record_or">" oder "</string>
   <string name="call_record_sample_prefix_miui">Anruf</string>
   <string name="caller_info_name_delimiter">" oder "</string>
-  <string name="cancel_action">Abbrechen</string>
   <string name="can_not_transfer_when_screening">Übertragung während der Vorführung nicht möglich</string>
+  <string name="cancel_action">Abbrechen</string>
   <string name="close">Schließen</string>
   <string name="configure_input_methods">Tastatur auswählen</string>
   <string name="confirm_cancel_task_files">Dateien senden an %1$s abbrechen?</string>
@@ -74,6 +74,11 @@
   <string name="device_status_waiting">Einen Moment…</string>
   <string name="disable_nfc">Für kabelloses Laden NFC ausgeschaltet</string>
   <string name="disable_nfc_reverse">Für kabelloses Umkehrladen NFC ausgeschaltet</string>
+  <string name="dock_tip_floatwindow">Leiste gedrückt halten und an den Rand des Bildschirms ziehen, um die geteilte Bildschirmansicht aufzurufen.</string>
+  <string name="dock_tip_splitscreen_landscape_drag">Leiste horizontal ziehen, um die Positionen der beiden App-Fenster zu vertauschen.</string>
+  <string name="dock_tip_splitscreen_landscape_float">Gedrückt halten und nach unten ziehen, um zu einem Popup zu wechseln.</string>
+  <string name="dock_tip_splitscreen_portrait_drag">Leiste vertikal ziehen, um die Positionen der beiden App-Fenster zu vertauschen.</string>
+  <string name="dock_tip_splitscreen_portrait_float">Bildschirm halten und nach links oder rechts ziehen, um zu einem Popup zu wechseln.</string>
   <string name="double_knock_def_function">Keine</string>
   <string name="eighthours">8 Std</string>
   <string name="enable_livetalk_summary">0,05 ¥ pro Minute für Inlandsgespräche</string>
@@ -158,12 +163,14 @@ Um die Funktion zu aktivieren, gehen Sie auf Einstellungen &gt; Weitere Einstell
   <string name="lockscreen_access_pattern_cleared">Muster gelöscht</string>
   <string name="lockscreen_access_pattern_detected">Muster vollständig</string>
   <string name="lockscreen_access_pattern_start">Muster gestartet</string>
+  <string name="magic_window_toast">App-Multiplikator aktiviert</string>
   <string name="maml_component_customization_title">Einstellungen</string>
   <string name="memory_clear_nothing_result">Nichts zum Löschen im Cache vorhanden</string>
   <string name="memory_clear_result">%1$sB gelöscht</string>
   <string name="miaudiovisual_notification_summary">Einschalten, um Effekte auf dem Sperrbildschirm anzuzeigen</string>
   <string name="miaudiovisual_notification_title">Audio- und visuelle Effekte</string>
   <string name="miui_forbid_poweroff_when_device_locked">Ausschalten nicht möglich, Gerät ist gesperrt.</string>
+  <string name="miui_multiwindow_not_support_split">%1$s unterstützt keine geteilte Bildschirmanzeige.</string>
   <string name="miui_screen_ratio_hint">Probleme mit der Auflösung</string>
   <string name="miui_screen_ratio_hint_dont_show_again">Nicht wieder anzeigen</string>
   <string name="miui_screen_ratio_hint_go_to_settings">Einstellungen</string>
@@ -171,6 +178,7 @@ Um die Funktion zu aktivieren, gehen Sie auf Einstellungen &gt; Weitere Einstell
   <string name="miui_upgrading_notification_title">System wird geladen, einige Funktionen können eingeschränkt sein</string>
   <string name="miui_warning_button_cancel">Abbrechen</string>
   <string name="miui_warning_tip_info">Ein Fehler ist in %1$s aufgetreten. Diese App jetzt schließen?</string>
+  <string name="nearby_share">Freigabe in der Nähe</string>
   <string name="notification_channel_hotspot">Hotspot-Benachrichtigung</string>
   <string name="onehour">30 Min</string>
   <string name="open_close_tip_action">Verstanden</string>
@@ -306,6 +314,7 @@ Um die Funktion zu aktivieren, gehen Sie auf Einstellungen &gt; Weitere Einstell
   <string name="translation_query_error">Keine Ergebnisse gefunden</string>
   <string name="translation_query_error_network">Keine Netzwerkverbindung. Prüfen Sie die Einstellungen und versuchen Sie es erneut.</string>
   <string name="turn_off">Ausschalten</string>
+  <string name="turn_on_work_profile">Einschalten</string>
   <string name="twohours">1 Std</string>
   <string name="unrecognized_manufacture">Unbekannt</string>
   <string name="unrecognized_model">Unbekanntes Gerät</string>

@@ -102,17 +102,17 @@ In %d Sekunden erneut versuchen."</string>
   <string name="biometric_dialog_face_icon_description_idle">Bitte erneut versuchen</string>
   <string name="biometric_dialog_failed_attempts_now_wiping_device">Zu viele Fehlversuche. Daten dieses Geräts werden gelöscht.</string>
   <string name="biometric_dialog_failed_attempts_now_wiping_profile">Zu viele Fehlversuche. Dieses Arbeitsprofil und seine Daten werden gelöscht.</string>
-  <string name="biometric_dialog_failed_attempts_now_wiping_user">Zu viele Fehlversuche. Dieser Nutzer wird gelöscht.</string>
+  <string name="biometric_dialog_failed_attempts_now_wiping_user">Zu viele Fehlversuche. Dieser Benutzer wird gelöscht.</string>
   <string name="biometric_dialog_last_attempt_before_wipe_dialog_title">Ihre Daten werden gelöscht</string>
   <string name="biometric_dialog_last_password_attempt_before_wipe_device">Wenn Sie beim nächsten Versuch ein falsches Passwort eingeben, werden die Daten dieses Geräts gelöscht.</string>
   <string name="biometric_dialog_last_password_attempt_before_wipe_profile">Wenn Sie beim nächsten Versuch ein falsches Passwort eingeben, wird Ihr Arbeitsprofil mit seinen Daten gelöscht.</string>
-  <string name="biometric_dialog_last_password_attempt_before_wipe_user">Wenn Sie beim nächsten Versuch ein falsches Passwort eingeben, wird dieser Nutzer gelöscht.</string>
+  <string name="biometric_dialog_last_password_attempt_before_wipe_user">Wenn Sie beim nächsten Versuch ein falsches Passwort eingeben, wird dieser Benutzer gelöscht.</string>
   <string name="biometric_dialog_last_pattern_attempt_before_wipe_device">Wenn Sie beim nächsten Versuch ein falsches Muster eingeben, werden die Daten dieses Geräts gelöscht.</string>
   <string name="biometric_dialog_last_pattern_attempt_before_wipe_profile">Wenn Sie beim nächsten Versuch ein falsches Muster eingeben, wird Ihr Arbeitsprofil mit seinen Daten gelöscht.</string>
-  <string name="biometric_dialog_last_pattern_attempt_before_wipe_user">Wenn Sie beim nächsten Versuch ein falsches Muster eingeben, wird dieser Nutzer gelöscht.</string>
+  <string name="biometric_dialog_last_pattern_attempt_before_wipe_user">Wenn Sie beim nächsten Versuch ein falsches Muster eingeben, wird dieser Benutzer gelöscht.</string>
   <string name="biometric_dialog_last_pin_attempt_before_wipe_device">Wenn Sie beim nächsten Versuch eine falsche PIN eingeben, werden die Daten dieses Geräts gelöscht.</string>
   <string name="biometric_dialog_last_pin_attempt_before_wipe_profile">Wenn Sie beim nächsten Versuch eine falsche PIN eingeben, wird Ihr Arbeitsprofil mit seinen Daten gelöscht.</string>
-  <string name="biometric_dialog_last_pin_attempt_before_wipe_user">Wenn Sie beim nächsten Versuch eine falsche PIN eingeben, wird dieser Nutzer gelöscht.</string>
+  <string name="biometric_dialog_last_pin_attempt_before_wipe_user">Wenn Sie beim nächsten Versuch eine falsche PIN eingeben, wird dieser Benutzer gelöscht.</string>
   <string name="biometric_dialog_now_wiping_dialog_dismiss">Verwerfen</string>
   <string name="biometric_dialog_tap_confirm">Zum Abschließen auf Bestätigen tippen</string>
   <string name="biometric_dialog_use_password">Passwort verwenden</string>
@@ -137,12 +137,12 @@ In %d Sekunden erneut versuchen."</string>
   <string name="bubble_overflow_empty_subtitle">Neueste und zurückgewiesenen Blasen werden hier erscheinen</string>
   <string name="bubble_overflow_empty_title">Keine neuen Blasen</string>
   <string name="bubbles_app_settings">%1$s-Einstellungen</string>
-  <string name="bubbles_dont_bubble_conversation">Keine Sprechblasen</string>
-  <string name="bubbles_user_education_description">Neue Gespräche erscheinen als schwebende Symbole oder Sprechblasen. Tippen, um die Sprechblase zu öffnen. Ziehen, um sie zu verschieben.</string>
+  <string name="bubbles_dont_bubble_conversation">Keine Blasen</string>
+  <string name="bubbles_user_education_description">Neue Gespräche erscheinen als schwebende Symbole oder Blasen. Tippen, um die Sprechblase zu öffnen. Ziehen, um sie zu verschieben.</string>
   <string name="bubbles_user_education_got_it">Verstanden</string>
   <string name="bubbles_user_education_manage">Auf Verwalten tippen, um Blasen in dieser App auszuschalten</string>
   <string name="bubbles_user_education_manage_title">Jederzeit Kontrolle über Blasen</string>
-  <string name="bubbles_user_education_title">Chat mit Sprechblasen</string>
+  <string name="bubbles_user_education_title">Chat mit Blasen</string>
   <string name="cached_apps_freezer_device_default">Gerätevoreinstellung</string>
   <string name="cached_apps_freezer_disabled">Deaktiviert</string>
   <string name="cached_apps_freezer_enabled">Aktiviert</string>
@@ -485,7 +485,7 @@ Weiterhin anzeigen?"</string>
   <string name="sensor_privacy_mode">Sensoren aus</string>
   <string name="shared_data_delete_failure_text">Beim Löschen der geteilten Daten ist ein Fehler aufgetreten.</string>
   <string name="shared_data_no_accessors_dialog_text">Für diese geteilten Daten gibt es keine Freigaben. Möchten Sie sie löschen?</string>
-  <string name="shared_data_no_blobs_text">Es gibt keine geteilten Daten für diesen Nutzer.</string>
+  <string name="shared_data_no_blobs_text">Es gibt keine geteilten Daten für diesen Benutzer.</string>
   <string name="shared_data_query_failure_text">Beim Abrufen der geteilten Daten ist ein Fehler aufgetreten, erneut versuchen.</string>
   <string name="shared_data_summary">Geteilte Daten anzeigen und ändern</string>
   <string name="shared_data_title">Geteilte Daten</string>
@@ -516,28 +516,28 @@ Diese App hat keine Aufnahmeberechtigung erhalten, konnte aber Audio über diese
   <string name="usb_port_enabled">USB-Port zur Erkennung von Ladegeräten und Zubehör aktiviert</string>
   <string name="user_add_profile_item_summary">Sie können den Zugriff auf Apps und Inhalte aus Ihrem Konto beschränken.</string>
   <string name="user_add_profile_item_title">Eingeschränkte Profile</string>
-  <string name="user_add_user_item_summary">Die Nutzer haben eigene Apps und Inhalte.</string>
-  <string name="user_add_user_item_title">Nutzer</string>
-  <string name="user_add_user_message_long">"Sie können dieses Gerät zusammen mit anderen nutzen, indem Sie weitere Nutzer erstellen. Jeder erhält einen eigenen Bereich, in dem er Apps, den Hintergrund usw. personalisieren kann. Außerdem lassen sich Geräteeinstellungen wie WLAN ändern, die sich auf alle Nutzer auswirken.
+  <string name="user_add_user_item_summary">Die Benutzer haben eigene Apps und Inhalte.</string>
+  <string name="user_add_user_item_title">Benutzer</string>
+  <string name="user_add_user_message_long">"Sie können dieses Gerät zusammen mit anderen nutzen, indem Sie weitere Benutzer erstellen. Jeder erhält einen eigenen Bereich, in dem er Apps, den Hintergrund usw. personalisieren kann. Außerdem lassen sich Geräteeinstellungen wie WLAN ändern, die sich auf alle Benutzer auswirken.
   
-Wenn Sie einen neuen Nutzer hinzufügen, muss dieser seinen Bereich einrichten.
+Wenn Sie einen neuen Benutzer hinzufügen, muss dieser seinen Bereich einrichten.
 
-Jeder Nutzer kann Apps für alle anderen Nutzer aktualisieren. Bedienungshilfen-Einstellungen und -Dienste werden möglicherweise nicht auf den neuen Nutzer übertragen."</string>
-  <string name="user_add_user_message_short">"Wenn Sie einen neuen Nutzer hinzufügen, muss dieser seinen Bereich einrichten.
+Jeder Benutzer kann Apps für alle anderen Benutzer aktualisieren. Bedienungshilfen-Einstellungen und -Dienste werden möglicherweise nicht auf den neuen Benutzer übertragen."</string>
+  <string name="user_add_user_message_short">"Wenn Sie einen neuen Benutzer hinzufügen, muss dieser seinen Bereich einrichten.
   
-Jeder Nutzer kann Apps für alle anderen Nutzer aktualisieren."</string>
-  <string name="user_add_user_title">Neuen Nutzer hinzufügen?</string>
+Jeder Benutzer kann Apps für alle anderen Benutzer aktualisieren."</string>
+  <string name="user_add_user_title">Neuen Benutzer hinzufügen?</string>
   <string name="user_add_user_type_title">Hinzufügen</string>
-  <string name="user_info_settings_title">Nutzerinformationen</string>
-  <string name="user_limit_reached_title">Nutzerlimit erreicht</string>
+  <string name="user_info_settings_title">Benutzerinfo</string>
+  <string name="user_limit_reached_title">Benutzerlimit erreicht</string>
   <string name="user_need_lock_message">Vor dem Erstellen eines eingeschränkten Profils müssen Sie eine Bildschirmsperre einrichten, um Ihre Apps und personenbezogenen Daten zu schützen.</string>
   <string name="user_new_profile_name">Neues Profil</string>
-  <string name="user_new_user_name">Neuer Nutzer</string>
+  <string name="user_new_user_name">Neuer Benutzer</string>
   <string name="user_set_lock_button">Sperre einrichten</string>
   <string name="user_setup_button_setup_later">Nicht jetzt</string>
   <string name="user_setup_button_setup_now">Jetzt einrichten</string>
-  <string name="user_setup_dialog_message">Nutzer muss Zugang zum Gerät haben und bereit sein, seinen Bereich einzurichten.</string>
-  <string name="user_setup_dialog_title">Nutzer jetzt einrichten?</string>
+  <string name="user_setup_dialog_message">Benutzer muss Zugang zum Gerät haben und bereit sein, seinen Bereich einzurichten.</string>
+  <string name="user_setup_dialog_title">Benutzer jetzt einrichten?</string>
   <string name="user_setup_profile_dialog_message">Profil jetzt einrichten?</string>
   <string name="user_switch_to_user">Zu %s wechseln</string>
   <string name="volume_dialog_ringer_guidance_ring">Anrufe und Benachrichtigungen werden klingeln (%1$s)</string>

@@ -415,6 +415,7 @@
   <string name="hints_quick_cleanning">Bereinigen…</string>
   <string name="hints_quick_cleanuping">Optimieren…</string>
   <string name="hints_quick_deep_clean">Jetzt bereinigen</string>
+  <string name="hints_quick_deep_clean2">%s freigeben</string>
   <string name="hints_quick_deep_scanning">Scannen</string>
   <string name="hints_quick_deep_uninstall">Jetzt löschen</string>
   <string name="hints_quick_prepare">Vorbereiten…</string>
@@ -572,6 +573,19 @@
   <string name="permission_dialog_storage_content">Um normal arbeiten zu können, benötigt Cleaner den Zugriff auf den internen Speicher. Auf \"Einstellungen\" tippen, um die Speicherberechtigungen zu verwalten.</string>
   <string name="permission_dialog_storage_title">Berechtigungen erforderlich</string>
   <string name="phone_search">Google-Suche</string>
+  <string name="powerful_acceleration">Defragmentatierung</string>
+  <string name="powerful_acceleration_after">Nachher</string>
+  <string name="powerful_acceleration_before">Vorher</string>
+  <string name="powerful_acceleration_enable_summary">Defragmentierung wird automatisch durchgeführt, wenn Sie das Gerät nicht nutzen</string>
+  <string name="powerful_acceleration_enable_title">Defragmentierung im Hintergrund durchführen</string>
+  <string name="powerful_acceleration_item_button">Einschalten</string>
+  <string name="powerful_acceleration_item_tip_normal">Ihr Speicher sieht gut aus!</string>
+  <string name="powerful_acceleration_notification_summary">Tippen, um mehr Platz freizugeben</string>
+  <string name="powerful_acceleration_notification_title">Defragmentierung abgeschlossen</string>
+  <string name="powerful_acceleration_tip">Der interne Speicher leidet unter Fragmentierung, was Ihr Gerät erheblich verlangsamen kann. Die Defragmentierung organisiert Ihre Dateien physisch in die kleinste Anzahl von Fragmenten, wodurch die Verzögerung reduziert wird.</string>
+  <string name="powerful_acceleration_tip_high"><Data>Ihr Speicher ist &lt;font color=#ff0000 >sehr stark&lt;/font> fragmentiert. Eine Defragmentierung kann das Problem lösen.</Data></string>
+  <string name="powerful_acceleration_tip_middle"><Data>Ihr Speicher ist &lt;font color=#ff0000 >geringfügig&lt;/font> fragmentiert. Eine Defragmentierung kann das Problem lösen.</Data></string>
+  <string name="powerful_acceleration_toast">Defragmentierung wird durchgeführt, wenn Sie das Gerät nicht nutzen</string>
   <string name="pref_about_privacy_title">Datenschutzerklärung</string>
   <string name="pref_category_title_auto_clean_config_settings">Automatische Bereinigungen</string>
   <string name="pref_category_title_auto_clean_settings">An Bereinigung erinnern</string>
@@ -642,6 +656,9 @@
   <string name="resutl_function_deep_clean_summary"><Data>&lt;font color=#ff0000 >%1$s&lt;/font> mehr Dateien können gelöscht werden. Schaffen Sie Platz.</Data></string>
   <string name="resutl_function_qq_clean_summary"><Data>Sie können &lt;font color=#ff0000 >%1$s&lt;/font> durch QQ verursachten Cache löschen</Data></string>
   <string name="resutl_function_wechat_clean_summary"><Data>&lt;font color=#ff0000 >%1$s&lt;/font> WeChat Cache. Schaffen Sie Platz.</Data></string>
+  <string name="rs_clean_size_free_space">%s freigeben</string>
+  <string name="rs_clean_size_storage_size">Belegt: %1$s/%2$s</string>
+  <string name="rs_clean_size_storage_title">Speicher</string>
   <string name="sc_allow_network_dialog_button">Erlauben</string>
   <string name="sc_allow_network_dialog_message">Dieser App den Empfang von Aktualisierungen über das Internet erlauben?</string>
   <string name="scanning">Scannen…</string>
@@ -750,6 +767,28 @@
   <string name="update_date_format">dd.MM.yyyy</string>
   <string name="v7_preference_off">AUS</string>
   <string name="v7_preference_on">AN</string>
+  <string name="video_clean">Videos im Cache löschen</string>
+  <string name="video_clean_auto_clean">Automatisch löschen</string>
+  <string name="video_clean_auto_clean_summary">Videos im Cache nach dem Scannen automatisch löschen</string>
+  <string name="video_clean_cache_tip">Gelöschte Videos können danach wieder geladen werden</string>
+  <string name="video_clean_create_desktop_icon">Startbildschirmverknüpfung</string>
+  <string name="video_clean_create_desktop_icon_summary">Startbildschirmverknüpfung hinzufügen zum Löschen von Videos im Cache mit einem Fingertipp</string>
+  <string name="video_clean_desktop_icon_created">Startbildschirmverknüpfung erfolgreich hinzugefügt</string>
+  <string name="video_clean_garbage">Videos im Cache</string>
+  <string name="video_clean_garbage_cleared">Videos im Cache erfolgreich gelöscht</string>
+  <string name="video_clean_image_clean_summary">Doppelte Fotos löschen, um Speicherplatz freizugeben</string>
+  <string name="video_clean_image_clean_title">Doppelte Fotos löschen</string>
+  <string name="video_clean_notification_summary">Videos im Cache von Apps löschen</string>
+  <string name="video_clean_notification_title">%s freigeben</string>
+  <string name="video_clean_personal_settings_title">Weitere Einstellungen</string>
+  <string name="video_clean_qq_clean_summary">Papierkorb löschen, um Speicherplatz freizugeben</string>
+  <string name="video_clean_qq_clean_title">QQ Cleaner</string>
+  <string name="video_clean_remind_settings_title">An Bereinigung erinnern</string>
+  <string name="video_clean_scan_app_tip">Apps scannen: %1$d/%2$d</string>
+  <string name="video_clean_video_manager_summary">Alle auf Ihrem Gerät gespeicherten Videos verwalten</string>
+  <string name="video_clean_video_manager_title">Video-Manager</string>
+  <string name="video_clean_wechat_clean_summary">Papierkorb löschen, um Geschwindigkeit zu erhöhen</string>
+  <string name="video_clean_wechat_clean_title">WeChat Cleaner</string>
   <string name="virus_scan">Virenscan</string>
   <string name="wechat_cache_files">WeChat-Cache</string>
   <string name="wechat_chat_data_type_cache">WeChat-Cache</string>

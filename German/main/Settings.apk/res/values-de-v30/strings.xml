@@ -1,5 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
- <resources>
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<resources>
   <string name="accessibility_autoclick_custom_title">Benutzerdefiniert</string>
   <string name="accessibility_autoclick_default_title">Aus</string>
   <string name="accessibility_autoclick_description">Automatische Klicks funktionieren mit einer verbundenen Maus. Sie können festlegen, dass der Mauszeiger automatisch klickt, wenn er sich für eine bestimmte Zeit nicht bewegt.</string>
@@ -101,7 +101,7 @@ Wenn Sie zwischen den Funktionen wechseln möchten, wischen und halten Sie mit d
   <string name="adaptive_sleep_description">Verhindert, dass der Bildschirm ausgeschaltet wird, wenn Sie auf ihn schauen</string>
   <string name="adaptive_sleep_summary_no_permission">Tippen, um Berechtigungen für Dienste zur Gerätepersonalisierung zu verwalten</string>
   <string name="adaptive_sleep_title_no_permission">Zugriff auf Kamera erforderlich</string>
-  <string name="adb_authorization_timeout_summary">Automatische Aufhebung von ADB-Autorisierungen für Systeme deaktivieren, die sich nicht innerhalb der Standardzeit (7 Tage) oder der vom Nutzer festgelegten Zeit (mindestens 1 Tag) wieder verbunden haben.</string>
+  <string name="adb_authorization_timeout_summary">Automatische Aufhebung von ADB-Autorisierungen für Systeme deaktivieren, die sich nicht innerhalb der Standardzeit (7 Tage) oder der vom Benutzer festgelegten Zeit (mindestens 1 Tag) wieder verbunden haben.</string>
   <string name="adb_authorization_timeout_title">Zeitlimit für ADB-Autorisierung deaktivieren</string>
   <string name="adb_device_fingerprint_title_format">Fingerabdruck des Geräts: %1$s</string>
   <string name="adb_device_forget">Entfernen</string>
@@ -158,21 +158,21 @@ Wenn Sie zwischen den Funktionen wechseln möchten, wischen und halten Sie mit d
   <string name="bluetooth_select_a2dp_codec_type_help_info">Wenn etwas ausgegraut ist, wird es nicht vom Telefon oder Headset unterstützt</string>
   <string name="bluetooth_select_map_version_dialog_title">Bluetooth MAP-Version auswählen</string>
   <string name="bluetooth_select_map_version_string">Bluetooth MAP-Version</string>
-  <string name="bubble_app_setting_all">Alle Unterhaltungen können als Bubble angezeigt werden</string>
+  <string name="bubble_app_setting_all">Alle Unterhaltungen können als Blase angezeigt werden</string>
   <string name="bubble_app_setting_bubble_conversation">Blasen für dieses Gespräch einschalten</string>
-  <string name="bubble_app_setting_excluded_conversation_title">Alle Unterhaltungen können als Bubble erscheinen, außer</string>
-  <string name="bubble_app_setting_none">Unterhaltungen können nicht als Bubble angezeigt werden</string>
-  <string name="bubble_app_setting_selected">Ausgewählte Unterhaltungen können als Bubble angezeigt werden</string>
+  <string name="bubble_app_setting_excluded_conversation_title">Alle Unterhaltungen können als Blase erscheinen, außer</string>
+  <string name="bubble_app_setting_none">Unterhaltungen können nicht als Blase angezeigt werden</string>
+  <string name="bubble_app_setting_selected">Ausgewählte Unterhaltungen können als Blase angezeigt werden</string>
   <string name="bubble_app_setting_selected_conversation_title">Unterhaltungen</string>
   <string name="bubble_app_setting_unbubble_conversation">Blasen für dieses Gespräch ausschalten</string>
-  <string name="bubbles_conversation_app_link">Alle Einstellungen für Bubbles</string>
+  <string name="bubbles_conversation_app_link">Alle Einstellungen für Blasen</string>
   <string name="bubbles_conversation_toggle_summary">Unverankertes Symbol über anderen Apps anzeigen</string>
-  <string name="bubbles_conversation_toggle_title">Diese Unterhaltung als Bubble anzeigen</string>
+  <string name="bubbles_conversation_toggle_title">Diese Unterhaltung als Blase anzeigen</string>
   <string name="bubbles_feature_disabled_button_approve">Aktivieren</string>
-  <string name="bubbles_feature_disabled_dialog_text">"Wenn Sie die Bubbles für diese App aktivieren, wird die Funktion auch auf Ihrem Gerät aktiviert.
+  <string name="bubbles_feature_disabled_dialog_text">"Wenn Sie die Blasen für diese App aktivieren, wird die Funktion auch auf Ihrem Gerät aktiviert.
 
-Dies wirkt sich auch auf andere Apps oder Unterhaltungen aus, die als Bubble erscheinen können."</string>
-  <string name="bubbles_feature_disabled_dialog_title">Bubbles für das Gerät aktivieren?</string>
+Dies wirkt sich auch auf andere Apps oder Unterhaltungen aus, die als Blase erscheinen können."</string>
+  <string name="bubbles_feature_disabled_dialog_title">Blasen für das Gerät aktivieren?</string>
   <string name="bug_report_handler_picker_footer_text">Bestimmt, welche App die Verknüpfung zum Fehlerbericht auf Ihrem Gerät verarbeitet.</string>
   <string name="bug_report_handler_title">Fehlerbericht-Handler</string>
   <string name="ca_certificate">CA-Zertifikat</string>
@@ -280,6 +280,9 @@ Vom oberen Displayrand nach unten wischen, um die Benachrichtigungsleiste zu öf
   <string name="doze_summary">Wenn der Bildschirm inaktiv ist, wird es bei neuen Benachrichtigungen aktiviert</string>
   <string name="doze_title">Bildschirm bei Benachrichtigungen aktivieren</string>
   <string name="dpp_qrcode_generator_summary">Diesen QR-Code mit einem Gerät scannen, das Easy Connect unterstützt</string>
+  <string name="dsu_is_running">DSU wird ausgeführt</string>
+  <string name="dsu_loader_description">Dynamisches System-Update-Image laden</string>
+  <string name="dsu_loader_loading">Laden…</string>
   <string name="enable_adb_wireless">Kabelloses Debugging</string>
   <string name="enable_adb_wireless_summary">Debug-Modus, wenn WLAN verbunden ist</string>
   <string name="enable_blurs_on_windows_summary">Aktiviert das Weichzeichnen für Fenster auf Composition-Manager-Ebene. Erfordert einen Neustart des Geräts.</string>
@@ -320,11 +323,11 @@ Vom oberen Displayrand nach unten wischen, um die Benachrichtigungsleiste zu öf
   <string name="guest_nickname">Gast</string>
   <string name="history_toggled_on_summary">Hier finden Sie aktuelle und zurückgestellte Benachrichtigungen</string>
   <string name="history_toggled_on_title">Keine aktuellen Benachrichtigungen</string>
-  <string name="important_bubble">Vorrangige Unterhaltungen als Bubble anzeigen</string>
-  <string name="important_conversation_behavior_summary">Vorrangige Unterhaltungen werden oben in der Benachrichtigungsleiste angezeigt. Sie können auch einstellen, dass sie als Bubbles angezeigt werden oder den \"Bitte nicht stören\"-Modus unterbrechen können.</string>
+  <string name="important_bubble">Vorrangige Unterhaltungen als Blase anzeigen</string>
+  <string name="important_conversation_behavior_summary">Vorrangige Unterhaltungen werden oben in der Benachrichtigungsleiste angezeigt. Sie können auch einstellen, dass sie als Blasen angezeigt werden oder den \"Bitte nicht stören\"-Modus unterbrechen können.</string>
   <string name="important_conversations">Vorrangige Unterhaltungen</string>
   <string name="important_conversations_summary">Oben im Bereich für Unterhaltungen anzeigen</string>
-  <string name="important_conversations_summary_bubbles">Oben im Bereich für Unterhaltungen und als unverankerte Bubbles anzeigen</string>
+  <string name="important_conversations_summary_bubbles">Oben im Bereich für Unterhaltungen und als unverankerte Blasen anzeigen</string>
   <string name="imsi_protection_warning">Dieses Netzwerk empfängt eine eindeutige ID, mit der der Gerätestandort erfasst werden kann. &lt;annotation id=\"url\"&gt;Weitere Informationen&lt;/annotation&gt;</string>
   <string name="interact_across_profiles_app_detail_title">Verbundene private und berufliche Apps</string>
   <string name="interact_across_profiles_consent_dialog_app_data_summary">Diese App kann auf Daten in deiner privaten App \"%1$s\" zugreifen.</string>
@@ -431,7 +434,7 @@ Dadurch wird %2$s als Ihre Standard-App für das kontaktlose Bezahlen ersetzt."<
 
 Zusätzlich wird die App in die Lage versetzt, die \"Bitte nicht stören\"-Funktion zu aktivieren bzw. zu deaktivieren und zugehörige Einstellungen zu ändern."</string>
   <string name="notification_badging_title">Benachr.punkt auf App-Symbol</string>
-  <string name="notification_channel_summary_priority">Wird oben im Abschnitt für Unterhaltungen angezeigt und erscheint als Bubble.</string>
+  <string name="notification_channel_summary_priority">Wird oben im Abschnitt für Unterhaltungen angezeigt und erscheint als Blase.</string>
   <string name="notification_channels">Kategorien</string>
   <string name="notification_conversation_add_to_home">Zum Startbildschirm hinzufügen</string>
   <string name="notification_conversation_important">Wichtig</string>
@@ -457,7 +460,7 @@ Zusätzlich wird die App in die Lage versetzt, die \"Bitte nicht stören\"-Funkt
   <string name="notification_vibrate_title">Vibration</string>
   <string name="notifications_bubble_setting_description">Einige Unterhaltungen erscheinen als unverankerte Symbole über anderen Apps</string>
   <string name="notifications_bubble_setting_on_summary">Ein / Unterhaltungen können als unverankerte Symbole angezeigt werden</string>
-  <string name="notifications_bubble_setting_title">Zulassen, dass Apps Bubbles anzeigen</string>
+  <string name="notifications_bubble_setting_title">Zulassen, dass Apps Blasen anzeigen</string>
   <string name="open_supported_links_footer">App gibt an, die folgenden Links zu verarbeiten:</string>
   <string name="other_conversations">Andere Gespräche</string>
   <string name="other_conversations_summary">Unterhaltungen, an denen Änderungen vorgenommen wurden</string>
@@ -518,19 +521,19 @@ Zusätzlich wird die App in die Lage versetzt, die \"Bitte nicht stören\"-Funkt
   <string name="reading_settings">Einstellungen lesen…</string>
   <string name="repeat">Wiederholen</string>
   <string name="repeat_call">Benachrichtigung über wiederholte Anrufe</string>
-  <string name="repeat_call_info">Ton für die innerhalb von 15 Minuten wiederholten Anrufe im Lautlosmodus zulassen</string>
+  <string name="repeat_call_info">Klingeln oder Vibrieren bei Empfang des zweiten Anrufs von der gleichen Rufnummer innerhalb von %d Minuten</string>
   <string name="repeat_days_in_week">Wiederholen</string>
   <string name="repeat_never">Niemals</string>
   <string name="repeat_title">Wiederholen</string>
   <string name="reset_dashboard_summary_onlyApps">Apps können zurückgesetzt werden</string>
   <string name="right_edge">Rechter Rand</string>
   <string name="ring_volume_title">Lautstärke bei Klingeln und Benachrichtigungseingang</string>
-  <string name="ringer_mode_setting_summary">Eingehende Anrufe und Benachrichtigungen stumm schalten</string>
+  <string name="ringer_mode_setting_summary">Anrufe und Benachrichtigungen stumm schalten</string>
   <string name="ringer_mode_setting_title">Lautlosmodus </string>
   <string name="roaming_warning">Eventuell fallen Roaminggebühren an.</string>
   <string name="roaming_warning_multiuser">"Wenn Sie Daten-Roaming zulassen, fallen eventuell Roaminggebühren an.
 
-Diese Einstellung betrifft alle Nutzer auf diesem Telefon."</string>
+Diese Einstellung betrifft alle Benutzer auf diesem Telefon."</string>
   <string name="runtime_permissions_summary_control_app_access">App-Zugriff auf Ihre Daten kontrollieren</string>
   <string name="screen_locking_sounds_title">Ton bei Bildschirmsperre</string>
   <string name="screen_pinning_description">"Mit App-Anheften können Sie die aktuelle App so lange im Blick behalten, bis Sie das Anheften aufheben. Diese Funktion kann zum Beispiel verwendet werden, um einen vertrauenswürdigen Freund ein bestimmtes Spiel spielen zu lassen.
@@ -601,7 +604,7 @@ Ihr Telefon kann eventuell auch von jemandem entsperrt werden, der Ihnen sehr ä
   <string name="select_invalid_bug_report_handler_toast_text">Diese Auswahl ist nicht mehr gültig. Bitte erneut versuchen.</string>
   <string name="shared_data_delete_failure_text">Beim Löschen der geteilten Daten ist ein Fehler aufgetreten.</string>
   <string name="shared_data_no_accessors_dialog_text">Für diese geteilten Daten gibt es keine Freigaben. Möchten Sie sie löschen?</string>
-  <string name="shared_data_no_blobs_text">Es gibt keine geteilten Daten für diesen Nutzer.</string>
+  <string name="shared_data_no_blobs_text">Es gibt keine geteilten Daten für diesen Benutzer.</string>
   <string name="shared_data_query_failure_text">Beim Abrufen der geteilten Daten ist ein Fehler aufgetreten. Erneut versuchen.</string>
   <string name="shared_data_summary">Geteilte Daten anzeigen und ändern</string>
   <string name="shared_data_title">Geteilte Daten</string>
@@ -800,7 +803,7 @@ Während eines Sprachanrufs können Sie das Internet nicht nutzen und manche App
   <string name="zen_mode_settings_summary_off">Keine</string>
   <string name="zen_mode_settings_title">Bitte nicht stören</string>
   <string name="zen_mode_summary">Eingehende Anrufe, Benachrichtigungen, Medien und Vibrationen ausschalten.</string>
-  <string name="zen_mode_summary2">Anrufe und Benachrichtigungen lautlos, Vibrationen ausschalten</string>
+  <string name="zen_mode_summary2">Keine Erinnerungen für eingehende Anrufe und Benachrichtigungen</string>
   <string name="zen_mode_system">Töne bei Berührung</string>
   <string name="zen_mode_system_list_first">Töne bei Berührung</string>
   <string name="zen_mode_system_summary">Töne von meiner Tastatur und sonstigen Tasten</string>

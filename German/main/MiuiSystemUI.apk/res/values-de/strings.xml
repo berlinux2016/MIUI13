@@ -84,6 +84,7 @@
   <string name="accessibility_control_favorite_position">Favorisiert, Position %d</string>
   <string name="accessibility_control_move">An Position %d setzen</string>
   <string name="accessibility_control_not_favorite">Aus Favoriten entfernt</string>
+  <string name="accessibility_data_connection_wifi">WLAN</string>
   <string name="accessibility_data_one_bar">Daten 1 Balken</string>
   <string name="accessibility_data_saver_off">Datensparen ist aus</string>
   <string name="accessibility_data_saver_on">Datensparen ist an</string>
@@ -111,6 +112,7 @@
   <string name="accessibility_display_daltonizer_preference_title">Farbkorrektur</string>
   <string name="accessibility_divider">Trenner geteilter Bildschirm</string>
   <string name="accessibility_drag_hint_message">Elemente an oberen Bildschirmrand ziehen</string>
+  <string name="accessibility_enter_lock_setting">Tippen, um die Einstellungen Hintergrundkarussell zu öffnen</string>
   <string name="accessibility_enter_lock_wallpaper">Tippen, um Hintergrundkarussell zu öffnen</string>
   <string name="accessibility_ethernet_connected">Ethernet verbunden</string>
   <string name="accessibility_ethernet_disconnected">Ethernet getrennt</string>
@@ -124,6 +126,14 @@
   <string name="accessibility_home">Startseite</string>
   <string name="accessibility_ime_switch_button">Eingabemethodentaste wechseln</string>
   <string name="accessibility_key">Eigene Navigationstaste</string>
+  <string name="accessibility_keyboard_delete_button">Löschen</string>
+  <string name="accessibility_keyboard_letter_board_caps_lock_button">Feststelltaste</string>
+  <string name="accessibility_keyboard_letter_board_shift2number_button">Ziffern</string>
+  <string name="accessibility_keyboard_letter_board_shift2symbol_button">Symbole</string>
+  <string name="accessibility_keyboard_ok_button">Eingabetaste</string>
+  <string name="accessibility_keyboard_symbol_board_shift2letter_button">Buchstaben</string>
+  <string name="accessibility_keyboard_symbol_board_symbol_lock_button">Symbolsperre</string>
+  <string name="accessibility_keyguard_face_unlock_view">Gesichtsentsperrung</string>
   <string name="accessibility_left_button">Verknüpfung</string>
   <string name="accessibility_left_control_center_button">Verknüpfung</string>
   <string name="accessibility_left_lock_screen_magazine_button">Hintergrundkarussell</string>
@@ -346,7 +356,7 @@
   <string name="allow_mock_location_summary">Scheinstandorte zulassen</string>
   <string name="always_use_accessory">Immer für dieses USB-Zubehör verwenden</string>
   <string name="always_use_device">Immer für dieses USB-Gerät verwenden</string>
-  <string name="animator_duration_scale_title">Skala Animationsdauer</string>
+  <string name="animator_duration_scale_title">Animationsdauer</string>
   <string name="apn_settings_not_available">APN-Einstellungen sind für diesen Benutzer nicht verfügbar</string>
   <string name="app_accessed_mic">%1$s hat auf Ihr Mikrofon zugegriffen</string>
   <string name="app_info">App-Info</string>
@@ -491,6 +501,8 @@ In %d Sekunden erneut versuchen."</string>
   <string name="bluetooth_enable_gabeldorsche_summary">Aktiviert den Bluetooth Gabeldorsche Funktions-Stack</string>
   <string name="bluetooth_enable_inband_ringing">In-Band-Klingeln aktivieren</string>
   <string name="bluetooth_enable_inband_ringing_summary">Erlaubt die Wiedergabe von Telefonklingeltönen über Bluetooth-Kopfhörer</string>
+  <string name="bluetooth_enable_page_scan">Bluetooth-Seiten-Scan aktivieren</string>
+  <string name="bluetooth_enable_page_scan_summary">Seiten-Scan für Bluetooth-Test deaktivieren/aktivieren</string>
   <string name="bluetooth_headset_profile_summary_connected">Mit Sprachtelefonie verbunden</string>
   <string name="bluetooth_headset_profile_summary_use_for">Für Sprachtelefonie verwenden</string>
   <string name="bluetooth_hearing_aid_profile_summary_connected">Mit Hörgerät verbunden</string>
@@ -547,8 +559,8 @@ Wiedergabequalität"</string>
   <string name="bluetooth_select_a2dp_codec_sample_rate">Bluetooth Audio Abtastrate</string>
   <string name="bluetooth_select_a2dp_codec_sample_rate_dialog_title">"Bluetooth Audio Codec wählen:
 Abtastrate"</string>
-  <string name="bluetooth_select_a2dp_codec_type">Bluetooth Audiocodec</string>
-  <string name="bluetooth_select_a2dp_codec_type_dialog_title">Bluetooth Audio Codec wählen</string>
+  <string name="bluetooth_select_a2dp_codec_type">Bluetooth Audio Codec</string>
+  <string name="bluetooth_select_a2dp_codec_type_dialog_title">Bluetooth Audio Codec auswählen</string>
   <string name="bluetooth_select_a2dp_codec_type_help_info">Ausgegraut bedeutet keine Unterstützung durch Telefon oder Headset</string>
   <string name="bluetooth_select_avrcp_version_dialog_title">Bluetooth AVRCP Version wählen</string>
   <string name="bluetooth_select_avrcp_version_string">Bluetooth AVRCP Version</string>
@@ -577,18 +589,18 @@ Abtastrate"</string>
   <string name="bubble_content_description_stack">%1$s von %2$s und %3$d mehr</string>
   <string name="bubble_dismiss_text">Verwerfen</string>
   <string name="bubble_overflow_button_content_description">Überlauf</string>
-  <string name="bubble_overflow_empty_subtitle">Aktuelle Sprechblasen und verworfene Sprechblasen werden hier angezeigt</string>
-  <string name="bubble_overflow_empty_title">Keine aktuellen Sprechblasen</string>
+  <string name="bubble_overflow_empty_subtitle">Aktuelle Blasen und verworfene Blasen werden hier angezeigt</string>
+  <string name="bubble_overflow_empty_title">Keine aktuellen Blasen</string>
   <string name="bubbles_app_settings">%1$s-Einstellungen</string>
   <string name="bubbles_deep_link_button_description">%1$s öffnen</string>
-  <string name="bubbles_dont_bubble_conversation">Keine Sprechblasen für Unterhaltungen</string>
+  <string name="bubbles_dont_bubble_conversation">Keine Blasen für Unterhaltungen</string>
   <string name="bubbles_prompt">Blasen von %1$s erlauben?</string>
   <string name="bubbles_settings_button_description">Einstellungen für %1$s-Blasen</string>
-  <string name="bubbles_user_education_description">Neue Unterhaltungen werden als schwebende Symbole oder Sprechblasen angezeigt. Tippen , um die Sprechblase zu öffnen. Ziehen Sie sie, um sie zu verschieben.</string>
+  <string name="bubbles_user_education_description">Neue Unterhaltungen werden als schwebende Symbole oder Blasen angezeigt. Tippen , um die Sprechblase zu öffnen. Ziehen Sie sie, um sie zu verschieben.</string>
   <string name="bubbles_user_education_got_it">Verstanden</string>
-  <string name="bubbles_user_education_manage">Auf Verwalten tippen, um Sprechblasen aus dieser App zu deaktivieren</string>
-  <string name="bubbles_user_education_manage_title">Sprechblasen jederzeit steuern</string>
-  <string name="bubbles_user_education_title">Chatten mit Sprechblasen</string>
+  <string name="bubbles_user_education_manage">Auf Verwalten tippen, um Blasen aus dieser App zu deaktivieren</string>
+  <string name="bubbles_user_education_manage_title">Blasen jederzeit steuern</string>
+  <string name="bubbles_user_education_title">Chatten mit Blasen</string>
   <string name="bugreport_in_power">Verknüpfung zum Fehlerbericht</string>
   <string name="bugreport_in_power_summary">Schaltfläche für Fehlerberichte im Power-Menü anzeigen</string>
   <string name="button_convert_fbe">Löschen und konvertieren…</string>
@@ -831,7 +843,7 @@ Drücken Sie 'Löschen und konvertieren…', um fortzufahren."</string>
   <string name="emergency_call_string">Notruf</string>
   <string name="empty_shade_text">Keine Benachrichtigungen</string>
   <string name="enable_adb">USB-Debugging</string>
-  <string name="enable_adb_summary">>Debug-Modus bei Anschluss über USB</string>
+  <string name="enable_adb_summary">Debug-Modus bei Anschluss über USB</string>
   <string name="enable_adb_wireless">Kabelloses Debugging</string>
   <string name="enable_adb_wireless_summary">Debug-Modus, wenn WLAN verbunden ist</string>
   <string name="enable_atrace">ATrace einschalten</string>
@@ -1006,6 +1018,7 @@ innerhalb des Kreises befindet"</string>
   <string name="fs_gesture_switch_recents_summary">Von unten wischen und anhalten</string>
   <string name="fsg_demo_back">Zurück</string>
   <string name="fsg_demo_go_on">Weiter</string>
+  <string name="garbage_count">Es gibt %1$s alte Instanzen</string>
   <string name="global_action_lock_message">Telefon entsperren für mehr Optionen</string>
   <string name="go_to_web">Zum Internet</string>
   <string name="got_it">Verstanden</string>
@@ -1050,6 +1063,7 @@ innerhalb des Kreises befindet"</string>
   <string name="gxzw_use_password_to_unlock">Passwort eingeben</string>
   <string name="hdcp_checking_dialog_title">HDCP-Prüfverhalten festlegen</string>
   <string name="hdcp_checking_title">HDCP-Prüfung</string>
+  <string name="heads_up_snooze_toast">Benachrichtigungen dieser App werden erst angezeigt, wenn Sie Ihr Gerät wieder entsperren</string>
   <string name="help_feedback_label">Hilfe &amp; Feedback</string>
   <string name="help_label">Hilfe &amp; Feedback</string>
   <string name="hidden_notifications_cancel">Nein danke</string>
@@ -1129,15 +1143,12 @@ Weiterhin zeigen?"</string>
   <string name="instant_apps_message_with_help">App wurde geöffnet, ohne installiert zu sein. Hier tippen, um mehr zu erfahren.</string>
   <string name="instant_apps_title">%1$s läuft</string>
   <string name="interruption_level_alarms">Nur Alarme</string>
-  <string name="interruption_level_alarms_twoline">"Nur
-Alarme"</string>
+  <string name="interruption_level_alarms_twoline">Nur\nAlarme</string>
   <string name="interruption_level_none">Totale Stille</string>
-  <string name="interruption_level_none_twoline">"Totale
-Stille"</string>
+  <string name="interruption_level_none_twoline">Totale\nStille</string>
   <string name="interruption_level_none_with_warning">Totale Stille. Dies wird auch die Screenreader stummschalten.</string>
   <string name="interruption_level_priority">Nur Dringendes</string>
-  <string name="interruption_level_priority_twoline">"Nur
-Dringendes"</string>
+  <string name="interruption_level_priority_twoline">Nur\nDringendes</string>
   <string name="invalid_charger">Laden über USB wird nicht unterstützt.\nBitte Ladegerät benutzen.</string>
   <string name="invalid_charger_text">Nur das mitgelieferte Ladegerät verwenden</string>
   <string name="invalid_charger_title">USB-Laden nicht unterstützt</string>
@@ -1433,6 +1444,7 @@ Screenshot zu erstellen"</string>
   <string name="media_transfer_wired_usb_device_name">Kabelgebundener Kopfhörer</string>
   <string name="memory_clear_result_giga">%1$s GB gelöscht</string>
   <string name="memory_clear_result_mega">%1$s MB gelöscht</string>
+  <string name="memory_leak">Speicherleck</string>
   <string name="menu_ime">Tastaturumschalter</string>
   <string name="mic_active">Microfon aktiviert</string>
   <string name="miui_guide_dialog_button_negative_text">Einstellungen</string>
@@ -1495,7 +1507,7 @@ Screenshot zu erstellen"</string>
   <string name="monitoring_description_do_learn_more">Erfahren Sie mehr</string>
   <string name="monitoring_description_managed_profile_ca_certificate">Ihre Firma hat in Ihrem Arbeitsprofil eine Zertifizierung eingerichtet. Ihr sicherer Netzwerkverkehr kann überwacht oder verändert werden.</string>
   <string name="monitoring_description_managed_profile_named_vpn">Ihr Arbeitsprofil ist mit %1$s verbunden, das Ihre Netzwerkaktivität überwachen kann, inkl. E-Mails, Apps und Webseiten.</string>
-  <string name="monitoring_description_management">Ihr Gerät wird von Ihrer Firma verwaltet.\n\nIhr Administrator kann Einstellungen, Unternehmenszugriff, Apps, mit Ihrem Telefon verknüpfte Daten und Standortinformationen überwachen und verwalten.\n\nFür weitere Informationen wenden Sie sich bitte an Ihren Administrator.</string>
+  <string name="monitoring_description_management">Ihr Gerät wird von Ihrer Firma verwaltet.\n\nIhr Administrator kann Einstellungen, Unternehmenszugriff, Apps, mit Ihrem Telefon verknüpfte Daten und Standortinformationen überwachen und verwalten.\nFür weitere Informationen wenden Sie sich bitte an Ihren Administrator.</string>
   <string name="monitoring_description_management_ca_certificate">Ihre Firma hat eine Zertifizierung auf diesem Telefon installiert. Ihr sicherer Netzwerkverkehr kann überwacht oder verändert werden.</string>
   <string name="monitoring_description_management_network_logging">Ihr Administrator hat die Netzwerkprotokollierung aktiviert, die den Datenverkehr auf Ihrem Telefon überwacht.</string>
   <string name="monitoring_description_named_management">Ihr Gerät wird von %1$s verwaltet.\n\nIhr Administrator kann Einstellungen, Unternehmenszugriff, Apps, Daten, die mit Ihrem Gerät verknüpft sind, und die Standortinformationen überwachen und verwalten.\n\nFür weitere Informationen wenden Sie sich bitte an Ihren Administrator.</string>
@@ -1609,7 +1621,7 @@ Screenshot zu erstellen"</string>
   <string name="notification_conversation_home_screen">Zum Startbildschirm hinzufügen</string>
   <string name="notification_conversation_mute">Lautlos</string>
   <string name="notification_conversation_summary_low">Kein Ton oder Vibration und erscheint weiter unten im Unterhaltungsbereich</string>
-  <string name="notification_conversation_unbubble">Sprechblasen entfernen</string>
+  <string name="notification_conversation_unbubble">Blasen entfernen</string>
   <string name="notification_conversation_unfavorite">Keine wichtige Unterhaltung</string>
   <string name="notification_conversation_unmute">Alarmieren</string>
   <string name="notification_default_channel_desc">Diese App hat keine Benachrichtigungskategorien</string>
@@ -2349,7 +2361,7 @@ Ihr Telefon läuft jetzt normal. Ihr Telefon könnte zu heiß werden, wenn Sie:
   <string name="torch_opened">Lampe an</string>
   <string name="touch_filtered_warning">Da eine App eine Berechtigungsanfrage verdeckt, können die Einstellungen Ihre Antwort nicht überprüfen.</string>
   <string name="track_frame_time">Profil HWUI Rendering</string>
-  <string name="transition_animation_scale_title">Übergangsanimationsskala</string>
+  <string name="transition_animation_scale_title">Übergangsanimation</string>
   <string name="tts_default_lang_summary">Legt die sprachspezifische Stimme für den gesprochenen Text fest</string>
   <string name="tts_default_lang_title">Sprache</string>
   <string name="tts_default_pitch_summary">Beeinflusst den Ton der synthetisierten Sprache</string>
@@ -2473,12 +2485,8 @@ Diese App hat keine Aufnahmeberechtigung erhalten, konnte aber über dieses USB-
   <string name="user_add_user">Benutzer hinzufügen</string>
   <string name="user_add_user_item_summary">Benutzer haben ihre eigenen Apps und Inhalte</string>
   <string name="user_add_user_item_title">Benutzer</string>
-  <string name="user_add_user_message_long">"Sie können dieses Gerät mit anderen Personen teilen, indem Sie weitere Benutzer anlegen. Jeder Benutzer hat seinen eigenen Bereich, den er mit Apps, Hintergrundbildern usw. anpassen kann. Benutzer können auch Geräteeinstellungen wie WLAN anpassen, die für alle gelten.
-
-Wenn Sie einen neuen Benutzer hinzufügen, muss diese Person ihren Bereich einrichten.
-
-Jeder Benutzer kann Apps für alle anderen Benutzer aktualisieren. Eingabehilfen-Einstellungen und Dienste werden evtl. nicht auf den neuen Benutzer übertragen."</string>
-  <string name="user_add_user_message_short">"Wenn Sie einen neuen Benutzer hinzufügen, muss diese Person ihr Profil einrichten.\n\nJeder Benutzer kann Apps für alle anderen Benutzer aktualisieren."</string>
+  <string name="user_add_user_message_long">Sie können dieses Gerät mit anderen Personen teilen, indem Sie weitere Benutzer anlegen. Jeder Benutzer hat seinen eigenen Bereich, den er mit Apps, Hintergrundbildern usw. anpassen kann. Benutzer können auch Geräteeinstellungen wie WLAN anpassen, die für alle gelten.\n\nWenn Sie einen neuen Benutzer hinzufügen, muss diese Person ihren Bereich einrichten.\n\nJeder Benutzer kann Apps für alle anderen Benutzer aktualisieren. Eingabehilfen-Einstellungen und Dienste werden evtl. nicht auf den neuen Benutzer übertragen.</string>
+  <string name="user_add_user_message_short">Wenn Sie einen neuen Benutzer hinzufügen, muss diese Person ihr Profil einrichten.\n\nJeder Benutzer kann Apps für alle anderen Benutzer aktualisieren.</string>
   <string name="user_add_user_title">Neuen Benutzer hinzufügen?</string>
   <string name="user_add_user_type_title">Hinzufügen</string>
   <string name="user_guest">Gast</string>
@@ -2628,8 +2636,8 @@ WLAN-Adresse (BSSID)
   <string name="wifi_status_no_internet">Kein Internet</string>
   <string name="wifi_status_sign_in_required">Anmeldung erforderlich</string>
   <string name="wifi_unmetered_label">Nicht gemessen</string>
-  <string name="wifi_unsaved_network_linking">SSID Bridging - Auto Connection</string>
-  <string name="wifi_unsaved_network_linking_summary">Automatische Verbindungsversuche zu einer neuen WPA/WPA2-PSK 5GHz SSID mit aktuell verbundenen WPA/WPA2-PSK 2GHz SSID-Zugangsdaten auf SSID und BSSID mit teilweiser Übereinstimmung aktivieren</string>
+  <string name="wifi_unsaved_network_linking">SSID Bridging - Auto-Verbindung</string>
+  <string name="wifi_unsaved_network_linking_summary">Autom. Verbindungsversuche zu einer neuen WPA/WPA2-PSK 5GHz SSID mit aktuell verbundenen WPA/WPA2-PSK 2GHz SSID-Zugangsdaten auf SSID und BSSID mit teilweiser Übereinstimmung aktivieren</string>
   <string name="wifi_verbose_logging">Ausführliche Protokollierung für WLAN aktivieren</string>
   <string name="wifi_verbose_logging_summary">WLAN-Logging-Level erhöhen, Anzeige per SSID RSSI im WLAN-Picker</string>
   <string name="wifi_wapi_as_certificate">AS-Zertifikat</string>
@@ -2643,7 +2651,7 @@ Speicherung von Anmeldedaten ist evtl. nicht aktiviert."</string>
   <string name="wifi_wapi_user_certificate">Benutzerzertifikat</string>
   <string name="wifi_whitelist_roaming">SSID Bridging - Fast Handover</string>
   <string name="wifi_whitelist_roaming_summary">Roaming zwischen verschiedenen SSID-WPA/WPA2-PSK-APs mit derselben Gateway-MAC-Adresse aktivieren</string>
-  <string name="window_animation_scale_title">Fensteranimationskala</string>
+  <string name="window_animation_scale_title">Fensteranimation</string>
   <string name="wireless_change_to_ac_charging">Auf kabelgebundenes Laden umgeschaltet</string>
   <string name="wireless_charge_current">Laden</string>
   <string name="wireless_charge_dialog_cancel">Verstanden</string>
@@ -2672,6 +2680,10 @@ Speicherung von Anmeldedaten ist evtl. nicht aktiviert."</string>
   <string name="zen_mode_forever">Bis Sie ausschalten</string>
   <string name="zen_mode_settings_summary_off">Nie</string>
   <string name="zen_mode_settings_turn_on_dialog_title">Nicht stören einschalten</string>
+  <string name="zen_mode_warnings_all_time_content">Benachrichtigungen und Anrufe werden stummgeschaltet</string>
+  <string name="zen_mode_warnings_keyguard_content">Benachrichtigungen und Anrufe werden stummgeschaltet, wenn das Gerät gesperrt ist</string>
+  <string name="zen_mode_warnings_quit_immediately">Einschalten</string>
+  <string name="zen_mode_warnings_title">DND ist an</string>
   <string name="zen_priority_customize_button">Anpassen</string>
   <string name="zen_priority_introduction">Sie werden nicht durch Töne und Vibrationen gestört, außer durch Alarme, Erinnerungen, Termine und Anrufer, die Sie angeben. Sie hören immer noch alles was Sie spielen möchten, inkl. Musik, Videos und Spiele.</string>
   <string name="zen_silence_introduction">Dies blockiert ALLE Töne und Vibrationen, inkl. von Alarmen, Musik, Videos und Spielen.</string>

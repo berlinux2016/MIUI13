@@ -1,5 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+  <string name="app_sports_fav_cancel_multi_league_content" formatted="false">Der Zeitplan des Clubs in %s und %s wird Ihnen nicht mehr zugeschoben</string>
+  <string name="app_sports_title_tip">Spielbezogene Daten, die von einem Drittanbieter bereitgestellt werden</string>
+
+  <string name="app_health_setting_music_name_fire">Feuer</string>
+  <string name="app_health_setting_music_name_forest">Wald</string>
+  <string name="app_health_setting_music_name_night">Sommernacht</string>
+  <string name="app_health_setting_music_name_ocean">Strand</string>
+  <string name="app_health_setting_music_name_rain">Nieselregen</string>
+  <string name="app_health_setting_text_default_duration">Dauer</string>
+  <string name="app_health_setting_text_download_alert_message">Sieht aus, als sind Sie nicht mit WLAN verbunden. %1$s an mobilen Daten verwenden, um Elemente herunterzuladen?</string>
+  <string name="app_health_setting_text_sleep_aid_settings">Schlafen</string>
+  <string name="app_health_setting_text_title">Gesundheit</string>
+  <string name="app_travel_card_none">Keine Daten</string>
+
   <string name="abc_action_bar_home_description">Zur Startseite</string>
   <string name="abc_action_bar_up_description">Nach oben</string>
   <string name="abc_action_menu_overflow_description">Weitere Optionen</string>
@@ -16,7 +30,7 @@
   <string name="abc_searchview_description_voice">Sprachsuche</string>
   <string name="abc_shareactionprovider_share_with">Teilen mit</string>
   <string name="abc_shareactionprovider_share_with_application">Teilen mit %s</string>
-  <string name="abc_toolbar_collapse_description">Einklappen</string>>
+  <string name="abc_toolbar_collapse_description">Einklappen</string>
   <string name="access_change_text" formatted="false">Aktuell sind die %d und %d Tauschpositionen ausgewählt</string>
   <string name="access_deselect">%s abgewählt</string>
   <string name="access_deselected">%s abgewählt</string>
@@ -304,6 +318,22 @@
   <string name="announce_for_drag">Ein Element ziehen</string>
   <string name="app_agenda_i_known">Verstanden</string>
   <string name="app_agenda_need_install_alipay">Alipay installieren, bevor Sie diese Funktion verwenden</string>
+  <string name="app_auth_router_dialog_loading">Konto hinzufügen…</string>
+  <string name="app_auth_setting_bind">Hinzufügen</string>
+  <string name="app_auth_setting_bind_fail">Konto wurden nicht hinzugefügt</string>
+  <string name="app_auth_setting_bind_fail_uninstall">Konto wurden nicht hinzugefügt. Erst %s installieren."</string>
+  <string name="app_auth_setting_bind_success_title">Aktuelles %s-Konto</string>
+  <string name="app_auth_setting_bind_summry">Mi-Konto: %s</string>
+  <string name="app_auth_setting_bind_title">Konto %s hinzufügen</string>
+  <string name="app_auth_setting_login">Anmelden</string>
+  <string name="app_auth_setting_login_summry">Anmelden und Ihr Alipay-Konto hinzufügen, um beliebte Dienste nutzen zu können</string>
+  <string name="app_auth_setting_login_title">Am Mi-Konto anmelden</string>
+  <string name="app_auth_setting_service_title">Beliebte Dienste</string>
+  <string name="app_auth_setting_unbind">Entfernen</string>
+  <string name="app_auth_setting_unbind_dialog_positive">Entfernen</string>
+  <string name="app_auth_setting_unbind_dialog_title">%s-Konto entfernen</string>
+  <string name="app_auth_setting_unbing_dialog_message">Nach Entfernen Ihres Kontos können Sie die beliebten %s-Dienste nicht mehr nutzen.</string>
+  <string name="app_auth_setting_unbing_dialog_negative">Behalten</string>
   <string name="app_bluetooth_device_battery">%1$d%%</string>
   <string name="app_bluetooth_device_empty">Kein Gerät verbunden</string>
   <string name="app_bluetooth_device_type">Bluetooth-Gerät</string>
@@ -493,7 +523,7 @@ Sie können Expresszustellungen auch auf den offiziellen Websites der Lieferfirm
   <string name="app_pa_setting_service_timetable">Stundenplan</string>
   <string name="app_pa_setting_service_timetable_summary">Zum Planen von Klassen tippen</string>
   <string name="app_pa_setting_title">Einstellungen</string>
-  <string name="app_screen_time_auth">Zum Öffnen des Dienstes autorisieren</string>
+  <string name="app_screen_time_auth">Bildschirmzeit</string>
   <string name="app_screen_time_no_time_title">&lt; 1 Minute</string>
   <string name="app_screen_time_support_false">Bildschirmzeit wird derzeit nicht unterstützt</string>
   <string name="app_screen_time_time">%1$d Std %2$d Min</string>
@@ -785,8 +815,10 @@ Sie können Expresszustellungen auch auf den offiziellen Websites der Lieferfirm
   <string name="cleanup_power">Gründliche Bereinigung</string>
   <string name="clear">Löschen</string>
   <string name="clearable_edittext_clear_description">Löschen</string>
+  <string name="clock_alarm">Wecker</string>
   <string name="clock_parent">Uhr</string>
   <string name="closed">Aus</string>
+  <string name="collect_diagnosis_log">Diagnoseprotokoll erfassen</string>
   <string name="commute">Kartenvorschläge</string>
   <string name="commute_address">Häufige Adressen</string>
   <string name="commute_address_hint_home">Wohnadresse hinzufügen</string>
@@ -861,6 +893,10 @@ Sie können Expresszustellungen auch auf den offiziellen Websites der Lieferfirm
   <string name="detail_action_settings">Einstellungen öffnen</string>
   <string name="detail_action_share">Teilen</string>
   <string name="detail_title">Favoriten</string>
+  <string name="diagnosis_log_send_failed">Diagnoseprotokoll senden fehlgeschlagen.</string>
+  <string name="diagnosis_log_sent_format">"Diagnoseprotokoll wurde gesendet.
+ID:%s
+Bitte senden Sie diesen Code an den Techniker."</string>
   <string name="dialog_cancel_like">Markierung erfolgreich gelöscht</string>
   <string name="dialog_delete_cancel">Abbrechen</string>
   <string name="dialog_delete_delete">Löschen</string>
@@ -1291,6 +1327,7 @@ Sendungsverfolgungsnummer prüfen."</string>
   <string name="fmt_weekday_timezone">W z</string>
   <string name="focus">Status verfolgen</string>
   <string name="focus_stocks">Meine Unternehmen</string>
+  <string name="for_diagnosis_usage_only">Verwenden Sie diese Information nur zur Diagnose.</string>
   <string name="friday">Freitag</string>
   <string name="friday_short">Fr</string>
   <string name="friday_shortest">F</string>
@@ -1783,6 +1820,9 @@ Keine Reservierung, vergessen oder deaktivieren Sie die Telefonnummer, wenden Si
   <string name="park_assistant">Parken</string>
   <string name="passenger_name">Passagiername</string>
   <string name="passenger_name_example">z. B. Debbie Smith</string>
+  <string name="passport_oauth_actionbar_title">Mi-Konto</string>
+  <string name="passport_oauth_sucess_tip">Erfolgreich autorisiert</string>
+  <string name="password_toggle_content_description">Passwortsichtbarkeit umschalten</string>
   <string name="paycode_sdk_parent">Zahlungsverknüpfung</string>
   <string name="paycode_sdk_parent_title">Schnelles Bezahlen</string>
   <string name="payment">Meine Zahlungen</string>
@@ -1931,9 +1971,11 @@ Keine Reservierung, vergessen oder deaktivieren Sie die Telefonnummer, wenden Si
   <string name="select_team_confirm">Senden</string>
   <string name="selected_shortcuts_title">Startseite</string>
   <string name="send_action_title">Zu Favoriten hinzufügen</string>
+  <string name="send_diagnosis_log">Diagnoseprotokoll senden</string>
   <string name="send_express">Expresslieferung</string>
   <string name="send_shortcut_failed">Senden fehlgeschlagen</string>
   <string name="send_shortcut_success">Verknüpfung auf Startbildschirm erstellen</string>
+  <string name="sending">Senden…</string>
   <string name="service_unavailiable">Mit Netzwerk verbinden und erneut versuchen</string>
   <string name="setting_address">Häufig besuchte Orte hinzufügen</string>
   <string name="setting_authorization_canceled_dialog_cancel">Abbrechen</string>
@@ -2138,6 +2180,7 @@ Keine Reservierung, vergessen oder deaktivieren Sie die Telefonnummer, wenden Si
   <string name="template_network_error_try_later">Netzwerkfehler, später erneut versuchen</string>
   <string name="template_retry_button">Erneut versuchen</string>
   <string name="template_update_error">Update fehlgeschlagen</string>
+  <string name="temporary_not_available">Temporär nicht verfügbar</string>
   <string name="the_anniversary_of_lifting_martial_law">Jahrestag der Aufhebung des Kriegsrechts</string>
   <string name="the_anti_aggression_day">Antiaggressionstag</string>
   <string name="the_arbor_day">Tag des Baumes</string>
@@ -2218,7 +2261,7 @@ Keine Reservierung, vergessen oder deaktivieren Sie die Telefonnummer, wenden Si
   <string name="try_again">Erneut versuchen</string>
   <string name="tuesday">Dienstag</string>
   <string name="tuesday_short">Di</string>
-  <string name="tuesday_shortest">D</string>>
+  <string name="tuesday_shortest">D</string>
   <string name="understandassistant">Über Infoassistent</string>
   <string name="uninstall">Nicht installiert</string>
   <string name="unusual_weather">Wetterwarnungen</string>

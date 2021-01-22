@@ -169,17 +169,29 @@
     <item quantity="other">&lt;Data>&lt;font color=#ff0000 >%d&lt;/font> Apps wurden lange nicht verwendet. Schauen Sie mal nach.&lt;/Data></item>
     <item quantity="one">&lt;Data>&lt;font color=#ff0000 >%d&lt;/font> App wurde lange nicht verwendet. Schauen Sie mal nach.&lt;/Data></item>
   </plurals>
+  <plurals name="rs_clean_size_hint_image">
+    <item quantity="other">Genug für %d Fotos</item>
+    <item quantity="one">Genug für %d Foto</item>
+  </plurals>
+  <plurals name="rs_clean_size_hint_song">
+    <item quantity="other">Genug für %d Titel</item>
+    <item quantity="one">Genug für %d Titel</item>
+  </plurals>
   <plurals name="second">
     <item quantity="other">%1$d Sekunden</item>
     <item quantity="one">%1$d Sekunde</item>
+  </plurals>
+  <plurals name="video_clean_scan_app_result">
+    <item quantity="other">%d Apps mit Videos im Cache</item>
+    <item quantity="one">%d App mit Videos im Cache</item>
   </plurals>
   <plurals name="view_num">
     <item quantity="other">%1$s mal angesehen</item>
     <item quantity="one">%1$s mal angesehen</item>
   </plurals>
   <plurals name="wechat_copy_video_failed_dialog_msg">
-    <item quantity="other">%d Videos konnten nicht exportiert werden. Machen Sie Speicherplatz frei und versuchen Sie es erneut.</item>
-    <item quantity="one">%d Video konnte nicht exportiert werden. Machen Sie Speicherplatz frei und versuchen Sie es erneut.</item>
+    <item quantity="other">%d Videos wurden nicht exportiert. Speicherplatz freimachen und erneut versuchen.</item>
+    <item quantity="one">%d Video wurde nicht exportiert. Speicherplatz freimachen und erneut versuchen.</item>
   </plurals>
   <plurals name="wechat_empty_files">
     <item quantity="other">(%1$d leere Dateien)</item>

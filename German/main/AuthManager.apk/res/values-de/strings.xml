@@ -1,10 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string name="gold_master_dialog_reject">Ablehnen (%d)</string>
-  <string name="gold_master_dialog_title">%1$s will die Zwischenablage lesen</string>
-  <string name="keep_blur_location">Weitermachen</string>
-  <string name="stop_blur_location">Ausschalten</string>
-
   <string name="HIPS_ACTION_REJECT_CLEAR">Zwischenablage einschränken &amp; löschen</string>
   <string name="HIPS_Action_Accept">Erlauben</string>
   <string name="HIPS_Action_Accept_Once">Einmal erlauben</string>
@@ -146,7 +141,7 @@
   <string name="app_name">Rechtemanager</string>
   <string name="background_location_access_reminder_notification_content">Diese App hat jederzeit Zugriff auf Ihren Standort. Zum Ändern hier tippen.</string>
   <string name="background_location_access_reminder_notification_title">%s hat Ihren Standort genutzt</string>
-  <string name="blur_location_is_on_tip">%1$s hat den ungefähren Standortdienst gestartet. Soll der ungefähre Standortdienst eingeschaltet bleiben?</string>
+  <string name="blur_location_is_on_tip">%%1$s verwendet Ihren ungefähren Standort. Weiter verwenden anstelle des genauen Standorts?</string>
   <string name="blur_location_now_tip">Ungefährer Standort ist an</string>
   <string name="blur_location_title">Ungefährer Standort</string>
   <string name="clearable_edittext_clear_description">Löschen</string>
@@ -164,6 +159,7 @@
   <string name="clipboard_read_deny_dialog_title">"• %1$s
 Zwischenablage lesen verweigert"</string>
   <string name="date_picker_lunar">Traditioneller chin. Kalender</string>
+  <string name="date_time_picker_dialog_title">Datum und Uhrzeit einstellen</string>
   <string name="default_permission_description">unbekannte Aktionen ausführen</string>
   <string name="early_morning">Morgen</string>
   <string name="eras_ad">n. Chr.</string>
@@ -199,6 +195,8 @@ Zwischenablage lesen verweigert"</string>
   <string name="go_behavior_record">Leseverlauf anzeigen</string>
   <string name="go_perm_manager">Berechtigungen verwalten</string>
   <string name="go_setting">Einstellungen</string>
+  <string name="gold_master_dialog_reject">Einschränken (%d)</string>
+  <string name="gold_master_dialog_title">%1$s möchte auf Ihre Zwischenablage zugreifen</string>
   <string name="grant_dialog_button_allow">Erlauben</string>
   <string name="grant_dialog_button_allow_always">Immer erlauben</string>
   <string name="grant_dialog_button_allow_background">Immer erlauben</string>
@@ -211,6 +209,7 @@ Zwischenablage lesen verweigert"</string>
   <string name="grant_dialog_storage_category_title">Diese App erfordert Zugriffsberechtigungen auf die Galerie und Nachrichten in Social Media-Apps</string>
   <string name="grant_dialog_storage_gallery_title">Galerie</string>
   <string name="grant_dialog_storage_sociality_title">Nachrichten in Social Media-Apps</string>
+  <string name="keep_blur_location">Nein</string>
   <string name="keep_notice_me">Weiter benachrichtigen</string>
   <string name="location_settings">Standorteinstellungen</string>
   <string name="location_warning">%1$s ist ein Anbieter von Standortdiensten für dieses Gerät. Der Standortzugriff kann über die Standorteinstellungen geändert werden.</string>
@@ -356,6 +355,7 @@ Zwischenablage lesen verweigert"</string>
   <string name="solar_term_white_dews">Weißer Tau</string>
   <string name="solar_term_winter_begins">Winteranfang</string>
   <string name="solar_term_winter_solstice">Wintersonnenwende</string>
+  <string name="stop_blur_location">Ja</string>
   <string name="storage_policy_notify_both_title">%1$s darf nicht auf die Galerie und Nachrichten in Social Media-Apps zugreifen</string>
   <string name="storage_policy_notify_content">Tippen, um die Berechtigungen anzupassen</string>
   <string name="storage_policy_notify_gallery_title">%1$s darf nicht auf die Galerie zugreifen</string>

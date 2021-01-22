@@ -104,10 +104,11 @@
   <string name="catch_full_log_submit_directly">Absenden</string>
   <string name="change_activate_email">E-Mail-Adresse ändern</string>
   <string name="change_password">Passwort ändern</string>
-  <string name="character_counter_content_description">Zeichenlimit überschritten: %1$d von %2$d</string>
+  <string name="character_counter_content_description">%1$d von %2$d Zeichen eingegeben</string>
   <string name="choose_to_signin">Ja</string>
   <string name="choose_to_signup">Nein, ich erstelle eins</string>
   <string name="clearable_edittext_clear_description">Löschen</string>
+  <string name="close">Schließen</string>
   <string name="close_feedback_main">Ausblenden</string>
   <string name="collect_diagnosis_log">Protokolle sammeln</string>
   <string name="confirm_activate_email">Verifiziert</string>
@@ -123,6 +124,7 @@
   <string name="customer_service_complain">An den Kundendienst melden</string>
   <string name="customer_service_station">Servicestandorte</string>
   <string name="date_picker_lunar">Traditioneller chin. Kalender</string>
+  <string name="date_time_picker_dialog_title">Datum und Zeit einstellen</string>
   <string name="default_text_view">Textvorschau</string>
   <string name="description">Problem beschreiben</string>
   <string name="diagnosis_log_send_failed">Protokolle nicht gesendet. Erneut versuchen.</string>
@@ -293,7 +295,7 @@ Senden Sie diesen Code an den Supervisor."</string>
   <string name="fmt_weekday_date_timezone">W, D z</string>
   <string name="fmt_weekday_time_timezone">W T z</string>
   <string name="fmt_weekday_timezone">W z</string>
-  <string name="for_diagnosis_usage_only">Protokolle werden nur zur Diagnose verwendet.</string>
+  <string name="for_diagnosis_usage_only">Verwenden Sie diese Information nur zur Diagnose.</string>
   <string name="friday">Freitag</string>
   <string name="friday_short">Fr</string>
   <string name="friday_shortest">F</string>
@@ -304,6 +306,8 @@ Senden Sie diesen Code an den Supervisor."</string>
   <string name="get_phone_verifycode_exceed_limit">Zu viele Verifizierungscodes wurden an diese Nummer geschickt. 24 Stunden warten und erneut versuchen.</string>
   <string name="goon_feedback_main">Fortsetzen</string>
   <string name="goto_sign_up">Konto erstellen</string>
+  <string name="headset_loss_notify_summary">Sieht aus, als ob mindestens einer Ihrer Ohrhörer nicht in der Ladehülle ist. Sehen Sie nach!</string>
+  <string name="headset_loss_notify_title">Warnung bei fehlendem Ohrhörer</string>
   <string name="hint_feedback_main">Problem beschreiben</string>
   <string name="identity">Identifikation</string>
   <string name="inconsistent_pwd">Passwörter stimmen nicht überein</string>
@@ -412,10 +416,13 @@ Senden Sie diesen Code an den Supervisor."</string>
   <string name="miuix_appcompat_cancel_description">Abbrechen</string>
   <string name="miuix_appcompat_confirm_description">Bestätigen</string>
   <string name="miuix_appcompat_delete_description">Löschen</string>
+  <string name="miuix_appcompat_deselect_all">Abwählen</string>
   <string name="miuix_appcompat_deselect_all_description">Alle abwählen</string>
   <string name="miuix_appcompat_search_action_mode_cancel">Abbrechen</string>
   <string name="miuix_appcompat_search_input_description">Suche</string>
+  <string name="miuix_appcompat_select_all">Alle wählen</string>
   <string name="miuix_appcompat_select_all_description">Alle wählen</string>
+  <string name="miuix_appcompat_select_item">Elemente wählen</string>
   <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Zum Aktualisieren herunterziehen</string>
   <string name="miuix_sbl_tracking_progress_labe_refreshed">Erfolgreich aktualisiert</string>
   <string name="miuix_sbl_tracking_progress_labe_refreshing">Aktualisieren…</string>
@@ -746,6 +753,7 @@ Wenn Sie nicht zustimmen, die oben genannten Berechtigungen zu erteilen, wird di
   <string name="section_description">Beschreibung</string>
   <string name="section_err_type">Fehlertyp</string>
   <string name="select_system_app_tag">Problem wählen</string>
+  <string name="send">Senden</string>
   <string name="send_diagnosis_log">Protokolle senden</string>
   <string name="send_email_activate_message">Verifizierungs-E-Mail erfolgreich versendet</string>
   <string name="sending">Senden…</string>

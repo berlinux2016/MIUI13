@@ -2,10 +2,10 @@
 <resources>
   <string name="ErrorTooManyRequests">Zurzeit werden zu viele Anfragen verarbeitet. Versuchen Sie es später erneut.</string>
   <string name="ack_record">Eintrag bestätigen</string>
-  <string name="audio_relay_default_device_name">Xiaomi-KI-Lautsprecher</string>
   <string name="airplane_can_not_share">Im Flugmodus kann nicht über Bluetooth geteilt werden</string>
   <string name="airplane_error_msg">Sie können Bluetooth im Flugmodus nicht verwenden</string>
   <string name="airplane_error_title">Flugmodus</string>
+  <string name="audio_relay_default_device_name">Xiaomi-KI-Lautsprecher</string>
   <string name="auth_notif_message">Sitzungsschlüssel eingeben für %1$s</string>
   <string name="auth_notif_ticker">OBEX-Authentifizierungsanfrage</string>
   <string name="auth_notif_title">Sitzungsschlüssel</string>
@@ -35,6 +35,8 @@
   <string name="bluetooth_sap_notif_message">Client zum Trennen auffordern?</string>
   <string name="bluetooth_sap_notif_ticker">Bluetooth SIM-Zugriff</string>
   <string name="bluetooth_sap_notif_title">Bluetooth SIM-Zugriff</string>
+  <string name="bt_audio_share_notification_content">Tippen, um Optionen anzuzeigen</string>
+  <string name="bt_audio_share_notification_title">Audio teilen</string>
   <string name="bt_enable_cancel">Abbrechen</string>
   <string name="bt_enable_line1">Damit Sie Bluetooth-Dienste nutzen können, müssen Sie Bluetooth zuerst aktivieren</string>
   <string name="bt_enable_line2">Bluetooth jetzt aktivieren?</string>
@@ -146,9 +148,6 @@
   <string name="status_running">Dateiübertragung läuft</string>
   <string name="status_success">Dateiübertragung abgeschlossen</string>
   <string name="status_unknown_error">Unbekannter Fehler</string>
-  <string name="switch_audio_device_phone">Dieses Gerät</string>
-  <string name="switch_audio_notification_content">"Aktuelles Audio-Ausgabegerät: "</string>
-  <string name="switch_audio_notification_title">Gerätekonnektivität</string>
   <string name="switch_audio_device_bt_a2dp">Bluetooth (Medien-Audio)</string>
   <string name="switch_audio_device_bt_a2dp_summary">Medienaudiowiedergabe auf einem angeschlossenen Gerät</string>
   <string name="switch_audio_device_bt_hfp">Bluetooth (Anrufe)</string>
@@ -157,9 +156,12 @@
   <string name="switch_audio_device_default_summary">Derzeit verwendetes Gerät</string>
   <string name="switch_audio_device_hfp_hint">Umschalten zur Standardausgabe</string>
   <string name="switch_audio_device_hfp_toast_hint">Standardaudioausgabe auswählen, um die Audiowiedergabe auf diesem Gerät erneut zu starten.</string>
+  <string name="switch_audio_device_phone">Dieses Gerät</string>
   <string name="switch_audio_device_phone_summary">Audio auf diesem Gerät abspielen</string>
   <string name="switch_audio_device_switch_hint">Sie können Benachrichtigungen über angeschlossene Geräte unter Einstellungen &gt; Bluetooth &gt; Weitere Einstellungen ausschalten.</string>
   <string name="switch_audio_dialog_title">Audioausgang auswählen</string>
+  <string name="switch_audio_notification_content">"Aktuelles Audio-Ausgabegerät: "</string>
+  <string name="switch_audio_notification_title">Gerätekonnektivität</string>
   <string name="transfer_clear_dlg_msg">Alle Einträge werden aus der Liste gelöscht</string>
   <string name="transfer_clear_dlg_title">Löschen</string>
   <string name="transfer_menu_clear">Aus Liste löschen</string>

@@ -1,5 +1,34 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+  <plurals name="a_hour_ago">
+    <item quantity="other">Vor 1 Stunde</item>
+  </plurals>
+  <plurals name="abbrev_a_hour_ago">
+    <item quantity="other">Vor 1 Std</item>
+  </plurals>
+  <plurals name="abbrev_half_hour_ago">
+    <item quantity="other">Vor einer halben Std</item>
+  </plurals>
+  <plurals name="abbrev_in_a_hour">
+    <item quantity="other">In 1 Std</item>
+  </plurals>
+  <plurals name="abbrev_in_half_hour">
+    <item quantity="other">In einer halben Std</item>
+  </plurals>
+  <plurals name="abbrev_in_less_than_one_minute">
+    <item quantity="other">Sofort</item>
+  </plurals>
+  <plurals name="abbrev_in_num_minutes">
+    <item quantity="other">In %d Min</item>
+    <item quantity="one">In 1 Min</item>
+  </plurals>
+  <plurals name="abbrev_less_than_one_minute_ago">
+    <item quantity="other">Gerade eben</item>
+  </plurals>
+  <plurals name="abbrev_num_minutes_ago">
+    <item quantity="other">Vor %d Min</item>
+    <item quantity="one">Vor 1 Min</item>
+  </plurals>
   <plurals name="add_game_notification_title">
     <item quantity="other">%d Spiele hinzugefügt</item>
     <item quantity="one">%d Spiel hinzugefügt</item>
@@ -218,6 +247,19 @@ Sie können jetzt eine kostenlose %d-Tag-Testversion erhalten!"</item>
     <item quantity="other">Kostenlose %d-Tage-Testversion erhalten</item>
     <item quantity="one">Kostenlose %d-Tag-Testversion erhalten</item>
   </plurals>
+  <plurals name="gtb_spring_festival_colored_egg">
+    <item quantity="other">Herzlichen Glückwunsch! Sie haben %s Ostereier freigeschaltet.</item>
+    <item quantity="one">Herzlichen Glückwunsch! Sie haben %s Osterei freigeschaltet.</item>
+  </plurals>
+  <plurals name="videobox_settings_timing_bubble">
+    <item quantity="other">"Sie sehen sich bereits seit %d Stunden Videos an.
+Machen Sie eine Pause!"</item>
+    <item quantity="one">"Sie sehen sich bereits seit %d Stunde Videos an.
+Machen Sie eine Pause!!"</item>
+  </plurals>
+  <plurals name="half_hour_ago">
+    <item quantity="other">Vor einer halben Stunde</item>
+  </plurals>
   <plurals name="hide_txt_hint_with_blank_2">
     <item quantity="other">    +%1$d Zeichen mehr</item>
     <item quantity="one">    +%1$d Zeichen mehr</item>
@@ -290,6 +332,19 @@ Sie können jetzt eine kostenlose %d-Tag-Testversion erhalten!"</item>
     <item quantity="other">%d Bilder löschen</item>
     <item quantity="one">%d Bild löschen</item>
   </plurals>
+  <plurals name="in_a_hour">
+    <item quantity="other">In 1 Stunde</item>
+  </plurals>
+  <plurals name="in_half_hour">
+    <item quantity="other">In einer halben Stunde</item>
+  </plurals>
+  <plurals name="in_less_than_one_minute">
+    <item quantity="other">Sofort</item>
+  </plurals>
+  <plurals name="in_num_minutes">
+    <item quantity="other">In %d Minuten</item>
+    <item quantity="one">In 1 Minute</item>
+  </plurals>
   <plurals name="install_game_count_title">
     <item quantity="other">%d Spiele hinzugefügt</item>
     <item quantity="one">%d Spiel hinzugefügt</item>
@@ -301,6 +356,9 @@ Sie können jetzt eine kostenlose %d-Tag-Testversion erhalten!"</item>
   <plurals name="keyguard_charging_info_drained_min_time_format">
     <item quantity="other">%s Minuten</item>
     <item quantity="one">%s Minute</item>
+  </plurals>
+  <plurals name="less_than_one_minute_ago">
+    <item quantity="other">Gerade eben</item>
   </plurals>
   <plurals name="lockpattern_recording_incorrect_too_short">
    <item quantity="other">Mind. %d Punkte verbinden</item>
@@ -401,6 +459,10 @@ Sie können jetzt eine kostenlose %d-Tag-Testversion erhalten!"</item>
   <plurals name="notification_title_cmcc_app_check">
     <item quantity="other">%d Tage seit letzter Prüfung</item>
     <item quantity="one">%d Tag seit letzter Prüfung</item>
+  </plurals>
+  <plurals name="num_minutes_ago">
+    <item quantity="other">Vor %d Minuten</item>
+    <item quantity="one">Vor 1 Minute</item>
   </plurals>
   <plurals name="number_locked">
     <item quantity="other">%d Apps gesperrt</item>
@@ -507,12 +569,12 @@ Sie können jetzt eine kostenlose %d-Tag-Testversion erhalten!"</item>
     <item quantity="one">%d Sek seit letztem Laden</item>
   </plurals>
   <plurals name="people">
-    <item quantity="other">Von %1$d Nutzern heruntergeladen</item>
-    <item quantity="one">Von %1$d Nutzer heruntergeladen</item>
+    <item quantity="other">Von %1$d Benutzern heruntergeladen</item>
+    <item quantity="one">Von %1$d Benutzer heruntergeladen</item>
   </plurals>
   <plurals name="people_million">
-    <item quantity="other">Von %1$d Nutzern heruntergeladen</item>
-    <item quantity="one">Von %1$d Nutzer heruntergeladen</item>
+    <item quantity="other">Von %1$d Benutzern heruntergeladen</item>
+    <item quantity="one">Von %1$d Benutzer heruntergeladen</item>
   </plurals>
   <plurals name="power_center_battery_charge_number">
     <item quantity="other">-mal</item>

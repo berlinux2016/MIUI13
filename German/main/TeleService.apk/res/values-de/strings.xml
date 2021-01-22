@@ -205,8 +205,8 @@
   <string name="advertisements_disable">Werbung deaktiviert</string>
   <string name="advertisements_enable">Werbung aktiviert</string>
   <string name="agree_provision">Zustimmen und fortfahren</string>
-  <string name="ai_assistant_not_installed">Zuerst den AI-Anrufassistenten installieren</string>
-  <string name="ai_assistant_setting_title">AI-Anrufassistent</string>
+  <string name="ai_assistant_not_installed">Zuerst den KI-Anrufassistenten installieren</string>
+  <string name="ai_assistant_setting_title">KI-Anrufassistent</string>
   <string name="alarm_template">um %1$s</string>
   <string name="alarm_template_far">um %1$s</string>
   <string name="alert_dialog_close">Profil schließen</string>
@@ -228,7 +228,7 @@
   <string name="anc_off">ARU aus</string>
   <string name="anc_on">ARU an</string>
   <string name="anc_title">Aktive Rauschunterdrückung</string>
-  <string name="animator_duration_scale_title">Animationsdauerskala</string>
+  <string name="animator_duration_scale_title">Animationsdauer</string>
   <string name="answer_features_setting_category">Antworten und Anrufe</string>
   <string name="answer_state_setting_summary">Zusätzliche Optionen für eingehende Anrufe</string>
   <string name="answer_state_setting_title">Einstellungen für eingehende Anrufe</string>
@@ -1088,7 +1088,7 @@ Mobile Daten trotzdem nutzen?"</string>
   <string name="fiveg_sa_switch_title">SA-Netzwerk</string>
   <string name="fiveg_sa_switch_title_slot0">SIM %d SA-Modus</string>
   <string name="fiveg_sa_switch_title_slot1">SIM %d SA-Modus</string>
-  <string name="fiveg_sa_switch_warning_toast">Bitte das Telefon neu starten, damit die Änderungen wirksam werden.</string>
+  <string name="fiveg_sa_switch_warning_toast">Telefon neu starten, um die Änderungen zu übernehmen</string>
   <string name="fiveg_sa_vice_switch_title">SA auf sekundärer SIM</string>
   <string name="fiveg_signal_strength1">5G-Signalstärke:</string>
   <string name="fiveg_switch_status1">5G-Schaltstatus:</string>
@@ -1478,7 +1478,7 @@ Immer diese Nummer verwenden"</string>
   <string name="msim_set_sub_not_supported_phone_in_call">Einstellung während eines Anrufs nicht möglich</string>
   <string name="msim_set_sub_not_supported_slot_id_error">SIM-Kartenfehler</string>
   <string name="msim_setting_categery_title">SIM-Karteneinstellungen</string>
-  <string name="msim_setting_default_data">Datenkarte</string>
+  <string name="msim_setting_default_data">Daten-SIM</string>
   <string name="msim_setting_default_data_description">%d als Daten-SIM</string>
   <string name="msim_setting_default_voice">Standard für Anrufe</string>
   <string name="msim_setting_default_voice_description">SIM %d für Anrufe</string>
@@ -2201,6 +2201,10 @@ UT-Schnittstelle: %5$s"</string>
   <string name="smart_forwarding_settings_menu">Intelligente Weiterleitung</string>
   <string name="smart_forwarding_settings_menu_summary">Wenn eine Nummer nicht erreichbar ist, leiten Sie Anrufe immer an Ihre andere Nummer weiter</string>
   <string name="smsc_dialog_message">Achten Sie darauf, dass die von Ihnen eingegebene Nummer korrekt ist. Sonst können Sie keine SMS senden oder empfangen. Wenden Sie sich an Ihren Mobilfunkanbieter, um Ihre SMSC-Nummer zu bestätigen.</string>
+  <string name="softap_beacon_protection">SoftAp Beacon-Schutz aktivieren</string>
+  <string name="softap_beacon_protection_summary">SoftAp Beacon-Schutz über Hotspot aktivieren</string>
+  <string name="softap_ocv">SoftAp OCV aktivieren</string>
+  <string name="softap_ocv_summary">SoftAp OCV über Hotspot aktivieren</string>
   <string name="sp_unlock_failed">SIM-Dienstanbieterentsperranforderung erfolglos</string>
   <string name="sp_unlock_success">SIM-Diensteanbieters erfolgreich entsperren</string>
   <string name="speed_label_fast">Schnell</string>
@@ -2475,7 +2479,7 @@ Falls dieses Problem weiterhin besteht, setzen Sie sich mit Ihrem Mobilfunkanbie
   <string name="voice_service_cannot_call_notification_title">Anrufe im aktuellen Netz nicht möglich</string>
   <string name="voice_service_switch_summary">Einschalten, um die VoLTE-Anruffunktionalität in VoLTE-Netzen nutzen zu können</string>
   <string name="voice_service_switch_title">VoLTE Anrufdienste nutzen</string>
-  <string name="voice_service_warning_dialog_body">"Dieses Gerät unterstützt VoLTE-Anrufe in 4G-Netzen. Stellen Sie sicher, dass die Netzwerke, an die Ihr Gerät angeschlossen ist, diese Funktionalität unterstützen. VoLTE-Dienste werden von Ihrem Mobilfunkanbieter angeboten. Wenden Sie sich an Ihren lokalen Mobilfunkanbieter, um zu erfahren, ob VoLTE in Ihrer Region nicht unterstützt wird.\n\nWenn Sie _ in Ihrer Statusleiste sehen, sind VoLTE-Anrufe nicht verfügbar. Wenn Sie keine Anrufe tätigen oder entgegennehmen können oder Ihre Anrufe unterbrochen sind, stellen Sie sicher, dass Ihr Netzwerk mit VoLTE kompatibel ist.\n\nDieses Gerät hat keine Hörmuschel. Sie können in den Freisprechmodus wechseln oder über Kopfhörer telefonieren."</string>
+  <string name="voice_service_warning_dialog_body">Dieses Gerät unterstützt VoLTE-Anrufe in 4G-Netzen. Stellen Sie sicher, dass die Netzwerke, an die Ihr Gerät angeschlossen ist, diese Funktionalität unterstützen. VoLTE-Dienste werden von Ihrem Mobilfunkanbieter angeboten. Wenden Sie sich an Ihren lokalen Mobilfunkanbieter, um zu erfahren, ob VoLTE in Ihrer Region nicht unterstützt wird.\n\nWenn Sie _ in Ihrer Statusleiste sehen, sind VoLTE-Anrufe nicht verfügbar. Wenn Sie keine Anrufe tätigen oder entgegennehmen können oder Ihre Anrufe unterbrochen sind, stellen Sie sicher, dass Ihr Netzwerk mit VoLTE kompatibel ist.\n\nDieses Gerät hat keine Hörmuschel. Sie können in den Freisprechmodus wechseln oder über Kopfhörer telefonieren.</string>
   <string name="voice_service_warning_dialog_cancel">Abbrechen</string>
   <string name="voice_service_warning_dialog_ok">Fertig</string>
   <string name="voice_service_warning_dialog_ok_timer">Fertig (%d)</string>
@@ -2616,6 +2620,8 @@ Wenn Sie sich für Mobilfunknetze entscheiden, werden diese standardmäßig für
   <string name="wifi_hand_sel_wapi_cert">WAPI-Zertifikat</string>
   <string name="wifi_limited_connection">Eingeschränkte Verbindung</string>
   <string name="wifi_metered_label">Gemessen</string>
+  <string name="wifi_new_network_auto_connection">SSID Bridging ‑ Auto-Verbindung</string>
+  <string name="wifi_new_network_auto_connection_summary">Autom. Verbindungsversuche zu einer neuen WPA/WPA2‑PSK 5GHz SSID mit aktuell verbundenen WPA/WPA2‑PSK 2GHz SSID-Anmeldeinformationen bei teilweiser Übereinstimmung von SSID und BSSID aktivieren</string>
   <string name="wifi_no_internet">Kein Internetzugang</string>
   <string name="wifi_no_internet_no_reconnect">Keine automatische Verbindung</string>
   <string name="wifi_not_in_range">Nicht in Reichweite</string>
@@ -2644,10 +2650,11 @@ Bitte Gültigkeit der Zertifikate prüfen."</string>
 Speicherung von Anmeldedaten ist möglicherweise nicht möglich."</string>
   <string name="wifi_wapi_psk_type">Passworttyp</string>
   <string name="wifi_wapi_user_certificate">Benutzerzertifikat</string>
+  <string name="wifi_whitelist_roaming_summary">Roaming zwischen verschiedenen SSID-WPA/WPA2-PSK-APs mit derselben Gateway-MAC-Adresse aktivieren</string>
   <string name="wificall_switch_summary">Verwenden Sie WLAN, um nach Möglichkeit Anrufe zu tätigen und zu empfangen</string>
   <string name="wificall_switch_title">Über WLAN telefonieren</string>
   <string name="wild_prompt_str">Platzhalter ersetzen mit</string>
-  <string name="window_animation_scale_title">Fensteranimationsskala</string>
+  <string name="window_animation_scale_title">Fensteranimation</string>
   <string name="wrong_password">Eingegebenes Passwort ist falsch</string>
   <string name="xdivert_summary">CFNRc-Einstellungen</string>
   <string name="xdivert_title">Rufumleitung</string>

@@ -33,6 +33,7 @@
   <string name="audio_spk_cal_wait">Bitte kalibrieren…</string>
   <string name="audio_spk_def">Bitte Lautsprecher kalibrieren</string>
   <string name="back_mic_check_record_tip">Aufnahme, bitte sprechen Sie ins Mikrofon auf der Rückseite des Telefons.</string>
+  <string name="battery_authentic">Akku authentisch</string>
   <string name="battery_dual_connector">Zweiter Akku-Anschluss</string>
   <string name="baterry_percent">"Höhe der Akkuladung: "</string>
   <string name="baterry_temperature">"Akkutemperatur: "</string>
@@ -73,6 +74,7 @@ Ende Ladegerättest, bitte das Ladegerät herausziehen"</string>
   <string name="cit_OTG_waiting_in">USB OTG-Gerät jetzt anschließen</string>
   <string name="cit_OTG_waiting_in_charge">USB OTG-Gerät jetzt verbinden</string>
   <string name="cit_OTG_waiting_out">USB OTG-Gerät jetzt trennen und bei USB Typ C umgedreht wieder einstecken</string>
+  <string name="cit_OTG_waiting_out_end">Bitte USB_OTG-Gerät anstecken, Test beenden</string>
   <string name="cit_Reserse_charge_check_title">Umkehrladungstest</string>
   <string name="cit_abnormal_reboot_summary">Lesen von Stabilitätsdaten, bitte warten…</string>
   <string name="cit_abnormal_reboot_title">Gerätestabilitätsdaten</string>
@@ -81,9 +83,13 @@ Ende Ladegerättest, bitte das Ladegerät herausziehen"</string>
   <string name="cit_accdata_second_sensor_check_title">Zweiter Beschleunigungssensor</string>
   <string name="cit_accdata_sensor_check_summary">Werte für X/Y/Z-Koordinaten sollten unten stehen</string>
   <string name="cit_accdata_sensor_check_title">Beschleunigungsmesser</string>
+  <string name="cit_accdata_sensor_second_screen_check_title">Zweiter Bildschirm Beschleunigungssensor</string>
+  <string name="cit_accelermeter_sensor_cali_title">Kalibrierungstest Beschleunigungssensor</string>
   <string name="cit_accelermeter_sensor_check_summary">"Bewegen Sie das Telefon schnell in eine Richtung. X/Y/Z-Koordinatenwerte werden unten angezeigt (wenn das Telefon in Bewegung ist: X steht für links/rechts, Y für vorn/hinten, Z für oben/unten).
 Bevor Sie das Telefon kalibrieren, legen Sie es auf eine ebene Fläche."</string>
   <string name="cit_accelermeter_sensor_check_title">Beschleunigungsmesser</string>
+  <string name="cit_action_off">Aus</string>
+  <string name="cit_action_on">An</string>
   <string name="cit_analog_headset_plug_hint">Analoge Kopfhörer jetzt anschließen</string>
   <string name="cit_apk_signature_failed">apk-Signatur FEHLGESCHLAGEN</string>
   <string name="cit_apk_signature_passed">apk-Signatur BESTANDEN</string>
@@ -162,6 +168,7 @@ Halten Sie das Telefon so, als ob Sie einen Anruf entgegennehmen, sprechen Sie i
   <string name="cit_battery_check_title">Akkuinfo</string>
   <string name="cit_battery_temp_fail">Akkutemperatur ist nicht normal (Wert=%d)</string>
   <string name="cit_battery_temp_pass">Akkutemperatur ist normal</string>
+  <string name="cit_batterylight">Akku-LED</string>
   <string name="cit_batterylight_blue">Blau</string>
   <string name="cit_batterylight_green">Grün</string>
   <string name="cit_batterylight_red">Rot</string>
@@ -190,14 +197,25 @@ Halten Sie das Telefon so, als ob Sie einen Anruf entgegennehmen, sprechen Sie i
   <string name="cit_button_light_on">Beleuchtete Tasten AN</string>
   <string name="cit_calibration_fail">Kalibrierung fehlgeschlagen</string>
   <string name="cit_calibration_pass">Kalibrierung bestanden</string>
+  <string name="cit_camera_cali_title">Kamera-Kalibrierungstest</string>
   <string name="cit_camera_calibration_summary">"Testanleitung:
 
 1. Unten auf Kalibrierung tippen, um die OIS-Kalibrierung zu starten.
 2. Mit Kalibrierung erfolgreich wird angezeigt, dass OIS kalibriert wurde."</string>
+  <string name="cit_camera_check_summary">"Testanweisungen:
+
+1. Tippen Sie auf die Schaltfläche Kamera unten, um die Frontkamera-Oberfläche aufzurufen.
+2. Tippen Sie auf die Auslösetaste.
+3. Das System speichert das Foto nach der Aufnahme automatisch.
+4. Das aufgenommene Foto muss auf dem Bildschirm angezeigt werden. Tippen Sie auf \"Bestanden\", um den Test abzuschließen."</string>
+  <string name="cit_camera_deleted">Foto gelöscht</string>
+  <string name="cit_camera_deleted_failed">Foto löschen fehlgeschlagen</string>
   <string name="cit_camera_fast_check_title">Kameraschnelltest</string>
+  <string name="cit_camera_flash_adjust">Blitz einstellen</string>
   <string name="cit_camera_rearsub">Test rückwärtige Sekundärkamera läuft, bitte warten…</string>
   <string name="cit_camera_sdcard_error">Fotografieren nicht möglich, SD-Karte ist voll</string>
   <string name="cit_camerasfr_test">Bild wird geparst, bitte warten…</string>
+  <string name="cit_capture_fail">Bildaufnahme fehlgeschlagen</string>
   <string name="cit_charge_usb_dcp">Aufladen： USB_DCP</string>
   <string name="cit_charge_usb_hvdcp">Aufladen： USB_HVDCP</string>
   <string name="cit_charge_usb_pd">Aufladen： USB_PD</string>
@@ -225,12 +243,18 @@ Halten Sie das Telefon so, als ob Sie einen Anruf entgegennehmen, sprechen Sie i
   <string name="cit_diag_jank_title">Jank-Logger lesen</string>
   <string name="cit_diag_signal_summary">Signalstabilitäts-Logger-Dateien auf SD-Karte kopieren</string>
   <string name="cit_diag_signal_title">Signalstabilitäts-Logger auslesen</string>
+  <string name="cit_diag_wait">Bitte warten… Dateien kopieren</string>
   <string name="cit_dial_emergencycall">112 wählen</string>
   <string name="cit_display_check_summary">Stellen Sie sicher, dass die Farben über den gesamten Bildschirm gleichmäßig dargestellt werden. Achten Sie darauf, dass es keine unregelmäßigen hellen und dunklen Flecken gibt.</string>
   <string name="cit_display_check_title">Anzeige</string>
   <string name="cit_display_continue">Bildschrim berühren, um den Test zu starten</string>
+  <string name="cit_display_expand_screen_tips">Bitte erweitern Sie den Bildschirm vor dem Testen</string>
+  <string name="cit_display_fold_screen_tips">Bitte falten Sie den Bildschirm vor dem Testen</string>
   <string name="cit_display_test_end">Test beendet</string>
   <string name="cit_display_test_next">Weiter</string>
+  <string name="cit_earpiece">Empfänger</string>
+  <string name="cit_earpiece_summary">"Sie hören zwei zufällige Zahlen.
+Bitte klicken Sie auf die entsprechende Taste, je nachdem, welche Nummer Sie hören."</string>
   <string name="cit_emergencycall_check_summary">Bitte auf Schaltfläche 112 wählen tippen, um zu prüfen, ob 112 gesetzt werden kann.</string>
   <string name="cit_emergencycall_check_title">Notruf</string>
   <string name="cit_exit_test_summary">Beim Beenden werden alle zugehörigen Textdaten gelöscht</string>
@@ -253,23 +277,19 @@ Halten Sie das Telefon so, als ob Sie einen Anruf entgegennehmen, sprechen Sie i
   <string name="cit_flash_life_check_title">Blitzlebensdauer</string>
   <string name="cit_flicker_sensor_check_summary">Flicker-Werte sollten unten stehen</string>
   <string name="cit_flicker_sensor_check_title">Flicker-Sensor</string>
+  <string name="cit_flip_board_bottom_speaker_test_title">Unterer Lautsprechertest auf Flip Board</string>
+  <string name="cit_flip_board_top_speaker_test_title">Oberer Lautsprechertest auf Flip Board</string>
   <string name="cit_fm_audio_path">Audiopfad konfigurieren</string>
   <string name="cit_fm_audio_path_headset">Kopfhörer</string>
   <string name="cit_fm_audio_path_speaker">Lautsprecher</string>
   <string name="cit_fm_check_summary">Damit wird die FM-Funktion des Telefons getestet.</string>
   <string name="cit_fm_close">FM beenden</string>
   <string name="cit_fm_not_supported">Dieses Gerät unterstützt kein FM.</string>
-  <string name="cit_fm_open_1">Starte FM - 88.5</string>
-  <string name="cit_fm_open_2">Starte FM - 107.9</string>
+  <string name="cit_fm_open_1">FM - 88.5 starten</string>
+  <string name="cit_fm_open_2">FM - 107.9 starten</string>
   <string name="cit_fm_open_bluetooth">Bluetooth öffnen…</string>
-  <string name="cit_fm_start_service">Starte Audio</string>
-  <string name="cit_front_camera_motor_cali_fail">Motorkalibrierung fehlgeschlagen</string>
-  <string name="cit_front_camera_motor_cali_success">Motorkalibrierung erfolgreich</string>
-  <string name="cit_front_camera_motor_cali_tips">Kamera nicht während des Kalibrierungsprozesses des Popup-Kameramotors bockieren</string>
-  <string name="cit_front_dual_camera_check_summary_no_zoom">"Der Testablauf ist wie folgt:
-
-1. Öffnen Sie die Kamera automatisch, um in die Vorschauoberfläche zu gelangen.
-2. Warten Sie auf das Ende der Vorschau und kehren Sie automatisch zurück."</string>
+  <string name="cit_fm_start_service">Audio starten</string>
+  <string name="cit_fp_fod_cali_title">FOD-Fingerabdruck-Kalibrierung</string>
   <string name="cit_fpc_checkerboard_test">SCHACHBRETT-TEST</string>
   <string name="cit_fpc_selftest">SELBSTTEST</string>
   <string name="cit_fpc_sensor_check_summary">FPC-Sensortest, drücken Sie die Taste und warten Sie, bis die grün markierte Bestanden-Info korrekt ist.</string>
@@ -283,8 +303,17 @@ Halten Sie das Telefon so, als ob Sie einen Anruf entgegennehmen, sprechen Sie i
 3. Auf das Prüfen-Symbol tippen. Das System speichert das Foto automatisch.
 4. Das von Ihnen aufgenommene Foto sollte unten angezeigt werden. Tippen, um den Test abzuschließen."</string>
   <string name="cit_front_camera_check_title">Frontkameratest</string>
-  <string name="cit_front_rear_dual_camera_check_title">Doppelkameratest vorn</string>
-  <string name="cit_front_rear_sub_camera_check_title">Nebenkameratest vorn</string>
+  <string name="cit_front_camera_motor_cali_fail">Motorkalibrierung fehlgeschlagen</string>
+  <string name="cit_front_camera_motor_cali_success">Motorkalibrierung erfolgreich</string>
+  <string name="cit_front_camera_motor_cali_tips">Kamera nicht während des Kalibrierungsprozesses des Popup-Kameramotors bockieren</string>
+  <string name="cit_front_dual_camera_check_summary_no_zoom">"Der Testablauf ist wie folgt:
+
+1. Öffnen Sie die Kamera automatisch, um in die Vorschauoberfläche zu gelangen.
+2. Warten Sie auf das Ende der Vorschau und kehren Sie automatisch zurück."</string>
+  <string name="cit_front_dual_camera_check_title">Front-Bokeh-Kamera</string>
+  <string name="cit_front_rear_dual_camera_check_title">Bokeh-Kamera vorne</string>
+  <string name="cit_front_rear_sub_camera_check_title">Hilfskamera vorne</string>
+  <string name="cit_front_sub_camera_check_title">Front-Hilfskamera</string>
   <string name="cit_get_signature_failed">Signatur erhalten FEHLGESCHLAGEN</string>
   <string name="cit_goodix_sensor_check_summary">Goodix-Sensortest, drücken Sie die Taste und warten Sie, bis die grün markierte Bestanden-Info korrekt ist.</string>
   <string name="cit_goodix_sensor_check_title">Goodix Fingerabdrucksensor</string>
@@ -298,6 +327,8 @@ Berühren Sie den Bildschirm, um GPS zu starten…"</string>
   <string name="cit_gyrodata_second_sensor_check_title">Zweites Gyroskop</string>
   <string name="cit_gyrodata_sensor_check_summary">Werte für X/Y/Z-Koordinaten sollten unten stehen</string>
   <string name="cit_gyrodata_sensor_check_title">Gyroskop</string>
+  <string name="cit_gyrodata_sensor_second_screen_check_title">Zweiter Bildschirm Gyroskop</string>
+  <string name="cit_gyroscope_sensor_cali_title">Gyroskopsensor-Kalibrierungstest</string>
   <string name="cit_gyroscope_sensor_check_summary">Werte für X/Y/Z-Koordinaten sollten unten stehen</string>
   <string name="cit_gyroscope_sensor_check_title">Gyroskop</string>
   <string name="cit_hall_far">entfernt</string>
@@ -321,6 +352,7 @@ Berühren Sie den Bildschirm, um GPS zu starten…"</string>
   <string name="cit_headset_button_reverse">Bitte stecken Sie das USB-Headset umgekehrt ein</string>
   <string name="cit_headset_button_rewind">Zurückspulen</string>
   <string name="cit_headset_button_unknown">Unbekannt</string>
+  <string name="cit_headset_left_hph_val">Impedanzwert linker Kanal:</string>
   <string name="cit_headset_loopback_check_summary">Während Sie die Kopfhörer tragen, schließen Sie sie an das Telefon an. Sprechen Sie in das Kopfhörermikrofon (oft am Kabel). Sie sollten Ihre Stimme in den Lautsprechern des Kopfhörers hören.</string>
   <string name="cit_headset_loopback_check_title">Kopfhörer-Mikrofon-Rückkopplungstest</string>
   <string name="cit_headset_plug_detect_summary">Wenn Kopfhörer angeschlossen sind, sollte der Text \"Kopfhörer erkannt\" unten angezeigt werden</string>
@@ -332,6 +364,7 @@ Berühren Sie den Bildschirm, um GPS zu starten…"</string>
   <string name="cit_headset_pull_finish">Kopfhörer wurden getrennt</string>
   <string name="cit_headset_pull_finish_test">Kopfhörer wurden getrennt, Test abgeschlossen</string>
   <string name="cit_headset_pull_hint">Kopfhörer jetzt trennen</string>
+  <string name="cit_headset_right_hph_val">Impedanzwert rechter Kanal:</string>
   <string name="cit_hide_menu">Menü verbergen</string>
   <string name="cit_hvdcp_charger_in">Laden über (USB_HVDCP)</string>
   <string name="cit_init_fp_fod_test_tip">Init-Fingerabdruck-Testumgebung</string>
@@ -352,13 +385,17 @@ Berühren Sie den Bildschirm, um GPS zu starten…"</string>
   <string name="cit_led_check_charge_light">Lade-LED</string>
   <string name="cit_led_check_first_flash_light">Erste Blitz-LED</string>
   <string name="cit_led_check_second_flash_light">Zweite Blitz-LED</string>
+  <string name="cit_led_selected">Aktuell ausgewählt:</string>
   <string name="cit_leds_check_summary">Hintergrundbeleuchtung, Benachrichtigungslicht und Blitzlicht (hinten) sollten reagieren, wenn die entsprechende Taste gedrückt wird.</string>
   <string name="cit_leds_check_title">Benachrichtigungslicht (LED)</string>
   <string name="cit_light_sensor_check_summary">DAC-Wert sollte unten stehen</string>
   <string name="cit_light_sensor_check_title">Lichtsensor</string>
   <string name="cit_macro_camera_check_title">Makrokameratest</string>
+  <string name="cit_magnetic_info_hint">Bitte rotieren  Sie das Gerät in Form einer 8</string>
   <string name="cit_magnetic_sensor_check_summary">Werte für X/Y/Z-Koordinaten sollten unten stehen</string>
   <string name="cit_magnetic_sensor_check_title">Magnetsensor</string>
+  <string name="cit_main_board_bottom_speaker_test_title">Unterer Lautsprechertest auf der Hauptplatine</string>
+  <string name="cit_main_board_top_speaker_test_title">Oberer Lautsprechertest auf der Hauptplatine</string>
   <string name="cit_main_camera_check_summary">"Testanleitung:
 
 1. Auf die Kamerataste tippen, um die hintere Kamera aufzurufen.
@@ -394,13 +431,14 @@ Berühren Sie den Bildschirm, um GPS zu starten…"</string>
   <string name="cit_proximity_data_check_summary">"Infrarot-Näherungssensor: Decken Sie den Telefon-Näherungssensor mit der Hand ab, und dann lassen Sie den Näherungssensor los.
  Ultraschall-Näherungssensor: Bitte simulieren Sie das Abheben des Telefons, um den Anruf zu beantworten.
  Wenn der untere Testbereich bei der Annäherung einen Wert von 0,0 und bei Entfernung einen Wert von 5,0 anzeigt, ist der Test erfolgreich. Andernfalls schlägt der Test fehl."</string>
+  <string name="cit_proximity_sensor_cali_title">Kalibrierungstest Näherungssensor</string>
   <string name="cit_proximity_sensor_check_summary">"Bedecken Sie den Näherungssensor (oben am Telefon in der Nähe des Empfängers) mit Ihrer Hand und bewegen Sie dann Ihre Hand weg. Der Wert sollte sich von 0,0 erhöhen, wenn Sie Ihre Hand weiter vom Telefon weg bewegen.
 Achten Sie beim Kalibrieren darauf, dass sich nichts zwischen dem Sensor und Ihrer Hand befindet (z. B. Bildschirmschutzabdeckung oder Handschuhe)."</string>
   <string name="cit_proximity_sensor_check_title">Näherungssensor</string>
   <string name="cit_proximity_us_sensitivity">Empfindlichkeit:</string>
   <string name="cit_proximity_us_summary">Ultraschall-Näherungssensor-Kalibrierung</string>
-  <string name="cit_rear_dual_camera_check_title">Doppelkameratest hinten (Dual-Kamera)</string>
-  <string name="cit_rear_dual_second_camera_check_title">Doppelauslösetest hinten (Dual-Nebenkamera)</string>
+  <string name="cit_rear_dual_camera_check_title">Bokeh-Kamera</string>
+  <string name="cit_rear_dual_second_camera_check_title">Bokeh2-Kamera</string>
   <string name="cit_rear_dual_third_camera_check_title">Bokeh3-Kamera</string>
   <string name="cit_rear_sub_camera_check_summary">"Testanleitung:
 
@@ -420,10 +458,12 @@ Achten Sie beim Kalibrieren darauf, dass sich nichts zwischen dem Sensor und Ihr
   <string name="cit_reset_se_nfc_closed">Fehlgeschlagen: NFC muss aktiviert sein.</string>
   <string name="cit_reset_se_start">eSE zurücksetzen…</string>
   <string name="cit_reverse_charge_check_summary">OTG einstecken, um Telefon zu laden</string>
+  <string name="cit_reverse_wireless_charge_check_tips">Bitte legen Sie das Telefon und das zu ladende Gerät wie gewünscht ein und starten Sie den Test</string>
   <string name="cit_rgb_check_blue_light">RGB blau</string>
   <string name="cit_rgb_check_green_light">RGB grün</string>
   <string name="cit_rgb_check_red_light">RGB rot</string>
   <string name="cit_sar_sensor_check_summary">Werte für SAR-Sensor-Kanäle sollten unten erscheinen. Taste des Telefons abdecken. Wenn die Daten sich verändert haben, ist die Funktion gut. Keine Kalibrierung mit eingestecktem USB-Kabel durchführen!</string>
+  <string name="cit_sar_sensor_collect_cali_description">SAR-Sensor kalibrieren und Daten sammeln</string>
   <string name="cit_sd_fail">Ein Fehler ist aufgetreten</string>
   <string name="cit_sd_mount">SD-Karte einhängen</string>
   <string name="cit_sd_mount_sucess">SD-Karte eingehängt</string>
@@ -437,6 +477,8 @@ Nachdem Sie \"music.mp3\" in das Verzeichnis der SD-Karte gelegt haben, zum Absp
   <string name="cit_sd_plugout_check_title">SD-Karte (entfernen)</string>
   <string name="cit_sd_unmount">SD-Karte aushängen</string>
   <string name="cit_sd_unmount_sucess">SD-Karte ausgehängt</string>
+  <string name="cit_second_screen_accelermeter_sensor_cali_title">Zweiter Bildschirm Kalibrierungstest Beschleunigungssensor</string>
+  <string name="cit_second_screen_gyroscope_sensor_cali_title">Zweiter Bildschirm Gyroskopsensor-Kalibrierungstest</string>
   <string name="cit_signature_check_label">Signaturprüfung:</string>
   <string name="cit_sim_check_summary">Vergewissern Sie sich, dass der Status und die Informationen der NFC-SIM-Karte korrekt angezeigt werden, nur zwei NFC-SIM-Karten gleichzeitig vorhanden sind und bei korrektem Status ist es bestanden.</string>
   <string name="cit_sim_check_title">SIM-Karte</string>
@@ -457,16 +499,25 @@ Nachdem Sie \"music.mp3\" in das Verzeichnis der SD-Karte gelegt haben, zum Absp
   <string name="cit_slider_hall_miui_test_summary">Schieben Sie das Telefon einmal komplett nach oben und dann nach unten.</string>
   <string name="cit_slider_hall_test_summary">Schieben Sie das Telefon einmal komplett nach oben und dann nach unten.</string>
   <string name="cit_soft_torch">Vordere Soft-Blitz-LED</string>
+  <string name="cit_soft_torch_first">Der erste Softblitz</string>
   <string name="cit_soft_torch_off">Softblitzlicht ausschalten</string>
   <string name="cit_soft_torch_on">Softblitzlicht einschalten</string>
+  <string name="cit_soft_torch_second">Der zweite Softblitz</string>
   <string name="cit_splash_check_summary">Stellen Sie sicher, dass das Phänomen des schwarzen Bildschirms mehr als 5 Sekunden andauert.</string>
   <string name="cit_start_calibration">Kalibrieren</string>
   <string name="cit_stop_calibration">Kalibrieren stoppen</string>
+  <string name="cit_sub_display_check_title">Sub-Display</string>
+  <string name="cit_sub_touch_panel_test_title">Sub-Berührungssensor</string>
   <string name="cit_tele_camera_check_title">Tele-Kamera</string>
+  <string name="cit_test_results">Verlauf Testergebnis</string>
+  <string name="cit_tfcard_available_szie">Verfügbare Größe</string>
+  <string name="cit_tfcard_mounted">SD-Karte erkennen</string>
   <string name="cit_tfcard_no_support">TF-Karte wird auf diesem Gerät nicht unterstützt</string>
   <string name="cit_tfcard_support">TF-Karte wird auf diesem Gerät unterstützt</string>
   <string name="cit_tfcard_support_summary">Prüfen Sie, ob die TF-Karte auf dem Telefon unterstützt wird</string>
   <string name="cit_tfcard_support_title">TF-Karte unterstützen</string>
+  <string name="cit_tfcard_total_size">Gesamtgröße</string>
+  <string name="cit_tfcard_unmounted">SD-Karte nicht verfügbar</string>
   <string name="cit_thermal_history_summary">Temperaturdaten des Telefons auslesen, bitte warten…</string>
   <string name="cit_thermal_history_title">Temperaturverlauf</string>
   <string name="cit_tof_sensor_check_summary">Werte für TOF sollten wie folgt aussehen</string>
@@ -488,11 +539,14 @@ Nachdem Sie \"music.mp3\" in das Verzeichnis der SD-Karte gelegt haben, zum Absp
   <string name="cit_tool_bluetooth_enhanced">Erweiterten Bluetooth-Test aufrufen</string>
   <string name="cit_tool_bluetooth_le_enhanced_run">STARTEN</string>
   <string name="cit_tool_bluetooth_le_enhanced_run_trigger">Auslösen</string>
+  <string name="cit_tool_bluetooth_le_power_run">STARTEN</string>
   <string name="cit_tool_bluetooth_le_rx_4x_channel">Kanal:</string>
   <string name="cit_tool_bluetooth_le_rx_50_channel">Kanal:</string>
   <string name="cit_tool_bluetooth_not_on">Bluetooth ist NICHT aktiviert</string>
   <string name="cit_tool_bluetooth_off">Bluetooth deaktivieren</string>
   <string name="cit_tool_bluetooth_on">Bluetooth aktivieren</string>
+  <string name="cit_tool_bluetooth_rx_count_error">Ausgabewert ist keine Zahl</string>
+  <string name="cit_tool_bluetooth_rx_error">Beim Ausführen des Programms ist ein Fehler aufgetreten</string>
   <string name="cit_tool_bluetooth_tx_chain">Antenne:</string>
   <string name="cit_tool_bluetooth_tx_channel">Kanal:</string>
   <string name="cit_tool_cal_accelerometer">Beschleunigungssensor-Kalibrierungstool</string>
@@ -561,11 +615,14 @@ Die zweite Zeile zeigt den Namen und die Versionsnummer des Standard-MBN und des
   <string name="cit_tool_modem_test_mode_select">Testmodus auswählen:</string>
   <string name="cit_tool_modem_test_mode_set">Einstellung bestätigen</string>
   <string name="cit_tool_modem_test_set">bestätigen</string>
+  <string name="cit_tool_modem_test_title">MODEM Test-Tool</string>
   <string name="cit_tool_modem_test_will_set">Wird den Testmodus öffnen und den DUT neu starten</string>
+  <string name="cit_tool_modem_tool_move_notify">Dieses Tool wurde nach MTB verschoben, Sie können es mit diesem Geheimcode erhalten: *#*#663368378#*#*</string>
   <string name="cit_tool_nfc">NFC Testtools</string>
   <string name="cit_tool_nfc_ce_disable">Ce deaktivieren</string>
   <string name="cit_tool_nfc_ce_enable">Ce aktivieren</string>
   <string name="cit_tool_nfc_st_run">Starten</string>
+  <string name="cit_tool_nfc_test_title">NFC Test-Tool</string>
   <string name="cit_tool_no_repeat">Keine Wiederholung!</string>
   <string name="cit_tool_not_support">Nicht unterstützt</string>
   <string name="cit_tool_opt_fail_info_notify">Opt fehlgeschlagen, bitte Telefon neustarten, um es erneut zu versuchen.</string>
@@ -601,9 +658,28 @@ Die zweite Zeile zeigt den Namen und die Versionsnummer des Standard-MBN und des
   <string name="cit_tool_wifi_tx_n_chan">Kanal:</string>
   <string name="cit_tool_wifi_tx_st_chan">Kanal:</string>
   <string name="cit_tool_wifi_txrx_chain_selection">Antenne wählen</string>
+  <string name="cit_tool_wlan">WLAN Test-Tool</string>
+  <string name="cit_tool_wlan_rx_count_error">Ausgabewert ist keine Zahl</string>
+  <string name="cit_tool_wlan_rx_error">Beim Ausführen des Programms ist ein Fehler aufgetreten</string>
+  <string name="cit_tool_wlan_rxbg_test_channel">Channel:</string>
+  <string name="cit_tool_wlan_rxn_test_bw">Bandbreite:</string>
+  <string name="cit_tool_wlan_rxn_test_channel">Channel:</string>
+  <string name="cit_tool_wlan_sniffer">WLAN Sniffer-Tool</string>
+  <string name="cit_tool_wlan_sniffer_settings">Sniffer-Einstellungen</string>
+  <string name="cit_tool_wlan_sniffer_test_title">WLAN Sniffer-Test-Tool</string>
+  <string name="cit_tool_wlan_test_title">WLAN Test-Tool</string>
+  <string name="cit_tool_wlan_tx_ax_gI">Wächterintervall:</string>
+  <string name="cit_tool_wlan_tx_bg_chan">Channel:</string>
+  <string name="cit_tool_wlan_tx_n_bandwidth">Bandbreite:</string>
+  <string name="cit_tool_wlan_tx_n_chan">Channel:</string>
+  <string name="cit_tool_wlan_tx_st_chan">Channel:</string>
+  <string name="cit_tool_wlan_txrx_chain_selection">Antenne auswählen</string>
+  <string name="cit_torch">Blitz</string>
+  <string name="cit_torch_first">Der erste Blitz</string>
   <string name="cit_torch_modify">Blitzlicht modifizieren</string>
   <string name="cit_torch_off">Blitzlicht ausschalten</string>
   <string name="cit_torch_on">Blitzlicht einschalten</string>
+  <string name="cit_torch_second">Der zweite Blitz</string>
   <string name="cit_touch_calib_fail">Touch-Kalibrierung fehlgeschlagen, bitte erneut versuchen</string>
   <string name="cit_touch_calib_instruction">Kalibrierung starten</string>
   <string name="cit_touch_calib_pass">Touch-Kalibrierung bestanden, bitte normal verwenden</string>
@@ -634,6 +710,7 @@ Test fehlgeschlagen!"</string>
   <string name="cit_vga_camera_capture_fail">Fotografieren fehlgeschlagen</string>
   <string name="cit_vga_camera_delete">Löschen</string>
   <string name="cit_vga_camera_deleted">Foto gelöscht</string>
+  <string name="cit_vibrator_check">Vibratortest</string>
   <string name="cit_vibrator_check_summary">Prüfen Sie, ob die Vibration (lang und kurz) normal funktioniert</string>
   <string name="cit_vibrator_haptic">Haptik</string>
   <string name="cit_vibrator_load_down_pattern">Muster nach unten</string>
@@ -641,6 +718,8 @@ Test fehlgeschlagen!"</string>
   <string name="cit_vibrator_long">Lange Vibration</string>
   <string name="cit_vibrator_short">Kurze Vibration</string>
   <string name="cit_vibrator_show_advanced">Erweiterte Optionen anzeigen</string>
+  <string name="cit_vice_display_check_title">Stellvertreter-Anzeige</string>
+  <string name="cit_vice_touch_panel_test_title">Stellvertreter-Berührungssensor</string>
   <string name="cit_voc_data_humidity">Luftfeuchtigkeit</string>
   <string name="cit_voc_data_pressure">Druck</string>
   <string name="cit_voc_data_sensor_check_summary">Werte für VOC, Temperatur, Luftfeuchtigkeit, Druck sollten unten stehen</string>
@@ -653,6 +732,7 @@ Test fehlgeschlagen!"</string>
   <string name="cit_wifi_ap_scanning">Scannen…</string>
   <string name="cit_wifi_fail_to_scan">Nach Netzwerken scannen nicht möglich</string>
   <string name="cit_wifi_state_refresh">Aktualisieren</string>
+  <string name="cit_x_tele_camera_check_title">Super-Telekamera</string>
   <string name="cit_yellow_torch_on">Gelbes Blinklicht einschalten</string>
   <string name="close_third_color_led">Dreifarbige LED schließen</string>
   <string name="continue_vibrator">Mit Vibration fortfahren</string>
@@ -703,6 +783,7 @@ Test erfolgreich, bitte auf die Taste Bestanden tippen."</string>
   <string name="front_mic_check_record_tip">Aufnahme, bitte sprechen Sie ins Mikrofon auf der Vorderseite des Telefons.</string>
   <string name="get_base_finger">Bild entpacken: Basisfinger erhalten</string>
   <string name="get_finger_data">Bild entpacken: Abtastung der Fingerdaten</string>
+  <string name="get_dsi_tips">DSI erhalten</string>
   <string name="get_sample_finger">Bild entpacken: Musterfinger erhalten</string>
   <string name="get_sensor_info">SENSORINFO ERFASSEN</string>
   <string name="get_template_finger">Bild entpacken: Vorlagenfinger erhalten</string>
@@ -714,6 +795,7 @@ Test erfolgreich, bitte auf die Taste Bestanden tippen."</string>
   <string name="headset_press">Drücken</string>
   <string name="headset_record">Aufnahme, bitte sprechen Sie ins Headset, und die Aufnahme wird innerhalb von 3 Sekunden gestoppt.</string>
   <string name="headset_test">Dadurch werden das Einstecken des Headsets, das Herausziehen, das Headset-Mikrofon und die Headset-Taste getestet, und alle Tests werden erfolgreich sein.</string>
+  <string name="headset_test_tips">Damit werden das Einstecken und Herausziehen des Headsets, das Headset-Mikro und die Headset-Taste getestet, und alle Tests sind erfolgreich.</string>
   <string name="headset_unplug_check_tip">Bitte stecken Sie das Headset ein.</string>
   <string name="headset_unplug_tip">Bitte stecken Sie das Headset ein.</string>
   <string name="hello_world">Hallo Welt!</string>
@@ -881,6 +963,7 @@ Nach erfolgreicher Kalibrierung die Halterung in der Nähe des Telefons und weit
   <string name="sensor_information">Sensorinformation</string>
   <string name="set_dsi_tips">DSI festlegen</string>
   <string name="show_log">Protokoll anzeigen</string>
+  <string name="slave_battery_authentic">Zweitakku authentisch</string>
   <string name="sound_file_delete">Sounddatei ist nicht beendet, kann nicht abgespielt werden!</string>
   <string name="speak_from_mic">Ins Mikrofon sprechen, der Lautsprecher gibt es wieder. Beurteilen Sie, ob es Geräusche gibt.</string>
   <string name="start">Starten</string>
