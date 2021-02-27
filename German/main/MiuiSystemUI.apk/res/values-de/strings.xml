@@ -513,6 +513,8 @@ In %d Sekunden erneut versuchen."</string>
   <string name="bluetooth_hearingaid_right_pairing_message">Rechtes Hörgerät koppeln…</string>
   <string name="bluetooth_hid_profile_summary_connected">Mit Eingabegerät verbunden</string>
   <string name="bluetooth_hid_profile_summary_use_for">Für Eingabe verwenden</string>
+  <string name="bluetooth_le_audio_profile_summary_connected">Verbunden mit LE_AUDIO</string>
+  <string name="bluetooth_le_audio_profile_summary_use_for">Für LE_AUDIO verwenden</string>
   <string name="bluetooth_map_profile_summary_connected">Mit Karte verbunden</string>
   <string name="bluetooth_map_profile_summary_use_for">Für Karte verwenden</string>
   <string name="bluetooth_opp_profile_summary_connected">Mit Dateiserver verbunden</string>
@@ -681,6 +683,7 @@ Abtastrate"</string>
   <string name="connected_via_passpoint">Verbunden via %1$s</string>
   <string name="connected_via_wfa">Verbunden via WLAN-Assistent</string>
   <string name="content_description_menu_button">Menü</string>
+  <string name="control_center_notification_switch_guide">Wischen, um zwischen Kontrollzentrum und Benachrichtigungsleiste zu wechseln</string>
   <string name="controls_added_tooltip">Einschalttaste gedrückt halten, um neue Steuerungen zu sehen</string>
   <string name="controls_confirmation_confirming">Bestätigen…</string>
   <string name="controls_confirmation_message">Änderung für %s bestätigen</string>
@@ -1003,7 +1006,7 @@ innerhalb des Kreises befindet"</string>
   <string name="force_resizable_activities_summary">Größenänderung von Aktivitäten für Multifenster unabhängig von vorgeschriebenen Werten erzwingen</string>
   <string name="force_rtl_layout_all_locales">RTL-Layout erzwingen</string>
   <string name="force_rtl_layout_all_locales_summary">RTL-Bildschirmlayout für alle Sprachen erzwingen</string>
-  <string name="forced_resizable_secondary_display">App funktioniert eventuell nicht auf einem sekundären Display</string>
+  <string name="forced_resizable_secondary_display">App funktioniert eventuell nicht auf einem sekundären Bildschirm</string>
   <string name="forget_password_string">Passwort vergessen</string>
   <string name="fs_gesture_back_home_summary">Schnell von unten wischen</string>
   <string name="fs_gesture_back_ready_title">Zurückgehen</string>
@@ -1701,6 +1704,7 @@ Screenshot zu erstellen"</string>
   <string name="output_none_found">Keine Geräte gefunden</string>
   <string name="output_none_found_service_off">Keine Geräte gefunden. Versuchen Sie, %1$s einzuschalten</string>
   <string name="output_service_bt_wifi">Bluetooth und WLAN</string>
+  <string name="output_service_wifi">WLAN</string>
   <string name="output_title">Medienausgabe</string>
   <string name="overlay_display_devices_title">Sekundärdsplay simulieren</string>
   <string name="overview">Übersicht</string>
@@ -1722,7 +1726,7 @@ Screenshot zu erstellen"</string>
   <string name="phone_locked_forget_password_suggesstion_one_content">&lt;Data&gt;Gleichzeitig &lt;font color=#e6e6e6&gt;[Power-Taste]&lt;/font&gt; und &lt;font color=#e6e6e6&gt;[Laustärke+]&lt;/font&gt;gedrückt halten, bis Sie das Mi Logo sehen&lt;/Data&gt;</string>
   <string name="phone_locked_forget_password_suggesstion_two_content">&lt;Data&gt;Wählen Sie &lt;font color=#e6e6e6&gt;[Daten löschen]&lt;/font&gt; und warten Sie, bis das Telefon neu gestartet wird&lt;/Data&gt;</string>
   <string name="phone_locked_forget_password_suggesstions_title">Wie lösche ich die Daten?</string>
-  <string name="phone_locked_string">Telefon ist gesperrt</string>
+  <string name="phone_locked_string">Dieses Gerät ist gesperrt</string>
   <string name="picture_color_mode">Bildfarbenmodus</string>
   <string name="picture_color_mode_desc">sRGB verwenden</string>
   <string name="pip_close">BIB schließen</string>
@@ -2682,7 +2686,7 @@ Speicherung von Anmeldedaten ist evtl. nicht aktiviert."</string>
   <string name="zen_mode_settings_turn_on_dialog_title">Nicht stören einschalten</string>
   <string name="zen_mode_warnings_all_time_content">Benachrichtigungen und Anrufe werden stummgeschaltet</string>
   <string name="zen_mode_warnings_keyguard_content">Benachrichtigungen und Anrufe werden stummgeschaltet, wenn das Gerät gesperrt ist</string>
-  <string name="zen_mode_warnings_quit_immediately">Einschalten</string>
+  <string name="zen_mode_warnings_quit_immediately">Ausschalten</string>
   <string name="zen_mode_warnings_title">DND ist an</string>
   <string name="zen_priority_customize_button">Anpassen</string>
   <string name="zen_priority_introduction">Sie werden nicht durch Töne und Vibrationen gestört, außer durch Alarme, Erinnerungen, Termine und Anrufer, die Sie angeben. Sie hören immer noch alles was Sie spielen möchten, inkl. Musik, Videos und Spiele.</string>

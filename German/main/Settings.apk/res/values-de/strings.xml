@@ -1,50 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string name="miheadset_play_pause">Abspielen/Pause</string>
-  <string name="miheadset_soft">Weich</string>
-
-  <string name="miheadset_fitness_check_checking">Erkennung</string>
-  <string name="miheadset_fitness_check_continue">weiter</string>
-  <string name="miheadset_fitness_check_done">Fertig</string>
-  <string name="miheadset_fitness_check_restart">Erneute erkennen</string>
-  <string name="miheadset_fitness_check_result_dialog1">Bitte die Ohrhörer in beide Ohren setzen und dann den Sitz überprüfen.</string>
-  <string name="miheadset_fitness_check_result_dialog2">Bitte zuerst das Gespräch beenden und dann die Passformprüfung durchführen.</string>
-  <string name="miheadset_fitness_check_result_dialog_title">Tipps</string>
-  <string name="miheadset_fitness_check_result_summary1">Die Ohrstöpsel, die Sie derzeit tragen, passen gut</string>
-  <string name="miheadset_fitness_check_result_summary2">Bitte die Position der Ohrstöpsel neu einstellen oder die Ohrstöpsel vor dem Test gegen andere Größen austauschen</string>
-  <string name="miheadset_fitness_check_summary1">Erkennen, welche Größe von Ohrstöpseln ein angenehmes Tragegefühl und die beste Akustik bietet</string>
-  <string name="miheadset_fitness_check_summary2">Bitte die Ohrhörer in beide Ohren einsetzen und auf Starterkennung tippen</string>
-  <string name="miheadset_fitness_check_summary3">Kopfhörer nicht abnehmen</string>
-
-  <string name="button_height_text">Allgemeine Bestätigungstaste (z. B. \"OK\", \"Fertig\")</string>
-  <string name="button_normal_text">Normale Taste</string>
-  <string name="checkbox_text">Schalter</string>
-  <string name="customize_knock_gesture">Benutzerdefinierte Knöchelgesten</string>
-  <string name="general_text">Textfeld</string>
-  <string name="general_time">Zeit: %1$d:%2$d. Lange Vibrationen stehen für Stunden, kurze Vibrationen für Minuten. Zwischen Stunden und Minuten wird eine kurze Pause eingelegt. Doppeltippen, um es zu versuchen.</string>
-  <string name="haptic_experience_details">Haptisches Feeback &amp; Erreichbarkeit</string>
-  <string name="haptic_switch_summary">Haptisches Feedback zu ausgewählten Elementen erhalten, wenn der Bildschirmleser an ist</string>
-  <string name="haptic_switch_title">Haptisches Feeback</string>
-  <string name="height_light_list_text">Eine Liste mit wichtigen Punkten</string>
-  <string name="input_text">Texteingabeleiste</string>
-  <string name="knock_edge_area_invalid">Geste funktioniert nicht in der Nähe von Bildschirmrändern</string>
-  <string name="knock_guide_dialog_title">Aktion für diese Geste auswählen. Sie können sie später unter Einstellungen &gt; Weitere Einstellungen &gt; Tastenkombinationen ändern.</string>
-  <string name="knock_guide_drive_desc">Bildschirmfotos während der Fahrt aufnehmen</string>
-  <string name="knock_guide_launch_desc">Mi KI auslösen, wenn das Telefon auf dem Tisch liegt</string>
-  <string name="knock_guide_set_voiceassist">Mi KI</string>
-  <string name="knock_guide_sub_title">Sie können Mi KI auslösen oder Screenshots aufnehmen, indem Sie mit dem Fingerknöchel auf den Bildschirm tippen</string>  
-  <string name="knock_guide_title">Knöcheldoppeltipp</string>
-  <string name="knock_long_press_horizontal_slid">Mit einem Fingerknöchel waagerecht drücken und wischen</string>
-  <string name="knock_slide_shape">Kreis mit einem Fingerknöchel zeichnen</string>
-  <string name="knock_slide_v">Mit Fingerknöchel V zeichnen</string>
-  <string name="normal_list_text">Liste</string>
-  <string name="picker_text">Zeitauswahl</string>
-  <string name="seekbar_text">Slider</string>
-  <string name="switch_headset_anti_lost">Warnung bei fehlendem Ohrhörer</string>
-  <string name="switch_headset_anti_lost_summary">Warnung erhalten, wenn einer Ihrer Ohrhörer länger als eine Minute vom Ohr oder der Ladehülle entfernt ist</string>
-  <string name="switch_headset_anti_lost_title">Warnung bei fehlendem Ohrhörer</string>
-
-
   <string name="Accounts_settings_title">Konten</string>
   <string name="Data_set">"Daten: "</string>
   <string name="a11y_settings_label">Einstellungen Barrierefreiheit</string>
@@ -1301,6 +1256,8 @@ Apps:
   <string name="bluetooth_enter_passkey_msg">Geben Sie den Pairing-Code ein und drücken Sie Return oder Enter</string>
   <string name="bluetooth_enter_passkey_other_device">Eventuell müssen Sie diesen Schlüssel auch auf dem anderen Gerät eingeben</string>
   <string name="bluetooth_enter_pin_other_device">Eventuell müssen Sie diese PIN auch auf dem anderen Gerät eingeben</string>
+  <string name="bluetooth_fastConnect_key_device_id">Device-ID</string>
+  <string name="bluetooth_fastConnect_resource_load">Bluetooth fastConnect Ressourcenauslastung</string>
   <string name="bluetooth_filter_device_display">Alle anzeigen</string>
   <string name="bluetooth_filter_device_filter">Empfehlungen anzeigen</string>
   <string name="bluetooth_footer_mac_message">Bluetooth-Telefonadresse: %1$s</string>
@@ -1325,6 +1282,8 @@ Das hier könnte schief gelaufen sein:
   <string name="bluetooth_is_discoverable">Sichtbar für alle Bluetooth-Geräte in der Nähe (%1$s)</string>
   <string name="bluetooth_is_discoverable_always">Dieses Gerät für Bluetooth-Geräte in der Nähe sichtbar machen</string>
   <string name="bluetooth_is_visible_message">%1$s ist für Geräte in der Umgebung sichtbar, wenn die Bluetooth-Einstellungen geöffnet sind</string>
+  <string name="bluetooth_le_audio_profile_summary_connected">Verbunden mit LE_AUDIO</string>
+  <string name="bluetooth_le_audio_profile_summary_use_for">Für LE_AUDIO verwenden</string>
   <string name="bluetooth_left_name">Links</string>
   <string name="bluetooth_lock_voice_dialing">Sprachwahl sperren</string>
   <string name="bluetooth_lock_voice_dialing_summary">Verwendung der Sprachwahl über Bluetooth bei gesperrtem Bildschirm verhindern</string>
@@ -1542,7 +1501,7 @@ Abtastrate"</string>
   <string name="bootloader_status_locked">Gesperrt</string>
   <string name="bootloader_status_locked_info">Dieses Gerät ist gesperrt.</string>
   <string name="bootloader_status_locked_summary">Telefon ist sicher.</string>
-  <string name="bootloader_status_privacy_dialog_message">Mi Unlock benötigt Zugang zu Ihrem Mi-Konto, CPU ID, IMSI, um normal zu arbeiten. Wir erheben, nutzen und verarbeiten Ihre Daten gemäß unseren %s. Einverstanden?</string>
+  <string name="bootloader_status_privacy_dialog_message"><Data>Mi Unlock benötigt Zugang zu Ihrem Mi-Konto, CPU ID, IMSI, um normal zu arbeiten. Lesen und akzeptieren Sie unsere &lt;a href=\"%1$s\">Datenschutzerklärung&lt;/a>. Zustimmen?</Data></string>
   <string name="bootloader_status_privacy_dialog_no">Abbrechen</string>
   <string name="bootloader_status_privacy_dialog_title">Erforderliche Berechtigungen</string>
   <string name="bootloader_status_privacy_dialog_url_text">Datenschutzerklärung</string>
@@ -1640,9 +1599,11 @@ Sie können diese Funktion unter Einstellungen/Bluetooth/Gekoppelte Geräte auss
   <string name="button_convert_fbe">Löschen und konvertieren…</string>
   <string name="button_disconnect_network">Netzwerk trennen</string>
   <string name="button_finish">Beenden</string>
+  <string name="button_height_text">Allgemeine Bestätigungstaste (z. B. \"OK\", \"Fertig\")</string>
   <string name="button_import">Importieren</string>
   <string name="button_light_timeout">Tastenbeleuchtung aktiv lassen</string>
   <string name="button_next">Weiter</string>
+  <string name="button_normal_text">Normale Taste</string>
   <string name="button_quit">Beenden</string>
   <string name="button_return">Zurück</string>
   <string name="button_send">Senden</string>
@@ -1655,9 +1616,9 @@ Sie können diese Funktion unter Einstellungen/Bluetooth/Gekoppelte Geräte auss
   <string name="button_text_reboot_now">Neustarten</string>
   <string name="button_text_reject">Ablehnen</string>
   <string name="ca_certificate">CA-Zertifikat</string>
-  <string name="ca_certificate_warning_description">"CA-Zertifikate werden von Websites, Apps und VPNs zur Verschlüsselung verwendet. Installieren Sie nur CA-Zertifikate von Organisationen, denen Sie vertrauen. 
+  <string name="ca_certificate_warning_description">"CA-Zertifikate werden von Websites, Apps und VPNs zur Verschlüsselung verwendet. Installieren Sie nur CA-Zertifikate von Organisationen, denen Sie vertrauen.
 
- Wenn Sie ein CA-Zertifikat installieren, könnte der Zertifikatsinhaber von Websites, die Sie besuchen, oder von Apps, die Sie verwenden, auf Ihre Daten, wie z. B. Passwörter oder Kreditkartendaten, zugreifen - selbst wenn Ihre Daten verschlüsselt sind"</string>
+ Wenn Sie ein CA-Zertifikat installieren, könnte der Zertifikatsinhaber von Websites, die Sie besuchen, oder von Apps, die Sie verwenden, auf Ihre Daten, wie z. B. Passwörter oder Kreditkartendaten, zugreifen - selbst wenn Ihre Daten verschlüsselt sind."</string>
   <string name="ca_certificate_warning_title">Ihre Daten werden nicht privat sein</string>
   <string name="cached">Hintergrundprozess im Cache</string>
   <string name="cached_apps_freezer">Ausführung für Apps im Cache aussetzen</string>
@@ -1804,6 +1765,7 @@ Sie können diese Funktion unter Einstellungen/Bluetooth/Gekoppelte Geräte auss
   <string name="check_importance_dialog_cancel">Abbrechen</string>
   <string name="check_update">Updates suchen</string>
   <string name="checkbox_notification_same_as_incoming_call">Lautstärke von eingehenden Anrufen für Benachrichtigungen verwenden</string>
+  <string name="checkbox_text">Umschalten</string>
   <string name="checking_decryption">Prüfen…</string>
   <string name="checking_find_device_status">Status Gerät finden prüfen…</string>
   <string name="checking_for_updates">Auf Updates prüfen…</string>
@@ -1883,7 +1845,7 @@ Nach Erstellung einer neuen Sicherheitsfrage und Bestätigung Ihres Geburtsdatum
   <string name="cloud_restore_window_title">Xiaomi Cloud Wiederherstellung</string>
   <string name="cloud_search">Suchen…</string>
   <string name="cmcc_hardware_version">Hardwareversion</string>
-  <string name="codec_low_latency_summary">Minimierung der Wartezeit bei der Audio- und Videosynchronisierung von Spielen</string>
+  <string name="codec_low_latency_summary">Minimierung der Wartezeit bei der Audio- und Videosynchronisation von Spielen</string>
   <string name="codec_low_latency_title">Niedrige Wartezeit</string>
   <string name="collect_diagnostics_summary">Diagnosedaten für die Fehlersuche sammeln</string>
   <string name="collect_diagnostics_title">Diagnosedaten sammeln</string>
@@ -1891,6 +1853,20 @@ Nach Erstellung einer neuen Sicherheitsfrage und Bestätigung Ihres Geburtsdatum
   <string name="color_blue">Blau</string>
   <string name="color_calibration_none">Nativ</string>
   <string name="color_cyan">Blaugrün</string>
+  <string name="color_game_led_applications_title">Apps wählen</string>
+  <string name="color_game_led_applications_title_summary">Einzelne Apps auswählen, die mit LED-Licht arbeiten</string>
+  <string name="color_game_led_battery_title">Während des Ladens eingeschaltet lassen</string>
+  <string name="color_game_led_charging_summary">LED-Licht wird ausgeschaltet, wenn der Akku geladen wird</string>
+  <string name="color_game_led_end_time">Ende</string>
+  <string name="color_game_led_game_mode_summary">Effekte für Spiele anzeigen, wenn Game Turbo eingeschaltet ist</string>
+  <string name="color_game_led_game_mode_title">Für Game Turbo verwenden</string>
+  <string name="color_game_led_incall_pulse_title">Für eingehende Anrufe verwenden</string>
+  <string name="color_game_led_notification_pulse_title">Impuls bei Benachrichtigungen auf dem Always-On-Display</string>
+  <string name="color_game_led_remind_title">Effekte</string>
+  <string name="color_game_led_special_scene_title">Spezialeffekte</string>
+  <string name="color_game_led_summary">Funktioniert nicht im DND-Modus</string>
+  <string name="color_game_led_time_title">Pünktlich einplanen</string>
+  <string name="color_game_led_title">LED-Licht</string>
   <string name="color_gray">Grau</string>
   <string name="color_green">Grün</string>
   <string name="color_lamp_applications_title">Benachrichtigungen verwalten</string>
@@ -2081,9 +2057,9 @@ Diese Info gibt an, ob Ihre Kontakte bestimmte Funktionen nutzen können, wie z.
   <string name="controls_subtitle">Stromverbrauch anpassen</string>
   <string name="convenience_key_category_title">Systemsteuerung</string>
   <string name="conversation_category_title">Unterhaltung</string>
-  <string name="conversation_onboarding_summary">"Sobald Sie eine Unterhaltung als vorrangig markieren oder andere Änderungen an Unterhaltungen vornehmen, werden diese hier angezeigt. 
+  <string name="conversation_onboarding_summary">"Sobald Sie eine Unterhaltung als vorrangig markieren oder andere Änderungen an Unterhaltungen vornehmen, werden diese hier angezeigt.
 
-Gesprächseinstellungen ändern: 
+Gesprächseinstellungen ändern:
 Vom oberen Bildschirmrand runterwischen, um die Pulldown-Leiste zu öffnen, dann eine Unterhaltung berühren &amp; halten."</string>
   <string name="conversation_onboarding_title">Vorrangige und geänderte Unterhaltungen werden hier angezeigt</string>
   <string name="conversation_section_switch_summary">Der App die Verwendung des Unterhaltungsbereichs erlauben</string>
@@ -2192,6 +2168,7 @@ Damit Sie Ihr Gerät wieder verwenden können, müssen Sie es auf Werkseinstellu
   <string name="custom_gesture_title">Benutzerdefinierte Gesten</string>
   <string name="custom_wifi_name_title">WLAN-Name bearbeiten</string>
   <string name="customize_function">Verfügbare Muster</string>
+  <string name="customize_knock_gesture">Benutzerdefinierte Knöchelgesten</string>
   <string name="cutout_mode_always">Notch immer anzeigen</string>
   <string name="cutout_mode_default">Automatisch</string>
   <string name="cutout_mode_settings_title">Einige Apps werden eventuell falsch angezeigt, wenn Sie die Notch-Anzeige anpassen.</string>
@@ -2556,8 +2533,8 @@ Um dieses Problem zu beheben, stoppen Sie %1$s und verhindern die Hintergrundakt
   <string name="dialog_check_button_negative">Erneut versuchen</string>
   <string name="dialog_check_button_positive">Mit WLAN verbinden</string>
   <string name="dialog_check_context">"Ihr Gerät kann jetzt keine Internetverbindung herstellen.
-1. Auf \"Mit WLAN verbinden\" tippen, um eines der verfügbaren Netzwerke auszuwählen.
-2. Wenn Sie mobile Daten verwenden möchten, auf \"Erneut versuchen\" tippen oder Ihre SIM-Karte entfernen und wieder einlegen."</string>
+· Auf \"Mit WLAN verbinden\" tippen, um eines der verfügbaren Netzwerke auszuwählen.
+· Wenn Sie mobile Daten verwenden möchten, auf \"Erneut versuchen\" tippen oder SIM-Karte entfernen und wieder einlegen."</string>
   <string name="dialog_check_title">Internetverbindung herstellen nicht möglich</string>
   <string name="dialog_chose_item">Wählen Sie ein Element aus, das angezeigt werden soll</string>
   <string name="dialog_content_login">Für das Update mit Ihrem Mi-Konto anmelden?</string>
@@ -2774,7 +2751,7 @@ Wenn es so bleibt, muss die App evtl. deinstalliert werden, um die Akkuleistung 
   <string name="dpp_cannot_connect_target">Verbindung zum Zielnetzwerk herstellen nicht möglich</string>
   <string name="dpp_connect_success">Verbindung erfolgreich hergestellt</string>
   <string name="dpp_not_support">Netzwerk teilen nicht möglich</string>
-  <string name="dpp_qr_code_summary">Mit WLAN verbinden, indem Sie diesen QR-Code scannen.</string>
+  <string name="dpp_qr_code_summary">Andere Personen bitten, diesen QR-Code mit dem Scanner in ihren WLAN-Einstellungen zu scannen</string>
   <string name="dpp_scanner_summary">QR-Code innerhalb des Rahmens platzieren</string>
   <string name="dpp_shared_fail">WLAN teilen nicht möglich</string>
   <string name="dpp_shared_success">WLAN erfolgreich geteilt</string>
@@ -3064,9 +3041,10 @@ Für weitere Informationen wenden Sie sich bitte an den Admin Ihres Unternehmens
   <string name="estimated_charging_time_left">Bis vollgeladen</string>
   <string name="estimated_time_description">Schätzung kann sich je nach Nutzung ändern</string>
   <string name="estimated_time_left">Geschätzte Restdauer</string>
-  <string name="ethernet_data_template">^1 Ethernetdaten</string>
-  <string name="ethernet_data_usage">Ethernetdatennutzung</string>
-  <string name="ethernet_tethering_subtext">Share phone’s internet connection via USB Ethernet</string>
+  <string name="ethernet_data_template">^1 Ethernet-Daten</string>
+  <string name="ethernet_data_usage">Ethernet-Datennutzung</string>
+  <string name="ethernet_tether_checkbox_text">Ethernet Tethering</string>
+  <string name="ethernet_tethering_subtext">Internetverbindung des Telefons über USB-Ethernet freigeben</string>
   <string name="every_day">Täglich</string>
   <string name="exceptional_case">Ausnahmen</string>
   <string name="exchange_account">Konto wechseln</string>
@@ -3074,6 +3052,7 @@ Für weitere Informationen wenden Sie sich bitte an den Admin Ihres Unternehmens
   <string name="expandable_under_keyguard_title">Am Sperrbildschirm anzeigen</string>
   <string name="experimental_category_title">Experimentell</string>
   <string name="experimental_preference">(Experimentell)</string>
+  <string name="expert_detail_content_description">Details anzeigen</string>
   <string name="extended_power_menu">Erweitertes Power-Menü</string>
   <string name="exterior">Farbschema</string>
   <string name="external_code_size_label">USB-Speicher-App</string>
@@ -3466,6 +3445,8 @@ Wenn Sie automatische Sicherungen einschalten, werden Geräte- und App-Daten per
   <string name="game_mode_settings">Spielemodus</string>
   <string name="game_mode_summary">Leistung für Spiele verbessern und gleichzeitig die Synchronisation und Netzwerkverbindung im Hintergrund für andere Apps einschränken</string>
   <string name="game_storage_settings">Spiele</string>
+  <string name="general_text">Textfeld</string>
+  <string name="general_time">Zeit: %1$d:%2$d. Lange Vibrationen stehen für Stunden, kurze Vibrationen für Minuten. Zwischen Stunden und Minuten wird eine kurze Pause eingelegt. Doppeltippen, um es zu versuchen.</string>
   <string name="gentle_notifications_also_display">Auch anzeigen in/auf</string>
   <string name="gentle_notifications_display_lock">Sperrbildschirm</string>
   <string name="gentle_notifications_display_status">Statusleiste</string>
@@ -3576,6 +3557,7 @@ Wenn Sie automatische Sicherungen einschalten, werden Geräte- und App-Daten per
   <string name="handy_mode_tips_full_screen">Wenn Sie Vollbildgesten verwenden, können Sie den Einhandmodus im Berührungsassistent einschalten. Sie können auch auf Schaltflächen anstelle von Vollbildgesten umschalten.</string>
   <string name="haptic_agent_completion_01_content_description">Erledigte Aufgabe</string>
   <string name="haptic_cursor_movement_07_content_description">Helligkeit einstellen</string>
+  <string name="haptic_experience_details">Haptisches Feeback &amp; Erreichbarkeit</string>
   <string name="haptic_feedback_enable_title">Bei Berührung vibrieren</string>
   <string name="haptic_feedback_progress">Level haptisches Feedback</string>
   <string name="haptic_feedback_summary">Haptische Reaktion auf Gesten und Systemsteuerungen erhalten</string>
@@ -3592,6 +3574,8 @@ Wenn Sie automatische Sicherungen einschalten, werden Geräte- und App-Daten per
   <string name="haptic_return_gesture_05_content_description">Zurückgehen</string>
   <string name="haptic_shutdown_menu_06_content_description">Power-Menü</string>
   <string name="haptic_single_selection_02_content_description">Ausgewähltes Element</string>
+  <string name="haptic_switch_summary">Haptisches Feedback zu ausgewählten Elementen erhalten, wenn der Bildschirmleser an ist</string>
+  <string name="haptic_switch_title">Haptisches Feeback</string>
   <string name="haptic_text_edit_popup_13_content_description">Popup-Menü</string>
   <string name="haptic_upper_right_menu_15_content_description">Aufklappbares Menü</string>
   <string name="haptic_volume_adjustment_14_content_description">Lautstärke einstellen</string>
@@ -3627,6 +3611,7 @@ Wenn Sie automatische Sicherungen einschalten, werden Geräte- und App-Daten per
   <string name="headset_unsaved_devices">Nicht gespeichert, verbinden Sie sich in Ihrem Konto mit einem anderen Telefon</string>
   <string name="hearing_aids_category">Hörunterstützende Tools</string>
   <string name="heavy_weight_stop_description">App kann nicht sicher beendet werden, es könnten dabei aktuelle Daten verloren gehen.</string>
+  <string name="height_light_list_text">Eine Liste mit wichtigen Punkten</string>
   <string name="help_and_feedback_title">Hilfe &amp; Feedback</string>
   <string name="help_feedback_label">Hilfe &amp; Feedback</string>
   <string name="help_label">Hilfe &amp; Feedback</string>
@@ -3838,6 +3823,7 @@ Xiaomi Cloud öffnen und Elemente von dort aus wiederherstellen."</string>
   <string name="input_password_hint_text">Passwort eingeben</string>
   <string name="input_pattern_hint_text">Zeichnen Sie Ihr Entsperrmuster</string>
   <string name="input_settings">Eingabeeinstellungen</string>
+  <string name="input_text">Texteingabeleiste</string>
   <string name="install_all_warning">Apps aus unbekannten Quellen können gefährlich für Ihr Telefon und Ihre persönlichen Daten sein. Sie stimmen zu, dass Sie die Verantwortung für alle Schäden an Ihrem Telefon und jegliche Datenverluste tragen, die aus der Verwendung dieser Apps entstehen können.</string>
   <string name="install_applications">Unbekannte Herkunft</string>
   <string name="install_applications_title">Alle App-Quellen zulassen</string>
@@ -4063,6 +4049,16 @@ Xiaomi Cloud öffnen und Elemente von dort aus wiederherstellen."</string>
   <string name="keywords_write_settings">schreiben;modifizieren;System;Einstellungen</string>
   <string name="keywords_zen_mode_settings">dnd;zeitplan;benachrichtigungen;blocken;stille;vibrieren;schlafen;arbeit;focus;ton;stumm;tag;wochentag;wochenende;wochenabend;eintrag</string>
   <string name="kid_space_settings">Kinderprofil</string>
+  <string name="knock_edge_area_invalid">Geste funktioniert nicht nahe den Bildschirmrändern</string>
+  <string name="knock_guide_dialog_title">Aktion für diese Geste auswählen. Sie können sie später unter Einstellungen &gt; Weitere Einstellungen &gt; Tastenkombinationen ändern.</string>
+  <string name="knock_guide_drive_desc">Bildschirmfotos während der Fahrt aufnehmen</string>
+  <string name="knock_guide_launch_desc">Mi KI auslösen, wenn das Telefon auf dem Tisch liegt</string>
+  <string name="knock_guide_set_voiceassist">Mi KI</string>
+  <string name="knock_guide_sub_title">Sie können Mi KI auslösen oder Screenshots aufnehmen, indem Sie mit dem Fingerknöchel auf den Bildschirm tippen</string>
+  <string name="knock_guide_title">Knöchel-Doppeltipp</string>
+  <string name="knock_long_press_horizontal_slid">Mit einem Fingerknöchel waagerecht drücken und wischen</string>
+  <string name="knock_slide_shape">Kreis mit einem Fingerknöchel zeichnen</string>
+  <string name="knock_slide_v">V mit einem Fingerknöchel zeichnen</string>
   <string name="label_available">verfügbare Netzwerke, verfügbare Netze</string>
   <string name="label_global_roaming_settings">Roaming-Einstellungen</string>
   <string name="label_mi_stats">Mi Analyse</string>
@@ -4081,6 +4077,8 @@ Xiaomi Cloud öffnen und Elemente von dort aus wiederherstellen."</string>
   <string name="later">SPÄTER</string>
   <string name="lattice_smartcover_title">Gitterfrontabdeckung</string>
   <string name="launch_ai_shortcut">Mi KI-Verknüpfung</string>
+  <string name="launch_alipay_health_code">Alipay-Gesundheitscode</string>
+  <string name="launch_alipay_health_code_auto_close">Verknüpfung zum Alipay-Gesundheitscode ist nicht mehr verfügbar. Sie können zu einer anderen Verknüpfung wechseln.</string>
   <string name="launch_alipay_payment_code">Alipay-Zahlungscode</string>
   <string name="launch_alipay_scanner">Alipay-Scanner</string>
   <string name="launch_by_default">Standardmäßig öffnen</string>
@@ -4098,6 +4096,8 @@ Xiaomi Cloud öffnen und Elemente von dort aus wiederherstellen."</string>
   <string name="launch_notification_center">Benachrichtigungsleiste</string>
   <string name="launch_recents">Zuletzt verwendet</string>
   <string name="launch_voice_assistant">Sprachassistenten starten</string>
+  <string name="launch_wechat_health_code">WeChat-Gesundheitscode</string>
+  <string name="launch_wechat_health_code_auto_close">Verknüpfung zum WeChat-Gesundheitscode ist nicht mehr verfügbar. Sie können zu einer anderen Verknüpfung wechseln.</string>
   <string name="launch_wechat_payment_code">WeChat-Zahlungscode</string>
   <string name="launch_wechat_scanner">WeChat-Scanner</string>
   <string name="launch_wifi_text">Details anzeigen</string>
@@ -4692,6 +4692,11 @@ Dadurch wird Ihr Mobilfunkvertrag nicht gekündigt."</string>
   <string name="miheadset_LeftEar">Links</string>
   <string name="miheadset_RightEar">Rechts</string>
   <string name="miheadset_active">Kraftvoll</string>
+  <string name="miheadset_ancBalance">Mittel</string>
+  <string name="miheadset_ancClosed">Aus</string>
+  <string name="miheadset_ancDecrease">Niedrig</string>
+  <string name="miheadset_ancIncrease">Hoch</string>
+  <string name="miheadset_anc_indicate">Kopfhörer anschließen und koppeln</string>
   <string name="miheadset_audio_mode">Audio-Modus</string>
   <string name="miheadset_audio_mode_high">Hohe Qualität</string>
   <string name="miheadset_audio_mode_listen">Anhören</string>
@@ -4706,6 +4711,7 @@ Dadurch wird Ihr Mobilfunkvertrag nicht gekündigt."</string>
   <string name="miheadset_closeAnc">Aus</string>
   <string name="miheadset_connectHeadsetForFw">Kopfhörer anschließen, um die Firmware-Version anzuzeigen</string>
   <string name="miheadset_connect_play_music">Wiedergabe automatisch starten, wenn Kopfhörer angeschlossen sind</string>
+  <string name="miheadset_connect_toast_tips">Zuerst Kopfhörer verbinden</string>
   <string name="miheadset_define_self">Selbst definieren</string>
   <string name="miheadset_disconnect">Trennen</string>
   <string name="miheadset_disconnect_device">Dieses Gerät trennen?</string>
@@ -4715,31 +4721,62 @@ Dadurch wird Ihr Mobilfunkvertrag nicht gekündigt."</string>
   <string name="miheadset_double_click_right">Den rechten Kopfhörer doppelt antippen</string>
   <string name="miheadset_enhence_high">Hohe Frequenz verbessern</string>
   <string name="miheadset_enhence_low">Niedrige Frequenz verbessern</string>
-  <string name="miheadset_fitness_check">Fitness-Check</string>
-  <string name="miheadset_fitness_check_result_not_ok">Fitness schlecht</string>
-  <string name="miheadset_fitness_check_result_ok">Fitness ok</string>
-  <string name="miheadset_fitness_check_result_unkown">Fitness unbekannt</string>
-  <string name="miheadset_fitness_check_start">Fitness-Check startet, bitte warten</string>
-  <string name="miheadset_formal">Stand</string>
+  <string name="miheadset_fitness_check">Passform erkennen</string>
+  <string name="miheadset_fitness_check_checking">Erkennen…</string>
+  <string name="miheadset_fitness_check_continue">Weiter</string>
+  <string name="miheadset_fitness_check_done">Fertig</string>
+  <string name="miheadset_fitness_check_restart">Erneut starten</string>
+  <string name="miheadset_fitness_check_result_dialog1">Ohrhörer bitte in beide Ohren stecken und dann die Passform prüfen.</string>
+  <string name="miheadset_fitness_check_result_dialog2">Bitte erst den Anruf beenden und dann die Passformprüfung durchführen.</string>
+  <string name="miheadset_fitness_check_result_dialog_title">Tipps</string>
+  <string name="miheadset_fitness_check_result_not_ok">Schlechte Passform</string>
+  <string name="miheadset_fitness_check_result_ok">Gute Passform</string>
+  <string name="miheadset_fitness_check_result_summary1">Die Ohrstöpsel, die Sie derzeit tragen, passen gut.</string>
+  <string name="miheadset_fitness_check_result_summary2">Bitte justieren Sie die Position der Ohrstöpsel neu oder tauschen Sie die Ohrstöpsel vor dem Test gegen andere Größen aus.</string>
+  <string name="miheadset_fitness_check_result_unkown">Passform unbekannt</string>
+  <string name="miheadset_fitness_check_start">Erkennung starten</string>
+  <string name="miheadset_fitness_check_summary1">Erkennen, welche Ohrstöpselgröße ein angenehmes Tragegefühl und die beste Akustik bietet</string>
+  <string name="miheadset_fitness_check_summary2">Ohrstöpsel in beide Ohren setzen und auf \"Erkennung starten"\ tippen.</string>
+  <string name="miheadset_fitness_check_summary3">Headset nicht entfernen</string>
   <string name="miheadset_game_mode">Spielemodus</string>
   <string name="miheadset_game_mode_summary">Audioverzögerung beim Spielen reduzieren</string>
   <string name="miheadset_ignore">Entkoppeln</string>
   <string name="miheadset_in_ear_check">Ohr erkennen</string>
   <string name="miheadset_in_ear_check_summary">Wiedergabe automatisch anhalten und fortsetzen, wenn Sie Kopfhörer abnehmen oder tragen</string>
+  <string name="miheadset_key_config_call_ai">Sprachassistent</string>
+  <string name="miheadset_key_config_close">Aus</string>
+  <string name="miheadset_key_config_close_summary">Rauschunterdrückung und Transparenz ausschalten</string>
+  <string name="miheadset_key_config_gesture_control">Gesten</string>
+  <string name="miheadset_key_config_next_music">Nächster Titel</string>
+  <string name="miheadset_key_config_noise_control">Aktive Rauschunterdrückung</string>
+  <string name="miheadset_key_config_noise_control_summary">Drücken und halten, um zwischen zwei ausgewählten aktiven Rauschunterdrückungsmodi zu wechseln</string>
+  <string name="miheadset_key_config_noise_summary">Externe Geräusche blockieren</string>
+  <string name="miheadset_key_config_press_left">Linken Ohrhörer drücken und halten</string>
+  <string name="miheadset_key_config_press_right">Rechten Ohrhörer drücken und halten</string>>
+  <string name="miheadset_key_config_trans_summary">Externe Geräusche zulassen</string>
+  <string name="miheadset_key_config_triple_left">Linken Ohrhörer dreifach antippen</string>
+  <string name="miheadset_key_config_triple_right">Rechten Ohrhörer dreifach antippen</string>
+  <string name="miheadset_key_config_volume_down">Lautstärke runter</string>
+  <string name="miheadset_key_config_volume_up">Lautstärke hoch</string>
   <string name="miheadset_last_version">Firmware ist aktuell</string>
-  <string name="miheadset_local_ota">OTA lokal</string>
+  <string name="miheadset_minus">Lautstärke +</string>
   <string name="miheadset_moreSettingsInAi">Weitere Einstellungen</string>
-  <string name="miheadset_multi_connect_mode">Multi-Connect-Modus</string>
+  <string name="miheadset_multi_connect_mode">Multi-Anschluss-Modus</string>
   <string name="miheadset_multi_connect_mode_summary">Mehr als ein Gerät gleichzeitig anschließen</string>
   <string name="miheadset_next">Weiter</string>
   <string name="miheadset_openAnc">Rauschunterdrückung</string>
+  <string name="miheadset_play_pause">Abspielen/Pause</string>
+  <string name="miheadset_plus">Lautstärke -</string>
   <string name="miheadset_rename">Umbenennen</string>
   <string name="miheadset_rename_device">Umbenennen</string>
+  <string name="miheadset_soft">Weich</string>
   <string name="miheadset_transparent">Transparenz</string>
+  <string name="miheadset_transparentMode">Transparenz</string>
   <string name="miheadset_triple_click_key_mode">Dreifachklick-Tastenmodus</string>
   <string name="miheadset_triple_click_key_mode_summary">Dreifachklick-Tastenbelegung ändern</string>
   <string name="miheadset_unpair_device">Koppeln abbrechen?</string>
-  <string name="miheadset_unpair_device_text">Alle mit diesem Xiaomi-Konto verbundenen Geräte werden entfernt</string>
+  <string name="miheadset_unpair_device_text">%1$s wird von allen Geräten, die mit diesem Mi-Konto verbunden sind, entkoppelt.</string>
+  <string name="miheadset_voiceIncrease">Stimme verbessern</string>
   <string name="miliao_account_guide">Melden Sie sich mit Ihrem Mi-Konto von überall bei Xiaomi Cloud, MIUI Theme Store und anderen Mi Diensten an.</string>
   <string name="miliao_account_login">Mit Mi Talk anmelden</string>
   <string name="misc_files">Sonstige Dateien</string>
@@ -5092,6 +5129,7 @@ Betriebssystem auswählen:"</string>
   <string name="nearby_wifi">Verfügbare Netzwerke</string>
   <string name="need_reboot_now">Um das Update abzuschließen, ist ein Neustart erforderlich</string>
   <string name="netcheck_title">Netzwerkdiagnose</string>
+  <string name="network_2G_3G_preferred">2G/3G bevorzugt</string>
   <string name="network_4G">4G (empfohlen)</string>
   <string name="network_alarm">Internet-Anrufe nicht stumm schalten</string>
   <string name="network_alarm_summary">Hinweis: Einige Apps sind nicht kompatibel mit dieser Funktion. %1$s</string>
@@ -5281,6 +5319,7 @@ Betriebssystem auswählen:"</string>
   <string name="normal">Normal</string>
   <string name="normal_bottom_height_of_keyboard">Regulär</string>
   <string name="normal_info">Alle Töne funktionieren normal</string>
+  <string name="normal_list_text">Liste</string>
   <string name="normal_smartcover_title">Blickdichte Frontabdeckung</string>
   <string name="not_allowed">Ihre SIM-Karte erlaubt keine Verbindung zu diesem Netzwerk</string>
   <string name="not_battery_optimizing">Nicht mit Akku-Optimierung</string>
@@ -5712,6 +5751,7 @@ Lesen und akzeptieren Sie die %s, bevor Sie diesen Dienst nutzen."</string>
   <string name="photo_data">Fotos und Videos</string>
   <string name="physical_keyboard_title">Hardwaretastatur</string>
   <string name="pick_up_gesture_wakeup_title">Gerät zum Aufwecken anheben</string>
+  <string name="picker_text">Zeitauswahl</string>
   <string name="pico_installed">Installiert</string>
   <string name="pico_languages_and_voices">Sprachen &amp; Stimmen</string>
   <string name="pico_not_installed">Nicht installiert</string>
@@ -5850,6 +5890,7 @@ Lesen und akzeptieren Sie die %s, bevor Sie diesen Dienst nutzen."</string>
   <string name="power_usage_summary_title">Akku &amp; Leistung</string>
   <string name="power_usage_summary_title_new">Akku</string>
   <string name="power_user">Benutzer</string>
+  <string name="power_wifi">WLAN</string>
   <string name="pre_installed_application">Vorinstallierte Apps</string>
   <string name="pref_bg_network_title">Hintergrundverbindung</string>
   <string name="pref_button_light">Tastenbeleuchtung</string>
@@ -6466,7 +6507,8 @@ Mindestens %s freigeben."</string>
   <string name="screen_enhance_engine_ai_pic_summary">"Objekte identifizieren (z. B. Pflanzen, Tiere, Gebäude) und Anzeigeeffekte dynamisch anpassen. "</string>
   <string name="screen_enhance_engine_ai_title">KI-Bildverbesserung</string>
   <string name="screen_enhance_engine_memc_note">Videos können nicht verbessert werden, wenn die Superauflösung an ist. Wenn Sie verbesserte Videos einschalten, Superauflösung ausschalten.</string>
-  <string name="screen_enhance_engine_memc_note_1">Diese Funktion erhöht den Stromverbrauch geringfügig.</string>
+  <string name="screen_enhance_engine_memc_note_1">%d. Diese Funktion erhöht den Stromverbrauch geringfügig.</string>
+  <string name="screen_enhance_engine_memc_note_2">%d. Diese Funktion funktioniert nur, wenn die Video-Toolbox eingeschaltet ist.</string>
   <string name="screen_enhance_engine_memc_pic_summary">"Videos zusätzliche Frames hinzufügen, um den Inhalt glatt und die Übergänge lebendig erscheinen zu lassen. "</string>
   <string name="screen_enhance_engine_s2h_open">KI HDR-Verbesserung</string>
   <string name="screen_enhance_engine_s2h_pic_summary">"Videos mit HDR-Effekten verarbeiten, um mehr Details in den helleren und dunkleren Bereichen hervorzuheben und die Farben lebendiger zu machen. "</string>
@@ -6527,7 +6569,7 @@ Mindestens %s freigeben."</string>
   <string name="screen_paper_mode_off_apps_title">Lesemodus nicht verwenden</string>
   <string name="screen_paper_mode_range_title">Einstellungen</string>
   <string name="screen_paper_mode_set_apps_title">Lesemodus-Apps</string>
-  <string name="screen_paper_mode_summary">Im Lesemodus werden Display-Farben wärmer, sodass Ihre Augen sich entspannen können.</string>
+  <string name="screen_paper_mode_summary">Im Lesemodus werden Bildschirmfarben wärmer angezeigt, sodass Ihre Augen sich entspannen können.</string>
   <string name="screen_paper_mode_time_summary">Lesemodus zu einer geplanten Zeit</string>
   <string name="screen_paper_mode_time_title">Geplant</string>
   <string name="screen_paper_mode_title">Lesemodus</string>
@@ -6545,16 +6587,16 @@ Mindestens %s freigeben."</string>
 2. Bildschirm öffnen, der angeheftet werden soll
 3. Übersicht öffnen
 4. Hochwischen und dann das Pinsymbol antippen"</string>
-  <string name="screen_pinning_dialog_message">"Wenn die App angeheftet ist: 
+  <string name="screen_pinning_dialog_message">"Wenn die App angeheftet ist:
 
-•\u0009\u0009Personenbezogene Daten können zugänglich sein 
-\u0009\u0009(wie z. B. Kontakte und E-Mail-Inhalte) 
-•\u0009\u0009Angeheftete App kann andere Apps öffnen 
+•\u0009\u0009Personenbezogene Daten können zugänglich sein
+\u0009\u0009(wie z. B. Kontakte und E-Mail-Inhalte)
+•\u0009\u0009Angeheftete App kann andere Apps öffnen
 
 Verwenden Sie App-Pinning nur bei Personen, denen Sie vertrauen."</string>
-  <string name="screen_pinning_guest_user_description">"App-Pinning ermöglicht Ihnen, die aktuelle App in der Ansicht zu halten, bis Sie die Anheftung aufheben. Diese Funktion kann z. B. verwendet werden, um einen vertrauenswürdigen Freund ein bestimmtes Spiel spielen zu lassen. 
+  <string name="screen_pinning_guest_user_description">"App-Pinning ermöglicht Ihnen, die aktuelle App in der Ansicht zu halten, bis Sie die Anheftung aufheben. Diese Funktion kann z. B. verwendet werden, um einen vertrauenswürdigen Freund ein bestimmtes Spiel spielen zu lassen.
 
-Wenn eine App angeheftet ist, kann sie andere Apps öffnen und persönliche Daten können zugänglich sein. 
+Wenn eine App angeheftet ist, kann sie andere Apps öffnen und persönliche Daten können zugänglich sein.
 
 Wenn Sie Ihr Gerät sicher mit jemandem teilen möchten, versuchen Sie stattdessen, einen Gastbenutzer zu verwenden
 
@@ -6852,6 +6894,7 @@ App-Pinning verwenden: \u0009
   <string name="search_wifi_advanced_mac_address_title">WLAN-MAC-Adresse;WLAN MAC Adresse;WLAN MAC address</string>
   <string name="search_wifi_enable">WLAN;WLAN aktivieren</string>
   <string name="search_wifi_install_credentials">Zertifikate installieren;Zertifikate</string>
+  <string name="search_wifi_menu_p2p">Wi-Fi Direct;WLAN Direct</string>
   <string name="search_wifi_menu_wps_pin">WPS PIN-Eingabe;WPS;WPS PIN</string>
   <string name="search_wifi_scan_always_available">Scannen immer verfügbar;Netzwerke scannen;WLAN scannen</string>
   <string name="search_wifi_setting_frequency_band_title">WLAN-Frequenzband;WLAN Frequenzband;WLAN Frequenz;Frequenzband</string>
@@ -7130,6 +7173,7 @@ Hinweis: Sie können Ihren Fingerabdruck nicht verwenden, um dieses Gerät zu en
   <string name="setup_lock_settings_picker_message">Verhindern Sie, dass andere Benutzer dieses Telefon ohne Ihre Erlaubnis verwenden, in dem Sie Geräteschutzfunktionen aktivieren. Wählen Sie die gewünschte Bildschirmsperre aus.</string>
   <string name="setup_lock_settings_picker_title">Schützen Sie Ihr Telefon</string>
   <string name="setup_password_back">Zurück</string>
+  <string name="setup_password_skip">Überspringen</string>
   <string name="setup_wifi_nfc_tag">WLAN-NFC-Tag Einrichten</string>
   <string name="setup_wizard_back_button_label">Zurück</string>
   <string name="setup_wizard_next_button_label">Weiter</string>
@@ -7355,6 +7399,7 @@ Hinweis: Sie können Ihren Fingerabdruck nicht verwenden, um dieses Gerät zu en
   <string name="sms_received_sound_title">Nachricht empfangen</string>
   <string name="sms_title">Nachrichten</string>
   <string name="snooze_options_title">Benachrichtigung beim Schlummern zulassen</string>
+  <string name="softbank_apn_lock_toast">APN ist gesperrt. Nicht editierbar.</string>
   <string name="software_backup_info">App-Daten</string>
   <string name="software_version">Software-Version</string>
   <string name="sometimes_running">Läuft manchmal (%s)</string>
@@ -7552,6 +7597,7 @@ Dies wird durch vertrauenswürdige Anmeldedaten ermöglicht, die auf Ihrem Gerä
   <string name="stop_upload_audio_log">Audio-Protokollierung benden</string>
   <string name="stop_upload_gps_log">GPS-Protokollierung beenden</string>
   <string name="stop_upload_modem_log">Modem-Protokollierung beenden</string>
+  <string name="storage_category">Speicher</string>
   <string name="storage_detail_cached">Daten im Cache</string>
   <string name="storage_detail_dialog_other">"Andere beinhaltet von Apps gespeicherte Dateien, Downloads, Androiddateien etc.
 Um den gesamten Inhalt von ^1 anzuzeigen, tippen Sie auf Erkunden."</string>
@@ -7784,10 +7830,11 @@ Auf ^2 gespeicherte Apps könnten nicht richtig funktionieren, und Datenübertra
   <string name="suggested_fingerprint_lock_settings_summary">Entsperren Sie mit Ihrem Fingerabdruck</string>
   <string name="suggested_fingerprint_lock_settings_title">Fingerabdruck verwenden</string>
   <string name="suggested_lock_settings_summary">Bildschirmsperre setzen zum Schützen Ihres Geräts</string>
-  <string name="suggested_lock_settings_title">Schütze Sie Ihr Gerät</string>
-  <string name="suggestion_additional_fingerprints">Einen weiteren Fingerabdruck hinzufügen</string>
-  <string name="suggestion_additional_fingerprints_summary">Mit einem anderen Finger entsperren</string>
-  <string name="suggestion_for_phone_recycled">Hinzufügen einer anderen Telefonnummer</string>
+  <string name="suggested_lock_settings_title">Schützen Sie Ihr Gerät</string>
+  <string name="suggestion_additional_fingerprints">Weiteren Fingerabdruck hinzufügen</string>
+  <string name="suggestion_additional_fingerprints_summary">Mit anderem Finger entsperren</string>
+  <string name="suggestion_button_close">Schließen</string>
+  <string name="suggestion_for_phone_recycled">Andere Telefonnummer hinzufügen</string>
   <string name="suggestion_remove">Entfernen</string>
   <string name="suggestions_more_title">+%1$d mehr</string>
   <string name="suggestions_title">Vorschläge</string>
@@ -7850,6 +7897,9 @@ Auf ^2 gespeicherte Apps könnten nicht richtig funktionieren, und Datenübertra
   <string name="switchNetworkToast">Verbindung zu Mobilfunknetzen kann zusätzliche Kosten verursachen</string>
   <string name="switch_access_service_on">Zugriff umschalten</string>
   <string name="switch_bootup_sound">Bootsound</string>
+  <string name="switch_headset_anti_lost">Warnung bei fehlendem Ohrhörer</string>
+  <string name="switch_headset_anti_lost_summary">Warnung erhalten, wenn einer Ihrer Ohrhörer länger als eine Minute vom Ohr oder der Ladehülle entfernt ist</string>
+  <string name="switch_headset_anti_lost_title">Warnung bei fehlendem Ohrhörer</string>
   <string name="switch_off_text">Aus</string>
   <string name="switch_on_text">An</string>
   <string name="switch_screen_button_order">Tasten spiegeln</string>
@@ -8760,6 +8810,7 @@ Jeder Benutzer kann aktualisierte App-Berechtigungen für alle anderen Benutzer 
   <string name="users_summary">Angemeldet als %1$s</string>
   <string name="v7_preference_off">AUS</string>
   <string name="v7_preference_on">AN</string>
+  <string name="var_font_switch_title">Systemweite variable Schriftart</string>
   <string name="verify_apps_over_usb_summary">Über ADB/ADT installierte Apps auf Schadverhalten prüfen</string>
   <string name="verify_apps_over_usb_title">Apps über USB prüfen</string>
   <string name="version_text">Version %1$s</string>
@@ -9069,6 +9120,7 @@ Bitte lesen Sie die Datenschutzerklärung Ihres Dienstanbieters."</string>
   <string name="wifi_ap_choose_5G">5-GHz-Band</string>
   <string name="wifi_ap_choose_dual">Beide</string>
   <string name="wifi_ap_choose_vendor_both">Beide</string>
+  <string name="wifi_ap_choose_vendor_dual_band">Dualband</string>
   <string name="wifi_ap_hidden_ssid">Seine SSID ausblenden</string>
   <string name="wifi_ap_prefer_5G">5-GHz-Band bevorzugt</string>
   <string name="wifi_ap_ssid_off">Aus</string>
@@ -9078,12 +9130,12 @@ Bitte lesen Sie die Datenschutzerklärung Ihres Dienstanbieters."</string>
   <string name="wifi_ask_disable">%s will WLAN ausschalten</string>
   <string name="wifi_ask_enable">%s will WLAN anschalten</string>
   <string name="wifi_assist">WLAN-Assistent</string>
-  <string name="wifi_assistant">Automatische Auswahl der besten Netzwerke</string>
+  <string name="wifi_assistant">Verbunden bleiben</string>
   <string name="wifi_assistant_auto_confirm_data_help">Sie können diese Funktion unter Einstellungen &gt; WLAN &gt; WLAN-Assistent ausschalten.</string>
   <string name="wifi_assistant_auto_confirm_data_message">Mobiles Datennetz verwenden, wenn Ihr Gerät keine Internetverbindung über WLAN herstellen kann</string>
   <string name="wifi_assistant_card_message">Automatisch mit verfügbaren Netzwerken über den WLAN-Assistenten verbinden</string>
-  <string name="wifi_assistant_confirm_always">Nicht mehr anzeigen</string>
-  <string name="wifi_assistant_confirm_connection_title">Bestes Netz automatisch wählen.</string>
+  <string name="wifi_assistant_confirm_always">Nicht mehr fragen</string>
+  <string name="wifi_assistant_confirm_connection_title">Internetverbindung nicht möglich</string>
   <string name="wifi_assistant_data_prompt">Eingabeaufforderung aktivieren</string>
   <string name="wifi_assistant_data_prompt_summary">Warnung zur Datennutzung beim Wechsel zu mobilen Daten anzeigen</string>
   <string name="wifi_assistant_description">"Nach Einschaltung der Funktion:
@@ -9093,17 +9145,22 @@ Bitte lesen Sie die Datenschutzerklärung Ihres Dienstanbieters."</string>
   <string name="wifi_assistant_disconnect">Trennen</string>
   <string name="wifi_assistant_explanation_message">Google WLAN-Assistent erkennt die Ihnen zur Verfügung stehenden Netzwerke und verbindet Ihr Gerät mit demjenigen mit der höchsten Geschwindigkeit und Zuverlässigkeit.</string>
   <string name="wifi_assistant_explicitly_confirm_data_message">Dieses WLAN hat keinen Zugang zum Internet. Stattdessen mobile Daten verwenden?</string>
-  <string name="wifi_assistant_explicitly_confirm_disconnect">Dieses WLAN hat keinen Zugang zum Internet. Jetzt trennen?</string>
-  <string name="wifi_assistant_explicitly_confirm_wifi_message">Dieses WLAN hat keinen Zugang zum Internet. Andere WLAN sind verfügbar. Netzwerke wechseln?</string>
+  <string name="wifi_assistant_explicitly_confirm_disconnect">Vom WLAN trennen?</string>
+  <string name="wifi_assistant_explicitly_confirm_wifi_message">Anscheinend sind andere Netzwerke verfügbar. Netzwerke wechseln?</string>
   <string name="wifi_assistant_intro_setup">Vorstellung WLAN Assistent</string>
   <string name="wifi_assistant_keep_connection">Verbunden bleiben</string>
+  <string name="wifi_assistant_keep_wifi_connection">Nein danke</string>
   <string name="wifi_assistant_off">Aus</string>
   <string name="wifi_assistant_on">An</string>
   <string name="wifi_assistant_permission_accepted">Sie haben dem Google WLAN-Assistenten erlaubt, eine VPN-Verbindung einzurichten. Das bedeutet, dass diese App den Netzwerkverkehr überwachen kann.</string>
+  <string name="wifi_assistant_prompt">Verbunden bleiben</string>
+  <string name="wifi_assistant_prompt_button">Verstanden</string>
+  <string name="wifi_assistant_prompt_checkbox">Erlaubnis zur Nutzung mobiler Daten einholen</string>
+  <string name="wifi_assistant_prompt_summary">Ihr Gerät stellt eine Verbindung zu anderen verfügbaren WLANs her oder verwendet mobile Daten, wenn Ihr aktuelles WLAN keine Internetverbindung herstellen kann.</string>
   <string name="wifi_assistant_setting_summary">Google WLAN-Assistent</string>
   <string name="wifi_assistant_setting_title">WLAN-Assistent</string>
   <string name="wifi_assistant_setup_wifi_assistant">Einrichten</string>
-  <string name="wifi_assistant_summary">Wechsel zwischen WLAN und mobilen Daten bei schlechter WLAN-Verbindung</string>
+  <string name="wifi_assistant_summary">Mit anderen verfügbaren WLANs verbinden oder mobile Daten verwenden, wenn Ihr aktuelles WLAN keine Internetverbindung herstellen kann.</string>
   <string name="wifi_assistant_switch_data">Mobile Daten nutzen</string>
   <string name="wifi_assistant_switch_wifi">Netzwerke wechseln</string>
   <string name="wifi_assistant_title">WLAN-Assistent</string>
@@ -9583,13 +9640,13 @@ Drücken Sie <b>Zurück</b>, um eine Verbindung zu einem anderen WLAN herzustell
   <string name="wifi_time_remaining">%1$s verbleiben</string>
   <string name="wifi_title">WLAN-Einstellungen</string>
   <string name="wifi_traffic_priority">WLAN-Geschwindigkeitsmodus</string>
-  <string name="wifi_traffic_priority_extreme">Extremmodus</string>
-  <string name="wifi_traffic_priority_extreme_summary">Aktuelle App hat Priorität für die Nutzung von Netzwerkressourcen. Dies kann dazu führen, dass Hintergrund-Apps das Netzwerk nicht nutzen können.</string>
+  <string name="wifi_traffic_priority_extreme">Schnelle Verbindung</string>
+  <string name="wifi_traffic_priority_extreme_summary">Den Apps, die Sie gerade verwenden, Priorität geben und gleichzeitig die Download-Geschwindigkeit im Hintergrund verringern</string>
   <string name="wifi_traffic_priority_off">Aus</string>
   <string name="wifi_traffic_priority_on">An</string>
-  <string name="wifi_traffic_priority_regular">Normaler Modus</string>
-  <string name="wifi_traffic_priority_regular_summary">Herunterladen im Hintergrund teilt die Netzwerkressourcen mit der aktuellen App</string>
-  <string name="wifi_traffic_priority_summary">Aktuelle Netzwerkverkehrspriorität intelligent anpassen</string>
+  <string name="wifi_traffic_priority_regular">Ausgewogen</string>
+  <string name="wifi_traffic_priority_regular_summary">Apps und Hintergrund-Downloads die gleiche Bandbreite zuweisen</string>
+  <string name="wifi_traffic_priority_summary">Bandbreite für Apps und Hintergrund-Downloads zuweisen</string>
   <string name="wifi_turned_on_message">WLAN eingeschaltet</string>
   <string name="wifi_type_approval_dialog_title">Regulatorische Informationen</string>
   <string name="wifi_type_approval_title">Genehmigungstyp</string>
@@ -9684,6 +9741,7 @@ Diese Funktion wird automatisch ausgeschaltet, wenn der Ladevorgang nicht innerh
   <string name="wizard_finish">Fertig</string>
   <string name="wizard_next">Weiter</string>
   <string name="wlan_to_cellular_hint_title">WLAN-&gt;Mobilfunktipp</string>
+  <string name="wlan_scanner_unresizeble">WLAN-Einstellungen können im Geteilter Bildschirm-Modus nicht angezeigt werden</string>
   <string name="work_alarm_ringtone_title">Standard-Arbeitsalarmton</string>
   <string name="work_mode_label">Arbeitsprofil</string>
   <string name="work_mode_off_summary">Apps und Benachrichtigungen sind aus</string>

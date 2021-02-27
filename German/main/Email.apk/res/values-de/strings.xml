@@ -76,7 +76,7 @@
   <string name="account_settings_preference_att_save_path">Standardspeicherort für Anhänge</string>
   <string name="account_settings_preference_head_icon">Profilfotos</string>
   <string name="account_settings_preference_notify">Benachrichtigen</string>
-  <string name="account_settings_retry_label">Versuchen zu Synchronisieren</string>
+  <string name="account_settings_retry_label">Synchronisieren versuchen</string>
   <string name="account_settings_retry_summary">Tippen, um Konto zu synchronisieren</string>
   <string name="account_settings_ringtone">Benachrichtigungston</string>
   <string name="account_settings_servers">Servereinstellungen</string>
@@ -403,6 +403,7 @@
   <string name="conversation_quick_button_disapprove">Abbrechen</string>
   <string name="conversation_quick_button_received">Empfangen</string>
   <string name="conversation_report_spam">Spam melden</string>
+  <string name="conversation_report_un_spam">Kein Spam</string>
   <string name="conversation_spam_dig_msg">Diese Nachricht als Spam markieren? Die Nachricht wird in den Ordner \"Spam\" verschoben und ihr Absender wird zur Sperrliste hinzugefügt.</string>
   <string name="conversation_spam_tips">Diese Nachricht als Spam markieren?</string>
   <string name="conversation_view">Unterhaltungsansicht</string>
@@ -491,6 +492,7 @@
   <string name="edit_signature">Signatur bearbeiten</string>
   <string name="editor_max_length_limit_hint">Die von Ihnen eingegebene Nachricht ist zu lang</string>
   <string name="email_address">E-Mail-Adresse</string>
+  <string name="email_no_snippet">[Diese Nachricht hat keinen Text]</string>
   <string name="email_setting">E-Mail</string>
   <string name="email_setting_keywords">Konten;Konto hinzufügen;Mailkonten;E-Mailkonto;E-Mailkonto hinzufügen;Vor dem Löschen bestätigen;Vor dem Senden bestätigen;Nachrichtenverlauf löschen;Weiterleiten;Konversationsansicht;E-Mailkonversation;Mail Akku;Feedback senden</string>
   <string name="email_sync_failed">E-Mail synchronisieren fehlgeschlagen</string>
@@ -597,6 +599,8 @@
   <string name="general_preference_text_zoom_large">Groß</string>
   <string name="general_preference_text_zoom_small">Klein</string>
   <string name="general_preference_text_zoom_tiny">Sehr klein</string>
+  <string name="general_preference_trash_contact">Spam-Prüfung</string>
+  <string name="general_preference_trash_contact_sum">Behandlung von Briefen von Absendern, die in großer Zahl gemeldet wurden</string>
   <string name="generic_attachment_problem">Datei wurde nicht hinzugefügt</string>
   <string name="get_database_exception">Zum Löschen der App-Daten gehen Sie zu Einstellungen &gt; System-Apps und versuchen Sie es erneut</string>
   <string name="get_oauth_code">Code abrufen</string>
@@ -710,8 +714,8 @@ Bitte bestätigen Sie, ob das App-Kennwort an ist. Falls es an ist, gehen Sie bi
   <string name="mailbox_name_display_starred">Favoriten</string>
   <string name="mailbox_name_display_trash">Papierkorb</string>
   <string name="mailbox_name_display_unread">Ungelesen</string>
-  <string name="mailbox_setting_preference_sync_summary_close">Synchronisierung: Aus</string>
-  <string name="mailbox_setting_preference_sync_summary_open">Synchronisierung: Ein</string>
+  <string name="mailbox_setting_preference_sync_summary_close">Synchronisation: Aus</string>
+  <string name="mailbox_setting_preference_sync_summary_open">Synchronisation: Ein</string>
   <string name="mailbox_settings_activity_title">Synchronisationseinstellungen</string>
   <string name="mailbox_settings_activity_title_with_mailbox">Synchronisationseinstellungen (%s)</string>
   <string name="mailbox_settings_mailbox_sync_window_label">Synchronisiere E-Mail von</string>
@@ -725,17 +729,48 @@ Bitte bestätigen Sie, ob das App-Kennwort an ist. Falls es an ist, gehen Sie bi
   <string name="mark_unread">Als ungelesen markieren</string>
   <string name="me_object_pronun">ich</string>
   <string name="me_subject_pronun">ich</string>
-  <string name="meeting_accepted">Akzeptiert: %s</string>
-  <string name="meeting_allday">Wann: %s (ganztägig)</string>
-  <string name="meeting_allday_recurring">Wann: %s (ganztägig, wiederholend)</string>
-  <string name="meeting_canceled">Abgebrochen: %s</string>
-  <string name="meeting_declined">Abgelehnt: %s</string>
-  <string name="meeting_recurring">Wann: %s (wiederkehrend)</string>
+  <string name="meeting_accepted">"
+  Akzeptiert:
+  %s
+"</string>
+  <string name="meeting_allday">"
+  Wann: 
+  %s
+  (ganztägig)
+"</string>
+  <string name="meeting_allday_recurring">"
+  Wann:
+  %s
+  (ganztägig, wiederkehrend)"</string>
+  <string name="meeting_canceled">"
+  Abgebrochen:
+  %s
+"</string>
+  <string name="meeting_declined">"
+  Abgelehnt:
+  %s
+"</string>
+  <string name="meeting_recurring">"
+  Wann:
+  %s
+  (wiederkehrend)
+"</string>
   <string name="meeting_responded_failed">Keine Antwort</string>
-  <string name="meeting_tentative">Vorläufig: %s</string>
-  <string name="meeting_updated">Aktualisiert: %s</string>
-  <string name="meeting_when">Wann: %s</string>
-  <string name="meeting_where">Wo: %s</string>
+  <string name="meeting_tentative">"
+  Vorläufig:
+  %s
+"</string>
+  <string name="meeting_updated">"
+  Aktualisiert:
+  %s
+"</string>
+  <string name="meeting_when">"
+  Wann:
+  %s
+"</string>
+  <string name="meeting_where">"Wo:
+  %s
+"</string>
   <string name="menu_att_mgr">Anhänge</string>
   <string name="menu_att_mgr_order_default">Zuletzt angesehen</string>
   <string name="menu_att_mgr_order_rev_date">Datum</string>
@@ -841,6 +876,7 @@ Versuchen Sie einen anderen Posteingang."</string>
   <string name="ntes_do_not_sms_uplink">Senden Sie eine SMS von der zugehörigen Telefonnummer und tippen Sie dann auf \"Nachricht gesendet\".</string>
   <string name="ntes_had_send">Nachricht gesendet</string>
   <string name="ntes_had_send_to_content">Wenn Sie bereits eine SMS von der zugehörigen Telefonnummer gesendet haben, tippen Sie auf \"Nachricht gesendet\", um fortzufahren.</string>
+  <string name="ntes_login_auth_too_much">Die Anzahl Ihrer Bestätigungscodes hat die Obergrenze von 5 erreicht. Auf der Webseite bei Ihrer NetEase-Mailbox anmelden, um nicht verwendete Bestätigungscodes zu löschen</string>
   <string name="ntes_login_error_message" formatted="false">Keine Kontoinformation erhalten (Fehler %s). %s.</string>
   <string name="ntes_password_error_hint">Wenn bei der Eingabe Ihres Passworts Fehler auftreten, schließen Sie diese Seite und öffnen Sie sie erneut.</string>
   <string name="ntes_phone_send">Textnachricht von der zugehörigen Telefonnummer senden</string>
@@ -1074,9 +1110,21 @@ Versuchen Sie einen anderen Posteingang."</string>
   <string name="quick_search_add_account">Konto hinzufügen</string>
   <string name="quick_search_conversation_list">Hauptschnittstelle</string>
   <string name="quick_search_email_setting">E-Maileinstellungen</string>
+  <string name="quote_divider_1">---- Ursprüngliche Nachricht ----</string>
+  <string name="quote_divider_11">---- Originalnachricht ----</string>
+  <string name="quote_divider_12">---- Ursprüngliche Nachricht ----</string>
+  <string name="quote_divider_2">---- Ursprüngliche Nachricht ----</string>
+  <string name="quote_divider_3">---- Originalnachricht ----</string>
+  <string name="quote_divider_4">---- Originale E-Mail ----</string>
+  <string name="quote_divider_5">---- Trennlinie als Referenz ----</string>
+  <string name="quote_divider_6">--- Original ---</string>
   <string name="quote_divider_7">Originalnachricht</string>
+  <string name="quote_divider_huawei_zh">Vom Huawei-Telefon</string>
+  <string name="quote_divider_ipad_zh">Mein iPad</string>
   <string name="quote_divider_iphone_en">Von meinem iPhone gesendet</string>
   <string name="quote_divider_iphone_fwd_en">Anfang weitergeleitete Nachricht:</string>
+  <string name="quote_divider_iphone_fwd_zh">Folgendes ist eine weitergeleitete E-Mail:</string>
+  <string name="quote_divider_qq_en">---- Original ----</string>
   <string name="quoted_text">Zitierten Text einfügen</string>
   <string name="quoted_text_label">Zitierter Text</string>
   <string name="re_download_message_button">Tippen, um erneut runterzuladen</string>
@@ -1212,7 +1260,7 @@ oder sehen Sie sich die Nachricht auf Ihrem Computer an."</string>
   <string name="server_cet_issuer_no_trust">Aussteller des Zertifikats ist keine vertrauenswürdige Organisation.</string>
   <string name="server_cet_subject_cn">"Unterstützte Domain: "</string>
   <string name="server_cet_title">Zertifikatsdetails</string>
-  <string name="server_log">Dienstvereinbarung</string>
+  <string name="server_log">Servicevertrag</string>
   <string name="service_protocol_discribe">&lt;u&gt;Ich habe den WPS Mail-Servicevertrag gelesen und bin damit einverstanden&lt;/u&gt;</string>
   <string name="service_protocol_title">Servicevertrag</string>
   <string name="set_network">Netzwerk konfigurieren</string>
@@ -1235,6 +1283,10 @@ oder sehen Sie sich die Nachricht auf Ihrem Computer an."</string>
   <string name="sms_tip">Authentifizierung fehlgeschlagen. Prüfen Sie, ob die Antiviren-Software Ihre SMS abfängt.</string>
   <string name="smtp_password_error">Passwort des Postausgangsservers ist ungültig</string>
   <string name="sort_attachment">Sortiere nach</string>
+  <string name="special_text_1">schrieb:</string>
+  <string name="special_text_2">schrieb：</string>
+  <string name="special_text_3">schrieb:</string>
+  <string name="special_text_4">schrieb：</string>
   <string name="special_text_5">schrieb:</string>
   <string name="special_text_sender_en">Absender</string>
   <string name="storage">Speicher</string>
@@ -1368,6 +1420,7 @@ Tippen Sie auf "<b>Jetzt synchronisieren</b>, um Ihre E-Mails einmalig zu synchr
   <string name="wait_for_sync_title">Auf Synchronisation warten</string>
   <string name="wait_help_context">warten</string>
   <string name="wait_while_update_db">Datenbank aktualisieren…</string>
+  <string name="web_view_load_error_tip">Einige Probleme sind aufgetreten, und der Text dieser E-Mail kann nicht richtig angezeigt werden. Wenn Sie auf dieses Problem stoßen, fügen Sie es bitte der QQ-Gruppe 952315061 hinzu, um uns Feedback zu geben.</string>
   <string name="webview_logout">Sie können versuchen, sich erneut anzumelden</string>
   <string name="webview_logout_cancel">Jetzt nicht</string>
   <string name="webview_logout_sure">Erneut versuchen</string>
@@ -1388,7 +1441,7 @@ Tippen Sie auf "<b>Jetzt synchronisieren</b>, um Ihre E-Mails einmalig zu synchr
   <string name="xiaomi_email">E-Mail</string>
   <string name="xiaomi_market_sdk_update_dialog_cancel">Jetzt nicht</string>
   <string name="xiaomi_market_sdk_update_dialog_ok">Aktualisieren</string>
-  <string name="xiaomi_market_sdk_update_dialog_title">Aktualisierung verfügbar</string>
+  <string name="xiaomi_market_sdk_update_dialog_title">%s neue Version</string>
   <string name="xiaomi_under_certification">Autorisieren…</string>
   <string name="yes">Ja</string>
   <string name="you_are_in_mobile_network">Protokoll über mobile Daten senden?</string>
