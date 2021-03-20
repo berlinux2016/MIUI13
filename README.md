@@ -15,7 +15,7 @@ Benny1995, berlinux2016, bReathl3sS, cpu82, energY8989, FireEmerald, he-leon, He
 
 ## Reporting issues
 
-Use the [Github Issue tracker](https://github.com/berlinux2016/MIUI12_5/issues) to report a bug or the following [forum thread](https://xiaomi.eu/community/forums/german-translation.8/).
+Use the [Github Issue tracker](https://github.com/berlinux2016/MIUI13/issues) to report a bug or the following [forum thread](https://xiaomi.eu/community/forums/german-translation.8/).
 
 
 ## Submitting fixes
