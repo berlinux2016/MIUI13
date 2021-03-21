@@ -1,5 +1,6 @@
 # ![logo](https://i41.servimg.com/u/f41/18/23/59/53/miui_114.png)
 # MIUI V13 German Translation
+Presentation in the second quarter of 2021
 
 [![GitHub issues](https://img.shields.io/github/issues-raw/berlinux2016/MIUI13.svg)](https://github.com/berlinux2016/MIUI13/issues "GitHub issues")
 
