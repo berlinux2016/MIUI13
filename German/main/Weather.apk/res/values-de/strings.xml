@@ -8,7 +8,7 @@
   <string name="privacy_policy_msg_for_gp"><Data>Diese App enthält folgende Funktionen: &lt;br/>• Wetterspezifische Informationen für Ihren Standort&lt;br/>• Wettervorhersagen&lt;br/>• Wetterwarnungen&lt;br/>&lt;br/>Wetter muss die notwendigen persönlichen Informationen, einschl. Standortdaten, sammeln, um diese Funktionen verfügbar zu machen, auch wenn die App geschlossen oder nicht in Gebrauch ist. Wie wir mit den Informationen umgehen, die wir gemäß unserer &lt;a href=\"%1$s\">Datenschutzerklärung&lt;/a> sammeln, erfahren Sie hier. Lesen und akzeptieren Sie unsere &lt;a href=\"%2$s\">Nutzervereinbarung f&lt;/a> und &lt;a href=\"%3$s\">Datenschutzerklärung&lt;/a>, bevor Sie Wetter verwenden. Sie können Ihre Zustimmung zu den Datenschutzvereinbarungen von Wetter jederzeit in den Einstellungen zurückziehen.</Data></string>
   <string name="revoke_fail">Netzwerkverbindung herstellen nicht möglich</string>
   <string name="revoke_privacy_policy_title">Zustimmung zurücknehmen</string>
-  <string name="weather_aqi_full_air_quality_forcast">Vollständige Luftqualitätprognose</string>
+  <string name="weather_aqi_full_air_quality_forcast">Vollständige Luftqualitätsprognose</string>
   <string name="weather_more_air_quality">Mehr zur Luftqualität</string>
   <string name="welcome_app_title">Willkommen bei Wetter!</string>
 
@@ -74,11 +74,11 @@
   <string name="already_voted">Bereits abgestimmt</string>
   <string name="already_voted_toast">Sie haben heute bereits abgestimmt</string>
   <string name="app_name">Wetter</string>
-  <string name="aqi_15_days_desc">%d-Tage AQI-Vorhersage</string>
-  <string name="aqi_24_hours_desc">%d-Stunden AQI-Vorhersage</string>
-  <string name="aqi_48_hours_desc">%d-Stunden AQI-Vorhersage</string>
-  <string name="aqi_5_days_desc">%d-Tage AQI-Vorhersage</string>
-  <string name="aqi_alert_channel_name">AQI-Warnungen</string>
+  <string name="aqi_15_days_desc">%d-Tage LQI-Vorhersage</string>
+  <string name="aqi_24_hours_desc">%d-Stunden LQI-Vorhersage</string>
+  <string name="aqi_48_hours_desc">%d-Stunden LQI-Vorhersage</string>
+  <string name="aqi_5_days_desc">%d-Tage LQI-Vorhersage</string>
+  <string name="aqi_alert_channel_name">LQI-Warnungen</string>
   <string name="aqi_desc">Luftqualität</string>
   <string name="aqi_detail_24_hours">24-Stunden-Vorhersage</string>
   <string name="aqi_detail_5_days">5-Tage-Vorhersage</string>
@@ -91,7 +91,7 @@
   <string name="aqi_detail_unit">Einheit: µg/m3(CO: mg/m3)</string>
   <string name="aqi_fifteen_dates_time_format">d.M.</string>
   <string name="aqi_first_sub_desc_locate">Station: %1$s (%2$s entfernt)</string>
-  <string name="aqi_first_sub_desc_no_locate">Durchschnitts-AQI in %1$s</string>
+  <string name="aqi_first_sub_desc_no_locate">Durchschnitts-LQI in %1$s</string>
   <string name="aqi_publish_source">Um %1$s von CNEMC aktualisiert</string>
   <string name="aqi_publish_time">Aktualisiert: %1$s</string>
   <string name="aqi_quality_ambient_air_quality">Luftqualität in der Nähe</string>
@@ -108,7 +108,7 @@
   <string name="aqi_quality_pm10_desc">Inhalierbare Grobpartikel</string>
   <string name="aqi_quality_pm25_desc">Feinpartikel</string>
   <string name="aqi_quality_so2_desc">Schwefeldioxid</string>
-  <string name="aqi_settings_summary">AQI-Warnungen</string>
+  <string name="aqi_settings_summary">LQI-Warnungen</string>
   <string name="aqi_station_best_quality_station">Beste in der Umgebung</string>
   <string name="aqi_station_min_distance_station">Nächste Station</string>
   <string name="aqi_top_pollution">Maximale Verschmutzung</string>
@@ -228,7 +228,7 @@ Nach unten ziehen, um zu aktualisieren, oder prüfen Sie die Netzwerkeinstellung
   <string name="feedback_report_privacy_msg">Bericht enthält Ihre Standortinformationen</string>
   <string name="feedback_result_fail_no_choice">Aktuelle Wetterbedingungen auswählen</string>
   <string name="feedback_result_fail_no_reason">Danke für Ihr Feedback!</string>
-  <string name="feedback_result_fail_same_type">Sieht aus, als unterscheide sich Ihr Bericht nicht vom aktuellen Wetter. Erneut versuchen.</string>
+  <string name="feedback_result_fail_same_type">Anscheinend unterscheidet sich Ihr Bericht nicht vom aktuellen Wetter. Erneut versuchen.</string>
   <string name="feedback_result_interval_time_too_short">%1$s Sekunden nach dem Feedback</string>
   <string name="feedback_result_success">Erfolgreich übermittelt, vielen Dank für Ihr Feedback</string>
   <string name="feedback_sand">Sand</string>
@@ -236,6 +236,7 @@ Nach unten ziehen, um zu aktualisieren, oder prüfen Sie die Netzwerkeinstellung
   <string name="feedback_sunny">Sonnig</string>
   <string name="first_start_network_msg">Diese App benötigt eine Internetverbindung und Ihren Standort, um ordnungsgemäß ausgeführt zu werden</string>
   <string name="first_start_network_title">Internetzugriff und Standortabfrage</string>
+  <string name="fmt_chinese_date">d.M.</string>
   <string name="fmt_date_day">d.</string>
   <string name="fmt_date_long_month_day">d. MMMM</string>
   <string name="fmt_date_long_year_month_day">d. MMMM yyyy</string>
@@ -310,7 +311,7 @@ Nach unten ziehen, um zu aktualisieren, oder prüfen Sie die Netzwerkeinstellung
   <string name="international_details_humidity">LUFTFEUCHTIGKEIT</string>
   <string name="international_details_humidity_title">LUFTFEUCHTIGKEIT</string>
   <string name="international_details_pressure_title">LUFTDRUCK</string>
-  <string name="international_details_real_feel_title">REAL FEAL®</string>
+  <string name="international_details_real_feel_title">REAL FEEL®</string>
   <string name="international_details_uv_index_title">UV-INDEX</string>
   <string name="international_details_wind_title">WIND</string>
   <string name="international_version_first_start_network_msg">"Durch die Nutzung dieses Produkts stimmen Sie Xiaomi's %1$s zu. Diese App muss sich mit dem Netzwerk verbinden und die von Ihnen genannten Ortsinformationen hochladen, um die entsprechenden Ortswetterdaten zu erhalten. Tippen Sie \"Zustimmen\", um fortzufahren."</string>
@@ -416,7 +417,7 @@ Nach unten ziehen, um zu aktualisieren, oder prüfen Sie die Netzwerkeinstellung
   <string name="no_vote_ratio">%1$s%% dagegen</string>
   <string name="noon">Mittag</string>
   <string name="not_set">Nicht festgelegt</string>
-  <string name="notif_aqi_title">AQI in %2$s heute: %1$d </string>
+  <string name="notif_aqi_title">LQI in %2$s heute: %1$d </string>
   <string name="notif_weather_title">In %2$s heute: %1$s</string>
   <string name="open">Jetzt öffnen</string>
   <string name="open_browser">Im Browser öffnen</string>
@@ -570,10 +571,10 @@ Nach unten ziehen, um zu aktualisieren, oder prüfen Sie die Netzwerkeinstellung
   <string name="the_arbor_day">Tag des Baumes</string>
   <string name="the_armed_forces_day">Tag der Streitkräfte</string>
   <string name="the_armys_day">Tag der Armee</string>
-  <string name="the_childrens_day">Kindertag</string>
-  <string name="the_chinese_youth_day">Weltjugendtag</string>
+  <string name="the_childrens_day">Tag der Kinder</string>
+  <string name="the_chinese_youth_day">Tag der Jugend</string>
   <string name="the_christmas_day">Weihnachten</string>
-  <string name="the_double_ninth_festival">Chongyang-Fest</string>
+  <string name="the_double_ninth_festival">Chongyang (Doppel-9-Fest)</string>
   <string name="the_dragon_boat_festival">Drachenbootfestival</string>
   <string name="the_easter_day">Ostern</string>
   <string name="the_eve_of_the_spring_festival">Vorabend des Frühlingsfests</string>
@@ -589,22 +590,22 @@ Nach unten ziehen, um zu aktualisieren, oder prüfen Sie die Netzwerkeinstellung
   <string name="the_national_day">Nationalfeiertag</string>
   <string name="the_national_father_day">Vatertag</string>
   <string name="the_new_years_day">Neujahr</string>
-  <string name="the_night_of_sevens">Nacht der Siebener</string>
-  <string name="the_partys_day">Tag der Partys</string>
+  <string name="the_night_of_sevens">Qixi (Doppel-7-Fest)</string>
+  <string name="the_partys_day">Tag der Partei</string>
   <string name="the_peace_day">Tag des Friedens</string>
   <string name="the_retrocession_day">Tag der Retrozession</string>
   <string name="the_second_day">Zweiter Tag</string>
   <string name="the_seventh_day">Siebter Tag</string>
   <string name="the_sixth_day">Sechster Tag</string>
-  <string name="the_spirit_festival">Seelen Fest</string>
+  <string name="the_spirit_festival">Geisterfest</string>
   <string name="the_spring_festival">Frühlingsfest</string>
-  <string name="the_teachers_day">Lehrertag</string>
+  <string name="the_teachers_day">Tag der Lehrer</string>
   <string name="the_third_day">Dritter Tag</string>
-  <string name="the_tw_childrens_day">Kindertag</string>
+  <string name="the_tw_childrens_day">Tag der Kinder</string>
   <string name="the_tw_youth_day">Tag der Jugend</string>
   <string name="the_united_nations_day">Tag der Vereinten Nationen</string>
   <string name="the_valentines_day">Valentinstag</string>
-  <string name="the_water_lantern_festival">Chinesisches Laternenfest</string>
+  <string name="the_water_lantern_festival">Laternenfestival</string>
   <string name="thursday">Donnerstag</string>
   <string name="thursday_short">Do</string>
   <string name="thursday_shortest">D</string>
@@ -667,8 +668,10 @@ Nach unten ziehen, um zu aktualisieren, oder prüfen Sie die Netzwerkeinstellung
   <string name="wind_direction_no_data">Windstärke</string>
   <string name="wind_miles_unit">%1$s m/s</string>
   <string name="wind_unit">%1$s km/h</string>
-  <string name="xiaomi_weather_description_content">Wetter liefert Ihnen genaue Wetterinfos. Ohne diese App funktionieren die Statusleiste und das Startbildschirm-Wetter-Widget nicht richtig. Vergewissern Sie sich, dass Sie auf diese Funktionen verzichten können, bevor Sie die App deinstallieren.</string>
-  <string name="xiaomi_weather_description_title">Über Wetter</string>
+  <string name="xiaomi_weather_description_content">Wetter ist eine System-App. Nach Deinstallation der App können Sie keine Wetterinfos mehr anzeigen oder zugehörige Widgets verwenden.</string>
+  <string name="xiaomi_weather_description_content_remove">Wetter ist eine System-App. Sie können keine Wetterinfos anzeigen oder zugehörige Widgets verwenden, wenn Sie die Startseitenverknüpfung entfernen.</string>
+  <string name="xiaomi_weather_description_title">\"Wetter\" deinstallieren?</string>
+  <string name="xiaomi_weather_description_title_remove">\"Wetter\" vom Startbildschirm entfernen?</string>
   <string name="yes_vote_ratio">%1$s%% dafür</string>
   <string name="yesterday">Gestern</string>
   <string name="your_location">Ihr Standort</string>

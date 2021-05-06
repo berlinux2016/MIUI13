@@ -1,5 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+  <string name="do_not_show_again">Nicht mehr anzeigen</string>
+  <string name="scam_cancle">Abbrechen</string>
+  <string name="scam_message">Sie richten eine Rufumleitung ein. Danach werden alle Ihre eingehenden Anrufe von der Rufnummer %1$s entgegengenommen. Wenn Sie nicht im Besitz dieser Weiterleitungsnummer sind, besteht die Gefahr, dass Sie Ihre persönlichen Daten preisgeben oder die Sicherheit Ihres Eigentums gefährden. Verwenden Sie diese Funktion mit Bedacht.</string>
+  <string name="scam_message_2">**21*Weiterleitungsnummer# ist der Code für die Anrufweiterleitung. Wenden Sie sich an Ihren Anbieter, wenn Sie Fragen haben.</string>
+  <string name="scam_ok">Wählen</string>
+  <string name="scam_title">Hinweis auf Betrugsrisiko</string>
+
   <string name="abc_action_bar_home_description">Zur Startseite</string>
   <string name="abc_action_bar_up_description">Nach oben</string>
   <string name="abc_action_menu_overflow_description">Mehr Optionen</string>
@@ -24,7 +31,7 @@
   <string name="abc_shareactionprovider_share_with_application">Teilen mit %s</string>
   <string name="abc_toolbar_collapse_description">Einklappen</string>
   <string name="accessibility_call_muted">Anruf stummgeschaltet</string>
-  <string name="accessibility_display_daltonizer_preference_subtitle">Diese Funktion ist experimentell und kann die Leistung beeinträchtigen</string>
+  <string name="accessibility_display_daltonizer_preference_subtitle">Mit der Farbkorrektur können Sie einstellen, wie die Farben auf Ihrem Gerät angezeigt werden</string>
   <string name="accessibility_display_daltonizer_preference_title">Farbkorrektur</string>
   <string name="accessibility_manual_zen_less_time">Weniger Zeit</string>
   <string name="accessibility_manual_zen_more_time">Mehr Zeit</string>
@@ -38,9 +45,9 @@
   <string name="accessibility_wifi_three_bars">WLAN 3 Balken</string>
   <string name="accessibility_wifi_two_bars">WLAN 2 Balken</string>
   <string name="accessibility_work_profile_app_description">Arbeit %s</string>
-  <string name="accessor_expires_text">Mietvertrag läuft ab am %s</string>
+  <string name="accessor_expires_text">Freigabe läuft am %s ab</string>
   <string name="accessor_info_title">Apps, die Daten teilen</string>
-  <string name="accessor_no_description_text">Die App liefert keine Beschreibung.</string>
+  <string name="accessor_no_description_text">Keine von der App bereitgestellte Beschreibung verfügbar.</string>
   <string name="active_input_method_subtypes">Aktive Eingabemethoden</string>
   <string name="adb_device_fingerprint_title_format">Gerätefingerabdruck: %1$s</string>
   <string name="adb_device_forget">Vergessen</string>
@@ -118,7 +125,7 @@
   <string name="block_number">Nummer hinzufügen</string>
   <string name="blocked_numbers">Blockierte Nummern</string>
   <string name="blocked_numbers_block_emergency_number_message">Notrufnummer kann nicht blockiert werden</string>
-  <string name="blocked_numbers_butter_bar_body">Nachdem Sie eine Notrufnummer gewählt oder eine SMS gesendet haben, wird die Sperrung deaktiviert, um sicherzustellen, dass die Notrufdienste Sie kontaktieren können</string>
+  <string name="blocked_numbers_butter_bar_body">Wenn Sie eine Notrufnummer gewählt oder eine SMS gesendet haben, wird die Sperrung deaktiviert, um sicherzustellen, dass die Notrufdienste Sie kontaktieren können</string>
   <string name="blocked_numbers_butter_bar_button">Jetzt wieder aktivieren</string>
   <string name="blocked_numbers_butter_bar_title">Sperrliste ist aus</string>
   <string name="blocked_numbers_msg">Sie erhalten keine Anrufe oder Nachrichten von gesperrten Nummern</string>
@@ -210,6 +217,7 @@ Abtastrate"</string>
   <string name="bluetooth_select_a2dp_codec_type_dialog_title">Bluetooth Audio Codec wählen</string>
   <string name="bluetooth_select_a2dp_codec_type_help_info">Ausgegraut bedeutet keine Unterstützung durch Telefon oder Headset</string>
   <string name="bluetooth_select_avrcp_version_dialog_title">Bluetooth AVRCP Version wählen</string>
+  <string name="bluetooth_select_map_version_dialog_title">Bluetooth MAP-Version auswählen</string>
   <string name="bluetooth_show_devices_without_names">Bluetooth-Geräte ohne Namen anzeigen</string>
   <string name="bluetooth_show_devices_without_names_summary">Bluetooth-Geräte ohne Namen (nur MAC-Adressen) werden angezeigt</string>
   <string name="bluetooth_talkback_headphone">Kopfhörer</string>
@@ -221,6 +229,7 @@ Abtastrate"</string>
   <string name="bugreport_in_power">Verknüpfung Fehlerbericht</string>
   <string name="bugreport_in_power_summary">Zeige eine Schaltfläche im Power-Menü, um einen Fehlerbericht zu erstellen</string>
   <string name="button_convert_fbe">Löschen und Konvertieren…</string>
+  <string name="cached_apps_freezer_device_default">Gerätestandard</string>
   <string name="cached_apps_freezer_disabled">Deaktiviert</string>
   <string name="cached_apps_freezer_enabled">Aktiviert</string>
   <string name="cached_apps_freezer_reboot_dialog_text">Ihr Gerät muss neu gestartet werden, damit diese Änderung wirksam wird. Jetzt neu starten oder abbrechen.</string>
@@ -386,7 +395,7 @@ Drücken Sie 'Löschen und Konvertieren…', um fortzufahren."</string>
   <string name="local_backup_password_toast_validation_failure">Fehler beim Erstellen des Sicherungspassworts</string>
   <string name="managed_user_title">Alle Arbeits-Apps</string>
   <string name="media_category">Medien</string>
-  <string name="media_transfer_this_device_name">Dieses Gerät</string>
+  <string name="media_transfer_this_device_name">Telefonlautsprecher</string>
   <string name="media_transfer_wired_device_name">Kabelgebundenes Audiogerät</string>
   <string name="media_transfer_wired_usb_device_name">Kabelgebundener Kopfhörer</string>
   <string name="missedcall_notification_public_version_title">Telefon</string>
@@ -429,6 +438,8 @@ Drücken Sie 'Löschen und Konvertieren…', um fortzufahren."</string>
   <string name="notification_channel_in_call_service_crash">Abgestürzte Telefon-Apps</string>
   <string name="notification_channel_incoming_call">Eingehende Anrufe</string>
   <string name="notification_channel_missed_call">Entgangene Anrufe</string>
+  <string name="notification_crashedInCallService_body">Deine Telefon-App \"%s\" ist abgestürzt. Der Anruf wurde mit der auf deinem Gerät vorinstallierten App fortgesetzt.</string>
+  <string name="notification_crashedInCallService_title">Abgestürzte Telefon-App</string>
   <string name="notification_disconnectedCall_body">Der Anruf mit %s wurde beendet, weil ein Notruf getätigt wurde.</string>
   <string name="notification_disconnectedCall_generic_body">Der Anruf wurde beendet, weil ein Notruf getätigt wurde.</string>
   <string name="notification_disconnectedCall_title">Anruf beendet</string>
@@ -605,7 +616,7 @@ Drücken Sie 'Löschen und Konvertieren…', um fortzufahren."</string>
   <string name="tethering_settings_not_available">Tethering-Einstellungen sind für diesen Benutzer nicht verfügbar</string>
   <string name="time_unit_just_now">Gerade eben</string>
   <string name="title_convert_fbe">Zu dateibasierter Verschlüsselung konvertieren</string>
-  <string name="toast_emergency_can_not_pull_call">Während eines Notrufs kannst du keine Anrufe annehmen.</string>
+  <string name="toast_emergency_can_not_pull_call">Während eines Notrufs können Sie keine Anrufe annehmen.</string>
   <string name="toast_make_video_call_failed">Videoanruf nicht möglich, falsches Nummernformat</string>
   <string name="toast_personal_call_msg">Persönliche Telefon-App wählen zum Anrufen</string>
   <string name="track_frame_time">Profil HWUI Rendering</string>
@@ -654,7 +665,7 @@ Drücken Sie 'Löschen und Konvertieren…', um fortzufahren."</string>
 Wenn du einen neuen Benutzer hinzufügst, muss dieser seinen Bereich einrichten.
 
 Jeder Benutzer kann Apps für alle anderen Benutzer aktualisieren. Bedienungshilfen-Einstellungen und -Dienste werden möglicherweise nicht auf den neuen Benutzer übertragen."</string>
-  <string name="user_add_user_message_short">"Wenn du einen neuen Benutzer hinzufügst, muss dieser seinen Bereich einrichten.
+  <string name="user_add_user_message_short">"Wenn Sie einen neuen Benutzer hinzufügen, muss dieser seinen Bereich einrichten.
 
 Jeder Benutzer kann Apps für alle anderen Benutzer aktualisieren."</string>
   <string name="user_add_user_title">Neuen Benutzer hinzufügen?</string>

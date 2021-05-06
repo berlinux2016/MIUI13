@@ -1,5 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+  <string name="audio_btn_mode_meeting">Konferenz</string>
+  <string name="audio_btn_mode_single">1 Teilnehmer</string>
+  <string name="audio_btn_trans">Chinesisch-Englisch-Übersetzung</string>
+  <string name="audio_dialog_mode_meeting">Konferenzmodus (Beta)</string>
+  <string name="audio_dialog_mode_meeting_exit">Nein danke</string>
+  <string name="audio_dialog_mode_meeting_sum">Im Konferenzmodus können Sie Stimmen von bis zu 4 verschiedenen Teilnehmern erkennen. In der Beta-Version können einige Erkennungsfehler auftreten.</string>
+  <string name="audio_dialog_mode_meeting_use">Starten</string>
+
   <string name="abc_action_bar_home_description">Zur Startseite</string>
   <string name="abc_action_bar_up_description">Nach oben</string>
   <string name="abc_action_menu_overflow_description">Mehr Optionen</string>
@@ -97,6 +105,7 @@
   <string name="cancel_alarm_description">Alarm beenden</string>
   <string name="check_in_todo_app">Aufgaben anzeigen</string>
   <string name="clearable_edittext_clear_description">Löschen</string>
+  <string name="close">Schließen</string>
   <string name="cloud_service_state_open_reminder">Synchronisation mit der Cloud einschalten, um Notizen zu synchronisieren</string>
   <string name="cloud_service_state_open_reminder_note_and_todo">Synchronisation mit der Cloud einschalten</string>
   <string name="cloud_trash_bin_title">Notizen in der Cloud löschen</string>
@@ -119,7 +128,7 @@
   <string name="date_calculate_today">0 Tage</string>
   <string name="date_picker_lunar">Traditioneller chin. Kalender</string>
   <string name="date_time_picker_alarm_reminder">Alarm</string>
-  <string name="date_time_picker_dialog_title">Datum und Uhrzeit einstellen</string>
+  <string name="date_time_picker_dialog_title">Datum und Zeit einstellen</string>
   <string name="date_time_picker_has_not_set_alarm">Alarm ist nicht eingestellt</string>
   <string name="date_time_picker_has_set_alarm">Alarm erfolgreich gesetzt</string>
   <string name="db_downgrade_clear_button">App-Daten löschen</string>
@@ -132,7 +141,7 @@
   <string name="dialog_button_confirm_delete">Löschen</string>
   <string name="dialog_button_continue_work">Fortfahren</string>
   <string name="dialog_button_move">Verschieben</string>
-  <string name="dialog_privacy_revoke_tips">Nachdem Sie die Autorisierung widerrufen haben, stoppt die App die Datenerfassung und alle zugehörigen Daten werden von den Servern gelöscht. Dies könnte die App praktisch unbrauchbar machen. Autorisierung trotzdem widerrufen? Um die Sicherheit Ihres Kontos zu gewährleisten, melden Sie sich bei i.mi.com an, bevor Sie die Autorisierung für Cloud-Dienste widerrufen.</string>
+  <string name="dialog_privacy_revoke_tips">Wenn Sie die Autorisierung widerrufen, stoppt die App die Datenerfassung und alle zugehörigen Daten werden von den Servern gelöscht. Dies könnte die App praktisch unbrauchbar machen. Autorisierung trotzdem widerrufen? Um die Sicherheit Ihres Kontos zu gewährleisten, melden Sie sich bei i.mi.com an, bevor Sie die Autorisierung für Cloud-Dienste widerrufen.</string>
   <string name="dialog_share_as_pic">Notiz als Bild teilen</string>
   <string name="dialog_share_as_text">Notiz als Text teilen</string>
   <string name="dlg_btn_set_password">Passwort festlegen</string>
@@ -219,12 +228,13 @@
   <string name="float_note_empty">Keine Notizen hier</string>
   <string name="float_note_title">Notizen</string>
   <string name="float_todo_guide_cancel">Abbrechen</string>
-  <string name="float_todo_guide_message">Mit einer Startbildschirm-Verknüpfung können Sie vom Rand des Bildschirms wischen, um Aufgaben anzuzeigen und zu erstellen. Verknüpfung jetzt erstellen?</string>
+  <string name="float_todo_guide_message">Mit einer Startbildschirm-Verknüpfung können Sie vom Bildschirmrand wischen, um Aufgaben anzuzeigen und zu erstellen. Verknüpfung jetzt erstellen?</string>
   <string name="float_todo_guide_message_v2">Mit Gesten können Sie Aufgaben anzeigen und erstellen, indem Sie vom Bildschirmrand wischen. Sie können diese Funktion in den Einstellungen ein- und ausschalten.</string>
   <string name="float_todo_guide_ok">Erstellen</string>
   <string name="float_todo_guide_ok_v2">Einschalten</string>
   <string name="float_todo_guide_title">Startbildschirm-Verknüpfung</string>
   <string name="float_todo_guide_title_v2">Geste</string>
+  <string name="fmt_chinese_date">d.M.</string>
   <string name="fmt_date_day">d.</string>
   <string name="fmt_date_long_month_day">d. MMMM</string>
   <string name="fmt_date_long_year_month_day">d. MMMM yyyy</string>
@@ -312,6 +322,7 @@
   <string name="merge_to_folder">Ordner erstellen</string>
   <string name="midnight">Nacht</string>
   <string name="mind_note_first_enter_guide">Tippen, um eine Merkhilfe zu erstellen</string>
+  <string name="miui_lite_open_mind_toast">Dieses Modell unterstützt Merkhilfe-Notizen nicht</string>
   <string name="miuix_appcompat_action_mode_deselect_all">Abwählen</string>
   <string name="miuix_appcompat_action_mode_select_all">Alle wählen</string>
   <string name="miuix_appcompat_action_mode_title_empty">Elemente wählen</string>
@@ -322,10 +333,13 @@
   <string name="miuix_appcompat_cloud_state_syncing">Mit der Cloud synchronisieren…</string>
   <string name="miuix_appcompat_confirm_description">Bestätigen</string>
   <string name="miuix_appcompat_delete_description">Löschen</string>
+  <string name="miuix_appcompat_deselect_all">Abwählen</string>
   <string name="miuix_appcompat_deselect_all_description">Alle abwählen</string>
   <string name="miuix_appcompat_search_action_mode_cancel">Abbrechen</string>
   <string name="miuix_appcompat_search_input_description">Suche</string>
+  <string name="miuix_appcompat_select_all">Alle wählen</string>
   <string name="miuix_appcompat_select_all_description">Alle wählen</string>
+  <string name="miuix_appcompat_select_item">Elemente wählen</string>
   <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Zum Aktualisieren herunterziehen</string>
   <string name="miuix_sbl_tracking_progress_labe_refreshed">Erfolgreich aktualisiert</string>
   <string name="miuix_sbl_tracking_progress_labe_refreshing">Aktualisieren…</string>
@@ -375,7 +389,7 @@
   <string name="not_set">Nicht festgelegt</string>
   <string name="note_description_content">Die Notiz-App ist ein großartiges Tool, um Ihre Ideen zu aufzunehmen. Sie verfügt über integrierte Erinnerungen und synchronisiert Ihre Elemente mit der Cloud, so dass Sie jederzeit und überall darauf zugreifen können. Stellen Sie sicher, dass Sie auf diese Funktionen verzichten können, bevor Sie die App löschen.</string>
   <string name="note_description_title">Über Notizen</string>
-  <string name="note_dual_screen_dialog_content">Sieht aus, als würden Sie jetzt Notizen auf Ihrem Computer bearbeiten. Um widersprüchliche Bearbeitung zu vermeiden, schließen Sie Notizen auf Ihrem Computer.</string>
+  <string name="note_dual_screen_dialog_content">Anscheinend bearbeiten Sie jetzt Notizen auf Ihrem Computer. Um widersprüchliche Bearbeitung zu vermeiden, schließen Sie Notizen auf Ihrem Computer.</string>
   <string name="note_dual_screen_dialog_title">Screen Combo verwenden…</string>
   <string name="note_gesture_guide_step1">Gedrückt halten, um eine Sprachnotiz zu erstellen</string>
   <string name="note_gesture_guide_step2">Notiz gedrückt halten und sie dann über eine andere Notiz ziehen, um einen Ordner zu erstellen</string>
@@ -391,7 +405,7 @@
   <string name="note_mindnote_entrance_hint_newversion">"Eingabe beginnen "</string>
   <string name="note_mindnote_entrance_icon_text">Merkhilfe erstellen</string>
   <string name="note_mindnote_entrance_icon_text_newversion">Merkhilfe erstellen</string>
-  <string name="note_sort_way">Auswählen, wie Sie Ihre Notizen sortieren möchten</string>
+  <string name="note_sort_way">Sortieren</string>
   <string name="notealert_enter">Notiz öffnen</string>
   <string name="notealert_ok">Ablehnen</string>
   <string name="notelist_menu_new">Neu</string>
@@ -416,7 +430,7 @@
   <string name="pc_date_time_picker_set_time">Zeit festlegen</string>
   <string name="pc_module_notes_name">Notizen</string>
   <string name="pc_module_todo_name">Aufgaben</string>
-  <string name="pc_note_dual_screen_dialog_content">Sieht aus, als würden Sie jetzt Notizen auf Ihrem Telefon bearbeiten. Um widersprüchliche Bearbeitung zu vermeiden, schließen Sie Notizen auf Ihrem Telefon.</string>
+  <string name="pc_note_dual_screen_dialog_content">Anscheinend bearbeiten Sie jetzt Notizen auf Ihrem Telefon. Um widersprüchliche Bearbeitung zu vermeiden, schließen Sie Notizen auf Ihrem Telefon.</string>
   <string name="pc_note_edit_blank_view_tips">Bild hierher ziehen, um eine Notiz zu erstellen</string>
   <string name="pc_note_edit_create_time">"Erstellt: "</string>
   <string name="pc_note_edit_insert_doodle_by_phone">Doodle auf dem Telefon erstellen</string>
@@ -487,9 +501,7 @@
   <string name="repeat_mode_set_item_none">Niemals</string>
   <string name="repeat_mode_set_item_normal_workday">Montag bis Freitag</string>
   <string name="repeat_mode_set_item_week">Jede Woche (%s)</string>
-  <string name="repeat_mode_set_item_week_detail">Jede Woche (%s)</string>
   <string name="repeat_mode_set_item_year">Jedes Jahr (%s)</string>
-  <string name="repeat_mode_set_item_year_detail">Jedes Jahr (%s)</string>
   <string name="repeat_mode_set_item_year_detail_day">dd.MM.</string>
   <string name="repeat_mode_set_title">Wiederholen</string>
   <string name="repeat_mode_week">Wöchentlich</string>
@@ -523,6 +535,7 @@
   <string name="search_path_notes">Einstellungen/System-Apps/Notizen</string>
   <string name="search_setting_description">Text in Notizen suchen</string>
   <string name="select_account_prompt">Notizen sychronisieren</string>
+  <string name="send">Senden</string>
   <string name="set_alarm_description">Alarm einstellen</string>
   <string name="setting_other">ANDERE</string>
   <string name="setting_privacy">Datenschutzerklärung</string>
@@ -587,10 +600,10 @@
   <string name="the_arbor_day">Tag des Baumes</string>
   <string name="the_armed_forces_day">Tag der Streitkräfte</string>
   <string name="the_armys_day">Tag der Armee</string>
-  <string name="the_childrens_day">Kindertag</string>
-  <string name="the_chinese_youth_day">Weltjugendtag</string>
+  <string name="the_childrens_day">Tag der Kinder</string>
+  <string name="the_chinese_youth_day">Tag der Jugend</string>
   <string name="the_christmas_day">Weihnachten</string>
-  <string name="the_double_ninth_festival">Chongyang-Fest</string>
+  <string name="the_double_ninth_festival">Chongyang (Doppel-9-Fest)</string>
   <string name="the_dragon_boat_festival">Drachenbootfestival</string>
   <string name="the_easter_day">Ostern</string>
   <string name="the_eve_of_the_spring_festival">Vorabend des Frühlingsfests</string>
@@ -606,22 +619,22 @@
   <string name="the_national_day">Nationalfeiertag</string>
   <string name="the_national_father_day">Vatertag</string>
   <string name="the_new_years_day">Neujahr</string>
-  <string name="the_night_of_sevens">Nacht der Siebener</string>
-  <string name="the_partys_day">Tag der Partys</string>
+  <string name="the_night_of_sevens">Qixi (Doppel-7-Fest)</string>
+  <string name="the_partys_day">Tag der Partei</string>
   <string name="the_peace_day">Tag des Friedens</string>
   <string name="the_retrocession_day">Tag der Retrozession</string>
   <string name="the_second_day">Zweiter Tag</string>
   <string name="the_seventh_day">Siebter Tag</string>
   <string name="the_sixth_day">Sechster Tag</string>
-  <string name="the_spirit_festival">Seelen Fest</string>
+  <string name="the_spirit_festival">Geisterfest</string>
   <string name="the_spring_festival">Frühlingsfest</string>
-  <string name="the_teachers_day">Lehrertag</string>
+  <string name="the_teachers_day">Tag der Lehrer</string>
   <string name="the_third_day">Dritter Tag</string>
-  <string name="the_tw_childrens_day">Kindertag</string>
+  <string name="the_tw_childrens_day">Tag der Kinder</string>
   <string name="the_tw_youth_day">Tag der Jugend</string>
   <string name="the_united_nations_day">Tag der Vereinten Nationen</string>
   <string name="the_valentines_day">Valentinstag</string>
-  <string name="the_water_lantern_festival">Chinesisches Laternenfest</string>
+  <string name="the_water_lantern_festival">Laternenfestival</string>
   <string name="theme_blue_description">Blau</string>
   <string name="theme_green_description">Grün</string>
   <string name="theme_red_description">Rot</string>
@@ -745,7 +758,7 @@ Ermöglichen Sie Notizen, Audio aufzunehmen."</string>
   <string name="toolbar_redo_description">Wiederholen</string>
   <string name="toolbar_share_description">Diese Notiz teilen</string>
   <string name="toolbar_text_description">Textstil</string>
-  <string name="toolbar_theme_description">Wählen Sie ein Thema</string>
+  <string name="toolbar_theme_description">Ein Thema wählen</string>
   <string name="toolbar_undo_description">Rückgängig</string>
   <string name="toolbar_voice_description">Stimme</string>
   <string name="trash_folder_name">Papierkorb</string>

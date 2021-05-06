@@ -1,5 +1,34 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+  <string name="attachment_drag_add_attachment">Anhang</string>
+  <string name="attachment_drag_add_inline">Inline-Bild</string>
+  <string name="attachment_drag_add_picture_prompt">Dieses Bild zu einem Anhang oder Inline-Bild hinzufügen?</string>
+  <string name="attachment_drag_create_email_prompt">Möchten Sie diese Datei verwenden, um eine neue Nachricht für den Anhang zu erstellen?</string>
+  <string name="common_google_play_services_enable_button">Aktivieren</string>
+  <string name="common_google_play_services_enable_text">%1$s wird nicht funktionieren, wenn Sie die Google Play-Dienste nicht aktivieren.</string>
+  <string name="common_google_play_services_enable_title">Google Play-Dienste aktivieren</string>
+  <string name="common_google_play_services_install_button">Installieren</string>
+  <string name="common_google_play_services_install_text">%1$s wird nicht ohne Google Play-Dienste ausgeführt, die auf Ihrem Gerät fehlen.</string>
+  <string name="common_google_play_services_install_title">Google Play-Dienste erhalten</string>
+  <string name="common_google_play_services_notification_channel_name">Google Play-Dienste Verfügbarkeit</string>
+  <string name="common_google_play_services_notification_ticker">Google Play-Dienste-Fehler</string>
+  <string name="common_google_play_services_unknown_issue">%1$s hat Probleme mit den Google Play-Diensten. Bitte erneut versuchen.</string>
+  <string name="common_google_play_services_unsupported_text">%1$s wird nicht ohne Google Play-Dienste ausgeführt, die von Ihrem Gerät nicht unterstützt werden.</string>
+  <string name="common_google_play_services_update_button">Aktualisieren</string>
+  <string name="common_google_play_services_update_text">%1$s kann nicht ausgeführt werden, wenn Sie die Google Play-Dienste nicht aktualisieren.</string>
+  <string name="common_google_play_services_update_title">Google Play-Dienste aktualisieren</string>
+  <string name="common_google_play_services_updating_text">%1$s läuft nicht ohne Google Play-Dienste, die gerade aktualisiert werden.</string>
+  <string name="common_google_play_services_wear_update_text">Neue Google Play-Dienste-Version erforderlich. Sie wird sich in Kürze selbst aktualisieren.</string>
+  <string name="common_open_on_phone">Auf Telefon öffnen</string>
+  <string name="common_signin_button_text">Anmelden</string>
+  <string name="common_signin_button_text_long">Mit Google anmelden</string>
+  <string name="gamil_login_failed_1">Anmeldung fehlgeschlagen. Bitte später erneut versuchen.</string>
+  <string name="gamil_login_failed_2">Anmeldung fehlgeschlagen. Bitte Google-Dienst aktualisieren und erneut versuchen.</string>
+  <string name="gamil_login_failed_3">Anmeldung fehlgeschlagen. Netzwerkeinstellungen überprüfen und erneut versuchen.</string>
+  <string name="gamil_login_failed_4">Anmeldung aufgrund eines Serverfehlers fehlgeschlagen. Bitte erneut versuchen.</string>
+  <string name="gamil_login_failed_other">Anmeldung fehlgeschlagen. Bitte später erneut versuchen.</string>
+  <string name="jumping_google_login">Auf Google-Autorisierungsseite weiterleiten…</string>
+
   <string name="SMTP_independent_verification_text">SMTP-unabhängige Verifizierung</string>
   <string name="SMTP_password_text">Passwort</string>
   <string name="SMTP_username_text">Benutzername</string>
@@ -20,9 +49,9 @@
   <string name="abc_shareactionprovider_share_with">Teilen mit</string>
   <string name="abc_shareactionprovider_share_with_application">Teilen mit %s</string>
   <string name="abc_toolbar_collapse_description">Einklappen</string>
-  <string name="about_checking_update">Update prüfen…</string>
-  <string name="about_go_to_update">Zum Update gehen</string>
-  <string name="about_lasted_version">Es ist die neueste Ausgabe</string>
+  <string name="about_checking_update">Auf Update prüfen…</string>
+  <string name="about_go_to_update">Zum Aktualisieren</string>
+  <string name="about_lasted_version">Es ist die neueste Version</string>
   <string name="account_add_title">E-Mailservice wählen</string>
   <string name="account_duplicate_dlg_message_fmt">Der Benutzername wird bereits für das Konto \"%s\" verwendet.</string>
   <string name="account_duplicate_dlg_title">Doppeltes Konto</string>
@@ -69,7 +98,7 @@
   <string name="account_settings_notifications">Benachrichtigungen</string>
   <string name="account_settings_notify_label">E-Mail-Benachrichtigungen</string>
   <string name="account_settings_notify_summary">Bei neuen E-Mails benachrichtigen</string>
-  <string name="account_settings_only_notify_inbox">Nur Push für E-Mail-Eingang</string>
+  <string name="account_settings_only_notify_inbox">Nur Benachrichtigungserinnerung Posteingang</string>
   <string name="account_settings_param">Kontoeinstellungen</string>
   <string name="account_settings_policies">Sicherheitsrichtlinien</string>
   <string name="account_settings_preference_add_account">E-Mail-Konto hinzufügen</string>
@@ -207,7 +236,7 @@
   <string name="always_bcc_myself">Bcc immer an mich</string>
   <string name="always_show_images">Immer Bilder dieses Absenders anzeigen</string>
   <string name="app_name">E-Mail</string>
-  <string name="app_uninstall_content">E-Mail ist eine MIUI-System-App. Nach der Deinstallation sind Sie nicht mehr in der Lage, E-Mail-Konten hinzuzufügen, E-Mails zu senden und zu empfangen und E-Mail-Zeitpläne zu synchronisieren.</string>
+  <string name="app_uninstall_content">E-Mail ist eine MIUI-System-App. Sie können Ihre E-Mail-Konten nicht mehr verwalten, E-Mails nicht mehr senden und empfangen oder Ereignisse synchronisieren, wenn Sie die App deinstallieren.</string>
   <string name="app_uninstall_title">\"E-Mail\" deinstallieren?</string>
   <string name="appraise_des">Mögen Sie unsere App?</string>
   <string name="appraise_good">Ja</string>
@@ -283,7 +312,7 @@
   <string name="bottom_bar_more_quickreply">Schnellantwort</string>
   <string name="bottom_bar_more_share">Teilen</string>
   <string name="bottom_bar_no_quickreply_toast">Keine Schnellantwort</string>
-  <string name="calendar_remind_dialog_title">Später erinnern</string>
+  <string name="calendar_remind_dialog_title">Zum Kalender hinzufügen</string>
   <string name="calendar_remind_gridview_month_later">Nächsten Monat</string>
   <string name="calendar_remind_gridview_nextweek">Nächste Woche</string>
   <string name="calendar_remind_gridview_pick_date">Datum wählen</string>
@@ -369,7 +398,7 @@
   <string name="contact_list_title">Kontakte</string>
   <string name="contact_permission_error">Zugriff auf Telefonkontakte eingeschränkt</string>
   <string name="contact_select">Kontakte auswählen</string>
-  <string name="contain_view_all_body">Vollständigen Text der Nachricht anzeigen</string>
+  <string name="contain_view_all_body">Vollständige E-Mail anzeigen</string>
   <string name="content_description">%1$s über %2$s, %3$s auf %4$s, %5$s</string>
   <string name="content_description_today">%1$s über %2$s, %3$s bei %4$s, %5$s</string>
   <string name="contextmenu_add">Zu Kontakten hinzufügen</string>
@@ -481,9 +510,9 @@
   <string name="drawer_contacts">Kontakte</string>
   <string name="drawer_open">Navigationsleiste öffnen</string>
   <string name="drive_card_button_tips">Extrahierten Code kopieren und den freigegebenen Inhalt erhalten</string>
-  <string name="drive_card_code">Extraktionscode</string>
-  <string name="drive_card_tips">Gefundener Freigabelink von %s</string>
-  <string name="drive_card_title">Speicherkartenlink</string>
+  <string name="drive_card_code">Der Extraktionscode lautet:</string>
+  <string name="drive_card_tips">Netdisk-Sharing-Link von %s gefunden</string>
+  <string name="drive_card_title">Netdisk-Link</string>
   <string name="dtend">Beendet</string>
   <string name="dtstart">Beginnt</string>
   <string name="due">Fällig</string>
@@ -599,8 +628,8 @@
   <string name="general_preference_text_zoom_large">Groß</string>
   <string name="general_preference_text_zoom_small">Klein</string>
   <string name="general_preference_text_zoom_tiny">Sehr klein</string>
-  <string name="general_preference_trash_contact">Spam-Prüfung</string>
-  <string name="general_preference_trash_contact_sum">Behandlung von Briefen von Absendern, die in großer Zahl gemeldet wurden</string>
+  <string name="general_preference_trash_contact">Spam filtern</string>
+  <string name="general_preference_trash_contact_sum">E-Mails von Absendern filtern, die von mehreren Benutzern gemeldet wurden</string>
   <string name="generic_attachment_problem">Datei wurde nicht hinzugefügt</string>
   <string name="get_database_exception">Zum Löschen der App-Daten gehen Sie zu Einstellungen &gt; System-Apps und versuchen Sie es erneut</string>
   <string name="get_oauth_code">Code abrufen</string>
@@ -642,13 +671,13 @@
   <string name="interact_with_server_error">Verbindung mit Server nicht möglich</string>
   <string name="invalid_recipient">Adresse %s ist ungültig</string>
   <string name="invalid_recipient_title">Empfängerfehler</string>
-  <string name="invoice_card_amount">Betrag</string>
+  <string name="invoice_card_amount">Berechneter Gesamtbetrag</string>
   <string name="invoice_card_buyer">Käufer</string>
   <string name="invoice_card_date">Datum</string>
-  <string name="invoice_card_open">Offene Rechnung</string>
+  <string name="invoice_card_open">Rechnung öffnen</string>
   <string name="invoice_card_save">Rechnung speichern</string>
   <string name="invoice_card_seller">Verkäufer</string>
-  <string name="invoice_card_title">E-Rechnung</string>
+  <string name="invoice_card_title">Elektronische Rechnung</string>
   <string name="list_empty_to_fresh">Keine E-Mail, bitte über Pulldown-Menü aktualisieren</string>
   <string name="load_from_remote">Mailbox auf dem Server durchsuchen</string>
   <string name="load_more">Weitere laden</string>
@@ -677,7 +706,7 @@
   <string name="login_des_yangdex">Bei Yandex Mail anmelden</string>
   <string name="login_err_message">Autorisierte Passcodes verwenden, um sich bei %1$s anzumelden, wenn Sie diese Option zuvor ausgewählt haben. Gehen Sie zu https://email.163.com/, um Ihr Passwort oder Ihren Passcode zurückzusetzen.</string>
   <string name="login_err_outlook_msg">"%s
-Bitte bestätigen Sie, ob das App-Kennwort an ist. Falls es an ist, gehen Sie bitte auf die Microsoft-Webseite, um das App-Kennwort zurückzusetzen."</string>
+Hallo, bitte überprüfen Sie, ob das App-Kennwort an ist. Wenn es an ist, gehen Sie bitte auf die offizielle Microsoft-Website, um das App-Kennwort zurückzusetzen."</string>
   <string name="login_err_sina_message">Autorisierte Passcodes verwenden, um sich bei %1$s anzumelden, wenn Sie diese Option zuvor ausgewählt haben. Gehen Sie zu https://mail.sina.com.cn/, um Ihr Passwort oder Ihren Passcode zurückzusetzen.</string>
   <string name="login_failed_ticker">Anmeldung an %s erfolglos</string>
   <string name="login_failed_tip">"Kontaktieren Sie uns über WeChat, um Hilfe zu bekommen: "</string>
@@ -699,8 +728,8 @@ Bitte bestätigen Sie, ob das App-Kennwort an ist. Falls es an ist, gehen Sie bi
   <string name="mail_login_help_details2">2. Client-Verifizierungscode: Wenn Sie bereits einen Client-Verifizierungscode eingerichtet haben, müssen Sie diesen zur Anmeldung verwenden und prüfen, dass das POP3/IMAP/SMTP-Protokoll geöffnet war.</string>
   <string name="mail_login_help_title">Beschreibung E-Mail-Passwort oder Client-Verifizierungscode:</string>
   <string name="mail_outlook_login_tips">Gemäß den Microsoft-Anforderungen müssen Sie das Passwort auf der Microsoft Autorisierungsseite eingeben.</string>
-  <string name="mail_outlook_oauth_login">"Mit OAuth anmelden
-(Benutzer von Personal-Outlook können Ihre Kalender nicht synchronisieren, wenn sie sich mit OAuth anmelden)".</string>
+  <string name="mail_outlook_oauth_login">"Sicherere Oauth-Anmeldung verwenden
+(Persönliche Outlook-Benutzer können ihre Kalender nicht synchronisieren, wenn sie sich mit OAuth anmelden)".</string>
   <string name="mail_outlook_psw_login">Mit Passwort anmelden</string>
   <string name="mail_search_lab">Suchbegriff</string>
   <string name="mailbox_list_account_selector_combined_view">Kombiniertes Konto</string>
@@ -714,8 +743,8 @@ Bitte bestätigen Sie, ob das App-Kennwort an ist. Falls es an ist, gehen Sie bi
   <string name="mailbox_name_display_starred">Favoriten</string>
   <string name="mailbox_name_display_trash">Papierkorb</string>
   <string name="mailbox_name_display_unread">Ungelesen</string>
-  <string name="mailbox_setting_preference_sync_summary_close">Synchronisation: Aus</string>
-  <string name="mailbox_setting_preference_sync_summary_open">Synchronisation: Ein</string>
+  <string name="mailbox_setting_preference_sync_summary_close">Synchr: Aus</string>
+  <string name="mailbox_setting_preference_sync_summary_open">Synchr: Ein</string>
   <string name="mailbox_settings_activity_title">Synchronisationseinstellungen</string>
   <string name="mailbox_settings_activity_title_with_mailbox">Synchronisationseinstellungen (%s)</string>
   <string name="mailbox_settings_mailbox_sync_window_label">Synchronisiere E-Mail von</string>
@@ -789,7 +818,7 @@ Bitte bestätigen Sie, ob das App-Kennwort an ist. Falls es an ist, gehen Sie bi
   <string name="menu_search">Suchen</string>
   <string name="menu_settings">Einstellungen</string>
   <string name="merged_mailbox_compose_select_account">Konto auswählen</string>
-  <string name="message_all_body">Vollständiger Text</string>
+  <string name="message_all_body">Vollständiger E-Mail-Text</string>
   <string name="message_body_load_set_description">E-Mails laden über mobile Daten</string>
   <string name="message_compose_insert_quick_response_list_title">Schnellantwort einfügen</string>
   <string name="message_decode_error">Nachricht wurde nicht entschlüsselt</string>
@@ -876,7 +905,7 @@ Versuchen Sie einen anderen Posteingang."</string>
   <string name="ntes_do_not_sms_uplink">Senden Sie eine SMS von der zugehörigen Telefonnummer und tippen Sie dann auf \"Nachricht gesendet\".</string>
   <string name="ntes_had_send">Nachricht gesendet</string>
   <string name="ntes_had_send_to_content">Wenn Sie bereits eine SMS von der zugehörigen Telefonnummer gesendet haben, tippen Sie auf \"Nachricht gesendet\", um fortzufahren.</string>
-  <string name="ntes_login_auth_too_much">Die Anzahl Ihrer Bestätigungscodes hat die Obergrenze von 5 erreicht. Auf der Webseite bei Ihrer NetEase-Mailbox anmelden, um nicht verwendete Bestätigungscodes zu löschen</string>
+  <string name="ntes_login_auth_too_much">Es können nicht mehr als 5 Verifizierungscodes hinzugefügt werden. Melden Sie sich auf einem Computer an Ihrem Posteingang an und löschen Sie nichtverwendete Codes.</string>
   <string name="ntes_login_error_message" formatted="false">Keine Kontoinformation erhalten (Fehler %s). %s.</string>
   <string name="ntes_password_error_hint">Wenn bei der Eingabe Ihres Passworts Fehler auftreten, schließen Sie diese Seite und öffnen Sie sie erneut.</string>
   <string name="ntes_phone_send">Textnachricht von der zugehörigen Telefonnummer senden</string>
@@ -898,7 +927,7 @@ Versuchen Sie einen anderen Posteingang."</string>
   <string name="open_external_storage_and_contacts_and_calendar_permission">E-Mail den Zugriff auf Speicher-, Kontakt- und Kalenderinfos in den Einstellungen erlauben</string>
   <string name="open_external_storage_and_contacts_permission">E-Mail den Zugriff auf Speicherplatz und Kontakte in den Einstellungen erlauben</string>
   <string name="open_notification_kingagent">Benachrichtigungen über Bestattungsorte aktivieren</string>
-  <string name="open_pdf_error">PDF-Datei öffnen nicht möglich. Bitte laden Sie andere PDF-Programme herunter und versuchen Sie es später erneut.</string>
+  <string name="open_pdf_error">PDF-Datei öffnen nicht möglich. Einen PDF-Reader installieren und erneut versuchen.</string>
   <string name="optimization_suggestion">Optimierungsvorschlag</string>
   <string name="others_mail">Andere</string>
   <string name="others_mail_des">Dies gilt für andere private oder gewerbliche E-Mail-Dienste</string>
@@ -961,17 +990,17 @@ Versuchen Sie einen anderen Posteingang."</string>
   <string name="path_about_upload_logs">E-Mail/Einstellungen/Protokolldaten hochladen</string>
   <string name="pdf_has_signature_prompt_cancel">Originaldatei öffnen</string>
   <string name="pdf_has_signature_prompt_confirm">Kopie öffnen</string>
-  <string name="pdf_has_signature_prompt_message">Eine unterzeichnete Kopie dieses Anhangs wurde entdeckt. Öffnen oder nicht?</string>
-  <string name="pdf_save_error">Dokument (Body?) ist zu gross, es kann nicht als PDF-Datei exportiert werden</string>
-  <string name="pdf_save_no_body">Warten Sie, bis der Text erfolgreich geladen wurde und versuchen Sie es erneut</string>
+  <string name="pdf_has_signature_prompt_message">Eine unterzeichnete Kopie dieses Anhangs wurde entdeckt. Diese öffen?</string>
+  <string name="pdf_save_error">Da das Dokument zu groß ist, kann es nicht als PDF-Datei exportiert werden</string>
+  <string name="pdf_save_no_body">Bitte warten, bis der Text erfolgreich geladen wurde und erneut versuchen</string>
   <string name="pdf_save_to">Gespeichert in</string>
-  <string name="pdf_signature_create_title">Signatur erstellen</string>
-  <string name="pdf_signature_manager_max_count">Maximale Anzahl an Signaturen. Bitte löschen Sie die vorhandene Signatur und versuchen Sie es erneut.</string>
-  <string name="pdf_signature_manager_title">Signaturmanager</string>
+  <string name="pdf_signature_create_title">Ihre Signatur erstellen</string>
+  <string name="pdf_signature_manager_max_count">Die maximale Anzahl von Signaturen, die angelegt werden können, ist erreicht. Bitte vorhandene Signaturen löschen, bevor Sie sie anlegen</string>
+  <string name="pdf_signature_manager_title">Signaturverwaltung</string>
   <string name="pdf_viewer_actionbar_more_other">Mit anderer App öffnen</string>
   <string name="pdf_viewer_actionbar_more_wps">Mit WPS öffnen</string>
-  <string name="pdf_viewer_file_damage_toast">PDF-Datei ist beschädigt. Bitte prüfen Sie sie und versuchen Sie es erneut.</string>
-  <string name="pdf_viewer_new_email">Neue E-Mail</string>
+  <string name="pdf_viewer_file_damage_toast">Die PDF-Datei ist beschädigt, bitte Datei überprüfen und erneut versuchen</string>
+  <string name="pdf_viewer_new_email">Per E-Mail senden</string>
   <string name="pdf_viewer_reply">Mit dieser Datei antworten</string>
   <string name="pdf_viewer_save_signature">Signatur speichern</string>
   <string name="pdf_viewer_sign_file_damage_toast">Datei existiert nicht</string>
@@ -984,8 +1013,8 @@ Versuchen Sie einen anderen Posteingang."</string>
   <string name="perference_setup_send_tag">Postausgangsserver</string>
   <string name="permission_access_provider_desc">Erlaubt der App den Zugriff auf Ihre E-Mails, Benutzernamen und Passwörter</string>
   <string name="permission_access_provider_label">Auf Benutzerdaten zugreifen</string>
-  <string name="permission_des_calendar">Zur Synchronisation von Kalendereinträgen</string>
-  <string name="permission_des_contact">Für den Zugriff auf E-Mails Ihrer Kontakte, um Empfänger automatisch zu vervollständigen</string>
+  <string name="permission_des_calendar">Sie dient dazu, Ihre E-Mails mit Termininformationen rechtzeitig mit dem Kalender zu synchronisieren. Es wird dringend empfohlen, \"Immer zulassen\" auszuwählen</string>
+  <string name="permission_des_contact">Wird verwendet, um Ihre E-Mail-Kontakte sofort mit den Kontakten auf dem Telefon zu synchronisieren. Es wird dringend empfohlen, die Option \"Immer zulassen\" auszuwählen</string>
   <string name="permission_des_detail">Ohne Ihre Zustimmung, solche Berechtigungen zu erteilen oder Ihre persönlichen Daten weiterzugeben und hochzuladen, können Sie diese App nicht nutzen. In diesem Fall können Sie diese App deinstallieren, sich abmelden oder die Berechtigungen in den Einstellungen einschränken.</string>
   <string name="permission_des_external_storage">Zum Erstellen neuer E-Mails sowie zum Speichern und Hinzufügen von Anhängen</string>
   <string name="permission_des_phone_status">Für den IMEI-Zugriff zur Identifizierung Ihres Gerätes</string>
@@ -1219,7 +1248,7 @@ oder sehen Sie sich die Nachricht auf Ihrem Computer an."</string>
   <string name="select_path">Pfad auswählen</string>
   <string name="selected_lable">Ausgewählt</string>
   <string name="send">Senden</string>
-  <string name="send_encrypt_dialog_fail_content">Sieht aus, als ob der Empfänger nicht über das für die Verschlüsselung dieser E-Mail erforderliche vertrauenswürdige Zertifikat verfügt. Stattdessen eine normale E-Mail senden?</string>
+  <string name="send_encrypt_dialog_fail_content">Anscheinend verfügt der Empfänger nicht über das für die Verschlüsselung dieser E-Mail erforderliche vertrauenswürdige Zertifikat. Stattdessen eine normale E-Mail senden?</string>
   <string name="send_encrypt_dialog_fail_title">Verschlüsselte E-Mails senden nicht möglich</string>
   <string name="send_failed">Nachricht nicht gesendet</string>
   <string name="send_feed_back">Feedback senden</string>
@@ -1260,7 +1289,7 @@ oder sehen Sie sich die Nachricht auf Ihrem Computer an."</string>
   <string name="server_cet_issuer_no_trust">Aussteller des Zertifikats ist keine vertrauenswürdige Organisation.</string>
   <string name="server_cet_subject_cn">"Unterstützte Domain: "</string>
   <string name="server_cet_title">Zertifikatsdetails</string>
-  <string name="server_log">Servicevertrag</string>
+  <string name="server_log">Dienstleistungsvertrag</string>
   <string name="service_protocol_discribe">&lt;u&gt;Ich habe den WPS Mail-Servicevertrag gelesen und bin damit einverstanden&lt;/u&gt;</string>
   <string name="service_protocol_title">Servicevertrag</string>
   <string name="set_network">Netzwerk konfigurieren</string>
@@ -1279,7 +1308,8 @@ oder sehen Sie sich die Nachricht auf Ihrem Computer an."</string>
   <string name="show_server_cet">Zertificat anzeigen</string>
   <string name="signature_black_shark">Gesendet von meinem Blackshark Telefon</string>
   <string name="silent_ringtone">Lautlos</string>
-  <string name="sms_not_found_tip">System-SMS-App starten nicht möglich, bitte starten Sie die SMS-App manuell und senden Sie eine Bestätigungs-SMS.</string>
+  <string name="sms_not_found_tip">"Ihre Standard-SMS-App konnte nicht geöffnet werden. 
+App öffnen und Bestätigungs-SMS manuell senden."</string>
   <string name="sms_tip">Authentifizierung fehlgeschlagen. Prüfen Sie, ob die Antiviren-Software Ihre SMS abfängt.</string>
   <string name="smtp_password_error">Passwort des Postausgangsservers ist ungültig</string>
   <string name="sort_attachment">Sortiere nach</string>
@@ -1335,11 +1365,11 @@ oder sehen Sie sich die Nachricht auf Ihrem Computer an."</string>
   <string name="toast_bar_sync_failed_client_cert">Synchronisation fehlgeschlagen, Authentifizierungsfehler. Tippen, um das Zertifikat erneut hinzuzufügen.</string>
   <string name="toast_bar_sync_failed_mi_authority">"Synchronisation nicht möglich. Kurz warten und es erneut versuchen. Details anzeigen.
 (Wenn Sie ein nicht autorisiertes Gerät verwenden, stellen Sie eine Intranetverbindung her oder verwenden Sie einen Verifizierungscode)."</string>
-  <string name="toastbar_calendar_and_contacts_permission_switch_allow_only_using">Kalender und Kontaktinformationen können nicht in Echtzeit synchronisiert werden, bitte setzen Sie die entsprechenden Berechtigungen auf \"Immer erlauben\".</string>
-  <string name="toastbar_calendar_and_contacts_permission_switch_close">Um Kalenderinfos und Kontakte zu synchronisieren, geben Sie E-Mail die erforderlichen Berechtigungen in den Einstellungen</string>
-  <string name="toastbar_calendar_permission_switch_allow_only_using">Der E-Mail-Kalender kann nicht in Echtzeit synchronisiert werden, bitte setzen Sie die Kalenderberechtigung auf \"Immer erlauben\".</string>
+  <string name="toastbar_calendar_and_contacts_permission_switch_allow_only_using">Kalender- und Kontaktinformationen wurden nicht in Echtzeit synchronisiert, die Kontaktberechtigung auf \"Immer erlauben\" setzen.</string>
+  <string name="toastbar_calendar_and_contacts_permission_switch_close">Um Kalenderinfos und Kontakte zu synchronisieren, die erforderlichen E-Mail-Berechtigungen in den Einstellungen setzen</string>
+  <string name="toastbar_calendar_permission_switch_allow_only_using">E-Mail kann nicht in Echtzeit synchronisiert werden, die Kalenderberechtigung auf \"Immer erlauben\" setzen.</string>
   <string name="toastbar_calendar_permission_switch_close">Um Kalendererinnerungen zu erhalten, geben Sie E-Mail die erforderlichen Berechtigungen in den Einstellungen</string>
-  <string name="toastbar_contacts_permission_switch_allow_only_using">Kontaktinformationen können nicht in Echtzeit synchronisiert werden, bitte setzen Sie die Kontakberechtigung auf \"Immer erlauben\".</string>
+  <string name="toastbar_contacts_permission_switch_allow_only_using">Kontaktinformationen wurden nicht in Echtzeit synchronisiert, die Kontaktberechtigung auf \Immer erlauben\" setzen.</string>
   <string name="toastbar_contacts_permission_switch_close">Um Kontakte hinzuzufügen, geben Sie E-Mail die erforderlichen Berechtigungen in den Einstellungen</string>
   <string name="toastbar_local_calendar_and_contacts_sync_switch_close">Kalender- und Kontaktsynchronisation aktivieren, um Kalender und Kontakte zu synchronisieren</string>
   <string name="toastbar_local_calendar_sync_switch_close">Kalendersynchronisation einschalten, um Kalendererinnerungen zu empfangen</string>
@@ -1353,11 +1383,11 @@ oder sehen Sie sich die Nachricht auf Ihrem Computer an."</string>
   <string name="toolbar_part_symbol">Absatzzeichen</string>
   <string name="topic_merge">Anzeigeeinstellungen</string>
   <string name="topic_merge_summary">Nach Betreff gruppieren</string>
-  <string name="train_card_title">Zugfahrkarte erfolgreich gekauft</string>
-  <string name="train_card_title_alternate">Warten auf Zugfahrkarte erfolgreich</string>
-  <string name="train_card_title_change">Zugfahrkarte erfolgreich geändert</string>
-  <string name="train_card_title_change_arrival">Zugfahrkarte erfolgreich geändert</string>
-  <string name="train_card_title_refund">Zugfahrkarte erfolgreich zurückerstattet</string>
+  <string name="train_card_title">Ticketkauf war erfolgreich</string>
+  <string name="train_card_title_alternate">Ticket-Wartelistenfunktion war erfolgreich</string>
+  <string name="train_card_title_change">Ticketwechsel war erfolgreich</string>
+  <string name="train_card_title_change_arrival">Ticketwechsel war erfolgreich</string>
+  <string name="train_card_title_refund">Ticketrückerstattung war erfolgreich</string>
   <string name="train_travel_refund_info" formatted="false">Rückerstattungsgebühr ¥%s, erstattungsfähige Gebühr ¥%s</string>
   <string name="translation_loading">Einen Moment…</string>
   <string name="translation_no_result">Keine Ergebnisse</string>
@@ -1399,9 +1429,9 @@ Konto entfernen?"</string>
   <string name="uploading_logs">Einen Moment…</string>
   <string name="user_experience_content">Bitte bestätigen Sie, dass Sie den \"Benutzererfahrungsplan\" gelesen haben und diesem zustimmen.</string>
   <string name="user_experience_log">Benutzererfahrungsplan</string>
-  <string name="user_experience_login">Teilnehmen</string>
+  <string name="user_experience_login">Beitreten</string>
   <string name="user_experience_logout">Das Erfahrungsprogramm beenden</string>
-  <string name="user_experience_positive">Zustimmen und weiter</string>
+  <string name="user_experience_positive">Zustimmen und fortfahren</string>
   <string name="user_experience_title">Erklärung und Bedingungen</string>
   <string name="user_new_auth_code">Mit neuem Autorisierungscode anmelden</string>
   <string name="user_privacy_settings">Datenschutzeinstellungen</string>
@@ -1420,11 +1450,11 @@ Tippen Sie auf "<b>Jetzt synchronisieren</b>, um Ihre E-Mails einmalig zu synchr
   <string name="wait_for_sync_title">Auf Synchronisation warten</string>
   <string name="wait_help_context">warten</string>
   <string name="wait_while_update_db">Datenbank aktualisieren…</string>
-  <string name="web_view_load_error_tip">Einige Probleme sind aufgetreten, und der Text dieser E-Mail kann nicht richtig angezeigt werden. Wenn Sie auf dieses Problem stoßen, fügen Sie es bitte der QQ-Gruppe 952315061 hinzu, um uns Feedback zu geben.</string>
+  <string name="web_view_load_error_tip">"Dieser E-Mail-Text konnte nicht korrekt angezeigt werden. Dieses Problem in unserer QQ-Gruppe (952315061) melden.</string>
   <string name="webview_logout">Sie können versuchen, sich erneut anzumelden</string>
   <string name="webview_logout_cancel">Jetzt nicht</string>
   <string name="webview_logout_sure">Erneut versuchen</string>
-  <string name="webview_not_found">Seite öffnen nicht möglich, weil die WebView-Komponente nicht vorhanden ist.</string>
+  <string name="webview_not_found">Seite konnte aufgrund eines fehlenden WebView-Plugins nicht geöffnet werden</string>
   <string name="webview_sslerror_handle_cancel">Abbrechen</string>
   <string name="webview_sslerror_handle_continue">Fortsetzen</string>
   <string name="webview_sslerror_handle_hitmessage">Zertifikatfehler, trotzdem fortfahren?</string>
@@ -1434,7 +1464,7 @@ Tippen Sie auf "<b>Jetzt synchronisieren</b>, um Ihre E-Mails einmalig zu synchr
   <string name="wipe_account_fail_description_remind">Wegen Datennutzungsberechtigungen können sich nach dem Löschen Restdaten im Kalender und in den Kontakten des Kontos befinden. Bitte löschen Sie diese manuell.</string>
   <string name="wipe_account_fail_title">Persönliche Infos wurden nicht gelöscht</string>
   <string name="wps_card_button_tips">Kingsoft-Dokument öffnen</string>
-  <string name="wps_card_tips">Gefundenen Link von \"%s\" teilen</string>
+  <string name="wps_card_tips">Link zum Teilen eines Kingsoft-Dokuments von %s gefunden</string>
   <string name="wps_card_title">Kingsoft-Dokument</string>
   <string name="wrong_password">Eingegebenes Passwort ist falsch</string>
   <string name="xiaomi_auth_toastbar">Anmelden, um Ihr Gerät zu autorisieren</string>

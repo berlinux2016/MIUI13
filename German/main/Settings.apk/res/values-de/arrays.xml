@@ -594,6 +594,10 @@
     <item>Systrace (Grafik)</item>
     <item>Aufrufstapel auf glGetError</item>
   </string-array>
+  <string-array name="enabled_networks_subsidy_locked_choices">
+    <item>Nur LTE</item>
+    <item>GSM/WCDMA/LTE</item>
+    </string-array>
   <string-array name="entries_color_calibration">
     <item>sRGB</item>
     <item>Original</item>
@@ -850,6 +854,47 @@ Hinweis: Nur für Ubuntu 8.04!"</item>
     <item>E-Mail</item>
     <item>Video</item>
   </string-array>
+  <string-array name="preferred_network_mode_choices">
+    <item>GSM/WCDMA bevorzugt</item>
+    <item>Nur GSM</item>
+    <item>Nur WCDMA</item>
+    <item>GSM/WCDMA (automatisch)</item>
+    <item>CDMA/EvDo (automatisch)</item>
+    <item>CDMA ohne EvDo</item>
+    <item>Nur EvDo</item>
+    <item>CDMA/EvDo/GSM/WCDMA</item>
+    <item>CDMA + LTE/EvDo</item>
+    <item>GSM/WCDMA/LTE</item>
+    <item>Global</item>
+    <item>LTE</item>
+    <item>LTE/WCDMA</item>
+    <item>Nur TD-SCDMA</item>
+    <item>TD-SCDMA/WCDMA</item>
+    <item>LTE/TD-SCDMA</item>
+    <item>TD-SCDMA/GSM</item>
+    <item>LTE/TD-SCDMA/GSM</item>
+    <item>TD-SCDMA/GSM/WCDMA</item>
+    <item>LTE/TD-SCDMA/WCDMA</item>
+    <item>LTE/TD-SCDMA/GSM/WCDMA</item>
+    <item>TD-SCDMA/CDMA/EVDO/GSM/WCDMA</item>
+    <item>LTE/TD-SCDMA/CDMA/EVDO/GSM/WCDMA</item>
+    <item>Nur NR</item>
+    <item>NR/LTE</item>
+    <item>NR/LTE/CDMA/EvDo</item>
+    <item>NR/LTE/GSM/WCDMA</item>
+    <item>NR/LTE/CDMA/EvDo/GSM/WCDMA</item>
+    <item>NR/LTE/WCDMA</item>
+    <item>NR/LTE/TDSCDMA</item>
+    <item>NR/LTE/TDSCDMA/GSM</item>
+    <item>NR/LTE/TDSCDMA/WCDMA</item>
+    <item>NR/LTE/TDSCDMA/GSM/WCDMA</item>
+    <item>NR/LTE/TDSCDMA/CDMA/EvDo/GSM/WCDMA</item>
+    </string-array>
+  <string-array name="preferred_network_mode_gsm_wcdma_choices">
+    <item>Nur GSM</item>
+    <item>Nur WCDMA</item>
+    <item>Nur GSM/WCDMA</item>
+    </string-array>
   <string-array name="priority_storage_entries">
     <item>Interner Speicher</item>
     <item>Externer Speicher</item>
@@ -1139,7 +1184,7 @@ Hinweis: Nur für Ubuntu 8.04!"</item>
     <item>GSM</item>
     <item>WCDMA</item>
     <item>LTE</item>
-    <item>Dreifachmodus</item>
+    <item>Triple Modus</item>
   </string-array>
   <string-array name="usage_stats_display_order_types">
     <item>Nutzungszeit</item>
@@ -1219,19 +1264,30 @@ Hinweis: Nur für Ubuntu 8.04!"</item>
     <item>Mobil bevorzugt</item>
     <item>Nur WLAN</item>
   </string-array>
+  <string-array name="wifi_calling_mode_choices_v2">
+    <item>WLAN</item>
+    <item>Mobil</item>
+    <item>Nur WLAN</item>
+  </string-array>
   <string-array name="wifi_calling_mode_choices_without_wifi_only">
     <item>WLAN bevorzugt</item>
     <item>Mobil bevorzugt</item>
   </string-array>
-  <string-array name="wifi_calling_mode_choices_v2">
+  <string-array name="wifi_calling_mode_choices_v2_with_ims_preferred">
+    <item>Ims bevorzugt</item>
     <item>WLAN</item>
-    <item>Mobil</item>
+    <item>Mobile</item>
     <item>WLAN bevorzugt</item>
-  </string-array>
+    </string-array>
   <string-array name="wifi_calling_mode_choices_v2_without_wifi_only">
     <item>WLAN</item>
     <item>Mobil</item>
   </string-array>
+  <string-array name="wifi_calling_mode_choices_v2_without_wifi_only_with_ims_preferred">
+    <item>Ims bevorzugt</item>
+    <item>WLAN</item>
+    <item>Mobile</item>
+    </string-array>
   <string-array name="wifi_connect_type_entries">
     <item>Automatisch verbinden</item>
     <item>Manuell verbinden</item>
@@ -1249,6 +1305,14 @@ Hinweis: Nur für Ubuntu 8.04!"</item>
   <string-array name="wifi_ip_settings">
     <item>DHCP</item>
     <item>Statisch</item>
+  </string-array>
+  <string-array name="wifi_link_turbo_mode_entries">
+    <item>Unterstützend</item>
+    <item>Voll</item>
+  </string-array>
+  <string-array name="wifi_link_turbo_mode_summary_entries">
+    <item>Geschwindigkeitserhöhung durch mobile Daten nur bei schlechtem WLAN-Signal</item>
+    <item>WLAN und mobile Daten kombinieren, um die Verbindungsgeschwindigkeit zu erhöhen</item>
   </string-array>
   <string-array name="wifi_metered_entries">
     <item>Automatisch erkennen</item>

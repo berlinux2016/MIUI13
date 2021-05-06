@@ -15,6 +15,16 @@
   <string name="scrollable_wallpaper_open">Scrollen eingeschaltet</string>
   <string name="set_as_colorring">Als eigenen Rufton einstellen</string>
 
+  <string name="wallpaper_apply_full">Für beide anwenden</string>
+<string name="wallpaper_apply_large">Auf Hauptbildschirm anwenden</string>
+  <string name="wallpaper_apply_small">Auf 2. Bildschrim anwenden</string>
+  <string name="wallpaper_set_as_both_large">Beides auf Hauptbildschirm einstellen</string>
+  <string name="wallpaper_set_as_both_small">Beides auf 2. Bildschirm einstellen</string>
+  <string name="wallpaper_set_as_desktop_large">Als Hauptstartbildschirm festlegen</string>
+  <string name="wallpaper_set_as_desktop_small">Als Startbildschirm auf 2. Bildschirm festlegen</string>
+  <string name="wallpaper_set_as_lockscreen_large">Als Hauptsperrbildschirm festlegen</string>
+  <string name="wallpaper_set_as_lockscreen_small">Als Sperrbildschirm auf 2. Bildschirm festlegen</string>
+
   <string name="abc_action_bar_home_description">Zur Startseite</string>
   <string name="abc_action_bar_up_description">Nach oben</string>
   <string name="abc_action_menu_overflow_description">Mehr Optionen</string>
@@ -343,6 +353,7 @@ Themen erkennt, welche Apps Sie verwenden und zeigt transparente Hintergründe i
   <string name="find_more_theme">Mehr entdecken</string>
   <string name="find_more_wallpapers">Mehr entdecken</string>
   <string name="first_page_recommend">Empfohlen</string>
+  <string name="fmt_chinese_date">d.M.</string>
   <string name="fmt_date_day">d.</string>
   <string name="fmt_date_long_month_day">d. MMMM</string>
   <string name="fmt_date_long_year_month_day">d. MMMM yyyy</string>
@@ -607,6 +618,7 @@ dd.MM."</string>
   <string name="mtrl_picker_toggle_to_day_selection">Tippen, um zur Tagesauswahl zu wechseln</string>
   <string name="mtrl_picker_toggle_to_text_input_mode">Zum Texteingabemodus wechseln</string>
   <string name="mtrl_picker_toggle_to_year_selection">Tippen, um zur Jahresauswahl zu wechseln</string>
+  <string name="multiwindow_no_support_icon">Bei geteiltem Bildschirm können die Symbole nicht geändert werden</string>
   <string name="multi_sim_mms_ringtone_settings_dialog_message">Dieser Klingelton wird für beide SIM-Karten verwendet.</string>
   <string name="multi_sim_ringtone_settings_dialog_message">Klingelton wird gleichzeitig SIM1 und SIM2 zugeordnet</string>
   <string name="multi_sim_ringtone_settings_dialog_ok">Verstanden</string>
@@ -733,7 +745,7 @@ Auf Bildschirm tippen, um neu zu laden."</string>
   <string name="resource_comment_footer">Leere Kommentare werden nicht angezeigt</string>
   <string name="resource_comment_good_comments">Positiv</string>
   <string name="resource_comment_invalid">Zur Bewertung bitte Sterne berühren</string>
-  <string name="resource_comment_limit">Nicht so schnell! Kommen Sie wieder, nachdem Sie dieses Thema etwas länger verwendet haben.</string>
+  <string name="resource_comment_limit">Nicht so schnell! Kommen Sie wieder, wenn Sie dieses Thema etwas länger verwendet haben.</string>
   <string name="resource_comment_loading_list">Laden…</string>
   <string name="resource_comment_name_default">Spitzname</string>
   <string name="resource_comment_no_average_score">n/a</string>
@@ -922,6 +934,8 @@ Auf Bildschirm tippen, um neu zu laden."</string>
   <string name="resource_wallpaper_download">Hintergrund herunterladen</string>
   <string name="restore_home_icon_text">Startbildschirm-Verknüpfung hinzufügen</string>
   <string name="restore_icon_later">Sie können die Startbildschirm-Verknüpfung in den Einstellungen wieder hinzufügen</string>
+  <string name="ringtone_confirm_dialog_message">Dieser Klingelton ist relativ lang. Trotzdem verwenden?</string>
+  <string name="ringtone_confirm_dialog_title">Achtung</string>
   <string name="ringtone_set_success">Erfolgreich festgelegt</string>
   <string name="s1">Bild speichern</string>
   <string name="s2">Erlauben Sie Werbung, Bilder in der Galerie zu speichern?</string>
@@ -953,8 +967,7 @@ Auf Bildschirm tippen, um neu zu laden."</string>
   <string name="service_btn_text_try">Ausprobieren</string>
   <string name="set_color_ring_back_tone">Benutzerdefinierten Klingelton einstellen</string>
   <string name="set_home_wallpaper_failed">%s. Startbildschirmhintergrund wurde nicht angewendet.</string>
-  <string name="set_wallpaper_group_success">"%1$s wurde angewendet.
-Sie werden jede Stunde ein neues Bild sehen."</string>
+  <string name="set_wallpaper_group_success">Hintergrundbild \"%1$s\" erfolgreich angewendet</string>
   <string name="setting_font_online">Online-Fonts</string>
   <string name="settings">Einstellungen</string>
   <string name="settings_search_keyword_font_free">Kostenlose Schriften</string>
@@ -1049,10 +1062,10 @@ Sie werden jede Stunde ein neues Bild sehen."</string>
   <string name="the_arbor_day">Tag des Baumes</string>
   <string name="the_armed_forces_day">Tag der Streitkräfte</string>
   <string name="the_armys_day">Tag der Armee</string>
-  <string name="the_childrens_day">Kindertag</string>
-  <string name="the_chinese_youth_day">Weltjugendtag</string>
+  <string name="the_childrens_day">Tag der Kinder</string>
+  <string name="the_chinese_youth_day">Tag der Jugend</string>
   <string name="the_christmas_day">Weihnachten</string>
-  <string name="the_double_ninth_festival">Chongyang-Fest</string>
+  <string name="the_double_ninth_festival">Chongyang (Doppel-9-Fest)</string>
   <string name="the_dragon_boat_festival">Drachenbootfestival</string>
   <string name="the_easter_day">Ostern</string>
   <string name="the_eve_of_the_spring_festival">Vorabend des Frühlingsfests</string>
@@ -1068,8 +1081,8 @@ Sie werden jede Stunde ein neues Bild sehen."</string>
   <string name="the_national_day">Nationalfeiertag</string>
   <string name="the_national_father_day">Vatertag</string>
   <string name="the_new_years_day">Neujahr</string>
-  <string name="the_night_of_sevens">Nacht der Siebener</string>
-  <string name="the_partys_day">Tag der Partys</string>
+  <string name="the_night_of_sevens">Qixi (Doppel-7-Fest)</string>
+  <string name="the_partys_day">Tag der Partei</string>
   <string name="the_peace_day">Tag des Friedens</string>
   <string name="the_picture_is_not_support">Bild wird nicht unterstützt</string>
   <string name="the_picture_is_too_small">Bild ist zu klein</string>
@@ -1077,15 +1090,15 @@ Sie werden jede Stunde ein neues Bild sehen."</string>
   <string name="the_second_day">Zweiter Tag</string>
   <string name="the_seventh_day">Siebter Tag</string>
   <string name="the_sixth_day">Sechster Tag</string>
-  <string name="the_spirit_festival">Seelen Fest</string>
+  <string name="the_spirit_festival">Geisterfest</string>
   <string name="the_spring_festival">Frühlingsfest</string>
-  <string name="the_teachers_day">Lehrertag</string>
+  <string name="the_teachers_day">Tag der Lehrer</string>
   <string name="the_third_day">Dritter Tag</string>
-  <string name="the_tw_childrens_day">Kindertag</string>
+  <string name="the_tw_childrens_day">Tag der Kinder</string>
   <string name="the_tw_youth_day">Tag der Jugend</string>
   <string name="the_united_nations_day">Tag der Vereinten Nationen</string>
   <string name="the_valentines_day">Valentinstag</string>
-  <string name="the_water_lantern_festival">Chinesisches Laternenfest</string>
+  <string name="the_water_lantern_festival">Laternenfestival</string>
   <string name="theme_apply_audio_dialog_item_alarm">Wecker</string>
   <string name="theme_apply_audio_dialog_item_color_ring_back_tone">Benutzerdefinierter Klingelton</string>
   <string name="theme_apply_audio_dialog_item_mms">Nachrichtenklingelton</string>

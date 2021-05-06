@@ -55,15 +55,15 @@
   <string name="alarmclock_silent_hint">Wecker ist stumm</string>
   <string name="alert">Weckton</string>
   <string name="alert_ringtone">Alarmklingelton</string>
-  <string name="alert_vibrate_enable_summary">Vibrieren beim Ausschalten des Alarms</string>
+  <string name="alert_vibrate_enable_summary">Vibrieren beim Ausschalten des Weckers</string>
   <string name="alert_volume">Klingeltonlautstärke</string>
-  <string name="alert_volume_summary">Klingeltonlautstärke für Alarme und Timer einstellen</string>
+  <string name="alert_volume_summary">Klingeltonlautstärke für Wecker und Timer einstellen</string>
   <string name="already_exist">Dieser Timer existiert bereits</string>
   <string name="analog_gadget">Analoguhr</string>
   <string name="app_label">Uhr</string>
   <string name="app_name">Einstellung</string>
   <string name="auto_silence_never">Nie</string>
-  <string name="auto_silence_summary">Zeit einstellen, nach der Alarme und Timer stummgeschaltet werden</string>
+  <string name="auto_silence_summary">Zeit einstellen, nach der Wecker und Timer stummgeschaltet werden</string>
   <string name="auto_silence_title">Automatische Stummschaltung</string>
   <string name="back">Beenden</string>
   <string name="bedtime">Schlafenszeit</string>
@@ -87,10 +87,10 @@
   <string name="bedtime_settings">Einstellungen Schlafenszeit</string>
   <string name="bedtime_sleep_time_remind">Sie werden daran erinnert, 15 Minuten vor diesem Zeitpunkt ins Bett zu gehen</string>
   <string name="bedtime_sleep_time_setting">Wann gehen Sie ins Bett?</string>
-  <string name="bedtime_wake_up_time_remind">Ein Alarm wird zu dieser Zeit ausgelöst</string>
+  <string name="bedtime_wake_up_time_remind">Ein Wecker läutet um diese Zeit</string>
   <string name="bedtime_wake_up_time_setting">Wann stehen Sie auf?</string>
   <string name="bedtime_welcome">Schlafenszeit verwalten</string>
-  <string name="bedtime_welcome_desc">Die Einhaltung eines geregelten und gleichmäßigen Schlafplans kommt Ihrer Gesundheit zugute. Setzen Sie Erinnerungen, die Ihnen helfen, jeden Tag ins Bett zu gehen und pünktlich aufzustehen.</string>
+  <string name="bedtime_welcome_desc">Die Einhaltung eines geregelten und gleichmäßigen Schlafplans kommt Ihrer Gesundheit zugute. Setzen Sie Erinnerungen, die Ihnen helfen, jeden Tag pünktlich ins Bett zu gehen und aufzustehen.</string>
   <string name="birthday_alarm">Geburtstagswecker</string>
   <string name="birthday_alarm_summary">\"Happy Birthday\" an Ihrem Geburtstag spielen anstelle des Standardwecktons</string>
   <string name="cancel">Abbrechen</string>
@@ -99,6 +99,7 @@
   <string name="check_theme_app_install">Stellen Sie sicher, dass die Themen-App auf Ihrem Gerät installiert ist.</string>
   <string name="check_voice_assist_app_version">Aktualisieren Sie Mi KI auf die neueste Version.</string>
   <string name="city_time_contrast_desc">Tippen, um die Zeit in verschiedenen Städten zu vergleichen</string>
+  <string name="clearable_edittext_clear_description">Löschen</string>
   <string name="click_listen_news_container">Auf die Morgennachrichtenkarte tippen</string>
   <string name="clock_bg_button_setting_summary_common">Hintergrundfarbe für die Uhr auswählen</string>
   <string name="clock_bg_button_setting_summary_follow_sys">Schwarz wird als Hintergrundfarbe verwendet, wenn Sie in den Dark Mode wechseln.</string>
@@ -117,6 +118,7 @@
   <string name="copy">Kopieren</string>
   <string name="current_stopwatch_time">Aktueller Zeitpunkt</string>
   <string name="date_picker_lunar">Traditioneller chin. Kalender</string>
+  <string name="date_time_picker_dialog_title">Datum und Zeit einstellen</string>
   <string name="day">1 Tag</string>
   <string name="days">%d Tage</string>
   <string name="default_alarm_alert">Standardweckton</string>
@@ -151,7 +153,7 @@
   <string name="dynamic_alarm_speech">Intelligenter Wecker</string>
   <string name="early_morning">Morgen</string>
   <string name="edit_alarm">Wecker bearbeiten</string>
-  <string name="edit_label">Alarmbezeichnung bearbeiten</string>
+  <string name="edit_label">Weckerbezeichnung bearbeiten</string>
   <string name="edit_systemtime">Systemzeit bearbeiten</string>
   <string name="edit_systemtime_setting_summary">Datum, Zeit und Duale Uhr</string>
   <string name="eras_ad">n. Chr.</string>
@@ -160,6 +162,7 @@
   <string name="every_day">Täglich</string>
   <string name="expand_button_title">Erweitert</string>
   <string name="expired_timers_dismissed">Abgelaufene Timer ignorieren</string>
+  <string name="fmt_chinese_date">d.M.</string>
   <string name="fmt_date_day">d.</string>
   <string name="fmt_date_long_month_day">d. MMMM</string>
   <string name="fmt_date_long_year_month_day">d. MMMM yyyy</string>
@@ -211,7 +214,7 @@
   <string name="korea_permission_storage">Speicher</string>
   <string name="korea_permission_storage_desc">Zum Speichern von Weckern</string>
   <string name="label">Bezeichnung</string>
-  <string name="label_input_desc">Dieses Bezeichnung wird auf dem Bildschirm angezeigt, wenn der Alarm ausgelöst wird.</string>
+  <string name="label_input_desc">Diese Bezeichnung wird auf dem Bildschirm angezeigt, wenn der Wecker klingelt.</string>
   <string name="label_input_hint">Bezeichnung eingeben</string>
   <string name="label_pref_summary">Bezeichnung</string>
   <string name="lap">Runde</string>
@@ -264,10 +267,13 @@
   <string name="miuix_appcompat_cancel_description">Abbrechen</string>
   <string name="miuix_appcompat_confirm_description">Bestätigen</string>
   <string name="miuix_appcompat_delete_description">Löschen</string>
+  <string name="miuix_appcompat_deselect_all">Abwählen</string>
   <string name="miuix_appcompat_deselect_all_description">Alle abwählen</string>
   <string name="miuix_appcompat_search_action_mode_cancel">Abbrechen</string>
   <string name="miuix_appcompat_search_input_description">Suche</string>
+  <string name="miuix_appcompat_select_all">Alle wählen</string>
   <string name="miuix_appcompat_select_all_description">Alle wählen</string>
+  <string name="miuix_appcompat_select_item">Elemente wählen</string>
   <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Zum Aktualisieren herunterziehen</string>
   <string name="miuix_sbl_tracking_progress_labe_refreshed">Erfolgreich aktualisiert</string>
   <string name="miuix_sbl_tracking_progress_labe_refreshing">Aktualisieren…</string>
@@ -306,13 +312,13 @@
   <string name="module_weather_ringtone_introduce_global">Wetterwecker wählt je nach aktuellem Wetter verschiedene Klingeltöne aus.</string>
   <string name="module_weather_ringtone_update_data">Wetterwecker beinhaltet jetzt Hintergrundmusik und besseren Sprachansagen. Die Uhr muss ≈30 MB an Audiodateien herunterladen, damit es funktioniert. Jetzt herunterladen?</string>
   <string name="module_weather_ringtone_update_success">Wetterwecker beinhaltet jetzt Hintergrundmusik und bessere Sprachansagen. Erstellen Sie einen neuen Wecker, um diese Funktion zu testen.</string>
-  <string name="module_week_ringtone_download_data">Naturalarm spielt je nach Datum unterschiedliche Töne ab. Uhr muss ≈30MB an Audio herunterladen, damit es funktioniert. Jetzt herunterladen?</string>
-  <string name="module_week_ringtone_download_data_privacy">&lt;Data&gt;Naturalarm spielt je nach Datum unterschiedliche Töne ab. Uhr muss eine Verbindung zum Internet herstellen, um &amp;#8776;30 MB Audio herunterzuladen. Vor der Nutzung von Uhr müssen Sie auch unsere &amp;lt;a href=\"%1$s\"&amp;gt;Nutzervereinbarung&amp;lt;/a&amp;gt; und &amp;lt;a href=\"%2$s\"&amp;gt;Datenschutzerklärung&amp;lt;/a&amp;gt; lesen und akzeptieren. Zustimmen?&lt;/Data&gt;</string>
-  <string name="module_week_ringtone_download_wifi">Naturalarm spielt je nach Datum unterschiedliche Töne ab. Uhr muss ≈30MB an Audio herunterladen, damit es funktioniert. Jetzt herunterladen?</string>
-  <string name="module_week_ringtone_download_wifi_privacy">&lt;Data&gt;Naturalarm spielt je nach Datum unterschiedliche Töne ab. Uhr muss eine Verbindung zum Internet herstellen, um Audio herunterzuladen. Vor der Nutzung von Uhr müssen Sie auch unsere &amp;lt;a href=\"%1$s\"&amp;gt;Nutzervereinbarung&amp;lt;/a&amp;gt; und &amp;lt;a href=\"%2$s\"&amp;gt;Datenschutzerklärung&amp;lt;/a&amp;gt; lesen und akzeptieren. Zustimmen?&lt;/Data&gt;</string>
-  <string name="module_week_ringtone_introduce">Naturalarm spielt je nach Datum unterschiedliche Töne ab.</string>
-  <string name="module_week_ringtone_update_data">Naturalarm spielt je nach Datum unterschiedliche Töne ab. Uhr muss ≈30MB an Audio herunterladen, damit es funktioniert. Jetzt herunterladen?</string>
-  <string name="module_week_ringtone_update_success">Naturalarm spielt je nach Datum unterschiedliche Töne ab. Sie können einen neuen Alarm erstellen, um diese Funktion auszuprobieren.</string>
+  <string name="module_week_ringtone_download_data">Naturwecker spielt je nach Datum unterschiedliche Töne ab. Uhr muss ≈30MB an Audio herunterladen, damit es funktioniert. Jetzt herunterladen?</string>
+  <string name="module_week_ringtone_download_data_privacy">&lt;Data&gt;Naturwecker spielt je nach Datum unterschiedliche Töne ab. Uhr muss eine Verbindung zum Internet herstellen, um &amp;#8776;30 MB Audio herunterzuladen. Vor der Nutzung von Uhr müssen Sie auch unsere &amp;lt;a href=\"%1$s\"&amp;gt;Nutzervereinbarung&amp;lt;/a&amp;gt; und &amp;lt;a href=\"%2$s\"&amp;gt;Datenschutzerklärung&amp;lt;/a&amp;gt; lesen und akzeptieren. Zustimmen?&lt;/Data&gt;</string>
+  <string name="module_week_ringtone_download_wifi">Naturwecker spielt je nach Datum unterschiedliche Töne ab. Uhr muss ≈30MB an Audio herunterladen, damit es funktioniert. Jetzt herunterladen?</string>
+  <string name="module_week_ringtone_download_wifi_privacy">&lt;Data&gt;Naturwecker spielt je nach Datum unterschiedliche Töne ab. Uhr muss eine Verbindung zum Internet herstellen, um Audio herunterzuladen. Vor der Nutzung von Uhr müssen Sie auch unsere &amp;lt;a href=\"%1$s\"&amp;gt;Nutzervereinbarung&amp;lt;/a&amp;gt; und &amp;lt;a href=\"%2$s\"&amp;gt;Datenschutzerklärung&amp;lt;/a&amp;gt; lesen und akzeptieren. Zustimmen?&lt;/Data&gt;</string>
+  <string name="module_week_ringtone_introduce">Naturwecker spielt je nach Datum unterschiedliche Töne ab.</string>
+  <string name="module_week_ringtone_update_data">Naturwecker spielt je nach Datum unterschiedliche Töne ab. Uhr muss ≈30MB an Audio herunterladen, damit es funktioniert. Jetzt herunterladen?</string>
+  <string name="module_week_ringtone_update_success">Naturwecker spielt je nach Datum unterschiedliche Töne ab. Sie können einen neuen Wecker erstellen, um diese Funktion auszuprobieren.</string>
   <string name="module_white_noise_download_data">Uhr muss Audiodateien für Umgebungsgeräusch-Timer herunterladen. ≈30 MB Ihrer mobilen Daten werden für diesen Download benötigt. Jetzt herunterladen?</string>
   <string name="module_white_noise_download_data_privacy">&lt;Data&gt;Um Audiodateien für Umgebungsgeräusch-Timer (&amp;#8776;30 MB) herunterladen und personalisierte Dienste anbieten zu können, braucht die Uhr eine Internetverbindung. Vor Nutzung der Uhr müssen Sie auch unsere &amp;lt;a href=\"%1$s\"&amp;gt;Nutzervereinbarung&amp;lt;/a&amp;gt; und &amp;lt;a href=\"%2$s\"&amp;gt;Datenschutzerklärung&amp;lt;/a&amp;gt; lesen und akzeptieren. Sie nutzen jetzt mobile Daten. Zustimmen?&lt;/Data&gt;</string>
   <string name="module_white_noise_download_wifi">Die Uhr muss Audiodateien für Umgebungsgeräusch-Timer herunterladen. Jetzt herunterladen?</string>
@@ -394,6 +400,7 @@
   <string name="search_stopwatch_keywords">Stoppuhr</string>
   <string name="search_timer_keywords">Timer</string>
   <string name="search_worldclock_keywords">Zeit;Weltzeit;Uhr</string>
+  <string name="send">Senden</string>
   <string name="set_alarm">Wecker einstellen</string>
   <string name="set_alarm_choose_ringtone">Klingelton wählen</string>
   <string name="set_alarm_done">Fertig</string>
@@ -410,7 +417,7 @@
   <string name="shut_down_keep_screen">Bildschirm bleibt nicht eingeschaltet</string>
   <string name="shutdown_alarm_alert_enable_summary">Standby-Wecker werden mindestens 10 Minuten nach dem Ausschalten des Geräts ausgelöst</string>
   <string name="shutdown_alarm_alert_title">Standby-Wecker</string>
-  <string name="shutdown_alarm_disable_summary">Wecker wird nicht ausgelöst, nachdem das Gerät ausgeschaltet wurde</string>
+  <string name="shutdown_alarm_disable_summary">Wecker wird nicht ausgelöst, wenn das Gerät ausgeschaltet wurde</string>
   <string name="shutdown_alarm_enable_summary">Wecker wird ausgelöst, wenn er für mindestens 10 Minuten nach dem Ausschalten des Geräts eingestellt ist</string>
   <string name="shutdown_alarm_title">Standby-Wecker</string>
   <string name="silent_alarm_summary">Lautlosmodus</string>
@@ -494,10 +501,10 @@ Mi Health genügend Daten analysiert hat."</string>
   <string name="the_arbor_day">Tag des Baumes</string>
   <string name="the_armed_forces_day">Tag der Streitkräfte</string>
   <string name="the_armys_day">Tag der Armee</string>
-  <string name="the_childrens_day">Kindertag</string>
-  <string name="the_chinese_youth_day">Weltjugendtag</string>
+  <string name="the_childrens_day">Tag der Kinder</string>
+  <string name="the_chinese_youth_day">Tag der Jugend</string>
   <string name="the_christmas_day">Weihnachten</string>
-  <string name="the_double_ninth_festival">Chongyang-Fest</string>
+  <string name="the_double_ninth_festival">Chongyang (Doppel-9-Fest)</string>
   <string name="the_dragon_boat_festival">Drachenbootfestival</string>
   <string name="the_easter_day">Ostern</string>
   <string name="the_eve_of_the_spring_festival">Vorabend des Frühlingsfests</string>
@@ -513,22 +520,22 @@ Mi Health genügend Daten analysiert hat."</string>
   <string name="the_national_day">Nationalfeiertag</string>
   <string name="the_national_father_day">Vatertag</string>
   <string name="the_new_years_day">Neujahr</string>
-  <string name="the_night_of_sevens">Nacht der Siebener</string>
-  <string name="the_partys_day">Tag der Partys</string>
+  <string name="the_night_of_sevens">Qixi (Doppel-7-Fest)</string>
+  <string name="the_partys_day">Tag der Partei</string>
   <string name="the_peace_day">Tag des Friedens</string>
   <string name="the_retrocession_day">Tag der Retrozession</string>
   <string name="the_second_day">Zweiter Tag</string>
   <string name="the_seventh_day">Siebter Tag</string>
   <string name="the_sixth_day">Sechster Tag</string>
-  <string name="the_spirit_festival">Seelen Fest</string>
+  <string name="the_spirit_festival">Geisterfest</string>
   <string name="the_spring_festival">Frühlingsfest</string>
-  <string name="the_teachers_day">Lehrertag</string>
+  <string name="the_teachers_day">Tag der Lehrer</string>
   <string name="the_third_day">Dritter Tag</string>
-  <string name="the_tw_childrens_day">Kindertag</string>
+  <string name="the_tw_childrens_day">Tag der Kinder</string>
   <string name="the_tw_youth_day">Tag der Jugend</string>
   <string name="the_united_nations_day">Tag der Vereinten Nationen</string>
   <string name="the_valentines_day">Valentinstag</string>
-  <string name="the_water_lantern_festival">Chinesisches Laternenfest</string>
+  <string name="the_water_lantern_festival">Laternenfestival</string>
   <string name="thursday">Donnerstag</string>
   <string name="thursday_short">Do</string>
   <string name="thursday_shortest">D</string>
@@ -593,14 +600,17 @@ Mi Health genügend Daten analysiert hat."</string>
   <string name="user_agreement">Nutzervereinbarung</string>
   <string name="v7_preference_off">AUS</string>
   <string name="v7_preference_on">AN</string>
-  <string name="vibrate_pref_summary">Vibrieren bei Alarmton</string>
+  <string name="version_update_dialog_negative_desc">Jetzt nicht</string>
+  <string name="version_update_dialog_positive_desc">Aktualisierung</string>
+  <string name="version_update_dialog_title">Aktualisierung verfügbar</string>
+  <string name="vibrate_pref_summary">Vibrieren bei Weckton</string>
   <string name="vibrate_when_ringing">Vibrieren beim Klingeln</string>
-  <string name="voice_add_alarm">Alarm über Sprachbefehl hinzufügen</string>
+  <string name="voice_add_alarm">Wecker über Sprachbefehl hinzufügen</string>
   <string name="volume_button_setting_desc">Funktionen für die Tasten Power und Lautstärke +/- zuweisen</string>
   <string name="volume_button_setting_summary">Verhalten dieser Tasten während Wecker klingelt</string>
   <string name="volume_button_setting_title">Lautstärketasten</string>
   <string name="wake_up_alert_desc">Alarmton abspielen zum Wecken</string>
-  <string name="wake_up_ringtone">Alarmton</string>
+  <string name="wake_up_ringtone">Weckton</string>
   <string name="wake_up_time">Aufwachen</string>
   <string name="wednesday">Mittwoch</string>
   <string name="wednesday_short">Mi</string>

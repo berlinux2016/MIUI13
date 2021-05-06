@@ -1,5 +1,22 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+  <plurals name="photo_count">
+    <item quantity="other">%d Fotos</item>
+    <item quantity="one">%d Foto</item>
+  </plurals>
+  <plurals name="synced_photo_count">
+    <item quantity="other">%d Fotos synchronisiert</item>
+    <item quantity="one">%d Foto synchronisiert</item>
+  </plurals>
+  <plurals name="synced_videos_count">
+    <item quantity="other">%d Videos synchronisiert</item>
+    <item quantity="one">%d Video synchronisiert</item>
+  </plurals>
+  <plurals name="videos_count">
+    <item quantity="other">%d Videos</item>
+    <item quantity="one">%d Video</item>
+  </plurals>
+
   <plurals name="a_hour_ago">
     <item quantity="other">Vor 1 Stunde</item>
   </plurals>
@@ -255,6 +272,10 @@
   </plurals>
   <plurals name="less_than_one_minute_ago">
     <item quantity="other">Gerade eben</item>
+  </plurals>
+  <plurals name="miuix_appcompat_items_selected">
+    <item quantity="one">%d Elemente ausgewählt</item>
+    <item quantity="other">%d Element ausgewählt</item>
   </plurals>
   <plurals name="num_minutes_ago">
     <item quantity="other">Vor %d Minuten</item>

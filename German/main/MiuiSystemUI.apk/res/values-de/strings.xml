@@ -649,6 +649,7 @@ Abtastrate"</string>
   <string name="charge_length_format">Vor %1$s</string>
   <string name="chip_text">Chiptext</string>
   <string name="chooseUsbActivity">Wählen Sie eine App für das USB-Gerät</string>
+  <string name="choose_clock_dual_clock_hint_text">Format nicht änderbar, wenn Duale Uhr an ist</string>
   <string name="choose_clock_panel_title">Bildschirm-Layout sperren</string>
   <string name="choose_clock_third_theme_hint_text">Sperrbildschirm aus dem aktuell angewandten Thema</string>
   <string name="choose_clock_title_left_top">Linksbündig</string>
@@ -683,7 +684,7 @@ Abtastrate"</string>
   <string name="connected_via_passpoint">Verbunden via %1$s</string>
   <string name="connected_via_wfa">Verbunden via WLAN-Assistent</string>
   <string name="content_description_menu_button">Menü</string>
-  <string name="control_center_notification_switch_guide">Wischen, um zwischen Kontrollzentrum und Benachrichtigungsleiste zu wechseln</string>
+  <string name="control_center_notification_switch_guide">Kontrollzentrum/Benachrichtigungsleiste</string>
   <string name="controls_added_tooltip">Einschalttaste gedrückt halten, um neue Steuerungen zu sehen</string>
   <string name="controls_confirmation_confirming">Bestätigen…</string>
   <string name="controls_confirmation_message">Änderung für %s bestätigen</string>
@@ -820,12 +821,12 @@ Drücken Sie 'Löschen und konvertieren…', um fortzufahren."</string>
   <string name="dlg_summary_close_theme">Animierte Themen einschränken</string>
   <string name="dlg_summary_close_wifi">WLAN, Bluetooth und mobilen Hotspot ausschalten</string>
   <string name="dlg_summary_nfc">NFC ausschalten</string>
-  <string name="dlg_summary_title">Extremer Stromparmodus stoppt alle Hintergrundaktivitäten, nachdem Sie eine App verlassen und zum Startbildschirm zurückkehren. Wenn eine App im Hintergrund laufen soll, fügen Sie sie zu den Hintergrundausnahmen hinzu.</string>
+  <string name="dlg_summary_title">Extremer Stromparmodus stoppt alle Hintergrundaktivitäten, wenn Sie eine App verlassen und zum Startbildschirm zurückkehren. Wenn eine App im Hintergrund laufen soll, fügen Sie sie zu den Hintergrundausnahmen hinzu.</string>
   <string name="dnd_is_off">DND ist aus</string>
   <string name="dnd_notification_warnings_title">DND ist an. Anrufe und Benachrichtigungen werden stumm geschaltet.</string>
   <string name="dnd_suppressing_shade_text">Benachrichtigungen angehalten durch "\Nicht stören\"</string>
-  <string name="do_disclosure_generic">Dieses Gerät wird von Ihrer Firma verwaltet</string>
-  <string name="do_disclosure_with_name">Dieses Gerät wird von %s verwaltet</string>
+  <string name="do_disclosure_generic">Dieses Gerät gehört Ihrer Firma</string>
+  <string name="do_disclosure_with_name">Dieses Gerät gehört %s</string>
   <string name="do_not_silence">Kein Lautlosmodus</string>
   <string name="do_not_silence_block">Kein Lautlosmodus oder Blockieren</string>
   <string name="dock_alignment_not_charging">Telefon neu ausrichten, um kabellos zu laden</string>
@@ -969,7 +970,7 @@ innerhalb des Kreises befindet"</string>
   <string name="face_unlock_rotated_right">Kopf nach links drehen</string>
   <string name="face_unlock_sc_status">Drücken Sie den Bildschirm nach unten, um die Kamera zu öffnen.</string>
   <string name="face_unlock_stay_away_screen">25 bis 40 cm vom Bildschirm entfernt bleiben</string>
-  <string name="face_unlock_success">Gesichtsdaten erfolgreich geprüft</string>
+  <string name="face_unlock_success">Erfolgreich entsperrt</string>
   <string name="face_unlock_success_show_message_dialog_msg">Benachrichtigungen auf Sperrbildschirm erlauben</string>
   <string name="face_unlock_success_show_message_dialog_negative_btn">Nein danke</string>
   <string name="face_unlock_success_show_message_dialog_positive_btn">Erlauben</string>
@@ -981,6 +982,7 @@ innerhalb des Kreises befindet"</string>
   <string name="face_unlock_success_stay_screen_title">Nach Entsperrung auf Sperrbildschirm bleiben</string>
   <string name="failed_to_open_app_settings_toast">Einstellungen öffnen für %1$s fehlgeschlagen</string>
   <string name="fake_cell_alert_detect_error">Das wurde nicht von einer gefälschten Basiszelle geschickt.</string>
+  <string name="finger_error_single_mode">Fingerabdruckscanner im Einhandmodus verwenden nicht möglich. Einhandmodus beenden und erneut versuchen.</string>
   <string name="fingerprint_add_text">Fingerabdruckschnittstelle wurde aktualisiert. Fügen Sie Ihren Fingerabdruck erneut hinzu.</string>
   <string name="fingerprint_add_title">Fingerabdruck hinzufügen</string>
   <string name="fingerprint_again_identified_msg">Ihr Fingerabdruck ist jetzt aktiv. Verwenden Sie diesen oder ein Passwort, um Ihr Telefon zu entsperren.</string>
@@ -996,6 +998,7 @@ innerhalb des Kreises befindet"</string>
   <string name="fingerprint_try_again_text">Erneut versuchen</string>
   <string name="float_incall_ignore">Ignorieren</string>
   <string name="float_incall_message">Nachricht</string>
+  <string name="float_notification_snooze_strategy">Schwebende Popups vorübergehend ausblenden</string>
   <string name="force_allow_on_external">Erzwingen, dass Apps auf externen Speicher schreiben</string>
   <string name="force_allow_on_external_summary">Ermöglicht das Schreiben jeder App auf externen Speicher, unabhängig von Manifestwerten</string>
   <string name="force_hw_ui">GPU-Rendering erzwingen</string>
@@ -1085,7 +1088,7 @@ innerhalb des Kreises befindet"</string>
   <string name="how_to_use_app_quick">So wechselt man zwischen Apps</string>
   <string name="how_to_use_app_quick_hide_line_summary">Vom unteren Bildschirmrand hochwischen, dann nach links oder rechts</string>
   <string name="how_to_use_app_quick_summary">Links oder rechts von der Vollbildanzeige oder vom unteren Bildschirmrand wischen</string>
-  <string name="how_to_use_drawer">So öffnet man den Drawer</string>
+  <string name="how_to_use_drawer">So öffnet man die Übersicht</string>
   <string name="how_to_use_drawer_summary">Von oben links wischen</string>
   <string name="how_to_use_fsg">Sie können diese Aktionen mit Gesten durchführen:</string>
   <string name="icelatte">Eiskaffee</string>
@@ -1487,6 +1490,15 @@ Screenshot zu erstellen"</string>
   <string name="miuix_sbl_tracking_progress_labe_up_none">Das ist im Moment alles</string>
   <string name="miuix_sbl_tracking_progress_labe_up_refresh">Einen Moment…</string>
   <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Elemente laden nicht möglich</string>
+  <string name="miui_snooze_always_float">Nicht ausblenden</string>
+  <string name="miui_snooze_cancel">Abbrechen</string>
+  <string name="miui_snooze_default_time">Für %d Min</string>
+  <string name="miui_snooze_to_settings">Einstellungen</string>
+  <string name="miui_snooze_toast_hint_default">"Anstehende Benachrichtigungen werden für %d Min ausgeblendet. "</string>
+  <string name="miui_snooze_toast_hint_until_unlock_screen">"Anstehende Benachrichtigungen werden ausgeblendet, bis das Gerät gesperrt wird. "</string>
+  <string name="miui_snooze_until_unlock_screen">Bis zum Sperren</string>
+  <string name="miui_snooze_user_set_fail">Für mehr Optionen zu Einstellungen > Benachrichtigungen &amp; Kontrollzentrum gehen</string>
+  <string name="miui_snooze_user_set_success">Erfolgreich angewendet. Für mehr Optionen zu Einstellungen > Benachrichtigungen &amp; Kontrollzentrum gehen</string>
   <string name="mobile_data">Mobile Daten</string>
   <string name="mobile_data_always_on">Mobile Daten immer aktiv</string>
   <string name="mobile_data_always_on_summary">Mobile Daten immer aktiv lassen, auch wenn WLAN aktiv ist (für schnelle Netzwerkumschaltung)</string>
@@ -2208,6 +2220,7 @@ Screenshot zu erstellen"</string>
   <string name="speed_label_very_slow">Sehr langsam</string>
   <string name="ssl_ca_cert_warning">Netzwerk wird eventuell überwacht</string>
   <string name="standby_bucket_summary">Status App-Standby: %s</string>
+  <string name="start_camera_error_try_again">Kamera wurde nicht gestartet. Erneut versuchen.</string>
   <string name="start_dreams">Bildschirmschoner</string>
   <string name="status_bar">Statusleiste</string>
   <string name="status_bar_accessibility_dismiss_recents">Letzte Apps entfernen</string>
@@ -2323,7 +2336,7 @@ d. MMM"</string>
   <string name="structure_face_unlock_model_other_suggestion_3d">Die 3D-Gesichtserkennung ist relativ sicher. Es ist sehr unwahrscheinlich, dass Ihr Gerät mit Ihrem Foto entsperrt werden kann, wenn diese Funktion aktiviert ist. Es kann jedoch von Personen oder Objekten, die wie Sie aussehen, freigeschaltet werden.</string>
   <string name="structure_face_unlock_model_other_title">Gesichtserkennung</string>
   <string name="structure_face_unlock_not_same_person">Sie müssen alle Schritte selbst durchführen. Mit niemandem den Platz wechseln.</string>
-  <string name="structure_face_unlock_really_person">Sieht aus, als hätten Sie Ihr Gesicht durch ein Objekt ersetzt.</string>
+  <string name="structure_face_unlock_really_person">Anscheinend haben Sie Ihr Gesicht durch ein Objekt ersetzt.</string>
   <string name="structure_face_unlock_tof_covered">Gesichtsdaten hinzufügen nicht möglich. Gehen Sie weiter weg vom Bildschirm.</string>
   <string name="summary_dark_mode">Einige Seiten werden wegen Dienstleistungen Dritter schwarz dargestellt</string>
   <string name="switch_bar_off">Aus</string>

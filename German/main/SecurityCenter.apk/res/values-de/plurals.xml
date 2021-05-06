@@ -33,6 +33,14 @@
     <item quantity="other">%d Spiele hinzugefügt</item>
     <item quantity="one">%d Spiel hinzugefügt</item>
   </plurals>
+  <plurals name="app_behavior_dashboard_title_desc">
+    <item quantity="other">%d Apps</item>
+    <item quantity="one">%d App</item>
+  </plurals>
+  <plurals name="app_behavior_dashboard_total_usage_item">
+    <item quantity="other">%d Apps</item>
+    <item quantity="one">%d App</item>
+  </plurals>
   <plurals name="app_behavior_desc_allow">
     <item quantity="other">%1$s - %2$s | %3$dx erlaubt</item>
     <item quantity="one">%1$s - %2$s | %3$dx erlaubt</item>
@@ -54,8 +62,8 @@
     <item quantity="one">von %1$s - %2$s | %3$d leere Nachrichten zurückgesendet</item>
   </plurals>
   <plurals name="app_behavior_desc_virtual_minute">
-    <item quantity="other">%2$d leere Nachrichten an %1$s gesendet</item>
-    <item quantity="one">%2$d leere Nachricht an %1$s gesendet</item>
+    <item quantity="other">%2$d leere Nachrichten an %1$s zurückgesendet</item>
+    <item quantity="one">%2$d leere Nachricht an %1$s zurückgesendet</item>
   </plurals>
   <plurals name="app_behavior_privacy_manager_off">
     <item quantity="other">Sie werden nicht über die von %1$d Apps ausgeführten sensiblen Aktionen benachrichtigt</item>
@@ -97,6 +105,14 @@
     <item quantity="other">%d-mal</item>
     <item quantity="one">Einmal</item>
   </plurals>
+  <plurals name="app_manager_uninstall_notify_summary">
+    <item quantity="other">%d Apps deinstallieren</item>
+    <item quantity="one">%d App deinstallieren</item>
+  </plurals>
+  <plurals name="app_manager_updater_notify_title">
+    <item quantity="other">Updates für %d Apps sind verfügbar</item>
+    <item quantity="one">Updates für %d App sind verfügbar</item>
+  </plurals>
   <plurals name="app_usage_day">
     <item quantity="other">Vor %d Tagen verwendet</item>
     <item quantity="one">Gestern verwendet</item>
@@ -133,6 +149,10 @@
     <item quantity="other">%d Apps schützen</item>
     <item quantity="one">%d App schützen</item>
   </plurals>
+  <plurals name="card_uninstall_title">
+    <item quantity="other">&lt;Data>Sie können &lt;font color=#F22424>%d&lt;/font> Apps deinstallieren&lt;/Data></item>
+    <item quantity="one">&lt;Data>Sie können &lt;font color=#F22424>%d&lt;/font> App deinstallieren&lt;/Data></item>
+  </plurals>
   <plurals name="daily_sim_over_limit_dialog_message">
     <item quantity="other">"Sie haben bereits %s tägliches Datenlimit verwendet.
 
@@ -160,6 +180,14 @@ Beim Einschalten mobiler Daten kann Ihr Mobilfunkanbieter zusätzliche Kosten be
   <plurals name="exit_dialog_release_memory_message">
     <item quantity="other">&lt;Data>&lt;font color=#0099ff>%d&lt;/font> Apps zur Gerätebeschleunigung schließen?&lt;/Data></item>
     <item quantity="one">&lt;Data>&lt;font color=#0099ff>%d&lt;/font> App zur Gerätebeschleunigung schließen?&lt;/Data></item>
+  </plurals>
+  <plurals name="exo_controls_fastforward_by_amount_description">
+    <item quantity="other">%d Sekunden vorspulen</item>
+    <item quantity="one">%d Sekunde vorspulen</item>
+  </plurals>
+  <plurals name="exo_controls_rewind_by_amount_description">
+    <item quantity="other">%d Sekunden zurückspulen</item>
+    <item quantity="one">%d Sekunde zurückspulen</item>
   </plurals>
   <plurals name="find_applications">
     <item quantity="other">%d Apps durchsuchen</item>
@@ -220,6 +248,10 @@ Beim Einschalten mobiler Daten kann Ihr Mobilfunkanbieter zusätzliche Kosten be
   <plurals name="gb_signed_days_sum">
     <item quantity="other">%d Tage in Folge angemeldet</item>
     <item quantity="one">%d-mal</item>
+  </plurals>
+  <plurals name="gb_toolbox_guide_known">
+    <item quantity="other">Verstanden (%ds)</item>
+    <item quantity="one">Verstanden (%ds)</item>
   </plurals>
   <plurals name="gb_voice_changer_trial_gain_fail">
     <item quantity="other">Kostenlose %d-Tage-Testversion erhalten nicht möglich</item>
@@ -576,6 +608,10 @@ Machen Sie eine Pause!!"</item>
     <item quantity="other">Von %1$d Benutzern heruntergeladen</item>
     <item quantity="one">Von %1$d Benutzer heruntergeladen</item>
   </plurals>
+  <plurals name="power_20s_shutdown">
+    <item quantity="other">Ihr Gerät wird in %d Sek ausgeschaltet</item>
+    <item quantity="one">Ihr Gerät wird in %d Sek ausgeschaltet</item>
+  </plurals>
   <plurals name="power_center_battery_charge_number">
     <item quantity="other">-mal</item>
     <item quantity="one">-mal</item>
@@ -641,6 +677,10 @@ um den Akku zu schonen"</item>
   <plurals name="power_center_menu_text">
     <item quantity="other">Elemente</item>
     <item quantity="one">Element</item>
+  </plurals>
+  <plurals name="power_center_unoffical_battery_dialog_negative">
+    <item quantity="other">Abbrechen (%ds)</item>
+    <item quantity="one">Abbrechen (%ds)</item>
   </plurals>
   <plurals name="power_main_battery_last_day">
      <item quantity="other">%s Tage bleiben</item>
@@ -815,6 +855,10 @@ um den Akku zu schonen"</item>
   <plurals name="system_check_content">
     <item quantity="other">%1$d sicher</item>
     <item quantity="one">%d sicher</item>
+  </plurals>
+  <plurals name="title_app_update_cn">
+    <item quantity="other">&lt;Data>&lt;font color=#F22424>%d&lt;/font> Apps aktualisieren&lt;/Data></item>
+    <item quantity="one">&lt;Data>&lt;font color=#F22424>%d&lt;/font> App aktualisieren&lt;/Data></item>
   </plurals>
   <plurals name="title_virus_clean">
     <item quantity="other">%d Viren gelöscht</item>

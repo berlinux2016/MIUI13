@@ -3,53 +3,53 @@
   <string-array name="animator_duration_scale_entries">
     <item>Aus</item>
     <item>Skala 0.5x</item>
-	<item>Skala 1x</item>
-	<item>Skala 1.5x</item>
-	<item>Skala 2x</item>
-	<item>Skala 5x</item>
-	<item>Skala 10x</item>
+    <item>Skala 1x</item>
+    <item>Skala 1.5x</item>
+    <item>Skala 2x</item>
+    <item>Skala 5x</item>
+    <item>Skala 10x</item>
   </string-array>
   <string-array name="app_process_limit_entries">
-	<item>Standardlimit</item>
-	<item>Keine Hintergrundprozesse</item>
-	<item>Maximal 1 Prozess</item>
-	<item>Maximal 2 Prozesse</item>
-	<item>Maximal 3 Prozesse</item>
-	<item>Maximal 4 Prozesse</item>
+    <item>Standardlimit</item>
+    <item>Keine Hintergrundprozesse</item>
+    <item>Maximal 1 Prozess</item>
+    <item>Maximal 2 Prozesse</item>
+    <item>Maximal 3 Prozesse</item>
+    <item>Maximal 4 Prozesse</item>
   </string-array>
   <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
-	<item>Systemauswahl nutzen (Standard)</item>
-	<item>16 bits/sample</item>
-	<item>24 bits/sample</item>
-	<item>32 bits/sample</item>
+    <item>Systemauswahl nutzen (Standard)</item>
+    <item>16 bits/sample</item>
+    <item>24 bits/sample</item>
+    <item>32 bits/sample</item>
   </string-array>
   <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
-	<item>Systemauswahl nutzen (Standard)</item>
-	<item>16 bits/sample</item>
-	<item>24 bits/sample</item>
-	<item>32 bits/sample</item>
+    <item>Systemauswahl nutzen (Standard)</item>
+    <item>16 bits/sample</item>
+    <item>24 bits/sample</item>
+    <item>32 bits/sample</item>
   </string-array>
   <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
-	<item>Systemauswahl nutzen (Standard)</item>
-	<item>Mono</item>
-	<item>Stereo</item>
-  </string-array>
+    <item>Systemauswahl nutzen (Standard)</item>
+    <item>Mono</item>
+    <item>Stereo</item>
+    </string-array>
   <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
-	<item>Systemauswahl nutzen (Standard)</item>
-	<item>Mono</item>
-	<item>Stereo</item>
+    <item>Systemauswahl nutzen (Standard)</item>
+    <item>Mono</item>
+    <item>Stereo</item>
   </string-array>
   <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
-	<item>Optimiert für Audioqualität</item>
-	<item>Ausgewogene Audio- und Verbindungsqualität</item>
-	<item>Optimiert auf Verbindungsqualität</item>
-	<item>Beste Leistung (Adaptive Bitrate)</item>
+    <item>Optimiert für Audioqualität</item>
+    <item>Ausgewogene Audio- und Verbindungsqualität</item>
+    <item>Optimiert auf Verbindungsqualität</item>
+    <item>Beste Leistung (Adaptive Bitrate)</item>
   </string-array>
   <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
-	<item>Optimiert für Audioqualität (990kbps/909kbps)</item>
-	<item>Ausgewogene Audio- und Verbindungsqualität (660kbps/606kbps)</item>
-	<item>Optimiert auf Verbindungsqualität (330kbps/303kbps)</item>
-	<item>Beste Leistung (Adaptive Bitrate)</item>
+    <item>Optimiert für Audioqualität (990kbps/909kbps)</item>
+    <item>Ausgewogene Audio- und Verbindungsqualität (660kbps/606kbps)</item>
+    <item>Optimiert auf Verbindungsqualität (330kbps/303kbps)</item>
+    <item>Beste Leistung (Adaptive Bitrate)</item>
   </string-array>
   <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
     <item>Systemauswahl nutzen (Standard)</item>
@@ -97,9 +97,14 @@
     <item>" | Aktiv (Medien abspielen)"</item>
     <item>" | Aktiv (Telefonieren)"</item>
   </string-array>
+  <string-array name="bluetooth_map_versions">
+    <item>MAP 1.2 (Standard)</item>
+    <item>MAP 1.3</item>
+    <item>MAP 1.4</item>
+    </string-array>
   <string-array name="cdma_system_select_choices">
-	<item>Nur zu Hause</item>
-	<item>Automatisch</item>
+    <item>Nur zu Hause</item>
+    <item>Automatisch</item>
   </string-array>
   <string-array name="color_mode_descriptions">
     <item>Verbesserte Farben</item>
@@ -137,13 +142,13 @@
     <item>Immer prüfen</item>
   </string-array>
   <string-array name="list_language_entries">
-	<item>Englisch</item>
-	<item>Französisch</item>
-	<item>Spanisch</item>
-	<item>Japanisch</item>
-	<item>Koreanisch</item>
-	<item>Chinesisch</item>
-	<item>Hebräisch</item>
+    <item>Englisch</item>
+    <item>Französisch</item>
+    <item>Spanisch</item>
+    <item>Japanisch</item>
+    <item>Koreanisch</item>
+    <item>Chinesisch</item>
+    <item>Hebräisch</item>
   </string-array>
   <string-array name="overlay_display_devices_entries">
     <item>Keine</item>
@@ -159,6 +164,42 @@
     <item>4K (hochskaliert, sicher)</item>
     <item>720p, 1080p (Doppelbildschirm)</item>
   </string-array>
+  <string-array name="preferred_network_mode_choices">
+    <item>GSM/WCDMA bevorzugt</item>
+    <item>Nur GSM</item>
+    <item>Nur WCDMA</item>
+    <item>GSM/WCDMA (automatisch)</item>
+    <item>CDMA/EvDo (automatisch)</item>
+    <item>CDMA ohne EvDo</item>
+    <item>Nur EvDo</item>
+    <item>CDMA/EvDo/GSM/WCDMA</item>
+    <item>CDMA + LTE/EvDo</item>
+    <item>GSM/WCDMA/LTE</item>
+    <item>Global</item>
+    <item>LTE</item>
+    <item>LTE/WCDMA</item>
+    <item>Nur TD-SCDMA</item>
+    <item>TD-SCDMA/WCDMA</item>
+    <item>LTE/TD-SCDMA</item>
+    <item>TD-SCDMA/GSM</item>
+    <item>LTE/TD-SCDMA/GSM</item>
+    <item>TD-SCDMA/GSM/WCDMA</item>
+    <item>LTE/TD-SCDMA/WCDMA</item>
+    <item>LTE/TD-SCDMA/GSM/WCDMA</item>
+    <item>TD-SCDMA/CDMA/EVDO/GSM/WCDMA</item>
+    <item>LTE/TD-SCDMA/CDMA/EVDO/GSM/WCDMA</item>
+    <item>Nur NR</item>
+    <item>NR/LTE</item>
+    <item>NR/LTE/CDMA/EvDo</item>
+    <item>NR/LTE/GSM/WCDMA</item>
+    <item>NR/LTE/CDMA/EvDo/GSM/WCDMA</item>
+    <item>NR/LTE/WCDMA</item>
+    <item>NR/LTE/TDSCDMA</item>
+    <item>NR/LTE/TDSCDMA/GSM</item>
+    <item>NR/LTE/TDSCDMA/WCDMA</item>
+    <item>NR/LTE/TDSCDMA/GSM/WCDMA</item>
+    <item>NR/LTE/TDSCDMA/CDMA/EvDo/GSM/WCDMA</item>
+    </string-array>
   <string-array name="select_logd_size_lowram_titles">
     <item>Aus</item>
     <item>64K</item>
@@ -182,16 +223,16 @@
     <item>16M</item>
   </string-array>
   <string-array name="select_logpersist_summaries">
-	<item>Aus</item>
-	<item>Alle Logpuffer</item>
-	<item>Alle Logpuffer außer Mobilfunk</item>
-	<item>Nur Kernel Logpuffer</item>
-  </string-array>
+    <item>Aus</item>
+    <item>Alle Logpuffer</item>
+    <item>Alle Logpuffer außer Mobilfunk</item>
+   <item>Nur Kernel Logpuffer</item>
+    </string-array>
   <string-array name="select_logpersist_titles">
-	<item>Aus</item>
-	<item>Alle</item>
-	<item>Alle außer Mobilfunk</item>
-	<item>Nur Kernel</item>
+    <item>Aus</item>
+    <item>Alle</item>
+    <item>Alle außer Mobilfunk</item>
+    <item>Nur Kernel</item>
   </string-array>
   <string-array name="show_non_rect_clip_entries">
     <item>Aus</item>

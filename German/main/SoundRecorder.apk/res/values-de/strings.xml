@@ -61,7 +61,7 @@
   <string name="delete_dialog_message">Aufnahme löschen?</string>
   <string name="deleting_message">Löschen…</string>
   <string name="dialog_content_storage_full">Aufnahme wurde gestoppt, weil nicht genügend Speicher auf dem Gerät vorhanden ist</string>
-  <string name="dialog_privacy_revoke_tips">Nachdem Sie die Autorisierung widerrufen haben, stoppt die App die Datenerfassung, und alle zugehörigen Daten werden von den Servern gelöscht. Dies könnte die App praktisch unbrauchbar machen. Autorisierung trotzdem widerrufen? Um die Sicherheit Ihres Kontos zu gewährleisten, melden Sie sich bei i.mi.com an, bevor Sie die Autorisierung für Xiaomi Cloud Dienste widerrufen.</string>
+  <string name="dialog_privacy_revoke_tips">Wenn Sie die Autorisierung widerrufen, stoppt die App die Datenerfassung, und alle zugehörigen Daten werden von den Servern gelöscht. Dies könnte die App praktisch unbrauchbar machen. Autorisierung trotzdem widerrufen? Um die Sicherheit Ihres Kontos zu gewährleisten, melden Sie sich bei i.mi.com an, bevor Sie die Autorisierung für Xiaomi Cloud Dienste widerrufen.</string>
   <string name="dialog_title_storage_full">Nicht genügend Speicher</string>
   <string name="download">Herunterladen</string>
   <string name="early_morning">Morgen</string>
@@ -103,6 +103,7 @@ Wenn die Bestellung übertragen wird, wird die Rückerstattung automatisch durch
 3. Wie kann ich den Text der Aufnahme präzisieren?
 Die Aufnahme nach Text unterstützt derzeit nur die Mandarin-Übertragung. Die Genauigkeit des Übertragungsergebnisses wird durch Entfernung, Umgebung, Stimme der Bevölkerung usw. beeinflusst. Die Genauigkeitsrate kann sehr unterschiedlich sein. Wenn Sie den Text genauer ändern möchten, können Sie das Telefon verlassen. Näher, die Art, wie man Mandarin spricht."</string>
   <string name="fm_record">Radioaufnahmen (%d)</string>
+  <string name="fmt_chinese_date">d.M.</string>
   <string name="fmt_date_day">d.</string>
   <string name="fmt_date_long_month_day">d. MMMM</string>
   <string name="fmt_date_long_year_month_day">d. MMMM yyyy</string>
@@ -227,6 +228,7 @@ Die Aufnahme nach Text unterstützt derzeit nur die Mandarin-Übertragung. Die G
   <string name="notification_playback">Abspielen…</string>
   <string name="notification_recording">Aufnahme läuft…</string>
   <string name="notification_recording_ticker">Telefon stumm. Aufnahme…</string>
+  <string name="notification_save_as_complete">Erfolgreich gespeichert</string>
   <string name="notification_stopped">Aufnahme wurde beendet</string>
   <string name="notification_title_all_paused">Download angehalten</string>
   <string name="notification_warning">Geringer Speicherplatz (weniger als %d Minuten)…</string>
@@ -344,7 +346,7 @@ Um den Sprache-zu-Text-Dienst besser nutzen zu können, müssen Sie auch Folgend
   <string name="record_download_complete">Fertig</string>
   <string name="record_download_failed">Fehlgeschlagen</string>
   <string name="record_download_manager">Downloadmanager</string>
-  <string name="record_download_msg">Aufnahmen können erst abgespielt werden, nachdem diese vollständig runtergeladen sind</string>
+  <string name="record_download_msg">Aufnahmen können erst abgespielt werden, wenn sie vollständig runtergeladen wurden</string>
   <string name="record_download_msg_reload">Aufnahme nicht vorhanden</string>
   <string name="record_download_paused">Angehalten</string>
   <string name="record_download_pending">Anstehend</string>
@@ -385,6 +387,8 @@ Um den Sprache-zu-Text-Dienst besser nutzen zu können, müssen Sie auch Folgend
   <string name="reg_error_server">Serverfehler aufgetreten. Fehler an uns melden und erneut versuchen.</string>
   <string name="reg_error_upload_audio">Datei hochladen fehlgeschlagen, erneut versuchen.</string>
   <string name="reg_error_upload_order">Hochladen fehlgeschlagen, erneut versuchen.</string>
+  <string name="remove_icon_description_content">Rekorder ist eine System-App. Sie können keine Aufnahmen mehr verwalten, wenn Sie die Startbildschirm-Verknüpfung entfernen.</string>
+  <string name="remove_icon_description_title">\"Rekorder\" vom Startbildschirm entfernen?</string>
   <string name="rename">Umbenennen</string>
   <string name="rename_dialog_title">Aufnahme umbenennen</string>
   <string name="rename_duplicate">Bitte neu eingeben: Eine Aufnahme mit demselben Namen ist bereit vorhanden.</string>
@@ -395,6 +399,7 @@ Um den Sprache-zu-Text-Dienst besser nutzen zu können, müssen Sie auch Folgend
   <string name="saturday">Samstag</string>
   <string name="saturday_short">Sa</string>
   <string name="saturday_shortest">S</string>
+  <string name="save_as">Speichern als</string>
   <string name="save_record_dialog_title">Aufzeichnung speichern</string>
   <string name="search_app">Rekorder</string>
   <string name="search_empty">Keine Ergebnisse gefunden</string>
@@ -472,10 +477,10 @@ Um den Sprache-zu-Text-Dienst besser nutzen zu können, müssen Sie auch Folgend
   <string name="the_arbor_day">Tag des Baumes</string>
   <string name="the_armed_forces_day">Tag der Streitkräfte</string>
   <string name="the_armys_day">Tag der Armee</string>
-  <string name="the_childrens_day">Kindertag</string>
-  <string name="the_chinese_youth_day">Weltjugendtag</string>
+  <string name="the_childrens_day">Tag der Kinder</string>
+  <string name="the_chinese_youth_day">Tag der Jugend</string>
   <string name="the_christmas_day">Weihnachten</string>
-  <string name="the_double_ninth_festival">Chongyang-Fest</string>
+  <string name="the_double_ninth_festival">Chongyang (Doppel-9-Fest)</string>
   <string name="the_dragon_boat_festival">Drachenbootfestival</string>
   <string name="the_easter_day">Ostern</string>
   <string name="the_eve_of_the_spring_festival">Vorabend des Frühlingsfests</string>
@@ -491,22 +496,22 @@ Um den Sprache-zu-Text-Dienst besser nutzen zu können, müssen Sie auch Folgend
   <string name="the_national_day">Nationalfeiertag</string>
   <string name="the_national_father_day">Vatertag</string>
   <string name="the_new_years_day">Neujahr</string>
-  <string name="the_night_of_sevens">Nacht der Siebener</string>
-  <string name="the_partys_day">Tag der Partys</string>
+  <string name="the_night_of_sevens">Qixi (Doppel-7-Fest)</string>
+  <string name="the_partys_day">Tag der Partei</string>
   <string name="the_peace_day">Tag des Friedens</string>
   <string name="the_retrocession_day">Tag der Retrozession</string>
   <string name="the_second_day">Zweiter Tag</string>
   <string name="the_seventh_day">Siebter Tag</string>
   <string name="the_sixth_day">Sechster Tag</string>
-  <string name="the_spirit_festival">Seelen Fest</string>
+  <string name="the_spirit_festival">Geisterfest</string>
   <string name="the_spring_festival">Frühlingsfest</string>
-  <string name="the_teachers_day">Lehrertag</string>
+  <string name="the_teachers_day">Tag der Lehrer</string>
   <string name="the_third_day">Dritter Tag</string>
-  <string name="the_tw_childrens_day">Kindertag</string>
+  <string name="the_tw_childrens_day">Tag der Kinder</string>
   <string name="the_tw_youth_day">Tag der Jugend</string>
   <string name="the_united_nations_day">Tag der Vereinten Nationen</string>
   <string name="the_valentines_day">Valentinstag</string>
-  <string name="the_water_lantern_festival">Chinesisches Laternenfest</string>
+  <string name="the_water_lantern_festival">Laternenfestival</string>
   <string name="thursday">Donnerstag</string>
   <string name="thursday_short">Do</string>
   <string name="thursday_shortest">D</string>

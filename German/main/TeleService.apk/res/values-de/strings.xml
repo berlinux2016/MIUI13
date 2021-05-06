@@ -1,5 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+  <string name="call_fold_setting">Auf- und zuklappen</string>
+  <string name="call_fold_setting_title">Auf- und zuklappen</string>
+  <string name="fold_answer_pref_summary">Gerät zuklappen, um einen eingehenden Anruf automatisch anzunehmen</string>
+  <string name="fold_answer_pref_title">Zuklappen, um Anrufe anzunehmen</string>
+  <string name="unfold_close_camera_pref_summary">Gerät während eines Videoanrufs aufklappen, um die Kamera auszuschalten</string>
+  <string name="unfold_close_camera_pref_title">Aufklappen, um die Kamera auszuschalten</string>
+  <string name="unfold_speaker_pref_summary">Gerät während eines Anrufs aufklappen, um den Lautsprecher einzuschalten</string>
+  <string name="unfold_speaker_pref_title">Aufklappen, um den Lautsprecher zu verwenden</string>
+
   <string name="PERSOSUBSTATE_RUIM_CORPORATE_ENTRY">RUIM Firmen-PIN entsperren</string>
   <string name="PERSOSUBSTATE_RUIM_CORPORATE_ERROR">RUIM Firmenentsperrung nicht erfolgreich</string>
   <string name="PERSOSUBSTATE_RUIM_CORPORATE_IN_PROGRESS">RUIM Firmenentsperrung anfragen…</string>
@@ -619,11 +628,13 @@ Abtastrate"</string>
   <string name="card_title_unconditionalCF">Sofortige Rufumleitung ist eingeschaltet</string>
   <string name="carrier_info">Mobilfunkanbieterinfo</string>
   <string name="carrier_mmi_msg_title">%s-Nachricht</string>
+  <string name="carrier_provisioning">Informationen zur Nutzerverwaltung durch Anbieter</string>
   <string name="carrier_settings_euicc">Mobilfunkanbieter</string>
   <string name="carrier_settings_title">Mobilfunkanbietereinstellungen</string>
   <string name="category_personal">Privat</string>
   <string name="category_work">Arbeit</string>
   <string name="cb_sms_settings">SMS-Einstellungen für Notfallmeldungen</string>
+  <string name="cbrs_data_switch_string">CBRS-Daten</string>
   <string name="cdma_activate_device">Gerät aktivieren</string>
   <string name="cdma_alert_message">Wenn Sie eine andere Karte als Standard für die Datenverbindung auswählen, können Sie Ihre China-Telecom UIM-Karte nicht mehr verwenden</string>
   <string name="cdma_alert_title">UIM-Karte muss Standard sein</string>
@@ -847,6 +858,7 @@ Mobile Daten trotzdem nutzen?"</string>
   <string name="debug_networking_category">Netzwerkbetrieb</string>
   <string name="debug_view_attributes">View-Attributprüfung aktivieren</string>
   <string name="default_call_switch_err_msg1">Bevorzugte SIM für Anrufe kann während eines Anrufs nicht geändert werden</string>
+  <string name="default_carrier_mmi_msg_title">Nachricht vom Mobilfunkanbieter</string>
   <string name="default_notification_description">Standardsound (%1$s)</string>
   <string name="default_preference_summary_domain_address">&lt;Nicht festgelegt&gt;</string>
   <string name="default_preference_summary_password">&lt;Nicht festgelegt&gt;</string>
@@ -933,6 +945,7 @@ Mobile Daten trotzdem nutzen?"</string>
   <string name="dual_mic_title">Geräuschreduzierung</string>
   <string name="duration_disable_summary">Anzeigedauer ist AUS</string>
   <string name="duration_enable_summary">Anzeigedauer ist EIN</string>
+  <string name="eab_provisioned_switch_string">EAB/Präsenz bereitgestellt</string>
   <string name="ecc_contact_added">Notfallnummer hinzugefügt</string>
   <string name="ecc_contact_updated">Notfallnummer aktualisiert</string>
   <string name="ecc_invalid_name">Ungültiger ECC-Name</string>
@@ -1107,6 +1120,7 @@ Mobile Daten trotzdem nutzen?"</string>
   <string name="force_resizable_activities_summary">Alle Aktivitäten in der Größe für Multi-Window verändern, unabhängig von Manifestwerten</string>
   <string name="force_rtl_layout_all_locales">RTL-Layout erzwingen</string>
   <string name="force_rtl_layout_all_locales_summary">RTL-Bildschirmlayout für alle Sprachen erzwingen</string>
+  <string name="four_point_five_switch_summary">4.5G nutzen, um die Geschwindigkeit der mobilen Datenverbindung zu erhöhen und die Sprachqualität zu verbessern</string>
   <string name="frequecy_num">LTE CHANNEL NUM</string>
   <string name="fw_change_failed">"Rufumleitungsnummer konnte nicht geändert werden.
 Kontaktieren Sie Ihren Mobilfunkanbieter, falls das Problem weiterhin besteht."</string>
@@ -1226,7 +1240,7 @@ Trotzdem zum neuen Mobilfunkanbieter wechseln?"</string>
   <string name="kr_emergency_with_number">Telefonnummer zum Wählen eingeben</string>
   <string name="kt_lte_emm_cause_19_22">Am Netz anmelden… Einen Moment warten und erneut versuchen.</string>
   <string name="kt_lte_emm_cause_3">Benutzer wurde nicht verifiziert. Gerät ausschalten, wieder einschalten und erneut versuchen. Wenn dieses Problem danach immer noch auftritt, gehen Sie zu einem Kundendienstzentrum.</string>
-  <string name="kt_lte_emm_cause_6">Gerät wurde nicht verifiziert. Gerät 2- oder 3-mal neu starten, nachdem Sie die neue USIM-Karte installiert haben. Wenn dieses Problem danach immer noch auftritt, gehen Sie zu einem Kundendienstzentrum.</string>
+  <string name="kt_lte_emm_cause_6">Gerät wurde nicht verifiziert. Gerät 2- oder 3-mal neu starten, wenn Sie die neue USIM-Karte installiert haben. Wenn dieses Problem danach immer noch auftritt, gehen Sie zu einem Kundendienstzentrum.</string>
   <string name="kt_lte_emm_cause_8">Aktivierung erforderlich. Gehen Sie zu einem Kundendienstzentrum.</string>
   <string name="kt_lte_emm_cause_others">Netzanmeldung nicht möglich</string>
   <string name="kt_lte_msim_emm_cause_19_22">SIM %d wird am Netz angemeldet… Einen Moment warten und erneut versuchen.</string>
@@ -1257,7 +1271,7 @@ Trotzdem zum neuen Mobilfunkanbieter wechseln?"</string>
   <string name="label_cdp">SIM Firmenentsperr-PIN</string>
   <string name="label_ndp">SIM-Netzwerk Entsperr-PIN</string>
   <string name="label_nsdp">SIM Netzbereichentsperr-PIN</string>
-  <string name="label_phoneid">Perso gesperrt für</string>
+  <string name="label_phoneid">Person gesperrt für</string>
   <string name="label_puk">PUK eingeben</string>
   <string name="label_puk2_code">PUK2 eingeben</string>
   <string name="label_rcdp">RUIM Firmenentsperr-PIN</string>
@@ -1367,6 +1381,9 @@ Immer diese Nummer verwenden"</string>
   <string name="message_decode_error">Fehler beim Decodieren der Nachricht</string>
   <string name="mhh_disable">Medizin, Gesundheit und Krankenhaus ausgeschaltet</string>
   <string name="mhh_enable">Medizin, Gesundheit und Krankenhaus eingeschaltet</string>
+  <string name="mi_mobile_sim_activate_message">SIM %d aktivieren, um Mi Mobile verwenden zu können. Dies kann bis zu 5 Min dauern.</string>
+  <string name="mi_mobile_sim_activate_ok">Aktivieren</string>
+  <string name="mi_mobile_sim_activate_title">Wilkommen bei Mi Mobile!</string>
   <string name="mi_sim_settings_summary">Verwenden Sie die mobile Datenverbindung ohne SIM-Karte</string>
   <string name="mismatchPin">Eingegebene PINs stimmen nicht überein. Erneut versuchen.</string>
   <string name="mismatchPin2">PIN2 stimmen nicht überein. Erneut versuchen.</string>
@@ -1454,7 +1471,7 @@ Immer diese Nummer verwenden"</string>
   <string name="msim_apn_not_set">Nicht eingerichtet</string>
   <string name="msim_cmcc_dds_switch_not_support">SIM-Karten können wegen Betreiberbeschränkungen nicht gewechselt werden.</string>
   <string name="msim_default_setting">Standardeinstellungen</string>
-  <string name="msim_disable_sim_card_summary_default_card">Diese Karte ist derzeit als Standard-SIM eingestellt. Wenn Sie sie nicht mehr verwenden, können Sie nicht mehr anrufen oder die mobile Datenverbindung nutzen. Sie können diese SIM-Karte stoppen, nachdem Sie eine andere SIM-Karte als Standard eingestellt haben.</string>
+  <string name="msim_disable_sim_card_summary_default_card">Diese Karte ist derzeit als Standard-SIM eingestellt. Wenn Sie sie nicht mehr verwenden, können Sie nicht mehr anrufen oder die mobile Datenverbindung nutzen. Sie können diese SIM-Karte stoppen, wenn Sie eine andere SIM-Karte als Standard einstellen.</string>
   <string name="msim_disable_sim_card_summary_non_default_card">Sie können evtl. nicht mehr telefonieren oder die mobile Datenverbindung nutzen. %s SIM-Karte nicht mehr verwenden?</string>
   <string name="msim_disable_sim_card_summary_telecom_vice_card_inEcm">Schränken Sie Ihre 2. SIM-Karte im Notrufmodus nicht ein</string>
   <string name="msim_disable_sim_card_title">SIM-Karte nicht mehr verwenden</string>
@@ -1558,15 +1575,6 @@ Kontaktieren Sie Ihren Mobilfunkanbieter."</string>
   <string name="no_vm_number_msg">Auf der SIM-Karte ist keine Sprachboxnummer gespeichert</string>
   <string name="no_voip">SIP-Anrufe werden nicht unterstützt</string>
   <string name="no_wifi_available">Für SIP-Anrufe ist eine aktive WLAN-Verbindung notwendig (WLAN &amp; Netzwerkeinstellungen nutzen).</string>
-  <string name="notification_switch_auto_text">Sieht aus, als seien Sie wieder da. Auf lokale Netzwerke umgeschaltet.</string>
-  <string name="notification_switch_auto_title">Mobile Netze</string>
-  <string name="nr_network_info">5G-Netznutzungsinfo</string>
-  <string name="nr_usaged_first_used_time">Im 5G-Netz registriert</string>
-  <string name="nr_usaged_module">Gerätemodell</string>
-  <string name="nr_usaged_network_rate">Höchste Geschwindigkeit</string>
-  <string name="nr_usaged_network_usaged">Heutige Daten</string>
-  <string name="nr_usaged_operator">Anbieter</string>
-  <string name="nr_usaged_used_time">Nutzungsdauer</string>
   <string name="not_a_valid_port">Portnummer muss zwischen %1$d und %2$d liegen.</string>
   <string name="not_allowed">Ihre SIM-Karte verbietet eine Verbindung mit diesem Netzwerk</string>
   <string name="not_set">Nicht festgelegt</string>
@@ -1577,10 +1585,19 @@ Kontaktieren Sie Ihren Mobilfunkanbieter."</string>
   <string name="notification_network_selection_text">Ausgewähltes Netzwerk (%s) nicht verfügbar</string>
   <string name="notification_network_selection_title">Kein Dienst</string>
   <string name="notification_network_selection_without_operator">Ausgewähltes Netzwerk nicht verfügbar</string>
+  <string name="notification_switch_auto_text">Anscheinend sind Sie wieder da. Auf lokale Netzwerke umgeschaltet.</string>
+  <string name="notification_switch_auto_title">Mobile Netze</string>
   <string name="notification_voicemail_no_vm_number">Sprachboxnummer unbekannt</string>
   <string name="notification_voicemail_text_format">%s anrufen</string>
   <string name="notification_voicemail_title">Neue Sprachnachricht</string>
   <string name="notification_voicemail_title_count">Neue Sprachnachricht (%d)</string>
+  <string name="nr_network_info">5G-Netznutzungsinfo</string>
+  <string name="nr_usaged_first_used_time">Im 5G-Netz registriert</string>
+  <string name="nr_usaged_module">Gerätemodell</string>
+  <string name="nr_usaged_network_rate">Höchste Geschwindigkeit</string>
+  <string name="nr_usaged_network_usaged">Heutige Daten</string>
+  <string name="nr_usaged_operator">Anbieter</string>
+  <string name="nr_usaged_used_time">Nutzungsdauer</string>
   <string name="null_phone_number">Telefonnummer kann nicht Null sein!</string>
   <string name="number">Nummer</string>
   <string name="numerous_emergency_numbers_title">Notfallnummern</string>
@@ -1637,7 +1654,7 @@ Kontaktieren Sie Ihren Mobilfunkanbieter."</string>
   <string name="ota_title_activate_success">Telefon wurde erfolgreich aktiviert</string>
   <string name="ota_title_problem_with_activation">Problem mit der Aktivierung</string>
   <string name="ota_touch_activate">"Ein spezieller Anruf muß getätigt werden, damit Ihr Telefondienst aktiviert wird.
-Nachdem Sie 'Aktivieren' drücken, hören Sie den Anweisungen zu, um das Telefon zu aktivieren."</string>
+Wenn Sie 'Aktivieren' drücken, hören Sie den Anweisungen zu, um das Telefon zu aktivieren."</string>
   <string name="ota_try_again">Erneut versuchen</string>
   <string name="ota_unsuccessful">"Ihr Telefon wurde nicht aktiviert.
 Evtl. müssen Sie einen Bereich mit besserem Empfang finden (nahe eines Fensters oder draußen).
@@ -1902,10 +1919,12 @@ Erneut versuchen oder den Kundendienst für weitere Optionen anrufen."</string>
   <string name="puk_unlocked">Ihre SIM-Karte wurde entsperrt. Ihr Telefon wird nun entsperrt…</string>
   <string name="quick_dial_setting_title">Kurzwahl</string>
   <string name="radioInfo_data_connected">Verbunden</string>
-  <string name="radioInfo_data_connecting">Verbinden</string>
+  <string name="radioInfo_data_connecting">Verbinden…</string>
   <string name="radioInfo_data_data_disconnected">Getrennt</string>
   <string name="radioInfo_data_disconnected">Getrennt</string>
   <string name="radioInfo_data_suspended">Ausgesetzt</string>
+  <string name="radioInfo_display_packets">Pakete</string>
+  <string name="radioInfo_menu_getIMS">IMS-Dienststatus</string>
   <string name="radioInfo_menu_viewADN">SIM-Adressbuch anzeigen</string>
   <string name="radioInfo_menu_viewFDN">Festnetznummern anzeigen</string>
   <string name="radioInfo_menu_viewSDN">Dienstwahlnummern anzeigen</string>
@@ -1929,15 +1948,20 @@ Erneut versuchen oder den Kundendienst für weitere Optionen anrufen."</string>
   <string name="radio_info_data_network_type_label">Datennetzwerktyp:</string>
   <string name="radio_info_dds">SubId der Standarddaten-SIM:</string>
   <string name="radio_info_dl_kbps">DL-Bandbreite (kbps):</string>
+  <string name="radio_info_gprs_service_label">Datendienst:</string>
+  <string name="radio_info_gsm_service_label">Sprachdienst:</string>
+  <string name="radio_info_http_client_test">HTTP-Clienttest:</string>
+  <string name="radio_info_imei_label">IMEI:</string>
   <string name="radio_info_ims_feature_status_available">Verfügbar</string>
   <string name="radio_info_ims_feature_status_unavailable">Nicht verfügbar</string>
   <string name="radio_info_ims_reg_status">"IMS-Registrierung: %1$s
 Voice over LTE: %2$s
 Voice over WLAN: %3$s
-Video-Anrufe: %4$s
+Videoanrufe: %4$s
 UT-Schnittstelle: %5$s"</string>
   <string name="radio_info_ims_reg_status_not_registered">Nicht_registriert</string>
   <string name="radio_info_ims_reg_status_registered">Registriert</string>
+  <string name="radio_info_ims_reg_status_title">IMS-Status</string>
   <string name="radio_info_message_waiting_label">Nachricht wartet:</string>
   <string name="radio_info_phone_number_label">Telefonnummer:</string>
   <string name="radio_info_phy_chan_config">LTE physikalische Kanalkonfiguration:</string>
@@ -1945,15 +1969,15 @@ UT-Schnittstelle: %5$s"</string>
   <string name="radio_info_ppp_resets_label">Anzahl der PPP-Resets seit Boot:</string>
   <string name="radio_info_ppp_sent_label">Gesendete Daten:</string>
   <string name="radio_info_radio_power">Mobilfunkleistung</string>
-  <string name="radio_info_set_perferred_label">Einstellung bevorzugter Netzwerktyp:</string>
+  <string name="radio_info_set_perferred_label">Bevorzugten Netzwerktyp einstellen:</string>
   <string name="radio_info_signal_location_label">Zellstandort-Info (veraltet):</string>
   <string name="radio_info_signal_strength_label">Signalstärke:</string>
   <string name="radio_info_smsc_refresh_label">Aktualisieren</string>
-  <string name="radio_info_smsc_update_label">Update</string>
+  <string name="radio_info_smsc_update_label">Aktualisierung</string>
   <string name="radio_info_subid">Aktuelle SubId:</string>
-  <string name="radio_info_toggle_dns_check_label">DNS-Prüfung umschalten</string>
+  <string name="radio_info_toggle_dns_check_label">DNS-Überrüfung umschalten</string>
   <string name="radio_info_ul_kbps">UL-Bandbreite (kbps):</string>
-  <string name="radio_info_voice_network_type_label">Sprach-Netzwerktyp:</string>
+  <string name="radio_info_voice_network_type_label">Sprachnetzwerktyp:</string>
   <string name="radio_off_during_emergency_call">Flugmodus nicht möglich während eines Notrufs</string>
   <string name="radio_off_error">Aktivieren Sie Ihre Mobilfunkverbindung, bevor Sie diese Einstellungen anzeigen</string>
   <string name="rc_unlock_failed">Firmen-RUIM-Entsperrung fehlgeschlagen</string>
@@ -2075,6 +2099,7 @@ UT-Schnittstelle: %5$s"</string>
   <string name="search_menu_title">Suchen</string>
   <string name="search_networks">Netz suchen</string>
   <string name="selectContact">Kontakt auswählen</string>
+  <string name="select_apn_list_title">Standard-APN wählen: für Karte %1$s</string>
   <string name="select_application">App auswählen</string>
   <string name="select_automatically">Automatisch Netzwerk wählen</string>
   <string name="select_dds_dialog_title">Standard-SIM für mobile Daten auswählen</string>
@@ -2511,6 +2536,7 @@ Falls dieses Problem weiterhin besteht, setzen Sie sich mit Ihrem Mobilfunkanbie
   <string name="volte_provision_notification_activate">Aktivieren</string>
   <string name="volte_provision_text">VoLTE-Anrufe bieten eine bessere Qualität als normale Anrufe. SMS zum Aktivieren senden?</string>
   <string name="volte_provision_title">VoLTE-Anrufe</string>
+  <string name="volte_provisioned_switch_string">VoLTE-Kennzeichnung</string>
   <string name="volte_ss_not_available_tips">Um den Vorgang zu beenden, müssen Sie eine Datenverbindung über %s öffnen</string>
   <string name="volte_ss_not_available_tips_data">Um den Vorgang zu beenden, müssen Sie mobile Daten auf %s aktivieren</string>
   <string name="volte_ss_not_available_tips_data_roaming">Um den Vorgang zu beenden, müssen Sie mobile Daten sowie Roaming auf %s aktivieren</string>
@@ -2534,6 +2560,7 @@ Das Gerät wechselt automatisch ins Mobilfunknetz (2G/3G), um einen Notruf zu t�
 Notrufe sind nur in Gebieten mit Mobilfunkabdeckung möglich."</string>
   <string name="vowifi_emergency_warning_title">Notrufe per WLAN-Anrufe</string>
   <string name="vpn_settings_not_available">VPN-Einstellungen sind für diesen Benutzer nicht verfügbar</string>
+  <string name="vt_provisioned_switch_string">Videoanrufe eingerichtet</string>
   <string name="vvm_unsupported_message_format">Nicht unterstützer Nachrichtentyp, rufen Sie zum Abhören %s an</string>
   <string name="wait_for_debugger">Auf Debugger warten</string>
   <string name="wait_for_debugger_summary">Debugged-App wartet darauf, dass der Debugger angehängt wird, bevor er ausgeführt wird</string>
@@ -2559,11 +2586,13 @@ Notrufe sind nur in Gebieten mit Mobilfunkabdeckung möglich."</string>
   <string name="wfc_internet_lost_summary">"Hoppla! Ihre WLAN-Verbindung ist aktiv, aber die Internetverbindung wurde unterbrochen.
 Prüfen Sie die Internetverbindung auf Ihrem Router und versuchen Sie es erneut."</string>
   <string name="wfc_no_network">Kein geeignetes Mobilfunknetz</string>
+  <string name="wfc_provisioned_switch_string">WLAN-Anrufe eingerichtet</string>
   <string name="wfc_wifi_call_drop">WLAN-Anruf unterbrochen</string>
   <string name="wfc_wifi_call_drop_summary">"Hoppla! Sie haben sich während des Anrufs anscheinend außerhalb der Reichweite Ihres WLAN bewegt.
 Wollen Sie sich wieder verbinden, um den Anruf fortzusetzen?"</string>
   <string name="wfc_wifi_handover_fail">Hoppla! Ihr Anruf kann nicht durchgeführt werden.</string>
   <string name="wfc_wifi_lte_handover_fail">Hoppla! Kein verfügbares LTE-Netz, um den Anruf fortzusetzen.</string>
+  <string name="wfcmode_ims_preferred">IMS bevorzugt</string>
   <string name="wfcmode_mobile_preferred">Mobilfunk bevorzugt</string>
   <string name="wfcmode_wifi_only">Nur WLAN</string>
   <string name="wfcmode_wifi_preferred">WLAN bevorzugt</string>
@@ -2576,6 +2605,7 @@ Wollen Sie sich wieder verbinden, um den Anruf fortzusetzen?"</string>
   <string name="wifi_auto_sel_wapi_cert">Automatisch wählen</string>
   <string name="wifi_call_accept">Überspringen</string>
   <string name="wifi_call_available_message">Sie können jetzt über WLAN anrufen. Wenn Sie mit WLAN verbunden sind, können Sie auch dann sprechen, wenn Sie sich in Gebieten ohne Mobilfunkabdeckung befinden.</string>
+  <string name="wifi_call_available_message_for_ATT_MX">Sie sind dabei, sich mit einem WLAN zu verbinden. Die Gesprächsqualität kann je nach Netzwerk variieren.</string>
   <string name="wifi_call_available_title">WLAN-Anrufe einschalten</string>
   <string name="wifi_call_cancel">Mehr Info</string>
   <string name="wifi_call_help">Hilfe</string>

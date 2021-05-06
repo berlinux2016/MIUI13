@@ -266,7 +266,7 @@ Wenn Sie keinen Zugang zu den empfohlenen Kursen erhalten möchten, können Sie 
   <string name="data_empty">Keine Daten</string>
   <string name="data_safety_tip_details">Ihre Gesundheitsdaten werden auf diesem Gerät gespeichert, wenn Sie sich abmelden. Sie können Ihre Gesundheitsdaten unter Health &gt; Datenquellen löschen.</string>
   <string name="data_safety_tip_details2">"Einige Ihrer Gesundheitsdaten wurden in die Cloud hochgeladen. Sie können wählen, ob Sie Ihre Gesundheitsdaten auf diesem Gerät behalten oder löschen möchten. Wenn Sie unten \" Löschen\" auswählen, werden nur die Daten von diesem Gerät gelöscht, synchronisierte Elemente werden weiterhin in der Cloud gespeichert.
-Wenn Sie sich entscheiden, Ihre Gesundheitsdaten zu löschen, nachdem Sie sich entschieden haben, sie zu behalten, können Sie dies in Health &gt; Datenquellen tun."</string>
+Wenn Sie sich entscheiden, Ihre Gesundheitsdaten zu löschen, wenn Sie vorher entschieden hatten, sie zu behalten, können Sie dies in Health &gt; Datenquellen tun."</string>
   <string name="data_safety_tip_title">Gesundheitsdaten löschen</string>
   <string name="data_source">Datenquellen</string>
   <string name="data_source_cannot_be_synchronized">Daten synchronisieren nicht möglich</string>
@@ -293,6 +293,7 @@ Wenn Sie sich entscheiden, Ihre Gesundheitsdaten zu löschen, nachdem Sie sich e
   <string name="date_format_y_m_d_h_m_s">dd.MM.yyyy HH:mm:ss</string>
   <string name="date_format_yyyy_m_d_h_m">dd.MM.yyyy HH:mm</string>
   <string name="date_picker_lunar">Traditioneller chin. Kalender</string>
+  <string name="date_time_picker_dialog_title">Datum und Zeit einstellen</string>
   <string name="date_week_index">"'KW' ww/yyyy"</string>
   <string name="day">Tag</string>
   <string name="deep_light_detection_open_prompt">Ihr Schlafzyklus wird analysiert, wenn Sie das nächste Mal zu Bett gehen</string>
@@ -415,7 +416,7 @@ Lesen Sie unsere &lt;font color=\"#0000FF\">&lt;a href=\"%1$s\">Nutzervereinbaru
   <string name="enough">Ausreichend</string>
   <string name="enter_mi_health">Xiaomi Health öffnen</string>
   <string name="environment_detection_again">Erneut versuchen</string>
-  <string name="environment_detection_fail">Sieht aus, als wäre es hier zu laut.</string>
+  <string name="environment_detection_fail">Anscheinend ist es hier zu laut.</string>
   <string name="environment_detection_fail_hint">Gehen Sie an einen ruhigen Ort und versuchen Sie es erneut.</string>
   <string name="environment_detection_hint_one">Vermeiden Sie laute Orte, um die Werte präziser zu machen.</string>
   <string name="environment_detection_hint_two">Ihr Training wird auf Basis der von Ihnen erzeugten Geräusche automatisch angehalten und wieder aufgenommen.</string>
@@ -504,6 +505,7 @@ Wenn es für Sie nach 30 Minuten im Bett immer noch schwierig ist, einzuschlafen
   <string name="finish_stand">Stehen beenden</string>
   <string name="finish_stand2">Aufstehen</string>
   <string name="finished_rate">%1$d%% abgeschlossen</string>
+  <string name="fmt_chinese_date">d.M.</string>
   <string name="fmt_date_day">d.</string>
   <string name="fmt_date_long_month_day">d. MMMM</string>
   <string name="fmt_date_long_year_month_day">d. MMMM yyyy</string>
@@ -850,10 +852,13 @@ mit einem Finger"</string>
   <string name="miuix_appcompat_cloud_state_syncing">Mit der Cloud synchronisieren…</string>
   <string name="miuix_appcompat_confirm_description">Bestätigen</string>
   <string name="miuix_appcompat_delete_description">Löschen</string>
+  <string name="miuix_appcompat_deselect_all">Abwählen</string>
   <string name="miuix_appcompat_deselect_all_description">Alle abwählen</string>
   <string name="miuix_appcompat_search_action_mode_cancel">Abbrechen</string>
   <string name="miuix_appcompat_search_input_description">Suchen</string>
+  <string name="miuix_appcompat_select_all">Alle wählen</string>
   <string name="miuix_appcompat_select_all_description">Alle auswählen</string>
+  <string name="miuix_appcompat_select_item">Elemente wählen</string>
   <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Zum Aktualisieren herunterziehen</string>
   <string name="miuix_sbl_tracking_progress_labe_refreshed">Erfolgreich aktualisiert</string>
   <string name="miuix_sbl_tracking_progress_labe_refreshing">Aktualisieren…</string>
@@ -1098,6 +1103,7 @@ mit einem Finger"</string>
   <string name="select_recog_question">Aktion auswählen</string>
   <string name="select_swim_posture">Stil auswählen</string>
   <string name="select_target">Ziel auswählen</string>
+  <string name="send">Senden</string>
   <string name="send_diagnosis_log">Diagnoseprotokoll senden</string>
   <string name="sending">Senden…</string>
   <string name="set_emergency_contact">Notfallkontakt</string>
@@ -1270,7 +1276,7 @@ nicht gefunden"</string>
   <string name="sleep_time_edit">Bearbeiten</string>
   <string name="sleep_time_standard_pattern">Standard: %1$d Std</string>
   <string name="sleep_tip_default">Versuchen Sie, vor 23:00 Uhr ins Bett zu gehen</string>
-  <string name="sleep_tip_keep_not_enough">Sieht aus, als bekämen Sie nicht ausreichend Schlaf</string>
+  <string name="sleep_tip_keep_not_enough">Anscheinend bekommen Sie nicht ausreichend Schlaf.</string>
   <string name="sleep_tip_keep_on">Alles sieht gut aus. Schön!</string>
   <string name="sleep_today">Heute</string>
   <string name="sleep_tracing_operation">Schlaf verfolgen…</string>
@@ -1671,7 +1677,7 @@ auf Ihren persönlichen Daten beraten."</string>
   <string name="the_tw_youth_day">Tag der Jugend</string>
   <string name="the_united_nations_day">Tag der Vereinten Nationen</string>
   <string name="the_valentines_day">Valentinstag</string>
-  <string name="the_water_lantern_festival">Chinesisches Laternenfest</string>
+  <string name="the_water_lantern_festival">Laternenfestival</string>
   <string name="thursday">Donnerstag</string>
   <string name="thursday_short">Do</string>
   <string name="thursday_shortest">D</string>

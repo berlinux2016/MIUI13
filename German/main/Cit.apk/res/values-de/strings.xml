@@ -49,6 +49,10 @@
   <string name="battery_reverse_wireless_charge_title">Kabelloses Umkehrladen</string>
   <string name="battery_value">Strom</string>
   <string name="begin_to_save_finger_data">Beginn der Speicherung der Fingerdaten</string>
+  <string name="bottom_left_high_speaker">Test unterer Hochtöner links</string>
+  <string name="bottom_left_low_speaker">Test unterer Tieftöner links</string>
+  <string name="bottom_right_high_speaker">Test unterer Hochtöner rechts</string>
+  <string name="bottom_right_low_speaker">Test unterer Tieftöner rechts</string>
   <string name="bt_address">Adresse:</string>
   <string name="button_cancel">Abbrechen</string>
   <string name="camera_capture">Aufnahme</string>
@@ -191,6 +195,8 @@ Halten Sie das Telefon so, als ob Sie einen Anruf entgegennehmen, sprechen Sie i
   <string name="cit_bluetooth_scanning_bluetooth_done">Erledigt. Keine Bluetooth-Geräte in der Nähe gefunden.</string>
   <string name="cit_bluetooth_scanning_bluetooth_error">Beim Scannen nach Bluetooth-Geräten ist ein Fehler aufgetreten</string>
   <string name="cit_bluetooth_scanning_opening_bluetooth">Bluetooth-Gerät öffnen…</string>
+  <string name="cit_bottom_left_speaker_test">Test unterer Lautsprecher links</string>
+  <string name="cit_bottom_right_speaker_test">Test unterer Lautsprecher rechts</string>
   <string name="cit_build_finger_failed">Fingerabdruck erstellen FEHLGESCHLAGEN</string>
   <string name="cit_build_finger_passed">Fingerabdruck erstellen BESTANDEN</string>
   <string name="cit_button_light_off">Beleuchtete Tasten AUS</string>
@@ -289,6 +295,7 @@ Bitte klicken Sie auf die entsprechende Taste, je nachdem, welche Nummer Sie hö
   <string name="cit_fm_open_2">FM - 107.9 starten</string>
   <string name="cit_fm_open_bluetooth">Bluetooth öffnen…</string>
   <string name="cit_fm_start_service">Audio starten</string>
+  <string name="cit_fold_hall_test_summary">Bitte klappen Sie das Gerät zusammen und wieder auf. Wenn die \"Bestanden\"-Taste anklickbar wird, ist der Test bestanden.</string>
   <string name="cit_fp_fod_cali_title">FOD-Fingerabdruck-Kalibrierung</string>
   <string name="cit_fpc_checkerboard_test">SCHACHBRETT-TEST</string>
   <string name="cit_fpc_selftest">SELBSTTEST</string>
@@ -368,6 +375,7 @@ Berühren Sie den Bildschirm, um GPS zu starten…"</string>
   <string name="cit_hide_menu">Menü verbergen</string>
   <string name="cit_hvdcp_charger_in">Laden über (USB_HVDCP)</string>
   <string name="cit_init_fp_fod_test_tip">Init-Fingerabdruck-Testumgebung</string>
+  <string name="cit_keyboard_auto_test_summary">Die getesteten Tastenereignisse werden unten angezeigt. Grün bedeutet, dass das entsprechende Event normal funktioniert. Drücken Sie die Power-Taste, um den Automatikmodus zu beenden.</string>
   <string name="cit_kayboard_home_down">Taste: HOME</string>
   <string name="cit_kayboard_power_down">Taste: POWER</string>
   <string name="cit_kayboard_volume_down">Taste: LAUTSTÄRKE RUNTER</string>
@@ -467,8 +475,8 @@ Achten Sie beim Kalibrieren darauf, dass sich nichts zwischen dem Sensor und Ihr
   <string name="cit_sd_fail">Ein Fehler ist aufgetreten</string>
   <string name="cit_sd_mount">SD-Karte einhängen</string>
   <string name="cit_sd_mount_sucess">SD-Karte eingehängt</string>
-  <string name="cit_sd_mp3_not_existed">"Es gibt auf der SD-Karte keine Datei namens \"music.mp3\".
-Nachdem Sie \"music.mp3\" in das Verzeichnis der SD-Karte gelegt haben, zum Abspielen auf den Bildschirm tippen."</string>
+  <string name="cit_sd_mp3_not_existed">"Auf der SD-Karte gibt es keine Datei namens \"music.mp3\".
+Wenn Sie \"music.mp3\" in das Verzeichnis der SD-Karte gelegt haben, zum Abspielen auf den Bildschirm tippen."</string>
   <string name="cit_sd_plugged_in">SD-Karte erkannt, SD-Karte jetzt entfernen</string>
   <string name="cit_sd_plugged_out">SD-Karte wurde entfernt, SD-Karte jetzt einlegen</string>
   <string name="cit_sd_plugin_check_summary">Text \"SD-Karte erkannt, SD-Karte jetzt entfernen\" sollte unten angezeigt werden.</string>
@@ -542,13 +550,18 @@ Nachdem Sie \"music.mp3\" in das Verzeichnis der SD-Karte gelegt haben, zum Absp
   <string name="cit_tool_bluetooth_le_power_run">STARTEN</string>
   <string name="cit_tool_bluetooth_le_rx_4x_channel">Kanal:</string>
   <string name="cit_tool_bluetooth_le_rx_50_channel">Kanal:</string>
+  <string name="cit_tool_bluetooth_le_tx_channel">Kanal:</string>
   <string name="cit_tool_bluetooth_not_on">Bluetooth ist NICHT aktiviert</string>
   <string name="cit_tool_bluetooth_off">Bluetooth deaktivieren</string>
   <string name="cit_tool_bluetooth_on">Bluetooth aktivieren</string>
+  <string name="cit_tool_bluetooth_rse_chain">Antenne:</string>
+  <string name="cit_tool_bluetooth_rse_channel">Kanal:</string>
+  <string name="cit_tool_bluetooth_rse_mode">Modus:</string>
   <string name="cit_tool_bluetooth_rx_count_error">Ausgabewert ist keine Zahl</string>
   <string name="cit_tool_bluetooth_rx_error">Beim Ausführen des Programms ist ein Fehler aufgetreten</string>
   <string name="cit_tool_bluetooth_tx_chain">Antenne:</string>
   <string name="cit_tool_bluetooth_tx_channel">Kanal:</string>
+  <string name="cit_tool_bluetooth_tx_rse_run">STARTEN </string>
   <string name="cit_tool_cal_accelerometer">Beschleunigungssensor-Kalibrierungstool</string>
   <string name="cit_tool_cal_camera">Kamera-Kalibrierungstool</string>
   <string name="cit_tool_cal_gyroscope">Gyro-Kalibrierungstool</string>
@@ -626,7 +639,7 @@ Die zweite Zeile zeigt den Namen und die Versionsnummer des Standard-MBN und des
   <string name="cit_tool_no_repeat">Keine Wiederholung!</string>
   <string name="cit_tool_not_support">Nicht unterstützt</string>
   <string name="cit_tool_opt_fail_info_notify">Opt fehlgeschlagen, bitte Telefon neustarten, um es erneut zu versuchen.</string>
-  <string name="cit_tool_opt_standby">Option Standby ...</string>
+  <string name="cit_tool_opt_standby">Option Standby…</string>
   <string name="cit_tool_prx_drx_select_mode">Modus wählen:</string>
   <string name="cit_tool_prx_drx_select_rat">RAT wählen:</string>
   <string name="cit_tool_prx_drx_start_test">Test starten</string>
@@ -660,8 +673,10 @@ Die zweite Zeile zeigt den Namen und die Versionsnummer des Standard-MBN und des
   <string name="cit_tool_wifi_tx_st_chan">Kanal:</string>
   <string name="cit_tool_wifi_txrx_chain_selection">Antenne wählen</string>
   <string name="cit_tool_wlan">WLAN Test-Tool</string>
+  <string name="cit_tool_wlan_exit">Beenden</string>
   <string name="cit_tool_wlan_rx_count_error">Ausgabewert ist keine Zahl</string>
   <string name="cit_tool_wlan_rx_error">Beim Ausführen des Programms ist ein Fehler aufgetreten</string>
+  <string name="cit_tool_wlan_rx_run">Starten</string>
   <string name="cit_tool_wlan_rxbg_test_channel">Channel:</string>
   <string name="cit_tool_wlan_rxn_test_bw">Bandbreite:</string>
   <string name="cit_tool_wlan_rxn_test_channel">Channel:</string>
@@ -675,6 +690,8 @@ Die zweite Zeile zeigt den Namen und die Versionsnummer des Standard-MBN und des
   <string name="cit_tool_wlan_tx_n_chan">Channel:</string>
   <string name="cit_tool_wlan_tx_st_chan">Channel:</string>
   <string name="cit_tool_wlan_txrx_chain_selection">Antenne auswählen</string>
+  <string name="cit_top_left_speaker_test">Test oberer Lautsprecher links</string>
+  <string name="cit_top_right_speaker_test">Test oberer Lautsprecher rechts</string>
   <string name="cit_torch">Blitz</string>
   <string name="cit_torch_first">Der erste Blitz</string>
   <string name="cit_torch_modify">Blitzlicht modifizieren</string>
@@ -719,7 +736,11 @@ Test fehlgeschlagen!"</string>
   <string name="cit_vibrator_long">Lange Vibration</string>
   <string name="cit_vibrator_short">Kurze Vibration</string>
   <string name="cit_vibrator_show_advanced">Erweiterte Optionen anzeigen</string>
+  <string name="cit_vice_display_check_summary">"Nach dem Einschalten des kleinen Bildschirms und einem Doppelklick zum Aufhellen des Bildschirms:
+Bestätigen Sie, dass die Farben auf dem gesamten Bildschirm einheitlich dargestellt werden. Prüfen Sie, ob es keine unregelmäßigen hellen und dunklen Flecken gibt."</string>
   <string name="cit_vice_display_check_title">Stellvertreter-Anzeige</string>
+  <string name="cit_vice_touch_panel_test_summary">Nach dem Einschalten des kleinen Bildschirms und einem Doppelklick zum Aufhellen des Bildschirms müssen Sie den Bildschirm umdrehen und auf den hinteren kleinen Bildschirm doppelklicken, um den Bildschirm aufzuhellen, und auf dem kleinen Bildschirm ein Kreuz entlang des Rasters zeichnen.</string>
+  <string name="cit_vice_touch_panel_test_tips">Bitte bestätigen Sie, dass der kleine Bildschirm und der Doppelklick zum Einschalten des Bildschirms am kleinen Bildschirm auf der Rückseite eingeschaltet sind, dann klicken Sie.</string>
   <string name="cit_vice_touch_panel_test_title">Stellvertreter-Berührungssensor</string>
   <string name="cit_voc_data_humidity">Luftfeuchtigkeit</string>
   <string name="cit_voc_data_pressure">Druck</string>
@@ -757,7 +778,7 @@ Test fehlgeschlagen!"</string>
   <string name="failed_to_test">TEST FEHLGESCHLAGEN</string>
   <string name="fingerprint">Fingerabdruck:</string>
   <string name="fingerprint_input_title">Fingerabdruck-Eingabetest</string>
-  <string name="firstplug_mic_check_record_tip">Aufnahme stoppen. Nachdem Sie das Headset eingesteckt haben, bestätigen Sie das Ergebnis.</string>
+  <string name="firstplug_mic_check_record_tip">Aufnahme stoppen. Wenn Sie das Headset eingesteckt haben, bestätigen Sie das Ergebnis.</string>
   <string name="fod_check_start_error">"Sensorprüfprogramm kann nicht gestartet werden.
 Test fehlgeschlagen!"</string>
   <string name="fod_check_summary">"Testanleitung:
@@ -822,9 +843,9 @@ Test erfolgreich, bitte auf die Taste Bestanden tippen."</string>
   <string name="ir_camera_test_description">IR-Kameratest</string>
   <string name="ir_camera_test_summary_capture">"Testanleitung:
 1. Auf die Kamerataste tippen, um die IR-Kameras aufzurufen.
-2. Tippen, um Fotos aufzunehmen
+2. Tippen, um Fotos aufzunehmen.
 3. Das System speichert das Foto automatisch nach der Aufnahme.
-4. Nachdem auf aktuellen Bildschirm angezeigtes Bild gesehen wurde, weiter klicken."</string>
+4. Wenn das auf dem aktuellen Bildschirm angezeigte Foto angesehen wurde, weiter klicken."</string>
   <string name="ir_camera_test_summary_preview">"Testanleitung:
 1. Auf die Vorschautaste tippen, um die Kamera aufzurufen.
 2. Warten, bis die Vorschau beendet ist und automatisch zurückkehren."</string>
@@ -843,7 +864,7 @@ Test erfolgreich, bitte auf die Taste Bestanden tippen."</string>
   <string name="mic1_spk_loop">Mikrofon-Lautsprecher-Loop</string>
   <string name="mic1test">MIK1</string>
   <string name="mic_check_rm_headset_tip">Nehmen Sie zunächst das Headset ab und nehmen Sie Ton auf.</string>
-  <string name="mic_tip">Bitte machen Sie ein Geräusch ins Mikrofon. Nachdem Sie das Headset eingesteckt haben, hören Sie sich den Ton auf dem Headset an.</string>
+  <string name="mic_tip">Bitte machen Sie ein Geräusch ins Mikrofon. Wenn Sie das Headset eingesteckt haben, hören Sie sich den Ton auf dem Headset an.</string>
   <string name="mic_volume_height_tip">MIKRO-Lautstärketest BESTANDEN</string>
   <string name="mic_volume_low_tip">MIKRO-Lautstärketest nicht bestanden. Bitte machen Sie bei der Aufnahme einen lauteren Ton.</string>
   <string name="micphone_test">Mikrofon &amp; Lautsprecher</string>
@@ -853,6 +874,7 @@ Test erfolgreich, bitte auf die Taste Bestanden tippen."</string>
   <string name="next">Nächste</string>
   <string name="next_step">Nächster Schritt</string>
   <string name="nfc_disable_tip">Bitte NFC-Funktion einschalten</string>
+  <string name="nfc_not_available">NFC nicht verfügbar</string>
   <string name="no">Nein</string>
   <string name="no_vibrator">Keine Vibration</string>
   <string name="noise">Geräusch:</string>
@@ -1011,7 +1033,11 @@ Auf die jeweilige Taste entsprechend der gehörten Zahl tippen."</string>
   <string name="title_bad_point">Negativer Punkt</string>
   <string name="title_extract_data">Daten extrahieren</string>
   <string name="title_open_short_pixel">ShortPixel öffnen</string>
+  <string name="top_left_high_speaker">Test oberer Hochtöner links</string>
+  <string name="top_left_low_speaker">Test oberer Tieftöner links</string>
   <string name="top_mic_check_record_tip">Aufnahme, bitte sagen Sie etwas ins MIKRO oben im Telefon.</string>
+  <string name="top_right_high_speaker">Test oberer Hochtöner rechts</string>
+  <string name="top_right_low_speaker">Test oberer Tieftöner rechts</string>
   <string name="touch_auto">Touchpanel-Selbsttest läuft, bitte warten…</string>
   <string name="touch_sefl_fail">Test fehlgeschlagen</string>
   <string name="touch_self">Bitte Bildschirm während des Tests nicht berühren…</string>
