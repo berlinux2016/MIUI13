@@ -21,8 +21,8 @@
     <item quantity="one">Gestern</item>
   </plurals>
   <plurals name="Ndays_ago_at">
-    <item quantity="other">%1$d Tage vor dem Termin um %2$s</item>
-    <item quantity="one">%1$d Tag vor dem Termin um %2$s</item>
+    <item quantity="other">%1$d Tage vorher um %2$s</item>
+    <item quantity="one">%1$d Tag vorher um %2$s</item>
   </plurals>
   <plurals name="Nevents">
     <item quantity="other">%d Einträge</item>
@@ -78,8 +78,8 @@
     <item quantity="one">%1$s Tag</item>
   </plurals>
   <plurals name="anniversary_notify_before_3_day_title">
-    <item quantity="other">Jahrestag: %2$d Jahre seit %1$s in 3 Tagen</item>
-    <item quantity="one">Jahrestag: %2$d Jahr seit %1$s in 3 Tagen</item>
+    <item quantity="other">Jahrestag: %2$d Jahre seit %1$s in %3$d Tagen</item>
+    <item quantity="one">Jahrestag: %2$d Jahr seit %1$s in %3$d Tagen</item>
   </plurals>
   <plurals name="anniversary_notify_title">
     <item quantity="other">Jahrestag: %2$d Jahre seit %1$s</item>
@@ -99,7 +99,7 @@
   </plurals>
   <plurals name="birthday_notification_age_term">
     <item quantity="other">%1$s.</item>
-    <item quantity="one">%1$s.</item>m>
+    <item quantity="one">%1$s.</item>
   </plurals>
   <plurals name="countdown_day">
     <item quantity="other">Noch %1$s Tage</item>
@@ -110,8 +110,8 @@
     <item quantity="one">Täglich</item>
   </plurals>
   <plurals name="date_calculate_days_after">
-    <item quantity="other">%1$d Tage dazwischen</item>
-    <item quantity="one">%1$d Tag dazwischen</item>
+    <item quantity="other">%1$d Tage danach</item>
+    <item quantity="one">%1$d Tag danach</item>
   </plurals>
   <plurals name="date_calculate_days_ago">
     <item quantity="other">%1$d Tage vorher</item>
@@ -124,6 +124,10 @@
   <plurals name="date_calculate_direction_forward">
     <item quantity="other">%1$d Tage vorher</item>
     <item quantity="one">%1$d Tag vorher</item>
+  </plurals>
+  <plurals name="day_index">
+    <item quantity="other">%1$d Tage</item>
+    <item quantity="one">%1$d Tag</item>
   </plurals>
   <plurals name="edit_date_calculate_days_error_hint">
     <item quantity="other">Sie können bis zu %1$d Tage eingeben</item>
@@ -143,6 +147,10 @@
   <plurals name="half_hour_ago">
     <item quantity="other">Vor einer halben Stunde</item>
   </plurals>
+  <plurals name="hide_completed_notes">
+    <item quantity="other">%d erledigte Aufgaben ausblenden</item>
+    <item quantity="one">%d erledigte Aufgabe ausblenden</item>
+  </plurals>
   <plurals name="in_a_hour">
     <item quantity="other">In 1 Stunde</item>
   </plurals>
@@ -159,6 +167,18 @@
   <plurals name="less_than_one_minute_ago">
     <item quantity="other">Gerade eben</item>
   </plurals>
+  <plurals name="mesens_card_title_day_in_predict">
+    <item quantity="other">Tag %1$d (erwartet)</item>
+    <item quantity="one">Tag %1$d (erwartet)</item>
+  </plurals>
+  <plurals name="mesens_card_title_days">
+    <item quantity="other">Tag %1$d</item>
+    <item quantity="one">Tag %1$d</item>
+  </plurals>
+  <plurals name="mesens_card_title_predict_date">
+    <item quantity="other">Nächste Periode in %1$d Tagen</item>
+    <item quantity="one">Nächste Periode in %1$d Tag</item>
+  </plurals>
   <plurals name="miuix_appcompat_items_selected">
     <item quantity="other">%d Elemente ausgewählt</item>
     <item quantity="one">%d Element ausgewählt</item>
@@ -167,9 +187,21 @@
     <item quantity="other">+%d</item>
     <item quantity="one">+%d</item>
   </plurals>
+  <plurals name="notes_custom_repeat_days">
+    <item quantity="other">Tage</item>
+    <item quantity="one">Tag</item>
+  </plurals>
+  <plurals name="notes_custom_repeat_weeks">
+    <item quantity="other">Wochen</item>
+    <item quantity="one">Woche</item>
+  </plurals>
   <plurals name="num_minutes_ago">
     <item quantity="other">Vor %d Minuten</item>
     <item quantity="one">Vor 1 Minute</item>
+  </plurals>
+  <plurals name="num_picker_hint">
+    <item quantity="other">" Tage"</item>
+    <item quantity="one">" Tag"</item>
   </plurals>
   <plurals name="mtrl_badge_content_description">
     <item quantity="other">%d neue Benachrichtigungen</item>
@@ -215,25 +247,13 @@
     <item quantity="other">" Minuten"</item>
     <item quantity="one">" Minute"</item>
   </plurals>
-  <plurals name="repeat_custom_prompt">
-    <item quantity="other">Alle %1$s am %2$s</item>
-    <item quantity="one">Jeden %1$s am %2$s</item>
-  </plurals>
   <plurals name="reminder_later_toast">
     <item quantity="other">Nächste Erinnerung in %1$d Minuten</item>
     <item quantity="one">Nächste Erinnerung in %1$d Minute</item>
   </plurals>
-  <plurals name="travel_eta_advice">
-    <item quantity="other">%2$s Autominuten nach %1$s.</item>
-    <item quantity="one">%2$s Autominute nach %1$s.</item>
-  </plurals>
-  <plurals name="travel_time_range_hours">
-    <item quantity="other">%d Std</item>
-    <item quantity="one">%d Std</item>
-  </plurals>
-  <plurals name="travel_time_range_mins">
-    <item quantity="other">%d Min</item>
-    <item quantity="one">%d Min</item>
+  <plurals name="repeat_custom_prompt">
+    <item quantity="other">Alle %1$s am %2$s</item>
+    <item quantity="one">Jeden %1$s am %2$s</item>
   </plurals>
   <plurals name="repeat_interval_frequency_day_multiple">
     <item quantity="other">%1$d Tage</item>
@@ -250,6 +270,46 @@
   <plurals name="repeat_interval_frequency_year_multiple">
     <item quantity="other">%1$d Jahre</item>
     <item quantity="one">%1$d Jahr</item>
+  </plurals>
+  <plurals name="show_completed_notes">
+    <item quantity="other">%d erledigte Aufgaben anzeigen</item>
+    <item quantity="one">%d erledigte Aufgabe anzeigen</item>
+  </plurals>
+  <plurals name="subtitle_add_record">
+    <item quantity="other">Sie haben seit %1$d Tagen nicht aufgezeichnet. Zeichnen Sie Ihre Perioden auf, um genauere Vorhersagen zu erhalten.</item>
+    <item quantity="one">Sie haben seit %1$d Tag nicht aufgezeichnet. Zeichnen Sie Ihre Perioden auf, um genauere Vorhersagen zu erhalten.</item>
+  </plurals>
+  <plurals name="subtitle_menstruation_continued_days">
+    <item quantity="other">Diese Periode dauert insgesamt %1$d Tage</item>
+    <item quantity="one">Diese Periode dauert insgesamt %1$d Tag</item>
+  </plurals>
+  <plurals name="subtitle_menstruation_cycle_days">
+    <item quantity="other">Tag %1$d dieses Menstruationszyklus</item>
+    <item quantity="one">Tag %1$d dieses Menstruationszyklus</item>
+  </plurals>
+  <plurals name="title_menstruation_day">
+    <item quantity="other">Tag %1$d der Periode</item>
+    <item quantity="one">Tag %1$d der Periode</item>
+  </plurals>
+  <plurals name="title_menstruation_margin_next_time_days">
+    <item quantity="other">%1$d Tage bis zur nächsten Periode</item>
+    <item quantity="one">%1$d Tag bis zur nächsten Periode</item>
+  </plurals>
+  <plurals name="title_menstruation_predict_period">
+    <item quantity="other">Geschätzter Tag %1$d der Periode</item>
+    <item quantity="one">Geschätzter Tag %1$d der Periode</item>
+  </plurals>
+  <plurals name="travel_eta_advice">
+    <item quantity="other">%2$s Autominuten nach %1$s.</item>
+    <item quantity="one">%2$s Autominute nach %1$s.</item>
+  </plurals>
+  <plurals name="travel_time_range_hours">
+    <item quantity="other">%d Std</item>
+    <item quantity="one">%d Std</item>
+  </plurals>
+  <plurals name="travel_time_range_mins">
+    <item quantity="other">%d Min</item>
+    <item quantity="one">%d Min</item>
   </plurals>
   <plurals name="weekN">
     <item quantity="other">Woche %d</item>

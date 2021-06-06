@@ -30,11 +30,13 @@
   <string name="back_up_task_in_process">Sichern…</string>
   <string name="back_up_task_unfinished">Sicherung nicht vollständig</string>
   <string name="backing_up_to_micloud">Sichern…</string>
+  <string name="backup_action_access_permission">Einstellungen</string>
   <string name="backup_action_buy_cloud_space">Mehr Speicherplatz erhalten</string>
   <string name="backup_action_check_network">Netzwerkeinstellungen prüfen</string>
   <string name="backup_action_clean_disk_space">Platz freigeben</string>
   <string name="backup_action_retry_now">Erneut versuchen</string>
   <string name="backup_fail_wifi_needed">Sicherung fehlgeschlagen, WLAN benötigt</string>
+  <string name="backup_failed_reason_app_usage_denied">Erforderliche Berechtigungen zum Sichern von Elementen gewähren</string>
   <string name="backup_failed_reason_cloud_space_not_enough">Nicht mehr genug Cloud-Speicher vorhanden, um diese Sicherung zu speichern. Erweitern Sie Ihr Limit oder geben Sie Cloud-Speicherplatz frei.</string>
   <string name="backup_failed_reason_disk_space_not_enough">Nicht genügend Speicherplatz. Erst Speicherplatz freigeben.</string>
   <string name="backup_failed_reason_network_error">Netzwerkeinstellungen prüfen und erneut versuchen</string>
@@ -48,6 +50,8 @@
   <string name="backup_success">App-Sicherung erfolgreich</string>
   <string name="backup_successfully">Erfolgreich gesichert</string>
   <string name="backup_to_cloud">App sichern</string>
+  <string name="backup_warning_reason_app_usage_denied">"Daten wurden nicht synchronisiert.
+Berechtigungen erforderlich."</string>
   <string name="backup_warning_reason_cloud_space_not_enough">Zurück nicht möglich</string>
   <string name="backup_warning_reason_disk_space_not_enough">"Nicht genügend Speicherplatz
 vorhanden, sichern nicht möglich "</string>
@@ -157,8 +161,11 @@ Wichtig: Daten der einzelnen Apps werden dabei nicht in Xiaomi Cloud gesichert."
   <string name="desktop_waiting">Warten</string>
   <string name="device_delete_prompt">Sicherung von %s löschen?</string>
   <string name="device_xiaomi">Mi Telefon</string>
+  <string name="dialog_app_usage_denied">Sicherung die Berechtigung \"Nutzungszugriff\" in den Einstellungen gewähren, um Elemente sichern zu können.</string>
   <string name="dialog_backup_failed">Sichern nicht möglich</string>
   <string name="dialog_btn_cancel_backup">Abbrechen</string>
+  <string name="dialog_btn_confirm2">Verstanden</string>
+  <string name="dialog_btn_enter">Einstellungen</string>
   <string name="dialog_btn_next">Weiter</string>
   <string name="dialog_btn_overwrite_backup">Überschreiben</string>
   <string name="dialog_btn_restore_skip">Später wiederherstellen</string>
@@ -169,6 +176,7 @@ Wichtig: Daten der einzelnen Apps werden dabei nicht in Xiaomi Cloud gesichert."
   <string name="dialog_msg_overwrite_backup">Die lokale Sicherung unterscheidet sich von der in Xiaomi Cloud. Wenn Sie fortfahren, überschreibt die aktuelle Sicherung die vorherige.</string>
   <string name="dialog_msg_restore_require_wlan">Wiederherstellen von Sicherungen erfordert WLAN-Verbindung</string>
   <string name="dialog_msg_restore_require_wlan_china">Wiederherstellen von Sicherungen erfordert WLAN-Verbindung</string>
+  <string name="dialog_need_permission">Berechtigungen erforderlich</string>
   <string name="dialog_title_require_wlan">Mit WLAN verbinden</string>
   <string name="dialog_title_require_wlan_china">Mit WLAN verbinden</string>
   <string name="dir_date_format">yyyyMMdd_HHmmss</string>

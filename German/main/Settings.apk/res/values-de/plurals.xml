@@ -1,5 +1,34 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+  <plurals name="a_hour_ago">
+    <item quantity="other">Vor 1 Stunde</item>
+  </plurals>
+  <plurals name="abbrev_a_hour_ago">
+    <item quantity="other">Vor 1 Std</item>
+  </plurals>
+  <plurals name="abbrev_half_hour_ago">
+    <item quantity="other">Vor einer halben Std</item>
+  </plurals>
+  <plurals name="abbrev_in_a_hour">
+    <item quantity="other">In 1 Std</item>
+  </plurals>
+  <plurals name="abbrev_in_half_hour">
+    <item quantity="other">In einer halben Std</item>
+  </plurals>
+  <plurals name="abbrev_in_less_than_one_minute">
+    <item quantity="other">Sofort</item>
+  </plurals>
+  <plurals name="abbrev_in_num_minutes">
+    <item quantity="other">In %d Min</item>
+    <item quantity="one">In 1 Min</item>
+  </plurals>
+  <plurals name="abbrev_less_than_one_minute_ago">
+    <item quantity="other">Gerade eben</item>
+  </plurals>
+  <plurals name="abbrev_num_minutes_ago">
+    <item quantity="other">Vor %d Min</item>
+    <item quantity="one">Vor 1 Min</item>
+  </plurals>
   <plurals name="abc_slice_duration_days">
     <item quantity="other">Vor %d Tagen</item>
     <item quantity="one">Vor %d Tag</item>
@@ -170,6 +199,9 @@
     <item quantity="other">%1$d Personen sind verbunden</item>
     <item quantity="one">%1$d Person ist verbunden</item>
   </plurals>
+  <plurals name="half_hour_ago">
+    <item quantity="other">Vor einer halben Stunde</item>
+  </plurals>
   <plurals name="high_power_count">
     <item quantity="other">%d Apps dürfen Akkuoptimierung umgehen</item>
     <item quantity="one">%d App darf Akkuoptimierung umgehen</item>
@@ -178,9 +210,25 @@
     <item quantity="other">%s Stunden</item>
     <item quantity="one">%s Stunde</item>
   </plurals>
+  <plurals name="in_a_hour">
+    <item quantity="other">In 1 Stunde</item>
+  </plurals>
+  <plurals name="in_half_hour">
+    <item quantity="other">In einer halben Stunde</item>
+  </plurals>
+  <plurals name="in_less_than_one_minute">
+    <item quantity="other">Sofort</item>
+  </plurals>
+  <plurals name="in_num_minutes">
+    <item quantity="other">In %d Minuten</item>
+    <item quantity="one">In 1 Minute</item>
+  </plurals>
   <plurals name="interact_across_profiles_number_of_connected_apps">
     <item quantity="other">%d Apps verbunden</item>
     <item quantity="one">%d App verbunden</item>
+  </plurals>
+  <plurals name="less_than_one_minute_ago">
+    <item quantity="other">Gerade eben</item>
   </plurals>
   <plurals name="location_app_permission_summary_location_on">
     <item quantity="other">%1$d von %2$d Apps haben Standortzugriff</item>
@@ -278,6 +326,10 @@
     <item quantity="other">WLAN wird automatisch eingeschaltet, wenn Ihr Gerät gespeicherte Netzwerke in der Nähe erkennt und nach %d Minuten abgeschaltet, wenn keine Verbindung hergestellt wird.</item>
     <item quantity="one">WLAN wird automatisch eingeschaltet, wenn Ihr Gerät gespeicherte Netzwerke in der Nähe erkennt und nach %d Minute abgeschaltet, wenn keine Verbindung hergestellt wird.</item>
   </plurals>
+  <plurals name="miuix_appcompat_items_selected">
+    <item quantity="other">%d Elemente ausgewählt</item>
+    <item quantity="one">%d Element ausgewählt</item>
+  </plurals>
   <plurals name="network_restrictions_summary">
     <item quantity="other">%1$d Beschränkungen</item>
     <item quantity="one">%1$d Beschränkung</item>
@@ -309,6 +361,10 @@
   <plurals name="notifications_sent_weekly">
     <item quantity="other">~%d Benachrichtigungen pro Woche</item>
     <item quantity="one">~%d Benachrichtigung pro Woche</item>
+  </plurals>
+  <plurals name="num_minutes_ago">
+    <item quantity="other">Vor %d Minuten</item>
+    <item quantity="one">Vor 1 Minute</item>
   </plurals>
   <plurals name="number_of_device_admins">
     <item quantity="other">%d aktive Apps</item>

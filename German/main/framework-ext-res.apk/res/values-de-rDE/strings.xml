@@ -9,6 +9,7 @@
   <string name="application_cannot_open_alipay_health_code">Alipay-Gesundheitscode öffnen nicht möglich</string>
   <string name="application_cannot_open_alipay_payment_code">Alipay-Zahlungscode öffnen nicht möglich</string>
   <string name="application_cannot_open_alipay_scanner">Alipay-Scanner öffnen nicht möglich</string>
+  <string name="application_cannot_open_au_pay">Erst au PAY installieren</string>
   <string name="application_cannot_open_weixin_health_code">WeChat-Gesundheitscode öffnen nicht möglich</string>
   <string name="application_cannot_open_weixin_payment_code">WeChat-Zahlungscode öffnen nicht möglich</string>
   <string name="application_cannot_open_weixin_scanner">WeChat-Scanner öffnen nicht möglich</string>
@@ -34,6 +35,8 @@
   <string name="autofill_service_name">Passwörter verwalten</string>
   <string name="back_double_tap">Nichts</string>
   <string name="back_triple_tap">Nichts</string>
+  <string name="battery_authentic_failed_button">Verstanden</string>
+  <string name="battery_authentic_failed_title">Achtung</string>
   <string name="bluetooth_close">Diese App hat Bluetooth ausgeschaltet</string>
   <string name="bluetooth_disable_notification_content">%s hat Bluetooth ausgeschaltet</string>
   <string name="bluetooth_disable_notification_title">Bluetooth ist aus</string>
@@ -172,6 +175,7 @@ Um die Funktion zu aktivieren, gehen Sie auf Einstellungen &gt; Weitere Einstell
   <string name="miaudiovisual_notification_summary">Einschalten, um Effekte auf dem Sperrbildschirm anzuzeigen</string>
   <string name="miaudiovisual_notification_title">Audio- und visuelle Effekte</string>
   <string name="miui_forbid_poweroff_when_device_locked">Ausschalten nicht möglich, Gerät ist gesperrt.</string>
+  <string name="miui_multiwindow_not_support_small_window">%1$s unterstützt kiene Popups</string>
   <string name="miui_multiwindow_not_support_split">%1$s unterstützt keine geteilte Bildschirmanzeige.</string>
   <string name="miui_screen_ratio_hint">Probleme mit der Auflösung</string>
   <string name="miui_screen_ratio_hint_dont_show_again">Nicht wieder anzeigen</string>
@@ -185,6 +189,7 @@ Um die Funktion zu aktivieren, gehen Sie auf Einstellungen &gt; Weitere Einstell
   <string name="onehour">30 Min</string>
   <string name="open_close_tip_action">Verstanden</string>
   <string name="open_close_tip_content">Aktionsleiste gedrückt halten und hochwischen, um das Popup zu schließen</string>
+  <string name="other_ime">Weitere Tastaturen</string>
   <string name="package_delete_confirm_step_1">%s deinstallieren?</string>
   <string name="package_delete_confirm_step_2">Nach der Deinstallation kann dies zu Systeminstabilität führen</string>
   <string name="package_delete_confirm_step_3">Sie können diese App nach dem Deinstallieren nicht mehr öffnen</string>
@@ -218,7 +223,6 @@ Um die Funktion zu aktivieren, gehen Sie auf Einstellungen &gt; Weitere Einstell
   <string name="relaunch_dialog_button_cancel">Abbrechen</string>
   <string name="relaunch_dialog_message">Fenstergröße kann nicht angepasst werden, während Sie die App verwenden. Sie können die App neu starten, um die Fenstergröße anzupassen, aber die App-Daten, die während dieser Sitzung erzeugt wurden, gehen verloren. Trotzdem neu starten?</string>
   <string name="relaunch_dialog_title">\"%s\" neustarten?</string>
-
   <string name="remain">Verbleibend: %s</string>
   <string name="replace">Ersetzen</string>
   <string name="resolver_app_recommend_flag">Empfohlen</string>
@@ -297,6 +301,8 @@ Um die Funktion zu aktivieren, gehen Sie auf Einstellungen &gt; Weitere Einstell
   <string name="status_bar_toggle_torch">Lampe</string>
   <string name="status_bar_toggle_vibrate">Vibration</string>
   <string name="stop_operate_camera_frequently">Sie öffnen die Frontkamera zu oft.</string>
+  <string name="stylus_pen_mask_screenshot">Bildschirm antippen, um einen Screenshot zu erstellen</string>
+  <string name="stylus_pen_mask_text">Bildschirm antippen, um mit dem Schreiben zu beginnen</string>
   <string name="subinfo_default_name">SIM%d</string>
   <string name="sunlight_notification_content">Automatische Helligkeitsregelung bei starkem Umgebungslicht</string>
   <string name="sunlight_notification_title">Sonnenlichtmodus einschalten</string>
@@ -338,7 +344,7 @@ Um die Funktion zu aktivieren, gehen Sie auf Einstellungen &gt; Weitere Einstell
   <string name="wifi_assistant_wifi_no_internet">Dieses WLAN hat keinen Zugang zum Internet.</string>
   <string name="wifi_assistant_wifi_no_internet_detail">Tippen, um Details anzuzeigen.</string>
   <string name="wireless_charging_notification_message1">Keine kabellosen Geräte zum Aufladen gefunden. Kabelloses Umkehrladen ist nun deaktiviert.</string>
-  <string name="wireless_charging_notification_message2">Akku ist weniger als 30 % geladen. Kabelloses Umkehrladen ist nun deaktiviert.</string>
+  <string name="wireless_charging_notification_message2">Akku ist weniger als %s geladen. Kabelloses Umkehrladen ist nun deaktiviert.</string>
   <string name="wireless_charging_notification_message3">Beim Laden ist ein Fehler aufgetreten. Kabelloses Umkehrladen ist nun deaktiviert.</string>
   <string name="wireless_charging_notification_titile">Kabelloses Umkehrladen ausgeschaltet</string>
   <string name="xspace_head">Dual App</string>

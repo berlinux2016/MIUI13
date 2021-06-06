@@ -23,8 +23,31 @@
   <string name="privacy_hide_other_permissions">Andere Berechtigungen ausblenden</string>
   <string name="privacy_show_other_permissions">Andere Berechtigungen anzeigen</string>
 
-  <string name="gb_storage_game_dialog_message">Das von Ihnen heruntergeladene Spiel wird automatisch in Game Turbo aufgenommen und das Spielsymbol wird nicht mehr auf dem Desktop angezeigt. Wollen Sie wirklich die Speicherfunktion einschalten?</string>
-  <string name="tips">Eingabeaufforderung</string>
+  <string name="ew_monitor_content">Ihr Mobilgerät kann Teil des Erdbeben-Frühwarnnetzwerks werden. Wenn seine Sensoren seismische Wellen erkennen, werden die Daten vom KI-Algorithmus analysiert und Frühwarnungen für die Menschen in den betroffenen Gebieten ausgegeben.</string>
+  <string name="ew_monitor_exit">Abmelden</string>
+  <string name="ew_monitor_exit_content">Hallo Freiwilliger mit Nummer %s! Ihr Gerät kann seismische Aktivitäten überwachen und Daten sammeln, die helfen würden, frühzeitige Erdbebenwarnungen auszugeben. Trotzdem abmelden?</string>
+  <string name="ew_monitor_exit_title">Achtung</string>
+  <string name="ew_monitor_have_been">"Ich bin stolz darauf, ein "</string>
+  <string name="ew_monitor_info_title">Wie funktioniert das?</string>
+  <string name="ew_monitor_join_number">Anzahl der Freiwilligen</string>
+  <string name="ew_monitor_join_path">Mit einem Xiaomi-Gerät am Programm teilnehmen: Sicherheit > Erdbebenwarnung > Freiwillige Erdbebenüberwachung</string>
+  <string name="ew_monitor_my_content">Erdbebenüberwachung bedeutet, dass das System, nachdem das Telefon die seismische Welle über den Niedrigleistungssensor erfasst hat, die Erdbebeninformationen mithilfe des KI-Algorithmus schnell berechnet und so bald wie möglich eine Frühwarnung an die Menschen in dem betroffenen Gebiet sendet, damit mehr Menschen Gefahren vermeiden und ihre persönliche Sicherheit schützen können.</string>
+  <string name="ew_monitor_number_prex">Nummer %s</string>
+  <string name="ew_monitor_open">Beitreten</string>
+  <string name="ew_monitor_read_privacy"><Data>Ich habe die &lt;a href=\"%1$s\">Datenschutzerklärung&lt;/a> gelesen und stimme zu.</Data></string>
+  <string name="ew_monitor_share">Teilen</string>
+  <string name="ew_monitor_slogan">"An unserem Erdbeben-
+Überwachungsprogramm teilnehmen"</string>
+  <string name="ew_monitor_summary1">Ihr Gerät zur seismischen Überwachung verwenden.</string>
+  <string name="ew_monitor_summary2">Erdbebenalarmbezogene Informationen melden.</string>
+  <string name="ew_monitor_summary3">Mehr Menschen helfen, Erdbebenwarnungen schneller zu erhalten.</string>
+  <string name="ew_monitor_support">Technische Unterstützung durch das Chengdu Hi-tech Disaster Reduction Institute</string>
+  <string name="ew_monitor_support_rom">*Diese Funktion wird von ausgewählten Xiaomi-/Redmi-Geräten und MIUI-Versionen unterstützt.</string>
+  <string name="ew_monitor_thanks_tips">"Vielen Dank, für die
+freiwillige Erdbebenüberwachung, Nummer %s!"</string>
+  <string name="ew_monitor_title">Freiwillige Erdbebenüberwachung</string>
+  <string name="ew_monitor_title_spilt">"Freiwillige
+Erdbebenüberwachung"</string>
 
   <string name="HIPS_Perm_Access_Gallery">Galeriezugriff</string>
   <string name="HIPS_Perm_Access_Gallery_Desc">App den Zugriff auf Elemente in Ihrer Galerie erlauben</string>
@@ -366,6 +389,11 @@
   <string name="app_behavior_warning_location_title">%1s-Standortzugriff</string>
   <string name="app_bg_restrict_dialog_message">Einschränkung der Hintergrund-Netzwerkverbindung kann dazu führen, dass die App nicht normal funktioniert. Z. B. ist es nicht mehr möglich, Nachrichten zu empfangen oder Inhalte zu aktualisieren.</string>
   <string name="app_check_no_issue">Keine Probleme mit dem Akku. Cool!</string>
+  <string name="app_classification_activity_label">Alle Apps</string>
+  <string name="app_classification_recent_add">Letzte</string>
+  <string name="app_classification_search_all">Alle</string>
+  <string name="app_classification_search_hint">Nach Apps suchen</string>
+  <string name="app_classification_suggest_app">Vorschläge</string>
   <string name="app_error_tip_for_launcher">Ihre Gerätehardware oder die Androidversion können Kompatibilitätsprobleme verursachen und einige Apps dazu bringen, sich falsch zu verhalten, einzufrieren oder abzustürzen. Wenn Sie auf solche Probleme stoßen, senden Sie Ihr Feedback an die App-Entwickler.</string>
   <string name="app_error_tip_for_store">Ihre Gerätehardware oder die Androidversion können Kompatibilitätsprobleme verursachen, sodass einige Apps nicht installiert werden können. Wenn Sie auf solche Probleme stoßen oder einige Apps sich falsch verhalten, einfrieren oder abstürzen, warten Sie, bis die App-Entwickler Bugs behoben haben und versuchen Sie, die App erneut zu installieren.</string>
   <string name="app_install_intercept">Installation blockieren</string>
@@ -518,6 +546,18 @@ Sie verlieren keine App-Daten."</string>
   <string name="app_permission_use_neccesary">Erforderliche Berechtigungen</string>
   <string name="app_permission_use_no_neccesary">Optionale Berechtigungen</string>
   <string name="app_permission_use_title">Berechtigungen</string>
+  <string name="app_predict_black_list_empty">Noch keine Elemente hier</string>
+  <string name="app_predict_black_list_setting_title">Blockliste App-Vorschläge</string>
+  <string name="app_predict_folder_name">Suchen</string>
+  <string name="app_predict_loading_text">Einen Moment…</string>
+  <string name="app_predict_search_title">Alle Apps</string>
+  <string name="app_predict_setting_black_list">Blockierliste</string>
+  <string name="app_predict_setting_black_list_message">Apps blockieren, die Sie nicht bei den Vorschlägen sehen möchten</string>
+  <string name="app_predict_setting_privacy">Datenschutzerklärung</string>
+  <string name="app_predict_setting_switch_message">App-Vorschläge basierend auf Ihren Nutzungsgewohnheiten erhalten</string>
+  <string name="app_predict_setting_switch_title">Vorschläge personalisieren</string>
+  <string name="app_predict_setting_title">App-Vorschläge</string>
+  <string name="app_predict_widget_name_2x4">App-Vorschläge</string>
   <string name="app_running_tip_dialog_negative">Abbrechen</string>
   <string name="app_running_tip_dialog_text">%1$s beenden, damit die App nicht im Hintergrund läuft. Dies beschleunigt Ihr Gerät und reduziert den Stromverbrauch.</string>
   <string name="app_running_tip_dialog_title">App beenden</string>
@@ -571,6 +611,8 @@ Sie verlieren keine App-Daten."</string>
   <string name="applock_header_text_less_than_half">Zu wenig Platz. Etwas weiter ziehen.</string>
   <string name="applock_lock_all">Alle sperren</string>
   <string name="applock_login_and_add_account">Anmelden &amp; hinzufügen</string>
+  <string name="applock_mixtype_hidepwd_icon">Ausblenden</string>
+  <string name="applock_mixtype_showpwd_icon">Anzeigen</string>
   <string name="applock_no_account_login">Sie sind nicht mit Ihrem Mi-Konto angemeldet</string>
   <string name="applock_not_add_account"><u>Nicht jetzt</u></string>
   <string name="applock_not_login_account">Sie sind nicht angemeldet</string>
@@ -827,7 +869,7 @@ Sie verlieren keine App-Daten."</string>
   <string name="cancel">Abbrechen</string>
   <string name="cancel_button">Abbrechen</string>
   <string name="card_main_applock_action">Einschalten</string>
-  <string name="card_main_applock_summary">Schützen Sie ausgewählte Apps mit einem Passwort.</string>
+  <string name="card_main_applock_summary">Ausgewählte Apps mit einem Passwort schützen.</string>
   <string name="card_main_applock_title">App-Sperre</string>
   <string name="card_main_deepclean_action">Bereinigen</string>
   <string name="card_main_deepclean_facebook_title">Facebook Cleaner</string>
@@ -972,6 +1014,8 @@ Sie verlieren keine App-Daten."</string>
   <string name="daily_pkg_traffic">Höchstdatenlimit</string>
   <string name="data_booster_desc">Deaktivieren Sie andere SIM-Plätze, um die Verbindung stabil zu halten</string>
   <string name="data_booster_title">Datenverbindung stabilisieren</string>
+  <string name="data_local_processing_and_storage">Daten lokal gespeichert und verarbeitet</string>
+  <string name="data_local_processing_and_storage_detail">Ihre Eingaben werden auf diesem Gerät gespeichert und verarbeitet und nicht in die Cloud hochgeladen.</string>
   <string name="data_network_blocked_notification_title">Keine Internetverbindung</string>
   <string name="data_usage_correction_timeout_title">Zeitüberschreitung bei Synchronisation der Datennutzung</string>
   <string name="data_usage_disabled_dialog">Sie haben das Limit des Datentarifs erreicht. Wenn Sie Ihr Limit überschreiten, kann Ihr Mobilfunkanbieter Ihnen zusätzliche Kosten berechnen.</string>
@@ -1057,6 +1101,8 @@ Alle Daten auf Ihrem Gerät werden evtl. gelöscht und Ihr Sperrbildschirmpasswo
   <string name="dialog_title_auto_start_declare">Über Autostart</string>
   <string name="dialog_title_stop_virus_scan">Virenscan stoppen</string>
   <string name="disable_air_mode">Zuerst Flugmodus ausschalten</string>
+  <string name="disable_sensitive_permissions">Sensible Berechtigungen eingeschränkt</string>
+  <string name="disable_sensitive_permissions_detail">Ihre Tastatur kann keine datenschutzbezogenen Berechtigungen verwenden (z. B. Zugriff auf Kontakte oder Standortdaten).</string>
   <string name="dlg_add_blacklist">Diese Nummer blockieren?</string>
   <string name="dlg_add_blacklist_title">Zur Sperrliste hinzufügen</string>
   <string name="dlg_add_keyword">Stichworte hinzufügen</string>
@@ -1290,8 +1336,9 @@ Sie müssen verstehen, dass diese Funktion nur zu Ihrer Information dient. Die W
   <string name="examination_score_100">Alles in Ordnung!</string>
   <string name="examination_score_60_0">Jetzt scannen</string>
   <string name="examination_score_80_100">Ein paar Punkte können optimiert werden</string>
-  <string name="examination_score_80_60">Einige Punkte können optimiert werden</string>
+  <string name="examination_score_80_60">Einige Punkte sind optimierbar</string>
   <string name="examination_score_has_virus">Einige Apps sind verdächtig</string>
+  <string name="exception_checking">Prüfen…</string>
   <string name="exception_dialog_message">Datennutzungsstatistik wurde wegen eines Fehlers nicht berechnet. Ohne genaue Statistik kann Sicherheit die Datennutzung nicht überwachen. Neustart zur Wiederherstellung dieser Funktion?</string>
   <string name="exception_dialog_ok_button">Neu starten</string>
   <string name="exception_notify_message">Datennutzungsstatistik wurde wegen eines Fehlers nicht berechnet. Neustart zum Wiederherstellen.</string>
@@ -1305,7 +1352,8 @@ Sie müssen verstehen, dass diese Funktion nur zu Ihrer Information dient. Die W
   <string name="exit_dialog_homepage_optimise_message">Ihre Geräteleistung liegt unter 80 Punkten. Jetzt optimieren?</string>
   <string name="exit_dialog_release_memory_positive_button">Schließen</string>
   <string name="exit_dialog_release_memory_title"><Data>Beschleunigen Sie Ihr Gerät um &lt;font color=#0099ff>%d%%&lt;/font></Data></string>
-  <string name="exit_dialog_release_storage_message">Mehr als 80% des Speichers auf Ihrem Gerät ist belegt. Geben Sie Speicherplatz frei durch Deinstallieren von Apps, die Sie nie verwenden.</string>
+  <string name="exit_dialog_release_storage_message">Mehr als 80% Ihres Gerätespeichers ist belegt. Geben Sie Speicherplatz frei, indem Sie nie verwendete Apps deinstallieren.</string>
+  <string name="exit_dialog_release_storage_message_new">Mehr als %s Ihres Gerätespeichers ist belegt. Geben Sie Speicherplatz frei, indem Sie nie verwendete Apps deinstallieren.</string>
   <string name="exit_dialog_release_storage_positive_button">Speicherplatz freigeben</string>
   <string name="exit_dialog_release_storage_title">Speicherplatz freigeben</string>
   <string name="exit_dialog_scan_message">Geräteleistung Ihres Geräts liegt unter 75 Punkten. Jetzt optimieren?</string>
@@ -1570,6 +1618,7 @@ Sie müssen verstehen, dass diese Funktion nur zu Ihrer Information dient. Die W
   <string name="gamebooster_lowbattery_notification_title">Akku ist niedriger als 5%</string>
   <string name="gamebooster_main_activity_back">Zurück</string>
   <string name="gamebooster_network_dialog_message">Netzwerkverbindung für Sicherheits-App erlauben, um alle Funktionen des Game Turbos nutzen zu können?</string>
+  <string name="gamebooster_network_dialog_cn_message">Sie können Game Turbo nicht verwenden, wenn Sicherheit keine Internetverbindung und keinen Standortzugriff zulässt. Jetzt zulassen?</string>
   <string name="gamebooster_network_dialog_title">Einige Funktionen sind nicht verfügbar</string>
   <string name="gamebox_app_not_find">Erst die App installieren</string>
   <string name="gamebox_browser_not_find">Erst Mi Browser installieren</string>
@@ -1669,7 +1718,7 @@ Sie müssen verstehen, dass diese Funktion nur zu Ihrer Information dient. Die W
   <string name="gb_dialog_game_uninstall_loading">Spiele laden…</string>
   <string name="gb_dialog_game_uninstall_multi_tips_title">%2$d Spiele deinstallieren, wie z. B. \"%1$s\"</string>
   <string name="gb_dialog_game_uninstall_tips_message">Alle Spieledaten werden gelöscht.</string>
-  <string name="gb_dialog_game_uninstall_tips_message_xspace">Alle App-Daten und damit zusammenhängende Dual-Apps werden gelöscht.</string>
+  <string name="gb_dialog_game_uninstall_tips_message_xspace">Alle App-Daten und damit zusammenhängende Dual Apps werden gelöscht.</string>
   <string name="gb_dialog_game_uninstall_tips_title">%s deinstallieren</string>
   <string name="gb_dialog_record_way_ai">KI-Aufnahmen werden in der Gamebox gespeichert und dort 7 Tage lang aufbewahrt.</string>
   <string name="gb_dialog_record_way_finish">Fertig</string>
@@ -1747,6 +1796,7 @@ Sie müssen verstehen, dass diese Funktion nur zu Ihrer Information dient. Die W
   <string name="gb_signed_title">In diesem Monat angemeldet</string>
   <string name="gb_sound_audition">Probieren</string>
   <string name="gb_storage_game_uninstall">Spiele deinstallieren</string>
+  <string name="gb_storage_game_dialog_message">Sie können Spiele automatisch in Game Turbo speichern. Sie werden nicht auf dem Startbildschirm angezeigt, wenn Sie diese Funktion einschalten. Jetzt einschalten?</string>
   <string name="gb_storage_summary">Der Gamebox hinzugefügte Spiele auf dem Startbildschirm nicht anzeigen</string>
   <string name="gb_storage_title">Hinzugefügte Spiele vom Startbildschirm entfernen</string>
   <string name="gb_voice_change_settinged">Sprachwandler ist an</string>
@@ -1932,6 +1982,7 @@ um an unserer Eiersuche teilzunehmen!"</string>
   <string name="image_protect_recover_success">Erfolgreich wiederhergestellt</string>
   <string name="image_protect_tips_title">Fotos löschen</string>
   <string name="image_protect_total_activity_label">Benachrichtigungen über gelöschte Bilder erhalten</string>
+  <string name="ime_security_warning">%1$s kann alles aufzeichnen, was Sie eintippen, inkl. Passwörter und andere sensible Informationen. Trotzdem verwenden?</string>
   <string name="in_delete">Löschen…</string>
   <string name="in_recover">Wiederherstellen…</string>
   <string name="info_and_call">Anrufe &amp; Nachrichten</string>
@@ -1944,7 +1995,7 @@ um an unserer Eiersuche teilzunehmen!"</string>
   <string name="info_unantispam_sms">SMS erlauben</string>
   <string name="information_setting">Empfehlungen</string>
   <string name="input_available_cellular_data_daily_hint">Tägliches Datenlimit eingeben</string>
-  <string name="input_aviable_traffic">Datenlimit einstellen</string>
+  <string name="input_aviable_traffic">Datenlimit festlegen</string>
   <string name="input_celluar_data_quota_hint">Datenlimit eingeben</string>
   <string name="input_cellular_data_warn_hint">Warngrenze für Datennutzung eingeben</string>
   <string name="input_password_hint_text">Passwort eingeben</string>
@@ -1960,7 +2011,7 @@ um an unserer Eiersuche teilzunehmen!"</string>
   <string name="intl_app_manager_card_permission_title">Datenschutz &amp; Berechtigungen</string>
   <string name="intl_perm_intro_message">Tippen, um Berechtigungseinstellungen anzupassen, die Datenlecks vermeiden</string>
   <string name="intl_perm_notification_content">Berechtigungseinstellungen anpassen</string>
-  <string name="intl_perm_notification_title">Ihre Privatsphäre schützen</string>
+  <string name="intl_perm_notification_title">Privatsphäre schützen</string>
   <string name="intl_perm_privacy_control_calendar">App kann nur auf Kalendereinträge zugreifen oder diese bearbeiten, während Sie sie verwenden.</string>
   <string name="intl_perm_privacy_control_calllog">App kann nur auf die Anrufliste zugreifen oder diesen bearbeiten, während Sie sie verwenden.</string>
   <string name="intl_perm_privacy_control_camera">App kann nur Fotos oder Videos aufnehmen, während Sie sie verwenden.</string>
@@ -2172,7 +2223,7 @@ Ihr Gerät ist jetzt %d%% schneller."</string>
   <string name="menu_item_notification_optimize_text">%d%% belegt</string>
   <string name="menu_item_notification_power_text">Akku-Optimierung</string>
   <string name="menu_item_notification_title">In Benachrichtigungsleiste anzeigen</string>
-  <string name="menu_item_shortcut_summary">Verknüpfungen auf Startbildschim hinzufügen und entfernen</string>
+  <string name="menu_item_shortcut_summary">Verknüpfungen auf Startbildschirm hinzufügen und entfernen</string>
   <string name="menu_item_shortcut_title">Verknüpfungen verwalten</string>
   <string name="menu_item_uninstall">Entfernen</string>
   <string name="menu_item_virus_cloud_scan_summary">Onlinedefinitionen zum Scannen verwenden</string>
@@ -2224,6 +2275,7 @@ Ihr Gerät ist jetzt %d%% schneller."</string>
   <string name="menu_text_power_percent_title_default">Akku</string>
   <string name="menu_wh_remove">Aus Ausnahmen entfernen</string>
   <string name="menu_white">Zu Ausnahmen hinzufügen</string>
+  <string name="mi_ime_not_used">Verwenden Sie eine von Xiaomi autorisierte Tastatur</string>
   <string name="mi_service_app_detail">Datennutzungsdetails</string>
   <string name="mi_service_framework">Mi Service Framework</string>
   <string name="mi_service_traffic_detail">Frameworkdetails</string>
@@ -2322,6 +2374,7 @@ Ihr Gerät ist jetzt %d%% schneller."</string>
   <string name="net_boosting">Geschwindigkeit optimieren…</string>
   <string name="net_delay_title">Verzögerung</string>
   <string name="net_overdue">Sitzung beendet</string>
+  <string name="network_assistant_privacy_title">App- und Netzwerknutzungs- sowie Diagnosedaten senden</string>
   <string name="network_blocked_connected_open_wifi">Mit öffentlichem Netzwerk verbunden</string>
   <string name="network_blocked_notification_summary">Netzwerkdiagnose</string>
   <string name="network_blocked_switch_wifi">Netzwerk wechseln</string>
@@ -2488,6 +2541,10 @@ Versuchen Sie ein anderes LAN-Kabel am Router. Wenn Sie vermuten, dass der Fehle
   <string name="numeric_settings_help_how_to_record">So legen Sie die PIN fest</string>
   <string name="oaid_reset_content_tip">Wenn Sie die virtuelle ID jetzt ausschalten, könnten einige Apps nicht mehr richtig funktionieren, ein Teil Ihrer App-Daten könnte verloren gehen oder unbrauchbar werden.</string>
   <string name="oaid_reset_final_tip">Virtuelle ID trotzdem ausschalten?</string>
+  <string name="oaid_apps_title">Virtuelle ID verwalten</string>
+  <string name="oaid_tips_content">Virtuelle IDs (OAID) können verwendet werden, um Ihr Verhalten zu verfolgen und Anzeigen für Sie zu personalisieren. Sie können auswählen, welche Apps auf Ihre virtuelle ID zugreifen dürfen. Beachten Sie, dass, wenn Sie den Zugriff einschränken, Anzeigenempfehlungen möglicherweise irrelevant werden oder Apps nicht mehr normal funktionieren können.</string>
+  <string name="offline_voice_input">Offline-Spracheingabe</string>
+  <string name="offline_voice_input_detail">Sie benötigen kein Internet für die Spracheingabe.</string>
   <string name="old_sdk_deny_warning">App ist nicht kompatibel mit den neuesten Android-Berechtigungsanforderungen. Verweigerte Berechtigungen können die Funktionsweise dieser App beeinflussen.</string>
   <string name="om_btn_text_quick_fix">Optimieren</string>
   <string name="om_cpu_overload_activity_title">Apps mit hoher CPU-Auslastung</string>
@@ -2654,6 +2711,10 @@ Stromverbrauch"</string>
   <string name="pc_battery_history_rank_percent_menu_item">Prozent</string>
   <string name="pc_battery_history_total_consumption_title">Gesamte Leistungsaufnahme</string>
   <string name="pc_battery_history_usetime_title">Aktiv</string>
+  <string name="pc_hidemode_normal">Ausgeglichen</string>
+  <string name="pc_hidemode_performance">Leistung</string>
+  <string name="pc_hidemode_performance_title">Leistungsmodus</string>
+  <string name="pc_hidemode_power_save">Strom sparen</string>
   <string name="pc_install_manager">Installation via USB</string>
   <string name="pc_main_activity_back">Zurück</string>
   <string name="pc_main_battery_text_day">%1$s Min hinzugefügt, ca. %2$s T betriebsbereit</string>
@@ -2665,6 +2726,8 @@ Stromverbrauch"</string>
   <string name="pc_main_power_manager_hour_minute">%1$s Std %2$s Min bis voll geladen</string>
   <string name="pc_main_sub_battery_text_day_hour">%1$s T %2$s Std betriebsbereit</string>
   <string name="pc_main_sub_battery_text_hour_minute">%1$s Std %2$s Min betriebsbereit</string>
+  <string name="pc_performance_mode_dialog_summary">Ihr Gerät kann für %s im Leistungsmodus arbeiten. Beachten Sie, dass der Leistungsmodus den Stromverbrauch erhöht und zu Überhitzung führen kann.</string>
+  <string name="pc_performance_mode_dialog_title">Leistungsmodus</string>
   <string name="pc_search_keywords_battery">Akku</string>
   <string name="pc_search_keywords_battery_save">Stromsparen</string>
   <string name="pc_search_keywords_battery_use">Akkuverbrauch</string>
@@ -3078,7 +3141,8 @@ Stromverbrauch"</string>
   <string name="pp_optional_protection_function">Optionale Schutzmaßnahmen</string>
   <string name="pp_permission_action_virtual_detail">Berechtigungen erteilen, aber Apps leere Daten anstelle von persönlichen Infos geben</string>
   <string name="pp_permission_settings">Berechtigungen</string>
-  <string name="pp_privacy_protection">Privatsphäre schützen</string>
+  <string name="pp_privacy_input_tips">Tastatur schützen</string>
+  <string name="pp_privacy_protection">Schutz</string>
   <string name="pp_privacy_protection_function">Schutzfunktionen für Privatsphäre</string>
   <string name="pp_privacy_protection_lab">Datenschutzlabor</string>
   <string name="pp_privacy_protection_lab_summary">Halten Sie Ihre Daten privat</string>
@@ -3103,7 +3167,7 @@ Stromverbrauch"</string>
   <string name="pp_special_permission_settings">Spezielle Berechtigungen</string>
   <string name="pp_special_permission_settings_detail">Steuern, wie Apps spezielle Berechtigungen verwenden</string>
   <string name="pp_storage_msg">Speicher</string>
-  <string name="pp_understanding_privacy">Privatsphäre verstehen</string>
+  <string name="pp_understanding_privacy">Erkennen</string>
   <string name="pp_virtual_identity_manager">Virtuelle ID</string>
   <string name="pref_about_traffic_title">Datennutzungseinstellungen</string>
   <string name="pref_adjust_data_usage">Mobilfunkanbieter-Nachrichtenvorlage</string>
@@ -3249,6 +3313,13 @@ Diese Funktion wird bei System-Apps nicht unterstützt."</string>
   <string name="privacy_guide_permission_guide_text">Sie können eine Warnung in der Statusleiste erhalten, wenn Apps auf Ihren Standort zugreifen, Audio aufnehmen oder Fotos machen.</string>
   <string name="privacy_guide_permission_use_text">MIUI zählt und zeigt an, wie oft eine App sensible Berechtigungen verwendet, einschl. Standort-, Kontakte-, Anruflisten- und Speicherzugriff sowie Audioaufzeichnung. Sie können erfahren, wie oft jede App diese Berechtigungen verwendet, und feststellen, ob Sie Ihre Berechtigungseinstellungen anpassen müssen.</string>
   <string name="privacy_informed_title">Statistik</string>
+  <string name="privacy_input_icon_layout_status_bg_content_enable">Geschützt</string>
+  <string name="privacy_input_mode">Sichere Eingabe</string>
+  <string name="privacy_input_mode_img_detail">Funktioniert mit von Xiaomi autorisierten Tastaturen</string>
+  <string name="privacy_input_mode_version_supported">Aktualisieren Sie Ihre Tastatur, um diese Funktion nutzen zu können</string>
+  <string name="privacy_input_model_guide_choose">Offline-Spracheingabe herunterladen</string>
+  <string name="privacy_input_model_guide_text">Diese Funktion schützt Ihre Privatsphäre, während Sie Text eingeben. Wenn diese Funktion aktiviert ist, sind einige der netzwerkbasierten Funktionen (z. B. Personalisierungsoptionen, Emoji, Worterkennung) nicht verfügbar.</string>
+  <string name="privacy_input_model_tips">Sichere Eingabe ist eingeschaltet. Ihre Tastatur kann keine Popup-Fenster anzeigen oder auf Kontakte, Standortdaten und Anruflisten zugreifen.</string>
   <string name="privacy_location_info_summary">Ihren Standortzugriff verwalten</string>
   <string name="privacy_location_info_title">Standortinfo</string>
   <string name="privacy_look_all_permission_status">Alle Berechtigungen</string>
@@ -3264,7 +3335,7 @@ Diese Funktion wird bei System-Apps nicht unterstützt."</string>
   <string name="privacy_notification_title_mic">%1s verwendet das Mikrofon im Hintergrund</string>
   <string name="privacy_other_permission_manage_summary">Verwalten anderer privatsphärenbezogener Berechtigungen</string>
   <string name="privacy_other_permission_manage_title">Andere Berechtigungen</string>
-  <string name="privacy_permission_call">Zugriff auf oder Bearbeitung der Anrufliste</string>
+  <string name="privacy_permission_call">Zugriff auf die oder Bearbeitung der Anrufliste</string>
   <string name="privacy_permission_call_title">Anrufe schützen</string>
   <string name="privacy_permission_camera_title">Kameraverwendung im Hintergrund einschränken</string>
   <string name="privacy_permission_contacts">Auf Kontakte zugreifen oder sie bearbeiten</string>
@@ -3391,9 +3462,13 @@ Während der Kalibrierung sendet MIUI eine Textnachricht an Ihren Mobilfunkanbie
   <string name="promotion">Werbung</string>
   <string name="prompt_all">Für alles nachfragen</string>
   <string name="prompt_danger">Achtung</string>
+  <string name="prompt_input_time_illegal">Falsche Zeitangabe, bitte ändern und erneut versuchen</string>
   <string name="prompt_safe">Sicherheit</string>
   <string name="prompt_unknown">Unbekannt</string>
-  <string name="prompt_input_time_illegal">Falsche Zeitangabe, bitte ändern und erneut versuchen</string>
+  <string name="protect_data_security">Isolierte Daten</string>
+  <string name="protect_data_security_detail">Von der Tastatur erzeugte Daten werden isoliert und sind für andere Apps unzugänglich.</string>
+  <string name="protect_screen_information">Ihr Bildschirm ist geschützt</string>
+  <string name="protect_screen_information_detail">Sie können keinen Screenshot machen oder Ihren Bildschirm aufzeichnen, während Sie tippen.</string>
   <string name="protocol_exception_title">Netzwerkprotokolldiagnose</string>
   <string name="protocol_loop_back_exception_summary">Loop-Back-Test fehlgeschlagen. Um den Fehler an MIUI zu melden, öffnen Sie die Fehlerberichtapp und senden Sie den Bericht von Ihrem Gerät.</string>
   <string name="provision_back">Zurück</string>
@@ -3487,6 +3562,7 @@ Während der Kalibrierung sendet MIUI eine Textnachricht an Ihren Mobilfunkanbie
   <string name="risk_app_install_history">Autorisierungsverlauf</string>
   <string name="risk_app_install_item_des">Version: %1$s</string>
   <string name="risk_app_install_manager">Apps mit möglichen Risiken</string>
+  <string name="risk_tip">Risiko erkannt</string>
   <string name="roaming_allow_network_dialog_title">Datenroaming erlauben?</string>
   <string name="roaming_limit_dialog_message">Tägliches Datenlimit bei Roaming erreicht</string>
   <string name="roaming_limit_network_notification_body">Tippen, um verfügbare Netzwerke anzuzeigen</string>
@@ -3545,6 +3621,7 @@ Während der Kalibrierung sendet MIUI eine Textnachricht an Ihren Mobilfunkanbie
   <string name="section_title_system">Systemsicherheit</string>
   <string name="security_bottom_guide_to_pm_text">Loslassen zum Öffnen von Dienstprogrammen</string>
   <string name="security_center_slogan">Sicherheit - immer auf der Hut</string>
+  <string name="security_center_title">Sicherheit</string>
   <string name="security_guide_bubble_text">Öffnen</string>
   <string name="security_guide_summary">Zentrale Anlaufstelle für Tools und Dienstleistungen</string>
   <string name="security_scan_optimizing">Optimieren…</string>
@@ -3562,6 +3639,7 @@ Während der Kalibrierung sendet MIUI eine Textnachricht an Ihren Mobilfunkanbie
   <string name="set_immediately">Einstellen</string>
   <string name="set_location">Einstellung festlegen</string>
   <string name="set_mixed_password_name">Passwort setzen</string>
+  <string name="set_now">Einstellungen</string>
   <string name="set_numeric_password_name">PIN setzen</string>
   <string name="set_package_tips">Das System sendet kostenlose SMS an den Anbieter, um die Verkehrsinformationen für Sie zu korrigieren, und gleichzeitig werden die von Ihnen ausgefüllten Informationen verschlüsselt und hochgeladen, um die Korrektur-SMS-Vorlage zu erhalten.</string>
   <string name="set_package_tips_detail">Die von Ihnen eingegebenen Anbieterinformationen, Mobiltelefonnummer, IMEI-Nummer und Xiaomi-Konto werden verschlüsselt und auf den Xiaomi-Server hochgeladen.</string>
@@ -3881,6 +3959,8 @@ Während der Kalibrierung sendet MIUI eine Textnachricht an Ihren Mobilfunkanbie
   <string name="status_bar_network_flow_setup_data_plan">"   Datentarif einrichten &gt;"</string>
   <string name="status_bar_network_flow_today">Heute: %1$s</string>
   <string name="still_retain_btn">Beibehalten</string>
+  <string name="stop_collecting_data">Die Tastatur wird Ihre Gewohnheiten nicht lernen</string>
+  <string name="stop_collecting_data_detail">Die Tastatur sammelt keine Daten, um die Worterkennung zu verbessern und häufige Ausdrücke auf der Grundlage Ihrer Gewohnheiten vorzuschlagen.</string>
   <string name="stop_milink_connect">Übertragen anhalten</string>
   <string name="storage_activity_title">Speicherplatz</string>
   <string name="storage_app_detail_activity_title">Belegter Speicher</string>
@@ -4236,6 +4316,7 @@ Formatierung löscht vorhandenen Inhalt auf ^2. Um Inhaltsverlust zu vermeiden, 
   <string name="timeshow_h_int">%d Std</string>
   <string name="timeshow_m">%d Min</string>
   <string name="timeshow_s">%d Sek</string>
+  <string name="tips">Achtung</string>
   <string name="tips_dialog_title">Ihr Limit ist nicht bekannt</string>
   <string name="tips_message">Um Details zu Ihrem Datentarif zu erhalten, wählen Sie %2$s (%1$s)</string>
   <string name="tips_of_app_manage">Selten benutzte Apps löschen, um Speicherplatz zu sparen</string>
@@ -4257,7 +4338,7 @@ Formatierung löscht vorhandenen Inhalt auf ^2. Um Inhaltsverlust zu vermeiden, 
   <string name="title_dark_mode">Einige Elemente werden nicht korrekt angezeigt</string>
   <string name="title_data_flow">Datennutzungskontrolle</string>
   <string name="title_data_flow_monitor">Datennutzungsüberwachung ist aktiviert</string>
-  <string name="title_dev_model_off">Entwickleroptionen sind ausgeschaltet</string>
+  <string name="title_dev_model_off">Entwickleroptionen sind aus</string>
   <string name="title_dev_no">Entwickleroptionen an</string>
   <string name="title_dev_yes">Entwickleroptionen aus</string>
   <string name="title_device_not_root">Root-Zugriff wurde nicht gewährt</string>
@@ -4442,6 +4523,7 @@ Wollen Sie es übernehmen?"</string>
   <string name="usbsharenet_exception_title">USB-Internetfreigabe testen</string>
   <string name="usbsharenet_pc_exception_summary">Internetverbindung über USB kann nicht hergestellt werden. Prüfen Sie die Internetverbindung des Computers.</string>
   <string name="use_immediately">Verwenden</string>
+  <string name="use_other_ime_warn">Tastaturen von Drittanbietern können alles aufzeichnen, was Sie eingeben, inkl. Passwörter und andere sensible Informationen.</string>
   <string name="user_define_title">Regeln hinzufügen</string>
   <string name="user_guide">Nach oben schieben, um weitere neue Spiele zu entdecken.</string>
   <string name="user_guide_title">Joystick-Tipps</string>
@@ -4465,7 +4547,9 @@ Wollen Sie es übernehmen?"</string>
   <string name="vb_quick_func_screen_record">Aufnahme</string>
   <string name="vb_quick_func_screening">Übertragung</string>
   <string name="vb_settings">Einstellungen</string>
+  <string name="vb_ve_settings_ai_stronger">KI</string>
   <string name="vb_ve_settings_display_style_tips">*Diese Effekte werden auf den gesamten Bildschirm angewendet</string>
+  <string name="vb_ve_settings_display_style_tips_new">*Effekte werden nur auf den Videowiedergabebereich angewendet</string>
   <string name="vb_ve_settings_pic_border_stronger">Verbesserte Konturen</string>
   <string name="vb_ve_settings_picture_stronger">Verbesserte Animationen</string>
   <string name="vb_video_effects_display_style">Stil</string>
@@ -4653,6 +4737,9 @@ Versuchen Sie, die Auflösung hochzuskalieren!"</string>
   <string name="write_clipboard_tip_title">Elemente in Zwischenablage speichern</string>
   <string name="wrong_password">Falsches Passwort</string>
   <string name="xiaomi_privacy_protection_measures">Maßnahmen zum Datenschutz</string>
+  <string name="xspace_warning_dialog_button">Verstanden</string>
+  <string name="xspace_warning_dialog_message">Wegen der in Android %d eingeführten Einschränkungen können alle Dual Apps nur auf die Fotos und Videos zugreifen, die in der entsprechenden Dual App selbst erstellt und gespeichert wurden.</string>
+  <string name="xspace_warning_dialog_title">Achtung</string>
   <string name="xunyou_net_booster">Mehr Netzwerkgeschwindigkeit</string>
   <string name="xunyou_net_booster_detail">Xunyou-Dienste für mehr Geschwindigkeit nutzen</string>
   <string name="xunyou_pay_webview">Xunyou-Dienste</string>

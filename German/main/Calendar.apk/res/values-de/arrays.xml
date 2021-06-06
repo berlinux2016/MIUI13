@@ -7,6 +7,16 @@
     <item>Alle 4 Stunden</item>
     <item>Alle 12 Stunden</item>
   </string-array>
+  <string-array name="aquarius_info">
+    <item>aquarius</item>
+    <item>Wassermann</item>
+    <item>20.01. - 18.02.</item>
+  </string-array>
+  <string-array name="aries_info">
+    <item>aries</item>
+    <item>Widder</item>
+    <item>21.03. - 19.04.</item>
+  </string-array>
   <string-array name="availability">
     <item>Beschäftigt</item>
     <item>Verfügbar</item>
@@ -17,6 +27,16 @@
     <item>Woche</item>
     <item>Monat</item>
     <item>Terminplanung</item>
+  </string-array>
+  <string-array name="cancer_info">
+    <item>cancer</item>
+    <item>Krebs</item>
+    <item>22.06. - 22.07.</item>
+  </string-array>
+  <string-array name="capricorn_info">
+    <item>capricorn</item>
+    <item>Steinbock</item>
+    <item>22.12. - 19.01.</item>
   </string-array>
   <string-array name="change_response_labels">
     <item>Nur diesen Termin</item>
@@ -57,6 +77,20 @@
     <item>Diesen &amp; zukünftige Termine</item>
     <item>Alle Termine</item>
   </string-array>
+  <string-array name="english_complete_months">
+    <item>Januar</item>
+    <item>Februar</item>
+    <item>März</item>
+    <item>April</item>
+    <item>Mai</item>
+    <item>Juni</item>
+    <item>Juli</item>
+    <item>August</item>
+    <item>September</item>
+    <item>Oktober</item>
+    <item>November</item>
+    <item>Dezember</item>
+  </string-array>
   <string-array name="edit_event_dislike">
     <item>Kein Termin, den ich anlegen möchte</item>
     <item>Es gibt viele Einstellungen, die ich zu faul zum Ausfüllen bin</item>
@@ -68,6 +102,21 @@
     <item>Männlich</item>
     <item>Weiblich</item>
   </string-array>
+  <string-array name="gemini_info">
+    <item>gemini</item>
+    <item>Zwilling</item>
+    <item>21.05. - 21.06.</item>
+  </string-array>
+  <string-array name="leo_info">
+    <item>leo</item>
+    <item>Löwe</item>
+    <item>23.07. - 22.08.</item>
+  </string-array>
+  <string-array name="libra_info">
+    <item>libra</item>
+    <item>Waage</item>
+    <item>23.09. - 23.10.</item>
+  </string-array>
   <string-array name="open_alarm_repeating_labels">
     <item>Nur für diese Zeit</item>
     <item>Wiederholende Erinnerung einstellen</item>
@@ -78,6 +127,20 @@
     <item>3.</item>
     <item>4.</item>
     <item>Letzte</item>
+  </string-array>
+  <string-array name="panchang_weeks">
+    <item>Sonntag</item>
+    <item>Montag</item>
+    <item>Dienstag</item>
+    <item>Mittwoch</item>
+    <item>Donnerstag</item>
+    <item>Freitag</item>
+    <item>Samstag</item>
+  </string-array>
+  <string-array name="pisces_info">
+    <item>pisces</item>
+    <item>Fische</item>
+    <item>19.02. - 20.03.</item>
   </string-array>
   <string-array name="prefEntries_alerts_popup">
     <item>Aus</item>
@@ -341,6 +404,21 @@
     <item>Später entscheiden</item>
     <item>Ablehnen</item>
   </string-array>
+  <string-array name="sagittarius_info">
+    <item>sagittarius</item>
+    <item>Schütze</item>
+    <item>23.11. - 21.12.</item>
+  </string-array>
+  <string-array name="scorpio_info">
+    <item>scorpio</item>
+    <item>Skorpion</item>
+    <item>24.10. - 22.11.</item>
+  </string-array>
+  <string-array name="taurus_info">
+    <item>taurus</item>
+    <item>Stier</item>
+    <item>20.04. - 20.05.</item>
+  </string-array>
   <string-array name="timezone_labels_v3">
     <item>Marshallinseln</item>
     <item>Midwayinseln</item>
@@ -441,10 +519,43 @@
     <item>6 Stunden vorher</item>
     <item>1 Tag vorher</item>
   </string-array>
+  <string-array name="virgo_info">
+    <item>virgo</item>
+    <item>Jungfrau</item>
+    <item>23.08. - 22.09.</item>
+  </string-array>
   <string-array name="visibility">
     <item>Standard</item>
     <item>Privat</item>
     <item>Öffentlich</item>
+  </string-array>
+  <string-array name="weather_forecasts">
+    <item>Klar</item>
+    <item>Bewölkt</item>
+    <item>Bedeckt</item>
+    <item>Nebel</item>
+    <item>Starker Sturm</item>
+    <item>Sturm</item>
+    <item>Leichter Sturm</item>
+    <item>Gewitter</item>
+    <item>Schauer</item>
+    <item>Starkregen</item>
+    <item>Regen</item>
+    <item>Leichter Regen</item>
+    <item>Schneeregen</item>
+    <item>Schneesturm</item>
+    <item>Schneeschauer</item>
+    <item>Starker Schneefall</item>
+    <item>Schnee</item>
+    <item>Leichter Schneefall</item>
+    <item>Starker Sandsturm</item>
+    <item>Sandsturm</item>
+    <item>Staub</item>
+    <item>Leichter Standsturm</item>
+    <item>Hagel</item>
+    <item>Feinstaub</item>
+    <item>Dunst</item>
+    <item>Gefrierender Regen</item>
   </string-array>
   <string-array name="week_header_name">
     <item>SO</item>

@@ -73,7 +73,8 @@
   <string name="disagreement_donnot_use_service">Wenn Sie nicht zustimmen, solche Genehmigungen zu erteilen oder Ihre personenbezogenen Daten weiterzugeben und hochzuladen, können Sie diesen Service nicht nutzen. Sie können diesen Service in solchen Fällen nicht nutzen.</string>
   <string name="disagreement_exit_app">Wenn Sie nicht zustimmen, solche Genehmigungen zu erteilen oder Ihre personenbezogenen Daten weiterzugeben und hochzuladen, können Sie diese App nicht nutzen. In solchen Fällen können Sie sich in den Einstellungen abmelden oder die Berechtigungen einschränken.</string>
   <string name="disagreement_function">Wenn Sie nicht zustimmen, solche Genehmigungen zu erteilen oder Ihre personenbezogenen Daten weiterzugeben und hochzuladen, können Sie diese Funktion nicht nutzen. Sie können diese Funktion in solchen Fällen nicht nutzen.</string>
-  <string name="disagreement_location_service">Wenn Sie nicht zustimmen, solche Genehmigungen zu erteilen oder Ihre personenbezogenen Daten weiterzugeben und hochzuladen, können Sie diesen Service nicht nutzen.</string>
+  <string name="disagreement_location_service">Wenn Sie nicht zustimmen, solche Genehmigungen zu erteilen oder Ihre personenbezogenen Daten zu teilen und hochzuladen, können Sie diesen Dienst nicht nutzen.</string>
+  <string name="disagreement_terminate_miuidaemon">Wenn Sie nicht zustimmen, solche Berechtigungen zu erteilen oder Ihre persönlichen Daten zu teilen und hochzuladen, können Sie diesen Dienst nicht nutzen. Sie können in solchen Fällen in den Einstellungen wählen, diesen Dienst nicht zu nutzen oder die Berechtigungen einzuschränken. Beachten Sie, dass wir die Berechtigungen nur verwenden, wenn Sie mit der Übertragung von Daten von Ihrem Gerät beginnen, wenn dessen Bildschirm beschädigt ist.</string>
   <string name="disagreement_terminate_service">Wenn Sie nicht zustimmen, solche Genehmigungen zu erteilen oder Ihre personenbezogenen Daten weiterzugeben und hochzuladen, können Sie diese App nicht nutzen. In solchen Fällen können Sie in den Einstellungen die Berechtigungen deinstallieren, abmelden oder einschränken.</string>
   <string name="download_introduction">Diese App verwaltet alle Ihre Downloads, inkl. derer, die in GetApps, Mi Video, Updater, Themen und Browser durchgeführt werden.</string>
   <string name="early_morning">Morgen</string>
@@ -235,8 +236,12 @@
   <string name="other_settings_enhanced_lockscreen_summary_index">Allgemeine Geschäftsbedingungen</string>
   <string name="other_settings_location">Standort</string>
   <string name="other_settings_location_summary">Apps haben Standortzugriff</string>
-  <string name="other_settings_upload_debug_log_summary">Nutzungsstatistiken, die uns helfen Probleme zu lokalisieren und zu lösen, können Ihre persönlichen Daten enthalten.</string>
-  <string name="other_settings_upload_debug_log_title">Diagnosedaten automatisch senden</string>
+  <string name="other_settings_upload_debug_log_detail">"Helfen Sie, Ihr MIUI-Geräteerlebnis zu verbessern, indem Sie automatisch Diagnose-, Geräte- und App-Nutzungsdaten an Xiaomi senden. Dies hilft, die Akkulaufzeit, die MIUI-System- und -App-Stabilität und mehr zu verbessern.
+Die Daten, die Sie senden, enthalten allgemeine Infos über Ihr Gerät und wie Sie es verwenden (z. B. Akkustand, System- und App-Aktivität und Fehler). Die Daten werden verwendet, um MIUI-Geräte zu verbessern.
+Deaktivieren dieser Funktion hat keinen Einfluss auf die Fähigkeit Ihres Geräts, die für wichtige Dienste wie Systemaktualisierungen und Sicherheit benötigten Infos zu senden.
+Sie können diese Funktion unter Einstellungen > Passwörter &amp; Sicherheit > Datenschutz > Nutzung und Diagnose steuern."</string>
+  <string name="other_settings_upload_debug_log_summary">Helfen Sie, Ihr MIUI-Geräteerlebnis zu verbessern, indem Sie automatisch Diagnose-, Geräte- und App-Nutzungsdaten an Xiaomi senden. Dies hilft, die Akkulaufzeit, die MIUI-System- und -App-Stabilität und mehr zu verbessern.</string>
+  <string name="other_settings_upload_debug_log_title">Nutzungs- und Diagnosedaten senden</string>
   <string name="other_settings_user_experience">Programm zur Benutzererfahrung</string>
   <string name="other_settings_user_experience_summary">Helfen Sie uns, unsere Produkte und Dienstleistungen zu verbessern, indem Sie uns Ihre Nutzungsstatistiken mitteilen. Details anzeigen.</string>
   <string name="other_settings_user_experience_summary_index">Details anzeigen</string>
@@ -369,6 +374,7 @@ Lesen und akzeptieren Sie unsere "&lt;u>&lt;a href=\"app://com.miui.cloudservice
   <string name="provision_skip_underline">Überspringen</string>
   <string name="recorder_introduction">Mit dieser App können Sie Audio aufnehmen und Aufnahmen in der Cloud sichern.</string>
   <string name="require_authority_statement">Damit wir Ihnen grundlegende Dienstleistungen anbieten können, müssen Sie die folgenden Genehmigungen erteilen, damit wir Ihre personenbezogenen Daten erfassen können:</string>
+  <string name="require_miuidaemon_authority_statement">Damit wir Ihnen diesen Dienst zur Verfügung stellen können, müssen Sie die folgenden Berechtigungen erteilen, damit wir Ihre persönlichen Daten erfassen können:</string>
   <string name="require_network_authority_statement">Damit wir Ihnen grundlegenden Dienstleistungen anbieten können, müssen Sie eine Internetverbindung herstellen und die folgenden Berechtigungen erteilen, damit wir Ihre personenbezogenen Daten erfassen können:</string>
   <string name="saturday">Samstag</string>
   <string name="saturday_short">Sa</string>

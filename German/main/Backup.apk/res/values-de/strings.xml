@@ -1,5 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+  <string name="backup_hint_pad">Gerät an lassen</string>
+  <string name="new_local_tab_backup_pad">Sichern</string>
+  <string name="new_local_tab_restore_pad">Wiederhestellen</string>
+  <string name="new_pc_backup_restore_link_pad">Mobilgerät</string>
+  <string name="new_pc_backup_summary2_pad">Mobilgerät über ein USB-Kabel mit dem Computer verbinden.</string>
+  <string name="new_pc_restore_content2_pad">%d. Sicherung von Ihrem Computer nach MIUI-Backup-AllBackup kopieren.</string>
+  <string name="not_enough_storage_tips">Zu wenig Speicherplatz. Speicherplatz freigeben und erneut versuchen.</string>
+
   <string name="abc_action_bar_home_description">Zur Startseite</string>
   <string name="abc_action_bar_up_description">Nach oben</string>
   <string name="abc_action_menu_overflow_description">Weitere Optionen</string>
@@ -92,6 +100,7 @@
   <string name="clearable_edittext_clear_description">Löschen</string>
   <string name="click_soft_ap_to_link">Hotspot zum Verbinden auswählen</string>
   <string name="click_to_view">Zum Anzeigen antippen</string>
+  <string name="close">Schließen</string>
   <string name="close_twice_auth_btn">Zwei-Faktor-Authentifizierung deaktivieren</string>
   <string name="close_twice_auth_note">"Hinweis:
 Nach Erstellung einer neuen Sicherheitsfrage und Bestätigung Ihres Geburtsdatums wird Ihre Apple ID-Zwei-Faktor-Authentifizierung deaktiviert. Wenn Sie die Option zum Deaktivieren der Zwei-Faktor-Authentifizierung auf der Apple ID-Kontenseite nicht sehen, können Sie sie nicht deaktivieren."</string>
@@ -399,6 +408,7 @@ Stellen Sie sicher, dass das USB-Laufwerk genügend Speicher hat, bevor Sie begi
   <string name="new_pc_backup_summary2">Mobilgerät über ein USB-Kabel mit dem Computer verbinden.</string>
   <string name="new_pc_backup_summary4">Hinweis: Sie können auch Fotos und Videos von DCIM kopieren.</string>
   <string name="new_pc_restore_content1">%d. Mobilgerät über ein USB-Kabel mit dem Computer verbinden.</string>
+  <string name="new_pc_restore_content1_pad">%d. Verbinden Sie Ihr Mobilgerät über ein USB-Kabel mit dem Computer.</string>
   <string name="new_pc_restore_content2">%d. Sicherung von Ihrem Computer nach MIUI-Backup-AllBackup kopieren.</string>
   <string name="new_pc_restore_content3">%1$d. \"%2$s\" öffnen und die wiederherzustellenden Elemente wählen.</string>
   <string name="new_pc_title">Sicherungen kopieren</string>

@@ -1,5 +1,54 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+  <string name="account_change">Konten wechseln</string>
+  <string name="account_settings_display">Anzeige</string>
+  <string name="account_settings_op_title">E-Mails verwalten</string>
+  <string name="account_settings_preference_head_icon_summary">Mail-Liste zeigt Avatar des Absenders an</string>
+  <string name="account_settings_receive_title">Eingehende E-Mails</string>
+  <string name="account_settings_send_title">Ausgehende E-Mails</string>
+  <string name="account_settings_server_summary">Benutzernamen, Passwörter und mehr ändern</string>
+  <string name="account_settings_sync_other_tips">Nur Exchange-Server werden unterstützt</string>
+  <string name="allow_notify">Benachrichtigungen zulassen</string>
+  <string name="app_loading">Laden…</string>
+  <string name="compress_failed_and_retry">Komprimieren nicht möglich, erneut versuchen.</string>
+  <string name="compress_img">Bild komprimieren</string>
+  <string name="conversation_message_info">E-Mail laden nicht möglich. Tippen, um es erneut zu versuchen.</string>
+  <string name="exchange_login_hint">Hier tippen, um sich bei Outlook Exchange anzumelden</string>
+  <string name="folder_notification_setting_tip">Sie haben mehrere Ordner in Ihrem Posteingang. Benachrichtigungen über neue Nachrichten in bestimmten Ordnern festlegen.</string>
+  <string name="forget_app_password">App-Passwort vergessen</string>
+  <string name="http_auth_dialog_cancel">Abbrechen</string>
+  <string name="http_auth_dialog_login">Anmelden</string>
+  <string name="http_auth_dialog_password">Passwort</string>
+  <string name="http_auth_dialog_title">Zugangsdaten eingeben</string>
+  <string name="http_auth_dialog_username">Benutzername</string>
+  <string name="inline_as_attachment">Als Anhang senden</string>
+  <string name="inline_too_large">Bild ist zu groß</string>
+  <string name="inline_too_large_des">Inline-Bilder dürfen nicht größer als 3 MB sein. Größere Bilder als Anhänge senden oder komprimieren.</string>
+  <string name="login_cancelled">Anmeldeversuch abgebrochen</string>
+  <string name="login_failed">Anmelden nicht möglich</string>
+  <string name="login_tip">%s-Protokoll wird standardmäßig für die Anmeldung verwendet. Wenn Sie ein anderes Protokoll verwenden möchten, manuell unter den Anmeldeoptionen auswählen.</string>
+  <string name="mail_spam_notify_title">Über Spam benachrichtigen</string>
+  <string name="mailbox_folder">Ordner</string>
+  <string name="ms_graph">Neues Microsoft-Protokoll</string>
+  <string name="new_mail_notification">Über neue Nachrichten benachrichtigen</string>
+  <string name="not_install_qq_tip">Erfolgreich kopiert. QQ öffnen und diese Gruppe suchen, um ihr beizutreten.</string>
+  <string name="notification_message">Nur über neue Nachrichten in ausgewählten Ordnern benachrichtigen?</string>
+  <string name="notification_off">Aus</string>
+  <string name="notification_on">Ein</string>
+  <string name="operation_settging">Aktionen</string>
+  <string name="outlook_failed_to_get_auth_code">Fehler im Verifizierungscode: %1$s</string>
+  <string name="push">Push-Benachrichtigungen</string>
+  <string name="qq_group_info_summary">QQ-Gruppe: %s. Zum Kopieren antippen.</string>
+  <string name="qq_group_info_title">QQ-Gruppe für Feedback</string>
+  <string name="search_bar_text">Nach Kontakten suchen</string>
+  <string name="set_account_app_password">App-Passwort festlegen</string>
+  <string name="sign_in_graph_error">Sie können sich nur dann mit den Protokollen IMAP oder EXCHANGE anmelden, wenn Ihre Firma die allgemeine Serverkonfiguration nicht geändert hat. Wenn Ihre Serveradresse von der Firma angepasst wurde oder die entsprechenden Protokolle deaktiviert sind, melden Sie sich mit dem neuen Microsoft-Protokoll an.</string>
+  <string name="sign_in_no_useful_provider_error">Protokollkonfigurationen von Microsoft abrufen nicht möglich. Ein anderes Protokoll verwenden oder das Protokoll von Microsoft aktualisieren.</string>
+  <string name="tell_you_later">Später</string>
+  <string name="toastbar_calendar_and_contacts_permission_switch_allow_only_using">Zeitplan und Kontaktinformationen wurden nicht in Echtzeit synchronisiert, die Berechtigung "Kontakte" ist auf "immer zulassen" eingestellt</string>
+  <string name="weixin_info_summary">WeChat-Konto: %s. Zum Kopieren antippen.</string>
+  <string name="x_account_settings_mibill_resolve_label_summary">Automatische Erkennung von Kreditkartenabrechnungen</string>
+
   <string name="abc_action_bar_home_description">Zur Startseite</string>
   <string name="abc_action_bar_up_description">Nach oben</string>
   <string name="abc_action_menu_overflow_description">Weitere Optionen</string>
@@ -29,7 +78,7 @@
   <string name="after_reset_need_restore_system_app">Anscheinend haben Sie einen Werksreset durchgeführt. Mit Netzwerk verbinden und Systemelemente wiederherstellen, um MIUI normal benutzen zu können.</string>
   <string name="afternoon"></string>
   <string name="agree">Zustimmen</string>
-  <string name="am"></string>
+
   <string name="audio_toast_network_is_not_available">Netzwerkverbindung herstellen, um Audio umzuwandeln, nicht möglich</string>
   <string name="birthday">Geburtstag</string>
   <string name="brand_text">Spracherkennungsprogramm wird durch %1$s bereitgestellt</string>
@@ -199,7 +248,6 @@ Beachten Sie, dass diese App eine Internetverbindung und die folgenden Genehmigu
   <string name="permission_allow_content_policy1">Datenschutzerklärung</string>
   <string name="permlab_sendSmsNoConfirmation">SMS-Nachrichten im Hintergrund zulassen</string>
   <string name="phone">Telefon</string>
-  <string name="pm"></string>
   <string name="preference_authorization_title">Datenschutzerklärung</string>
   <string name="preference_category_authorization__title">Datenschutzerklärung</string>
   <string name="preference_category_function_title">Funktionen</string>

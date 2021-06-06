@@ -129,6 +129,7 @@
   <string name="app_name_miuiwallpaper">Hintergründe</string>
   <string name="app_new_version">Die neueste Version dieser App ist bereits installiert</string>
   <string name="app_uninstall_description_content">Browser ist eine System-App. Sie können die von ihr bereitgestellten Such- und Webbrowserdienste nicht mehr nutzen, wenn Sie die App deinstallieren.</string>
+  <string name="app_uninstall_description_title">Browser deinstallieren?</string>
   <string name="app_update_install">Bereit zur Update-Installation.</string>
   <string name="aqi_quality_index_break">Sehr schädlich</string>
   <string name="aqi_quality_index_dangerous">Gefährlich</string>
@@ -269,6 +270,9 @@
   <string name="columbus_player_close_video">VIDEO BEENDEN</string>
   <string name="columbus_player_install_now">JETZT INSTALLIEREN</string>
   <string name="columbus_player_learn_more">Mehr erfahren</string>
+  <string name="columbus_player_speed_title">Video überspringen?</string>
+  <string name="columbus_player_speed_video">VIDEO ÜBERSPRINGEN</string>
+  <string name="columbus_player_unit_sec">Sek</string>
   <string name="com_facebook_device_auth_instructions">&lt;b>facebook.com/device&lt;/b> aufrufen und den oben angezeigten Code eingeben</string>
   <string name="com_facebook_image_download_unknown_error">Unerwarteter Fehler beim Herunterladen eines Bildes</string>
   <string name="com_facebook_internet_permission_error_message">WebView-Anmeldung erfordert INTERNET-Berechtigung</string>
@@ -872,6 +876,7 @@ Bitte senden Sie diesen Code dem Techniker."</string>
   <string name="msn_privacy">Microsoft Datenschutzerklärung</string>
   <string name="msn_privacy_content">Für Inhaltsfeed powered by Microsoft News</string>
   <string name="mtrl_chip_close_icon_content_description">%1$s entfernen</string>
+  <string name="must_play">Ein Muss</string>
   <string name="mw_abc_action_bar_home_description">Zur Startseite</string>
   <string name="mw_abc_action_bar_up_description">Nach oben navigieren</string>
   <string name="mw_abc_action_menu_overflow_description">Mehr Einstellungen</string>
@@ -915,6 +920,7 @@ Bitte senden Sie diesen Code dem Techniker."</string>
   <string name="mw_color_picker_dialog_title">Farbe auswählen</string>
   <string name="mw_color_picker_hue">Farbton</string>
   <string name="mw_color_picker_saturation">Sättigung</string>
+  <string name="mw_color_picker_value">Wert</string>
   <string name="mw_common_google_play_services_enable_button">Aktivieren</string>
   <string name="mw_common_google_play_services_enable_text">%1$s funktioniert nur, wenn Sie Google-Play-Dienste aktivieren.</string>
   <string name="mw_common_google_play_services_enable_title">Google Play-Dienste aktivieren</string>
@@ -1123,6 +1129,7 @@ Diese Seite jetzt verlassen?"</string>
   <string name="news_native_see_all">Kompletter Artikel</string>
   <string name="next">Weiter</string>
   <string name="nf_choose_reason">Beschreiben Sie das Problem</string>
+  <string name="nf_content_promo_label">PROMO</string>
   <string name="nf_detail_collection">Zu Favoriten hinzufügen</string>
   <string name="nf_dislike">Nicht interessant</string>
   <string name="nf_feed_list_exit_toast">Erneut tippen, um Inhaltsfeed zu schließen</string>
@@ -1370,6 +1377,8 @@ Diese Seite jetzt verlassen?"</string>
   <string name="pref_content_night_read_mode">Nachtmodus</string>
   <string name="pref_content_search_engine">Suchanbieter in Adressleiste</string>
   <string name="pref_content_search_engine_summary">Suchmaschine wählen</string>
+  <string name="pref_data_preload_value_always">IMMER</string>
+  <string name="pref_data_preload_value_never">NIEMALS</string>
   <string name="pref_default_browser_str">Standarbrowser</string>
   <string name="pref_desc_dns_prefetch">Dem Browser erlauben, Domainnamen aufzulösen, bevor Ressourcen (z. B. Dateien oder Links) angefordert werden</string>
   <string name="pref_develop_mode">Entwicklermodus</string>
@@ -1495,6 +1504,8 @@ Einige Webseiten verwenden Ihren früheren Browserverlauf nicht, um ihre Werbung
   <string name="pref_title_dns_prefetch">DNS-Prefetching</string>
   <string name="pref_ua_string">Benutzeragent</string>
   <string name="pref_version_info">Versionsinfo</string>
+  <string name="pref_video_preload_value_always">IMMER</string>
+  <string name="pref_video_preload_value_never">NIEMALS</string>
   <string name="pref_volume_key_action">Blättern mit Lautstärketasten</string>
   <string name="preference_copied">\"%1$s\" in Zwischenablage kopiert</string>
   <string name="preference_des_autocomplete_search">Suchanfragen automatisch vervollständigen, basierend auf dem Browserverlauf, Suchmaschinenvorschlägen und beliebten Webseiten</string>
@@ -1812,7 +1823,7 @@ Einige Webseiten verwenden Ihren früheren Browserverlauf nicht, um ihre Werbung
   <string name="sync_alert_checkbox_bookmark">Lesezeichen</string>
   <string name="sync_alert_checkbox_history">Browserverlauf</string>
   <string name="sync_bookmark">Lesezeichen synchronisieren</string>
-  <string name="sync_bookmark_fail_retry">Synchronisieren nicht möglich</string>
+  <string name="sync_bookmark_fail_retry">Synchronisieren fehlgeschlagen</string>
   <string name="sync_bookmark_succeed">Erfolgreich synchronisiert</string>
   <string name="tab_common_app">Apps &amp; Ordner</string>
   <string name="tab_feed">Nachrichten</string>
@@ -1874,7 +1885,7 @@ Einige Webseiten verwenden Ihren früheren Browserverlauf nicht, um ihre Werbung
   <string name="tip_drag">Langes Drücken zum Bearbeiten und Ziehen zum Sortieren</string>
   <string name="tip_not_support_external_sdcard_modify">Auf der SD-Karte gespeicherte Dateien können nicht bearbeitet werden</string>
   <string name="tip_sync_disabled_by_incognito">Elemente können im Inkognito-Modus nicht synchronisiert werden</string>
-  <string name="tip_sync_switch_off">Synchronisation ist ausgeschaltet. Sie können sie in \"Mein Konto\" einschalten.</string>
+  <string name="tip_sync_switch_off">Synchronisation ist aus. Sie können sie in \"Mein Konto\" einschalten.</string>
   <string name="title_bar_loading">Laden…</string>
   <string name="title_command_mode">Befehlsmodus</string>
   <string name="title_expire_video">Bald ablaufend</string>

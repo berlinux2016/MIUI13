@@ -106,6 +106,7 @@
   <string name="clock_bg_button_setting_title">Hintergrundfarbe</string>
   <string name="close">Schließen</string>
   <string name="close_alarm">Beenden</string>
+  <string name="close_alarm_new">Stopp</string>
   <string name="common_settings">Einstellungen</string>
   <string name="common_timer_selector">Timer wählen</string>
   <string name="confirm">Bestätigen</string>
@@ -368,6 +369,7 @@
   <string name="noon">Mittag</string>
   <string name="normal_settings">Allgemeine Einstellungen</string>
   <string name="not_set">Nicht festgelegt</string>
+  <string name="not_set_temporarily">Nein danke</string>
   <string name="not_update">Jetzt nicht</string>
   <string name="oneshot_alarm">Löschen, sobald der Wecker klingelt</string>
   <string name="open_keep_screen">Bildschirm bleibt eingeschaltet</string>
@@ -400,11 +402,13 @@
   <string name="search_stopwatch_keywords">Stoppuhr</string>
   <string name="search_timer_keywords">Timer</string>
   <string name="search_worldclock_keywords">Zeit;Weltzeit;Uhr</string>
+  <string name="select_operation">Wählen</string>
   <string name="send">Senden</string>
   <string name="set_alarm">Wecker einstellen</string>
   <string name="set_alarm_choose_ringtone">Klingelton wählen</string>
   <string name="set_alarm_done">Fertig</string>
   <string name="set_alarm_other">Andere</string>
+  <string name="set_now">Festlegen</string>
   <string name="setting_alarm_arriving_subtitle">Benachrichtigungen anzeigen, bevor ein Wecker ausgelöst wird</string>
   <string name="setting_alarm_arriving_summary">Vor dem Weckton eine Nachricht senden</string>
   <string name="setting_alarm_arriving_title">Nachricht vor Weckton</string>
@@ -413,12 +417,13 @@
   <string name="shortcut_new_alarm">Wecker einstellen</string>
   <string name="shortcut_start_timer">Timer starten</string>
   <string name="shortcut_stop_watch">Stoppuhr starten</string>
-  <string name="shut_down_alarm_no_news">Wecker ausschalten, sonst kann der morgendliche Nachrichtendienst nicht genossen werden</string>
+  <string name="shut_down_alarm_no_news">Wecker ausschalten, sonst können Sie den morgendlichen Nachrichtendienst nicht genießen</string>
   <string name="shut_down_keep_screen">Bildschirm bleibt nicht eingeschaltet</string>
   <string name="shutdown_alarm_alert_enable_summary">Standby-Wecker werden mindestens 10 Minuten nach dem Ausschalten des Geräts ausgelöst</string>
+  <string name="shutdown_alarm_alert_enable_summary_new">Aktivieren, damit eingestellte Wecker ausgelöst werden, wenn das Gerät ausgeschaltet ist. Nur Wecker, die mind. %d Minuten nach dem Ausschalten des Geräts starten sollen, werden ausgelöst.</string>
   <string name="shutdown_alarm_alert_title">Standby-Wecker</string>
-  <string name="shutdown_alarm_disable_summary">Wecker wird nicht ausgelöst, wenn das Gerät ausgeschaltet wurde</string>
-  <string name="shutdown_alarm_enable_summary">Wecker wird ausgelöst, wenn er für mindestens 10 Minuten nach dem Ausschalten des Geräts eingestellt ist</string>
+  <string name="shutdown_alarm_disable_summary">Wecker wird nicht ausgelöst, wenn das Gerät ausgeschaltet ist</string>
+  <string name="shutdown_alarm_enable_summary">Wecker wird ausgelöst, wenn er mind. 10 Minuten nach dem Ausschalten des Geräts starten soll</string>
   <string name="shutdown_alarm_title">Standby-Wecker</string>
   <string name="silent_alarm_summary">Lautlosmodus</string>
   <string name="skip_alarm_once_hint">Am %s einmalig ausschalten</string>
@@ -444,6 +449,7 @@ Mi Health genügend Daten analysiert hat."</string>
   <string name="sleep_remind">Schlafenszeit-Erinnerung</string>
   <string name="sleep_time">Einschlafen</string>
   <string name="slider_text">Zum Ausschalten hochwischen</string>
+  <string name="slider_text_new">Hochwischen zum Stoppen</string>
   <string name="snooze_confirm_cancel">Beenden</string>
   <string name="snooze_duration">Schlummern</string>
   <string name="snooze_duration_title">Schlummern</string>
@@ -568,6 +574,7 @@ Mi Health genügend Daten analysiert hat."</string>
   <string name="timer_end_time">Timer stoppt um %s</string>
   <string name="timer_end_time_format">d. MMM. | HH:mm </string>
   <string name="timer_end_time_format_today">HH:mm</string>
+  <string name="timer_got_it_new">Ruhe</string>
   <string name="timer_is_paused">Timer wurde angehalten</string>
   <string name="timer_item_delete">Löschen</string>
   <string name="timer_item_duration_display">%1$d Min %2$d Sek</string>
@@ -615,6 +622,7 @@ Mi Health genügend Daten analysiert hat."</string>
   <string name="wednesday">Mittwoch</string>
   <string name="wednesday_short">Mi</string>
   <string name="wednesday_shortest">M</string>
+  <string name="week_ringtone_recommend_desc">Naturalarm spielt je nach Datum unterschiedliche Töne ab. Als Standardalarm festlegen?</string>
   <string name="white_noise_selector">Audio wählen</string>
   <string name="workday_alarm_clock">Wecker an Werktagen</string>
   <string name="worldclock_empty_text">Keine Weltzeituhren</string>

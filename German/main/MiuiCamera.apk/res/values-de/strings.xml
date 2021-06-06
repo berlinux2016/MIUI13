@@ -20,6 +20,11 @@
   <string name="scan_install_prompt_loading">Scanner installieren…</string>
   <string name="scan_install_prompt_message">Scanner installieren und erneut versuchen.</string>
 
+  <string name="time_freeze_action_end_tip">Auf die Taste tippen, um das Standbild zu beenden</string>
+  <string name="time_freeze_action_start_tip">Auf die Taste tippen, um den Hintergrund einzufrieren</string>
+  <string name="time_freeze_adjust_button_title">Einstelleffekt</string>
+  <string name="time_freeze_clipbox_tint">Immer noch</string>
+
   <string name="abc_action_bar_home_description">Zur Startseite</string>
   <string name="abc_action_bar_up_description">Nach oben</string>
   <string name="abc_action_menu_overflow_description">Mehr Optionen</string>
@@ -655,11 +660,12 @@ auswahl"</string>
 ausrichten und verbessern"</string>
   <string name="document_mode_use_hint_text_title">Dokumente scannen</string>
   <string name="document_strengthen">Verbessern</string>
-  <string name="dolly_zoom_capture_tip1">Platzieren Sie Ihr Motiv im Rahmen und halten Sie das Gerät mindestens %d m entfernt</string>
-  <string name="dolly_zoom_capture_tip2">Bewegen Sie das Gerät gleichmäßig von Ihrem Motiv weg</string>
+  <string name="dolly_zoom_capture_tip1">Motiv im Rahmen platzieren</string>
+  <string name="dolly_zoom_capture_tip2">Motiv in der Mitte halten und Gerät gleichmäßig wegbewegen</string>
   <string name="dolly_zoom_capture_tip3">Anschluss an das Motiv verloren. Von vorne beginnen.</string>
-  <string name="dolly_zoom_capture_tip4">Sie haben das Gerät zu weit weg bewegt. Von vorne beginnen.</string>
+  <string name="dolly_zoom_capture_tip4">Gerät zu weit weg bewegt. Von vorne beginnen.</string>
   <string name="dolly_zoom_capture_tip5">Video wurde nicht gespeichert</string>
+  <string name="dolly_zoom_capture_tip6">Motiv in die Mitte des Bildes bewegen</string>
   <string name="dolly_zoom_guide_tip1">Stellen Sie sicher, dass zwischen Ihrem Motiv und dem Hintergrund genügend Platz ist.</string>
   <string name="dolly_zoom_guide_tip10">Und noch mehr!</string>
   <string name="dolly_zoom_guide_tip2">Versuchen Sie, große Flächen mit Volltonfarben zu vermeiden.</string>
@@ -694,7 +700,7 @@ Nach dem Einschalten der Funktion \"Multi-Kamera-Aufnahme\" können Sie eine Ver
   <string name="dual_video_user_guide_main_title">Multikamera-Video</string>
   <string name="dual_video_user_guide_merge_content">Nehmen Sie mit zwei Kameras gleichzeitig auf und kombinieren Sie Aufnahmen in einer geteilten Ansicht oder als Bild-in-Bild-Video.</string>
   <string name="dual_video_user_guide_merge_content_new">Nehmen Sie Bilder aus zwei Blickwinkeln gleichzeitig auf und fügen Sie sie zu einem Video zusammen; Sie können die Zusammenstellung mit großem oder kleinem Fenster oder die Zusammenstellung mit gleichem Verhältnis auswählen.</string>
-  <string name="dual_video_user_guide_remote_content">Duale Telefonaufnahme ermöglicht das Kombinieren von Feeds von zwei verschiedenen Geräten in einem Video. Sie können beide Feeds und das endgültige Video auf diesem Gerät in der Vorschau anzeigen lassen. Beachten Sie, dass der Ton nur von diesem Gerät aufgenommen wird.</string>
+  <string name="dual_video_user_guide_remote_content">Feeds von zwei verschiedenen Geräten zu einem Video kombinieren. Sie können beide Feeds und das endgültige Video auf diesem Gerät in der Vorschau anzeigen. Beachten Sie, dass der Ton nur von diesem Gerät aufgenommen wird.</string>
   <string name="dual_video_user_guide_remote_p">Telefon %d</string>
   <string name="dual_video_user_guide_remote_p1">Telefon 1</string>
   <string name="dual_video_user_guide_remote_p2">Telefon 2</string>
@@ -1017,7 +1023,7 @@ Für ein besseres Bild, Kameraobjektiv bitte reinigen."</string>
   <string name="local_music">Lokale Musik</string>
   <string name="location">Standort</string>
   <string name="locations">Standorte</string>
-  <string name="location_access_allow">Erlauben</string>
+  <string name="location_access_allow">Zustimmen</string>
   <string name="location_permission_des">Standortinformationenen zu einem Foto oder Video hinzufühen</string>
   <string name="location_permission_not_ask_again">Kamera den Standortzugriff in den Einstellungen erlauben</string>
   <string name="location_permission_not_ask_again_go_to_settings">Erlauben</string>
@@ -1246,10 +1252,10 @@ Für ein besseres Bild, Kameraobjektiv bitte reinigen."</string>
   <string name="network_access_user_notice_message_sticker">&lt;Data>"Kamera benötigt eine Internetverbindung, um Sticker für diese Funktion zu erhalten.&lt;br/>&lt;br/> Wenn Sie unten auf \"Zustimmen\" tippen, akzeptieren Sie unsere &lt;a href ="%1$s">Nutzervereinbarung&lt;/a> und &lt;a href ="%2$s">Datenschutzerklärung&lt;/a>, und erlauben Kamera die Internetverbindung."&lt;/Data></string>
   <string name="network_access_user_notice_message_voice_caption">&lt;Data>"Kamera benötigt eine Internetverbindung, um die Sprache-zu-Text-Ausgabe zu ermöglichen.&lt;br/>&lt;br/> Wenn Sie unten auf \"Zustimmen\" tippen, akzeptieren Sie unsere &lt;a href ="%1$s">Nutzervereinbarung&lt;/a> und &lt;a href ="%2$s">Datenschutzerklärung&lt;/a>, und erlauben Kamera die Internetverbindung."&lt;/Data></string>
   <string name="network_access_user_notice_title">Internetverbindung herstellen</string>
-  <string name="network_connection_failed">Verbinden nicht möglich</string>
+  <string name="network_connection_failed">Verbinden fehlgeschlagen</string>
   <string name="network_connection_ongoing">Verbinden…</string>
-  <string name="network_connection_prerequisites">Schalten Sie Bluetooth und WLAN ein, um die duale Telefonaufnahme nutzen zu können.</string>
-  <string name="network_connection_prerequisites_china">Schalten Sie Bluetooth und WLAN ein, um die duale Telefonaufnahme nutzen zu können.</string>
+  <string name="network_connection_prerequisites">Bluetooth und WLAN im Kontrollzentrum einschalten, um die duale Telefonaufnahme nutzen zu können.</string>
+  <string name="network_connection_prerequisites_china">Bluetooth und WLAN im Kontrollzentrum einschalten, um die duale Telefonaufnahme nutzen zu können.</string>
   <string name="network_connection_rejected">Abgelehnt</string>
   <string name="network_connection_timed_out">Zeitüberschreitung Verbindung</string>
   <string name="night">Abend</string>
@@ -1454,7 +1460,7 @@ Halten Sie das Motiv scharf, während Sie den Hintergrund verwischen.</string>
   <string name="pref_camera_device_watermark_title">Wasserzeichen</string>
   <string name="pref_camera_dual_enable_title">Dualkamera einschalten</string>
   <string name="pref_camera_dual_sat_enable_title">Dual-SAT-Kamera einschalten</string>
-  <string name="pref_camera_dynamic_frame_rate_summary">Bildrate wird bei schlechten Lichtverhältnissen automatisch gesenkt, um die Videoqualität zu verbessern</string>
+  <string name="pref_camera_dynamic_frame_rate_summary">Bildrate wird bei schlechten Lichtverhältnissen oder hohen Temperaturen automatisch gesenkt, um die Videoqualität zu verbessern</string>
   <string name="pref_camera_dynamic_frame_rate_title">Bildfrequenz an schwaches Licht anpassen</string>
   <string name="pref_camera_eis_entry_normal">Videostabilisierung</string>
   <string name="pref_camera_eis_entry_off">AUS</string>
