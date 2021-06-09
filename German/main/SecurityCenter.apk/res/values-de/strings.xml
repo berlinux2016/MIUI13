@@ -547,8 +547,14 @@ Sie verlieren keine App-Daten."</string>
   <string name="app_permission_use_no_neccesary">Optionale Berechtigungen</string>
   <string name="app_permission_use_title">Berechtigungen</string>
   <string name="app_predict_black_list_empty">Noch keine Elemente hier</string>
-  <string name="app_predict_black_list_setting_title">Blockliste App-Vorschläge</string>
+  <string name="app_predict_black_list_setting_title">Sperrliste App-Vorschläge</string>
+  <string name="app_predict_dialog_button">Zum Startbildschirm hinzufügen</string>
+  <string name="app_predict_dialog_message">KI schlägt Ihnen Apps vor, die Sie gerade brauchen könnten</string>
+  <string name="app_predict_dialog_success">Erfolgreich zum Startbildschirm hinzugefügt</string>
   <string name="app_predict_folder_name">Suchen</string>
+  <string name="app_predict_guide_button">Hinzufügen</string>
+  <string name="app_predict_guide_message">KI schlägt Ihnen Apps vor, die Sie gerade brauchen könnten</string>
+  <string name="app_predict_guide_title">Intelligente App-Vorschläge</string>
   <string name="app_predict_loading_text">Einen Moment…</string>
   <string name="app_predict_search_title">Alle Apps</string>
   <string name="app_predict_setting_black_list">Blockierliste</string>
@@ -1858,6 +1864,7 @@ Spielsitzungen aufzeichnen"</string>
   <string name="gmscore_support_remind">Aktivieren Sie diese Funktion, wenn Probleme bei der Verwendung von Google Mail, Google Maps und anderen Google Apps auftreten. Die Akkudauer wird dadurch geringfügig verkürzt.</string>
   <string name="gmscore_support_service">Google Dienste</string>
   <string name="go_to">Fortsetzen</string>
+  <string name="go_to_mi_sim">Tippen, um Mi SIM zu verwenden.</string>
   <string name="go_to_send">Zum Senden</string>
   <string name="go_to_setting_fingerprint">Einstellungen</string>
   <string name="google_base_app_fail">Herunterladen nicht möglich. Prüfen Sie, ob Sicherheit die Internetverbindung erlaubt ist.</string>
@@ -2279,6 +2286,7 @@ Ihr Gerät ist jetzt %d%% schneller."</string>
   <string name="mi_service_app_detail">Datennutzungsdetails</string>
   <string name="mi_service_framework">Mi Service Framework</string>
   <string name="mi_service_traffic_detail">Frameworkdetails</string>
+  <string name="mi_sim_link">"%1$s&lt;br/>&lt;br/>&lt;font color='#ccffffff'>&lt;U>Tippen, um die geöffnete Mi Sim aufzuladen.&lt;/U>&lt;/font>"</string>
   <string name="mian_page_primary_txt">Übersee-Roaming</string>
   <string name="midnight">Nacht</string>
   <string name="midrop_post_notification_contentText">Probieren Sie Mi Drop. Es ist schnell und werbefrei.</string>
@@ -3087,6 +3095,7 @@ Stromverbrauch"</string>
   <string name="power_setting_super_save_summary_text">Die meisten Systemfunktionen beschränken, um den Akku zu schonen</string>
   <string name="power_setting_warm_configure">Temperaturregelung</string>
   <string name="power_setting_warm_performance_tip">Szenarien, die einen hohen Stromverbrauch erfordern, erhöhen die Temperatur Ihres Geräts über das Niveau der Standard-Temperaturregelung.</string>
+  <string name="power_setting_wireless_reverse_charging_fg_control_title">Ladegrenze</string>
   <string name="power_setting_wireless_reverse_charging_summary">Kompatible Geräte kabellos laden</string>
   <string name="power_setting_wireless_reverse_charging_title">Kabelloses Umkehrladen</string>
   <string name="power_settings_category_title">Akkuanzeige</string>
@@ -3096,9 +3105,20 @@ Stromverbrauch"</string>
   <string name="power_settings_shape">Grafisch</string>
   <string name="power_settings_title">Festlegen</string>
   <string name="power_settings_top">Obere Leiste</string>
-  <string name="power_wifi">WLAN</string>
   <string name="power_superpower_title_systemui_highpower">Verbleibende Zeit</string>
   <string name="power_superpower_title_systemui_lowpower">Ladegerät anschließen</string>
+  <string name="power_wifi">WLAN</string>
+  <string name="power_wireless_need_update_text">Aktualisieren…</string>
+  <string name="power_wireless_update_button_text">Aktualisieren</string>
+  <string name="power_wireless_update_dialog_button">Verstanden</string>
+  <string name="power_wireless_update_dialog_message">Laden Sie Ihr Gerät mindestens auf %s auf, um die Firmware für kabelloses Laden aktualisieren zu können.</string>
+  <string name="power_wireless_update_dialog_title">Akku schwach</string>
+  <string name="power_wireless_update_driver">Firmware-Updates</string>
+  <string name="power_wireless_update_notification_button">Anzeigen</string>
+  <string name="power_wireless_update_notification_subtitle">Firmware aktualisieren, um die Stabilität des kabellosen Ladens zu verbessern</string>
+  <string name="power_wireless_update_notification_title">Aktualisierung kabelloses Laden</string>
+  <string name="power_wireless_update_text">Aktuell</string>
+  <string name="power_wireless_update_tv_text">Firmware aktualisieren. Gerät nicht ausschalten.</string>
   <string name="pp_app_behavior_record_detail">Alle App-Verhaltensweisen aufzeichnen</string>
   <string name="pp_app_del_img_intercept_detail">Benachrichtigungen erhalten, wenn Apps ohne Ihre Erlaubnis Elemente aus der Galerie löschen</string>
   <string name="pp_app_gets_dangerous_permission_reminder">Benachrichtigungen erhalten, wenn Apps risikoreiche Berechtigungen verwenden</string>
@@ -3649,6 +3669,8 @@ Während der Kalibrierung sendet MIUI eine Textnachricht an Ihren Mobilfunkanbie
   <string name="setting_online_service">Online-Dienste</string>
   <string name="setting_privacy_password">Muster hinzufügen</string>
   <string name="setting_traffic_pkg">Datenpakete einstellen</string>
+  <string name="setting_wireless_reverse_charging_fg_control_summary">Kabelloses Umkehrladen beenden, wenn der Akku dieses Geräts %s erreicht</string>
+  <string name="setting_wireless_reverse_charging_summary">Gerät, das drahtloses Qi-Laden unterstützt (z. B. Telefon oder tragbares Gerät) mittig auf der Rückseite dieses Geräts platzieren</string>
   <string name="settings">Einstellung zur Datennutzung</string>
   <string name="settings_battery_consume_abnormal_summary">Benachrichtigen, wenn der Akku zu schnell entleert wird</string>
   <string name="settings_battery_consume_abnormal_title">Akkuverbrauchswarnung</string>
