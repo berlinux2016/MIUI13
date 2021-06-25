@@ -799,6 +799,7 @@ Drücken Sie 'Löschen und konvertieren…', um fortzufahren."</string>
   <string name="development_settings_not_available">Entwickleroptionen sind für diesen Benutzer nicht verfügbar</string>
   <string name="development_settings_summary">Optionen für App-Entwicklung festlegen</string>
   <string name="development_settings_title">Entwickleroptionen</string>
+  <string name="device_locked_without_biometric">Biometrische Erkennung ist wegen der Verwendung einer Ein-Tasten-Bildschirmsperre eines Drittanbieters nicht möglich</string>
   <string name="device_services">Gerätedienste</string>
   <string name="dewdrops">Morgentau</string>
   <string name="dialog_message_fake_cell_detect_error">Infos zu dieser Nachricht korrigieren? Dazu muss MIUI die Telefonnummer (%1$s), den Inhalt der Nachricht und die Informationen über den nahegelegenen Standort auf seine Server hochladen.</string>
@@ -1167,7 +1168,7 @@ Weiterhin zeigen?"</string>
   <string name="input_lockscreen_password_hint_text">Passwort eingeben</string>
   <string name="input_lockscreen_pattern_hint_text">Muster zeichnen</string>
   <string name="input_lockscreen_pin_hint_text">PIN eingeben</string>
-  <string name="input_password_after_boot_msg">Passwort eingeben zum Entsperren des Geräts</string>
+  <string name="input_password_after_boot_msg">Bildschirmsperre bestätigen ist erforderlich, wenn das Gerät neu gestartet wird</string>
   <string name="input_password_after_boot_msg_can_not_switch_when_calling">Profilwechsel während eines Gesprächs nicht möglich</string>
   <string name="input_password_after_boot_msg_can_not_switch_when_greenkid_active">Profilwechsel nicht möglich, wenn Kindersicherung aktiv</string>
   <string name="input_password_after_boot_msg_can_not_switch_when_superpower_active">Bei aktiviertem Ultra-Stromsparen ist der Wechsel zwischen den Profilen nicht möglich</string>
@@ -1502,10 +1503,12 @@ Screenshot zu erstellen"</string>
   <string name="miui_notification_menu_fold">Unwichtig</string>
   <string name="miui_notification_menu_more_setting">Mehr</string>
   <string name="miui_notification_menu_msg_fold">Alle Benachrichtigungen von %1$s gruppieren?</string>
+  <string name="miui_notification_menu_msg_unfold">%1$s-Benachrichtigungen separat anzeigen?</string>
   <string name="miui_notification_menu_msg_not_allow">Alle Benachrichtigungen von %1$s einschränken?</string>
   <string name="miui_notification_menu_setting_success">Erledigt</string>
   <string name="miui_notification_menu_snooze">Schlummern</string>
   <string name="miui_notification_menu_title_not_allow">Einschränken</string>
+  <string name="miui_notification_menu_unfold">Als wichtig markieren</string>
   <string name="miui_ringer_count_down">Countdown</string>
   <string name="miui_ringer_standard">Lautlos</string>
   <string name="miui_ringer_standard_description">Klingeltöne für eingehende Anrufe und Benachrichtigungen stumm schalten</string>
@@ -1531,6 +1534,7 @@ Screenshot zu erstellen"</string>
   <string name="miui_toast_zen_to_standard">Zum Lautlosmodus gewechselt. Anruf- und Benachrichtigungstöne sind jetzt aus.</string>
   <string name="miui_toast_zen_to_standard_when_shield_media">Zum Lautlosmodus gewechselt, Anruf-, Benachrichtigungs- und Medientöne sind jetzt aus.</string>
   <string name="miui_toast_zen_to_standard_when_shield_media_version_R">Lautlosmodus ist an. Benachrichtigungen und Medien werden lautlos gestellt und die Vibration ausgeschaltet.</string>
+  <string name="miui_unimportant_notifications">Unwichtige Benachrichtigungen</string>
   <string name="miuix_appcompat_action_mode_deselect_all">Abwählen</string>
   <string name="miuix_appcompat_action_mode_select_all">Alle wählen</string>
   <string name="miuix_appcompat_action_mode_title_empty">Elemente wählen</string>
@@ -1806,6 +1810,8 @@ Screenshot zu erstellen"</string>
   <string name="overlay_display_devices_title">Sekundärdsplay simulieren</string>
   <string name="overview">Übersicht</string>
   <string name="owner_info_settings_edit_text_hint">"Z. B. Joe's Android"</string>
+  <string name="pad_zen_mode_warnings_all_time_content">Benachrichtigungen werden stummgeschaltet</string>
+  <string name="pad_zen_mode_warnings_keyguard_content">Benachrichtigungen werden stummgeschaltet, wenn das Gerät gesperrt ist</string>
   <string name="partial_screenshot_edit">Bearbeiten</string>
   <string name="partial_screenshot_repaint">Neu beginnen</string>
   <string name="partial_screenshot_save">Speichern</string>
@@ -2280,6 +2286,8 @@ Screenshot zu erstellen"</string>
   <string name="show_silently">Benachrichtigungen lautlos anzeigen</string>
   <string name="show_touches">Berührungen anzeigen</string>
   <string name="show_touches_summary">Visuelles Feedback für Berührungen anzeigen</string>
+    <string name="shut_down_password_forget_password_suggesstion_one_content"><Data>Tasten &lt;font color=#e6e6e6>[Aus/Ein]&lt;/font> und &lt;font color=#e6e6e6>[Laustärke +]&lt;/font> gedrückt halten, bis Sie &lt;img src=\"\"> sehen.</Data></string>
+    <string name="shut_down_password_forget_password_suggesstion_two_content"><Data>&lt;font color=#e6e6e6>[Daten löschen]&lt;/font> wählen und danach auf &lt;font color=#e6e6e6>[Neustart]&lt;/font> tippen</Data></string>
   <string name="sim_state_locked_dialog_title">Ungültige SIM-Karte</string>
   <string name="sim_state_locked_puk_dialog_message">Sie haben mindestens %d-mal einen falschen PUK-Code eingegeben. Ihre SIM-Karte ist jetzt ungültig. Ersetzen Sie diese SIM-Karte durch eine andere.</string>
   <string name="simulate_color_space">Farbraum simulieren</string>
@@ -2837,7 +2845,6 @@ Bitte Gültigkeit der Zertifikate prüfen."</string>
 Speicherung von Anmeldedaten ist evtl. nicht aktiviert."</string>
   <string name="wifi_wapi_psk_type">Passworttyp</string>
   <string name="wifi_wapi_user_certificate">Benutzerzertifikat</string>
-  <string name="wifi_whitelist_roaming">SSID Bridging - Fast Handover</string>
   <string name="wifi_whitelist_roaming_summary">Roaming zwischen verschiedenen SSID-WPA/WPA2-PSK-APs mit derselben Gateway-MAC-Adresse aktivieren</string>
   <string name="window_animation_scale_title">Fensteranimation</string>
   <string name="wireless_change_to_ac_charging">Auf kabelgebundenes Laden umgeschaltet</string>

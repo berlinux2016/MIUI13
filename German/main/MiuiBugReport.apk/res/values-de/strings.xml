@@ -71,26 +71,29 @@
   <string name="bugreport_tool_log_dumping_title">Fehlerbericht erstellen</string>
   <string name="catch_full_log_action_cancel">Abbrechen</string>
   <string name="catch_full_log_action_complete">Fertigstellen und hochladen</string>
-  <string name="catch_full_log_action_start">Protokoll erstellen</string>
+  <string name="catch_full_log_action_start">Starten</string>
   <string name="catch_full_log_add_original_photo">Originalbild oder Kurzvideo hinzufügen</string>
   <string name="catch_full_log_add_photo">Foto hinzufügen</string>
   <string name="catch_full_log_add_photo_dialog_content">Wenn das zu meldende Problem mit der Bildqualität der Kamera zusammenhängt, fügen Sie ein Original-Beispielfoto (unbeschnitten) hinzu, damit wir das Problem leichter finden können. Jetzt Foto hinzufügen?"</string>
+  <string name="catch_full_log_category">Protokolltyp</string>
   <string name="catch_full_log_dialog_confirm_text">Zur Startseite gehen</string>
-  <string name="catch_full_log_dialog_content">"MIUI erzeugt ein Protokoll. Dies kann die Gesamtleistung Ihres Geräts beeinträchtigen. Wenn Sie das zu meldende Problem nicht reproduzieren können, gehen Sie zurück zu den Protokollen und tippen Sie auf \"Abbrechen\"."</string>
+  <string name="catch_full_log_dialog_content">Dies könnte die Gesamtleistung Ihres Geräts beeinträchtigen. Wenn Sie das Problem, das Sie melden möchten, nicht reproduzieren können, gehen Sie zurück zu den Protokollen und tippen Sie auf \"Abbrechen\"."</string>
+  <string name="catch_full_log_dialog_title">Protokolle generieren…</string>
   <string name="catch_full_log_dump_hprof_failed">Verzögertes Protokoll konnte nicht erstellt werden</string>
   <string name="catch_full_log_item_content_catch_direct">"1. Gehen Sie zurück zu dem Problem, das Sie melden möchten, und reproduzieren Sie es.
 2. Kommen Sie zurück zu dieser Seite und tippen Sie auf \"Fertigstellen und hochladen\"."</string>
-  <string name="catch_full_log_item_content_need_open">"1. Tippen auf \"Protokoll erstellen\".
-2. Gehen Sie zurück zu dem Problem, das Sie melden möchten, und reproduzieren Sie es.
-3. Kommen Sie zurück zu dieser Seite und tippen Sie auf \"Fertigstellen und hochladen\"."</string>
+  <string name="catch_full_log_item_content_catching">Protokolle generieren…</string>
+  <string name="catch_full_log_item_content_need_open">"%1$d. Auf \"Starten\" tippen, um mit der Protokollerstellung zu beginnen.
+%2$d. Reproduzieren Sie das aufgetretene Problem.
+%3$d. Zu dieser Seite zurückkehren und auf \"Fertigstellen und hochladen\" tippen."</string>
   <string name="catch_full_log_item_content_title">Schritte:</string>
-  <string name="catch_full_log_item_title_audio">Audio, Tonaufzeichnung und Audioanrufe</string>
+  <string name="catch_full_log_item_title_audio">Audio, Rufton und Audioaufnahme</string>
   <string name="catch_full_log_item_title_dump_heap">Verzögern</string>
   <string name="catch_full_log_item_title_gps">Standortdienste</string>
   <string name="catch_full_log_item_title_sensor">Sensoren</string>
   <string name="catch_full_log_item_title_signal">Telefon, Signal und Mobilfunknetze</string>
-  <string name="catch_full_log_item_title_wifi">WLAN und ShareMe</string>
-  <string name="catch_full_log_item_title_wifi_china">WLAN und ShareMe</string>
+  <string name="catch_full_log_item_title_wifi">WLAN</string>
+  <string name="catch_full_log_item_title_wifi_china">WLAN</string>
   <string name="catch_full_log_notification_content">Tippen, um zu den Protokollen zurückzukehren</string>
   <string name="catch_full_log_notification_title">Protokoll erstellen…</string>
   <string name="catch_full_log_privacy_content_audio">Sie generieren Protokolle und speichern sie auf Ihrem Gerät. Die Protokolle können die Informationen über das Audio auf Ihrem Gerät enthalten, inkl. der Wiedergabehistorie und des Aufnahmeverlaufs. Seien Sie vorsichtig und geben Sie diese Protokolle nicht an andere Personen weiter. Wenn Sie unten auf \"Zustimmen\" tippen, erklären Sie sich damit einverstanden, dass wir die oben genannten Daten während der Erstellung von Protokollen sammeln und dann die Protokolle auf unsere Server hochladen, um die von Ihnen gemeldeten Probleme zu finden und zu lösen.</string>
@@ -393,9 +396,9 @@ Senden Sie diesen Code an den Supervisor."</string>
   <string name="michat_network_unavaliable">Info nicht erhalten, Netzwerkverbindung prüfen</string>
   <string name="michat_no_good_message_title">Das löst mein Problem nicht</string>
   <string name="michat_product_click_text">Anzeigen</string>
-  <string name="michat_pull_to_refresh_pull_label">Nach unten ziehen, um den Verlauf anzuzeigen</string>
+  <string name="michat_pull_to_refresh_pull_label">Zur Verlaufsanzeige herunterziehen</string>
   <string name="michat_pull_to_refresh_refreshing_label">Verlauf laden…</string>
-  <string name="michat_pull_to_refresh_release_label">Loslassen zum Anzeigen des Verlaufs</string>
+  <string name="michat_pull_to_refresh_release_label">Zur Verlaufsanzeige loslassen</string>
   <string name="michat_queue_pos_update">%1$d Leute sind vor Ihnen, einen Moment warten…</string>
   <string name="michat_return_to_outside">Beenden</string>
   <string name="michat_service_unavailiable">Information nicht erhalten, später erneut versuchen</string>
@@ -915,7 +918,7 @@ Wenn Sie nicht zustimmen, die oben genannten Berechtigungen zu erteilen, wird di
 %1$s
 Größe: %2$s"</string>
   <string name="update_dialog_content_version">Sie können jetzt auf die Version %1$s updaten.</string>
-  <string name="update_dialog_title">Ein Update ist verfügbar</string>
+  <string name="update_dialog_title">Aktualisierung verfügbar</string>
   <string name="update_email_address_dialog_message">Sie müssen Ihre Identität verifizieren, bevor Sie die Wiederherstellungs-E-Mail aktualisieren.</string>
   <string name="update_email_address_dialog_title">Wiederherstellungs-E-Mail aktualisieren</string>
   <string name="update_phone_notice">Sicherheitseinstellungen ändern</string>

@@ -88,7 +88,8 @@
   <string name="allPerms">Alle</string>
   <string name="all_permissions">Alle Berechtigungen</string>
   <string name="anonymous_source_continue">Weiter</string>
-  <string name="anonymous_source_warning">Ihr Telefon und Ihre persönlichen Daten sind anfälliger für Angriffe unbekannter Apps. Durch die Installation dieser App stimmen Sie zu, dass Sie für Schäden an Ihrem Telefon oder für den Verlust von Daten verantwortlich sind, die sich aus seiner Verwendung ergeben können.</string>
+  <string name="anonymous_source_warning">Ihr Telefon und Ihre persönlichen Daten sind anfälliger für Angriffe unbekannter Apps. Durch die Installation dieser App stimmen Sie zu, dass Sie für Schäden an Ihrem Telefon oder Datenverluste verantwortlich sind, die durch die Verwendung dieser App entstehen können.</string>
+  <string name="anonymous_source_warning_tablet">Ihre Geräte und persönlichen Daten sind anfälliger für Angriffe unbekannter Apps. Durch die Installation dieser App stimmen Sie zu, dass Sie für alle Schäden an Ihren Geräten oder Datenverluste verantwortlich sind, die durch die Verwendung dieser App entstehen können.</string>
   <string name="app_install_failed_button_text">Nach Apps suchen</string>
   <string name="app_name">Package Installer</string>
   <string name="app_name_unknown">Ungenau</string>
@@ -218,13 +219,16 @@ Alternativ können Sie den Lite-Modus ausschalten und es erneut versuchen."</str
   <string name="install_confirm_dialog_negative_button">Abbrechen</string>
   <string name="install_confirm_dialog_positive_button">Installieren</string>
   <string name="install_confirm_dialog_title">Achtung</string>
+  <string name="install_confirm_question_des_10_tablet">Wenn Sie bereit sind, die Risiken einzugehen und mit der Installation fortfahren möchten, autorisieren Sie die Installation unter Sicherheit > Apps verwalten > Berechtigungen > Apps mit möglichen Risiken. Wenn Sie \"Apps mit möglichen Risiken\" nicht finden können, aktualisieren Sie Ihre Sicherheits-App und versuchen Sie es erneut.</string>
   <string name="install_done">App wurde installiert</string>
   <string name="install_failed">App wurde nicht installiert</string>
   <string name="install_failed_blocked">Paket wurde für die Installation gesperrt</string>
   <string name="install_failed_conflict">Paket kollidiert mit einem existierenden Paket gleichen Namens</string>
   <string name="install_failed_incompatible">Diese App ist mit Ihrem Gerät nicht kompatibel</string>
+  <string name="install_failed_incompatible_tablet">Diese App ist mit Ihrem Gerät nicht kompatibel</string>
   <string name="install_failed_invalid_apk">Paket ist offenbar beschädigt</string>
   <string name="install_failed_msg">%1$s wurde nicht auf Ihrem Telefon installiert</string>
+  <string name="install_failed_msg_tablet">%1$s wurde nicht auf Ihrem Gerät installiert</string>
   <string name="install_failed_system_incompatible">Diese App ist nicht mit MIUI kompatibel</string>
   <string name="install_finished_notification_summary">Tippen, um Speicherplatz freizugeben</string>
   <string name="install_finished_notification_title">%1$s erfolgreich installiert. Sie können %2$s an Speicherplatz freigeben.</string>
@@ -464,6 +468,7 @@ Alternativ können Sie den Lite-Modus ausschalten und es erneut versuchen."</str
  <li>Wenn eine neuere App-Version in unserem Markt verfügbar ist.</li>
  <li>Wenn das Installationspaket aus einer unbekannten Quelle stammt.</li>"</string>
   <string name="settings_warning_dialog_msg">Ihr Telefon ist anfällig für Sicherheitsrisiken. Sie werden nicht aufgefordert, sichere App-Versionen zu installieren, wenn Sie diese Funktion ausschalten. Trotzdem ausschalten?</string>
+  <string name="settings_warning_dialog_msg_tablet">Ihr Gerät ist anfällig für Sicherheitsrisiken. Sie werden nicht aufgefordert, sichere App-Versionen zu installieren, wenn Sie diese Funktion deaktivieren. Trotzdem ausschalten?</string>
   <string name="settings_warning_dialog_title">Achtung</string>
   <string name="solar_term_autumn_begins">Herbstanfang</string>
   <string name="solar_term_autumn_equinox">Herbst-Tagundnachtgleiche</string>
@@ -574,6 +579,7 @@ Alternativ können Sie den Lite-Modus ausschalten und es erneut versuchen."</str
   <string name="untrusted_external_source_always_click">Immer erlauben</string>
   <string name="untrusted_external_source_title">\"%1$s\" erlauben Apps zu installieren?</string>
   <string name="untrusted_external_source_warning">Zu Ihrer Sicherheit darf Ihr Telefon keine unbekannten Apps von dieser Quelle installieren.</string>
+  <string name="untrusted_external_source_warning_summary_tablet">Ihr Gerät und Ihre persönlichen Daten sind anfällig für Angriffe durch die aus unbekannten Quellen installierten Apps. Indem Sie die Installation von Apps aus dieser Quelle zulassen, erklären Sie sich damit einverstanden, die Verantwortung für jegliche Schäden oder Datenverluste zu übernehmen, die während der Verwendung dieser Apps auftreten können.</string>
   <string name="untrusted_external_source_warning_summary">Ihr Gerät und Ihre persönlichen Daten sind anfällig für Angriffe durch installierte Apps aus unbekannten Quellen. Indem Sie die Installation von Apps aus dieser Quelle zulassen, akzeptieren Sie die Verantwortung für jegliche Schäden oder Datenverluste, die während der Nutzung dieser Apps auftreten können.</string>
   <string name="user_is_not_allowed_dlg_text">Aktueller Benutzer darf diese Deinstallation nicht durchführen.</string>
   <string name="user_is_not_allowed_dlg_title">Nicht zulässig</string>
