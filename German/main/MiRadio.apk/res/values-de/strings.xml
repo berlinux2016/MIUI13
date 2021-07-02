@@ -69,7 +69,7 @@
   <string name="account_user_name">Spitzname</string>
   <string name="account_user_name_dialog_title">Benutzername eingeben</string>
   <string name="account_user_phone">Wiederherstellungstelefonnummer</string>
-  <string name="action_add_phone">Telefonnummer hinzufügen</string>
+  <string name="action_add_phone">Rufnummer hinzufügen</string>
   <string name="action_item_add">Zur Wiedergabeliste hinzufügen</string>
   <string name="action_item_add_song">Zur Wiedergabeliste hinzufügen</string>
   <string name="action_item_add_to_current_playlist">Warteschlange</string>
@@ -91,7 +91,7 @@
   <string name="action_item_show_album">Album: %s</string>
   <string name="action_item_show_artist">Künstler: %s</string>
   <string name="action_settings">Einstellungen</string>
-  <string name="action_update_phone">Telefonnummer ändern</string>
+  <string name="action_update_phone">Rufnummer ändern</string>
   <string name="actionbar_button_up_description">Zurück</string>
   <string name="activate_email_notice">Aktivieren Sie Ihr Konto innerhalb von 24 Stunden</string>
   <string name="activity_not_found_notice">App nicht gefunden</string>
@@ -222,10 +222,10 @@
   <string name="comment_trend_title">Wunderbarer Kommentar</string>
   <string name="confirm">OK</string>
   <string name="confirm_activate_email">Verifiziert</string>
-  <string name="confirm_bundled_phone_dialog_title">Zugehörige Telefonnummer bestätigen</string>
+  <string name="confirm_bundled_phone_dialog_title">Zugehörige Rufnummer bestätigen</string>
   <string name="confirm_delete_comment">Diesen Kommentar löschen?</string>
   <string name="confirm_new_pwd">Neues Passwort bestätigen</string>
-  <string name="confirm_unbundled_phone_dialog_message">Diese Telefonnummer war mit dem Mi-Konto %2$s auf %1$s verbunden. Sie wird nicht mehr mit Mi-Konto %3$s verbunden sein, wenn Sie fortfahren. Fortfahren?</string>
+  <string name="confirm_unbundled_phone_dialog_message">Diese Rufnummer war mit dem Mi-Konto %2$s auf %1$s verbunden. Sie wird nicht mehr mit Mi-Konto %3$s verbunden sein, wenn Sie fortfahren. Fortfahren?</string>
   <string name="connecting_apk">Verbinden…</string>
   <string name="context_menu_item_delete">Löschen</string>
   <string name="context_menu_item_edit">Ändern</string>
@@ -416,11 +416,11 @@ Diesen Code bitte an den Techniker senden."</string>
   <string name="error_dup_binded_email">Diese E-Mail-Adresse ist bereits mit einem anderen Mi-Konto verknüpft.</string>
   <string name="error_invalid_bind_address">Die eingegebene E-Mail-Adresse ist ungültig</string>
   <string name="evening">Nachmittag</string>
-  <string name="exceed_binded_phone_times_notice">Diese Telefonnummer ist bereits mit einem anderen Mi-Konto verknüpft.</string>
+  <string name="exceed_binded_phone_times_notice">Diese Rufnummer ist bereits mit einem anderen Mi-Konto verknüpft.</string>
   <string name="exit_fm">Beenden</string>
   <string name="expired">Abgelaufen</string>
   <string name="fail_to_play">Titel kann nicht abgespielt werden</string>
-  <string name="failed_dup_secure_phone_number">Diese Telefonnummer ist bereits mit einem anderen Mi-Konto verknüpft.</string>
+  <string name="failed_dup_secure_phone_number">Diese Rufnummer ist bereits mit einem anderen Mi-Konto verknüpft.</string>
   <string name="failure_no_network">Verbindung prüfen und erneut versuchen.</string>
   <string name="favor_list">Favoriten</string>
   <string name="favorite_canceled">Aus Favoriten entfernt</string>
@@ -499,7 +499,7 @@ Diesen Code bitte an den Techniker senden."</string>
   <string name="garbage_cleanup">Bereinigung</string>
   <string name="get_back_pwd">Passwort zurücksetzen</string>
   <string name="get_ph_ticket">Code erhalten</string>
-  <string name="get_phone_bind_exceed_limit">Sie können bis zu 3 Mi-Konten mit einer Telefonnummer verknüpfen. Neue Konten können nicht hinzugefügt werden.</string>
+  <string name="get_phone_bind_exceed_limit">Sie können bis zu 3 Mi-Konten mit einer Rufnummer verknüpfen. Neue Konten können nicht hinzugefügt werden.</string>
   <string name="get_phone_verifycode_exceed_limit">An diese Nummer wurden zu viele Verifizierungscodes gesendet. 24 Stunden warten und erneut versuchen.</string>
   <string name="global_search_app_name">Musik</string>
   <string name="global_search_description_entry">Musik genießen</string>
@@ -752,7 +752,7 @@ Diesen Code bitte an den Techniker senden."</string>
   <string name="no_local_songs_selected">Titel kann nicht gesendet werden, weil er nicht heruntergeladen wurde</string>
   <string name="no_local_source_find">Titel nicht gefunden</string>
   <string name="no_online_song_selected">Kein titel augewählt</string>
-  <string name="no_phone">Keine Telefonnummer</string>
+  <string name="no_phone">Keine Rufnummer</string>
   <string name="no_results_return">Keine Suchergebnisse</string>
   <string name="no_scanned_songs">Leer</string>
   <string name="no_song_downloaded">Keine Verbindung zum Server</string>
@@ -831,14 +831,14 @@ Diesen Code bitte an den Techniker senden."</string>
   <string name="passport_error_email">Die eingegebene E-Mail-Adresse ist ungültig</string>
   <string name="passport_error_empty_captcha_code">Captcha eingeben</string>
   <string name="passport_error_empty_email">E-Mail-Adresse eingeben</string>
-  <string name="passport_error_empty_phone_num">Telefonnummer eingeben</string>
+  <string name="passport_error_empty_phone_num">Rufnummer eingeben</string>
   <string name="passport_error_empty_pwd">Passwort darf nicht leer sein</string>
   <string name="passport_error_empty_vcode">Verifikationscode eingeben</string>
   <string name="passport_error_empty_voice_code">Captcha eingeben</string>
   <string name="passport_error_illegal_pwd">Passwort ungültig</string>
   <string name="passport_error_network">Netzwerkverbindung nicht möglich</string>
   <string name="passport_error_no_password_user">Sie haben das Passwort noch nicht festgelegt. Per SMS anmelden.</string>
-  <string name="passport_error_phone_error">Ungültige Telefonnummer</string>
+  <string name="passport_error_phone_error">Ungültige Rufnummer</string>
   <string name="passport_error_server">Serverfehler</string>
   <string name="passport_error_unknown">Unbekannter Fehler</string>
   <string name="passport_error_user_agreement_error">Erst den allgemeinen Geschäftsbedingungen zustimmen</string>
@@ -849,7 +849,7 @@ Diesen Code bitte an den Techniker senden."</string>
   <string name="passport_identification_expired">Verifikationcode abgelaufen. Neu beginnen.</string>
   <string name="passport_input_captcha_hint">Code eingeben</string>
   <string name="passport_input_password_hint">Passwort eingeben</string>
-  <string name="passport_input_phone_hint">Telefonnummer eingeben</string>
+  <string name="passport_input_phone_hint">Rufnummer eingeben</string>
   <string name="passport_input_vcode_hint">Verifikationscode eingeben</string>
   <string name="passport_input_voice_captcha_hint">Sprachverifikationscode eingeben</string>
   <string name="passport_input_voice_hint">Sprachcode eingeben</string>
@@ -876,7 +876,7 @@ Diesen Code bitte an den Techniker senden."</string>
   <string name="passport_send_too_many_sms">Zu viele Verifizierungscodes wurden an diese Nummer gesendet. 24 Stunden warten und erneut versuchen.</string>
   <string name="passport_sending_vcode">Code senden…</string>
   <string name="passport_set_password">Passwort festlegen</string>
-  <string name="passport_set_password_no_phone_msg">Fügen Sie Ihre Telefonnummer hinzu, um Ihr Konto zu schützen.</string>
+  <string name="passport_set_password_no_phone_msg">Fügen Sie Ihre Rufnummer hinzu, um Ihr Konto zu schützen.</string>
   <string name="passport_sign_in">Anmelden</string>
   <string name="passport_sign_in_or_sign_up">Anmelden/Konto erstellen</string>
   <string name="passport_sms_phone_intro">Bestätigungscode wurde bereits an %1$s gesendet</string>
@@ -903,7 +903,7 @@ Diesen Code bitte an den Techniker senden."</string>
   <string name="passport_verify">Verifizieren</string>
   <string name="passport_wechat_not_install">WeChat ist nicht installiert</string>
   <string name="passport_wrong_captcha">Der eingegeben Code ist falsch</string>
-  <string name="passport_wrong_phone_number_format">Das Format der eingegebenen Telefonnummer ist ungültig</string>
+  <string name="passport_wrong_phone_number_format">Das Format der eingegebenen Rufnummer ist ungültig</string>
   <string name="passport_wrong_vcode">Der eingegeben Code ist falsch</string>
   <string name="passport_wrong_voice">Der eingegeben Code ist falsch</string>
   <string name="password_toggle_content_description">Passwort anzeigen</string>
@@ -921,10 +921,10 @@ Diesen Code bitte an den Techniker senden."</string>
   <string name="pending_apk">Ausstehend…</string>
   <string name="permission_runtime_perm_desc_location">Für Zugang zu lokalen Radiosendern</string>
   <string name="personal_radio_favorite">Favorisiert, ähnlichen Titel empfehlen</string>
-  <string name="phone_bind_too_many">Dieses Telefon wurde in kurzer Zeit mit mehreren Mi Konten verknüpft. Versuchen Sie eine andere Telefonnummer.</string>
-  <string name="phone_hint">Telefonnummer</string>
-  <string name="phone_num_use_for">Telefonnummer wird verwendet für:</string>
-  <string name="phone_number">Telefonnummer</string>
+  <string name="phone_bind_too_many">Dieses Telefon wurde in kurzer Zeit mit mehreren Mi Konten verknüpft. Versuchen Sie eine andere Rufnummer.</string>
+  <string name="phone_hint">Rufnummer</string>
+  <string name="phone_num_use_for">Rufnummer wird verwendet für:</string>
+  <string name="phone_number">Rufnummer</string>
   <string name="photoPickerNotFoundText">Keine Fotos verfügbar</string>
   <string name="play_Titel_continue">Wiedergabe fortsetzen</string>
   <string name="play_all"><Data>Alle abspielen &lt;font color=#999999>(%1$d)&lt;/font></Data></string>

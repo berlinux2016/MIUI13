@@ -585,7 +585,7 @@ benachrichtigungen erlauben"</string>
   <string name="apn_new">Neuer APN</string>
   <string name="apn_not_set">Nicht festgelegt</string>
   <string name="apn_password">Passwort</string>
-  <string name="apn_ppp_number">APN-PPP-Telefonnummer</string>
+  <string name="apn_ppp_number">APN-PPP-Rufnummer</string>
   <string name="apn_protocol">APN-Protokoll</string>
   <string name="apn_roaming_protocol">APN-Roamingprotokoll</string>
   <string name="apn_save">Speichern?</string>
@@ -2578,7 +2578,7 @@ Diese Einstellung betrifft alle Benutzer auf diesem Telefon."</string>
   <string name="device_screen_usage">Bildschirmzeit seit Vollladung</string>
   <string name="device_sd_memory">Externer Speicher:</string>
   <string name="device_share_loading">Image erstellen</string>
-  <string name="device_status_summary">Telefonnummer, Signal, Akkustatus, Netzwerkstatus etc.</string>
+  <string name="device_status_summary">Rufnummer, Signal, Akkustatus, Netzwerkstatus etc.</string>
   <string name="device_theme">Geräte-Theme</string>
   <string name="device_total_memory">"Gesamter Speicher "</string>
   <string name="device_usage_list_summary">Gerätenutzung seit Vollladung</string>
@@ -3485,7 +3485,7 @@ Es schien keine Pferde oder andere Tiere zu geben; die Männer beförderten Sach
   <string name="free_wifi_manage_summary">Tippen, um %1$s anzuzeigen</string>
   <string name="free_wifi_speed_title">Langsame Verbindung?</string>
   <string name="free_wifi_summary">Tippen zum Verbinden mit %1$s</string>
-  <string name="free_wifi_user_agreement">Wenn Sie WiWide verwenden, um sich mit einem Netzwerk zu verbinden, wird Ihre Telefonnummer verwendet, um Ihre Identität zu prüfen</string>
+  <string name="free_wifi_user_agreement">Wenn Sie WiWide verwenden, um sich mit einem Netzwerk zu verbinden, wird Ihre Rufnummer verwendet, um Ihre Identität zu prüfen</string>
   <string name="free_wifi_user_agreement_allow">Zustimmen</string>
   <string name="free_wifi_user_agreement_title">Nutzungsbedingung</string>
   <string name="free_xiaomi_wifi_connect_summary">Tippen, um mit %1$s zu verbinden</string>
@@ -3642,7 +3642,8 @@ Wenn Sie automatische Sicherungen einschalten, werden Geräte- und App-Daten per
   <string name="gxzw_anim_pulse">Pulsieren</string>
   <string name="gxzw_anim_rhythm">Rhythmus</string>
   <string name="gxzw_anim_star">Sternenlicht</string>
-  <string name="gxzw_anim_title">Animation Fingerabdruck</string>
+  <string name="gxzw_anim_title">Fingerabdruck-Animation</string>
+  <string name="gxzw_anim_unlock_effect">%s Fingerabdruck-Animation</string>
   <string name="gxzw_aod_show_summary">Heben Sie das Gerät an oder tippen Sie auf den Bildschirm, damit das Fingerabdrucksymbol erscheint. Diese Funktion erhöht den Stromverbrauch des Systems.</string>
   <string name="gxzw_aod_show_tittle">Fingerabdrucksymbol bei Bildschirm aus</string>
   <string name="gxzw_dialog_message">Um den Bildschirm-Fingerabdrucksensor normal nutzen zu können, verwenden Sie keine Schutzfolie. Wenn Sie der Meinung sind, dass eine Schutzfolie immer noch notwendig ist, wählen Sie unter den autorisierten kompatiblen Optionen.</string>
@@ -4017,6 +4018,10 @@ Xiaomi Cloud öffnen und Elemente von dort aus wiederherstellen."</string>
   <string name="item_system_app">System-Apps</string>
   <string name="join_many_items_last">%1$s und %2$s</string>
   <string name="join_two_items">%1$s und %2$s</string>
+  <string name="kddi_nfc_disabled_summary">Nicht verfügbar, da NFC/Osaifu-keitai aus ist</string>
+  <string name="kddi_nfc_quick_toggle_summary">NFC/Osaifu-keitai-Funktion aktivieren</string>
+  <string name="kddi_nfc_secure_settings_title">Sperren, während der Bildschirm gesperrt ist</string>
+  <string name="kddi_nfc_secure_toggle_summary">NFC/Osaifu-keitai-Funktion zulassen, während der Bildschirm entsperrt ist</string>
   <string name="keep_legacy_fingerprint">Behalten</string>
   <string name="keep_screen_on">Bildschirm nicht sperren</string>
   <string name="keep_screen_on_summary">Bildschirm bleibt während des Ladevorgangs an</string>
@@ -4641,6 +4646,7 @@ Diese PIN muss so viele Ziffern enthalten wie das erste Profil."</string>
   <string name="lte_ram_dump_off">LTE-RAM-Dump ausschalten</string>
   <string name="lte_ram_dump_on">LTE-RAM-Dump einschalten</string>
   <string name="macaddr_label">MAC-Adresse:</string>
+  <string name="magic_list_empty_text">Derzeit keine mit dieser Funktion kompatiblen Apps</string>
   <string name="magic_window_name">Parallelfenster</string>
   <string name="main_netcheck_summary">Verbindung bei Netzwerkproblemen testen</string>
   <string name="main_running_process_description">Hauptprozess wird verwendet</string>
@@ -6492,7 +6498,7 @@ UT Interface: %5$s"</string>
   <string name="radio_info_message_waiting_label">Nachricht liegt vor:</string>
   <string name="radio_info_neighboring_location_label">Benachbarte CID:</string>
   <string name="radio_info_network_type_label">Netzwerktyp:</string>
-  <string name="radio_info_phone_number_label">Telefonnummer:</string>
+  <string name="radio_info_phone_number_label">Rufnummer:</string>
   <string name="radio_info_phy_chan_config">LTE Physikalische Kanalkonfiguration:</string>
   <string name="radio_info_ppp_received_label">PPP empfangen:</string>
   <string name="radio_info_ppp_resets_label">Anzahl der PPP-Zurücksetzungen seit dem Start:</string>
@@ -6593,6 +6599,7 @@ UT Interface: %5$s"</string>
   <string name="reset_network_final_desc">Alle Netzwerkeinstellungen zurücksetzen? Dies kann einige Sekunden dauern. Sie können diese Aktion nicht rückgängig machen.</string>
   <string name="reset_network_final_desc_esim">Alle Netzwerkeinstellungen zurücksetzen und heruntergeladene SIMs löschen? Sie können diese Aktion nicht rückgängig machen.</string>
   <string name="reset_network_title">WLAN, mobile Netzwerke &amp; Bluetooth zurücksetzen</string>
+  <string name="reset_network_title_noSim">WLAN und Bluetooth zurücksetzen</string>
   <string name="reset_network_wifi">WLAN</string>
   <string name="reset_remove_data_hint">Alle oben aufgeführten Punkte werden dauerhaft gelöscht. Sichern Sie alle wichtigen Elemente auf Ihrem Computer oder in der Xiaomi-Cloud, bevor Sie fortfahren.</string>
   <string name="reset_second_space_passwd">Zweitprofilpasswort zurücksetzen</string>
@@ -7419,7 +7426,7 @@ Hinweis: Sie können Ihren Fingerabdruck nicht verwenden, um dieses Gerät zu en
   <string name="settings_manual_activity_unavailable">Beim Laden des Handbuchs ist ein Problem aufgetreten</string>
   <string name="settings_notify_need_backup">Sichern Sie Ihre Einstellungen in Xiaomi Cloud, um nach dem Telefonwechsel auf sie zugreifen zu können.</string>
   <string name="settings_notify_new_version">Aktualisierung verfügbar. Tippen Sie hier, um Details anzuzeigen.</string>
-  <string name="settings_notify_phone_recycled">Ihre Telefonnummer wurde bereits wiederverwendet. Tippen Sie, um eine weitere Telefonnummer hinzuzufügen.</string>
+  <string name="settings_notify_phone_recycled">Ihre Rufnummer wurde bereits wiederverwendet. Tippen Sie, um eine weitere Rufnummer hinzuzufügen.</string>
   <string name="settings_panel_title">Einstellungsbereich</string>
   <string name="settings_safetylegal_activity_loading">Laden…</string>
   <string name="settings_safetylegal_activity_title">Sicherheitsinformationen</string>
@@ -7880,9 +7887,9 @@ Dies wird durch vertrauenswürdige Anmeldedaten ermöglicht, die auf Ihrem Gerä
   <string name="status_invalid_password">Ungültiges Passwort, erneut versuchen</string>
   <string name="status_latest_area_info">Betreiberinfo</string>
   <string name="status_network_type">Mobilfunktyp</string>
-  <string name="status_number">Meine Telefonnummer</string>
-  <string name="status_number_sim_slot">Telefonnummer (SIM-Slot %1$d)</string>
-  <string name="status_number_sim_status">Telefonnummer der SIM</string>
+  <string name="status_number">Meine Rufnummer</string>
+  <string name="status_number_sim_slot">Rufnummer (SIM-Slot %1$d)</string>
+  <string name="status_number_sim_status">Rufnummer der SIM</string>
   <string name="status_operator">Netzwerk</string>
   <string name="status_prl_version">PRL-Version</string>
   <string name="status_serial_number">Seriennummer</string>
@@ -8140,7 +8147,7 @@ Auf ^2 gespeicherte Apps könnten nicht richtig funktionieren, und Datenübertra
   <string name="suggestion_additional_fingerprints">Weiteren Fingerabdruck hinzufügen</string>
   <string name="suggestion_additional_fingerprints_summary">Mit anderem Finger entsperren</string>
   <string name="suggestion_button_close">Schließen</string>
-  <string name="suggestion_for_phone_recycled">Andere Telefonnummer hinzufügen</string>
+  <string name="suggestion_for_phone_recycled">Andere Rufnummer hinzufügen</string>
   <string name="suggestion_remove">Entfernen</string>
   <string name="suggestions_more_title">+%1$d mehr</string>
   <string name="suggestions_title">Vorschläge</string>
@@ -9200,7 +9207,7 @@ Jeder Benutzer kann aktualisierte App-Berechtigungen für alle anderen Benutzer 
   <string name="video_tool_box_title">Video-Toolbox</string>
   <string name="view_password_description">Passwort anzeigen</string>
   <string name="view_saved_network">Zur Ansicht das gespeicherte Netzwerk wählen</string>
-  <string name="vip_list">Über Anrufe benachrichtigen</string>
+  <string name="vip_list">Bei Anruf benachrichtigen</string>
   <string name="virtual_keyboard_category">Virtuelle Tastatur</string>
   <string name="virtual_keyboards_for_work_title">Virtuelle Tastatur für die Arbeit</string>
   <string name="virtual_sim_category_title">Virtuelle SIM</string>
@@ -9260,6 +9267,9 @@ Jeder Benutzer kann aktualisierte App-Berechtigungen für alle anderen Benutzer 
   <string name="voice_service_preference_section_title">Spracheingabedienste</string>
   <string name="voicemail_number_not_set">&lt;Nicht eingestellt</string>
   <string name="voip_assistant_settings">VoIP-Assistent</string>
+  <string name="voip_assistant_settings_off">Aus</string>
+  <string name="voip_assistant_settings_on">Ein</string>
+  <string name="voip_assistant_settings_summary">VoIP-Anrufe aufnehmen und Sprachausgabeoptimierung verwenden</string>
   <string name="volte_5G_limited_text">"Dies schaltet auch Ihre 5G-Verbindung aus.
 Während eines Sprachanrufs können Sie das Internet nicht nutzen und einige Apps funktionieren eventuell nicht."</string>
   <string name="volte_5G_limited_title">VoLTE ausschalten?</string>
@@ -10339,7 +10349,7 @@ Delta Updategröße: %2$s"</string>
   <string name="zen_mode_media_list_first">Medien</string>
   <string name="zen_mode_media_summary">Töne aus Videos, Spielen und anderen Medien</string>
   <string name="zen_mode_messages">Nachrichten</string>
-  <string name="zen_mode_messages_footer">Damit die zulässigen Nachrichten einen Ton abgeben, prüfen Sie, ob Ihr Gerät auf Klingeln, Vibrieren oder stumm geschaltet ist.</string>
+  <string name="zen_mode_messages_footer">Damit die zulässigen Nachrichten einen Ton abgeben, prüfen Sie, ob Ihr Gerät auf Klingeln, Vibrieren oder stummgeschaltet ist.</string>
   <string name="zen_mode_messages_header">Nachrichten, die unterbrechen können</string>
   <string name="zen_mode_messages_list">Nachrichten</string>
   <string name="zen_mode_messages_title">Nachrichten erlauben</string>

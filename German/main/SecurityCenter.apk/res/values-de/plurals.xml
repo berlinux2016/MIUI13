@@ -57,6 +57,18 @@
     <item quantity="other">%1$s | %2$dx verweigert</item>
     <item quantity="one">%1$s | %2$dx verweigert</item>
   </plurals>
+  <plurals name="app_behavior_desc_duration_usage">
+    <item quantity="other">%3$d-mal zwischen %1$s und %2$s erlaubt</item>
+    <item quantity="one">%3$d-mal zwischen %1$s und %2$s erlaubt</item>
+  </plurals>
+  <plurals name="app_behavior_desc_duration_usage_time">
+    <item quantity="other">Für %1$d Minuten genutzt</item>
+    <item quantity="one">Für %1$d Minute genutzt</item>
+  </plurals>
+  <plurals name="app_behavior_desc_duration_usage_time_end">
+    <item quantity="other">Für %1$d Minuten bis %2$s genutzt</item>
+    <item quantity="one">Für %1$d Minute bis %2$s genutzt</item>
+  </plurals>
   <plurals name="app_behavior_desc_virtual">
     <item quantity="other">von %1$s - %2$s | %3$d leere Nachrichten zurückgesendet</item>
     <item quantity="one">von %1$s - %2$s | %3$d leere Nachrichten zurückgesendet</item>
@@ -245,10 +257,6 @@ Beim Einschalten mobiler Daten kann Ihr Mobilfunkanbieter zusätzliche Kosten be
     <item quantity="other">%d KI-Aufnahmen in Game Turbo gespeichert</item>
     <item quantity="one">%d KI-Aufnahme in Game Turbo gespeichert</item>
   </plurals>
-  <plurals name="intl_perm_privacy_control_message_count">
-    <item quantity="other">Sie können %d Elemente schützen</item>
-    <item quantity="one">Sie können %d Element schützen</item>
-  </plurals>
   <plurals name="gb_record_time_title">
     <item quantity="other">%d Sek</item>
     <item quantity="one">%d Sek</item>
@@ -286,6 +294,14 @@ Sie können jetzt eine kostenlose %d-Tag-Testversion erhalten!"</item>
   <plurals name="gb_voice_changer_user_tips_info">
     <item quantity="other">Kostenlose %d-Tage-Testversion erhalten</item>
     <item quantity="one">Kostenlose %d-Tag-Testversion erhalten</item>
+  </plurals>
+  <plurals name="gtb_brightness_dialog_message">
+    <item quantity="other">Diese Funktion senkt die Bildschirmhelligkeit nach %d Minuten Inaktivität automatisch, um Strom zu sparen. Funktion an lassen?</item>
+    <item quantity="one">Diese Funktion senkt die Bildschirmhelligkeit nach %d Minute Inaktivität automatisch, um Strom zu sparen. Funktion an lassen?</item>
+  </plurals>
+  <plurals name="gtb_setting_item_summary_brightness">
+    <item quantity="other">Bildschirmhelligkeit nach %d Minuten Inaktivität automatisch verringern, um Strom zu sparen</item>
+    <item quantity="one">Bildschirmhelligkeit nach %d Minute Inaktivität automatisch verringern, um Strom zu sparen</item>
   </plurals>
   <plurals name="gtb_spring_festival_colored_egg">
     <item quantity="other">Herzlichen Glückwunsch! Sie haben %s Ostereier freigeschaltet.</item>
@@ -388,6 +404,10 @@ Machen Sie eine Pause!!"</item>
   <plurals name="install_game_count_title">
     <item quantity="other">%d Spiele hinzugefügt</item>
     <item quantity="one">%d Spiel hinzugefügt</item>
+  </plurals>
+  <plurals name="intl_perm_privacy_control_message_count">
+    <item quantity="other">Sie können %d Elemente schützen</item>
+    <item quantity="one">Sie können %d Element schützen</item>
   </plurals>
   <plurals name="keyguard_charging_info_drained_hour_time_format">
     <item quantity="other">%s Stunden</item>

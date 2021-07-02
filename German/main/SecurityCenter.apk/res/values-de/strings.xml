@@ -10,12 +10,16 @@
   <string name="app_behavior_about_setting">Einstellungen</string>
   <string name="app_behavior_dashboard_desc">Aktivität in den letzten %d Stunden</string>
   <string name="app_behavior_dashboard_total_usage_title">Alle Datensätze anzeigen</string>
-  <string name="app_behavior_dashboard_usage">App-Verhalten</string>
+  <string name="app_behavior_dashboard_usage">Verwendete Berechtigung</string>
   <string name="app_behavior_dashboard_usage_list_title">Ansicht nach Berechtigung</string>
   <string name="app_behavior_desc_allowed">Erlaubt</string>
+  <string name="app_behavior_desc_allowed_at">Um %s erlaubt</string>
   <string name="app_behavior_desc_allowed_on_background">Im Hintergrund erlaubt</string>
+  <string name="app_behavior_desc_allowed_on_background_at">Um %s im Hintergrund erlaubt</string>
   <string name="app_behavior_desc_denied">Verweigert</string>
+  <string name="app_behavior_desc_denied_at">Um %s abgelehnt</string>
   <string name="app_behavior_desc_denied_on_background">Im Hintergrund verweigert</string>
+  <string name="app_behavior_desc_denied_on_background_at">Um %s im Hintergrund abgelehnt</string>
   <string name="app_behavior_desc_other_perm_allowed">Letzte Aktivität: %s</string>
   <string name="app_behavior_desc_other_perm_denied">Aktivität in den letzten %d Stunden</string>
   <string name="app_behavior_global_settings_perm_tips">Benachrichtigung in der Statusleiste erhalten, wenn Apps Audio aufzeichnen oder die Kamera verwenden</string>
@@ -53,6 +57,7 @@ freiwillige Erdbebenüberwachung, Nummer %s!"</string>
   <string name="ew_monitor_title">Freiwillige Erdbebenüberwachung</string>
   <string name="ew_monitor_title_spilt">"Freiwillige
 Erdbebenüberwachung"</string>
+  <string name="first_aid_exception_sub_title">Elemente werden beim Scannen ignoriert</string>
   <string name="gb_shoulder_key_light_effect">Farbanimationen</string>
   <string name="gb_shoulder_key_light_effect_color">Farbe</string>
   <string name="gb_shoulder_key_light_effect_subtitle">Farbanimationen werden angezeigt, wenn die Schultertasten aktiviert sind und Sie Spiele spielen</string>
@@ -123,8 +128,8 @@ Erdbebenüberwachung"</string>
   <string name="HIPS_Perm_External_Storage_Desc">Hinzufügen und Löschen von Dateien auf dem externen Gerätespeicher</string>
   <string name="HIPS_Perm_External_Storage_Group">Speicherberechtigungen verwalten</string>
   <string name="HIPS_Perm_External_Storage_Group_Desc">Auswählen, auf welche App-Elemente Sie zugreifen dürfen</string>
-  <string name="HIPS_Perm_PhoneID_Desc">Zugriff auf Telefonnummer, IMEI und IMSI</string>
-  <string name="HIPS_Perm_PhoneID_Desc_Q">Zugriff auf Telefonnummer und Gerätestatus</string>
+  <string name="HIPS_Perm_PhoneID_Desc">Zugriff auf Rufnummer, IMEI und IMSI</string>
+  <string name="HIPS_Perm_PhoneID_Desc_Q">Zugriff auf Rufnummer und Gerätestatus</string>
   <string name="HIPS_Perm_Read_Call_Log_Desc">Anrufliste lesen</string>
   <string name="HIPS_Perm_Read_Contact_Desc">Kontakte lesen</string>
   <string name="HIPS_Perm_Read_SMS_Desc">SMS lesen</string>
@@ -409,8 +414,8 @@ Erdbebenüberwachung"</string>
   <string name="app_behavior_perm_change_tip_foreground">Diese Aktion (%1s) ist nun erlaubt, während Sie die App benutzen</string>
   <string name="app_behavior_perm_change_tip_virtual">\"%1s\" wird in \"Leere Nachrichten zurücksenden\" geändert</string>
   <string name="app_behavior_perm_change_toast">"%1s geändert in "</string>
-  <string name="app_behavior_phonenum">%1s versuchte auf Ihre Telefonnummer zuzugreifen</string>
-  <string name="app_behavior_phonenum_single">Diese App griff auf Ihre Telefonnummer zu</string>
+  <string name="app_behavior_phonenum">%1s versuchte auf Ihre Rufnummer zuzugreifen</string>
+  <string name="app_behavior_phonenum_single">Diese App griff auf Ihre Rufnummer zu</string>
   <string name="app_behavior_phonestate">%1s versuchte auf Geräteinformationen zuzugreifen</string>
   <string name="app_behavior_phonestate_single">Diese App griff auf Geräteinformationen zu</string>
   <string name="app_behavior_privacy_manager">Sensible Aktionsbenachrichtigungen</string>
@@ -1199,7 +1204,7 @@ Alle Daten auf Ihrem Gerät werden evtl. gelöscht und Ihr Sperrbildschirmpasswo
   <string name="dlg_keyword_ok">Speichern</string>
   <string name="dlg_message_not_open_stranger_identify">Um diese Funktion einzuschalten, gehen Sie zu Einstellungen &gt; Telefon</string>
   <string name="dlg_move_to_white">Zu Ausnahmen hinzufügen</string>
-  <string name="dlg_no_block">Diese Telefonnummer freigeben? Sie wird zu Ausnahmen hinzugefügt, aber zuvor blockierte Elemente werden nicht in der Anrufliste angezeigt.</string>
+  <string name="dlg_no_block">Diese Rufnummer freigeben? Sie wird zu Ausnahmen hinzugefügt, aber zuvor blockierte Elemente werden nicht in der Anrufliste angezeigt.</string>
   <string name="dlg_no_block_ok">Freigeben</string>
   <string name="dlg_not_block_call">Ausgewählte Nummern freigeben? Sie werden zu Ausnahmen hinzugefügt, aber zuvor blockierte Elemente werden nicht in der Anrufliste angezeigt.</string>
   <string name="dlg_not_block_sms">Ausgewählte Nummern freigeben? Sie werden zu Ausnahmen hinzugefügt, aber zuvor blockierte Elemente werden nicht im SMS-Eingang angezeigt.</string>
@@ -1979,6 +1984,8 @@ Spielsitzungen aufzeichnen"</string>
   <string name="gs_show_way_vertical">Vertikal</string>
   <string name="gs_sign_notification">Erinnern, sich täglich um 20 Uhr anzumelden</string>
   <string name="gs_slip_gamebox_detail">Verwenden Sie den Slider oder wischen Sie vom oberen Bildschirmrand, damit das Tastenfeld angezeigt wird.</string>
+  <string name="gtb_brightness_dialog_right_btn">Weitermachen</string>
+  <string name="gtb_brightness_dialog_sub_message">*Sie können diese Funktion in den Einstellungen ein- und ausschalten.</string>
   <string name="gtb_dialog_btn_close">Ausschalten</string>
   <string name="gtb_dialog_btn_open">Einschalten</string>
   <string name="gtb_dialog_hint_smart_5g">Sie können diese Funktion unter Game Turbo &gt; Einstellungen ein- und ausschalten.</string>
@@ -1988,6 +1995,7 @@ Spielsitzungen aufzeichnen"</string>
   <string name="gtb_exit_game_to_home">Zurück zum Startbildschirm</string>
   <string name="gtb_setting_item_summary_smart_5g">Immer wenn Game Turbo ein 5G-Netz erkennt, kann es Ihr Gerät mit dem besten verfügbaren Netz verbinden, um Netzverzögerungen zu reduzieren.</string>
   <string name="gtb_setting_item_summary_smart_wlan_speed" formatted="false">Verbindungsgeschwindigkeit um 10%%-20%% bei Verbindung mit Mi-/Redmi-Routern erhöhen</string>
+  <string name="gtb_setting_item_title_brightness">Bildschirmhelligkeit automatisch verringern</string>
   <string name="gtb_setting_item_title_smart_wlan_speed">Mi WLAN Speed Boost</string>
   <string name="gtb_spring_festival_back_game">Zurück zum Spiel</string>
   <string name="gtb_spring_festival_egg_obtain_fail">Netzwerkverbindung nicht möglich</string>
@@ -2234,7 +2242,7 @@ Anbieters warten"</string>
   <string name="manual_input_free_traffic">Datenlimit festlegen</string>
   <string name="manual_input_traffic">Datennutzung eingeben</string>
   <string name="manual_item_white_list_summary">Ausgewählte Apps werden nicht optimiert</string>
-  <string name="manual_item_white_list_title">Ausnahmen</string>
+  <string name="manual_item_white_list_title">Ausnahmen scannen</string>
   <string name="mark_agent">Gemeldete Agenturen sperren</string>
   <string name="mark_agent_block">Als Agentur gemeldet</string>
   <string name="mark_agent_block_large">Agenturen</string>
@@ -2784,6 +2792,7 @@ Stromverbrauch"</string>
   <string name="pc_battery_history_total_consumption_title">Gesamte Leistungsaufnahme</string>
   <string name="pc_battery_history_usetime_title">Aktiv</string>
   <string name="pc_hidemode_normal">Ausgeglichen</string>
+  <string name="pc_hidemode_normal_title">Ausgeglichen</string>
   <string name="pc_hidemode_performance">Leistung</string>
   <string name="pc_hidemode_performance_title">Leistungsmodus</string>
   <string name="pc_hidemode_power_save">Strom sparen</string>
@@ -2881,7 +2890,7 @@ Stromverbrauch"</string>
   <string name="permission_instruction_read_clipboard">Diese Berechtigung erlaubt Apps, alle von Ihnen kopierten Inhalte zu lesen, die private Informationen enthalten können (z. B. Kontodaten, Bankkartennummern und Passwörter).</string>
   <string name="permission_instruction_read_contacts">Diese Berechtigung erlaubt Apps den Zugriff auf die auf Ihrem Gerät gespeicherten Kontaktinformationen. Diese Informationen können die Häufigkeit Ihrer Kommunikation mit bestimmten Kontakten über Anrufe, E-Mails und andere Methoden enthalten. Diese Berechtigung erlaubt Apps auch, Kontakte zu speichern. Bösartige Apps können diese Berechtigung verwenden, um Kontakte ohne Ihre Zustimmung freizugeben.</string>
   <string name="permission_instruction_read_notify_sms">Diese Berechtigung erlaubt Apps, auf Ihrem Gerät oder Ihrer SIM-Karte gespeicherte Benachrichtigungstexte zu lesen.</string>
-  <string name="permission_instruction_read_phone_state">Diese Berechtigung erlaubt Apps den Zugriff auf Ihre Telefonnummer, IMEI, IMSI und andere Gerätekennungen. Apps verwenden diese Berechtigung normalerweise, um festzustellen, ob Ihre Anrufe weitergeleitet werden. Wenn Sie eine virtuelle Geräte-ID verwenden, können Apps nicht auf Ihre tatsächlichen Gerätekennungen zugreifen.</string>
+  <string name="permission_instruction_read_phone_state">Diese Berechtigung erlaubt Apps den Zugriff auf Ihre Rufnummer, IMEI, IMSI und andere Gerätekennungen. Apps verwenden diese Berechtigung normalerweise, um festzustellen, ob Ihre Anrufe weitergeleitet werden. Wenn Sie eine virtuelle Geräte-ID verwenden, können Apps nicht auf Ihre tatsächlichen Gerätekennungen zugreifen.</string>
   <string name="permission_instruction_read_sms">Diese Berechtigung erlaubt Apps, alle auf Ihrem Gerät oder Ihrer SIM-Karte gespeicherten Textnachrichten zu lesen. Solche Nachrichten können Passwörter, Bankkontodaten und andere persönliche Informationen enthalten.</string>
   <string name="permission_instruction_read_write_calendar">Diese Berechtigung erlaubt Apps den Zugriff auf Ihren Kalender sowie das Lesen, Hinzufügen, Entfernen, Bearbeiten, Freigeben und Speichern von Kalendereinträgen. Bösartige Anps können diese Berechtigung verwenden, um Nachrichten in Ihrem Namen zu senden oder Kalendereinträge ohne Ihre Zustimmung zu bearbeiten.</string>
   <string name="permission_instruction_receive_mms">Diese Berechtigung erlaubt Apps, alle Multimedia-Nachrichten zu lesen, die auf Ihrem Gerät oder Ihrer SIM-Karte gespeichert sind. Solche Nachrichten können Passwörter, Bankkontodaten und andere persönliche Informationen enthalten.</string>
@@ -3439,8 +3448,8 @@ Diese Funktion wird bei System-Apps nicht unterstützt."</string>
   <string name="privacy_pop_location">Standortzugriff heute</string>
   <string name="privacy_pop_record">Audioaufzeichnung heute</string>
   <string name="privacy_pop_storage">Speicherzugriff heute</string>
-  <string name="privacy_prompt_tc_sms_report_message">Ihre Telefonnummer und Mobilfunkanbieterdetails werden verschlüsselt und auf den Mi Server hochgeladen, um Ihre Datennutzungsdetails zu aktualisieren.</string>
-  <string name="privacy_prompt_traffic_adjust_message">Wenn Sie mit der Kalibrierung beginnen, verbindet sich MIUI mit dem Netzwerk, kodiert die Daten Ihres Mobilfunkanbieters, Telefonnummer, IMEI und Mi-Konto und lädt diese Elemente auf die Mi Server hoch. Dies geschieht, um die Kalibriervorlage des Mobilfunkanbieters zu erhalten und zu erfahren, ob es möglich ist, Daten an Ihrem Standort zu erwerben.
+  <string name="privacy_prompt_tc_sms_report_message">Ihre Rufnummer und Mobilfunkanbieterdetails werden verschlüsselt und auf den Mi Server hochgeladen, um Ihre Datennutzungsdetails zu aktualisieren.</string>
+  <string name="privacy_prompt_traffic_adjust_message">Wenn Sie mit der Kalibrierung beginnen, verbindet sich MIUI mit dem Netzwerk, kodiert die Daten Ihres Mobilfunkanbieters, Rufnummer, IMEI und Mi-Konto und lädt diese Elemente auf die Mi Server hoch. Dies geschieht, um die Kalibriervorlage des Mobilfunkanbieters zu erhalten und zu erfahren, ob es möglich ist, Daten an Ihrem Standort zu erwerben.
 Während der Kalibrierung sendet MIUI eine Textnachricht an Ihren Mobilfunkanbieter, um die Kalibriervorlage zu erhalten.</string>
   <string name="privacy_prompt_upload">Hochladen</string>
   <string name="privacy_protect_summary">Ihre persönlichen Daten schützen</string>
@@ -3931,7 +3940,7 @@ Während der Kalibrierung sendet MIUI eine Textnachricht an Ihren Mobilfunkanbie
   <string name="st_antispam_bw_adress_add">Gebiet hinzufügen</string>
   <string name="st_antispam_bw_choose_modes">Zu Liste hinzufügen</string>
   <string name="st_antispam_bw_head_add">Vorwahl hinzufügen</string>
-  <string name="st_antispam_bw_man_add">Telefonnummer hinzufügen</string>
+  <string name="st_antispam_bw_man_add">Rufnummer hinzufügen</string>
   <string name="st_antispam_bw_pick_add">Kontakt hinzufügen</string>
   <string name="st_antispam_delete">Löschen</string>
   <string name="st_antispam_des_anti">Sperren</string>
@@ -3977,7 +3986,7 @@ Während der Kalibrierung sendet MIUI eine Textnachricht an Ihren Mobilfunkanbie
   <string name="st_filter_keywords_setting_summary3">Nachrichten von unbekannten Nummern, die Wörter aus dieser Liste enthalten, werden erlaubt</string>
   <string name="st_group_list_management">Sperrliste verwalten</string>
   <string name="st_hint_add_head_number">Vorwahl eingeben</string>
-  <string name="st_hint_add_phonenumber">Telefonnummer eingeben</string>
+  <string name="st_hint_add_phonenumber">Rufnummer eingeben</string>
   <string name="st_hint_operatelist">Anscheinend existiert diese Regel bereits</string>
   <string name="st_message_SMS_AntiSpam">SMS blockieren</string>
   <string name="st_message_SMSpass">SMS erlauben</string>
@@ -4127,7 +4136,7 @@ Formatierung löscht vorhandenen Inhalt auf ^2. Um Inhaltsverlust zu vermeiden, 
   <string name="stranger_call_dialog_add_contacts">Neuer Kontakt</string>
   <string name="stranger_call_dialog_notification_body">Zu Kontakten hinzufügen oder diese Nummer sperren</string>
   <string name="stranger_call_dialog_notification_title_format">Unbekannte Nummer: %s</string>
-  <string name="stranger_call_dialog_subtitle_format">%s ist nicht unter Ihren Kontakten. Sie können diese Telefonnummer zu Ihren Kontakten hinzufügen oder sperren.</string>
+  <string name="stranger_call_dialog_subtitle_format">%s ist nicht unter Ihren Kontakten. Sie können diese Rufnummer zu Ihren Kontakten hinzufügen oder sperren.</string>
   <string name="stranger_call_dialog_title">"Unbekannte Nummer "</string>
   <string name="suggest_app_tolock">Vorschläge</string>
   <string name="suggest_app_tolock_masked">Inhalt ausgeblendet</string>
@@ -4548,7 +4557,7 @@ Wollen Sie es übernehmen?"</string>
   <string name="traffic_setting_fragment_packege_type">Datentarifeinstellungen</string>
   <string name="traffic_setting_fragment_province">Provinz</string>
   <string name="traffic_setting_fragment_send_num">Nummer des Mobilfunkanbieters</string>
-  <string name="traffic_setting_fragment_send_num_tips">Telefonnummer eingeben</string>
+  <string name="traffic_setting_fragment_send_num_tips">Rufnummer eingeben</string>
   <string name="traffic_setting_fragment_sms_content">Nachrichteninhalt</string>
   <string name="traffic_setting_fragment_sms_content_tips">Tippen Sie hier Ihre Nachricht ein</string>
   <string name="traffic_setting_fragment_title">Datennutzungsabfrage</string>

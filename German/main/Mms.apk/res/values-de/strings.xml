@@ -112,7 +112,7 @@
   <string name="batch_deleting_message_progress_message">Löschen…</string>
   <string name="batch_deleting_progress_message">Löschen…</string>
   <string name="block_messaging_entry_title">Blockierte SMS</string>
-  <string name="block_number_message">Diese Telefonnummer wird zur Sperrliste hinzugefügt. Alle Nachrichten, die von dieser Nummer gesendet werden, werden blockiert.</string>
+  <string name="block_number_message">Diese Rufnummer wird zur Sperrliste hinzugefügt. Alle Nachrichten, die von dieser Nummer gesendet werden, werden blockiert.</string>
   <string name="block_support_text">Unterstützt von Antiy.</string>
   <string name="block_tag_message">Alle von %s gesendeten Nachrichten werden blockiert. Möglicherweise können Sie keine Bestätigungscodes oder Rechnungen erhalten, die von diesem Dienst gesendet wurden.</string>
   <string name="bookmark">zu Favoriten hinzufügen</string>
@@ -161,13 +161,13 @@
   <string name="cm_privacy_dialog_tips">"Smart Messaging Services werden von Ihrem Mobilfunkanbieter bereitgestellt. Messaging muss eine Internetverbindung herstellen und auf Ihren Standort zugreifen, um diese Dienste anbieten zu können. Sie müssen die %1s Ihres Betreibers akzeptieren, bevor Sie diese Dienste nutzen können. Einverstanden?"</string>
   <string name="cm_privacy_dialog_title">Achtung</string>
   <string name="cmcc_privacy">China Mobilfunkanbieter Datenschutzerklärung</string>
-  <string name="complain_input_number">Geben Sie Ihre Telefonnummer ein</string>
+  <string name="complain_input_number">Geben Sie Ihre Rufnummer ein</string>
   <string name="complain_jump">Überspringen</string>
   <string name="complain_message_title">Bericht</string>
-  <string name="complain_phone_number">Telefonnummer (optional)</string>
+  <string name="complain_phone_number">Rufnummer (optional)</string>
   <string name="complain_reason">Warum melden Sie diese Nachricht?</string>
   <string name="complain_success">Vielen Dank für Ihr Feedback. Es hilfen Sie uns, Messaging besser zu machen!</string>
-  <string name="complain_tips">Der Inhalt der letzten Nachricht, die Sie melden, wird zusammen mit der von Ihnen angegebenen Telefonnummer auf unsere Server hochgeladen. Unsere Dienstanbieter werden die gemeldete Nachricht prüfen.</string>
+  <string name="complain_tips">Der Inhalt der letzten Nachricht, die Sie melden, wird zusammen mit der von Ihnen angegebenen Rufnummer auf unsere Server hochgeladen. Unsere Dienstanbieter werden die gemeldete Nachricht prüfen.</string>
   <string name="complain_upload">Beschwerde wurde eingereicht.</string>
   <string name="compressing">Bild zu groß, komprimieren…</string>
   <string name="confirm_add_blacklist_dialog_dspt">Nummer zur Sperrliste hinzufügen?</string>
@@ -248,7 +248,7 @@
   <string name="dialog_complain_tips">Erlauben Sie Nachrichten die Netzwerkverbindung, um Elemente melden zu können.</string>
   <string name="dialog_message_correct_as_ad">Alle Nachrichten von %s (außer Verifikationscodes) werden zu den Werbungen verschoben.</string>
   <string name="dialog_message_correct_as_normal">Nachrichten zum Verschieben auswählen</string>
-  <string name="dialog_message_fake_cell_detect_error">Infos zu dieser Nachricht korrigieren? Dazu muss MIUI die Telefonnummer (%1$s), den Inhalt der Nachricht und die Informationen über den nahegelegenen Standort auf seine Server hochladen.</string>
+  <string name="dialog_message_fake_cell_detect_error">Infos zu dieser Nachricht korrigieren? Dazu muss MIUI die Rufnummer (%1$s), den Inhalt der Nachricht und die Informationen über den nahegelegenen Standort auf seine Server hochladen.</string>
   <string name="dialog_message_mx">Mi Message ermöglicht Ihnen, Nachrichten an andere MIUI-Benutzer zu senden, ohne dass Ihnen Kosten entstehen. Für die Aktivierung von Mi Message ist eine ausgehende SMS-Nachricht erforderlich. Ihr Mobilfunkanbieter wird Ihnen für diese Nachricht eine Gebühr in Rechnung stellen. Sie müssen unsere %1$s und %2$s akzeptieren, bevor Sie Mi Message nutzen können.</string>
   <string name="dialog_message_mx_rcs">Mit Mi Message können Sie Nachrichten an andere China Mobile-Benutzer auf dem chinesischen Festland senden, ohne dass Ihnen Kosten entstehen. Sie müssen unsere %1$s und %2$s akzeptieren, bevor Sie Mi Message nutzen können.</string>
   <string name="dialog_message_networking">Messaging muss Gelbe Seiten verwenden, um die Sender-ID-Erkennung anbieten zu können. Messaging und Gelbe Seiten müssen eine Internetverbindung herstellen und auf Ihren Standort zugreifen, um normal zu arbeiten. Zustimmen?</string>
@@ -297,7 +297,7 @@
   <string name="error_field_required">Erforderlich</string>
   <string name="error_incorrect_otp">Falscher Code</string>
   <string name="error_invalid_otp">Ungültiger Code</string>
-  <string name="error_invalid_phone">Ungültige Telefonnummer</string>
+  <string name="error_invalid_phone">Ungültige Rufnummer</string>
   <string name="error_login">Anmelden fehlgeschlagen</string>
   <string name="error_state">Inkonsistenter Status</string>
   <string name="error_state_text">Der Status von Threads und Empfängern ist inkonsistent. Erfassen Sie einen Fehlerbericht und melden Sie ihn per http://go/droidanizer</string>
@@ -464,7 +464,7 @@ Prüfen Sie Ihre SIM-Karte."</string>
   <string name="message_failed_and_cotanct_operator">Fehler aufgetreten. <font color="#1c86ee">Ihren Anbieter kontaktieren</font>.</string>
   <string name="message_failed_and_feedback">Fehler aufgetreten. <font color="#1c86ee">Problem melden</font>.</string>
   <string name="message_failed_body">Prüfen Sie die Nachricht und versuchen Sie es erneut</string>
-  <string name="message_number">Telefonnummer:</string>
+  <string name="message_number">Rufnummer:</string>
   <string name="message_pending">Senden</string>
   <string name="message_queued">Nachricht kann momentan nicht gesendet werden. Sie wird gesendet, sobald der Dienst verfügbar ist.</string>
   <string name="message_queued_second_space">Nachricht kann nicht gesendet werden. Mobile Daten zum Senden einschalten.</string>
@@ -575,7 +575,7 @@ Diese Nachricht kann unerwünscht sein."</string>
   <string name="mx_activate_status_desc_fail">Mi Message konnte nicht aktiviert werden</string>
   <string name="mx_activate_status_desc_prepare_sending_sms">Aktivierungsnachricht senden…</string>
   <string name="mx_activate_status_desc_query_activte_info">SIM-Karteninformationen prüfen…</string>
-  <string name="mx_activate_status_desc_request_activation_sms_phone_error">Eingegebene Telefonnummer ist ungültig</string>
+  <string name="mx_activate_status_desc_request_activation_sms_phone_error">Eingegebene Rufnummer ist ungültig</string>
   <string name="mx_activate_status_desc_wait_for_sms_fail">Mi Message konnte nicht aktiviert werden</string>
   <string name="mx_auto_resend_mms">Als MMS senden</string>
   <string name="mx_auto_resend_mms_summary">Als MMS senden wenn WLAN nicht verfügbar ist (providerabhängige Gebühr)</string>
@@ -793,7 +793,7 @@ Für die Aktivierung von Mi Message ist eine ausgehende SMS-Nachricht erforderli
   <string name="private_protect">Datenschutz</string>
   <string name="private_settings">Einstellungen</string>
   <string name="processing">Verarbeiten…</string>
-  <string name="prompt_phone">Telefonnummer</string>
+  <string name="prompt_phone">Rufnummer</string>
   <string name="prompt_summary">Mit RCS können Sie Nachrichten, Fotos, Videos und Gruppen-Chats kostenlos austauschen.</string>
   <string name="prompt_title">Bei RCS anmelden</string>
   <string name="prompt_user_agreement">Mit Ihrer Anmeldung erklären Sie sich mit der RCS-Nutzervereinbarung und der Datenschutzerklärung einverstanden.</string>
@@ -868,7 +868,7 @@ Schauen Sie sich die empfohlenen an!"</string>
   <string name="rcs_chatdetail_more_email_send">E-Mail senden</string>
   <string name="rcs_chatdetail_more_href">Webseite</string>
   <string name="rcs_chatdetail_more_id">Besitzer-ID</string>
-  <string name="rcs_chatdetail_more_number">Telefonnummer (Nachrichten)</string>
+  <string name="rcs_chatdetail_more_number">Rufnummer (Nachrichten)</string>
   <string name="rcs_chatdetail_more_type">Kategorie</string>
   <string name="rcs_chatdetail_name_unknow">Unbekannter Verkäufer</string>
   <string name="rcs_chatdetail_save_chatbot">Zu meinen Apps hinzufügen</string>
@@ -1032,7 +1032,7 @@ Schauen Sie sich die empfohlenen an!"</string>
   <string name="select_local_audio">Audio auswählen</string>
   <string name="select_local_video">Video auswählen</string>
   <string name="select_message_send_sim">SIM-Karte auswählen</string>
-  <string name="select_phone_number">Telefonnummer auswählen</string>
+  <string name="select_phone_number">Rufnummer auswählen</string>
   <string name="select_recipient">Empfänger auswählen</string>
   <string name="select_sim">SIM-Karte auswählen</string>
   <string name="select_top_text">Text oben</string>
@@ -1177,7 +1177,7 @@ Wenn Sie nicht damit einverstanden sind, solche Genehmigungen zu erteilen oder I
   <string name="system_permission_declare_use_network">Mit Netzwerk verbinden</string>
   <string name="system_permission_perm_answer_call">Telefonieren</string>
   <string name="system_permission_perm_read_mms">MMS lesen</string>
-  <string name="system_permission_perm_read_numbers">Telefonnummer lesen</string>
+  <string name="system_permission_perm_read_numbers">Rufnummer lesen</string>
   <string name="system_permission_perm_send_mms">MMS senden</string>
   <string name="tab_finance">Finanzen</string>
   <string name="tab_message">Mi Message</string>
