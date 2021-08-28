@@ -1,21 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <plurals name="photo_count">
-    <item quantity="other">%d Fotos</item>
-    <item quantity="one">%d Foto</item>
-  </plurals>
-  <plurals name="synced_photo_count">
-    <item quantity="other">%d Fotos synchronisiert</item>
-    <item quantity="one">%d Foto synchronisiert</item>
-  </plurals>
-  <plurals name="synced_videos_count">
-    <item quantity="other">%d Videos synchronisiert</item>
-    <item quantity="one">%d Video synchronisiert</item>
-  </plurals>
-  <plurals name="videos_count">
-    <item quantity="other">%d Videos</item>
-    <item quantity="one">%d Video</item>
-  </plurals>
   <plurals name="a_hour_ago">
     <item quantity="other">Vor 1 Stunde</item>
   </plurals>
@@ -157,6 +141,10 @@
     <item quantity="other">%d Videos</item>
     <item quantity="one">%d Video</item>
   </plurals>
+  <plurals name="cloud_storage_warn_title_link">
+    <item quantity="other">%d Elemente wurden wegen unzureichendem Cloud-Speicher nicht synchronisiert</item>
+    <item quantity="one">%d Element wurde wegen unzureichendem Cloud-Speicher nicht synchronisiert</item>
+  </plurals>
   <plurals name="collage_select_image_dynamic_range">
     <item quantity="other">Collagen können %1$d-%2$d Fotos enthalten</item>
     <item quantity="one">Collagen können %1$d-%2$d Foto enthalten</item>
@@ -232,6 +220,10 @@
   <plurals name="download_retry_message">
     <item quantity="other">%1$d Dateien herunterladen nicht möglich, Netzwerkverbindung prüfen und erneut versuchen</item>
     <item quantity="one">%1$d Datei herunterladen nicht möglich, Netzwerkverbindung prüfen und erneut versuchen</item>
+  </plurals>
+  <plurals name="downloading_title_link">
+    <item quantity="other">Elemente aus der Cloud herunterladen (%2$d/%1$d)</item>
+    <item quantity="one">Element aus der Cloud herunterladen (%2$d/%1$d)</item>
   </plurals>
   <plurals name="face_count">
     <item quantity="other">%d Fotos gesamt</item>
@@ -312,9 +304,17 @@
     <item quantity="other">%1$d Videos warten auf Synchronisation</item>
     <item quantity="one">%1$d Video wartet auf Synchronisation</item>
   </plurals>
+  <plurals name="photo_count">
+    <item quantity="other">%d Fotos</item>
+    <item quantity="one">%d Foto</item>
+  </plurals>
   <plurals name="photo_count_format">
     <item quantity="other">%1$d Elemente insgesamt</item>
     <item quantity="one">Nur %1$d Element</item>
+  </plurals>
+  <plurals name="photo_editor_talkback_crop_scale_value">
+    <item quantity="other">%d Grad drehen</item>
+    <item quantity="one">%d Grad drehen</item>
   </plurals>
   <plurals name="photo_remain_days">
     <item quantity="other">%d Tage</item>
@@ -512,13 +512,33 @@
     <item quantity="other">%d Fotos optimiert</item>
     <item quantity="one">%d Foto optimiert</item>
   </plurals>
+  <plurals name="slim_complete_photo_count_v2">
+    <item quantity="other">%d Fotos optimiert</item>
+    <item quantity="one">%d Foto optimiert</item>
+  </plurals>
+  <plurals name="slim_complete_video_count">
+    <item quantity="other">%d Videos optimiert</item>
+    <item quantity="one">%d Video optimiert</item>
+  </plurals>
   <plurals name="slim_exit_dialog_message">
     <item quantity="other">%d Fotos wurden nicht optimiert. Jetzt aufhören?</item>
     <item quantity="one">%d Foto wurde nicht optimiert. Jetzt aufhören?</item>
   </plurals>
+  <plurals name="slim_photo_count">
+    <item quantity="other">%d Fotos</item>
+    <item quantity="one">%d Foto</item>
+  </plurals>
   <plurals name="slim_remain_photo_count">
     <item quantity="other">%d Fotos übrig</item>
     <item quantity="one">%d Foto übrig</item>
+  </plurals>
+  <plurals name="slim_remain_photo_count_v2">
+    <item quantity="other">%d zu optimierende Elemente übrig</item>
+    <item quantity="one">%d zu optimierendes Element übrig</item>
+  </plurals>
+  <plurals name="slim_videos_count">
+    <item quantity="other">%d Videos</item>
+    <item quantity="one">%d Video</item>
   </plurals>
   <plurals name="sync_error_title">
     <item quantity="other">%d Fotos/Videos wurden nicht gesichert</item>
@@ -534,6 +554,26 @@
   </plurals>
   <plurals name="synced_immerse_title">
     <item quantity="other">%1$d Fotos und %2$d Videos erfolgreich synchronisiert</item>
+  </plurals>
+  <plurals name="synced_photo_count">
+    <item quantity="other">%d Fotos synchronisiert</item>
+    <item quantity="one">%d Foto synchronisiert</item>
+  </plurals>
+  <plurals name="synced_videos_count">
+    <item quantity="other">%d Videos synchronisiert</item>
+    <item quantity="one">%d Video synchronisiert</item>
+  </plurals>
+  <plurals name="syncing_gprs_title_link">
+    <item quantity="other">%d Elemente über mobile Daten synchronisieren</item>
+    <item quantity="one">%d Element über mobile Daten synchronisieren</item>
+  </plurals>
+  <plurals name="syncing_title_link">
+    <item quantity="other">%d Elemente synchronisieren</item>
+    <item quantity="one">%d Element synchronisieren</item>
+  </plurals>
+  <plurals name="talkback_album_item_content">
+    <item quantity="other">%1$s, %2$s Elemente</item>
+    <item quantity="one">%1$s, %2$s Element</item>
   </plurals>
   <plurals name="trash_purge_dialog_message_image">
     <item quantity="other">Sie können %d ausgewählte Elemente nicht wiederherstellen, wenn Sie sie löschen. Trotzdem löschen?</item>
@@ -558,5 +598,9 @@
   <plurals name="video_count_format">
     <item quantity="other">%1$d Dateien</item>
     <item quantity="one">%1$d Datei</item>
+  </plurals>
+  <plurals name="videos_count">
+    <item quantity="other">%d Videos</item>
+    <item quantity="one">%d Video</item>
   </plurals>
 </resources>

@@ -207,9 +207,9 @@
   <string name="continue_backup">Fortsetzen</string>
   <string name="copy">Kopieren</string>
   <string name="cp_info_first">Streamingdienst wird von Ultimate Inc. bereitgestellt</string>
-  <string name="create_order_fail">Auftrag konnte nicht erstellt werden, versuchen Sie erneut</string>
+  <string name="create_order_fail">Auftrag wurde nicht erstellt, versuchen Sie erneut</string>
   <string name="create_playlist">Wiedergabeliste erstellen</string>
-  <string name="create_playlist_failure">Wiedergabeliste konnte nicht erstellt werden</string>
+  <string name="create_playlist_failure">Wiedergabeliste wurde nicht erstellt</string>
   <string name="create_playlist_input_hint">Wiedergabelistenname eingeben</string>
   <string name="cta_dialog_text_new_user">Lesen und akzeptieren Sie unsere %1$sNutzervereinbarung%2$s und %3$sDatenschutzerklärung%4$s.</string>
   <string name="current_album">Aktuelles Album</string>
@@ -289,11 +289,11 @@
   <string name="dialog_title_queued_body">Datei noch nicht verfügbar</string>
   <string name="dialog_title_remove_tracks">Entfernen</string>
   <string name="disable_auto_payment_fail">Deaktivierung nicht möglich</string>
-  <string name="disable_auto_payment_fail_message">Automatische Verlängerung konnte nicht deaktiviert werden</string>
+  <string name="disable_auto_payment_fail_message">Automatische Verlängerung wurde nicht deaktiviert</string>
   <string name="disable_auto_payment_success">Deaktiviert</string>
   <string name="disable_auto_payment_success_message">Automatische Verlängerung deaktiviert. Nach dem Ablauf Ihres Abonnements müssen Sie sich erneut anmelden, um wieder Musik herunterladen zu können.</string>
   <string name="disallow_add_to_fm">Titel können nicht von UKW-Radiosendern hinzugefügt werden.</string>
-  <string name="disallow_add_to_personal_radio">Kann nicht zu benutzerdefiniertem Radio hinzugefügt werden</string>
+  <string name="disallow_add_to_personal_radio">Zu benutzerdefiniertem Radio hinzufügen nicht möglich</string>
   <string name="discover_more_music">Weitere Titel entdecken</string>
   <string name="do_not_remind_this_version">Nicht an diese Version erinnnern</string>
   <string name="do_not_support_google_voice_search">Google-Sprachsuche wird auf Ihrem Gerät nicht unterstützt.</string>
@@ -321,12 +321,12 @@
   <string name="download_confirm_text">Mi Musik lädt und installiert %s</string>
   <string name="download_connect_wifi_dialog_message">Sie benötigen WLAN, um diesen Titel herunterzuladen. Jetzt verbinden?</string>
   <string name="download_connect_wifi_dialog_title">Mit WLAN verbinden</string>
-  <string name="download_dialog_fail">Konnte nicht herunterladen</string>
+  <string name="download_dialog_fail">Herunterladen nicht möglich</string>
   <string name="download_dialog_success">Erfolgreich heruntergeladen</string>
   <string name="download_done_btn">Heruntergeladen</string>
   <string name="download_error">Fehlgeschlagen</string>
   <string name="download_error_insufficient_space">Zu wenig Speicherplatz</string>
-  <string name="download_fail_to_fetch_info">Konnte nicht herunterladen, versuchen Sie es erneut</string>
+  <string name="download_fail_to_fetch_info">Herunterladen nicht möglich, versuchen Sie es erneut</string>
   <string name="download_filesize_unknown">Unbekannt</string>
   <string name="download_in_process">HERUNTERLADEN</string>
   <string name="download_info_start_deleted_tasks">Downloads löschen</string>
@@ -375,8 +375,8 @@
   <string name="edit_playlist_info">Info Wiedergabeliste bearbeiten</string>
   <string name="empty_page_no_album">Keine Alben</string>
   <string name="empty_page_no_artist">Keine Interpreten</string>
-  <string name="enable_auto_payment_fail">Konnte nicht aktiviert werden</string>
-  <string name="enable_auto_payment_fail_message">Automatische Verlängerung konnte nicht aktiviert werden</string>
+  <string name="enable_auto_payment_fail">Aktivieren nicht möglich</string>
+  <string name="enable_auto_payment_fail_message">Automatische Verlängerung wurde nicht aktiviert</string>
   <string name="enable_auto_payment_success">Automatisch verlängern</string>
   <string name="enable_auto_payment_success_message">Automatische Verlängerung wurde aktiviert. Nächste Zahlung ist fällig am %s.</string>
   <string name="enabled">Aktiviert</string>
@@ -469,7 +469,7 @@
   <string name="floating_view_dialog_leave">Verlassen</string>
   <string name="floating_view_dialog_stay">Bleiben</string>
   <string name="floating_view_dialog_title">Diese Seite verlassen?</string>
-  <string name="fmt_chinese_date">d.M.</string>
+  <string name="fmt_chinese_date">dd.MM.</string>
   <string name="fmt_date_day">d.</string>
   <string name="fmt_date_long_month_day">d. MMMM</string>
   <string name="fmt_date_long_year_month_day">d. MMMM yyyy</string>
@@ -478,10 +478,10 @@
   <string name="fmt_date_numeric_month_day">dd.MM.</string>
   <string name="fmt_date_numeric_year_month">MM/yyyy</string>
   <string name="fmt_date_numeric_year_month_day">dd.MM.yyyy</string>
-  <string name="fmt_date_short_month">MM.</string>
-  <string name="fmt_date_short_month_day">dd.MM.</string>
+  <string name="fmt_date_short_month">MMM</string>
+  <string name="fmt_date_short_month_day">d. MMM</string>
   <string name="fmt_date_short_year_month">MMM yyyy</string>
-  <string name="fmt_date_short_year_month_day">dd.MM.yyyy</string>
+  <string name="fmt_date_short_year_month_day">d. MMM yyyy</string>
   <string name="fmt_date_time_timezone">D T z</string>
   <string name="fmt_date_timezone">D z</string>
   <string name="fmt_time_12hour">"h 'Uhr'"</string>
@@ -676,7 +676,7 @@
   <string name="login_mi_account_and_gain_more_rights">Mit Mi-Konto anmelden, um auf weitere Funktionen zuzugreifen</string>
   <string name="long_press_to_select_lyric">Gedrückt halten, um die lokale Songtextdatei auszuwählen</string>
   <string name="low_sound_quality">Niedrig</string>
-  <string name="lrc_search_failed">Songtext konnte nicht gefunden werden</string>
+  <string name="lrc_search_failed">Songtext wurde nicht gefunden</string>
   <string name="lrc_searching">Suchen…</string>
   <string name="lyric_is_empty">Keine Songtexte verfügbar</string>
   <string name="lyric_label">Songtexte</string>
@@ -724,7 +724,7 @@
   <string name="modify_song_info_success">Titelinfo wurde aktualisiert</string>
   <string name="moe_inbox_name">Benachrichtigungszentrale</string>
   <string name="moe_message_to_register">Auf die Schaltfläche "Registrieren" tippen, um sich für die Integrationsvalidierung zu registrieren</string>
-  <string name="moe_message_to_unregister">Gerät ist für die Integrationsprüfung registriert. Auf die Schaltfläche klicken, um die Registrierung aufzuheben.</string>
+  <string name="moe_message_to_unregister">Gerät ist für die Integrationsprüfung registriert. Auf die Schaltfläche tippen, um die Registrierung aufzuheben.</string>
   <string name="moe_notification_center_empty">Benachrichtigungszentrale leer</string>
   <string name="moe_register">REGISTRIEREN</string>
   <string name="moe_unregister">ABMELDEN</string>
@@ -765,8 +765,8 @@
   <string name="mtrl_badge_numberless_content_description">Neue Benachrichtigung</string>
   <string name="mtrl_chip_close_icon_content_description">%1$s entfernen</string>
   <string name="mtrl_exceed_max_badge_number_content_description">Mehr als %1$d neue Benachrichtigungen</string>
-  <string name="mtrl_picker_a11y_next_month">Zum nächsten Monat wechseln</string>
-  <string name="mtrl_picker_a11y_prev_month">Zum vorherigen Monat wechseln</string>
+  <string name="mtrl_picker_a11y_next_month">Zum Folgemonat wechseln</string>
+  <string name="mtrl_picker_a11y_prev_month">Zum Vormonat wechseln</string>
   <string name="mtrl_picker_announce_current_selection">Aktuelle Auswahl: %1$s</string>
   <string name="mtrl_picker_date_header_title">Datum wählen</string>
   <string name="mtrl_picker_date_header_unselected">Gewähltes Datum</string>
@@ -962,6 +962,7 @@ Wenn Sie mit der Nutzung der oben genannten Dienste nicht einverstanden sind, k�
 - Ein lokaler Audioplayer
 
 - Online-Streaming-Dienste"</string>
+  <string name="privacy_request_subtitle_offline">Willkommen bei Mi Music! Diese App bietet einen lokalen Player für Audiodateien.</string>
   <string name="privacy_request_title">Allgemeine Geschäftsbedingungen</string>
   <string name="pro_member">PRO-Mitglied</string>
   <string name="project_device">Mi Telefon</string>
@@ -1014,7 +1015,7 @@ Glücklich sein."</string>
   <string name="request_share_info">Nur eine Sekunde…</string>
   <string name="request_subscription_status">Nur eine Sekunde…</string>
   <string name="restart_immediate">Jetzt neustarten</string>
-  <string name="retry">Wiederholen</string>
+  <string name="retry">Erneut versuchen</string>
   <string name="retry_after_network_available">Keine Netzwerkverbindung. Prüfen Sie Ihre Datenverbindung und versuchen Sie es erneut.</string>
   <string name="retry_download">Wiederholen</string>
   <string name="revoke_upload_playlist_to_hungama_toast">Online-Titel werden nicht mit Hungama synchronisiert</string>
@@ -1077,7 +1078,7 @@ Glücklich sein."</string>
   <string name="set_as_ring">Als Klingelton auswählen</string>
   <string name="set_online_home_subtitle">Online-Empfehlungen öffnen, wenn die App gestartet wird</string>
   <string name="set_online_home_title">Online-Empfehlungen beim Start anzeigen</string>
-  <string name="set_ringtones_failed">Klingelton konnte nicht eingestellt werden</string>
+  <string name="set_ringtones_failed">Klingelton wurde nicht eingestellt</string>
   <string name="set_ringtones_successful">%s als Klingelton eingestellt</string>
   <string name="setting_feature_setting">Funktionseinstellung</string>
   <string name="settings">Einstellungen</string>

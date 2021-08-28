@@ -19,10 +19,10 @@
   <string name="HIPS_Perm_Body_Sensors_Desc">Körpersensoren (z. B. Herzfrequenzsensor)</string>
   <string name="HIPS_Perm_Calendar">Kalendereinträge lesen</string>
   <string name="HIPS_Perm_Calendar_Desc">Ihre Kalendereinträge lesen</string>
-  <string name="HIPS_Perm_Call">Anrufe machen</string>
+  <string name="HIPS_Perm_Call">Anrufen</string>
   <string name="HIPS_Perm_CallLog">Anrufliste schreiben und löschen</string>
   <string name="HIPS_Perm_CallLog_Desc">Anrufliste bearbeiten</string>
-  <string name="HIPS_Perm_Call_Desc">Telefonnummern direkt anrufen</string>
+  <string name="HIPS_Perm_Call_Desc">Rufnummern direkt anrufen</string>
   <string name="HIPS_Perm_Contact">Kontakte ändern und löschen</string>
   <string name="HIPS_Perm_Contact_Desc">Kontakte bearbeiten</string>
   <string name="HIPS_Perm_External_Storage">Zugriff auf und Ändern von Dateien im internen Speicher</string>
@@ -92,6 +92,10 @@
   <string name="HIPS_Perm_install_shortcut_Desc">Verknüpfungen auf Startbildschirm hinzufügen</string>
   <string name="HIPS_Perm_mediaVolume">Medienlautstärke einstellen</string>
   <string name="HIPS_Perm_mediaVolume_Desc">Der App erlauben, die Medienlautstärke anzupassen</string>
+  <string name="HIPS_Perm_operator_get_phonenumbner">Zugangsrufnummer für Anmeldung</string>
+  <string name="HIPS_Perm_operator_get_phonenumbner_Desc">Rufnummer vom Netzbetreiber für die Anmeldung abfragen</string>
+  <string name="HIPS_Perm_operator_get_phonenumbner_Hint">Wenn Sie sich jetzt nicht mit Tippen anmelden konnten, zurück zur Anmeldeseite gehen und erneut versuchen.</string>
+  <string name="HIPS_Perm_operator_get_phonenumbner_Message">Diese App möchte Ihre Rufnummer vom Netzbetreiber für die Anmeldung erhalten. Zustimmen?</string>
   <string name="HIPS_Perm_process_nfc_Desc">Zugriff auf NFC-Hardware</string>
   <string name="HIPS_Perm_process_outgoing_calls">Zugriff auf Telefon-App</string>
   <string name="HIPS_Perm_process_outgoing_calls_Desc">Eingehende Anrufe überwachen</string>
@@ -151,8 +155,7 @@
   <string name="clearable_edittext_clear_description">Löschen</string>
   <string name="clipboard_ai_allow_once">Erlaubt %1$s, automatisch auf Elemente in der Zwischenablage zuzugreifen</string>
   <string name="clipboard_ai_allow_tip">Smart erlaubt %1$s, %2$s in der Zwischenablage zu lesen</string>
-  <string name="clipboard_data">"• Zwischenablageinhalt
-» "</string>
+  <string name="clipboard_data">"Inhalt: "</string>
   <string name="clipboard_data_request">%1$s versucht, auf Elemente in der Zwischenablage zuzugreifen</string>
   <string name="clipboard_deny_notification_content">Dieser Versuch wurde blockiert. Tippen, um die Berechtigungen zu verwalten.</string>
   <string name="clipboard_deny_notification_operation">Verwalten</string>
@@ -160,8 +163,7 @@
   <string name="clipboard_may_sensitive">Eventuell sensible Informationen</string>
   <string name="clipboard_read_ai_deny_once">%1$s Zwischenablage verweigert</string>
   <string name="clipboard_read_allow_once">%1$s griff auf Elemente in der Zwischenablage zu</string>
-  <string name="clipboard_read_deny_dialog_title">"• %1$s
-Zwischenablage lesen verweigert"</string>
+  <string name="clipboard_read_deny_dialog_title">Eingeschränkter Zwischenablagezugriff für %1$s</string>
   <string name="close">Schließen</string>
   <string name="date_picker_lunar">Traditioneller chin. Kalender</string>
   <string name="date_time_picker_dialog_title">Datum und Zeit einstellen</string>
@@ -170,7 +172,7 @@ Zwischenablage lesen verweigert"</string>
   <string name="eras_ad">n. Chr.</string>
   <string name="eras_bc">v. Chr.</string>
   <string name="evening">Nachmittag</string>
-  <string name="fmt_chinese_date">d.M.</string>
+  <string name="fmt_chinese_date">dd.MM.</string>
   <string name="fmt_date_day">d.</string>
   <string name="fmt_date_long_month_day">d. MMMM</string>
   <string name="fmt_date_long_year_month_day">d. MMMM yyyy</string>
@@ -179,10 +181,10 @@ Zwischenablage lesen verweigert"</string>
   <string name="fmt_date_numeric_month_day">dd.MM.</string>
   <string name="fmt_date_numeric_year_month">MM/yyyy</string>
   <string name="fmt_date_numeric_year_month_day">dd.MM.yyyy</string>
-  <string name="fmt_date_short_month">MM.</string>
-  <string name="fmt_date_short_month_day">dd.MM.</string>
+  <string name="fmt_date_short_month">MMM</string>
+  <string name="fmt_date_short_month_day">d. MMM</string>
   <string name="fmt_date_short_year_month">MMM yyyy</string>
-  <string name="fmt_date_short_year_month_day">dd.MM.yyyy</string>
+  <string name="fmt_date_short_year_month_day">d. MMM yyyy</string>
   <string name="fmt_date_time_timezone">D T z</string>
   <string name="fmt_date_timezone">D z</string>
   <string name="fmt_time_12hour">"h 'Uhr'"</string>
@@ -271,7 +273,7 @@ Zwischenablage lesen verweigert"</string>
   <string name="month_september_shortest">S</string>
   <string name="more">Mehr</string>
   <string name="morning">Morgen</string>
-  <string name="never_ask_again">Nicht wieder fragen</string>
+  <string name="never_ask_again">Nach dem Einschränken nicht mehr nachfragen</string>
   <string name="night">Abend</string>
   <string name="no">Nein</string>
   <string name="noon">Mittag</string>
@@ -327,8 +329,9 @@ Zwischenablage lesen verweigert"</string>
   <string name="permission_warning_template">%1$s Folgendes erlauben; %2$s?</string>
   <string name="permission_warning_template_ask">%1$s die folgenden Berechtigungen erteilen?</string>
   <string name="permisson_reject_notice_toast_text2">hat keine Berechtigung, %1$s.</string>
-  <string name="real_location_off">Ungefährer Standort ist aus</string>
-  <string name="real_location_on">Ungefährer Standort ist an</string>
+  <string name="pp_privacy_lab_operator_introduction">Achtung</string>
+  <string name="real_location_off">Genauer Standort ist aus</string>
+  <string name="real_location_on">Genauer Standort ist an</string>
   <string name="saturday">Samstag</string>
   <string name="saturday_short">Sa</string>
   <string name="saturday_shortest">S</string>

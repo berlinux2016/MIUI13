@@ -88,10 +88,10 @@
   <string name="card_title_incoming_conference_call">Eingehende Telefonkonferenz</string>
   <string name="card_title_on_hold">"Wird gehalten "</string>
   <string name="card_title_threeway_call">3er Telefonkonferenz</string>
-  <string name="card_title_upgrade_video_call_error">Video konnte nicht aktualisiert werden</string>
-  <string name="card_title_upgrade_video_call_rejected_by_remote">Video konnte nicht aktualisiert werden</string>
+  <string name="card_title_upgrade_video_call_error">Video wurde nicht aktualisiert</string>
+  <string name="card_title_upgrade_video_call_rejected_by_remote">Video wurde nicht aktualisiert</string>
   <string name="card_title_upgrade_video_call_requesting">Videoabfrage…</string>
-  <string name="card_title_upgrade_video_call_timed_out">Video konnte nicht aktualisiert werden</string>
+  <string name="card_title_upgrade_video_call_timed_out">Video wurde nicht aktualisiert</string>
   <string name="card_title_video_call">Videoanruf</string>
   <string name="card_title_video_call_paused">Video angehalten</string>
   <string name="card_title_video_conf_call">Videokonferenz</string>
@@ -143,7 +143,7 @@
   <string name="eras_ad">n. Chr.</string>
   <string name="eras_bc">v. Chr.</string>
   <string name="evening">Nachmittag</string>
-  <string name="fmt_chinese_date">d.M.</string>
+  <string name="fmt_chinese_date">dd.MM.</string>
   <string name="fmt_date_day">d.</string>
   <string name="fmt_date_long_month_day">d. MMMM</string>
   <string name="fmt_date_long_year_month_day">d. MMMM yyyy</string>
@@ -152,10 +152,10 @@
   <string name="fmt_date_numeric_month_day">dd.MM.</string>
   <string name="fmt_date_numeric_year_month">MM/yyyy</string>
   <string name="fmt_date_numeric_year_month_day">dd.MM.yyyy</string>
-  <string name="fmt_date_short_month">MM.</string>
-  <string name="fmt_date_short_month_day">dd.MM.</string>
+  <string name="fmt_date_short_month">MMM</string>
+  <string name="fmt_date_short_month_day">d. MMM</string>
   <string name="fmt_date_short_year_month">MMM yyyy</string>
-  <string name="fmt_date_short_year_month_day">dd.MM.yyyy</string>
+  <string name="fmt_date_short_year_month_day">d. MMM yyyy</string>
   <string name="fmt_date_time_timezone">D T z</string>
   <string name="fmt_date_timezone">D z</string>
   <string name="fmt_time_12hour">"h 'Uhr'"</string>
@@ -182,7 +182,7 @@
   <string name="incall_error_supp_service_transfer">Anruf weiterleiten nicht möglich</string>
   <string name="incall_error_supp_service_unknown">Nicht unterstützter Dienst</string>
   <string name="incoming_answer_voice_text">Sprachantwort</string>
-  <string name="incoming_call_forwarded_title">Ankommenden Anruf weiterleiten</string>
+  <string name="incoming_call_forwarded_title">Weitergeleiteter Anruf</string>
   <string name="incoming_circle_text_answer">Freigeben</string>
   <string name="incoming_circle_text_answer_p">Hochwischen</string>
   <string name="incoming_circle_text_message">Freigeben</string>
@@ -283,6 +283,9 @@
   <string name="picking_participant">Kontaktinfo erhalten…</string>
   <string name="private_num">Unbekannt</string>
   <string name="prompt_no_volte_when_failed">Anrufe nicht möglich. Ihr Gerät muss an ein 4G-Netz mit VoLTE-Unterstützung angeschlossen sein.</string>
+  <string name="relay_cal_from_device_name">Von %1$s</string>
+  <string name="relay_call">Übergabe</string>
+  <string name="relay_call_device_name">Verbundenes Gerät (%1$s)</string>
   <string name="remind_unlock_message">Ihr Gerät ist jetzt gesperrt. Nach Entsperrung des Geräts wird \"%s\" verfügbar sein. Jetzt entsperren?</string>
   <string name="respond_via_sms_custom_message">Eigene SMS</string>
   <string name="saturday">Samstag</string>
@@ -291,9 +294,9 @@
   <string name="search_menu_title">Suchen</string>
   <string name="select_audio_dialog_title">Antwortmodus auswählen</string>
   <string name="select_one_sim_title">Nur SIM %1$d möglich</string>
-  <string name="select_one_sim_title_for_heduohao">Kann nur SIM %1$d Sub %2$d verwenden.</string>
+  <string name="select_one_sim_title_for_heduohao">Nur SIM %1$d Sub %2$d kann verwendet werden.</string>
   <string name="select_sim_hint">SIM %2$d nicht möglich, während SIM %1$d verwendet wird</string>
-  <string name="select_sim_hint_for_heduohao">Kann keine anderen verwenden, während SIM %1$d Sub %2$d verwendet wird.</string>
+  <string name="select_sim_hint_for_heduohao">Andere können nicht verwendet werden, während SIM %1$d Sub %2$d verwendet wird.</string>
   <string name="select_voice_call_sim">SIM-Karte auswählen</string>
   <string name="send">Senden</string>
   <string name="separate_from_conference">Anruf trennen</string>

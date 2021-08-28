@@ -12,6 +12,8 @@
   <string name="connections">Verbindungen</string>
   <string name="connects_via_network">Verbindung über das aktuelle Netzwerk bei %1$s</string>
   <string name="connects_via_wifi_direct">Verbindung über WLAN Direct</string>
+  <string name="disable_wifi_direct">Wi-Fi Direct deaktivieren</string>
+  <string name="enable_location">Standort aktivieren</string>
   <string name="failed_connection">Verbindung mit %1$s nicht möglich</string>
   <string name="failed_printer_connection">Druckerverbindung nicht möglich</string>
   <string name="find_wifi_direct">WLAN Direct-Drucker suchen</string>
@@ -25,8 +27,8 @@
   <string name="printer_bad_certificate">Fehlerhaftes Zertifikat</string>
   <string name="printer_busy">Beschäftigt</string>
   <string name="printer_check">Drucker prüfen</string>
-  <string name="printer_door_open">Drucker offen</string>
-  <string name="printer_jammed">Verklemmt</string>
+  <string name="printer_door_open">Klappe geöffnet</string>
+    <string name="printer_jammed">Papierstau</string>
   <string name="printer_low_on_ink">Wenig Tinte</string>
   <string name="printer_low_on_toner">Wenig Toner</string>
   <string name="printer_not_encrypted">Nicht verschlüsselt</string>
@@ -37,18 +39,20 @@
   <string name="recommendation_enable_summary">Zum Aktivieren auswählen</string>
   <string name="recommendation_install_summary">Zum Installieren auswählen</string>
   <string name="recommendation_manage">Dienste verwalten</string>
-  <string name="recommendation_summary">Der Standarddruckdienst bietet grundlegende Optionen. Andere Optionen für diesen Drucker sind möglicherweise von einem anderen Druckdienst erhältlich.</string>
+  <string name="recommendation_summary">Der Standard-Druckdienst bietet grundlegende Optionen. Andere Optionen für diesen Drucker sind möglicherweise von einem anderen Druckdienst erhältlich.</string>
   <string name="recommendations_heading">Empfohlene Dienstleistungen</string>
   <string name="reject">Verwerfen</string>
   <string name="saved_printers">Gespeicherte Drucker</string>
   <string name="searching">Suchen…</string>
   <string name="security">Sicherheit</string>
   <string name="title_activity_add_printer">Manuell hinzugefügte Drucker</string>
-  <string name="unreadable_input">Dokument konnte nicht gelesen werden</string>
+  <string name="unreadable_input">Dokument wurde nicht gelesen</string>
   <string name="waiting_to_send">Warten auf Senden</string>
   <string name="wifi_direct">WLAN Direct</string>
-  <string name="wifi_direct_permission_rationale">Standard-Druckservice benötigt Standortzugriff, um Geräte in der Nähe zu finden.</string>
+  <string name="wifi_direct_location_rationale">Für den Standard-Druckdienst müssen die Standortdienste aktiviert sein, um Geräte in der Nähe zu finden.</string>
+  <string name="wifi_direct_permission_rationale">Standard-Druckdienst benötigt Standortzugriff, um Geräte in der Nähe zu finden.</string>
   <string name="wifi_direct_printers">WLAN Direct-Drucker</string>
   <string name="wifi_direct_printing">WLAN Direct-Drucken</string>
   <string name="wifi_not_connected">WLAN nicht verbunden</string>
+  <string name="wifi_direct_problem">Der Standarddruckdienst kann keine Wi-Fi Direct-Drucker finden</string>
 </resources>

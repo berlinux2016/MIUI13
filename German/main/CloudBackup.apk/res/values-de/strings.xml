@@ -53,12 +53,12 @@
   <string name="backup_warning_reason_app_usage_denied">"Daten wurden nicht synchronisiert.
 Berechtigungen erforderlich."</string>
   <string name="backup_warning_reason_cloud_space_not_enough">Zurück nicht möglich</string>
-  <string name="backup_warning_reason_disk_space_not_enough">"Nicht genügend Speicherplatz
-vorhanden, sichern nicht möglich "</string>
-  <string name="backup_warning_reason_network_error">"Netzwerkfehler,
-sichern nicht möglich"</string>
-  <string name="backup_warning_reason_no_server_response">"Verbindung wurde unterbrochen,
-erneut versuchen"</string>
+  <string name="backup_warning_reason_disk_space_not_enough">"Sichern nicht möglich.
+Nicht genügend Speicherplatz."</string>
+  <string name="backup_warning_reason_network_error">"Netzwerkfehler.
+Sichern nicht möglich"</string>
+  <string name="backup_warning_reason_no_server_response">"Verbindung wurde unterbrochen.
+Erneut versuchen"</string>
   <string name="btn_back">Zurück</string>
   <string name="btn_continue">Fortfahren</string>
   <string name="btn_restore_abort">Abbrechen</string>
@@ -75,8 +75,8 @@ erneut versuchen"</string>
   <string name="button_confirm">Verstanden</string>
   <string name="button_delete">Löschen</string>
   <string name="button_next">Weiter</string>
-  <string name="can_not_backup_in_lite_mode">Im Lite Modus kann kein Backup durchgeführt werden</string>
-  <string name="can_not_restore_in_lite_mode">Kann im Lite Modus nicht wiederhergestellt werden</string>
+  <string name="can_not_backup_in_lite_mode">Backup im Lite-Modus nicht möglich</string>
+  <string name="can_not_restore_in_lite_mode">Wiederherstellen im Lite-Modus nicht möglich</string>
   <string name="cancel_backup">Sicherung abbrechen…</string>
   <string name="cancel_recover_settings">Abbrechen</string>
   <string name="cancel_restore_home">Abbrechen…</string>
@@ -86,7 +86,7 @@ erneut versuchen"</string>
   <string name="cloud_app_backup_success">App-Sicherung abgeschlossen</string>
   <string name="cloud_app_check_data">Mit Xiaomi Cloud verbinden…</string>
   <string name="cloud_app_current_device">Aktuelles Gerät</string>
-  <string name="cloud_app_dont_restore">Nicht wiederherstellen</string>
+  <string name="cloud_app_dont_restore">Als neues Gerät verwenden</string>
   <string name="cloud_app_no_data">Keine vorherigen App-Installationen gefunden</string>
   <string name="cloud_app_no_network">Netzwerkverbindung nicht möglich</string>
   <string name="cloud_app_other_devices">Andere Geräte</string>
@@ -143,7 +143,7 @@ Wichtig: Daten der einzelnen Apps werden dabei nicht in Xiaomi Cloud gesichert."
   <string name="confirm_cancel_restore_title">Wiederherstellen abbrechen?</string>
   <string name="confirm_restore">Wiederherstellen</string>
   <string name="confirm_restore_app_data">App-Daten überschreiben</string>
-  <string name="confirm_restore_app_data_summary">Wiederherstellen von WeChat-Daten überschreibt die aktuelle Version der App-Daten auf diesem Gerät. Trotzdem wiederherstellen?</string>
+  <string name="confirm_restore_app_data_summary">Anscheinend hat WeChat bereits Daten auf diesem Gerät erstellt. Mit den Daten aus der Sicherung überschreiben?</string>
   <string name="confirm_restore_summary">Ihr Startbildschirm wird neu gestartet. Gesicherte Apps werden automatisch heruntergeladen.</string>
   <string name="confirm_restore_title">Wiederherstellen</string>
   <string name="copy">Kopieren</string>
@@ -161,6 +161,8 @@ Wichtig: Daten der einzelnen Apps werden dabei nicht in Xiaomi Cloud gesichert."
   <string name="desktop_waiting">Warten</string>
   <string name="device_delete_prompt">Sicherung von %s löschen?</string>
   <string name="device_xiaomi">Mi Telefon</string>
+  <string name="dialog_app_usage_consent_message">Diese Funktion muss auf die App-Nutzungsdaten zugreifen, um die Größe der WeChat-Backups abschätzen zu können.</string>
+  <string name="dialog_app_usage_consent_title">Zugriff auf App-Nutzungsdaten zulassen</string>
   <string name="dialog_app_usage_denied">Sicherung die Berechtigung \"Nutzungszugriff\" in den Einstellungen gewähren, um Elemente sichern zu können.</string>
   <string name="dialog_backup_failed">Sichern nicht möglich</string>
   <string name="dialog_btn_cancel_backup">Abbrechen</string>
@@ -169,6 +171,8 @@ Wichtig: Daten der einzelnen Apps werden dabei nicht in Xiaomi Cloud gesichert."
   <string name="dialog_btn_next">Weiter</string>
   <string name="dialog_btn_overwrite_backup">Überschreiben</string>
   <string name="dialog_btn_restore_skip">Später wiederherstellen</string>
+  <string name="dialog_button_agree">Zulassen</string>
+  <string name="dialog_button_disagree">Verweigern</string>
   <string name="dialog_cancel_backup_cancel">Abbrechen</string>
   <string name="dialog_cancel_backup_msg">Durch Umschalten werden laufende Sicherungen beendet</string>
   <string name="dialog_cancel_backup_title">Laufende Sicherung abbrechen?</string>
@@ -188,6 +192,11 @@ Wichtig: Daten der einzelnen Apps werden dabei nicht in Xiaomi Cloud gesichert."
   <string name="download_meta_failed">Daten laden fehlgeschlagen</string>
   <string name="download_settings">Startbildschirmeinstellungen herunterladen %s%%</string>
   <string name="download_settings_fail">Startbildschirmeinstellungen herunterladen fehlgeschlagen</string>
+  <string name="dump_app_data_record_complete_msg">Dateispeicherort: %s</string>
+  <string name="dump_app_data_record_complete_title">WeChat-Daten erfolgreich gesichert</string>
+  <string name="dump_app_data_record_not_found_msg">Anscheinend haben Sie die WeChat-Daten noch nicht gesichert</string>
+  <string name="dump_app_data_record_not_found_title">WeChat-Backups nicht gefunden</string>
+  <string name="dump_app_data_record_running_title">Sichern von WeChat-Daten…</string>
   <string name="early_morning">Morgen</string>
   <string name="eras_ad">n. Chr.</string>
   <string name="eras_bc">v. Chr.</string>
@@ -195,7 +204,7 @@ Wichtig: Daten der einzelnen Apps werden dabei nicht in Xiaomi Cloud gesichert."
   <string name="error_unknown">Ein Fehler ist aufgetreten</string>
   <string name="evening">Nachmittag</string>
   <string name="expand_button_title">Erweitert</string>
-  <string name="fmt_chinese_date">d.M.</string>
+  <string name="fmt_chinese_date">dd.MM.</string>
   <string name="fmt_date_day">d.</string>
   <string name="fmt_date_long_month_day">d. MMMM</string>
   <string name="fmt_date_long_year_month_day">d. MMMM yyyy</string>
@@ -204,10 +213,10 @@ Wichtig: Daten der einzelnen Apps werden dabei nicht in Xiaomi Cloud gesichert."
   <string name="fmt_date_numeric_month_day">dd.MM.</string>
   <string name="fmt_date_numeric_year_month">MM/yyyy</string>
   <string name="fmt_date_numeric_year_month_day">dd.MM.yyyy</string>
-  <string name="fmt_date_short_month">MM.</string>
-  <string name="fmt_date_short_month_day">dd.MM.</string>
+  <string name="fmt_date_short_month">MMM</string>
+  <string name="fmt_date_short_month_day">d. MMM</string>
   <string name="fmt_date_short_year_month">MMM yyyy</string>
-  <string name="fmt_date_short_year_month_day">dd.MM.yyyy</string>
+  <string name="fmt_date_short_year_month_day">d. MMM yyyy</string>
   <string name="fmt_date_time_timezone">D T z</string>
   <string name="fmt_date_timezone">D z</string>
   <string name="fmt_time_12hour">"h 'Uhr'"</string>
@@ -239,6 +248,8 @@ Wichtig: Daten der einzelnen Apps werden dabei nicht in Xiaomi Cloud gesichert."
   <string name="menu_item_sort">Sortieren nach</string>
   <string name="menu_item_sort_size">Größe</string>
   <string name="midnight">Nacht</string>
+  <string name="miuix_access_state_desc">Ausgewählt</string>
+  <string name="miuix_alphabet_indexer_name">Indexleiste</string>
   <string name="miuix_appcompat_action_mode_deselect_all">Abwählen</string>
   <string name="miuix_appcompat_action_mode_select_all">Alle wählen</string>
   <string name="miuix_appcompat_action_mode_title_empty">Elemente wählen</string>
@@ -253,6 +264,7 @@ Wichtig: Daten der einzelnen Apps werden dabei nicht in Xiaomi Cloud gesichert."
   <string name="miuix_appcompat_select_all">Alle wählen</string>
   <string name="miuix_appcompat_select_all_description">Alle wählen</string>
   <string name="miuix_appcompat_select_item">Elemente wählen</string>
+  <string name="miuix_indexer_selected">%s ausgewählt</string>
   <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Zum Aktualisieren herunterziehen</string>
   <string name="miuix_sbl_tracking_progress_labe_refreshed">Erfolgreich aktualisiert</string>
   <string name="miuix_sbl_tracking_progress_labe_refreshing">Aktualisieren…</string>
@@ -359,6 +371,8 @@ Wichtig: Daten der einzelnen Apps werden dabei nicht in Xiaomi Cloud gesichert."
   <string name="restore_init_description">Wiederherstellung starten</string>
   <string name="restore_network_pause">Angehalten, um mobile Daten zu sparen. Tippen, um fortzufahren.</string>
   <string name="restore_network_unconnect">%s (auf Verbindung warten)</string>
+  <string name="restore_prepare_item_type_enable">Verfügbare Sicherungen</string>
+  <string name="restore_prepare_item_type_other">Andere Sicherungen</string>
   <string name="restore_task_cancelling">Abbrechen…</string>
   <string name="restore_task_in_process">Wiederherstellen…</string>
   <string name="restore_task_unfinished">Wiederherstellen nicht möglich</string>
@@ -368,7 +382,7 @@ Wichtig: Daten der einzelnen Apps werden dabei nicht in Xiaomi Cloud gesichert."
   <string name="restoring_file_title_no_progress">Apps wiederherstellen…</string>
   <string name="restoring_home_screen_apps">Aus Xiaomi Cloud wiederherstellen…</string>
   <string name="restoring_settings">Einstellungen wiederherstellen…</string>
-  <string name="retry">Wiederholen</string>
+  <string name="retry">Erneut versuchen</string>
   <string name="saturday">Samstag</string>
   <string name="saturday_short">Sa</string>
   <string name="saturday_shortest">S</string>
@@ -376,8 +390,8 @@ Wichtig: Daten der einzelnen Apps werden dabei nicht in Xiaomi Cloud gesichert."
   <string name="second_space">Zweitprofil</string>
   <string name="selected">Ausgewählt</string>
   <string name="self_device">" dieses Telefons"</string>
-  <string name="self_device_main_space">Hauptprofil des Telefons</string>
-  <string name="self_device_second_space">Zweitprofil des Telefons</string>
+  <string name="self_device_main_space">Hauptprofil</string>
+  <string name="self_device_second_space">Zweitprofil</string>
   <string name="self_phone">Dieses Telefon</string>
   <string name="self_phone_home">Dieses Telefon: %s</string>
   <string name="send">Senden</string>

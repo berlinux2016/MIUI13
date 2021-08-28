@@ -106,6 +106,9 @@
   <string name="dc_light_hint_other">DC Dimming kann die Aktualisierungsrate und die Art und Weise, wie einige Elemente angezeigt werden, beeinflussen.</string>
   <string name="dc_lignt_enable_hint">Im Anti-Flimmer-Modus wird die Bildschirmaktualisierungsrate auf 60 Hz eingestellt. In den Anti-Flimmer-Modus umschalten?</string>
   <string name="delete_first_to_add_animal">Um ein neues Element hinzuzufügen, löschen Sie zuerst eines.</string>
+  <string name="desktop_widget_authorization">Tippen, um Berechtigungen für die Statistikanzeige zu erteilen</string>
+  <string name="desktop_widget_not_support">Bildschirmzeitstatistiken werden\nnicht im Zweitprofil erstellt</string>
+  <string name="desktop_widget_screen_use_time">Bildschirmzeit</string>
   <string name="devices_type_pad">Pad</string>
   <string name="devices_type_phone">Telefon</string>
   <string name="display_description">Größere Symbole, großer Text, weniger visuelles Durcheinander</string>
@@ -164,7 +167,7 @@
   <string name="exo_track_unknown">Unbekannt</string>
   <string name="expand_button_title">Erweitert</string>
   <string name="first_unlock_time">"Erste Entsperrung: "</string>
-  <string name="fmt_chinese_date">d.M.</string>
+  <string name="fmt_chinese_date">dd.MM.</string>
   <string name="fmt_date_day">d.</string>
   <string name="fmt_date_long_month_day">d. MMMM</string>
   <string name="fmt_date_long_year_month_day">d. MMMM yyyy</string>
@@ -173,10 +176,10 @@
   <string name="fmt_date_numeric_month_day">dd.MM.</string>
   <string name="fmt_date_numeric_year_month">MM/yyyy</string>
   <string name="fmt_date_numeric_year_month_day">dd.MM.yyyy</string>
-  <string name="fmt_date_short_month">MM.</string>
-  <string name="fmt_date_short_month_day">dd.MM.</string>
+  <string name="fmt_date_short_month">MMM</string>
+  <string name="fmt_date_short_month_day">d. MMM</string>
   <string name="fmt_date_short_year_month">MMM yyyy</string>
-  <string name="fmt_date_short_year_month_day">dd.MM.yyyy</string>
+  <string name="fmt_date_short_year_month_day">d. MMM yyyy</string>
   <string name="fmt_date_time_timezone">D T z</string>
   <string name="fmt_date_timezone">D z</string>
   <string name="fmt_time_12hour">"h 'Uhr'"</string>
@@ -401,7 +404,7 @@
   <string name="red_panda">Roter Panda</string>
   <string name="reset_edit">Änderungen verwerfen</string>
   <string name="restore_default">Standardwerte wiederherstellen</string>
-  <string name="retry">Wiederholen</string>
+  <string name="retry">Erneut versuchen</string>
   <string name="rgb_space_color">RGB-Farbraum</string>
   <string name="rhinoceros_info">Das Breitmaulnashorn ist ein mächtiger Pflanzenfresser mit einem sanften Temperament. Es ist heute sehr selten und steht am Rande der Ausrottung.</string>
   <string name="ringtone_slot_setting_title">Dual SIM-Klingeltöne</string>
@@ -575,6 +578,7 @@
   <string name="unlock_times_per_day">"Tagesdurchschnitt: "</string>
   <string name="unlock_times_per_hour">"Entsperrt pro Std: "</string>
   <string name="usage_agree">Zustimmen</string>
+  <string name="usage_app_desktop_widget_limit">%s übrig</string>
   <string name="usage_app_get_it">Verstanden</string>
   <string name="usage_app_holiday_limit">Wochenende</string>
   <string name="usage_app_limit_alter_summary">Anscheinend ist dieses Zeitlimit kürzer als die Zeit, die Sie heute diese App benutzt haben. Trotzdem Limit setzen?</string>

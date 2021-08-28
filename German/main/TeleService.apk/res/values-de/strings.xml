@@ -1,14 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string name="call_fold_setting">Auf- und zuklappen</string>
-  <string name="call_fold_setting_title">Auf- und zuklappen</string>
-  <string name="fold_answer_pref_summary">Gerät zuklappen, um einen eingehenden Anruf automatisch anzunehmen</string>
-  <string name="fold_answer_pref_title">Zuklappen, um Anrufe anzunehmen</string>
-  <string name="unfold_close_camera_pref_summary">Gerät während eines Videoanrufs aufklappen, um die Kamera auszuschalten</string>
-  <string name="unfold_close_camera_pref_title">Aufklappen, um die Kamera auszuschalten</string>
-  <string name="unfold_speaker_pref_summary">Gerät während eines Anrufs aufklappen, um den Lautsprecher einzuschalten</string>
-  <string name="unfold_speaker_pref_title">Aufklappen, um den Lautsprecher zu verwenden</string>
-
   <string name="PERSOSUBSTATE_RUIM_CORPORATE_ENTRY">RUIM Firmen-PIN entsperren</string>
   <string name="PERSOSUBSTATE_RUIM_CORPORATE_ERROR">RUIM Firmenentsperrung nicht erfolgreich</string>
   <string name="PERSOSUBSTATE_RUIM_CORPORATE_IN_PROGRESS">RUIM Firmenentsperrung anfragen…</string>
@@ -373,9 +364,9 @@
   <string name="bluetooth_pairing_accept">Gekoppelt</string>
   <string name="bluetooth_pairing_accept_all_caps">KOPPELN</string>
   <string name="bluetooth_pairing_decline">Abbrechen</string>
-  <string name="bluetooth_pairing_device_down_error_message">Kann nicht mit %1$s kommunizieren</string>
-  <string name="bluetooth_pairing_error_message">Kann nicht mit %1$s koppeln</string>
-  <string name="bluetooth_pairing_pin_error_message">Kann nicht mit %1$s koppeln, weil Passwort oder Schlüssel falsch</string>
+  <string name="bluetooth_pairing_device_down_error_message">Kommunizieren mit %1$s nicht möglich</string>
+  <string name="bluetooth_pairing_error_message">Koppeln mit %1$s nicht möglich</string>
+  <string name="bluetooth_pairing_pin_error_message">Koppeln mit %1$s wegen falschen Passworts oder Schlüssels nicht möglich</string>
   <string name="bluetooth_pairing_rejected_error_message">Koppeln von %1$s zurückgewiesen</string>
   <string name="bluetooth_pairing_will_share_phonebook">Koppeln ermöglicht Zugriff auf Ihre Kontakte und die Anrufliste, wenn verbunden</string>
   <string name="bluetooth_pan_nap_profile_summary_connected">Gemeinsame Nutzung der lokalen Internetverbindung mit dem Gerät</string>
@@ -559,6 +550,8 @@ Abtastrate"</string>
   <string name="call_barring_sum">Einstellungen Sprachanrufsperre</string>
   <string name="call_category">Anrufen</string>
   <string name="call_description_recording">Anruf aufnehmen…</string>
+  <string name="call_fold_setting">Auf- und zuklappen</string>
+  <string name="call_fold_setting_title">Auf- und zuklappen</string>
   <string name="call_forward_option">Anruf umleiten</string>
   <string name="call_forwarding_number_hint">Umleiten eingehender Anrufe an</string>
   <string name="call_forwarding_settings">Rufumleitungen</string>
@@ -581,7 +574,7 @@ Abtastrate"</string>
   <string name="call_recording_notification_message_sd_unmounted">SD-Karte wurde entfernt</string>
   <string name="call_recording_notification_summary">Benachrichtigung nach Anrufaufnahme anzeigen</string>
   <string name="call_recording_notification_title">Anruf aufgenommen</string>
-  <string name="call_recording_notification_title_error">Anruf konnte nicht aufgenommen werden</string>
+  <string name="call_recording_notification_title_error">Anruf wurde nicht aufgenommen</string>
   <string name="call_recording_notification_toggle_title">Anrufaufnahmebenachrichtigung</string>
   <string name="call_recording_setting">Anrufaufnahme</string>
   <string name="call_settings">Anrufeinstellungen</string>
@@ -598,7 +591,7 @@ Abtastrate"</string>
   <string name="caller_id_title">Rufnummernanzeige</string>
   <string name="calling_via_template">Via %s anrufen</string>
   <string name="callwait_open_hint">\"Anklopfen\" ist eine Funktion, die von Ihrem Mobilfunkanbieter bereitgestellt wird. Wenn Sie eine Fehlermeldung erhalten, kontaktieren Sie Ihren Mobilfunkanbieter und stellen Sie sicher, dass diese Funktion unterstützt wird.</string>
-  <string name="can_not_use_for_not_data_sim">(Kann nicht verwendet werden: Muss als Standarddaten-SIM festgelegt sein)</string>
+  <string name="can_not_use_for_not_data_sim">(Verwenden nicht möglich: Muss als Standarddaten-SIM festgelegt sein)</string>
   <string name="cancel">Abbrechen</string>
   <string name="card_title_MOcall_forwarding">Ausgehender umgeleiteter Anruf</string>
   <string name="card_title_MTcall_forwarding">Eingehender Anruf ist umgeleitet</string>
@@ -682,10 +675,10 @@ Abtastrate"</string>
   <string name="cfu_title">Immer weiterleiten</string>
   <string name="change">Einstellen</string>
   <string name="change_cdma_capability_dialog" formatted="false">%s wird vorübergehend nicht funktionieren. Und im Falle von Anrufen, SMS oder Daten auf %s werden diese entsprechend zu %s weitergeleitet</string>
-  <string name="change_data_preference_4g_only_prompt">Sieht so aus, als hätten Sie nur eine 4G SIM-Karte. Um sicherzustellen, dass alles normal funktioniert, setzen Sie diese als Standard für mobile Daten. Jetzt einstellen?</string>
+  <string name="change_data_preference_4g_only_prompt">Anscheinend haben Sie nur eine 4G SIM-Karte. Um sicherzustellen, dass alles normal funktioniert, setzen Sie diese als Standard für mobile Daten. Jetzt einstellen?</string>
   <string name="change_data_sim_4g_only_prompt">SIM-%1$s unterstützt nur 4G. Wenn SIM-%2$s nicht Ihre Standard-SIM für mobile Daten ist, funktioniert die SIM-Karte möglicherweise nicht normal. Jetzt wechseln?</string>
   <string name="change_default_data_card">Standard-SIM-Karte für mobile Daten</string>
-  <string name="change_default_data_card_summary">Sieht so aus, als hätten Sie die SIM-Karte gewechselt. Diese SIM-Karte als Standarddatenkarte verwenden?</string>
+  <string name="change_default_data_card_summary">Anscheinend haben Sie die SIM-Karte gewechselt. Diese SIM-Karte als Standarddatenkarte verwenden?</string>
   <string name="change_num">Aktualisieren</string>
   <string name="change_password">Sperrkennwort ändern</string>
   <string name="change_pin">SIM-PIN ändern</string>
@@ -699,7 +692,7 @@ Abtastrate"</string>
   <string name="change_pin_enter_old_pin_header">Alte PIN bestätigen</string>
   <string name="change_pin_enter_old_pin_hint">PIN für Sprachnachrichten eingeben, um fortzufahren</string>
   <string name="change_pin_succeeded">PIN für Sprachnachrichten aktualisiert</string>
-  <string name="change_pin_system_error">PIN konnte nicht geändert werden</string>
+  <string name="change_pin_system_error">PIN wurde nicht geändert</string>
   <string name="change_pin_title">PIN für Sprachnachrichten ändern</string>
   <string name="charge_length_format">Vor %1$s</string>
   <string name="china_mobile_palm_category">Betreiber-Service</string>
@@ -769,8 +762,8 @@ Abtastrate"</string>
   <string name="close_profile">Schließen</string>
   <string name="close_volte">VoLTE ausschalten</string>
   <string name="cloud_antispam_title">Unbekannte Nummern identifizieren</string>
-  <string name="cloud_sim_enabled_dual_4g_summary">Kann Dual 4G nicht ausschalten, während Mi Roaming verwendet wird</string>
-  <string name="cloud_sim_enabled_preferred_network_summary">Kann Netzwerkeinstellungen während der Verwendung von Mi Roaming nicht ändern</string>
+  <string name="cloud_sim_enabled_dual_4g_summary">Dual 4G ausschalten nicht möglich, während Mi Roaming verwendet wird</string>
+  <string name="cloud_sim_enabled_preferred_network_summary">Netzwerkeinstellungen ändern nicht möglich, während Mi Roaming verwendet wird</string>
   <string name="cmcc_ut_data_enable_prompt">Dieser Dienst erfordert eine mobile Datenverbindung, Eisnchalten zum Fortfahren.</string>
   <string name="command_error_fdn_failure">Sie müssen erst Rufnummernbeschränkung (FDN) ausschalten</string>
   <string name="config_default_data_sim">Einstellungen</string>
@@ -794,13 +787,13 @@ Abtastrate"</string>
   <string name="connected_via_passpoint">Verbunden via %1$s</string>
   <string name="connected_via_wfa">Verbunden via WLAN Assistent</string>
   <string name="connection_service_default_label">Integrierter Verbindungsdienst</string>
-  <string name="contactAddFailed">Kontakt konnte nicht zu SIM hinzugefügt werden</string>
+  <string name="contactAddFailed">Kontakt wurde nicht zur SIM hinzugefügt</string>
   <string name="contactAddSuccess">Kontakt zu SIM hinzugefügt</string>
   <string name="contactPhoto">Kontaktfoto</string>
   <string name="contactScreen">SIM-Kontakte verwalten</string>
-  <string name="contactUpdateFailed">SIM-Kontakt konnte nicht aktualisiert werden</string>
+  <string name="contactUpdateFailed">SIM-Kontakt wurde nicht aktualisiert</string>
   <string name="contactUpdateSuccess">SIM-Kontakt erfolgreich aktualisiert</string>
-  <string name="contactdeleteFailed">SIM-Kontakt konnte nicht gelöscht werden</string>
+  <string name="contactdeleteFailed">SIM-Kontakt wurde nicht gelöscht</string>
   <string name="contactdeleteSuccess">SIM-Kontakt erfolgreich gelöscht</string>
   <string name="content_description_menu_button">Menü</string>
   <string name="convert_to_fbe_warning">"Datenpartition wird in dateibasierte Verschlüsselung konvertiert.
@@ -846,8 +839,8 @@ Mobile Daten trotzdem nutzen?"</string>
   <string name="date_time_picker_dialog_title">Datum und Zeit einstellen</string>
   <string name="dc_alert_dialog_message">Einige Apps benötigen eine mobile Datenverbindung. Sie können sich mit Ihrem Mobilfunkanbieter in Verbindung setzen, um zu erfahren, welche %s Ihnen zur Verfügung stehen.</string>
   <string name="dc_alert_dialog_title">Datenverbrauchswarnung</string>
-  <string name="dds_switch_warning_message_data_off">Konnte SIM %1$s nicht finden. SIM %2$s ist jetzt als Standard für Mobile Daten eingestellt. Mobile Daten sind nun ausgeschaltet.</string>
-  <string name="dds_switch_warning_message_data_on">Konnte SIM %1$s nicht finden. SIM %2$s ist jetzt als Standard für Mobile Daten eingestellt. Mobile Daten werden abgeschaltet, um unnötige Kosten zu vermeiden.</string>
+  <string name="dds_switch_warning_message_data_off">SIM %1$s nicht gefunden. SIM %2$s ist jetzt als Standard für mobile Daten eingestellt. Mobile Daten sind nun ausgeschaltet.</string>
+  <string name="dds_switch_warning_message_data_on">SIM %1$s nicht gefunden. SIM %2$s ist jetzt als Standard für mobile Daten eingestellt. Mobile Daten werden abgeschaltet, um unnötige Kosten zu vermeiden.</string>
   <string name="deactivate_all">Alle abbrechen</string>
   <string name="debug_app">Debugapp auswählen</string>
   <string name="debug_app_not_set">Keine Debug-App gesetzt</string>
@@ -914,7 +907,7 @@ Mobile Daten trotzdem nutzen?"</string>
   <string name="dialog_network_priority_title">Vorrangiges Netzwerk</string>
   <string name="dialog_ota_change_number_fail">Rufnummer ändern nicht möglich. Wenn dieser Fehler nach einem erneuten Versuch wieder auftritt, wenden Sie sich an Ihren Verkäufer.</string>
   <string name="dialog_ota_change_number_lgu">USIM jetzt herunterladen?</string>
-  <string name="dialog_ota_change_number_lgu_roaming">Telefonnummern im Ausland ändern nicht möglich.</string>
+  <string name="dialog_ota_change_number_lgu_roaming">Rufnummern im Ausland ändern nicht möglich.</string>
   <string name="dialog_ota_change_number_processing">USIM herunterladen…</string>
   <string name="dialog_ota_change_number_success">Rufnummer erfolgreich geändert</string>
   <string name="dialog_report">Bericht</string>
@@ -1107,7 +1100,7 @@ Mobile Daten trotzdem nutzen?"</string>
   <string name="fiveg_restrict_dcnr1">DCNR beschränken:</string>
   <string name="fiveg_sa_switch_open_dialog_content">5G-Verbindung kann im Standalone-Modus instabil sein, was sich auf die Telefonie auswirken kann. SA-Modus trotzdem einschalten?</string>
   <string name="fiveg_sa_switch_open_dialog_title">Achtung</string>
-  <string name="fiveg_sa_switch_summary">Verbindung mit 5G im Standalone-Modus zulassen</string>
+  <string name="fiveg_sa_switch_summary">SA-Netzwerk auf sekundärer SIM verwenden (nur zum Testen)</string>
   <string name="fiveg_sa_switch_title">SA-Netzwerk nutzen</string>
   <string name="fiveg_sa_switch_title_slot0">SIM %d SA-Modus</string>
   <string name="fiveg_sa_switch_title_slot1">SIM %d SA-Modus</string>
@@ -1119,7 +1112,7 @@ Mobile Daten trotzdem nutzen?"</string>
   <string name="fiveg_upperlayer_indication1">Upper Layer Indication Status:</string>
   <string name="flash_when_ring_summary">Blitz verwenden, um über eingehende Anrufe informiert zu werden.</string>
   <string name="flash_when_ring_title">Beim Klingeln blinken lassen</string>
-  <string name="fmt_chinese_date">d.M.</string>
+  <string name="fmt_chinese_date">dd.MM.</string>
   <string name="fmt_date_day">d.</string>
   <string name="fmt_date_long_month_day">d. MMMM</string>
   <string name="fmt_date_long_year_month_day">d. MMMM yyyy</string>
@@ -1128,10 +1121,10 @@ Mobile Daten trotzdem nutzen?"</string>
   <string name="fmt_date_numeric_month_day">dd.MM.</string>
   <string name="fmt_date_numeric_year_month">MM/yyyy</string>
   <string name="fmt_date_numeric_year_month_day">dd.MM.yyyy</string>
-  <string name="fmt_date_short_month">MM.</string>
-  <string name="fmt_date_short_month_day">dd.MM.</string>
+  <string name="fmt_date_short_month">MMM</string>
+  <string name="fmt_date_short_month_day">d. MMM</string>
   <string name="fmt_date_short_year_month">MMM yyyy</string>
-  <string name="fmt_date_short_year_month_day">dd.MM.yyyy</string>
+  <string name="fmt_date_short_year_month_day">d. MMM yyyy</string>
   <string name="fmt_date_time_timezone">D T z</string>
   <string name="fmt_date_timezone">D z</string>
   <string name="fmt_time_12hour">"h 'Uhr'"</string>
@@ -1143,6 +1136,8 @@ Mobile Daten trotzdem nutzen?"</string>
   <string name="fmt_weekday_date_timezone">W, D z</string>
   <string name="fmt_weekday_time_timezone">W T z</string>
   <string name="fmt_weekday_timezone">W z</string>
+  <string name="fold_answer_pref_summary">Gerät zuklappen, um einen eingehenden Anruf automatisch anzunehmen</string>
+  <string name="fold_answer_pref_title">Zuklappen, um Anrufe anzunehmen</string>
   <string name="forbidden_network">(verboten)</string>
   <string name="force_allow_on_external">Erzwingen, dass Apps auf externen Speicher schreiben</string>
   <string name="force_allow_on_external_summary">Ermöglicht das Schreiben jeder App auf externen Speicher, unabhängig von Manifestwerten</string>
@@ -1167,7 +1162,7 @@ Mobile Daten trotzdem nutzen?"</string>
   <string name="full_forwarding_option_off">AUS</string>
   <string name="full_forwarding_option_voicemail">Sprachnachricht</string>
   <string name="full_forwarding_settings">Vollständige Weiterleitung</string>
-  <string name="fw_change_failed">"Rufumleitungsnummer konnte nicht geändert werden.
+  <string name="fw_change_failed">"Rufumleitungsnummer wurde nicht geändert.
 Kontaktieren Sie Ihren Mobilfunkanbieter, falls das Problem weiterhin besteht."</string>
   <string name="fw_get_in_vm_failed">"Aktuelle Rufumleitungseinstellungen wurden nicht empfangen oder gespeichert.
 Trotzdem zum neuen Mobilfunkanbieter wechseln?"</string>
@@ -1227,7 +1222,7 @@ Trotzdem zum neuen Mobilfunkanbieter wechseln?"</string>
   <string name="incall_error_promote_wfc">WLAN-Anrufe einschalten, um einen Anruf zu tätigen</string>
   <string name="incall_error_supp_service_conference">Telefonkonferenz nicht möglich</string>
   <string name="incall_error_supp_service_hangup">Gespräch beenden nicht möglich</string>
-  <string name="incall_error_supp_service_hold">Kann keine Anrufe halten</string>
+  <string name="incall_error_supp_service_hold">Anrufe halten nicht möglich</string>
   <string name="incall_error_supp_service_reject">Gespräche abweisen nicht möglich</string>
   <string name="incall_error_supp_service_resume">Anruf kann nicht wieder aufgenommen werden</string>
   <string name="incall_error_supp_service_separate">Gespräche trennen nicht möglich</string>
@@ -1262,7 +1257,7 @@ Trotzdem zum neuen Mobilfunkanbieter wechseln?"</string>
   <string name="ivr_parameter_settings">IVR-Parametereinstellungen</string>
   <string name="ivr_type_settings">Datentarifeinstellungen</string>
   <string name="ivr_type_settings_hint">Datentarifcode eingeben</string>
-  <string name="jump_to_mobile_network_setting">Mobile Netzwerkeinstellungen</string>
+  <string name="jump_to_mobile_network_setting">Einstellungen Mobilfunknetz</string>
   <string name="kddi_sim_lock_status_allowed">Erlaubt</string>
   <string name="kddi_sim_lock_status_no_sim">Keine SIM-Karte</string>
   <string name="kddi_sim_lock_status_not_allowed">Nicht erlaubt</string>
@@ -1411,6 +1406,8 @@ Notrufe sind nur in Gebieten mit Mobilfunkversorgung möglich."</string>
   <string name="menu_dial">Kontakt anwählen</string>
   <string name="menu_dial_string">Anruf</string>
   <string name="menu_edit">Kontakt bearbeiten</string>
+  <string name="menu_new_display_open">In neuem Fenster öffnen</string>
+  <string name="menu_pc_open">Mit Computerprogramm öffnen</string>
   <string name="messageCFB">Nummer falls besetzt</string>
   <string name="messageCFNRc">Nummer nicht erreichbar</string>
   <string name="messageCFNRc_kr_kt">"Netzdienst, der alle eingehenden Anrufe und Textnachrichten an eine bestimmte Nummer umleitet, wenn Sie keine Anrufe annehmen können (z. B. wenn Sie telefonieren oder Ihr Gerät ausgeschaltet ist). Sie müssen diesen Dienst abonnieren. Wenden Sie sich ans Kundenzentrum (114+[Senden]), um diesen Dienst zu abonnieren oder abzubestellen. *72+[Nummer zur Weiterleitung von Anrufen an][Senden] eingeben zum Aktivieren oder *720[Senden] zum Deaktivieren.
@@ -1418,8 +1415,8 @@ Notrufe sind nur in Gebieten mit Mobilfunkversorgung möglich."</string>
 Nummer, wenn nicht erreichbar"</string>
   <string name="messageCFNRy">Nummer falls unbeantwortet</string>
   <string name="messageCFU">Immer diese Nummer verwenden</string>
-  <string name="messageCFU_kr" formatted="false">Netzdienst, der alle eingehenden Anrufe und Textnachrichten an eine bestimmte Nummer umleitet. Sie müssen diesen Dienst abonnieren. Ihnen wird eine monatliche Grundgebühr berechnet. Wenden Sie sich an das Kundenzentrum (114+[Senden]), um diesen Dienst zu abonnieren oder abzubestellen. %s+[Nummer zum Anrufe weiterleiten][Senden] eingeben zum Aktivieren oder %s[Senden] zum Deaktivieren.</string>
-  <string name="messageCFU_kr_kt">"Netzdienst, der alle eingehenden Anrufe und Textnachrichten an eine bestimmte Nummer umleitet. Sie müssen diesen Dienst abonnieren. Ihnen wird eine monatliche Grundgebühr berechnet. Wenden Sie sich ans Kundenzentrum (114+[Senden]), um diesen Dienst zu abonnieren oder abzubestellen. *71+[Nummer zur Weiterleitung von Anrufen an][Senden] eingeben zum Aktivieren oder *710[Senden] zum Deaktivieren.
+  <string name="messageCFU_kr" formatted="false">Netzdienst, der alle eingehenden Anrufe und Textnachrichten an eine bestimmte Nummer umleitet. Sie müssen diesen Dienst abonnieren. Ihnen wird ein monatlicher Grundpreis berechnet. Wenden Sie sich an das Kundenzentrum (114+[Senden]), um diesen Dienst zu abonnieren oder abzubestellen. %s+[Nummer zum Anrufe weiterleiten][Senden] eingeben zum Aktivieren oder %s[Senden] zum Deaktivieren.</string>
+  <string name="messageCFU_kr_kt">"Netzdienst, der alle eingehenden Anrufe und Textnachrichten an eine bestimmte Nummer umleitet. Sie müssen diesen Dienst abonnieren. Ihnen wird ein monatlicher Grundpreis berechnet. Wenden Sie sich ans Kundenzentrum (114+[Senden]), um diesen Dienst zu abonnieren oder abzubestellen. *71+[Nummer zur Weiterleitung von Anrufen an][Senden] eingeben zum Aktivieren oder *710[Senden] zum Deaktivieren.
 
 Immer diese Nummer verwenden"</string>
   <string name="messageCW_kr" formatted="false">Kostenloser Netzdienst, mit dem Sie während eines Anrufs einen zweiten annehmen können, wobei der erste Anruf gehalten wird. %s[Senden] eingeben zum Aktivieren oder %s[Senden] zum Deaktivieren.</string>
@@ -1478,7 +1475,7 @@ Immer diese Nummer verwenden"</string>
   <string name="mobile_advanced_ip_address_title">IP-Adresse</string>
   <string name="mobile_advanced_nr_network_title">5G-Netzwerk</string>
   <string name="mobile_connection_management">Mobile Netwerkverbindung verwalten</string>
-  <string name="mobile_property">Mobile Netzwerkverbindungseigenschaften</string>
+  <string name="mobile_property">Verbindungseigenschaften Mobilfunknetz</string>
   <string name="mobile_data">Mobile Daten</string>
   <string name="mobile_data_activate_button">DATEN HINZUFÜGEN</string>
   <string name="mobile_data_activate_cancel_button">ABBRECHEN</string>
@@ -1499,14 +1496,14 @@ Immer diese Nummer verwenden"</string>
   <string name="mobile_data_status_roaming_turned_on_subtext">Datenroaming ist an</string>
   <string name="mobile_data_status_roaming_with_plan_subtext">Derzeit Roaming, Datentarif ist aktiv</string>
   <string name="mobile_data_status_roaming_without_plan_subtext">Derzeit Roaming, Datentarif benötigt</string>
-  <string name="mobile_geo_location_config_summary">Anormale Standorte von Netzwerksignalen markieren, um die Benutzer-Kommunikation zu verbessern</string>
-  <string name="mobile_geo_location_config_title">Festpunkt-Netzwerkqualitätsoptimierung</string>
-  <string name="mobile_intelligent_connection_title">Intelligente Netzwerkverbindung</string>
-  <string name="mobile_network_dual_card_optimizationmobile_title">Mobilnetzoptimierung für zwei Karten</string>
+  <string name="mobile_geo_location_config_summary">Orte markieren, an denen Netzwerksignalabweichungen auftreten, um die Gesprächsqualität zu verbessern</string>
+  <string name="mobile_geo_location_config_title">Festpunkt-Netzwerkoptimierung</string>
+  <string name="mobile_intelligent_connection_title">Netzwerkverbindung optimieren</string>
+  <string name="mobile_network_dual_card_optimizationmobile_title">Dual SIM &amp; Mobilfunknetze</string>
   <string name="mobile_network_settings_not_available">Mobilfunkeinstellungen sind für diesen Benutzer nicht verfügbar</string>
   <string name="mobile_networks">Einstellungen Mobilfunknetz</string>
-  <string name="mobile_special_network_optimization_config_summary">Intelligente Erkennung mehrerer Netzwerk-Szenarien zur Verbesserung des Kommunikationserlebnisses</string>
-  <string name="mobile_special_network_optimization_config_title">Szenenadaptiver Modus</string>
+  <string name="mobile_special_network_optimization_config_summary">Verbesserung der Gesprächsqualität durch autom. Anpassung an unterschiedliche Szenen</string>
+  <string name="mobile_special_network_optimization_config_title">An unterschiedliche Szenen anpassen</string>
   <string name="mock_location_app">App für Scheinstandorte auswählen</string>
   <string name="mock_location_app_not_set">Keine App für Scheinstandorte ausgewählt</string>
   <string name="mock_location_app_set">App für Scheinstandorte: %1$s</string>
@@ -1614,7 +1611,7 @@ Immer diese Nummer verwenden"</string>
   <string name="multi_category_enable">Multikategorie aktiviert</string>
   <string name="national_disable">Nationale Nachrichten ausgeschaltet</string>
   <string name="national_enable">Nationale Nachrichten eingeschaltet</string>
-  <string name="netcheck_title">Mobile Netzwerkdiagnostik</string>
+  <string name="netcheck_title">Mobilfunknetzdiagnostik</string>
   <string name="network_4G">4G (empfohlen)</string>
   <string name="network_active">Aktive Netzwerke</string>
   <string name="network_available">Verfügbare Netzwerke</string>
@@ -1643,7 +1640,7 @@ Immer diese Nummer verwenden"</string>
   <string name="network_settings_next">Weiter</string>
   <string name="network_settings_query_failed_message">Suche nach Mobilfunknetzen nicht möglich</string>
   <string name="network_settings_sel_sub">SUBS-Einstellungen</string>
-  <string name="network_settings_select_automatic_hint">Kann nicht mit dem ausgewählten Netz verbinden. Werde stattdessen bevorzugtes Netz nutzen.</string>
+  <string name="network_settings_select_automatic_hint">Verbindung mit dem ausgewählten Netz nicht möglich. Stattdessen bevorzugtes Netz nutzen.</string>
   <string name="network_settings_title">Mobilfunknetze</string>
   <string name="network_settings_turn_off">Aus</string>
   <string name="network_settings_warn_message">Ihr Gerät wird sich nur mit manuell gewählten Netzen verbinden.</string>
@@ -1725,7 +1722,7 @@ Kontaktieren Sie Ihren Mobilfunkanbieter."</string>
   <string name="onscreenSwapCallsText">Tauschen</string>
   <string name="onscreenVideoCallText">Videoanruf</string>
   <string name="open_miui">Einschalten</string>
-  <string name="opened_dual_4g_confirm_prompt">Sieht so aus, als hätten Sie nur eine 4G SIM-Karte. Dual 4G wurde automatisch eingeschaltet.</string>
+  <string name="opened_dual_4g_confirm_prompt">Anscheinend haben Sie nur eine 4G SIM-Karte. Dual 4G wurde automatisch eingeschaltet.</string>
   <string name="opened_dual_4g_confirm_prompt_with_sim">SIM-%1$s unterstützt nur 4G. Um sicherzustellen, dass Ihre SIM-Karte normal funktioniert, wurde Dual 4G eingeschaltet.</string>
   <string name="operation_successfully">Fertig</string>
   <string name="operator">Mobilfunkanbieter</string>
@@ -1736,7 +1733,7 @@ Kontaktieren Sie Ihren Mobilfunkanbieter."</string>
   <string name="osu_sign_up_failed">Anmeldung wurde nicht abgeschlossen. Zum Wiederholen tippen.</string>
   <string name="ota_activate">Aktivieren</string>
   <string name="ota_call_end">Zurück</string>
-  <string name="ota_failure">Ihr Telefon konnte nicht programmiert werden.</string>
+  <string name="ota_failure">Ihr Telefon wurde nicht programmiert.</string>
   <string name="ota_hfa_activation_dialog_message">Mobiler Datendienst wird jetzt auf Ihrem Telefon aktiviert.
   Dies kann bis zu 5 Minuten dauern.</string>
   <string name="ota_hfa_activation_title">Aktivieren…</string>
@@ -1817,8 +1814,8 @@ Erneut versuchen oder den Kundendienst für weitere Optionen anrufen."</string>
   <string name="phone_accounts_choose_accounts">Konto wählen</string>
   <string name="phone_accounts_configure_account_settings">Kontoeinstellungen konfigurieren</string>
   <string name="phone_accounts_default_account_label">Netzwerk nicht verfügbar</string>
-  <string name="phone_accounts_make_calls_with">Anrufe machen mit </string>
-  <string name="phone_accounts_make_sip_calls_with">SIP-Anrufe machen mit</string>
+  <string name="phone_accounts_make_calls_with">Anrufen mit</string>
+  <string name="phone_accounts_make_sip_calls_with">SIP-Anrufe tätigen mit</string>
   <string name="phone_accounts_selection_header">Telefonkonten</string>
   <string name="phone_accounts_settings_header">Einstellungen</string>
   <string name="phone_entered_ecm_text">Notfallrückrufmodus einschalten</string>
@@ -2102,6 +2099,9 @@ UT-Schnittstelle: %5$s"</string>
   <string name="reject_via_sms">Kurzantworten</string>
   <string name="reject_via_sms_summary">Vorlagen bearbeiten</string>
   <string name="reject_via_sms_title">Kurzantworten</string>
+  <string name="relay_call_answered_by_other_devices">Dieser Anruf wurde von einem anderen Gerät angenommen.</string>
+  <string name="relay_call_released_due_to_connect_lost">Verbindung unterbrochen. Mit dem Anruf auf dem anderen Gerät fortfahren.</string>
+  <string name="relay_connection_service_label">Integrierter RELAY-Anruf</string>
   <string name="remaining_length_format">%1$s übrig</string>
   <string name="reminder">Erinnerung</string>
   <string name="remove">Löschen</string>
@@ -2168,7 +2168,7 @@ UT-Schnittstelle: %5$s"</string>
   <string name="roaming_enable">Stellen Sie beim Roaming eine Verbindung mit dem mobilen Datendienst her</string>
   <string name="roaming_enabled_message">Roaming-Kosten können anfallen. Tippen zum Ändern.</string>
   <string name="roaming_notification_content">Sie können Ländercodes automatisch hinzufügen, um das Wählen komfortabler zu machen</string>
-  <string name="roaming_notification_title">Sieht so aus, als sei Roaming aktiv</string>
+  <string name="roaming_notification_title">Anscheinend ist Roaming aktiv</string>
   <string name="roaming_on_notification_title">Datenroaming ist eingeschaltet </string>
   <string name="roaming_reenable_message">Versuchen Sie, mit Roaming wieder eine Verbindung herzustellen.</string>
   <string name="roaming_user_package_summary_kr">Kaufen, stornieren und bearbeiten Sie Ihr Roaming-Paket. Die Nutzung dieses Menüs während des Roamings wird Ihnen nicht berechnet.</string>
@@ -2262,6 +2262,7 @@ UT-Schnittstelle: %5$s"</string>
   <string name="sim_contact_number">Nummer</string>
   <string name="sim_description_default">SIM-Karte, Slot: %s</string>
   <string name="sim_description_emergency_calls">Nur Notrufe</string>
+  <string name="sim_fiveg_network_title">SIM%1$s %2$s</string>
   <string name="sim_is_not_ready">SIM-Karte ist nicht bereit</string>
   <string name="sim_label_emergency_calls">Notrufe</string>
   <string name="sim_me_lock_disabled">SIM-Sperre ist ausgeschaltet</string>
@@ -2324,7 +2325,7 @@ UT-Schnittstelle: %5$s"</string>
   <string name="skt_msim_emm_cause_7_8_15">SIM %d wurde nicht am Netz angemeldet. Gerät ausschalten, wieder einschalten und erneut versuchen. Wenn dieses Problem danach immer noch auftritt, wenden Sie sich an den Kundendienst (1599-0011).</string>
   <string name="smart_divert_summary">CFNRc Einstellungen</string>
   <string name="smart_divert_title">Smart Divert/Kluge Rufumleitung</string>
-  <string name="smart_dual_sim_prompt">Ihr Gerät stellt über die zweite SIM-Karte eine Verbindung zu einem mobilen Datennetz her, wenn die aktuelle Verbindung schlecht ist. Dies kann zusätzliche Datengebühren verursachen. Legen Sie ein Limit für die Datennutzung fest, um zusätzliche Kosten zu vermeiden.</string>
+  <string name="smart_dual_sim_prompt">Ihr Gerät stellt über die zweite SIM-Karte eine Verbindung zu einem mobilen Datennetz her, wenn die aktuelle Verbindung schlecht ist. Dies kann zusätzliche Datenkosten verursachen. Legen Sie ein Limit für die Datennutzung fest, um zusätzliche Kosten zu vermeiden.</string>
   <string name="smart_dual_sim_prompt_ok">Einstellungen</string>
   <string name="smart_dual_sim_prompt_title">Datenverbrauchswarnung (SIM %s)</string>
   <string name="smart_dual_sim_summary">Auf die zweite SIM-Karte wechseln und deren mobile Daten automatisch nutzen, wenn die aktuelle Konnektivität schlecht ist. Wenn sich die Konnektivität verbessert, wieder auf die ursprüngliche SIM-Karte wechseln.</string>
@@ -2604,12 +2605,16 @@ Nächster Datenzeitraum startet in %2$d Tagen (%3$s)"</string>
   <string name="tuesday">Dienstag</string>
   <string name="tuesday_short">Di</string>
   <string name="tuesday_shortest">D</string>
-  <string name="turn_off_dual_4g_failed">Dual 4G konnte nicht ausgeschaltet werden</string>
-  <string name="turn_on_dual_4g_failed">Dual 4G konnte nicht aktiviert werden</string>
+  <string name="turn_off_dual_4g_failed">Dual 4G wurde nicht ausgeschaltet</string>
+  <string name="turn_on_dual_4g_failed">Dual 4G wurde nicht aktiviert</string>
   <string name="turnover_mute_summary">Wenn sich das Telefon auf einer horizontalen Fläche mit dem Bildschirm nach oben befindet, drehen sie es um, dann wird der Ton, die Vibration und die Benachrichtigungsleuchte ausgeschaltet.</string>
   <string name="turnover_mute_title">Umdrehen für lautlos</string>
   <string name="unblock_pin2">PIN2 entsperren</string>
   <string name="undefined">Keine</string>
+  <string name="unfold_close_camera_pref_summary">Gerät während eines Videoanrufs aufklappen, um die Kamera auszuschalten</string>
+  <string name="unfold_close_camera_pref_title">Aufklappen, um die Kamera auszuschalten</string>
+  <string name="unfold_speaker_pref_summary">Gerät während eines Anrufs aufklappen, um den Lautsprecher einzuschalten</string>
+  <string name="unfold_speaker_pref_title">Aufklappen, um den Lautsprecher zu verwenden</string>
   <string name="unknown">Unbekannt</string>
   <string name="unlock_chances_left">Verbleibende Versuche:</string>
   <string name="unlock_failed">Anfrage Netzwerkentsperrung nicht erfolgreich</string>
@@ -2661,8 +2666,8 @@ Jeder Benutzer kann Apps für alle anderen Benutzer aktualisieren."</string>
   <string name="vibrate_after_connected_title">Vibrieren wenn verbunden</string>
   <string name="vibrating_for_outgoing_call_accepted_summary">Vibrationsmodus für ausgehenden angenommenen Anruf aktivieren</string>
   <string name="vibrating_for_outgoing_call_accepted_title">Vibration für ausgehenden angenommenen Anruf</string>
-  <string name="vice_card_data_in_use_alert">Es können zusätzliche Datengebühren anfallen.</string>
-  <string name="vice_slot_volte_data_switch_prompt">Ihr Gerät verbindet sich mit einem mobilen Datennetz mit SIM2 während laufender VoLTE-Anrufe. Dadurch können zusätzliche Datengebühren entstehen. Wenden Sie sich an Ihren lokalen Mobilfunkanbieter, um Details zu Ihrem Datentarif zu erfahren.</string>
+  <string name="vice_card_data_in_use_alert">Es können zusätzliche Datenkosten anfallen.</string>
+  <string name="vice_slot_volte_data_switch_prompt">Ihr Gerät verbindet sich mit einem mobilen Datennetz mit SIM2 während laufender VoLTE-Anrufe. Dadurch können zusätzliche Datenkosten entstehen. Wenden Sie sich an Ihren lokalen Mobilfunkanbieter, um Details zu Ihrem Datentarif zu erfahren.</string>
   <string name="vice_slot_volte_data_switch_summary">Während VoLTE-Anrufen verbindet sich das Gerät mit einem mobilen Datennetz mit SIM2.</string>
   <string name="vice_slot_volte_data_switch_title">Nutzung mobiler Daten bei VoLTE-Anrufen mit SIM2</string>
   <string name="video_calling_settings_title">Mobilfunkanbieter Videoanruf</string>
@@ -2875,6 +2880,8 @@ Speicherung von Anmeldedaten ist möglicherweise nicht möglich."</string>
   <string name="wild_prompt_str">Platzhalter ersetzen mit</string>
   <string name="window_animation_scale_title">Fensteranimation</string>
   <string name="wrong_password">Eingegebenes Passwort ist falsch</string>
+  <string name="xcap_setting_summary">Anrufsperre, Sprachnachricht &amp; Anrufweiterleitung und Anklopfen</string>
+  <string name="xcap_setting_title">Einstellungen Anrufdienste</string>
   <string name="xdivert_summary">CFNRc-Einstellungen</string>
   <string name="xdivert_title">Rufumleitung</string>
   <string name="yesterday">Gestern</string>

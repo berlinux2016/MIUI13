@@ -194,7 +194,7 @@
   <string name="bh_perm_desc_read_contacts">Zum Anzeigen von Kontakten während des Aufladens</string>
   <string name="bh_permission_get_accounts_desc">Für Bestellungen und deren Statusprüfung</string>
   <string name="bh_permission_read_call_log_desc">Zur Anzeige der Gesprächsdauer</string>
-  <string name="bh_permission_read_phone_state_desc">Für die Anzeige von Telefonnummern und zugehörigen Anbieterinfos</string>
+  <string name="bh_permission_read_phone_state_desc">Für die Anzeige von Rufnummern und zugehörigen Anbieterinfos</string>
   <string name="bh_personal_center">Profil anzeigen</string>
   <string name="bh_phone_card_order">SIM-Karte</string>
   <string name="bh_pkg_data_cant_query">Details anzeigen wegen Anbieterbeschränkungen nicht möglich</string>
@@ -224,8 +224,8 @@
   <string name="bh_status_activating"><Data>&lt;font color =#0D84FF>Aktivieren&lt;/font></Data></string>
   <string name="bh_system_recommend">Systemempfehlungen</string>
   <string name="bh_system_recommend_des">Erlauben Sie uns, Ihren Datenverkehr zu analysieren und basierend auf den Ergebnissen digitale Produkte zu empfehlen</string>
-  <string name="bh_tag_phones">Häufig verwendete Telefonnummern</string>
-  <string name="bh_tags_number_exceed">Mehr Telefonnummern speichern nicht  möglich</string>
+  <string name="bh_tag_phones">Häufig verwendete Rufnummern</string>
+  <string name="bh_tags_number_exceed">Mehr Rufnummern speichern nicht  möglich</string>
   <string name="bh_text_buy_time">Bestellung angelegt</string>
   <string name="bh_text_charge_name">Betrag</string>
   <string name="bh_text_no_order">Keine Bestellungen hier</string>
@@ -307,13 +307,13 @@
   <string name="call_pager">Anruf (Pager)</string>
   <string name="call_problem_report">Problem melden</string>
   <string name="call_radio">Anruf (Funk)</string>
-  <string name="call_record_add_numbers">Telefonnummern hinzufügen</string>
+  <string name="call_record_add_numbers">Rufnummern hinzufügen</string>
   <string name="call_record_auto_always">Alle Anrufe</string>
   <string name="call_record_auto_scenario_title">Aufgenommene Anrufe</string>
   <string name="call_record_auto_summary">Anrufe automatisch aufzeichnen</string>
   <string name="call_record_auto_title">Automatisch aufzeichnen</string>
   <string name="call_record_auto_unknown_number">Unbekannte Nummer</string>
-  <string name="call_record_auto_whitelist">Ausgewählte Telefonnummern</string>
+  <string name="call_record_auto_whitelist">Ausgewählte Rufnummern</string>
   <string name="call_record_content_search">Sprachanrufe suchen</string>
   <string name="call_record_content_search_summary">Anrufe automatisch aufzeichnen und umwandeln, um in der Lage zu sein, die Anrufe zu finden, bei denen bestimmte Wörter erwähnt wurden</string>
   <string name="call_record_content_summary">Um Ihre Privatsphäre zu schützen, werden die Audioaufzeichnungen Ihrer Anrufe zusammen mit dem umgewandelten Text verschlüsselt und lokal auf Ihrem Gerät gespeichert. Andere Apps werden nicht auf diese Elemente zugreifen können.</string>
@@ -381,7 +381,7 @@
   <string name="callrecordview_menu_delete_sim">%s Anrufliste löschen</string>
   <string name="callrecordview_menu_delete_stranger">Unbekannte Anrufe löschen</string>
   <string name="callrecordview_menu_edit_call_note">Anrufnotiz ändern</string>
-  <string name="callrecordview_menu_identify_numbers">Telefonnummern ermitteln</string>
+  <string name="callrecordview_menu_identify_numbers">Rufnummern ermitteln</string>
   <string name="callrecordview_menu_ip">Autom. IP wählen</string>
   <string name="callrecordview_menu_livetalk">Aufladepaket</string>
   <string name="callrecordview_menu_mobiledata">Datenpaket kaufen</string>
@@ -784,7 +784,7 @@ Grund: \"%s\""</string>
   <string name="favorites_list_empty">Keine Favoriten</string>
   <string name="firewall_setting">Sperrliste</string>
   <string name="flow_use_analyse">Nutzungsstatistik</string>
-  <string name="fmt_chinese_date">d.M.</string>
+  <string name="fmt_chinese_date">dd.MM.</string>
   <string name="fmt_date_day">d.</string>
   <string name="fmt_date_long_month_day">d. MMMM</string>
   <string name="fmt_date_long_year_month_day">d. MMMM yyyy</string>
@@ -793,10 +793,10 @@ Grund: \"%s\""</string>
   <string name="fmt_date_numeric_month_day">dd.MM.</string>
   <string name="fmt_date_numeric_year_month">MM/yyyy</string>
   <string name="fmt_date_numeric_year_month_day">dd.MM.yyyy</string>
-  <string name="fmt_date_short_month">MM.</string>
-  <string name="fmt_date_short_month_day">dd.MM.</string>
+  <string name="fmt_date_short_month">MMM</string>
+  <string name="fmt_date_short_month_day">d. MMM</string>
   <string name="fmt_date_short_year_month">MMM yyyy</string>
-  <string name="fmt_date_short_year_month_day">dd.MM.yyyy</string>
+  <string name="fmt_date_short_year_month_day">d. MMM yyyy</string>
   <string name="fmt_date_time_timezone">D T z</string>
   <string name="fmt_date_timezone">D z</string>
   <string name="fmt_time_12hour">"h 'Uhr'"</string>
@@ -902,12 +902,12 @@ Grund: \"%s\""</string>
   <string name="listTotalAllContactsZeroCustom">Keine sichtbaren Kontakte</string>
   <string name="listTotalAllContactsZeroGroup">Keine Kontakte in %s</string>
   <string name="listTotalAllContactsZeroStarred">Keine Favoriten</string>
-  <string name="listTotalPhoneContactsZero">Keine Kontakte mit Telefonnummern</string>
+  <string name="listTotalPhoneContactsZero">Keine Kontakte mit Rufnummern</string>
   <string name="list_filter_all_accounts">Alle Kontakte</string>
   <string name="list_filter_all_starred">Favoriten</string>
   <string name="list_filter_custom">Benutzerdefiniert</string>
   <string name="list_filter_customize">Anpassen</string>
-  <string name="list_filter_phones">Alle Kontakte mit Telefonnummern</string>
+  <string name="list_filter_phones">Alle Kontakte mit Rufnummern</string>
   <string name="list_filter_single">Kontakt</string>
   <string name="loading_accounts">Einen Moment…</string>
   <string name="loading_group_members">Einen Moment…</string>
@@ -1134,7 +1134,7 @@ Grund: \"%s\""</string>
   <string name="noAccounts">Um Gruppen erstellen zu können, benötigen Sie ein Konto</string>
   <string name="noContactHelpTextImportXiaomiAccountInfo">Kontakte vom Mi-Konto wiederherstellen</string>
   <string name="noContacts">Keine Kontakte</string>
-  <string name="noContactsWithPhoneNumbers">Keine Kontakte mit Telefonnummern</string>
+  <string name="noContactsWithPhoneNumbers">Keine Kontakte mit Rufnummern</string>
   <string name="noFavoritesHelpText">"Keine Favoriten vorhanden.
 
 Um einen Kontakt zu den Favoriten hinzuzufügen:
@@ -1158,7 +1158,7 @@ Um einen Kontakt zu den Favoriten hinzuzufügen:
   <string name="no_contacts_dialog_title">Keine Kontakte gefunden</string>
   <string name="no_contact_selected">Kontakt wählen, um Details anzuzeigen</string>
   <string name="no_contacts_selected">Keine Kontakte ausgewählt</string>
-  <string name="no_phone_no_shortcut">Für Kontakte ohne Telefonnummern können keine Verknüpfungen erstellt werden</string>
+  <string name="no_phone_no_shortcut">Für Kontakte ohne Rufnummern können keine Verknüpfungen erstellt werden</string>
   <string name="no_sdcard_message">Kein USB-Speicher gefunden</string>
   <string name="no_setting_menu">Keine Menüoptionen verfügbar</string>
   <string name="non_phone_add_to_contacts">Zu einem existierenden Kontakt hinzufügen</string>
@@ -1332,7 +1332,7 @@ Um einen Kontakt zu den Favoriten hinzuzufügen:
   <string name="privacy_password_title4">Passwort aktualisiert</string>
   <string name="privacy_policy_and_user_agreement">Datenschutzerklärung und Nutzervereinbarung</string>
   <string name="private_num">Private Nummer</string>
-  <string name="profileSavedErrorToast">Konnte meine Profiländerungen nicht speichern</string>
+  <string name="profileSavedErrorToast">Profiländerungen wurden nicht gespeichert</string>
   <string name="profileSavedToast">Profil gespeichert</string>
   <string name="profile_delete_toast">Profil erfolgreich gelöscht</string>
   <string name="profile_display_name">Mein Profil einrichten</string>
@@ -1438,7 +1438,7 @@ Drücken Sie auf Zusammenführen, um zu beginnen."</string>
   <string name="search_import_from_other_phone">Kontakte;Importieren;anderes Telefon</string>
   <string name="search_import_from_sdcard">Kontakte;Importieren;SD-Karte</string>
   <string name="search_import_from_sim">Kontakte;Importieren;SIM-Karte</string>
-  <string name="search_input_hint">Sie können nach Telefonnummern oder Services suchen</string>
+  <string name="search_input_hint">Sie können nach Rufnummern oder Services suchen</string>
   <string name="search_key_photo_word">Zuweisen;Kontakt;Fotos;Kontakte</string>
   <string name="search_key_rebuild_t9_index_title">Organisieren;Kontakte;t9</string>
   <string name="search_key_sim_manage">Organisieren;Kontakte</string>

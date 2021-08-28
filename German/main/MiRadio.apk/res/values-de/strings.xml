@@ -1,26 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string name="global_app_description_content">FM Radio ist eine System-App. Sie können keine Radiosendungen mehr hören, wenn Sie die App deinstallieren.</string>
-  <string name="global_app_description_title">FM Radio deinstallieren?</string>
-  <string name="global_remove_app_description_content">FM Radio ist eine System-App. Sie können keine Radiosendungen mehr hören, wenn Sie die Verknüpfung vom Startbildschirm entfernen.</string>
-  <string name="global_remove_app_description_title">\"FM Radio\" vom Startbildschirm entfernen?</string>
-  <string name="talkback_speed">Geschwindigkeit</string>
-
-  <string name="talkback_back15s">Zurück</string>
-  <string name="talkback_change_mode">Wechselmodus</string>
-  <string name="talkback_classify">Einstufung</string>
-  <string name="talkback_cover">Startseite</string>
-  <string name="talkback_delete">Löschen</string>
-  <string name="talkback_enter">Eingeben</string>
-  <string name="talkback_expand_dialog">Aufklappen</string>
-  <string name="talkback_fast_forward">Schnellvorlauf</string>
-  <string name="talkback_history">Verlauf</string>
-  <string name="talkback_pack_up_dialog">Auflegen</string>
-  <string name="talkback_playing_list">Wiedergabeliste</string>
-  <string name="talkback_rule_description">Regelbeschreibung</string>
-  <string name="talkback_sort">Sortieren</string>
-  <string name="talkback_timing">Zeitpunkt</string>
-
   <string name="abc_action_bar_home_description">Zur Startseite</string>
   <string name="abc_action_bar_up_description">Nach oben</string>
   <string name="abc_action_menu_overflow_description">Mehr Optionen</string>
@@ -216,7 +195,7 @@
   <string name="comment_count">Kommentare: %s</string>
   <string name="comment_delete_hint">Erfolgreich gelöscht</string>
   <string name="comment_empty">Diese Songs, welche Art von Geschichte ist in Ihrem Herzen?</string>
-  <string name="comment_input_empty">Kann keine leeren Kommentare hinzufügen.</string>
+  <string name="comment_input_empty">Leere Kommentare hinzufügen nicht möglich.</string>
   <string name="comment_input_hint">Kommentar eingeben</string>
   <string name="comment_list_title">Alle Kommentare</string>
   <string name="comment_trend_title">Wunderbarer Kommentar</string>
@@ -239,7 +218,7 @@
   <string name="copyright_song_ten_thousand">%1$s k</string>
   <string name="cp_frequency_error">zu oft</string>
   <string name="cp_other_error">Dieses Element ist derzeit aus Copyright-Gründen nicht verfügbar. Bleiben Sie dran!</string>
-  <string name="create_order_fail">Bestellung konnte nicht erstellt werden, erneut versuchen.</string>
+  <string name="create_order_fail">Bestellung wurde nicht erstellt, erneut versuchen.</string>
   <string name="create_playlist">Wiedergabeliste erstellen</string>
   <string name="create_playlist_failure">Wiedergabeliste erstellen fehlgeschlagen</string>
   <string name="cross_talk">Stand-up Comedy</string>
@@ -250,7 +229,7 @@
   <string name="cta_runtime_perm_desc_storage">Speicherzugriff, um auf Titelbilder und heruntergeladene Dateien zuzugreifen und sie zu speichern</string>
   <string name="cta_runtime_perm_desc_storage_single">Speicherzugriff, um auf Titelbilder und heruntergeladene Dateien zuzugreifen und sie zu speichern.</string>
   <string name="data_usage_warning">Datennutzung</string>
-  <string name="data_usage_warning_summary">Die Verwendung Ihrer mobilen Datenverbindung zum Streamen von hochwertiger Musik kann Ihre Datennutzungsgebühren erhöhen.</string>
+  <string name="data_usage_warning_summary">Die Verwendung Ihrer mobilen Datenverbindung zum Streamen von hochwertiger Musik kann Ihre Datennutzungskosten erhöhen.</string>
   <string name="date_format_str">dd.MM.yyyy</string>
   <string name="date_picker_lunar">Traditioneller chin. Kalender</string>
   <string name="declaration_main_content">"Wir werden Ihre personenbezogenen Daten in Übereinstimmung mit den einschlägigen Gesetzen, Vorschriften und Datenschutzrichtlinien schützen.
@@ -265,7 +244,7 @@ Um normal arbeiten zu können, benötigt diese App eine Internetverbindung und d
 "</string>
   <string name="default_songtab_name">Wiedergabelistenkategorien</string>
   <string name="delete">Löschen</string>
-  <string name="delete_comment_failed">Kommentar konnte nicht gelöscht werden</string>
+  <string name="delete_comment_failed">Kommentar wurde nicht gelöscht</string>
   <string name="delete_comment_successfully">Kommentar erfolgreich gelöscht</string>
   <string name="delete_download">Löschen</string>
   <string name="delete_downloads_records">Downloads löschen</string>
@@ -285,11 +264,11 @@ Um normal arbeiten zu können, benötigt diese App eine Internetverbindung und d
   <string name="diagnosis_log_sent_format">"Diagnoseprotokoll wurde gesendet.
 ID:%s
 Diesen Code bitte an den Techniker senden."</string>
-  <string name="dialog_cannot_resume">Download unterbrochen. Kann nicht wieder fortgesetzt werden.</string>
+  <string name="dialog_cannot_resume">Download unterbrochen. Fortsetzen nicht möglich.</string>
   <string name="dialog_confirm_delete_checkbox_message">Auch lokale Dateien löschen</string>
   <string name="dialog_failed_body">Später versuchen herunterzuladen oder die Datei aus der Warteschlange entfernen?</string>
   <string name="dialog_file_already_exists">Herunterladen fehlgeschlagen, Datei existiert bereits.</string>
-  <string name="dialog_file_missing_body">Heruntergeladene Datei konnte nicht gefunden werden.</string>
+  <string name="dialog_file_missing_body">Heruntergeladene Datei wurde nicht gefunden.</string>
   <string name="dialog_file_missing_title">Datei öffnen fehlgeschlagen</string>
   <string name="dialog_insufficient_space_on_cache">Nicht genügend Platz auf internen Speicher</string>
   <string name="dialog_insufficient_space_on_external">Nicht genügend Platz auf externen Speicher</string>
@@ -314,7 +293,7 @@ Diesen Code bitte an den Techniker senden."</string>
   <string name="dialog_title_queued_body">Datei noch nicht verfügbar</string>
   <string name="dialog_title_remove_tracks">Entfernen</string>
   <string name="disable_auto_payment_fail">Ausschalten fehlgeschlagen</string>
-  <string name="disable_auto_payment_fail_message">Automatische Verlängerung konnte nicht ausgeschaltet werden</string>
+  <string name="disable_auto_payment_fail_message">Automatische Verlängerung wurde nicht ausgeschaltet</string>
   <string name="disable_auto_payment_success">Abgeschaltet</string>
   <string name="disable_auto_payment_success_message">Automatische Verlängerung wurde ausgeschaltet. Wenn Ihr aktuelles Abonnement abgelaufen ist, müssen Sie sich erneut anmelden, um Titel herunterzuladen.</string>
   <string name="disallow_add_to_fm">Titel kann nicht zum FM-Radio hinzugefügt werden</string>
@@ -460,7 +439,7 @@ Diesen Code bitte an den Techniker senden."</string>
   <string name="fm_sort_new">Neu</string>
   <string name="fm_subscribed">abonniert</string>
   <string name="fm_subscription">Abonnement</string>
-  <string name="fmt_chinese_date">d.M.</string>
+  <string name="fmt_chinese_date">dd.MM.</string>
   <string name="fmt_date_day">d.</string>
   <string name="fmt_date_long_month_day">d. MMMM</string>
   <string name="fmt_date_long_year_month_day">d. MMMM yyyy</string>
@@ -469,12 +448,14 @@ Diesen Code bitte an den Techniker senden."</string>
   <string name="fmt_date_numeric_month_day">dd.MM.</string>
   <string name="fmt_date_numeric_year_month">MM/yyyy</string>
   <string name="fmt_date_numeric_year_month_day">dd.MM.yyyy</string>
-  <string name="fmt_date_short_month">MM.</string>
-  <string name="fmt_date_short_month_day">dd.MM.</string>
+  <string name="fmt_date_short_month">MMM</string>
+  <string name="fmt_date_short_month_day">d. MMM</string>
   <string name="fmt_date_short_year_month">MMM yyyy</string>
-  <string name="fmt_date_short_year_month_day">dd.MM.yyyy</string>
+  <string name="fmt_date_short_year_month_day">d. MMM yyyy</string>
   <string name="fmt_date_time_timezone">D T z</string>
   <string name="fmt_date_timezone">D z</string>
+  <string name="fmt_time_12hour">"h 'Uhr'"</string>
+  <string name="fmt_time_24hour">"H 'Uhr'"</string>
   <string name="fmt_time_timezone">T z</string>
   <string name="fmt_weekday_date">W, D</string>
   <string name="fmt_weekday_date_time">W, D T</string>
@@ -501,6 +482,10 @@ Diesen Code bitte an den Techniker senden."</string>
   <string name="get_ph_ticket">Code erhalten</string>
   <string name="get_phone_bind_exceed_limit">Sie können bis zu 3 Mi-Konten mit einer Rufnummer verknüpfen. Neue Konten können nicht hinzugefügt werden.</string>
   <string name="get_phone_verifycode_exceed_limit">An diese Nummer wurden zu viele Verifizierungscodes gesendet. 24 Stunden warten und erneut versuchen.</string>
+  <string name="global_app_description_content">FM Radio ist eine System-App. Sie können keine Radiosendungen mehr hören, wenn Sie die App deinstallieren.</string>
+  <string name="global_app_description_title">FM Radio deinstallieren?</string>
+  <string name="global_remove_app_description_content">FM Radio ist eine System-App. Sie können keine Radiosendungen mehr hören, wenn Sie die Verknüpfung vom Startbildschirm entfernen.</string>
+  <string name="global_remove_app_description_title">\"FM Radio\" vom Startbildschirm entfernen?</string>
   <string name="global_search_app_name">Musik</string>
   <string name="global_search_description_entry">Musik genießen</string>
   <string name="global_search_description_hot">Wöchentliches Update</string>
@@ -606,7 +591,7 @@ Diesen Code bitte an den Techniker senden."</string>
   <string name="login_tip">Nicht angemeldet</string>
   <string name="login_tips">Anmelden, um relevante Empfehlungen zu erhalten</string>
   <string name="logout_account">Abmelden</string>
-  <string name="lrc_search_failed">Konnte keine Liedtexte finden</string>
+  <string name="lrc_search_failed">Keine Liedtexte gefunden</string>
   <string name="lrc_searching">Suchen…</string>
   <string name="lyric_open_other_connect">Liedtexte über Mobilfunknetz herunterladen</string>
   <string name="lyric_setting">Liedtexte-Einstellungen</string>
@@ -730,7 +715,7 @@ Diesen Code bitte an den Techniker senden."</string>
   <string name="never_subscribe_radio">Sind Sie sicher, dass Sie diese FM nie abonniert haben?</string>
   <string name="new_comment">Letzter Kommentar (%s Artikel)</string>
   <string name="new_frequency">Neue Frequenz</string>
-  <string name="new_search_instant_title">Suchen： %1$s</string>
+  <string name="new_search_instant_title">Suchen: %1$s</string>
   <string name="news">Neuigkeiten</string>
   <string name="news_not_interest_positive">Nicht interessiert</string>
   <string name="next_station">Nächster Sender</string>
@@ -953,7 +938,7 @@ Diesen Code bitte an den Techniker senden."</string>
   <string name="please_plug_headset">Kopfhörer verbinden</string>
   <string name="please_select_song">Zuerst einen Titel auswählen</string>
   <string name="poor_signal_due_to_no_headset">Kopfhörer anschließen, um das Signal zu verbessern</string>
-  <string name="post_comment_failed">Kommentar konnte nicht veröffentlicht werden</string>
+  <string name="post_comment_failed">Kommentar wurde nicht veröffentlicht</string>
   <string name="post_comment_success">Kommentar erfolgreich veröffentlicht</string>
   <string name="power_save_mode_dialog_msg">Stromsparmodus ist an. Jetzt mit dem Herunterladen beginnen?</string>
   <string name="pre_station">Vorheriger Sender</string>
@@ -1021,12 +1006,12 @@ Wenn Sie nicht zustimmen, die oben genannten Berechtigungen zu erteilen, wird di
   <string name="restart_phone_bind_message">Der Empfang der SMS kann einige Zeit dauern. Trotzdem neu beginnen?</string>
   <string name="restart_phone_bind_title">Wiederherstellungstelefon ändern</string>
   <string name="resume_download">Fortsetzen</string>
-  <string name="retry">Wiederholen</string>
+  <string name="retry">Erneut versuchen</string>
   <string name="retry_after_network_available">Netzwerkverbindung fehlgeschlagen. Verbindung prüfen und erneut versuchen.</string>
   <string name="retry_download">Erneut versuchen</string>
   <string name="ringtone_not_support">Titelformat wird nicht unterstützt</string>
   <string name="runtime_permission_ungranted">Aufnahme kann wegen fehlender Berechtigungen nicht gestartet werden</string>
-  <string name="same_new_and_old_pwd">Kann nicht dasselbe wie das aktuelle Passwort sein</string>
+  <string name="same_new_and_old_pwd">Passwort kann nicht dasselbe wie das aktuelle sein</string>
   <string name="saturday">Samstag</string>
   <string name="saturday_short">Sa</string>
   <string name="saturday_shortest">S</string>
@@ -1068,7 +1053,7 @@ Wenn Sie nicht zustimmen, die oben genannten Berechtigungen zu erteilen, wird di
   <string name="set_id3_not_have_read_or_write_permission">Sie haben keine Berechtigung, diese Datei zu bearbeiten.</string>
   <string name="set_id3_not_support_format">Dieses Dateiformat kann nicht bearbeitet werden</string>
   <string name="set_id3_successful">Titelinfo erfolgreich gespeichert</string>
-  <string name="set_ringtones_failed">Klingelton konnte nicht festgelegt werden</string>
+  <string name="set_ringtones_failed">Klingelton wurde nicht festgelegt</string>
   <string name="set_ringtones_successful">%s als Klingelton festlegen</string>
   <string name="set_success">Erfolgreich geändert</string>
   <string name="setting_feature_setting">Funktionseinstellungen</string>
@@ -1189,14 +1174,22 @@ Wenn Sie nicht zustimmen, die oben genannten Berechtigungen zu erteilen, wird di
   <string name="tab_voice">Sprechen</string>
   <string name="talkback_album_cover">Album Cover</string>
   <string name="talkback_back">Zurück</string>
+  <string name="talkback_back15s">Zurück</string>
+  <string name="talkback_change_mode">Wechselmodus</string>
+  <string name="talkback_classify">Einstufung</string>
   <string name="talkback_close">Schließen</string>
   <string name="talkback_cloud_setting">Einstellungen</string>
   <string name="talkback_comment">Kommentare</string>
   <string name="talkback_comment_like">Gefällt</string>
+  <string name="talkback_cover">Startseite</string>
   <string name="talkback_create_channel">Sender hinzufügen</string>
+  <string name="talkback_delete">Löschen</string>
   <string name="talkback_disabled">deaktivieren</string>
   <string name="talkback_download">Download</string>
   <string name="talkback_enabled">aktivieren</string>
+  <string name="talkback_enter">Eingeben</string>
+  <string name="talkback_expand_dialog">Aufklappen</string>
+  <string name="talkback_fast_forward">Schnellvorlauf</string>
   <string name="talkback_favorite">Gefällt dieser Titel</string>
   <string name="talkback_follow">Folgen</string>
   <string name="talkback_followed">Nicht mehr folgen</string>
@@ -1204,6 +1197,7 @@ Wenn Sie nicht zustimmen, die oben genannten Berechtigungen zu erteilen, wird di
   <string name="talkback_freq_more_function">Weitere Optionen für den %1$s-Sender</string>
   <string name="talkback_freq_picker">Wischen, um zwischen den Sendern zu wechseln</string>
   <string name="talkback_header_search">"Suchen "</string>
+  <string name="talkback_history">Verlauf</string>
   <string name="talkback_like">Gefällt</string>
   <string name="talkback_listen_more">Weitere Online-Radiosender</string>
   <string name="talkback_local_radio">Radio hören, wenn Sie offline sind</string>
@@ -1219,26 +1213,30 @@ Wenn Sie nicht zustimmen, die oben genannten Berechtigungen zu erteilen, wird di
   <string name="talkback_next_broadcast">Vorheriger Sender</string>
   <string name="talkback_next_play">Nächstes abspielen</string>
   <string name="talkback_nowplaying_bar">Wiedergabeleiste</string>
-  <!-- ? -->
   <string name="talkback_nowplaying_circle">In Schleife abspielen</string>
-  <!-- ? -->
+  <string name="talkback_pack_up_dialog">Auflegen</string>
   <string name="talkback_pause">Pause</string>
   <string name="talkback_play">Abspielen</string>
+  <string name="talkback_playing_list">Wiedergabeliste</string>
   <string name="talkback_pre">Vorheriger Titel</string>
   <string name="talkback_pre_broadcast">Nächster Sender</string>
   <string name="talkback_radar">Musikerkennung</string>
   <string name="talkback_record_stop">Aufnahme anhalten</string>
   <string name="talkback_recording">Aufnahmen</string>
   <string name="talkback_remove_list">Von Wiedergabeliste entfernen</string>
+  <string name="talkback_rule_description">Regelbeschreibung</string>
   <string name="talkback_scan_channel">Sender suchen</string>
   <string name="talkback_search">Suchen</string>
   <string name="talkback_search_delete">löschen</string>
   <string name="talkback_search_radar_and_voice">Sprachassistent und Spracherkennung</string>
   <string name="talkback_share">Teilen</string>
   <string name="talkback_sidemenu">Seitenmenü</string>
+  <string name="talkback_sort">Sortieren</string>
   <string name="talkback_sort_type">Titel sortieren nach</string>
+  <string name="talkback_speed">Geschwindigkeit</string>
   <string name="talkback_switch_headset">Kopfhörer verbinden</string>
   <string name="talkback_switch_speaker">Lautsprecher verwenden</string>
+  <string name="talkback_timing">Zeitpunkt</string>
   <string name="talkback_unlike">Gefällt nicht</string>
   <string name="talkback_view_type">Titel anzeigen nach</string>
   <string name="task_already_exist">Aufgabe existiert bereits</string>
@@ -1313,7 +1311,7 @@ Wenn Sie nicht zustimmen, die oben genannten Berechtigungen zu erteilen, wird di
   <string name="toast_fm_recorder_storage_full">Speicher voll, Aufnahme nicht möglich.</string>
   <string name="toast_fm_seeking">Suchen…</string>
   <string name="toast_fm_starting">Starten…</string>
-  <string name="toast_new_playlist_name_no_enter">Konnte keinen neuen Absatz beginnen</string>
+  <string name="toast_new_playlist_name_no_enter">Neuer Absatz nicht möglich</string>
   <string name="toast_new_playlist_name_too_long">Wiedergabelistenname ist zu lang</string>
   <string name="toast_normal_songs_for_download">Download-Qualität auf Standard gesetzt</string>
   <string name="toast_normal_songs_for_stream">Streamingqualität auf Standard gesetzt</string>
@@ -1349,7 +1347,7 @@ Wenn Sie nicht zustimmen, die oben genannten Berechtigungen zu erteilen, wird di
   <string name="user_id_hint">E-Mail/Telefon</string>
   <string name="usercenter_store_button_text">Einlösen</string>
   <string name="usercenter_task_check_in">Aufgabe einchecken</string>
-  <string name="usercenter_task_complete_toast">Abgeschlossen： %1$s</string>
+  <string name="usercenter_task_complete_toast">Abgeschlossen: %1$s</string>
   <string name="usercenter_task_status_finished">Abgeschlossen</string>
   <string name="usercenter_task_status_start">Beginn</string>
   <string name="usercenter_task_title">Missionen</string>
@@ -1382,9 +1380,9 @@ Wenn Sie nicht zustimmen, die oben genannten Berechtigungen zu erteilen, wird di
   <string name="wifi_required_body" formatted="false">"Mit WLAN verbinden, um den Download dieses %s abzuschließen.
 Auf %s tippen, um diesen Download zu starten, wenn Sie das nächste Mal mit einem WLAN verbunden sind."</string>
   <string name="wifi_required_title">Sie sollten eine Verbindung zum WLAN herstellen, um diese Datei herunterzuladen.</string>
-  <string name="xiaoai_install_message">Sieht so aus, als hätten Sie den Mi KI Sprachassistenten noch nicht installiert. Sie können es jetzt herunterladen und installieren.</string>
+  <string name="xiaoai_install_message">Anscheinend haben Sie den Mi KI Sprachassistenten noch nicht installiert. Sie können es jetzt herunterladen und installieren.</string>
   <string name="xiaoai_install_title">Mi KI Sprachassistent installieren</string>
-  <string name="xiaoai_update_message">Sieht so aus, als wäre das Mi KI Sprachprogramm zu alt. Sie können es jetzt aktualisieren.</string>
+  <string name="xiaoai_update_message">Anscheinend ist das Mi KI Sprachprogramm zu alt. Sie können es jetzt aktualisieren.</string>
   <string name="xiaoai_update_title">Mi KI aktualisieren</string>
   <string name="yesterday">Gestern</string>
 </resources>

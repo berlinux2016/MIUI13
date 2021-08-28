@@ -53,9 +53,9 @@
 Ihre Konto ID: %s"</string>
   <string name="account_token_expired_title">Authentifikation fehlgeschlagen</string>
   <string name="account_user_avatar">Profilfoto</string>
-  <string name="account_user_avatar_from_album">Galerie</string>
-  <string name="account_user_avatar_from_camera">Kamera</string>
-  <string name="account_user_base_info">Basisinfo</string>
+  <string name="account_user_avatar_from_album">Foto wählen</string>
+  <string name="account_user_avatar_from_camera">Foto aufnehmen</string>
+  <string name="account_user_base_info">Persönliche Daten</string>
   <string name="account_user_birthday">Geburtstag</string>
   <string name="account_user_details">Persönliche Infos</string>
   <string name="account_user_education">Ausbildung</string>
@@ -171,7 +171,7 @@ Ihre Konto ID: %s"</string>
   <string name="delete_browser">Browser entfernen</string>
   <string name="delete_device">Gerät entfernen</string>
   <string name="delete_device_btn">Entfernen</string>
-  <string name="delete_device_failed">Gerät konnte nicht entfernt werden</string>
+  <string name="delete_device_failed">Gerät wurde nicht entfernt</string>
   <string name="delete_device_notice">Wenn das Gerät entfernt wurde, wird es automatisch von Ihrem Mi-Konto abgemeldet. Sie haben mit diesem Gerät dann keinen Zugriff mehr auf Ihre Fotos, Nachrichten und andere Inhalte, die in Ihrem Mi-Konto gespeichert sind.</string>
   <string name="delete_lock_device_success">Erfolgreich gelöscht</string>
   <string name="device_delete_success_message">Wenn Sie sich nicht auf diesem Gerät angemeldet haben, ändern Sie sofort Ihr Passwort</string>
@@ -202,7 +202,7 @@ Senden Sie diesen Code an den Supervisor."</string>
   <string name="find_device_access_denied">Status kann nicht geprüft werden, Zugriff verweigert</string>
   <string name="find_device_account_error">Status kann wegen eines Kontofehlers nicht geprüft werden</string>
   <string name="find_device_activate_account">Konto aktivieren</string>
-  <string name="find_device_bad_response_error">Ein Serverfehler ist aufgetreten, einen Moment warten und erneut versuchen.</string>
+  <string name="find_device_bad_response_error">Ein Serverfehler ist aufgetreten. Einen Moment warten und erneut versuchen.</string>
   <string name="find_device_clear_data">Daten löschen</string>
   <string name="find_device_close">Aus</string>
   <string name="find_device_error_password_not_confirmed">\" Gerät finden\" kann nicht ausgeschaltet werden. Geben Sie nochmals Ihr Mi-Konto-Passwort ein</string>
@@ -225,9 +225,9 @@ Senden Sie diesen Code an den Supervisor."</string>
   <string name="find_device_request_prepare_error">Status kann nicht geprüft werden, versuchen Sie es später noch mal</string>
   <string name="find_device_set_lost_model">Verlustmodus</string>
   <string name="find_device_title">Gerät finden</string>
-  <string name="find_device_unknown_error">Status kann nicht geprüft werden, versuchen Sie es später noch mal</string>
+  <string name="find_device_unknown_error">Status kann nicht geprüft werden. Später erneut versuchen.</string>
   <string name="first_login_time">Erster Anmeldeversuch: %s</string>
-  <string name="fmt_chinese_date">d.M.</string>
+  <string name="fmt_chinese_date">dd.MM.</string>
   <string name="fmt_date_day">d.</string>
   <string name="fmt_date_long_month_day">d. MMMM</string>
   <string name="fmt_date_long_year_month_day">d. MMMM yyyy</string>
@@ -236,10 +236,10 @@ Senden Sie diesen Code an den Supervisor."</string>
   <string name="fmt_date_numeric_month_day">dd.MM.</string>
   <string name="fmt_date_numeric_year_month">MM/yyyy</string>
   <string name="fmt_date_numeric_year_month_day">dd.MM.yyyy</string>
-  <string name="fmt_date_short_month">MM.</string>
-  <string name="fmt_date_short_month_day">dd.MM.</string>
+  <string name="fmt_date_short_month">MMM</string>
+  <string name="fmt_date_short_month_day">d. MMM</string>
   <string name="fmt_date_short_year_month">MMM yyyy</string>
-  <string name="fmt_date_short_year_month_day">dd.MM.yyyy</string>
+  <string name="fmt_date_short_year_month_day">d. MMM yyyy</string>
   <string name="fmt_date_time_timezone">D T z</string>
   <string name="fmt_date_timezone">D z</string>
   <string name="fmt_time_12hour">"h 'Uhr'"</string>
@@ -288,8 +288,8 @@ Senden Sie diesen Code an den Supervisor."</string>
   <string name="locating_current_location">Standortbestimmung</string>
   <string name="location_service_not_working">Standortdienst funktioniert nicht</string>
   <string name="login_check_find_device">Gerätesicherheitsinfo lesen…</string>
-  <string name="login_check_find_device_failed_title">\"Gerät finden\"-Status konnte nicht geprüft werden</string>
-  <string name="login_find_device_bind">Dieses Gerät ist bereits mit einem existierenden Mi-Konto (%s) verknüpft.</string>
+  <string name="login_check_find_device_failed_title">\"Gerät finden\"-Status wurde nicht geprüft</string>
+  <string name="login_find_device_bind">Dieses Gerät ist mit einer existierenden Mi-Konto-ID (%s) verknüpft.</string>
   <string name="login_guard_prompt">Wenn Sie sich das erste Mal von einem neuen Gerät oder einer neuen App an Ihrem Mi-Konto anmelden, ist eine Prüfung Ihrer Rufnummer notwendig.</string>
   <string name="logout_account">Abmelden</string>
   <string name="logout_failed">Abmelden fehlgeschlagen</string>
@@ -357,7 +357,7 @@ Senden Sie diesen Code an den Supervisor."</string>
   <string name="more">Mehr</string>
   <string name="morning">Morgen</string>
   <string name="mtrl_chip_close_icon_content_description">%1$s entfernen</string>
-  <string name="multi_user_not_show_sync_activity_message_1">Sieht so aus, als verwenden Sie Ihr Hauptprofil-Mi-Konto</string>
+  <string name="multi_user_not_show_sync_activity_message_1">Anscheinend verwenden Sie Ihr Hauptprofil-Mi-Konto</string>
   <string name="multi_user_not_show_sync_activity_message_2">In diesem Fall werden alle Daten mit Ihrem Zweitprofil synchronisiert. Um dies zu vermeiden, deaktivieren Sie die Synchronisation mit Xiaomi Cloud.</string>
   <string name="multi_user_not_show_sync_activity_title">Synchronisation mit Xiaomi Cloud nicht einschalten</string>
   <string name="my_device_title">Aktuelles Gerät</string>
@@ -375,7 +375,7 @@ Senden Sie diesen Code an den Supervisor."</string>
   <string name="notify_network_restricted_content_hidden_state">Hintergrundaktivität für Mi-Konto wurde eingeschränkt. Zum Erlauben antippen.</string>
   <string name="notify_network_restricted_content_mobile_network">Internetzugriff für Mi-Konto wurde eingeschränkt. Zum Erlauben antippen.</string>
   <string name="notify_network_restricted_title">Mi-Konto konnte keine Netzwerkverbindung herstellen</string>
-  <string name="oauth_get_scopes_failed">Kontoinformationen konnten nicht abgerufen werden</string>
+  <string name="oauth_get_scopes_failed">Kontoinformationen wurden nicht abgerufen</string>
   <string name="oauth_getting_scopes">Konto prüfen…</string>
   <string name="oauth_scopes_intro">&lt;font color=#%1$s&gt;%2$s&lt;/font&gt; erhält folgende Berechtigungen:&lt;br&gt; &lt;br&gt; %3$s</string>
   <string name="oauth_title">Mit Mi-Konto anmelden</string>
@@ -411,11 +411,11 @@ Senden Sie diesen Code an den Supervisor."</string>
   <string name="passport_change_phone_number">Nummern tauschen</string>
   <string name="passport_checking_account">Passwort prüfen…</string>
   <string name="passport_checking_input">Eingabe prüfen…</string>
-  <string name="passport_click_email_to_valid">Um Ihr Konto zu aktivieren, klicken Sie auf den Link in Ihrem Posteingang.</string>
+  <string name="passport_click_email_to_valid">Um Ihr Konto zu aktivieren, tippen Sie auf den Link in Ihrem Posteingang.</string>
   <string name="passport_completed">Beenden</string>
   <string name="passport_confirm_login">Anmelden</string>
   <string name="passport_confirm_recycle_account">Ja</string>
-  <string name="passport_confirm_recycle_account_msg">&lt;font color=Red&gt;Sieht so aus&lt;/font&gt;, als wäre die Nummer %s von Ihrem Mobilfunkanbieter wiederverwendet worden, und es ist ein Mi-Konto damit verbunden. Ist das Ihr Konto?</string>
+  <string name="passport_confirm_recycle_account_msg">&lt;font color=Red&gt;Anscheinend&lt;/font&gt; wurde die Nummer %s von Ihrem Mobilfunkanbieter wiederverwendet, und es ist ein Mi-Konto damit verbunden. Ist das Ihr Konto?</string>
   <string name="passport_continue">Weiter</string>
   <string name="passport_copy_message_text_success">Erfolgreich kopiert</string>
   <string name="passport_copy_message_vcode">Code kopieren</string>
@@ -447,10 +447,11 @@ Senden Sie diesen Code an den Supervisor."</string>
   <string name="passport_error_ssl_hand_shake">Netzwerkverbindung fehlgeschlagen</string>
   <string name="passport_error_unknown">Unbekannter Fehler</string>
   <string name="passport_error_user_name">Ungültiger Benutzername</string>
+  <string name="passport_error_user_agreement_error">Erst den allgemeinen Geschäftsbedingungen zustimmen</string>
   <string name="passport_error_verify_activator_phone_message">Stellen Sie sicher, dass die SIM-Karte aktiv und Ihr Gerät mit dem Internet verbunden ist</string>
   <string name="passport_error_verify_activator_phone_title">Nummer wurde nicht verifiziert</string>
   <string name="passport_extra_gdpr_license">Erstellen Ihres Mi-Kontos bedeutet, dass Sie damit einverstanden sind, dass Xiaomi Ihre persönlichen Daten sammelt, verarbeitet und nutzt, inkl. Verifizierungsdaten (z. B. Verifizierungscodes), Zweitprofildaten (z. B. Informationen über die Art und Weise, wie Sie das Zweitprofil nutzen, IDs, die im Haupt- und Zweitprofil verwendet werden) und andere Daten, die in unserer Datenschutzerklärung angegeben sind. In unserer Datenschutzerklärung erfahren Sie, wie wir personenbezogene Daten verarbeiten und nutzen.</string>
-  <string name="passport_failed_to_send_activate_email">Aktivierungsmail konnte nicht gesendet werden</string>
+  <string name="passport_failed_to_send_activate_email">Aktivierungsmail wurde nicht gesendet</string>
   <string name="passport_find_password_on_web_msg">Besuchen Sie account.mi.com, um Ihr Passwort zurückzusetzen.</string>
   <string name="passport_first_login_prompt">Mi Konto wird automatisch erstellt, wenn Sie eine Rufnummer zum ersten Mal benutzen.</string>
   <string name="passport_forget_password">Passwort vergessen</string>
@@ -458,7 +459,7 @@ Senden Sie diesen Code an den Supervisor."</string>
   <string name="passport_get_back_pwd">Kontopasswort abrufen</string>
   <string name="passport_get_innetdate_agree">Prüfen</string>
   <string name="passport_get_innetdate_disagree">Nein</string>
-  <string name="passport_get_innetdate_msg">&lt;font color=Red&gt;Sieht so aus&lt;/font&gt;, als wäre die Nummer %s von Ihrem Mobilfunkanbieter wiederverwendet worden. Prüfen, wann die Nummer online ging?</string>
+  <string name="passport_get_innetdate_msg">&lt;font color=Red&gt;Anscheinend&lt;/font&gt; wurde die Nummer %s von Ihrem Mobilfunkanbieter wiederverwendet. Prüfen, wann die Nummer online ging?</string>
   <string name="passport_get_innetdate_title">Prüfen, wann die Nummer online ging</string>
   <string name="passport_get_verify_code">Code abrufen</string>
   <string name="passport_getting_activator_phone">SIM-Info abrufen…</string>
@@ -510,7 +511,7 @@ Senden Sie diesen Code an den Supervisor."</string>
   <string name="passport_privacy_policy_required">Datenschutzerklärung (obligatorisch)</string>
   <string name="passport_provision_input_email_register_prompt">Ihre persönlichen Daten werden in Übereinstimmung mit den Gesetzen und Vorschriften der von Ihnen gewählten Region gespeichert.</string>
   <string name="passport_provision_password_req_notice">%1$d-%2$d Zeichen von mindestens %3$d der folgenden Typen: Buchstaben, Ziffern, Sonderzeichen</string>
-  <string name="passport_pwd_generate_failure">Passwort konnte nicht erstellt werden</string>
+  <string name="passport_pwd_generate_failure">Passwort wurde nicht erstellt</string>
   <string name="passport_pwd_generating">Erstellen…</string>
   <string name="passport_querying_phone_info">Kontoinfo abrufen…</string>
   <string name="passport_quick_login">Anmelden</string>

@@ -265,7 +265,7 @@ Senden Sie diesen Code an den Supervisor."</string>
   <string name="favor_success">Erfolgreich zu Favoriten hinzugefügt</string>
   <string name="feed_article_entrance_about">Über \"%s\"</string>
   <string name="find_psw">Passwort vergessen</string>
-  <string name="fmt_chinese_date">d.M.</string>
+  <string name="fmt_chinese_date">dd.MM.</string>
   <string name="fmt_date_day">d.</string>
   <string name="fmt_date_long_month_day">d. MMMM</string>
   <string name="fmt_date_long_year_month_day">d. MMMM yyyy</string>
@@ -274,10 +274,10 @@ Senden Sie diesen Code an den Supervisor."</string>
   <string name="fmt_date_numeric_month_day">dd.MM.</string>
   <string name="fmt_date_numeric_year_month">MM/yyyy</string>
   <string name="fmt_date_numeric_year_month_day">dd.MM.yyyy</string>
-  <string name="fmt_date_short_month">MM.</string>
-  <string name="fmt_date_short_month_day">dd.MM.</string>
+  <string name="fmt_date_short_month">MMM</string>
+  <string name="fmt_date_short_month_day">d. MMM</string>
   <string name="fmt_date_short_year_month">MMM yyyy</string>
-  <string name="fmt_date_short_year_month_day">dd.MM.yyyy</string>
+  <string name="fmt_date_short_year_month_day">d. MMM yyyy</string>
   <string name="fmt_date_time_timezone">D T z</string>
   <string name="fmt_date_timezone">D z</string>
   <string name="fmt_time_12hour">"h 'Uhr'"</string>
@@ -453,7 +453,7 @@ dd.MM."</string>
   <string name="morning_picture_tab">Bild</string>
   <string name="mtrl_badge_numberless_content_description">Neue Benachrichtigung</string>
   <string name="mtrl_chip_close_icon_content_description">%1$s entfernen</string>
-  <string name="mtrl_picker_a11y_next_month">Zum nächsten Monat wechseln</string>
+  <string name="mtrl_picker_a11y_next_month">Zum Folgemonat wechseln</string>
   <string name="mtrl_picker_a11y_prev_month">Zum Vormonat wechseln</string>
   <string name="mtrl_picker_announce_current_selection">Aktuelle Auswahl: %1$s</string>
   <string name="mtrl_picker_date_header_title">Datum wählen</string>
@@ -533,7 +533,7 @@ dd.MM."</string>
   <string name="passport_change_phone_number">Nummern tauschen</string>
   <string name="passport_checking_account">Passwort prüfen…</string>
   <string name="passport_checking_input">Eingabe prüfen…</string>
-  <string name="passport_click_email_to_valid">Um Ihr Konto zu aktivieren, klicken Sie auf den Link in Ihrem Posteingang.</string>
+  <string name="passport_click_email_to_valid">Um Ihr Konto zu aktivieren, tippen Sie auf den Link in Ihrem Posteingang.</string>
   <string name="passport_close">Schließen</string>
   <string name="passport_completed">Beenden</string>
   <string name="passport_confirm_login">Weiter</string>
@@ -583,7 +583,7 @@ dd.MM."</string>
   <string name="passport_get_back_pwd">Kontopasswort abrufen</string>
   <string name="passport_get_innetdate_agree">Prüfen</string>
   <string name="passport_get_innetdate_disagree">Nein</string>
-  <string name="passport_get_innetdate_msg">&lt;font color=Red>Sieht so aus&lt;/font>, als wäre die Nummer %s von Ihrem Mobilfunkanbieter wiederverwendet worden. Prüfen, wann die Nummer online ging?</string>
+  <string name="passport_get_innetdate_msg">&lt;font color=Red>Anscheinend&lt;/font> wurde die Nummer %s von Ihrem Mobilfunkanbieter wiederverwendet. Prüfen, wann die Nummer online ging?</string>
   <string name="passport_get_innetdate_title">Prüfen, wann die Nummer online ging</string>
   <string name="passport_get_verify_code">Code abrufen</string>
   <string name="passport_getting_activator_phone">SIM-Info abrufen…</string>

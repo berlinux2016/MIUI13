@@ -60,11 +60,11 @@ Möchten Sie dies jetzt und in Zukunft zulassen?"</string>
   <string name="app_process_limit_title">Prozessbegrenzung im Hintergrund</string>
   <string name="app_store_install_hint">Jetzt installieren</string>
   <string name="app_store_installing_message">Installieren…</string>
-  <string name="app_store_missing_message">Sieht so aus, als sei unser offizieller App Store nicht installiert. Jetzt installieren?</string>
+  <string name="app_store_missing_message">Anscheinend ist unser offizieller App Store nicht installiert. Jetzt installieren?</string>
   <string name="app_store_missing_title">App Store ist nicht installiert</string>
   <string name="auto_startup_dialog_msg">Nach dem Öffnen läuft das Programm automatisch im Hintergrund, es kann zu zusätzlichen Strom- und Datenverbrauch kommen.
 Sind Sie sicher, dass Sie ihm erlauben wollen, selbstständig zu beginnen?</string>
-  <string name="available_via_carrier">Kann über %1$s verbunden werden</string>
+  <string name="available_via_carrier">Vebinden über %1$s möglich</string>
   <string name="available_via_passpoint">Verfügbar über %1$s</string>
   <string name="battery_info_status_charging">Laden</string>
   <string name="battery_info_status_charging_ac">Laden mit Netzteil</string>
@@ -218,7 +218,7 @@ Alle Ihre bisherigen Benutzerdaten werden gespeichert."</string>
   <string name="dlg_app_replacement_statement_with_version">%1$s (%2$s) wird die derzeit installierte Version (%3$s) ersetzen. Existierende App Daten bleiben erhalten.</string>
   <string name="dlg_app_replacement_title">App ersetzen?</string>
   <string name="dlg_appstore_notice">Wir können die Echtheit oder Sicherheit von Apps aus anderen Quellen als dem &lt;u&gt;App Store&lt;/u&gt; nicht prüfen</string>
-  <string name="dlg_msg_unoffical">Kann System-Apps nicht von inoffiziellen Kanälen aus installieren.</string>
+  <string name="dlg_msg_unoffical">System-Apps von inoffiziellen Kanälen installieren nicht möglich.</string>
   <string name="dlg_msg_unoffical_ok">OK</string>
   <string name="dlg_ok">OK</string>
   <string name="dlg_sys_app_replacement_statement">"Dies ist eine System-App.
@@ -280,7 +280,7 @@ Alle Ihre bisherigen Benutzerdaten werden gespeichert."</string>
   <string name="install_failed_incompatible">Diese App ist mit Ihrem Gerät nicht kompatibel</string>
   <string name="install_failed_inconsistent_certificates">Paket mit gleichem Namen, aber in Konflikt stehender Signatur, ist bereits installiert</string>
   <string name="install_failed_invalid_apk">Paket ist offenbar beschädigt</string>
-  <string name="install_failed_msg">%1$s konnte nicht auf Ihrem Telefon installiert werden</string>
+  <string name="install_failed_msg">%1$s wurde nicht auf Ihrem Telefon installiert</string>
   <string name="install_failed_older_sdk">Paket funktioniert nur auf neueren Versionen von Android</string>
   <string name="install_failed_system_incompatible">Diese App ist nicht mit MIUI kompatibel</string>
   <string name="install_failed_verify_failed">Paket hat die Prüfung nicht bestanden und kann daher nicht installiert werden</string>
@@ -393,7 +393,7 @@ Alle Ihre bisherigen Benutzerdaten werden gespeichert."</string>
   <string name="miui_message_staging_2">"Richte App aus.. "</string>
   <string name="miui_message_staging_3">Richte App aus…</string>
   <string name="miui_no_perms">Keine Berechtigungen erforderlich</string>
-  <string name="miui_not_uninstall_system_app">Kann System-Apps nicht deinstallieren</string>
+  <string name="miui_not_uninstall_system_app">System-Apps deinstallieren nicht möglich</string>
   <string name="miui_other_relative">Andere</string>
   <string name="miui_permission_detail">Berechtigungen</string>
   <string name="miui_permission_manage_title">%s Details</string>
@@ -435,7 +435,7 @@ Alle Ihre bisherigen Benutzerdaten werden gespeichert."</string>
   <string name="orb_search_action">Suchaktion</string>
   <string name="other_permissions">Andere App-Funktionen</string>
   <string name="other_relative">Andere</string>
-  <string name="out_of_space_dlg_text">%1$s konnte nicht installiert werden. Geben Sie Speicherplatz frei und versuchen Sie es erneut.</string>
+  <string name="out_of_space_dlg_text">%1$s wurde nicht installiert. Geben Sie Speicherplatz frei und versuchen Sie es erneut.</string>
   <string name="out_of_space_dlg_title">Kein freier Speicher vorhanden</string>
   <string name="overlay_display_devices_title">Sekundäranzeigen simulieren</string>
   <string name="package_delete_confirm_step_1">Löschen %s?</string>
@@ -602,7 +602,7 @@ Alle Ihre bisherigen Benutzerdaten werden gespeichert."</string>
   <string name="uninstall_failed">Deinstallation fehlgeschlagen</string>
   <string name="uninstall_failed_device_policy_manager">Deinstallation nicht möglich, Paket ist ein aktiver Geräteadministrator</string>
   <string name="uninstall_failed_device_policy_manager_of_user">Deinstallation nicht möglich, Paket ist ein aktiver Geräteadministrator für %1$s</string>
-  <string name="uninstall_failed_msg">%1$s konnte nicht deinstalliert werden</string>
+  <string name="uninstall_failed_msg">%1$s wurde nicht deinstalliert</string>
   <string name="uninstall_failed_retained_app_msg">Diese App wurde modifiziert und kann in dieser Form nicht deinstalliert werden</string>
   <string name="uninstall_update_text">Möchten Sie diese App durch die Werksversion ersetzen?</string>
   <string name="uninstall_update_text_multiuser">Diese App durch die Werksversion ersetzen? Alle Daten werden gelöscht. Dies betrifft alle Benutzer dieses Telefons, auch die mit Arbeitsprofilen.</string>

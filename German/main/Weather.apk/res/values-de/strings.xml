@@ -1,17 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string name="dialog_internet_error_title">Ein Fehler ist aufgetreten</string>
-  <string name="download_rsc_tips">Hintergrundaudio laden…</string>
-  <string name="no_internet_message">Ihr Gerät muss mit dem Netzwerk verbunden sein, damit Sie Ihre Zustimmung zurückziehen können. Prüfen Sie Ihre Netzwerkeinstellungen und versuchen Sie es erneut.</string>
-  <string name="non_wifi_environment">Mit WLAN verbinden, um Audioeffekte herunterzuladen</string>
-  <string name="privacy_policy_msg"><Data>Diese App enthält folgende Funktionen: &lt;br/>• Wetterspezifische Informationen für Ihren Standort&lt;br/>• Wettervorhersagen&lt;br/>• Wetterwarnungen&lt;br/>&lt;br/>Wetter muss die notwendigen persönlichen Informationen sammeln, um Ihnen grundlegende Dienste anbieten zu können. Wie wir mit den Informationen umgehen, die wir gemäß unserer &lt;a href=\"%1$s\">Datenschutzerklärung&lt;/a> sammeln, erfahren Sie hier. Lesen und akzeptieren Sie unsere &lt;a href=\"%2$s\">Nutzervereinbarung&lt;/a> und &lt;a href=\"%3$s\">Datenschutzerklärung&lt;/a>, bevor Sie Wetter verwenden. Sie können Ihre Zustimmung zu den Datenschutzvereinbarungen von Wetter jederzeit in den Einstellungen zurückziehen.</Data></string>
-  <string name="privacy_policy_msg_for_gp"><Data>Diese App enthält folgende Funktionen: &lt;br/>• Wetterspezifische Informationen für Ihren Standort&lt;br/>• Wettervorhersagen&lt;br/>• Wetterwarnungen&lt;br/>&lt;br/>Wetter muss die notwendigen persönlichen Informationen, einschl. Standortdaten, sammeln, um diese Funktionen verfügbar zu machen, auch wenn die App geschlossen oder nicht in Gebrauch ist. Wie wir mit den Informationen umgehen, die wir gemäß unserer &lt;a href=\"%1$s\">Datenschutzerklärung&lt;/a> sammeln, erfahren Sie hier. Lesen und akzeptieren Sie unsere &lt;a href=\"%2$s\">Nutzervereinbarung f&lt;/a> und &lt;a href=\"%3$s\">Datenschutzerklärung&lt;/a>, bevor Sie Wetter verwenden. Sie können Ihre Zustimmung zu den Datenschutzvereinbarungen von Wetter jederzeit in den Einstellungen zurückziehen.</Data></string>
-  <string name="revoke_fail">Netzwerkverbindung herstellen nicht möglich</string>
-  <string name="revoke_privacy_policy_title">Zustimmung zurücknehmen</string>
-  <string name="weather_aqi_full_air_quality_forcast">Vollständige Luftqualitätsprognose</string>
-  <string name="weather_more_air_quality">Mehr zur Luftqualität</string>
-  <string name="welcome_app_title">Willkommen bei Wetter!</string>
-
   <string name="abc_action_bar_home_description">Zur Startseite</string>
   <string name="abc_action_bar_up_description">Nach oben</string>
   <string name="abc_action_menu_overflow_description">Mehr Optionen</string>
@@ -177,11 +165,13 @@ Nach unten ziehen, um zu aktualisieren, oder prüfen Sie die Netzwerkeinstellung
   <string name="data_provided_by">Zur Verfügung gestellt von</string>
   <string name="date_picker_lunar">Traditioneller chin. Kalender</string>
   <string name="delete">Löschen</string>
+  <string name="dialog_internet_error_title">Ein Fehler ist aufgetreten</string>
   <string name="dialog_msg_score_midrop">Wie denken Sie über Wetter?</string>
   <string name="dialog_msg_score_not_good">Könnten Sie uns auch Ihr Feedback geben?</string>
   <string name="dialog_msg_score_perfect">Prima! Bewerten Sie Wetter auch im Play Store?</string>
   <string name="dialog_title_score">Wetter bewerten</string>
   <string name="dislike_alert_dialog_title">Warum wollen Sie diesen Inhalt nicht sehen?</string>
+  <string name="download_rsc_tips">Hintergrundaudio laden…</string>
   <string name="dynamic_weather">Wetter</string>
   <string name="early_morning">Morgen</string>
   <string name="edit_alert_city_title">Warnungen verwalten</string>
@@ -237,7 +227,7 @@ Nach unten ziehen, um zu aktualisieren, oder prüfen Sie die Netzwerkeinstellung
   <string name="feedback_sunny">Sonnig</string>
   <string name="first_start_network_msg">Diese App benötigt eine Internetverbindung und Ihren Standort, um ordnungsgemäß ausgeführt zu werden</string>
   <string name="first_start_network_title">Internetzugriff und Standortabfrage</string>
-  <string name="fmt_chinese_date">d.M.</string>
+  <string name="fmt_chinese_date">dd.MM.</string>
   <string name="fmt_date_day">d.</string>
   <string name="fmt_date_long_month_day">d. MMMM</string>
   <string name="fmt_date_long_year_month_day">d. MMMM yyyy</string>
@@ -246,10 +236,10 @@ Nach unten ziehen, um zu aktualisieren, oder prüfen Sie die Netzwerkeinstellung
   <string name="fmt_date_numeric_month_day">dd.MM.</string>
   <string name="fmt_date_numeric_year_month">MM/yyyy</string>
   <string name="fmt_date_numeric_year_month_day">dd.MM.yyyy</string>
-  <string name="fmt_date_short_month">MM.</string>
-  <string name="fmt_date_short_month_day">dd.MM.</string>
+  <string name="fmt_date_short_month">MMM</string>
+  <string name="fmt_date_short_month_day">d. MMM</string>
   <string name="fmt_date_short_year_month">MMM yyyy</string>
-  <string name="fmt_date_short_year_month_day">dd.MM.yyyy</string>
+  <string name="fmt_date_short_year_month_day">d. MMM yyyy</string>
   <string name="fmt_date_time_timezone">D T z</string>
   <string name="fmt_date_timezone">D z</string>
   <string name="fmt_time_12hour">"h 'Uhr'"</string>
@@ -414,8 +404,10 @@ Nach unten ziehen, um zu aktualisieren, oder prüfen Sie die Netzwerkeinstellung
   <string name="night_not_disturb_settings_summary">Warnungen zwischen 23:00 und 7:00 Uhr blockieren</string>
   <string name="night_not_disturb_settings_title">Nachts nicht stören</string>
   <string name="no_data">Keine Daten</string>
+  <string name="no_internet_message">Ihr Gerät muss mit dem Netzwerk verbunden sein, damit Sie Ihre Zustimmung zurückziehen können. Prüfen Sie Ihre Netzwerkeinstellungen und versuchen Sie es erneut.</string>
   <string name="no_network_btn">Wiederholen</string>
   <string name="no_vote_ratio">%1$s%% dagegen</string>
+  <string name="non_wifi_environment">Mit WLAN verbinden, um Audioeffekte herunterzuladen</string>
   <string name="noon">Mittag</string>
   <string name="not_set">Nicht festgelegt</string>
   <string name="notif_aqi_title">LQI in %2$s heute: %1$d </string>
@@ -426,6 +418,9 @@ Nach unten ziehen, um zu aktualisieren, oder prüfen Sie die Netzwerkeinstellung
   <string name="other">Andere</string>
   <string name="other_settings">Andere Einstellungen</string>
   <string name="other_warning_settings">Andere Warnungen</string>
+  <string name="pad_keyboard_add_city">Ort hinzufügen</string>
+  <string name="pad_keyboard_left_switch">Vorheriger Ort</string>
+  <string name="pad_keyboard_right_switch">Nächster Ort</string>
   <string name="particulate_matter_exceeded">Überschritten</string>
   <string name="particulate_matter_not_exceeded">Nicht überschritten</string>
   <string name="particulate_matter_serious_exceeded">Ernsthaft überschritten</string>
@@ -449,6 +444,8 @@ Nach unten ziehen, um zu aktualisieren, oder prüfen Sie die Netzwerkeinstellung
   <string name="privacy_grant_or_revoke_settings">Zustimmung zurücknehmen</string>
   <string name="privacy_grant_success">Autorisierung erfolgreich erteilt</string>
   <string name="privacy_policy">Datenschutzerklärung</string>
+  <string name="privacy_policy_msg"><Data>Diese App enthält folgende Funktionen: &lt;br/>• Wetterspezifische Informationen für Ihren Standort&lt;br/>• Wettervorhersagen&lt;br/>• Wetterwarnungen&lt;br/>&lt;br/>Wetter muss die notwendigen persönlichen Informationen sammeln, um Ihnen grundlegende Dienste anbieten zu können. Wie wir mit den Informationen umgehen, die wir gemäß unserer &lt;a href=\"%1$s\">Datenschutzerklärung&lt;/a> sammeln, erfahren Sie hier. Lesen und akzeptieren Sie unsere &lt;a href=\"%2$s\">Nutzervereinbarung&lt;/a> und &lt;a href=\"%3$s\">Datenschutzerklärung&lt;/a>, bevor Sie Wetter verwenden. Sie können Ihre Zustimmung zu den Datenschutzvereinbarungen von Wetter jederzeit in den Einstellungen zurückziehen.</Data></string>
+  <string name="privacy_policy_msg_for_gp"><Data>Diese App enthält folgende Funktionen: &lt;br/>• Wetterspezifische Informationen für Ihren Standort&lt;br/>• Wettervorhersagen&lt;br/>• Wetterwarnungen&lt;br/>&lt;br/>Wetter muss die notwendigen persönlichen Informationen, einschl. Standortdaten, sammeln, um diese Funktionen verfügbar zu machen, auch wenn die App geschlossen oder nicht in Gebrauch ist. Wie wir mit den Informationen umgehen, die wir gemäß unserer &lt;a href=\"%1$s\">Datenschutzerklärung&lt;/a> sammeln, erfahren Sie hier. Lesen und akzeptieren Sie unsere &lt;a href=\"%2$s\">Nutzervereinbarung f&lt;/a> und &lt;a href=\"%3$s\">Datenschutzerklärung&lt;/a>, bevor Sie Wetter verwenden. Sie können Ihre Zustimmung zu den Datenschutzvereinbarungen von Wetter jederzeit in den Einstellungen zurückziehen.</Data></string>
   <string name="privacy_revoke_failed">Autorisierung wurde nicht widerrufen. Einen Moment warten und erneut versuchen.</string>
   <string name="privacy_revoke_success">Autorisierung erfolgreich widerrufen</string>
   <string name="privacy_settings">Datenschutzerklärung</string>
@@ -478,7 +475,9 @@ Nach unten ziehen, um zu aktualisieren, oder prüfen Sie die Netzwerkeinstellung
   <string name="request_permission_main_purpose">Wetterinformationen anzeigen</string>
   <string name="request_permission_read_phone_state_dialog_content">Zum Identifizieren Ihres Geräts</string>
   <string name="request_permission_storage_dialog_content">Zum Teilen von Wetterinformationen im Bildformat</string>
-  <string name="retry">Wiederholen</string>
+  <string name="retry">Erneut versuchen</string>
+  <string name="revoke_fail">Netzwerkverbindung herstellen nicht möglich</string>
+  <string name="revoke_privacy_policy_title">Zustimmung zurücknehmen</string>
   <string name="saturday">Samstag</string>
   <string name="saturday_short">Sa</string>
   <string name="saturday_shortest">S</string>
@@ -654,17 +653,20 @@ Nach unten ziehen, um zu aktualisieren, oder prüfen Sie die Netzwerkeinstellung
   <string name="warning_weather_day_and_night_settings_title">Tägliche Zusammenfassungen</string>
   <string name="weather_alert">Wetterwarnungen</string>
   <string name="weather_alert_channel_name">Warnmeldungen</string>
+  <string name="weather_aqi_full_air_quality_forcast">Vollständige Luftqualitätsprognose</string>
   <string name="weather_introduce">Immer dabei, bei Regen oder Sonnenschein.</string>
   <string name="weather_list_info">Verwandte Informationen</string>
   <string name="weather_list_title">Wetterschlagzeilen</string>
   <string name="weather_main_aqi_desc">Luftqualität</string>
   <string name="weather_main_minute_hour">Regenwahrscheinlichkeit in %d Stunden</string>
   <string name="weather_main_speak_tips">Hier tippen, um das Wetter per Sprache zu übertragen</string>
+  <string name="weather_more_air_quality">Mehr zur Luftqualität</string>
   <string name="weather_permission_agree">Zustimmen</string>
   <string name="weather_service_channel_name">Hintergrunddienste</string>
   <string name="wednesday">Mittwoch</string>
   <string name="wednesday_short">Mi</string>
   <string name="wednesday_shortest">M</string>
+  <string name="welcome_app_title">Willkommen bei Wetter!</string>
   <string name="widget_cta_not_agree">Tippen, um Wetterinfos zu erhalten</string>
   <string name="wind_direction_no_data">Windstärke</string>
   <string name="wind_miles_unit">%1$s m/s</string>

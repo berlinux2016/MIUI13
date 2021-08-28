@@ -111,7 +111,7 @@ dd.MM."</string>
   <string name="evening">Nachmittag</string>
   <string name="expand_button_title">Erweitert</string>
   <string name="exposed_dropdown_menu_content_description">Dropdown-Menü anzeigen</string>
-  <string name="fmt_chinese_date">d.M.</string>
+  <string name="fmt_chinese_date">dd.MM.</string>
   <string name="fmt_date_day">d.</string>
   <string name="fmt_date_long_month_day">d. MMMM</string>
   <string name="fmt_date_long_year_month_day">d. MMMM yyyy</string>
@@ -120,10 +120,10 @@ dd.MM."</string>
   <string name="fmt_date_numeric_month_day">dd.MM.</string>
   <string name="fmt_date_numeric_year_month">MM/yyyy</string>
   <string name="fmt_date_numeric_year_month_day">dd.MM.yyyy</string>
-  <string name="fmt_date_short_month">MM.</string>
-  <string name="fmt_date_short_month_day">dd.MM.</string>
+  <string name="fmt_date_short_month">MMM</string>
+  <string name="fmt_date_short_month_day">d. MMM</string>
   <string name="fmt_date_short_year_month">MMM yyyy</string>
-  <string name="fmt_date_short_year_month_day">dd.MM.yyyy</string>
+  <string name="fmt_date_short_year_month_day">d. MMM yyyy</string>
   <string name="fmt_date_time_timezone">D T z</string>
   <string name="fmt_date_timezone">D z</string>
   <string name="fmt_time_12hour">"h 'Uhr'"</string>
@@ -139,12 +139,14 @@ dd.MM."</string>
   <string name="friday">Freitag</string>
   <string name="friday_short">Fr</string>
   <string name="friday_shortest">F</string>
+  <string name="garbage_count">Es gibt %1$s alte Instanzen</string>
   <string name="icon_content_description">Dialogsymbol</string>
   <string name="large_time">Große Uhr</string>
   <string name="letter_space">Buchstabenabstand</string>
   <string name="line_space">Zeilenabstand</string>
   <string name="material_slider_range_end">Bereichsende,</string>
   <string name="material_slider_range_start">Bereichsanfang,</string>
+  <string name="memory_leak">Speicherleck</string>
   <string name="midnight">Nacht</string>
   <string name="mini_time">Kleine Uhr</string>
   <string name="minimalist_clock">Einfache Uhr</string>
@@ -204,8 +206,8 @@ dd.MM."</string>
   <string name="mtrl_badge_numberless_content_description">Neue Benachrichtigung</string>
   <string name="mtrl_chip_close_icon_content_description">%1$s entfernen</string>
   <string name="mtrl_exceed_max_badge_number_content_description">Mehr als %1$d neue Benachrichtigungen</string>
-  <string name="mtrl_picker_a11y_next_month">Zum nächsten Monat wechseln</string>
-  <string name="mtrl_picker_a11y_prev_month">Zum vorherigen Monat wechseln</string>
+  <string name="mtrl_picker_a11y_next_month">Zum Folgemonat wechseln</string>
+  <string name="mtrl_picker_a11y_prev_month">Zum Vormonat wechseln</string>
   <string name="mtrl_picker_announce_current_selection">Aktuelle Auswahl: %1$s</string>
   <string name="mtrl_picker_date_header_title">Datum wählen</string>
   <string name="mtrl_picker_date_header_unselected">Gewähltes Datum</string>
@@ -238,6 +240,7 @@ dd.MM."</string>
   <string name="notification_anim_pulse">Pulsieren</string>
   <string name="notification_anim_rhythm">Rhythmus</string>
   <string name="notification_anim_star">Sternenlicht</string>
+  <string name="notification_channel_alerts">Warnungen</string>
   <string name="notification_nothing">Nichts</string>
   <string name="notification_screen_on">Beleuchteter Bildschirm</string>
   <string name="only_show_bg_description">Uhrzeit, Datum und andere Elemente nicht anzeigen</string>

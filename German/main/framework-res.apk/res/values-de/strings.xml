@@ -586,7 +586,7 @@ Sie können diesen Kurzbefehl unter Einstellungen > Eingabehilfen in eine andere
   <string name="ext_media_missing_message">Dieses Gerät wieder einsetzen</string>
   <string name="ext_media_missing_title">%s fehlt</string>
   <string name="ext_media_move_failure_message">Daten wurden an ursprünglicher Position belassen</string>
-  <string name="ext_media_move_failure_title">Daten konnten nicht verschoben werden</string>
+  <string name="ext_media_move_failure_title">Daten wurden nicht verschoben</string>
   <string name="ext_media_move_specific_title">%s verschieben</string>
   <string name="ext_media_move_success_message">Daten wurden nach %s verschoben</string>
   <string name="ext_media_move_success_title">Fertig</string>
@@ -1157,7 +1157,7 @@ Versuchen Sie es in %2$d Sekunden erneut."</string>
   <string name="permdesc_bodySensors">Erlaubt der App den Zugriff auf Daten von Sensoren, mit denen Ihre Vitalfunktionen, etwa die Herzfrequenz, gemessen werden</string>
   <string name="permdesc_broadcastSticky">Erlaubt der App, dauerhafte Broadcasts zu senden, die auch nach Ende des Broadcasts bestehen bleiben. Ein zu intensiver Einsatz kann das Telefon langsam oder instabil machen, weil zu viel Arbeitsspeicher belegt wird.</string>
   <string name="permdesc_callCompanionApp">Erlaubt der App, laufende Anrufe auf dem Gerät zu sehen und zu steuern. Dazu gehören Informationen wie z. B. Rufnummern für Anrufe und der Status der Anrufe.</string>
-  <string name="permdesc_callPhone">Erlaubt der App, ohne Ihr Eingreifen Telefonnummern zu wählen. Dies kann zu unerwarteten Anrufen und Kosten führen. Beachten Sie, dass die App keine Notrufnummern wählen kann. Schädliche Apps verursachen möglicherweise Kosten, indem diese Anrufe ohne Ihre Bestätigung tätigen.</string>
+  <string name="permdesc_callPhone">Erlaubt der App, ohne Ihr Eingreifen Rufnummern zu wählen. Dies kann zu unerwarteten Anrufen und Kosten führen. Beachten Sie, dass die App keine Notrufnummern wählen kann. Schädliche Apps verursachen möglicherweise Kosten, indem diese Anrufe ohne Ihre Bestätigung tätigen.</string>
   <string name="permdesc_camera">Erlaubt der App, Bilder und Videos mit der Kamera aufzunehmen. Die Berechtigung erlaubt der App, die Kamera jederzeit und ohne Ihre Bestätigung zu nutzen.</string>
   <string name="permdesc_cameraOpenCloseListener">Diese App kann Rückrufe empfangen, wenn ein beliebiges Kameragerät geöffnet oder geschlossen wird (egal durch welche App).</string>
   <string name="permdesc_changeNetworkState">Erlaubt der App, den Status der Netzwerkkonnektivität zu ändern</string>
@@ -1202,7 +1202,7 @@ Versuchen Sie es in %2$d Sekunden erneut."</string>
   <string name="permdesc_readHistoryBookmarks">Erlaubt der App, den Verlauf aller mit dem Browser besuchten URLs und sämtliche Lesezeichen des Browsers zu lesen. Hinweis: Diese Berechtigung kann nicht von Browsern von Drittanbietern oder anderen Apps mit Internetfunktionen erzwungen werden.</string>
   <string name="permdesc_readInstallSessions">Erlaubt der App, Installationssitzungen zu lesen. Dadurch kann diese Details aktiver Paketinstallationen abrufen.</string>
   <string name="permdesc_readNetworkUsageHistory">Erlaubt der App, Daten zur bisherigen Netzwerknutzung für bestimmte Netzwerke und Apps zu lesen</string>
-  <string name="permdesc_readPhoneNumbers">Erlaubt der App den Zugriff auf Telefonnummern im Gerät.</string>
+  <string name="permdesc_readPhoneNumbers">Erlaubt der App den Zugriff auf Rufnummern im Gerät.</string>
   <string name="permdesc_readPhoneState">Erlaubt der App, auf die Telefonfunktionen des Geräts zuzugreifen. Die Berechtigung erlaubt der App, die Rufnummer und Geräte-IDs zu erfassen, festzustellen, ob gerade ein Gespräch geführt wird, und die Rufnummer verbundener Anrufer zu lesen.</string>
   <string name="permdesc_readSms">Erlaubt der App, auf Ihrem Telefon oder Ihrer SIM-Karte gespeicherte SMS zu lesen. Die App kann alle SMS lesen, unabhängig von Inhalt und Vertraulichkeit.</string>
   <string name="permdesc_readSyncSettings">Erlaubt der App, die Synchronisationseinstellungen eines Kontos zu lesen. Z. B. kann damit festgestellt werden, ob Kontakte mit einem Konto synchronisiert werden.</string>
@@ -1325,7 +1325,7 @@ Versuchen Sie es in %2$d Sekunden erneut."</string>
   <string name="permlab_bodySensors">Auf Körpersensoren zugreifen (z. B. Pulsmesser)</string>
   <string name="permlab_broadcastSticky">Dauerhaften Broadcast senden</string>
   <string name="permlab_callCompanionApp">Anrufe über das System sehen und steuern</string>
-  <string name="permlab_callPhone">Telefonnummern direkt anrufen</string>
+  <string name="permlab_callPhone">Rufnummern direkt anrufen</string>
   <string name="permlab_camera">Fotos und Videos aufnehmen</string>
   <string name="permlab_cameraOpenCloseListener">Erlaubt einer App oder einem Dienst, Rückrufe darüber zu empfangen, dass Kamerageräte geöffnet oder geschlossen werden</string>
   <string name="permlab_changeNetworkState">Netzwerkkonnektivität ändern</string>
@@ -1369,7 +1369,7 @@ Versuchen Sie es in %2$d Sekunden erneut."</string>
   <string name="permlab_readHistoryBookmarks">Lesezeichen für Webseiten und das Webprotokoll lesen</string>
   <string name="permlab_readInstallSessions">Installationssitzungen lesen</string>
   <string name="permlab_readNetworkUsageHistory">Bisherige Netzwerkauslastung lesen</string>
-  <string name="permlab_readPhoneNumbers">Telefonnummern lesen</string>
+  <string name="permlab_readPhoneNumbers">Rufnummern lesen</string>
   <string name="permlab_readPhoneState">Telefonstatus und Identität abrufen</string>
   <string name="permlab_readSms">SMS oder MMS lesen</string>
   <string name="permlab_readSyncSettings">Synchronisationseinstellungen lesen</string>
@@ -1404,7 +1404,7 @@ Versuchen Sie es in %2$d Sekunden erneut."</string>
   <string name="permlab_subscribedFeedsRead">Abonnierte Feeds lesen</string>
   <string name="permlab_systemAlertWindow">Diese App kann über anderen Apps erscheinen</string>
   <string name="permlab_systemCamera">Erlaubt einer App oder einem Dienst den Zugriff auf Systemkameras, um Bilder und Videos aufzunehmen</string>
-  <string name="permlab_transmitIr">kann Infrarot übertragen</string>
+  <string name="permlab_transmitIr">Kann Infrarot übertragen</string>
   <string name="permlab_trust_listener">Änderungen des Trust-Status überwachen</string>
   <string name="permlab_uninstall_shortcut">Verknüpfungen deinstallieren</string>
   <string name="permlab_useBiometric">Biometrische Hardware verwenden</string>
@@ -1663,7 +1663,7 @@ Lang andauerndes Anhören mit hoher Lautstärke kann Ihr Gehör schädigen."</st
   <string name="sms_control_no">Verweigern</string>
   <string name="sms_control_title">SMS werden gesendet</string>
   <string name="sms_control_yes">Zulassen</string>
-  <string name="sms_desc">SMS hat Telefonnumer gewählt</string>
+  <string name="sms_desc">SMS hat Rufnumer gewählt</string>
   <string name="sms_premium_short_code_details"><b>Hierfür werden Ihrem Mobilfunkkonto Kosten berechnet.</b></string>
   <string name="sms_short_code_confirm_allow">Senden</string>
   <string name="sms_short_code_confirm_always_allow">Immer zulassen</string>

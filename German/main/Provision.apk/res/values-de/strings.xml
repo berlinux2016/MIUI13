@@ -44,10 +44,11 @@
   <string name="calculator_introduction">Sie können diese App für Berechnungen, die Umrechnung von Einheiten und Währungen und die Schätzung Ihrer Hypothekenrückzahlungen verwenden.</string>
   <string name="camera_introduction">Sie können die Kamera verwenden, um Fotos und Videos aufzunehmen.</string>
   <string name="carrier_introduction">"Um Ihnen einen besseren Service zu bieten, kann Ihr Gerät regelmäßig Informationen über die Geräteversion, Geräteidentifikationsdaten (inkl. IMEI/IMSI/MSISDN/MAC-Adresse, MEID/ICCID) und ungefähre Standortinformationen (inkl. Basisstations-ID) an den Mobilfunkanbieter über WLAN, mobiles Datennetz oder kostenlose SMS senden. Der Mobilfunkanbieter verpflichtet sich, relevante Informationen nur zu analysieren, um die Qualität der Dienstleistungen zu verbessern oder maßgeschneiderte Dienstleistungen oder Technologien anzubieten, und wird relevante Informationen nicht an Dritte in irgendeiner Form weitergeben, die Sie persönlich identifiziert. Die spezifische Mobilfunkanbietererklärung hat Vorrang. Erkundigen Sie sich bei Ihrem Mobilfunkanbieter nach den Kosten für die Nutzung dieses Dienstes."</string>
+  <string name="carrier_introduction_china">Um Ihnen bessere Dienste anbieten zu können, können Prozesse, die auf Ihrem Gerät laufen (einschließlich SystemHelper, RegService und Carrier Services), regelmäßig Informationen zu Ihrem Gerät und Ihrer SIM-Karte (einschließlich IMEI, IMSI, MSISDN, MEID, ICCID, MAC-Adresse, MIUI-Version, Android-Version, Gerätemodell und grundlegende Hardwarespezifikationen) sowie ungefähre Standortinformationen (einschließlich Region, Koordinaten, Bereichskennung und Basisstations-ID) über WLAN, mobiles Datennetz oder kostenlose SMS an den Betreiber senden. Der Betreiber verspricht, die relevanten Informationen nur zu analysieren, um die Qualität der Dienste zu verbessern oder um kundenspezifische Dienste oder Technologien bereitzustellen, und wird die relevanten Informationen nicht an Dritte in irgendeiner Form weitergeben, die Sie persönlich identifiziert. Maßgeblich ist die jeweilige Erklärung des Netzbetreibers. Erkundigen Sie sich bei Ihrem Netzbetreiber nach den Kosten für die Nutzung dieses Dienstes.</string>
   <string name="clearable_edittext_clear_description">Löschen</string>
   <string name="clock_introduction">Sie können diese App verwenden, um die Zeit anzuzeigen, sowie Timer, Weltuhr, Stoppuhr, Wecker einstellen und vieles mehr.</string>
   <string name="close">Schließen</string>
-  <string name="close_location_service_setting">Sie können unter Einstellungen > Weitere Einstellungen > Datenschutz den Standortzugriff ausschalten oder unter Sicherheit die Berechtigungen für einzelne Apps einschränken.</string>
+  <string name="close_location_service_setting">Sie können den Standortzugriff deaktivieren unter Einstellungen &gt; Privatsphäre schützen &gt; Berechtigungen für einzelne Apps in Sicherheit verwalten oder einschränken.</string>
   <string name="cm_terms_content">Um die Servicequalität zu verbessern, kann Ihr Mobilfunkanbieter persönliche Daten und Geräteinfos über WLAN oder die mobile Datenverbindung auf seine Server hochladen. Diese Information wird nur für statistische Zwecke verwendet, um die Servicequalität zu verbessern oder Ihnen personalisierte Inhalte anzubieten. Diese Information kann Sie nicht persönlich identifizieren und wird nicht an Dritte weitergeleitet.</string>
   <string name="cm_terms_title">Mobilfunkbetreibervereinbarung</string>
   <string name="compass_introduction">Sie können diese App zur Navigation sowie zur Anzeige von Koordinaten, Luftdruck und Höhe verwenden.</string>
@@ -58,7 +59,7 @@
   <string name="content_introduction">Inhaltscenter führt Inhalte und Dienste aus mehreren Kanälen zusammen. Hier können Sie Artikel lesen, Videos ansehen, täglich vorgestellte Artikel ansehen und Inhaltsempfehlungen erhalten.</string>
   <string name="continue_to_enable_accessibility">Zwei Finger gedrückt halten, um Eingabehilfen zu aktivieren</string>
   <string name="copy">Kopieren</string>
-  <string name="data_traffic_enable_dialog_title">Wenn Sie jetzt nicht mit WLAN verbunden sind, verwendet Ihr Gerät mobile Daten. Das kann zusätzliche Anbietergebühren verursachen.</string>
+  <string name="data_traffic_enable_dialog_title">Wenn Sie jetzt nicht mit WLAN verbunden sind, verwendet Ihr Gerät mobile Daten. Das kann zusätzliche Anbieterkosten verursachen.</string>
   <string name="date_picker_lunar">Traditioneller chin. Kalender</string>
   <string name="date_time_picker_dialog_title">Datum und Zeit einstellen</string>
   <string name="desc_fingerprint">Benutzen Sie Ihren Fingerabdruck, um das Telefon zu entsperren, Mi Pay Transaktionen zu verifizieren oder sich bei Apps und Diensten anzumelden</string>
@@ -87,7 +88,7 @@
   <string name="expand_button_title">Erweitert</string>
   <string name="fast_application_introduction">Quick Apps Framework ermöglicht Ihnen, Dienste in Quick Apps zu erstellen und bereitzustellen.</string>
   <string name="fast_pairing_introduction">Mi Link ermöglicht Ihrem Gerät, sich mit Bluetooth-Geräten in der Nähe zu verbinden. Um Geräte in der Nähe zu finden, erlauben Sie Mi Link, eine Internetverbindung herzustellen.</string>
-  <string name="fmt_chinese_date">d.M.</string>
+  <string name="fmt_chinese_date">dd.MM.</string>
   <string name="fmt_date_day">d.</string>
   <string name="fmt_date_long_month_day">d. MMMM</string>
   <string name="fmt_date_long_year_month_day">d. MMMM yyyy</string>
@@ -96,10 +97,10 @@
   <string name="fmt_date_numeric_month_day">dd.MM.</string>
   <string name="fmt_date_numeric_year_month">MM/yyyy</string>
   <string name="fmt_date_numeric_year_month_day">dd.MM.yyyy</string>
-  <string name="fmt_date_short_month">MM.</string>
-  <string name="fmt_date_short_month_day">dd.MM.</string>
+  <string name="fmt_date_short_month">MMM</string>
+  <string name="fmt_date_short_month_day">d. MMM</string>
   <string name="fmt_date_short_year_month">MMM yyyy</string>
-  <string name="fmt_date_short_year_month_day">dd.MM.yyyy</string>
+  <string name="fmt_date_short_year_month_day">d. MMM yyyy</string>
   <string name="fmt_date_time_timezone">D T z</string>
   <string name="fmt_date_timezone">D z</string>
   <string name="fmt_time_12hour">"h 'Uhr'"</string>
@@ -202,8 +203,8 @@
   <string name="month_september_shortest">S</string>
   <string name="more">Mehr</string>
   <string name="morning">Morgen</string>
-  <string name="move_data_dialog_box_le">Dies ermöglicht die Nutzung mobiler Daten und einer GPS-Verbindung je nach Wunsch des Nutzers. Synchronisation von Konten und anderen Elementen kann je nach Smartphone-Spezifikationen die Nutzung mobiler Daten erfordern.</string>
-  <string name="move_data_dialog_box_title">Sofern Sie keinen Tarif mit unbegrenzter Datennutzung haben, können bei der Nutzung mobiler Daten zusätzliche Anbietergebühren anfallen. Mobile Daten trotzdem nutzen?</string>
+  <string name="move_data_dialog_box_le">Dies ermöglicht die Nutzung mobiler Daten und einer GPS-Verbindung je nach Wunsch des Nutzers. Synchronisation von Konten und anderen Elementen kann je nach Telefonspezifikationen die Nutzung mobiler Daten erfordern.</string>
+  <string name="move_data_dialog_box_title">Sofern Sie keinen Tarif mit unbegrenzter Datennutzung haben, können bei der Nutzung mobiler Daten zusätzliche Anbieterkosten anfallen. Mobile Daten trotzdem nutzen?</string>
   <string name="move_data_dialog_cancel">Abbrechen</string>
   <string name="move_data_dialog_title">Sie können die mobile Datenverbindung später in den Einstellungen einschränken</string>
   <string name="move_data_dialog_use">Nutzen</string>
@@ -303,7 +304,7 @@ Sie können diese Funktion unter Einstellungen > Passwörter &amp; Sicherheit > 
   <string name="preference_copied">\"%1$s\" in Zwischenablage kopiert</string>
   <string name="priv_dialog_sync_all_purpose">Willkommen bei Xiaomi Cloud-Diensten! Sie können Xiaomi Cloud verwenden, um Ihre Nachrichten, Anrufliste, Kontakte, Notizen, Browsereinstellungen, Songs, Fotos und Videos, WLAN-Einstellungen, Aufnahmen, Startbildschirm-Layout, Apps, Kalenderteinträgen, Sperrlistenelemente und Infoassistent über alle verbundenen Geräte zu synchronisieren.</string>
   <string name="priv_doc_cloudservice">Willkommen bei Xiaomi Cloud-Diensten! Sie können Xiaomi Cloud verwenden, um Ihre Nachrichten, Anrufliste, Kontakte, Notizen, Browsereinstellungen, Songs, Fotos und Videos, WLAN-Einstellungen, Aufnahmen, Startbildschirm-Layout, Apps, Kalenderteinträgen, Sperrlistenelemente und Infoassistent über alle verbundenen Geräte zu synchronisieren. Greifen Sie von jedem Browser aus auf die Dinge zu, die Sie synchronisieren. &lt;b>&lt;font color=\"#FF0000\">i.mi.com.&lt;/font>&lt;/b>"
-Zur Aktivierung dieses Dienstes kann eine ausgehende SMS erforderlich sein. Ihr Anbieter wird Ihnen für diese Nachricht eine Gebühr in Rechnung stellen. Wenn Sie Ihre SIM-Karte wechseln, kann automatisch eine Nachricht gesendet werden, um diese Funktion wieder zu aktivieren.
+Zur Aktivierung dieses Dienstes kann eine ausgehende SMS erforderlich sein. Ihr Anbieter wird Ihnen für diese Nachricht Kosten in Rechnung stellen. Wenn Sie Ihre SIM-Karte wechseln, kann automatisch eine Nachricht gesendet werden, um diese Funktion wieder zu aktivieren.
 
 Wir werden Ihre personenbezogenen Daten in Übereinstimmung mit den einschlägigen Gesetzen, Vorschriften und Datenschutzrichtlinien schützen.
 Um normal arbeiten zu können, muss Xiaomi Cloud eine Internetverbindung herstellen und benötigt die folgenden Berechtigungen, um Ihre personenbezogenen Daten zu erfassen:

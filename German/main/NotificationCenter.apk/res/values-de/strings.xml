@@ -25,9 +25,9 @@
   <string name="back">Zurück</string>
   <string name="cancel">Abbrechen</string>
   <string name="category_other">Andere</string>
-  <string name="channel_keyguard_hide_content">Alle Benachrichtigungen anzeigen, aber Inhalte ausblenden</string>
-  <string name="channel_keyguard_show_content">Alle Benachrichtigungen mit Inhalt anzeigen</string>
-  <string name="channel_keyguard_show_nothing">Benachrichtigungen nicht anzeigen</string>
+  <string name="channel_keyguard_hide_content">Alle Benachrichtigungen anzeigen, Inhalte ausblenden</string>
+  <string name="channel_keyguard_show_content">Benachrichtigung mit Inhalt</string>
+  <string name="channel_keyguard_show_nothing">Keine Benachrichtigungen</string>
   <string name="channel_name_aggregation">Gruppierte Benachrichtigungen</string>
   <string name="channel_name_notification">App-Benachrichtigungen</string>
   <string name="channel_name_recovered">Wiederhergestellte Benachrichtigungen</string>
@@ -64,7 +64,7 @@
   <string name="float_notification_snooze_summary">Auf einem Popup hochwischen, um kommende Benachrichtigungen vorübergehend auszublenden</string>
   <string name="float_notifications">Popup</string>
   <string name="float_notifications_short">Popup</string>
-  <string name="fmt_chinese_date">d.M.</string>
+  <string name="fmt_chinese_date">dd.MM.</string>
   <string name="fmt_date_day">d.</string>
   <string name="fmt_date_long_month_day">d. MMMM</string>
   <string name="fmt_date_long_year_month_day">d. MMMM yyyy</string>
@@ -73,10 +73,10 @@
   <string name="fmt_date_numeric_month_day">dd.MM.</string>
   <string name="fmt_date_numeric_year_month">MM/yyyy</string>
   <string name="fmt_date_numeric_year_month_day">dd.MM.yyyy</string>
-  <string name="fmt_date_short_month">MM.</string>
-  <string name="fmt_date_short_month_day">dd.MM.</string>
+  <string name="fmt_date_short_month">MMM</string>
+  <string name="fmt_date_short_month_day">d. MMM</string>
   <string name="fmt_date_short_year_month">MMM yyyy</string>
-  <string name="fmt_date_short_year_month_day">dd.MM.yyyy</string>
+  <string name="fmt_date_short_year_month_day">d. MMM yyyy</string>
   <string name="fmt_date_time_timezone">D T z</string>
   <string name="fmt_date_timezone">D z</string>
   <string name="fmt_time_12hour">"h 'Uhr'"</string>
@@ -103,13 +103,9 @@
   <string name="last_sent_time_second">Gerade eben</string>
   <string name="list_title_disable_notification">Benachrichtigungen nicht erlaubt</string>
   <string name="loading">Einen Moment…</string>
-  <string name="lock_screen_display_rules">"Anzeige-
-format"</string>
-  <string name="lock_screen_tip_toast">Sperrbildschirm-Benachrichtigungen in \"Anzeigeformat\" einstellen</string>
-  <string name="lockscreen_notifications">"Sperrbild-
-schirm"</string>
-  <string name="lockscreen_notifications_short">"Sperrbild-
-schirm"</string>
+  <string name="lock_screen_tip_toast">Sperrbildschirm-Benachrichtigungen in \"Format\" einstellen</string>
+  <string name="lockscreen_notifications">Sperrbildschirm</string>
+  <string name="lockscreen_notifications_short">Sperrbildschirm</string>
   <string name="menu_setting_aggregatation_feedback">Optionen Gruppieren</string>
   <string name="menu_setting_feedback_donot_classify">Nicht gruppieren</string>
   <string name="menu_setting_more_settings">Mehr Einstellungen</string>
@@ -186,7 +182,7 @@ schirm"</string>
   <string name="morning">Morgen</string>
   <string name="mtrl_badge_numberless_content_description">Neue Benachrichtigung</string>
   <string name="mtrl_chip_close_icon_content_description">%1$s entfernen</string>
-  <string name="mtrl_picker_a11y_next_month">Zum nächsten Monat wechseln</string>
+  <string name="mtrl_picker_a11y_next_month">Zum Folgemonat wechseln</string>
   <string name="mtrl_picker_a11y_prev_month">Zum Vormonat wechseln</string>
   <string name="mtrl_picker_announce_current_selection">Aktuelle Auswahl: %1$s</string>
   <string name="mtrl_picker_date_header_title">Datum wählen</string>
@@ -230,9 +226,9 @@ leiste"</string>
   <string name="notification_fold_footer_icon_title">App-Symbole anzeigen</string>
   <string name="notification_fold_summary">Alle unwichtigen Benachrichtigungen werden in einem separaten Ordner angezeigt</string>
   <string name="notification_fold_title">Benachrichtigungsordner</string>
-  <string name="notification_keyguard_hide_content">Benachrichtigungen anzeigen, aber Inhalte ausblenden</string>
-  <string name="notification_keyguard_show_content">Benachrichtigungen mit Inhalt anzeigen</string>
-  <string name="notification_keyguard_show_nothing">Keine Benachrichtigungen anzeigen</string>
+  <string name="notification_keyguard_hide_content">Benachrichtigung ja, Inhalt nein</string>
+  <string name="notification_keyguard_show_content">Benachrichtigung mit Inhalt</string>
+  <string name="notification_keyguard_show_nothing">Keine Benachrichtigungen</string>
   <string name="notification_manager">App-Benachrichtigungen</string>
   <string name="notification_setting_menu_feedback_text">"Diese Benachrichtigung sollte nicht hier sein?
 Problem melden &gt;"</string>
@@ -283,7 +279,7 @@ Problem melden &gt;"</string>
   <string name="summary_disable_lockscreen_notification">Sperrbildschirm-Benachrichtigung nicht erlaubt</string>
   <string name="summary_disable_show_badge_notification">Plakette nicht erlaubt</string>
   <string name="summary_enable_float_notification">Popup-Benachrichtigung erlaubt</string>
-  <string name="summary_enable_lockscreen_notification">Benachrichtigung erlaubt</string>
+  <string name="summary_enable_lockscreen_notification">Sperrbildschirm-Benachrichtigung erlaubt</string>
   <string name="summary_enable_show_badge_notification">Plakette erlaubt</string>
   <string name="summary_float_enable_notification_first">Benachrichtigungen erlauben, Popups einzuschalten</string>
   <string name="summary_fold_importance_default">MIUI entscheidet, welche Benachrichtigungen direkt erscheinen</string>

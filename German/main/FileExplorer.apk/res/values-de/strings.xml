@@ -114,6 +114,7 @@
   <string name="choose_report_comment_reason">Warum melden Sie diesen Kommentar?</string>
   <string name="choose_report_reason">Warum melden Sie dieses Video?</string>
   <string name="clean_hint">Tippen, um Speicherplatz freizugeben</string>
+  <string name="clean_hint_pad">Tippen, um Speicherplatz freizugeben</string>
   <string name="clear_record">Verlauf leeren</string>
   <string name="clear_text_end_icon_content_description">Text löschen</string>
   <string name="clearable_edittext_clear_description">Löschen</string>
@@ -128,7 +129,7 @@
   <string name="close">Schließen</string>
   <string name="comment_delete_message">Kommentar wird dauerhaft gelöscht.</string>
   <string name="comment_delete_title">Kommentar löschen</string>
-  <string name="comment_fail">Kommentar konnte nicht veröffentlicht werden, erneut versuchen</string>
+  <string name="comment_fail">Kommentar wurde nicht veröffentlicht, erneut versuchen</string>
   <string name="comment_fail_banned_forever">Sie sind wegen unangemessener Kommentare dauerhaft gesperrt. Kontaktieren Sie unsere QQ Gruppe (374463568) für mehr Informationen.</string>
   <string name="comment_fail_banned_forever_positive">Verstanden</string>
   <string name="comment_fail_banned_temporary">Sie wurden wegen unangemessener Kommentare vorübergehend gesperrt.</string>
@@ -162,7 +163,7 @@
   <string name="date_time_picker_dialog_title">Datum und Zeit einstellen</string>
   <string name="decompress_cancel">Abbrechen</string>
   <string name="decompress_confirm">Entpacken</string>
-  <string name="decompress_corrupt">Dateien konnten nicht entpackt werden. Paket ist beschädigt.</string>
+  <string name="decompress_corrupt">Dateien wurden nicht entpackt. Paket ist beschädigt.</string>
   <string name="decompress_destination_error">Dateien können nicht hierher entpackt werden</string>
   <string name="decompress_encrypted_rar_not_supported">Verschlüsselte RAR-Dateien werden nicht unterstützt</string>
   <string name="decompress_fail">Entpacken fehlgeschlagen</string>
@@ -242,9 +243,9 @@
   <string name="eras_bc">v. Chr.</string>
   <string name="error">Fehler~</string>
   <string name="error_contains_sharer_path">Dateien im Ordner /MIUI/Gallery/cloud/sharer können nicht verschlüsselt werden. Verschieben Sie die Dateien in einen anderen Ordner und versuchen Sie es erneut.</string>
-  <string name="error_create_dir">Ordner konnte nicht erstellt werden</string>
-  <string name="error_create_file">Datei konnte nicht erstellt werden</string>
-  <string name="error_delete_failed">Datei konnte nicht gelöscht werden</string>
+  <string name="error_create_dir">Ordner wurde nicht erstellt</string>
+  <string name="error_create_file">Datei wurde nicht erstellt</string>
+  <string name="error_delete_failed">Datei wurde nicht gelöscht</string>
   <string name="error_file_already_exists">Diese Datei existiert bereits</string>
   <string name="error_filename_too_long">Dateiname zu lang</string>
   <string name="error_folder_already_exists">Datei existiert bereits</string>
@@ -282,7 +283,7 @@
   <string name="file_name_invalid">Dateinamen dürfen folgende Zeichen nicht enthalten: /\\:*?&lt;&gt;</string>
   <string name="file_not_exist">Datei nicht vorhanden</string>
   <string name="finish_str">Fertig</string>
-  <string name="fmt_chinese_date">d.M.</string>
+  <string name="fmt_chinese_date">dd.MM.</string>
   <string name="fmt_date_day">d.</string>
   <string name="fmt_date_long_month_day">d. MMMM</string>
   <string name="fmt_date_long_year_month_day">d. MMMM yyyy</string>
@@ -291,10 +292,10 @@
   <string name="fmt_date_numeric_month_day">dd.MM.</string>
   <string name="fmt_date_numeric_year_month">MM/yyyy</string>
   <string name="fmt_date_numeric_year_month_day">dd.MM.yyyy</string>
-  <string name="fmt_date_short_month">MM.</string>
-  <string name="fmt_date_short_month_day">dd.MM.</string>
+  <string name="fmt_date_short_month">MMM</string>
+  <string name="fmt_date_short_month_day">d. MMM</string>
   <string name="fmt_date_short_year_month">MMM yyyy</string>
-  <string name="fmt_date_short_year_month_day">dd.MM.yyyy</string>
+  <string name="fmt_date_short_year_month_day">d. MMM yyyy</string>
   <string name="fmt_date_time_timezone">D T z</string>
   <string name="fmt_date_timezone">D z</string>
   <string name="fmt_time_12hour">"h 'Uhr'"</string>
@@ -371,7 +372,7 @@
   <string name="hottest_sticker_str">Beliebt</string>
   <string name="icon_content_description">Dialogsymbol</string>
   <string name="if_cancel">Diese Aktion abbrechen?</string>
-  <string name="image_loading_error">Bild konnte nicht geladen werden</string>
+  <string name="image_loading_error">Bild wurde nicht geladen</string>
   <string name="imm_str_storage">Speicher</string>
   <string name="input_memo_hint">Geben Sie weitere Gründe an (optional)</string>
   <string name="install_btn_download_install_text">Öffnen, um das Video und mehr zu sehen</string>
@@ -539,7 +540,7 @@
   <string name="mtrl_badge_numberless_content_description">Neue Benachrichtigung</string>
   <string name="mtrl_chip_close_icon_content_description">%1$s entfernen</string>
   <string name="mtrl_exceed_max_badge_number_content_description">Mehr als %1$d neue Benachrichtigungen</string>
-  <string name="mtrl_picker_a11y_next_month">Zum nächsten Monat wechseln</string>
+  <string name="mtrl_picker_a11y_next_month">Zum Folgemonat wechseln</string>
   <string name="mtrl_picker_a11y_prev_month">Zum Vormonat wechseln</string>
   <string name="mtrl_picker_announce_current_selection">Aktuelle Auswahl: %1$s</string>
   <string name="mtrl_picker_date_header_title">Datum wählen</string>
@@ -609,12 +610,12 @@
   <string name="notification_dialog_title">Benachrichtigungen</string>
   <string name="notification_name_combine">zh_cn=%1$s&amp;zh_tw=%2$s&amp;=%3$s</string>
   <string name="notification_wechat_expired_empty">WeChat hat diese Videos bereits gelöscht</string>
-  <string name="oauth_failed_tip">Autorisierung konnte nicht abgeschlossen werden</string>
+  <string name="oauth_failed_tip">Autorisierung wurde nicht abgeschlossen</string>
   <string name="one_account_bind_needed">Fügen Sie zumindest ein Konto hinzu</string>
   <string name="online_not_support">Datei kann im Moment nicht online angezeigt werden</string>
   <string name="open_app">Öffnen</string>
   <string name="open_chest">Öffnen, um ein Geschenk zu erhalten</string>
-  <string name="open_chest_failed">Konnte nicht geöffnet werden, Netzwerkeinstellungen prüfen und erneut versuchen</string>
+  <string name="open_chest_failed">Öffnen nicht möglich, Netzwerkeinstellungen prüfen und erneut versuchen</string>
   <string name="open_private_folder">Loslassen, um versteckte Ordner anzuzeigen</string>
   <string name="open_xk_app">\"Möchten Sie ein Video ansehen\" öffnen</string>
   <string name="operation_add_fav">Zu Favoriten hinzufügen…</string>
@@ -672,9 +673,9 @@
   <string name="other_user_no_liked_video_tip">Keine Videos, die ich mag</string>
   <string name="overwrite_msg">\"%s\" existiert bereits. Tippen, um diese durch die neue Datei zu ersetzen.</string>
   <string name="pad">Interner Speicher</string>
-  <string name="partial_cancel_successful">Einige Dateien konnten nicht verschoben werden. Die restlichen Dateien wurden nach %s verschoben.</string>
-  <string name="partial_delete_failure">Einige Dateien konnten nicht gelöscht werden, erneut versuchen.</string>
-  <string name="partial_encrypt_success">Einige Dateien konnten nicht versteckt werden, erneut versuchen.</string>
+  <string name="partial_cancel_successful">Einige Dateien wurden nicht verschoben. Die restlichen Dateien wurden nach %s verschoben.</string>
+  <string name="partial_delete_failure">Einige Dateien wurden nicht gelöscht, erneut versuchen.</string>
+  <string name="partial_encrypt_success">Einige Dateien wurden nicht versteckt, erneut versuchen.</string>
   <string name="password_toggle_content_description">Passwort anzeigen</string>
   <string name="path_download">Verwalten Sie Ihre Downloads</string>
   <string name="path_hot_sticker">Beliebte Sticker</string>

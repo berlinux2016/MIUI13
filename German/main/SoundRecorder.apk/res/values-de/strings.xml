@@ -29,6 +29,7 @@
   <string name="app_record">App-Aufnahmen</string>
   <string name="app_record_preference_title">App-Aufnahmen</string>
   <string name="back">Zurück</string>
+  <string name="bottomsheet_action_expand_halfway">Zur Hälfte erweitern</string>
   <string name="btn_clear_records">Aufnahmen löschen (%d Elemente)</string>
   <string name="button_queue_for_wifi">Warteschlange</string>
   <string name="button_start_now">Herunterladen</string>
@@ -37,10 +38,14 @@
   <string name="call_record_list_group_connected">Verbunden</string>
   <string name="call_record_list_group_unconnected">Nicht verbunden</string>
   <string name="cancel_rename">Abbrechen</string>
+  <string name="character_counter_content_description">%1$d von %2$d Zeichen eingegeben</string>
+  <string name="character_counter_overflowed_content_description">Zeichenlimit überschritten: %1$d von %2$d</string>
+  <string name="chip_text">Chiptext</string>
   <string name="choose_call_records_count">%d Elemente</string>
   <string name="clear_data_dialog_content">Zwischengespeicherte Elemente, App-Daten und benutzerdefinierte Einstellungen werden gelöscht, Ihre Aufnahmen bleiben jedoch erhalten.</string>
   <string name="clear_data_dialog_title">Daten jetzt löschen?</string>
   <string name="clear_records">Synchronisierte Aufnahmen löschen</string>
+  <string name="clear_text_end_icon_content_description">Text löschen</string>
   <string name="clearable_edittext_clear_description">Löschen</string>
   <string name="close">Schließen</string>
   <string name="cloud_record">Cloudaufnahme (%d)</string>
@@ -92,12 +97,14 @@
   <string name="error_file_access">Datei existiert nicht oder ist beschädigt</string>
   <string name="error_filename_illegal_char">Dateiname enthält mindestens ein ungültiges Zeichen</string>
   <string name="error_filename_too_long">Dateiname zu lang</string>
+  <string name="error_icon_content_description">Fehler</string>
   <string name="error_sdcard_access">Kein Zugriff auf den ext. oder int. Speicher möglich</string>
   <string name="error_sdcard_unmounted">SD-Karte nicht eingebunden, SD-Karte einsetzen</string>
   <string name="evening">Nachmittag</string>
   <string name="expand_button_title">Erweitert</string>
   <string name="export_to_note">Notiz exportieren</string>
-  <string name="faq">"Häufig gestellte Fragen：
+  <string name="exposed_dropdown_menu_content_description">Dropdown-Menü anzeigen</string>
+  <string name="faq">"Häufig gestellte Fragen:
 1.Welchen Status enthält die Bestellung?
 Die Bestellung umfasst drei Zustände: Übertragung, Abschluss und Übertragungsfehler. Nach dem Überschreiben der Bestellung wird der übertragene Text in der entsprechenden Aufnahmedatei angezeigt und diese kann geöffnet werden.
 2. Was ist wenn die Übertragung fehlschlägt?
@@ -105,7 +112,7 @@ Wenn die Bestellung übertragen wird, wird die Rückerstattung automatisch durch
 3. Wie kann ich den Text der Aufnahme präzisieren?
 Die Aufnahme nach Text unterstützt derzeit nur die Mandarin-Übertragung. Die Genauigkeit des Übertragungsergebnisses wird durch Entfernung, Umgebung, Stimme der Bevölkerung usw. beeinflusst. Die Genauigkeitsrate kann sehr unterschiedlich sein. Wenn Sie den Text genauer ändern möchten, können Sie das Telefon verlassen. Näher, die Art, wie man Mandarin spricht."</string>
   <string name="fm_record">Radioaufnahmen (%d)</string>
-  <string name="fmt_chinese_date">d.M.</string>
+  <string name="fmt_chinese_date">dd.MM.</string>
   <string name="fmt_date_day">d.</string>
   <string name="fmt_date_long_month_day">d. MMMM</string>
   <string name="fmt_date_long_year_month_day">d. MMMM yyyy</string>
@@ -114,10 +121,10 @@ Die Aufnahme nach Text unterstützt derzeit nur die Mandarin-Übertragung. Die G
   <string name="fmt_date_numeric_month_day">dd.MM.</string>
   <string name="fmt_date_numeric_year_month">MM/yyyy</string>
   <string name="fmt_date_numeric_year_month_day">dd.MM.yyyy</string>
-  <string name="fmt_date_short_month">MM.</string>
-  <string name="fmt_date_short_month_day">dd.MM.</string>
+  <string name="fmt_date_short_month">MMM</string>
+  <string name="fmt_date_short_month_day">d. MMM</string>
   <string name="fmt_date_short_year_month">MMM yyyy</string>
-  <string name="fmt_date_short_year_month_day">dd.MM.yyyy</string>
+  <string name="fmt_date_short_year_month_day">d. MMM yyyy</string>
   <string name="fmt_date_time_timezone">D T z</string>
   <string name="fmt_date_timezone">D z</string>
   <string name="fmt_time_12hour">"h 'Uhr'"</string>
@@ -135,6 +142,7 @@ Die Aufnahme nach Text unterstützt derzeit nur die Mandarin-Übertragung. Die G
   <string name="head_set_tip_dialog_msg">Trennen Sie den Kopfhörer, um Ton mit bestimmten Voreinstellungen aufnehmen zu können (z. B. Musik, Stimme).</string>
   <string name="head_set_tip_dialog_ok">Verstanden</string>
   <string name="head_set_tip_dialog_title">Internes Mikrofon verwenden</string>
+  <string name="icon_content_description">Dialogsymbol</string>
   <string name="invalid_argument">Ungültiges Argument</string>
   <string name="keywords_search_call_record">Anrufe aufnehmen;Anruf aufnehmen;Anrufaufnahme;Anrufaufnahmen</string>
   <string name="keywords_search_record">Neue Aufnahme;Aufnahme hinzufügen;Aufnahme;Aufnahmen;Protokoll;protokollieren;Rekorder;Sprachaufnahme;Sprachrekorder;Rekorder App;Aufnahme App;Wie nehme ich auf;Wie nehme ich Ton auf;Wo ist der Rekorder;MIUI Rekorder</string>
@@ -154,6 +162,18 @@ Die Aufnahme nach Text unterstützt derzeit nur die Mandarin-Übertragung. Die G
   <string name="low_battery_error_title">Niedriger Akkustand</string>
   <string name="lyric_item_point_count">%1$d bis %2$d</string>
   <string name="mark_point_list_title">Markierungen</string>
+  <string name="material_clock_toggle_content_description">Vor- oder nachmittags auswählen</string>
+  <string name="material_hour_selection">Stunde auswählen</string>
+  <string name="material_hour_suffix">%1$s Uhr</string>
+  <string name="material_minute_selection">Minuten auswählen</string>
+  <string name="material_minute_suffix">%1$s Minuten</string>
+  <string name="material_slider_range_end">Bereichsende,</string>
+  <string name="material_slider_range_start">Bereichsanfang,</string>
+  <string name="material_timepicker_clock_mode_description">In den Uhrzeitmodus wechseln, um die Uhrzeit einzugeben.</string>
+  <string name="material_timepicker_hour">Stunde</string>
+  <string name="material_timepicker_minute">Minute</string>
+  <string name="material_timepicker_select_time">Uhrzeit auswählen</string>
+  <string name="material_timepicker_text_input_mode_description">In den Texteingabemodus wechseln, um die Uhrzeit einzugeben.</string>
   <string name="menu">Menü</string>
   <string name="menu_view_record_list">Liste mit Aufnahmen anzeigen</string>
   <string name="message_file_size_error">Maximal unterstützte Aufnahmelänge für %s wurde erreicht</string>
@@ -215,6 +235,36 @@ Die Aufnahme nach Text unterstützt derzeit nur die Mandarin-Übertragung. Die G
   <string name="month_september_shortest">S</string>
   <string name="more">Mehr</string>
   <string name="morning">Morgen</string>
+  <string name="mtrl_badge_numberless_content_description">Neue Benachrichtigung</string>
+  <string name="mtrl_chip_close_icon_content_description">%1$s entfernen</string>
+  <string name="mtrl_exceed_max_badge_number_content_description">Mehr als %1$d neue Benachrichtigungen</string>
+  <string name="mtrl_picker_a11y_next_month">Zum Folgemonat wechseln</string>
+  <string name="mtrl_picker_a11y_prev_month">Zum Vormonat wechseln</string>
+  <string name="mtrl_picker_announce_current_selection">Aktuelle Auswahl: %1$s</string>
+  <string name="mtrl_picker_date_header_title">Datum wählen</string>
+  <string name="mtrl_picker_date_header_unselected">Gewähltes Datum</string>
+  <string name="mtrl_picker_day_of_week_column_header">Tagesspalte: %1$s</string>
+  <string name="mtrl_picker_invalid_format">Ungültiges Format</string>
+  <string name="mtrl_picker_invalid_format_example">Beispiel: %1$s</string>
+  <string name="mtrl_picker_invalid_format_use">Verwendung: %1$s</string>
+  <string name="mtrl_picker_invalid_range">Ungültiger Bereich</string>
+  <string name="mtrl_picker_navigate_to_year_description">Zum Jahr %1$s navigieren</string>
+  <string name="mtrl_picker_out_of_range">Außerhalb des Bereichs: %1$s</string>
+  <string name="mtrl_picker_range_header_only_end_selected">Startdatum – %1$s</string>
+  <string name="mtrl_picker_range_header_only_start_selected">%1$s – Enddatum</string>
+  <string name="mtrl_picker_range_header_title">Datumsbereich wählen</string>
+  <string name="mtrl_picker_range_header_unselected">Startdatum – Enddatum</string>
+  <string name="mtrl_picker_save">Speichern</string>
+  <string name="mtrl_picker_text_input_date_hint">Datum</string>
+  <string name="mtrl_picker_text_input_date_range_end_hint">Enddatum</string>
+  <string name="mtrl_picker_text_input_date_range_start_hint">Startdatum</string>
+  <string name="mtrl_picker_text_input_day_abbr">T</string>
+  <string name="mtrl_picker_text_input_month_abbr">M</string>
+  <string name="mtrl_picker_text_input_year_abbr">J</string>
+  <string name="mtrl_picker_toggle_to_calendar_input_mode">Zum Kalendereingabemodus wechseln</string>
+  <string name="mtrl_picker_toggle_to_day_selection">Tippen, um zur Tagesauswahl zu wechseln</string>
+  <string name="mtrl_picker_toggle_to_text_input_mode">Zum Texteingabemodus wechseln</string>
+  <string name="mtrl_picker_toggle_to_year_selection">Tippen, um zur Jahresauswahl zu wechseln</string>
   <string name="network_tip_dialog_cancel">Nicht einverstanden</string>
   <string name="network_tip_dialog_content">Rekorder muss eine Internetverbindung herstellen, um normal zu funktionieren. Einverstanden?</string>
   <string name="network_tip_dialog_ok">Zustimmen</string>
@@ -267,10 +317,12 @@ Die Aufnahme nach Text unterstützt derzeit nur die Mandarin-Übertragung. Die G
   <string name="order_item_duration">Dauer: %s</string>
   <string name="order_item_number">Bestell-Nr.: %s</string>
   <string name="other_settings_pref_title">Weitere Einstellungen</string>
+  <string name="password_toggle_content_description">Passwort anzeigen</string>
   <string name="path_soundrecorder_setting">Einstellungen/System-Apps/Rekorder</string>
   <string name="pay_error_cancel">Zahlung abgebrochen</string>
   <string name="pay_error_null">Zahlungsfehler, Konto prüfen</string>
   <string name="pay_error_unknown">Unbekannter Fehler</string>
+  <string name="play_speed">%1$.1fX-Geschwindigkeit</string>
   <string name="playback_delete_records">Aufnahme löschen</string>
   <string name="playback_share_records">Aufnahme teilen</string>
   <string name="preference_clear_data">Daten löschen</string>
@@ -403,7 +455,7 @@ Um den Sprache-zu-Text-Dienst besser nutzen zu können, müssen Sie auch Folgend
   <string name="rename_duplicate">Bitte neu eingeben: Eine Aufnahme mit demselben Namen ist bereit vorhanden.</string>
   <string name="rename_fail_tip">Nicht umbenannt. Ein Element mit diesem Namen existiert bereits.</string>
   <string name="rename_no_more_tip">Nicht wieder anzeigen</string>
-  <string name="retry">Wiederholen</string>
+  <string name="retry">Erneut versuchen</string>
   <string name="runtime_permission_ungranted">Rekorder kann ohne erteilte Berechtigungen nicht verwendet werden</string>
   <string name="saturday">Samstag</string>
   <string name="saturday_short">Sa</string>

@@ -90,7 +90,14 @@
   <string name="anonymous_source_continue">Weiter</string>
   <string name="anonymous_source_warning">Ihr Telefon und Ihre persönlichen Daten sind anfälliger für Angriffe unbekannter Apps. Durch die Installation dieser App stimmen Sie zu, dass Sie für Schäden an Ihrem Telefon oder Datenverluste verantwortlich sind, die durch die Verwendung dieser App entstehen können.</string>
   <string name="anonymous_source_warning_tablet">Ihre Geräte und persönlichen Daten sind anfälliger für Angriffe unbekannter Apps. Durch die Installation dieser App stimmen Sie zu, dass Sie für alle Schäden an Ihren Geräten oder Datenverluste verantwortlich sind, die durch die Verwendung dieser App entstehen können.</string>
+  <string name="app_detail_change_log">Was ist neu</string>
+  <string name="app_detail_introduction">Über diese App</string>
+  <string name="app_detail_other_info">Andere Infos</string>
+  <string name="app_detail_other_publish">Entwickler: %1$s</string>
+  <string name="app_detail_other_update_time">Aktualisiert: %1$s</string>
   <string name="app_install_failed_button_text">Nach Apps suchen</string>
+  <string name="app_installing_not_allow">Sie haben %1$s nicht erlaubt, Apps zu installieren. Sie können dies in den Einstellungen ändern.</string>
+  <string name="app_installing_toast">Warten, bis alle laufenden Installationen abgeschlossen sind und erneut versuchen</string>
   <string name="app_name">Package Installer</string>
   <string name="app_name_unknown">Ungenau</string>
   <string name="app_not_found_dlg_text">App wurde nicht in der Liste der installierten Apps gefunden</string>
@@ -101,9 +108,9 @@
   <string name="app_permissions_group_summary">%1$d von %2$d Apps sind berechtigt</string>
   <string name="app_store_install_hint">Jetzt installieren</string>
   <string name="app_store_installing_message">Installieren…</string>
-  <string name="app_store_missing_message">Sieht so aus, als sei unser offizieller App Store nicht installiert. Jetzt installieren?</string>
+  <string name="app_store_missing_message">Anscheinend ist unser offizieller App Store nicht installiert. Jetzt installieren?</string>
   <string name="app_store_missing_title">App Store ist nicht installiert</string>
-  <string name="application_detail_tips">Appdetails und erforderliche Berechtigungen</string>
+  <string name="application_detail_tips">App-Details und erforderliche Berechtigungen</string>
   <string name="auto_startup_dialog_msg">Diese App kann ohne Ihre Erlaubnis gestartet werden.</string>
   <string name="btn_text_full_scan">Vollständige Prüfung</string>
   <string name="btn_text_install_new_version">Letzte Version</string>
@@ -113,6 +120,9 @@
   <string name="btn_text_security_install">Ersetzen mit sicherer Version</string>
   <string name="caller_app">Berechtigungsanfrage von %1$s</string>
   <string name="cancel">Abbrechen</string>
+  <string name="character_counter_content_description">Zeichen eingegeben: %1$d von %2$d</string>
+  <string name="character_counter_overflowed_content_description">Zeichenlimit überschritten: %1$d von %2$d</string>
+  <string name="clear_text_end_icon_content_description">Text löschen</string>
   <string name="clearable_edittext_clear_description">Löschen</string>
   <string name="close">Schließen</string>
   <string name="copy">Kopieren</string>
@@ -133,25 +143,28 @@ Alle Ihre bisherigen Benutzerdaten werden gespeichert."</string>
   <string name="dlg_appstore_notice">Wir können die Authentizität oder Sicherheit von Apps aus Quellen außerhalb des &lt;u&gt;&lt;font color=#91c727&gt;App Store&lt;/font&gt;&lt;/u&gt; nicht prüfen.</string>
   <string name="dlg_game_center_intercept_game_center_install">Von Mi Games installieren</string>
   <string name="dlg_game_center_intercept_install">Trotzdem installieren</string>
-  <string name="dlg_game_center_intercept_msg">Installieren von Drittanbieterspielen kann Sicherheitsrisiken mit sich bringen. Mi Games herunterladen und installieren, um auf sichere App-Versionen zuzugreifen.</string>
+  <string name="dlg_game_center_intercept_msg">Installation von Drittanbieterspielen kann Sicherheitsrisiken mit sich bringen. Mi Games herunterladen und installieren, um auf sichere App-Versionen zuzugreifen.</string>
   <string name="dlg_game_center_intercept_title">Vorsicht</string>
   <string name="dlg_mimarket_intercept_mimarket_install">Aus Mi App Store installieren</string>
-  <string name="dlg_mimarket_intercept_msg">Installation von Drittanbieter-Apps kann Sicherheitsrisiken mit sich bringen. Laden Sie Mi App Store herunter und installieren Sie ihn, um auf sichere App-Versionen zuzugreifen.</string>
+  <string name="dlg_mimarket_intercept_msg">Installation von Drittanbieter-Apps kann Sicherheitsrisiken mit sich bringen. Mi App Store herunterladen und installieren, um auf sichere App-Versionen zuzugreifen.</string>
   <string name="dlg_msg_unoffical">System-Apps aus inoffiziellen Kanälen installieren nicht möglich</string>
   <string name="dlg_sys_app_replacement_statement">"Dies ist eine System-App.
 
 Alle Ihre bisherigen Benutzerdaten werden gespeichert."</string>
+  <string name="do_not_show_again">Nicht mehr anzeigen</string>
   <string name="done">Fertig</string>
   <string name="early_morning">Morgen</string>
   <string name="eras_ad">n. Chr.</string>
   <string name="eras_bc">v. Chr.</string>
+  <string name="error_icon_content_description">Fehler</string>
   <string name="evening">Nachmittag</string>
   <string name="exit_install_button">Nicht installieren</string>
   <string name="expand_button_title">Erweitert</string>
+  <string name="exposed_dropdown_menu_content_description">Dropdown-Menü anzeigen</string>
   <string name="external_sources_settings">Einstellungen</string>
   <string name="external_sources_settings_negative">Einschränken</string>
   <string name="external_sources_settings_positive">Erlauben</string>
-  <string name="fmt_chinese_date">d.M.</string>
+  <string name="fmt_chinese_date">dd.MM.</string>
   <string name="fmt_date_day">d.</string>
   <string name="fmt_date_long_month_day">d. MMMM</string>
   <string name="fmt_date_long_year_month_day">d. MMMM yyyy</string>
@@ -160,10 +173,10 @@ Alle Ihre bisherigen Benutzerdaten werden gespeichert."</string>
   <string name="fmt_date_numeric_month_day">dd.MM.</string>
   <string name="fmt_date_numeric_year_month">MM/yyyy</string>
   <string name="fmt_date_numeric_year_month_day">dd.MM.yyyy</string>
-  <string name="fmt_date_short_month">MM.</string>
-  <string name="fmt_date_short_month_day">dd.MM.</string>
+  <string name="fmt_date_short_month">MMM</string>
+  <string name="fmt_date_short_month_day">d. MMM</string>
   <string name="fmt_date_short_year_month">MMM yyyy</string>
-  <string name="fmt_date_short_year_month_day">dd.MM.yyyy</string>
+  <string name="fmt_date_short_year_month_day">d. MMM yyyy</string>
   <string name="fmt_date_time_timezone">D T z</string>
   <string name="fmt_date_timezone">D z</string>
   <string name="fmt_time_12hour">"h 'Uhr'"</string>
@@ -188,6 +201,7 @@ Alle Ihre bisherigen Benutzerdaten werden gespeichert."</string>
   <string name="grant_dialog_button_deny">Verweigern</string>
   <string name="grant_dialog_button_deny_anyway">Trotzdem verweigern</string>
   <string name="high_risk_perms">Berechtigungen mit hohem Risiko</string>
+  <string name="icon_content_description">Dialogsymbol</string>
   <string name="increment_install_downloading">%1$s herunterladen</string>
   <string name="increment_install_network_error_cancel">Abbrechen</string>
   <string name="increment_install_network_error_msg">Netzwerkfehler aufgetreten. Sie können die inoffizielle App weiterhin installieren. Weiter?</string>
@@ -233,6 +247,7 @@ Alternativ können Sie den Lite-Modus ausschalten und es erneut versuchen."</str
   <string name="install_finished_notification_summary">Tippen, um Speicherplatz freizugeben</string>
   <string name="install_finished_notification_title">%1$s erfolgreich installiert. Sie können %2$s an Speicherplatz freigeben.</string>
   <string name="install_from_appstore_hint">Wir empfehlen Ihnen, die App aus dem <u><font color="#91c727">App Store</font></u> zu installieren</string>
+  <string name="install_unknow_source">Unbekannte Apps installieren</string>
   <string name="install_vip_account_mode_explain_des">Dies ist eine Beta-Version der App. Beantragen Sie vor der Installation Beta-Testberechtigungen.</string>
   <string name="install_vip_account_mode_solution_des">Für Beta bewerben</string>
   <string name="installing">Installieren…</string>
@@ -250,6 +265,8 @@ Alternativ können Sie den Lite-Modus ausschalten und es erneut versuchen."</str
   <string name="manage_applications">Apps verwalten</string>
   <string name="manage_device_administrators">Geräteadministratoren verwalten</string>
   <string name="manage_users">Benutzer verwalten</string>
+  <string name="material_slider_range_end">Bereichsende,</string>
+  <string name="material_slider_range_start">Bereichsanfang,</string>
   <string name="menu_hide_system">System ausblenden</string>
   <string name="menu_show_system">System anzeigen</string>
   <string name="message_appstore_verify_has_new_version">Eine neue App-Version ist in unserem App Store verfügbar, wollen Sie diese installieren?</string>
@@ -279,6 +296,9 @@ Alternativ können Sie den Lite-Modus ausschalten und es erneut versuchen."</str
   <string name="miui_failed_insufficient_storage">Zu wenig freier Speicher</string>
   <string name="miui_failed_invalid_apk">Installationspaket fehlerhaft</string>
   <string name="miui_failed_invalid_uri">Ungültiger Installationspfad</string>
+  <string name="miui_failed_market_code_denied">Anfrage wurde abgelehnt</string>
+  <string name="miui_failed_market_code_download_failed">Herunterladen nicht möglich</string>
+  <string name="miui_failed_market_code_no_response">GetApps hat nicht geantwortet</string>
   <string name="miui_failed_miui_system_incompatible">Dieses Paket ist nicht mit MIUI kompatibel</string>
   <string name="miui_failed_newer_sdk">SDK-Version wird noch nicht unterstützt</string>
   <string name="miui_failed_older_sdk">SDK-Version ist veraltet</string>
@@ -293,6 +313,8 @@ Alternativ können Sie den Lite-Modus ausschalten und es erneut versuchen."</str
   <string name="miui_failed_solution_6">Bereits installierte Version löschen und die Installation erneut versuchen.</string>
   <string name="miui_failed_solution_7">Neueste Version dieser App in GetApps herunterladen.</string>
   <string name="miui_failed_solution_8">App von einer vertrauenswürdigen Quelle herunterladen.</string>
+  <string name="miui_failed_solution_retry_later">Einen Moment warten und erneut versuchen</string>
+  <string name="miui_failed_solution_to_market">Diese App von einer vertrauenswürdigen Quelle installieren</string>
   <string name="miui_failed_system_incompatible">Installationspaket ist nicht kompatibel</string>
   <string name="miui_failed_update_incompatible">App-Signaturkonflikt</string>
   <string name="miui_failed_version_downgrade">Downgrade von Apps nicht möglich</string>
@@ -392,6 +414,36 @@ Alternativ können Sie den Lite-Modus ausschalten und es erneut versuchen."</str
   <string name="month_september_shortest">S</string>
   <string name="more">Mehr</string>
   <string name="morning">Morgen</string>
+  <string name="mtrl_badge_numberless_content_description">Neue Benachrichtigung</string>
+  <string name="mtrl_chip_close_icon_content_description">%1$s entfernen</string>
+  <string name="mtrl_exceed_max_badge_number_content_description">Mehr als %1$d neue Benachrichtigungen</string>
+  <string name="mtrl_picker_a11y_next_month">Zum Folgemonat wechseln</string>
+  <string name="mtrl_picker_a11y_prev_month">Zum Vormonat wechseln</string>
+  <string name="mtrl_picker_announce_current_selection">Aktuelle Auswahl: %1$s</string>
+  <string name="mtrl_picker_date_header_title">Datum wählen</string>
+  <string name="mtrl_picker_date_header_unselected">Gewähltes Datum</string>
+  <string name="mtrl_picker_day_of_week_column_header">Tagesspalte: %1$s</string>
+  <string name="mtrl_picker_invalid_format">Ungültiges Format</string>
+  <string name="mtrl_picker_invalid_format_example">Beispiel: %1$s</string>
+  <string name="mtrl_picker_invalid_format_use">Verwendung: %1$s</string>
+  <string name="mtrl_picker_invalid_range">Ungültiger Bereich</string>
+  <string name="mtrl_picker_navigate_to_year_description">Zum Jahr %1$s navigieren</string>
+  <string name="mtrl_picker_out_of_range">Außerhalb des Bereichs: %1$s</string>
+  <string name="mtrl_picker_range_header_only_end_selected">Startdatum – %1$s</string>
+  <string name="mtrl_picker_range_header_only_start_selected">%1$s – Enddatum</string>
+  <string name="mtrl_picker_range_header_title">Datumsbereich wählen</string>
+  <string name="mtrl_picker_range_header_unselected">Startdatum – Enddatum</string>
+  <string name="mtrl_picker_save">Speichern</string>
+  <string name="mtrl_picker_text_input_date_hint">Datum</string>
+  <string name="mtrl_picker_text_input_date_range_end_hint">Enddatum</string>
+  <string name="mtrl_picker_text_input_date_range_start_hint">Startdatum</string>
+  <string name="mtrl_picker_text_input_day_abbr">T</string>
+  <string name="mtrl_picker_text_input_month_abbr">M</string>
+  <string name="mtrl_picker_text_input_year_abbr">J</string>
+  <string name="mtrl_picker_toggle_to_calendar_input_mode">Zum Kalendereingabemodus wechseln</string>
+  <string name="mtrl_picker_toggle_to_day_selection">Tippen, um zur Tagesauswahl zu wechseln</string>
+  <string name="mtrl_picker_toggle_to_text_input_mode">Zum Texteingabemodus wechseln</string>
+  <string name="mtrl_picker_toggle_to_year_selection">Tippen, um zur Jahresauswahl zu wechseln</string>
   <string name="never_ask_again">Nicht nochmal fragen</string>
   <string name="newPerms">Neu</string>
   <string name="new_permissions_category">Neue Berechtigungen</string>
@@ -405,8 +457,9 @@ Alternativ können Sie den Lite-Modus ausschalten und es erneut versuchen."</str
   <string name="old_sdk_deny_warning">Diese App wurde für eine ältere Version von Android konzipiert. Wenn Sie keine Berechtigung erteilen, funktioniert die App möglicherweise nicht mehr ordnungsgemäß.</string>
   <string name="other_permissions">Andere App-Funktionen</string>
   <string name="other_relative">Andere</string>
-  <string name="out_of_space_dlg_text">%1$s konnte nicht installiert werden. Geben Sie Speicherplatz frei und versuchen Sie es erneut.</string>
+  <string name="out_of_space_dlg_text">%1$s wurde nicht installiert. Geben Sie Speicherplatz frei und versuchen Sie es erneut.</string>
   <string name="out_of_space_dlg_title">Kein freier Speicher vorhanden</string>
+  <string name="password_toggle_content_description">Passwort anzeigen</string>
   <string name="perm_action_accept">Erlauben</string>
   <string name="perm_action_prompt">Nachfragen</string>
   <string name="perm_action_reject">Verweigern</string>
@@ -462,6 +515,7 @@ Alternativ können Sie den Lite-Modus ausschalten und es erneut versuchen."</str
   <string name="screen_overlay_title">Bildschirmüberlagerung erkannt</string>
   <string name="search_menu_title">Suchen</string>
   <string name="security_settings_desc">Ermöglicht dieser App:</string>
+  <string name="send">Senden</string>
   <string name="settings">Einstellungen</string>
   <string name="settings_warning_dialog_detail">"In den folgenden Fällen werden Sie gefragt:
  <li>Wenn eine App Viren enthält.</li>
@@ -565,7 +619,7 @@ Alternativ können Sie den Lite-Modus ausschalten und es erneut versuchen."</str
   <string name="uninstall_failed">Deinstallation fehlgeschlagen</string>
   <string name="uninstall_failed_device_policy_manager">Deinstallation nicht möglich, Paket ist ein aktiver Geräteadministrator</string>
   <string name="uninstall_failed_device_policy_manager_of_user">Deinstallation nicht möglich, Paket ist ein aktiver Geräteadministrator für %1$s</string>
-  <string name="uninstall_failed_msg">%1$s konnte nicht deinstalliert werden</string>
+  <string name="uninstall_failed_msg">%1$s wurde nicht deinstalliert</string>
   <string name="uninstall_failed_retained_app_msg">Diese App wurde modifiziert und kann in dieser Form nicht deinstalliert werden</string>
   <string name="uninstall_update_text">Möchten Sie diese App durch die Werksversion ersetzen?</string>
   <string name="uninstall_update_text_multiuser">Diese App durch die Werksversion ersetzen? Alle Daten werden gelöscht. Dies betrifft alle Benutzer dieses Telefons, auch die mit Arbeitsprofilen.</string>
@@ -575,6 +629,8 @@ Alternativ können Sie den Lite-Modus ausschalten und es erneut versuchen."</str
   <string name="unknown_apps_admin_dlg_text">Ihr Administrator erlaubt die Installation von Apps aus unbekannten Quellen nicht</string>
   <string name="unknown_apps_dlg_text">Aus Sicherheitsgründen können Sie auf Ihrem Telefon keine Apps von unbekannten Quellen installieren</string>
   <string name="unknown_installer">Nichtidentifizierte PC-Tools</string>
+  <string name="unknown_source_allow">Zulassen</string>
+  <string name="unknown_source_forbidden">Einschränken</string>
   <string name="unlike">Nein danke</string>
   <string name="untrusted_external_source_always_click">Immer erlauben</string>
   <string name="untrusted_external_source_title">\"%1$s\" erlauben Apps zu installieren?</string>

@@ -799,9 +799,9 @@ Drücken Sie 'Löschen und konvertieren…', um fortzufahren."</string>
   <string name="development_settings_not_available">Entwickleroptionen sind für diesen Benutzer nicht verfügbar</string>
   <string name="development_settings_summary">Optionen für App-Entwicklung festlegen</string>
   <string name="development_settings_title">Entwickleroptionen</string>
-  <string name="device_locked_without_biometric">Biometrische Erkennung ist wegen der Verwendung einer Ein-Tasten-Bildschirmsperre eines Drittanbieters nicht möglich</string>
-  <string name="device_locked_without_biometric_face">Biometrische Erkennung ist wegen der Verwendung einer Ein-Tasten-Bildschirmsperre eines Drittanbieters nicht möglich</string>
-  <string name="device_locked_without_biometric_finger">Biometrische Erkennung ist wegen der Verwendung einer Ein-Tasten-Bildschirmsperre eines Drittanbieters nicht möglich</string>
+  <string name="device_locked_without_biometric">Gerät kann nicht mit Fingerabdruck oder Gesichtsdaten entsperrt werden, wenn Sie eine Bildschirmsperre eines Drittanbieters verwenden</string>
+  <string name="device_locked_without_biometric_face">Gerät kann nicht mit Gesichtsdaten entsperrt werden, wenn Sie eine Bildschirmsperre eines Drittanbieters verwenden</string>
+  <string name="device_locked_without_biometric_finger">Gerät kann nicht mit Fingerabdruck entsperrt werden, wenn Sie eine Bildschirmsperre eines Drittanbieters verwenden</string>
   <string name="device_services">Gerätedienste</string>
   <string name="dewdrops">Morgentau</string>
   <string name="dialog_message_fake_cell_detect_error">Infos zu dieser Nachricht korrigieren? Dazu muss MIUI die Rufnummer (%1$s), den Inhalt der Nachricht und die Informationen über den nahegelegenen Standort auf seine Server hochladen.</string>
@@ -955,7 +955,7 @@ innerhalb des Kreises befindet"</string>
   <string name="face_unlock_close_screen">Kommen Sie näher an den Bildschirm heran</string>
   <string name="face_unlock_down">Heben Sie Ihren Kopf</string>
   <string name="face_unlock_fail">Gesicht verifizieren fehlgeschlagen</string>
-  <string name="face_unlock_fail_retry">Ihr Gesicht konnte nicht geprüft werden. Tippen Sie oben, um es erneut zu versuchen.</string>
+  <string name="face_unlock_fail_retry">Ihr Gesicht wurde nicht geprüft. Oben tippen, um es erneut zu versuchen.</string>
   <string name="face_unlock_fail_retry_global">Oben tippen, um die Gesichtsentsperrung zu verwenden.</string>
   <string name="face_unlock_identify_error">Ein Fehler bei der Erkennung ist aufgetreten</string>
   <string name="face_unlock_not_found">Gesichtserkennung fehlgeschlagen</string>
@@ -973,7 +973,7 @@ innerhalb des Kreises befindet"</string>
   <string name="face_unlock_pattern_and_fingerprint_v11">Muster zeichnen oder Fingerabdruck zum Entsperren verwenden</string>
   <string name="face_unlock_pin_and_fingerprint">PIN eingeben oder Fingerabdruck zum Entsperren verwenden</string>
   <string name="face_unlock_pin_and_fingerprint_v11">PIN eingeben oder Fingerabdruck zum Entsperren verwenden</string>
-  <string name="face_unlock_quality">Gesicht konnte nicht klar erkannt werden</string>
+  <string name="face_unlock_quality">Gesicht wurde nicht klar erkannt</string>
   <string name="face_unlock_reenter_content">Gesichtsentsperrungsalgorithmus wird gerade aktualisiert. Tippen Sie, um die Gesichtsdaten erneut aufzuzeichnen.</string>
   <string name="face_unlock_reenter_title">Nehmen Sie Ihre Gesichtsdaten erneut auf</string>
   <string name="face_unlock_reveal_eye">Zeigen Sie Ihre Augen</string>
@@ -1000,26 +1000,28 @@ innerhalb des Kreises befindet"</string>
   <string name="fingerprint_add_text">Fingerabdruckschnittstelle wurde aktualisiert. Fügen Sie Ihren Fingerabdruck erneut hinzu.</string>
   <string name="fingerprint_add_title">Fingerabdruck hinzufügen</string>
   <string name="fingerprint_again_identified_msg">Ihr Fingerabdruck ist jetzt aktiv. Verwenden Sie diesen oder ein Passwort, um Ihr Telefon zu entsperren.</string>
-  <string name="fingerprint_again_identified_msg_password">Fingerabdruckfunktion wurde wiederhergestellt. Es kann mit Fingerabdruck oder komplexem Passwort entsperrt werden.</string>
-  <string name="fingerprint_again_identified_msg_pattern">Fingerabdruckfunktion wurde wiederhergestellt. Es kann mit Fingerabdruck oder grafischem Passwort entsperrt werden.</string>
-  <string name="fingerprint_again_identified_msg_pin">Fingerabdruckfunktion wurde wiederhergestellt. Es kann mit Fingerabdruck oder digitalem Passwort entsperrt werden.</string>
+  <string name="fingerprint_again_identified_msg_password">Ihr Fingerabdruck ist jetzt aktiv.\nVerwenden Sie ihn, um das Gerät zu entsperren, oder geben Sie Ihr Passwort ein.</string>
+  <string name="fingerprint_again_identified_msg_pattern">Ihr Fingerabdruck ist jetzt aktiv.\nVerwenden Sie ihn, um das Gerät zu entsperren, oder geben Sie Ihr Muster ein.</string>
+  <string name="fingerprint_again_identified_msg_pin">Ihr Fingerabdruck ist jetzt aktiv.\nVerwenden Sie ihn, um das Gerät zu entsperren, oder geben Sie Ihren PIN ein.</string>
   <string name="fingerprint_dialog_touch_sensor">Fingerabdrucksensor berühren</string>
   <string name="fingerprint_enter_second_psw_msg">Geben Sie nach dem Neustart Ihr Zweitprofilpasswort ein, um die Fingerabdruckerkennung zu verwenden</string>
   <string name="fingerprint_enter_second_psw_msg_oldman">Im Light-Modus kann nicht auf das Zweitprofil zugegriffen werden</string>
   <string name="fingerprint_enter_second_psw_title">Zweitprofilpasswort eingeben</string>
   <string name="fingerprint_not_identified_msg">Um Ihr Telefon zu entsperren, geben Sie Ihr Passwort ein</string>
   <string name="fingerprint_not_identified_msg_lock">Zu viele erfolglose Versuche. Geben Sie jetzt das Passwort ein.</string>
-  <string name="fingerprint_not_identified_msg_password">Die maximale Anzahl von Fingerabdruckprüfungen ist fehlgeschlagen. Bitte später erneut versuchen oder ein komplexes Passwort zum Entsperren verwenden.</string>
-  <string name="fingerprint_not_identified_msg_pattern">Die maximale Anzahl von Fingerabdruckprüfungen ist fehlgeschlagen. Bitte später erneut versuchen oder ein grafisches Passwort zum Entsperren verwenden.</string>
-  <string name="fingerprint_not_identified_msg_pin">Die maximale Anzahl von Fingerabdruckprüfungen ist fehlgeschlagen. Bitte später erneut versuchen oder ein digitales Password zum Entsperren verwenden.</string>
+  <string name="fingerprint_not_identified_msg_password">Zu viele erfolglose Versuche.\nGeben Sie Ihr Passwort zum Entsperren ein.</string>
+  <string name="fingerprint_not_identified_msg_pattern">Zu viele erfolglose Versuche.\nGeben Sie Ihr Muster zum Entsperren ein.</string>
+  <string name="fingerprint_not_identified_msg_pin">Zu viele erfolglose Versuche.\nGeben Sie Ihren PIN zum Entsperren ein.</string>
   <string name="fingerprint_not_identified_title">Passwort eingeben</string>
   <string name="fingerprint_not_recognized">Nicht erkannt</string>
   <string name="fingerprint_try_again_msg">Fingerabdruck prüfen nicht möglich, bitte erneut versuchen</string>
   <string name="fingerprint_try_again_text">Erneut versuchen</string>
+  <string name="fiveg_sa_switch_summary">SA-Netzwerk auf sekundärer SIM verwenden (nur zum Testen)</string>
+  <string name="fiveg_sa_vice_switch_title">SA auf sekundärer SIM</string>
   <string name="float_incall_ignore">Ignorieren</string>
   <string name="float_incall_message">Nachricht</string>
   <string name="float_notification_snooze_strategy">Schwebende Popups vorübergehend ausblenden</string>
-  <string name="fmt_chinese_date">d.M.</string>
+  <string name="fmt_chinese_date">dd.MM.</string>
   <string name="fmt_date_day">d.</string>
   <string name="fmt_date_long_month_day">d. MMMM</string>
   <string name="fmt_date_long_year_month_day">d. MMMM yyyy</string>
@@ -1028,10 +1030,10 @@ innerhalb des Kreises befindet"</string>
   <string name="fmt_date_numeric_month_day">dd.MM.</string>
   <string name="fmt_date_numeric_year_month">MM/yyyy</string>
   <string name="fmt_date_numeric_year_month_day">dd.MM.yyyy</string>
-  <string name="fmt_date_short_month">MM.</string>
-  <string name="fmt_date_short_month_day">dd.MM.</string>
+  <string name="fmt_date_short_month">MMM</string>
+  <string name="fmt_date_short_month_day">d. MMM</string>
   <string name="fmt_date_short_year_month">MMM yyyy</string>
-  <string name="fmt_date_short_year_month_day">dd.MM.yyyy</string>
+  <string name="fmt_date_short_year_month_day">d. MMM yyyy</string>
   <string name="fmt_date_time_timezone">D T z</string>
   <string name="fmt_date_timezone">D z</string>
   <string name="fmt_time_12hour">"h 'Uhr'"</string>
@@ -1258,6 +1260,7 @@ Weiterhin zeigen?"</string>
   <string name="keyguard_carrier_default">Kein Dienst</string>
   <string name="keyguard_charged">Aufgeladen</string>
   <string name="keyguard_charging_back_to_lockscreen">Zurück zum Sperrbildschirm</string>
+  <string name="keyguard_charging_double_fast_and_level_tip">Ladegeschwindigkeit erhöhen %s</string>
   <string name="keyguard_charging_info_battery_used_time_text">Akkubetrieb</string>
   <string name="keyguard_charging_info_click_to_detail">Details anzeigen</string>
   <string name="keyguard_charging_info_drained_power_percent_text">Entladen</string>
@@ -1284,6 +1287,7 @@ Weiterhin zeigen?"</string>
   <string name="keyguard_indication_trust_disabled">Gerät bleibt gesperrt, bis Sie es manuell entsperren</string>
   <string name="keyguard_indication_trust_unlocked">Von TrustAgent entsperrt gehalten</string>
   <string name="keyguard_instructions_when_pattern_disabled">Zum Entsperren auf Menü drücken</string>
+  <string name="keyguard_invalid_sim_puk_hint">PUK-Code muss %1$d Ziffern enthalten.</string>
   <string name="keyguard_left_bankcard">Rechner</string>
   <string name="keyguard_left_buscard">Notizen</string>
   <string name="keyguard_left_calculator">Rechner</string>
@@ -1571,7 +1575,7 @@ Screenshot zu erstellen"</string>
   <string name="mobile_data">Mobile Daten</string>
   <string name="mobile_data_always_on">Mobile Daten immer aktiv</string>
   <string name="mobile_data_always_on_summary">Mobile Daten immer aktiv lassen, auch wenn WLAN aktiv ist (für schnelle Netzwerkumschaltung)</string>
-  <string name="mobile_data_disable_message">Sie haben keinen Zugriff auf Daten oder das Internet über %s. Das Internet wird nur über WLAN verfügbar sein.</string>
+  <string name="mobile_data_disable_message">Sie haben keinen Zugriff auf Daten oder Internet über %s. Internet wird nur über WLAN verfügbar sein.</string>
   <string name="mobile_data_disable_message_default_carrier">Ihr Anbieter</string>
   <string name="mobile_data_disable_title">Mobile Daten ausschalten?</string>
   <string name="mock_location_app">App für Scheinstandorte auswählen</string>
@@ -1663,7 +1667,7 @@ Screenshot zu erstellen"</string>
   <string name="mtrl_picker_confirm">Speichern</string>
   <string name="mtrl_picker_date_format">d. MMM. yyyy</string>
   <string name="mtrl_picker_header_prompt">Datum auswählen</string>
-  <string name="mtrl_picker_range_header_prompt">Datumsbereich auswählen</string>
+  <string name="mtrl_picker_range_header_prompt">Datumsbereich wählen</string>
   <string name="multi_face_delete_message">Vorsicht</string>
   <string name="multi_face_delete_show_message">Jetzt Gesichtsdaten löschen?</string>
   <string name="multi_face_input">Gesichtsdaten hinzufügen</string>
@@ -1805,6 +1809,7 @@ Screenshot zu erstellen"</string>
   <string name="open_lock_screen_magazine_hint_text">Für mehr Optionen nach rechts wischen</string>
   <string name="open_remote_center_hint_text">Nach re. wischen für Verknüpfungen</string>
   <string name="open_saver_setting_action">Einstellungen</string>
+  <string name="open_xmyzl_hint_text">Nach rechts wischen, um Xiaomi Magic Control zu öffnen</string>
   <string name="orb_search_action">Aktion suchen</string>
   <string name="osu_completing_sign_up">Anmeldung abschließen…</string>
   <string name="osu_connect_failed">Verbindung nicht möglich</string>
@@ -1834,11 +1839,11 @@ Screenshot zu erstellen"</string>
   <string name="phone_locked_foget_password">Passwort vergessen?</string>
   <string name="phone_locked_foget_password_mehod_back">Zurück</string>
   <string name="phone_locked_foget_password_method">Passwort vergessen?</string>
-  <string name="phone_locked_foget_password_method_content">&lt;Data&gt;Sie müssen &lt;font color=#a5220e&gt;alle Daten &lt;/font&gt; auf Ihrem Telefon löschen, inkl. Fotos und Kontakte. Legen Sie dann ein neues Passwort für den Sperrbildschirm fest.&lt;/Data&gt;</string>
+  <string name="phone_locked_foget_password_method_content"><Data>Sie müssen &lt;font color=#a5220e>alle Daten&lt;/font> auf Ihrem Telefon löschen, inkl. Fotos und Kontakte, und dann ein neues Passwort für die Bildschirmsperre festlegen.</Data></string>
   <string name="phone_locked_foget_password_method_next">Weiter</string>
   <string name="phone_locked_foget_password_ok">Verstanden</string>
-  <string name="phone_locked_forget_password_suggesstion_one_content">&lt;Data&gt;Gleichzeitig &lt;font color=#e6e6e6&gt;[Power-Taste]&lt;/font&gt; und &lt;font color=#e6e6e6&gt;[Laustärke+]&lt;/font&gt;gedrückt halten, bis Sie das Mi Logo sehen&lt;/Data&gt;</string>
-  <string name="phone_locked_forget_password_suggesstion_two_content">&lt;Data&gt;Wählen Sie &lt;font color=#e6e6e6&gt;[Daten löschen]&lt;/font&gt; und warten Sie, bis das Telefon neu gestartet wird&lt;/Data&gt;</string>
+  <string name="phone_locked_forget_password_suggesstion_one_content"><Data>Gerät ausschalten, dann die Tasten &lt;font color=#e6e6e6>[Power]&lt;/font> und &lt;font color=#e6e6e6>[Lautstärke +]&lt;/font> gedrückt halten, bis Sie &lt;img src="\">.</Data> sehen.</string>
+  <string name="phone_locked_forget_password_suggesstion_two_content"><Data>&lt;font color=#e6e6e6&gt;[Daten löschen]&lt;/font&gt; wählen und warten, bis das Telefon neu startet.</Data></string>
   <string name="phone_locked_forget_password_suggesstions_title">Wie lösche ich die Daten?</string>
   <string name="phone_locked_string">Dieses Gerät ist gesperrt</string>
   <string name="picture_color_mode">Bildfarbenmodus</string>
@@ -2419,7 +2424,7 @@ d. MMM"</string>
   <string name="stream_voice_call">Anruf</string>
   <string name="strict_mode">Strict-Modus aktiv</string>
   <string name="strict_mode_summary">Bildschirm blinkt, wenn Apps lange Operationen ausführen</string>
-  <string name="structure_face_data_delete_fail">3D-Gesichtsdaten konnten nicht gelöscht werden, erneut versuchen.</string>
+  <string name="structure_face_data_delete_fail">3D-Gesichtsdaten wurden nicht gelöscht, erneut versuchen.</string>
   <string name="structure_face_data_input_down">Kopf senken</string>
   <string name="structure_face_data_input_error_away_screen">Telefon etwas weiter weg vom Gesicht halten</string>
   <string name="structure_face_data_input_error_expose_eye">Augen werden nicht mehr gesehen</string>
@@ -2449,7 +2454,7 @@ d. MMM"</string>
   <string name="structure_face_data_suggestion_warning_text">Hinweis: Die Verwendung von 3D-Gesichtsdaten ist etwas weniger sicher als die Verwendung eines Passworts. Personen oder Objekte, die Ihnen sehr ähnlich sehen, können Ihr Gerät eventuell entsperren.</string>
   <string name="structure_face_delete_data_dialog_msg">Kamera wurde nicht gestartet und Vorschau nicht angezeigt, erneut versuchen.</string>
   <string name="structure_face_delete_data_dialog_msg_retry">Erneut versuchen</string>
-  <string name="structure_face_delete_data_dialog_title">Kamera konnte nicht gestartet werden</string>
+  <string name="structure_face_delete_data_dialog_title">Kamera wurde nicht gestartet</string>
   <string name="structure_face_hardware_abnormal_btn">Verstanden</string>
   <string name="structure_face_hardware_abnormal_msg">Ein Hardwarefehler ist aufgetreten. Starten Sie Ihr Gerät neu. Wenn das nicht hilft, rufen Sie 400-100-5678 an, um Hilfe zu erhalten.</string>
   <string name="structure_face_hardware_abnormal_title">Hardwarefehler</string>

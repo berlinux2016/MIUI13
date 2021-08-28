@@ -1,38 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string name="can_not_apply_error">Dieses Videoformat wird nicht unterstützt</string>
-  <string name="can_not_apply_size_invalid">Dieses Video ist zu groß</string>
-  <string name="font_compat_dialog_buy_confirm">Kaufen</string>
-  <string name="font_compat_dialog_buy_content">Schriftarten von Drittanbietern werden möglicherweise von einigen Apps nicht unterstützt. Dieses Kompatibilitätsproblem wird durch ein kommendes System-Update behoben werden. Diese Schriftart trotzdem kaufen?</string>
-  <string name="font_compat_dialog_cancel">Abbrechen</string>
-  <string name="font_compat_dialog_download_confirm">Herunterladen</string>
-  <string name="font_compat_dialog_download_content">Schriftarten von Drittanbietern werden möglicherweise von einigen Apps nicht unterstützt. Dieses Kompatibilitätsproblem wird durch ein kommendes System-Update behoben. Diese Schriftart trotzdem herunterladen?</string>
-  <string name="font_compat_dialog_title">Kompatibilitätsprobleme</string>
-  <string name="font_compat_dialog_trial_confirm">Versuchen</string>
-  <string name="font_compat_dialog_trial_content">Schriftarten von Drittanbietern werden möglicherweise von einigen Apps nicht unterstützt. Dieses Kompatibilitätsproblem wird durch ein kommendes System-Update behoben. Diese Schriftart trotzdem ausprobieren?</string>
-  <string name="hide_retract_button">Ausblenden</string>
-  <string name="scrollable_wallpaper_close">Scrollen ausgeschaltet</string>
-  <string name="scrollable_wallpaper_open">Scrollen eingeschaltet</string>
-  <string name="set_as_colorring">Als eigenen Rufton einstellen</string>
-
-  <string name="wallpaper_apply_full">Für beide anwenden</string>
-  <string name="wallpaper_apply_large">Auf Hauptbildschirm anwenden</string>
-  <string name="wallpaper_apply_small">Auf 2. Bildschirm anwenden</string>
-  <string name="wallpaper_set_as_both_large">Beides auf Hauptbildschirm einstellen</string>
-  <string name="wallpaper_set_as_both_small">Beides auf 2. Bildschirm einstellen</string>
-  <string name="wallpaper_set_as_desktop_large">Als Hauptstartbildschirm festlegen</string>
-  <string name="wallpaper_set_as_desktop_small">Als Startbildschirm auf 2. Bildschirm festlegen</string>
-  <string name="wallpaper_set_as_lockscreen_large">Als Hauptsperrbildschirm festlegen</string>
-  <string name="wallpaper_set_as_lockscreen_small">Als Sperrbildschirm auf 2. Bildschirm festlegen</string>
-
-  <string name="multiwindow_no_support">Diese Aktion wird im geteilten Bildschirm nicht unterstützt</string>
-  <string name="personalize_second_space_not_support_set_font">Schriftart im Zweitprofil ändern nicht möglich</string>
-  <string name="share_content_text_first_font">Ausprobieren! \"%1$s\"-Schriftart verleiht Ihrem Telefon ein völlig neues Aussehen.</string>
-  <string name="share_content_text_first_theme">Ausprobieren! \"%1$s\"-Thema verleiht Ihrem Telefon ein völlig neues Aussehen.</string>
-  <string name="share_content_text_first_wallpaper">Ausprobieren! \"%1$s\"-Hintergrundbild verleiht Ihrem Telefon einen völlig neuen Look.</string>
-  <string name="share_content_text_second">Finden Sie Ihren eigenen Stil in %1$s!</string>
-  <string name="share_content_topic">\ #MIUI Personalisierung #</string>
-
   <string name="abc_action_bar_home_description">Zur Startseite</string>
   <string name="abc_action_bar_up_description">Nach oben</string>
   <string name="abc_action_menu_overflow_description">Mehr Optionen</string>
@@ -143,6 +110,8 @@ Themen erkennt, welche Apps Sie verwenden und zeigt transparente Hintergründe i
   <string name="both_all_apply_success">Hintergrund wurde angewendet</string>
   <string name="browser_local_resource">Lokale Ressourcen</string>
   <string name="can_not_apply">Anwenden nicht möglich</string>
+  <string name="can_not_apply_error">Dieses Videoformat wird nicht unterstützt</string>
+  <string name="can_not_apply_size_invalid">Dieses Video ist zu groß</string>
   <string name="cancel_download">Download abgebrochen</string>
   <string name="card_data_request_error">Ein Fehler ist aufgetreten. Einen Moment warten und erneut versuchen.</string>
   <string name="card_loading">Laden…</string>
@@ -361,7 +330,7 @@ Themen erkennt, welche Apps Sie verwenden und zeigt transparente Hintergründe i
   <string name="find_more_theme">Mehr entdecken</string>
   <string name="find_more_wallpapers">Mehr entdecken</string>
   <string name="first_page_recommend">Empfohlen</string>
-  <string name="fmt_chinese_date">d.M.</string>
+  <string name="fmt_chinese_date">dd.MM.</string>
   <string name="fmt_date_day">d.</string>
   <string name="fmt_date_long_month_day">d. MMMM</string>
   <string name="fmt_date_long_year_month_day">d. MMMM yyyy</string>
@@ -370,10 +339,10 @@ Themen erkennt, welche Apps Sie verwenden und zeigt transparente Hintergründe i
   <string name="fmt_date_numeric_month_day">dd.MM.</string>
   <string name="fmt_date_numeric_year_month">MM/yyyy</string>
   <string name="fmt_date_numeric_year_month_day">dd.MM.yyyy</string>
-  <string name="fmt_date_short_month">MM.</string>
-  <string name="fmt_date_short_month_day">dd.MM.</string>
+  <string name="fmt_date_short_month">MMM</string>
+  <string name="fmt_date_short_month_day">d. MMM</string>
   <string name="fmt_date_short_year_month">MMM yyyy</string>
-  <string name="fmt_date_short_year_month_day">dd.MM.yyyy</string>
+  <string name="fmt_date_short_year_month_day">d. MMM yyyy</string>
   <string name="fmt_date_time_timezone">D T z</string>
   <string name="fmt_date_timezone">D z</string>
   <string name="fmt_time_12hour">"h 'Uhr'"</string>
@@ -385,6 +354,14 @@ Themen erkennt, welche Apps Sie verwenden und zeigt transparente Hintergründe i
   <string name="fmt_weekday_date_timezone">W, D z</string>
   <string name="fmt_weekday_time_timezone">W T z</string>
   <string name="fmt_weekday_timezone">W z</string>
+  <string name="font_compat_dialog_buy_confirm">Kaufen</string>
+  <string name="font_compat_dialog_buy_content">Schriftarten von Drittanbietern werden möglicherweise von einigen Apps nicht unterstützt. Dieses Kompatibilitätsproblem wird durch ein kommendes System-Update behoben werden. Diese Schriftart trotzdem kaufen?</string>
+  <string name="font_compat_dialog_cancel">Abbrechen</string>
+  <string name="font_compat_dialog_download_confirm">Herunterladen</string>
+  <string name="font_compat_dialog_download_content">Schriftarten von Drittanbietern werden möglicherweise von einigen Apps nicht unterstützt. Dieses Kompatibilitätsproblem wird durch ein kommendes System-Update behoben. Diese Schriftart trotzdem herunterladen?</string>
+  <string name="font_compat_dialog_title">Kompatibilitätsprobleme</string>
+  <string name="font_compat_dialog_trial_confirm">Versuchen</string>
+  <string name="font_compat_dialog_trial_content">Schriftarten von Drittanbietern werden möglicherweise von einigen Apps nicht unterstützt. Dieses Kompatibilitätsproblem wird durch ein kommendes System-Update behoben. Diese Schriftart trotzdem ausprobieren?</string>
   <string name="font_trial_end_purchase">Fonts kaufen</string>
   <string name="forbid_transparent_wallpaper_by_second_space">Transparenten Hintergrund erst im Hauptprofil anwenden</string>
   <string name="forbid_video_wallpaper_by_second_space">Dynamischen Hintergrund erst im Hauptprofil anwenden</string>
@@ -447,6 +424,7 @@ Themen erkennt, welche Apps Sie verwenden und zeigt transparente Hintergründe i
   <string name="hide_pull_down_message">Schmuck ausblenden?</string>
   <string name="hide_pull_down_negative">Nicht ausblenden</string>
   <string name="hide_pull_down_positive">Ausblenden</string>
+  <string name="hide_retract_button">Ausblenden</string>
   <string name="home_apply_failured">Startbildschirmhintergrund wurde nicht angewendet</string>
   <string name="home_apply_success">Startbildschirmhintergrund wurde angewendet</string>
   <string name="home_daily">Tägliche Highlights</string>
@@ -602,7 +580,7 @@ dd.MM."</string>
   <string name="mtrl_badge_numberless_content_description">Neue Benachrichtigung</string>
   <string name="mtrl_chip_close_icon_content_description">%1$s entfernen</string>
   <string name="mtrl_exceed_max_badge_number_content_description">Mehr als %1$d neue Benachrichtigungen</string>
-  <string name="mtrl_picker_a11y_next_month">Zum nächsten Monat wechseln</string>
+  <string name="mtrl_picker_a11y_next_month">Zum Folgemonat wechseln</string>
   <string name="mtrl_picker_a11y_prev_month">Zum Vormonat wechseln</string>
   <string name="mtrl_picker_announce_current_selection">Aktuelle Auswahl: %1$s</string>
   <string name="mtrl_picker_date_header_title">Datum wählen</string>
@@ -626,6 +604,7 @@ dd.MM."</string>
   <string name="mtrl_picker_toggle_to_day_selection">Tippen, um zur Tagesauswahl zu wechseln</string>
   <string name="mtrl_picker_toggle_to_text_input_mode">Zum Texteingabemodus wechseln</string>
   <string name="mtrl_picker_toggle_to_year_selection">Tippen, um zur Jahresauswahl zu wechseln</string>
+  <string name="multiwindow_no_support">Diese Aktion wird im geteilten Bildschirm nicht unterstützt</string>
   <string name="multiwindow_no_support_icon">Bei geteiltem Bildschirm können die Symbole nicht geändert werden</string>
   <string name="multi_sim_mms_ringtone_settings_dialog_message">Dieser Klingelton wird für beide SIM-Karten verwendet.</string>
   <string name="multi_sim_ringtone_settings_dialog_message">Klingelton wird gleichzeitig SIM1 und SIM2 zugeordnet</string>
@@ -676,6 +655,7 @@ Auf Bildschirm tippen, um neu zu laden."</string>
   <string name="personalize_icon_title">Symbole</string>
   <string name="personalize_notify_ringtone_title">Benachrichtigungen</string>
   <string name="personalize_notify_style_title">Effekte</string>
+  <string name="personalize_second_space_not_support_set_font">Schriftart im Zweitprofil ändern nicht möglich</string>
   <string name="personalize_theme_entrance">Themen</string>
   <string name="personalize_third_font">Schriften</string>
   <string name="personalize_title">Hintergründe und persönliche Anpassung</string>
@@ -955,6 +935,8 @@ Auf Bildschirm tippen, um neu zu laden."</string>
   <string name="saturday">Samstag</string>
   <string name="saturday_short">Sa</string>
   <string name="saturday_shortest">S</string>
+  <string name="scrollable_wallpaper_close">Scrollen ausgeschaltet</string>
+  <string name="scrollable_wallpaper_open">Scrollen eingeschaltet</string>
   <string name="sdcard_not_mounted_dialog_message">SD-Karte einlegen</string>
   <string name="sdcard_not_mounted_dialog_title">Keine SD-Karte gefunden</string>
   <string name="search_hint_header_text">Schlüsselwörter</string>
@@ -973,6 +955,7 @@ Auf Bildschirm tippen, um neu zu laden."</string>
   <string name="server_internal_error">Serverfehler. Einen Moment warten und erneut versuchen.</string>
   <string name="service_btn_text_know">Verstanden</string>
   <string name="service_btn_text_try">Ausprobieren</string>
+  <string name="set_as_colorring">Als eigenen Rufton einstellen</string>
   <string name="set_color_ring_back_tone">Benutzerdefinierten Klingelton einstellen</string>
   <string name="set_home_wallpaper_failed">%s. Startbildschirmhintergrund wurde nicht angewendet.</string>
   <string name="set_wallpaper_group_success">Hintergrundbild \"%1$s\" erfolgreich angewendet</string>
@@ -986,6 +969,11 @@ Auf Bildschirm tippen, um neu zu laden."</string>
   <string name="settings_search_keyword_font_online">Online-Schriften</string>
   <string name="settings_search_keyword_font_style">Schrift-Format</string>
   <string name="settings_search_keyword_font_wechat">WeChat-Schrift</string>
+  <string name="share_content_text_first_font">Ausprobieren! \"%1$s\"-Schriftart verleiht Ihrem Telefon ein völlig neues Aussehen.</string>
+  <string name="share_content_text_first_theme">Ausprobieren! \"%1$s\"-Thema verleiht Ihrem Telefon ein völlig neues Aussehen.</string>
+  <string name="share_content_text_first_wallpaper">Ausprobieren! \"%1$s\"-Hintergrundbild verleiht Ihrem Telefon einen völlig neuen Look.</string>
+  <string name="share_content_text_second">Finden Sie Ihren eigenen Stil in %1$s!</string>
+  <string name="share_content_topic">\ #MIUI Personalisierung #</string>
   <string name="share_copy_theme_url">Themen-URL kopieren</string>
   <string name="share_copy_url_success">Erfolgreich kopiert</string>
   <string name="share_copy_wallpaper_url">Hintergrundbild-URL kopieren</string>
@@ -1042,8 +1030,8 @@ Auf Bildschirm tippen, um neu zu laden."</string>
   <string name="sunday_short">So</string>
   <string name="sunday_shortest">S</string>
   <string name="super_wallpaper">Superhintergründe</string>
-  <string name="super_wallpaper_list_label">Superhintergrund</string>
   <string name="super_wallpaper_list_footer_text">Für unsere neuen Releases dranbleiben!</string>
+  <string name="super_wallpaper_list_label">Superhintergrund</string>
   <string name="super_wallpaper_setting_apply_success_toast">Erfolgreich angewendet</string>
   <string name="super_wallpaper_setting_apply_super_wallpaper_button_text">Anwenden</string>
   <string name="super_wallpaper_setting_choose_position_btn_text">Standort auswählen</string>
@@ -1301,6 +1289,9 @@ Gehen Sie zu Themen > Mein Konto > Themenlabor für weitere Optionen.</string>
   <string name="vip_level_dialog_positive">Ich weiß</string>
   <string name="vip_level_dialog_title">Tipps</string>
   <string name="wallpaper_apply">Anwenden</string>
+  <string name="wallpaper_apply_full">Für beide anwenden</string>
+  <string name="wallpaper_apply_large">Auf Hauptbildschirm anwenden</string>
+  <string name="wallpaper_apply_small">Auf 2. Bildschirm anwenden</string>
   <string name="wallpaper_auto_change_title">Sperrbildschirm</string>
   <string name="wallpaper_crop">Zuschneiden</string>
   <string name="wallpaper_decoded_error">Laden fehlgeschlagen</string>
@@ -1342,10 +1333,16 @@ Gehen Sie zu Themen > Mein Konto > Themenlabor für weitere Optionen.</string>
   <string name="wallpaper_personal_dialog_title">Personalisieren Sie Ihre Hintergründe</string>
   <string name="wallpaper_scroll_type_tips">Scrollen</string>
   <string name="wallpaper_set_as_both">Auf beiden festlegen</string>
+  <string name="wallpaper_set_as_both_large">Beides auf Hauptbildschirm einstellen</string>
+  <string name="wallpaper_set_as_both_small">Beides auf 2. Bildschirm einstellen</string>
   <string name="wallpaper_set_as_desktop">Als Startbildschirm festlegen</string>
+  <string name="wallpaper_set_as_desktop_large">Als Hauptstartbildschirm festlegen</string>
+  <string name="wallpaper_set_as_desktop_small">Als Startbildschirm auf 2. Bildschirm festlegen</string>
   <string name="wallpaper_set_as_float_wallpaper">Transparente Hintergründe (Beta)</string>
   <string name="wallpaper_set_as_incall_show">Als Profilvideo festlegen</string>
   <string name="wallpaper_set_as_lockscreen">Als Sperrbildschirm festlegen</string>
+  <string name="wallpaper_set_as_lockscreen_large">Als Hauptsperrbildschirm festlegen</string>
+  <string name="wallpaper_set_as_lockscreen_small">Als Sperrbildschirm auf 2. Bildschirm festlegen</string>
   <string name="wallpaper_set_as_loop_extra_msg">Alle benutzen es</string>
   <string name="wallpaper_setting_all">Alle Hintergründe</string>
   <string name="wallpaper_setting_aod_wallpaper_banner_button_text">AOD</string>
@@ -1359,6 +1356,7 @@ Gehen Sie zu Themen > Mein Konto > Themenlabor für weitere Optionen.</string>
   <string name="wallpaper_setting_online_wallpaper_title">Online-Hintergründe</string>
   <string name="wallpaper_setting_super_wallpaper_banner_title">Superhintergründe</string>
   <string name="wallpaper_setting_super_wallpaper_more_button_text">Weitere</string>
+  <string name="wallpaper_setting_title">Hintergrund</string>
   <string name="wallpaper_settings">Einstellungen Hintergründe</string>
   <string name="wallpaper_settings_loading_text">Laden…</string>
   <string name="wallpaper_settings_no_history">Keine Verlauf</string>
@@ -1366,7 +1364,6 @@ Gehen Sie zu Themen > Mein Konto > Themenlabor für weitere Optionen.</string>
   <string name="wallpaper_settings_page_title">Hintergründe</string>
   <string name="wallpaper_share_alert">Ein Fehler ist aufgetreten. Einen Moment warten und erneut versuchen.</string>
   <string name="wallpaper_static">Statisch</string>
-  <string name="wallpaper_setting_title">Hintergrund</string>
   <string name="warning_subscribe_wallpaper_group_content">Sie haben die Diashow auf dem Startbildschirm eingeschaltet. %1$s wird auf Ihren Startbildschirm angewendet.</string>
   <string name="wechat_not_found">Erst WeChat installieren</string>
   <string name="wednesday">Mittwoch</string>

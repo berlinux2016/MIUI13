@@ -113,9 +113,9 @@ Möchten Sie dies jetzt und in Zukunft zulassen?"</string>
   <string name="bluetooth_pairing_accept">Gekoppelt</string>
   <string name="bluetooth_pairing_accept_all_caps">GEKOPPELT</string>
   <string name="bluetooth_pairing_decline">Abbrechen</string>
-  <string name="bluetooth_pairing_device_down_error_message">Kann nicht mit %1$s kommunizieren</string>
-  <string name="bluetooth_pairing_error_message">Kann nicht mit %1$s koppeln</string>
-  <string name="bluetooth_pairing_pin_error_message">Kann nicht mit %1$s koppeln wegen falschen Passworts oder Schlüssels</string>
+  <string name="bluetooth_pairing_device_down_error_message">Kommunizieren mit %1$s nicht möglich</string>
+  <string name="bluetooth_pairing_error_message">Koppeln mit %1$s nicht möglich</string>
+  <string name="bluetooth_pairing_pin_error_message">Koppeln mit %1$s wegen falschen Passworts oder Schlüssels nicht möglich</string>
   <string name="bluetooth_pairing_rejected_error_message">Koppeln von %1$s zurückgewiesen</string>
   <string name="bluetooth_pairing_will_share_phonebook">Koppeln ermöglicht Zugriff auf Ihre Kontakte und die Anrufliste, wenn verbunden</string>
   <string name="bluetooth_pan_nap_profile_summary_connected">Gemeinsame Nutzung der lokalen Internetverbindung mit dem Gerät</string>
@@ -253,7 +253,7 @@ Alle Ihre bisherigen Benutzerdaten werden gespeichert."</string>
   <string name="force_resizable_activities_summary">Alle Aktivitäten für Multi-Fenster skalierbar machen, unabhängig von Manifestwerten</string>
   <string name="force_rtl_layout_all_locales">RTL Layoutrichtung erzwingen</string>
   <string name="force_rtl_layout_all_locales_summary">Bildschirmlayoutrichtung zu RTL für alle Gebietsschemen erzwingen</string>
-  <string name="generic_error_dlg_text">App konnte nicht deinstalliert werden</string>
+  <string name="generic_error_dlg_text">App wurde nicht deinstalliert</string>
   <string name="generic_error_dlg_title">Fehler</string>
   <string name="grant_confirm_question">Möchten Sie die folgenden Berechtigungen gewähren? Diese ermöglichen den Zugriff auf Folgendes:</string>
   <string name="grant_dialog_button_allow">Zulassen</string>
@@ -297,7 +297,7 @@ Alternativ können Sie den Lite-Modus ausschalten und es erneut versuchen."</str
   <string name="install_failed_incompatible">App wurde nicht installiert, da sie mit Ihrem Telefon nicht kompatibel ist</string>
   <string name="install_failed_inconsistent_certificates">Ein Paket mit dem gleichen Namen, aber in Konflikt stehender Signatur, ist bereits installiert.</string>
   <string name="install_failed_invalid_apk">Paket ist offenbar beschädigt</string>
-  <string name="install_failed_msg">%1$s konnte nicht auf Ihrem Telefon installiert werden.</string>
+  <string name="install_failed_msg">%1$s wurde nicht auf Ihrem Telefon installiert.</string>
   <string name="install_failed_older_sdk">Paket funktioniert nur auf neueren Versionen von Android</string>
   <string name="install_failed_verify_failed">Paket hat die Prüfung nicht bestanden und kann daher nicht installiert werden.</string>
   <string name="install_failed_verify_timeout">Bei der Paketprüfung ist eine Zeitüberschreitung aufgetreten. Wiederholen Sie die Installation.</string>
@@ -378,7 +378,7 @@ Alternativ können Sie den Lite-Modus ausschalten und es erneut versuchen."</str
   <string name="old_sdk_deny_warning">Diese App wurde für eine ältere Version von Android konzipiert. Wenn Sie keine Berechtigung erteilen, funktioniert die App eventuell nicht mehr richtig.</string>
   <string name="orb_search_action">Suchaktion</string>
   <string name="other_permissions">Andere App-Funktionen</string>
-  <string name="out_of_space_dlg_text">%1$s konnte nicht installiert werden. Geben Sie Speicherplatz frei und versuchen Sie es erneut.</string>
+  <string name="out_of_space_dlg_text">%1$s wurde nicht installiert. Geben Sie Speicherplatz frei und versuchen Sie es erneut.</string>
   <string name="out_of_space_dlg_title">Kein freier Speicher</string>
   <string name="overlay_display_devices_title">Sekundäre Displays simulieren</string>
   <string name="password_toggle_content_description">Passwortsichtbarkeit umschalten</string>
@@ -533,7 +533,7 @@ Alternativ können Sie den Lite-Modus ausschalten und es erneut versuchen."</str
   <string name="uninstall_failed_app">%1$s deinstallieren fehlgeschlagen</string>
   <string name="uninstall_failed_device_policy_manager">Deinstallation nicht möglich, Paket ist ein aktiver Geräteadministrator.</string>
   <string name="uninstall_failed_device_policy_manager_of_user">Deinstallation nicht möglich, Paket ist ein aktiver Geräteadministrator für %1$s.</string>
-  <string name="uninstall_failed_msg">%1$s konnte nicht deinstalliert werden.</string>
+  <string name="uninstall_failed_msg">%1$s wurde nicht deinstalliert.</string>
   <string name="uninstall_failure_notification_channel">Fehlgeschlagene Deinstallationen</string>
   <string name="uninstall_update_text">Möchten Sie diese App durch die Werksversion ersetzen?</string>
   <string name="uninstall_update_text_multiuser">Diese App durch die Werksversion ersetzen? Alle Daten werden gelöscht. Dies betrifft alle Benutzer dieses Gerätes, auch solche mit Arbeitsprofilen.</string>

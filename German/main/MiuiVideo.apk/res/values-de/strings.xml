@@ -27,7 +27,7 @@
   <string name="account_logout">Abmelden</string>
   <string name="account_title">Konto</string>
   <string name="account_user_agreement">Nutzervereinbarung</string>
-  <string name="ad_count_down">Werbung: %1$s Sek…</string>
+  <string name="ad_count_down">Werbung: %1$s s…</string>
   <string name="ad_moredetail">Weitere Details</string>
   <string name="add_offline_task_success">Datei zu den Downloads hinzugefügt</string>
   <string name="add_shortcut">Verknüpfung hinzufügen</string>
@@ -246,7 +246,7 @@ Bitte diesen Code an den Techniker senden."</string>
   <string name="gallery_video_save_video">Video erstellen…</string>
   <string name="gallery_video_slow_edit">Zeitlupe</string>
   <string name="gallery_view_tags">Markierte anzeigen</string>
-  <string name="get_product_failed_please_retry">Bestellinfo konnte nicht geladen werden, versuchen Sie es erneut</string>
+  <string name="get_product_failed_please_retry">Bestellinfo wurde nicht geladen, versuchen Sie es erneut</string>
   <string name="geting_product_wait">Bestellinfo laden…</string>
   <string name="go_and_see">Gehen und Sehen</string>
   <string name="go_to_live_core_plugin">Initialisierung</string>
@@ -393,7 +393,7 @@ Bitte diesen Code an den Techniker senden."</string>
   <string name="online_live_no_login_hint">Melden Sie sich in Ihrem Mi-Konto an, um Livestreams zu sehen</string>
   <string name="online_live_no_network">Netzwerkverbindung nicht möglich. Netzwerkeinstellungen prüfen und erneut versuchen.</string>
   <string name="online_live_pay_record_no_data">Keine Elemente vorhanden</string>
-  <string name="online_live_plugin_install_failure">Plugin konnte nicht installiert werden</string>
+  <string name="online_live_plugin_install_failure">Plugin wurde nicht installiert</string>
   <string name="online_live_popular">Follower</string>
   <string name="online_live_unbind_failure">Entfernen nicht möglich, erneut versuchen.</string>
   <string name="online_live_unbind_success">Erfolgreich entfernt</string>
@@ -683,7 +683,7 @@ Bitte diesen Code an den Techniker senden."</string>
   <string name="priority_storage">Speichern auf SD-Karte</string>
   <string name="priority_storage_summary">Automatische Speicherung auf externe SD-Karte, falls verfügbar</string>
   <string name="privacy">Datenschutzerklärung</string>
-  <string name="products_info_error">Bestellinfo konnte nicht geladen werden, versuchen Sie es erneut</string>
+  <string name="products_info_error">Bestellinfo wurde nicht geladen, versuchen Sie es erneut</string>
   <string name="program_menu">Programmvorschau</string>
   <string name="provid_online_server">Einschalten, um Zugriff auf Onlinedienste zu erhalten</string>
   <string name="pull_to_refresh_from_bottom_pull_label">Zum Aktualisieren herunterziehen…</string>
@@ -805,11 +805,11 @@ Sie können versuchen, nach etwas anderem zu suchen."</string>
   <string name="subtitle_manual_add_sub">Untertitel erfolgreich hinzugefügt</string>
   <string name="subtitle_no_subtitle">Untertitel nicht verfügbar</string>
   <string name="subtitle_non_subtitle_file">Keine Untertitel-Dateien</string>
-  <string name="subtitle_offset_add_1s">+1 Sek</string>
-  <string name="subtitle_offset_add_dot5s">+0.5 Sek</string>
+  <string name="subtitle_offset_add_1s">+1 s</string>
+  <string name="subtitle_offset_add_dot5s">+0.5 s</string>
   <string name="subtitle_offset_normal">Untertitel nicht verschieben</string>
-  <string name="subtitle_offset_sub_1s">-1 Sek</string>
-  <string name="subtitle_offset_sub_dot5s">-0.5 Sek</string>
+  <string name="subtitle_offset_sub_1s">-1 s</string>
+  <string name="subtitle_offset_sub_dot5s">-0.5 s</string>
   <string name="subtitle_onlinesub_language">Sprache: %s</string>
   <string name="subtitle_onlinesub_loading">Untertitel laden…</string>
   <string name="subtitle_onlinesub_loading_wait">Untertitel laden…</string>
@@ -823,7 +823,7 @@ Sie können versuchen, nach etwas anderem zu suchen."</string>
   <string name="subtitle_onlinesub_title">Online-Untertitel</string>
   <string name="subtitle_open_subtitle_file_title">Untertiteldatei finden</string>
   <string name="subtitle_padding_default_hint">Untertitel anpassen…</string>
-  <string name="subtitle_preoffset_max">Kann nicht weiter als 5 Sek gehen</string>
+  <string name="subtitle_preoffset_max">Weiter als 5 s nicht möglich</string>
   <string name="subtitle_recognized_empty_subtitles">Sprache wurde während der Aufnahme nicht erkannt</string>
   <string name="subtitle_subonline_non_network">Netzwerkverbindung nicht möglich. Verbinden und erneut versuchen</string>
   <string name="subtitle_synchronization_title">Synchronisation</string>
@@ -868,7 +868,7 @@ Sie können versuchen, nach etwas anderem zu suchen."</string>
   <string name="to_be_play_label_v5">"Zum Nächsten: "</string>
   <string name="toast_add_collect">Zu Favoriten hinzugefügt</string>
   <string name="toast_back_key_pressed_notice">Zum Beenden Zurücktaste erneut drücken</string>
-  <string name="toast_can_not_withdraw">Kann nach 1 Minute nicht mehr rückgängig machen werden</string>
+  <string name="toast_can_not_withdraw">Rückgängig nach 1 Min nicht mehr möglich</string>
   <string name="toast_cancel_collect">Von Favoriten entfernt</string>
   <string name="toast_close_engine_mode">Entwickleroptionen sind aus</string>
   <string name="toast_downloading">Herunterladen:</string>
@@ -877,7 +877,7 @@ Sie können versuchen, nach etwas anderem zu suchen."</string>
   <string name="toast_message_continue_play_from">"Abspielen von "</string>
   <string name="toast_message_continue_play_hour">Std</string>
   <string name="toast_message_continue_play_minute">Min</string>
-  <string name="toast_message_continue_play_second_and_play">%1$s Sek</string>
+  <string name="toast_message_continue_play_second_and_play">%1$s s</string>
   <string name="toast_open_engine_mode">Entwickleroptionen sind an</string>
   <string name="toast_operate_message_delete_success">Erfolgreich gelöscht</string>
   <string name="toast_remind_no_enough_room_and_stop_task">Nicht genügend Speicherplatz. Laufende Downloads anhalten.</string>
@@ -916,7 +916,7 @@ Sie können versuchen, nach etwas anderem zu suchen."</string>
   <string name="v_addon">Beliebt</string>
   <string name="v_agree">Zustimmen</string>
   <string name="v_all_episode">Alle Episoden</string>
-  <string name="v_app_check_failed">App konnte nicht verifiziert werden</string>
+  <string name="v_app_check_failed">App wurde nicht verifiziert</string>
   <string name="v_app_click_to_install">Zum Installieren antippen</string>
   <string name="v_app_download_failed">App herunterladen nicht möglich, um es erneut zu versuchen berühren</string>
   <string name="v_app_downloaded">Mi Video wurde erfolgreich heruntergeladen</string>
@@ -1094,7 +1094,7 @@ Nach etwas Anderem suchen.</string>
   <string name="vertical_video_auto_play_hint">Nächste</string>
   <string name="video_bbs">Zum Forum gehen</string>
   <string name="video_bbs_url">Unserer Community beitreten, um Xiaomi-Videos zu optimieren</string>
-  <string name="video_id_empty">Video-URL konnte nicht ermittelt werden</string>
+  <string name="video_id_empty">Video-URL wurde nicht ermittelt</string>
   <string name="video_info_audio_bitrate_label">"Audio-Bitrate: "</string>
   <string name="video_info_audio_coding_label">"Audio-Kodierungsformat: "</string>
   <string name="video_info_audio_null">Keine</string>
@@ -1131,8 +1131,8 @@ Nach etwas Anderem suchen.</string>
   <string name="vp_VideoView_error_text_invalid_progressive_playback">Dieser Dateityp wird vom Gerät nicht unterstützt</string>
   <string name="vp_VideoView_error_text_unknown">Ein unbekannter Fehler ist aufgetreten</string>
   <string name="vp_VideoView_error_title">Unbekannter Fehler</string>
-  <string name="vp_ad_countdown_m_s">Werbung %1$d Min %2$s Sek</string>
-  <string name="vp_ad_countdown_s">%1$ Sek</string>
+  <string name="vp_ad_countdown_m_s">Werbung %1$d Min %2$s s</string>
+  <string name="vp_ad_countdown_s">%1$ s</string>
   <string name="vp_ad_skip">Werbung überspringen</string>
   <string name="vp_ad_skip_at">Werbung nach %1$d überspringen</string>
   <string name="vp_adapt_height">Höhe anpassen</string>
@@ -1207,7 +1207,7 @@ Nach etwas Anderem suchen.</string>
   <string name="vp_mobile_network_using_auto_play">Videos automatisch abspielen, wenn das Gerät diese Woche nicht mit WLAN verbunden ist</string>
   <string name="vp_mobile_network_using_free_service">Weitere Optionen</string>
   <string name="vp_mobile_network_using_negative">Abbrechen</string>
-  <string name="vp_mobile_network_using_playing">Wird mobile Daten verwenden, um dieses Video in %1$ Sek wiederzugeben</string>
+  <string name="vp_mobile_network_using_playing">Wird mobile Daten verwenden, um dieses Video in %1$ s wiederzugeben</string>
   <string name="vp_mobile_network_using_positive">Weiter</string>
   <string name="vp_mobile_network_using_positive_data_comsume">%1$s mobile Daten nutzen</string>
   <string name="vp_mobile_network_using_positive_new">Trotzdem abspielen</string>

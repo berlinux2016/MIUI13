@@ -274,7 +274,7 @@
   <string name="failed_to_drop_widget_invalid">Widget fehlerhaft</string>
   <string name="failed_to_drop_widget_nospace">Nicht genug Platz auf Startbildschirm vorhanden</string>
   <string name="failed_to_load_image">Bild wurde nicht geladen</string>
-  <string name="fmt_chinese_date">d.M.</string>
+  <string name="fmt_chinese_date">dd.MM.</string>
   <string name="fmt_date_day">d.</string>
   <string name="fmt_date_long_month_day">d. MMMM</string>
   <string name="fmt_date_long_year_month_day">d. MMMM yyyy</string>
@@ -283,10 +283,10 @@
   <string name="fmt_date_numeric_month_day">dd.MM.</string>
   <string name="fmt_date_numeric_year_month">MM/yyyy</string>
   <string name="fmt_date_numeric_year_month_day">dd.MM.yyyy</string>
-  <string name="fmt_date_short_month">MM.</string>
-  <string name="fmt_date_short_month_day">dd.MM.</string>
+  <string name="fmt_date_short_month">MMM</string>
+  <string name="fmt_date_short_month_day">d. MMM</string>
   <string name="fmt_date_short_year_month">MMM yyyy</string>
-  <string name="fmt_date_short_year_month_day">dd.MM.yyyy</string>
+  <string name="fmt_date_short_year_month_day">d. MMM yyyy</string>
   <string name="fmt_date_time_timezone">D T z</string>
   <string name="fmt_date_timezone">D z</string>
   <string name="fmt_time_12hour">"h 'Uhr'"</string>
@@ -526,6 +526,7 @@
   <string name="navigation_guide_dock_title_pad">App-Leiste aufrufen</string>
   <string name="navigation_guide_dock_title_spec_pad">App-Leiste in App aufrufen</string>
   <string name="navigation_guide_dock_title_spec_with_quotation_pad">\"App-Leiste in App aufrufen\"</string>
+  <string name="navigation_guide_finish_text">Verstanden</string>
   <string name="navigation_guide_gesture_line_dialog_summary">Eine neue Geste zum Umschalten zwischen den Apps wird verwendet, wenn Sie die Vollbildanzeige ausblenden. Diese Geste jetzt lernen?</string>
   <string name="navigation_guide_gesture_line_dialog_title">Eine neue Geste lernen</string>
   <string name="navigation_guide_hide_gesture_line_summary">Keine Vollbildanzeige bei Verwendung von Vollbildgesten</string>
@@ -536,7 +537,9 @@
   <string name="navigation_guide_home_title_spec_with_quotation_pad">\"Zurück zum Desktop\"</string>
   <string name="navigation_guide_next_spec_pad">Nächste Anleitung</string>
   <string name="navigation_guide_prev_spec_pad">Vorherige Anleitung</string>
+  <string name="navigation_guide_prohibit_gesture_hint">Vollbildgesten beim Betrachten von Demos nicht möglich</string>
   <string name="navigation_guide_provision_see_more_pad">Zu \"Einstellungen-Desktop-Vollbildgesten\" gehen, um weitere Anleitungsvideos anzusehen</string>
+  <string name="navigation_guide_provision_see_more_pad_with_virtual_key">Weitere Demos in Einstellungen &gt; Startbildschirm &gt; Systemnavigation anzeigen</string>
   <string name="navigation_guide_provision_title_pad">Vollbildgesten</string>
   <string name="navigation_guide_recent_summary">Vom unteren Bildschirmrand nach oben wischen und halten</string>
   <string name="navigation_guide_recent_summary_pad">Vom unteren Bildschirmrand nach oben wischen und halten</string>
@@ -544,6 +547,10 @@
   <string name="navigation_guide_recent_title">Aktuelle öffnen</string>
   <string name="navigation_guide_recent_title_spec_with_quotation_pad">\"Letzte Aufgaben umschalten\"</string>
   <string name="navigation_guide_settings">Gestendemos</string>
+  <string name="navigation_set_miui_home_as_default_dialog_cancel">Abbrechen</string>
+  <string name="navigation_set_miui_home_as_default_dialog_message">Nicht-System-Desktops unterstützen die Vollbild-Gesten nicht. Zum System-Desktop wechseln und Vollbild-Gesten aktivieren?</string>
+  <string name="navigation_set_miui_home_as_default_dialog_ok">Zustimmen</string>
+  <string name="navigation_set_miui_home_as_default_dialog_title">Hinweis</string>
   <string name="navigation_type_full_screen">Gesten</string>
   <string name="navigation_type_title">Systemnavigation</string>
   <string name="navigation_type_title_synonyms_1">Vollbildschirm</string>
@@ -647,10 +654,10 @@
   <string name="recommend_app">App-Vorschläge</string>
   <string name="recommend_apps_default_title">Leer</string>
   <string name="recommend_apps_no_data">Keine Daten</string>
-  <string name="recommend_apps_no_data_toast">Aktuell keine Empfehlungen</string>
-  <string name="recommend_apps_notice">Empfohlene Apps</string>
-  <string name="recommend_apps_notice_nodata">Empfohlene Apps (Keine Daten)</string>
-  <string name="recommend_apps_switch_title">Empfohlene Apps</string>
+  <string name="recommend_apps_no_data_toast">Noch keine Elemente in \"Heutige Empfehlungen\"</string>
+  <string name="recommend_apps_notice">Heutige Empfehlungen</string>
+  <string name="recommend_apps_notice_nodata">Heutige Empfehlungen (keine Elemente)</string>
+  <string name="recommend_apps_switch_title">Heutige Empfehlungen</string>
   <string name="recommend_apps_tips">Diese Funktion benötigt eine Internetverbindung. Auf den Ordnernamen tippen, um die Funktion auszuschalten.</string>
   <string name="recommend_loading">Laden</string>
   <string name="recommend_refresh">Aktualisieren</string>
@@ -659,7 +666,7 @@
   <string name="remove_dialog_message">Ausgewählte Apps enthalten wesentliche Systemfunktionen. Sie können nur ihre Verknüfungen auf dem Startbildschirm entfernen.</string>
   <string name="remove_dialog_title_format">\"%s\" vom Startbildschirm entfernen?</string>
   <string name="remove_invalidate_gadget_tips">Eins der von Ihnen verwendeten Widgets ist nicht mehr verfügbar. Sie können ein anderes hinzufügen.</string>
-  <string name="remove_sys_app_content">Sie können die Startbildschirmverknüpfung unter Einstellungen &gt; Apps &gt; Startbildschirmverknüpfungen verwalten wieder hinzufügen. Jetzt entfernen?</string>
+  <string name="remove_sys_app_content">Sie können die Startbildschirm-Verknüpfung unter Einstellungen &gt; Apps &gt; Startbildschirm-Verknüpfungen verwalten wieder hinzufügen. Jetzt entfernen?</string>
   <string name="remove_sys_app_title">Verknüpfung auf dem Startbildschirm entfernen?</string>
   <string name="reset_cate_tip_content">Wenn Sie fortfahren, werden die Standard-App-Gruppen wiederhergestellt. Trotzdem fortfahren?</string>
   <string name="reset_cate_tip_title">Standardgruppen wiederherstellen</string>
@@ -748,6 +755,8 @@
   <string name="sunday">Sonntag</string>
   <string name="sunday_short">So</string>
   <string name="sunday_shortest">S</string>
+  <string name="swipe_the_desktop_to_the_left">Auf Startbildschirm nach links wischen</string>
+  <string name="swipe_the_desktop_to_the_right">Auf Startbildschirm nach rechts wischen</string>
   <string name="switch_personal_assistant_app_vault">Infoassistent</string>
   <string name="switch_personal_assistant_google">Google Assistent</string>
   <string name="switch_personal_assistant_none">Nichts</string>
@@ -755,7 +764,7 @@
   <string name="switch_screen_button_order_desc">Zurück- und Menütaste spiegeln</string>
   <string name="system_shortcuts_more_operation">App-Info</string>
   <string name="system_shortcuts_remove">Entfernen</string>
-  <string name="task_access_locked_app_msg">App-Sperre ausgeschaltet</string>
+  <string name="task_access_locked_app_msg">App-Sperre eingeschaltet</string>
   <string name="the_anniversary_of_lifting_martial_law">Jahrestag der Aufhebung des Kriegsrechts</string>
   <string name="the_anti_aggression_day">Antiaggressionstag</string>
   <string name="the_arbor_day">Tag des Baumes</string>

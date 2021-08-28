@@ -210,7 +210,7 @@
   <string name="dc_activity_title">Tiefenreinigung</string>
   <string name="dc_advise_delete">Speicherplatz schaffen</string>
   <string name="dc_group_title_appclean">Apps deinstallieren</string>
-  <string name="dc_header_can_clean">Kann gelöscht werden</string>
+  <string name="dc_header_can_clean">Löschen möglich</string>
   <string name="dc_header_can_not_clean">Verwendet</string>
   <string name="dc_header_used_space_text">Verwendeter Speicherplatz</string>
   <string name="dc_item_summary_wechat_chat">Verlauf Chat für Chat löschen, um mehr Platz zu schaffen</string>
@@ -316,7 +316,7 @@
   <string name="file">Dateien</string>
   <string name="file_not_found">Datei nicht gefunden</string>
   <string name="flow_rank_title">Datenverbrauch</string>
-  <string name="fmt_chinese_date">d.M.</string>
+  <string name="fmt_chinese_date">dd.MM.</string>
   <string name="fmt_date_day">d.</string>
   <string name="fmt_date_long_month_day">d. MMMM</string>
   <string name="fmt_date_long_year_month_day">d. MMMM yyyy</string>
@@ -325,10 +325,10 @@
   <string name="fmt_date_numeric_month_day">dd.MM.</string>
   <string name="fmt_date_numeric_year_month">MM/yyyy</string>
   <string name="fmt_date_numeric_year_month_day">dd.MM.yyyy</string>
-  <string name="fmt_date_short_month">MM.</string>
-  <string name="fmt_date_short_month_day">dd.MM.</string>
+  <string name="fmt_date_short_month">MMM</string>
+  <string name="fmt_date_short_month_day">d. MMM</string>
   <string name="fmt_date_short_year_month">MMM yyyy</string>
-  <string name="fmt_date_short_year_month_day">dd.MM.yyyy</string>
+  <string name="fmt_date_short_year_month_day">d. MMM yyyy</string>
   <string name="fmt_date_time_timezone">D T z</string>
   <string name="fmt_date_timezone">D z</string>
   <string name="fmt_time_12hour">"h 'Uhr'"</string>
@@ -402,9 +402,11 @@
   <string name="goto_set">Einrichten</string>
   <string name="grabage_rank_title">Heute bereinigt</string>
   <string name="guide_dc_dialog_message">Weniger als 2 GB freier Speicherplatz verfügbar. Dies könnte Ihr Gerät verlangsamen. Führen Sie eine Tiefenreinigung durch, um Speicherplatz zu sparen.</string>
+  <string name="guide_dc_dialog_message_new">Es sind weniger als %d GB freier Speicher verfügbar. Dies könnte Ihr Gerät verlangsamen. Tiefenreinigung durchführen, um Speicherplatz freizugeben.</string>
   <string name="guide_dc_dialog_negative">Abbrechen</string>
   <string name="guide_dc_dialog_title">Speicherplatz wird knapp</string>
   <string name="guide_secure_dialog_message">Optimierungswert Ihres Gerätes liegt unter 80 Punkten. Jetzt optimieren?</string>
+  <string name="guide_secure_dialog_message_new">Optimierungswert Ihres Geräts ist niedriger als %d Punkte. Jetzt optimieren?</string>
   <string name="guide_secure_dialog_negative">Abbrechen</string>
   <string name="guide_secure_dialog_positive">Optimieren</string>
   <string name="guide_secure_dialog_title">Leistung optimieren</string>
@@ -486,6 +488,7 @@
   <string name="long_click_dialog_summary">Lange antippen, um zu den Ausnahmen hinzuzufügen</string>
   <string name="long_click_dialog_title">Hinweis</string>
   <string name="low_memory_clean_dialog_msg">Sie müssen vorher mindestens 100 MB Dateien bereinigen</string>
+  <string name="low_memory_clean_dialog_msg_new">Mind. %d MB Dateien zuerst löschen</string>
   <string name="low_memory_clean_dialog_title">Zu wenig freier Speicher</string>
   <string name="low_memory_warning_dialog_cancel_button">Abbrechen</string>
   <string name="low_memory_warning_dialog_msg">Speicher auf dem Gerät freigeben, um fortzufahren</string>
@@ -860,6 +863,7 @@
   <string name="the_valentines_day">Valentinstag</string>
   <string name="the_water_lantern_festival">Laternenfestival</string>
   <string name="there_is_no">Sieht gut aus, kommen Sie später wieder</string>
+  <string name="thursday">Donnerstag</string>
   <string name="thursday_short">Do</string>
   <string name="thursday_shortest">D</string>
   <string name="time_picker_dialog_title">Zeit einstellen</string>
@@ -867,8 +871,11 @@
   <string name="time_picker_label_minute">Min</string>
   <string name="tips_low_storage_dialog_cancel">Abbrechen</string>
   <string name="tips_low_storage_dialog_msg_qq">QQ-Cache-Größe hat 3 GB erreicht. Dies könnte Ihr Gerät verlangsamen. QQ-Cache jetzt löschen?</string>
+  <string name="tips_low_storage_dialog_msg_qq_new">QQ-Cachegröße hat %d GB erreicht. Dies kann Ihr Gerät verlangsamen. QQ-Cache jetzt löschen?</string>
   <string name="tips_low_storage_dialog_msg_storage">Sie nutzen 90% Ihres Speicherplatzes. Deinstallieren Sie Apps, die Sie nicht verwenden.</string>
+  <string name="tips_low_storage_dialog_msg_storage_new">Sie verwenden %s Ihres Speichers. Deinstallieren Sie nicht verwendete Apps.</string>
   <string name="tips_low_storage_dialog_msg_wechat">WeChat-Cache-Größe hat 3 GB erreicht. Dies könnte Ihr Gerät verlangsamen. WeChat-Cache jetzt löschen?</string>
+  <string name="tips_low_storage_dialog_msg_wechat_new">WeChat-Cachegröße hat %d GB erreicht. Dies kann Ihr Gerät verlangsamen. WeChat-Cache jetzt löschen?</string>
   <string name="tips_low_storage_dialog_ok">Löschen</string>
   <string name="tips_low_storage_dialog_ok_storage">Speicher freig.</string>
   <string name="tips_low_storage_dialog_title">Speicherplatz wird knapp</string>
@@ -934,9 +941,9 @@
   <string name="video_clean_auto_clean">Automatisch löschen</string>
   <string name="video_clean_auto_clean_summary">Videos im Cache nach dem Scannen automatisch löschen</string>
   <string name="video_clean_cache_tip">Gelöschte Videos können danach wieder geladen werden</string>
-  <string name="video_clean_create_desktop_icon">Startbildschirmverknüpfung</string>
-  <string name="video_clean_create_desktop_icon_summary">Startbildschirmverknüpfung hinzufügen zum Löschen von Videos im Cache mit einem Fingertipp</string>
-  <string name="video_clean_desktop_icon_created">Startbildschirmverknüpfung erfolgreich hinzugefügt</string>
+  <string name="video_clean_create_desktop_icon">Startbildschirm-Verknüpfung</string>
+  <string name="video_clean_create_desktop_icon_summary">Startbildschirm-Verknüpfung hinzufügen zum Löschen von Videos im Cache mit einem Fingertipp</string>
+  <string name="video_clean_desktop_icon_created">Startbildschirm-Verknüpfung erfolgreich hinzugefügt</string>
   <string name="video_clean_garbage">Videos im Cache</string>
   <string name="video_clean_garbage_cleared">Videos im Cache erfolgreich gelöscht</string>
   <string name="video_clean_image_clean_summary">Doppelte Fotos löschen, um Speicherplatz freizugeben</string>
@@ -1033,6 +1040,8 @@
   <string name="wqfile_group_chat_pic">Bilder aus Messengern</string>
   <string name="wqfile_group_chat_video">Videos aus Messengern</string>
   <string name="wqfile_group_chat_voice">Sprachnachrichten</string>
+  <string name="xiaomi_market_sdk_update_dialog_cancel">Jetzt nicht</string>
+  <string name="xiaomi_market_sdk_update_dialog_title">Aktualisierung verfügbar</string>
   <string name="year_month_day_format">d. MMM. yyyy</string>
   <string name="yesterday">Gestern</string>
 </resources>

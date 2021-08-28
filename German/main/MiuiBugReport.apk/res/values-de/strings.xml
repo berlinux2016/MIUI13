@@ -79,7 +79,7 @@
   <string name="catch_full_log_dialog_confirm_text">Zur Startseite gehen</string>
   <string name="catch_full_log_dialog_content">Dies könnte die Gesamtleistung Ihres Geräts beeinträchtigen. Wenn Sie das Problem, das Sie melden möchten, nicht reproduzieren können, gehen Sie zurück zu den Protokollen und tippen Sie auf \"Abbrechen\"."</string>
   <string name="catch_full_log_dialog_title">Protokolle generieren…</string>
-  <string name="catch_full_log_dump_hprof_failed">Verzögertes Protokoll konnte nicht erstellt werden</string>
+  <string name="catch_full_log_dump_hprof_failed">Verzögertes Protokoll wurde nicht erstellt</string>
   <string name="catch_full_log_item_content_catch_direct">"1. Gehen Sie zurück zu dem Problem, das Sie melden möchten, und reproduzieren Sie es.
 2. Kommen Sie zurück zu dieser Seite und tippen Sie auf \"Fertigstellen und hochladen\"."</string>
   <string name="catch_full_log_item_content_catching">Protokolle generieren…</string>
@@ -211,7 +211,7 @@ Senden Sie diesen Code an den Supervisor."</string>
   <string name="feedback_hint_optional">Wählen</string>
   <string name="feedback_history_remind_login_desc">Melden Sie sich mit Ihrem Mi-Konto an, um Details und den Fortschritt Ihres Berichts anzuzeigen</string>
   <string name="feedback_jira_key_place_holder">Jira erstellen…</string>
-  <string name="feedback_package_log_failed">Protokolle konnten nicht komprimiert werden</string>
+  <string name="feedback_package_log_failed">Protokolle wurden nicht komprimiert</string>
   <string name="feedback_phone_model_label">Telefonmodell</string>
   <string name="feedback_probability_label">Wahrscheinlichkeit</string>
   <string name="feedback_remind_login_btn">Anmelden</string>
@@ -238,7 +238,7 @@ Senden Sie diesen Code an den Supervisor."</string>
   <string name="feedback_status_answered">Beantwortet</string>
   <string name="feedback_status_change_notification_title">Fortschritt Ihres Berichts wurde aktualisiert</string>
   <string name="feedback_status_collect_log_failed">Keine Protokolle erhalten</string>
-  <string name="feedback_status_commit_failed_title">Bericht konnte nicht gesendet werden</string>
+  <string name="feedback_status_commit_failed_title">Bericht wurde nicht gesendet</string>
   <string name="feedback_status_commit_in_queue_title">Warten…</string>
   <string name="feedback_status_commit_succ_title">Gesendet</string>
   <string name="feedback_status_commit_uploading_title">Senden…</string>
@@ -249,16 +249,16 @@ Senden Sie diesen Code an den Supervisor."</string>
   <string name="feedback_status_recorded">Erhaltenes Feedback</string>
   <string name="feedback_status_replyed">Geantwortet</string>
   <string name="feedback_status_reresolved">Gelöst</string>
-  <string name="feedback_status_save_log_info_failed">Anhangs-URL konnte nicht geändert werden</string>
+  <string name="feedback_status_save_log_info_failed">Anhangs-URL wurde nicht geändert</string>
   <string name="feedback_status_submit_attachment">Anhang erfolgreich übermittelt</string>
-  <string name="feedback_status_submit_bbs_failed">Konnte kein Feedback einreichen</string>
-  <string name="feedback_status_submit_feedback_failed">Konnte kein Feedback abgeben</string>
+  <string name="feedback_status_submit_bbs_failed">Feedback einreichen nicht möglich</string>
+  <string name="feedback_status_submit_feedback_failed">Feedback abgeben nicht möglich</string>
   <string name="feedback_status_supplement">Beschreiben Sie Ihr Problem im Detail</string>
   <string name="feedback_status_supplement_more">Kommentar hinzufügen</string>
-  <string name="feedback_status_upload_log_failed">Anhänge konnten nicht hochgeladen werden</string>
+  <string name="feedback_status_upload_log_failed">Anhänge wurden nicht hochgeladen</string>
   <string name="feedback_submit_failed_notification_desc">Details ansehen</string>
   <string name="feedback_submit_failed_notification_retry">Nochmals senden</string>
-  <string name="feedback_submit_failed_notification_title">Bericht konnte nicht gesendet werden</string>
+  <string name="feedback_submit_failed_notification_title">Bericht wurde nicht gesendet</string>
   <string name="feedback_submit_hint">Wenn Probleme auftreten, melden Sie die Fehler, damit wir diese schneller beheben können.</string>
   <string name="feedback_submit_hint_gone">Nachricht geschlossen</string>
   <string name="feedback_submit_hint1">Wir werden Sie über den Fortschritt der Bearbeitung informieren</string>
@@ -275,7 +275,7 @@ Senden Sie diesen Code an den Supervisor."</string>
   <string name="feedback_tracking">Probleme verfolgen</string>
   <string name="feesback_list">Berichte</string>
   <string name="find_psw">Passwort vergessen</string>
-  <string name="fmt_chinese_date">d.M.</string>
+  <string name="fmt_chinese_date">dd.MM.</string>
   <string name="fmt_date_day">d.</string>
   <string name="fmt_date_long_month_day">d. MMMM</string>
   <string name="fmt_date_long_year_month_day">d. MMMM yyyy</string>
@@ -284,10 +284,10 @@ Senden Sie diesen Code an den Supervisor."</string>
   <string name="fmt_date_numeric_month_day">dd.MM.</string>
   <string name="fmt_date_numeric_year_month">MM/yyyy</string>
   <string name="fmt_date_numeric_year_month_day">dd.MM.yyyy</string>
-  <string name="fmt_date_short_month">MM.</string>
-  <string name="fmt_date_short_month_day">dd.MM.</string>
+  <string name="fmt_date_short_month">MMM</string>
+  <string name="fmt_date_short_month_day">d. MMM</string>
   <string name="fmt_date_short_year_month">MMM yyyy</string>
-  <string name="fmt_date_short_year_month_day">dd.MM.yyyy</string>
+  <string name="fmt_date_short_year_month_day">d. MMM yyyy</string>
   <string name="fmt_date_time_timezone">D T z</string>
   <string name="fmt_date_timezone">D z</string>
   <string name="fmt_time_12hour">"h 'Uhr'"</string>
@@ -441,7 +441,7 @@ Senden Sie diesen Code an den Supervisor."</string>
   <string name="mobile_data_note_dialog_content">Anscheinend sind Sie mit einem bezahlten Netzwerk verbunden. Hochladen von Protokollen kann zusätzliche Kosten verursachen.</string>
   <string name="mobile_data_note_dialog_content_with_file_size">Anscheinend sind Sie mit einem bezahlten Netzwerk verbunden. Hochladen von Protokollen erfordert %s MB mobile Daten.</string>
   <string name="mobile_data_note_dialog_title">Datenverbrauchswarnung</string>
-  <string name="modem_tool_log_dumping_desc">Zum Anhalten Symbol anklicken</string>
+  <string name="modem_tool_log_dumping_desc">Zum Anhalten Symbol antippen</string>
   <string name="modem_tool_log_dumping_title">Modemprotokoll speichern</string>
   <string name="modem_tool_log_finish_desc">Porotokoll wurde gespeichert unter %s</string>
   <string name="modem_tool_log_finish_title">Modemprotokoll gespeichert</string>
@@ -539,7 +539,7 @@ Senden Sie diesen Code an den Supervisor."</string>
   <string name="passport_change_phone_number">Nummern tauschen</string>
   <string name="passport_checking_account">Passwort prüfen…</string>
   <string name="passport_checking_input">Eingabe prüfen…</string>
-  <string name="passport_click_email_to_valid">Um Ihr Konto zu aktivieren, klicken Sie auf den Link in Ihrem Posteingang.</string>
+  <string name="passport_click_email_to_valid">Um Ihr Konto zu aktivieren, tippen Sie auf den Link in Ihrem Posteingang.</string>
   <string name="passport_close">Schließen</string>
   <string name="passport_completed">Fertig</string>
   <string name="passport_confirm_recycle_account">Ja</string>
@@ -574,9 +574,9 @@ Senden Sie diesen Code an den Supervisor."</string>
   <string name="passport_error_sim_not_ready">SIM-Karte kann nicht gefunden werden</string>
   <string name="passport_error_ssl_hand_shake">Verbindung zum Server nicht möglich</string>
   <string name="passport_error_unknown">Unbekannter Fehler</string>
-  <string name="passport_error_user_agreement_error">Erst die allgemeinen Geschäftsbedingungen akzeptieren</string>
+  <string name="passport_error_user_agreement_error">Erst den allgemeinen Geschäftsbedingungen zustimmen</string>
   <string name="passport_error_user_name">Eingegebener Benutzername ist ungültig</string>
-  <string name="passport_failed_to_send_activate_email">E-Mail zum aktivieren konnte nicht gesendet werden</string>
+  <string name="passport_failed_to_send_activate_email">E-Mail zum Aktivieren wurde nicht gesendet</string>
   <string name="passport_find_password_on_web_msg">Account.mi.com besuchen, um Ihr Passwort zurückzusetzen.</string>
   <string name="passport_forget_password"><u>Passwort vergessen</u></string>
   <string name="passport_forget_password_no_underline">Passwort vergessen</string>
@@ -613,7 +613,7 @@ Senden Sie diesen Code an den Supervisor."</string>
   <string name="passport_phone_num_hint_text">Rufnummer</string>
   <string name="passport_prev">Zurück</string>
   <string name="passport_privacy_policy">Datenschutzerklärung</string>
-  <string name="passport_pwd_generate_failure">Passwort konnte nicht generiert werden</string>
+  <string name="passport_pwd_generate_failure">Passwort wurde nicht generiert</string>
   <string name="passport_pwd_generating">Generieren…</string>
   <string name="passport_querying_phone_info">Kontoinfo anfordern…</string>
   <string name="passport_quick_login_dialog_step2_title">2-Schritt-Verifizierung</string>
@@ -632,7 +632,7 @@ Senden Sie diesen Code an den Supervisor."</string>
   <string name="passport_reg_using_other_phone">&lt;u&gt;Alternative Rufnummer verwenden&lt;/u&gt;</string>
   <string name="passport_reg_using_other_phone_number_prompt">"Erstellen Sie ein neues Konto mit Hilfe von "</string>
   <string name="passport_reg_using_phone_number_prompt">Konto mit Rufnummer erstellen</string>
-  <string name="passport_reg_via_sms_alert">Zur Aktivierung dieses Dienstes kann eine ausgehende SMS-Nachricht erforderlich sein. Ihr Mobilfunkanbieter wird Ihnen für diese Nachricht eine Gebühr in Rechnung stellen.</string>
+  <string name="passport_reg_via_sms_alert">Zur Aktivierung dieses Dienstes kann eine ausgehende SMS-Nachricht erforderlich sein. Ihr Mobilfunkanbieter wird Ihnen für diese Nachricht Kosten in Rechnung stellen.</string>
   <string name="passport_reging">Konto erstellen…</string>
   <string name="passport_reload_ph_ticket">Erneut senden</string>
   <string name="passport_register">Erstellen Sie ein Konto</string>
@@ -649,7 +649,7 @@ Senden Sie diesen Code an den Supervisor."</string>
   <string name="passport_remove_confirm">Abmelden</string>
   <string name="passport_remove_unactivated_account_notice">Ihr Konto wurde nicht aktiviert.</string>
   <string name="passport_resend_active_email">E-Mail erneut senden</string>
-  <string name="passport_reset_fail_title">Konnte nicht zurückgesetzt werden</string>
+  <string name="passport_reset_fail_title">Zurücksetzen nicht möglich</string>
   <string name="passport_reset_password_prompt">Passwort ist falsch</string>
   <string name="passport_reset_password_title">Passwort zurücksetzen</string>
   <string name="passport_restart">Von vorn anfangen</string>

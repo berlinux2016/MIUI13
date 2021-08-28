@@ -20,6 +20,9 @@
   <string name="accessibility_back">Zurück</string>
   <string name="accessibility_desc_close">Schließen</string>
   <string name="accessibility_desc_edit">Bearbeiten</string>
+  <string name="accessibility_description_hours">Stunden</string>
+  <string name="accessibility_description_minutes">Minuten</string>
+  <string name="accessibility_description_seconds">Sekunden</string>
   <string name="accessibility_menu">Menü</string>
   <string name="accessibility_quick_settings_page">Seite %1$d von %2$d</string>
   <string name="accessibility_volume_collapse">Verkleinern</string>
@@ -27,6 +30,7 @@
   <string name="actionbar_button_up_description">Zurück</string>
   <string name="afternoon">Nachmittag</string>
   <string name="already_in_small_freeform">Einige Apps werden in Popups geöffnet</string>
+  <string name="app_name">System UI Plugin</string>
   <string name="character_counter_content_description">%1$d von %2$d Zeichen eingegeben</string>
   <string name="character_counter_overflowed_content_description">Zeichenlimit überschritten: %1$d von %2$d</string>
   <string name="chip_text">Chiptext</string>
@@ -87,7 +91,7 @@
   <string name="evening">Nachmittag</string>
   <string name="expand_button_title">Erweitert</string>
   <string name="exposed_dropdown_menu_content_description">Dropdown-Menü anzeigen</string>
-  <string name="fmt_chinese_date">d.M.</string>
+  <string name="fmt_chinese_date">dd.MM.</string>
   <string name="fmt_date_day">d.</string>
   <string name="fmt_date_long_month_day">d. MMMM</string>
   <string name="fmt_date_long_year_month_day">d. MMMM yyyy</string>
@@ -96,10 +100,10 @@
   <string name="fmt_date_numeric_month_day">dd.MM.</string>
   <string name="fmt_date_numeric_year_month">MM/yyyy</string>
   <string name="fmt_date_numeric_year_month_day">dd.MM.yyyy</string>
-  <string name="fmt_date_short_month">MM.</string>
-  <string name="fmt_date_short_month_day">dd.MM.</string>
+  <string name="fmt_date_short_month">MMM</string>
+  <string name="fmt_date_short_month_day">d. MMM</string>
   <string name="fmt_date_short_year_month">MMM yyyy</string>
-  <string name="fmt_date_short_year_month_day">dd.MM.yyyy</string>
+  <string name="fmt_date_short_year_month_day">d. MMM yyyy</string>
   <string name="fmt_date_time_timezone">D T z</string>
   <string name="fmt_date_timezone">D z</string>
   <string name="fmt_time_12hour">"h 'Uhr'"</string>
@@ -197,7 +201,7 @@
   <string name="mtrl_badge_numberless_content_description">Neue Benachrichtigung</string>
   <string name="mtrl_chip_close_icon_content_description">%1$s entfernen</string>
   <string name="mtrl_exceed_max_badge_number_content_description">Mehr als %1$d neue Benachrichtigungen</string>
-  <string name="mtrl_picker_a11y_next_month">Zum nächsten Monat wechseln</string>
+  <string name="mtrl_picker_a11y_next_month">Zum Folgemonat wechseln</string>
   <string name="mtrl_picker_a11y_prev_month">Zum Vormonat wechseln</string>
   <string name="mtrl_picker_announce_current_selection">Aktuelle Auswahl: %1$s</string>
   <string name="mtrl_picker_date_header_title">Datum wählen</string>

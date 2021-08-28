@@ -89,7 +89,7 @@ Wenn Sie eine neue Sicherheitsfrage erstellt und Ihr Geburtsdatum bestätigt hab
 Zum Ausschalten auf https://appleid.apple.com/#!&amp;page=signin gehen"</string>
   <string name="close_twice_auth_step_1">1. Einen beliebigen Webbrowser auf einem beliebigen Computer öffnen und zu appleid.apple.com gehen.</string>
   <string name="close_twice_auth_step_2">2. Bei der Apple-ID anmelden, für die Sie die Zwei-Faktor-Authentifizierung deaktivieren möchten, gehen Sie zum Abschnitt \"Sicherheit\" in den Kontoeinstellungen und wählen Sie \"Bearbeiten\" aus.</string>
-  <string name="close_twice_auth_step_3">3. Auf \"Zwei-Faktor-Authentifizierung deaktivieren klicken\". Zum Bestätigen erneut klicken.</string>
+  <string name="close_twice_auth_step_3">3. Auf \"Zwei-Faktor-Authentifizierung deaktivieren\" tippen. Zum Bestätigen erneut tippen.</string>
   <string name="close_twice_auth_steps">Führen Sie folgende Schritte aus, um die Zwei-Faktor-Authentifizierung für Apple-ID zu deaktivieren:</string>
   <string name="close_twice_auth_tutor">Apple-ID Zwei-Faktor-Authentifizierung ausschalten</string>
   <string name="close_vpn_summary">Anscheinend ist Ihr Gerät jetzt mit VPN verbunden. VPN ausschalten, um eine Verbindung mit anderen Geräten herzustellen.</string>
@@ -129,6 +129,9 @@ Zum Ausschalten auf https://appleid.apple.com/#!&amp;page=signin gehen"</string>
   <string name="delete_description">Löschen</string>
   <string name="deselect_all">Abwählen</string>
   <string name="deselect_all_description">Alles abwählen</string>
+  <string name="dialog_airplane_mode_button">Einstellungen</string>
+  <string name="dialog_airplane_mode_content">Mi Mover funktioniert nicht, wenn der Flugmodus aktiviert ist. Erst in den Einstellungen ausschalten.</string>
+  <string name="dialog_airplane_mode_title">Flugmodus ausschalten</string>
   <string name="dialog_backup_password_cancel">Abbrechen</string>
   <string name="dialog_backup_password_change_machine_tips">Sie können keine passwortgeschützten Sicherungen übertragen. Sicherungspasswort ausschalten, bevor Sie Mi Mover verwenden.</string>
   <string name="dialog_connect_ap_timeout_button">Verbinden</string>
@@ -138,6 +141,8 @@ Zum Ausschalten auf https://appleid.apple.com/#!&amp;page=signin gehen"</string>
   <string name="dialog_rating_desc_ask">Was halten Sie von Mi Mover?</string>
   <string name="dialog_rating_desc_less">Geben Sie uns ein paar Vorschläge, damit wir unsere App verbessern können?</string>
   <string name="dialog_rating_desc_perfect">Danke! Mi Mover auch in GetApps bewerten?</string>
+  <string name="dialog_rating_high_score_summary">Sehr zufrieden</string>
+  <string name="dialog_rating_low_score_summary">Sehr unzufrieden</string>
   <string name="dialog_rating_title">Mi Mover bewerten</string>
   <string name="dialog_request_network_btn_negative">Beenden</string>
   <string name="dialog_request_network_btn_positive">Zustimmen</string>
@@ -187,10 +192,10 @@ Wir schützen Ihre persönlichen Daten in Übereinstimmung mit den einschlägige
   <string name="error_unauthorized">Synchronisation wurde wegen zu vieler Anmeldeversuche deaktiviert.</string>
   <string name="evening">Nachmittag</string>
   <string name="expand_button_title">Erweitert</string>
-  <string name="fail_list_tips">Folgende Elemente konnten nicht auf das neue Gerät übertragen werden:</string>
+  <string name="fail_list_tips">Folgende Elemente wurden nicht auf das neue Gerät übertragen:</string>
   <string name="failed_description">Fehlgeschlagen</string>
   <string name="finished">Fertig</string>
-  <string name="fmt_chinese_date">d.M.</string>
+  <string name="fmt_chinese_date">dd.MM.</string>
   <string name="fmt_date_day">d.</string>
   <string name="fmt_date_long_month_day">d. MMMM</string>
   <string name="fmt_date_long_year_month_day">d. MMMM yyyy</string>
@@ -199,10 +204,10 @@ Wir schützen Ihre persönlichen Daten in Übereinstimmung mit den einschlägige
   <string name="fmt_date_numeric_month_day">dd.MM.</string>
   <string name="fmt_date_numeric_year_month">MM/yyyy</string>
   <string name="fmt_date_numeric_year_month_day">dd.MM.yyyy</string>
-  <string name="fmt_date_short_month">MM.</string>
-  <string name="fmt_date_short_month_day">dd.MM.</string>
+  <string name="fmt_date_short_month">MMM</string>
+  <string name="fmt_date_short_month_day">d. MMM</string>
   <string name="fmt_date_short_year_month">MMM yyyy</string>
-  <string name="fmt_date_short_year_month_day">dd.MM.yyyy</string>
+  <string name="fmt_date_short_year_month_day">d. MMM yyyy</string>
   <string name="fmt_date_time_timezone">D T z</string>
   <string name="fmt_date_timezone">D z</string>
   <string name="fmt_time_12hour">"h 'Uhr'"</string>
@@ -524,7 +529,7 @@ Wir schützen Ihre persönlichen Daten in Übereinstimmung mit den einschlägige
   <string name="prompt_before_transmission_message1_summary">Wenn Sie sich dafür entscheiden, sie von Ihrem alten Gerät zu übertragen, werden die App-Daten (einschl. Chat-Verlauf) überschrieben.</string>
   <string name="prompt_before_transmission_message1_title">Diese Apps haben bereits App-Daten auf Ihrem neuen Gerät generiert</string>
   <string name="prompt_before_transmission_message2_summary">Dual Apps können nicht übertragen werden. Sie können jedoch Original-Apps übertragen.</string>
-  <string name="prompt_before_transmission_message2_title">Sie verwenden duale Apps für folgende Elemente</string>
+  <string name="prompt_before_transmission_message2_title">Sie verwenden Dual Apps für folgende Elemente</string>
   <string name="prompt_before_transmission_message3_summary">Elemente aus dem Zweitprofil können wegen Systembeschränkungen nicht übertragen werden.</string>
   <string name="prompt_before_transmission_message3_title">Sie nutzen ein Zweitprofil</string>
   <string name="prompt_before_transmission_message4_summary">WLAN nicht ausschalten oder zwischen Netzwerken wechseln, bis die Übertragung abgeschlossen ist.</string>
@@ -750,6 +755,7 @@ Videos, Dokumente und Apps auf ein neues Gerät verschieben"</string>
   <string name="transfer_quit_alert_btn_negative">Beenden</string>
   <string name="transfer_quit_alert_btn_positive">Nicht beenden</string>
   <string name="transfer_quit_alert_message">"Mi Mover arbeitet jetzt. Trotzdem aufhören?
+
 "</string>
   <string name="transfer_quit_alert_message_extra">Übertragungsverlauf wird gespeichert. Sie können die Übertragung bei der nächsten Verbindung der beiden Geräte an der Stelle fortsetzen, an der Sie aufgehört haben.</string>
   <string name="transfer_quit_alert_title">Achtung</string>
