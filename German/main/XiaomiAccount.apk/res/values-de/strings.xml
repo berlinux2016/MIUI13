@@ -18,12 +18,14 @@
   <string name="abc_shareactionprovider_share_with_application">Teilen mit %s</string>
   <string name="abc_toolbar_collapse_description">Einklappen</string>
   <string name="about_device_info">Geräteinfo anzeigen</string>
+  <string name="accept">Erlauben</string>
   <string name="access_token_expired_warning">Weibo-Konto abgelaufen</string>
   <string name="access_token_invalid_warning">Weibo-Konto ungültig</string>
   <string name="account">Konto</string>
+  <string name="account_and_password">Passwort</string>
   <string name="account_bind_devices">Geräte</string>
   <string name="account_bind_secure_email_title">Wiederherstellungs-E-Mail hinzufügen</string>
-  <string name="account_bind_secure_phone_title">Wiederherstellungstelefonnummer hinzufügen</string>
+  <string name="account_bind_secure_phone_title">Wiederherstellungsrufnummer hinzufügen</string>
   <string name="account_bind_settings">Konten</string>
   <string name="account_crop_user_avatar">Foto zuschneiden</string>
   <string name="account_empty_user_name">Mi-Konto-Benutzername eingeben</string>
@@ -69,10 +71,14 @@ Ihre Konto ID: %s"</string>
   <string name="account_user_name_dialog_title">Benutzernamen eingeben</string>
   <string name="account_user_other_info">Weitere Informationen</string>
   <string name="account_user_phone">Telefon zum Wiederherstellen</string>
+  <string name="account_user_phone_show">Telefon: %s</string>
   <string name="account_user_recovery_phone">Notfalltelefon</string>
   <string name="account_user_using_facebook_avatar">Facebook-Profilfoto verwenden</string>
   <string name="account_user_using_qq_avatar">QQ-Profilfoto verwenden</string>
   <string name="account_user_using_weibo_avatar">Sina Weibo-Profilfoto verwenden</string>
+  <string name="account_verify_guide_bind_mail_desc">Wiederherstellungs-E-Mail hinzufügen</string>
+  <string name="account_verify_guide_bind_phone_desc">Wiederherstellungstelefon hinzufügen</string>
+  <string name="account_verify_guide_set_password_desc">Passwort festlegen</string>
   <string name="account_xiaomi_service">Dienste</string>
   <string name="action_add_phone">Rufnummer hinzufügen</string>
   <string name="action_retry">Erneut versuchen</string>
@@ -98,6 +104,7 @@ Ihre Konto ID: %s"</string>
   <string name="binded">Verbunden</string>
   <string name="binded_description" formatted="false">%s wurde mit Ihrem Mi-Konto verbunden. Sie können sich jetzt mit %s in Ihrem Mi-Konto anmelden.</string>
   <string name="button_unbind">Trennen</string>
+  <string name="cancel">Abbrechen</string>
   <string name="change_activate_email">E-Mail-Adresse ändern</string>
   <string name="change_email_address">E-Mail-Adresse ändern</string>
   <string name="change_password">Passwort ändern</string>
@@ -174,6 +181,7 @@ Ihre Konto ID: %s"</string>
   <string name="delete_device_failed">Gerät wurde nicht entfernt</string>
   <string name="delete_device_notice">Wenn das Gerät entfernt wurde, wird es automatisch von Ihrem Mi-Konto abgemeldet. Sie haben mit diesem Gerät dann keinen Zugriff mehr auf Ihre Fotos, Nachrichten und andere Inhalte, die in Ihrem Mi-Konto gespeichert sind.</string>
   <string name="delete_lock_device_success">Erfolgreich gelöscht</string>
+  <string name="deny">Verweigern</string>
   <string name="device_delete_success_message">Wenn Sie sich nicht auf diesem Gerät angemeldet haben, ändern Sie sofort Ihr Passwort</string>
   <string name="device_delete_success_title">Abgemeldet</string>
   <string name="device_list__header">Meine Geräte</string>
@@ -187,6 +195,7 @@ Senden Sie diesen Code an den Supervisor."</string>
   <string name="download_file">%s herunterladen…</string>
   <string name="early_morning">Morgen</string>
   <string name="empty_device_list_notice">Keine Geräte</string>
+  <string name="enable">Einstellungen</string>
   <string name="ep_unsupported">Ihr Gerät unterstützt keine Anmeldung im Xiaomi-Konto</string>
   <string name="eras_ad">n. Chr.</string>
   <string name="eras_bc">v. Chr.</string>
@@ -198,6 +207,7 @@ Senden Sie diesen Code an den Supervisor."</string>
   <string name="expand_button_title">Erweitert</string>
   <string name="facebook_login">Mit Facebook anmelden</string>
   <string name="failed_dup_secure_phone_number">Diese Rufnummer ist bereits mit einem anderen Mi-Konto verbunden.</string>
+  <string name="family_share">Mit der Familie teilen</string>
   <string name="find_device">Gerät finden</string>
   <string name="find_device_access_denied">Status kann nicht geprüft werden, Zugriff verweigert</string>
   <string name="find_device_account_error">Status kann wegen eines Kontofehlers nicht geprüft werden</string>
@@ -226,6 +236,7 @@ Senden Sie diesen Code an den Supervisor."</string>
   <string name="find_device_set_lost_model">Verlustmodus</string>
   <string name="find_device_title">Gerät finden</string>
   <string name="find_device_unknown_error">Status kann nicht geprüft werden. Später erneut versuchen.</string>
+  <string name="find_equipment">Gerät finden</string>
   <string name="first_login_time">Erster Anmeldeversuch: %s</string>
   <string name="fmt_chinese_date">dd.MM.</string>
   <string name="fmt_date_day">d.</string>
@@ -255,6 +266,7 @@ Senden Sie diesen Code an den Supervisor."</string>
   <string name="friday">Freitag</string>
   <string name="friday_short">Fr</string>
   <string name="friday_shortest">F</string>
+  <string name="get_back_password">Passwort zurücksetzen</string>
   <string name="get_back_pwd">Passwort zurücksetzen</string>
   <string name="get_device_list_failed">Geräte können nicht abgerufen werden</string>
   <string name="get_identity_auth_url_failed">ID verifizieren fehlgeschlagen</string>
@@ -305,6 +317,8 @@ Senden Sie diesen Code an den Supervisor."</string>
   <string name="mipay_indentity_done">Verifiziert</string>
   <string name="mipay_others">Andere</string>
   <string name="mipay_transit_card">Fahrkarte</string>
+  <string name="miuix_access_state_desc">Ausgewählt</string>
+  <string name="miuix_alphabet_indexer_name">Indexleiste</string>
   <string name="miuix_appcompat_action_mode_deselect_all">Abwählen</string>
   <string name="miuix_appcompat_action_mode_select_all">Alle wählen</string>
   <string name="miuix_appcompat_action_mode_title_empty">Elemente wählen</string>
@@ -319,6 +333,7 @@ Senden Sie diesen Code an den Supervisor."</string>
   <string name="miuix_appcompat_select_all">Alle wählen</string>
   <string name="miuix_appcompat_select_all_description">Alle wählen</string>
   <string name="miuix_appcompat_select_item">Elemente wählen</string>
+  <string name="miuix_indexer_selected">%s ausgewählt</string>
   <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Zum Aktualisieren herunterziehen</string>
   <string name="miuix_sbl_tracking_progress_labe_refreshed">Erfolgreich aktualisiert</string>
   <string name="miuix_sbl_tracking_progress_labe_refreshing">Aktualisieren…</string>
@@ -363,14 +378,18 @@ Senden Sie diesen Code an den Supervisor."</string>
   <string name="my_device_title">Aktuelles Gerät</string>
   <string name="need_install_wechat">WeChat zuerst installieren</string>
   <string name="night">Abend</string>
+  <string name="no_install">Nicht installiert</string>
   <string name="no_network_btn">Aktualisieren</string>
   <string name="no_network_title">Keine Netzwerkverbindung</string>
+  <string name="no_password_set">Nicht festgelegt</string>
   <string name="no_phone">Keine Rufnummer</string>
   <string name="no_response_retry">Keine Rückmeldung. Erneut versuchen.</string>
   <string name="no_sim_card_or_unactivated">SIM-Karte nicht installiert oder aktiviert</string>
   <string name="nobind">Nicht verbunden</string>
   <string name="noon">Mittag</string>
   <string name="not_set">Nicht festgelegt</string>
+  <string name="notify_bind_security_phone">Wiederherstellungstelefon hinzufügen</string>
+  <string name="notify_complete_security_info">Wiederherstellungsinfos hinzufügen</string>
   <string name="notify_network_restricted_content_bg_network">Internetzugriff für Mi-Konto wurde eingeschränkt. Zum Erlauben antippen.</string>
   <string name="notify_network_restricted_content_hidden_state">Hintergrundaktivität für Mi-Konto wurde eingeschränkt. Zum Erlauben antippen.</string>
   <string name="notify_network_restricted_content_mobile_network">Internetzugriff für Mi-Konto wurde eingeschränkt. Zum Erlauben antippen.</string>
@@ -399,6 +418,7 @@ Senden Sie diesen Code an den Supervisor."</string>
   <string name="passport_active_email_visit">Prüfen Sie Ihren %s Posteingang</string>
   <string name="passport_activing_account">Aktivieren…</string>
   <string name="passport_adding_account">Konto hinzufügen…</string>
+  <string name="passport_area_code_others">Anderes Präfix verwenden</string>
   <string name="passport_area_code_hot">Zu häufig genutzt</string>
   <string name="passport_area_code_title">Vorwahl</string>
   <string name="passport_auto_generate_pwd">Sicheres Passwort generieren</string>
@@ -593,6 +613,7 @@ Senden Sie diesen Code an den Supervisor."</string>
   <string name="passport_title_reg">Konto erstellen</string>
   <string name="passport_trust_device">Dies ist ein vertrauenswürdiges Gerät</string>
   <string name="passport_trying_read_verify_code_sms">Verifikationscode erhalten…</string>
+  <string name="passport_tz_invalid">Sicherheitsrisiken gefunden. Dieses Gerät wurde evtl. gerootet oder geflasht. Andere Anmeldemöglichkeiten versuchen.</string>
   <string name="passport_uplink_reg">Rufnummer verwenden</string>
   <string name="passport_uplink_send_sms_hint">Tippen Sie auf \"Senden\", wenn Sie auf die Seite mit einer verfassten Nachricht umgeleitet wurden.</string>
   <string name="passport_uplink_slot1_reg">SIM1 verwenden</string>
@@ -631,9 +652,14 @@ Senden Sie diesen Code an den Supervisor."</string>
   <string name="password_toggle_content_description">Passwort anzeigen</string>
   <string name="password_view_hide_password">Passwort verbergen</string>
   <string name="password_view_show_password">Passwort anzeigen</string>
+  <string name="permission_desc_read_sms">Für automatischen Prüfcode ausfüllen</string>
+  <string name="permission_desc_write_external_storage">Zum Hochladen von Feedback-Protokollen</string>
   <string name="permission_group_contacts">Kontakte</string>
   <string name="permission_group_phone">Telefon</string>
   <string name="permission_group_storage">Speicher</string>
+  <string name="permission_read_sms">Nachrichtenzugriff</string>
+  <string name="permission_write_external_storage">Zugriff auf und Speichern von Elementen im Speicher</string>
+  <string name="personal_info_desc">Foto, Spitzname und mehr</string>
   <string name="phone_activated">%s aktiviert</string>
   <string name="phone_num_use_for">Rufnummer wird verwendet für:</string>
   <string name="photoPickerNotFoundText">Keine Fotos verfügbar</string>
@@ -654,6 +680,12 @@ Senden Sie diesen Code an den Supervisor."</string>
   <string name="removing_account">Abmelden…</string>
   <string name="rename_current_device">Gerätenamen bearbeiten</string>
   <string name="replace_binded_phone">Gerät ersetzen</string>
+  <string name="request_open_permission">Erforderliche Berechtigungen</string>
+  <string name="request_use_camera_message">Mi-Konto Kamerazuriff auf Ihrem Telefon erlauben?</string>
+  <string name="request_use_camera_title">Kamerazugriff</string>
+  <string name="request_use_gallery_message">Mi-Konto Galeriezugriff erlauben?</string>
+  <string name="request_use_gallery_title">Galeriezugriff</string>
+  <string name="request_use_writing_clipboard_message">Um Ihre Mi Konto-ID zu kopieren, Mi-Konto erlauben, Elemente in der Zwischenablage zu speichern.</string>
   <string name="resend_active_email">Erneut senden</string>
   <string name="resend_email_reach_limit_message">Zu viele Verifizierungs-E-Mails wurden angefordert. Prüfen Sie, ob sich die Verifizierungs-E-Mail im Spam-Ordner des Posteingangs befindet.</string>
   <string name="resend_email_reach_limit_title">Zu viele Versuche</string>
@@ -685,6 +717,7 @@ Senden Sie diesen Code an den Supervisor."</string>
   <string name="search_user_detail_top_key_words">Persönliche Infos,Profilbild ändern,Benutzername ändern,Spitzname ändern,Geburtsdatum ändern,Geschlecht ändern</string>
   <string name="select_all">Alle auswählen</string>
   <string name="select_location_title">Wählen Sie Ihren Standort</string>
+  <string name="self_account_info">Persönliche Daten</string>
   <string name="send">Senden</string>
   <string name="send_diagnosis_log">Protokolle senden</string>
   <string name="send_email_activate_message">Verifizierungs-E-Mail erfolgreich versendet</string>
@@ -774,6 +807,7 @@ Senden Sie diesen Code an den Supervisor."</string>
   <string name="the_united_nations_day">Tag der Vereinten Nationen</string>
   <string name="the_valentines_day">Valentinstag</string>
   <string name="the_water_lantern_festival">Laternenfestival</string>
+  <string name="third_party_login">Konten von Drittanbietern</string>
   <string name="thursday">Donnerstag</string>
   <string name="thursday_short">Do</string>
   <string name="thursday_shortest">D</string>
@@ -810,6 +844,8 @@ Senden Sie diesen Code an den Supervisor."</string>
   <string name="used_cloud_storage_info">Genutzt: %s</string>
   <string name="user_avatar_update_title">Profilbild ändern</string>
   <string name="user_avatar_uploading">Einen Moment…</string>
+  <string name="user_instruction_all_purpose">Willkommen bei Mi-Konto! Sie können ein Konto erstellen, sich anmelden und auf die Dienste von Xiaomi und seinen verbundenen Unternehmen zugreifen, wie Mi.com, Xiaomi Cloud und GetApps. Sie können Mi-Coins erhalten, virtuelle Waren kaufen und Mehrwertdienste wie Spiele, Themen und E-Books nutzen.</string>
+  <string name="user_instruction_tip">Um sich anzumelden, lesen und akzeptieren Sie die Allgemeinen Geschäftsbedingungen .</string>
   <string name="v7_preference_off">AUS</string>
   <string name="v7_preference_on">AN</string>
   <string name="verified_apps">Verifizierte Apps</string>

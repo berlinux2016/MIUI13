@@ -85,6 +85,11 @@
   <string name="device_activation_card_no_network_error">Netzwerkverbindung nicht möglich. Netzwerkeinstellungen prüfen und erneut versuchen.</string>
   <string name="device_activation_card_title">Erste Aktivierung</string>
   <string name="device_activation_page_title">Geräteaktivierung</string>
+  <string name="dialog_add_shortcut_content">Startbildschirm-Verknüpfung für Xiaomi Cloud hinzufügen, um den Cloud-Speicher effizienter verwalten zu können</string>
+  <string name="dialog_add_shortcut_title">Verknüpfung hinzufügen</string>
+  <string name="dialog_storage_full_title">Cloud-Speicher ist voll</string>
+  <string name="dialog_storage_low_content">Cloud-Speichertarif aktualisieren, um Elemente normal synchronisieren zu können</string>
+  <string name="dialog_storage_low_title">Unzureichender Cloud-Speicher</string>
   <string name="disable_find_device_error">Gerätesuche ausschalten nicht möglich %1$s</string>
   <string name="do_not_merge">Nicht zusammenführen</string>
   <string name="early_morning">Morgen</string>
@@ -179,7 +184,7 @@
   <string name="keybag_password_screen_lock_unknown">Bildschirmsperre jetzt nicht verifizierbar. Stattdessen einen Passcode festlegen.</string>
   <string name="keybag_password_screen_lock_wrong">Die eingegebene Bildschirmsperre ist falsch</string>
   <string name="keybag_password_too_short">Passcode-Format ist falsch</string>
-  <string name="keybag_set_password_content">Um den Passwort-Manager zu verwenden, legen Sie einen Passcode fest. Dieser Passcode ermöglicht uns, Ihre Identität zu verifizieren, wenn Sie die Geräte wechseln.</string>
+  <string name="keybag_set_password_content">Um den Passwort-Manager zu verwenden, legen Sie einen Passcode fest. Dieser Passcode erlaubt uns, Ihre Identität zu verifizieren, wenn Sie die Geräte wechseln.</string>
   <string name="keybag_set_password_negative">Festlegen</string>
   <string name="keybag_set_password_positive">Bildschirmsperre verwenden</string>
   <string name="keybag_set_password_success_close">Schließen</string>
@@ -346,7 +351,7 @@ Suchen und sperren Sie Ihr Gerät, falls es verloren geht."</string>
   <string name="micloud_main_error_activated_fail">SIM-Karte aktivieren</string>
   <string name="micloud_main_error_network_disallowed">Stellen Sie sicher, dass Sie Zugang zum Internet haben</string>
   <string name="micloud_main_error_permission_limit">Xiaomi Cloud den Speicherzugriff erlauben</string>
-  <string name="micloud_main_head_menu_cloud_backup">Cloud-Sicherung</string>
+  <string name="micloud_main_head_menu_cloud_backup">Sicherungen</string>
   <string name="micloud_main_head_menu_cloud_backup_summary">Systemeinstellungen und Startbildschirm-Layout</string>
   <string name="micloud_main_head_menu_finddevice_summary">Finden und sperren Sie Ihr Gerät</string>
   <string name="micloud_main_head_menu_finddevice_unavailable">Gerät finden ist im Zweitprofil nicht möglich. Sie können es im Hauptprofil nutzen.</string>
@@ -502,7 +507,11 @@ Nutzen Sie ein anderes Konto."</string>
   <string name="micloud_storage_expires_manually_renewal_sum">Sie müssen Ihr Abo verlängern</string>
   <string name="micloud_storage_expires_soon_title">Xiaomi Cloud-Speicher läuft bald ab</string>
   <string name="micloud_storage_expires_very_soon_title">Xiaomi Cloud-Speicher läuft bald ab</string>
+  <string name="micloud_storage_family_quota">Mit der Familie teilen</string>
   <string name="micloud_storage_full">Xiaomi Cloud ist voll</string>
+  <string name="micloud_storage_full_tip">Speicher ist voll</string>
+  <string name="micloud_storage_normal_tip">%s übrig</string>
+  <string name="micloud_storage_share_family">Mit der Familie teilen</string>
   <string name="micloud_sync_alert_dialog_message">Synchronisieren Sie Ihre Fotos, Kontakte, Notizen und mehr auf all Ihren Geräten</string>
   <string name="micloud_sync_alert_dialog_message_pad">Fotos, Notizen und mehr auf all Ihren Geräten synchronisieren</string>
   <string name="micloud_sync_alert_dialog_message_v2">Ihre Fotos, Kontakte, Notizen und mehr über alle Ihre Geräte hinweg synchronisieren.</string>
@@ -527,6 +536,7 @@ Nutzen Sie ein anderes Konto."</string>
   <string name="micloud_sync_result_wifi_only">Dieses Element ist zu groß. Synchronisieren nur über WLAN möglich.</string>
   <string name="micloud_sync_result_wifi_only_china">Dieses Element ist zu groß. Synchronisieren nur über WLAN möglich.</string>
   <string name="micloud_upgrade_member">Speicherplatz kaufen</string>
+  <string name="micloud_upgrade_storage">Upgrade Speichertarif</string>
   <string name="micloud_user_space_title">Speicherplatz</string>
   <string name="micloud_warn_full_sum">Neue Dinge werden nicht mit Xiaomi Cloud synchronisiert</string>
   <string name="micloud_warn_full_title">Kein Speicherplatz mehr</string>

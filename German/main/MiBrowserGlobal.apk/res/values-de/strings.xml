@@ -495,7 +495,7 @@ Bitte senden Sie diesen Code dem Techniker."</string>
   <string name="download_retry_download">Erneut versuchen</string>
   <string name="download_router_tip">Auf Mi Router herunterladen</string>
   <string name="download_save_dialog_title">Speichern</string>
-  <string name="download_sdcard_busy_dlg_msg">SD-Karte ist beschäftigt. Um Downloads zu ermöglichen, bitte den USB-Speicher in Benachrichtigungsleiste ausschalten.</string>
+  <string name="download_sdcard_busy_dlg_msg">SD-Karte ist beschäftigt. Um Downloads zu erlauben, bitte den USB-Speicher in Benachrichtigungsleiste ausschalten.</string>
   <string name="download_sdcard_busy_dlg_title">SD-Karte nicht verfügbar</string>
   <string name="download_sdcard_no_space">Herunterladen fehlgeschlagen. Nicht genügend Speicher.</string>
   <string name="download_secure_download_in_xiaomi_market">Im App Store herunterladen</string>
@@ -914,7 +914,8 @@ Bitte senden Sie diesen Code dem Techniker."</string>
   <string name="mw_actionbar_textselection_title">Textauswahl</string>
   <string name="mw_actionbar_web_search">Websuche</string>
   <string name="mw_add_to_dictionary">Zum Wörterbuch hinzufügen</string>
-  <string name="mw_autofill_popup_content_description">Anzeigen der Autofill-Popup-Benachrichtigung</string>
+  <string name="mw_autofill_popup_content_description">Autofill-Popup-Benachrichtigung anzeigen</string>
+  <string name="mw_chip_remove_icon_content_description">"'%1$s' entfernen"</string>
   <string name="mw_color_picker_button_black">Schwarz</string>
   <string name="mw_color_picker_button_blue">Blau</string>
   <string name="mw_color_picker_button_cancel">Abbrechen</string>
@@ -972,8 +973,8 @@ Erwartetes Ergebnis:
 Absturz-ID: http://crash/%1$s"</string>
   <string name="mw_crashes_list_activity_title">WebView-Abstürze</string>
   <string name="mw_crashes_num">Abstürze (%1$d)</string>
-  <string name="mw_data_traffic_prompt_change">Wenn Sie Ihre mobile Datenverbindung zum Anschauen von Videos verwenden, wird Ihre Datennutzung erhöht. Wenn Sie das Datenlimit Ihres Taris überschreiten, kann Ihr Mobilfunkanbieter Ihnen zusätzliche Kosten in Rechnung stellen.</string>
-  <string name="mw_data_traffic_prompt_message">Wenn Sie Ihre mobile Datenverbindung zum Durchsuchen von Videos verwenden, erhöht sich Ihre Datennutzung. Wenn Sie das Datenlimit Ihres Taris überschreiten, kann Ihr Mobilfunkanbieter Ihnen zusätzliche Kosten in Rechnung stellen.</string>
+  <string name="mw_data_traffic_prompt_change">Wenn Sie Ihre mobile Datenverbindung zum Anschauen von Videos verwenden, wird Ihre Datennutzung erhöht. Wenn Sie das Datenlimit Ihres Tarifs überschreiten, kann Ihr Mobilfunkanbieter Ihnen zusätzliche Kosten in Rechnung stellen.</string>
+  <string name="mw_data_traffic_prompt_message">Wenn Sie Ihre mobile Datenverbindung zum Durchsuchen von Videos verwenden, erhöht sich Ihre Datennutzung. Wenn Sie das Datenlimit Ihres Tarifs überschreiten, kann Ihr Mobilfunkanbieter Ihnen zusätzliche Kosten in Rechnung stellen.</string>
   <string name="mw_data_traffic_prompt_message_short">Verwendung mobiler Daten zum Streamen von Videos kann dazu führen, dass Sie das Datenlimit Ihres Tarifs überschreiten.</string>
   <string name="mw_data_traffic_prompt_title">Datennutzungswarnung</string>
   <string name="mw_date_picker_dialog_clear">Löschen</string>
@@ -985,13 +986,14 @@ Absturz-ID: http://crash/%1$s"</string>
   <string name="mw_find_next">Nächste suchen</string>
   <string name="mw_find_previous">Vorherige suchen</string>
   <string name="mw_js_dialog_before_unload">"%s
-Diese Seite jetzt verlassen?"</string>
+Diese Seite jetzt wirklich verlassen?"</string>
   <string name="mw_js_dialog_before_unload_negative_button">Auf dieser Seite bleiben</string>
   <string name="mw_js_dialog_before_unload_positive_button">Diese Seite verlassen</string>
-  <string name="mw_js_dialog_before_unload_title">Diese Seite verlassen?</string>
+  <string name="mw_js_dialog_before_unload_title">Navigation bestätigen</string>
   <string name="mw_js_dialog_title">Seite \" %s \" sagt:</string>
   <string name="mw_last_month">Letzten Monat</string>
   <string name="mw_license_activity_title">System WebView-Lizenzen</string>
+  <string name="mw_link_copied">Link kopiert</string>
   <string name="mw_low_memory_error">Vorheriger Vorgang kann wegen geringem Speicher nicht abgeschlossen werden</string>
   <string name="mw_menu_refresh">Neu laden</string>
   <string name="mw_miui_content_copy">Kopieren</string>
@@ -1098,10 +1100,11 @@ Diese Seite jetzt verlassen?"</string>
   <string name="mw_save_password_notnow">Jetzt nicht</string>
   <string name="mw_save_password_remember">Speichern</string>
   <string name="mw_search_menu_title">Suche</string>
+  <string name="mw_speech_recognition_service_not_found">Google-Sprachmaschine nicht gefunden</string>
   <string name="mw_time_picker_dialog_title">Zeit einstellen</string>
   <string name="mw_url_copied">URL erfolgreich kopiert</string>
   <string name="mw_video_buffering_percent">"Puffern "</string>
-  <string name="mw_video_download_no_permission">Berechtigungen für das Herunterladen von Elementen erforderlich</string>
+  <string name="mw_video_download_no_permission">Keine Berechtigung zum Herunterladen</string>
   <string name="mw_video_float_drag_scale_msg">Zum Skalieren ziehen</string>
   <string name="mw_video_float_window">Popup</string>
   <string name="mw_video_float_window_playing">Video im PiP-Modus abspielen…</string>

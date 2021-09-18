@@ -1,5 +1,22 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+  <string name="calendar_permission_desc">Fahrplaninfos auf das neue Telefon migrieren</string>
+  <string name="contact_records_permission_desc">Anrufliste auf neues Telefon migrieren</string>
+  <string name="contacts_permission_desc">Kontakte auf neues Telefon migrieren</string>
+  <string name="data_read_white_permission_desc">Wird verwendet, um alte Telefondaten auf ein neues Telefon zu migrieren</string>
+  <string name="location_permission_desc">Wird verwendet, um nach Telefone in der Nähe zu suchen</string>
+  <string name="msg_permission_desc">SMS auf neues Telefon migrieren</string>
+  <string name="permission_grant_request">Um diese Daten zu migrieren, müssen Sie \"%1$s\" die Berechtigung erteilen. Tippen Sie unten auf \"Zu den Einstellungen\", um zur Autorisierung zu gelangen</string>
+  <string name="permission_request_title">Bitte erteilen Sie \"%1$s\"-Berechtigung</string>
+  <string name="permission_setting_button">Zu den Einstellungen</string>
+  <string name="request_all_permission_content">"Um die Datenmigration zu implementieren, müssen Sie die folgenden Berechtigungen autorisieren, zum Autorisieren unten auf die Taste tippen
+- Standortinformationen abrufen
+- Kontakte lesen
+- Anrufverlauf lesen
+- SMS lesen
+- Externen Speicher lesen und schreiben"</string>
+  <string name="request_all_permission_title">Bitte erteilen Sie alle erforderlichen Berechtigungen für die Datenmigration</string>
+
   <string name="abc_action_bar_home_description">Zur Startseite</string>
   <string name="abc_action_bar_up_description">Nach oben</string>
   <string name="account_or_password_incorrect">Benutzername oder Passwort falsch</string>
@@ -360,7 +377,7 @@ Zum Ausschalten https://appleid.apple.com/#!&amp;page=signin besuchen"</string>
   <string name="manual_connection_title">Manuell mit dem alten Gerät verbinden</string>
   <string name="message_request_package_stats_perm">Auf \"Weiter\" tippen, um die Einstellungen zu öffnen und Mi Mover die erforderlichen Berechtigungen zu geben.</string>
   <string name="midnight" />
-  <string name="miui_need_location_permission_summary">Mi Mover den Standortzugriff ermöglichen, um Geräte in der Nähe zu finden. Sie werden Mi Mover nicht nutzen können, wenn Sie diese Erlaubnis nicht erteilen.</string>
+  <string name="miui_need_location_permission_summary">Mi Mover den Standortzugriff erlauben, um Geräte in der Nähe zu finden. Sie werden Mi Mover nicht nutzen können, wenn Sie diese Erlaubnis nicht erteilen.</string>
   <string name="miui_need_location_permission_title">Standortzugriff erlauben</string>
   <string name="miui_need_open_high_accuracy_summary">Mi Mover den Standortzugriff im Modus Hohe Genauigkeit erlauben, um Geräte in der Nähe zu finden. Sie werden Mi Mover nicht nutzen können, wenn Sie diese Erlaubnis nicht erteilen.</string>
   <string name="miui_need_open_high_accuracy_title">Zugriff auf genaue Standortinformationen erlauben</string>

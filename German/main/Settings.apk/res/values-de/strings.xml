@@ -1153,11 +1153,11 @@ Apps:
   <string name="bluetooth_advanced_titlebar">Erweitertes Bluetooth</string>
   <string name="bluetooth_ask_disablement">%1$s will Bluetooth ausschalten</string>
   <string name="bluetooth_ask_disablement_no_name">Eine App will Bluetooth ausschalten</string>
-  <string name="bluetooth_ask_discovery">%1$s versucht, Ihr Telefon für %2$d Sek. für andere Bluetooth-Geräte sichtbar zu machen. Erlauben?</string>
+  <string name="bluetooth_ask_discovery">%1$s versucht, Ihr Telefon für %2$d Sek für andere Bluetooth-Geräte sichtbar zu machen. Erlauben?</string>
   <string name="bluetooth_ask_discovery_no_name">Eine App möchte Ihr Telefon für %1$d Sekunden für andere Bluetooth-Geräte sichtbar machen</string>
   <string name="bluetooth_ask_enablement">%1$s versucht, Bluetooth zu aktivieren</string>
-  <string name="bluetooth_ask_enablement_and_discovery">%1$s versucht, Bluetooth zu aktivieren und Ihr Telefon für %2$d Sek. für andere Telefone sichtbar zu machen. Erlauben?</string>
-  <string name="bluetooth_ask_enablement_and_discovery_detected">" möchte Bluetooth aktivieren und Ihr Telefon für andere Geräte %1$d Sek. lang sichtbar machen"</string>
+  <string name="bluetooth_ask_enablement_and_discovery">%1$s versucht, Bluetooth zu aktivieren und Ihr Telefon für %2$d Sek für andere Telefone sichtbar zu machen. Erlauben?</string>
+  <string name="bluetooth_ask_enablement_and_discovery_detected">" möchte Bluetooth aktivieren und Ihr Telefon für andere Geräte %1$d Sek lang sichtbar machen"</string>
   <string name="bluetooth_ask_enablement_and_discovery_no_name">Eine App möchte Bluetooth einschalten und Ihr Telefon für %1$d Sekunden für andere Geräte sichtbar machen</string>
   <string name="bluetooth_ask_enablement_and_lasting_discovery">%1$s versucht Bluetooth zu aktivieren und Ihr Telefon für andere Geräte sichtbar zu machen. Erlauben?</string>
   <string name="bluetooth_ask_enablement_and_lasting_discovery_detected">" möchte Bluetooth aktivieren und Ihr Telefon für andere Geräte sichtbar machen. Sie können das in den Bluetooth-Einstellungen ändern."</string>
@@ -1309,8 +1309,10 @@ BT-Audiogeräte"</string>
 
 Sie haben noch keine Verbindung zu %2$s hergestellt."</string>
   <string name="bluetooth_message_access_dialog_title">Zugriff auf Nachrichten zulassen?</string>
+  <string name="bluetooth_pairing_shares_phonebook_not_support_voice">Kontaktzugriff erlauben</string>
   <string name="bluetooth_phonebook_access_dialog_title">Zugriff auf Kontakte und Anrufliste zulassen?</string>
   <string name="bluetooth_phonebook_access_notification_content">Nicht vertrauenswürdiges Gerät will auf Ihre Kontakte und die Anrufliste zugreifen. Auf Details tippen.</string>
+  <string name="bluetooth_plugins_check_summary_new">Neue Bluetooth-Plugin-Version gefunden</string>
   <string name="bluetooth_message_access_notification_content">Nicht vertrauenswürdiges Gerät will auf Ihre Nachrichten zugreifen. Auf Details tippen.</string>
   <string name="bluetooth_message_move_out_of_blacklist">%1$s jetzt entsperren?</string>
   <string name="bluetooth_mi_fast_connect">Kompatible Geräte koppeln</string>
@@ -1352,7 +1354,7 @@ Sie haben noch keine Verbindung zu %2$s hergestellt."</string>
   <string name="bluetooth_pairing_request">Mit %1$s koppeln?</string>
   <string name="bluetooth_pairing_shares_phonebook">Zugriff auf Ihre Kontakte und Ihren Gesprächsverlauf erlauben</string>
   <string name="bluetooth_pairing_toast_add_to_blackfile">Erfolgreich gesperrt. Sie können gesperrte Elemente in \"Zusätzliche Einstellungen\" verwalten.</string>
-  <string name="bluetooth_pairing_will_share_phonebook">Koppeln ermöglicht Zugriff auf Ihre Kontakte und die Anrufliste, wenn verbunden</string>
+  <string name="bluetooth_pairing_will_share_phonebook">Koppeln erlaubt Zugriff auf Ihre Kontakte und die Anrufliste, wenn verbunden</string>
   <string name="bluetooth_pan_nap_profile_summary_connected">Gemeinsame Nutzung der lokalen Internetverbindung mit dem Gerät</string>
   <string name="bluetooth_pan_profile_summary_use_for">Für Internetzugriff verwenden</string>
   <string name="bluetooth_pan_user_profile_summary_connected">Für Internetzugriff mit Gerät verbunden</string>
@@ -2016,7 +2018,7 @@ Nach Erstellung einer neuen Sicherheitsfrage und Bestätigung Ihres Geburtsdatum
   <string name="confirm_device_credential_pattern">Muster verwenden</string>
   <string name="confirm_device_credential_pin">PIN verwenden</string>
   <string name="confirm_download_cancelation_dialog_message">Download abbrechen?</string>
-  <string name="confirm_enable_multi_window_text">WARNUNG: Dies ist eine höchst experimentelle Funktion, die mehrere Aktivitäten gleichzeitig auf dem Bildschirm über das Letzte-Apps-UI ermöglicht. Einige Apps können abstürzen oder nicht richtig funktionieren, wenn sie mit dieser Funktion verwendet werden.</string>
+  <string name="confirm_enable_multi_window_text">WARNUNG: Dies ist eine höchst experimentelle Funktion, die mehrere Aktivitäten gleichzeitig auf dem Bildschirm über das Letzte-Apps-UI erlaubt. Einige Apps können abstürzen oder nicht richtig funktionieren, wenn sie mit dieser Funktion verwendet werden.</string>
   <string name="confirm_enable_multi_window_title">Multifenstermodus aktivieren?</string>
   <string name="confirm_enable_oem_unlock_text">WARNUNG: Geräteschutzfunktionen werden deaktiviert, wenn Sie diese Einstellung aktivieren.</string>
   <string name="confirm_enable_oem_unlock_title">OEM-Entsperrung erlauben?</string>
@@ -2353,7 +2355,7 @@ Der Datenverbrauch wird von Ihrem Gerät berechnet und kann von der Abrechnung I
   <string name="data_usage_limit_editor_title">Limit festlegen</string>
   <string name="data_usage_list_mobile">Mobil</string>
   <string name="data_usage_list_none">Keine</string>
-  <string name="data_usage_menu_allow_background">Hintergrunddaten ermöglichen</string>
+  <string name="data_usage_menu_allow_background">Hintergrunddaten erlauben</string>
   <string name="data_usage_menu_auto_sync">Synchronisiere Daten automatisch</string>
   <string name="data_usage_menu_cellular_networks">Mobilfunknetze</string>
   <string name="data_usage_menu_hide_ethernet">Ethernetverbrauch ausblenden</string>
@@ -2433,11 +2435,11 @@ Diese Einstellung betrifft alle Benutzer auf diesem Telefon."</string>
   <string name="date_time_set_timezone_title">Zeitzone</string>
   <string name="date_time_settings">Datum &amp; Uhrzeit</string>
   <string name="day_of_week">Wochentag</string>
-  <string name="dc_light_dialog_summary">Bildqualität kann beeinträchtigt werden, wenn der Anti-Flacker-Modus aktiviert ist. Trotzdem einschalten?</string>
+  <string name="dc_light_dialog_summary">Bildqualität kann beeinträchtigt werden, wenn der Antiflimmer-Modus aktiviert ist. Trotzdem einschalten?</string>
   <string name="dc_light_summary">DC Dimming anwenden, um die Augenbelastung zu reduzieren</string>
-  <string name="dc_light_summary_new">Ausgedehntes Flackern und Augenbelastung bei schlechten Lichtverhältnissen reduzieren</string>
-  <string name="dc_light_title">Anti-Flacker-Modus</string>
-  <string name="dclight_unavailable_prompt">Anti-Flicker-Modus wird nur vom 2. Bildschirm unterstützt</string>
+  <string name="dc_light_summary_new">Ausgedehntes Flimmern und Augenbelastung bei schlechten Lichtverhältnissen reduzieren</string>
+  <string name="dc_light_title">Antiflimmer-Modus</string>
+  <string name="dclight_unavailable_prompt">Antiflimmer-Modus wird nur vom 2. Bildschirm unterstützt</string>
   <string name="debug_app">Debug-App auswählen</string>
   <string name="debug_app_not_set">Keine Debug-App ausgewählt</string>
   <string name="debug_app_set">Debug-App: %1$s</string>
@@ -2529,9 +2531,9 @@ Diese Einstellung betrifft alle Benutzer auf diesem Telefon."</string>
   <string name="device_activation_info">Geräteaktivierung</string>
   <string name="device_admin_add_title">Geräteverwaltung</string>
   <string name="device_admin_settings_title">Einstellungen Geräteverwaltung</string>
-  <string name="device_admin_status">Diese Verwaltungs-App ist aktiv und ermöglicht der App %1$s, folgende Vorgänge auszuführen:</string>
+  <string name="device_admin_status">Diese Verwaltungs-App ist aktiv und erlaubt der App %1$s, folgende Vorgänge auszuführen:</string>
   <string name="device_admin_title">Geräteverwaltung</string>
-  <string name="device_admin_warning">Aktivierung dieser Verwaltungs-App ermöglicht der App %1$s, folgende Vorgänge auszuführen:</string>
+  <string name="device_admin_warning">Aktivierung dieser Verwaltungs-App erlaubt der App %1$s, folgende Vorgänge auszuführen:</string>
   <string name="device_admin_warning_simplified">Dieses Gerät wird von %1$s verwaltet und überwacht</string>
   <string name="device_available_memory">"Verfügbarer Speicher "</string>
   <string name="device_battery">Akku</string>
@@ -2601,6 +2603,7 @@ Um dieses Problem zu beheben, stoppen Sie %1$s und verhindern die Hintergrundakt
   <string name="dialog_check_title">Internetverbindung herstellen nicht möglich</string>
   <string name="dialog_chose_item">Wählen Sie ein Element aus, das angezeigt werden soll</string>
   <string name="dialog_content_login">Für das Update mit Ihrem Mi-Konto anmelden?</string>
+  <string name="dialog_esim_button_negative">Abbrechen</string>
   <string name="dialog_location_message">"Ihr Telefon kann den Akku nicht normal verwalten, da %1$s immer wieder Ihren Standort abfragt, wenn Sie die App nicht verwenden.
 
 Um dieses Problem zu beheben, deaktivieren Sie den Standort für diese App."</string>
@@ -2615,6 +2618,12 @@ Um dieses Problem zu beheben, deaktivieren Sie den Standort für diese App."</st
   <string name="dialog_restrict_all_wlan_title">WLAN-Verbindung einschränken</string>
   <string name="dialog_restrict_negative">Einschränken…</string>
   <string name="dialog_restrict_positive">Abbrechen</string>
+  <string name="dialog_softbank_esim_wipe_cancel">Abbrechen</string>
+  <string name="dialog_softbank_esim_wipe_info">Wenn Sie fortfahren, werden alle eSIM-Daten gelöscht. Trotzdem fortfahren?</string>
+  <string name="dialog_softbank_esim_wipe_ok">Fortfahren</string>
+  <string name="dialog_softbank_esim_wipe_title">eSIM-Daten löschen</string>
+  <string name="dialog_softbank_esime_context">Dieses Gerät benötigt eine Internetverbindung, um die eSIM aktivieren zu können. Auch die eSIM-Aktivierung überspringen?</string>
+  <string name="dialog_softbank_esime_title">eSIM-Aktivierung überspringen</string>
   <string name="dialog_speaker_auto_clean_button">Verstanden</string>
   <string name="dialog_speaker_auto_clean_content">Reinigung dauert 30 Sekunden. Diese Seite nicht verlassen. Klanglautstärke für den besten Effekt maximieren.</string>
   <string name="dialog_speaker_auto_clean_title">Achtung</string>
@@ -3044,7 +3053,7 @@ Einige Apps funktionieren eventuell erst, wenn sie von ihren Entwicklern aktuali
   <string name="enterprise_privacy_failed_password_wipe_device">Fehlgeschlagene Passwortversuche vor dem Löschen aller Gerätedaten</string>
   <string name="enterprise_privacy_failed_password_wipe_work">Fehlgeschlagene Passwortversuche vor dem Löschen von Arbeitsprofildaten</string>
   <string name="enterprise_privacy_global_http_proxy">Globale HTTP-Proxy-Einstellung</string>
-  <string name="enterprise_privacy_header">"Um den Zugriff auf Ihre Arbeitsdaten zu ermöglichen, kann Ihr Unternehmen Einstellungen ändern und Software auf Ihrem Gerät installieren.
+  <string name="enterprise_privacy_header">"Um den Zugriff auf Ihre Arbeitsdaten zu erlauben, kann Ihr Unternehmen Einstellungen ändern und Software auf Ihrem Gerät installieren.
 
 Für weitere Informationen wenden Sie sich bitte an den Admin Ihres Unternehmens."</string>
   <string name="enterprise_privacy_input_method">Standardtastatur</string>
@@ -3436,9 +3445,10 @@ Es schien keine Pferde oder andere Tiere zu geben; die Männer beförderten Sach
   <string name="font_size_summary1">"Wenn Ihr Systemtext noch zu klein ist, versuchen Sie "</string>
   <string name="font_size_summary2">Minimaler Desktop</string>
   <string name="forbidden_network">(verboten)</string>
+  <string name="forbidden_set_unlock_password_msg">Derzeit im Wartungsmodus, Passwort kann nicht festgelegt oder geändert werden.</string>
   <string name="forbidden_switch_apn_string">Ausgewählte APN-Einstellungen stimmen mit dem Netzwerktyp nicht überein</string>
   <string name="force_allow_on_external">Auf ext. Speicher schreiben erzwingen</string>
-  <string name="force_allow_on_external_summary">Ermöglicht das Schreiben jeder App auf externen Speicher, unabhängig von Manifestwerten</string>
+  <string name="force_allow_on_external_summary">Erlaubt das Schreiben jeder App auf externen Speicher, unabhängig von Manifestwerten</string>
   <string name="force_desktop_mode">Desktop-Modus erzwingen</string>
   <string name="force_desktop_mode_summary">Experimentellen Desktop-Modus auf sekundären Displays erzwingen</string>
   <string name="force_hw_ui">GPU-Rendering erzwingen</string>
@@ -3453,9 +3463,9 @@ Es schien keine Pferde oder andere Tiere zu geben; die Männer beförderten Sach
   <string name="force_resizable_activities_summary">Größenänderung von Aktivitäten für Multifenster unabhängig von vorgeschriebenen Werten erzwingen</string>
   <string name="force_rtl_layout_all_locales">RTL-Layout erzwingen</string>
   <string name="force_rtl_layout_all_locales_summary">RTL-Bildschirmlayout für alle Sprachen erzwingen</string>
-  <string name="force_stop">Stopp erzwingen</string>
+  <string name="force_stop">Stoppen erzwingen</string>
   <string name="force_stop_dlg_text">Beenden der App erzwingen kann zu unerwünschtem Verhalten führen</string>
-  <string name="force_stop_dlg_title">Stopp erzwingen?</string>
+  <string name="force_stop_dlg_title">Stoppen erzwingen?</string>
   <string name="force_touch">3D-Touch</string>
   <string name="force_touch_demo">Demo zeigen</string>
   <string name="force_touch_enable">3D-Touch aktivieren</string>
@@ -3676,7 +3686,7 @@ Wenn Sie automatische Sicherungen einschalten, werden Geräte- und App-Daten per
   <string name="handy_mode">Einhandmodus</string>
   <string name="handy_mode_enable">Einhandmodus</string>
   <string name="handy_mode_size">Bildschirmgröße</string>
-  <string name="handy_mode_tips">Wischen Sie von der Home-Taste aus nach links oder rechts, um den Einhandmodus zu aktivieren.</string>
+  <string name="handy_mode_tips">Aktivieren Sie den Einhandmodus, indem Sie von der Mitte des Navigationsfelds aus nach links oder rechts wischen.</string>
   <string name="handy_mode_tips_full_screen">Wenn Sie Vollbildgesten verwenden, können Sie den Einhandmodus im Berührungsassistent einschalten. Sie können auch auf Schaltflächen anstelle von Vollbildgesten umschalten.</string>
   <string name="haptic_agent_completion_01_content_description">Erledigte Aufgabe</string>
   <string name="haptic_cursor_movement_07_content_description">Helligkeit einstellen</string>
@@ -4065,6 +4075,7 @@ Xiaomi Cloud öffnen und Elemente von dort aus wiederherstellen."</string>
   <string name="keyboard_and_input_methods_category">Tastatur</string>
   <string name="keyboard_assistance_category">Tastaturhilfe</string>
   <string name="keyboard_disconnected">Nicht verbunden</string>
+  <string name="keyboard_funtion_key">Funktionstaste</string>
   <string name="keyboard_layout_default_label">Standard</string>
   <string name="keyboard_layout_dialog_setup_button">Tastaturlayout einrichten</string>
   <string name="keyboard_layout_dialog_switch_hint">Zum Umschalten STRG + Leertaste drücken</string>
@@ -4656,6 +4667,7 @@ Diese PIN muss so viele Ziffern enthalten wie das erste Profil."</string>
   <string name="lost_internet_access_switch">Auf mobil umstellen</string>
   <string name="lost_internet_access_text">Sie können auf Mobilfunknetz umschalten, wenn WLAN eine schlechte Verbindung hat. Kosten für die Datennutzung können anfallen.</string>
   <string name="lost_internet_access_title">WLAN ist nicht mit Internet verbunden</string>
+  <string name="low_dc_light_title">Antiflimmer-Modus bei schwachem Licht</string>
   <string name="low_label">Gering</string>
   <string name="low_storage_summary">Geringer Speicherplatz, %1$s belegt - %2$s frei</string>
   <string name="lte_4g_settings_4gdisable_summary">4G deaktiviert</string>
@@ -4669,7 +4681,7 @@ Diese PIN muss so viele Ziffern enthalten wie das erste Profil."</string>
   <string name="magic_list_empty_text">Derzeit keine mit dieser Funktion kompatiblen Apps</string>
   <string name="magic_list_empty_text_pad">Derzeit keine mit dieser Funktion kompatiblen Apps</string>
   <string name="magic_window_name">Parallelfenster</string>
-  <string name="magic_window_name_pad">Apps für die Querformatansicht optimieren</string>
+  <string name="magic_window_name_pad">Querformatansicht optimieren</string>
   <string name="main_netcheck_summary">Verbindung bei Netzwerkproblemen testen</string>
   <string name="main_running_process_description">Hauptprozess wird verwendet</string>
   <string name="main_toolbar_statistic">Datennutzungsstatistik</string>
@@ -5073,6 +5085,8 @@ Fortfahren, um auf weitere Einstellungen zuzugreifen."</string>
   <string name="miui_touch_filtered_warning">Wenn eine App einen Berechtigungsdialog blockiert, ziehen Sie das überlappende Element weg oder schließen Sie die App.</string>
   <string name="miui_updater">Systemupdate</string>
   <string name="miui_userguide">Benutzerhandbuch</string>
+  <string name="miuix_access_state_desc">Ausgewählt</string>
+  <string name="miuix_alphabet_indexer_name">Indexleiste</string>
   <string name="miuix_appcompat_action_mode_deselect_all">Abwählen</string>
   <string name="miuix_appcompat_action_mode_select_all">Alle wählen</string>
   <string name="miuix_appcompat_action_mode_title_empty">Elemente wählen</string>
@@ -5087,6 +5101,7 @@ Fortfahren, um auf weitere Einstellungen zuzugreifen."</string>
   <string name="miuix_appcompat_select_all">Alle wählen</string>
   <string name="miuix_appcompat_select_all_description">Alle wählen</string>
   <string name="miuix_appcompat_select_item">Elemente wählen</string>
+  <string name="miuix_indexer_selected">%s ausgewählt</string>
   <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Zum Aktualisieren herunterziehen</string>
   <string name="miuix_sbl_tracking_progress_labe_refreshed">Erfolgreich aktualisiert</string>
   <string name="miuix_sbl_tracking_progress_labe_refreshing">Aktualisieren…</string>
@@ -5625,7 +5640,7 @@ Statusleiste"</string>
   <string name="notification_app_switch_label">Alle %1$s-Benachrichtigungen</string>
   <string name="notification_assistant_security_warning_summary">"%1$s kann alle Benachrichtigungen lesen, inkl. persönlicher Daten wie Kontaktnamen und erhaltene Nachrichtentexte. Sie kann auch Benachrichtigungen ändern oder ablehnen oder Aktionstasten auslösen, die sie enthalten.
 
-Dies ermöglicht es der App auch, Nicht stören ein- und auszuschalten und die entsprechenden Einstellungen zu ändern."</string>
+Dies erlaubt es der App auch, Nicht stören ein- und auszuschalten und die entsprechenden Einstellungen zu ändern."</string>
   <string name="notification_assistant_security_warning_title">%1$s Benachrichtigungszugriff erlauben?</string>
   <string name="notification_assistant_title">Adaptive Benachrichtigungen</string>
   <string name="notification_badge_title">Benachrichtigungs-Dot zulassen</string>
@@ -5688,7 +5703,7 @@ Dies ermöglicht es der App auch, Nicht stören ein- und auszuschalten und die e
   <string name="notification_listener_disable_warning_confirm">Ausschalten</string>
   <string name="notification_listener_disable_warning_summary">Wenn Sie den Benachrichtigungszugriff für %1$s deaktivieren, könnte auch der Nicht stören-Zugriff ausgeschaltet werden</string>
   <string name="notification_listener_security_warning_summary">%1$s kann alle Benachrichtigungen lesen, inkl. persönlicher Informationen wie Kontaktnamen und empfangene Nachrichten. App kann auch Benachrichtigungen ablehnen oder enthaltene Aktionstasten auslösen.
-Dies ermöglicht der App auch, Nicht stören ein-/auszuschalten und entsprechende Einstellungen zu ändern.</string>
+Dies erlaubt der App auch, Nicht stören ein-/auszuschalten und entsprechende Einstellungen zu ändern.</string>
   <string name="notification_listener_security_warning_title">%1$s Benachrichtigungszugriff erlauben?</string>
   <string name="notification_log_details_actions">Aktionen</string>
   <string name="notification_log_details_alerted">über Benachrichtigung alarmiert</string>
@@ -5837,7 +5852,7 @@ Dies ermöglicht der App auch, Nicht stören ein-/auszuschalten und entsprechend
   <string name="ota_disable_automatic_update_summary">Updates beim Neustart des Geräts anwenden</string>
   <string name="otg_closed">Aus</string>
   <string name="otg_opened">An</string>
-  <string name="otg_tip">"USB On-The-Go ermöglicht USB-Laufwerken und tragbaren Tastaturen, sich mit Ihrem Mobilgerät zu verbinden und Daten auszutauschen.
+  <string name="otg_tip">"USB On-The-Go erlaubt USB-Laufwerken und tragbaren Tastaturen, sich mit Ihrem Mobilgerät zu verbinden und Daten auszutauschen.
 
 OTG schaltet sich nach 10 Minuten Inaktivität automatisch aus."</string>
   <string name="other">Andere</string>
@@ -5957,7 +5972,7 @@ Xiaomi Cloud öffnen und Elemente von dort wiederherstellen."</string>
   <string name="partial_connectivity_text">Einige Apps und Dienste funktionieren evtl. wegen eingeschränkter Konnektivität nicht. Trotzdem verwenden?</string>
   <string name="passpoint_content">%1$s Zugangsdaten</string>
   <string name="passpoint_label">Gespeichert via</string>
-  <string name="passpoint_r1_privacy_dialog_message">"Dieser WLAN-Dienst wird von Exands angeboten. Er ermöglicht Ihnen, sich automatisch mit unterstützten Hotspots in der Nähe zu verbinden.
+  <string name="passpoint_r1_privacy_dialog_message">"Dieser WLAN-Dienst wird von Exands angeboten. Er erlaubt Ihnen, sich automatisch mit unterstützten Hotspots in der Nähe zu verbinden.
 
 Lesen und akzeptieren Sie die %s, bevor Sie diesen Dienst nutzen."</string>
   <string name="passpoint_r1_privacy_dialog_no">Abbrechen</string>
@@ -6063,7 +6078,7 @@ Lesen und akzeptieren Sie die %s, bevor Sie diesen Dienst nutzen."</string>
   <string name="pm_auto_start_by_other">Ausgelöster Start</string>
   <string name="pm_auto_start_by_other_app">Starten der App durch andere Apps erlauben</string>
   <string name="pm_auto_start_by_system">Apps starten</string>
-  <string name="pm_auto_start_by_system_event">Ermöglicht den automatischen Start von Apps</string>
+  <string name="pm_auto_start_by_system_event">Erlaubt den automatischen Start von Apps</string>
   <string name="pm_auto_start_proc_is_running">Läuft</string>
   <string name="poco_launcher_privacy_policy">POCO Launcher Datenschutzerklärung</string>
   <string name="poco_launcher_user_agreement">POCO Launcher Nutzervereinbarung</string>
@@ -6186,7 +6201,7 @@ Lesen und akzeptieren Sie die %s, bevor Sie diesen Dienst nutzen."</string>
   <string name="pre_install_question_disable_title">Wie deaktiviere ich die Funktion?</string>
   <string name="pre_install_question_query_summary">Sie können zu Einstellungen - Weitere Apps gehen, die gewünschte App auswählen und in den App-Infos auf "Berechtigungen" tippen, um die von der Software benötigten Berechtigungen anzuzeigen. Sie können auch die Menütaste auf dem Desktop drücken und die App lange drücken halten, um schnell die Seite mit den App-Infos aufzurufen, und dann direkt auf die Berechtigungen tippen, um sie anzuzeigen. Sie können auch schnell alle Informationen zur Software-Installation und die Liste der erforderlichen Berechtigungen auf der Seite mit der Boot-Anleitung des Benutzers anzeigen.</string>
   <string name="pre_install_question_query_title">Wie prüft man die für die Installation und den Betrieb der Software erforderliche Berechtigungsliste?</string>
-  <string name="pre_install_question_uninstall_summary">Sie können zu Einstellungen auf \"Mehrere Apps\" gehen, eine App auswählen, die die Deinstallation unterstützt und auf Deinstallieren tippen. Die Deinstallation der voreingestellten Komponenten des Systems kann dazu führen, dass einige Systemfunktionen ausfallen oder abnormal laufen. Es wird empfohlen, mit Vorsicht vorzugehen. Bei Drittanbieter-Apps, die deinstalliert werden können, können Sie auch lange auf das Symbol auf dem Desktop drücken und es dann in den Mülleimer am oberen Bildschirmrand ziehen, um die App zu deinstallieren.</string>
+  <string name="pre_install_question_uninstall_summary">Sie können zu Einstellungen auf \"Mehrere Apps\" gehen, eine App auswählen, die die Deinstallation unterstützt und auf Deinstallieren tippen. Die Deinstallation der voreingestellten Komponenten des Systems kann dazu führen, dass einige Systemfunktionen ausfallen oder abnormal laufen. Es wird empfohlen, mit Vorsicht vorzugehen. Bei Drittanbieter-Apps, die deinstalliert werden können, können Sie auch lange auf das Symbol auf dem Desktop drücken und es dann in den Papierkorb am oberen Bildschirmrand ziehen, um die App zu deinstallieren.</string>
   <string name="pre_install_question_uninstall_title">Wie kann ich die App deinstallieren?</string>
   <string name="pre_installed_application">Vorinstallierte Apps</string>
   <string name="pref_bg_network_title">Hintergrundverbindung</string>
@@ -6897,7 +6912,7 @@ Mindestens %s freigeben."</string>
 •\u0009\u0009Angeheftete App kann andere Apps öffnen
 
 Verwenden Sie App-Pinning nur bei Personen, denen Sie vertrauen."</string>
-  <string name="screen_pinning_guest_user_description">"App-Pinning ermöglicht Ihnen, die aktuelle App in der Ansicht zu halten, bis Sie die Anheftung aufheben. Diese Funktion kann z. B. verwendet werden, um einen vertrauenswürdigen Freund ein bestimmtes Spiel spielen zu lassen.
+  <string name="screen_pinning_guest_user_description">"App-Pinning erlaubt Ihnen, die aktuelle App in der Ansicht zu halten, bis Sie die Anheftung aufheben. Diese Funktion kann z. B. verwendet werden, um einen vertrauenswürdigen Freund ein bestimmtes Spiel spielen zu lassen.
 
 Wenn eine App angeheftet ist, kann sie andere Apps öffnen und persönliche Daten können zugänglich sein.
 
@@ -6924,7 +6939,7 @@ App-Pinning verwenden: \u0009
   <string name="screen_projection_example_document_title">Dokumente</string>
   <string name="screen_projection_example_gallery_summary">Tippen Sie auf Teilen unter einem Element in der Galerie-App, um es auf einem externen Monitor anzuzeigen.</string>
   <string name="screen_projection_example_gallery_title">Fotos &amp; Videos</string>
-  <string name="screen_projection_example_game_summary">Game Turbo ermöglicht Ihnen, Spiele auf einen externen Monitor zu übertragen. Verwenden Sie die Verknüpfung in der Toolbox von Game Turbo, um diese Funktion einzuschalten.</string>
+  <string name="screen_projection_example_game_summary">Game Turbo erlaubt Ihnen, Spiele auf einen externen Monitor zu übertragen. Verwenden Sie die Verknüpfung in der Toolbox von Game Turbo, um diese Funktion einzuschalten.</string>
   <string name="screen_projection_example_game_title">Spiele</string>
   <string name="screen_projection_help">Hilfe</string>
   <string name="screen_projection_sample_summary">Dokumente, Spiele, Fotos und Videos übertragen</string>
@@ -7344,7 +7359,7 @@ Sie können Ihren Fingerabdruck weiterhin verwenden, um Einkäufe zu autorisiere
   <string name="security_settings_fingerprint_enroll_introduction_cancel_setup">Überspringen</string>
   <string name="security_settings_fingerprint_enroll_introduction_continue">Weiter</string>
   <string name="security_settings_fingerprint_enroll_introduction_continue_setup">Nächster</string>
-  <string name="security_settings_fingerprint_enroll_introduction_message">"Tippen Sie einfach auf den Sensor, um Ihr Gerät zu entsperren, Einkäufe zu autorisieren oder sich an Apps anzumelden. Passen Sie auf, wessen Fingerabdrücke Sie hinzufügen. Jeder hinzugefügte Fingerabdruck ermöglicht diese Funktionen.
+  <string name="security_settings_fingerprint_enroll_introduction_message">"Tippen Sie einfach auf den Sensor, um Ihr Gerät zu entsperren, Einkäufe zu autorisieren oder sich an Apps anzumelden. Passen Sie auf, wessen Fingerabdrücke Sie hinzufügen. Jeder hinzugefügte Fingerabdruck erlaubt diese Funktionen.
 Hinweis: Ihr Fingerabdruck ist evtl. weniger sicher als ein starkes Muster oder eine PIN." </string>
   <string name="security_settings_fingerprint_enroll_introduction_message_setup">"Benutzen Sie Ihren Fingerabdruck, um Ihr Telefon zu entsperren oder Einkäufe zu autorisieren.
 
@@ -7839,7 +7854,7 @@ Wenden Sie sich für weitere Informationen an Ihren Administrator."</string>
   <string name="ssl_ca_cert_settings_button">Vertrauenswürdige Anmeldedaten prüfen</string>
   <string name="ssl_ca_cert_warning">Netzwerk wird eventuell überwacht</string>
   <string name="ssl_ca_cert_warning_message">"Dritte können Ihre Netzwerkaktivitäten überwachen, inkl. E-Mails, Apps und sichere Webseiten.
-Dies wird durch vertrauenswürdige Anmeldedaten ermöglicht, die auf Ihrem Gerät installiert sind."</string>
+Dies wird durch vertrauenswürdige Anmeldedaten erlaubt, die auf Ihrem Gerät installiert sind."</string>
   <string name="standard">Stumm</string>
   <string name="standard_info">Anrufe und Benachrichtigungen werden stummgeschaltet</string>
   <string name="standby_bucket_summary">Status App-Standby: %s</string>
@@ -8309,7 +8324,7 @@ Auf ^2 gespeicherte Apps könnten nicht richtig funktionieren, und Datenübertra
   <string name="sync_one_time_sync">"Tippen, um jetzt zu synchronisieren
 %1$s"</string>
   <string name="sync_plug">"&lt;font fgcolor="#ffffffff">Willkommen bei Google Sync!&lt;/font>
-Ein Google-Ansatz zur Synchronisation von Daten, um den Zugriff auf Ihre Kontakte, Termine und mehr von überall her zu ermöglichen."</string>
+Ein Google-Ansatz zur Synchronisation von Daten, um den Zugriff auf Ihre Kontakte, Termine und mehr von überall her zu erlauben."</string>
   <string name="sync_settings">Konten &amp; Synchronisation</string>
   <string name="sync_success">Erfolgreich synchronisiert</string>
   <string name="sync_wifi_label">WLAN</string>
@@ -8822,7 +8837,7 @@ Gefällt Ihnen Mi Mover?"</string>
   <string name="turn_on_keyguard_password_alert_choose">Merken Sie sich Ihre Eingabe genau. Wenn Sie Muster, PIN oder Passwort vergessen, müssen Sie alle Daten auf Ihrem Gerät löschen (Wipe Data), um ein neues einzurichten.</string>
   <string name="turn_on_keyguard_password_alert_foget_cacel">Jetzt nicht</string>
   <string name="turn_on_keyguard_password_alert_foget_ok">Fertig</string>
-  <string name="turn_on_keyguard_password_alert_foget_ok_time">OK (%d Sek.)</string>
+  <string name="turn_on_keyguard_password_alert_foget_ok_time">OK (%d Sek)</string>
   <string name="turn_on_keyguard_password_alert_forget_content">Merken Sie sich Ihre Bildschirmsperre genau. Wenn Sie Muster, PIN oder Passwort vergessen, müssen Sie alle Daten auf Ihrem Gerät wie Fotos und Kontakte löschen (Wipe Data), um ein neues einzurichten.</string>
   <string name="turn_on_keyguard_password_alert_forget_title">!! ACHTUNG - NICHT VERGESSEN !!</string>
   <string name="turn_on_radio">Radio einschalten</string>
@@ -9076,10 +9091,10 @@ oder Kopfhörer mit 3,5-mm-Buchse."</string>
   <string name="usb_msd_driver_installer_title">Treiber-Installerdisk (MSD)</string>
   <string name="usb_msd_summary">Dateien über Windows und OSX übertragen</string>
   <string name="usb_msd_title">Massenspeicher</string>
-  <string name="usb_mtp_summary">Ermöglicht die Übertragung von Mediendateien auf Windows oder mit der App Android File Transfer auf Mac (siehe www.android.com/filetransfer)</string>
+  <string name="usb_mtp_summary">Erlaubt die Übertragung von Mediendateien auf Windows oder mit der App Android File Transfer auf Mac (siehe www.android.com/filetransfer)</string>
   <string name="usb_mtp_title">Mediengerät (MTP)</string>
   <string name="usb_preference">USB-Einstellungen</string>
-  <string name="usb_ptp_summary">Ermöglicht die Übertragung von Fotos mit Hilfe der Kamerasoftware sowie die Übertragung von Dateien auf Computer, die MTP nicht unterstützen</string>
+  <string name="usb_ptp_summary">Erlaubt die Übertragung von Fotos mit Hilfe der Kamerasoftware sowie die Übertragung von Dateien auf Computer, die MTP nicht unterstützen</string>
   <string name="usb_ptp_title">Kamera (PTP)</string>
   <string name="usb_restore_select_data_too_large">"Sicherungsdateien sind groß. Die Wiederherstellung kann eine Weile dauern.
 Wiederherstellen nur wichtiger Elemente geht schneller."</string>
@@ -10253,7 +10268,7 @@ Diese Funktion wird automatisch ausgeschaltet, wenn der Ladevorgang nicht innerh
   <string name="xiaomi_custom_input_method">Angepasst für Xiaomi</string>
   <string name="xiaomi_external_storage_unavailable">Kein Speicher verfügbar, prüfen Sie die SD-Karte</string>
   <string name="xiaomi_hp_location">Präziser Standortzugriff</string>
-  <string name="xiaomi_hp_location_description">Präzise Standortinfos ermöglichen eine genaue Navigation</string>
+  <string name="xiaomi_hp_location_description">Präzise Standortinfos erlauben eine genaue Navigation</string>
   <string name="xiaomi_router_available_notif_summary">Tippen für weitere Infos</string>
   <string name="xiaomi_router_available_notif_title">Mi Router verfügbar</string>
   <string name="xiaomi_router_notif_summary">Benachrichtigen, wenn ein Mi Router verfügbar ist</string>

@@ -155,6 +155,7 @@
   <string name="actionBarCFVoice">Videorufumleitung (%s)</string>
   <string name="actionbar_button_up_description">Zurück</string>
   <string name="active_input_method_subtypes">Aktive Eingabemethoden</string>
+  <string name="activity_title_fakecell">Vor gefälschten Basisstationen schützen</string>
   <string name="adb_device_fingerprint_title_format">Gerätefingerabdruck: %1$s</string>
   <string name="adb_device_forget">Vergessen</string>
   <string name="adb_keys_warning_message">Zugriff auf USB-Debugging für alle zuvor autorisierten Computer aufheben?</string>
@@ -368,7 +369,7 @@
   <string name="bluetooth_pairing_error_message">Koppeln mit %1$s nicht möglich</string>
   <string name="bluetooth_pairing_pin_error_message">Koppeln mit %1$s wegen falschen Passworts oder Schlüssels nicht möglich</string>
   <string name="bluetooth_pairing_rejected_error_message">Koppeln von %1$s zurückgewiesen</string>
-  <string name="bluetooth_pairing_will_share_phonebook">Koppeln ermöglicht Zugriff auf Ihre Kontakte und die Anrufliste, wenn verbunden</string>
+  <string name="bluetooth_pairing_will_share_phonebook">Koppeln erlaubt Zugriff auf Ihre Kontakte und die Anrufliste, wenn verbunden</string>
   <string name="bluetooth_pan_nap_profile_summary_connected">Gemeinsame Nutzung der lokalen Internetverbindung mit dem Gerät</string>
   <string name="bluetooth_pan_profile_summary_use_for">Für Internetzugriff verwenden</string>
   <string name="bluetooth_pan_user_profile_summary_connected">Für Internetzugriff mit dem Gerät verbunden</string>
@@ -435,6 +436,7 @@ Abtastrate"</string>
   <string name="callFailed_cdma_activation">Eine SIM-Karte hat Ihren Dienst aktiviert und aktualisiert servergespeicherte Funktionen Ihres Telefons</string>
   <string name="callFailed_cdma_call_limit">Zu viele aktive Anrufe. Bitte beenden oder verbinden Sie bestehende Anrufe, bevor Sie einen neuen Anruf tätigen.</string>
   <string name="callFailed_channel_unacceptable">Kanal unzulässig</string>
+  <string name="callFailed_concurrent_calls_not_possible">Anruf beendet, da gleichzeitige Anrufe nicht möglich.</string>
   <string name="callFailed_conditional_IE_error">Bedingter IE-Fehler</string>
   <string name="callFailed_congestion">Besetzt</string>
   <string name="callFailed_data_disabled">Anruf beendet wegen deaktivierter mobiler Daten</string>
@@ -888,6 +890,7 @@ Mobile Daten trotzdem nutzen?"</string>
   <string name="description_image_button_two">Zwei</string>
   <string name="description_image_button_zero">Null</string>
   <string name="description_voicemail_button">Anrufbeantworter</string>
+  <string name="detect_fakecell">SMS von gefälschten Basisstationen erkennen</string>
   <string name="dev_logpersist_clear_warning_message">Wenn wir nicht mehr mit dem dauerhaften Protokoll überwachen, müssen wir die auf Ihrem Gerät gespeicherten Protokolldaten löschen.</string>
   <string name="dev_logpersist_clear_warning_title">Löschen der dauerhaften Protokollspeicherung?</string>
   <string name="dev_settings_warning_message">Diese Einstellungen sind nur für Entwickler gedacht. Sie können Ihr Gerät und die installierten Apps beschädigen oder zu unerwünschtem Verhalten führen.</string>
@@ -938,7 +941,7 @@ Mobile Daten trotzdem nutzen?"</string>
   <string name="dtmf_tone_entries_long">Lang</string>
   <string name="dtmf_tones_summary">Länge der DTMF-Töne festlegen</string>
   <string name="dtmf_tones_title">DTMF-Töne</string>
-  <string name="dual_4g_switch_summary">4G-Konnektivität für beide SIM-Slots ermöglichen</string>
+  <string name="dual_4g_switch_summary">4G-Konnektivität für beide SIM-Slots erlauben</string>
   <string name="dual_mic_summary">Unterdrücken Sie Hintergrundgeräusche während des Gesprächs</string>
   <string name="dual_mic_title">Geräuschreduzierung</string>
   <string name="duration_disable_summary">Anzeigedauer ist AUS</string>
@@ -1015,7 +1018,7 @@ Mobile Daten trotzdem nutzen?"</string>
   <string name="enable_proximity_summary">Bildschirm automatisch ausschalten, wenn Sie das Gerät während eines Anrufs ans Ohr halten</string>
   <string name="enable_proximity_title">Näherungssensor</string>
   <string name="enable_sim_pin">SIM-PIN festlegen</string>
-  <string name="enable_terminal_summary">Terminal-App aktivieren, die lokalen Shell-Zugriff ermöglicht</string>
+  <string name="enable_terminal_summary">Terminal-App aktivieren, die lokalen Shell-Zugriff erlaubt</string>
   <string name="enable_terminal_title">Lokales Terminal</string>
   <string name="enable_verbose_vendor_logging">Ausführliches Vendor-Logging aktivieren</string>
   <string name="enable_verbose_vendor_logging_summary">Zusätzliche gerätespezifische Vendor-Logs in Fehlerberichte aufnehmen, die private Infos enthalten, mehr Akku und/oder mehr Speicherplatz benötigen können</string>
@@ -1038,6 +1041,7 @@ Mobile Daten trotzdem nutzen?"</string>
   <string name="enhanced_connectivity_summary">Aktiviert die Funktion Erweiterte Konnektivität</string>
   <string name="enterNumber">Rufnummer</string>
   <string name="enter_callbarring_password">Passwort für Anrufsperre eingeben (%d Ziffern)</string>
+  <string name="enter_esim_manager">eSIM verwalten</string>
   <string name="enter_input" formatted="false">USSD-Mitteilung muss zwischen %d und %d Zeichen lang sein. Bitte erneut versuchen.</string>
   <string name="entertainment_news_settings">Unterhaltungsnachrichten</string>
   <string name="eo_disable">Jobangebote aus</string>
@@ -1047,6 +1051,10 @@ Mobile Daten trotzdem nutzen?"</string>
   <string name="eras_ad">n. Chr.</string>
   <string name="eras_bc">v. Chr.</string>
   <string name="error_updating_title">Anrufeinstellungsfehler</string>
+  <string name="esim_goto_active">Aktivieren</string>
+  <string name="esim_inactive_message">eSIM inaktiv</string>
+  <string name="esim_inactive_notification_message">Keine SIM-Karte erkannt. Tippen, um eSIM zu aktivieren.</string>
+  <string name="esim_inactive_settings_title">Dual-SIM &amp; Mobilfunknetze</string>
   <string name="evening">Nachmittag</string>
   <string name="exception_error">Netzwerk- oder SIM-Kartenfehler</string>
   <string name="expand_button_title">Erweitert</string>
@@ -1138,9 +1146,11 @@ Mobile Daten trotzdem nutzen?"</string>
   <string name="fmt_weekday_timezone">W z</string>
   <string name="fold_answer_pref_summary">Gerät zuklappen, um einen eingehenden Anruf automatisch anzunehmen</string>
   <string name="fold_answer_pref_title">Zuklappen, um Anrufe anzunehmen</string>
+  <string name="forbidden_fakecell">Keine Verbindung zu gefälschten Basisstationen herstellen</string>
+  <string name="forbidden_fakecell_summary">Verhindern, dass sich Ihr Telefon mit gefälschten Basisstationen verbindet</string>
   <string name="forbidden_network">(verboten)</string>
   <string name="force_allow_on_external">Erzwingen, dass Apps auf externen Speicher schreiben</string>
-  <string name="force_allow_on_external_summary">Ermöglicht das Schreiben jeder App auf externen Speicher, unabhängig von Manifestwerten</string>
+  <string name="force_allow_on_external_summary">Erlaubt das Schreiben jeder App auf externen Speicher, unabhängig von Manifestwerten</string>
   <string name="force_hw_ui">GPU Rendering erzwingen</string>
   <string name="force_hw_ui_summary">Nutzung der GPU für 2D-Zeichnen erzwingen</string>
   <string name="force_msaa">4x MSAA erzwingen</string>
@@ -1447,6 +1457,8 @@ Immer diese Nummer verwenden"</string>
   <string name="miui_network_selection_reset_text">Zurücksetzen</string>
   <string name="miui_notification_network_selection_title">SIM: Kein Service</string>
   <string name="miui_notification_network_selection_title_by_sim">SIM %s: Kein Service</string>
+  <string name="miuix_access_state_desc">Ausgewählt</string>
+  <string name="miuix_alphabet_indexer_name">Indexleiste</string>
   <string name="miuix_appcompat_action_mode_deselect_all">Abwählen</string>
   <string name="miuix_appcompat_action_mode_select_all">Alle wählen</string>
   <string name="miuix_appcompat_action_mode_title_empty">Elemente wählen</string>
@@ -1461,6 +1473,7 @@ Immer diese Nummer verwenden"</string>
   <string name="miuix_appcompat_select_all">Alle wählen</string>
   <string name="miuix_appcompat_select_all_description">Alle wählen</string>
   <string name="miuix_appcompat_select_item">Elemente wählen</string>
+  <string name="miuix_indexer_selected">%s ausgewählt</string>
   <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Zum Aktualisieren herunterziehen</string>
   <string name="miuix_sbl_tracking_progress_labe_refreshed">Erfolgreich aktualisiert</string>
   <string name="miuix_sbl_tracking_progress_labe_refreshing">Aktualisieren…</string>
@@ -1674,6 +1687,7 @@ Kontaktieren Sie Ihren Mobilfunkanbieter."</string>
   <string name="not_a_valid_port">Portnummer muss zwischen %1$d und %2$d liegen.</string>
   <string name="not_allowed">Ihre SIM-Karte verbietet eine Verbindung mit diesem Netzwerk</string>
   <string name="not_set">Nicht festgelegt</string>
+  <string name="not_support_forbidden_fakecell">Ihr Gerät unterstützt keinen Schutz vor gefälschten Basisstationen auf Chipebene.</string>
   <string name="not_voice_capable">Sprachanruf wird nicht unterstützt</string>
   <string name="notification_channel_demo">Demo-Gerät</string>
   <string name="notification_demo_version_text">Telefonieren oder mobile Daten nutzen nicht möglich</string>
@@ -2139,8 +2153,11 @@ UT-Schnittstelle: %5$s"</string>
   <string name="respond_via_sms_setting_summary">Vorlagen bearbeiten</string>
   <string name="respond_via_sms_setting_title">Kurzantworten</string>
   <string name="response_error">Unerwartete Antwort von Netzwerk</string>
-  <string name="restaurants_disable">Restaurants ausgeschaltet</string>
-  <string name="restaurants_enable">Restaurants eingeschaltet</string>
+  <string name="restart_details">Um diese Funktion ein- oder auszuschalten, muss das Gerät neu gestartet werden. Jetzt neu starten?</string>
+  <string name="restart_later">Später</string>
+  <string name="restart_now">Jetzt neu starten</string>
+  <string name="restaurants_disable">Restaurants dektiviert</string>
+  <string name="restaurants_enable">Restaurants aktiviert</string>
   <string name="retail_demo_reset_message">Passwort eingeben, um im Demomodus auf Werkseinstellungen zurückzusetzen</string>
   <string name="retail_demo_reset_next">Weiter</string>
   <string name="retail_demo_reset_title">Passwort erforderlich</string>
@@ -2440,6 +2457,7 @@ UT-Schnittstelle: %5$s"</string>
   <string name="supp_service_over_ut_precautions_dual_sim">Um %1$s zu verwenden, müssen mobile Daten für SIM%2$d eingeschaltet sein. Sie können dies in den Mobilfunkeinstellungen ändern.</string>
   <string name="supp_service_over_ut_precautions_roaming">Um %s zu verwenden, müssen mobile Daten und Daten-Roaming eingeschaltet sein. Sie können dies in den Mobilfunkeinstellungen ändern.</string>
   <string name="supp_service_over_ut_precautions_roaming_dual_sim">TUm %1$s zu verwenden, müssen mobile Daten und Daten-Roaming für SIM%2$d eingeschaltet sein. Sie können dies in den Mobilfunkeinstellungen ändern.</string>
+  <string name="support_forbidden_fakecell">Hinweis: Die Verbindungseinschränkung zu gefälschten Basisstationen kann das Signal in Gebieten mit schlechter Abdeckung verringern.</string>
   <string name="switch_dds_to_sub_alert">Legen Sie diese Karte als Standard-Datenkarte fest.</string>
   <string name="switch_dds_to_sub_alert_msg">Bitte mobile Daten auf CT SIM umstellen</string>
   <string name="switch_off">Aus</string>

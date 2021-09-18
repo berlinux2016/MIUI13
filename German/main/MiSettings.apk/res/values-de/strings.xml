@@ -35,7 +35,7 @@
   <string name="animal_select_alert_info">Sie können bis zu 5 Elemente auswählen</string>
   <string name="anti_flicker_mode">Anti-Flimmer</string>
   <string name="anti_flicker_mode_categroy">Modus</string>
-  <string name="anti_flicker_mode_summary">Ausgedehntes Flackern verhindern und die Belastung der Augen bei schlechten Lichtverhältnissen reduzieren</string>
+  <string name="anti_flicker_mode_summary">Ausgedehntes Flimmern verhindern und die Belastung der Augen bei schlechten Lichtverhältnissen reduzieren</string>
   <string name="anti_flicker_title">Anti-Flimmer-Modus</string>
   <string name="app_name">Einstellungen</string>
   <string name="application_sound">App-Benachrichtigungen</string>
@@ -97,13 +97,19 @@
   <string name="created_successfully">Erstellen erfolgreich</string>
   <string name="crowned_hornbill">Malabarhornvogel</string>
   <string name="cu_confirm">Einstellen</string>
+  <string name="customize_radio_btn_summary">Ausgewählte Bildwiederholrate bevorzugen</string>
+  <string name="customize_radio_btn_title">Eigene</string>
   <string name="dall_sheep">Dall-Schafe</string>
   <string name="dart_frog_info">Seine leuchtend blaue Haut und seine giftigen Drüsen sind Verteidigungsmechanismen gegen potenzielle Fressfeinde.</string>
   <string name="date_picker_lunar">Traditioneller chin. Kalender</string>
   <string name="date_time_picker_dialog_title">Datum und Zeit einstellen</string>
   <string name="dc_light_hint_enable_title">Achtung</string>
   <string name="dc_light_hint_normal">DC Dimming kann die Art und Weise beeinflussen, wie einige Elemente angezeigt werden.</string>
+  <string name="dc_light_hint_normal_anit">Antiflimmer-Modus kann die Anzeige einiger Elemente beeinträchtigen.</string>
+  <string name="dc_light_hint_normal_other">Antiflimmer-Modus kann die Bildwiederholrate und die Anzeige einiger Elemente beeinträchtigen.</string>
   <string name="dc_light_hint_other">DC Dimming kann die Aktualisierungsrate und die Art und Weise, wie einige Elemente angezeigt werden, beeinflussen.</string>
+  <string name="dc_light_hint_unnormal_low">Antiflimmer-Modus bei schwachem Licht kann die Anzeige einiger Elemente beeinträchtigen.</string>
+  <string name="dc_light_hint_unnormal_other">Antiflimmer-Modus bei schwachem Licht kann die Bildwiederholrate und die Anzeige einiger Elemente beeinträchtigen.</string>
   <string name="dc_lignt_enable_hint">Im Anti-Flimmer-Modus wird die Bildschirmaktualisierungsrate auf 60 Hz eingestellt. In den Anti-Flimmer-Modus umschalten?</string>
   <string name="delete_first_to_add_animal">Um ein neues Element hinzuzufügen, löschen Sie zuerst eines.</string>
   <string name="desktop_widget_authorization">Tippen, um Berechtigungen für die Statistikanzeige zu erteilen</string>
@@ -199,13 +205,18 @@
   <string name="focus_mode_timer_pick_dialog_title">Dauer eingeben</string>
   <string name="focus_time_exception_tip">Anscheinend hat sich die Systemzeit geändert. Fokusmodus wurde ausgeschaltet.</string>
   <string name="follow_sim1">Einstellungen SIM1 übernehmen</string>
+  <string name="fps_high">Hoch</string>
   <string name="fps_nature_summary">Maximale Aktualisierungsrate zeigt alles klar und deutlich</string>
   <string name="fps_nature_title">Maximal </string>
+  <string name="fps_radio_btn_title">Bildwiederholrate</string>
+  <string name="fps_save_battery_tips">Stromsparen ist an. Aktualisierungsrate auf %d Hz eingestellt.</string>
   <string name="fps_smooth_summary">Hohe Aktualisierungsrate sorgt für mehr Klarheit bei Details</string>
   <string name="fps_smooth_title">Hoch</string>
   <string name="fps_standard_summary">Standardaktualisierungsrate spart Akku</string>
   <string name="fps_standard_title">Standard</string>
   <string name="fps_user_tip">- Demo-Animationen werden zu Ihrer Information in niedriger Geschwindigkeit abgespielt. Die tatsächliche Leistung kann wegen unterschiedlicher Faktoren anders aussehen.</string>
+  <string name="fps_user_tip_footer">"%1$d. Damit Sie den Unterschied zwischen höheren und niedrigeren Bildwiederholraten verstehen können, werden die Demos hier langsamer abgespielt. Bei normaler Nutzung werden Sie den Unterschied vielleicht nicht so schnell bemerken.
+%2$d. In einigen Fällen kann die Bildwiederholrate dynamisch angepasst werden, je nachdem, welche Elemente angezeigt werden.."</string>
   <string name="friday">Freitag</string>
   <string name="friday_short">Fr</string>
   <string name="friday_shortest">F</string>
@@ -230,11 +241,14 @@
   <string name="healthy_use_phone">Bildschirmzeit verwalten</string>
   <string name="helmeted_guineafowl">Perlhuhn</string>
   <string name="high_fps_description">Hohe Bildwiederholrate, höhere Leistungsaufnahme.</string>
+  <string name="high_fps_tip_footer">Höhere Bildwiederholraten sorgen für ein flüssigeres Seherlebnis, verbrauchen aber mehr Strom.</string>
   <string name="hippopotamus">Flusspferd</string>
   <string name="hsv_space_color">HSV-Farbraum</string>
   <string name="hsv_space_color_hue">Farbton</string>
   <string name="hsv_space_color_saturation">Sättigung</string>
   <string name="hsv_space_color_value">Wert</string>
+  <string name="intelligent_radio_btn_summary">Dynamische Anpassung der Bildwiederholrate je nach Szenario, um Leistung und Stromverbrauch auszugleichen</string>
+  <string name="intelligent_radio_btn_title">Auto (empfohlen)</string>
   <string name="intelligent_recognition_item_summary">Speziellen Klingelton für Liefer- und Taxidienstanrufe verwenden. Funktioniert, wenn %s als Standardklingelton eingestellt ist.</string>
   <string name="intelligent_recognition_item_title">Dienste identifizieren</string>
   <string name="item_anura">Froschlurche</string>
@@ -274,6 +288,8 @@
   <string name="lion_info">Löwen sind wilde und starke Raubtiere. Sie leben in Gruppen und haben einen ausgeprägten Sinn für Territorien.</string>
   <string name="lock_summary">Umfassender Schutz Ihrer Privatsphäre</string>
   <string name="long_tai1ed_iaeger">Falkenraubmöwe </string>
+  <string name="low_flicker_mode">Schwaches Licht</string>
+  <string name="low_flicker_mode_summary">Verhindert Flimmern bei schlechten Lichtverhältnissen, um die Augen zu schonen</string>
   <string name="low_fps_description">Niedrige Bildwiederholrate, geringerer Stromverbrauch.</string>
   <string name="low_light_preview">Vorschau bei schwachem Licht</string>
   <string name="lynx">Luchs</string>
@@ -366,6 +382,7 @@
   <string name="noon">Mittag</string>
   <string name="normal_mode">Regelmäßig</string>
   <string name="normal_mode_summary">Flimmern bei schlechten Lichtverhältnissen nicht reduzieren</string>
+  <string name="normal_mode_summary_new">Flimmern bei schlechten Lichtverhältnissen zulassen</string>
   <string name="north_white_rhinoceros">Breitmaulnashorn</string>
   <string name="norway_lemmings">Berglemminge</string>
   <string name="norway_lemmings_info">Der Berglemming lebt in Tundra und Fjäll und bevorzugt die Nähe von Wasser.</string>
@@ -441,7 +458,7 @@
   <string name="several_days_use_time">Bildschirmzeit: %2$s</string>
   <string name="short_eared_owl">Sumpfohreule</string>
   <string name="shortcut_created">Verknüpfung wurde erstellt</string>
-  <string name="silent_ringtone_hint">Ton ist jetzt stummgeschaltet. Lautstärke erhöhen und erneut versuchen.</string>
+  <string name="silent_ringtone_hint">Zuerst Lautlosmodus ausschalten</string>
   <string name="silver_pheasant">Silberfasan</string>
   <string name="sim_slot_1">" (SIM1)"</string>
   <string name="sim_slot_2">" (SIM2)"</string>
@@ -478,6 +495,7 @@
   <string name="southern_elephant_seal">Südlicher See-Elefant</string>
   <string name="southern_ground_hornbill">Hornvogel</string>
   <string name="special_feature">Besondere Funktionen</string>
+  <string name="split_page_authorization">Willkommen bei Bildschirmzeit! Hier können Sie die Bildschirmzeit begrenzen und Statistiken einsehen. Auf \"Start\" tippen, um diese Funktion einzuschalten.</string>
   <string name="spotted_hyaena">Tüpfelhyäne</string>
   <string name="spotted_hyaena_info">Hyänen sind nachtaktive Raubtiere mit einem äußerst komplexen Sozialverhalten.</string>
   <string name="spur_winged_plover">Spornkiebitz</string>

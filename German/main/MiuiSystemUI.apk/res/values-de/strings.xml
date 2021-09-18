@@ -531,7 +531,7 @@ In %d Sekunden erneut versuchen."</string>
   <string name="bluetooth_pairing_error_message">Koppeln mit %1$s nicht möglich</string>
   <string name="bluetooth_pairing_pin_error_message">Koppeln mit %1$s war wegen einer falschen PIN oder eines falschen Passworts nicht möglich.</string>
   <string name="bluetooth_pairing_rejected_error_message">Koppeln von %1$s zurückgewiesen</string>
-  <string name="bluetooth_pairing_will_share_phonebook">Koppeln ermöglicht Zugriff auf Ihre Kontakte und die Anrufliste, wenn verbunden</string>
+  <string name="bluetooth_pairing_will_share_phonebook">Koppeln erlaubt Zugriff auf Ihre Kontakte und die Anrufliste, wenn verbunden</string>
   <string name="bluetooth_pan_nap_profile_summary_connected">Gemeinsame Nutzung der lokalen Internetverbindung mit dem Gerät</string>
   <string name="bluetooth_pan_profile_summary_use_for">Für Internetzugriff verwenden</string>
   <string name="bluetooth_pan_user_profile_summary_connected">Für Internetzugriff mit Gerät verbunden</string>
@@ -1046,7 +1046,7 @@ innerhalb des Kreises befindet"</string>
   <string name="fmt_weekday_time_timezone">W T z</string>
   <string name="fmt_weekday_timezone">W z</string>
   <string name="force_allow_on_external">Erzwingen, dass Apps auf externen Speicher schreiben</string>
-  <string name="force_allow_on_external_summary">Ermöglicht das Schreiben jeder App auf externen Speicher, unabhängig von Manifestwerten</string>
+  <string name="force_allow_on_external_summary">Erlaubt das Schreiben jeder App auf externen Speicher, unabhängig von Manifestwerten</string>
   <string name="force_hw_ui">GPU-Rendering erzwingen</string>
   <string name="force_hw_ui_summary">GPU-Rendering für 2D erzwingen</string>
   <string name="force_msaa">4x MSAA erzwingen</string>
@@ -1550,6 +1550,8 @@ Screenshot zu erstellen"</string>
   <string name="miui_toast_zen_to_standard_when_shield_media">Zum Lautlosmodus gewechselt, Anruf-, Benachrichtigungs- und Medientöne sind jetzt aus.</string>
   <string name="miui_toast_zen_to_standard_when_shield_media_version_R">Lautlosmodus ist an. Benachrichtigungen und Medien werden lautlos gestellt und die Vibration ausgeschaltet.</string>
   <string name="miui_unimportant_notifications">Unwichtige Benachrichtigungen</string>
+  <string name="miuix_access_state_desc">Ausgewählt</string>
+  <string name="miuix_alphabet_indexer_name">Indexleiste</string>
   <string name="miuix_appcompat_action_mode_deselect_all">Abwählen</string>
   <string name="miuix_appcompat_action_mode_select_all">Alle wählen</string>
   <string name="miuix_appcompat_action_mode_title_empty">Elemente wählen</string>
@@ -1564,6 +1566,7 @@ Screenshot zu erstellen"</string>
   <string name="miuix_appcompat_select_all">Alle wählen</string>
   <string name="miuix_appcompat_select_all_description">Alle wählen</string>
   <string name="miuix_appcompat_select_item">Elemente wählen</string>
+  <string name="miuix_indexer_selected">%s ausgewählt</string>
   <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Zum Aktualisieren herunterziehen</string>
   <string name="miuix_sbl_tracking_progress_labe_refreshed">Erfolgreich aktualisiert</string>
   <string name="miuix_sbl_tracking_progress_labe_refreshing">Aktualisieren…</string>
@@ -1846,6 +1849,8 @@ Screenshot zu erstellen"</string>
   <string name="phone_locked_forget_password_suggesstion_two_content"><Data>&lt;font color=#e6e6e6&gt;[Daten löschen]&lt;/font&gt; wählen und warten, bis das Telefon neu startet.</Data></string>
   <string name="phone_locked_forget_password_suggesstions_title">Wie lösche ich die Daten?</string>
   <string name="phone_locked_string">Dieses Gerät ist gesperrt</string>
+  <string name="phone_locked_string_owner_user">Zu viele Fehlversuche bei der Passworteingabe für das Hauptprofil. Dieses Gerät ist jetzt gesperrt.</string>
+  <string name="phone_locked_string_second_user">Zu viele Fehlversuche bei der Passworteingabe für das Zweitprofil. Dieses Gerät ist jetzt gesperrt.</string>
   <string name="picture_color_mode">Bildfarbenmodus</string>
   <string name="picture_color_mode_desc">sRGB verwenden</string>
   <string name="pip_close">BIB schließen</string>
@@ -2076,7 +2081,7 @@ Screenshot zu erstellen"</string>
   <string name="quick_settings_rotation_locked_landscape_label">Querformat</string>
   <string name="quick_settings_rotation_locked_portrait_label">Hochformat</string>
   <string name="quick_settings_rotation_unlocked_label">Automatisch drehen</string>
-  <string name="quick_settings_rotationlock_label">Drehen aus</string>
+  <string name="quick_settings_rotationlock_label">Ausrichtung sperren</string>
   <string name="quick_settings_rssi_emergency_only">Nur Notrufe</string>
   <string name="quick_settings_screen_record_label">Bildschirmaufnahme</string>
   <string name="quick_settings_screenbutton_label">Tasten</string>
@@ -2148,7 +2153,7 @@ Screenshot zu erstellen"</string>
   <string name="recents_task_screening">Übertragen</string>
   <string name="recents_title_app_manager">Apps</string>
   <string name="recents_title_game">Spiele</string>
-  <string name="recents_title_garbage_cleanup">Mülleimer</string>
+  <string name="recents_title_garbage_cleanup">Papierkorb</string>
   <string name="recents_title_garbage_deepclean">Säubern</string>
   <string name="recents_title_market">Apps finden</string>
   <string name="recents_title_security_scan">Virenscan</string>
@@ -2442,7 +2447,7 @@ d. MMM"</string>
   <string name="structure_face_data_input_timeout_title">Erneut versuchen</string>
   <string name="structure_face_data_input_up">Nach oben schauen</string>
   <string name="structure_face_data_introduction_back">Zurück</string>
-  <string name="structure_face_data_introduction_msg">3D-Gesichtsdaten ermöglichen es, Ihr Gerät zu entsperren und Ihre Identität zu prüfen. Sie müssen ein Passwort festlegen, bevor Sie diese Funktion nutzen können.</string>
+  <string name="structure_face_data_introduction_msg">3D-Gesichtsdaten erlauben es, Ihr Gerät zu entsperren und Ihre Identität zu prüfen. Sie müssen ein Passwort festlegen, bevor Sie diese Funktion nutzen können.</string>
   <string name="structure_face_data_introduction_next">Fortfahren</string>
   <string name="structure_face_data_introduction_settingpassword">Festlegen</string>
   <string name="structure_face_data_introduction_title">3D-Gesichtsdaten hinzufügen</string>

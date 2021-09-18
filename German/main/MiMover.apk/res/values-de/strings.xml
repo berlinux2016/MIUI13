@@ -66,6 +66,7 @@
   <string name="button_return">Zurück</string>
   <string name="button_scanning">Scannen…</string>
   <string name="button_send">Senden</string>
+  <string name="calendar_permission_desc">Zum Übertragen von Einträgen an andere Geräte</string>
   <string name="calllog">Anrufliste</string>
   <string name="cancel">Abbrechen</string>
   <string name="cancel_description">Abbrechen</string>
@@ -118,13 +119,16 @@ Zum Ausschalten auf https://appleid.apple.com/#!&amp;page=signin gehen"</string>
   <string name="connection_tips_other_title">Wenn Ihr altes Gerät ein Android-Telefon eines Drittanbieters ist:</string>
   <string name="connection_tips_owner_message">Mi Mover ist auf allen Geräten mit MIUI 11 vorinstalliert. Wenn Sie eine ältere MIUI-Version haben, können Sie die neueste Version von Mi Mover in GetApps herunterladen oder diesen Link benutzen: %1$s.</string>
   <string name="connection_tips_owner_title">Wenn Ihr altes Gerät ein Mi-Telefon ist:</string>
+  <string name="contact_records_permission_desc">Zum Übertragen der Anrufliste an andere Geräte</string>
   <string name="contacts">Kontakte</string>
+  <string name="contacts_permission_desc">Zum Übertragen von Kontakten auf andere Geräte</string>
   <string name="copy">Kopieren</string>
   <string name="current_user_not_supported_summary">Aktuelle Systemeinstellungen schränken die Datenübertragung mit Mi Mover ein.</string>
   <string name="current_user_not_supported_title">Datenübertragung nicht möglich</string>
+  <string name="data_read_white_permission_desc">Zum Übertragen von Elementen auf andere Geräte</string>
   <string name="date_picker_dialog_title">Datum einstellen</string>
-  <string name="date_time_done">Fertig</string>
   <string name="date_picker_lunar">Traditioneller chin. Kalender</string>
+  <string name="date_time_done">Fertig</string>
   <string name="date_time_picker_dialog_title">Datum und Zeit einstellen</string>
   <string name="delete_description">Löschen</string>
   <string name="deselect_all">Abwählen</string>
@@ -319,6 +323,7 @@ Wir schützen Ihre persönlichen Daten in Übereinstimmung mit den einschlägige
   <string name="launcher">Startbildschirm-Layout</string>
   <string name="less_than_1_minute">Weniger als 1 Minute</string>
   <string name="loading_data">Einen Moment…</string>
+  <string name="location_permission_desc">Um Geräte in der Nähe zu finden</string>
   <string name="location_permission_request">Zum Verbinden mit anderen Geräten in der Nähe</string>
   <string name="login">Anmelden</string>
   <string name="login_failed">Anmelden fehlgeschlagen. Erneut versuchen.</string>
@@ -399,11 +404,13 @@ Wir schützen Ihre persönlichen Daten in Übereinstimmung mit den einschlägige
   <string name="month_september_shortest">S</string>
   <string name="more">Mehr</string>
   <string name="morning">Morgen</string>
+  <string name="msg_permission_desc">Zum Übertragen von Nachrichten an andere Geräte</string>
   <string name="name_password_not_consistent">Eingegebene Apple-ID und Passwort stimmen nicht überein.</string>
   <string name="need_location_permission_confirm">Einstellungen</string>
   <string name="need_location_permission_summary">Mi Mover den Standortzugriff erlauben, um Geräte in der Nähe zu finden.</string>
   <string name="need_location_permission_title">Berechtigungen erforderlich</string>
   <string name="need_more_memory_cacel">Abbrechen</string>
+  <string name="need_more_memory_confirm">Bereinigung</string>
   <string name="need_more_memory_summary">"Nicht genügend Speicherplatz. Mi Mover benötigt %1$s zusätzlichen Speicherplatz, um vor der Übertragung komprimierte Pakete zu erstellen.
 1. Versuchen Sie, nur wichtige Elemente zu übertragen.
 2. Wählen Sie keine Apps mit vielen Daten.
@@ -514,10 +521,13 @@ Wir schützen Ihre persönlichen Daten in Übereinstimmung mit den einschlägige
   <string name="permission_call_log_title">Zugriff auf Anrufliste</string>
   <string name="permission_contacts_summary">Zum Übertragen von Kontakten auf Ihr neues Gerät</string>
   <string name="permission_contacts_title">Zugriff auf Kontakte</string>
+  <string name="permission_grant_request">Um dieses Element zu übertragen, benötigt Mi Mover die \"%1$s\"-Berechtigung.</string>
   <string name="permission_locale_summary">Zum Anschluss von Geräten in der Nähe</string>
   <string name="permission_locale_title">Zugriff auf Standort</string>
   <string name="permission_message_summary">Zum Übertragen von Nachrichten auf Ihr neues Gerät</string>
   <string name="permission_message_title">Zugriff auf SMS-Inhalte</string>
+  <string name="permission_request_title">\"%1$s\"-Berechtigung erforderlich</string>
+  <string name="permission_setting_button">Einstellungen</string>
   <string name="permission_storage_summary">Zum Übertragen von Dateien und Fotos auf Ihr neues Gerät</string>
   <string name="permission_storage_title">Zugriff auf und Speicherung von Dateien und Fotos auf Ihrem Gerät</string>
   <string name="permission_wifi_summary">Zum Übertragen von Elementen auf Ihr neues Gerät</string>
@@ -548,6 +558,13 @@ Wir schützen Ihre persönlichen Daten in Übereinstimmung mit den einschlägige
   <string name="reconnect">Erneut verbinden</string>
   <string name="recovery_progress">Elemente wiederherstellen (%1$d/%2$d)…</string>
   <string name="recreate_soft_ap_tips">Schaltfläche unten antippen, um es erneut zu versuchen</string>
+  <string name="request_all_permission_content">"Mi Mover muss auf die folgenden Elemente zugreifen, um Elemente auf ein neues Gerät zu übertragen:
+- Standort
+- Kontakte
+- Anrufliste
+- Textnachrichten
+- Speicher"</string>
+  <string name="request_all_permission_title">Berechtigung erforderlich</string>
   <string name="restore_data_to_device_content">"Ihre Elemente wurden mit Xiaomi Cloud synchronisiert.
 Am Mi-Konto anmelden, um sie wiederherzustellen."</string>
   <string name="restore_data_to_device_title">Elemente auf diesem Gerät wiederherstellen</string>
@@ -811,6 +828,9 @@ Videos, Dokumente und Apps auf ein neues Gerät verschieben"</string>
   <string name="wednesday">Mittwoch</string>
   <string name="wednesday_short">Mi</string>
   <string name="wednesday_shortest">M</string>
+  <string name="xiaomi_market_sdk_update_dialog_cancel">Jetzt nicht</string>
+  <string name="xiaomi_market_sdk_update_dialog_ok">Aktualisieren</string>
+  <string name="xiaomi_market_sdk_update_dialog_title">Aktualisierung verfügbar</string>
   <string name="xiaomi_update_sdk_bytes_unit">%1$s B</string>
   <string name="xiaomi_update_sdk_connect_download_manager_fail">Verbindung Download-Manager fehlgeschlagen, bitte Status des Download-Managers in App-Verwaltung prüfen.</string>
   <string name="xiaomi_update_sdk_dialog_message">"Vorstellung der Version %1$s

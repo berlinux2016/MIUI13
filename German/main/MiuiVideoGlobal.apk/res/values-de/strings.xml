@@ -64,6 +64,8 @@
   <string name="ad_download">Herunterladen</string>
   <string name="ad_join">Der Community beitreten</string>
   <string name="ad_more">Mehr</string>
+  <string name="add_local_shortcut_add">Hinzufügen</string>
+  <string name="add_local_shortcut_des">\"Mein Video\" zum Startbildschirme hinzufügen, um mit einem Tipp auf lokale Videodateien zuzugreifen.</string>
   <string name="add_search_channel_tip">Suchen Sie auf der Ziel-Webseite nach \"%s\", kopieren Sie dann die URL und fügen Sie sie hier ein.</string>
   <string name="add_to_trust_device">Dies ist ein vertrauenswürdiges Gerät</string>
   <string name="add_website">Webseite hinzufügen</string>
@@ -147,6 +149,7 @@
   <string name="choose_to_signin">Ja</string>
   <string name="choose_to_signup">Nein, ich erstelle einen</string>
   <string name="clearable_edittext_clear_description">Löschen</string>
+  <string name="click_to_open_pip">Tippen, um zu Bild-in-Bild zu wechseln</string>
   <string name="click_to_reload_more">Tippen, um mehr zu zeigen</string>
   <string name="click_to_retry">Erneut versuchen</string>
   <string name="close">Schließen</string>
@@ -167,7 +170,7 @@
   <string name="columbus_player_unit_sec">Sek</string>
   <string name="com_facebook_device_auth_instructions">Besuchen Sie &lt;b&gt;facebook.com/device&lt;/b&gt; und geben Sie den oben gezeigten Code ein.</string>
   <string name="com_facebook_image_download_unknown_error">Unerwarteter Fehler beim Herunterladen eines Bildes</string>
-  <string name="com_facebook_internet_permission_error_message">WebView Login erfordert INTERNET-Berechtigung</string>
+  <string name="com_facebook_internet_permission_error_message">WebView-Anmeldung erfordert INTERNET-Berechtigung</string>
   <string name="com_facebook_like_button_liked">Gefällt mir</string>
   <string name="com_facebook_like_button_not_liked">Gefällt mir</string>
   <string name="com_facebook_loading">Laden…</string>
@@ -257,6 +260,11 @@ Mi Video Team"</string>
   <string name="diagnosis_log_sent_format">"Protokolle erfolgreich gesendet.
 ID:%s
 Senden Sie diesen Code an den Supervisor."</string>
+  <string name="dialog_app_comment_cancel">Abbrechen</string>
+  <string name="dialog_app_comment_default_content">Was halten Sie von Mi Video?</string>
+  <string name="dialog_app_comment_select_feedback">Könnten Sie uns auch Ihr Feedback geben?</string>
+  <string name="dialog_app_comment_select_praise">Super! Bewerten Sie Mi Video auch im Play Store?</string>
+  <string name="dialog_app_comment_title">Bewerten Sie unsere App</string>
   <string name="dialog_disagree_privacychange_info">Sie können die Online-Streaming-Dienste von Mi Video nicht nutzen, wenn Sie unserer Datenschutzerklärung nicht zustimmen. Tippen Sie auf \"Abbrechen\", um zurückzugehen, oder auf \"Ablehnen\", um fortzufahren und Mi Video nur als lokalen Player zu verwenden.</string>
   <string name="dialog_disagree_privacychange_title">"Ablehnen?"</string>
   <string name="dialog_privacy_change_info">Wir haben die Mi Video Datenschutzerklärung wegen der Anpassungen der von uns angebotenen Dienste aktualisiert. Um Ihre Rechte als Benutzer sowie die Art und Weise, wie wir Ihre Daten verwenden, vollständig zu verstehen, lesen und akzeptieren Sie unsere &lt;a href=%1$s>Nutzervereinbarung&lt;/a> und &lt;a href=%2$s>Datenschutzerklärung&lt;/a>, bevor Sie die App verwenden.</string>
@@ -283,6 +291,8 @@ Senden Sie diesen Code an den Supervisor."</string>
   <string name="download_complete">Heruntergeladen</string>
   <string name="download_delete_tip">Gewählte Elemente löschen?</string>
   <string name="download_delete_title">Löschen</string>
+  <string name="download_guide_click_icon_to_website_or_enter_url">Auf eine Verknüpfung tippen, um eine Website zu öffnen oder eine URL einzugeben</string>
+  <string name="download_guide_known">Verstanden</string>
   <string name="download_paused">Angehalten</string>
   <string name="download_pending">Ausstehend…</string>
   <string name="download_power_off_tips">Diese Funktion ist jetzt nicht verfügbar</string>
@@ -422,6 +432,12 @@ Senden Sie diesen Code an den Supervisor."</string>
   <string name="galleryplus_network_connect_confirm">Mit WLAN verbinden oder mobile Daten in den Netzwerkeinstellungen einschalten.</string>
   <string name="galleryplus_network_error">Keine Netzwerkverbindung</string>
   <string name="galleryplus_network_not_wifi">Nutzung mobiler Daten zum Streamen von Videos kann zusätzliche Kosten beim Anbieter verursachen</string>
+  <string name="galleryplus_notification_linkvideo_subtitle1" formatted="false">Dateien verwalten %$s. Untertitel hinzufügen %$s. Videos abspielen %$s.</string>
+  <string name="galleryplus_notification_linkvideo_subtitle2">Schützen Sie Ihre privaten Videos mit einem Passwort %$s</string>
+  <string name="galleryplus_notification_linkvideo_subtitle3">Videos von TikTok, Instagram und Twitter herunterladen %$s</string>
+  <string name="galleryplus_notification_linkvideo_title1">%$s Entdecken Sie alle coolen Funktionen von Mi Video!</string>
+  <string name="galleryplus_notification_linkvideo_title2">%$s Tippen, um Ihre Videos zu verwalten</string>
+  <string name="galleryplus_notification_linkvideo_title3">%1$s Videos kostenlos herunterladen %2$s. Dateien verwalten.</string>
   <string name="galleryplus_online_cta">Mi Video benötigt eine Internetverbindung, um normal zu funktionieren. Zustimmen?</string>
   <string name="galleryplus_online_cta_agree">Zustimmen</string>
   <string name="galleryplus_online_cta_disagree">Ablehnen</string>
@@ -439,6 +455,9 @@ Senden Sie diesen Code an den Supervisor."</string>
   <string name="galleryplus_permission_open_settings">Einstellungen</string>
   <string name="galleryplus_permission_refuse">Nein danke</string>
   <string name="galleryplus_permission_retry">Berechtigungen</string>
+  <string name="galleryplus_permission_storage_content_reshowable_video_player">Um den lokalen Videoplayer verwenden zu können, muss diese App zunächst auf den Speicher zugreifen dürfen.</string>
+  <string name="galleryplus_permission_storage_content_unreshowable_video_player">Um den lokalen Videoplayer verwenden zu können, erlauben Sie dieser App den Speicherzugriff im Bereich \"Berechtigungen\" in den Einstellungen.</string>
+  <string name="galleryplus_permission_storage_title">Speicherzugriff erforderlich</string>
   <string name="galleryplus_permission_title">Vorsicht</string>
   <string name="galleryplus_restore_play_speed">Wiedergabe aktuell in normaler Geschwindigkeit</string>
   <string name="galleryplus_save_cancel_toast">Erneut auf \"Zurück\" tippen, um das Speichern des Videos abzubrechen</string>
@@ -512,6 +531,7 @@ für Videos"</string>
   <string name="local_video_create_a_new_playlist">Neue Wiedergabeliste</string>
   <string name="local_video_date">Datum</string>
   <string name="local_video_dialog_default">Standard</string>
+  <string name="local_video_edit_playlist">Wiedergabeliste bearbeiten</string>
   <string name="local_video_from_a_to_z">A bis Z</string>
   <string name="local_video_from_big_to_small">Groß nach klein</string>
   <string name="local_video_from_long_to_short">Lang nach kurz</string>
@@ -523,6 +543,7 @@ für Videos"</string>
   <string name="local_video_notification_btn">In Mi Video ansehen</string>
   <string name="local_video_notification_title">Neues lokales Video gefunden</string>
   <string name="local_video_number_of_selected">%1$d/%2$d gewählt</string>
+  <string name="local_video_shortcut_name">Meine Videos</string>
   <string name="local_video_size">Größe</string>
   <string name="local_video_space">Belegt: %s</string>
   <string name="local_video_time">Dauer</string>
@@ -640,7 +661,7 @@ für Videos"</string>
   <string name="lv_subtitle_onlinesub_size_string_b">Größe: %sB</string>
   <string name="lv_subtitle_onlinesub_title">Online-Untertitel</string>
   <string name="lv_subtitle_open_subtitle_file_title">Untertiteldatei suchen</string>
-  <string name="lv_subtitle_preoffset_max">Weiter als 5 s nicht möglich</string>
+  <string name="lv_subtitle_preoffset_max">Weiter als 5 Sek nicht möglich</string>
   <string name="lv_subtitle_subonline_non_network">Netzwerkverbindung nicht möglich. Verbinden und erneut versuchen.</string>
   <string name="lv_subtitle_synchronization_title">Synchronisieren</string>
   <string name="lv_subtitle_title">Untertitel</string>
@@ -814,6 +835,8 @@ für Videos"</string>
   <string name="ovp_favor">Favoriten</string>
   <string name="ovp_favor_null">Hier keine Elemente</string>
   <string name="ovp_feedback_title">Mi Video Feedback</string>
+  <string name="ovp_hint_new">Neu</string>
+  <string name="ovp_hint_the_latest_version">Aktuell</string>
   <string name="ovp_home_folder_is_null_jump_upfolder_tip">Mediendatei nicht gefunden. Sprung in den übergeordneten Ordner.</string>
   <string name="ovp_home_item_camera">Galerie</string>
   <string name="ovp_home_item_folder">Dateien</string>
@@ -826,14 +849,17 @@ für Videos"</string>
   <string name="ovp_local_videos_title">Lokale Videos</string>
   <string name="ovp_navigation_category">Kategorie</string>
   <string name="ovp_navigation_content">Zusammenarbeit bei Inhalten</string>
+  <string name="ovp_navigation_darkmode">Dark Mode</string>
   <string name="ovp_navigation_favorites">Favoriten</string>
   <string name="ovp_navigation_history">Verlauf</string>
   <string name="ovp_navigation_home">Startseite</string>
   <string name="ovp_navigation_language">Sprache</string>
   <string name="ovp_navigation_localvideo">Lokal</string>
   <string name="ovp_navigation_notice">Benachrichtigungen</string>
+  <string name="ovp_navigation_score">Bewerten Sie unsere App</string>
   <string name="ovp_navigation_setting">Einstellungen</string>
   <string name="ovp_navigation_subscribe">Abonnieren</string>
+  <string name="ovp_navigation_version_update">Nach Aktualisierungen suchen</string>
   <string name="ovp_player_cached_error_btn">Online Videos</string>
   <string name="ovp_player_cached_error_hint_info">Lokale Videos können jetzt nicht abgespielt werden</string>
   <string name="ovp_player_plugin_dlg_neg_btn">Beenden</string>
@@ -1092,6 +1118,7 @@ Sicherheit Ihres Kontos erhöhen"</string>
   <string name="plus_sort_type_time">Zeit</string>
   <string name="plus_tab_gallery">Ordner</string>
   <string name="plus_tab_time">Zeitleiste</string>
+  <string name="popup_click_for_download_video">Video herunterladen</string>
   <string name="privacy_revoke_setting">Indem Sie den Schalter umlegen, widerrufen Sie Ihre Zustimmung zur Datenschutzerklärung von Mi Video.</string>
   <string name="privacy_revoke_title">Zustimmung widerrufen</string>
   <string name="progressbar_title">Auf Sicherheitsprobleme prüfen…</string>
@@ -1106,6 +1133,14 @@ Sicherheit Ihres Kontos erhöhen"</string>
   <string name="push_message_switch">Push-Benachrichtigungen</string>
   <string name="push_message_tips">Einschalten, um Push-Benachrichtigungen zu erhalten</string>
   <string name="pw_channels">Kanäle</string>
+  <string name="question_click_bottom_tab">Sie können auch auf eine Verknüpfung tippen, um eine Website zu öffnen.</string>
+  <string name="question_click_with_light">Auf die Schaltfläche zum Herunterladen tippen, sobald sie aufleuchtet</string>
+  <string name="question_edit_url_here">Suchen oder URL hier eingeben</string>
+  <string name="question_how_to_download_video">Wie kann ich Videos herunterladen?</string>
+  <string name="question_known">Verstanden</string>
+  <string name="question_look_video_here">Heruntergeladene Videos werden hier gespeichert.</string>
+  <string name="question_next">Weiter</string>
+  <string name="question_step">Überspringen</string>
   <string name="read_and_agree">Zustimmen</string>
   <string name="recommend_channels">Empfohlene Kanäle</string>
   <string name="recommend_online_switch">Online-Empfehlungen</string>
@@ -1303,6 +1338,7 @@ Es zeigt nichts an."</string>
   <string name="the_forth_day">Vierter Tag</string>
   <string name="the_hksar_establishment_day">HKSAR Gründungstag</string>
   <string name="the_international_womens_day">Weltfrauentag</string>
+  <string name="the_item_choosed_tint">%s gewählt</string>
   <string name="the_laba_festival">Laba Festival</string>
   <string name="the_labour_day">1. Mai</string>
   <string name="the_lantern_festival">Laternenfest</string>
@@ -1351,6 +1387,7 @@ Es zeigt nichts an."</string>
   <string name="tool_bar_notification_setting_title">Symbolleiste Benachrichtigungleiste</string>
   <string name="top_bar_game_desc">Entdecken Sie hier viele neue Spiele</string>
   <string name="top_bar_game_title">Spielekanal</string>
+  <string name="trending_scroll_load_more">Hochwischen für mehr Videos</string>
   <string name="tuesday">Dienstag</string>
   <string name="tuesday_short">Di</string>
   <string name="tuesday_shortest">D</string>

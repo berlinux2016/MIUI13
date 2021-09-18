@@ -575,9 +575,17 @@
     <item quantity="other">%1$s, %2$s Elemente</item>
     <item quantity="one">%1$s, %2$s Element</item>
   </plurals>
+  <plurals name="trash_purge_dialog_message_cloud">
+    <item quantity="other">%d ausgewählte Elemente werden endgültig aus der Cloud und von allen synchronisierten Geräten gelöscht. Trotzdem löschen?</item>
+    <item quantity="one">%d ausgewähltes Element wird endgültig aus der Cloud und von allen synchronisierten Geräten gelöscht. Trotzdem löschen?</item>
+  </plurals>
   <plurals name="trash_purge_dialog_message_image">
     <item quantity="other">Sie können %d ausgewählte Elemente nicht wiederherstellen, wenn Sie sie löschen. Trotzdem löschen?</item>
     <item quantity="one">Sie können %d ausgewähltes Element nicht wiederherstellen, wenn Sie es löschen. Trotzdem löschen?</item>
+  </plurals>
+  <plurals name="trash_purge_dialog_message_local">
+    <item quantity="other">%d ausgewählte Elemente werden endgültig gelöscht. Trotzdem löschen?</item>
+    <item quantity="one">%d ausgewähltes Element wird endgültig gelöscht. Trotzdem löschen?</item>
   </plurals>
   <plurals name="trash_purge_dialog_message_media">
     <item quantity="other">Sie können %d ausgewählte Elemente nicht wiederherstellen, wenn Sie sie löschen. Trotzdem löschen?</item>
