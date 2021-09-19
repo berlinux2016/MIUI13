@@ -1,5 +1,131 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+  <string-array name="tile_states_airplane">
+    <item>Nicht verfügbar</item>
+    <item>Aus</item>
+    <item>Ein</item>
+  </string-array>
+  <string-array name="tile_states_alarm">
+    <item>Nicht verfügbar</item>
+    <item>Aus</item>
+    <item>Ein</item>
+  </string-array>
+  <string-array name="tile_states_battery">
+    <item>Nicht verfügbar</item>
+    <item>Aus</item>
+    <item>Ein</item>
+  </string-array>
+  <string-array name="tile_states_bt">
+    <item>Nicht verfügbar</item>
+    <item>Aus</item>
+    <item>Ein</item>
+  </string-array>
+  <string-array name="tile_states_cameratoggle">
+    <item>Nicht verfügbar</item>
+    <item>Aus</item>
+    <item>Ein</item>
+  </string-array>
+  <string-array name="tile_states_cast">
+    <item>Nicht verfügbar</item>
+    <item>Aus</item>
+    <item>Ein</item>
+  </string-array>
+  <string-array name="tile_states_cell">
+    <item>Nicht verfügbar</item>
+    <item>Aus</item>
+    <item>Ein</item>
+  </string-array>
+  <string-array name="tile_states_cEintrols">
+    <item>Nicht verfügbar</item>
+    <item>Aus</item>
+    <item>Ein</item>
+  </string-array>
+  <string-array name="tile_states_dark">
+    <item>Nicht verfügbar</item>
+    <item>Aus</item>
+    <item>Ein</item>
+  </string-array>
+  <string-array name="tile_states_dnd">
+    <item>Nicht verfügbar</item>
+    <item>Aus</item>
+    <item>Ein</item>
+  </string-array>
+  <string-array name="tile_states_flashlight">
+    <item>Nicht verfügbar</item>
+    <item>Aus</item>
+    <item>Ein</item>
+  </string-array>
+  <string-array name="tile_states_hotspot">
+    <item>Nicht verfügbar</item>
+    <item>Aus</item>
+    <item>Ein</item>
+  </string-array>
+  <string-array name="tile_states_internet">
+    <item>Nicht verfügbar</item>
+    <item>Aus</item>
+    <item>Ein</item>
+  </string-array>
+  <string-array name="tile_states_inversiEin">
+    <item>Nicht verfügbar</item>
+    <item>Aus</item>
+    <item>Ein</item>
+  </string-array>
+  <string-array name="tile_states_locatiEin">
+    <item>Nicht verfügbar</item>
+    <item>Aus</item>
+    <item>Ein</item>
+  </string-array>
+  <string-array name="tile_states_mictoggle">
+    <item>Nicht verfügbar</item>
+    <item>Aus</item>
+    <item>Ein</item>
+    </string-array>
+    <string-array name="tile_states_night">
+    <item>Nicht verfügbar</item>
+    <item>Aus</item>
+    <item>Ein</item>
+  </string-array>
+  <string-array name="tile_states_reduce_brightness">
+    <item>Nicht verfügbar</item>
+    <item>Aus</item>
+    <item>Ein</item>
+  </string-array>
+  <string-array name="tile_states_reverse">
+    <item>Nicht verfügbar</item>
+    <item>Aus</item>
+    <item>Ein</item>
+  </string-array>
+  <string-array name="tile_states_rotatiEin">
+    <item>Nicht verfügbar</item>
+    <item>Aus</item>
+    <item>Ein</item>
+  </string-array>
+  <string-array name="tile_states_saver">
+    <item>Nicht verfügbar</item>
+    <item>Aus</item>
+    <item>Ein</item>
+  </string-array>
+  <string-array name="tile_states_screenrecord">
+    <item>Nicht verfügbar</item>
+    <item>Aus</item>
+    <item>Ein</item>
+  </string-array>
+  <string-array name="tile_states_wallet">
+    <item>Nicht verfügbar</item>
+    <item>Aus</item>
+    <item>Ein</item>
+  </string-array>
+  <string-array name="tile_states_wifi">
+    <item>Nicht verfügbar</item>
+    <item>Aus</item>
+    <item>Ein</item>
+  </string-array>
+  <string-array name="tile_states_work">
+    <item>Nicht verfügbar</item>
+    <item>Aus</item>
+    <item>Ein</item>
+  </string-array>
+
   <string-array name="animator_duration_scale_entries">
     <item>Aus</item>
     <item>Skala 0.5x</item>
@@ -253,7 +379,7 @@
     <item>MIDI</item>
   </string-array>
   <string-array name="select_logd_system_levels">
-    <item>Off</item>
+    <item>Aus</item>
     <item>Error</item>
     <item>Warn</item>
     <item>Info</item>

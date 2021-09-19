@@ -1,5 +1,50 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+  <string name="adaptive_connectivity_switch_off">Aus</string>
+  <string name="adaptive_connectivity_switch_on">Ein</string>
+  <string name="app_notification_field_summary">Benachrichtigungen aus einzelnen Apps steuern</string>
+  <string name="biometric_settings_hand_back_to_guardian">Telefon an deine Eltern zurückgeben</string>
+  <string name="bluetooth_plugins_check_summary">Aktualisierungen von Bluetooth-Plugins prüfen</string>
+  <string name="bluetooth_plugins_check_title">Bluetooth-Plugins prüfen</string>
+  <string name="guest_reset_guest">Gast zurücksetzen</string>
+  <string name="guest_reset_guest_confirm_button">Zurücksetzen</string>
+  <string name="guest_reset_guest_dialog_title">Gast zurücksetzen?</string>
+  <string name="guest_resetting">Gast zurücksetzen…</string>
+  <string name="lockpassword_choose_password_description">Für zusätzliche Sicherheit ein Passwort zum Entsperren des Geräts festlegen</string>
+  <string name="lockpassword_choose_pin_description">Für zusätzliche Sicherheit eine PIN zum Entsperren des Geräts festlegen</string>
+  <string name="lockpattern_choose_pattern_description">Für zusätzliche Sicherheit ein Muster zum Entsperren des Geräts festlegen</string>
+  <string name="mobile_data_disable_message">Sie haben über %s keinen Zugang zu Daten oder zum Internet. Das Internet wird nur über WLAN verfügbar sein.</string>
+  <string name="mobile_data_disable_message_default_carrier">Ihr Anbieter</string>
+  <string name="mobile_data_disable_title">Mobile Daten ausschalten?</string>
+  <string name="my_device_info_basic_info_category_title">Allgemeine Infos</string>
+  <string name="my_device_info_device_details_category_title">Gerätedetails</string>
+  <string name="my_device_info_device_identifiers_category_title">Gerätekennungen</string>
+  <string name="my_device_info_legal_category_title">Recht &amp; Regulierung</string>
+  <string name="nfc_setting_off">Aus</string>
+  <string name="nfc_setting_on">Ein</string>
+  <string name="one_handed_mode_use_shortcut_category">Verknüpfung verwenden zu</string>
+  <string name="power_menu_power_prevent_ringing_hint">"Klingeln verhindern:
+Verknüpfung im Lautstärkemenü verfügbar."</string>
+  <string name="power_menu_power_volume_up_hint">"Ein/Aus &amp; Notfallmenü:
+Gleichzeitig Ein/Aus- und Lautertaste drücken."</string>
+  <string name="power_menu_summary_long_press_for_assist_disabled_no_action">Gedrückt halten deaktiviert</string>
+  <string name="power_menu_summary_long_press_for_assist_disabled_with_power_menu">Gedrückt halten, um das Power-Menü aufzurufen</string>
+  <string name="power_menu_summary_long_press_for_assist_enabled">Für Assistent gedrückt halten</string>
+  <string name="prevent_ringing_option_unavailable_lpp_summary">Zum Aktivieren zuerst \"Einschalttaste gedrückt halten\" im Power-Menü.</string>
+  <string name="remove_credential_management_app_dialog_message">Diese App verwaltet keine Zertifikate, aber sie bleibt auf Ihrem Gerät. Alle Zertifikate, die von der App installiert wurden, werden deinstalliert.</string>
+  <string name="remove_credential_management_app_dialog_title">Diese App entfernen</string>
+  <string name="security_settings_face_enroll_consent_introduction_title">Gesichtsentsperrung zulassen</string>
+  <string name="security_settings_face_enroll_introduction_consent_message">Erlauben Sie Ihrem Kind, sein Gesicht zu verwenden, um sein Telefon zu entsperren oder zu bestätigen, dass es es ist. Dies geschieht, wenn es sich bei Apps anmeldet, einen Kauf bestätigt und vieles mehr.</string>
+  <string name="security_settings_fingerprint_bad_calibration">Fingerabdrucksensor verwenden nicht möglich. Besuchen Sie einen Reparaturdienstleister</string>
+  <string name="security_settings_fingerprint_enroll_consent_introduction_title">Fingerabdruckentsperrung zulassen</string>
+  <string name="security_settings_fingerprint_enroll_introduction_consent_message">Erlauben Sie Ihrem Kind, sein Telefon mit seinem Fingerabdruck zu entsperren oder zu verifizieren, dass es ihm gehört. Dies geschieht, wenn es sich bei Apps anmeldet, einen Kauf bestätigt und vieles mehr.</string>
+  <string name="security_settings_fingerprint_enroll_introduction_footer_title_consent_1">Sie und Ihr Kind haben die Kontrolle</string>
+  <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">Fingerabdruckentsperrung erstellt ein einzigartiges Modell des Fingerabdrucks Ihres Kindes, um zu überprüfen, ob es sich um das Kind handelt. Um dieses Fingerabdruckmodell während der Einrichtung zu erstellen, werden Bilder des Fingerabdrucks aus verschiedenen Positionen aufgenommen.</string>
+  <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_3">Wenn sie Pixel Imprint verwenden, werden Bilder verwendet, um ihr Fingerabdruckmodell zu aktualisieren. Die Bilder, die zur Erstellung des Fingerabdruckmodells Ihres Kindes verwendet werden, werden nie gespeichert, aber das Fingerabdruckmodell wird sicher auf dem Telefon gespeichert und verlässt das Telefon nie. Die gesamte Verarbeitung erfolgt sicher auf dem Telefon.</string>
+  <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4">Sie und Ihr Kind können ihre Fingerabdruckbilder und -modelle löschen oder die Fingerabdrucksperre jederzeit in den Einstellungen deaktivieren. Fingerabdruckbilder und -modelle werden auf dem Telefon gespeichert, bis sie gelöscht werden.</string>
+  <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_5">Das Telefon Ihres Kindes kann entsperrt werden, wenn es dies nicht beabsichtigt, z. B. wenn jemand es an seinen Finger hält.</string>
+  <string name="usb_transcode_files_summary">Videos werden auf mehr Mediaplayern abgespielt, aber die Qualität kann beeinträchtigt sein.</string>
+
   <string name="Accounts_settings_title">Konten</string>
   <string name="Data_set">"Daten: "</string>
   <string name="a11y_settings_label">Einstellungen Barrierefreiheit</string>
@@ -75,6 +120,12 @@
   <string name="accessibility_autoclick_short_title">Kurz</string>
   <string name="accessibility_autoclick_shorter_desc">Kürzer</string>
   <string name="accessibility_back">Zurück</string>
+  <string name="accessibility_button_gesture_description">"Barrierefreie Funktionen sind von jedem Bildschirm aus schnell zugänglich.
+
+Gehen Sie zu den Eingabehilfen-Einstellungen und wählen Sie eine Funktion aus. Tippen Sie auf die Verknüpfung und wählen Sie die Eingabehilfetaste.
+
+Um stattdessen die Eingabehilfetaste in der Navigationsleiste zu verwenden, wechseln Sie zur 2- oder 3-Tasten-Navigation."</string>
+
   <string name="accessibility_caption_master_switch_summary">Nur für unterstützte Apps</string>
   <string name="accessibility_caption_master_switch_title">Untertitel verwenden</string>
   <string name="accessibility_caption_preference_summary">Nicht alle Apps unterstützen diese Untertiteleinstellungen</string>
@@ -181,6 +232,7 @@ Sie können nicht auf der Tastatur oder Navigationsleiste zoomen."</string>
   <string name="accessibility_screen_magnification_title">Vergrößerung</string>
   <string name="accessibility_screen_option">Optionen</string>
   <string name="accessibility_screen_reader_haptic_title">Bildschirmleser</string>
+  <string name="accessibility_shortcut_edit_dialog_summary_software_floating"><annotation id="link">Mehr Optionen</annotation></string>
   <string name="accessibility_service_action_perform_description">Ihre Interaktionen mit einer App oder einem HW-Sensor können verfolgt und in Ihrem Namen mit Apps interagiert werden.</string>
   <string name="accessibility_service_action_perform_title">Anzeigen und Ausführen von Aktionen</string>
   <string name="accessibility_service_default_description">Keine Beschreibung verfügbar</string>
@@ -3304,8 +3356,8 @@ Für weitere Informationen wenden Sie sich bitte an den Admin Ihres Unternehmens
   <string name="fingerprint_intro_error_max">Sie haben die maximale Anzahl an Fingerabdrücken hinzugefügt</string>
   <string name="fingerprint_intro_error_unknown">Mehr Fingerabdrücke nicht möglich</string>
   <string name="fingerprint_last_delete_confirm">Ja, entfernen</string>
-  <string name="fingerprint_last_delete_message">Sie werden nicht in der Lage sein, Ihr Gerät mit Ihrem Fingerabdruck zu entsperren, Einkäufe zu autorisieren, oder sich an Apps anzumelden</string>
-  <string name="fingerprint_last_delete_message_profile_challenge">Sie werden nicht in der Lage sein, Ihr Gerät mit Ihrem Fingerabdruck zu entsperren, Einkäufe zu autorisieren, oder sich an Apps anzumelden</string>
+  <string name="fingerprint_last_delete_message">Sie können Ihren Fingerabdruck nicht verwenden, um Ihr Telefon zu entsperren oder Ihre Identität in Apps zu bestätigen.</string>
+  <string name="fingerprint_last_delete_message_profile_challenge">Sie können Ihren Fingerabdruck nicht verwenden, um Ihr Arbeitsprofil zu entsperren, Käufe zu autorisieren oder sich bei Arbeits-Apps anzumelden.</string>
   <string name="fingerprint_last_delete_title">Alle Fingerabdrücke löschen?</string>
   <string name="fingerprint_list_title">Fingerabdruck</string>
   <string name="fingerprint_lock_first">Hauptprofil entsperren</string>
@@ -3577,6 +3629,7 @@ Wenn Sie automatische Sicherungen einschalten, werden Geräte- und App-Daten per
   <string name="game_mode_settings">Spielemodus</string>
   <string name="game_mode_summary">Leistung für Spiele verbessern und gleichzeitig die Synchronisation und Netzwerkverbindung im Hintergrund für andere Apps einschränken</string>
   <string name="game_storage_settings">Spiele</string>
+  <string name="general_notification_header">Verwalten</string>
   <string name="general_text">Textfeld</string>
   <string name="general_time">Zeit: %1$d:%2$d. Lange Vibrationen stehen für Stunden, kurze Vibrationen für Minuten. Zwischen Stunden und Minuten wird eine kurze Pause eingelegt. Doppeltippen, um es zu versuchen.</string>
   <string name="gentle_notifications_also_display">Auch anzeigen in/auf</string>
@@ -4523,6 +4576,7 @@ Diese PIN muss so viele Ziffern enthalten wie das erste Profil."</string>
   <string name="lockpassword_choose_your_pin_header_second_space">PIN für Zweitprofil</string>
   <string name="lockpassword_choose_your_pin_message">Zur Sicherheit PIN festlegen</string>
   <string name="lockpassword_choose_your_pin_title" formatted="false">%1$d-%2$d Ziffern eingeben</string>
+  <string name="lockpassword_choose_your_password_header_for_biometrics">Passworts für die Verwendung von Gesicht oder Fingerabdruck festlegen</string>
   <string name="lockpassword_choose_your_screen_lock_header">Bildschirmsperre festlegen</string>
   <string name="lockpassword_clear_label">Löschen</string>
   <string name="lockpassword_confirm_for_second_user">Passwort für Zweitprofil bestätigen</string>

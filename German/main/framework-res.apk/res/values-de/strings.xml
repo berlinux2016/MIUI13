@@ -1,5 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+  <string name="fingerprint_acquired_immobile">Fingerposition jedes Mal leicht ändern</string>
+  <string name="fingerprint_error_bad_calibration">Fingerabdrucksensor verwenden nicht möglich. Suchen Sie einen Reparaturdienstleister auf</string>
+  <string name="fingerprint_recalibrate_notification_content">Einen Reparaturdienstleister aufsuchen.</string>
+  <string name="fingerprint_recalibrate_notification_name">Fingerabdruckentsperrung</string>
+  <string name="fingerprint_recalibrate_notification_title">Fingerabdrucksensor verwenden nicht möglich</string>
+  <string name="permission_request_notification_for_app_with_subtitle">"Berechtigung von %1$s
+für Konto %2$s beantragt."</string>
+
   <string name="BaMmi">Anrufsperre</string>
   <string name="CLIRDefaultOffNextCallOff">Rufnummernanzeige ist standardmäßig aktiviert. Nächster Anruf: Aktiviert</string>
   <string name="CLIRDefaultOffNextCallOn">Rufnummernanzeige ist standardmäßig aktiviert. Nächster Anruf: Deaktiviert</string>
@@ -651,9 +659,9 @@ Sie können diesen Kurzbefehl unter Einstellungen > Eingabehilfen in eine andere
   <string name="face_error_user_canceled">Gesichtserkennung vom Benutzer abgebrochen</string>
   <string name="face_icon_content_description">Gesichtssymbol</string>
   <string name="face_name_template">Gesicht %d</string>
-  <string name="face_recalibrate_notification_content">Um die Erkennung zu verbessern, registrieren Sie bitte Ihr Gesicht erneut.</string>
+  <string name="face_recalibrate_notification_content">Tippen, um Ihr Gesichtsmodell zu löschen und dann Ihr Gesicht erneut hinzufügen.</string>
   <string name="face_recalibrate_notification_name">Gesichtserkennung</string>
-  <string name="face_recalibrate_notification_title">Gesicht neu registrieren</string>
+  <string name="face_recalibrate_notification_title">Problem mit Gesichtsentsperrung</string>
   <string name="faceunlock_multiple_failures">Maximale Face Unlock-Versuche überschritten</string>
   <string name="factory_reset_message">Admin-App kann nicht verwendet werden. Ihr Gerät wird nun gelöscht. Bei Fragen kontaktieren Sie Ihren Firmenamin.</string>
   <string name="factory_reset_warning">Ihr Gerät wird gelöscht</string>

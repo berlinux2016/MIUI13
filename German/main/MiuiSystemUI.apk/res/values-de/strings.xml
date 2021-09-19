@@ -1,5 +1,23 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+  <string name="camera_recording_announcement">Kameraaufnahme…</string>
+  <string name="camera_stopped_recording_announcement">Kameraaufnahme gestoppt</string>
+  <string name="guest_reset_guest">Gast zurücksetzen</string>
+  <string name="fguest_reset_guest_confirm_button">Zurücksetzen</string>
+  <string name="guest_reset_guest_dialog_title">Gast zurücksetzen?</string>
+  <string name="guest_resetting">Gast zurücksetzen…</string>
+  <string name="keyguard_unlock_press">Zum Öffnen drücken</string>
+  <string name="mic_and_camera_recording_announcement">Kamera- und Mikrofonaufnahme…</string>
+  <string name="mic_camera_stopped_recording_announcement">Kamera- und Mikrofonaufnahme gestoppt</string>
+  <string name="mic_recording_announcement">Mikrofonaufnahme…</string>
+  <string name="mic_stopped_recording_announcement">Mikrofonaufnahme gestoppt</string>
+  <string name="new_status_content_description">%1$s hat eine Statusaktualisierung: %2$s</string>
+  <string name="paused_by_dnd">Pausiert durch \"Nicht stören\"</string>
+  <string name="person_available">Verfügbar</string>
+  <string name="reboot_info_auto_boot_global">Bevorstehender Alarm: %s</string>
+  <string name="reboot_info_shutdown_alarm_global">Abschaltalarm: %s</string>
+  <string name="wallet_secondary_label_updating">Aktualisierung</string>
+
   <string name="abbrev_wday_month_day_no_year">EEEE, d. MMMM</string>
   <string name="abbrev_wday_month_day_no_year_alarm">EEE, d. MMM</string>
   <string name="abc_action_bar_home_description">Zur Startseite</string>
@@ -1691,10 +1709,12 @@ Screenshot zu erstellen"</string>
   <string name="nav_guide_message">Gesten verwenden, um Soft-Tasten ein- oder auszublenden</string>
   <string name="nav_guide_ok">Konfiguration</string>
   <string name="nav_guide_title">Softbuttons verbergen</string>
+  <string name="new_notification_text_content_description">%1$s hat eine Nachricht gesendet: %2$s</string>
   <string name="night">Abend</string>
   <string name="no_application">Keine Apps</string>
   <string name="no_auto_saver_action">Nein danke</string>
   <string name="no_bubbles">Ablehnen</string>
+  <string name="no_conversations_text">Ihre letzten Unterhaltungen werden hier angezeigt</string>
   <string name="no_multi_window_app">Keine Apps, die Multi-Windows-Modus unterstützen</string>
   <string name="no_notification_tips">Keine Benachrichtigungen</string>
   <string name="no_shortcut">%1$s unterstützt keine Unterhaltungsfunktionen</string>
@@ -2768,6 +2788,7 @@ Diese App hat keine Aufnahmeberechtigung erhalten, konnte aber über dieses USB-
   <string name="vpn_title_long">Verbindung zum VPN über %s</string>
   <string name="wait_for_debugger">Auf Debugger warten</string>
   <string name="wait_for_debugger_summary">Debugged-App wartet auf den Debugger, bevor sie ausgeführt wird</string>
+  <string name="wallet_secondary_label_no_card">Karte hinzufügen</string>
   <string name="wallpaper_global_des_drop_down_notify_text">Loslassen, um Details zu sehen</string>
   <string name="wapi_all_sel_mode">Wählen</string>
   <string name="wapi_auto_sel_cert">Automatisch wählen</string>
@@ -2867,6 +2888,7 @@ Speicherung von Anmeldedaten ist evtl. nicht aktiviert."</string>
   <string name="wifi_wapi_psk_type">Passworttyp</string>
   <string name="wifi_wapi_user_certificate">Benutzerzertifikat</string>
   <string name="wifi_whitelist_roaming_summary">Roaming zwischen verschiedenen SSID-WPA/WPA2-PSK-APs mit derselben Gateway-MAC-Adresse aktivieren</string>
+  <string name="wifitrackerlib_wifi_network_not_found">Verbinden nicht möglich. Später erneut versuchen.</string>
   <string name="window_animation_scale_title">Fensteranimation</string>
   <string name="wireless_change_to_ac_charging">Auf kabelgebundenes Laden umgeschaltet</string>
   <string name="wireless_charge_current">Laden</string>
