@@ -1,5 +1,44 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+  <string-array name="widget_component_add_source">
+    <item>Desktop-Auswahl</item>
+    <item>In-App</item>
+    <item>App-Verknüpfung</item>
+    <item>Themenseite</item>
+    <item>Klassische Komponenten</item>
+  </string-array>
+  <string-array name="widget_component_add_way">
+    <item>Ziehen und ablegen von der Picker-Detailseite</item>
+    <item>Taste zum Hinzufügen der Auswahldetailseite</item>
+    <item>Ziehen und ablegen von der Picker-Startseite</item>
+  </string-array>
+  <string-array name="widget_component_default_source">
+    <item>Kein Standard</item>
+    <item>Desktop</item>
+    <item>Negativer Bildschirm</item>
+  </string-array>
+  <string-array name="widget_component_delete_way">
+    <item>Verknüpfung löschen</item>
+    <item>Ziehen</item>
+    <item>Deinstallieren</item>
+  </string-array>
+  <string-array name="widget_drag_type_name">
+    <item>Auf dem Desktop</item>
+    <item>Negativer Bildschirm</item>
+    <item>Desktop zu negativem Bildschirm</item>
+    <item>Negativer Bildschirm zu Desktop</item>
+  </string-array>
+  <string-array name="widget_host_module_name">
+    <item>Desktop</item>
+    <item>Negativer screen_component Bereich</item>
+    <item>Negativer Bildschirm_Echtzeit-Dynamik</item>
+  </string-array>
+  <string-array name="widget_package_install_status">
+    <item>Nicht installiert</item>
+    <item>Installiert</item>
+    <item>Aufrüstbar</item>
+  </string-array>
+
   <string-array name="cell_icon_size_entries">
     <item>Sehr Klein</item>
     <item>Klein</item>
