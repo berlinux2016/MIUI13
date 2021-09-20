@@ -1,13 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string name="fingerprint_acquired_immobile">Fingerposition jedes Mal leicht ändern</string>
-  <string name="fingerprint_error_bad_calibration">Fingerabdrucksensor verwenden nicht möglich. Suchen Sie einen Reparaturdienstleister auf</string>
-  <string name="fingerprint_recalibrate_notification_content">Einen Reparaturdienstleister aufsuchen.</string>
-  <string name="fingerprint_recalibrate_notification_name">Fingerabdruckentsperrung</string>
-  <string name="fingerprint_recalibrate_notification_title">Fingerabdrucksensor verwenden nicht möglich</string>
-  <string name="permission_request_notification_for_app_with_subtitle">"Berechtigung von %1$s
-für Konto %2$s beantragt."</string>
-
   <string name="BaMmi">Anrufsperre</string>
   <string name="CLIRDefaultOffNextCallOff">Rufnummernanzeige ist standardmäßig aktiviert. Nächster Anruf: Aktiviert</string>
   <string name="CLIRDefaultOffNextCallOn">Rufnummernanzeige ist standardmäßig aktiviert. Nächster Anruf: Deaktiviert</string>
@@ -677,11 +669,13 @@ Sie können diesen Kurzbefehl unter Einstellungen > Eingabehilfen in eine andere
   <string name="find_on_page">Auf der Seite suchen</string>
   <string name="find_previous">Aufwärts weitersuchen</string>
   <string name="fingerprint_acquired_imager_dirty">Fingerabdrucksensor ist verschmutzt. Bitte reinigen und erneut versuchen.</string>
+  <string name="fingerprint_acquired_immobile">Fingerposition jedes Mal leicht ändern</string>
   <string name="fingerprint_acquired_insufficient">Fingerabdruck wurde nicht verarbeitet. Bitte erneut versuchen.</string>
   <string name="fingerprint_acquired_partial">Fingerabdruck nur teilweise erkannt. Bitte erneut versuchen.</string>
   <string name="fingerprint_acquired_too_fast">Finger zu schnell bewegt. Bitte erneut versuchen.</string>
   <string name="fingerprint_acquired_too_slow">Finger zu langsam bewegt. Bitte erneut versuchen.</string>
   <string name="fingerprint_authenticated">Fingerabdruck authentifiziert</string>
+  <string name="fingerprint_error_bad_calibration">Fingerabdrucksensor verwenden nicht möglich. Suchen Sie einen Reparaturdienstleister auf</string>
   <string name="fingerprint_error_canceled">Fingerabdruckverarbeitung abgebrochen</string>
   <string name="fingerprint_error_hw_not_available">Fingerabdrucksensor nicht verfügbar</string>
   <string name="fingerprint_error_hw_not_present">Dieses Gerät hat keinen Fingerabdrucksensor</string>
@@ -696,6 +690,9 @@ Sie können diesen Kurzbefehl unter Einstellungen > Eingabehilfen in eine andere
   <string name="fingerprint_icon_content_description">Fingerabdrucksymbol</string>
   <string name="fingerprint_name_template">%d-Finger</string>
   <string name="fingerprint_not_recognized">Nicht erkannt</string>
+  <string name="fingerprint_recalibrate_notification_content">Reparaturdienstleister aufsuchen</string>
+  <string name="fingerprint_recalibrate_notification_name">Fingerabdruckentsperrung</string>
+  <string name="fingerprint_recalibrate_notification_title">Fingerabdrucksensor verwenden nicht möglich</string>
   <string name="fingerprints">Fingerabdrücke:</string>
   <string name="floating_toolbar_close_overflow_description">Überlauf schließen</string>
   <string name="floating_toolbar_open_overflow_description">Weitere Optionen</string>
@@ -1300,6 +1297,8 @@ Versuchen Sie es in %2$d Sekunden erneut."</string>
   <string name="permgrouprequestdetail_location">App hat nur Standortzugriff, während Sie die App verwenden</string>
   <string name="permission">Erlauben</string>
   <string name="permission_remember_choice">Merken</string>
+  <string name="permission_request_notification_for_app_with_subtitle">"Berechtigung angefordert von %1$s
+für Konto %2$s."</string>
   <string name="permission_request_notification_title">Berechtigung angefordert</string>
   <string name="permission_request_notification_with_subtitle">Berechtigung angefordert für Konto %s</string>
   <string name="permission_title">Genehmigung</string>
@@ -1894,15 +1893,15 @@ Möchten Sie sie schließen?"</string>
   <string name="wifi_no_internet">WLAN hat keine Internetverbindung</string>
   <string name="wifi_no_internet_detailed">Tippen für Optionen</string>
   <string name="wifi_p2p_enabled_notification_message">Zum Aufrufen der Einstellungen berühren</string>
-  <string name="wifi_p2p_enabled_notification_title">WLAN Direct ist aktiviert</string>
+  <string name="wifi_p2p_enabled_notification_title">Wi-Fi Direct ist aktiviert</string>
   <string name="wifi_p2p_enter_pin_message">Geben Sie die PIN ein:</string>
-  <string name="wifi_p2p_failed_message">Starten von WLAN Direct nicht möglich</string>
+  <string name="wifi_p2p_failed_message">Starten von Wi-Fi Direct nicht möglich</string>
   <string name="wifi_p2p_frequency_conflict_message">Telefon wird vorübergehend vom WLAN getrennt, während eine Verbindung mit %1$s hergestellt wird</string>
   <string name="wifi_p2p_from_message">Von:</string>
   <string name="wifi_p2p_invitation_sent_title">Einladung gesendet</string>
   <string name="wifi_p2p_invitation_to_connect_title">Einladung zum Aufbau einer Verbindung</string>
   <string name="wifi_p2p_to_message">An:</string>
-  <string name="wifi_p2p_turnon_message">WLAN Direct-Betrieb starten. Hierdurch wird der WLAN-Client-/-Hotspot-Betrieb deaktiviert.</string>
+  <string name="wifi_p2p_turnon_message">Wi-Fi Direct-Betrieb starten. Hierdurch wird der WLAN-Client-/-Hotspot-Betrieb deaktiviert.</string>
   <string name="wifi_softap_config_change">Änderungen an Ihren Hotspot-Einstellungen</string>
   <string name="wifi_softap_config_change_detailed">Dieses Gerät unterstützt Ihre Präferenz für nur 5 GHz nicht. Stattdessen verwendet dieses Gerät das 5-GHz-Band, wenn verfügbar.</string>
   <string name="wifi_softap_config_change_summary">Ihr Hotspot-Band hat sich geändert.</string>

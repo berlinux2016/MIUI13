@@ -1,23 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string name="camera_recording_announcement">Kameraaufnahme…</string>
-  <string name="camera_stopped_recording_announcement">Kameraaufnahme gestoppt</string>
-  <string name="guest_reset_guest">Gast zurücksetzen</string>
-  <string name="fguest_reset_guest_confirm_button">Zurücksetzen</string>
-  <string name="guest_reset_guest_dialog_title">Gast zurücksetzen?</string>
-  <string name="guest_resetting">Gast zurücksetzen…</string>
-  <string name="keyguard_unlock_press">Zum Öffnen drücken</string>
-  <string name="mic_and_camera_recording_announcement">Kamera- und Mikrofonaufnahme…</string>
-  <string name="mic_camera_stopped_recording_announcement">Kamera- und Mikrofonaufnahme gestoppt</string>
-  <string name="mic_recording_announcement">Mikrofonaufnahme…</string>
-  <string name="mic_stopped_recording_announcement">Mikrofonaufnahme gestoppt</string>
-  <string name="new_status_content_description">%1$s hat eine Statusaktualisierung: %2$s</string>
-  <string name="paused_by_dnd">Pausiert durch \"Nicht stören\"</string>
-  <string name="person_available">Verfügbar</string>
-  <string name="reboot_info_auto_boot_global">Bevorstehender Alarm: %s</string>
-  <string name="reboot_info_shutdown_alarm_global">Abschaltalarm: %s</string>
-  <string name="wallet_secondary_label_updating">Aktualisierung</string>
-
   <string name="abbrev_wday_month_day_no_year">EEEE, d. MMMM</string>
   <string name="abbrev_wday_month_day_no_year_alarm">EEE, d. MMM</string>
   <string name="abc_action_bar_home_description">Zur Startseite</string>
@@ -655,6 +637,8 @@ Abtastrate"</string>
   <string name="camera_key_action_shortcut_wake">Sperren/Entsperren</string>
   <string name="camera_key_action_toggle_title">Auslöser</string>
   <string name="camera_label">Kamera öffnen</string>
+  <string name="camera_recording_announcement">Kameraaufnahme…</string>
+  <string name="camera_stopped_recording_announcement">Kameraaufnahme gestoppt</string>
   <string name="cancel">Abbrechen</string>
   <string name="car_lockscreen_disclaimer_text">Informieren Sie sich über die Fahrbedingungen und halten Sie sich stets an die geltenden Gesetze. Die Wegbeschreibung kann ungenau, unvollständig, gefährlich, ungeeignet, verboten oder mit der Durchquerung von Verwaltungsbereichen verbunden sein. Geschäftsinformationen können auch ungenau oder unvollständig sein. Die Daten sind nicht in Echtzeit, und die Genauigkeit der Ortung kann nicht garantiert werden. Verwenden Sie während der Fahrt keine Apps, die nicht für Android Auto gedacht sind.</string>
   <string name="car_lockscreen_disclaimer_title">Fahren Sie sicher</string>
@@ -1014,6 +998,7 @@ innerhalb des Kreises befindet"</string>
   <string name="face_unlock_swipe_up_retry">Nach oben wischen, um es erneut zu versuchen</string>
   <string name="failed_to_open_app_settings_toast">Einstellungen öffnen für %1$s fehlgeschlagen</string>
   <string name="fake_cell_alert_detect_error">Das wurde nicht von einer gefälschten Basiszelle geschickt.</string>
+  <string name="fguest_reset_guest_confirm_button">Zurücksetzen</string>
   <string name="finger_error_single_mode">Fingerabdruckscanner im Einhandmodus verwenden nicht möglich. Einhandmodus beenden und erneut versuchen.</string>
   <string name="fingerprint_add_text">Fingerabdruckschnittstelle wurde aktualisiert. Fügen Sie Ihren Fingerabdruck erneut hinzu.</string>
   <string name="fingerprint_add_title">Fingerabdruck hinzufügen</string>
@@ -1107,6 +1092,10 @@ innerhalb des Kreises befindet"</string>
   <string name="guest_notification_remove_action">GAST ENTFERNEN</string>
   <string name="guest_notification_text">Um Apps und Daten zu löschen, entfernen Sie Gastbenutzer</string>
   <string name="guest_notification_title">Gastbenutzer</string>
+  <string name="guest_reset_guest">Gast zurücksetzen</string>
+  <string name="guest_reset_guest_confirm_button">Zurücksetzen</string>
+  <string name="guest_reset_guest_dialog_title">Gast zurücksetzen?</string>
+  <string name="guest_resetting">Gast zurücksetzen…</string>
   <string name="guest_wipe_session_dontwipe">Ja, fortsetzen</string>
   <string name="guest_wipe_session_message">Möchten Sie Ihre Sitzung fortsetzen?</string>
   <string name="guest_wipe_session_title">Willkommen zurück, Gast!</string>
@@ -1345,6 +1334,7 @@ Weiterhin zeigen?"</string>
   <string name="keyguard_sim_unlock_progress_dialog_message">SIM-Karte entsperren…</string>
   <string name="keyguard_torch_cover_text">Halten Sie die Power-Taste gedrückt, um die Lampe dauerhaft einzuschalten</string>
   <string name="keyguard_unlock">Zum Entsperren hochwischen</string>
+  <string name="keyguard_unlock_press">Zum Öffnen drücken</string>
   <string name="kg_enter_confirm_pin_hint">Gewünschten PIN-Code bestätigen</string>
   <string name="kg_face_not_recognized">Nicht erkannt</string>
   <string name="kg_failed_attempts_almost_at_erase_profile">Sie haben %1$d-mal das Telefon nicht korrekt entsperrt. Nach %2$d weiteren erfolglosen Versuchen wird das Arbeitsprofil entfernt, wodurch alle Profildaten gelöscht werden.</string>
@@ -1526,6 +1516,10 @@ Screenshot zu erstellen"</string>
   <string name="memory_leak">Speicherleck</string>
   <string name="menu_ime">Tastaturumschalter</string>
   <string name="mic_active">Microfon aktiviert</string>
+  <string name="mic_and_camera_recording_announcement">Kamera- und Mikrofonaufnahme…</string>
+  <string name="mic_camera_stopped_recording_announcement">Kamera- und Mikrofonaufnahme gestoppt</string>
+  <string name="mic_recording_announcement">Mikrofonaufnahme…</string>
+  <string name="mic_stopped_recording_announcement">Mikrofonaufnahme gestoppt</string>
   <string name="midnight">Nacht</string>
   <string name="miui_guide_dialog_button_negative_text">Einstellungen</string>
   <string name="miui_guide_dialog_button_positive_text">Verstanden</string>
@@ -1710,6 +1704,7 @@ Screenshot zu erstellen"</string>
   <string name="nav_guide_ok">Konfiguration</string>
   <string name="nav_guide_title">Softbuttons verbergen</string>
   <string name="new_notification_text_content_description">%1$s hat eine Nachricht gesendet: %2$s</string>
+  <string name="new_status_content_description">%1$s hat eine Statusaktualisierung: %2$s</string>
   <string name="night">Abend</string>
   <string name="no_application">Keine Apps</string>
   <string name="no_auto_saver_action">Nein danke</string>
@@ -1857,6 +1852,8 @@ Screenshot zu erstellen"</string>
   <string name="partial_screenshot_save_successful">Erfolgreich gespeichert</string>
   <string name="partial_screenshot_share">Teilen</string>
   <string name="password_toggle_content_description">Passwort anzeigen</string>
+  <string name="paused_by_dnd">Pausiert durch \"Nicht stören\"</string>
+  <string name="person_available">Verfügbar</string>
   <string name="phone_hint">Vom Telefonsymbol her wischen</string>
   <string name="phone_label">Telefon öffnen</string>
   <string name="phone_locked_foget_password">Passwort vergessen?</string>
@@ -2137,6 +2134,8 @@ Screenshot zu erstellen"</string>
   <string name="quick_settings_work_mode_label">Arbeitsmodus</string>
   <string name="quick_step_accessibility_toggle_overview">Toggle-Übersicht</string>
   <string name="rapid_charge_mode_tip">Schnellladung</string>
+  <string name="reboot_info_auto_boot_global">Bevorstehender Alarm: %s</string>
+  <string name="reboot_info_shutdown_alarm_global">Abschaltalarm: %s</string>
   <string name="recent_cannot_dock">Geteilter Bildschirm kann nicht im Zweitprofil verwendet werden</string>
   <string name="recent_dock_tip">Tippen, um die Apps auszuwählen</string>
   <string name="recent_menu_item_info">Info</string>
@@ -2789,6 +2788,7 @@ Diese App hat keine Aufnahmeberechtigung erhalten, konnte aber über dieses USB-
   <string name="wait_for_debugger">Auf Debugger warten</string>
   <string name="wait_for_debugger_summary">Debugged-App wartet auf den Debugger, bevor sie ausgeführt wird</string>
   <string name="wallet_secondary_label_no_card">Karte hinzufügen</string>
+  <string name="wallet_secondary_label_updating">Aktualisierung</string>
   <string name="wallpaper_global_des_drop_down_notify_text">Loslassen, um Details zu sehen</string>
   <string name="wapi_all_sel_mode">Wählen</string>
   <string name="wapi_auto_sel_cert">Automatisch wählen</string>
