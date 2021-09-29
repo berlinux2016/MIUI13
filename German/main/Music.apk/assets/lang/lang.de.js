@@ -379,7 +379,7 @@
 	"sort_by_time": "Datum",
 	"sort_by_language": "Sprache",
 	"only_online_can_select_quality": "Sie können die Qualität nur für die Musik auswählen, die Sie streamen.",
-	"upgrade_remind": "Aktualisierung vorhanden",
+	"upgrade_remind": "Update vorhanden",
 	"service_stop": "Dienst eingestellt",
 	"upgrade_suggest": "Wir unterbrechen unseren aktuellen Streamingdienst, während wir urheberrechtliche Fragen klären. Aktualisieren Sie auf die aktuellste Version der Musik-App, um qualitativ hochwertige Musik zu hören.",
 	"upgrade_force": "Wir unterbrechen unseren aktuellen Streamingdienst, während wir urheberrechtliche Fragen klären. Aktualisieren Sie auf die aktuellste Version der Musik-App, um qualitativ hochwertige Musik zu hören.",

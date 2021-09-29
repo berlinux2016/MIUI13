@@ -1,129 +1,129 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string-array name="passport_alphabet_table">
-    <item>\#</item>
-    <item>A</item>
-    <item>B</item>
-    <item>C</item>
-    <item>D</item>
-    <item>E</item>
-    <item>F</item>
-    <item>G</item>
-    <item>H</item>
-    <item>I</item>
-    <item>J</item>
-    <item>K</item>
-    <item>L</item>
-    <item>M</item>
-    <item>N</item>
-    <item>O</item>
-    <item>P</item>
-    <item>Q</item>
-    <item>R</item>
-    <item>S</item>
-    <item>T</item>
-    <item>U</item>
-    <item>V</item>
-    <item>W</item>
-    <item>X</item>
-    <item>Y</item>
-    <item>Z</item>
-  </string-array>
-  <string-array name="account_user_gender_name">
-    <item>Männlich</item>
-    <item>Weiblich</item>
-  </string-array>
-  <string-array name="education">
-    <item>Mittelschule</item>
-    <item>Grundschule</item>
-    <item>Gymnasium</item>
-    <item>Gesangsschule</item>
-    <item>Fachhochschule</item>
-    <item>Universität (Master)</item>
-    <item>Universität (Doktor)</item>
-  </string-array>
-  <string-array name="income">
-    <item>&lt; unter 250</item>
-    <item>EUR 251-500</item>
-    <item>EUR 501-800</item>
-    <item>EUR 801-1000</item>
-    <item>EUR 1001-1500</item>
-    <item>&gt; EUR über 1500</item>
-  </string-array>
+    <string-array name="passport_alphabet_table">
+        <item>\#</item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+    </string-array>
+    <string-array name="account_user_gender_name">
+        <item>Männlich</item>
+        <item>Weiblich</item>
+    </string-array>
+    <string-array name="education">
+        <item>Mittelschule</item>
+        <item>Grundschule</item>
+        <item>Gymnasium</item>
+        <item>Gesangsschule</item>
+        <item>Fachhochschule</item>
+        <item>Universität (Master)</item>
+        <item>Universität (Doktor)</item>
+    </string-array>
+    <string-array name="income">
+        <item>&lt; unter 250</item>
+        <item>EUR 251-500</item>
+        <item>EUR 501-800</item>
+        <item>EUR 801-1000</item>
+        <item>EUR 1001-1500</item>
+        <item>&gt; EUR über 1500</item>
+    </string-array>
 
-  <string-array name="settings_search_account_and_authority">
-    <item>Konten</item>
-    <item>Hinzufügen und Verwalten von Drittkonten</item>
-    <item>Autorisierung;Konto;Mi-Konto;Hinzufügen;Pair;Xiaomi;Anzeigen;SNS;WeChat;Google;Weibo</item>
-  </string-array>
-  <string-array name="settings_search_account_and_authority_global">
-    <item>Konten</item>
-    <item>Hinzufügen und Verwalten von Drittkonten</item>
-    <item>Konten;SNS;Facebook;Google;Mi Konto;Konto</item>
-  </string-array>
-  <string-array name="settings_search_account_and_authority_non_global">
-    <item>Konten</item>
-    <item>Hinzufügen und Verwalten von Drittkonten</item>
-    <item>Konten;SNS;Facebook;Google;Mi Konto;Konto</item>
-  </string-array>
-  <string-array name="settings_search_change_password">
-    <item>Passwort ändern</item>
-    <item>Mi-Kontopasswort ändern</item>
-    <item>Passwort ändern;Passwort aktualisieren;Mi-Konto;Konto</item>
-  </string-array>
-  <string-array name="settings_search_help_center">
-    <item>Hilfe</item>
-    <item>Hilfe und Unterstützung für Mi-Konto erhalten</item>
-    <item>Mi-Konto;Konto;Kontohilfe;Hilfe-Center</item>
-  </string-array>
-  <string-array name="settings_search_login_2_step_verify">
-    <item>2-Schritt-Verifizierung</item>
-    <item>2-Schritt-Verifizierung für Ihr Mi-Konto einstellen</item>
-    <item>Anmelden;2-Schritt;Verifizierung;Xiaomi;Konto;Mi-Konto;Konten</item>
-  </string-array>
-  <string-array name="settings_search_login_and_security">
-    <item>Kontosicherheit</item>
-    <item>Wiederherstellungstelefon und -E-Mail, Passwortverwaltung</item>
-    <item>Kontosicherheit;Anmelden;Telefon wiederherstellen;E-Mail wiederherstellen;Konto schützen;Rufnummer;E-Mail;Passwort ändern;Rufnummer hinzufügen;E-Mail hinzufügen;Mi-Konto;Konto</item>
-  </string-array>
-  <string-array name="settings_search_manage_device">
-    <item>Geräte</item>
-    <item>Mit Ihrem Mi-Konto verbundene Geräte verwalten</item>
-    <item>Geräte verwalten;Meine Geräte;Geräte;Geräteliste;Mi-Konto;Konto</item>
-  </string-array>
-  <string-array name="settings_search_payment_information">
-    <item>Zahlungsinformation</item>
-    <item>Zahlungsinformationen anzeigen und verwalten</item>
-    <item>Bezahlen;Zahlung;Zahlungsmethode;Mi-Konto;Konto</item>
-  </string-array>
-  <string-array name="settings_search_privacy_policy">
-    <item>Datenschutzerklärung</item>
-    <item>Mi-Konto Datenschutzerklärung anzeigen</item>
-    <item>Mi-Konto;Konto; Datenschutzerklärung</item>
-  </string-array>
-  <string-array name="settings_search_security_email_address">
-    <item>Wiederherstellungs-E-Mail</item>
-    <item>Wiederherstellungs-E-Mail hinzufügen</item>
-    <item>Wiederherstellungs-E-Mail;E-Mail;E-Mail hinzufügen;Mi-Konto;Konto</item>
-  </string-array>
-  <string-array name="settings_search_security_phone_number">
-    <item>Wiederherstellungs-Telefon</item>
-    <item>Wiederherstellungs-Telefon hinzufügen</item>
-    <item>Wiederherstellungstelefon;Telefon hinzufügen;Mi-Konto;Konto</item>
-  </string-array>
-  <string-array name="settings_search_system_ad">
-    <item>Werbung</item>
-    <item>Systemwerbung verwalten</item>
-    <item>Werbung;Mi-Konto;Konto</item>
-  </string-array>
-  <string-array name="settings_search_user_information">
-    <item>Kontoinformationen</item>
-    <item>Ihr Profilfoto ansehen und Kontoinformationen verwalten</item>
-    <item>Persönliche Daten;Profilfoto;Spitzname;Kontoinformationen;Mi-ID;ID;Mi-Konto;Konto</item>>
-  </string-array>
-  <string-array name="settings_search_user_protocol">
-    <item>Nutzervereinbarung</item>
-    <item>Nutzervereinbarung</item>
-    <item>Mi-Konto;Konto; Nutzervereinbarung;EULA</item>
-  </string-array>
+    <string-array name="settings_search_account_and_authority">
+        <item>Konten</item>
+        <item>Hinzufügen und Verwalten von Drittkonten</item>
+        <item>Autorisierung;Konto;Mi-Konto;Hinzufügen;Pair;Xiaomi;Anzeigen;SNS;WeChat;Google;Weibo</item>
+    </string-array>
+    <string-array name="settings_search_account_and_authority_global">
+        <item>Konten</item>
+        <item>Hinzufügen und Verwalten von Drittkonten</item>
+        <item>Konten;SNS;Facebook;Google;Mi Konto;Konto</item>
+    </string-array>
+    <string-array name="settings_search_account_and_authority_non_global">
+        <item>Konten</item>
+        <item>Hinzufügen und Verwalten von Drittkonten</item>
+        <item>Konten;SNS;Facebook;Google;Mi Konto;Konto</item>
+    </string-array>
+    <string-array name="settings_search_change_password">
+        <item>Passwort ändern</item>
+        <item>Mi-Kontopasswort ändern</item>
+        <item>Passwort ändern;Passwort aktualisieren;Mi-Konto;Konto</item>
+    </string-array>
+    <string-array name="settings_search_help_center">
+        <item>Hilfe</item>
+        <item>Hilfe und Unterstützung für Mi-Konto erhalten</item>
+        <item>Mi-Konto;Konto;Kontohilfe;Hilfe-Center</item>
+    </string-array>
+    <string-array name="settings_search_login_2_step_verify">
+        <item>2-Schritt-Verifizierung</item>
+        <item>2-Schritt-Verifizierung für Ihr Mi-Konto einstellen</item>
+        <item>Anmelden;2-Schritt;Verifizierung;Xiaomi;Konto;Mi-Konto;Konten</item>
+    </string-array>
+    <string-array name="settings_search_login_and_security">
+        <item>Kontosicherheit</item>
+        <item>Wiederherstellungstelefon und -E-Mail, Passwortverwaltung</item>
+        <item>Kontosicherheit;Anmelden;Telefon wiederherstellen;E-Mail wiederherstellen;Konto schützen;Rufnummer;E-Mail;Passwort ändern;Rufnummer hinzufügen;E-Mail hinzufügen;Mi-Konto;Konto</item>
+    </string-array>
+    <string-array name="settings_search_manage_device">
+        <item>Geräte</item>
+        <item>Mit Ihrem Mi-Konto verbundene Geräte verwalten</item>
+        <item>Geräte verwalten;Meine Geräte;Geräte;Geräteliste;Mi-Konto;Konto</item>
+    </string-array>
+    <string-array name="settings_search_payment_information">
+        <item>Zahlungsinformation</item>
+        <item>Zahlungsinformationen anzeigen und verwalten</item>
+        <item>Bezahlen;Zahlung;Zahlungsmethode;Mi-Konto;Konto</item>
+    </string-array>
+    <string-array name="settings_search_privacy_policy">
+        <item>Datenschutzerklärung</item>
+        <item>Mi-Konto Datenschutzerklärung anzeigen</item>
+        <item>Mi-Konto;Konto; Datenschutzerklärung</item>
+    </string-array>
+    <string-array name="settings_search_security_email_address">
+        <item>Wiederherstellungs-E-Mail</item>
+        <item>Wiederherstellungs-E-Mail hinzufügen</item>
+        <item>Wiederherstellungs-E-Mail;E-Mail;E-Mail hinzufügen;Mi-Konto;Konto</item>
+    </string-array>
+    <string-array name="settings_search_security_phone_number">
+        <item>Wiederherstellungs-Telefon</item>
+        <item>Wiederherstellungs-Telefon hinzufügen</item>
+        <item>Wiederherstellungstelefon;Telefon hinzufügen;Mi-Konto;Konto</item>
+    </string-array>
+    <string-array name="settings_search_system_ad">
+        <item>Werbung</item>
+        <item>Systemwerbung verwalten</item>
+        <item>Werbung;Mi-Konto;Konto</item>
+    </string-array>
+    <string-array name="settings_search_user_information">
+        <item>Kontoinformationen</item>
+        <item>Ihr Profilfoto ansehen und Kontoinformationen verwalten</item>
+        <item>Persönliche Daten;Profilfoto;Spitzname;Kontoinformationen;Mi-ID;ID;Mi-Konto;Konto</item>>
+    </string-array>
+    <string-array name="settings_search_user_protocol">
+        <item>Nutzervereinbarung</item>
+        <item>Nutzervereinbarung</item>
+        <item>Mi-Konto;Konto; Nutzervereinbarung;EULA</item>
+    </string-array>
 </resources>

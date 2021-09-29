@@ -1,127 +1,126 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string-array name="widget_component_add_source">
-    <item>Desktop-Auswahl</item>
-    <item>In-App</item>
-    <item>App-Verknüpfung</item>
-    <item>Themenseite</item>
-    <item>Klassische Komponenten</item>
-  </string-array>
-  <string-array name="widget_component_add_way">
-    <item>Ziehen und ablegen von der Picker-Detailseite</item>
-    <item>Taste zum Hinzufügen der Auswahldetailseite</item>
-    <item>Ziehen und ablegen von der Picker-Startseite</item>
-  </string-array>
-  <string-array name="widget_component_default_source">
-    <item>Kein Standard</item>
-    <item>Desktop</item>
-    <item>Negativer Bildschirm</item>
-  </string-array>
-  <string-array name="widget_component_delete_way">
-    <item>Verknüpfung löschen</item>
-    <item>Ziehen</item>
-    <item>Deinstallieren</item>
-  </string-array>
-  <string-array name="widget_drag_type_name">
-    <item>Auf dem Desktop</item>
-    <item>Negativer Bildschirm</item>
-    <item>Desktop zu negativem Bildschirm</item>
-    <item>Negativer Bildschirm zu Desktop</item>
-  </string-array>
-  <string-array name="widget_host_module_name">
-    <item>Desktop</item>
-    <item>Negativer screen_component Bereich</item>
-    <item>Negativer Bildschirm_Echtzeit-Dynamik</item>
-  </string-array>
-  <string-array name="widget_package_install_status">
-    <item>Nicht installiert</item>
-    <item>Installiert</item>
-    <item>Aufrüstbar</item>
-  </string-array>
-
-  <string-array name="cell_icon_size_entries">
-    <item>Sehr Klein</item>
-    <item>Klein</item>
-    <item>Mittel</item>
-    <item>Groß</item>
-    <item>Sehr groß</item>
-  </string-array>
-  <string-array name="editing_mode_entries">
-    <item>Hintergrund</item>
-    <item>Widgets</item>
-    <item>Einstellungen</item>
-  </string-array>
-  <string-array name="folder_toggle_entries"> 
-    <item>3 Spalten</item> 
-    <item>4 Spalten</item> 
-  </string-array>  
-  <string-array name="gadget_weather_image">
-    <item>Klar</item>
-    <item>Bewölkt</item>
-    <item>Bedeckt</item>
-    <item>Nebel</item>
-    <item>Schweres Unwetter</item>
-    <item>Unwetter</item>
-    <item>Sehr starker Regen</item>
-    <item>Gewitter</item>
-    <item>Regenschauer</item>
-    <item>Starker Regen</item>
-    <item>Regen</item>
-    <item>Nieselregen</item>
-    <item>Schneeregen</item>
-    <item>Schneesturm</item>
-    <item>Schneeschauer</item>
-    <item>Starker Schneefall</item>
-    <item>Schneefall</item>
-    <item>Leichter Schneefall</item>
-    <item>Starker Sandsturm</item>
-    <item>Sandsturm</item>
-    <item>Leichter Sandsturm</item>
-    <item>Sandsturm</item>
-    <item>Hagel</item>
-    <item>Feinstaub</item>
-    <item>Dunst</item>
-  </string-array>
-  <string-array name="gadget_weather_theme_type_entries">
-    <item>Standard</item>
-    <item>Classic</item>
-  </string-array>
-  <string-array name="quality_business_devices">
-    <item>Lithium</item>
-  </string-array>
-  <string-array name="global_search_mode_entries">
-    <item>Nichts</item>
-    <item>Hochwischen</item>
-    <item>Suchleiste</item>
-  </string-array>
-  <string-array name="global_search_provider_entries">
-    <item>Standard</item>
-    <item>Google</item>
-  </string-array>
-  <string-array name="minus_screen_entries">
-    <item>Nichts anzeigen</item>
-    <item>Infoassistent</item>
-    <item>Google</item>
-  </string-array>
-  <string-array name="transformation_entries">
-    <item>Schieben</item>
-    <item>Überblendung</item>
-    <item>Umfallen</item>
-    <item>Seite</item>
-    <item>Kaskade</item>
-    <item>Drehen</item>
-    <item>Würfel</item>
-  </string-array>
-  <string-array name="wallpaper_scroll_entries">
-    <item>Theme (Standard)</item>
-    <item>Zentriert</item>
-    <item>Links</item>
-    <item>Rechts</item>
-  </string-array>
-  <string-array name="wallpaper_scroll_values">
-    <item>wie Thema</item>
-    <item>zentriert</item>
-    <item>links</item>
-    <item>rechts</item>
-  </string-array>
+    <string-array name="cell_icon_size_entries">
+        <item>Sehr Klein</item>
+        <item>Klein</item>
+        <item>Mittel</item>
+        <item>Groß</item>
+        <item>Sehr groß</item>
+    </string-array>
+    <string-array name="editing_mode_entries">
+        <item>Hintergrund</item>
+        <item>Widgets</item>
+        <item>Einstellungen</item>
+    </string-array>
+    <string-array name="folder_toggle_entries"> 
+        <item>3 Spalten</item> 
+        <item>4 Spalten</item> 
+    </string-array>  
+    <string-array name="gadget_weather_image">
+        <item>Klar</item>
+        <item>Bewölkt</item>
+        <item>Bedeckt</item>
+        <item>Nebel</item>
+        <item>Schweres Unwetter</item>
+        <item>Unwetter</item>
+        <item>Sehr starker Regen</item>
+        <item>Gewitter</item>
+        <item>Regenschauer</item>
+        <item>Starker Regen</item>
+        <item>Regen</item>
+        <item>Nieselregen</item>
+        <item>Schneeregen</item>
+        <item>Schneesturm</item>
+        <item>Schneeschauer</item>
+        <item>Starker Schneefall</item>
+        <item>Schneefall</item>
+        <item>Leichter Schneefall</item>
+        <item>Starker Sandsturm</item>
+        <item>Sandsturm</item>
+        <item>Leichter Sandsturm</item>
+        <item>Sandsturm</item>
+        <item>Hagel</item>
+        <item>Feinstaub</item>
+        <item>Dunst</item>
+    </string-array>
+    <string-array name="gadget_weather_theme_type_entries">
+        <item>Standard</item>
+        <item>Classic</item>
+    </string-array>
+    <string-array name="quality_business_devices">
+        <item>Lithium</item>
+    </string-array>
+    <string-array name="global_search_mode_entries">
+        <item>Nichts</item>
+        <item>Hochwischen</item>
+        <item>Suchleiste</item>
+    </string-array>
+    <string-array name="global_search_provider_entries">
+        <item>Standard</item>
+        <item>Google</item>
+    </string-array>
+    <string-array name="minus_screen_entries">
+        <item>Nichts anzeigen</item>
+        <item>Infoassistent</item>
+        <item>Google</item>
+    </string-array>
+    <string-array name="transformation_entries">
+        <item>Schieben</item>
+        <item>Überblendung</item>
+        <item>Umfallen</item>
+        <item>Seite</item>
+        <item>Kaskade</item>
+        <item>Drehen</item>
+        <item>Würfel</item>
+    </string-array>
+    <string-array name="wallpaper_scroll_entries">
+        <item>Theme (Standard)</item>
+        <item>Zentriert</item>
+        <item>Links</item>
+        <item>Rechts</item>
+    </string-array>
+    <string-array name="wallpaper_scroll_values">
+        <item>wie Thema</item>
+        <item>zentriert</item>
+        <item>links</item>
+        <item>rechts</item>
+    </string-array>
+    <string-array name="widget_component_add_source">
+        <item>Desktop-Auswahl</item>
+        <item>In-App</item>
+        <item>App-Verknüpfung</item>
+        <item>Themenseite</item>
+        <item>Klassische Komponenten</item>
+    </string-array>
+    <string-array name="widget_component_add_way">
+        <item>Ziehen und ablegen von der Picker-Detailseite</item>
+        <item>Taste zum Hinzufügen der Auswahldetailseite</item>
+        <item>Ziehen und ablegen von der Picker-Startseite</item>
+    </string-array>
+    <string-array name="widget_component_default_source">
+        <item>Kein Standard</item>
+        <item>Desktop</item>
+        <item>Negativer Bildschirm</item>
+    </string-array>
+    <string-array name="widget_component_delete_way">
+        <item>Verknüpfung löschen</item>
+        <item>Ziehen</item>
+        <item>Deinstallieren</item>
+    </string-array>
+    <string-array name="widget_drag_type_name">
+        <item>Auf dem Desktop</item>
+        <item>Negativer Bildschirm</item>
+        <item>Desktop zu negativem Bildschirm</item>
+        <item>Negativer Bildschirm zu Desktop</item>
+    </string-array>
+    <string-array name="widget_host_module_name">
+        <item>Desktop</item>
+        <item>Negativer screen_component Bereich</item>
+        <item>Negativer Bildschirm_Echtzeit-Dynamik</item>
+    </string-array>
+    <string-array name="widget_package_install_status">
+        <item>Nicht installiert</item>
+        <item>Installiert</item>
+        <item>Aufrüstbar</item>
+    </string-array>
 </resources>
