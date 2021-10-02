@@ -78,6 +78,18 @@
         <item quantity="other">" %1$s Std %2$s"</item>
         <item quantity="one">" %1$s Std %2$s"</item>
     </plurals>
+    <plurals name="app_launch_supported_links_title">
+        <item quantity="other">%d unterstützte Links</item>
+        <item quantity="one">%d unterstützter Link</item>
+    </plurals>
+    <plurals name="app_launch_verified_links_message">
+        <item quantity="other">Diese Links sind verifiziert und werden automatisch in dieser App geöffnet.</item>
+        <item quantity="one">Dieser Link ist verifiziert und wird automatisch in dieser App geöffnet.</item>
+    </plurals>
+    <plurals name="app_launch_verified_links_title">
+        <item quantity="other">%d verifizierte Links</item>
+        <item quantity="one">%d verifizierter Link</item>
+    </plurals>
     <plurals name="app_link_open_always_summary">
         <item quantity="other">App behauptet, %d Links zu verarbeiten</item>
         <item quantity="one">App behauptet, %d Link zu verarbeiten</item>
@@ -97,6 +109,10 @@
     <plurals name="auto_startup_count">
         <item quantity="other">%d Apps dürfen automatisch starten</item>
         <item quantity="one">%d App darf automatisch starten</item>
+    </plurals>
+    <plurals name="autofill_passwords_count">
+        <item quantity="other">%1$d Passwörter</item>
+        <item quantity="one">%1$d Passwort</item>
     </plurals>
     <plurals name="battery_manager_app_restricted">
         <item quantity="other">%1$d Apps eingeschränkt</item>
@@ -333,6 +349,10 @@
     <plurals name="miuix_appcompat_items_selected">
         <item quantity="other">%d Elemente ausgewählt</item>
         <item quantity="one">%d Element ausgewählt</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d neue Benachrichtigungen</item>
+        <item quantity="one">%d neue Benachrichtigung</item>
     </plurals>
     <plurals name="network_restrictions_summary">
         <item quantity="other">%1$d Beschränkungen</item>
@@ -577,6 +597,10 @@ Für weitere Informationen über dieses Zertifikat kontaktieren Sie Ihren Admin.
     <plurals name="uninstall_game_count_title">
         <item quantity="other">%d Spiele nicht hinzugefügt</item>
         <item quantity="one">%d Spiel nicht hinzugefügt</item>
+    </plurals>
+    <plurals name="unused_apps_summary">
+        <item quantity="other">%d ungenutzte Apps</item>
+        <item quantity="one">%d ungenutzte App</item>
     </plurals>
     <plurals name="uri_permissions_text">
         <item quantity="other">%d Elemente</item>

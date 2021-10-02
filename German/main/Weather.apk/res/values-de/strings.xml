@@ -67,6 +67,7 @@
     <string name="aqi_48_hours_desc">%d-Stunden LQI-Vorhersage</string>
     <string name="aqi_5_days_desc">%d-Tage LQI-Vorhersage</string>
     <string name="aqi_alert_channel_name">LQI-Warnungen</string>
+    <string name="aqi_data_source">Unterstützt durch Colorful Clouds</string>
     <string name="aqi_desc">Luftqualität</string>
     <string name="aqi_detail_24_hours">24-Stunden-Vorhersage</string>
     <string name="aqi_detail_5_days">5-Tage-Vorhersage</string>
@@ -160,8 +161,8 @@
     <string name="daily_forecast_add_city_title">Folgen Sie dem Wetter in %1$s</string>
     <string name="daily_forecast_detail">Vorhersage</string>
     <string name="daily_forecast_detail_date">dd.MM.</string>
-    <string name="daily_forecast_no_data">"Daten wurden nicht geladen.
-Nach unten ziehen, um zu aktualisieren, oder prüfen Sie die Netzwerkeinstellungen."</string>
+    <string name="data_source_time_fromat">"dd.MM.yyyy'T'HH:mm:ssz"</string>
+    <string name="daily_forecast_no_data">Wetterinfos wurden nicht geladen.\nZum Aktualisieren nach unten ziehen oder die Netzwerkeinstellungen prüfen.</string>
     <string name="data_provided_by">Zur Verfügung gestellt von</string>
     <string name="date_picker_lunar">Traditioneller chin. Kalender</string>
     <string name="date_time_picker_dialog_title">Datum und Zeit einstellen</string>
@@ -172,6 +173,7 @@ Nach unten ziehen, um zu aktualisieren, oder prüfen Sie die Netzwerkeinstellung
     <string name="dialog_msg_score_perfect">Prima! Bewerten Sie Wetter auch im Play Store?</string>
     <string name="dialog_title_score">Wetter bewerten</string>
     <string name="dislike_alert_dialog_title">Warum wollen Sie diesen Inhalt nicht sehen?</string>
+    <string name="dynamic_weather">Wetter</string>
     <string name="download_rsc_tips">Hintergrundaudio laden…</string>
     <string name="dynamic_weather">Wetter</string>
     <string name="early_morning">Morgen</string>
@@ -187,7 +189,6 @@ Nach unten ziehen, um zu aktualisieren, oder prüfen Sie die Netzwerkeinstellung
     <string name="exo_controls_fastforward_description">Schnellvorlauf</string>
     <string name="exo_controls_fullscreen_description">Vollbildmodus</string>
     <string name="exo_controls_next_description">Nächster Titel</string>
-    <string name="exo_controls_pause_description">Pause</string>
     <string name="exo_controls_play_description">Abspielen</string>
     <string name="exo_controls_previous_description">Vorheriger Titel</string>
     <string name="exo_controls_repeat_all_description">Alle wiederholen</string>
@@ -195,7 +196,6 @@ Nach unten ziehen, um zu aktualisieren, oder prüfen Sie die Netzwerkeinstellung
     <string name="exo_controls_repeat_one_description">Einen wiederholen</string>
     <string name="exo_controls_rewind_description">Zurückspulen</string>
     <string name="exo_controls_shuffle_description">Zufallswiedergabe</string>
-    <string name="exo_controls_stop_description">Stop</string>
     <string name="exo_download_completed">Herunterladen abgeschlossen</string>
     <string name="exo_download_description">Herunterladen</string>
     <string name="exo_download_downloading">Herunterladen</string>
@@ -279,8 +279,8 @@ Nach unten ziehen, um zu aktualisieren, oder prüfen Sie die Netzwerkeinstellung
     <string name="indices_desc_pressure_mm">%1$s mmHg</string>
     <string name="indices_desc_visibility">%1$s km</string>
     <string name="indices_no_restriction">Keine</string>
-    <string name="indices_title_Precip1hr">Niederschlag pro Stunde</string>
     <string name="indices_title">Empfohlene Aktivitäten</string>
+    <string name="indices_title_Precip1hr">Niederschlag pro Stunde</string>
     <string name="indices_title_car_wash">Auto waschen</string>
     <string name="indices_title_chance_of_rain">Regenwahrscheinlichkeit</string>
     <string name="indices_title_feel">Gefühlt wie</string>
@@ -299,13 +299,7 @@ Nach unten ziehen, um zu aktualisieren, oder prüfen Sie die Netzwerkeinstellung
     <string name="information_set">Einstellungen</string>
     <string name="information_settings_title">Wetterinfo</string>
     <string name="install">Installieren</string>
-    <string name="international_details_chance_of_rain">REGENWAHRSCHEINLICHKEIT</string>
-    <string name="international_details_humidity">LUFTFEUCHTIGKEIT</string>
-    <string name="international_details_humidity_title">LUFTFEUCHTIGKEIT</string>
-    <string name="international_details_pressure_title">LUFTDRUCK</string>
-    <string name="international_details_real_feel_title">REAL FEEL®</string>
-    <string name="international_details_uv_index_title">UV-INDEX</string>
-    <string name="international_details_wind_title">WIND</string>
+    <string name="international_details_uv_index_title">UV-Index</string>
     <string name="international_version_first_start_network_msg">"Durch die Nutzung dieses Produkts stimmen Sie Xiaomi's %1$s zu. Diese App muss sich mit dem Netzwerk verbinden und die von Ihnen genannten Ortsinformationen hochladen, um die entsprechenden Ortswetterdaten zu erhalten. Tippen Sie \"Zustimmen\", um fortzufahren."</string>
     <string name="it_is_going_to_rain">Es wird regnen</string>
     <string name="life_index_title">Wetterindex</string>
@@ -507,7 +501,7 @@ Nach unten ziehen, um zu aktualisieren, oder prüfen Sie die Netzwerkeinstellung
     <string name="share_menu_title">Teilen</string>
     <string name="share_subject">Teilen</string>
     <string name="share_title">Wetterbericht teilen</string>
-    <string name="share_weather_desc">\#MIUI Weather#Heute %1$s %2$s</string>
+    <string name="share_weather_desc">\#MIUI Weather# Heute %1$s %2$s</string>
     <string name="share_weather_desc_split">", "</string>
     <string name="share_weather_save_pic_fail">Screenshot wurde nicht aufgenommen</string>
     <string name="shortcut_short_label_24_hour_forecast">24-Std.-Vorhersage</string>
@@ -585,7 +579,6 @@ Nach unten ziehen, um zu aktualisieren, oder prüfen Sie die Netzwerkeinstellung
     <string name="the_forth_day">Vierter Tag</string>
     <string name="the_hksar_establishment_day">HKSAR Gründungstag</string>
     <string name="the_international_womens_day">Weltfrauentag</string>
-    <string name="the_laba_festival">Laba Festival</string>
     <string name="the_labour_day">1. Mai</string>
     <string name="the_lantern_festival">Laternenfest</string>
     <string name="the_mid_autumn_festival">Mitte-Herbst-Festival</string>
@@ -627,7 +620,9 @@ Nach unten ziehen, um zu aktualisieren, oder prüfen Sie die Netzwerkeinstellung
     <string name="translate_notification_info">Im Hintergrund übersetzen…</string>
     <string name="tts_best_aqi">Beste Luftqualität</string>
     <string name="tts_hour_weather_date_time">Vom %2$s um %1$s bis %4$s um %3$s</string>
-    <string name="tts_max_wind_power">Höchste Windgeschwindigkeit</string>
+    <string name="tts_max_wind_power">Max. Windstärke</string>
+    <string name="tts_report_defautl_head">Xiaomi Wetterübertragungen für Sie</string>
+    <string name="tts_report_weather_desc">Heute tagsüber und bis in den Abend hinein, %1$s</string>
     <string name="tuesday">Dienstag</string>
     <string name="tuesday_short">Di</string>
     <string name="tuesday_shortest">D</string>
