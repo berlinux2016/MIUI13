@@ -80,6 +80,11 @@
         <item quantity="other">Heute %2$s mehr Bildschirmzeit als Ihr %1$d-Tagesdurchschnitt</item>
         <item quantity="one">Heute %2$s mehr Bildschirmzeit als Ihr %1$d-Tagesdurchschnitt</item>
     </plurals>
+    <plurals name="unlock_times">
+        <item quantity="other">%.2f-mal</item>
+        <item quantity="zero">%.2f-mal</item>
+        <item quantity="one">%.2f-mal</item>
+    </plurals>
     <plurals name="usage_days">
         <item quantity="other">%d Tage</item>
         <item quantity="one">%d Tag</item>
@@ -92,13 +97,13 @@
         <item quantity="one">%d-mal entsperrt</item>
         <item quantity="other">%d-mal entsperrt</item>
     </plurals>
-    <plurals name="usage_new_home_total_week_unlocks">
-        <item quantity="one">%d-mal entsperrt</item>
-        <item quantity="other">%d-mal entsperrt</item>
-    </plurals>
     <plurals name="usage_new_home_total_unlocks_new">
         <item quantity="other">%1$d-mal entsperrt am %2$s</item>
         <item quantity="one">%1$d-mal entsperrt am %2$s</item>
+    </plurals>
+    <plurals name="usage_new_home_total_week_unlocks">
+        <item quantity="one">%d-mal entsperrt</item>
+        <item quantity="other">%d-mal entsperrt</item>
     </plurals>
     <plurals name="usage_remain_about_hour">
         <item quantity="other">≈ %s Std</item>
@@ -107,10 +112,6 @@
     <plurals name="usage_remain_about_miunte">
         <item quantity="other">≈ %s Min</item>
         <item quantity="one">≈ %s Min</item>
-    </plurals>
-    <plurals name="usage_state_focus_usage_summary">
-        <item quantity="other">%d Minuten sind ein großer Schritt in Richtung Achtsamkeit und Konzentration.</item>
-        <item quantity="one">%d Minute ist ein großer Schritt in Richtung Achtsamkeit und Konzentration.</item>
     </plurals>
     <plurals name="usage_state_device_explain_today">
         <item quantity="other">%d-mal entsperrt</item>
@@ -128,17 +129,21 @@
         <item quantity="other">%d Benachrichtigungen erhalten</item>
         <item quantity="one">%d Benachrichtigung erhalten</item>
     </plurals>
+    <plurals name="usage_state_focus_usage_summary">
+        <item quantity="other">%d Minuten sind ein großer Schritt in Richtung Achtsamkeit und Konzentration.</item>
+        <item quantity="one">%d Minute ist ein großer Schritt in Richtung Achtsamkeit und Konzentration.</item>
+    </plurals>
     <plurals name="usage_state_hour">
+        <item quantity="other">%d Std</item>
+        <item quantity="one">%d Std</item>
+    </plurals>
+    <plurals name="usage_state_hour24">
         <item quantity="other">%d Std</item>
         <item quantity="one">%d Std</item>
     </plurals>
     <plurals name="usage_state_hour_text">
         <item quantity="other">" Std"</item>
         <item quantity="one">" Std"</item>
-    </plurals>
-    <plurals name="usage_state_hour24">
-        <item quantity="other">%d Std</item>
-        <item quantity="one">%d Std</item>
     </plurals>
     <plurals name="usage_state_minute">
         <item quantity="other">%d Min</item>
@@ -151,14 +156,6 @@
     <plurals name="usage_state_noti_count">
         <item quantity="other">%d Benachrichtigungen</item>
         <item quantity="one">%d Benachrichtigung</item>
-    </plurals>
-    <plurals name="usage_stats_remain_hour">
-        <item quantity="other">%s Std</item>
-        <item quantity="one">%s Std</item>
-    </plurals>
-    <plurals name="usage_stats_remain_miunte">
-        <item quantity="other">%s Min</item>
-        <item quantity="one">%s Min</item>
     </plurals>
     <plurals name="usage_state_unlock_count">
         <item quantity="other">%d-mal</item>
@@ -184,6 +181,14 @@
         <item quantity="other">Werktags: %d Min</item>
         <item quantity="one">Werktags: %d Min</item>
     </plurals>
+    <plurals name="usage_stats_remain_hour">
+        <item quantity="other">%s Std</item>
+        <item quantity="one">%s Std</item>
+    </plurals>
+    <plurals name="usage_stats_remain_miunte">
+        <item quantity="other">%s Min</item>
+        <item quantity="one">%s Min</item>
+    </plurals>
     <plurals name="usagestats_device_notification_des_hour">
         <item quantity="other">" Std"</item>
         <item quantity="one">" Std"</item>
@@ -191,10 +196,5 @@
     <plurals name="usagestats_device_notification_des_min">
         <item quantity="other">" Min"</item>
         <item quantity="one">" Min"</item>
-    </plurals>
-    <plurals name="unlock_times">
-        <item quantity="other">%.2f-mal</item>
-        <item quantity="zero">%.2f-mal</item>
-        <item quantity="one">%.2f-mal</item>
     </plurals>
 </resources>

@@ -77,14 +77,6 @@
         <item quantity="other">%2$d leere Nachrichten an %1$s zurückgesendet</item>
         <item quantity="one">%2$d leere Nachricht an %1$s zurückgesendet</item>
     </plurals>
-    <plurals name="app_behavior_privacy_manager_off">
-        <item quantity="other">Sie werden nicht über die von %1$d Apps ausgeführten sensiblen Aktionen benachrichtigt</item>
-        <item quantity="one">Sie werden nicht über die von %1$d App ausgeführten sensiblen Aktionen benachrichtigt</item>
-    </plurals>
-    <plurals name="app_behavior_privacy_manager_on">
-        <item quantity="other">Sie werden über die von %1$d Apps ausgeführten sensiblen Aktionen benachrichtigt</item>
-        <item quantity="one">Sie werden über die von %1$d App ausgeführten sensiblen Aktionen benachrichtigt</item>
-    </plurals>
     <plurals name="app_behavior_notification_audio_more">
         <item quantity="other">\"%1$1s\" wartet auf Aufnahmen von %2$d</item>
         <item quantity="one">\"%1$1s\" wartet auf Aufnahme von %2$d</item>
@@ -96,6 +88,14 @@
     <plurals name="app_behavior_notification_location_more">
         <item quantity="other">\"%1$1s\" wartet auf %2$d Apps, um Ihren Standort zu ermitteln</item>
         <item quantity="one">\"%1$1s\" wartet auf %2$d App, um Ihren Standort zu ermitteln</item>
+    </plurals>
+    <plurals name="app_behavior_privacy_manager_off">
+        <item quantity="other">Sie werden nicht über die von %1$d Apps ausgeführten sensiblen Aktionen benachrichtigt</item>
+        <item quantity="one">Sie werden nicht über die von %1$d App ausgeführten sensiblen Aktionen benachrichtigt</item>
+    </plurals>
+    <plurals name="app_behavior_privacy_manager_on">
+        <item quantity="other">Sie werden über die von %1$d Apps ausgeführten sensiblen Aktionen benachrichtigt</item>
+        <item quantity="one">Sie werden über die von %1$d App ausgeführten sensiblen Aktionen benachrichtigt</item>
     </plurals>
     <plurals name="app_behavior_wakepath_multiple">
         <item quantity="other">%1$1s startete %2$d Apps</item>
@@ -277,6 +277,10 @@ Beim Einschalten mobiler Daten kann Ihr Mobilfunkanbieter zusätzliche Kosten be
         <item quantity="other">Verstanden (%ds)</item>
         <item quantity="one">Verstanden (%ds)</item>
     </plurals>
+    <plurals name="gb_voice_changer_toast_tips_window_bubble">
+        <item quantity="other">"Voice Changer jetzt ausprobieren,
+um eine %d-Tage-Gratis-Testversion zu erhalten!"</item>
+    </plurals>
     <plurals name="gb_voice_changer_trial_gain_fail">
         <item quantity="other">Kostenlose %d-Tage-Testversion erhalten nicht möglich</item>
         <item quantity="one">Kostenlose %d-Tag-Testversion erhalten nicht möglich</item>
@@ -284,10 +288,6 @@ Beim Einschalten mobiler Daten kann Ihr Mobilfunkanbieter zusätzliche Kosten be
     <plurals name="gb_voice_changer_trial_gain_success">
         <item quantity="other">%d-Tage-Testversion erfolgreich erhalten</item>
         <item quantity="one">%d-Tag-Testversion erfolgreich erhalten</item>
-    </plurals>
-    <plurals name="gb_voice_changer_toast_tips_window_bubble">
-        <item quantity="other">"Voice Changer jetzt ausprobieren,
-um eine %d-Tage-Gratis-Testversion zu erhalten!"</item>
     </plurals>
     <plurals name="gb_voice_changer_user_status_get_trial_card">
         <item quantity="other">Kostenlose %d-Tage-Testversion erhalten</item>
@@ -314,12 +314,6 @@ Sie können jetzt eine kostenlose %d-Tag-Testversion erhalten!"</item>
     <plurals name="gtb_spring_festival_colored_egg">
         <item quantity="other">Herzlichen Glückwunsch! Sie haben %s Ostereier freigeschaltet.</item>
         <item quantity="one">Herzlichen Glückwunsch! Sie haben %s Osterei freigeschaltet.</item>
-    </plurals>
-    <plurals name="videobox_settings_timing_bubble">
-        <item quantity="other">"Sie sehen sich bereits seit %d Stunden Videos an.
-Machen Sie eine Pause!"</item>
-        <item quantity="one">"Sie sehen sich bereits seit %d Stunde Videos an.
-Machen Sie eine Pause!!"</item>
     </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">Vor einer halben Stunde</item>
@@ -500,10 +494,6 @@ Machen Sie eine Pause!!"</item>
         <item quantity="other">%d Tage ohne Sicherheitsscan</item>
         <item quantity="one">%d Tag ohne Sicherheitsscan</item>
     </plurals>
-    <plurals name="notification_link_cleaner_2006">
-        <item quantity="other">%d APK-Reste löschen</item>
-        <item quantity="one">%d APK-Rest löschen</item>
-    </plurals>
     <plurals name="notification_battery_consume_abnormal_summary">
         <item quantity="other">In den letzten %1$d Min wurden %2$d%% des Akkus entleert</item>
         <item quantity="one">In der letzten %1$d Min wurden %2$d%% des Akkus entleert</item>
@@ -515,6 +505,10 @@ Machen Sie eine Pause!!"</item>
     <plurals name="notification_checker_installed_apk_text">
         <item quantity="other">%d Installationspakete löschen</item>
         <item quantity="one">%d Installationspaket löschen</item>
+    </plurals>
+    <plurals name="notification_link_cleaner_2006">
+        <item quantity="other">%d APK-Reste löschen</item>
+        <item quantity="one">%d APK-Rest löschen</item>
     </plurals>
     <plurals name="notification_power_consume_issue">
         <item quantity="other">%d Akkuprobleme</item>
@@ -544,10 +538,6 @@ Machen Sie eine Pause!!"</item>
          <item quantity="other">%d Benachrichtigungen ausgeblendet</item>
          <item quantity="one">%d Benachrichtigung ausgeblendet</item>
     </plurals>
-    <plurals name="numeric_recording_incorrect_too_short">
-        <item quantity="other">Mind. %d Ziffern eingeben</item>
-        <item quantity="one">Mind. %d Ziffer eingeben</item>
-    </plurals>
     <plurals name="number_to_lock">
         <item quantity="other">%d Apps nicht gesperrt</item>
         <item quantity="one">%d App nicht gesperrt</item>
@@ -555,6 +545,10 @@ Machen Sie eine Pause!!"</item>
     <plurals name="number_to_mask_text">
          <item quantity="other">%d Benachrichtigungen werden anzeigt</item>
          <item quantity="one">%d Benachrichtigung wird angezeigt</item>
+    </plurals>
+    <plurals name="numeric_recording_incorrect_too_short">
+        <item quantity="other">Mind. %d Ziffern eingeben</item>
+        <item quantity="one">Mind. %d Ziffer eingeben</item>
     </plurals>
     <plurals name="om_ill_proc_multi_app_title">
         <item quantity="other">%d Apps funktionieren nicht richtig und entleeren den Akku</item>
@@ -750,13 +744,13 @@ um den Akku zu schonen"</item>
         <item quantity="other">%s-mal</item>
         <item quantity="one">%s-mal</item>
     </plurals>
-    <plurals name="privacy_apps_enable_header_title">
-        <item quantity="other">%d App-Symbole sind nicht versteckt</item>
-        <item quantity="one">%d App-Symbol ist nicht versteckt</item>
-    </plurals>
     <plurals name="privacy_apps_disable_header_title">
         <item quantity="other">%d App-Symbole sind versteckt</item>
         <item quantity="one">%d App-Symbol ist versteckt</item>
+    </plurals>
+    <plurals name="privacy_apps_enable_header_title">
+        <item quantity="other">%d App-Symbole sind nicht versteckt</item>
+        <item quantity="one">%d App-Symbol ist nicht versteckt</item>
     </plurals>
     <plurals name="privacy_permission_summary">
         <item quantity="other">%s Apps haben permanenten Zugriff</item>
@@ -931,6 +925,12 @@ um den Akku zu schonen"</item>
     <plurals name="videobox_settings_manager_apps_count">
         <item quantity="other">%d Apps</item>
         <item quantity="one">%d App</item>
+    </plurals>
+    <plurals name="videobox_settings_timing_bubble">
+        <item quantity="other">"Sie sehen sich bereits seit %d Stunden Videos an.
+Machen Sie eine Pause!"</item>
+        <item quantity="one">"Sie sehen sich bereits seit %d Stunde Videos an.
+Machen Sie eine Pause!!"</item>
     </plurals>
     <plurals name="view_num">
         <item quantity="other">%1$d Aufrufe</item>

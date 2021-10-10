@@ -264,7 +264,7 @@
     <string name="bind_simcard_title">Standard-SIM für Anrufe</string>
     <string name="blacklist">Blockieren</string>
     <string name="bluetooth_connection_failed_toast">Bluetooth-Verbindung wurde unterbrochen</string>
-    <string name="blurbJoinContactDataWith">Wählen Sie den Kontakt aus, den Sie mit %s zusammenführen möchten</string>
+    <string name="blurbJoinContactDataWith">Den Kontakt auswählen, den Sie mit %s zusammenführen möchten</string>
     <string name="btn_rotation">Drehen</string>
     <string name="btn_split_contact">Separater Kontakt</string>
     <string name="button_cancel_scan">Abbrechen</string>
@@ -478,16 +478,6 @@
     <string name="contact_detail_miprofile_accept_fail_toast">Kontaktkarte wurde nicht abgerufen</string>
     <string name="contact_detail_miprofile_accept_success_toast">Kontaktkarten ausgetauscht</string>
     <string name="contact_detail_miprofile_binded_label">Hinzugefügt</string>
-    <string name="contacts_trash_activity_hint">Kontakte zum Wiederherstellen auswählen</string>
-    <string name="contacts_trash_activity_title">Kürzlich gelöschte Kontakte</string>
-    <string name="contacts_trash_delete">Löschen</string>
-    <string name="contacts_trash_delete_dialog_continue">Löschen</string>
-    <string name="contacts_trash_delete_dialog_hint">Sie können dies nicht rückgängig machen.</string>
-    <string name="contacts_trash_delete_dialog_loading">Löschen…</string>
-    <string name="contacts_trash_delete_dialog_title">Ausgewählte Kontakte löschen?</string>
-    <string name="contacts_trash_restore">Wiederherstellung</string>
-    <string name="contacts_trash_restore_loading">Wiederherstellen…</string>
-    <string name="copy">Kopieren</string>
     <string name="contact_detail_miprofile_exchange_closed">"Keine Rufnummer mit diesem Mi-Konto verknüpft.
 Kontaktkarten sind ausgeschaltet."</string>
     <string name="contact_detail_miprofile_privacy_settings">Berechtigung zum Anzeigen erforderlich</string>
@@ -519,8 +509,8 @@ Kontaktkarten sind ausgeschaltet."</string>
     <string name="contact_editor_prompt_multiple_accounts">Kontakt speichern unter</string>
     <string name="contact_editor_prompt_one_account">Neuen Kontakt mit %1$s synchronisieren</string>
     <string name="contact_editor_prompt_zero_accounts">Im Telefon speichern oder ein neues Konto anlegen</string>
-    <string name="contact_import_methods_dialog_title">Importmethode auswählen</string>
     <string name="contact_import_methods_dialog_mi_mover">Mit Mi Mover importieren</string>
+    <string name="contact_import_methods_dialog_title">Importmethode auswählen</string>
     <string name="contact_is_deleted">Dieser Kontakt wurde gelöscht</string>
     <string name="contact_is_readOnly">Nur-lesen Kontakte können nicht geändert werden</string>
     <string name="contact_list_loading">Laden…</string>
@@ -538,12 +528,22 @@ Kontaktkarten sind ausgeschaltet."</string>
     <string name="contacts_default_notification_channel">Benachrichtigungen</string>
     <string name="contacts_hybrid_activity_label">Kontakte wiederherstellen</string>
     <string name="contacts_setting_title">Kontakteinstellungen</string>
+    <string name="contacts_trash_activity_hint">Kontakte zum Wiederherstellen auswählen</string>
+    <string name="contacts_trash_activity_title">Kürzlich gelöschte Kontakte</string>
+    <string name="contacts_trash_delete">Löschen</string>
+    <string name="contacts_trash_delete_dialog_continue">Löschen</string>
+    <string name="contacts_trash_delete_dialog_hint">Sie können dies nicht rückgängig machen.</string>
+    <string name="contacts_trash_delete_dialog_loading">Löschen…</string>
+    <string name="contacts_trash_delete_dialog_title">Ausgewählte Kontakte löschen?</string>
+    <string name="contacts_trash_restore">Wiederherstellung</string>
+    <string name="contacts_trash_restore_loading">Wiederherstellen…</string>
     <string name="contacts_unavailable_add_account">Mit einem Konto anmelden</string>
     <string name="contacts_unavailable_create_contact">Neuen Kontakt erstellen</string>
     <string name="contacts_unavailable_import_contacts">Kontakte aus Datei importieren</string>
     <string name="contacts_unavailable_import_from_old_device">Von einem älteren Telefon importieren</string>
     <string name="contacts_unavailable_import_sim_contacts">Kontakte von SIM importieren</string>
     <string name="convenient_service">Dienste</string>
+    <string name="copy">Kopieren</string>
     <string name="copy_number">Kopieren</string>
     <string name="copy_text">In Zwischenablage kopieren</string>
     <string name="createContactShortcutSuccessful">Kontaktverknüpfung zum Startbildschirm hinzugefügt</string>
@@ -581,9 +581,9 @@ Durch tippen auf \"Zustimmen\" unten akzeptieren Sie die allgemeinen Geschäftsb
     <string name="delete_call_log_message">Anrufliste löschen?</string>
     <string name="delete_call_log_selected_title">Ausgewählte Anrufliste löschen?</string>
     <string name="delete_call_log_title">Anrufliste löschen</string>
-    <string name="delete_contact_calllog_title">Anruflisten löschen?</string>
     <string name="delete_conference_call_log_message">Alle Telefonkonferenz-Aufzeichnungen, die mit diesem Kontakt verbunden sind, jetzt löschen?</string>
     <string name="delete_conference_call_log_title">Aufzeichnungen von Telefonkonferenzen löschen</string>
+    <string name="delete_contact_calllog_title">Anruflisten löschen?</string>
     <string name="delete_dial_input">Löschen</string>
     <string name="delete_duplicate">Zusammenführen</string>
     <string name="delete_duplicate_message">Kontakte zusammenführen… </string>
@@ -651,7 +651,7 @@ Durch tippen auf \"Zustimmen\" unten akzeptieren Sie die allgemeinen Geschäftsb
     <string name="device_import_progress_message">Importieren…</string>
     <string name="device_import_progress_toast">%1$d Kontakte importiert</string>
     <string name="device_import_title">Importieren</string>
-    <string name="device_list_title">Wählen Sie ein Telefon</string>
+    <string name="device_list_title">Telefon auswählen</string>
     <string name="device_other_guide">Sollte Ihr Telefon nicht aufgeführt sein, folgen Sie den unten aufgeführten Schritten</string>
     <string name="device_other_title">Anderes Telefon</string>
     <string name="device_paired_dialog_message">Kontakte abrufen…</string>
@@ -1155,9 +1155,9 @@ Um einen Kontakt zu den Favoriten hinzuzufügen:
   • Sichern Ihrer Kontakte"</string>
     <string name="no_contact_details">Keine Zusatzinformationen zu diesem Kontakt</string>
     <string name="no_contact_in_other_phone">Keine Kontakte gefunden</string>
+    <string name="no_contact_selected">Kontakt wählen, um Details anzuzeigen</string>
     <string name="no_contacts_dialog_message">Keine Kontakte gefunden. Kontakte könnten auf Ihrer SIM-Karte sein. Bitte importieren Sie die SIM-Kontakte auf Ihr Telefon und versuchen Sie es erneut.</string>
     <string name="no_contacts_dialog_title">Keine Kontakte gefunden</string>
-    <string name="no_contact_selected">Kontakt wählen, um Details anzuzeigen</string>
     <string name="no_contacts_selected">Keine Kontakte ausgewählt</string>
     <string name="no_phone_no_shortcut">Für Kontakte ohne Rufnummern können keine Verknüpfungen erstellt werden</string>
     <string name="no_sdcard_message">Kein USB-Speicher gefunden</string>

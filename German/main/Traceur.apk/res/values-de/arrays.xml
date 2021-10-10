@@ -253,7 +253,7 @@
         <item>Nicht verbunden</item>
         <item>Nicht erfolgreich</item>
         <item>Blockiert</item>
-        <item>Schlechte Internetverbindung wird vorübergehend vermieden.</item>
+        <item>Temporär schlechte Verbindung vermeiden</item>
     </string-array>
     <string-array name="wifi_status_with_ssid">
         <item></item>
@@ -267,7 +267,21 @@
         <item>Nicht verbunden</item>
         <item>Nicht erfolgreich</item>
         <item>Blockiert</item>
-        <item>Schlechte Internetverbindung wird vorübergehend vermieden.</item>
+        <item>Temporär schlechte Verbindung vermeiden</item>
+    </string-array>
+    <string-array name="wifitrackerlib_wifi_status">
+        <item></item>
+        <item>Scannen…</item>
+        <item>Verbinden…</item>
+        <item>Authentifizierung…</item>
+        <item>IP-Adresse abrufen…</item>
+        <item>Verbunden</item>
+        <item>Ausgesetzt</item>
+        <item>Trennen…</item>
+        <item>Getrennt</item>
+        <item>Erfolglos</item>
+        <item>Gesperrt</item>
+        <item>Temporär schlechte Verbindung vermeiden</item>
     </string-array>
     <string-array name="window_animation_scale_entries">
         <item>Aus</item>

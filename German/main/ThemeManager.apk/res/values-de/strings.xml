@@ -19,6 +19,8 @@
     <string name="abc_toolbar_collapse_description">Einklappen</string>
     <string name="about_app_name">Über Themen</string>
     <string name="about_version_update">Was ist neu</string>
+    <string name="accessibility_setting_hint">"Auf die Schaltfläche in der oberen rechten Ecke tippen, um diesen Dienst einzuschalten.
+Themen erkennt, welche Apps Sie verwenden und zeigt transparente Hintergründe in den Apps Ihrer Wahl an."</string>
     <string name="accessibiliy_description_content_account">Profil</string>
     <string name="accessibiliy_description_content_ad">Werbung</string>
     <string name="accessibiliy_description_content_add_resource">Element hinzufügen</string>
@@ -28,8 +30,6 @@
     <string name="accessibiliy_description_content_more">Mehr</string>
     <string name="accessibiliy_description_content_search">Suchen</string>
     <string name="accessibiliy_description_content_share">Teilen</string>
-    <string name="accessibility_setting_hint">"Auf die Schaltfläche in der oberen rechten Ecke tippen, um diesen Dienst einzuschalten.
-Themen erkennt, welche Apps Sie verwenden und zeigt transparente Hintergründe in den Apps Ihrer Wahl an."</string>
     <string name="account_id_not_login">Zum Anmelden berühren</string>
     <string name="account_info">Mein Konto</string>
     <string name="account_name_not_login">Anmelden</string>
@@ -54,6 +54,7 @@ Themen erkennt, welche Apps Sie verwenden und zeigt transparente Hintergründe i
     <string name="afternoon">Nachmittag</string>
     <string name="all_resources">Alle</string>
     <string name="all_ringtone_resource">Alle</string>
+    <string name="already_latest_version">Aktuell</string>
     <string name="already_newest_version">Aktuelle Version ist auf dem neuesten Stand</string>
     <string name="anonymous_resource_link_error">Hinzufügen nicht möglich</string>
     <string name="anonymous_resource_link_hint">Einige Elemente wurden Ihrem Konto nicht hinzugefügt. Jetzt hinzufügen?</string>
@@ -70,7 +71,6 @@ Themen erkennt, welche Apps Sie verwenden und zeigt transparente Hintergründe i
     <string name="anonymous_resource_unlink_confirm">Nicht hinzufügen</string>
     <string name="anonymous_resource_unlink_hint">Wenn Sie keine Elemente hinzufügen, werden diese nicht mit Ihrem Konto verknüpft.</string>
     <string name="anonymous_resource_unlink_title">Ihre Aktion bestätigen</string>
-    <string name="already_latest_version">Aktuell</string>
     <string name="app_ad_title">Tägliche Empfehlungen</string>
     <string name="app_disable_transparent_wallpaper">Ohne transparenten Hintergrund</string>
     <string name="app_enable_transparent_wallpaper">Mit transparentem Hintergrund</string>
@@ -124,10 +124,10 @@ Themen erkennt, welche Apps Sie verwenden und zeigt transparente Hintergründe i
     <string name="character_counter_overflowed_content_description">Zeichenlimit überschritten: %1$d von %2$d</string>
     <string name="check_has_new_version">Update ist verfügbar</string>
     <string name="chip_text">Chiptext</string>
-    <string name="clear_text_end_icon_content_description">Text löschen</string>
-    <string name="clearable_edittext_clear_description">Löschen</string>
     <string name="choose_new_themes">Themen</string>
     <string name="classification_more_understand_you">Wählen Sie Ihre Lieblingskategorie</string>
+    <string name="clear_text_end_icon_content_description">Text löschen</string>
+    <string name="clearable_edittext_clear_description">Löschen</string>
     <string name="close">Schließen</string>
     <string name="common_applying">Anwenden…</string>
     <string name="common_downloading">Herunterladen…</string>
@@ -628,13 +628,13 @@ dd.MM."</string>
     <string name="mtrl_picker_toggle_to_day_selection">Tippen, um zur Tagesauswahl zu wechseln</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">Zum Texteingabemodus wechseln</string>
     <string name="mtrl_picker_toggle_to_year_selection">Tippen, um zur Jahresauswahl zu wechseln</string>
-    <string name="multiwindow_no_support">Diese Aktion wird im geteilten Bildschirm nicht unterstützt</string>
-    <string name="multiwindow_no_support_icon">Bei geteiltem Bildschirm können die Symbole nicht geändert werden</string>
     <string name="multi_sim_mms_ringtone_settings_dialog_message">Dieser Klingelton wird für beide SIM-Karten verwendet.</string>
     <string name="multi_sim_ringtone_settings_dialog_message">Klingelton wird gleichzeitig SIM1 und SIM2 zugeordnet</string>
     <string name="multi_sim_ringtone_settings_dialog_ok">Verstanden</string>
     <string name="multi_sim_ringtone_settings_dialog_remind_never">Nicht wieder anzeigen</string>
     <string name="multi_sim_ringtone_settings_dialog_title">Kompatibilitätsprobleme</string>
+    <string name="multiwindow_no_support">Diese Aktion wird im geteilten Bildschirm nicht unterstützt</string>
+    <string name="multiwindow_no_support_icon">Bei geteiltem Bildschirm können die Symbole nicht geändert werden</string>
     <string name="my_gifts">Geschenke</string>
     <string name="my_gifts_purchased">"Gekauft "</string>
     <string name="my_gifts_received">"Erhalten "</string>

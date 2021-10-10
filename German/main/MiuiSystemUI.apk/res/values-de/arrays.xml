@@ -1,131 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-    <string-array name="tile_states_airplane">
-        <item>Nicht verfügbar</item>
-        <item>Aus</item>
-        <item>Ein</item>
-    </string-array>
-    <string-array name="tile_states_alarm">
-        <item>Nicht verfügbar</item>
-        <item>Aus</item>
-        <item>Ein</item>
-    </string-array>
-    <string-array name="tile_states_battery">
-        <item>Nicht verfügbar</item>
-        <item>Aus</item>
-        <item>Ein</item>
-    </string-array>
-    <string-array name="tile_states_bt">
-        <item>Nicht verfügbar</item>
-        <item>Aus</item>
-        <item>Ein</item>
-    </string-array>
-    <string-array name="tile_states_cameratoggle">
-        <item>Nicht verfügbar</item>
-        <item>Aus</item>
-        <item>Ein</item>
-    </string-array>
-    <string-array name="tile_states_cast">
-        <item>Nicht verfügbar</item>
-        <item>Aus</item>
-        <item>Ein</item>
-    </string-array>
-    <string-array name="tile_states_cell">
-        <item>Nicht verfügbar</item>
-        <item>Aus</item>
-        <item>Ein</item>
-    </string-array>
-    <string-array name="tile_states_cEintrols">
-        <item>Nicht verfügbar</item>
-        <item>Aus</item>
-        <item>Ein</item>
-    </string-array>
-    <string-array name="tile_states_dark">
-        <item>Nicht verfügbar</item>
-        <item>Aus</item>
-        <item>Ein</item>
-    </string-array>
-    <string-array name="tile_states_dnd">
-        <item>Nicht verfügbar</item>
-        <item>Aus</item>
-        <item>Ein</item>
-    </string-array>
-    <string-array name="tile_states_flashlight">
-        <item>Nicht verfügbar</item>
-        <item>Aus</item>
-        <item>Ein</item>
-    </string-array>
-    <string-array name="tile_states_hotspot">
-        <item>Nicht verfügbar</item>
-        <item>Aus</item>
-        <item>Ein</item>
-    </string-array>
-    <string-array name="tile_states_internet">
-        <item>Nicht verfügbar</item>
-        <item>Aus</item>
-        <item>Ein</item>
-    </string-array>
-    <string-array name="tile_states_inversiEin">
-        <item>Nicht verfügbar</item>
-        <item>Aus</item>
-        <item>Ein</item>
-    </string-array>
-    <string-array name="tile_states_locatiEin">
-        <item>Nicht verfügbar</item>
-        <item>Aus</item>
-        <item>Ein</item>
-    </string-array>
-    <string-array name="tile_states_mictoggle">
-        <item>Nicht verfügbar</item>
-        <item>Aus</item>
-        <item>Ein</item>
-      </string-array>
-      <string-array name="tile_states_night">
-        <item>Nicht verfügbar</item>
-        <item>Aus</item>
-        <item>Ein</item>
-    </string-array>
-    <string-array name="tile_states_reduce_brightness">
-        <item>Nicht verfügbar</item>
-        <item>Aus</item>
-        <item>Ein</item>
-    </string-array>
-    <string-array name="tile_states_reverse">
-        <item>Nicht verfügbar</item>
-        <item>Aus</item>
-        <item>Ein</item>
-    </string-array>
-    <string-array name="tile_states_rotatiEin">
-        <item>Nicht verfügbar</item>
-        <item>Aus</item>
-        <item>Ein</item>
-    </string-array>
-    <string-array name="tile_states_saver">
-        <item>Nicht verfügbar</item>
-        <item>Aus</item>
-        <item>Ein</item>
-    </string-array>
-    <string-array name="tile_states_screenrecord">
-        <item>Nicht verfügbar</item>
-        <item>Aus</item>
-        <item>Ein</item>
-    </string-array>
-    <string-array name="tile_states_wallet">
-        <item>Nicht verfügbar</item>
-        <item>Aus</item>
-        <item>Ein</item>
-    </string-array>
-    <string-array name="tile_states_wifi">
-        <item>Nicht verfügbar</item>
-        <item>Aus</item>
-        <item>Ein</item>
-    </string-array>
-    <string-array name="tile_states_work">
-        <item>Nicht verfügbar</item>
-        <item>Aus</item>
-        <item>Ein</item>
-    </string-array>
-
     <string-array name="animator_duration_scale_entries">
         <item>Aus</item>
         <item>Skala 0.5x</item>
@@ -328,6 +202,14 @@
         <item>4MB pro Logpuffer</item>
         <item>16MB pro Logpuffer</item>
     </string-array>
+    <string-array name="select_logd_system_levels">
+        <item>Aus</item>
+        <item>Error</item>
+        <item>Warn</item>
+        <item>Info</item>
+        <item>Debug</item>
+        <item>Verbose</item>
+    </string-array>
     <string-array name="select_logpersist_summaries">
         <item>Aus</item>
         <item>Alle Protokollpuffer</item>
@@ -344,6 +226,131 @@
         <item>Aus</item>
         <item>Nicht rechteckigen Clipbereich blau zeichnen</item>
         <item>Getestete Zeichenbefehle grün hervorheben</item>
+    </string-array>
+    <string-array name="tile_states_airplane">
+        <item>Nicht verfügbar</item>
+        <item>Aus</item>
+        <item>Ein</item>
+    </string-array>
+    <string-array name="tile_states_alarm">
+        <item>Nicht verfügbar</item>
+        <item>Aus</item>
+        <item>Ein</item>
+    </string-array>
+    <string-array name="tile_states_battery">
+        <item>Nicht verfügbar</item>
+        <item>Aus</item>
+        <item>Ein</item>
+    </string-array>
+    <string-array name="tile_states_bt">
+        <item>Nicht verfügbar</item>
+        <item>Aus</item>
+        <item>Ein</item>
+    </string-array>
+    <string-array name="tile_states_cameratoggle">
+        <item>Nicht verfügbar</item>
+        <item>Aus</item>
+        <item>Ein</item>
+    </string-array>
+    <string-array name="tile_states_cast">
+        <item>Nicht verfügbar</item>
+        <item>Aus</item>
+        <item>Ein</item>
+    </string-array>
+    <string-array name="tile_states_cell">
+        <item>Nicht verfügbar</item>
+        <item>Aus</item>
+        <item>Ein</item>
+    </string-array>
+    <string-array name="tile_states_controls">
+        <item>Nicht verfügbar</item>
+        <item>Aus</item>
+        <item>An</item>
+    </string-array>
+    <string-array name="tile_states_dark">
+        <item>Nicht verfügbar</item>
+        <item>Aus</item>
+        <item>Ein</item>
+    </string-array>
+    <string-array name="tile_states_dnd">
+        <item>Nicht verfügbar</item>
+        <item>Aus</item>
+        <item>Ein</item>
+    </string-array>
+    <string-array name="tile_states_flashlight">
+        <item>Nicht verfügbar</item>
+        <item>Aus</item>
+        <item>Ein</item>
+    </string-array>
+    <string-array name="tile_states_hotspot">
+        <item>Nicht verfügbar</item>
+        <item>Aus</item>
+        <item>Ein</item>
+    </string-array>
+    <string-array name="tile_states_internet">
+        <item>Nicht verfügbar</item>
+        <item>Aus</item>
+        <item>Ein</item>
+    </string-array>
+    <string-array name="tile_states_inversion">
+        <item>Nicht verfügbar</item>
+        <item>Aus</item>
+        <item>An</item>
+    </string-array>
+    <string-array name="tile_states_location">
+        <item>Nicht verfügbar</item>
+        <item>Aus</item>
+        <item>An</item>
+    </string-array>
+    <string-array name="tile_states_mictoggle">
+        <item>Nicht verfügbar</item>
+        <item>Aus</item>
+        <item>Ein</item>
+      </string-array>
+      <string-array name="tile_states_night">
+        <item>Nicht verfügbar</item>
+        <item>Aus</item>
+        <item>Ein</item>
+    </string-array>
+    <string-array name="tile_states_reduce_brightness">
+        <item>Nicht verfügbar</item>
+        <item>Aus</item>
+        <item>Ein</item>
+    </string-array>
+    <string-array name="tile_states_reverse">
+        <item>Nicht verfügbar</item>
+        <item>Aus</item>
+        <item>Ein</item>
+    </string-array>
+    <string-array name="tile_states_rotation">
+        <item>Nicht verfügbar</item>
+        <item>Aus</item>
+        <item>An</item>
+    </string-array>
+    <string-array name="tile_states_saver">
+        <item>Nicht verfügbar</item>
+        <item>Aus</item>
+        <item>Ein</item>
+    </string-array>
+    <string-array name="tile_states_screenrecord">
+        <item>Nicht verfügbar</item>
+        <item>Aus</item>
+        <item>Ein</item>
+    </string-array>
+    <string-array name="tile_states_wallet">
+        <item>Nicht verfügbar</item>
+        <item>Aus</item>
+        <item>Ein</item>
+    </string-array>
+    <string-array name="tile_states_wifi">
+        <item>Nicht verfügbar</item>
+        <item>Aus</item>
+        <item>Ein</item>
+    </string-array>
+    <string-array name="tile_states_work">
+        <item>Nicht verfügbar</item>
+        <item>Aus</item>
+        <item>Ein</item>
     </string-array>
     <string-array name="track_frame_time_entries">
         <item>Aus</item>
@@ -377,14 +384,6 @@
         <item>RNDIS (USB Ethernet)</item>
         <item>Audioquelle</item>
         <item>MIDI</item>
-    </string-array>
-    <string-array name="select_logd_system_levels">
-        <item>Aus</item>
-        <item>Error</item>
-        <item>Warn</item>
-        <item>Info</item>
-        <item>Debug</item>
-        <item>Verbose</item>
     </string-array>
     <string-array name="weather_type">
         <item>Klar</item>
@@ -427,7 +426,7 @@
         <item>Getrennt</item>
         <item>Erfolglos</item>
         <item>Blockiert</item>
-        <item>Vorübergehende schlechte Verbindung vermeiden</item>
+        <item>Temporär schlechte Verbindung vermeiden</item>
     </string-array>
     <string-array name="wifi_status_with_ssid">
         <item></item>
@@ -441,7 +440,21 @@
         <item>Getrennt</item>
         <item>Erfolglos</item>
         <item>Blockiert</item>
-        <item>Vorübergehende schlechte Verbindung vermeiden</item>
+        <item>Temporär schlechte Verbindung vermeiden</item>
+    </string-array>
+    <string-array name="wifitrackerlib_wifi_status">
+        <item></item>
+        <item>Scannen…</item>
+        <item>Verbinden…</item>
+        <item>Authentifizierung…</item>
+        <item>IP-Adresse abrufen…</item>
+        <item>Verbunden</item>
+        <item>Ausgesetzt</item>
+        <item>Trennen…</item>
+        <item>Getrennt</item>
+        <item>Erfolglos</item>
+        <item>Gesperrt</item>
+        <item>Temporär schlechte Verbindung vermeiden</item>
     </string-array>
     <string-array name="window_animation_scale_entries">
         <item>Aus</item>

@@ -29,6 +29,10 @@
         <item quantity="other">Vor %d Min</item>
         <item quantity="one">Vor 1 Min</item>
     </plurals>
+    <plurals name="composite_notification_title_template">
+        <item quantity="other">%1$d Druckaufträge</item>
+        <item quantity="one">einen Druckauftrag</item>
+    </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">Vor einer halben Stunde</item>
     </plurals>
@@ -56,16 +60,12 @@
         <item quantity="other">Vor %d Minuten</item>
         <item quantity="one">Vor 1 Minute</item>
     </plurals>
-    <plurals name="print_services_recommendation_subtitle">
-        <item quantity="other">installieren, um %1$s Drucker zu erkennen</item>
-        <item quantity="one">installieren, um einen Drucker zu erkennen</item>
-    </plurals>
     <plurals name="print_search_result_count_utterance">
         <item quantity="other">%1$s Drucker gefunden</item>
         <item quantity="one">einen Drucker gefunden</item>
     </plurals>
-    <plurals name="composite_notification_title_template">
-        <item quantity="other">%1$d Druckaufträge</item>
-        <item quantity="one">einen Druckauftrag</item>
+    <plurals name="print_services_recommendation_subtitle">
+        <item quantity="other">installieren, um %1$s Drucker zu erkennen</item>
+        <item quantity="one">installieren, um einen Drucker zu erkennen</item>
     </plurals>
 </resources>

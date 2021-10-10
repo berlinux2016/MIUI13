@@ -99,14 +99,6 @@ Möchten Sie unsere Hilfe bei der Verlängerung?"</item>
         <item quantity="other">Vor %d Tagen</item>
         <item quantity="one">Vor %d Tag</item>
     </plurals>
-    <plurals name="download_finished">
-        <item quantity="other">&lt;font color=\"red\">%d Titel&lt;/font> heruntergeladen</item>
-        <item quantity="one">&lt;font color==\"red\">%d Titel&lt;/font> heruntergeladen</item>
-    </plurals>
-    <plurals name="download_running">
-        <item quantity="other">&lt;font color=\"red\">%d Titel&lt;/font> heruntergeladen</item>
-        <item quantity="one">&lt;font color==\"red\">%d Titel&lt;/font> heruntergeladen</item>
-    </plurals>
     <plurals name="dialog_confirm_delete_downloads_message">
         <item quantity="other">%d Elemente löschen?</item>
         <item quantity="one">%d Element löschen?</item>
@@ -129,9 +121,17 @@ Hinweis: Datei wird auch von diesem Gerät gelöscht."</item>
         <item quantity="other">%d Titel aus Xiaomi Cloud löschen? Diese werden von der lokalen Wiedergabeliste ebenfalls entfernt.</item>
         <item quantity="one">%d Titel aus Xiaomi Cloud löschen? Dieser wird von der lokalen Wiedergabeliste ebenfalls entfernt.</item>
     </plurals>
+    <plurals name="download_finished">
+        <item quantity="other">&lt;font color=\"red\">%d Titel&lt;/font> heruntergeladen</item>
+        <item quantity="one">&lt;font color==\"red\">%d Titel&lt;/font> heruntergeladen</item>
+    </plurals>
     <plurals name="download_info_count_deleted_tasks">
         <item quantity="other">%d Downloads entfernt</item>
         <item quantity="one">%d Download entfernt</item>
+    </plurals>
+    <plurals name="download_running">
+        <item quantity="other">&lt;font color=\"red\">%d Titel&lt;/font> heruntergeladen</item>
+        <item quantity="one">&lt;font color==\"red\">%d Titel&lt;/font> heruntergeladen</item>
     </plurals>
     <plurals name="free_downloads_num_hint">
         <item quantity="other">%d kostenlose Downloads übrig</item>

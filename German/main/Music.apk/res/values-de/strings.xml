@@ -78,7 +78,6 @@
     <string name="always_use_metered">Immer mobile Daten nutzen</string>
     <string name="app_description_content">Musik ist eine System-App, die einen Audioplayer enthält und Ihnen erlaubt, Audiodateien zu verwalten. Sie können Audiodateien auch dann noch abspielen, wenn Sie die Startbildschirm-Verknüpfung entfernen.</string>
     <string name="app_description_title">\"Musik\" vom Startbildschirm entfernen?</string>
-    <string name="app_name">Präferenz</string>
     <string name="app_permission_confirm">Verstanden</string>
     <string name="app_permission_optional">Optionale Rechte</string>
     <string name="app_permission_require">Obligatorische Rechte</string>
@@ -102,13 +101,6 @@
     <string name="artist_is_empty">Name Interpret darf nicht leer sein</string>
     <string name="artist_name">Interpret</string>
     <string name="artist_news">Nachrichten</string>
-    <string name="audio_ad_countdown">Werbung in %s Sek überspringen</string>
-    <string name="audio_ad_pass">Werbung überspringen</string>
-    <string name="audio_picker_title">Titel wählen</string>
-    <string name="auto_recommend">Automatisch (empfohlen)</string>
-    <string name="auto_sound_quality">Automatisch</string>
-    <string name="auto_update">Automatisch aktualisieren</string>
-    <string name="auto_update_tip">Sie können System-Apps mit mobilen Daten aktualisieren. Dabei können zusätzliche Kosten anfallen.</string>
     <string name="asset_sync_alert_not_now">Nicht jetzt</string>
     <string name="asset_sync_network_data_alert_message">Sichern von Titeln über mobile Datenverbindung kann zusätzliche Kosten verursachen, trotzdem fortsetzen?</string>
     <string name="asset_sync_network_data_alert_title">Sie verwenden eine mobile Datenverbindung</string>
@@ -116,12 +108,13 @@
     <string name="asset_sync_network_unavailable_alert_title">Netzwerkverbindung fehlgeschlagen</string>
     <string name="asset_sync_power_alert_message">Ladegerät anschließen, um Titel zu sichern</string>
     <string name="asset_sync_power_alert_title">Akku zu schwach</string>
-    <string name="audio_ad_countdown">Werbung in %ss überspringen</string>
+    <string name="audio_ad_countdown">Werbung in %s Sek überspringen</string>
     <string name="audio_ad_pass">Werbung überspringen</string>
-    <string name="audio_picker_title">Titel auswählen</string>
+    <string name="audio_picker_title">Titel wählen</string>
     <string name="auto_payment">Automatisch erneuern</string>
     <string name="auto_payment_date">Nächste Zahlung: %s</string>
     <string name="auto_recommend">Automatisch (empfohlen)</string>
+    <string name="auto_sound_quality">Automatisch</string>
     <string name="auto_update">Automatisch aktualisieren</string>
     <string name="auto_update_tip">Sie können System-Apps über mobile Daten aktualisieren. Dies könnte Zusatzkosten verursachen.</string>
     <string name="available_playlist_name_format">Neue Wiedergabeliste %d</string>
@@ -384,15 +377,13 @@
     <string name="edit_playlist_info">Info Wiedergabeliste bearbeiten</string>
     <string name="empty_page_no_album">Keine Alben</string>
     <string name="empty_page_no_artist">Keine Interpreten</string>
-    <string name="enabled">Aktiviert</string>
     <string name="enable_auto_payment_fail">Aktivieren nicht möglich</string>
     <string name="enable_auto_payment_fail_message">Automatische Verlängerung wurde nicht aktiviert</string>
     <string name="enable_auto_payment_success">Automatisch verlängern</string>
     <string name="enable_auto_payment_success_message">Automatische Verlängerung wurde aktiviert. Nächste Zahlung ist fällig am %s.</string>
     <string name="enabled">Aktiviert</string>
-    <string name="enter_garbage_clean">Internen Speicher aufräumen</string>
     <string name="enjoy_hungama_pro">Hungama PRO genießen</string>
-    <string name="enter_garbage_clean">Internen Speicher bereinigen.</string>
+    <string name="enter_garbage_clean">Internen Speicher aufräumen</string>
     <string name="eq_auto">Benutzerdefiniert</string>
     <string name="eq_classical">Klassik</string>
     <string name="eq_delete">Entfernen</string>
@@ -842,11 +833,11 @@
     <string name="no_favorites_songs">Leer</string>
     <string name="no_file_picker_find">Dateimanager nicht installiert</string>
     <string name="no_follow_empty_title">Sie folgen noch niemandem</string>
-    <string name="no_lyrics">Keine Songtexte</string>
     <string name="no_local_songs">Leer</string>
     <string name="no_local_songs_selected">Titel können nicht gesendet werden, da diese nicht heruntergeladen wurden</string>
     <string name="no_local_source_find">Titel nicht gefunden</string>
     <string name="no_longer_prompt">Nicht mehr anzeigen</string>
+    <string name="no_lyrics">Keine Songtexte</string>
     <string name="no_online_song_selected">Keine Titel ausgewählt</string>
     <string name="no_results_return">Keine Suchergebnisse</string>
     <string name="no_scanned_songs">Leer</string>
@@ -972,7 +963,6 @@
     <string name="privacy_authorize_revoking">Genehmigung widerrufen…</string>
     <string name="privacy_desc">Datenschutzerklärung (obligatorisch)</string>
     <string name="privacy_policy">Datenschutzerklärung</string>
-    <string name="privacy_policy_url">https://privacy.mi.com/all/de_DE</string>
     <string name="privacy_request_desc"><Data>"Mi Music muss notwendige persönliche Daten sammeln, um Ihnen Online-Streaming-Dienste anbieten zu können. Wie wir mit den gesammelten Daten umgehen, erfahren Sie in unserer &lt;a href=\"%1$s\">Datenschutzerklärung&lt;/a>. Sie können Ihre Zustimmung zur Mi Music Datenschutzerklärung jederzeit in den Einstellungen zurückziehen.
 Lesen und akzeptieren Sie unsere &lt;a href=\"%2$s\">Nutzervereinbarung &lt;/a> und &lt;a href=\"%1$s\">Datenschutzerklärung&lt;/a>, bevor Sie Mi Music nutzen.
 Wenn Sie mit der Nutzung der oben genannten Dienste nicht einverstanden sind, können Sie einige Funktionen dieser App nicht nutzen; die Grundfunktionen stehen Ihnen jedoch weiterhin zur Verfügung."</Data></string>
@@ -1334,22 +1324,20 @@ Glücklich sein."</string>
     <string name="upload_playlist_to_hungama_title">Synchronisieren Sie Online-Titel mit Hungama, um auf sie auf anderen Geräten, auf denen Sie Ihr Mi-Konto verwenden, zugreifen zu können.</string>
     <string name="upload_playlist_to_hungama_toast">Online-Titel werden mit Hungama synchronisiert</string>
     <string name="user_agreement">Nutzervereinbarung</string>
-    <string name="user_agreement_url">http://www.miui.com/res/doc/eula.html?lang=de</string>
     <string name="user_playlist_plaza">Wiedergabelisten</string>
-    <string name="user_profile_created_playlist_title">Benutzerdefinierte Wiedergabelisten</string>
-    <string name="user_profile_fans_count">Anhänger: %s</string>
-    <string name="user_profile_follow_count">Folgen: %s</string>
     <string name="user_privacy_dialog_negative_text">Abbrechen</string>
     <string name="user_privacy_dialog_positive_count_down_text">Widerrufen (%ss)</string>
     <string name="user_privacy_dialog_positive_text">Widerrufen</string>
     <string name="user_privacy_setting_group_title">Genehmigung</string>
     <string name="user_privacy_setting_title">Schalter umlegen, um Ihre Genehmigung zu erteilen oder zu widerrufen</string>
+    <string name="user_profile_created_playlist_title">Benutzerdefinierte Wiedergabelisten</string>
+    <string name="user_profile_fans_count">Anhänger: %s</string>
+    <string name="user_profile_follow_count">Folgen: %s</string>
     <string name="v7_preference_off">AUS</string>
     <string name="v7_preference_on">EIN</string>
-    <string name="video_play_cellular">Ihr Gerät ist nicht mit WLAN verbunden. Mobile Daten nutzen?</string>
+    <string name="video_play_cellular">Ihr Gerät ist nicht mit WLAN verbunden. Mobile Daten verwenden?</string>
     <string name="video_replay_btn">Erneut abspielen</string>
     <string name="video_retry_btn">Erneut versuchen</string>
-    <string name="video_play_cellular">Ihr Gerät ist nicht mit WLAN verbunden. Mobile Daten verwenden?</string>
     <string name="view_album">Album anzeigen</string>
     <string name="vip_after_tomorrow_auto_renew_message">Ihr Musikabo wird übermorgen Abend automatisch verlängert.Stellen Sie sicher, dass Sie genügend Mi Coins für die Bezahlung besitzen.</string>
     <string name="vip_after_tomorrow_renew_message">Sie werden nicht mehr in hoher Audioqualität streamen können, aber einige Titel werden in Standardqualität verfügbar sein.</string>
@@ -1367,14 +1355,11 @@ Glücklich sein."</string>
     <string name="wednesday_shortest">M</string>
     <string name="wifi_required_body" formatted="false">Mit WLAN verbinden, um diesen %s-Download abzuschließen.\n%s antippen, um den Download zu starten, sobald Sie mit WLAN verbunden sind.</string>
     <string name="wifi_required_title">Sie sollten sich mit WLAN verbinden, um diese Datei herunterzuladen.</string>
-    <string name="xiaomi_update_sdk_bytes_unit">%1$s B</string>
     <string name="xiaomi_update_sdk_connect_download_manager_fail">Verbinden mit Downloadmanager fehlgeschlagen, bitte prüfen Sie den Status des Downloadmanagers im App-Management.</string>
     <string name="xiaomi_update_sdk_dialog_message">Vorstellung der Version %1$s\nGröße: %2$s</string>
     <string name="xiaomi_update_sdk_dialog_message_diff">Vorstellung der Version %1$s\nGröße Delta-Update: %2$s</string>
     <string name="xiaomi_update_sdk_dialog_title">%1$s Update!</string>
     <string name="xiaomi_update_sdk_external_storage_unavailable">Speicher nicht verfügbar, bitte prüfen Sie die SD-Karte</string>
-    <string name="xiaomi_update_sdk_kilobytes_unit">%1$s KB</string>
-    <string name="xiaomi_update_sdk_megabytes_unit">%1$s MB</string>
     <string name="yesterday">Gestern</string>
     <string name="you_can_switch_mode_in_settings">In Einstellungen können Sie zwischen den Modi wechseln</string>
     <string name="you_may_like">Vielleicht gefällt Ihnen auch</string>

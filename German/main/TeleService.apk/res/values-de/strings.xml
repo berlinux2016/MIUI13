@@ -324,8 +324,8 @@
     <string name="battery_info_status_charging_ac">Laden mit Netzstecker</string>
     <string name="battery_info_status_charging_ac_short">Laden</string>
     <string name="battery_info_status_charging_fast">Schnell laden</string>
-    <string name="battery_info_status_charging_slow">Langsam laden</string>
     <string name="battery_info_status_charging_lower">Laden</string>
+    <string name="battery_info_status_charging_slow">Langsam laden</string>
     <string name="battery_info_status_charging_usb">Laden über USB</string>
     <string name="battery_info_status_charging_usb_short">Laden</string>
     <string name="battery_info_status_charging_wireless">Kabellos laden</string>
@@ -850,6 +850,7 @@ Tippen Sie 'Löschen und konvertieren…', um fortzufahren."</string>
     <string name="daltonizer_mode_protanomaly">Protanomalie (Rotsehschwäche)</string>
     <string name="daltonizer_mode_tritanomaly">Tritanomalie (Blausehschwäche)</string>
     <string name="daltonizer_type_overridden">Überschrieben von %1$s</string>
+    <string name="data_disable_warning_no_mms">Sie können keine MMS senden und empfangen, wenn Sie mobile Daten (WCDMA/LTE) ausschalten. Sie können dies jedoch tun, wenn Ihr Gerät mit WLAN verbunden ist.</string>
     <string name="data_disable_warning_with_mms">Sie können weiterhin MMS senden und empfangen, wenn Sie mobile Daten (WCDMA/LTE) ausschalten. Für die Internetnutzung verbinden Sie sich mit WLAN.</string>
     <string name="data_disable_warning_with_mms_lgu">"Sie können weiterhin MMS senden und empfangen, wenn Sie mobile Daten ausschalten. Für die Internetnutzung verbinden Sie sich mit WLAN.
 
@@ -861,7 +862,6 @@ Mobile Daten ausschalten?"</string>
 
 Mobile Daten trotzdem nutzen?"</string>
     <string name="data_enabled">Datenverbindung einschalten</string>
-    <string name="data_disable_warning_no_mms">Sie können keine MMS senden und empfangen, wenn Sie mobile Daten (WCDMA/LTE) ausschalten. Sie können dies jedoch tun, wenn Ihr Gerät mit WLAN verbunden ist.</string>
     <string name="data_plan">Mobile Datenpläne</string>
     <string name="data_usage_disable_mobile">Mobile Daten ausschalten?</string>
     <string name="data_usage_ota">Systemaktualisierungen</string>
@@ -1550,7 +1550,6 @@ Immer diese Nummer verwenden"</string>
     <string name="mobile_advanced_ip_address_title">IP-Adresse</string>
     <string name="mobile_advanced_nr_network_title">5G-Netzwerk</string>
     <string name="mobile_connection_management">Mobile Netwerkverbindung verwalten</string>
-    <string name="mobile_property">Verbindungseigenschaften Mobilfunknetz</string>
     <string name="mobile_data">Mobile Daten</string>
     <string name="mobile_data_activate_button">DATEN HINZUFÜGEN</string>
     <string name="mobile_data_activate_cancel_button">ABBRECHEN</string>
@@ -1577,6 +1576,7 @@ Immer diese Nummer verwenden"</string>
     <string name="mobile_network_dual_card_optimizationmobile_title">Dual SIM &amp; Mobilfunknetze</string>
     <string name="mobile_network_settings_not_available">Mobilfunkeinstellungen sind für diesen Benutzer nicht verfügbar</string>
     <string name="mobile_networks">Einstellungen Mobilfunknetz</string>
+    <string name="mobile_property">Verbindungseigenschaften Mobilfunknetz</string>
     <string name="mobile_special_network_optimization_config_summary">Verbesserung der Gesprächsqualität durch autom. Anpassung an unterschiedliche Szenen</string>
     <string name="mobile_special_network_optimization_config_title">An unterschiedliche Szenen anpassen</string>
     <string name="mock_location_app">App für Scheinstandorte auswählen</string>
@@ -1769,13 +1769,13 @@ Immer diese Nummer verwenden"</string>
     <string name="no_mobile_data">Mobile Daten nicht verfügbar</string>
     <string name="no_mobile_data_roaming">Datenroaming nicht verfügbar</string>
     <string name="no_rtt_when_roaming">Hinweis: RTT ist beim Roaming nicht verfügbar</string>
-    <string name="noon">Mittag</string>
     <string name="no_unlock_chance_hint">"Sie haben keine Versuche mehr.
 Kontaktieren Sie Ihren Mobilfunkanbieter."</string>
     <string name="no_vm_number">Fehlende Sprachboxnummer</string>
     <string name="no_vm_number_msg">Auf der SIM-Karte ist keine Sprachboxnummer gespeichert</string>
     <string name="no_voip">SIP-Anrufe werden nicht unterstützt</string>
     <string name="no_wifi_available">Für SIP-Anrufe ist eine aktive WLAN-Verbindung notwendig (WLAN &amp; Netzwerkeinstellungen nutzen).</string>
+    <string name="noon">Mittag</string>
     <string name="not_a_valid_port">Portnummer muss zwischen %1$d und %2$d liegen.</string>
     <string name="not_allowed">Ihre SIM-Karte verbietet eine Verbindung mit diesem Netzwerk</string>
     <string name="not_default_data_content_description">Nicht für die Datenverwendung eingestellt</string>>
@@ -2225,6 +2225,9 @@ UT-Schnittstelle: %5$s"</string>
     <string name="remove">Löschen</string>
     <string name="remove_sip_account">Konto entfernen</string>
     <string name="removing_account">Konto entfernen…</string>
+    <string name="report_method_entries_item1">Nur wenn Kopfhörer angeschlossen sind</string>
+    <string name="report_method_entries_item2">Immer</string>
+    <string name="report_method_entries_item3">Ausschalten</string>
     <string name="requesting_corporate_unlock">Erbitte SIM-Firmenentsperrung…</string>
     <string name="requesting_nw_subset_unlock">Erbitte SIM-Netzbereichentsperrung…</string>
     <string name="requesting_puk_unlock">Erbitte PUK Entsperrung…</string>
@@ -2239,9 +2242,6 @@ UT-Schnittstelle: %5$s"</string>
     <string name="requesting_unlock">Netzwerkentsperrung anfordern…</string>
     <string name="reset_data_usage">Datenvolumen zurücksetzen</string>
     <string name="reset_my_choice_hint">Sie können in Ihrer Telefon-App im Menü unter \"Erweiterte Einstellungen &gt; VoIP-Einstellungen\" im Bildschirm \"VoIP Konten\" einstellen, welches Konto standardmäßig für Internetanrufe verwendet werden soll.</string>
-    <string name="report_method_entries_item1">Nur wenn Kopfhörer angeschlossen sind</string>
-    <string name="report_method_entries_item2">Immer</string>
-    <string name="report_method_entries_item3">Ausschalten</string>
     <string name="reset_roaming_message">Gerät wird neu gestartet, um Roaming zurückzusetzen.</string>
     <string name="reset_roaming_not_support">Diese SIM-Karte kann Roaming nicht initialisieren.</string>
     <string name="reset_roaming_tip">Roaming zurücksetzen…</string>
@@ -2821,7 +2821,6 @@ Falls dieses Problem weiterhin besteht, setzen Sie sich mit Ihrem Mobilfunkanbie
     <string name="vm_change_pin_old_pin">Alte PIN</string>
     <string name="vm_change_pin_progress_message">Bitte warten</string>
     <string name="vm_changed">Sprachboxnummer geändert</string>
-    <string name="voicemail_callforward_settings">Sprachnachricht und Rufumleitung</string>
     <string name="voice_number_setting_primary_user_only">Sprachboxeinstellungen können nur vom Hauptbenutzer geändert werden</string>
     <string name="voice_privacy">Datenschutz für Sprachnotizen</string>
     <string name="voice_privacy_summary">Erweiterten Datenschutzmodus aktivieren</string>
@@ -2837,6 +2836,7 @@ Falls dieses Problem weiterhin besteht, setzen Sie sich mit Ihrem Mobilfunkanbie
     <string name="voice_service_warning_dialog_ok_timer">Fertig (%d)</string>
     <string name="voice_service_warning_dialog_title">VoLTE Anrufe</string>
     <string name="voicemail">Sprachbox</string>
+    <string name="voicemail_callforward_settings">Sprachnachricht und Rufumleitung</string>
     <string name="voicemail_change_pin_dialog_title">PIN ändern</string>
     <string name="voicemail_default">Ihr Mobilfunkanbieter</string>
     <string name="voicemail_lable">Sprachbox (%s)</string>
@@ -2983,7 +2983,7 @@ Wenn Sie sich für Mobilfunknetze entscheiden, werden diese standardmäßig für
     <string name="wifi_hotspot_switch_off_text">Aus</string>
     <string name="wifi_hotspot_switch_on_text">An</string>
     <string name="wifi_limited_connection">Eingeschränkte Verbindung</string>
-    <string name="wifi_metered_label">Gemessen</string>
+    <string name="wifi_metered_label">Kostenpflichtig</string>
     <string name="wifi_new_network_auto_connection">SSID Bridging ‑ Auto-Verbindung</string>
     <string name="wifi_new_network_auto_connection_summary">Autom. Verbindungsversuche zu einer neuen WPA/WPA2‑PSK 5GHz SSID mit aktuell verbundenen WPA/WPA2‑PSK 2GHz SSID-Anmeldeinformationen bei teilweiser Übereinstimmung von SSID und BSSID aktivieren</string>
     <string name="wifi_no_internet">Kein Internetzugang</string>
@@ -3002,7 +3002,7 @@ Wenn Sie sich für Mobilfunknetze entscheiden, werden diese standardmäßig für
     <string name="wifi_status_mac_randomized">MAC ist zufällig</string>
     <string name="wifi_status_no_internet">Kein Internet</string>
     <string name="wifi_status_sign_in_required">Anmeldung erforderlich</string>
-    <string name="wifi_unmetered_label">Nicht gemessen</string>
+    <string name="wifi_unmetered_label">Kostenfrei</string>
     <string name="wifi_verbose_logging">Ausführliche Protokollierung für WLAN aktivieren</string>
     <string name="wifi_verbose_logging_summary">WLAN-Logging-Level erhöhen, Anzeige per SSID RSSI im WLAN-Picker</string>
     <string name="wifi_wapi_as_certificate">AS-Zertifikat</string>

@@ -1,9 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-    <string name="gmail_invalid_tip_cancel">Verstanden</string>
-    <string name="gmail_invalid_tip_confirm">Anmelden</string>
-    <string name="gmail_invalid_tip_message">Entschuldigen Sie vielmals! Aufgrund der neuesten Google-Sicherheitsvereinbarung müssen Sie die Gmail-Anmeldung-Autorisierung erneut durchführen</string>
-    <string name="gmail_invalid_tip_title">Gmail-Anmeldung</string>
 
     <string name="SMTP_independent_verification_text">SMTP-unabhängige Verifizierung</string>
     <string name="SMTP_password_text">Passwort</string>
@@ -690,10 +686,10 @@
     <string name="forward_download_failed_ticker">Mindestens ein Anhang wurde nicht weitergeleitet</string>
     <string name="forward_download_failed_title">Anhang nicht weitergeleitet</string>
     <string name="free_period_text">Zinsfreie Laufzeit</string>
-    <string name="from_heading">"Von: "</string>
     <string name="friday">Freitag</string>
     <string name="friday_short">Fr</string>
     <string name="friday_shortest">F</string>
+    <string name="from_heading">"Von: "</string>
     <string name="gamil_login_failed_1">Anmeldung fehlgeschlagen. Bitte später erneut versuchen.</string>
     <string name="gamil_login_failed_2">Anmeldung fehlgeschlagen. Bitte Google-Dienst aktualisieren und erneut versuchen.</string>
     <string name="gamil_login_failed_3">Anmeldung fehlgeschlagen. Netzwerkeinstellungen überprüfen und erneut versuchen.</string>
@@ -716,6 +712,10 @@
     <string name="get_database_exception">Zum Löschen der App-Daten gehen Sie zu Einstellungen &gt; System-Apps und versuchen Sie es erneut</string>
     <string name="get_oauth_code">Code abrufen</string>
     <string name="gmail_acceleration">Für Gmail-Konto Proxyserver verwenden</string>
+    <string name="gmail_invalid_tip_cancel">Verstanden</string>
+    <string name="gmail_invalid_tip_confirm">Anmelden</string>
+    <string name="gmail_invalid_tip_message">Entschuldigen Sie vielmals! Aufgrund der neuesten Google-Sicherheitsvereinbarung müssen Sie die Gmail-Anmeldung-Autorisierung erneut durchführen</string>
+    <string name="gmail_invalid_tip_title">Gmail-Anmeldung</string>
     <string name="gmail_login_confirm_to_use_proxy">Proxyserver für den Zugriff auf Ihr Gmail-Konto verwenden?</string>
     <string name="gmail_login_failed_non_proxy_title">Kein Zugriff auf Gmail-Server</string>
     <string name="gmail_server_authorization_deleted">Authentifizierung fehlgeschlagen. Nochmals versuchen.</string>
@@ -1478,7 +1478,6 @@ oder sehen Sie sich die Nachricht auf Ihrem Computer an."</string>
     <string name="sending_message">Nachricht senden…</string>
     <string name="sending_quick_reply">\"%s\" senden</string>
     <string name="sent_folder_selection_title">Server-Ordner \"Gesendete Elemente\" für %s auswählen</string>
-    <string name="ser_resp_err_map_serclosed_info">%s-Server geschlossen.</string>
     <string name="ser_resp_err_map_certificate_validator_err">"Serverzertifikat wurde nicht validiert
 \u0009 (Stellen Sie sicher, dass die 'Autom. Zeitsynchronisation' in den Einstellungen eingeschaltet ist)"</string>
     <string name="ser_resp_err_map_landing_more_failure">Zu viele erfolglose Anmeldeversuche</string>
@@ -1490,6 +1489,7 @@ oder sehen Sie sich die Nachricht auf Ihrem Computer an."</string>
     <string name="ser_resp_err_map_or">%1$s oder %2$s</string>
     <string name="ser_resp_err_map_pserr">Benutzername oder Passwort falsch</string>
     <string name="ser_resp_err_map_serclosed">%s-Server ist geschlossen</string>
+    <string name="ser_resp_err_map_serclosed_info">%s-Server geschlossen.</string>
     <string name="ser_resp_err_map_ssl">"Wählen Sie in 'Sicherheitstyp' 'SSL/TLS (Alle Zertifikate akzeptieren)'"</string>
     <string name="server_cet_button">Diesem Zertifikat vertrauen</string>
     <string name="server_cet_cert_data">"Gültigkeitsdauer: "</string>
@@ -1533,7 +1533,7 @@ oder sehen Sie sich die Nachricht auf Ihrem Computer an."</string>
     <string name="sign_in_dialog_outlook_imap">IMAP (ohne Kalender)</string>
     <string name="sign_in_graph_error">Sie können sich nur dann mit den Protokollen IMAP oder EXCHANGE anmelden, wenn Ihre Firma die allgemeine Serverkonfiguration nicht geändert hat. Wenn Ihre Serveradresse von der Firma angepasst wurde oder die entsprechenden Protokolle deaktiviert sind, melden Sie sich mit dem neuen Protokoll von Microsoft an.</string>
     <string name="sign_in_no_useful_provider_error">Protokollkonfigurationen von Microsoft nicht abrufbar. Ein anderes Protokoll verwenden oder das Protokoll von Microsoft aktualisieren.</string>
-    <string name="signature_black_shark">Gesendet von meinem Blackshark Telefon</string>
+    <string name="signature_black_shark">Gesendet von meinem Black Shark Telefon</string>
     <string name="silent_ringtone">Lautlos</string>
     <string name="sms_not_found_tip">"Ihre Standard-SMS-App wurde nicht geöffnet. 
 App öffnen und Bestätigungs-SMS manuell senden."</string>

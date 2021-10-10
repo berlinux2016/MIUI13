@@ -499,10 +499,10 @@ und treten Sie für einen Moment aus dem Blickfeld raus."</string>
     <string name="clone_video_mode">Videomodus</string>
     <string name="clone_video_mode_start_hint">Bitte auf den Auslöser tippen, um mit der Videoaufnahme zu beginnen</string>
     <string name="close">Schließen</string>
-    <string name="close_night_algo_toast_low_power">Ihr Gerät aufladen, um die Belichtung einstellen zu können</string>
-    <string name="close_night_algo_toast_thermal">Ihr Gerät abkühlen, um die Belichtung einstellen zu können</string>
     <string name="close_back_flash_toast">Ihr Gerät ist überhitzt. Sie können jetzt keinen Blitz verwenden.</string>
     <string name="close_front_flash_toast">Ihr Gerät ist überhitzt. Sie können jetzt keinen Blitz verwenden.</string>
+    <string name="close_night_algo_toast_low_power">Ihr Gerät aufladen, um die Belichtung einstellen zu können</string>
+    <string name="close_night_algo_toast_thermal">Ihr Gerät abkühlen, um die Belichtung einstellen zu können</string>
     <string name="cloud_album_details">Details des Cloud Albums:</string>
     <string name="color_effect_entry_berry">Beeren</string>
     <string name="color_effect_entry_blackgold">Goldene Schwingungen</string>
@@ -636,10 +636,10 @@ auswahl"</string>
     <string name="doc_shortcut_short">Dokumente</string>
     <string name="document_blackwhite">Schwarz-Weiß</string>
     <string name="document_blur_warn">Verwischter Text</string>
-    <string name="document_origin">Original Bild</string>
     <string name="document_mode_use_hint_text_body">"Gescannte Dokumente automatisch
 ausrichten und verbessern"</string>
     <string name="document_mode_use_hint_text_title">Dokumente scannen</string>
+    <string name="document_origin">Original Bild</string>
     <string name="document_strengthen">Verbessern</string>
     <string name="dolly_zoom_capture_tip1">Motiv im Rahmen platzieren</string>
     <string name="dolly_zoom_capture_tip2">Motiv in der Mitte halten und Gerät gleichmäßig wegbewegen</string>
@@ -763,10 +763,10 @@ Nach dem Einschalten der Funktion \"Multi-Kamera-Aufnahme\" können Sie eine Ver
     <string name="example_screen_qr_code_title">QR-Code</string>
     <string name="example_screen_url_example">Zum Beispiel www.google.com</string>
     <string name="expand_button_title">Erweitert</string>
+    <string name="exposure_time">Belichtungszeit</string>
     <string name="extend_time_watermark_2_logo_text">SUPERMOND</string>
     <string name="extra_photo_common_permission_name">Unscharf</string>
     <string name="extra_photo_common_saving">Speichern…</string>
-    <string name="exposure_time">Belichtungszeit</string>
     <string name="eye_light">Augen funkeln</string>
     <string name="eye_light_angel">Engel</string>
     <string name="eye_light_crescent">Sichelförmig</string>
@@ -873,7 +873,6 @@ Nach dem Einschalten der Funktion \"Multi-Kamera-Aufnahme\" können Sie eine Ver
     <string name="group_by_faces">Nach Personen</string>
     <string name="group_by_location">Nach Ort</string>
     <string name="group_by_tags">Nach Tags</string>
-    <string name="kaleidoscope_fragment_tab_name">Kaleidoskop</string>
     <string name="group_by_time">Nach Zeit</string>
     <string name="groupshot_mode_use_hint">"Mehrere Fotos werden aufgenommen,
 um den besten Gesichtsausdruck in einem Foto festzuhalten"</string>
@@ -895,8 +894,8 @@ Berühren und halten, um mehr zu tun"</string>
 und erstellt dann eine Aufnahme mit minimalem Rauschen"</string>
     <string name="hint_address">Adresse</string>
     <string name="hint_ae_af_lock">Auto-Fokus/Auto-Belichtung wurde gesperrt</string>
-    <string name="hint_ae_lock">Automatische Belichtung ist gesperrt</string>
     <string name="hint_ae_af_lock_extra">Autofokus/Autoaufnahme wurde gesperrt. Wechseln Sie in den Kameraeinstellungen zu Google Lens.</string>
+    <string name="hint_ae_lock">Automatische Belichtung ist gesperrt</string>
     <string name="hint_device_water_mark">Wasserzeichen automatisch zum Foto hinzufügen</string>
     <string name="hint_email">E-Mail</string>
     <string name="hint_eye_light">Augenglanzeffekte funktionieren am besten, wenn der Blitz eingeschaltet ist</string>
@@ -910,8 +909,8 @@ und erstellt dann eine Aufnahme, bei der jeder am besten aussieht"</string>
     <string name="hint_slow_motion">Aufgenommenes Video langsamer abspielen</string>
     <string name="hint_subtitle">Untertitel diktieren, während Sie Videos aufnehmen</string>
     <string name="hint_subtitle_prompt">Sie können jetzt Untertitel diktieren</string>
-    <string name="histogram_summary_tip">Feedback zur Echtzeit-Belichtung anzeigen</string>
     <string name="hint_url">Webseite</string>
+    <string name="histogram_summary_tip">Feedback zur Echtzeit-Belichtung anzeigen</string>
     <string name="hot_music">Heiße Titel</string>
     <string name="how_to_use_app_quick">Wie zwischen Apps gewechselt wird</string>
     <string name="how_to_use_app_quick_hide_line_summary">Vom unteren Bildschirmrand nach oben und dann nach links oder rechts wischen</string>
@@ -945,6 +944,7 @@ Kopie kabellos auf A4-Papier drucken."</string>
     <string name="iris_talkback_label_qrcode_wifi">Mit WALN verbinden: %s</string>
     <string name="iris_talkback_label_sms">SMS senden: %s</string>
     <string name="iris_talkback_label_url">Webseite: %s</string>
+    <string name="kaleidoscope_fragment_tab_name">Kaleidoskop</string>
     <string name="latitude_text">Breite</string>
     <string name="launch_market">Xiaomi Market App starten</string>
     <string name="launch_qq">QQ im Browser starten</string>
@@ -1017,11 +1017,11 @@ Für ein besseres Bild, Kameraobjektiv bitte reinigen."</string>
     <string name="loading_video">Video laden…</string>
     <string name="local_music">Lokale Musik</string>
     <string name="location">Standort</string>
-    <string name="locations">Standorte</string>
     <string name="location_access_allow">Zustimmen</string>
     <string name="location_permission_des">Standortinformationenen zu einem Foto oder Video hinzufühen</string>
     <string name="location_permission_not_ask_again">Kamera den Standortzugriff in den Einstellungen erlauben</string>
     <string name="location_permission_not_ask_again_go_to_settings">Erlauben</string>
+    <string name="locations">Standorte</string>
     <string name="longitude_text">Länge</string>
     <string name="lpl_dialog_item_name_burst">Für ein Serienbild gedrückt halten</string>
     <string name="lpl_dialog_item_name_record">Zum Aufnehmen eines Videos gedrückt halten</string>
@@ -1268,11 +1268,13 @@ Für ein besseres Bild, Kameraobjektiv bitte reinigen."</string>
     <string name="not_enough_space">Interner Speicher voll</string>
     <string name="not_selectable_in_scene_mode">Nicht auswählbar im Szenenmodus</string>
     <string name="not_set">Nicht festgelegt</string>
+    <string name="object_track_enable_toast">Um ein Motiv auszuwählen, tippen Sie gleichzeitig zwei diagonale Punkte um seine Grenze</string>
     <string name="only_mimoji_multi_window_mode_not_supported">Diese Funktion kann im Mehrfenstermodus nicht verwendet werden</string>
     <string name="oobe_body">Richten Sie Ihre Kamera aus und tippen Sie, um einen Anruf zu tätigen, eine E-Mail zu senden, einen QR-Code zu scannen und vieles mehr. Schalten Sie es jederzeit in den Einstellungen aus.</string>
     <string name="oobe_continue">Fortfahren</string>
     <string name="oobe_expandable">Google Lens ist nicht allwissend und nicht immer richtig, wenn es darum geht, bestimmte Objekte, Textauswahlen oder andere Dinge zu erkennen. Das Objektiv hört auf zu analysieren, was Sie sehen, wenn Sie die Kamera-App schließen. Sie können das Objektiv in den Kameraeinstellungen deaktivieren oder wieder aktivieren.</string>
     <string name="oobe_headline">Von Google Lens vorgeschlagene Maßnahmen</string>
+    <string name="orientation">Drehung</string>
     <string name="out_line_error_prompt">Bitte Gesichtsinformationen nicht verbergen.</string>
     <string name="out_line_face_occlusion">Gesicht ist verschlossen</string>
     <string name="out_line_left_eyes_occlusion">Linkes Auge ist geschlossen</string>
@@ -1280,13 +1282,11 @@ Für ein besseres Bild, Kameraobjektiv bitte reinigen."</string>
     <string name="out_line_no_face">Kein Gesicht erkannt</string>
     <string name="out_line_nose_occlusion">Nase ist verschlossen</string>
     <string name="out_line_right_eyes_occlusion">Rechtes Auge ist geschlossen</string>
-    <string name="object_track_enable_toast">Um ein Motiv auszuwählen, tippen Sie gleichzeitig zwei diagonale Punkte um seine Grenze</string>
-    <string name="orientation">Drehung</string>
     <string name="pano_click_to_toggle_direction">Auf den Pfeil tippen, um die Richtung zu ändern</string>
-    <string name="pano_go_on_moving">Bewegen Sie Ihr Gerät kontinuierlich entlang der Linie</string>
     <string name="pano_dialog_panorama_failed">Panorama kann nicht gespeichert werden</string>
     <string name="pano_dialog_prepare_preview">Vorbereiten…</string>
     <string name="pano_dialog_waiting_previous">Warten auf Abschluss des vorherigen Panoramas</string>
+    <string name="pano_go_on_moving">Bewegen Sie Ihr Gerät kontinuierlich entlang der Linie</string>
     <string name="pano_how_to_use_prompt">"Berühren Sie den Auslöser, um ein Panoramafoto aufzunehmen"</string>
     <string name="pano_how_to_use_prompt_align_reference_line">Richten Sie den Pfeil an der Referenzlinie aus</string>
     <string name="pano_how_to_use_prompt_go_on_moving">Fortsetzen</string>
@@ -1642,6 +1642,8 @@ Halten Sie das Motiv scharf, während Sie den Hintergrund verwischen.</string>
     <string name="pref_camera_sr_enable_title">SR einschalten</string>
     <string name="pref_camera_stereo_mode_title">Stereo</string>
     <string name="pref_camera_super_resolution_title">SR einschalten</string>
+    <string name="pref_camera_tap_shoot_summary">Auf den Vorschaubildschirm tippen, um ein Foto zu machen</string>
+    <string name="pref_camera_tap_shoot_title">Tippen, um ein Foto zu machen</string>
     <string name="pref_camera_tilt_shift_default">Kreis</string>
     <string name="pref_camera_tilt_shift_entry_circle">Kreis</string>
     <string name="pref_camera_tip_doc">Dokumentscanner</string>
@@ -1692,9 +1694,9 @@ Halten Sie das Motiv scharf, während Sie den Hintergrund verwischen.</string>
     <string name="pref_camera_zoom_mode_title_abbr">LINSE</string>
     <string name="pref_camera_zsl_entry_off">Aus</string>
     <string name="pref_camera_zsl_entry_on">An</string>
-    <string name="prep_video_ai_audio_new_desc_tip_alone">Geräusche des fokussierten Objekts werden im Querformat verstärkt</string>
-    <string name="prep_video_ai_audio_single_desc_tip_alone">Geräusche hinter dem Bildschirm werden im Querformat gefiltert</string>
     <string name="pref_capture_settings">Kameraeinstellungen</string>
+    <string name="pref_cup_camera_position_summary">Position der Frontkamera anzeigen, wenn sie benutzt wird</string>
+    <string name="pref_cup_camera_position_title">Frontkamera anzeigen</string>
     <string name="pref_custom_feature_layout_title">Funktionslayout</string>
     <string name="pref_custom_shutter_sound_title">Ton</string>
     <string name="pref_custom_tint_title">Farben</string>
@@ -1827,8 +1829,10 @@ Halten Sie das Motiv scharf, während Sie den Hintergrund verwischen.</string>
     <string name="prek_b_j_o">Einschalten, um einen Stereo-Surround-Effekt zu erzeugen. Zum Querformatmodus wechseln oder Kopfhörer anschließen, um den besten Effekt zu erzielen</string>
     <string name="prek_b_j_p">Einfluss von Wind auf die Tonaufnahme reduzieren</string>
     <string name="prep_video_ai_audio_new_desc_tip">Ton des Objekts im Fokus wird verstärkt</string>
+    <string name="prep_video_ai_audio_new_desc_tip_alone">Geräusche des fokussierten Objekts werden im Querformat verstärkt</string>
     <string name="prep_video_ai_audio_new_mutex_tip">Audio-Zoom verwenden nicht möglich</string>
     <string name="prep_video_ai_audio_single_desc_tip">Ton hinter dem Bildschirm wird gefiltert</string>
+    <string name="prep_video_ai_audio_single_desc_tip_alone">Geräusche hinter dem Bildschirm werden im Querformat gefiltert</string>
     <string name="prep_video_ai_audio_single_mutex_tip">Frontalton aufnehmen nicht möglich</string>
     <string name="prep_video_ai_audio_unsupported_headset_desc_tips">Audio-Zoom funktioniert nicht mit Live-In-Ear-Monitor und externem Mikrofon</string>
     <string name="preparing_sd">Speicher prüfen…</string>
@@ -1920,10 +1924,10 @@ Halten Sie das Motiv scharf, während Sie den Hintergrund verwischen.</string>
     <string name="saturday_short">Sa</string>
     <string name="saturday_shortest">S</string>
     <string name="save">Speichern</string>
-    <string name="scan_qrcode">QR-Code scannen</string>
     <string name="scan_install_prompt_header">Scanner installieren</string>
     <string name="scan_install_prompt_loading">Scanner installieren…</string>
     <string name="scan_install_prompt_message">Scanner installieren und erneut versuchen.</string>
+    <string name="scan_qrcode">QR-Code scannen</string>
     <string name="screen_on_proximity_sensor_hint">Um die Funktion zu deaktivieren, Lautstärke hoch und Zurück-Taste gleichzeitig drücken</string>
     <string name="screen_on_proximity_sensor_summary">Bedecken Sie nicht den orangen Bereich</string>
     <string name="search_menu_title">Suchen</string>
@@ -2110,15 +2114,15 @@ Halten Sie das Motiv scharf, während Sie den Hintergrund verwischen.</string>
     <string name="timbre_lady">Dame</string>
     <string name="timbre_robot">Roboter</string>
     <string name="time">Zeit</string>
+    <string name="time_freeze_action_end_tip">Auf Taste tippen, um den Hintergrund freizugeben</string>
+    <string name="time_freeze_action_start_tip">Auf Taste tippen, um den Hintergrund einzufrieren</string>
+    <string name="time_freeze_adjust_button_title">Anpassen</string>
+    <string name="time_freeze_clipbox_tint">Einfrieren</string>
     <string name="time_lapse_error">Gewählte Videogröße kann nicht für Zeitrafferaufnahme genutzt werden</string>
     <string name="time_picker_dialog_title">Zeit einstellen</string>
     <string name="time_picker_label_hour">Std</string>
     <string name="time_picker_label_minute">Min</string>
     <string name="time_stamp_date_format">dd.MM.yyyy</string>
-    <string name="time_freeze_action_end_tip">Auf Taste tippen, um den Hintergrund freizugeben</string>
-    <string name="time_freeze_action_start_tip">Auf Taste tippen, um den Hintergrund einzufrieren</string>
-    <string name="time_freeze_adjust_button_title">Anpassen</string>
-    <string name="time_freeze_clipbox_tint">Einfrieren</string>
     <string name="timefreeze_guide_tip2">Sie können den Hintergrund jederzeit vor oder während der Aufnahme einfrieren und wieder lösen.</string>
     <string name="timefreeze_guide_tip3">Bitten Sie Ihr Motiv, in der Mitte des Bildes zu bleiben.</string>
     <string name="timefreeze_guide_tip4">Halten Sie den Verkehr an.</string>
@@ -2158,10 +2162,10 @@ Halten Sie das Motiv scharf, während Sie den Hintergrund verwischen.</string>
     <string name="ultra_ai_pixel_photography_open_tip">KI %s Ultraklar</string>
     <string name="ultra_pixel_100mp">100 MP</string>
     <string name="ultra_pixel_108mp">108 MP</string>
-    <string name="ultra_pixel_photography_32mp_close_tip">32 MP aus</string>
-    <string name="ultra_pixel_photography_48mp_close_tip">48 MP aus</string>
     <string name="ultra_pixel_50mp">50 MP</string>
     <string name="ultra_pixel_64mp">64 MP</string>
+    <string name="ultra_pixel_photography_32mp_close_tip">32 MP aus</string>
+    <string name="ultra_pixel_photography_48mp_close_tip">48 MP aus</string>
     <string name="ultra_pixel_photography_close_tip">%s Ultra HD ist aus</string>
     <string name="ultra_pixel_photography_open_tip">%s Ultra HD ist an</string>
     <string name="ultra_pixel_portrait_hint">Portrait mit schwachem Licht</string>

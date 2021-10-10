@@ -1,5 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+    <string-array name="accessibility_button_location_selector_titles">
+        <item>Über anderen Apps schweben</item>
+        <item>Navigationsleiste</item>
+    </string-array>
+     <string-array name="accessibility_button_size_selector_titles">
+        <item>Klein</item>
+        <item>Groß</item>
+    </string-array>
     <string-array name="aggregate_entries">
         <item>Gruppieren</item>
         <item>Gruppieren und niedrigere Priorität</item>
@@ -1409,6 +1417,20 @@ Hinweis: Nur für Ubuntu 8.04!"</item>
     <string-array name="wifi_wapi_key_type">
         <item>WAPI ASCII</item>
         <item>WAPI hexadezimal</item>
+    </string-array>
+    <string-array name="wifitrackerlib_wifi_status">
+        <item></item>
+        <item>Scannen…</item>
+        <item>Verbinden…</item>
+        <item>Authentifizierung…</item>
+        <item>IP-Adresse abrufen…</item>
+        <item>Verbunden</item>
+        <item>Ausgesetzt</item>
+        <item>Trennen…</item>
+        <item>Getrennt</item>
+        <item>Erfolglos</item>
+        <item>Gesperrt</item>
+        <item>Temporär schlechte Verbindung vermeiden</item>
     </string-array>
     <string-array name="window_animation_scale_entries">
         <item>Aus</item>

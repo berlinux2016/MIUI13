@@ -33,10 +33,10 @@
     <string name="audio_spk_cal_wait">Bitte kalibrieren…</string>
     <string name="audio_spk_def">Bitte Lautsprecher kalibrieren</string>
     <string name="back_mic_check_record_tip">Aufnahme, bitte sprechen Sie ins Mikrofon auf der Geräterückseite.</string>
-    <string name="battery_authentic">Akku authentisch</string>
-    <string name="battery_dual_connector">Zweiter Akku-Anschluss</string>
     <string name="baterry_percent">"Höhe der Akkuladung: "</string>
     <string name="baterry_temperature">"Akkutemperatur: "</string>
+    <string name="battery_authentic">Akku authentisch</string>
+    <string name="battery_dual_connector">Zweiter Akku-Anschluss</string>
     <string name="battery_id">Akku-ID:</string>
     <string name="battery_info">Information zum Laden des Akkus</string>
     <string name="battery_plug_wirelee_summary">Kabelloses Laden bei jeder Verbindung, einmaliges Trennen der Verbindung</string>
@@ -49,8 +49,10 @@
     <string name="battery_reverse_wireless_charge_title">Kabelloses Umkehrladen</string>
     <string name="battery_value">Strom</string>
     <string name="begin_to_save_finger_data">Beginn der Speicherung der Fingerdaten</string>
+    <string name="bottom_high_speaker_title">Test unterer Hochtöner</string>
     <string name="bottom_left_high_speaker">Test unterer Hochtöner links</string>
     <string name="bottom_left_low_speaker">Test unterer Tieftöner links</string>
+    <string name="bottom_low_speaker_title">Test unterer Tieftöner</string>
     <string name="bottom_right_high_speaker">Test unterer Hochtöner rechts</string>
     <string name="bottom_right_low_speaker">Test unterer Tieftöner rechts</string>
     <string name="bt_address">Adresse:</string>
@@ -88,6 +90,7 @@ Ende Ladegerättest, bitte das Ladegerät herausziehen"</string>
     <string name="cit_accdata_sensor_check_summary">Werte für X/Y/Z-Koordinaten sollten unten stehen</string>
     <string name="cit_accdata_sensor_check_title">Beschleunigungsmesser</string>
     <string name="cit_accdata_sensor_second_screen_check_title">Zweiter Bildschirm Beschleunigungssensor</string>
+    <string name="cit_accelermeter_second_cali_title">Zweiter Kalibrierungstest Beschleunigungssensor</string>
     <string name="cit_accelermeter_sensor_cali_title">Kalibrierungstest Beschleunigungssensor</string>
     <string name="cit_accelermeter_sensor_check_summary">"Bewegen Sie das Gerät schnell in eine Richtung. X/Y/Z-Koordinatenwerte werden unten angezeigt (wenn das Gerät in Bewegung ist: X steht für links/rechts, Y für vorn/hinten, Z für oben/unten).
 Bevor Sie das Gerät kalibrieren, legen Sie es auf eine ebene Fläche."</string>
@@ -275,12 +278,12 @@ Bitte tippen Sie auf die entsprechende Taste, je nachdem, welche Nummer Sie hör
     <string name="cit_f2_cali_failed">Kalibrierung fehlgeschlagen, bitte wiederholen!</string>
     <string name="cit_f2_cali_title">Kamerakalibrierung</string>
     <string name="cit_f2_calibrating">Kalibrierung läuft…</string>
-    <string name="cit_f2_capture_fail">Aufnahme fehlgeschlagen, bitte wiederholen!</string>
-    <string name="cit_f2_capture_success">Schaltfläche Kalibrierung antippen!</string>
     <string name="cit_f2_camera_check_summary">"Testanweisungen:
 
 1. Auf Schaltfläche Kalibrierung tippen.
 2. Es wird ein Etikett mit einem Kalibrierungspass geben, das anzeigt, dass die Kamera kalibriert wurde."</string>
+    <string name="cit_f2_capture_fail">Aufnahme fehlgeschlagen, bitte wiederholen!</string>
+    <string name="cit_f2_capture_success">Schaltfläche Kalibrierung antippen!</string>
     <string name="cit_fail">Fehlgeschlagen</string>
     <string name="cit_fast_screen_touch_check_title">Touchscreen-Check-Schnelltest</string>
     <string name="cit_finger_check_title">Fingerabdrucktest (FPC)</string>
@@ -340,7 +343,8 @@ Berühren Sie den Bildschirm, um GPS zu starten…"</string>
     <string name="cit_gyrodata_sensor_check_summary">Werte für X/Y/Z-Koordinaten sollten unten stehen</string>
     <string name="cit_gyrodata_sensor_check_title">Gyroskop</string>
     <string name="cit_gyrodata_sensor_second_screen_check_title">Zweiter Bildschirm Gyroskop</string>
-    <string name="cit_gyroscope_sensor_cali_title">Gyroskopsensor-Kalibrierungstest</string>
+    <string name="cit_gyroscope_second_cali_title">Zweiter Kalibrierungstest Gyroskopsensor</string>
+    <string name="cit_gyroscope_sensor_cali_title">Kalibrierungstest Gyroskopsensor</string>
     <string name="cit_gyroscope_sensor_check_summary">Werte für X/Y/Z-Koordinaten sollten unten stehen</string>
     <string name="cit_gyroscope_sensor_check_title">Gyroskop</string>
     <string name="cit_hall_far">entfernt</string>
@@ -381,12 +385,12 @@ Berühren Sie den Bildschirm, um GPS zu starten…"</string>
     <string name="cit_hide_menu">Menü verbergen</string>
     <string name="cit_hvdcp_charger_in">Laden über (USB_HVDCP)</string>
     <string name="cit_init_fp_fod_test_tip">Init-Fingerabdruck-Testumgebung</string>
-    <string name="cit_keyboard_auto_test_summary">Die getesteten Tastenereignisse werden unten angezeigt. Grün bedeutet, dass das entsprechende Event normal funktioniert. Drücken Sie die Power-Taste, um den Automatikmodus zu beenden.</string>
     <string name="cit_kayboard_home_down">Taste: HOME</string>
     <string name="cit_kayboard_power_down">Taste: POWER</string>
     <string name="cit_kayboard_volume_down">Taste: LAUTSTÄRKE RUNTER</string>
     <string name="cit_kayboard_volume_up">Taste: LAUTSTÄRKE HOCH</string>
     <string name="cit_keyboard_ai_key">Taste: AI_KEY</string>
+    <string name="cit_keyboard_auto_test_summary">Die getesteten Tastenereignisse werden unten angezeigt. Grün bedeutet, dass das entsprechende Event normal funktioniert. Drücken Sie die Power-Taste, um den Automatikmodus zu beenden.</string>
     <string name="cit_keyboard_back">Taste: ZURÜCK</string>
     <string name="cit_keyboard_current">Aktuelle Tastatur: %s</string>
     <string name="cit_keyboard_current_def">Aktuelle Tastatur:</string>
@@ -715,11 +719,11 @@ Die zweite Zeile zeigt den Namen und die Versionsnummer des Standard-MBN und des
     <string name="cit_touch_panel_nead_pencil_tip">Bitte verwenden Sie wieder den Stift zum Testen</string>
     <string name="cit_touch_panel_test_title">Berührungssensor</string>
     <string name="cit_touch_thp_mode">THP-Modus</string>
-    <string name="cit_touch_work_switch_tips">Bildschirm nicht berühren und warten, bis der Moduswechsel abgeschlossen ist</string>
     <string name="cit_touch_work_mode_test_help">"Gebrauchsanweisung: 
 Auf die Taste tippen, um den Berührungsmodus auf THP-Modus oder FW-Modus umzuschalten".</string>
     <string name="cit_touch_work_mode_test_title">Berühren schaltet zum THP-Modus-Test</string>
     <string name="cit_touch_work_summary">Berühren schaltet den THP-Modus um</string>
+    <string name="cit_touch_work_switch_tips">Bildschirm nicht berühren und warten, bis der Moduswechsel abgeschlossen ist</string>
     <string name="cit_tpdump_check_summary">Bitte auf die Schaltfläche tippen, um die Touch-Anzeigefunktion zu aktivieren oder zu deaktivieren</string>
     <string name="cit_tpdump_close">Anzeige deaktivieren</string>
     <string name="cit_tpdump_open">Anzeige aktivieren</string>
@@ -1058,8 +1062,10 @@ Auf die jeweilige Taste entsprechend der gehörten Zahl tippen."</string>
     <string name="title_bad_point">Negativer Punkt</string>
     <string name="title_extract_data">Daten extrahieren</string>
     <string name="title_open_short_pixel">ShortPixel öffnen</string>
+    <string name="top_high_speaker_title">Test oberer Hochtöner</string>
     <string name="top_left_high_speaker">Test oberer Hochtöner links</string>
     <string name="top_left_low_speaker">Test oberer Tieftöner links</string>
+    <string name="top_low_speaker_title">Test oberer Tieftöner</string>
     <string name="top_mic_check_record_tip">Aufnahme, bitte sagen Sie etwas ins MIKRO oben im Gerät.</string>
     <string name="top_right_high_speaker">Test oberer Hochtöner rechts</string>
     <string name="top_right_low_speaker">Test oberer Tieftöner rechts</string>
