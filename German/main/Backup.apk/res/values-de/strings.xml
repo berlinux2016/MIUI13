@@ -90,6 +90,7 @@
     <string name="cancel_moving_dialog_message">Import jetzt abbrechen?</string>
     <string name="cancel_moving_dialog_title">Import abbrechen</string>
     <string name="cancel_restore">Anhalten</string>
+    <string name="check_privacy_policy">Datenschutzerklärung ansehen</string>
     <string name="clearable_edittext_clear_description">Löschen</string>
     <string name="click_soft_ap_to_link">Hotspot zum Verbinden auswählen</string>
     <string name="click_to_view">Zum Anzeigen antippen</string>
@@ -166,7 +167,8 @@ https://appleid.apple.com/#!&amp;page=signin zum Schließen"</string>
     <string name="enable_encrypt_xiaomi_account">Sicherung wurde von %1$s erstellt. Zum Wiederherstellen aktuelles Konto löschen und als %2$s anmelden.</string>
     <string name="enable_local_backup">Lokale Sicherungen einschalten</string>
     <string name="enable_local_backup_and_restore">Lokale Sicherungen einschalten</string>
-    <string name="enable_local_backup_tips">Diese Funktion einschalten, um Sicherungen auf diesem Gerät zu speichern und sie auf Ihren Computer oder ein USB-Speichergerät zu kopieren. Jetzt einschalten?</string>
+    <string name="enable_local_backup_tips">Aktivieren Sie diese Funktion, damit Sie Sicherungen auf diesem Gerät speichern und auf Ihren Computer oder ein USB-Speichergerät kopieren können. Jetzt einschalten?</string>
+    <string name="enable_local_backup_tips_global">Aktivieren Sie diese Funktion, um Sicherungen auf diesem Gerät zu speichern und auf Ihren Computer zu kopieren. Jetzt einschalten?</string>
     <string name="eras_ad">n. Chr.</string>
     <string name="eras_bc">v. Chr.</string>
     <string name="err_acquire_system_service">Systemdienst wurde nicht gestartet</string>
@@ -343,6 +345,7 @@ Stellen Sie sicher, dass das USB-Laufwerk genügend Speicher hat, bevor Sie begi
     <string name="miuix_appcompat_select_all">Alle wählen</string>
     <string name="miuix_appcompat_select_all_description">Alle wählen</string>
     <string name="miuix_appcompat_select_item">Elemente wählen</string>
+    <string name="miuix_indexer_collect">Sammlungen</string>
     <string name="miuix_indexer_selected">%s ausgewählt</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Zum Aktualisieren herunterziehen</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Erfolgreich aktualisiert</string>
@@ -400,6 +403,10 @@ Stellen Sie sicher, dass das USB-Laufwerk genügend Speicher hat, bevor Sie begi
     <string name="new_local_detail_description">"Hinweis:
 %1$d. Kopieren Sie Sicherungen auf Ihren Computer, um Datenverluste zu vermeiden. %2$s.
 %3$d. Sicherungen werden in MIUI-Backup-AllBackup gespeichert."</string>
+    <string name="new_local_detail_description_global">"Hinweis:
+%1$d. Kopieren Sie Sicherungen auf Ihren Computer, um Datenverluste zu vermeiden. %2$s.
+%3$d. Sicherungen werden in MIUI-Backup-AllBackup gespeichert.
+%4$d. Einige Apps unterstützen möglicherweise keine Sicherungen."</string>
     <string name="new_local_tab_backup">Sichern</string>
     <string name="new_local_tab_backup_pad">Sichern</string>
     <string name="new_local_tab_restore">Wiederherstellen</string>
@@ -490,12 +497,48 @@ Stellen Sie sicher, dass das USB-Laufwerk genügend Speicher hat, bevor Sie begi
     <string name="perm_read_phone_state">Telefonstatus lesen</string>
     <string name="perm_read_sms">SMS lesen</string>
     <string name="perm_storage">Externen Speicher lesen und beschreiben</string>
+    <string name="permission_admitted">Gewährt</string>
+    <string name="permission_backup_calendar">Zum Sichern von Kalendereinträgen</string>
+    <string name="permission_backup_calendar_desc">Um Kalenderereinträge zu sichern, erlauben Sie dieser App zuerst, sie zu bearbeiten.</string>
+    <string name="permission_backup_calllog">Zum Sichern der Anrufliste</string>
+    <string name="permission_backup_calllog_desc">Um die Anrufliste zu sichern, erlauben Sie dieser App zuerst den Zugriff auf sie.</string>
+    <string name="permission_backup_contacts">Zum Sichern der Kontakte</string>
+    <string name="permission_backup_contacts_desc">Um die Kontakte zu sichern, erlauben Sie dieser App zuerst den Zugriff auf sie.</string>
+    <string name="permission_backup_file">Zum Sichern von Dateien</string>
+    <string name="permission_backup_sms">Zum Sichern von SMS</string>
+    <string name="permission_backup_sms_desc">Um SMS zu sichern, erlauben Sie dieser App zuerst den Zugriff auf sie.</string>
+    <string name="permission_content_title">Berechtigungen erforderlich</string>
+    <string name="permission_dialog_positive_btn">Einstellungen</string>
+    <string name="permission_intro">Berechtigungsdetails</string>
+    <string name="permission_not_admit">Nicht gewährt</string>
+    <string name="permission_purpose">Mit dieser Funktion können Sie Elemente auf Ihrem Mobilgerät, Computer und auf USB-Laufwerken sichern und wiederherstellen.</string>
+    <string name="permission_read_apps">Zugriff auf die Liste der auf diesem Gerät installierten Apps</string>
+    <string name="permission_read_calendar">Zugriff auf Kalendereinträge</string>
+    <string name="permission_read_calllog">Zugriff auf die Anrufliste</string>
+    <string name="permission_read_contacts">Zugriff auf Kontakte</string>
+    <string name="permission_read_sms">Zugriff auf SMS</string>
+    <string name="permission_read_storage">Zugriff auf und Speichern von Elementen im Speicher</string>
+    <string name="permission_read_write_storage">Um Elemente zu sichern, erlauben Sie dieser Funktion zuerst den Speicherzugriff.</string>
+    <string name="permission_read_write_sys_app">Um SMS, Kontakte und Anruflisten zu sichern und wiederherzustellen, erlauben Sie dieser Funktion zuerst den Zugriff auf diese Elemente.</string>
+    <string name="permission_related">Berechtigungen</string>
+    <string name="permission_restore_calendar">Zur Wiederherstellung von Kalendereinträgen</string>
+    <string name="permission_restore_calendar_desc">Um Kalendereinträge wiederherzustellen, erlauben Sie dieser App zuerst sie zu bearbeiten.</string>
+    <string name="permission_restore_calllog">Zur Wiederherstellung der Anrufliste</string>
+    <string name="permission_restore_calllog_desc">Um die Anrufliste wiederherzustellen, erlauben Sie dieser App zuerst, sie zu bearbeiten.</string>
+    <string name="permission_restore_contacts">Zur Wiederherstellung von Kontakten</string>
+    <string name="permission_restore_contacts_desc">Um Kontakte wiederherzustellen, erlauben Sie dieser App zuerst, sie zu bearbeiten.</string>
+    <string name="permission_show_all_apps">Zur Anzeige der Apps, die gesichert werden können</string>
+    <string name="permission_show_all_apps_desc">Um die Apps anzuzeigen, die gesichert werden können, erlauben Sie dieser App zuerst den Zugriff auf die Liste der auf diesem Gerät installierten Apps.</string>
+    <string name="permission_write_calllog">Anrufliste bearbeiten</string>
+    <string name="permission_write_contacts">Kontakte bearbeiten</string>
     <string name="phone_title">Telefoneinstellungen</string>
     <string name="platform_chooser_item_android_mi">Mi Telefon</string>
     <string name="platform_chooser_item_android_others">Andere Marken</string>
     <string name="platform_chooser_item_ios">Von einem iOS-Gerät importieren</string>
     <string name="platform_chooser_title">Altes Gerät wählen</string>
     <string name="preference_copied">\"%1$s\" in Zwischenablage kopiert</string>
+    <string name="privacy_settings">Datenschutz</string>
+    <string name="privacy_settings_title">Datenschutzerklärung</string>
     <string name="progress_backup_hint">Sichern…</string>
     <string name="progress_restore_hint">Wiederherstellen…</string>
     <string name="prompt_reading">Lesen…</string>
@@ -718,7 +761,7 @@ Mindestens %s freigeben."</string>
     <string name="trans_detail_category_user_app_data">App-Daten</string>
     <string name="trans_detail_category_wechat_qq">WeChat- und QQ-Daten (inkl. Chatverlauf)</string>
     <string name="trans_detail_item_app_data_selected_tip">Ausgewählte entsprechende Apps ebenso</string>
-    <string name="trans_detail_item_app_data_too_large_tip">ieht so aus, als wäre das Element zu groß zum Übertragen.</string>
+    <string name="trans_detail_item_app_data_too_large_tip">Anscheinend ist das Element zu groß zum Übertragen.</string>
     <string name="trans_detail_item_app_data_skip_data">App-Daten können nicht übertragen werden</string>
     <string name="trans_detail_list_footer">"1. Sie können einzelne Apps auswählen, die Sie übertragen möchten.
 2. Wenn Sie App-Daten auswählen, werden auch die entsprechenden Apps ausgewählt.
@@ -761,7 +804,7 @@ Mindestens %s freigeben."</string>
     <string name="trans_intro_desc_9_method_2_title">2. Senden Sie uns eine E-Mail.</string>
     <string name="trans_intro_desc_9_method_3_title">3. Melden Sie Probleme in QQ.</string>
     <string name="trans_intro_desc_account">Aus Sicherheitsgründen müssen Sie sich auf einem neuen Gerät erneut bei Ihren Konten (z. B. Mi-Konto, Exchange, Google etc.) anmelden.</string>
-    <string name="trans_intro_desc_gms">Wegen der hohen Wahrscheinlichkeit erfolgloser Übertragungen durch Kompatibilitätsprobleme, unterstützt Mi Mover nicht die Übertragung der von Google-Apps generierten Daten.</string>
+    <string name="trans_intro_desc_gms">Wegen hoher Wahrscheinlichkeit erfolgloser Übertragungen durch Kompatibilitätsprobleme unterstützt Mi Mover nicht die Übertragung der von Google-Apps generierten Daten.</string>
     <string name="trans_intro_desc_multiapp">Mi Mover überträgt keine Dual App-Daten, um Konflikte zwischen Dateien zu vermeiden.</string>
     <string name="trans_intro_desc_multiuser">Mi Mover kann nicht auf Elemente im Zweitprofil zugreifen. Verschieben Sie Elemente ins Hauptprofil und starten Sie dort Mi Mover.</string>
     <string name="trans_intro_desc_new">Tippen Sie \"Ich bin der Empfänger\". Ein QR-Code wird generiert.</string>

@@ -99,6 +99,8 @@
     <string name="background_playback_enabled">Hintergrundwiedergabe ist an</string>
     <string name="before_yestoday">Vor 2 Tagen</string>
     <string name="bind_sign_in_title">Mi-Konto hinzufügen</string>
+    <string name="box_title_gallery">Video-Toolbox</string>
+    <string name="box_title_mivideo">Zusätzliche Funktionen</string>
     <string name="brvah_app_name">Bibliothek</string>
     <string name="cancel">Abbrechen</string>
     <string name="cancel_choose">Abwählen</string>
@@ -150,15 +152,18 @@
     <string name="choose_to_signup">Nein, ich erstelle einen</string>
     <string name="clearable_edittext_clear_description">Löschen</string>
     <string name="click_to_open_pip">Tippen, um zu Bild-in-Bild zu wechseln</string>
+    <string name="click_to_play_video_push_context">Tippen, um das Video abzuspielen</string>
     <string name="click_to_reload_more">Tippen, um mehr zu zeigen</string>
     <string name="click_to_retry">Erneut versuchen</string>
     <string name="close">Schließen</string>
+    <string name="close_notify_panel_tips">Der Mini-Player wird in der Benachrichtigungsleiste angezeigt, wenn die Hintergrundwiedergabe eingeschaltet ist.</string>
     <string name="cloud_auto_pip_play_switch">Bild-in-Bild automatisch verwenden</string>
     <string name="cloud_online_player">Spieler</string>
     <string name="cloud_online_switch">Personalisierte Empfehlungen</string>
     <string name="cloud_online_switch_close_time">Personalisierte Inhaltsempfehlungen können Sie in %s einschalten</string>
     <string name="cloud_online_switch_open_time">Personalisierte Inhaltsempfehlungen anzeigen</string>
     <string name="collect_diagnosis_log">Logs sammeln</string>
+    <string name="columbus_ad_flag_text">WERBUNG</string>
     <string name="columbus_player_close_desc">Sie werden Ihre Belohnung verlieren</string>
     <string name="columbus_player_close_resume">VIDEO FORTSETZEN</string>
     <string name="columbus_player_close_title">Video schließen?</string>
@@ -168,6 +173,7 @@
     <string name="columbus_player_speed_title">Video überspringen?</string>
     <string name="columbus_player_speed_video">VIDEO überspringen</string>
     <string name="columbus_player_unit_sec">Sek</string>
+    <string name="columbus_skip_ad">Überspringen</string>
     <string name="com_facebook_device_auth_instructions">Besuchen Sie &lt;b&gt;facebook.com/device&lt;/b&gt; und geben Sie den oben gezeigten Code ein.</string>
     <string name="com_facebook_image_download_unknown_error">Unerwarteter Fehler beim Herunterladen eines Bildes</string>
     <string name="com_facebook_internet_permission_error_message">WebView-Anmeldung erfordert INTERNET-Berechtigung</string>
@@ -265,8 +271,13 @@ Senden Sie diesen Code an den Supervisor."</string>
     <string name="dialog_app_comment_select_feedback">Könnten Sie uns auch Ihr Feedback geben?</string>
     <string name="dialog_app_comment_select_praise">Super! Bewerten Sie Mi Video auch im Play Store?</string>
     <string name="dialog_app_comment_title">Bewerten Sie unsere App</string>
+    <string name="dialog_bookmark_add">Hinzufügen</string>
+    <string name="dialog_bookmark_cancel">Abbrechen</string>
     <string name="dialog_disagree_privacychange_info">Sie können die Online-Streaming-Dienste von Mi Video nicht nutzen, wenn Sie unserer Datenschutzerklärung nicht zustimmen. Tippen Sie auf \"Abbrechen\", um zurückzugehen, oder auf \"Ablehnen\", um fortzufahren und Mi Video nur als lokalen Player zu verwenden.</string>
     <string name="dialog_disagree_privacychange_title">"Ablehnen?"</string>
+    <string name="dialog_edit_hint_bookmarks_name">Lesezeichenname</string>
+    <string name="dialog_jumpto_choose"> Nicht mehr anzeigen</string>
+    <string name="dialog_jumpto_content">Zu Mi Video wechseln, um auf zusätzliche Wiedergabefunktionen zuzugreifen?</string>
     <string name="dialog_privacy_change_info">Wir haben die Mi Video Datenschutzerklärung wegen der Anpassungen der von uns angebotenen Dienste aktualisiert. Um Ihre Rechte als Benutzer sowie die Art und Weise, wie wir Ihre Daten verwenden, vollständig zu verstehen, lesen und akzeptieren Sie unsere &lt;a href=%1$s>Nutzervereinbarung&lt;/a> und &lt;a href=%2$s>Datenschutzerklärung&lt;/a>, bevor Sie die App verwenden.</string>
     <string name="dialog_privacy_change_title">Aktualisierung Datenschutzerklärung</string>
     <string name="dialog_privacy_info_new2">"Um die Dienste nutzen zu können, müssen Sie zustimmen, dass %1$s Ihre personenbezogenen Daten erfasst, verarbeitet und nutzt. Unsere &lt;a href=%2$s>Datenschutzerklärung&lt;/a> gilt als gelesen und akzeptiert, wenn Sie unten auf \"Zustimmen\" tippen."</string>
@@ -274,7 +285,7 @@ Senden Sie diesen Code an den Supervisor."</string>
     <string name="dialog_privacy_info_new4">Willkommen bei Mi Video! Diese App bietet folgende Dienste:&lt;br>&lt;/br> - Online-Streaming-Dienste&lt;br>&lt;/br>- Ein lokaler Video-Player&lt;br>&lt;/br>Mi Video muss notwendige personenbezogene Daten erfassen, um Ihnen die grundlegenden Dienste zur Verfügung zu stellen. Wie wir mit den gesammelten Infos umgehen, erfahren Sie in unserer Datenschutzerklärung. Sie können die entsprechenden Einstellungen unter Einstellungen > Passwörter &amp; Sicherheit ändern.&lt;br>&lt;/br>Lesen und akzeptieren Sie unsere &lt;a href=%1$s>Nutzervereinbarung&lt;/a> und &lt;a href=%2$s>Datenschutzerklärung&lt;/a>, bevor Sie Mi Video verwenden.</string>
     <string name="dialog_privacy_revoke_cancel">Abbrechen</string>
     <string name="dialog_privacy_revoke_count_down">Widerrufen (%1$ds)</string>
-    <string name="dialog_privacy_revoke_description">Indem Sie den Schalter umlegen, widerrufen Sie Ihre Zustimmung zur Datenschutzerklärung von Mi Video. Wir werden aufhören, personenbezogene Daten zu sammeln. Die bereits gesammelten und aufbewahrten personenbezogenen Daten werden innerhalb des von den geltenden Gesetzen vorgeschriebenen Zeitraums gelöscht. Ihr Widerruf der Zustimmung zur Datenschutzerklärung wird als Verweigerung der Annahme von Online-Diensten, die auf gesammelten personenbezogenen Daten basieren, betrachtet.</string>
+    <string name="dialog_privacy_revoke_description">Indem Sie den Schalter umlegen, widerrufen Sie Ihre Zustimmung zur Datenschutzerklärung von Mi Video. Wir werden aufhören, personenbezogene Daten zu sammeln. Die bereits gesammelten und gespeicherten personenbezogenen Daten werden innerhalb des von den geltenden Gesetzen vorgeschriebenen Zeitraums gelöscht. Ihr Widerruf der Zustimmung zur Datenschutzerklärung wird als Verweigerung der Annahme von Online-Diensten, die auf gesammelten personenbezogenen Daten basieren, betrachtet.</string>
     <string name="dialog_privacy_revoke_fail">Ihr Gerät benötigt eine Netzwerkverbindung, um die Zustimmung widerrufen zu können. Netzwerkeinstellungen prüfen und erneut versuchen.</string>
     <string name="dialog_privacy_revoke_ok">Widerrufen</string>
     <string name="dialog_privacy_revoke_success">Erfolgreich widerrufen</string>
@@ -282,6 +293,9 @@ Senden Sie diesen Code an den Supervisor."</string>
     <string name="dialog_privacy_title">Allgemeine Geschäftsbedingungen</string>
     <string name="dialog_revoke_privacy_info_new2">Wenn Sie die Genehmigung widerrufen, stoppt die App die Datenerfassung, und alle damit verbundenen Daten werden von unseren Servern gelöscht. Dies könnte die App praktisch unbrauchbar machen. Genehmigung trotzdem widerrufen?</string>
     <string name="dialog_revoke_privacy_title">Genehmigung widerrufen</string>
+    <string name="dialog_set_default_later">Nein danke</string>
+    <string name="dialog_set_default_set">Festlegen</string>
+    <string name="dialog_set_default_text">Mi Video als Standard-Videoplayer festlegen?</string>
     <string name="disagree">Ablehnen</string>
     <string name="diy_channels_tips">Sie können die Liste Ihrer Kanäle jetzt anpassen.</string>
     <string name="do_not_show_again">Nicht mehr anzeigen</string>
@@ -289,6 +303,7 @@ Senden Sie diesen Code an den Supervisor."</string>
     <string name="download">Herunterladen</string>
     <string name="download_checking_tip">Vorbereiten zum Herunterladen…</string>
     <string name="download_complete">Heruntergeladen</string>
+    <string name="download_completed_push_title">Download abgeschlossen</string>
     <string name="download_delete_tip">Gewählte Elemente löschen?</string>
     <string name="download_delete_title">Löschen</string>
     <string name="download_guide_click_icon_to_website_or_enter_url">Auf eine Verknüpfung tippen, um eine Website zu öffnen oder eine URL einzugeben</string>
@@ -473,6 +488,22 @@ Senden Sie diesen Code an den Supervisor."</string>
     <string name="galleryplus_subtitle_edit_literal_edit">Text bearbeiten</string>
     <string name="galleryplus_subtitle_edit_reminder">Eingegebener Text ist zu lang</string>
     <string name="galleryplus_subtitle_recognized_empty_subtitles">Sprache wurde während der Aufnahme nicht erkannt</string>
+    <string name="galleryplus_talkback_btn_back">Zurück</string>
+    <string name="galleryplus_talkback_btn_cancel">Abbrechen</string>
+    <string name="galleryplus_talkback_btn_fold_speed_view">Abspielgeschwindigkeit ausblenden</string>
+    <string name="galleryplus_talkback_btn_lock_orientation">Drehen aus</string>
+    <string name="galleryplus_talkback_btn_mute">Stummschalten</string>
+    <string name="galleryplus_talkback_btn_play">Abspielen</string>
+    <string name="galleryplus_talkback_btn_rotate_screen">Bildschirm drehen</string>
+    <string name="galleryplus_talkback_btn_save">Speichern</string>
+    <string name="galleryplus_talkback_btn_send">Senden</string>
+    <string name="galleryplus_talkback_btn_unfold_speed_view">Abspielgeschwindigkeit</string>
+    <string name="galleryplus_talkback_btn_unmute">Stummschalten aufheben</string>
+    <string name="galleryplus_talkback_focused_speed">Gewählt, %sX</string>
+    <string name="galleryplus_talkback_sound_track_item_ai_music">Automatischer Soundtrack</string>
+    <string name="galleryplus_talkback_sound_track_item_local_music">Lokaler Soundtrack</string>
+    <string name="galleryplus_talkback_sound_track_item_no_music">Kein Soundtrack</string>
+    <string name="galleryplus_talkback_unfocused_speed">Nicht gewählt, %sX</string>
     <string name="galleryplus_v_agree">Zustimmen</string>
     <string name="galleryplus_v_cancel">Abbrechen</string>
     <string name="galleryplus_v_confirm_cancel_edit_subtitle_msg">Alle Änderungen verwerfen und die Bearbeitung von Untertiteln jetzt beenden?</string>
@@ -498,6 +529,8 @@ Senden Sie diesen Code an den Supervisor."</string>
     <string name="have_learned">Verstanden</string>
     <string name="hidden_channels">Folgende Kanäle werden auf der Startseite nicht angezeigt.</string>
     <string name="hide">Verbergen</string>
+    <string name="hint_icon_ad_title">Empfohlen</string>
+    <string name="hint_in_mivideo">Sie können jetzt in der Seitenleiste nach zusätzlichen Funktionen suchen</string>
     <string name="history">Verlauf</string>
     <string name="history_local_video">Lokal</string>
     <string name="hot">Beliebt</string>
@@ -525,6 +558,12 @@ für Videos"</string>
     <string name="library_roundedimageview_libraryDescription">Schneller ImageView (und Drawable), der abgerundete Ecken (und Ovale oder Kreise) unterstützt, basierend auf dem Originalbeispiel von Romain Guy</string>
     <string name="live_now">Jetzt live</string>
     <string name="loading">Einen Moment…</string>
+    <string name="local_diversion_close_recommend">Schließen</string>
+    <string name="local_diversion_download_more_video">Weitere Videos</string>
+    <string name="local_diversion_manage_local_video">Dateien verwalten</string>
+    <string name="local_diversion_open_mivideo">"In Mi Video ansehen
+für das beste Seherlebnis"</string>
+    <string name="local_diversion_recommend_title">Beliebt</string>
     <string name="local_empty_guide">Von Ihnen gedrehte Videos werden hier erscheinen</string>
     <string name="local_play_tip">Lokales Video abspielen</string>
     <string name="local_push_setting_power_tag">Benachrichtigungen über lokale Videos</string>
@@ -676,8 +715,9 @@ für Videos"</string>
     <string name="lv_video_null">Keine Videos</string>
     <string name="lv_volume">Lautstärke</string>
     <string name="manage">Verwalten</string>
+    <string name="mediation_ad">WERBUNG</string>
     <string name="mediation_ad_can_not_share">Video teilen nicht möglich</string>
-    <string name="midnight">Nacht</string>>
+    <string name="midnight">Nacht</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Abwählen</string>
     <string name="miuix_appcompat_action_mode_select_all">Alle wählen</string>
     <string name="miuix_appcompat_action_mode_title_empty">Elemente wählen</string>
@@ -1003,6 +1043,7 @@ Sicherheit Ihres Kontos erhöhen"</string>
     <string name="phone_num_use_for">Rufnummer wird verwendet für:</string>
     <string name="phone_number">Rufnummer</string>
     <string name="photoPickerNotFoundText">Keine Fotos verfügbar</string>
+    <string name="pip_not_supported_toast">MIUI aktualisieren, um Bild-in-Bild verwenden zu können</string>
     <string name="playlist_create">Erstelen</string>
     <string name="playlist_detail_recomm_title">Empfohlene Playlisten</string>
     <string name="playlist_finish">Fertig</string>
@@ -1120,8 +1161,12 @@ Sicherheit Ihres Kontos erhöhen"</string>
     <string name="plus_tab_gallery">Ordner</string>
     <string name="plus_tab_time">Zeitleiste</string>
     <string name="popup_click_for_download_video">Video herunterladen</string>
+    <string name="popup_pip_activate_button">Einstellungen</string>
+    <string name="popup_pip_not_activated">Erst die Verwendung von Bild-in-Bild durch Mi Video zulassen</string>
     <string name="privacy_revoke_setting">Indem Sie den Schalter umlegen, widerrufen Sie Ihre Zustimmung zur Datenschutzerklärung von Mi Video.</string>
     <string name="privacy_revoke_title">Zustimmung widerrufen</string>
+    <string name="pro_prize_popup_style_one">Werbung für %s entfernen</string>
+    <string name="pro_prize_popup_style_two">Weitere Funktionen für %s freischalten</string>
     <string name="progressbar_title">Auf Sicherheitsprobleme prüfen…</string>
     <string name="psw_hint">Passwort</string>
     <string name="psw_sign_in">Mit Passwort anmelden</string>
@@ -1156,6 +1201,7 @@ Sicherheit Ihres Kontos erhöhen"</string>
     <string name="remaining_space_not_enough">Herunterladen wegen zu wenig Speicher nicht möglich</string>
     <string name="reminder">Vorsicht</string>
     <string name="rename">Umbenennen</string>
+    <string name="rename_word_out">Dieser Dateiname ist zu lang</string>
     <string name="report">Melden</string>
     <string name="report_content_dislike">Gewalt oder unangemessenes Verhalten</string>
     <string name="report_content_fakement">Spam oder Betrug</string>
@@ -1321,6 +1367,7 @@ Es zeigt nichts an."</string>
     <string name="tab_name_me">Profil</string>
     <string name="tab_name_moment">Momente</string>
     <string name="tab_name_trending">Trend</string>
+    <string name="target_sdk_version_30_upgrade_tips">Einige Videos können hier wegen Android 11-Einschränkungen nicht angezeigt werden. Auf \"Dateien\" tippen, um andere Videos zu finden.</string>
     <string name="temporary_not_available">Diese Funktion ist noch nicht verfügbar</string>
     <string name="the_anniversary_of_lifting_martial_law">Jahrestag der Aufhebung des Kriegsrechts</string>
     <string name="the_anti_aggression_day">Antiaggressionstag</string>
@@ -1379,6 +1426,13 @@ Es zeigt nichts an."</string>
     <string name="title_firework_recommend">Empfehlungen Firework</string>
     <string name="title_publisher">Ersteller</string>
     <string name="title_subscribe">Abonnements</string>
+    <string name="toast_bookmark_add_success">Lesezeichen hinzugefügt</string>
+    <string name="toast_bookmark_already_created">Dieses Lesezeichen existiert bereits</string>
+    <string name="toast_bookmark_input_name">Lesezeichenname eingeben</string>
+    <string name="toast_bookmark_input_url">URL eingeben</string>
+    <string name="toast_bookmark_success_to_add">Lesezeichen hinzugefügt</string>
+    <string name="toast_bookmark_success_to_delete">Lesezeichen gelöscht</string>
+    <string name="toast_bookmark_url_error">Geben Sie eine gültige URL ein</string>
     <string name="toast_no_data">Dieses Element ist jetzt nicht verfügbar. Kommen Sie später wieder.</string>
     <string name="toast_request_too_frequently">Nicht so schnell!</string>
     <string name="toast_share_failed">Teilen nicht möglich. Einen Moment warten und erneut versuchen.</string>
@@ -1465,6 +1519,7 @@ Es zeigt nichts an."</string>
     <string name="vp_notify_apk_installed">Erfolgreich heruntergeladen</string>
     <string name="vp_replay">Wiederholen</string>
     <string name="vp_upcoming_title">Nächster</string>
+    <string name="website_button_add_bookmarks">Lesezeichen hinzufügen</string>
     <string name="wednesday">Mittwoch</string>
     <string name="wednesday_short">Mi</string>
     <string name="wednesday_shortest">M</string>
@@ -1483,5 +1538,6 @@ Delta-Update-Größe: %2$s"</string>
     <string name="ytb_login_hint">Anmelden, um Ihre YouTube-Abos anzuzeigen</string>
     <string name="ytb_logout">Abmelden</string>
     <string name="ytb_play_next">Weiter</string>
+    <string name="ytb_trending">Beliebt</string>
     <string name="ytb_subscribed">Abos</string>
 </resources>

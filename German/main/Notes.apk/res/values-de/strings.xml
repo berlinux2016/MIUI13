@@ -17,11 +17,14 @@
     <string name="abc_shareactionprovider_share_with">Teilen mit</string>
     <string name="abc_shareactionprovider_share_with_application">Teilen mit %s</string>
     <string name="abc_toolbar_collapse_description">Einklappen</string>
+    <string name="action_collapse">Verbergen</string>
+    <string name="action_expand">Mehr anzeigen</string>
     <string name="action_folder_description">Ordner anzeigen</string>
     <string name="action_mode_cancel_folder_priority">Ordner nicht zuerst anzeigen</string>
     <string name="action_mode_switcher_folder_priority">Ordner zuerst anzeigen</string>
     <string name="action_mode_switcher_grid_description">Rasteransicht</string>
     <string name="action_mode_switcher_list_description">Listenansicht</string>
+    <string name="action_search_description">Suchen</string>
     <string name="action_settings_description">Einstellungen</string>
     <string name="action_to_link">URL öffnen</string>
     <string name="actionbar_button_up_description">Zurück</string>
@@ -103,6 +106,8 @@
     <string name="btn_next">Weiter</string>
     <string name="call_folder_name">Anrufnotizen</string>
     <string name="cancel_alarm_description">Alarm beenden</string>
+    <string name="canvas_is_too_large_to_share">Dieses Element ist zu groß zum Teilen</string>
+    <string name="canvas_is_too_large_to_share_phone">Dieses Element ist zu groß zum Teilen</string>
     <string name="character_counter_content_description">%1$d von %2$d Zeichen eingegeben</string>
     <string name="character_counter_overflowed_content_description">Zeichenlimit überschritten: %1$d von %2$d</string>
     <string name="check_in_todo_app">Aufgaben anzeigen</string>
@@ -145,10 +150,12 @@
     <string name="dialog_button_close">Schließen</string>
     <string name="dialog_button_confirm_delete">Löschen</string>
     <string name="dialog_button_continue_work">Fortfahren</string>
+    <string name="dialog_button_i_know">Verstanden</string>
     <string name="dialog_button_move">Verschieben</string>
     <string name="dialog_privacy_revoke_tips">Wenn Sie die Autorisierung widerrufen, stoppt die App die Datenerfassung und alle zugehörigen Daten werden von den Servern gelöscht. Dies könnte die App praktisch unbrauchbar machen. Autorisierung trotzdem widerrufen? Um die Sicherheit Ihres Kontos zu gewährleisten, melden Sie sich bei i.mi.com an, bevor Sie die Autorisierung für Cloud-Dienste widerrufen.</string>
     <string name="dialog_share_as_pic">Notiz als Bild teilen</string>
     <string name="dialog_share_as_text">Notiz als Text teilen</string>
+    <string name="dialog_tip_title">Achtung</string>
     <string name="dlg_btn_set_password">Passwort festlegen</string>
     <string name="dlg_check_reminder">Nicht wieder anzeigen</string>
     <string name="dlg_delete_message">Löschen…</string>
@@ -282,6 +289,8 @@
     <string name="gesture_guide_ok">Lernen</string>
     <string name="gesture_guide_title">Gesten</string>
     <string name="hand_write_only_support_tablet_editing">Handschriftliche Notizen können nur auf Tablets bearbeitet werden</string>
+    <string name="hand_write_syncing">Synchronisieren…</string>
+    <string name="hand_write_syncing_phone">Synchronisieren…</string>
     <string name="handwrite_description">Handschriftliche Notiz</string>
     <string name="hear_note">Diktierte Notizen</string>
     <string name="hidden_notes_fragment_title">Versteckte Notizen</string>
@@ -303,6 +312,7 @@
     <string name="loading_text">Einen Moment…</string>
     <string name="login_sync">Anmelden &amp; Synchronisieren</string>
     <string name="lunar_day">Mond-%1$s</string>
+    <string name="manage_folders">Ordner verwalten</string>
     <string name="material_clock_toggle_content_description">Vor- oder nachmittags auswählen</string>
     <string name="material_hour_selection">Stunde auswählen</string>
     <string name="material_hour_suffix">%1$s Uhr</string>
@@ -320,6 +330,7 @@
     <string name="menu_add_folder">Zu einem Ordner hinzufügen</string>
     <string name="menu_add_folder_description">Ordner hinzufügen</string>
     <string name="menu_add_handwrite_description">Handschriftliche Notiz hinzufügen</string>
+    <string name="menu_add_handwritten_note_description">Handschriftliche Notiz erstellen</string>
     <string name="menu_create_folder">Neuer Ordner</string>
     <string name="menu_delete">Löschen</string>
     <string name="menu_delete_forever">Endgültig löschen</string>
@@ -346,6 +357,13 @@
     <string name="merge_to_folder">Ordner erstellen</string>
     <string name="midnight">Nacht</string>
     <string name="mind_note_first_enter_guide">Tippen, um eine Merkhilfe zu erstellen</string>
+    <string name="mind_note_mind_map_view">Merkhilfe anzeigen</string>
+    <string name="mind_note_outline_view">Übersicht</string>
+    <string name="mind_note_toolbar_add_brother_node">Geschwisterknoten hinzufügen</string>
+    <string name="mind_note_toolbar_add_child_node">Untergeordneten Knoten hinzufügen</string>
+    <string name="mind_note_toolbar_delete_node">Knoten löschen</string>
+    <string name="mind_note_toolbar_demote">Ebene runter</string>
+    <string name="mind_note_toolbar_promote">Ebene hoch</string>
     <string name="miui_lite_open_mind_toast">Dieses Modell unterstützt Merkhilfe-Notizen nicht</string>
     <string name="miui_penengine_button_cancel">Abbrechen</string>
     <string name="miui_penengine_more_tool_add_text">Text einfügen</string>
@@ -395,6 +413,12 @@
     <string name="miui_penengine_tool_ruler">Lineal</string>
     <string name="miui_penengine_tool_text_hint">Tippen, um Text einzugeben</string>
     <string name="miui_penengine_tool_undo">Rückgängig</string>
+    <string name="miui_plus_app_state_description_app_setting">App-Einstellungen</string>
+    <string name="miui_plus_app_state_description_home">Startseite</string>
+    <string name="miui_plus_app_state_description_quick_note_setting">Einstellungen Schnellnotizen</string>
+    <string name="miui_plus_app_state_description_view_note">Notiz anzeigen</string>
+    <string name="miui_plus_app_state_description_view_todo">Aufgabe anzeigen</string>
+    <string name="miui_plus_relay_waring_data_not_find">Das angezeigte Element wurde auf einem anderen Gerät nicht gefunden. Stellen Sie sicher, dass alle Elemente synchronisiert sind.</string>
     <string name="miuix_alphabet_indexer_name">Indexleiste</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Abwählen</string>
     <string name="miuix_appcompat_action_mode_select_all">Alle wählen</string>
@@ -501,6 +525,7 @@
     <string name="note_gesture_guide_step3">Notiz gedrückt halten und sie dann über einen Ordner ziehen, um diese Notiz zu verschieben</string>
     <string name="note_header_first_enter_guide">Runterziehen, um mehr zu sehen</string>
     <string name="note_invalid_mindnote_hint">Merkzettel sind in dieser Version nicht verfügbar. App aktualisieren, um diese Funktion zu nutzen.</string>
+    <string name="note_item_default_title">Leere Notiz</string>
     <string name="note_link_email">E-Mail verfassen</string>
     <string name="note_link_other">Öffnen mit der Karten-App</string>
     <string name="note_link_select">Text auswählen</string>
@@ -525,6 +550,17 @@
     <string name="option_menu_rename">Umbenennen</string>
     <string name="option_menu_restore_note">Wiederherstellen</string>
     <string name="option_menu_save_as">SSpeichern unter</string>
+    <string name="option_menu_save_as_pic">Als Bild speichern</string>
+    <string name="option_menu_share">Teilen</string>
+    <string name="pad_collpase_navigation">Navigationsleiste ausblenden</string>
+    <string name="pad_dialog_tip_content_take_photo_by_phone">Kamera verwenden…</string>
+    <string name="pad_expand_navigation">Navigationsleiste anzeigen</string>
+    <string name="pad_insert_image_menu_select_from_pad_gallery">Galerie</string>
+    <string name="pad_insert_image_menu_take_photo_by_pad">Tablet-Kamera</string>
+    <string name="pad_insert_image_menu_take_photo_by_phone">Telefonkamera</string>
+    <string name="pad_note_create_hint">Tasten antippen, um eine Notiz zu erstellen</string>
+    <string name="pad_note_list_not_text_stub">KeinText</string>
+    <string name="pad_todo_create_hint">Aufgabe hinzufügen</string>
     <string name="password_toggle_content_description">Passwort anzeigen</string>
     <string name="pc_action_create_new_folder">Ordner</string>
     <string name="pc_action_create_new_mind_note">Merkhilfe</string>
@@ -565,6 +601,7 @@
     <string name="permission_phone_state_desc">Zum Beenden der Aufnahme von Sprachnotizen während Anrufen</string>
     <string name="permission_read_contact_desc">Zuordnung der bei Anrufen erstellten Notizen zu Kontakten</string>
     <string name="permission_storage_desc">Zum Speichern von Notizen als Bilder</string>
+    <string name="permission_storage_desc_pad_v12">Zum Hinzufügen von Bildern zu Notizen und zum Speichern von Notizen als Bilder</string>
     <string name="permission_storage_desc_v12">Zum Hinzufügen von Bildern zu Notizen und Speichern von Notizen als Bilder</string>
     <string name="permission_xiaoai_desc"><Data>Mi KI sammelt Ihre Sprachaufzeichnungen und Geräte-IDs, um Audio umzuwandeln und Sprachnotizen zu erstellen. Mehr in Mi KI &lt;a href=\"%1$s\">Datenschutzerklärung&lt;/a> erfahren.</Data></string>
     <string name="permlab_accessNote">Zugang zu Notizen</string>
@@ -572,6 +609,12 @@
     <string name="pref_desc_skip_confirm_for_quick_delete">Keinen Bestätigungsdialog anzeigen, wenn Notizen per Gesten gelöscht werden</string>
     <string name="pref_desc_todo_float_mode">Vom Bildschirmrand streichen, um die Aufgaben-Toolbox zu öffnen</string>
     <string name="pref_excerpt_link_float">Erinnerung zum Erstellen eines Auszugs erhalten, wenn eine URL kopiert wird</string>
+    <string name="pref_permission_allowed">Gewährt</string>
+    <string name="pref_permission_manage">Berechtigungsdetails</string>
+    <string name="pref_permission_manage_key_contact">Zugriff auf Kontakte</string>
+    <string name="pref_permission_manage_key_recording">Audio aufnehmen</string>
+    <string name="pref_permission_manage_key_storage">Speicherzugriff</string>
+    <string name="pref_permission_not_allowed">Nicht gewährt</string>
     <string name="pref_quick_note_desc">Verknüpfung am Bildschirmrand verwenden, um Notizen und Aufgaben zu erstellen, sowie kopierte URLs, Text und Bilder in Notizen zu speichern.</string>
     <string name="pref_remind_type_summary">Erinnerungston im Lautlosmodus abspielen</string>
     <string name="pref_remind_type_summary_new">Stumm-Modus ignorieren und Ton weiter abspielen, bis der Alarm ausgeschaltet wird</string>
@@ -624,7 +667,8 @@
     <string name="rich_text_font_increase_description">Größerer Text</string>
     <string name="rich_text_hightlight_description">Höhepunkte</string>
     <string name="rich_text_italic_description">Kursiv</string>
-    <string name="rich_text_right_description">Rechts</string>
+    <string name="rich_text_left_description">Linksbündig</string>
+    <string name="rich_text_right_description">Rechtsbündig</string>
     <string name="rich_text_size_description">Größe</string>
     <string name="rich_text_underline_description">Unterstrichen</string>
     <string name="root_folder_name">Schnellnotizen</string>
@@ -895,6 +939,9 @@ Erlauben Sie Notizen, Audio aufzunehmen."</string>
     <string name="widget_havenot_content">Tippen, um eine Notiz zu erstellen. Widget halten, um die Größe zu ändern.</string>
     <string name="widget_havenot_content_new">Tippen, um eine Notiz zu erstellen. Gedrückt halten, um die Größe zu ändern.</string>
     <string name="widget_note_list_page_title">Notiz wählen</string>
+    <string name="widget_size_item_big">Groß</string>
+    <string name="widget_size_item_medium">Mittel</string>
+    <string name="widget_size_item_small">Klein</string>
     <string name="widget_take_notes_title">Notizen</string>
     <string name="xiaomi_market_sdk_update_dialog_cancel">Jetzt nicht</string>
     <string name="xiaomi_market_sdk_update_dialog_ok">Aktualisieren</string>

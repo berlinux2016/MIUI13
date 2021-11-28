@@ -30,6 +30,7 @@
     <string name="after_reset_need_restore_system_app">Anscheinend haben Sie einen Werksreset durchgeführt. Mit Netzwerk verbinden und Systemelemente wiederherstellen, um MIUI normal benutzen zu können.</string>
     <string name="afternoon">Nachmittag</string>
     <string name="antispam">Sperrliste</string>
+    <string name="app_update_title">Alle Apps aktualisieren</string>
     <string name="appname_app_data_suffix">%1$s App-Daten</string>
     <string name="audio_video_document">Audio, Video und Dokumente</string>
     <string name="back">Zurück</string>
@@ -72,6 +73,7 @@
     <string name="cancel_description">Abbrechen</string>
     <string name="cancel_moving_dialog_message">Importieren jetzt stoppen?</string>
     <string name="cancel_moving_dialog_title">Importieren stoppen</string>
+    <string name="cancel_tranfer">Abbrechen</string>
     <string name="cannot_use_mi_huanji_button">Verstanden</string>
     <string name="cannot_use_mi_huanji_summary">Anscheinend sichert MIUI jetzt Daten. Laufende Sicherungen beenden oder Gerät neu starten, damit Mi Mover mit der Übertragung beginnen kann.</string>
     <string name="cannot_use_mi_huanji_title">Übertragung jetzt nicht möglich</string>
@@ -178,6 +180,7 @@ Wir schützen Ihre persönlichen Daten in Übereinstimmung mit den einschlägige
     <string name="err_bakfile_broken">Diese Sicherung kann nicht verwendet werden.</string>
     <string name="err_bakfile_not_exist">Sicherungsdatei existiert nicht</string>
     <string name="err_binder_died">App wurde unerwartet gestoppt</string>
+    <string name="err_install_incompatible">Kompatibilitätsproblem</string>
     <string name="err_low_storage">Nicht genügend Speicherplatz</string>
     <string name="err_no_gms">Inkompatible App-Version. Diese App separat installieren.</string>
     <string name="err_not_allow">Nicht unterstützt</string>
@@ -239,7 +242,9 @@ Wir schützen Ihre persönlichen Daten in Übereinstimmung mit den einschlägige
     <string name="guest_unfinished_task_alert_btn_positive">Weiter</string>
     <string name="guest_unfinished_task_alert_message">Anscheinend haben Sie noch unerledigte Transferaufgaben. Mit der Übertragung fortfahren?</string>
     <string name="guest_unfinished_task_alert_title">Unerledigte Aufgaben</string>
+    <string name="guest_wainting_title">Fahren Sie mit Ihrem neuen Gerät fort</string>
     <string name="hide_password_description">Passwort verstecken</string>
+    <string name="high_temp_summary">Ihr Gerät kann sich während der Übertragung großer Datenmengen erhitzen. Das ist normal. Ihr Gerät wird sich nach Abschluss der Übertragung abkühlen.</string>
     <string name="host_boot_installation_bottom_tips">Sie können Mi Mover nicht finden? Zum Herunterladen tippen.</string>
     <string name="host_boot_installation_button">Weiter</string>
     <string name="host_boot_installation_content">"1. Gehen Sie zu Einstellungen auf Ihrem alten Gerät.
@@ -265,6 +270,10 @@ Wir schützen Ihre persönlichen Daten in Übereinstimmung mit den einschlägige
     <string name="host_memory_insuff_summary">Auf dem neuen Gerät ist nicht genügend Speicherplatz, um eine Übertragung zu starten.</string>
     <string name="host_memory_insuff_title">Nicht genügend Speicherplatz</string>
     <string name="host_new_device_hint">Dieses Gerät</string>
+    <string name="host_verify_lock_hint">Bildschirmsperre eingeben</string>
+    <string name="host_verify_lock_retry">Bildschirmsperre bestätigen</string>
+    <string name="host_verify_lock_summary">Dies wird die Bildschirmsperre Ihres neuen Geräts sein</string>
+    <string name="host_verify_lock_title">Geben Sie die Bildschirmsperre Ihres alten Geräts ein</string>
     <string name="hsa_code_null">Bestätigungscode darf nicht leer sein</string>
     <string name="hsa_input_tip">Ihre Apple-ID verwendet eine Zwei-Faktor-Authentifizierung. Bestätigungscode eingeben.</string>
     <string name="hsa_send_again">Erneut senden</string>
@@ -296,6 +305,9 @@ Wir schützen Ihre persönlichen Daten in Übereinstimmung mit den einschlägige
     <string name="icloud_signin_fail_message">Ihre Apple-ID wurde aus Sicherheitsgründen gesperrt. Gehen Sie zu iforgot.apple.com und befolgen Sie die Anweisungen.</string>
     <string name="icloud_start_now">Mobile Daten nutzen</string>
     <string name="icloud_verify_tips">Tippen Sie auf Ihrem iOS-Gerät auf \"Zulassen\" und geben Sie den hier angezeigten Code ein.</string>
+    <string name="idm_discovery_positive_text">Übertragen</string>
+    <string name="idm_discovery_summary">Anscheinend aktivieren Sie jetzt ein neues Gerät. Elemente von diesem Gerät auf das neue Gerät übertragen?</string>
+    <string name="idm_discovery_title">Elemente auf Ihr neues Gerät übertragen</string>
     <string name="im_recipient">Ich bin der Empfänger</string>
     <string name="im_sender">Ich bin der Versender</string>
     <string name="image">Bilder</string>
@@ -325,6 +337,9 @@ Wir schützen Ihre persönlichen Daten in Übereinstimmung mit den einschlägige
     <string name="loading_data">Einen Moment…</string>
     <string name="location_permission_desc">Um Geräte in der Nähe zu finden</string>
     <string name="location_permission_request">Zum Verbinden mit anderen Geräten in der Nähe</string>
+    <string name="lockscreen_access_pattern_cell_added">Zelle hinzugefügt</string>
+    <string name="lockscreen_access_pattern_cleared">Muster gelöscht</string>
+    <string name="lockscreen_access_pattern_start">Muster begonnen</string>
     <string name="login">Anmelden</string>
     <string name="login_failed">Anmelden fehlgeschlagen. Erneut versuchen.</string>
     <string name="logining">Anmelden…</string>
@@ -341,8 +356,10 @@ Wir schützen Ihre persönlichen Daten in Übereinstimmung mit den einschlägige
     <string name="manual_connection_content1">1. \"Manuell mit dem neuen Gerät verbinden\" auf dem alten Gerät antippen.</string>
     <string name="manual_connection_content2">2. Den folgenden WLAN-Hotspot auswählen.</string>
     <string name="manual_connection_content3">3. Dieses Passwort auf dem alten Gerät eingeben, um zu verbinden.</string>
+    <string name="manual_connection_hint">Tippen Sie auf \"Manuell verbinden\" auf Ihrem alten Gerät.</string>
     <string name="manual_connection_summary2">Wenn Sie diesen Hotspot nicht finden, aktualisieren Sie die Liste der verfügbaren WLAN und versuchen Sie es erneut.</string>
     <string name="manual_connection_title">Manuell mit dem alten Gerät verbinden</string>
+    <string name="message_request_manage_external_storage_perm">Mi Mover muss auf alle Dateien auf diesem Gerät zugreifen können, um sie von Ihrem alten Gerät auf ein neues zu verschieben.</string>
     <string name="message_request_package_stats_perm">Mi Mover benötigt diese Erlaubnis, um zu erfahren, welche Apps auf einem Gerät installiert sind, und um diese Apps auf ein anderes Gerät zu übertragen.</string>
     <string name="midnight">Nacht</string>
     <string name="miui_need_location_permission_summary">Mi Mover den Standortzugriff erlauben, um Geräte in der Nähe zu finden. Sie werden Mi Mover ohne dieses Erlaubnis nicht nutzen können.</string>
@@ -352,6 +369,8 @@ Wir schützen Ihre persönlichen Daten in Übereinstimmung mit den einschlägige
     <string name="miui_wait_link_message_1">\"Ich bin ein Sender\"-Taste befindet sich direkt auf der Startseite von Mi Mover.</string>
     <string name="miui_wait_link_title_1">%d. Auf \"Ich bin ein Sender\" tippen und einen Moment warten.</string>
     <string name="miui_wait_link_title_2">%d. Diesen Hotspot auf Ihrem alten Gerät wählen, um zu verbinden.</string>
+    <string name="miuix_access_state_desc">Ausgewählt</string>
+    <string name="miuix_alphabet_indexer_name">Indexleiste</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Abwählen</string>
     <string name="miuix_appcompat_action_mode_select_all">Alle wählen</string>
     <string name="miuix_appcompat_action_mode_title_empty">Elemente wählen</string>
@@ -366,6 +385,8 @@ Wir schützen Ihre persönlichen Daten in Übereinstimmung mit den einschlägige
     <string name="miuix_appcompat_select_all">Alle wählen</string>
     <string name="miuix_appcompat_select_all_description">Alle wählen</string>
     <string name="miuix_appcompat_select_item">Elemente wählen</string>
+    <string name="miuix_indexer_collect">Sammlungen</string>
+    <string name="miuix_indexer_selected">%s ausgewählt</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Zum Aktualisieren herunterziehen</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Erfolgreich aktualisiert</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Aktualisieren…</string>
@@ -502,6 +523,7 @@ Wir schützen Ihre persönlichen Daten in Übereinstimmung mit den einschlägige
     <string name="password">Passwort eingeben</string>
     <string name="password_null">Passwort darf nicht leer sein</string>
     <string name="perm_location">Standort</string>
+    <string name="perm_manage_external_storage">Zugriff auf alle Dateien</string>
     <string name="perm_package_stats">Zugriff auf App-Nutzungsstatistiken</string>
     <string name="perm_payment_dspt">App erlauben, mit Mi Pay Dienst zu bezahlen</string>
     <string name="perm_read_call_log">Zugriff auf Anrufliste</string>
@@ -536,7 +558,7 @@ Wir schützen Ihre persönlichen Daten in Übereinstimmung mit den einschlägige
     <string name="phone">Telefon</string>
     <string name="preference_copied">\"%1$s\" in Zwischenablage kopiert</string>
     <string name="privacy_policy">Datenschutzerklärung</string>
-    <string name="prompt_before_transmission_message1_summary">Wenn Sie sich dafür entscheiden, sie von Ihrem alten Gerät zu übertragen, werden die App-Daten (einschl. Chat-Verlauf) überschrieben.</string>
+    <string name="prompt_before_transmission_message1_summary">Wenn Sie sich dafür entscheiden, sie von Ihrem alten Gerät zu übertragen, werden die App-Daten (inkl. Chat-Verlauf) überschrieben.</string>
     <string name="prompt_before_transmission_message1_title">Diese Apps haben bereits App-Daten auf Ihrem neuen Gerät generiert</string>
     <string name="prompt_before_transmission_message2_summary">Dual Apps können nicht übertragen werden. Sie können jedoch Original-Apps übertragen.</string>
     <string name="prompt_before_transmission_message2_title">Sie verwenden Dual Apps für folgende Elemente</string>
@@ -546,15 +568,20 @@ Wir schützen Ihre persönlichen Daten in Übereinstimmung mit den einschlägige
     <string name="prompt_before_transmission_message4_title">Während der gesamten Übertragung verbunden bleiben</string>
     <string name="prompt_before_transmission_message5_summary">Kabellose Übertragung großer Datenmengen kann zu einer leichten Überhitzung führen, was nicht ungewöhnlich ist. Ihr Gerät kühlt bald nach Abschluss der Übertragung ab.</string>
     <string name="prompt_before_transmission_message5_title">Ihr Gerät kann sich während der Übertragung erwärmen.</string>
+    <string name="provision_cta_title">Von altem Gerät übertragen</string>
     <string name="provision_receiver_finish_button">Weiter</string>
+    <string name="provision_select_data_null">Zu übertragende Elemente wählen</string>
     <string name="qq_app_receive_fail">QQ nicht erhalten</string>
     <string name="qq_app_send_fail">QQ nicht gesendet</string>
     <string name="qq_data_external">QQ SD-Kartendaten</string>
     <string name="quit_now">Beenden</string>
+    <string name="receiver">Empfangen</string>
     <string name="receiver_finish_detail_button">Bericht anzeigen</string>
     <string name="receiver_finish_detail_fail">Übertragen nicht möglich</string>
     <string name="receiver_finish_detail_success">Übertragene Elemente</string>
     <string name="receiver_finish_title">Es ist alles bereit!</string>
+    <string name="receiver_video_summary">Entsperren Sie Ihr altes Gerät, tippen Sie auf \"Übertragen\", und scannen Sie dieses Bild</string>
+    <string name="receiver_video_title">Von altem Gerät übertragen</string>
     <string name="reconnect">Erneut verbinden</string>
     <string name="recovery_progress">Elemente wiederherstellen (%1$d/%2$d)…</string>
     <string name="recreate_soft_ap_tips">Schaltfläche unten antippen, um es erneut zu versuchen</string>
@@ -570,6 +597,9 @@ Am Mi-Konto anmelden, um sie wiederherzustellen."</string>
     <string name="restore_data_to_device_title">Elemente auf diesem Gerät wiederherstellen</string>
     <string name="restore_right_now">Wiederherstellen</string>
     <string name="retry">Erneut versuchen</string>
+    <string name="revoke">Zustimmung widerrufen</string>
+    <string name="revoke_agree">Zustimmung widerrufen</string>
+    <string name="revoke_confirm_dialog_statement">Wenn Sie fortfahren, widerrufen Sie Ihr Einverständnis mit der Datenschutzerklärung von Mi Mover. Die bereits gesammelten und gespeicherten personenbezogenen Daten werden innerhalb des festgelegten Zeitraums gemäß den geltenden Gesetzen und Vorschriften gelöscht, sofern nicht anders gefordert. Da Mi Mover seine Dienstleistungen auf der Grundlage der Erfassung der erforderlichen personenbezogenen Daten erbringt, wird Ihr Widerruf der Zustimmung als Ablehnung der Annahme der Mi Mover-Dienste gewertet.</string>
     <string name="sar">RF-Expositionsinfo</string>
     <string name="saturday">Samstag</string>
     <string name="saturday_short">Sa</string>
@@ -620,8 +650,11 @@ Mindestens %s freigeben."</string>
     <string name="send_sms_for_sync_title">Datennutzungswarnung</string>
     <string name="send_verification_code_fail">Senden des Bestätigungscodes fehlgeschlagen</string>
     <string name="send_verification_code_fail_tips">Achten Sie darauf, dass Sie mit diesem Konto auf Ihrem Apple-Gerät angemeldet sind. Andernfalls können Sie den Code nicht erhalten.</string>
+    <string name="sender">Senden</string>
     <string name="sender_finish_bottom_tips">Sichern Sie alle wichtigen Elemente, bevor Sie Daten auf diesem Gerät löschen.</string>
     <string name="sender_finish_title">Erfolgreich übertragen</string>
+    <string name="sender_scanning_code">Bild im Rahmen platzieren</string>
+    <string name="sender_scanning_connecting">Mit neuem Gerät verbinden…</string>
     <string name="settings_phone">Telefoneinstellungen</string>
     <string name="settings_powerkeeper">Schrittzähler-Daten</string>
     <string name="settings_sms">Nachrichteneinstellungen</string>
@@ -641,6 +674,7 @@ Mindestens %s freigeben."</string>
     <string name="size_peta_byte">" PB"</string>
     <string name="size_suffix">%1$s %2$s</string>
     <string name="size_tera_byte">" TB"</string>
+    <string name="skip_transfer">Überspringen</string>
     <string name="skip_underline">Diesen Schritt überspringen</string>
     <string name="soft_ap_create_failed">Hotspot erstellen nicht möglich</string>
     <string name="soft_ap_creating">Hotspot erstellen…</string>
@@ -740,14 +774,15 @@ Mindestens %s freigeben."</string>
     <string name="time_spent">Zeit: <g id="time">%1$s</g></string>
     <string name="title_open_wlan">WLAN einschalten</string>
     <string name="title_request_alert_window_perm">Popups erlauben</string>
+    <string name="title_request_manage_external_storage_perm">Berechtigungen erforderlich</string>
     <string name="title_request_package_stats_perm">Berechtigungen erforderlich</string>
     <string name="title_request_write_settings_perm">Berechtigung zum Ändern von Systemeinstellungen erforderlich</string>
     <string name="today">Heute</string>
     <string name="tomorrow">Morgen</string>
     <string name="trans_detail_item_app_data_skip_data">App-Daten übertragen nicht möglich</string>
     <string name="trans_detail_item_app_skip_data">App verschieben nicht möglich</string>
-    <string name="trans_detail_qq_data">QQ-Daten (einschl. Chat-Verlauf)</string>
-    <string name="trans_detail_wechat_data">WeChat-Daten (einschl. Chat-Verlauf)</string>
+    <string name="trans_detail_qq_data">QQ-Daten (inkl. Chat-Verlauf)</string>
+    <string name="trans_detail_wechat_data">WeChat-Daten (inkl. Chat-Verlauf)</string>
     <string name="trans_install_guide_new_content_first">"Diesen QR-Code mit Ihrem neuen Gerät scannen.
 Mi Mover herunterladen und installieren."</string>
     <string name="trans_install_guide_old_content_first">"1. Diesen QR-Code mit Ihrem alten Gerät scannen.
@@ -758,13 +793,17 @@ Videos, Dokumente und Apps auf ein neues Gerät verschieben"</string>
     <string name="trans_receive_time_remained">Empfangen: %1$s | Verbleibend: %2$s</string>
     <string name="trans_send_time_remained">Gesendet: %1$s | Verbleibend: %2$s</string>
     <string name="trans_show_qr_code_label">Mit altem Gerät verbinden</string>
+    <string name="trans_show_qr_code_label_for_pad">Mi Mover auf dem alten Gerät öffnen</string>
     <string name="trans_sync_transfer_data_list">Zu übertragende Elemente auf dem alten Gerät auswählen</string>
+    <string name="trans_sync_transfer_data_list_hint">Einen Moment…</string>
+    <string name="trans_sync_transfer_data_list_summary_for_pad">Wählen Sie Elemente auf Ihrem alten Gerät und tippen Sie auf \"Senden\".</string>
     <string name="trans_time_format_second">Weniger als 1 Minute</string>
     <string name="trans_time_spent">Zeit: %s</string>
     <string name="transfer_bottom_tip">Während der Übertragung können Sie weder WLAN noch Bluetooth verwenden. Verlassen Sie diese Seite nicht.</string>
     <string name="transfer_connect_fail_summary">Auf Schaltfläche unten tippen, um manuell zu verbinden</string>
     <string name="transfer_finish_bottom_tip">Wenn Sie Ihr altes Gerät nicht mehr verwenden, können Sie alle Daten auf dem Gerät löschen, wenn Sie bestätigt haben, dass alle wichtigen Elemente erfolgreich übertragen wurden.</string>
     <string name="transfer_finish_summary">%1$s (%2$s) übertragen</string>
+    <string name="transfer_long_pause_in_progress">Übertragen…</string>
     <string name="transfer_lose_connect_summary">Anscheinend wurde die Verbindung unterbrochen. Verbindung wieder herstellen.</string>
     <string name="transfer_lose_connect_title">Verbindung unterbrochen</string>
     <string name="transfer_multi_connect_summary">Ihre Übertragung wurde aus Sicherheitsgründen unterbrochen. Sie können auf \"Erneut verbinden"\ tippen, um trotzdem weiterzumachen.</string>

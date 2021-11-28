@@ -17,6 +17,7 @@
     <string name="abc_shareactionprovider_share_with">Freigeben für</string>
     <string name="abc_shareactionprovider_share_with_application">Mit %s teilen</string>
     <string name="abc_toolbar_collapse_description">Minimieren</string>
+    <string name="access_denied_info">Zu viele Versuche. Einen Moment warten und erneut versuchen.</string>
     <string name="account">Konto</string>
     <string name="account_and_cloud">Konto</string>
     <string name="account_bind_secure_email_title">Wiederherstellungs-E-Mail hinzufügen</string>
@@ -299,6 +300,9 @@ Diesen Code bitte an den Techniker senden."</string>
     <string name="disallow_add_to_fm">Titel kann nicht zum FM-Radio hinzugefügt werden</string>
     <string name="disallow_add_to_personal_radio">Titel kann nicht zum persönlichen Radio hinzugefügt werden</string>
     <string name="dislike_comment_success">Gefällt mir entfernt</string>
+    <string name="doing_login">Anmelden…</string>
+    <string name="doing_query_account">Kontodaten prüfen…</string>
+    <string name="doing_register">Konto erstellen…</string>
     <string name="download">Herunterladen</string>
     <string name="download_added_to_list">Zur Download-Liste hinzugefügt</string>
     <string name="download_allow_switch">Herunterladen mit mobilen Daten</string>
@@ -371,7 +375,7 @@ Diesen Code bitte an den Techniker senden."</string>
     <string name="downloading_apk_black_shark">Herunterladen… Fortschritt in den Dateien anzeigen.</string>
     <string name="downloading_empty">Leer</string>
     <string name="downloading_pause_apk">Angehalten. Download in der Benachrichtigungleiste fortsetzen.</string>
-    <string name="downloads_operating">Bearbeitung…</string>
+    <string name="downloads_operating">Bearbeiten…</string>
     <string name="drm_check_permission_error">Mit dem Netzwerk verbinden, um zu prüfen, ob dieser Titel für Sie verfügbar ist.</string>
     <string name="drm_login_message">Wegen Urheberrechtsbeschränkungen müssen Sie sich anmelden, um zu prüfen, ob Ihnen dieser Titel zur Verfügung steht.</string>
     <string name="early_morning">Morgen</string>
@@ -528,6 +532,7 @@ Diesen Code bitte an den Techniker senden."</string>
     <string name="history_clear_fm">Radiowiedergabeverlauf löschen?</string>
     <string name="history_clear_music">Musikwiedergabeverlauf löschen?</string>
     <string name="hot_list">Top-Charts</string>
+    <string name="i_know">Verstanden</string>
     <string name="identity">Identifikation</string>
     <string name="impunity_declaration_content">Sie müssen unsere %1$s und %2$s lesen und akzeptieren, bevor Sie dieses Produkt verwenden.</string>
     <string name="impunity_declaration_content_agreement">Nutzungsbedingungen</string>
@@ -547,6 +552,7 @@ Diesen Code bitte an den Techniker senden."</string>
     <string name="individuation_service_switch">Personalisierte Empfehlungen</string>
     <string name="input_email_address_notice">Wir werden diese E-Mail zur Verifizierung Ihres Kontos verwenden</string>
     <string name="input_hint_prefix">%1$s eingeben</string>
+    <string name="input_length_exceeds_limit">Der von Ihnen eingegebene Text ist zu lang</string>
     <string name="input_new_pwd">Neues Passwort eingeben</string>
     <string name="installing_apk">Installieren…</string>
     <string name="insufficient_space">Nicht genügend Platz auf dem internen Speicher Ihres Geräts</string>
@@ -588,8 +594,13 @@ Diesen Code bitte an den Techniker senden."</string>
     <string name="local_page_song_download_history">Downloads</string>
     <string name="local_page_subscribe_radio">FM hören</string>
     <string name="login">Anmelden</string>
+    <string name="login_by_local_phone_long_text">Jetzt anmelden</string>
+    <string name="login_by_local_phone_short_text">Anmelden</string>
+    <string name="login_other">Ein anderes Mi-Konto</string>
+    <string name="login_register_by_local_phone_long_text">Konto erstellen</string>
     <string name="login_tip">Nicht angemeldet</string>
     <string name="login_tips">Anmelden, um relevante Empfehlungen zu erhalten</string>
+    <string name="login_with_sns">Andere Arten der Anmeldung</string>
     <string name="logout_account">Abmelden</string>
     <string name="lrc_search_failed">Keine Liedtexte gefunden</string>
     <string name="lrc_searching">Suchen…</string>
@@ -641,6 +652,7 @@ Diesen Code bitte an den Techniker senden."</string>
     <string name="miuishare_share_editor_title">Teilen</string>
     <string name="miuishare_title_more">Mehr</string>
     <string name="miuishare_title_share">Teilen</string>
+    <string name="miuishare_wechat_timeline_title">WeChat Moments</string>
     <string name="miuix_appcompat_cloud_state_disabled">Synchronisation mit der Cloud ist aus</string>
     <string name="miuix_appcompat_cloud_state_finished">Erfolgreich mit der Cloud synchronisiert</string>
     <string name="miuix_appcompat_cloud_state_syncing">Mit der Cloud synchronisieren…</string>
@@ -652,7 +664,6 @@ Diesen Code bitte an den Techniker senden."</string>
     <string name="miuix_sbl_tracking_progress_labe_up_none">Das ist im Moment alles</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Einen Moment…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Elemente laden nicht möglich</string>
-    <string name="miuishare_wechat_timeline_title">WeChat Moments</string>
     <string name="mobile_recommended_title">Mobile Datennutzung</string>
     <string name="modify_lyric">Liedtexte bearbeiten</string>
     <string name="modify_progress">Scrollgeschwindigkeit für Liedtexte ändern</string>
@@ -709,9 +720,11 @@ Diesen Code bitte an den Techniker senden."</string>
     <string name="my_wallet">Geldbeutel</string>
     <string name="nav_online_playlist">Wiedergabelisten</string>
     <string name="network_error_and_retry">Verbindung fehlgeschlagen, tippen, um es erneut zu versuchen</string>
+    <string name="network_error_info">Ein Netzwerkfehler ist aufgetreten. Netzwerkeinstellungen prüfen und erneut versuchen.</string>
     <string name="network_failure">Verbindung prüfen und erneut versuchen</string>
     <string name="network_request_error">Netzwerkverbindung fehlgeschlagen</string>
     <string name="network_settings_error">Netzwerkverbindung fehlgeschlagen</string>
+    <string name="network_timeout_info">Netzwerkverbindung nicht möglich. Erneut versuchen.</string>
     <string name="never_subscribe_radio">Sind Sie sicher, dass Sie diese FM nie abonniert haben?</string>
     <string name="new_comment">Letzter Kommentar (%s Artikel)</string>
     <string name="new_frequency">Neue Frequenz</string>
@@ -960,6 +973,7 @@ Diesen Code bitte an den Techniker senden."</string>
     <string name="privacy_tip_title">Xunlei Accelerator verwenden?</string>
     <string name="program">Programm</string>
     <string name="program_title">Programm</string>
+    <string name="progressbar_title">Auf Sicherheitsprobleme prüfen…</string>
     <string name="project_device">Mi Telefon</string>
     <string name="project_device_bs">Mein Black Shark</string>
     <string name="psw_hint">Passwort</string>
@@ -981,6 +995,8 @@ Diesen Code bitte an den Techniker senden."</string>
     <string name="recommended_file_size_download_in_mobile">%s von mobilen Daten verwenden, um diese Datei herunterzuladen?</string>
     <string name="recommended_no_file_size_download_in_mobile">Ihre mobile Datenverbindung benutzen, um diese Datei herunterzuladen?</string>
     <string name="record_completed">Aufnahme abgeschlossen</string>
+    <string name="register_by_local_phone_long_text">Konto erstellen</string>
+    <string name="register_by_local_phone_short_text">Konto erstellen</string>
     <string name="remain_prefix">%1$s bleiben</string>
     <string name="remaining">Diesen monat übrig:</string>
     <string name="remove">Entfernen</string>
@@ -996,6 +1012,9 @@ Diesen Code bitte an den Techniker senden."</string>
 <b>Kamerazugriff: Erleben Sie Echtzeit-Aufzeichnungsdienste für die Einstellung eines Avatars</b>
 
 Wenn Sie nicht zustimmen, die oben genannten Berechtigungen zu erteilen, wird diese Funktion nicht richtig funktionieren, aber es wird die Nutzung der Grundfunktionen dieser App nicht beeinträchtigen. Sie können die oben genannte Berechtigungsabfrage in den Systemeinstellungen abschalten, um Ihre Zustimmung zurückzuziehen."</string>
+    <string name="request_error_invalid_token">Verifizieren fehlgeschlagen</string>
+    <string name="request_error_network">Ein Netzwerkfehler ist aufgetreten. Netzwerkeinstellungen prüfen und erneut versuchen.</string>
+    <string name="request_error_unknown">Ein Systemfehler ist aufgetreten. Zurückgehen und erneut versuchen.</string>
     <string name="resend_active_email">Erneut senden</string>
     <string name="resend_email_reach_limit_message">Sie haben zu viele Verifizierungs-E-Mails angefordert. Prüfen Sie, ob die Verifizierungs-E-Mail nicht im Spam-Ordner Ihres Posteingangs ist.</string>
     <string name="resend_email_reach_limit_title">Zu viele Versuche</string>
@@ -1009,6 +1028,9 @@ Wenn Sie nicht zustimmen, die oben genannten Berechtigungen zu erteilen, wird di
     <string name="retry">Erneut versuchen</string>
     <string name="retry_after_network_available">Netzwerkverbindung fehlgeschlagen. Verbindung prüfen und erneut versuchen.</string>
     <string name="retry_download">Erneut versuchen</string>
+    <string name="request_agree">Erlauben</string>
+    <string name="request_cancel">Abbrechen</string>
+    <string name="request_gallery_permission_message">Galeriezugriff erlauben:&lt;br />Für die Einstellung von Profilfotos</string>
     <string name="ringtone_not_support">Titelformat wird nicht unterstützt</string>
     <string name="runtime_permission_ungranted">Aufnahme kann wegen fehlender Berechtigungen nicht gestartet werden</string>
     <string name="same_new_and_old_pwd">Passwort kann nicht dasselbe wie das aktuelle sein</string>
@@ -1092,6 +1114,7 @@ Wenn Sie nicht zustimmen, die oben genannten Berechtigungen zu erteilen, wird di
     <string name="sign_in">Anmelden</string>
     <string name="sign_in_progress">Anmelden…</string>
     <string name="sign_in_title">Mit Mi-Konto anmelden</string>
+    <string name="skip_query_account">Überspringen</string>
     <string name="sleep_close">Schließen</string>
     <string name="sleep_custom">Benutzerdefiniert</string>
     <string name="sleep_mode">Einschlaf-Timer</string>
@@ -1163,6 +1186,7 @@ Wenn Sie nicht zustimmen, die oben genannten Berechtigungen zu erteilen, wird di
     <string name="sunday_short">So</string>
     <string name="sunday_shortest">S</string>
     <string name="swipe_to_load_head_complete_fail">Aktualisieren fehlgeschlagen. Erneut versuchen.</string>
+    <string name="system_error_info">System ist beschäftigt. Einen Moment warten und erneut versuchen.</string>
     <string name="tab_album">Alben</string>
     <string name="tab_all_list">Alle</string>
     <string name="tab_artist">Künstler</string>
@@ -1333,6 +1357,7 @@ Wenn Sie nicht zustimmen, die oben genannten Berechtigungen zu erteilen, wird di
     <string name="unable_to_play">Abspielen nicht möglich</string>
     <string name="unknown_album_name">Unbekanntes Album</string>
     <string name="unknown_artist_name">Unbekannter Künstler</string>
+    <string name="unknown_error_info">Unbekannter Fehler</string>
     <string name="unknown_program_name">Unbekanntes Programm</string>
     <string name="unread_message_count">%s Nachricht ungelesen</string>
     <string name="update_email_address_dialog_message">Sie müssen Ihre Identität bestätigen, um die Wiederherstellungs-E-Mail aktualisieren zu können.</string>
@@ -1342,9 +1367,14 @@ Wenn Sie nicht zustimmen, die oben genannten Berechtigungen zu erteilen, wird di
     <string name="upgrade_music">Musik aktualisieren</string>
     <string name="upgrade_music_message">Updates sind bereit. Neustart zum Update.</string>
     <string name="upload_error_log">Protokoll hochladen</string>
+    <string name="user_agreement_hint_default"><Data>Ich habe die &lt;a href=\"%1$s\">Nutzervereinbarung&lt;/a> und &lt;a href=\"%2$s\">Datenschutzerklärung&lt;/a> gelesen und akzeptiert.</Data></string>
+    <string name="user_agreement_hint_with_mobile"><Data>Ich habe die &lt;a href=\"%1$s\">Nutzervereinbarung&lt;/a>, &lt;a href=\"%2$s\">Datenschutzerklärung&lt;/a> und &lt;a href=\"%3$s\">Allgemeinen Geschäftsbedingungen für die Verifizierungsdienste von China Mobile&lt;/a> gelesen und akzeptiert.</Data></string>
+    <string name="user_agreement_hint_with_telecom"><Data>Ich habe die &lt;a href=\"%1$s\">Nutzervereinbarung&lt;/a>, &lt;a href=\"%2$s\">Datenschutzerklärung&lt;/a> und &lt;a href=\"%3$s\">Allgemeinen Geschäftsbedingungen für eSurfing-Kontoverifikationsdienste&lt;/a> gelesen und akzeptiert.</Data></string>
+    <string name="user_agreement_hint_with_unicom"><Data>Ich habe die &lt;a href=\"%1$s\">Nutzervereinbarung&lt;/a>, &lt;a href=\"%2$s\">Datenschutzerklärung&lt;/a> und &lt;a href=\"%3$s\">Allgemeinen Geschäftsbedingungen für Verifizierungsdienste von China Unicom&lt;/a> gelesen und akzeptiert.</Data></string>
     <string name="user_avatar_update_title">Profilfoto ändern</string>
     <string name="user_avatar_uploading">Einen Moment…</string>
     <string name="user_id_hint">E-Mail/Telefon</string>
+    <string name="user_name_phone_number">Rufnummer</string>
     <string name="usercenter_store_button_text">Einlösen</string>
     <string name="usercenter_task_check_in">Aufgabe einchecken</string>
     <string name="usercenter_task_complete_toast">Abgeschlossen: %1$s</string>

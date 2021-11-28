@@ -32,6 +32,7 @@
     <string name="added_category">Hinzugefügt</string>
     <string name="afternoon">Nachmittag</string>
     <string name="aggree_desc">Dieser App eine Internetverbindung erlauben und die oben aufgeführten obligatorischen Genehmigungen erteilen</string>
+    <string name="agree">Zustimmen</string>
     <string name="album_creator">Erstellt von %s</string>
     <string name="album_name">Tägliche Auswahl: %s</string>
     <string name="all_topic">Alle Themen</string>
@@ -46,6 +47,7 @@
     <string name="app_name_miuimusic">Musik</string>
     <string name="app_name_miuiringtone">Klingeltöne</string>
     <string name="app_name_miuiwallpaper">Hintergründe</string>
+    <string name="app_name_recorder">Rekorder</string>
     <string name="auto_play">Bei WLAN-Verbindung automatisch abspielen</string>
     <string name="auto_play_later">Später</string>
     <string name="auto_play_now">Einschalten</string>
@@ -256,6 +258,7 @@
     <string name="error_not_support">Nicht unterstützt</string>
     <string name="error_open_file_failed_no_app_found">Keine App zum Öffnen dieser Datei gefunden</string>
     <string name="evening">Nachmittag</string>
+    <string name="exit">Beenden</string>
     <string name="exo_controls_fastforward_description">Schnellvorlauf</string>
     <string name="exo_controls_next_description">Nächster Titel</string>
     <string name="exo_controls_play_description">Abspielen</string>
@@ -570,6 +573,8 @@
     <string name="my_follows">Mein Feed</string>
     <string name="name_empty">Name eingeben</string>
     <string name="need_login">Erst Anmelden</string>
+    <string name="need_open_content">Erlauben Sie Dateimanager den Zugriff auf Ihre Fotos und Dateien, um diese Funktion zu nutzen.</string>
+    <string name="need_open_permission">Berechtigungen erforderlich</string>
     <string name="need_read_storage_permission">Für eine korrekte Funktion benötigt Explorer Zugriff auf den internen Speicher</string>
     <string name="net_error_text">Netzwerkfehler</string>
     <string name="network_dialog_checkbox_tip">Nicht wieder anzeigen</string>
@@ -594,6 +599,7 @@
     <string name="no_login_str">Nicht angemeldet</string>
     <string name="no_message">Keine Nachrichten</string>
     <string name="no_new_content_tip">Alle Elemente sind auf dem neuesten Stand</string>
+    <string name="no_permission">Erteilen Sie die erforderlichen Berechtigungen für den Zugriff auf diese Funktion</string>
     <string name="no_recent_files">Keine zuletzt verwendeten Dateien</string>
     <string name="no_search_content">Keine Ergebnisse</string>
     <string name="no_topic">Keine Themen</string>
@@ -619,6 +625,7 @@
     <string name="open_app">Öffnen</string>
     <string name="open_chest">Öffnen, um ein Geschenk zu erhalten</string>
     <string name="open_chest_failed">Öffnen nicht möglich, Netzwerkeinstellungen prüfen und erneut versuchen</string>
+    <string name="open_or_close_wlan">WLAN ein- und ausschalten</string>
     <string name="open_private_folder">Loslassen, um versteckte Ordner anzuzeigen</string>
     <string name="open_xk_app">\"Möchten Sie ein Video ansehen\" öffnen</string>
     <string name="operation_add_fav">Zu Favoriten hinzufügen…</string>
@@ -687,6 +694,7 @@
     <string name="path_name_email">E-Mail</string>
     <string name="path_recent_file">Verwalten Sie Ihre Dateien</string>
     <string name="permission_denial">Dateizugriff nicht möglich. Erlauben Sie Dateimanager in den Einstellungen den Zugriff auf Dateien.</string>
+    <string name="permission_description">Berechtigungsdetails</string>
     <string name="permission_required">Dateizugriff nicht möglich. Erlauben Sie Dateimanager in den Einstellungen den Zugriff auf Dateien.</string>
     <string name="phone">Interner Speicher</string>
     <string name="phone_bind_skip">Überspringen</string>
@@ -723,9 +731,14 @@
     <string name="popup_msg_wb">Dieses Video mit Ihren Freunden über Weibo teilen</string>
     <string name="popup_msg_wx">Dieses Video mit Ihren Freunden über WeChat teilen</string>
     <string name="port_range">Port muss zwischen 1024-65535 sein</string>
+    <string name="pref_permission_allowed">Gewährt</string>
+    <string name="pref_permission_manage_key_storage">Zugriff auf Fotos und Dateien auf dem Gerät</string>
+    <string name="pref_permission_not_allowed">Nicht gewährt</string>
     <string name="preference_copied">\"%1$s\" in Zwischenablage kopiert</string>
     <string name="pretty_girl">Weiblich</string>
     <string name="privacy_policy">Datenschutzerklärung</string>
+    <string name="privacy_policy_renew">Datenschutzerklärung aktualisiert</string>
+    <string name="privacy_policy_renew_content"><Data>Die &lt;a href=\"%1$s\">Datenschutzerklärung&lt;/a>von Dateimanager wurde aktualisiert. Um Ihre Rechte als Nutzer sowie die Art und Weise, wie wir Ihre Daten verwenden, vollständig zu verstehen, lesen und akzeptieren Sie die neue Version der Datenschutzerklärung, bevor Sie fortfahren.</Data></string>
     <string name="private_files">Versteckt</string>
     <string name="private_folder">Versteckte Ordner</string>
     <string name="private_folder_no_file_hints">Dateien oder Ordner gedrückt halten, um sie zu Ihrem privaten Ordner hinzuzufügen.</string>
@@ -792,7 +805,7 @@
     <string name="save_name_success">Änderung erfolgreich</string>
     <string name="search_app">Quelle</string>
     <string name="search_app_more">Mehr</string>
-    <string name="search_category">Nach Kategorie suchen</string>
+    <string name="search_category">Kategorien</string>
     <string name="search_category_folder">Ordner</string>
     <string name="search_description">Nach allen Dateien auf dem Gerät suchen</string>
     <string name="search_download">Downloads;Neueste Downloads</string>
@@ -1000,6 +1013,8 @@
     <string name="title_recent">Zuletzt</string>
     <string name="title_report_video">Melden</string>
     <string name="title_select_volume">Ordner auswählen</string>
+    <string name="to_open">Einstellungen</string>
+    <string name="to_setting">Einstellungen</string>
     <string name="toast_file_not_can_read">Keine App zum Öffnen der Datei gefunden</string>
     <string name="today">Heute</string>
     <string name="tomorrow">Morgen</string>
@@ -1167,6 +1182,10 @@
     <string name="weibo_share_success">Erfolgreich geteilt</string>
     <string name="weixin_not_installed">WeChat nicht installiert</string>
     <string name="wifi_state">WLAN-Verbindung</string>
+    <string name="withdraw">Widerrufen</string>
+    <string name="withdraw_consent">Zustimmung widerrufen</string>
+    <string name="withdraw_consent_content">Wenn Sie fortfahren, widerrufen Sie Ihr Einverständnis mit der Datenschutzerklärung von Dateimanager. Die bereits gesammelten und gespeicherten persönlichen Daten werden innerhalb des festgelegten Zeitraums in Übereinstimmung mit den geltenden Gesetzen und Vorschriften gelöscht, sofern nicht anders gefordert. Da Dateimanager seine Dienste auf der Grundlage der Erfassung der erforderlichen personenbezogenen Daten erbringt, wird Ihr Widerruf der Zustimmung als Ablehnung der Dienste von Dateimanager gewertet.</string>
+    <string name="withdraw_consent_summary">Zustimmung zur Datenschutzerklärung von Dateimanager widerrufen</string>
     <string name="xiaomi_btn_bind">Mi-Konto</string>
     <string name="xiaomi_login_btn_str">Mi-Konto</string>
     <string name="year_month_day_format">d. MMM. yyyy</string>

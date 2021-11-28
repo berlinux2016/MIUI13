@@ -218,7 +218,7 @@
 	"project_device": "Mi Telefon",
 	"project_device_mobile": "Mobiles Gerät",
 	"online_playlist_is_empty": "Wiedergabeliste ist leer",
-	"network_failure": "Überprüfen Sie Ihre Verbindung und versuchen Sie es erneut.",
+	"network_failure": "Prüfen Sie Ihre Verbindung und versuchen Sie es erneut.",
 	"local_music_is_not_available": "Lokale Musik ist nicht verfügbar.",
 	"source_from": "\"Quelle: %1$s\"",
 	"stream_quality": "\"Streaming Qualität\"",

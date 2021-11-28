@@ -209,7 +209,7 @@
     <string name="category_file">Dateien</string>
     <string name="category_folder">Ordner</string>
     <string name="category_installed_app">Installierte Apps</string>
-    <string name="category_move_limit_notice">Sie können 3 bis 7 Elemente in den oberen Bildschirmteil verschieben</string>
+    <string name="category_move_limit_notice">Sie können %1$d bis %2$d Elemente in den oberen Bildschirmteil verschieben</string>
     <string name="category_music">Musik</string>
     <string name="category_other">Weitere</string>
     <string name="category_photo">Fotos</string>
@@ -274,6 +274,7 @@
     <string name="columbus_player_speed_title">Video überspringen?</string>
     <string name="columbus_player_speed_video">VIDEO ÜBERSPRINGEN</string>
     <string name="columbus_player_unit_sec">Sek</string>
+    <string name="columbus_skip_ad">Überspringen</string>
     <string name="com_facebook_device_auth_instructions">&lt;b>facebook.com/device&lt;/b> aufrufen und den oben angezeigten Code eingeben</string>
     <string name="com_facebook_image_download_unknown_error">Unerwarteter Fehler beim Herunterladen eines Bildes</string>
     <string name="com_facebook_internet_permission_error_message">WebView-Anmeldung erfordert INTERNET-Berechtigung</string>
@@ -359,6 +360,9 @@
     <string name="copy">Kopieren</string>
     <string name="copy_url">URL kopieren</string>
     <string name="could_not_load_data">Daten wurden nicht geladen, aktualisieren und erneut versuchen</string>
+    <string name="crash_page_button">Erneut versuchen</string>
+    <string name="crash_page_description">Beim Anzeigen dieser Webseite ist ein Fehler aufgetreten.</string>
+    <string name="crash_page_title">Oh, Mist!</string>
     <string name="create_qr_code">QR-Code</string>
     <string name="current_version_pad">Tablet</string>
     <string name="current_version_pc">Startbildschirm</string>
@@ -381,6 +385,8 @@ werden nicht im Verlauf angezeigt."</string>
     <string name="data_traffic_prompt_title">Sie verwenden mobile Daten</string>
     <string name="date_picker_lunar">Traditioneller chin. Kalender</string>
     <string name="date_time_picker_dialog_title">Datum und Zeit festlegen</string>
+    <string name="debug_crash">Debuggen von Abstürzen aktivieren</string>
+    <string name="debug_youtube_file">YouTube-Datei debuggen</string>
     <string name="debug_youtube_in_release">Youtube im Release debuggen</string>
     <string name="delete">Löschen</string>
     <string name="delete_bookmark">Löschen</string>
@@ -394,7 +400,7 @@ werden nicht im Verlauf angezeigt."</string>
     <string name="delete_result_success">Erfolgreich gelöscht</string>
     <string name="delete_task_and_file_dialog_msg">Aufgabe wird zusammen mit der zugehörigen Datei gelöscht. Sie können gelöschte Elemente nicht wiederherstellen.</string>
     <string name="delete_task_and_file_dialog_title">Ausgewählte Aufgabe und Datei löschen?</string>
-    <string name="delete_task_dialog_msg">Ausgewählte Aufgabe löschen?</string>>
+    <string name="delete_task_dialog_msg">Ausgewählte Aufgabe löschen?</string>
     <string name="detail_guide_tips">Hochwischen für weitere verwandte Elemente</string>
     <string name="diagnosis_log_send_failed">Diagnoseprotokoll senden fehlgeschlagen</string>
     <string name="diagnosis_log_sent_format">"Diagnoseprotokoll wurde gesendet.
@@ -416,11 +422,12 @@ Bitte senden Sie diesen Code dem Techniker."</string>
     <string name="document_open_other">Andere Apps</string>
     <string name="document_open_title">Öffnen mit</string>
     <string name="dont_remind_again">Auswahl merken</string>
+    <string name="download_action">Herunterladen</string>
     <string name="download_btn_select_all">Alles auswählen</string>
     <string name="download_btn_select_none">Alles abwählen</string>
     <string name="download_business_app_new_version">Die neueste Version dieser App ist bereits installiert</string>
     <string name="download_business_app_update_install">Bereit zur Installation des Updates.</string>
-    <string name="download_business_v5_edit_mode_title_empty">0 ausgewählt</string>
+    <string name="download_business_v5_edit_mode_title_empty">Elemente wählen</string>
     <string name="download_change_dir">Ordner ändern</string>
     <string name="download_complete">Erfolgreich heruntergeladen</string>
     <string name="download_completed">Heruntergeladen</string>
@@ -441,7 +448,7 @@ Bitte senden Sie diesen Code dem Techniker."</string>
     <string name="download_dialog_failed_body">Später erneut versuchen oder diese Datei aus der Download-Warteschlange entfernen?</string>
     <string name="download_dialog_file_already_exists">Sie haben diese Datei bereits heruntergeladen</string>
     <string name="download_dialog_file_length_hint_txt">"Dateigröße: "</string>
-    <string name="download_dialog_file_length_lessthan1kb">Weniger als 1 KB</string>
+    <string name="download_dialog_file_length_lessthan1kb">Weniger als %1$d KB</string>
     <string name="download_dialog_file_length_nolength_error_txt">Download fehlgeschlagen</string>
     <string name="download_dialog_file_length_nolength_txt">Einen Moment…</string>
     <string name="download_dialog_file_missing_body">Datei nicht gefunden. Haben Sie sie verschoben oder gelöscht?</string>
@@ -659,6 +666,8 @@ Bitte senden Sie diesen Code dem Techniker."</string>
     <string name="friday_short">Fr</string>
     <string name="friday_shortest">F</string>
     <string name="gaid">GAID (Zum Exportieren tippen)</string>
+    <string name="game_center_recommend_play">Spielen</string>
+    <string name="game_center_recommend_title">Für Sie empfohlen</string>
     <string name="game_news_flow_download_bar_download">Herunterladen</string>
     <string name="game_news_flow_download_bar_play">Spielen</string>
     <string name="game_played">Zuletzt</string>
@@ -770,9 +779,9 @@ Bitte senden Sie diesen Code dem Techniker."</string>
     <string name="lockpattern_need_to_unlock_wrong">Erneut versuchen</string>
     <string name="lockpattern_pattern_confirmed_header">Hier ist Ihr Entsperrmuster:</string>
     <string name="lockpattern_pattern_entered_header">Erledigt!</string>
-    <string name="lockpattern_recording_incorrect_too_short">Erneut versuchen. Verbinden Sie mindestens 4 Punkte.</string>
+    <string name="lockpattern_recording_incorrect_too_short">Erneut versuchen. Verbinden Sie mindestens %1$d Punkte.</string>
     <string name="lockpattern_recording_inprogress">Loslassen, wenn Ihr Muster fertig ist</string>
-    <string name="lockpattern_recording_intro_header">Verbinden Sie mindestens 4 Punkte.</string>
+    <string name="lockpattern_recording_intro_header">Verbinden Sie mindestens %1$d Punkte</string>
     <string name="lockpattern_retry_button_text">Zurücksetzen</string>
     <string name="login_failed_toast">Anmeldung fehlgeschlagen, neu laden und erneut versuchen</string>
     <string name="login_or_register">oder</string>
@@ -783,7 +792,7 @@ Bitte senden Sie diesen Code dem Techniker."</string>
     <string name="make_private_msg_1">Diese Datei ausblenden?</string>
     <string name="make_private_msg_2">Diese Dateien ausblenden?</string>
     <string name="max_tabs_warning">Weitere Tabs können nicht geöffnet werden</string>
-    <string name="maximum_input_alert">Maximal 2048 Zeichen möglich</string>
+    <string name="maximum_input_alert">Maximal %1$d Zeichen möglich</string>
     <string name="media_error_action_refresh">Neu laden</string>
     <string name="media_error_action_replace_video_source">Quelle wurde nicht gewechselt</string>
     <string name="media_error_failure">Video kann nicht abgespielt werden</string>
@@ -848,6 +857,7 @@ Bitte senden Sie diesen Code dem Techniker."</string>
     <string name="monday_shortest">M</string>
     <string name="month_april_shortest">A</string>
     <string name="month_august_shortest">A</string>
+    <string name="month_day_format">d. MMM</string>
     <string name="month_december">Dezember</string>
     <string name="month_december_short">Dez</string>
     <string name="month_december_shortest">D</string>
@@ -915,7 +925,7 @@ Bitte senden Sie diesen Code dem Techniker."</string>
     <string name="mw_actionbar_web_search">Websuche</string>
     <string name="mw_add_to_dictionary">Zum Wörterbuch hinzufügen</string>
     <string name="mw_autofill_popup_content_description">Autofill-Popup-Benachrichtigung anzeigen</string>
-    <string name="mw_chip_remove_icon_content_description">"'%1$s' entfernen"</string>
+    <string name="mw_chip_remove_icon_content_description">\"%1$s\" entfernen</string>
     <string name="mw_color_picker_button_black">Schwarz</string>
     <string name="mw_color_picker_button_blue">Blau</string>
     <string name="mw_color_picker_button_cancel">Abbrechen</string>
@@ -993,7 +1003,7 @@ Diese Seite jetzt wirklich verlassen?"</string>
     <string name="mw_js_dialog_title">Seite \" %s \" sagt:</string>
     <string name="mw_last_month">Letzten Monat</string>
     <string name="mw_license_activity_title">System WebView-Lizenzen</string>
-    <string name="mw_link_copied">Link kopiert</string>
+    <string name="mw_link_copied">Link erfolgreich kopiert</string>
     <string name="mw_low_memory_error">Vorheriger Vorgang kann wegen geringem Speicher nicht abgeschlossen werden</string>
     <string name="mw_menu_refresh">Neu laden</string>
     <string name="mw_miui_content_copy">Kopieren</string>
@@ -1191,6 +1201,12 @@ Diese Seite jetzt wirklich verlassen?"</string>
     <string name="notification_download_completed">Erfolgreich heruntergeladen</string>
     <string name="notification_download_failed">Herunterladen fehlgeschlagen</string>
     <string name="notification_wechat_expired_empty">WeChat hat diese Videoclips bereits gelöscht.</string>
+    <string name="offline_notification_text">Zum Öffnen der Anzeige antippen</string>
+    <string name="offline_notification_title">Anzeige anzeigen, die Sie gespeichert hatten, als Sie offline waren</string>
+    <string name="offline_opt_in_confirmation">Sie erhalten eine Benachrichtigung mit dem Link, wenn Sie wieder online sind</string>
+    <string name="offline_opt_in_decline">Nein danke</string>
+    <string name="offline_opt_in_message">Wir schicken Ihnen eine Benachrichtigung mit einem Link zur Website des Inserenten.</string>
+    <string name="offline_opt_in_title">Anzeige öffnen, wenn Sie wieder online sind</string>
     <string name="open_app_confirm_message">Dieser Seite erlauben, %s zu öffnen?</string>
     <string name="open_private_folder">Loslassen, um versteckte Ordner anzuzeigen</string>
     <string name="open_settings">Zu Einstellungen gehen</string>
@@ -1341,7 +1357,7 @@ Diese Seite jetzt wirklich verlassen?"</string>
     <string name="pf_guide_msg_if_has_downloading">Laufende Downloads können nicht zum privaten Ordner hinzugefügt werden</string>
     <string name="pf_move_out">Aus privatem Ordner entfernen</string>
     <string name="pf_move_out_dialog_btn_confirm">Entfernen</string>
-    <string name="pf_move_out_dialog_content">Entfernte Elemente werden an ihrem ursprünglichen Ort gespeichert.</string>
+    <string name="pf_move_out_dialog_content">Gelöschte Elemente werden unter den letzten Dateien angezeigt.</string>
     <string name="pf_move_out_dialog_title">Aus privatem Ordner entfernen</string>
     <string name="pf_toast_add_success">Erfolgreich in privaten Ordner verschoben</string>
     <string name="phone">Speicher</string>
@@ -1633,7 +1649,7 @@ Einige Webseiten verwenden Ihren früheren Browserverlauf nicht, um ihre Werbung
     <string name="report_event_refresh">Aktualisieren</string>
     <string name="report_event_select_language">Sprachauswahl</string>
     <string name="report_path_extra">Nicht beigetreten</string>
-    <string name="request_camera_permission_message">Dieser Dienst muss Ihre Erlaubnis einholen, wir werden uns strikt an die einschlägigen Gesetze halten, um Ihre persönlichen Daten zu schützen:: &lt;br>&lt;br>&lt;b> Kamerazugriff: Erleben Sie Echtzeit-Aufzeichnungsdienste zum Einstellen von Avatar &lt;/b>&lt;br>&lt;br> Wenn Sie dem Aufrufen der oben genannten Berechtigungen nicht zustimmen, funktioniert diese Funktion nicht ordnungsgemäß, hat jedoch keine Auswirkungen auf Ihre Verwendung der Grundfunktionen dieser App. Sie können den obigen Berechtigungsaufruf in den Systemeinstellungen deaktivieren, um Ihre Einwilligung zu widerrufen.</string>
+    <string name="request_camera_permission_message">Dieser Dienst benötigt Ihre Zustimmung. Wir werden uns strikt an die einschlägigen Gesetze halten, um Ihre persönlichen Daten zu schützen: &lt;br>&lt;br>&lt;b> Kamerazugriff: Erleben Sie Echtzeit-Aufzeichnungsdienste zum Einstellen von Avatar &lt;/b>&lt;br>&lt;br> Wenn Sie dem Aufrufen der oben genannten Berechtigungen nicht zustimmen, funktioniert diese Funktion nicht ordnungsgemäß, hat jedoch keine Auswirkungen auf Ihre Verwendung der Grundfunktionen dieser App. Sie können den obigen Berechtigungsaufruf in den Systemeinstellungen deaktivieren, um Ihre Einwilligung zu widerrufen.</string>
     <string name="request_profile_error">Abrufen von Kontoinformationen fehlgeschlagen</string>
     <string name="resend_active_email">Erneut senden</string>
     <string name="resend_email_reach_limit_message">Sie haben zu viele Bestätigungs-E-Mails angefordert. Stellen Sie sicher, dass sich die Bestätigungs-E-Mail nicht im Spam-Ordner Ihres Posteingangs befindet.</string>
@@ -1644,6 +1660,12 @@ Einige Webseiten verwenden Ihren früheren Browserverlauf nicht, um ihre Werbung
     <string name="restart_phone_bind_message">Der Empfang der SMS kann einige Zeit dauern. Trotzdem neu beginnen?</string>
     <string name="restart_phone_bind_title">Wiederherstellungstelefon ändern</string>
     <string name="return_to_homepage">Zurück zur Startseite</string>
+    <string name="risk_malicious_url">Diese Webseite könnte ein Sicherheitsrisiko darstellen.</string>
+    <string name="risk_protect_browsing">Mi Browser prüft Webseiten auf Sicherheitsprobleme</string>
+    <string name="risk_safe_url">Diese Webseite ist sicher</string>
+    <string name="risk_setting_des">Mi Browser die Prüfung von Webseiten auf Sicherheitsprobleme erlauben</string>
+    <string name="risk_setting_title">Sicheres Surfen</string>
+    <string name="risk_unspecified_url">Es gibt ein Problem mit dem Sicherheitszertifikat dieser Webseite.</string>
     <string name="rlv_last_refreshing_time">%1$s aktualisiert</string>
     <string name="rlv_loading_more">Einen Moment…</string>
     <string name="rlv_pull_to_refresh">Zum Aktualisieren herunterziehen</string>
@@ -1789,7 +1811,7 @@ Einige Webseiten verwenden Ihren früheren Browserverlauf nicht, um ihre Werbung
     <string name="ssl_bad_clock_date_settings">Datum einstellen</string>
     <string name="ssl_bad_clock_warning" formatted="false">Private Verbindung zu %s1 kann nicht hergestellt werden, da Ihre Datums- und Zeiteinstellungen (%s2) falsch sind</string>
     <string name="ssl_bad_expired_warning">Dieser Kanal wird von %1$s bereitgestellt. Das auf Ihrem Gerät eingestellte Datum und die Uhrzeit (%2$s) erlauben es jedoch nicht, eine sichere Verbindung mit %1$s herzustellen. Sie können das richtige Datum und die richtige Uhrzeit einstellen oder auf \"Fortfahren\" tippen, wenn Sie diesen Kanal dennoch verwenden möchten.</string>
-    <string name="ssl_bad_warning">Dieser Kanal wird von %1$s bereitgestellt. Mi Browser kann jedoch nicht überprüfen, ob dieser Server zu %1$s gehört, da sein Zertifikat ungültig ist oder widerrufen wurde. Dieses Problem kann durch falsche Konfigurationen oder eine blockierte Verbindung verursacht werden. Auf \"Fortfahren\" tippen, wenn Sie diesen Kanal trotzdem verwenden möchten.</string>
+    <string name="ssl_bad_warning">Dieser Kanal wird von %1$s bereitgestellt. Mi Browser kann jedoch nicht prüfen, ob dieser Server zu %1$s gehört, da sein Zertifikat ungültig ist oder widerrufen wurde. Dieses Problem kann durch falsche Konfigurationen oder eine blockierte Verbindung verursacht werden. Auf \"Fortfahren\" tippen, wenn Sie diesen Kanal trotzdem verwenden möchten.</string>
     <string name="ssl_certificate">Sicherheitszertifikat</string>
     <string name="ssl_certificate_is_valid">Dieses Zertifikat ist gültig</string>
     <string name="ssl_continue">Fortfahren</string>
@@ -2057,8 +2079,8 @@ https://www.facebook.com/miui.global.official/videos/1602181069951748"</string>
     <string name="vpn_data_used_info">%2$s von %1$s verwendet</string>
     <string name="vpn_detail_guide1">Alle Server freischalten, um Ihre Verbindung zu beschleunigen</string>
     <string name="vpn_detail_guide2">VPN-Dienste abonnieren, um auf mehr Webseiten zuzugreifen</string>
-    <string name="vpn_detail_guide3">Sie haben fast keinen Traffic mehr. Testen Sie unseren 12-Monatstarif! Tippen, um mehr über Ihre Optionen zu erfahren.</string>
-    <string name="vpn_detail_guide4">Sie haben keinen Traffic mehr. Testen Sie unseren 12-Monatstarif! Tippen, um mehr über Ihre Optionen zu erfahren.</string>
+    <string name="vpn_detail_guide3">Sie haben fast keinen Traffic mehr. Testen Sie unseren %1$d-Monatstarif! Tippen, um mehr über Ihre Optionen zu erfahren.</string>
+    <string name="vpn_detail_guide4">Sie haben keinen Traffic mehr. Testen Sie unseren %1$d-Monatstarif! Tippen, um mehr über Ihre Optionen zu erfahren.</string>
     <string name="vpn_detail_guide5">Sie haben fast keinen Traffic mehr</string>
     <string name="vpn_detail_guide6">Sie haben keinen Traffic mehr</string>
     <string name="vpn_detail_subscribe">Abonnieren</string>
@@ -2090,7 +2112,7 @@ https://www.facebook.com/miui.global.official/videos/1602181069951748"</string>
     <string name="whatsapp_how_it_works">So funktioniert es</string>
     <string name="whatsapp_intro_dialog_title">Neue Funktion</string>
     <string name="whatsapp_no_status_tips">Noch keine Bilder oder Videos hier. Sehen Sie sich Ihre WhatsApp-Status-Updates an und kommen Sie wieder hierher zurück.</string>
-    <string name="whatsapp_principle_page_message">WhatsApp speichert Fotos und Videos, die Sie durchstöbern, in einem versteckten Ordner. Diese Elemente verschwinden nach 24 Stunden. Jetzt können Sie Mi Browser verwenden, um sie zu speichern.</string>
+    <string name="whatsapp_principle_page_message">WhatsApp speichert Fotos und Videos, die Sie durchstöbern, in einem versteckten Ordner. Diese Elemente verschwinden nach %1$d Stunden. Jetzt können Sie Mi Browser verwenden, um sie zu speichern.</string>
     <string name="whatsapp_principle_page_title">Sie können Bilder und Videos aus WhatsApp-Statusmeldungen mit Mi Browser speichern</string>
     <string name="whatsapp_principle_step_1">Stöbern Sie in Bildern und Videos auf dem Tab \"Status\" in WhatsApp.</string>
     <string name="whatsapp_principle_step_2">Kommen Sie hierher zurück, um sie zu speichern.</string>

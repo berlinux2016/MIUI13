@@ -1,6 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-
     <string name="SMTP_independent_verification_text">SMTP-unabhängige Verifizierung</string>
     <string name="SMTP_password_text">Passwort</string>
     <string name="SMTP_username_text">Benutzername</string>
@@ -27,6 +26,11 @@
     <string name="account_add_other_sub_des">Andere Konten</string>
     <string name="account_add_title">E-Mailservice wählen</string>
     <string name="account_change">Konten wechseln</string>
+    <string name="account_child_dialog_neg_text">Verlassen</string>
+    <string name="account_child_dialog_pos_text">Erziehungsberechtigter stimmt zu</string>
+    <string name="account_child_dialog_text">Wenn Sie minderjährig sind, informieren Sie Ihren Erziehungsberechtigten, dass er die \"Kingsoft-Erklärung zum Schutz personenbezogener Daten von Minderjährigen\" lesen und akzeptieren muss. Sie müssen auch dessen Zustimmung und Anleitung einholen, bevor Sie unsere Dienste nutzen oder persönliche Daten an uns übermitteln.\nUm Ihre Rechte als Nutzer sowie die Art und Weise, wie wir Ihre Daten verarbeiten, vollständig zu verstehen, lesen Sie die \"Kingsoft-Erklärung zum Schutz personenbezogener Daten von Minderjährigen\".</string>
+    <string name="account_child_dialog_title">Erklärung zum Schutz personenbezogener Daten von Minderjährigen</string>
+    <string name="account_child_save_statement">Kingsoft-Erklärung zum Schutz personenbezogener Daten von Minderjährigen</string>
     <string name="account_duplicate_dlg_message_fmt">Benutzername wird bereits für das Konto \"%s\" verwendet.</string>
     <string name="account_duplicate_dlg_title">Doppeltes Konto</string>
     <string name="account_failure">Sitzung abgelaufen</string>
@@ -35,6 +39,12 @@
     <string name="account_options_actionbar_title">Allgemeine Einstellungen</string>
     <string name="account_options_sync_title">Synchronisieren</string>
     <string name="account_password_spaces_error">Dieses Passwort beginnt oder endet mit einem oder mehreren Leerzeichen. Viele Server unterstützen keine Passwörter mit Leerzeichen.</string>
+    <string name="account_permission_child_statement">Erklärung zum Schutz personenbezogener Daten von Minderjährigen</string>
+    <string name="account_permission_dialog_cancel_text">Widerrufen</string>
+    <string name="account_permission_dialog_text">Wenn Sie fortfahren, widerrufen Sie Ihre Zustimmung zur Endbenutzer-Lizenzvereinbarung, zur Datenschutzerklärung und zur Erklärung zum Schutz personenbezogener Daten von Minderjährigen. Danach können Sie WPS Mail nicht mehr verwenden, und alle auf diesem Gerät erzeugten Daten werden gelöscht.</string>
+    <string name="account_permission_dialog_title">Zustimmung widerrufen</string>
+    <string name="account_permission_private_policy">Datenschutzerklärung</string>
+    <string name="account_permission_user_privacy">Endbenutzer-Lizenzvereinbarung</string>
     <string name="account_security_dialog_content_fmt">%s hat eine Aktualisierung Ihrer Sicherheitseinstellungen angefordert.</string>
     <string name="account_security_dialog_title">Sicherheitsupdate</string>
     <string name="account_security_policy_explanation_fmt">Server %s erfordert eine Freigabe, damit er einige Sicherheitsfunktionen Ihres Telefons steuern kann</string>
@@ -289,7 +299,7 @@
     <string name="back">Zurück</string>
     <string name="bank_card_detail">Kreditkartendetails</string>
     <string name="battery_saver">Stromsparen</string>
-    <string name="battery_saver_keywords">Strom sparen;E-Mail Akku</string>
+    <string name="battery_saver_keywords">Stromsparen;E-Mail Akku</string>
     <string name="bill_center_setting">Zahlungseinstellungen</string>
     <string name="bill_center_setting_head">Infos von diesen Konten importieren</string>
     <string name="bill_cycle_text">Rechnungszeitraum</string>
@@ -510,6 +520,7 @@
     <string name="dialog_system_auto_sync_account_no_open">Kontosynchronisation aktivieren, um E-Mails automatisch zu erhalten</string>
     <string name="dialog_system_auto_sync_master_no_open">Synchronisation aktivieren, um E-Mails automatisch zu erhalten</string>
     <string name="disable_admin_warning">ACHTUNG: Wenn Sie die Berechtigung der E-Mail-App zur Verwaltung Ihres Telefons deaktivieren, werden alle E-Mailkonten, die diese Berechtigung benötigen, mit allen zugehörigen E-Mails, Kontakten, Terminen und weiteren Daten gelöscht.</string>
+    <string name="disallow_qq_auth_how_get_auth_code">Wie erhalte ich einen Autorisierungscode?</string>
     <string name="discard">Verwerfen</string>
     <string name="discard_drafts">Entwürfe verwerfen</string>
     <string name="dismiss_tip_hover_text">Tipp schließen</string>
@@ -556,7 +567,7 @@
     <string name="email_address">E-Mail-Adresse</string>
     <string name="email_no_snippet">[Leere E-Mail]</string>
     <string name="email_setting">E-Mail</string>
-    <string name="email_setting_keywords">Konten;Konto hinzufügen;Mailkonten;E-Mailkonto;E-Mailkonto hinzufügen;Vor dem Löschen bestätigen;Vor dem Senden bestätigen;Nachrichtenverlauf löschen;Weiterleiten;Konversationsansicht;E-Mailkonversation;Mail Akku;Feedback senden</string>
+    <string name="email_setting_keywords">Konten;Konto hinzufügen;Mailkonten;E-Mail-Konto;E-Mail-Konto hinzufügen;Vor dem Löschen bestätigen;Vor dem Senden bestätigen;Nachrichtenverlauf löschen;Weiterleiten;Konversationsansicht;E-Mailkonversation;Mail Akku;Feedback senden</string>
     <string name="email_sync_failed">E-Mail synchronisieren fehlgeschlagen</string>
     <string name="eml_parse_message">EML-Datei öffnen…</string>
     <string name="empty_account_tip">Konto nicht gefunden</string>
@@ -644,7 +655,7 @@
     <string name="folder_drafts_name_en2">[Gmail]/Entwürfe</string>
     <string name="folder_empty_to_fresh">E-Mail nicht synchronisiert. Zum Synchronisieren nach unten ziehen.</string>
     <string name="folder_junk_name_en1">Massenmail</string>
-    <string name="folder_list_current_account">Aktuelles Postfach</string>
+    <string name="folder_list_current_account">Aktuelles Konto</string>
     <string name="folder_list_display_all">Alle Ordner anzeigen</string>
     <string name="folder_list_display_only_import">Nur wichtige Ordner anzeigen</string>
     <string name="folder_no_mails">Keine E-Mail</string>
@@ -692,7 +703,7 @@
     <string name="from_heading">"Von: "</string>
     <string name="gamil_login_failed_1">Anmeldung fehlgeschlagen. Bitte später erneut versuchen.</string>
     <string name="gamil_login_failed_2">Anmeldung fehlgeschlagen. Bitte Google-Dienst aktualisieren und erneut versuchen.</string>
-    <string name="gamil_login_failed_3">Anmeldung fehlgeschlagen. Netzwerkeinstellungen überprüfen und erneut versuchen.</string>
+    <string name="gamil_login_failed_3">Anmeldung fehlgeschlagen. Netzwerkeinstellungen prüfen und erneut versuchen.</string>
     <string name="gamil_login_failed_4">Anmeldung aufgrund eines Serverfehlers fehlgeschlagen. Bitte erneut versuchen.</string>
     <string name="gamil_login_failed_other">Anmeldung fehlgeschlagen. Bitte später erneut versuchen.</string>
     <string name="general_preference_confirm_delete_label">Vor dem Löschen bestätigen</string>
@@ -836,7 +847,7 @@ Dieses Problem wird evtl. durch die Zwei-Faktor-Authentifizierung des Kontos ver
     <string name="mailbox_folder">Ordner</string>
     <string name="mailbox_list_account_selector_combined_view">Kombiniertes Konto</string>
     <string name="mailbox_name_display_ad">Werbung</string>
-    <string name="mailbox_name_display_add_account">E-Mailkonto hinzufügen</string>
+    <string name="mailbox_name_display_add_account">E-Mail-Konto hinzufügen</string>
     <string name="mailbox_name_display_circular">Benachrichtigungen</string>
     <string name="mailbox_name_display_drafts">Entwürfe</string>
     <string name="mailbox_name_display_inbox">Posteingang</string>
@@ -1059,7 +1070,7 @@ Dieses Problem wird evtl. durch die Zwei-Faktor-Authentifizierung des Kontos ver
     <string name="network_unavailable">Netzwerk nicht verfügbar</string>
     <string name="new_incoming_messages_one">Neue Nachricht von %s. Anzeigen.</string>
     <string name="new_mail_notification">Über neue Nachrichten benachrichtigen</string>
-    <string name="new_mail_notification_str">Benachrichtigungen zulassen</string>
+    <string name="new_mail_notification_str">Erinnerungen zulassen</string>
     <string name="new_messages">%1$d neue Nachrichten</string>
     <string name="new_signature_has_saved">Erfolgreich gespeichert</string>
     <string name="next_action">Weiter</string>
@@ -1067,7 +1078,7 @@ Dieses Problem wird evtl. durch die Zwei-Faktor-Authentifizierung des Kontos ver
     <string name="no">Nein</string>
     <string name="no_application_found">Keine App zum Öffnen des Anhangs gefunden</string>
     <string name="no_application_found_title">Diesen Anhang öffnen</string>
-    <string name="no_bill_discribe">Rechnungen nicht gefunden. Versuchen Sie, zu einem anderen E-Mailkonto zu wechseln.</string>
+    <string name="no_bill_discribe">Rechnungen nicht gefunden. Versuchen Sie, zu einem anderen E-Mail-Konto zu wechseln.</string>
     <string name="no_contacts">Keine Kontakte</string>
     <string name="no_content_in_body">[Kein Inhalt]</string>
     <string name="no_conversations">Keine Nachrichten</string>
@@ -1119,6 +1130,7 @@ Versuchen Sie einen anderen Posteingang."</string>
     <string name="ntes_send_to_content">Wenn Ihre aktuelle Rufnummer mit dem Konto verknüpft ist, tippen Sie auf \"SMS senden\".</string>
     <string name="ntes_verification_code">Code eingeben: %s</string>
     <string name="oauth_error_description">Authentifizierung nicht möglich</string>
+    <string name="oauth_find_browser_error_description">Bitte Browser installieren, bevor Sie sich anmelden</string>
     <string name="oauth_gmail_login_notify">Geben Sie auf der folgenden Anmeldeseite den Benutzernamen und das Passwort Ihres Google-Kontos ein</string>
     <string name="oauth_login_continue">Weiter</string>
     <string name="oauth_login_continue_qq">"Autorisierungscode erhalten und anmelden >"</string>
@@ -1188,7 +1200,7 @@ Versuchen Sie einen anderen Posteingang."</string>
     <string name="password_toggle_content_description">Passwort anzeigen</string>
     <string name="path_about_account_setting">E-Mail/Einstellungen/Konten</string>
     <string name="path_about_add_account">E-Mail/Einstellungen/Konto hinzufügen</string>
-    <string name="path_about_battery_saver">E-Mail/Einstellungen/Strom sparen</string>
+    <string name="path_about_battery_saver">E-Mail/Einstellungen/Stromsparen</string>
     <string name="path_about_confirm_before_delete">E-Mail/Einstellungen/Vor dem Löschen bestätigen</string>
     <string name="path_about_confirm_before_send">E-Mail/Einstellungen/Vor dem Senden bestätigen</string>
     <string name="path_about_conversation_list">E-Mail/Hauptfenster</string>
@@ -1221,15 +1233,22 @@ Versuchen Sie einen anderen Posteingang."</string>
     <string name="perference_setup_send_tag">Postausgangsserver</string>
     <string name="permission_access_provider_desc">Erlaubt der App den Zugriff auf Ihre E-Mails, Benutzernamen und Passwörter</string>
     <string name="permission_access_provider_label">Auf Benutzerdaten zugreifen</string>
+    <string name="permission_calendar_subtitle">Für die Synchronisierung von Terminen aus E-Mails mit Ihrem Kalender</string>
+    <string name="permission_calendar_title">Zugriff auf und Hinzufügen von Kalendereinträgen</string>
     <string name="permission_des_calendar">Zum Synchronisieren von Kalendereinträgen</string>
     <string name="permission_des_contact">Zum Zugriff auf E-Mails Ihrer Kontakte für die automatische Vervollständigung von Empfängern</string>
     <string name="permission_des_detail">Ohne Ihre Zustimmung, solche Berechtigungen zu erteilen oder Ihre persönlichen Daten weiterzugeben und hochzuladen, können Sie diese App nicht nutzen. In diesem Fall können Sie diese App deinstallieren, sich abmelden oder die Berechtigungen in den Einstellungen einschränken.</string>
     <string name="permission_des_external_storage">Zum Erstellen neuer E-Mails sowie zum Speichern und Hinzufügen von Anhängen</string>
     <string name="permission_des_phone_status">Für den IMEI-Zugriff zur Identifizierung Ihres Gerätes</string>
     <string name="permission_des_storage">Zum Erstellen neuer E-Mails sowie zum Speichern und Hinzufügen von Anhängen</string>
+    <string name="permission_get_accounts_subtitle">Für die Anmeldung an und Verwaltung von Systemkonten</string>
+    <string name="permission_phone_status_subtitle">Zur Identifizierung verschiedener Geräte</string>
+    <string name="permission_phone_status_title">Kontenzugriff auf dem Gerät</string>
     <string name="permission_read_attachment_desc">Erlaubt der App, Ihre E-Mailanhänge zu lesen</string>
     <string name="permission_read_attachment_label">E-Mailanhänge lesen</string>
     <string name="permission_tip">Konfiguration fehlgeschlagen, bitte Anrufe und Textnachrichten während der Konfiguration der Berechtigung erlauben</string>
+    <string name="permission_write_contacts_subtitle">Zum Anzeigen und Ändern von E-Mail-Adressen von Kontakten</string>
+    <string name="permission_write_external_storage_title">Zugriff auf und Speichern von Fotos und Dateien auf dem Gerät</string>
     <string name="personal_data_collection_summary">Wenn der Schalter eingeschaltet ist, stimmen Sie zu, dass wir Ihre personenbezogenen Daten erfassen dürfen. Sie können den Schalter jederzeit ausschalten, Ihre Berechtigung widerrufen und Ihre Daten von unseren Servern löschen.</string>
     <string name="personal_data_collection_title">Erfassen personenbezogener Daten erlauben</string>
     <string name="phone">Telefon</string>
@@ -1280,6 +1299,7 @@ Versuchen Sie einen anderen Posteingang."</string>
     <string name="print">Drucken</string>
     <string name="print_scheduler_title">Alle Planer drucken</string>
     <string name="privacy_and_help">Datenschutz und Hilfe</string>
+    <string name="privacy_and_private_permission">Zustimmung zur Nutzervereinbarung und Datenschutzerklärung</string>
     <string name="privacy_des">Protokolle enthalten Debugging-Infos des E-Mail-Clienten und Ihre Geräteinformationen. Diese Informationen werden verwendet, um Probleme schneller zu lokalisieren. Indem Sie unten auf \"%1$s\" tippen, stimmen Sie unserer \"%2$s\" zu.</string>
     <string name="privacy_policy">Datenschutzerklärung</string>
     <string name="privacy_setting_agree">Zustimmen</string>
@@ -1482,8 +1502,8 @@ oder sehen Sie sich die Nachricht auf Ihrem Computer an."</string>
 \u0009 (Stellen Sie sicher, dass die 'Autom. Zeitsynchronisation' in den Einstellungen eingeschaltet ist)"</string>
     <string name="ser_resp_err_map_landing_more_failure">Zu viele erfolglose Anmeldeversuche</string>
     <string name="ser_resp_err_map_landing_too_frequently">Zu viele Anmeldeversuche</string>
-    <string name="ser_resp_err_map_mailbox_locked">E-Mailkonto ist passwortgeschützt</string>
-    <string name="ser_resp_err_map_mailbox_not_open">Kein E-Mailkonto</string>
+    <string name="ser_resp_err_map_mailbox_locked">E-Mail-Konto ist passwortgeschützt</string>
+    <string name="ser_resp_err_map_mailbox_not_open">Kein E-Mail-Konto</string>
     <string name="ser_resp_err_map_max_connections">Zu viele Verbindungsversuche</string>
     <string name="ser_resp_err_map_nouser">Benutzer nicht vorhanden</string>
     <string name="ser_resp_err_map_or">%1$s oder %2$s</string>

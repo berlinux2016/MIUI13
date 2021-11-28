@@ -20,7 +20,6 @@
     <string name="account_other">Anderes</string>
     <string name="actionbar_button_up_description">Zurück</string>
     <string name="afternoon">Nachmittag</string>
-    <string name="app_name">Übertragen</string>
     <string name="audio_record_des">Zur Übertragung von Audio von Ihrem Mobilgerät auf externe Monitore</string>
     <string name="casting_tips">Ūbertragen…</string>
     <string name="clearable_edittext_clear_description">Löschen</string>
@@ -170,7 +169,7 @@ Verbinden Sie sowohl Ihr Gerät als auch den externen Monitor (z. B. Ihren TV) m
     <string name="help_page_text_38">Sony Kundendienst: 400-810-9000</string>
     <string name="help_page_text_40">Stellen Sie zunächst sicher, dass die Miracast-Funktionalität auf Ihrem Gerät unterstützt wird. Bei einigen Modellen können Sie Apps > Mehrere Bildschirme auswählen.</string>
     <string name="help_page_text_41">Panasonic Kundendienst: 400-881-1315</string>
-    <string name="help_page_text_43">Überprüfen Sie die Einstellungen Ihres Fernsehers, um sicherzustellen, dass Ihr externer Monitor die Miracast-Funktionalität unterstützt.</string>
+    <string name="help_page_text_43">Prüfen Sie die Einstellungen Ihres Fernsehers, um sicherzustellen, dass Ihr externer Monitor die Miracast-Funktionalität unterstützt.</string>
     <string name="help_page_text_44">Changhong Kundendienst: 400-811-1666</string>
     <string name="help_page_text_46">Stellen Sie zunächst sicher, dass die Miracast-Funktionalität auf Ihrem Gerät unterstützt wird. Bei einigen Modellen können Sie Apps > Drahlose Anzeige auswählen.</string>
     <string name="help_page_text_47">TCL Kundendienst: 400-812-3456</string>
@@ -264,6 +263,9 @@ Verbinden Sie sowohl Ihr Gerät als auch den externen Monitor (z. B. Ihren TV) m
     <string name="path_setting_cast_demo_game">Verbinden &amp; Teilen/Übertragen/Demos/Spiele</string>
     <string name="path_setting_cast_feature">Verbinden &amp; Teilen/Übertragen/Spezielle Funktionen</string>
     <string name="path_setting_cast_help">Verbinden &amp; Teilen/Übertragen/Hilfe</string>
+    <string name="permission_allowed">Gewährt</string>
+    <string name="permission_uballowed">Nicht gewährt</string>
+    <string name="pre_privacy_setting_title">Datenschutz</string>
     <string name="preference_copied">\"%1$s\" in Zwischenablage kopiert</string>
     <string name="privacy_agree">Zustimmen</string>
     <string name="privacy_detail"><Data>Diese App muss sich mit dem Internet verbinden und die erforderlichen persönlichen Daten sammeln, um normal arbeiten zu können. Um Ihre Rechte als Benutzer sowie die Art und Weise, in der wir Ihre Daten verwenden, vollständig zu verstehen, lesen und akzeptieren Sie unsere &lt;a href=%1$s>Nutzervereinbarung&lt;/a> and &lt;a href=%2$s>Datenschutzerklärung&lt;/a>.</Data></string>
@@ -284,6 +286,23 @@ Verbinden Sie sowohl Ihr Gerät als auch den externen Monitor (z. B. Ihren TV) m
     <string name="privacy_permission_wlan_desc">Verfügbare Geräte in der Nähe finden</string>
     <string name="privacy_permission_wlan_desc_china">Verfügbare Geräte in der Nähe finden</string>
     <string name="privacy_positive">Zustimmen</string>
+    <string name="privacy_revoke_confirm_cancel">Abbrechen</string>
+    <string name="privacy_revoke_confirm_message">Sie werden nicht in der Lage sein, die Übertragungsfunktionen weiter zu nutzen, wenn Sie uns nicht erlauben, unsere Dienste auf der Grundlage der Erfassung der erforderlichen personenbezogenen Daten zu erbringen. Zustimmung zur HappyCast Datenschutzerklärung trotzdem zurückziehen?</string>
+    <string name="privacy_revoke_confirm_title">Dienste nicht nutzbar</string>
+    <string name="privacy_revoke_dialog_agree">Zustimmen</string>
+    <string name="privacy_revoke_dialog_message">Wenn Sie fortfahren, widerrufen Sie Ihre Zustimmung HappyCast Datenschutzerlärung. Die bereits gesammelten und gespeicherten persönlichen Daten werden innerhalb des festgelegten Zeitraums in Übereinstimmung mit den geltenden Gesetzen und Vorschriften gelöscht, sofern nicht anders gefordert. Da HappyCast seine Dienste auf der Grundlage der Erfassung der erforderlichen personenbezogenen Daten erbringt, wird Ihr Widerruf der Zustimmung als Ablehnung der HappyCast-Dienste gewertet. Zustimmung jetzt widerrufen?</string>
+    <string name="privacy_revoke_dialog_revoke">Widerrufen</string>
+    <string name="privacy_revoke_dialog_title">Zustimmung widerrufen</string>
+    <string name="privacy_setting_category_1">Datenschutzerklärung</string>
+    <string name="privacy_setting_category_2">HappyCast Datenschutzerklärung</string>
+    <string name="privacy_setting_category_3">Berechtigungen</string>
+    <string name="privacy_setting_permission_manager">Berechtigungen verwalten</string>
+    <string name="privacy_setting_revoke_lelink_policy">Widerruf Zustimmung zur HappyCast Datenschutzerklärung</string>
+    <string name="privacy_setting_show_authority">Berechtigungsdetails</string>
+    <string name="privacy_setting_show_lelink_law">HappyCast Rechtliche Hinweise anzeigen</string>
+    <string name="privacy_setting_show_lelink_policy">HappyCast Datenschutzerklärung anzeigen</string>
+    <string name="privacy_setting_show_policy">Datenschutzerklärung anzeigen</string>
+    <string name="privacy_setting_show_user_agreement">Nutzervereinbarung anzeigen</string>
     <string name="privacy_text_1"><Data>"Willkommen bei Übertragung! Übertragung erlaubt die Projektion der Elemente vom Telefonbildschirm auf einen größeren externen Monitor.
 Wir schützen Ihre persönlichen Daten in Übereinstimmung mit den relevanten Gesetzen, Vorschriften und Datenschutzrichtlinien. Einige Funktionen werden von dem Drittanbieter HappyCast bereitgestellt. Bevor Sie diese Funktion nutzen, lesen und akzeptieren Sie <a href="%2$s">HappyCast Rechtliche Hinweise</a> und <a href="%1$s">HappyCast Datenschutzerklärung</a>.
 Um normal arbeiten zu können, benötigt diese App eine Internetverbindung und die folgenden Berechtigungen, um Ihre persönlichen Daten zu erfassen:"</Data></string>
@@ -294,6 +313,9 @@ Bevor Sie diese App nutzen, lesen und akzeptieren Sie unsere <a href="%1$s">Nutz
 • Zugriff auf Rufnummer, IMEI und IMSI, um Ihr Gerät zu identifizieren
 • Zugriff auf Ihren Standort, um Geräte in der Nähe zu finden"</string>
     <string name="privacy_title">Achtung</string>
+    <string name="privacy_update_dialog_negative_btn">Abbrechen</string>
+    <string name="privacy_update_dialog_positive_btn">Zustimmen</string>
+    <string name="privacy_update_dialog_quit">Beenden</string>
     <string name="private_protect">Private Elemente ausblenden</string>
     <string name="san_wait_msg_1">Kabellose Übertragung auf dem Zielgerät einschalten</string>
     <string name="san_wait_msg_2">Suche nach Geräten kann einige Zeit in Anspruch nehmen…</string>

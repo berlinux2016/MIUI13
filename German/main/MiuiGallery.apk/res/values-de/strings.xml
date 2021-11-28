@@ -1,5 +1,49 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+    <string name="album_permission_activity_title">Berechtigungen verwalten</string>
+    <string name="album_permission_state_granted">Gewährt</string>
+    <string name="album_permission_state_non_granted">Gewähren</string>
+    <string name="album_permission_subtitle_single">%2$d Album ( %1$s)</string>
+    <string name="album_permission_tip_text">Galerie benötigt Berechtigungen, um die unten aufgeführten Elemente zu synchronisieren, zu bearbeiten und zu verwalten.</string>
+    <string name="album_permission_title_granted">Gewährt</string>
+    <string name="album_permission_title_non_granted">Nicht gewährt</string>
+    <string name="backup_disable_message">Galerie muss den App-Cache löschen, weil Sie die Synchronisierung mit der Cloud deaktiviert haben.</string>
+    <string name="delete_account_message">Galerie muss den App-Cache löschen, weil Sie sich von Ihrem Mi-Konto abgemeldet haben.</string>
+    <string name="error_storage_no_write_permission_tip_action">Gewähren</string>
+    <string name="error_storage_no_write_permission_tip_title">"Für einige Alben sind Berechtigungen erforderlich, damit sie synchronisiert werden können. "</string>
+    <string name="filter_popular_sunset_gold">Glanz</string>
+    <string name="migrate_msg">Für einige Alben sind Berechtigungen erforderlich, um Elemente nach einer Systemaktualisierung zu verschieben.</string>
+    <string name="motion_photo_enter">Dynamische Aufnahme</string>
+    <string name="onekey_beautify_tag_done">Angewandte Effekte</string>
+    <string name="saf_hyper_link_text">Berechtigungen verwalten</string>
+    <string name="saf_operation_guide_1">"Galerie benötigt Ihre Erlaubnis, um Ihre Daten schützen und verwalten zu können. "</string>
+    <string name="saf_operation_guide_2">Um die Erlaubnis zu erteilen, auf \"%1$s\" tippen und dann \"%2$s\" wählen.</string>
+    <string name="saf_operation_guide_param1">Weiter</string>
+    <string name="saf_operation_guide_param2">Zugriff auf den Ordner</string>
+    <string name="saf_requester_cancel">Abbrechen</string>
+    <string name="saf_requester_title">Galerie den \"%s\"-Zugriff erlauben</string>
+    <string name="saf_secret_album">Privates Album</string>
+    <string name="saf_secret_album_guide">Diese App benötigt Berechtigungen, um Elemente aus Ihrem privaten Album anzuzeigen.</string>
+    <string name="update_apk_size">Paketgröße aktualisieren： %s MB</string>
+    <string name="update_btn_exit">Zurück</string>
+    <string name="update_btn_negative">Verzögern</string>
+    <string name="update_check">Auf Updates prüfen</string>
+    <string name="update_check_title">Aktuelle Version: %s</string>
+    <string name="update_ignore">Ignorieren</string>
+    <string name="update_latest_version">Bereits die neueste Version</string>
+    <string name="update_network_error">Bitte Netzwerk überprüfen und erneut versuchen</string>
+    <string name="update_new_version">Neue Version gefunden</string>
+    <string name="update_title">Neue Version %s gefunden</string>
+    <string name="xiaomi_market_sdk_update_dialog_cancel">Nicht jetzt</string>
+    <string name="xiaomi_market_sdk_update_dialog_title">Update ist verfügbar</string>
+
+    <string name="device_storage_space_low_dialog_des">Originalfotos und -videos werden in Mi Cloud gespeichert und das Gerät behält eine kleinere und qualitativ hochwertige Version, um etwa %s des Gerätespeichers freizugeben</string>
+    <string name="device_storage_space_low_dialog_title">Nicht genügend Gerätespeicherplatz</string>
+    <string name="device_storage_space_low_notice_des">Fotos und Videos in die Cloud hochladen, um den lokalen Speicherplatz von %s freizugeben</string>
+    <string name="device_storage_space_low_notice_title">Telefonspeicherplatz wird voll sein</string>
+    <string name="device_storage_space_low_textline_button">Ein-Tasten-Freigabe</string>
+    <string name="device_storage_space_low_textline_des">Telefonspeicherplatz ist fast voll, %s Speicherplatz freigeben</string>
+
     <string name="abc_action_bar_home_description">Zur Startseite</string>
     <string name="abc_action_bar_up_description">Nach oben</string>
     <string name="abc_action_menu_overflow_description">Mehr Optionen</string>
@@ -546,6 +590,8 @@
     <string name="create_new_face">Neue Person</string>
     <string name="create_quick_icon_on_desk">Verknüpfung erstellen</string>
     <string name="creating_baby_album">Album erstellen…</string>
+    <string name="creativity_summary">Zusätzliche Kreativitäts- und Bearbeitungsfunktionen anzeigen</string>
+    <string name="creativity_title">Kreativität</string>
     <string name="crop_label">Zuschneiden</string>
     <string name="cta_agreement_declare"><Data>Um Ihre Rechte als Nutzer sowie die Art und Weise, wie wir Ihre Daten verwenden, vollständig zu verstehen, lesen und akzeptieren Sie unsere &lt;a href=\"%1$s\">Nutzervereinbarung&lt;/a> und &lt;a href=\"%2$s\">Datenschutzerklärung&lt;/a>, bevor Sie diese App nutzen.</Data></string>
     <string name="cta_network_declare">Um Fotos und Videos mit der Xiaomi Cloud zu synchronisieren, benötigt diese App eine Internetverbindung.</string>
@@ -591,6 +637,8 @@
     <string name="deny">Verweigern</string>
     <string name="description">Beschreibung</string>
     <string name="detail_title">Detailinfo</string>
+    <string name="device_list_all">Alle Geräte</string>
+    <string name="device_list_more">Mehr</string>
     <string name="device_offline">Anderes Gerät ist offline. Wieder von vorn beginnen.</string>
     <string name="device_status_failed">Senden fehlgeschlagen</string>
     <string name="device_status_sending">Senden…</string>
@@ -1030,6 +1078,9 @@
     <string name="generate_story_summary">Genügend Fotos aufnehmen, Ladegerät anschließen und Bildschirm ausschalten, damit Erinnerungen erscheinen</string>
     <string name="generate_story_title">Story-Alben</string>
     <string name="get_album_info_in_process">Albumdetails laden…</string>
+    <string name="global_pad">Mein Tablet</string>
+    <string name="global_pc">Mein Laptop</string>
+    <string name="global_phone">Mein Telefon</string>
     <string name="grant_permission_go_and_set">Einstellen</string>
     <string name="grant_permission_go_and_set_2">Einstellungen</string>
     <string name="grant_permission_go_and_set_3">Einstellungen</string>
@@ -1050,6 +1101,7 @@
     <string name="help_content">Wenn Sie das benötigte Gerät nicht finden, bitten Sie die andere Person, Mi Share einzuschalten.</string>
     <string name="hidden_album_display_name">Verstecktes Album</string>
     <string name="home_menu_all_photos">Alle Elemente anzeigen</string>
+    <string name="home_menu_art_still">Kunst</string>
     <string name="home_menu_camera">Nur Kameraelemente anzeigen</string>
     <string name="home_menu_cleaner">Speicherplatz freigeben</string>
     <string name="home_menu_collage">Fotomontage erstellen</string>
@@ -1144,7 +1196,7 @@
     <string name="kick_sharer_successfully">Benutzer erfolgreich entfernt</string>
     <string name="limit_height">Höhe sollte &gt; 0 sein</string>
     <string name="limit_width">Breite sollte &gt; 0 sein</string>
-    <string name="live_photo">Live-Foto</string>
+    <string name="live_photo">Dynamische Aufnahme</string>
     <string name="load_complete">Keine Elemente mehr</string>
     <string name="load_failed">Information kann nicht geladen werden. Tippen, um erneut zu versuchen</string>
     <string name="load_relations">Einen Moment…</string>
@@ -1314,6 +1366,8 @@
     <string name="micloud_introduce">Fotos und Videos automatisch synchronisieren (Mi-Konto erforderlich)</string>
     <string name="midnight">Nacht</string>
     <string name="mishare_all_devices">Alle Geräte</string>
+    <string name="miuix_access_state_desc">Ausgewählt</string>
+    <string name="miuix_alphabet_indexer_name">Indexleiste</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Abwählen</string>
     <string name="miuix_appcompat_action_mode_select_all">Alle wählen</string>
     <string name="miuix_appcompat_action_mode_title_empty">Elemente wählen</string>
@@ -1331,6 +1385,8 @@
     <string name="miuix_appcompat_select_all">Alle wählen</string>
     <string name="miuix_appcompat_select_all_description">Alle wählen</string>
     <string name="miuix_appcompat_select_item">Elemente wählen</string>
+    <string name="miuix_indexer_collect">Sammlungen</string>
+    <string name="miuix_indexer_selected">%s ausgewählt</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Zum Aktualisieren herunterziehen</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Erfolgreich aktualisiert</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Aktualisieren…</string>
@@ -1371,7 +1427,7 @@
 zu wechseln."</string>
     <string name="month_view_tip_title">Monatsansicht</string>
     <string name="more">Mehr</string>
-    <string name="more_album_hint"> usw.</string>
+    <string name="more_album_hint">" usw."</string>
     <string name="more_album_tip">Mehr Alben</string>
     <string name="more_face">Weitere Personen, die sich ähnlich sehen</string>
     <string name="more_face_album_name">Mehr Personen</string>
@@ -1830,10 +1886,44 @@ Umwandlung kann einige Zeit in Anspruch nehmen, wenn Sie diese Funktion zum erst
     <string name="prepare_to_drop">Speichern in %s</string>
     <string name="preparing_data">Einen Moment…</string>
     <string name="print_log">Protokoll drucken</string>
+    <string name="privacy">Datenschutzerklärung</string>
+    <string name="privacy_cloud_confirm">Synchronisierung einschalten</string>
+    <string name="privacy_cloud_confirm_content1">Xiaomi Cloud Datenschutzerklärung</string>
+    <string name="privacy_cloud_confirm_content2">Nutzervereinbarung</string>
+    <string name="privacy_cloud_confirm_detail"><Data>Wenn Sie die Synchronisierung aktivieren, werden die Fotos und Videos von diesem Gerät in die Xiaomi Cloud hochgeladen und mit den zuvor synchronisierten Elementen (falls vorhanden) zusammengeführt. Lesen und akzeptieren Sie die Xiaomi Cloud &lt;a href=\"%1$s\"&gt;Nutzervereinbarung &lt;/a&gt; und &lt;a href=\"%2$s\"&gt;Datenschutzerklärung &lt;/a&gt;, bevor Sie fortfahren.</Data></string>
+    <string name="privacy_cloud_confirm_detail_negative">Beenden</string>
+    <string name="privacy_cloud_confirm_detail_positive">Zustimmen</string>
+    <string name="privacy_detail">Datenschutzerklärung ansehen</string>
+    <string name="privacy_detail_map">Datenschutzerklärung Galeriekarte anzeigen </string>
+    <string name="privacy_entrance">Datenschutz</string>
+    <string name="privacy_map">Galeriekarte</string>
+    <string name="privacy_map_detail"><Data>Dieser Dienst erlaubt es Ihnen, Fotos und Videos mit Standortdaten auf einer Karte anzuzeigen. Wir verwenden Baidu Map Open SDK, um Ihnen diesen Dienst zur Verfügung zu stellen. Lesen und akzeptieren Sie die &lt;a href=\"%1$s\"&gt;Baidu Map Datenschutzerklärung für Produkte und Dienste der offenen Plattform&lt;/a&gt;, bevor Sie fortfahren.</Data></string>
+    <string name="privacy_map_detail_content">Baidu Map Datenschutzerklärung für Produkte und Dienste der offenen Plattform</string>
+    <string name="privacy_permission">Berechtigungen</string>
+    <string name="privacy_permission_account">Konten</string>
+    <string name="privacy_permission_account_detail">Zur Anmeldung an und Synchronisierung von Elementen mit der Cloud</string>
+    <string name="privacy_permission_agree">Gewährt</string>
+    <string name="privacy_permission_clip">Zugriff auf die Zwischenablage</string>
+    <string name="privacy_permission_clip_detail">Für den Zugriff auf kopierte Elemente</string>
+    <string name="privacy_permission_clip_write">Elemente in der Zwischenablage speichern</string>
+    <string name="privacy_permission_clip_write_detail">Zum Kopieren von Elementen</string>
+    <string name="privacy_permission_contact">Kontakte</string>
+    <string name="privacy_permission_contact_detail">Für die Benennung von Personen auf Fotos und Videos</string>
+    <string name="privacy_permission_detail">Berechtigungsdetails</string>
+    <string name="privacy_permission_disagree">Nicht gewährt</string>
+    <string name="privacy_permission_location">Standort</string>
+    <string name="privacy_permission_location_detail">Zur Anzeige von Fotos und Videos auf der Karte</string>
     <string name="privacy_permission_request_message"><Data>Galerie benötigt Zugriff auf %3$s. Die von uns gesammelten Informationen werden in Übereinstimmung mit unseren &lt;a href=\"%1$s\">\"Nutzungsbedingungen\"&lt;/a> und der &lt;a href=\"%2$s\">\"Datenschutzerklärung\"&lt;/a> verwendet. Zulassen?</Data></string>
     <string name="privacy_permission_request_negative">Einschränken</string>
     <string name="privacy_permission_request_positive">Erlauben</string>
     <string name="privacy_permission_request_title">Erforderliche Rechte</string>
+    <string name="privacy_permission_shotcut">Startbildschirm-Verknüpfung</string>
+    <string name="privacy_permission_shotcut_detail">Zum Erstellen von Startbildschirm-Verknüpfungen</string>
+    <string name="privacy_permission_storage">Speicher</string>
+    <string name="privacy_permission_storage_detail">Zum Speichern von Fotos und Videos</string>
+    <string name="privacy_rejected">Zustimmung widerrufen</string>
+    <string name="privacy_rejected_map">Zustimmung zur Datenschutzerklärung von Gallery Map widerrufen</string>
+    <string name="privacy_rejected_map_detail">Der Widerruf Ihrer Zustimmung zur Datenschutzerklärung von Galeriekarte wird als Verweigerung der Annahme der Dienstleistungen betrachtet. Andere grundlegende Funktionen und Dienste von Galerie sind davon nicht betroffen. Trotzdem widerrufen?</string>
     <string name="private_entry_lock_state_activated_text">Loslassen zum Öffnen privater Ordner</string>
     <string name="private_entry_lock_state_enterd_text">Herunterziehen zum Öffnen privater Ordner</string>
     <string name="produce_dialog_text_multi">Mehrere Elemente</string>
@@ -1843,6 +1933,7 @@ Umwandlung kann einige Zeit in Anspruch nehmen, wenn Sie diese Funktion zum erst
     <string name="projection_device_connection_failed">Verbindung zum Gerät fehlgeschlagen</string>
     <string name="projection_local_mobile">Mobil</string>
     <string name="projection_multi_title">Geräteliste</string>
+   <string name="privacy_cloud_confirm_rejected">Die Zustimmung zu den Datenschutzbestimmungen von Xiaomi Cloud wurde für dieses Konto widerrufen. Versuchen Sie es mit einem anderen Konto.</string>
     <string name="projection_screen_project_in_screening">Sie verwenden Ihr Gerät jetzt zum Übertragen</string>
     <string name="projection_single_title">Auf %s übertragen</string>
     <string name="projection_slide_exit">Diashow beenden</string>
@@ -2494,7 +2585,7 @@ Umwandlung kann einige Zeit in Anspruch nehmen, wenn Sie diese Funktion zum erst
     <string name="video_analytic_download_failed_for_notwork">Herunterladen nicht möglich. Netzwerkeinstellungen prüfen und erneut versuchen.</string>
     <string name="video_analytic_download_sdk_without_wifi_msg">Verbindung zu WLAN nicht möglich. Sie können das Plugin auch mit mobilen Daten herunterladen.</string>
     <string name="video_analytic_download_sdk_without_wifi_title">Plugin herunterladen…</string>
-    <string name="video_compress_download_failed_for_notwork">Herunterladen nicht möglich. Netzwerkeinstellungen überprüfen und erneut versuchen.</string>
+    <string name="video_compress_download_failed_for_notwork">Herunterladen nicht möglich. Netzwerkeinstellungen prüfen und erneut versuchen.</string>
     <string name="video_compress_encode_video">Video komprimieren…</string>
     <string name="video_compress_lib_download">Videokompressions-Plugin herunterladen</string>
     <string name="video_compress_lib_download_without_wifi">Anscheinend ist Ihr Gerät nicht mit WLAN verbunden. Sie können mobile Daten verwenden, um das Videokomprimierungs-Plugin (%.1f MB) herunterzuladen.</string>

@@ -103,6 +103,9 @@ Ihre Konto ID: %s"</string>
     <string name="bind_weixin">Mit Ihrem WeChat-Konto verbinden</string>
     <string name="binded">Verbunden</string>
     <string name="binded_description" formatted="false">%s wurde mit Ihrem Mi-Konto verbunden. Sie können sich jetzt mit %s in Ihrem Mi-Konto anmelden.</string>
+    <string name="button_agree">Zustimmen</string>
+    <string name="button_close">Schließen</string>
+    <string name="button_refuse">Nicht zustimmen</string>
     <string name="button_unbind">Trennen</string>
     <string name="cancel">Abbrechen</string>
     <string name="change_activate_email">E-Mail-Adresse ändern</string>
@@ -117,7 +120,7 @@ Ihre Konto ID: %s"</string>
     <string name="collect_diagnosis_log">Diagnoseprotokoll erstellen</string>
     <string name="com_facebook_device_auth_instructions">Gehen Sie auf &lt;b&gt;facebook.com/device&lt;/b&gt; und geben Sie den oben gezeigten Code ein.</string>
     <string name="com_facebook_image_download_unknown_error">Unerwarteter Fehler beim Herunterladen eines Bildes</string>
-    <string name="com_facebook_internet_permission_error_message">WebView Login erfordert INTERNET-Berechtigung</string>
+    <string name="com_facebook_internet_permission_error_message">WebView-Anmeldung erfordert INTERNET-Berechtigung</string>
     <string name="com_facebook_like_button_liked">Gefällt mir</string>
     <string name="com_facebook_like_button_not_liked">Gefällt mir</string>
     <string name="com_facebook_loading">Laden…</string>
@@ -335,6 +338,7 @@ Senden Sie diesen Code an den Supervisor."</string>
     <string name="miuix_appcompat_select_all">Alle wählen</string>
     <string name="miuix_appcompat_select_all_description">Alle wählen</string>
     <string name="miuix_appcompat_select_item">Elemente wählen</string>
+    <string name="miuix_indexer_collect">Sammlungen</string>
     <string name="miuix_indexer_selected">%s ausgewählt</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Zum Aktualisieren herunterziehen</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Erfolgreich aktualisiert</string>
@@ -659,13 +663,19 @@ Senden Sie diesen Code an den Supervisor."</string>
     <string name="permission_group_contacts">Kontakte</string>
     <string name="permission_group_phone">Telefon</string>
     <string name="permission_group_storage">Speicher</string>
+    <string name="permission_instructions">Nutzungserlaubnis</string>
     <string name="permission_read_sms">Nachrichtenzugriff</string>
+    <string name="permission_withdraw">Zurückziehen</string>
     <string name="permission_write_external_storage">Zugriff auf und Speichern von Elementen im Speicher</string>
     <string name="personal_info_desc">Foto, Spitzname und mehr</string>
     <string name="phone_activated">%s aktiviert</string>
     <string name="phone_num_use_for">Rufnummer wird verwendet für:</string>
     <string name="photoPickerNotFoundText">Keine Fotos verfügbar</string>
     <string name="preference_copied">\"%1$s\" in Zwischenablage kopiert</string>
+    <string name="privacy_policy_reject_confirm_msg">Sie können Mi-Konto nicht weiter nutzen, wenn Sie der neuen Version der Datenschutzerklärung nicht zustimmen. Der aktualisierten Mi-Konto &lt;a href=%1$s>Datenschutzerklärung&lt;/a> jetzt zustimmen?"</string>
+    <string name="privacy_policy_reject_confirm_title">Mi-Konto kann nicht genutzt werden</string>
+    <string name="privacy_policy_update_msg">Mi-Konto Datenschutzerklärung wurde aktualisiert: &lt;br/>%1$s&lt;br/>Lesen und akzeptieren Sie die neue Version der &lt;a href=%2$s>&lt;u>Datenschutzerklärung&lt;/u>&lt;/a> bevor Sie fortfahren.</string>
+    <string name="privacy_policy_update_title">Datenschutzerklärung aktualisiert</string>
     <string name="provision_back">Zurück</string>
     <string name="provision_next">Weiter</string>
     <string name="provision_skip_underline">Überspringen</string>
@@ -695,6 +705,9 @@ Senden Sie diesen Code an den Supervisor."</string>
     <string name="restart_action">Neu beginnen</string>
     <string name="restart_phone_bind_message">Empfang von SMS kann einige Zeit dauern. Trotzdem neu beginnen?</string>
     <string name="restart_phone_bind_title">Wiederherstellungstelefon ändern</string>
+    <string name="revoke_privacy_policy">Zustimmung widerrufen</string>
+    <string name="revoke_privacy_policy_instructions">Wenn Sie fortfahren, widerrufen Sie Ihr Einverständnis mit der Mi-Konto-Datenschutzerklärung. Wir werden aufhören, Ihre personenbezogenen Daten zu sammeln. Die bereits gesammelten und gespeicherten personenbezogenen Daten werden innerhalb des festgelegten Zeitraums in Übereinstimmung mit den geltenden Gesetzen und Vorschriften gelöscht, sofern nicht anders gefordert. Da Mi-Konto seine Dienstleistungen auf der Grundlage der Erfassung der erforderlichen personenbezogenen Daten erbringt, wird Ihr Widerruf der Zustimmung als Ablehnung der Annahme der Mi-Konto-Dienstleistungen gewertet. Zustimmung jetzt widerrufen?</string>
+    <string name="revoke_privacy_policy_title">Zustimmung widerrufen</string>
     <string name="risky_pwd_not_allow">Neues Passwort ist nicht sicher. Ein anderes verwenden.</string>
     <string name="same_new_and_old_pwd">Darf nicht mit dem aktuellen Passwort identisch sein</string>
     <string name="saturday">Samstag</string>
@@ -849,7 +862,15 @@ Senden Sie diesen Code an den Supervisor."</string>
     <string name="user_instruction_all_purpose">Willkommen bei Mi-Konto! Sie können Ihr Konto nutzen, um auf Dienstleistungen von Xiaomi und seinen verbundenen Unternehmen zuzugreifen, wie Mi.com, Xiaomi Cloud und GetApps. Sie können Mi-Coins erhalten, virtuelle Waren kaufen und Mehrwertdienste wie Spiele, Themen und E-Books nutzen.</string>
     <string name="user_instruction_tip">Um sich anzumelden, lesen und akzeptieren Sie die Allgemeinen Geschäftsbedingungen .</string>
     <string name="user_license_with_3rd_app"><Data>Durch die Anmeldung mit meinem Mi-Konto bestätige ich, dass ich die &lt;a href=%1$s>Nutzervereinbarung&lt;/a> und &lt;a href=%2$s>Datenschutzerklärung&lt;/a> gelesen und akzeptiert habe, ebenso die Mi-Konto &lt;a href=%3$s>Nutzervereinbarung&lt;/a> und &lt;a href=%4$s>Datenschutzerklärung&lt;/a>.</Data></string>
+    <string name="user_license_with_3rd_app_mobile"><Data>Ich habe die &lt;a href=%1$s>Nutzervereinbarung&lt;/a> und &lt;a href=%2$s>Datenschutzerklärung&lt;/a>, die Mi-Konto &lt;a href=%3$s>Nutzervereinbarung&lt;/a> und &lt;a href=%4$s>Datenschutzerklärung&lt;/a> sowie die &lt;a href=%5$s>allgemeinen Geschäftsbedingungen der Verifizierungsdienste von China Mobile&lt;/a> gelesen und akzeptiert. </Data></string>
+    <string name="user_license_with_3rd_app_no_operator"><Data>Ich habe die &lt;a href=%1$s>Nutzervereinbarung&lt;/a> und &lt;a href=%2$s>Datenschutzerklärung&lt;/a> gelesen und akzeptiert, ebenso die Mi-Konto &lt;a href=%3$s>Nutzervereinbarung&lt;/a> und &lt;a href=%4$s>Datenschutzerklärung&lt;/a>.</Data></string>
+    <string name="user_license_with_3rd_app_telcom"><Data>Ich habe die &lt;a href=%1$s>Nutzervereinbarung&lt;/a> und &lt;a href=%2$s>Datenschutzerklärung&lt;/a>, die Mi-Konto &lt;a href=%3$s>Nutzervereinbarung&lt;/a> und &lt;a href=%4$s>Datenschutzerklärung&lt;/a> sowie die &lt;a href=%5$s>allgemeinen Geschäftsbedingungen der eSurfing-Kontoverifikationsdienste&lt;/a> gelesen und akzeptiert. </Data></string>
+    <string name="user_license_with_3rd_app_unicom"><Data>Ich habe die &lt;a href=%1$s>Nutzervereinbarung&lt;/a> und &lt;a href=%2$s>Datenschutzerklärung&lt;/a>, die Mi-Konto &lt;a href=%3$s>Nutzervereinbarung&lt;/a> und &lt;a href=%4$s>Datenschutzerklärung&lt;/a> sowie die &lt;a href=%5$s>allgemeinen Geschäftsbedingungen der China Unicom Verifizierungsdienste&lt;/a> gelesen und akzeptiert. </Data></string>
+    <string name="user_license_with_out_3rd_app_no_operator"><Data>Ich habe die Mi-Konto &lt;a href=%3$s>Nutzervereinbarung&lt;/a> und &lt;a href=%4$s>Datenschutzerklärung&lt;/a> gelesen und akzeptiert.</Data></string>
     <string name="user_license_without_3rd_app"><Data>Ich habe die Mi-Konto &lt;a href=%3$s>Nutzervereinbarung&lt;/a> und &lt;a href=%4$s>Datenschutzerklärung&lt;/a> gelesen und akzeptiert.</Data></string>
+    <string name="user_license_without_3rd_mobile"><Data>Ich habe die Mi-Konto &lt;a href=%1$s>Nutzervereinbarung&lt;/a> und &lt;a href=%2$s>Datenschutzerklärung&lt;/a> sowie die &lt;a href=%3$s>allgemeinenen Geschäftsbedingungen der Verifizierungsdienste von China Mobile&lt;/a> gelesen und akzeptiert.</Data></string>
+    <string name="user_license_without_3rd_telcom"><Data>Ich habe die Mi-Konto &lt;a href=%1$s>Nutzervereinbarung&lt;/a> und &lt;a href=%2$s>Datenschutzerklärung&lt;/a> sowie die &lt;a href=%3$s>allgemeinenen Geschäftsbedingungen der eSurfing-Kontoverifikationsdienste&lt;/a> gelesen und akzeptiert.</Data></string>
+    <string name="user_license_without_3rd_unicom"><Data>Ich habe die Mi-Konto &lt;a href=%1$s>Nutzervereinbarung&lt;/a> und &lt;a href=%2$s>Datenschutzerklärung&lt;/a> sowie die &lt;a href=%3$s>allgemeinenen Geschäftsbedingungen der der China Unicom Verifizierungsdienste&lt;/a> gelesen und akzeptiert.</Data></string>
     <string name="v7_preference_off">AUS</string>
     <string name="v7_preference_on">AN</string>
     <string name="verified_apps">Verifizierte Apps</string>

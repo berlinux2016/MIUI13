@@ -161,6 +161,7 @@
     <string name="click_and_watch_video_tip">Tippen, um Musikvideos abzuspielen</string>
     <string name="click_to_add_album_cover_and_lyric">Tippen, um Albumcover und Songtexte hinzuzufügen</string>
     <string name="click_to_shuffle">Zufallswiedergabe</string>
+    <string name="close">Schließen</string>
     <string name="close_music_time">"Verbleibende Zeit: "</string>
     <string name="cloud_empty_local_empty_button">Keine Titel auf diesem Gerät</string>
     <string name="cloud_empty_message">Keine Musik auf Xiaomi Cloud</string>
@@ -176,6 +177,7 @@
     <string name="cloud_state_storage_full">Zu wenig freier Speicher, Backup angehalten</string>
     <string name="cloud_welcome_message">Titel sichern</string>
     <string name="cloud_welcome_summary">Sichern Sie Ihre Titel auf Xiaomi Cloud, um Sie auf anderen Geräten abzuspielen</string>
+    <string name="columbus_ad_flag_text">WERBUNG</string>
     <string name="columbus_player_close_desc">Sie verlieren Ihre Belohnung</string>
     <string name="columbus_player_close_resume">VIDEOZUSAMMENFASSUNG</string>
     <string name="columbus_player_close_title">Video schließen?</string>
@@ -185,6 +187,7 @@
     <string name="columbus_player_speed_title">Video überspringen?</string>
     <string name="columbus_player_speed_video">VIDEO überspringen</string>
     <string name="columbus_player_unit_sec">Sek</string>
+    <string name="columbus_skip_ad">Überspringen</string>
     <string name="common_google_play_services_enable_button">Aktivieren</string>
     <string name="common_google_play_services_enable_text">%1$s funktioniert nur, wenn Sie die Google-Play-Dienste aktivieren</string>
     <string name="common_google_play_services_enable_title">Google-Play-Dienste aktivieren</string>
@@ -224,6 +227,7 @@
     <string name="data_use_desc">Rechtliche Dokumente</string>
     <string name="date_format_str">dd.MM.yyyy</string>
     <string name="date_picker_lunar">Traditioneller chin. Kalender</string>
+    <string name="date_time_picker_dialog_title">Datum und Zeit einstellen</string>
     <string name="delete">Löschen</string>
     <string name="delete_download">Löschen</string>
     <string name="delete_downloads_records">Downloads löschen</string>
@@ -374,6 +378,7 @@
     <string name="downloading_empty">Leer</string>
     <string name="downloading_pause_apk">Angehalten. Setzen Sie den Download in der Benachrichtigungsleiste fort.</string>
     <string name="due_date">Verfallsdatum: %s</string>
+    <string name="early_morning">Morgen</string>
     <string name="edit_playlist_info">Info Wiedergabeliste bearbeiten</string>
     <string name="empty_page_no_album">Keine Alben</string>
     <string name="empty_page_no_artist">Keine Interpreten</string>
@@ -404,6 +409,7 @@
     <string name="error_not_support">Nicht unterstützt</string>
     <string name="error_title">Synchronisation fehlgeschlagen</string>
     <string name="error_unauthorized">Synchronisation wurde wegen zu vieler Anmeldeversuche deaktiviert.</string>
+    <string name="evening">Nachmittag</string>
     <string name="exo_controls_fastforward_description">Schnellvorlauf</string>
     <string name="exo_controls_fullscreen_description">Vollbildmodus</string>
     <string name="exo_controls_hide">Player-Steuerung ausblenden</string>
@@ -689,8 +695,18 @@
     <string name="lyric_open_other_connect">Songtexte über mobile Datenverbindung laden</string>
     <string name="lyric_setting">Songtext Einstellungen</string>
     <string name="manager_cloud_space">Xiaomi Cloud Speicher verwalten</string>
+    <string name="material_clock_toggle_content_description">Vor- oder nachmittags auswählen</string>
+    <string name="material_hour_selection">Stunde auswählen</string>
+    <string name="material_hour_suffix">%1$s Uhr</string>
+    <string name="material_minute_selection">Minuten auswählen</string>
+    <string name="material_minute_suffix">%1$s Minuten</string>
     <string name="material_slider_range_end">Bereichsende,</string>
     <string name="material_slider_range_start">Bereichsanfang,</string>
+    <string name="material_timepicker_clock_mode_description">In den Uhrzeitmodus wechseln, um die Uhrzeit einzugeben.</string>
+    <string name="material_timepicker_hour">Stunde</string>
+    <string name="material_timepicker_minute">Minute</string>
+    <string name="material_timepicker_select_time">Uhrzeit auswählen</string>
+    <string name="material_timepicker_text_input_mode_description">In den Texteingabemodus wechseln, um die Uhrzeit einzugeben.</string>
     <string name="menu_title_pause_all">Alle anhalten</string>
     <string name="menu_title_resume_all">Alle starten</string>
     <string name="message_delete_playlist">Wiedergabeliste %s löschen?</string>
@@ -720,6 +736,32 @@
     <string name="miuishare_share_editor_title">Teilen</string>
     <string name="miuishare_title_more">Mehr</string>
     <string name="miuishare_title_share">Teilen</string>
+    <string name="miuix_access_state_desc">Ausgewählt</string>
+    <string name="miuix_alphabet_indexer_name">Indexleiste</string>
+    <string name="miuix_appcompat_action_mode_deselect_all">Abwählen</string>
+    <string name="miuix_appcompat_action_mode_select_all">Alle wählen</string>
+    <string name="miuix_appcompat_action_mode_title_empty">Elemente wählen</string>
+    <string name="miuix_appcompat_actionbar_immersion_button_more_description">Mehr</string>
+    <string name="miuix_appcompat_cancel_description">Abbrechen</string>
+    <string name="miuix_appcompat_confirm_description">Bestätigen</string>
+    <string name="miuix_appcompat_delete_description">Löschen</string>
+    <string name="miuix_appcompat_deselect_all">Abwählen</string>
+    <string name="miuix_appcompat_deselect_all_description">Alle abwählen</string>
+    <string name="miuix_appcompat_search_action_mode_cancel">Abbrechen</string>
+    <string name="miuix_appcompat_search_input_description">Suche</string>
+    <string name="miuix_appcompat_select_all">Alle wählen</string>
+    <string name="miuix_appcompat_select_all_description">Alle wählen</string>
+    <string name="miuix_appcompat_select_item">Elemente wählen</string>
+    <string name="miuix_indexer_collect">Sammlungen</string>
+    <string name="miuix_indexer_selected">%s ausgewählt</string>
+    <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Zum Aktualisieren herunterziehen</string>
+    <string name="miuix_sbl_tracking_progress_labe_refreshed">Erfolgreich aktualisiert</string>
+    <string name="miuix_sbl_tracking_progress_labe_refreshing">Aktualisieren…</string>
+    <string name="miuix_sbl_tracking_progress_labe_release_to_refresh">Zum Aktualisieren loslassen</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_nodata">Das ist im Moment alles</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_none">Das ist im Moment alles</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_refresh">Einen Moment…</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Elemente laden nicht möglich</string>
     <string name="mobile_recommended_title">Mobile Datenverbindung benutzen</string>
     <string name="modify_info_disable_note">Wenn Sie die Informationen manuell ändern möchten, müssen Sie zuerst \"Albumcover und Songtexte finden\" ausschalten.</string>
     <string name="modify_lyric">Songtext bearbeiten</string>
@@ -1011,7 +1053,7 @@ Wenn Sie mit der Nutzung der oben genannten Dienste nicht einverstanden sind, k�
     <string name="remove">Entfernen</string>
     <string name="remove_download">Entfernen</string>
     <string name="remove_user_privacy_dialog_message">Wenn Sie die Genehmigung widerrufen, hört Mi Music auf, Daten zu sammeln, und alle zugehörigen Daten werden von den Servern gelöscht. Dies könnte Mi Music praktisch unbrauchbar machen. Trotzdem Genehmigung widerrufen?</string>
-    <string name="remove_user_privacy_dialog_message_canuse">Indem Sie den Schalter ausschalten, widerrufen Sie Ihre Zustimmung zur Mi Music Datenschutzerklärung. Wir werden die Erfassung Ihrer persönlichen Daten einstellen. Die bereits gesammelten und aufbewahrten persönlichen Daten werden innerhalb der von den geltenden Gesetzen vorgeschriebenen Frist gelöscht. Mi Music muss die erforderlichen persönlichen Daten erfassen, um Ihnen Online-Streaming-Dienste anbieten zu können. Ihr Widerruf der Zustimmung zur Datenschutzerklärung wird als Annahmeverweigerung der oben genannten Online-Dienste auf Grundlage der gesammelten persönlichen Daten gewertet.</string>
+    <string name="remove_user_privacy_dialog_message_canuse">Indem Sie den Schalter ausschalten, widerrufen Sie Ihre Zustimmung zur Mi Music Datenschutzerklärung. Wir werden die Erfassung Ihrer persönlichen Daten einstellen. Die bereits gesammelten und gespeicherten persönlichen Daten werden innerhalb der von den geltenden Gesetzen vorgeschriebenen Frist gelöscht. Mi Music muss die erforderlichen persönlichen Daten erfassen, um Ihnen Online-Streaming-Dienste anbieten zu können. Ihr Widerruf der Zustimmung zur Datenschutzerklärung wird als Annahmeverweigerung der oben genannten Online-Dienste auf Grundlage der gesammelten persönlichen Daten gewertet.</string>
     <string name="remove_user_privacy_dialog_title">Genehmigung widerrufen</string>
     <string name="renew_dialog_title">"Zu PRO gehen.
 Glücklich sein."</string>
@@ -1074,6 +1116,7 @@ Glücklich sein."</string>
     <string name="select_one_language">Mind. 1 Sprache wählen</string>
     <string name="select_three_languages">Sie können bis zu 3 Sprachen wählen</string>
     <string name="selected_count">%1$d von %2$d ausgewählt</string>
+    <string name="send">Senden</string>
     <string name="send_contact_shortcut_todesktop_duplicate">Diese Verknüpfung existiert bereits</string>
     <string name="send_contact_shortcut_todesktop_failed">Abkürzung auf dem Startbildschirm platzieren nicht möglich</string>
     <string name="send_contact_shortcut_todesktop_overflow">Weitere Verknüpfungen auf dem Startbildschirm platzieren nicht möglich</string>
@@ -1183,6 +1226,7 @@ Glücklich sein."</string>
     <string name="summary_command_mode">Einschalten, um in den Befehlsmodus zu gelangen</string>
     <string name="sunday">Sonntag</string>
     <string name="sunday_short">So</string>
+    <string name="sunday_shortest">S</string>
     <string name="supplementary_songs">Zusätzliche Titel</string>
     <string name="switch_success">Erfolgreich umgeschaltet</string>
     <string name="tab_album">Alben</string>

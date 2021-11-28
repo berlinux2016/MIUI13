@@ -56,6 +56,7 @@
     <string name="friday">Freitag</string>
     <string name="friday_short">Fr</string>
     <string name="friday_shortest">F</string>
+    <string name="i_get_it">Verstanden</string>
     <string name="icon_add_description">Verknüpfung auf Startbildschirm hinzufügen</string>
     <string name="icon_remove_confirm">Entfernen</string>
     <string name="icon_remove_description_content">\"Dienste &amp; Feedback\" ist eine System-App. Nach Löschen der Startbildschirm-Verknüpfung können Sie sie weiterhin über Einstellungen verwenden.</string>
@@ -72,9 +73,8 @@
     <string name="miservice_notification_open_feedback_title">Wir stellen vor: \"Dienste &amp; Feedback\"</string>
     <string name="miservice_notification_scan_content">Scanner zum Übersetzen von Wörtern und Sätzen verwenden</string>
     <string name="miservice_notification_scan_title">Im Handumdrehen übersetzen</string>
-    <string name="mishare_settings_summary_international">"Sie können Mi Share verwenden, um Elemente an Geräte in der Nähe zu senden.
-Mi Share ist kompatibel mit Mi- und Redmi Telefonen.
-OPPO, Vivo, Realme und andere Marken werden in Kürze auch mit Mi Share kompatibel sein. Sie können die Liste der kompatiblen Geräte auf unserer Website einsehen."</string>
+    <string name="mishare_settings_summary_international">"Mit Mi Share können Sie Elemente drahtlos an andere Geräte in der Nähe senden.
+Diese Funktion wird von OPPO, vivo, realme und anderen Smartphone-Herstellern unterstützt. Sie können die Liste der unterstützten Geräte auf der offiziellen Website der jeweiligen Marke überprüfen."</string>
     <string name="miui_feedback_answer_detail_community">Antworten auf Ihre Fragen finden Sie in der Mi Community</string>
     <string name="miui_feedback_answer_detail_feedback_resolved">Ja</string>
     <string name="miui_feedback_answer_detail_feedback_result">Vielen Dank für Ihr Feedback!</string>
@@ -145,12 +145,16 @@ OPPO, Vivo, Realme und andere Marken werden in Kürze auch mit Mi Share kompatib
     <string name="miui_feedback_edit_toast_screenshot_too_large">Bilder oder Videos, die größer als 100 MB sind, können nicht hochgeladen werden</string>
     <string name="miui_feedback_edit_toast_third_packagename_required">App-Name eingeben</string>
     <string name="miui_feedback_main_answer_title">Es gibt eine Antwort auf diese Frage</string>
+    <string name="miui_feedback_main_customer_service_onfo_for_jp">"Servicehotline: 0120-300-521
+Öffnungszeiten: 9:00 - 18:00 (außer an Feiertagen und geplanten Ferien)
+E-Mail: service.jp@xiaomi.com"</string>
     <string name="miui_feedback_main_item_catch_full_log">Protokolle abrufen</string>
-    <string name="miui_feedback_main_item_customer_service">Serviceleistungen nach Verkauf</string>
+    <string name="miui_feedback_main_item_customer_service">Dienstleistungen nach Verkauf</string>
     <string name="miui_feedback_main_item_feedback_list">Mein Feedback</string>
     <string name="miui_feedback_main_menu_catch_full_log">Protokolle generieren</string>
     <string name="miui_feedback_main_menu_feedback_list">Feedback-Verlauf anzeigen</string>
     <string name="miui_feedback_main_menu_view_privacy">Datenschutzerklärung</string>
+    <string name="miui_feedback_main_menu_view_withdraw_consent">Zustimmung widerrufen</string>
     <string name="miui_feedback_main_search_footer">Das sind nicht die Fragen, die Sie stellen wollen?"</string>
     <string name="miui_feedback_main_search_footer_submit">Feedback senden</string>
     <string name="miui_feedback_main_search_issue">Suchstichwörter eingeben</string>
@@ -159,6 +163,8 @@ OPPO, Vivo, Realme und andere Marken werden in Kürze auch mit Mi Share kompatib
     <string name="miui_feedback_main_submit_dialog_confirm">Absenden</string>
     <string name="miui_feedback_main_submit_dialog_content">Anscheinend können wir keine Lösung für Ihr Problem finden. Sie können uns Ihr Feedback senden.</string>
     <string name="miui_feedback_main_submit_dialog_title">Feedback senden</string>
+    <string name="miui_feedback_main_withdraw">Widerrufen</string>
+    <string name="miui_feedback_main_withdraw_consent_hint">Wenn Sie fortfahren, widerrufen Sie Ihr Einverständnis mit der Datenschutzerklärung von %1$s. Die bereits gesammelten und gespeicherten personenbezogenen Daten werden innerhalb des festgelegten Zeitraums in Übereinstimmung mit den geltenden Gesetzen und Vorschriften gelöscht, sofern nicht anders gefordert. Da %2$s seine Dienste auf der Grundlage der Erfassung der erforderlichen personenbezogenen Daten erbringt, wird Ihr Widerruf der Zustimmung als Ablehnung der Dienste von %3$s gewertet. Zustimmung jetzt widerrufen?</string>
     <string name="miui_guide_accessibility_image_desc">Bild</string>
     <string name="miui_guide_clear_db_service">\"Dienste &amp; Feedback\" Sprach-Cache leeren…</string>
     <string name="miui_guide_footer_desc">Das Einsteigerhandbuch wurde entwickelt, um Ihnen zu helfen, mehr über Ihr Gerät und MIUI zu erfahren. Einige Bilder und Videos im Leitfaden wurden nur zu Referenzzwecken erstellt und können vom tatsächlichen Produkt abweichen. Die in diesem Handbuch beschriebenen Funktionen können je nach Gerätemodell, MIUI-Version und Einsatzumgebung variieren.</string>
@@ -284,7 +290,7 @@ OPPO, Vivo, Realme und andere Marken werden in Kürze auch mit Mi Share kompatib
     <string name="permission_imei_disable_desc">Dieser App erlauben, eine Internetverbindung herzustellen.</string>
     <string name="permission_imei_enable_desc">Dieser App erlauben, eine Internetverbindung herzustellen und die oben aufgeführten obligatorischen Berechtigungen erteilen.</string>
     <string name="permission_location_introduce">Zur Anzeige nahegelegener Servicepunkte</string>
-    <string name="permission_main_purpose">Anzeigen von MIUI-Feature-Demos, Übermitteln von Feedback und Beantragung von After-Sales-Services.</string>
+    <string name="permission_main_purpose">Anzeigen von MIUI-Feature-Demos, Übermitteln von Feedback und Beantragung von Kundendienstleistungen.</string>
     <string name="permission_privacy">Datenschutzerklärung (obligatorisch)</string>
     <string name="permission_region_version_msg"><Data>Vor der Verwendung von Dienste &amp; Feedback, müssen Sie unsere &lt;a href=\"%1$s\">Nutzervereinbarung&lt;/a> und &lt;a href=\"%2$s\">Datenschutzerklärung&lt;/a> lesen und zustimmen.</Data></string>
     <string name="permission_select_all">Alles auswählen</string>
@@ -292,14 +298,17 @@ OPPO, Vivo, Realme und andere Marken werden in Kürze auch mit Mi Share kompatib
     <string name="permission_storage_introduce">Zum Speichern von Elementen auf Ihrem Gerät</string>
     <string name="permission_user_protocol">Nutzervereinbarung (obligatorisch)</string>
     <string name="preference_copied">\"%1$s\" in Zwischenablage kopiert</string>
+    <string name="privacy_policy_update_hint">"%1$s Datenschutzerklärung wurde aktualisiert:
+%2$s
+Bitte die neue Version von %3$s lesen und akzeptieren , bevor Sie fortfahren."</string>
+    <string name="privacy_policy_update_title">Datenschutzerklärung aktulisiert</string>
     <string name="public_authorize_now">Einstellungen</string>
     <string name="public_loading_text">Einen Moment…</string>
     <string name="public_net_error_retry">Erneut versuchen</string>
     <string name="public_net_error_sub_title">Ihre Netzwerkeinstellungen prüfen und erneut versuchen.</string>
     <string name="public_net_error_title">Netzwerkverbindung fehlgeschlagen</string>
-     <string name="public_open_feedback_service">Service öffnen</string>
     <string name="public_please_authorize">Berechtigungen zum Fortfahren erforderlich</string>
-     <string name="public_welcome_use_feedback_service">Willkommen bei Service und Feedback. Wenn Sie Fragen zur Verwendung von Xiaomi-Produkten haben, können Sie im Bereich \"Service und Feedback\" Benutzer-Feedback abgeben, häufige Probleme einsehen und Anträge beim Kundendienst stellen.</string>
+    <string name="public_welcome_use_feedback_service">Willkommen bei Dienste &amp; Feedback. Mit dieser App können Sie Feedback abgeben, häufig gestellte Fragen einsehen, Rückgabe und Umtausch von Produkten beantragen und vieles mehr.</string>
     <string name="rationale_ask">Diese App funktioniert möglicherweise nicht richtig ohne die erforderlichen Berechtigungen.</string>
     <string name="rationale_ask_again">Diese App funktioniert möglicherweise nicht richtig ohne die erforderlichen Berechtigungen. Öffnen Sie den Bildschirm mit den App-Einstellungen, um die App-Berechtigungen zu ändern.</string>
     <string name="saturday">Samstag</string>
@@ -395,10 +404,16 @@ Die Liste der kompatiblen Geräte finden Sie auf unserer Website. Wenn Ihr Lapto
     <string name="tuesday">Dienstag</string>
     <string name="tuesday_short">Di</string>
     <string name="tuesday_shortest">D</string>
+    <string name="user_must_known">Achtung</string>
+    <string name="user_must_known_content">Sie können unsere Dienste nur dann weiter nutzen, wenn Sie der neuen Version unserer %s zustimmen. Aktualisierter Datenschutzerklärung jetzt zustimmen?</string>
     <string name="v7_preference_off">AUS</string>
     <string name="v7_preference_on">EIN</string>
     <string name="wednesday">Mittwoch</string>
     <string name="wednesday_short">Mi</string>
     <string name="wednesday_shortest">M</string>
+    <string name="withdraw_consent_failed">Die Zustimmung konnte nicht widerrufen werden.</string>
+    <string name="withdraw_consent_failed_hint">Serverfehler. Einen Moment warten und erneut versuchen.</string>
+    <string name="withdraw_consent_failed_hint_connect_net">Ihr Gerät muss mit dem Netz verbunden sein, damit Sie Ihre Zustimmung widerrufen können. Netzwerkeinstellungen prüfen und erneut versuchen.</string>
+    <string name="withdrawing">Widerruf zustimmen…</string>
     <string name="yesterday">Gestern</string>
 </resources>

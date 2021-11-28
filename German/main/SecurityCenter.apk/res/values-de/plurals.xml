@@ -150,8 +150,8 @@
         <item quantity="one">%s App wird mit App-Sperre geschützt</item>
     </plurals>
     <plurals name="behavior_widget_app_text">
-        <item quantity="other">%2$d Apps inklusive %1$s</item>
-        <item quantity="one">%2$d App inklusive %1$s</item>
+        <item quantity="other">%2$d Apps inkl. %1$s</item>
+        <item quantity="one">%2$d App inkl. %1$s</item>
     </plurals>
     <plurals name="behavior_widget_perm_counts">
         <item quantity="other">%d-mal</item>
@@ -258,8 +258,8 @@ Beim Einschalten mobiler Daten kann Ihr Mobilfunkanbieter zusätzliche Kosten be
         <item quantity="one">%1$d Person spielt</item>
     </plurals>
     <plurals name="gb_dialog_game_uninstall_multi_tips_title">
-        <item quantity="other">%2$d Spiele deinstallieren (einschl. %1$s)</item>
-        <item quantity="one">%2$d Spiel deinstallieren (einschl. %1$s)</item>
+        <item quantity="other">%2$d Spiele deinstallieren (inkl. %1$s)</item>
+        <item quantity="one">%2$d Spiel deinstallieren (inkl. %1$s)</item>
     </plurals>
     <plurals name="gb_game_video_ai_record_finish_tips">
         <item quantity="other">%d KI-Aufnahmen in Game Turbo gespeichert</item>
@@ -302,6 +302,14 @@ Sie können jetzt eine kostenlose %d-Tag-Testversion erhalten!"</item>
     <plurals name="gb_voice_changer_user_tips_info">
         <item quantity="other">Kostenlose %d-Tage-Testversion erhalten</item>
         <item quantity="one">Kostenlose %d-Tag-Testversion erhalten</item>
+    </plurals>
+    <plurals name="gd_app_edit_desc">
+        <item quantity="other">Bis zu %d Apps hinzufügen. Hinzugefügte Elemente ziehen, um sie neu zu sortieren.</item>
+        <item quantity="one">Bis zu %d App hinzufügen. Hinzugefügte Elemente ziehen, um sie neu zu sortieren.</item>
+    </plurals>
+    <plurals name="gd_app_edit_desc_new">
+        <item quantity="other">Bis zu %d Apps hinzufügen. Gedrückt halten, um neu zu sortieren.</item>
+        <item quantity="one">Bis zu %d App hinzufügen. Gedrückt halten, um neu zu sortieren.</item>
     </plurals>
     <plurals name="gtb_brightness_dialog_message">
         <item quantity="other">Diese Funktion senkt die Bildschirmhelligkeit nach %d Minuten Inaktivität automatisch, um Strom zu sparen. Funktion an lassen?</item>
@@ -499,8 +507,8 @@ Sie können jetzt eine kostenlose %d-Tag-Testversion erhalten!"</item>
         <item quantity="one">In der letzten %1$d Min wurden %2$d%% des Akkus entleert</item>
     </plurals>
     <plurals name="notification_battery_scan_consume_abnormal_title_split">
-        <item quantity="other">%2$d Apps, einschl. %1$s, entleeren den Akku</item>
-        <item quantity="one">%2$d App, einschl. %1$s, entleert den Akku</item>
+        <item quantity="other">%2$d Apps, inkl. %1$s, entleeren den Akku</item>
+        <item quantity="one">%2$d App, inkl. %1$s, entleert den Akku</item>
     </plurals>
     <plurals name="notification_checker_installed_apk_text">
         <item quantity="other">%d Installationspakete löschen</item>
@@ -756,6 +764,10 @@ um den Akku zu schonen"</item>
         <item quantity="other">%s Apps haben permanenten Zugriff</item>
         <item quantity="one">%s App hat permanenten Zugriff</item>
     </plurals>
+    <plurals name="privacy_permission_summary_allow">
+        <item quantity="other">Für %s Apps zugelassen</item>
+        <item quantity="one">Für %s App zugelassen</item>
+    </plurals>
     <plurals name="privacy_pop_times">
         <item quantity="other">%s-mal</item>
         <item quantity="one">%s-mal</item>
@@ -886,13 +898,29 @@ um den Akku zu schonen"</item>
         <item quantity="other">%d Nummern</item>
         <item quantity="one">%d Nummer</item>
     </plurals>
+    <plurals name="summary_absorbed_time_foramt">
+        <item quantity="other">Fokusmodus für %d Minuten einschalten</item>
+        <item quantity="one">Fokusmodus für %d Minute einschalten</item>
+    </plurals>
     <plurals name="summary_app_update">
         <item quantity="other">Updates für %d Apps vorhanden</item>
         <item quantity="one">Update für %d App vorhanden</item>
     </plurals>
+    <plurals name="summary_condition_lock_screen_format">
+        <item quantity="other">Wenn der Bildschirm für %d Min gesperrt ist</item>
+        <item quantity="one">Wenn der Bildschirm für %d Min gesperrt ist</item>
+    </plurals>
     <plurals name="summary_flow_verify">
         <item quantity="other">Datennutzungsstatistik seit %d Tagen nicht synchronisiert</item>
         <item quantity="one">Datennutzungsstatistik seit %d Tag nicht synchronisiert</item>
+    </plurals>
+    <plurals name="summary_result_absorbed_time_format">
+        <item quantity="other">%d Min</item>
+        <item quantity="one">%d Min</item>
+    </plurals>
+    <plurals name="summary_result_lock_screen_format">
+        <item quantity="other">Bildschirm nach %d Min sperren</item>
+        <item quantity="one">Bildschirm nach %d Min sperren</item>
     </plurals>
     <plurals name="system_check_content">
         <item quantity="other">%1$d Pkt. sicher</item>

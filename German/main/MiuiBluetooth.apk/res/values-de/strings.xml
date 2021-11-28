@@ -79,7 +79,7 @@
     <string name="adb_wireless_verifying_qrcode_text">Gerät koppeln…</string>
     <string name="adbwifi_warning_message">Wireless-Debugging ist nur für Entwicklungszwecke vorgesehen. Verwenden Sie es, um Daten zwischen Ihrem Computer und Ihrem Gerät zu kopieren, Apps ohne Benachrichtigung auf Ihrem Gerät zu installieren und Protokolldaten zu lesen.</string>
     <string name="adbwifi_warning_title">Wireless-Debugging zulassen?</string>
-    <string name="add_user_failed">Neuen Benutzer erstellen fehlgeschlagen</string>
+    <string name="add_user_failed">Neuen Benutzer erstellen nicht möglich</string>
     <string name="afternoon">Nachmittag</string>
     <string name="alarm_template">um %1$s</string>
     <string name="alarm_template_far">um %1$s</string>
@@ -304,6 +304,7 @@ Drücken Sie \"Löschen und konvertieren…\", um fortzufahren."</string>
     <string name="development_settings_summary">Optionen für App-Entwicklung festlegen</string>
     <string name="development_settings_title">Entwickleroptionen</string>
     <string name="device_picker">Bluetooth-Geräteeinstellungen</string>
+    <string name="device_update_plugin">Auf Updates prüfen</string>
     <string name="dialog_network_priority_title">Priorität</string>
     <string name="direct_boot_unaware_dialog_message">Hinweis: Nach einem Neustart startet diese App erst, wenn Sie Ihr Gerät entsperren.</string>
     <string name="disable_overlays">HW-Overlays ausschalten</string>
@@ -334,7 +335,7 @@ Drücken Sie \"Löschen und konvertieren…\", um fortzufahren."</string>
     <string name="eras_ad">n. Chr.</string>
     <string name="eras_bc">v. Chr.</string>
     <string name="error_icon_content_description">Fehler</string>
-    <string name="evening">Nachmittag</string>>
+    <string name="evening">Nachmittag</string>
     <string name="expand_button_title">Erweitert</string>
     <string name="exposed_dropdown_menu_content_description">Dropdown-Menü anzeigen</string>
     <string name="external_source_trusted">Zulassen</string>
@@ -416,7 +417,7 @@ Drücken Sie \"Löschen und konvertieren…\", um fortzufahren."</string>
     <string name="guest_nickname">Gast</string>
     <string name="guest_reset_guest">Gast zurücksetzen</string>
     <string name="guest_reset_guest_confirm_button">Zurücksetzen</string>
-    <string name="guest_reset_guest_dialog_title">Gast zurücksetzen?</string>
+    <string name="guest_reset_guest_dialog_title">Gast jetzt zurücksetzen?</string>
     <string name="guest_resetting">Gast zurücksetzen…</string>
     <string name="hdcp_checking_dialog_title">HDCP-Prüfverhalten festlegen</string>
     <string name="hdcp_checking_title">HDCP-Prüfung</string>
@@ -456,7 +457,7 @@ Drücken Sie \"Löschen und konvertieren…\", um fortzufahren."</string>
     <string name="home">Einstellungen Startseite</string>
     <string name="icon_content_description">Dialogsymbol</string>
     <string name="ime_security_warning">Diese Eingabemethode kann den gesamten von Ihnen eingegebenen Text erfassen, inkl. persönlicher Daten wie Passwörter und Kreditkartennummern. Sie gehört zu %1$s. Eingabemethode verwenden?</string>
-    <string name="ime_security_warning_global">Eingabemethoden können ggf. den von Ihnen eingegebenen Text erfassen, einschl. persönlicher Daten wie Passwort und Kreditkartennummern. %1$s verwenden?</string>
+    <string name="ime_security_warning_global">Eingabemethoden können ggf. den von Ihnen eingegebenen Text erfassen, inkl. persönlicher Daten wie Passwort und Kreditkartennummern. %1$s verwenden?</string>
     <string name="ime_security_warning_title_global">Tastatur einschalten</string>
     <string name="immediately_destroy_activities">Aktivitäten beenden</string>
     <string name="immediately_destroy_activities_summary">Jede Aktivität beenden, sobald der Benutzer diese verlässt</string>
@@ -487,6 +488,7 @@ Drücken Sie \"Löschen und konvertieren…\", um fortzufahren."</string>
     <string name="interact_across_profiles_summary_3">Sie können Apps jederzeit in den Datenschutzeinstellungen Ihres Geräts deaktivieren.</string>
     <string name="keep_screen_on">Bildschirm nicht sperren</string>
     <string name="keep_screen_on_summary">Bildschirm geht beim Laden nicht aus</string>
+    <string name="keywords_alarms_and_reminders">Zeitplan, Alarm, Erinnerung, Uhr</string>
     <string name="keywords_storage_menu_free">bereinigen, Speicher</string>
     <string name="keywords_vibrate_for_calls">Vibration</string>
     <string name="keywords_wifi_display_settings">spiegeln</string>
@@ -521,7 +523,7 @@ Drücken Sie \"Löschen und konvertieren…\", um fortzufahren."</string>
     <string name="material_timepicker_text_input_mode_description">In den Texteingabemodus wechseln, um die Uhrzeit einzugeben.</string>
     <string name="media_category">Medien</string>
     <string name="media_transfer_this_device_name">Dieses Gerät</string>
-    <string name="media_transfer_this_phone">Dieses Telefon</string>
+    <string name="media_transfer_this_phone">Dieses Gerät</string>
     <string name="media_transfer_wired_device_name">Kabelgebundenes Audiogerät</string>
     <string name="media_transfer_wired_usb_device_name">Kabelgebundener Kopfhörer</string>
     <string name="mi_audio_relay_connect_failed">Erneut versuchen</string>
@@ -575,6 +577,7 @@ Drücken Sie \"Löschen und konvertieren…\", um fortzufahren."</string>
     <string name="miuix_appcompat_select_all">Alle wählen</string>
     <string name="miuix_appcompat_select_all_description">Alle wählen</string>
     <string name="miuix_appcompat_select_item">Elemente wählen</string>
+    <string name="miuix_indexer_collect">Sammlungen</string>
     <string name="miuix_indexer_selected">%s ausgewählt</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Zum Aktualisieren herunterziehen</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Erfolgreich aktualisiert</string>
@@ -618,10 +621,10 @@ Drücken Sie \"Löschen und konvertieren…\", um fortzufahren."</string>
     <string name="month_september_shortest">S</string>
     <string name="more">Mehr</string>
     <string name="morning">Morgen</string>
-    <string name="mr_button_content_description">Übertragungstaste</string>
-    <string name="mr_cast_button_connected">Übertragungstaste. Verbunden.</string>
-    <string name="mr_cast_button_connecting">Übertragungstaste. Verbinden.</string>
-    <string name="mr_cast_button_disconnected">Übertragungstaste. Getrennt.</string>
+    <string name="mr_button_content_description">Übertragen</string>
+    <string name="mr_cast_button_connected">Übertragen. Verbunden.</string>
+    <string name="mr_cast_button_connecting">Übertragen. Verbinden.</string>
+    <string name="mr_cast_button_disconnected">Übertragen. Getrennt.</string>
     <string name="mr_cast_dialog_title_view_placeholder">Keine Info verfügbar</string>
     <string name="mr_chooser_searching">Geräte finden</string>
     <string name="mr_chooser_title">Übertragen auf</string>
@@ -712,6 +715,12 @@ Drücken Sie \"Löschen und konvertieren…\", um fortzufahren."</string>
     <string name="plugin_install_timeout">Zeitüberschreitung Installation</string>
     <string name="plugin_last_update_going">Letzte Aktualisierung läuft</string>
     <string name="plugin_no_update">Es ist bereits die neueste Version</string>
+    <string name="plugin_ota_finish">Erfolgreich aktualisiert</string>
+    <string name="plugin_ota_indicate">Bluetooth neu starten und Ihre Kopfhörer verbinden.</string>
+    <string name="plugin_ota_messages1">Unterstützung für weitere Kopfhörermodelle wurde hinzugefügt.</string>
+    <string name="plugin_ota_messages2">Bluetooth-Dienst-Framework aktualisiert</string>
+    <string name="plugin_ota_progress">Aktualisieren…</string>
+    <string name="plugin_ota_tip_text">Bluetooth und zugehörige Systemdienste bitte neu starten, Bluetooth-Kopfhörer anschließen</string>
     <string name="plugin_start_update">Plugins aktualisieren starten…</string>
     <string name="plugin_update_failed">Aktualisierung fehlgeschlagen</string>
     <string name="plugin_update_notification_summary">Bluetooth-Plugins aktualisieren abgeschlossen. Einstellungen und Bluetooth neu starten, um die Änderungen zu übernehmen.</string>
@@ -851,6 +860,14 @@ Drücken Sie \"Löschen und konvertieren…\", um fortzufahren."</string>
     <string name="storage_category">Speicher</string>
     <string name="strict_mode">Strict-Modus aktiv</string>
     <string name="strict_mode_summary">Bildschirm blinkt, wenn Apps lange Operationen ausführen</string>
+    <string name="stylus_firmware_failed_summary">Stift wieder anschließen, Bluetooth neu starten und erneut versuchen</string>
+    <string name="stylus_firmware_failed_title">Firmware-Update nicht möglich</string>
+    <string name="stylus_firmware_success_summary">Stift anschließen zum Koppeln</string>
+    <string name="stylus_firmware_success_title">Firmware erfolgreich aktualisiert</string>
+    <string name="stylus_firmware_timeout_summary">Verbindung unterbrochen. Erneut versuchen.</string>
+    <string name="stylus_firmware_update_summary">Stift-Firmware aktualisieren…</string>
+    <string name="stylus_firmware_update_title">Stift-Firmware</string>
+    <string name="stylus_ota_check_update">Aktualisieren</string>
     <string name="sunday">Sonntag</string>
     <string name="sunday_short">So</string>
     <string name="sunday_shortest">S</string>
@@ -983,7 +1000,7 @@ Jeder Benutzer kann Apps für alle anderen Benutzer aktualisieren."</string>
     <string name="user_guest">Gast</string>
     <string name="user_image_choose_photo">Bild wählen</string>
     <string name="user_image_photo_selector">Foto wählen</string>
-    <string name="user_image_take_photo">Foto machen</string>
+    <string name="user_image_take_photo">Kamera</string>
     <string name="user_info_settings_title">Benutzerinfo</string>
     <string name="user_need_lock_message">Vor der Erstellung eines eingeschränkten Profils müssen Sie eine Bildschirmsperre einrichten, um Ihre Apps und persönlichen Daten zu schützen</string>
     <string name="user_new_profile_name">Neues Profil</string>
@@ -1049,7 +1066,7 @@ Jeder Benutzer kann Apps für alle anderen Benutzer aktualisieren."</string>
     <string name="wifi_disabled_generic">Deaktiviert</string>
     <string name="wifi_disabled_network_failure">IP-Konfigurationsfehler</string>
     <string name="wifi_disabled_password_failure">Authentifizierungsproblem</string>
-    <string name="wifi_disabled_wifi_failure">WLAN-Verbindungsfehler</string>
+    <string name="wifi_disabled_wifi_failure">Keine WLAN-Verbindung möglich</string>
     <string name="wifi_disconnected">Getrennt</string>
     <string name="wifi_display_certification">Wireless-Display-Zertifizierung</string>
     <string name="wifi_display_certification_summary">Optionen für Wireless-Display-Zertifizierung anzeigen</string>
@@ -1060,7 +1077,7 @@ Jeder Benutzer kann Apps für alle anderen Benutzer aktualisieren."</string>
     <string name="wifi_hotspot_switch_off_text">Aus</string>
     <string name="wifi_hotspot_switch_on_text">An</string>
     <string name="wifi_limited_connection">Eingeschränkte Verbindung</string>
-    <string name="wifi_metered_label">Gemessen</string>
+    <string name="wifi_metered_label">Kostenpflichtig</string>
     <string name="wifi_no_internet">Internetverbindung nicht möglich</string>
     <string name="wifi_no_internet_no_reconnect">Keine automatische Verbindung</string>
     <string name="wifi_not_in_range">Nicht in Reichweite</string>

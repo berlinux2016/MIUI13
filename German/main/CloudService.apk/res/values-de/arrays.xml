@@ -35,7 +35,7 @@
     <string-array name="micloud_entrance_subtitleArray_china">
         <item>Kontakte, Nachrichten, Notizen, Kalender und mehr synchronisieren</item>
         <item>Apps, Startbildschirm-Layout und Hintergrundbild sichern</item>
-        <item>Wichtige Einstellungen, einschließlich WLAN und Bildschirm sichern</item>
+        <item>Wichtige Einstellungen, inkl. WLAN und Bildschirm sichern</item>
         <item>Ihr Gerät ferngesteuert sperren, wenn es verloren geht</item>
     </string-array>
     <string-array name="micloud_entrance_subtitleArray_pad">
@@ -45,7 +45,7 @@
     <string-array name="micloud_entrance_subtitleArray_v2">
         <item>Kontakte, Nachrichten, Notizen, Kalender und mehr synchronisieren</item>
         <item>Apps, Startbildschirm-Layout und Hintergrundbild sichern</item>
-        <item>Wichtige Einstellungen, einschließlich WLAN und Bildschirm sichern</item>
+        <item>Wichtige Einstellungen, inkl. WLAN und Bildschirm sichern</item>
         <item>Ihr Gerät ferngesteuert sperren, wenn es verloren geht</item>
     </string-array>
     <string-array name="micloud_entrance_titleArray_pad">
@@ -76,6 +76,11 @@
         <item>Um Ihr Gerät zu identifizieren</item>
         <item>Um Ihr Gerät zu lokalisieren und in den Verlustmodus zu schalten</item>
     </string-array>
+    <string-array name="privacy_dialog_finddevice_runtime_perm_desc_new">
+        <item>Zum Auffinden Ihres Geräts und zum Umschalten in den Verloren-Modus</item>
+        <item>Zur Ortung dieses Geräts, wenn es nicht mit dem Internet verbunden ist</item>
+        <item>Für den Zugriff auf die Rufnummer, um das Gerät zu orten, wenn es nicht mit dem Internet verbunden ist</item>
+    </string-array>
     <string-array name="privacy_dialog_sync_runtime_perm_desc">
         <item>Um Einträge zu synchronisieren</item>
         <item>Um Nachrichten zu synchronisieren</item>
@@ -83,6 +88,14 @@
         <item>Um Kontakte zu synchronisieren</item>
         <item>Um Kontakte zu synchronisieren</item>
         <item>Um Elemente auf Ihrem Gerät zu speichern (z. B. Bilder, Videos, Songs)</item>
+    </string-array>
+    <string-array name="privacy_dialog_sync_runtime_perm_title">
+        <item>Zugriff auf Kalendereinträge</item>.
+        <item>SMS senden</item>
+        <item>MMS lesen</item>
+        <item>Zugriff auf Kontakte</item>
+        <item>Kontakte bearbeiten und löschen</item>
+        <item>Zugriff auf Fotos und Dateien auf dem Gerät</item>
     </string-array>
     <string-array name="settings_search_Music">
         <item>Musik mit Xiaomi Cloud synchronisieren</item>

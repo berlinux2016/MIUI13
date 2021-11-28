@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Clock version="1" frameRate="0" type="awesome" useVariableUpdater="DateTime.Minute" resDensity="480" extraResources="sw1440-den640::1.222" extraScaleByDensity="640:1.222" pivotX="0.25" pivotY="0.3">
     <Var name="color_time" type="string" expression="ifelse(#applied_light_wallpaper,'#b3000000','#ffffffff')" />
 	<Var name="color_date" type="string" expression="ifelse(#applied_light_wallpaper,'#80000000','#ccffffff')" />

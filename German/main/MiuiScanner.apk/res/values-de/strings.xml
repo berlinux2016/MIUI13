@@ -1,5 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+    <string name="call_phone_permissions_text">Allow Scanner to make calls to be able to use this feature.</string>
+    <string name="logout_service">Withdraw consent</string>
+    <string name="permission_management">Permissions</string>
+    <string name="picture_default_original_image">Original</string>
+    <string name="picture_editor">Editor</string>
+    <string name="privacy_policy_update">Updated Privacy Policy</string>
+    <string name="privacy_policy_update_message">&lt;Data&gt;\"You won\'t be able to keep using Scanner unless you agree to the new version of its &lt;a href=\"%1$s\"&gt;Privacy Policy&lt;/a&gt;. Agree to the updated Privacy Policy now?\"&lt;/Data&gt;</string>
+    <string name="privacy_policy_update_welcome">Scanner Privacy Policy was updated:</string>
+    <string name="privacy_policy_withdrawal_error">Couldn\'t withdraw consent. Wait a minute or two and try again.</string>
+    <string name="privacy_policy_withdrawal_message">&lt;Data&gt;\"If you continue, you\'ll withdraw your consent to the Privacy Policy of Scanner. This will be held as refusing to accept Scanner services. You\'ll have to agree to the &lt;a href=\"%1$s\"&gt;Privacy Policy&lt;/a&gt; again if you decide to use Scanner. Wothdraw consent now?\"&lt;/Data&gt;</string>
+    <string name="read_contacts_permissions_text">Allow Scanner to access contacts to be able to use this feature.</string>
+    <string name="user_agreement">User Agreement</string>
+    <string name="user_notification">Withdrawal of consent</string>
+    <string name="version_code">"Version: "</string>
+
     <string name="Approval">Anwenden</string>
     <string name="Enhance">Verbessert</string>
     <string name="Fullmask_mode">Verdeckt</string>
@@ -267,6 +282,7 @@
     <string name="general_recognized">"Ergebnis: "</string>
     <string name="general_title">Bitte fotografieren Sie das zu erkennende Objekt</string>
     <string name="general_wifi_data_wrong_data">SSID und Passwort eingeben</string>
+    <string name="go_shut_down">Zum Herunterfahren</string>
     <string name="goods_query">Produkt</string>
     <string name="got_it">Verstanden</string>
     <string name="gps">Navigieren</string>
@@ -465,7 +481,57 @@
     <string name="phone_storage">Interner Speicher</string>
     <string name="picker_lable">Foto</string>
     <string name="picture">Galerie</string>
+    <string name="picture_all_audio">Alle Audioaufzeichnungen</string>
+    <string name="picture_audio">Zugriff auf die Systemaufzeichnungserlaubnis verweigert</string>
+    <string name="picture_audio_empty">Sie können Systemaufzeichnungen verwenden, um Audio aufzuzeichnen</string>
+    <string name="picture_audio_error">Ton ist beschädigt</string>
+    <string name="picture_camera">Berechtigung zum Aufruf der Systemkamera verweigert</string>
+    <string name="picture_cancel">Abbrechen</string>
+    <string name="picture_choose_limit_seconds">Nur Videos von %1$ds bis %2$ds können ausgewählt werden</string>
+    <string name="picture_choose_max_seconds">Sie können nur Videos innerhalb von %1$ds wählen</string>
+    <string name="picture_choose_min_seconds">Sie können kein Video auswählen, das kleiner ist als %1$ds</string>
+    <string name="picture_completed">Abgeschlossen</string>
+    <string name="picture_confirm">Bestätigen</string>
+    <string name="picture_data_exception">Ausnahme Albumdaten abrufen…</string>
+    <string name="picture_data_null">Hier gibt es keine Daten…</string>
+    <string name="picture_done">Abgeschlossen</string>
+    <string name="picture_empty">Sie können mit Ihrer Kamera Fotos oder Videos aufnehmen</string>
+    <string name="picture_empty_audio_title">Keine Audiodatei\n</string>
+    <string name="picture_empty_title">Kein Video oder Foto\n</string>
+    <string name="picture_error">Bild ist beschädigt</string>
+    <string name="picture_go_setting">Zu den Einstellungen</string>
     <string name="picture_is_being_saved">Bild wird gespeichert</string>
+    <string name="picture_jurisdiction">Zugriff auf Speicherkarte verweigert</string>
+    <string name="picture_long_chart">Lang</string>
+    <string name="picture_message_audio_max_num">Bis zu %1$s Audio wählen</string>
+    <string name="picture_message_max_num">Bis zu %1$s Bild/er wählen</string>
+    <string name="picture_message_video_max_num">Bis zu %1$s Video/s wählen</string>
+    <string name="picture_not_crop_data">Keine beschnittenen Daten</string>
+    <string name="picture_photo_camera">Foto, Fotografie</string>
+    <string name="picture_photo_pictures">Foto machen</string>
+    <string name="picture_photo_recording">Auslöser lange drücken</string>
+    <string name="picture_photograph">Foto</string>
+    <string name="picture_play_audio">Abspielen</string>
+    <string name="picture_please">Später bitte…</string>
+    <string name="picture_please_select">Bitte wählen</string>
+    <string name="picture_preview">Vorschau</string>
+    <string name="picture_preview_num">Vorschau (%1$d)</string>
+    <string name="picture_prompt">Eingabeaufforderung</string>
+    <string name="picture_prompt_content">Möchten Sie Bilder auf Ihrem Telefon speichern?</string>
+    <string name="picture_quit_audio">Beenden</string>
+    <string name="picture_record_video">Video aufnehmen</string>
+    <string name="picture_recording_time_is_short">Aufnahmezeit ist zu kurz</string>
+    <string name="picture_rule">Keine Bilder oder Videos</string>
+    <string name="picture_save_error">Bild speichern fehlgeschlagen</string>
+    <string name="picture_save_success">Bild erfolgreich speichern bis</string>
+    <string name="picture_select">Wählen</string>
+    <string name="picture_send">Abgeschlossen</string>
+    <string name="picture_send_num">Abgeschlossen (%1$d/%2$d)</string>
+    <string name="picture_take_picture">Aufnahme</string>
+    <string name="picture_tape">Band</string>
+    <string name="picture_video_error">Video ist beschädigt</string>
+    <string name="picture_video_toast">Video ohne Vorschau</string>
+    <string name="picture_warning">Keine Mediendateien!</string>
     <string name="place_barcode_into_rectangle">Code innerhalb des Rahmens platzieren</string>
     <string name="plant_fail">Nicht erkannt</string>
     <string name="plant_loading">Identifizieren…</string>
@@ -582,7 +648,7 @@
     <string name="solar_term_winter_solstice">Wintersonnenwende</string>
     <string name="spaceIsLow_content">Nicht genügend Speicherplatz auf der SD-Karte. Speicherplatz freigeben.</string>
     <string name="store_feedback_prompt">Zuerst Feedback eingeben</string>
-    <string name="store_location_dialog">Dieser Service wird von Dianping angeboten. Alle Fotos, die Sie während der Nutzung des Services machen, einschl. der zugehörigen Standortinfo, werden an Dianping weitergegeben, um Shopinfos zu erhalten.</string>
+    <string name="store_location_dialog">Dieser Service wird von Dianping angeboten. Alle Fotos, die Sie während der Nutzung des Services machen, inkl. der zugehörigen Standortinfo, werden an Dianping weitergegeben, um Shopinfos zu erhalten.</string>
     <string name="store_location_fail">Keine Standortinfo erhalten</string>
     <string name="store_location_prompt">Scanner den Zugriff auf Ihren Standort erlauben, um Shops zu identifizieren</string>
     <string name="store_module_title">Shop</string>
@@ -746,6 +812,7 @@
     <string name="word_to_be_recognized_is_aligned_with_cross">Das zu erkennende Wort wird am Kreuz ausgerichtet</string>
     <string name="word_translation">Wortübersetzung</string>
     <string name="wx_not_installed_toast">Diese Funktion muss WeChat öffnen. Zuerst WeChat installieren.</string>
+    <string name="xiaoai_classmate_scan_text">Mit Mi KI scannen</string>
     <string name="xiaoai_dialog">"Versuchen Sie zu sagen, was Sie
 mit Mi KI scannen wollen"</string>
     <string name="yesterday">Gestern</string>

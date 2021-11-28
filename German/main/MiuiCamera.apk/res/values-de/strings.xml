@@ -1,5 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+     <string name="beauty_lens">Große Blende</string>
+     <string name="beauty_lens_1">Menschen</string>
+     <string name="beauty_lens_1_description">Professionelles Bokeh erstellen und Ihre Aufnahmen in bemerkenswerte Porträts verwenden.</string>
+     <string name="beauty_lens_2">Haustiere</string>
+     <string name="beauty_lens_2_description">Hintergrund verwischen und dabei alle Details des Fells und der Schnurrhaare beibehalten!</string>
+     <string name="beauty_lens_3">Lebensmittel</string>
+     <string name="beauty_lens_3_description">Leckere Sachen in den Vordergrund stellen und lebendiger aussehen lassen.</string>
+     <string name="beauty_lens_4">Objekte</string>
+     <string name="beauty_lens_4_description">Texturen verbessern und Standbilder auf Posterniveau erstellen.</string>
+     <string name="beauty_lens_description_title">Große Blende</string>
+     <string name="beauty_lens_none">Unscharf</string>
+     <string name="beauty_lens_use_hint">Große Blende verwenden, um den Hintergrund unscharf zu machen und die Gegenstände im Vordergrund hervorzuheben.</string>
+     <string name="beauty_mo_fe">Natürlich</string>
+     <string name="beauty_mo_ma">Klassisch</string>
+     <string name="beauty_s_cl">Haut</string>
+     <string name="beauty_sm_or">Haut</string>
     <string name="abc_action_bar_home_description">Zur Startseite</string>
     <string name="abc_action_bar_up_description">Nach oben</string>
     <string name="abc_action_menu_overflow_description">Mehr Optionen</string>
@@ -382,6 +398,7 @@ und optimiert Ihre Fotos anhand dieser Informationen."</string>
     <string name="beauty_makeups_pinkfemale">Blütenblatt</string>
     <string name="beauty_makeups_solid">Kontur</string>
     <string name="beauty_mode_reset_toast">Make-up-Effekte erfolgreich entfernt</string>
+    <string name="beauty_no_t">Verschönern ist aus</string>
     <string name="beauty_reset">Zurücksetzen</string>
     <string name="beauty_reset_toast">Verschönerungseffekte erfolgreich zurücksetzen</string>
     <string name="beauty_skincolor_caramel">Karamell</string>
@@ -439,6 +456,11 @@ und treten Sie für einen Moment aus dem Blickfeld raus."</string>
     <string name="camera_liveshot_off_tip">Dynamische Aufnahmen ausgeschaltet</string>
     <string name="camera_liveshot_on_tip">Dynamische Aufnahmen</string>
     <string name="camera_mode_options">Modus</string>
+    <string name="camera_newcta_audio_message">Für die Aufnahme von Videos mit Ton</string>
+    <string name="camera_newcta_camera_message">Zum Aufnehmen von Fotos und Videos</string>
+    <string name="camera_newcta_message">"Willkommen bei Kamera! Mit dieser App können Sie Fotos und Videos aufnehmen. "</string>
+    <string name="camera_newcta_other_message">Um Ihnen während der Nutzung der App zusätzliche Dienste anbieten zu können, benötigen wir ggf. die Erlaubnis, auf Ihren Standort zuzugreifen.</string>
+    <string name="camera_newcta_storage_message">Zum Speichern und Anzeigen von Fotos und Videos</string>
     <string name="camera_preview_area_long_press_label">Google Lens</string>
     <string name="camera_setting">Kameraeinstellungen</string>
     <string name="camera_settings_category_development">Experimentelle Funktionen</string>
@@ -639,7 +661,7 @@ auswahl"</string>
     <string name="document_mode_use_hint_text_body">"Gescannte Dokumente automatisch
 ausrichten und verbessern"</string>
     <string name="document_mode_use_hint_text_title">Dokumente scannen</string>
-    <string name="document_origin">Original Bild</string>
+    <string name="document_origin">Originalbild</string>
     <string name="document_strengthen">Verbessern</string>
     <string name="dolly_zoom_capture_tip1">Motiv im Rahmen platzieren</string>
     <string name="dolly_zoom_capture_tip2">Motiv in der Mitte halten und Gerät gleichmäßig wegbewegen</string>
@@ -671,6 +693,8 @@ ausrichten und verbessern"</string>
     <string name="download_cancel_hint">Herunterladen von %1$s abbrechen?</string>
     <string name="download_confirm">Herunterladen</string>
     <string name="download_hint">%1$s MB mobile Daten werden zum Herunterladen verwendet. Trotzdem herunterladen?</string>
+    <string name="download_hint_cn">Anscheinend ist Ihr Gerät nicht mit WLAN verbunden. Jetzt %1$s MB an Mobildaten verwenden, um Elemente herunterzuladen?</string>
+    <string name="download_hint_wifi">Anscheinend ist Ihr Gerät nicht mit WLAN verbunden. Jetzt %1$s MB an Mobildaten verwenden, um Elemente herunterzuladen?</string>
     <string name="download_in_progress">Herunterladen…</string>
     <string name="download_qq">QQ herunterladen</string>
     <string name="download_title">Datennutzungwarnung</string>
@@ -861,6 +885,7 @@ Nach dem Einschalten der Funktion \"Multi-Kamera-Aufnahme\" können Sie eine Ver
     <string name="friday">Freitag</string>
     <string name="friday_short">Fr</string>
     <string name="friday_shortest">F</string>
+    <string name="fromkeyguard_not_permission">Um diese Funktion nutzen zu können, müssen Sie Ihr Gerät zuerst entsperren.</string>
     <string name="front_camera_hint_text_confirm">Verstanden</string>
     <string name="front_camera_hint_text_place">Wenn Sie Ihr Telefon umdrehen, ist es einfacher, Selfies zu machen</string>
     <string name="front_camera_hint_text_rotate">Drehen Sie Ihr Telefon um</string>
@@ -1018,6 +1043,7 @@ Für ein besseres Bild, Kameraobjektiv bitte reinigen."</string>
     <string name="local_music">Lokale Musik</string>
     <string name="location">Standort</string>
     <string name="location_access_allow">Zustimmen</string>
+    <string name="location_fromkeyguard_not_permission">Kamera kann jetzt nicht auf Ihren Standort zugreifen. Gerät zuerst entsperren.</string>
     <string name="location_permission_des">Standortinformationenen zu einem Foto oder Video hinzufühen</string>
     <string name="location_permission_not_ask_again">Kamera den Standortzugriff in den Einstellungen erlauben</string>
     <string name="location_permission_not_ask_again_go_to_settings">Erlauben</string>
@@ -1026,6 +1052,19 @@ Für ein besseres Bild, Kameraobjektiv bitte reinigen."</string>
     <string name="lpl_dialog_item_name_burst">Für ein Serienbild gedrückt halten</string>
     <string name="lpl_dialog_item_name_record">Zum Aufnehmen eines Videos gedrückt halten</string>
     <string name="lpl_dialog_title">Funktion für den Auslöser wählen</string>
+    <string name="lunch_audio_permission_des">Für die Aufnahme von Videos mit Ton</string>
+    <string name="lunch_audio_permission_not_ask_again">Dieser App die Audioaufnahme erlauben, um diese Funktion nutzen zu können.</string>
+    <string name="lunch_camera_audio_permission_not_ask_again">Dieser App erlauben, die Kamera zu verwenden und Audio aufzunehmen, um diese Funktion nutzen zu können.</string>
+    <string name="lunch_camera_permission_des">Zum Aufnehmen von Fotos und Videos</string>
+    <string name="lunch_camera_permission_not_ask_again">Dieser App die Verwendung der Kamera erlauben, um diese Funktion nutzen zu können.</string>
+    <string name="lunch_camera_storge_permission_not_ask_again">Dieser App die Verwendung der Kamera und den Speicherzugriff erlauben, um diese Funktion nutzen zu können.</string>
+    <string name="lunch_dialog_setting">Einstellungen</string>
+    <string name="lunch_fromkeyguard_not_permission">Kamera hat nicht die Berechtigung, diese Aktion auszuführen. Gerät zuerst entsperren.</string>
+    <string name="lunch_fromkeyguard_not_permission_dialog_ok">Verstanden</string>
+    <string name="lunch_permission_not_ask_again">Dieser App erlauben, die Kamera zu verwenden, auf den Speicher zuzugreifen und Audio aufzunehmen, um diese Funktion nutzen zu können.</string>
+    <string name="lunch_storge_audio_permission_not_ask_again">Dieser App den Speicherzugriff und die Audioaufnahme erlauben, um diese Funktion nutzen zu können.</string>
+    <string name="lunch_storge_permission_des">Zum Speichern und Anzeigen von Fotos und Videos</string>
+    <string name="lunch_storge_permission_not_ask_again">Dieser App den Speicherzugriff erlauben, um diese Funktion nutzen zu können.</string>
     <string name="lying_direct_hint">Aktuelle Ausrichtung</string>
     <string name="macro_mode">Makromodus</string>
     <string name="macro_mode_tip">Bitte platzieren Sie das Motiv innerhalb von 10 cm</string>
@@ -1282,6 +1321,11 @@ Für ein besseres Bild, Kameraobjektiv bitte reinigen."</string>
     <string name="out_line_no_face">Kein Gesicht erkannt</string>
     <string name="out_line_nose_occlusion">Nase ist verschlossen</string>
     <string name="out_line_right_eyes_occlusion">Rechtes Auge ist geschlossen</string>
+    <string name="pad_cannot_connect_camera_twice">Verbindung zur Kamera immer noch nicht möglich. Versuchen, Gerät neu zu starten.</string>
+    <string name="pad_close_back_flash_toast">Ihr Gerät ist überhitzt. Sie können den Blitz jetzt nicht verwenden.</string>
+    <string name="pad_close_night_algo_toast_thermal">Gerät abkühlen lassen, um die Belichtung einzustellen</string>
+    <string name="pad_pref_camera_lying_summary">Über die aktuelle Ausrichtung benachrichtigen, wenn das Gerät parallel zum Boden ist</string>
+    <string name="pad_super_night_toast">Gerät bei der Aufnahme eines Fotos ruhig halten</string>
     <string name="pano_click_to_toggle_direction">Auf den Pfeil tippen, um die Richtung zu ändern</string>
     <string name="pano_dialog_panorama_failed">Panorama kann nicht gespeichert werden</string>
     <string name="pano_dialog_prepare_preview">Vorbereiten…</string>
@@ -1393,6 +1437,7 @@ Halten Sie das Motiv scharf, während Sie den Hintergrund verwischen.</string>
     <string name="pref_audio_focus_title">Audiofokus</string>
     <string name="pref_audio_indicator_entry_off">Audio aus</string>
     <string name="pref_audio_indicator_entry_on">Audio an</string>
+    <string name="pref_auto_boot_summary">Kamera reaktionsschneller machen, indem Sie ihr erlauben, automatisch zu starten. Sie können die Autostart-Berechtigungen in den App-Details verwalten.</string>
     <string name="pref_burst_shoot_title">Serienbilder</string>
     <string name="pref_camcorder_settings">Videoeinstellungen</string>
     <string name="pref_camcorder_settings_category">Kameraeinstellungen</string>
@@ -1465,7 +1510,9 @@ Halten Sie das Motiv scharf, während Sie den Hintergrund verwischen.</string>
     <string name="pref_camera_dual_enable_title">Dualkamera einschalten</string>
     <string name="pref_camera_dual_sat_enable_title">Dual-SAT-Kamera einschalten</string>
     <string name="pref_camera_dynamic_frame_rate_summary">Bildrate wird bei schlechten Lichtverhältnissen oder hohen Temperaturen automatisch gesenkt, um die Videoqualität zu verbessern</string>
+    <string name="pref_camera_dynamic_frame_rate_summary_new">Um das Erlebnis in Umgebungen mit wenig Licht oder hohen Temperaturen zu verbessern, wird die Bildrate bei Videoaufnahmen automatisch reduziert</string>
     <string name="pref_camera_dynamic_frame_rate_title">Bildfrequenz an schwaches Licht anpassen</string>
+    <string name="pref_camera_dynamic_frame_rate_title_new">Automatische Bildrate</string>
     <string name="pref_camera_eis_entry_normal">Videostabilisierung</string>
     <string name="pref_camera_eis_entry_off">AUS</string>
     <string name="pref_camera_eis_entry_pro">Videostabilisierung PRO</string>
@@ -1513,7 +1560,7 @@ Halten Sie das Motiv scharf, während Sie den Hintergrund verwischen.</string>
     <string name="pref_camera_hdr_type_entry_normal">Normal</string>
     <string name="pref_camera_hdr_type_title">HDR-Typ</string>
     <string name="pref_camera_heic_image_format_description">Fotos im hocheffizienten HEIF-Format aufnehmen</string>
-    <string name="pref_camera_heic_image_format_description2">High Efficiency Image File-Format (HEIF) spart Speicherplatz, wird aber von einigen Drittanbieter-Apps nicht unterstützt. Sie können in HEIF keine Live-Fotos machen und keine Wasserzeichen entfernen.</string>
+    <string name="pref_camera_heic_image_format_description2">High Efficiency Image File-Format (HEIF) spart Speicherplatz, wird aber von einigen Drittanbieter-Apps nicht unterstützt. Sie können in HEIF keine dynamischen Aufnahmen machen und keine Wasserzeichen entfernen.</string>
     <string name="pref_camera_heic_image_format_title">HEIF-Format</string>
     <string name="pref_camera_hfr_entry_off">aus</string>
     <string name="pref_camera_hfr_title">Hohe Bildrate (Zeitlupe)</string>
@@ -1598,6 +1645,16 @@ Halten Sie das Motiv scharf, während Sie den Hintergrund verwischen.</string>
     <string name="pref_camera_reference_capture_title_left_golden_spiral">Goldene Spirale A</string>
     <string name="pref_camera_reference_capture_title_right_golden_spiral">Goldene Spirale B</string>
     <string name="pref_camera_referenceline_title">Referenzlinien</string>
+    <string name="pref_retain_ai_scene">KI-Kamera</string>
+    <string name="pref_retain_ai_scene_description">Jedes Mal, wenn Sie die Kamera wieder einschalten, wird der letzte Schaltzustand verwendet</string>
+    <string name="pref_retain_beauty">Schönheitseffekt</string>
+    <string name="pref_retain_beauty_description">Jedes Mal, wenn Sie die Kamera wieder einschalten, wird die letzte Einstellung von Schönheitsparametern verwendet</string>
+    <string name="pref_retain_camera_mode">Kameramodus</string>
+    <string name="pref_retain_camera_mode_description">Jedes Mal, wenn Sie die Kamera wieder eingeschalten, wird der vorherige Aufnahmemodus und der vordere und hintere Status auf dem ersten Bildschirm beibehalten</string>
+    <string name="pref_retain_camera_status_description">Beim Starten der Kamera die letzte Funktionseinstellung verwenden, anstatt jedes Mal in den Ausgangszustand zurückzusetzen</string>
+    <string name="pref_retain_camera_status_title">Kamerastatus beibehalten</string>
+    <string name="pref_retain_live_shot">Dynamisches Foto</string>
+    <string name="pref_retain_live_shot_description">Jedes Mal, wenn Sie die Kamera wieder einschalten, wird der letzte Schaltzustand beibehalten</string>
     <string name="pref_camera_saturation_title">Sättigung</string>
     <string name="pref_camera_scenedetect_title">Automatische Szenenerkennung</string>
     <string name="pref_camera_scenemode_entry_backlight">Gegenlicht</string>
@@ -1726,7 +1783,7 @@ Halten Sie das Motiv scharf, während Sie den Hintergrund verwischen.</string>
     <string name="pref_grp_capture_settings">Aufnahmeeinstellungen</string>
     <string name="pref_grp_picture_settings">Bildeinstellungen</string>
     <string name="pref_grp_restore_settings">Einstellungen zurücksetzen</string>
-    <string name="pref_hdr10_hdr10plus_video_mode_description">Farbe von 4K (HDR10+) und 8K (HDR10) Videos optimieren. Dies funktioniert nur auf HDR10+/HDR10-kompatiblen Geräten.</string>
+    <string name="pref_hdr10_hdr10plus_video_mode_description">Hochauflösende Videos in HDR10+/HDR10 aufnehmen, um Farben und Dynamikbereich zu optimieren. Aufgenommene Videos können nur auf HDR10+/HDR10-kompatiblen Geräten wiedergegeben werden.</string>
     <string name="pref_hdr10_video_mode_description">Optimieren Sie Farben und Kontrast für 4K- und 8K-Videos automatisch. Optimierte Videos können nur auf HDR10-kompatiblen Geräten abgespielt werden</string>
     <string name="pref_hdr10plus_video_mode_description">Farbe und Kontrast von 4K/8K-Videos optimieren. Für normale Wiedergabe müssen HDR10+-Geräte unterstützt werden</string>  
     <string name="pref_hdr_indicator_entry_off">Aus</string>
@@ -1843,7 +1900,6 @@ Halten Sie das Motiv scharf, während Sie den Hintergrund verwischen.</string>
     <string name="professional_shortcut_long">Pro</string>
     <string name="professional_shortcut_short">Pro</string>
     <string name="prompt_desc">Bei Verwendung dieser Funktion werden Ihre Daten ca. zu %s MB verbraucht. Möchten Sie das Herunterladen fortsetzen?</string>
-    <string name="warm_prompt">Tipps</string>
     <string name="qr_code_details">QR-Code Details:</string>
     <string name="qr_of_unsupported_text">Inhalt: \"%s\"</string>
     <string name="qr_of_unsupported_type">QR-Code</string>
@@ -1940,7 +1996,7 @@ Halten Sie das Motiv scharf, während Sie den Hintergrund verwischen.</string>
     <string name="select_image_button_content_description">Vollbild auswählen</string>
     <string name="select_item">Element auswählen</string>
     <string name="select_video">Video auswählen</string>
-    <string name="semantic_lift_feedback_include_message">Inklusive Bild &amp; erkannter Text</string>
+    <string name="semantic_lift_feedback_include_message">Inkl. Bild &amp; erkannter Text</string>
     <string name="semantic_lift_feedback_include_message_no_text">Kein Text erkannt</string>
     <string name="semantic_lift_help_screen_header">Was Sie auswählen können</string>
     <string name="send">Senden</string>
@@ -2262,6 +2318,7 @@ Der Ultraweitwinkelmodus hilft, wenn Sie sich nicht weiter von der Szene entfern
     <string name="vv_use_hint_text_body">"Vlog-Modus erlaubt Ihnen, 
 Videos unterwegs aufzunehmen und zu bearbeiten"</string>
     <string name="wait">Abwarten</string>
+    <string name="warm_prompt">Tipps</string>
     <string name="watermark_tab_city">Stadt</string>
     <string name="watermark_tab_festival">Feiertag</string>
     <string name="watermark_tab_general">Allgemein</string>

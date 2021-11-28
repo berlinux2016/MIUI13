@@ -73,6 +73,8 @@
     <string name="background">Verstecken</string>
     <string name="be_sure_to_clear_cache">Jetzt Cache löschen?</string>
     <string name="bind_sign_in_title">Mi-Konto hinzufügen</string>
+    <string name="btn_recall_text_next_step_timer">Widerrufen (%ds)</string>
+    <string name="btn_recall_text_ok_timer">Widerrufen</string>
     <string name="camera">Kamera</string>
     <string name="cancel">Abbrechen</string>
     <string name="category_document">Dokumente</string>
@@ -297,6 +299,7 @@ Senden Sie diesen Code an den Supervisor."</string>
     <string name="goto_sign_up">Konto erstellen</string>
     <string name="h5_ppt_to_pdf_introduce_title">Über die Konvertierung von PPT in PDF</string>
     <string name="home_action_up">Zurück</string>
+    <string name="hybrid_provider">Provided by %1$s</string>
     <string name="i_know">Verstanden</string>
     <string name="identity">Identifikation</string>
     <string name="image_loading_error">Bild wurde nicht geladen</string>
@@ -373,7 +376,7 @@ Stellen Sie sicher, dass Sie das aktuelle Mi-Konto als Ihr MIUI-Systemkonto verw
     <string name="monday_shortest">M</string>
     <string name="month_april_shortest">A</string>
     <string name="month_august_shortest">A</string>
-    <string name="month_day_format">dd.MM.</string>
+    <string name="month_day_format">d. MMM</string>
     <string name="month_december">Dezember</string>
     <string name="month_december_short">Dez</string>
     <string name="month_december_shortest">D</string>
@@ -578,6 +581,16 @@ Stellen Sie sicher, dass Sie das aktuelle Mi-Konto als Ihr MIUI-Systemkonto verw
     <string name="pause_download">Angehalten</string>
     <string name="pause_upload">Angehalten</string>
     <string name="paused">Pausiert</string>
+    <string name="permission_account_desc">Zugriff auf alle auf diesem Gerät gespeicherten Konten</string>
+    <string name="permission_account_title">Konten</string>
+    <string name="permission_accpeted">Zugelassen</string>
+    <string name="permission_camera_desc">Fotos und Videos aufnehmen</string>
+    <string name="permission_camera_title">Kamera</string>
+    <string name="permission_denied">Nicht zugelassen</string>
+    <string name="permission_phone_desc">Zugriff auf Rufnummer und Gerätestatus</string>
+    <string name="permission_phone_title">Geräteinfo</string>
+    <string name="permission_storage_desc">Zugriff auf und Speichern von Fotos und Dateien auf diesem Gerät</string>
+    <string name="permission_storage_title">Speicher</string>
     <string name="phone_bind_too_many">Dieses Telefon wurde in kurzer Zeit mit mehreren Mi Konten verknüpft. Versuchen Sie, eine andere Rufnummer zu verwenden.</string>
     <string name="phone_hint">Rufnummer</string>
     <string name="phone_num_use_for">Rufnummer wird verwendet für:</string>
@@ -592,11 +605,21 @@ Stellen Sie sicher, dass Sie das aktuelle Mi-Konto als Ihr MIUI-Systemkonto verw
     <string name="play_metered_network_dialog_ok">Spielen</string>
     <string name="play_metered_network_dialog_title">Mobile Daten verwenden</string>
     <string name="ppt_to_pdf">In PDF konvertiert</string>
+    <string name="pre_permission_management">Berechtigungsdetails</string>
     <string name="pre_privacy_policy">Datenschutzerklärung</string>
+    <string name="pre_privacy_recall">Widerruf Zustimmung</string>
     <string name="pre_user_agreement">Nutzervereinbarung</string>
     <string name="preference_copied">\"%1$s\" in Zwischenablage kopiert</string>
     <string name="preview">Vorschau</string>
     <string name="privacy_policy">Datenschutzerklärung</string>
+    <string name="privacy_recall_dialog_msg">Wenn Sie fortfahren, widerrufen Sie Ihre Zustimmung zur Datenschutzerklärung von Mi Drive. Die bereits gesammelten und gespeicherten personenbezogenen Daten werden innerhalb des festgelegten Zeitraums in Übereinstimmung mit den geltenden Gesetzen und Vorschriften gelöscht, sofern nicht anders gefordert. Da Mi Drive seine Dienste auf der Grundlage der Erfassung der erforderlichen personenbezogenen Daten erbringt, wird Ihr Widerruf der Zustimmung als Ablehnung der Annahme der Mi Drive-Dienste gewertet. Zustimmung jetzt widerrufen?</string>
+    <string name="privacy_recall_dialog_title">Widerruf Zustimmung</string>
+    <string name="privacy_update_dialog_msg">Mi Drive Datenschutzerklärung wurde aktualisiert:&lt;br/>%1$s&lt;br/>Lesen und akzeptieren Sie die neue Version der &lt;a href=%2$s>&lt;u>Datenschutzerklärung&lt;/u>&lt;/a> bevor Sie fortfahren.</string>
+    <string name="privacy_update_dialog_title">Datenschutzerklärung aktualisiert</string>
+    <string name="privacy_user_notice_dialog_exit_btn_text">Beenden</string>
+    <string name="privacy_user_notice_dialog_msg">Sie können Mi Drive nur dann weiter nutzen, wenn Sie der neuen Version der &lt;a href=%1$s>&lt;u>Datenschutzerklärung&lt;/u>&lt;/a> zustimmen. Jetzt der aktualisierten Datenschutzerklärung zustimmen?</string>
+    <string name="privacy_user_notice_dialog_ok_btn_text">Zustimmen</string>
+    <string name="privacy_user_notice_dialog_title">Achtung</string>
     <string name="private_empty_desc">Hier können Sie Dateien privat speichern.</string>
     <string name="private_empty_sub_desc">Versuchen Sie, Dateien hierher zu verschieben oder laden Sie sie direkt hoch.</string>
     <string name="private_folder_name">Private Dateien</string>
@@ -715,6 +738,14 @@ Stellen Sie sicher, dass Sie das aktuelle Mi-Konto als Ihr MIUI-Systemkonto verw
     <string name="sunday_short">So</string>
     <string name="sunday_shortest">S</string>
     <string name="system_alert">Internetverbindung</string>
+    <string name="talkback_continue">Fortsetzen</string>
+    <string name="talkback_doc_filter">Filter-Taste</string>
+    <string name="talkback_list_play">Alles abspielen</string>
+    <string name="talkback_next_song">Nächster Titel</string>
+    <string name="talkback_play">Abspielen</string>
+    <string name="talkback_previous_song">Vorheriger Titel</string>
+    <string name="talkback_random_play">Zufallswiedergabe</string>
+    <string name="talkback_single_play">Einen in Schleife</string>
     <string name="temporary_not_available">Diese Funktion ist noch nicht verfügbar.</string>
     <string name="text_select_all">Alles wählen</string>
     <string name="text_select_nothing">Alles abwählen</string>
@@ -790,7 +821,7 @@ Stellen Sie sicher, dass Sie das aktuelle Mi-Konto als Ihr MIUI-Systemkonto verw
     <string name="update_email_address_dialog_title">Wiederherstellungs-E-Mail aktualisieren</string>
     <string name="update_failed">Serverfehler aufgetreten, etwas warten und erneut versuchen.</string>
     <string name="update_failed_no_app_info">Installationspaket erhalten nicht möglich</string>
-    <string name="update_no_network">Netzwerkverbindung herstellen nicht möglich. Überprüfen Sie Ihre Netzwerkeinstellungen und versuchen Sie es erneut.</string>
+    <string name="update_no_network">Netzwerkverbindung herstellen nicht möglich. Prüfen Sie Ihre Netzwerkeinstellungen und versuchen Sie es erneut.</string>
     <string name="update_no_update">Aktuelle Version ist auf dem neuesten Stand</string>
     <string name="update_phone_notice">Sicherheitseinstellungen ändern</string>
     <string name="update_progress_dialog_content">Herunterladen…</string>
