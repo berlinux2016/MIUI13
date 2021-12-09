@@ -44,6 +44,7 @@
     <string name="application_permissions">App-Berechtigungen</string>
     <string name="back">Zurück</string>
     <string name="backup_introduction">Sie können diese App zum Sichern und Wiederherstellen von Elementen auf Ihrem Gerät verwenden.</string>
+    <string name="bluetooth_introduction">Bluetooth wird vom System für die drahtlose Kommunikation verwendet. Um normal arbeiten zu können, benötigt Bluetooth folgende Berechtigungen:</string>
     <string name="boot_video_desc">Die Welt in 2K sehen</string>
     <string name="boot_video_replay">Erneut abspielen</string>
     <string name="boot_video_skip">Überspringen</string>
@@ -91,6 +92,7 @@
     <string name="disagreement_location_service_abnormal">Wenn Sie diesen Berechtigungen nicht zustimmen, können Sie die Standortdienste nicht nutzen. Sie können Standortdienste jederzeit unter Einstellungen &gt; Datenschutz ein- oder ausschalten.</string>
     <string name="disagreement_mi_account_abnormal">Wenn Sie diesen Berechtigungen nicht zustimmen, können Sie die Mi-Konto-Dienste nicht nutzen. Sie können die Mi-Konto-Dienste jederzeit unter Einstellungen > Mi-Konto ein- oder ausschalten.</string>
     <string name="disagreement_service_not_working_properly">Wenn Sie diesen Berechtigungen nicht zustimmen, können Sie diese App nicht nutzen.</string>
+    <string name="disagreement_terminate_bluetooth">Wenn Sie diese Berechtigungen nicht erteilen möchten, können Sie Bluetooth nicht verwenden. Sie können Bluetooth in den Einstellungen ein- und ausschalten und Bluetooth-Geräte hinzufügen.</string>
     <string name="disagreement_terminate_miuidaemon">Wir verwenden die Berechtigungen nur, wenn Sie mit der Übertragung von Daten von Ihrem Gerät beginnen, wenn der Bildschirm beschädigt ist. Wenn Sie nicht zustimmen, diese Berechtigungen zu gewähren, können Sie diese App nicht verwenden.</string>
     <string name="disagreement_terminate_service">Wenn Sie nicht zustimmen, solche Genehmigungen zu erteilen oder Ihre personenbezogenen Daten weiterzugeben und hochzuladen, können Sie diese App nicht nutzen. In solchen Fällen können Sie in den Einstellungen die Berechtigungen deinstallieren, abmelden oder einschränken.</string>
     <string name="download_introduction">Downloads ist eine von Xunlei bereitgestellte App zum Herunterladen und Verwalten von heruntergeladenen Inhalten (inkl. App-Store-Inhalten, Videos, System-Updates, Themen und Browser-Inhalten) für Benutzer von Xiaomi-Geräten.</string>
@@ -237,7 +239,7 @@
     <string name="move_data_dialog_use">Nutzen</string>
     <string name="msim_setting_default_data">Daten-SIM</string>
     <string name="msim_setting_default_voice">Standard-SIM für Anrufe</string>
-    <string name="multisim_settings_category">SIM-Karteneinstellungen</string>
+    <string name="multisim_settings_category">SIM-Einstellungen</string>
     <string name="multisim_settings_sb_title">1 SIM-Karte erkannt</string>
     <string name="multisim_settings_title">2 SIM-Karten erkannt</string>
     <string name="navigation_picker_gesture_guide">Gestenanleitung</string>
@@ -283,12 +285,14 @@ Um diese Funktion zu steuern, suchen Sie in den Einstellungen nach \"Nutzung und
     <string name="permission_backup">Speicherzugriff</string>
     <string name="permission_backup_introduction">Für den Zugriff auf und die Speicherung von Sicherungen auf Ihrem Gerät</string>
     <string name="permission_call_records">Zugriff auf Anrufliste</string>
+    <string name="permission_call_records_describe_bluetooth_summary">Damit Ihre anderen kompatiblen Geräte, die Sie mit diesem Gerät verbinden, auf die Anrufliste zugreifen können. Dies geschieht nur, wenn Sie proaktiv die Verwendung der Anrufliste über ein anderes Gerät verlangen. Anruflisten und Kontakte, die vom System über Bluetooth freigegeben werden, werden nur lokal auf Ihren Geräten zwischengespeichert und nur mit Ihrer Erlaubnis für diese freigegeben.</string>
     <string name="permission_call_records_introduction">Für den Anruflistenzugriff, um blockierte Elemente anzuzeigen.</string>
     <string name="permission_call_state_introduction">Für den Telefonstatuszugriff, Anrufaufzeichnung und das Anhalten von eingehenden Anrufaufnahmen.</string>
     <string name="permission_clock_info_introduction">Zum Alarmdaten speichern</string>
     <string name="permission_contact">Kontaktezugriffe</string>
     <string name="permission_contact_describe">Zugriff auf Kontakte</string>
     <string name="permission_contact_describe_MIUIDaemon_summary">Zur Prüfung Ihrer Identität;</string>
+    <string name="permission_contact_describe_bluetooth_summary">Damit Ihre anderen kompatiblen Geräte, die Sie mit diesem Gerät verbinden, auf Kontakte zugreifen können. Dies geschieht nur, wenn Sie Bluetooth einschalten oder Ihre Kontakte bearbeiten, während Bluetooth eingeschaltet ist.</string>
     <string name="permission_contact_describe_desktop_summary">Für die Verwendung der Notfallkontaktfunktion auf der Startseite im Lite-Modus und die Anzeige von Gesprächsbenachrichtigungen;</string>
     <string name="permission_contact_describe_message_summary">Zur Anzeige der entsprechenden Kontaktinfos von SMS und MMS;</string>
     <string name="permission_contact_introduction">Zur Bereitstellung der Sperrlistenfunktionalität und zum Notfallkontaktanrufen</string>

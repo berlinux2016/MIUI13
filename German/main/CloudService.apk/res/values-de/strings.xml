@@ -28,6 +28,9 @@
     <string name="afternoon">Nachmittag</string>
     <string name="agree_and_continue">Zustimmen</string>
     <string name="agreement_and_privacy_description">Lesen und akzeptieren Sie die Xiaomi Cloud &lt;a href=%1$s>&lt;u>Datenschutzerklärung&lt;/u>&lt;/a> und &lt;a href=%2$s>&lt;u>Nutzervereinbarung&lt;/u>&lt;/a> bevor Sie fortfahren.</string>
+    <string name="alert_sync_data_merge_dialog_title">Elemente werden zusammengeführt</string>
+    <string name="alert_sync_merge_dialog_cancel">Abbrechen</string>
+    <string name="alert_sync_merge_dialog_confirm">Einschalten</string>
     <string name="antispam_sync">\"Bitte nicht stören\"-Einstellungen</string>
     <string name="app_name">Xiaomi Cloud</string>
     <string name="bad_authentication">Ungültiges Konto oder Passwort</string>
@@ -65,6 +68,7 @@
     <string name="connect_network_china">Mit WLAN verbinden oder SIM-Karte einlegen</string>
     <string name="connect_wlan">Mit WLAN verbinden</string>
     <string name="connect_wlan_china">Mit WLAN verbinden</string>
+    <string name="contact_alert_sync_data_merge_dialog_msg">Wenn Sie die Synchronisation aktivieren, werden die von diesem Gerät hochgeladenen Kontakte mit den in der Cloud gespeicherten Kontakten zusammengeführt. Synchronisation trotzdem einschalten?</string>
     <string name="copy">Kopieren</string>
     <string name="cta_notification_content_text">%s die Internetverbindung erlauben, um Elemente wiederherzustellen</string>
     <string name="cta_notification_content_title">Elemente aus %s wiederherstellen nicht möglich</string>
@@ -94,8 +98,9 @@
     <string name="dialog_add_shortcut_content">Startbildschirm-Verknüpfung für Xiaomi Cloud hinzufügen, um den Cloud-Speicher effizienter verwalten zu können</string>
     <string name="dialog_add_shortcut_title">Verknüpfung hinzufügen</string>
     <string name="dialog_storage_full_title">Cloud-Speicher ist voll</string>
-    <string name="dialog_storage_low_content">Cloud-Speichertarif aktualisieren, um Elemente normal synchronisieren zu können</string>
+    <string name="dialog_storage_low_content">Cloud-Speichertarif upgraden, um mit der Synchronisation von Elementen fortzufahren.</string>
     <string name="dialog_storage_low_title">Unzureichender Cloud-Speicher</string>
+    <string name="dialog_storage_upgrade_later">Nein danke</string>
     <string name="dialog_title_prompt">Achtung</string>
     <string name="disable_find_device_error">Gerätesuche ausschalten nicht möglich %1$s</string>
     <string name="do_not_merge">Nicht zusammenführen</string>
@@ -665,6 +670,7 @@ Diese Funktion verschlüsselt und sendet Ihre Geräte-ID zum Mi-Server."</string
     <string name="notification_reinstall_key_text">Identität verifizieren und erneut versuchen</string>
     <string name="notification_sync_fail_title">Passwörter synchronisieren nicht möglich</string>
     <string name="notification_update_key_text">Passwortmanager-Passcode geändert. Prüfen Sie den neuen Passcode.</string>
+    <string name="open_service_title">Einschalten</string>
     <string name="other_sync_item">Andere Inhalte zur Synchronisation</string>
     <string name="pay_info_dialog_confirm_to_pay">%s zahlen</string>
     <string name="pay_info_dialog_mibi_balance_prefix">Verbleibende Mi Coins nutzen: %s</string>
@@ -902,7 +908,7 @@ Lesen und akzeptieren Sie unsere "&lt;u>&lt;a href=\"app://com.miui.cloudservice
     <string name="share_sdk_qr_code_description">"%1$s's Einladung"</string>
     <string name="share_sdk_qr_code_expire_time">QR-Code-Gültigkeitsdauer: %1$s</string>
     <string name="share_sdk_resend_invitation_times_exceed">Zu viele gesendete Einladungen. In 24 Stunden erneut versuchen.</string>
-    <string name="share_sdk_search_hint">Rufnummer/Mi Konto-ID</string>
+    <string name="share_sdk_search_hint">Rufnummer/Mi-Konto-ID</string>
     <string name="share_sdk_search_online">SOnline nach %1$s suchen</string>
     <string name="share_sdk_share_entrance_title">Mitglieder hinzufügen</string>
     <string name="share_sdk_suggest_member_pref_summary">Empfehlungsalgorithmus bereitgestellt von Xiaomi Cloud</string>
@@ -1080,6 +1086,11 @@ Lesen und akzeptieren Sie unsere "&lt;u>&lt;a href=\"app://com.miui.cloudservice
     <string name="tuesday">Dienstag</string>
     <string name="tuesday_short">Di</string>
     <string name="tuesday_shortest">D</string>
+    <string name="update_dialog_check_button_text">Nach Updates suchen</string>
+    <string name="update_dialog_ignore_button_text">Nein danke</string>
+    <string name="update_dialog_no_internet_toast_text">Internetverbindung prüfen und erneut versuchen</string>
+    <string name="update_dialog_no_update_toast_text">Aktuelle Version ist auf dem neuesten Stand</string>
+    <string name="update_dialog_title">Update verfügbar</string>
     <string name="user_agreement_content">Indem Sie diesen Service nutzen, stimmen Sie %s zu.</string>
     <string name="user_agreement_link">"Xiaomi Cloud-Nutzungsbedingungen"</string>
     <string name="user_agreement_title">"Xiaomi Cloud-Nutzungsbedingungen"</string>

@@ -1029,6 +1029,7 @@ innerhalb des Kreises befindet"</string>
     <string name="face_unlock_fail_retry">Ihr Gesicht wurde nicht geprüft. Oben tippen, um es erneut zu versuchen.</string>
     <string name="face_unlock_fail_retry_global">Oben tippen, um die Gesichtsentsperrung zu verwenden.</string>
     <string name="face_unlock_identify_error">Ein Fehler bei der Erkennung ist aufgetreten</string>
+    <string name="face_unlock_locked">Gesichtsentsperrung jetzt nicht verwendbar</string>
     <string name="face_unlock_not_found">Gesichtserkennung fehlgeschlagen</string>
     <string name="face_unlock_not_roi">Halten Sie Ihr Gesicht innerhalb des Rahmens</string>
     <string name="face_unlock_offset_bottom">Halten Sie Ihr Telefon etwas tiefer</string>
@@ -1275,11 +1276,13 @@ Weiterhin zeigen?"</string>
     <string name="input_password_handle_sdcard_fs">Zweitprofil kann nicht vom Sperrbildschirm gestartet werden. Vom Hauptprofil starten.</string>
     <string name="input_password_hint_text">Passwort eingeben</string>
     <string name="input_password_hint_text_v11">Passwort eingeben</string>
-    <string name="input_pattern_after_boot_msg">Muster bestätigen ist erforderlich, wenn das Gerät neu gestartet wird</string>
-    <string name="input_pattern_after_restart_msg">System-Sicherheitsschutz, bitte Ihr Passwort eingeben</string>
+    <string name="input_pattern_after_boot_msg">Muster zeichnen ist erforderlich, wenn das Gerät neu gestartet wird</string>
+    <string name="input_pattern_after_face_not_allowed">Geben Sie Ihr Passwort mind. einmal alle %d Stunden ein, um dieses Gerät sicher zu halten</string>
+    <string name="input_pattern_after_restart_msg">Bildschirmsperre bestätigen, um fortzufahren</string>
     <string name="input_pattern_hint_text">Entsperrmuster zeichnen</string>
     <string name="input_pattern_hint_text_v11">Muster zeichnen</string>
-    <string name="input_pin_after_boot_msg">PIN bestätigen ist erforderlich, wenn das Gerät neu gestartet wird</string>
+    <string name="input_pattern_or_finger_after_face_not_allowed">Geben Sie Ihr Passwort ein oder verwenden Sie Ihren Fingerabdruck mind. einmal alle %d Stunden, um dieses Gerät sicher zu halten</string>
+    <string name="input_pin_after_boot_msg">PIN eingeben ist erforderlich, wenn das Gerät neu gestartet wird</string>
     <string name="input_pin_code">PIN eingeben</string>
     <string name="input_pin_hint_text_v11">PIN eingeben</string>
     <string name="input_puk_code">PUK eingeben</string>

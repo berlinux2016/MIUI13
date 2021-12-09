@@ -1099,6 +1099,7 @@
     <string name="have_known">Bekannt</string>
     <string name="help">Geräte nicht gefunden?</string>
     <string name="help_content">Wenn Sie das benötigte Gerät nicht finden, bitten Sie die andere Person, Mi Share einzuschalten.</string>
+    <string name="hide_nearby_photos">Fotos und Videos in der Nähe ausblenden</string>
     <string name="hidden_album_display_name">Verstecktes Album</string>
     <string name="home_menu_all_photos">Alle Elemente anzeigen</string>
     <string name="home_menu_art_still">Kunst</string>
@@ -1168,6 +1169,7 @@
     <string name="input_or_select_a_name">Namen eingeben oder auswählen</string>
     <string name="input_relation_name">Gruppenname eingeben</string>
     <string name="install_fail">Plugin konnte wegen eines Fehlers nicht geladen werden</string>
+    <string name="install_media_editor_latest_message">Um Elemente bearbeiten zu können, laden Sie zuerst das neueste Plugin herunter.</string>
     <string name="install_media_editor_message">Um Elemente bearbeiten zu können, müssen Sie zuerst das Plugin herunterladen. Jetzt herunterladen?</string>
     <string name="install_media_editor_title">Plugin herunterladen</string>
     <string name="internal_storage_device">Interner Speicher</string>
@@ -1337,6 +1339,7 @@
     <string name="map_grant_position_permission_after_declined_twice_message">Wenn Sie Fotos und Videos auf der Karte anzeigen möchten, müssen Sie der Galerie zunächst Standortzugriff erlauben.</string>
     <string name="map_grant_position_permission_subtitle">Fotos und Videos in der Nähe auf der Karte anzeigen</string>
     <string name="map_guide_message">Ihre Fotos und Videos auf der Karte anzeigen</string>
+    <string name="map_location">Zum aktuellen Standort wechseln</string>
     <string name="map_positioning_failed_tip">Wegen Signalschwäche keine Standortinfos möglich</string>
     <string name="map_privacy_dialog_message"><Data>Dieser Dienst erlaubt es Ihnen, Fotos und Videos mit Standortinfos auf einer Karte anzuzeigen. Wir verwenden Baidu Map Open SDK, um Ihnen diesen Dienst zur Verfügung zu stellen. Lesen Sie &lt;a href=\"%1$s\">Baidu Map Datenschutzerklärung für Produkte und Dienste der offenen Plattform&lt;/a>, um mehr zu erfahren.</Data></string>
     <string name="map_privacy_dialog_title">Galeriekarte</string>
@@ -1365,6 +1368,9 @@
     <string name="mi_mover_working_desc">Mi Mover überträgt Elemente…</string>
     <string name="micloud_introduce">Fotos und Videos automatisch synchronisieren (Mi-Konto erforderlich)</string>
     <string name="midnight">Nacht</string>
+    <string name="miplay_seekbar_content_description">Wiedergabefortschritt: %1$s %2$s</string>
+    <string name="miplay_stop_video">Videowiedergabe anhalten</string>
+    <string name="miplay_volume_btn">Lautstärke</string>
     <string name="mishare_all_devices">Alle Geräte</string>
     <string name="miuix_access_state_desc">Ausgewählt</string>
     <string name="miuix_alphabet_indexer_name">Indexleiste</string>
@@ -1633,6 +1639,7 @@ Umwandlung kann einige Zeit in Anspruch nehmen, wenn Sie diese Funktion zum erst
     <string name="operation_unforce_top">Lösen</string>
     <string name="operation_unhide">Anzeigen</string>
     <string name="operation_video_compress">Video komprimieren</string>
+    <string name="operation_watermark">Wasserzeichenschutz</string>
     <string name="orientation_lock_tip">Ausrichtung fixiert</string>
     <string name="orientation_unlock_tip">Automatisch drehen aktiviert</string>
     <string name="origin_gif_name">Originaldatei</string>
@@ -1642,6 +1649,8 @@ Umwandlung kann einige Zeit in Anspruch nehmen, wenn Sie diese Funktion zum erst
     <string name="other_album_operation_remove_from_other_albums">Wiederherstellen</string>
     <string name="other_settings">Weitere Einstellungen</string>
     <string name="owner_album_subtitle">Geteilt mit %1$s Benutzern</string>
+    <string name="pc_redmi_device_model_name">Redmi-Laptop</string>
+    <string name="pc_xiaomi_device_model_name">Xiaomi-Laptop</string>
     <string name="people_album_empty_title">Fotos können nach Personen sortiert werden</string>
     <string name="people_jump_failed">Warten, bis Fotos mit Personen mit der Cloud synchronisiert sind und erneut versuchen</string>
     <string name="people_mark_mode_title">\"%s\" auswählen</string>
@@ -1658,6 +1667,11 @@ Umwandlung kann einige Zeit in Anspruch nehmen, wenn Sie diese Funktion zum erst
     <string name="permission_contacts_name">Kontakte</string>
     <string name="permission_contacts_name_2">Zugriff auf Kontakte</string>
     <string name="permission_contract_name">Kontakte</string>
+    <string name="permission_custom_cta_network_button_negative">Ablehnen</string>
+    <string name="permission_custom_cta_network_button_positive">Zustimmen</string>
+    <string name="permission_custom_cta_network_title">Achtung</string>
+    <string name="permission_location">Standort</string>
+    <string name="permission_location_desc">Für die Anzeige von Fotos und Videos auf der Karte</string>
     <string name="permission_optional_category">Optionale Berechtigungen</string>
     <string name="permission_phone_desc">Für Netzwerkanfragen basierend auf der Geräte-ID</string>
     <string name="permission_phone_name">Telefon</string>
@@ -1720,6 +1734,7 @@ Umwandlung kann einige Zeit in Anspruch nehmen, wenn Sie diese Funktion zum erst
     <string name="photo_editor_navigator_sticker_download_without_wifi_msg">Anscheinend sind Sie nicht mit WLAN verbunden. %1$d MB an mobilen Daten verwenden, um das Plugin herunterzuladen?</string>
     <string name="photo_editor_navigator_sticker_download_without_wifi_msg_china">Anscheinend sind Sie nicht mit WLAN verbunden. %1$d MB an mobilen Daten verwenden, um das Plugin herunterzuladen?</string>
     <string name="photo_editor_navigator_sticker_download_without_wifi_title">Plugin herunterladen</string>
+    <string name="photo_editor_privacy_watermark">Wasserzeichenschutz</string>
     <string name="photo_editor_remove_watermark">Wasserzeichen entfernen</string>
     <string name="photo_editor_remove_watermark_on">Wasserzeichen hinzufügen</string>
     <string name="photo_editor_remover">Löschen</string>
@@ -1777,6 +1792,7 @@ Umwandlung kann einige Zeit in Anspruch nehmen, wenn Sie diese Funktion zum erst
     <string name="photo_editor_talkback_sky_audio_open">Ton abspielen</string>
     <string name="photo_editor_talkback_undo">Rückgängig machen</string>
     <string name="photo_editor_text">Wasserzeichen</string>
+    <string name="photo_editor_watermark_default">NICHT KOPIEREN</string>
     <string name="photo_font_cancel_download">Abbrechen</string>
     <string name="photo_font_download">Herunterladen</string>
     <string name="photo_font_download_failed_for_notwork">Herunterladen nicht möglich. Mit Netzwerk verbinden und erneut versuchen.</string>
@@ -1804,6 +1820,7 @@ Umwandlung kann einige Zeit in Anspruch nehmen, wenn Sie diese Funktion zum erst
     <string name="photo_purge_dialog_title">Ausgewählte Elemente löschen</string>
     <string name="photo_save_to_msg">Gespeichert in %s</string>
     <string name="photo_size_not_support">Diese Bildauflösung wird nicht unterstützt</string>
+    <string name="photo_video_count">%1$s und %2$s</string>
     <string name="photo_vlog_module_finish">Video-Editor erfolgreich heruntergeladen</string>
     <string name="photo_vlog_module_loading">Video-Editor herunterladen…</string>
     <string name="photodetail_failed_already_exist">Diese Datei existiert bereits</string>
@@ -2025,6 +2042,14 @@ Umwandlung kann einige Zeit in Anspruch nehmen, wenn Sie diese Funktion zum erst
     <string name="scan_barcode_to_join">QR-Code scannen, um dem Album beizutreten</string>
     <string name="scan_qr_code_buttom_text">QR-Code scannen, um Album anzuzeigen</string>
     <string name="scanning_device_tips">Nach Geräten in der Nähe suchen… Stellen Sie sicher, dass sich das andere Gerät im Erkennungsmodus befindet.</string>
+    <string name="scope_storage_dialog_cancel_btn">Abbrechen</string>
+    <string name="scope_storage_dialog_confirm_btn">Weiter</string>
+    <string name="scope_storage_dialog_description">Galerieberechtigungen wurden aktualisiert. Erlauben Sie der Galerie den Zugriff auf diesen Ordner, um seinen Inhalt zu sehen.</string>
+    <string name="scope_storage_dialog_guide_content"><Data>Auf &lt;b>\"%1$s\"&lt;/b> tippen und dann &lt;b>\"%2$s\"&lt;/b> wählen.</Data></string>
+    <string name="scope_storage_dialog_guide_title">Wie die Berechtigungen erteilt werden</string>
+    <string name="scope_storage_dialog_title">Erforderliche Berechtigungen</string>
+    <string name="scope_storage_operation_btn_1">Speichern</string>
+    <string name="scope_storage_operation_btn_2">Zugriff auf diesen Ordner</string>
     <string name="screen_doodle_talkback_size">Doodle-Linienbreite</string>
     <string name="screen_editor_btn_delete">Löschen</string>
     <string name="screen_editor_btn_save">Speichern</string>
@@ -2179,6 +2204,7 @@ Umwandlung kann einige Zeit in Anspruch nehmen, wenn Sie diese Funktion zum erst
     <string name="show_in_other_albums_disable_toast_long_press_menu">Erfolgreich verschoben, navigieren Sie zu anderen Alben</string>
     <string name="show_in_other_albums_enable_toast_long_press_menu">Erfolgreich verschoben, navigieren Sie zu Alben</string>
     <string name="show_in_rubbish_albums_enable_toast_long_press_menu">Erfolgreich in den Papierkorb verschoben</string>
+    <string name="show_nearby_photos">Fotos und Videos in der Nähe anzeigen</string>
     <string name="signature_dialog_clear">Löschen</string>
     <string name="signature_manage_dialog_title_string">Unterschrift</string>
     <string name="signature_view_add_signature_String">Unterschrift hinzufügen</string>
@@ -2912,6 +2938,9 @@ Umwandlung kann einige Zeit in Anspruch nehmen, wenn Sie diese Funktion zum erst
     <string name="vlog_video_trans_code_cons">Importieren…</string>
     <string name="voice_assistant">Spracheingabe</string>
     <string name="watch_all_photo">Galerie</string>
+    <string name="watermark_enter">Wasserzeichenschutz</string>
+    <string name="watermark_summary">Fotos von auf diesem Gerät gespeicherten IDs erkennen und Aufforderungen zum Hinzufügen von Schutzwasserzeichen erhalten</string>
+    <string name="watermark_title">Schutzwasserzeichen</string>
     <string name="web_sso_login_fail">Sie müssen sich erneut anmelden</string>
     <string name="web_sso_login_message">Anmelden…</string>
     <string name="webview_reload">Erneut versuchen</string>

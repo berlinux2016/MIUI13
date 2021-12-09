@@ -934,6 +934,7 @@ benachrichtigungen erlauben"</string>
     <string name="auto_sync_account_title">Daten automatisch synchronisieren</string>
     <string name="auto_sync_personal_account_title">Private Daten automatisch synchronisieren</string>
     <string name="auto_sync_work_account_title">Arbeitsdaten automatisch synchronisieren</string>
+    <string name="auto_task_operation_close">Schließen</string>
     <string name="autofill_app">Automatisches Ausfüllen</string>
     <string name="autofill_confirmation_message">&lt;b>Stellen Sie sicher, dass Sie dieser App vertrauen.&lt;/b> &lt;br/> &lt;br/> &lt;xliff:g id=app_name example=Google Autofill>%1$s&lt;/xliff:g> verwendet alles auf Ihrem Bildschirm, um festzustellen, was automatisch ausgefüllt werden kann.</string>
     <string name="autofill_keywords">automatisch, ausfüllen, automatisch ausfüllen</string>
@@ -1505,6 +1506,8 @@ Sie haben sich noch nicht mit %2$s verbunden."</string>
     <string name="bluetooth_enable_inband_ringing_summary">Erlaubt die Wiedergabe von Telefonklingeltönen über Bluetooth-Kopfhörer</string>
     <string name="bluetooth_enable_page_scan">Bluetooth-Seiten-Scan aktivieren</string>
     <string name="bluetooth_enable_page_scan_summary">Seiten-Scan für Bluetooth-Test deaktivieren/aktivieren</string>
+    <string name="bluetooth_enable_pts_test">Bluetooth PTS-Test aktivieren</string>
+    <string name="bluetooth_enable_pts_test_summary">Bluetooth PTS-Test deaktivieren/aktivieren</string>
     <string name="bluetooth_enter_passkey_msg">Geben Sie den Kopplungs-Code ein und drücken Sie Return oder Enter</string>
     <string name="bluetooth_enter_passkey_other_device">Eventuell müssen Sie diesen Schlüssel auch auf dem anderen Gerät eingeben</string>
     <string name="bluetooth_enter_pin_other_device">Eventuell müssen Sie diese PIN auch auf dem anderen Gerät eingeben</string>
@@ -2397,6 +2400,7 @@ Nach Erstellung einer neuen Sicherheitsfrage und Bestätigung Ihres Geburtsdatum
     <string name="connected_wifi">Verbunden</string>
     <string name="connecting_to_vpn">Verbindung zum VPN</string>
     <string name="connection_and_sharing">Verbinden &amp; Teilen</string>
+    <string name="connection_control">Verbindungen verwalten</string> 
     <string name="contact_data">Kontakte</string>
     <string name="contact_discovery_opt_in_dialog_message">"Rufnummern Ihrer Kontakte werden in regelmäßigen Abständen an %1$s gesendet.
 
@@ -2846,6 +2850,8 @@ Diese Einstellung betrifft alle Benutzer auf diesem Telefon."</string>
     <string name="deny">Ablehnen</string>
     <string name="deselect_all">Alle abwählen</string>
     <string name="detail_app_button">App-Info</string>
+    <string name="detailed_wifi_logging_disabled">Detaillierte WLAN-Protokollierung ist aus</string>
+    <string name="detailed_wifi_logging_enabled">Detaillierte WLAN-Protokollierung ist an</string>
     <string name="details_subtitle">Nutzungsdetails</string>
     <string name="details_title">Nutzungsdetails</string>
     <string name="dev_logpersist_clear_warning_message">Wenn wir den permanenten Logger nicht mehr zur Überwachung verwenden, müssen wir die auf Ihrem Gerät gespeicherten Log-Daten löschen.</string>
@@ -3445,6 +3451,7 @@ Für weitere Informationen wenden Sie sich bitte an den Admin Ihres Unternehmens
     <string name="enterprise_privacy_settings_summary_with_name">Von %s verwaltete Änderungen &amp; Einstellungen</string>
     <string name="enterprise_privacy_usage_stats">Zeit- und Datenaufwand pro App</string>
     <string name="enterprise_privacy_wipe_device">Admin kann alle Gerätedaten löschen</string>
+    <string name="environmental_speech_recognition">Umgebungsgeräusche erkennen</string>
     <string name="eq_auto">Benutzerdefiniert</string>
     <string name="eq_cancel">Abbrechen</string>
     <string name="eq_classical">Klassik</string>
@@ -4207,7 +4214,7 @@ Wenn Sie automatische Sicherungen einschalten, werden Geräte- und App-Daten per
     <string name="headset_remove_message_indicate">Alle mit dem Xiaomi-Konto verbundenen Geräte werden entfernt</string>
     <string name="headset_settings_title">Audioeffekte</string>
     <string name="headset_spatial_audio">Raumklang</string>
-    <string name="headset_toast_tip_disconnect_others">Anscheinend sind Ihre Kopfhörer jetzt mit einem anderen Gerät verbunden</string>
+    <string name="headset_toast_tip_disconnect_others">Headset kann zurzeit nicht eingerichtet werden, es ist evtl. mit einem anderen Telefon verbunden.</string>
     <string name="headset_unsaved_device">Gerät entfernen</string>
     <string name="headset_unsaved_devices">Nicht gespeichert, verbinden Sie sich in Ihrem Konto mit einem anderen Telefon</string>
     <string name="hearing_aids_category">Hörunterstützende Tools</string>
@@ -4475,6 +4482,7 @@ Xiaomi Cloud öffnen und Elemente von dort aus wiederherstellen."</string>
     <string name="interact_across_profiles_switch_enabled">Verbunden</string>
     <string name="interact_across_profiles_title">Verbundene Arbeits- &amp; persönliche Apps</string>
     <string name="interaction_control_category_title">Interaktionssteuerung</string>
+    <string name="interconnection">Zusammenschaltung</string>
     <string name="interesting_text">Realistische haptische Wahrnehmungen machen Ihre Interaktion mit dem Bildschirm deutlicher und artikulierter.</string>
     <string name="interesting_title">Realistische Berührung</string>
     <string name="internal_memory">Interner Speicher</string>
@@ -5460,6 +5468,7 @@ Dadurch wird Ihr Mobilfunkvertrag nicht gekündigt."</string>
     <string name="memory_usage">Speicherverbrauch</string>
     <string name="memory_usage_apps">Von Apps verwendeter Speicher</string>
     <string name="memory_use_summary">%1$s durchschn. Verbrauch in den letzten 3 Stunden</string>
+    <string name="memorycard_calculating">Berechnen…</string>
     <string name="menu_cancel">Verwerfen</string>
     <string name="menu_check">Erfahrung</string>
     <string name="menu_delete">APN löschen</string>
@@ -5468,6 +5477,7 @@ Dadurch wird Ihr Mobilfunkvertrag nicht gekündigt."</string>
     <string name="menu_duration_3h">3 Stunden</string>
     <string name="menu_duration_6h">6 Stunden</string>
     <string name="menu_hide_system">System verbergen</string>
+    <string name="menu_item_notification_power_text">Akku-Optimierung</string>
     <string name="menu_item_show_more">Mehr anzeigen</string>
     <string name="menu_key">Menü</string>
     <string name="menu_new">Neuer APN</string>
@@ -6605,6 +6615,7 @@ OTG schaltet sich nach 10 Min Inaktivität automatisch aus."</string>
     <string name="owner_info_settings_summary">Keine</string>
     <string name="owner_info_settings_title">Info zum Eigentümer</string>
     <string name="owner_space">Hauptprofil</string>
+    <string name="p2p_summary_enable_GPS">Diese Funktion funktioniert, wenn die Standortdienste eingeschaltet sind</string>
     <string name="packages_subtitle">Enthaltene Pakete</string>
     <string name="pad_backup_summary">Sichern und Wiederherstellen von Elementen auf diesem Gerät</string>
     <string name="pad_backup_title">Mobilgerät</string>
@@ -8785,6 +8796,8 @@ Bevor Sie unsere Dienste nutzen, lesen und akzeptieren Sie unsere %s."</string>
     <string name="speed_label_very_fast">Sehr schnell</string>
     <string name="speed_label_very_slow">Sehr langsam</string>
     <string name="speed_mode">Geschwindigkeitsmodus</string>
+    <string name="speed_mode_noti_summary">Geschwindigkeitsmodus erhöht den Stromverbrauch und die Wärmeentwicklung</string>
+    <string name="speed_mode_noti_title">Geschwindigkeitsmodus an</string>
     <string name="speed_mode_summary">Um Apps zu debuggen</string>
     <string name="spell_checker_master_switch_title">Rechtschreibprüfung nutzen</string>
     <string name="spell_checker_not_selected">Nicht ausgewählt</string>
@@ -9949,7 +9962,7 @@ Ihre gespeicherten Fingerabdrücke werden auch aus diesem Profil entfernt und Si
     <string name="unlogin_account_summary">Alle Mi-Dienste. Ein Mi-Konto</string>
     <string name="unlogin_account_title">Beim Mi-Konto anmelden</string>
     <string name="unmount_inform_text">USB-Speicher wird getrennt</string>
-    <string name="unmute_sound_title">Stummschalten aus</string>
+    <string name="unmute_sound_title">Ton abspielen, wenn der Lautlosmodus ausgeschaltet wird</string>
     <string name="unrestrict_max_aspect_ratio_title">Diese Apps sind für den Vollbildmodus optimiert</string>
     <string name="unrestricted_app_summary">Beim Datensparen uneingeschränkten Datenzugriff erlauben</string>
     <string name="unrestricted_app_title">Uneingeschränkte Datennutzung</string>

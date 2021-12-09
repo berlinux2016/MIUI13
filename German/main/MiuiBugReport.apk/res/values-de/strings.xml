@@ -17,6 +17,7 @@
     <string name="abc_shareactionprovider_share_with">Teilen mit</string>
     <string name="abc_shareactionprovider_share_with_application">Teilen mit %s</string>
     <string name="abc_toolbar_collapse_description">Einklappen</string>
+    <string name="access_denied_info">Zu viele Versuche. Einen Moment warten und erneut versuchen.</string>
     <string name="account_bind_secure_email_title">Wiederherstellungs-E-Mail hinzufügen</string>
     <string name="account_bind_secure_phone_title">Wiederherstellungsrufnummer hinzufügen</string>
     <string name="account_crop_user_avatar">Foto zuschneiden</string>
@@ -102,7 +103,7 @@
     <string name="catch_full_log_privacy_content_audio">Sie generieren Protokolle und speichern sie auf Ihrem Gerät. Die Protokolle können die Informationen über das Audio auf Ihrem Gerät enthalten, inkl. der Wiedergabehistorie und des Aufnahmeverlaufs. Seien Sie vorsichtig und geben Sie diese Protokolle nicht an andere Personen weiter. Wenn Sie unten auf \"Zustimmen\" tippen, erklären Sie sich damit einverstanden, dass wir die oben genannten Daten während der Erstellung von Protokollen sammeln und dann die Protokolle auf unsere Server hochladen, um die von Ihnen gemeldeten Probleme zu finden und zu lösen.</string>
     <string name="catch_full_log_privacy_content_bt">Sie generieren Protokolle und speichern sie auf Ihrem Gerät. Die Protokolle können Informationen zur Nutzung von Bluetooth-Geräten enthalten (inkl. Anrufliste, Nachrichten, übertragene Dateien usw.). Seien Sie vorsichtig und geben Sie diese Protokolle nicht an andere Personen weiter. Wenn Sie unten auf \"Zustimmen\" tippen, erklären Sie sich damit einverstanden, dass wir die oben genannten Daten während der Erstellung von Protokollen sammeln und dann die Protokolle auf unsere Server hochladen, um die von Ihnen gemeldeten Probleme zu finden und zu lösen.</string>
     <string name="catch_full_log_privacy_content_camera">Sie erstellen Protokolle und speichern sie auf Ihrem Gerät. Die Protokolle können Informationen zur Kameranutzung enthalten (einschließlich CPU-Häufigkeit, Systemaufrufe, Speichernutzung usw.). Seien Sie vorsichtig und geben Sie diese Protokolle nicht an andere Personen weiter. Indem Sie unten auf \"Zustimmen\" tippen, erklären Sie sich damit einverstanden, dass wir die oben genannten Daten bei der Erstellung von Protokollen erfassen und die Protokolle dann auf unsere Server hochladen, um die von Ihnen gemeldeten Probleme zu lokalisieren und zu lösen.</string>
-    <string name="catch_full_log_privacy_content_charge">Sie erstellen Protokolle und speichern sie auf Ihrem Gerät. Die Protokolle können Ladeinformationen enthalten. Seien Sie vorsichtig und geben Sie diese Protokolle nicht an andere Personen weiter. Indem Sie unten auf "\Zustimmen\" tippen, erklären Sie sich damit einverstanden, dass wir die oben genannten Daten bei der Erstellung von Protokollen erfassen und die Protokolle dann auf unsere Server hochladen, um die von Ihnen gemeldeten Probleme zu lokalisieren und zu lösen.</string>
+    <string name="catch_full_log_privacy_content_charge">Sie erstellen Protokolle und speichern sie auf Ihrem Gerät. Die Protokolle können Ladestatistiken enthalten. Seien Sie vorsichtig und geben Sie diese Protokolle nicht an andere Personen weiter. Indem Sie unten auf "\Zustimmen\" tippen, erklären Sie sich damit einverstanden, dass wir die oben genannten Daten bei der Erstellung von Protokollen erfassen und die Protokolle dann auf unsere Server hochladen, um die von Ihnen gemeldeten Probleme zu lokalisieren und zu lösen.</string>
     <string name="catch_full_log_privacy_content_gps">Sie generieren Protokolle und speichern sie auf Ihrem Gerät. Die Protokolle können Ihre persönlichen Daten und Standortinformationen enthalten. Seien Sie vorsichtig und geben Sie diese Protokolle nicht an andere Personen weiter. Wenn Sie unten auf \"Zustimmen" tippen, erklären Sie sich damit einverstanden, dass wir die oben genannten Daten während der Erstellung von Protokollen sammeln und dann die Protokolle auf unsere Server hochladen, um die von Ihnen gemeldeten Probleme zu finden und zu lösen.</string>
     <string name="catch_full_log_privacy_content_sensor">Sie generieren Protokolle und speichern sie auf Ihrem Gerät. Die Protokolle können die von den Sensoren Ihres Geräts gesammelten Informationen enthalten (inkl. Umgebungslichtsensor, Barometer, Schrittzähler, Magnetometer etc.). Seien Sie vorsichtig und geben Sie diese Protokolle nicht an andere Personen weiter. Wenn Sie unten auf \"Zustimmen\" tippen, erklären Sie sich damit einverstanden, dass wir die oben genannten Daten während der Erstellung von Protokollen sammeln und dann die Protokolle auf unsere Server hochladen, um die von Ihnen gemeldeten Probleme zu finden und zu lösen.</string>
     <string name="catch_full_log_privacy_content_signal">Sie generieren Protokolle und speichern sie auf Ihrem Gerät. Die Protokolle können Ihre Nachrichten, die Anrufliste, Netzwerkinformationen und Kommunikationsdaten enthalten. Seien Sie vorsichtig und geben Sie diese Protokolle nicht an andere Personen weiter. Wenn Sie unten auf \"Zustimmen\" tippen, erklären Sie sich damit einverstanden, dass wir die oben genannten Daten während der Erstellung von Protokollen sammeln und dann die Protokolle auf unsere Server hochladen, um die von Ihnen gemeldeten Probleme zu finden und zu lösen.</string>
@@ -146,6 +147,9 @@ Senden Sie diesen Code an den Supervisor."</string>
     <string name="discard_draft_dialog_button_discard">Verwerfen</string>
     <string name="discard_draft_dialog_content">Alle Änderungen, die Sie an diesem Bericht vorgenommen haben, gehen verloren</string>
     <string name="discard_draft_dialog_title">Entwurf verwerfen?</string>
+    <string name="doing_login">Anmelden…</string>
+    <string name="doing_query_account">Kontoinfo prüfen…</string>
+    <string name="doing_register">Konto erstellen…</string>
     <string name="early_morning">Morgen</string>
     <string name="eras_ad">n. Chr.</string>
     <string name="eras_bc">v. Chr.</string>
@@ -316,13 +320,16 @@ Senden Sie diesen Code an den Supervisor."</string>
     <string name="get_phone_verifycode_exceed_limit">Zu viele Verifizierungscodes wurden an diese Nummer geschickt. 24 Stunden warten und erneut versuchen.</string>
     <string name="goon_feedback_main">Fortsetzen</string>
     <string name="goto_sign_up">Konto erstellen</string>
+    <string name="header_help">Hilfe</string>
     <string name="headset_loss_notify_summary">Anscheinend ist mindestens einer Ihrer Ohrhörer nicht in der Ladehülle. Sehen Sie nach!</string>
     <string name="headset_loss_notify_title">Warnung bei fehlendem Ohrhörer</string>
     <string name="hint_feedback_main">Problem beschreiben</string>
     <string name="i_get_it">Verstanden</string>
+    <string name="i_know">Verstanden</string>
     <string name="identity">Identifikation</string>
     <string name="inconsistent_pwd">Passwörter stimmen nicht überein</string>
     <string name="input_email_address_notice">Wir werden diese E-Mail zur Verifizierung Ihres Kontos verwenden</string>
+    <string name="input_length_exceeds_limit">Der eingegebene Text ist zu lang</string>
     <string name="input_new_pwd">Neues Passwort eingeben</string>
     <string name="isornot_your_mi_account">Ist das Ihr Mi-Konto?</string>
     <string name="issue_search">Suchen</string>
@@ -348,7 +355,12 @@ Senden Sie diesen Code an den Supervisor."</string>
     <string name="kr_authorization_user_protocol">Nutzervereinbarung (obligatorisch)</string>
     <string name="loading">Einen Moment…</string>
     <string name="loading_apps">Liste laden…</string>
+    <string name="login_by_local_phone_long_text">Jetzt anmelden</string>
+    <string name="login_by_local_phone_short_text">Anmelden</string>
+    <string name="login_other">Anderes Mi-Konto</string>
+    <string name="login_register_by_local_phone_long_text">Konto erstellen</string>
     <string name="login_system_failed">Loginfehler, erneut versuchen</string>
+    <string name="login_with_sns">Andere Arten der Anmeldung</string>
     <string name="logout_account">Abmelden</string>
     <string name="max_error">Ihr %1$s sollte kürzer sein</string>
     <string name="menu_copy">Kopieren</string>
@@ -420,6 +432,7 @@ Senden Sie diesen Code an den Supervisor."</string>
     <string name="michat_webview_title">Details anzeigen</string>
     <string name="midnight">Nacht</string>
     <string name="min_error">Ihr %1$s sollte länger sein</string>
+    <string name="mishop_login_other">Anderes Konto</string>
     <string name="miuix_access_state_desc">Ausgewählt</string>
     <string name="miuix_alphabet_indexer_name">Indexleiste</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Abwählen</string>
@@ -436,6 +449,7 @@ Senden Sie diesen Code an den Supervisor."</string>
     <string name="miuix_appcompat_select_all">Alle wählen</string>
     <string name="miuix_appcompat_select_all_description">Alle wählen</string>
     <string name="miuix_appcompat_select_item">Elemente wählen</string>
+    <string name="miuix_indexer_collect">Sammlungen</string>
     <string name="miuix_indexer_selected">%s ausgewählt</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Zum Aktualisieren herunterziehen</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Erfolgreich aktualisiert</string>
@@ -502,6 +516,7 @@ Senden Sie diesen Code an den Supervisor."</string>
     <string name="multi_graph_more">Elemente gesamt: %d</string>
     <string name="net_error_info">Keine Netzwerkverbindung. Hier tippen, um zu den Einstellungen zu gelangen.</string>
     <string name="network_err">Netzwerkverbindung fehlgeschlagen</string>
+    <string name="network_error_info">Ein Netzwerkfehler ist aufgetreten. Netzwerkeinstellungen prüfen und erneut versuchen.</string>
     <string name="network_errorbtntip_custom">Erneut versuchen</string>
     <string name="network_errorbtntip_login">Anmelden</string>
     <string name="network_errorbtntip_noconnection">Netzwerkverbindung prüfen</string>
@@ -516,6 +531,7 @@ Senden Sie diesen Code an den Supervisor."</string>
     <string name="network_errortip_server">Serverfehler, erneut versuchen</string>
     <string name="network_errortip_timeout">Servertimeout, erneut versuchen</string>
     <string name="network_errortip_unknow">Wir versuchen, es zu reparieren…</string>
+    <string name="network_timeout_info">Netzwerkverbindung wurde nicht hergestellt. Erneut versuchen.</string>
     <string name="network_unavailable_dialog_content">Ihr Bericht wird gesendet, wenn Sie eine Netzwerkverbindung haben.</string>
     <string name="network_unavailable_dialog_title">Netzwerkverbindung fehlgeschlagen</string>
     <string name="nick_name">Spitzname</string>
@@ -724,6 +740,7 @@ Senden Sie diesen Code an den Supervisor."</string>
     <string name="phone_number">Rufnummer</string>
     <string name="photoPickerNotFoundText">Keine Fotos verfügbar</string>
     <string name="pic_not_exist">Dieses Bild existiert nicht</string>
+    <string name="please_agree_protocal">Bitte dem Protokoll zustimmen</string>
     <string name="plus_one_submit_dialog_content">Ihr Feedback wird zusammen mit den Fehlerprotokollen an Mi Server gesendet</string>
     <string name="plus_one_submit_dialog_not_show_again">Einstellung merken</string>
     <string name="post_miui_bbs_failed">Posten im MIUI Forum fehlgeschlagen</string>
@@ -732,24 +749,36 @@ Senden Sie diesen Code an den Supervisor."</string>
     <string name="privacy_policy_title">Datenschutzerklärung</string>
     <string name="privacy_policy_update_hint">%1$s Datenschutzerklärung wurde aktualisiert:\n%2$s\nLesen und akzeptieren Sie die neue Version von %3$s, bevor Sie fortfahren.</string>
     <string name="privacy_policy_update_title">Datenschutzerklärung aktualisiert</string>
+    <string name="progressbar_title">Auf Sicherheitsprobleme prüfen…</string>
+    <string name="protocal_dialog_cancel">Abbrechen</string>
+    <string name="protocal_dialog_confirm">Zustimmen</string>
+    <string name="protocal_dialog_title">Achtung</string>
     <string name="psw_hint">Passwort</string>
     <string name="psw_sign_in">Mit Passwort anmelden</string>
     <string name="pull_to_refresh_pull_label">Zum Aktualisieren herunterziehen</string>
     <string name="pull_to_refresh_refreshing_label">Aktualisieren…</string>
     <string name="pull_to_refresh_release_label">Zum Aktualisieren loslassen</string>
     <string name="refresh">Aktualisieren</string>
+    <string name="register_by_local_phone_long_text">Konto erstellen</string>
+    <string name="register_by_local_phone_short_text">Konto erstellen</string>
     <string name="related_question_answer_details">Ähnliche Probleme</string>
     <string name="reply">Antworten</string>
     <string name="reply_failed">Antworten fehlgeschlagen</string>
     <string name="reply_select_log_hint">Protokoll auswählen</string>
     <string name="reply_successful">Erfolgreich beantwortet</string>
     <string name="report_miui">Fehler melden</string>
+    <string name="request_agree">Zulassen</string>
     <string name="request_camera_permission_message">"Dieser Dienst bittet um Ihre Erlaubnis wie folgt, wir werden uns strikt an die einschlägigen Gesetze zum Schutz Ihrer persönlichen Daten halten:
 
 <b>Kamerazugriff: Erleben Sie Echtzeit-Aufzeichnungsdienste für die Einstellung eines Avatars</b>
 
 Wenn Sie nicht zustimmen, die oben genannten Berechtigungen zu erteilen, wird diese Funktion nicht richtig funktionieren, aber es wird die Nutzung der Grundfunktionen dieser App nicht beeinträchtigen. Sie können die oben genannte Berechtigungsabfrage in den Systemeinstellungen abschalten, um Ihre Zustimmung zurückzuziehen."</string>
+    <string name="request_cancel">Abbrechen</string>
     <string name="request_empty_data">Keine Daten</string>
+    <string name="request_error_invalid_token">Verifizieren nicht möglich</string>
+    <string name="request_error_network">Ein Netzwerkfehler ist aufgetreten. Netzwerkeinstellungen prüfen und erneut versuchen.</string>
+    <string name="request_error_unknown">Ein Systemfehler ist aufgetreten. Zurückgehen und erneut versuchen.</string>
+    <string name="request_gallery_permission_message">Zugriff auf Galerie zulassen:&lt;br />Für die Einrichtung von Profilfotos</string>
     <string name="resend_active_email">Erneut senden</string>
     <string name="resend_email_reach_limit_message">Zu viele Verifizierungs-E-Mails wurden angefordert. Prüfen Sie, ob sich die Verifizierungs-E-Mail im Spam-Ordner des Posteingangs befindet.</string>
     <string name="resend_email_reach_limit_title">Zu viele Versuche</string>
@@ -779,6 +808,7 @@ Wenn Sie nicht zustimmen, die oben genannten Berechtigungen zu erteilen, wird di
     <string name="sign_in">Anmelden</string>
     <string name="sign_in_progress">Anmelden…</string>
     <string name="sign_in_title">Mit Mi-Konto anmelden</string>
+    <string name="skip_query_account">Überspringen</string>
     <string name="sms_send_success">Erfolgreich gesendet</string>
     <string name="sns_access_token_expired_warning">Sitzung abgelaufen. Erneut anmelden, um dieses Konto wieder zu verbinden.</string>
     <string name="sns_bind_limit">Zu viele Versuche. Andere Art der Anmeldung probieren.</string>
@@ -827,6 +857,7 @@ Wenn Sie nicht zustimmen, die oben genannten Berechtigungen zu erteilen, wird di
     <string name="sunday_short">So</string>
     <string name="sunday_shortest">S</string>
     <string name="system_app_select">System-Apps</string>
+    <string name="system_error_info">System ist beschäftigt.  Einen Moment warten und erneut versuchen.</string>
     <string name="systemui">Benachrichtigungsleiste</string>
     <string name="tab_title_my_reports">Meine Berichte</string>
     <string name="tab_title_preferences">Einstellungen</string>
@@ -925,6 +956,7 @@ Wenn Sie nicht zustimmen, die oben genannten Berechtigungen zu erteilen, wird di
     <string name="tuesday">Dienstag</string>
     <string name="tuesday_short">Di</string>
     <string name="tuesday_shortest">D</string>
+    <string name="unknown_error_info">Unbekannter Fehler</string>
     <string name="update_dialog_cancel">Abbrechen</string>
     <string name="update_dialog_content_log">"Was ist neu:
 %1$s
@@ -936,11 +968,24 @@ Größe: %2$s"</string>
     <string name="update_phone_notice">Sicherheitseinstellungen ändern</string>
     <string name="upload_error_log">Protokoll hochladen</string>
     <string name="upload_log_failed">Protokolle senden nicht möglich</string>
+    <string name="user_agreement_hint_3rd_app"><Data>Ich habe die &lt;a href=\"%1$s\">Nutzervereinbarung&lt;/a> und &lt;a href=\"%2$s\">Datenschutzerklärung&lt;/a> sowie die Mi-Konto &lt;a href=\"%3$s\">Nutzervereinbarung&lt;/a> und &lt;a href=\"%4$s\">Datenschutzerklärung&lt;/a> gelesen und akzeptiert.</Data></string>
+    <string name="user_agreement_hint_3rd_app_mobile"><Data>Ich habe die &lt;a href=\"%1$s\">Nutzervereinbarung&lt;/a> und &lt;a href=\"%2$s\">Datenschutzerklärung&lt;/a>, die Mi-Konto &lt;a href=\"%3$s\">Nutzervereinbarung&lt;/a> und &lt;a href=\"%4$s\">Datenschutzerklärung&lt;/a> sowie die &lt;a href=\"%5$s\">allgemeinen Geschäftsbedingungen der China Mobile Verifikationsdienste&lt;/a> gelesen und akzeptiert.</Data></string>
+    <string name="user_agreement_hint_3rd_app_with_telecom"><Data>Ich habe die &lt;a href=\"%1$s\">Nutzervereinbarung&lt;/a> und &lt;a href=\"%2$s\">Datenschutzerklärung&lt;/a>, die Mi-Konto &lt;a href=\"%3$s\">Nutzervereinbarung&lt;/a> und &lt;a href=\"%4$s\">Datenschutzerklärung&lt;/a> sowie die &lt;a href=\"%5$s\">allgemeinen Geschäftsbedingungen der eSurfing Konto-Verifikationsdienste&lt;/a> gelesen und akzeptiert.</Data></string>
+    <string name="user_agreement_hint_3rd_app_with_unicom"><Data>Ich habe die &lt;a href=\"%1$s\">Nutzervereinbarung&lt;/a> und &lt;a href=\"%2$s\">Datenschutzerklärung&lt;/a>, die Mi-Konto &lt;a href=\"%3$s\">Nutzervereinbarung&lt;/a> und &lt;a href=\"%4$s\">Datenschutzerklärung&lt;/a> sowie die &lt;a href=\"%5$s\">allgemeinen Geschäftsbedingungen der China Unicom Verifikationsdienste&lt;/a> gelesen und akzeptiert.</Data></string>
+    <string name="user_agreement_hint_default"><Data>Ich habe die Mi-Konto &lt;a href=\"%1$s\">Nutzervereinbarung&lt;/a> und &lt;a href=\"%2$s\">Datenschutzerklärung&lt;/a> gelesen und akzeptiert.</Data></string>
+    <string name="user_agreement_hint_default_1"><Data>&lt;a href=\"%1$s\">Nutzervereinbarung&lt;/a> und &lt;a href=\"%2$s\">Datenschutzerklärung gelesen und akzeptiert.&lt;/a></Data></string>
+    <string name="user_agreement_hint_default_extra"><Data>Ich habe die &lt;a href=\"%1$s\">Nutzervereinbarung&lt;/a> und &lt;a href=\"%2$s\">Datenschutzerklärung.&lt;/a> gelesen und akzeptiert. Bei der ersten Anmeldung wird automatisch ein Xiaomi-Konto erstellt.</Data></string>
+    <string name="user_agreement_hint_first_login">Wir erstellen automatisch ein Konto, wenn Sie Ihre Rufnummer zum ersten Mal verwenden.</string>
+    <string name="user_agreement_hint_with_mobile"><Data>Ich habe die Mi-Konto &lt;a href=\"%1$s\">Nutzervereinbarung&lt;/a> und &lt;a href=\"%2$s\">Datenschutzerklärung&lt;/a> sowie die &lt;a href=\"%3$s\">allgemeinen Geschäftsbedingungen der China Mobile Verifikationsdienste&lt;/a> gelesen und akzeptiert.</Data></string>
+    <string name="user_agreement_hint_with_telecom"><Data>Ich habe die Mi-Konto &lt;a href=\"%1$s\">Nutzervereinbarung&lt;/a> und &lt;a href=\"%2$s\">Datenschutzerklärung&lt;/a> sowie die &lt;a href=\"%3$s\">allgemeinen Geschäftsbedingungen der eSurfing account Verifikationsdienste&lt;/a> gelesen und akzeptiert.</Data></string>
+    <string name="user_agreement_hint_with_unicom"><Data>Ich habe die Mi-Konto &lt;a href=\"%1$s\">Nutzervereinbarung&lt;/a> und &lt;a href=\"%2$s\">Datenschutzerklärung&lt;/a> sowie die &lt;a href=\"%3$s\">allgemeinen Geschäftsbedingungen der China Unicom Verifikationsdienste&lt;/a> gelesen und akzeptiert.</Data></string>
+    <string name="user_agreement_protocal_dialog_hint_default"><Data>&lt;a href=\"%1$s\">Nutzervereinbarung&lt;/a> und &lt;a href=\"%2$s\">Datenschutzerklärung&lt;/a> sowie die Mi-Konto &lt;a href=\"%3$s\">Nutzervereinbarung&lt;/a> und &lt;a href=\"%4$s\">Datenschutzerklärung&lt;/a> gelesen und akzeptiert."</Data></string>
     <string name="user_avatar_update_title">Profilbild ändern</string>
     <string name="user_avatar_uploading">Einen Moment…</string>
     <string name="user_id_hint">E-Mail/Telefon/Mi-Konto-ID</string>
     <string name="user_must_known">Achtung</string>
     <string name="user_must_known_content">Sie können unsere Dienste nicht weiter nutzen, wenn Sie der neuen Version unserer %s nicht zustimmen. Jetzt der aktualisierten Datenschutzerklärung zustimmen?</string>
+    <string name="user_name_phone_number">Rufnummer</string>
     <string name="v7_preference_off">AUS</string>
     <string name="v7_preference_on">AN</string>
     <string name="v_code_title">Verifizierungscode eingeben</string>

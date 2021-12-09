@@ -79,6 +79,7 @@ Ihre Konto ID: %s"</string>
     <string name="account_verify_guide_bind_mail_desc">Wiederherstellungs-E-Mail hinzufügen</string>
     <string name="account_verify_guide_bind_phone_desc">Wiederherstellungstelefon hinzufügen</string>
     <string name="account_verify_guide_set_password_desc">Passwort festlegen</string>
+    <string name="account_verify_guide_verify_phone_desc">Wiederherstellungstelefon bestätigen</string>
     <string name="account_xiaomi_service">Dienste</string>
     <string name="action_add_phone">Rufnummer hinzufügen</string>
     <string name="action_retry">Erneut versuchen</string>
@@ -117,6 +118,10 @@ Ihre Konto ID: %s"</string>
     <string name="close">Schließen</string>
     <string name="cloud_description_closed">Belegt | Synchronisation ist aus</string>
     <string name="cloud_description_normal">Belegt</string>
+    <string name="cloud_service_status_backup_not_open">Sicherung ist aus</string>
+    <string name="cloud_service_status_cloud_not_open">Aus</string>
+    <string name="cloud_service_status_storage_full">Speicher ist voll</string>
+    <string name="cloud_service_status_storage_not_enough">Nicht genug Speicher</string>
     <string name="collect_diagnosis_log">Diagnoseprotokoll erstellen</string>
     <string name="com_facebook_device_auth_instructions">Gehen Sie auf &lt;b&gt;facebook.com/device&lt;/b&gt; und geben Sie den oben gezeigten Code ein.</string>
     <string name="com_facebook_image_download_unknown_error">Unerwarteter Fehler beim Herunterladen eines Bildes</string>
@@ -400,6 +405,8 @@ Senden Sie diesen Code an den Supervisor."</string>
     <string name="notify_network_restricted_content_hidden_state">Hintergrundaktivität für Mi-Konto wurde eingeschränkt. Zum Erlauben antippen.</string>
     <string name="notify_network_restricted_content_mobile_network">Internetzugriff für Mi-Konto wurde eingeschränkt. Zum Erlauben antippen.</string>
     <string name="notify_network_restricted_title">Mi-Konto konnte keine Netzwerkverbindung herstellen</string>
+    <string name="notify_verify_again_security_phone">Bestätigen</string>
+    <string name="notify_verify_security_phone">Telefon</string>
     <string name="oauth_get_scopes_failed">Kontoinformationen wurden nicht abgerufen</string>
     <string name="oauth_getting_scopes">Konto prüfen…</string>
     <string name="oauth_scopes_intro">&lt;font color=#%1$s&gt;%2$s&lt;/font&gt; erhält folgende Berechtigungen:&lt;br&gt; &lt;br&gt; %3$s</string>
@@ -479,7 +486,7 @@ Senden Sie diesen Code an den Supervisor."</string>
     <string name="passport_extra_gdpr_license">Erstellen Ihres Mi-Kontos bedeutet, dass Sie damit einverstanden sind, dass Xiaomi Ihre persönlichen Daten sammelt, verarbeitet und nutzt, inkl. Verifizierungsdaten (z. B. Verifizierungscodes), Zweitprofildaten (z. B. Informationen über die Art und Weise, wie Sie das Zweitprofil nutzen, IDs, die im Haupt- und Zweitprofil verwendet werden) und andere Daten, die in unserer Datenschutzerklärung angegeben sind. In unserer Datenschutzerklärung erfahren Sie, wie wir personenbezogene Daten verarbeiten und nutzen.</string>
     <string name="passport_failed_to_send_activate_email">Aktivierungsmail wurde nicht gesendet</string>
     <string name="passport_find_password_on_web_msg">Besuchen Sie account.mi.com, um Ihr Passwort zurückzusetzen.</string>
-    <string name="passport_first_login_prompt">Mi Konto wird automatisch erstellt, wenn Sie eine Rufnummer zum ersten Mal benutzen.</string>
+    <string name="passport_first_login_prompt">Mi-Konto wird automatisch erstellt, wenn Sie eine Rufnummer zum ersten Mal benutzen.</string>
     <string name="passport_forget_password">Passwort vergessen</string>
     <string name="passport_forget_password_no_underline">Passwort vergessen</string>
     <string name="passport_get_back_pwd">Kontopasswort abrufen</string>
@@ -697,7 +704,7 @@ Senden Sie diesen Code an den Supervisor."</string>
     <string name="request_use_camera_title">Kamerazugriff</string>
     <string name="request_use_gallery_message">Mi-Konto Galeriezugriff erlauben?</string>
     <string name="request_use_gallery_title">Galeriezugriff</string>
-    <string name="request_use_writing_clipboard_message">Um Ihre Mi Konto-ID zu kopieren, Mi-Konto erlauben, Elemente in der Zwischenablage zu speichern.</string>
+    <string name="request_use_writing_clipboard_message">Um Ihre Mi-Konto-ID zu kopieren, Mi-Konto erlauben, Elemente in der Zwischenablage zu speichern.</string>
     <string name="resend_active_email">Erneut senden</string>
     <string name="resend_email_reach_limit_message">Zu viele Verifizierungs-E-Mails wurden angefordert. Prüfen Sie, ob sich die Verifizierungs-E-Mail im Spam-Ordner des Posteingangs befindet.</string>
     <string name="resend_email_reach_limit_title">Zu viele Versuche</string>
