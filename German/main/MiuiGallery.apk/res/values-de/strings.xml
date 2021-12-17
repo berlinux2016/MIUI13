@@ -9,12 +9,37 @@
     <string name="album_permission_title_non_granted">Nicht gewährt</string>
     <string name="backup_disable_message">Galerie muss den App-Cache löschen, weil Sie die Synchronisierung mit der Cloud deaktiviert haben.</string>
     <string name="delete_account_message">Galerie muss den App-Cache löschen, weil Sie sich von Ihrem Mi-Konto abgemeldet haben.</string>
+    <string name="device_storage_space_low_dialog_des">Originalfotos und -videos werden in Mi Cloud gespeichert und das Gerät behält eine kleinere und qualitativ hochwertige Version, um etwa %s des Gerätespeichers freizugeben</string>
+    <string name="device_storage_space_low_dialog_title">Nicht genügend Gerätespeicherplatz</string>
+    <string name="device_storage_space_low_notice_des">Fotos und Videos in die Cloud hochladen, um den lokalen Speicherplatz von %s freizugeben</string>
+    <string name="device_storage_space_low_notice_title">Telefonspeicherplatz wird voll sein</string>
+    <string name="device_storage_space_low_textline_button">Ein-Tasten-Freigabe</string>
+    <string name="device_storage_space_low_textline_des">Telefonspeicherplatz ist fast voll, %s Speicherplatz freigeben</string>
+    <string name="download_delete_error_desc">Element kann nicht wiederhergestellt werden, da Sie es von diesem Gerät und aus der Cloud gelöscht haben. Leere Datei jetzt entfernen?</string>
+    <string name="download_delete_error_positive">Entfernen</string>
+    <string name="download_delete_error_title">Fehlendes Element</string>
     <string name="error_storage_no_write_permission_tip_action">Gewähren</string>
     <string name="error_storage_no_write_permission_tip_title">"Für einige Alben sind Berechtigungen erforderlich, damit sie synchronisiert werden können. "</string>
     <string name="filter_popular_sunset_gold">Glanz</string>
+    <string name="group_header_title_media_group">Medientypen</string>
+    <string name="map_privacy_dialog_content"><Data>Dieser Dienst ermöglicht es Ihnen, Fotos und Videos mit Standortinformationen auf einer Karte anzuzeigen. Wir verwenden Baidu Map Open SDK, um Ihnen diesen Dienst zur Verfügung zu stellen. Lesen Sie die &lt;a href=\"%1$s\">Erklärung zur Weitergabe von Daten an Dritte&lt;/a>, bevor Sie fortfahren und stimmen Sie ihr zu.</Data></string>
+    <string name="media_type_burst_photo">Burst</string>
+    <string name="media_type_clone_photo">Klone</string>
+    <string name="media_type_doc_photo">Dokumente</string>
+    <string name="media_type_fast_motion_video">Zeitraffer</string>
+    <string name="media_type_front_photo">Selfies</string>
+    <string name="media_type_live_vv">Vlog</string>
+    <string name="media_type_motion_photo">Dynamisch</string>
+    <string name="media_type_pano_photo">Panoramen</string>
+    <string name="media_type_portrait_photo">Porträt</string>
+    <string name="media_type_slow_motion_video">Zeitlupe</string>
     <string name="migrate_msg">Für einige Alben sind Berechtigungen erforderlich, um Elemente nach einer Systemaktualisierung zu verschieben.</string>
     <string name="motion_photo_enter">Dynamische Aufnahme</string>
     <string name="onekey_beautify_tag_done">Angewandte Effekte</string>
+    <string name="privacy_map_detail_content_new">Gallery Map Erklärung zur gemeinsamen Nutzung von Daten durch Dritte</string>
+    <string name="privacy_reject_map_detail_new"><Data>Ihr Widerruf der Zustimmung zur &lt;a href=\"%1$s\">Gallery Map-Erklärung zur Weitergabe von Daten an Dritte&lt;/a> wird als Ablehnung der Gallery Map-Dienste gewertet. Sie können andere Galeriefunktionen weiterhin normal nutzen. Zustimmung jetzt widerrufen?</Data></string>
+    <string name="privacy_rejected_map_new">Zustimmung zur Erklärung über die Weitergabe von Daten an Dritte durch Gallery Map widerrufen</string>
+    <string name="privacy_rejected_pos_btn">Widerrufen</string>
     <string name="saf_hyper_link_text">Berechtigungen verwalten</string>
     <string name="saf_operation_guide_1">"Galerie benötigt Ihre Erlaubnis, um Ihre Daten schützen und verwalten zu können. "</string>
     <string name="saf_operation_guide_2">Um die Erlaubnis zu erteilen, auf \"%1$s\" tippen und dann \"%2$s\" wählen.</string>
@@ -37,12 +62,6 @@
     <string name="xiaomi_market_sdk_update_dialog_cancel">Nicht jetzt</string>
     <string name="xiaomi_market_sdk_update_dialog_title">Update ist verfügbar</string>
 
-    <string name="device_storage_space_low_dialog_des">Originalfotos und -videos werden in Mi Cloud gespeichert und das Gerät behält eine kleinere und qualitativ hochwertige Version, um etwa %s des Gerätespeichers freizugeben</string>
-    <string name="device_storage_space_low_dialog_title">Nicht genügend Gerätespeicherplatz</string>
-    <string name="device_storage_space_low_notice_des">Fotos und Videos in die Cloud hochladen, um den lokalen Speicherplatz von %s freizugeben</string>
-    <string name="device_storage_space_low_notice_title">Telefonspeicherplatz wird voll sein</string>
-    <string name="device_storage_space_low_textline_button">Ein-Tasten-Freigabe</string>
-    <string name="device_storage_space_low_textline_des">Telefonspeicherplatz ist fast voll, %s Speicherplatz freigeben</string>
 
     <string name="abc_action_bar_home_description">Zur Startseite</string>
     <string name="abc_action_bar_up_description">Nach oben</string>
@@ -1107,7 +1126,7 @@
     <string name="home_menu_cleaner">Speicherplatz freigeben</string>
     <string name="home_menu_collage">Fotomontage erstellen</string>
     <string name="home_menu_macarons">Magische Vignette</string>
-    <string name="home_menu_magic_matting">Magie</string>
+    <string name="home_menu_magic_matting">Ausschnitt</string>
     <string name="home_menu_photo_movie">Videoclip erstellen</string>
     <string name="home_menu_print">Fotos drucken</string>
     <string name="home_menu_video_post">Videoeffekte</string>
@@ -1160,7 +1179,7 @@
     <string name="image_with_time">Foto aufgenommen %s</string>
     <string name="image_with_time_and_location">Foto aufgenommen %1$s | Standort: %2$s</string>
     <string name="impunity_declaration_settings">Netzwerkhinweis anzeigen</string>
-    <string name="impunity_declaration_summary">Bei jedem Start der Galerie anzeigen</string>
+    <string name="impunity_declaration_summary">Beim nächsten Öffnen der Galerie eine Benachrichtigung über die Internetverbindung anzeigen</string>
     <string name="initializing_cloud">Initialisieren…</string>
     <string name="input_a_name">Namen eingeben</string>
     <string name="input_baby_name">Namen eingeben</string>
@@ -1258,7 +1277,7 @@
     <string name="magic_eraser">Radierer</string>
     <string name="magic_error_adding_filter">Filter anwenden fehlgeschlagen</string>
     <string name="magic_exporting">Speichern…</string>
-    <string name="magic_filter">Magie</string>
+    <string name="magic_filter">Ausschnitt</string>
     <string name="magic_filter_dsc">Erstellen Sie Porträts mit atemberaubenden Hintergründen</string>
     <string name="magic_galery">Galerie</string>
     <string name="magic_hight">Höhe</string>
@@ -1283,14 +1302,14 @@
     <string name="magic_matting_download_failed_for_notwork">Herunterladen fehlgeschlagen. Netzwerkeinstellungen prüfen und erneut versuchen.</string>
     <string name="magic_matting_download_sdk_without_wifi_msg">Anscheinend ist Ihr Gerät nicht mit WLAN verbunden. Plugin mit mobilen Daten herunterladen?</string>
     <string name="magic_matting_download_sdk_without_wifi_msg_china">Anscheinend ist Ihr Gerät nicht mit WLAN verbunden. Plugin mit mobilen Daten herunterladen?</string>
-    <string name="magic_matting_download_sdk_without_wifi_title">\"Magie\"-Plugin herunterladen</string>
+    <string name="magic_matting_download_sdk_without_wifi_title">\"Ausschnitt\"-Plugin herunterladen</string>
     <string name="magic_matting_download_with_metered_network_msg">Anscheinend ist Ihr Gerät mit einem kostenpflichtigen Netzwerk verbunden. Herunterladen von Originaldateien kann zu zusätzlichen Kosten führen. Trotzdem herunterladen?</string>
     <string name="magic_matting_download_with_metered_network_title">Kostenpflichtiges Netzwerk</string>
     <string name="magic_matting_error_px">Bildgröße wird nicht unterstützt</string>
     <string name="magic_matting_face_fail">Gesicht nicht verarbeitbar</string>
     <string name="magic_matting_load_data_fail">Daten laden fehlgeschlagen</string>
-    <string name="magic_matting_module_finish">\"Magie\"-Plugin erfolgreich heruntergeladen</string>
-    <string name="magic_matting_module_loading">\"Magie\"-Plugin herunterladen…</string>
+    <string name="magic_matting_module_finish">\"Ausschnitt\"-Plugin erfolgreich heruntergeladen</string>
+    <string name="magic_matting_module_loading">\"Ausschnitt\"-Plugin herunterladen…</string>
     <string name="magic_max_px">Bild ist zu groß</string>
     <string name="magic_metered_network_msg">Anscheinend ist Ihr Gerät mit einem kostenpflichtigen Netzwerk verbunden. Herunterladen von Originaldateien kann zu zusätzlichen Kosten führen. Trotzdem herunterladen?</string>
     <string name="magic_metered_network_title">Kostenpflichtiges Netzwerk</string>
