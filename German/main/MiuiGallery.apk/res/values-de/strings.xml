@@ -1,68 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-    <string name="album_permission_activity_title">Berechtigungen verwalten</string>
-    <string name="album_permission_state_granted">Gewährt</string>
-    <string name="album_permission_state_non_granted">Gewähren</string>
-    <string name="album_permission_subtitle_single">%2$d Album ( %1$s)</string>
-    <string name="album_permission_tip_text">Galerie benötigt Berechtigungen, um die unten aufgeführten Elemente zu synchronisieren, zu bearbeiten und zu verwalten.</string>
-    <string name="album_permission_title_granted">Gewährt</string>
-    <string name="album_permission_title_non_granted">Nicht gewährt</string>
-    <string name="backup_disable_message">Galerie muss den App-Cache löschen, weil Sie die Synchronisierung mit der Cloud deaktiviert haben.</string>
-    <string name="delete_account_message">Galerie muss den App-Cache löschen, weil Sie sich von Ihrem Mi-Konto abgemeldet haben.</string>
-    <string name="device_storage_space_low_dialog_des">Originalfotos und -videos werden in Mi Cloud gespeichert und das Gerät behält eine kleinere und qualitativ hochwertige Version, um etwa %s des Gerätespeichers freizugeben</string>
-    <string name="device_storage_space_low_dialog_title">Nicht genügend Gerätespeicherplatz</string>
-    <string name="device_storage_space_low_notice_des">Fotos und Videos in die Cloud hochladen, um den lokalen Speicherplatz von %s freizugeben</string>
-    <string name="device_storage_space_low_notice_title">Telefonspeicherplatz wird voll sein</string>
-    <string name="device_storage_space_low_textline_button">Ein-Tasten-Freigabe</string>
-    <string name="device_storage_space_low_textline_des">Telefonspeicherplatz ist fast voll, %s Speicherplatz freigeben</string>
-    <string name="download_delete_error_desc">Element kann nicht wiederhergestellt werden, da Sie es von diesem Gerät und aus der Cloud gelöscht haben. Leere Datei jetzt entfernen?</string>
-    <string name="download_delete_error_positive">Entfernen</string>
-    <string name="download_delete_error_title">Fehlendes Element</string>
-    <string name="error_storage_no_write_permission_tip_action">Gewähren</string>
-    <string name="error_storage_no_write_permission_tip_title">"Für einige Alben sind Berechtigungen erforderlich, damit sie synchronisiert werden können. "</string>
-    <string name="filter_popular_sunset_gold">Glanz</string>
-    <string name="group_header_title_media_group">Medientypen</string>
-    <string name="map_privacy_dialog_content"><Data>Dieser Dienst ermöglicht es Ihnen, Fotos und Videos mit Standortinformationen auf einer Karte anzuzeigen. Wir verwenden Baidu Map Open SDK, um Ihnen diesen Dienst zur Verfügung zu stellen. Lesen Sie die &lt;a href=\"%1$s\">Erklärung zur Weitergabe von Daten an Dritte&lt;/a>, bevor Sie fortfahren und stimmen Sie ihr zu.</Data></string>
-    <string name="media_type_burst_photo">Burst</string>
-    <string name="media_type_clone_photo">Klone</string>
-    <string name="media_type_doc_photo">Dokumente</string>
-    <string name="media_type_fast_motion_video">Zeitraffer</string>
-    <string name="media_type_front_photo">Selfies</string>
-    <string name="media_type_live_vv">Vlog</string>
-    <string name="media_type_motion_photo">Dynamisch</string>
-    <string name="media_type_pano_photo">Panoramen</string>
-    <string name="media_type_portrait_photo">Porträt</string>
-    <string name="media_type_slow_motion_video">Zeitlupe</string>
-    <string name="migrate_msg">Für einige Alben sind Berechtigungen erforderlich, um Elemente nach einer Systemaktualisierung zu verschieben.</string>
-    <string name="motion_photo_enter">Dynamische Aufnahme</string>
-    <string name="onekey_beautify_tag_done">Angewandte Effekte</string>
-    <string name="privacy_map_detail_content_new">Gallery Map Erklärung zur gemeinsamen Nutzung von Daten durch Dritte</string>
-    <string name="privacy_reject_map_detail_new"><Data>Ihr Widerruf der Zustimmung zur &lt;a href=\"%1$s\">Gallery Map-Erklärung zur Weitergabe von Daten an Dritte&lt;/a> wird als Ablehnung der Gallery Map-Dienste gewertet. Sie können andere Galeriefunktionen weiterhin normal nutzen. Zustimmung jetzt widerrufen?</Data></string>
-    <string name="privacy_rejected_map_new">Zustimmung zur Erklärung über die Weitergabe von Daten an Dritte durch Gallery Map widerrufen</string>
-    <string name="privacy_rejected_pos_btn">Widerrufen</string>
-    <string name="saf_hyper_link_text">Berechtigungen verwalten</string>
-    <string name="saf_operation_guide_1">"Galerie benötigt Ihre Erlaubnis, um Ihre Daten schützen und verwalten zu können. "</string>
-    <string name="saf_operation_guide_2">Um die Erlaubnis zu erteilen, auf \"%1$s\" tippen und dann \"%2$s\" wählen.</string>
-    <string name="saf_operation_guide_param1">Weiter</string>
-    <string name="saf_operation_guide_param2">Zugriff auf den Ordner</string>
-    <string name="saf_requester_cancel">Abbrechen</string>
-    <string name="saf_requester_title">Galerie den \"%s\"-Zugriff erlauben</string>
-    <string name="saf_secret_album">Privates Album</string>
-    <string name="saf_secret_album_guide">Diese App benötigt Berechtigungen, um Elemente aus Ihrem privaten Album anzuzeigen.</string>
-    <string name="update_apk_size">Paketgröße aktualisieren： %s MB</string>
-    <string name="update_btn_exit">Zurück</string>
-    <string name="update_btn_negative">Verzögern</string>
-    <string name="update_check">Auf Updates prüfen</string>
-    <string name="update_check_title">Aktuelle Version: %s</string>
-    <string name="update_ignore">Ignorieren</string>
-    <string name="update_latest_version">Bereits die neueste Version</string>
-    <string name="update_network_error">Bitte Netzwerk überprüfen und erneut versuchen</string>
-    <string name="update_new_version">Neue Version gefunden</string>
-    <string name="update_title">Neue Version %s gefunden</string>
-    <string name="xiaomi_market_sdk_update_dialog_cancel">Nicht jetzt</string>
-    <string name="xiaomi_market_sdk_update_dialog_title">Update ist verfügbar</string>
-
-
     <string name="abc_action_bar_home_description">Zur Startseite</string>
     <string name="abc_action_bar_up_description">Nach oben</string>
     <string name="abc_action_menu_overflow_description">Mehr Optionen</string>
@@ -196,6 +133,13 @@
     <string name="album_page_empty">Leer</string>
     <string name="album_page_label">Alben</string>
     <string name="album_pano_name">Panoramen</string>
+    <string name="album_permission_activity_title">Berechtigungen verwalten</string>
+    <string name="album_permission_state_granted">Gewährt</string>
+    <string name="album_permission_state_non_granted">Gewähren</string>
+    <string name="album_permission_subtitle_single">%2$d Album ( %1$s)</string>
+    <string name="album_permission_tip_text">Galerie benötigt Berechtigungen, um die unten aufgeführten Elemente zu synchronisieren, zu bearbeiten und zu verwalten.</string>
+    <string name="album_permission_title_granted">Gewährt</string>
+    <string name="album_permission_title_non_granted">Nicht gewährt</string>
     <string name="album_quota_fulfiled">Album erstellen nicht möglich, Albenanzahl hat Limit erreicht.</string>
     <string name="album_rubbish_cant_change_status">In Papierkorb verschobene Alben synchronisieren nicht möglich</string>
     <string name="album_rubbish_clear_all_item_description">Papierkorb leeren</string>
@@ -327,6 +271,7 @@
     <string name="backup_device_space_low_title">Nicht genügend freier Speicher</string>
     <string name="backup_dirty_num">Gesamt: %s</string>
     <string name="backup_dirty_tip">Nicht gesicherte Fotos und Videos</string>
+    <string name="backup_disable_message">Galerie muss den App-Cache löschen, weil Sie die Synchronisierung mit der Cloud deaktiviert haben.</string>
     <string name="backup_file_over_size_desc">Fotos die größer als %1$s und Videos die größer als %2$s sind, können nicht gesichert werden.</string>
     <string name="backup_immediately">Sichern</string>
     <string name="backup_need_sync_desc">Taste antippen, um fortzufahren</string>
@@ -631,6 +576,7 @@
     <string name="default_relation_name">Neue Gruppe</string>
     <string name="define_by_user">Benutzerdefiniert</string>
     <string name="delete">Löschen</string>
+    <string name="delete_account_message">Galerie muss den App-Cache löschen, weil Sie sich von Ihrem Mi-Konto abgemeldet haben.</string>
     <string name="delete_album_failed">Album löschen fehlgeschlagen</string>
     <string name="delete_album_msg_format">\"%2$s\" Album %1$s%3$s löschen?</string>
     <string name="delete_album_msg_format_cloud">%1$s %2$s aus der Xiaomi Cloud und allen synchronisierten Geräten löschen?</string>
@@ -663,6 +609,12 @@
     <string name="device_status_sending">Senden…</string>
     <string name="device_status_success">Erfolgreich gesendet</string>
     <string name="device_status_waiting">Warten…</string>
+    <string name="device_storage_space_low_dialog_des">Originalfotos und -videos werden in Mi Cloud gespeichert und das Gerät behält eine kleinere und qualitativ hochwertige Version, um etwa %s des Gerätespeichers freizugeben</string>
+    <string name="device_storage_space_low_dialog_title">Nicht genügend Gerätespeicherplatz</string>
+    <string name="device_storage_space_low_notice_des">Fotos und Videos in die Cloud hochladen, um den lokalen Speicherplatz von %s freizugeben</string>
+    <string name="device_storage_space_low_notice_title">Telefonspeicherplatz wird voll sein</string>
+    <string name="device_storage_space_low_textline_button">Ein-Tasten-Freigabe</string>
+    <string name="device_storage_space_low_textline_des">Telefonspeicherplatz ist fast voll, %s Speicherplatz freigeben</string>
     <string name="disable_auto_upload_tip">Synchronisation mit der Cloud für dieses Album ausschalten?</string>
     <string name="disable_auto_upload_title">Synchronisation mit der Cloud ausschalten</string>
     <string name="do_not_remind_me">Nicht wieder anzeigen</string>
@@ -678,6 +630,9 @@
     <string name="double_tap_for_hr_preview_108m">Erneutes Doppeltippen, um zur 108 MP-Vorschau zu wechseln</string>
     <string name="double_tap_to_higher_definition">Erneutes Doppeltippen öffnet die HD-Vorschau</string>
     <string name="download_canceled">Download abgebrochen</string>
+    <string name="download_delete_error_desc">Element kann nicht wiederhergestellt werden, da Sie es von diesem Gerät und aus der Cloud gelöscht haben. Leere Datei jetzt entfernen?</string>
+    <string name="download_delete_error_positive">Entfernen</string>
+    <string name="download_delete_error_title">Fehlendes Element</string>
     <string name="download_error_format">Download fehlgeschlagen %s</string>
     <string name="download_error_tip">. Downloads wurden unterbrochen</string>
     <string name="download_retry_message">Downloadfehler, prüfen Sie die Netzwerkverbindung und versuchen Sie es erneut</string>
@@ -794,6 +749,8 @@
     <string name="error_storage_full_action">Speicherplatz freigeben</string>
     <string name="error_storage_full_msg">Machen Sie Speicher auf Ihrem Gerät frei und versuchen Sie es erneut</string>
     <string name="error_storage_full_tip">Nicht genügend Speicherplatz</string>
+    <string name="error_storage_no_write_permission_tip_action">Gewähren</string>
+    <string name="error_storage_no_write_permission_tip_title">"Für einige Alben sind Berechtigungen erforderlich, damit sie synchronisiert werden können. "</string>
     <string name="error_sync_off_action">Einschalten</string>
     <string name="error_sync_off_msg">Stellen Sie sicher, dass Synchronisation mit Xiaomi Cloud an ist</string>
     <string name="error_sync_off_tip">Synchronisation ist aus</string>
@@ -971,6 +928,7 @@
     <string name="filter_popular_shallow_summer">Juni</string>
     <string name="filter_popular_smokegreen">Sage</string>
     <string name="filter_popular_sunset">Abendzeit</string>
+    <string name="filter_popular_sunset_gold">Glanz</string>
     <string name="filter_popular_watergreen">Smaragd</string>
     <string name="filter_popular_windchime">Glockenspiel</string>
     <string name="filter_popular_wintersun">Mittwinterzeit</string>
@@ -1112,14 +1070,15 @@
     <string name="grant_permission_unlock_and_set_2">Entsperren</string>
     <string name="grant_permission_write_clipboard">Zulassen, dass diese App Elemente in der Zwischenablage speichert, um sie kopieren zu können.</string>
     <string name="group_header_title_immutable_album">Fotos ordnen</string>
+    <string name="group_header_title_media_group">Medientypen</string>
     <string name="group_header_title_third_album">Mehr Alben</string>
     <string name="group_header_title_user_create_album">Meine Alben</string>
     <string name="has_invalid_recipient">Ungültiger Empfänger: &lt;%1$s&gt;</string>
     <string name="have_known">Bekannt</string>
     <string name="help">Geräte nicht gefunden?</string>
     <string name="help_content">Wenn Sie das benötigte Gerät nicht finden, bitten Sie die andere Person, Mi Share einzuschalten.</string>
-    <string name="hide_nearby_photos">Fotos und Videos in der Nähe ausblenden</string>
     <string name="hidden_album_display_name">Verstecktes Album</string>
+    <string name="hide_nearby_photos">Fotos und Videos in der Nähe ausblenden</string>
     <string name="home_menu_all_photos">Alle Elemente anzeigen</string>
     <string name="home_menu_art_still">Kunst</string>
     <string name="home_menu_camera">Nur Kameraelemente anzeigen</string>
@@ -1360,6 +1319,7 @@
     <string name="map_guide_message">Ihre Fotos und Videos auf der Karte anzeigen</string>
     <string name="map_location">Zum aktuellen Standort wechseln</string>
     <string name="map_positioning_failed_tip">Wegen Signalschwäche keine Standortinfos möglich</string>
+    <string name="map_privacy_dialog_content"><Data>Dieser Dienst ermöglicht es Ihnen, Fotos und Videos mit Standortinformationen auf einer Karte anzuzeigen. Wir verwenden Baidu Map Open SDK, um Ihnen diesen Dienst zur Verfügung zu stellen. Lesen Sie die &lt;a href=\"%1$s\">Erklärung zur Weitergabe von Daten an Dritte&lt;/a>, bevor Sie fortfahren und stimmen Sie ihr zu.</Data></string>
     <string name="map_privacy_dialog_message"><Data>Dieser Dienst erlaubt es Ihnen, Fotos und Videos mit Standortinfos auf einer Karte anzuzeigen. Wir verwenden Baidu Map Open SDK, um Ihnen diesen Dienst zur Verfügung zu stellen. Lesen Sie &lt;a href=\"%1$s\">Baidu Map Datenschutzerklärung für Produkte und Dienste der offenen Plattform&lt;/a>, um mehr zu erfahren.</Data></string>
     <string name="map_privacy_dialog_title">Galeriekarte</string>
     <string name="map_privacy_policy">Datenschutzerklärung Galeriekarte</string>
@@ -1371,6 +1331,16 @@
     <string name="mark_operation_processing">Bearbeiten…</string>
     <string name="mark_operation_succeeded">Erfolgreich hinzugefügt</string>
     <string name="mark_people_ignore_info_message">Halten Sie Fotos von Personen gedrückt, um sie zu Gruppen hinzuzufügen.</string>
+    <string name="media_type_burst_photo">Burst</string>
+    <string name="media_type_clone_photo">Klone</string>
+    <string name="media_type_doc_photo">Dokumente</string>
+    <string name="media_type_fast_motion_video">Zeitraffer</string>
+    <string name="media_type_front_photo">Selfies</string>
+    <string name="media_type_live_vv">Vlog</string>
+    <string name="media_type_motion_photo">Dynamisch</string>
+    <string name="media_type_pano_photo">Panoramen</string>
+    <string name="media_type_portrait_photo">Porträt</string>
+    <string name="media_type_slow_motion_video">Zeitlupe</string>
     <string name="menu_album_new_album">Neues Album</string>
     <string name="menu_detail_sort_create_date">Erstellt</string>
     <string name="menu_detail_sort_name">Dateiname</string>
@@ -1387,6 +1357,7 @@
     <string name="mi_mover_working_desc">Mi Mover überträgt Elemente…</string>
     <string name="micloud_introduce">Fotos und Videos automatisch synchronisieren (Mi-Konto erforderlich)</string>
     <string name="midnight">Nacht</string>
+    <string name="migrate_msg">Für einige Alben sind Berechtigungen erforderlich, um Elemente nach einer Systemaktualisierung zu verschieben.</string>
     <string name="miplay_seekbar_content_description">Wiedergabefortschritt: %1$s %2$s</string>
     <string name="miplay_stop_video">Videowiedergabe anhalten</string>
     <string name="miplay_volume_btn">Lautstärke</string>
@@ -1467,6 +1438,7 @@ zu wechseln."</string>
     <string name="mosaic_item_talkback_effect8">Blumen</string>
     <string name="mosaic_item_talkback_effect9">Sterne</string>
     <string name="mosaic_item_talkback_eraser">Radierer</string>
+    <string name="motion_photo_enter">Dynamische Aufnahme</string>
     <string name="motion_photo_play">Abspielen</string>
     <string name="move_to_other_albums_tip">Synchronisation mit Xiaomi Cloud wird für dieses Album deaktiviert, wenn Sie dieses Album verschieben. Album jetzt verschieben?</string>
     <string name="move_to_rubbish_albums_tip">Ausgewählte Alben in den Papierkorb verschieben?</string>
@@ -1586,6 +1558,7 @@ zu wechseln."</string>
     <string name="ocr_using_cellular_negative">Erkennen</string>
     <string name="ocr_using_cellular_positive">Abbrechen</string>
     <string name="ocr_using_cellular_text">Texterkennung mit Hilfe mobiler Daten könnte zusätzliche Anbieterkosten verursachen. Trotzdem erkennen?</string>
+    <string name="onekey_beautify_tag_done">Angewandte Effekte</string>
     <string name="onekey_food">Lebensmittel</string>
     <string name="onekey_portrait">Porträt</string>
     <string name="onekey_scene">Landschaft</string>
@@ -1929,12 +1902,14 @@ Umwandlung kann einige Zeit in Anspruch nehmen, wenn Sie diese Funktion zum erst
     <string name="privacy_cloud_confirm_detail"><Data>Wenn Sie die Synchronisierung aktivieren, werden die Fotos und Videos von diesem Gerät in die Xiaomi Cloud hochgeladen und mit den zuvor synchronisierten Elementen (falls vorhanden) zusammengeführt. Lesen und akzeptieren Sie die Xiaomi Cloud &lt;a href=\"%1$s\"&gt;Nutzervereinbarung &lt;/a&gt; und &lt;a href=\"%2$s\"&gt;Datenschutzerklärung &lt;/a&gt;, bevor Sie fortfahren.</Data></string>
     <string name="privacy_cloud_confirm_detail_negative">Beenden</string>
     <string name="privacy_cloud_confirm_detail_positive">Zustimmen</string>
+    <string name="privacy_cloud_confirm_rejected">Die Zustimmung zu den Datenschutzbestimmungen von Xiaomi Cloud wurde für dieses Konto widerrufen. Versuchen Sie es mit einem anderen Konto.</string>
     <string name="privacy_detail">Datenschutzerklärung ansehen</string>
     <string name="privacy_detail_map">Datenschutzerklärung Galeriekarte anzeigen </string>
     <string name="privacy_entrance">Datenschutz</string>
     <string name="privacy_map">Galeriekarte</string>
     <string name="privacy_map_detail"><Data>Dieser Dienst erlaubt es Ihnen, Fotos und Videos mit Standortdaten auf einer Karte anzuzeigen. Wir verwenden Baidu Map Open SDK, um Ihnen diesen Dienst zur Verfügung zu stellen. Lesen und akzeptieren Sie die &lt;a href=\"%1$s\"&gt;Baidu Map Datenschutzerklärung für Produkte und Dienste der offenen Plattform&lt;/a&gt;, bevor Sie fortfahren.</Data></string>
     <string name="privacy_map_detail_content">Baidu Map Datenschutzerklärung für Produkte und Dienste der offenen Plattform</string>
+    <string name="privacy_map_detail_content_new">Gallery Map Erklärung zur gemeinsamen Nutzung von Daten durch Dritte</string>
     <string name="privacy_permission">Berechtigungen</string>
     <string name="privacy_permission_account">Konten</string>
     <string name="privacy_permission_account_detail">Zur Anmeldung an und Synchronisierung von Elementen mit der Cloud</string>
@@ -1957,9 +1932,12 @@ Umwandlung kann einige Zeit in Anspruch nehmen, wenn Sie diese Funktion zum erst
     <string name="privacy_permission_shotcut_detail">Zum Erstellen von Startbildschirm-Verknüpfungen</string>
     <string name="privacy_permission_storage">Speicher</string>
     <string name="privacy_permission_storage_detail">Zum Speichern von Fotos und Videos</string>
+    <string name="privacy_reject_map_detail_new"><Data>Ihr Widerruf der Zustimmung zur &lt;a href=\"%1$s\">Gallery Map-Erklärung zur Weitergabe von Daten an Dritte&lt;/a> wird als Ablehnung der Gallery Map-Dienste gewertet. Sie können andere Galeriefunktionen weiterhin normal nutzen. Zustimmung jetzt widerrufen?</Data></string>
     <string name="privacy_rejected">Zustimmung widerrufen</string>
     <string name="privacy_rejected_map">Zustimmung zur Datenschutzerklärung von Gallery Map widerrufen</string>
     <string name="privacy_rejected_map_detail">Der Widerruf Ihrer Zustimmung zur Datenschutzerklärung von Galeriekarte wird als Verweigerung der Annahme der Dienstleistungen betrachtet. Andere grundlegende Funktionen und Dienste von Galerie sind davon nicht betroffen. Trotzdem widerrufen?</string>
+    <string name="privacy_rejected_map_new">Zustimmung zur Erklärung über die Weitergabe von Daten an Dritte durch Gallery Map widerrufen</string>
+    <string name="privacy_rejected_pos_btn">Widerrufen</string>
     <string name="private_entry_lock_state_activated_text">Loslassen zum Öffnen privater Ordner</string>
     <string name="private_entry_lock_state_enterd_text">Herunterziehen zum Öffnen privater Ordner</string>
     <string name="produce_dialog_text_multi">Mehrere Elemente</string>
@@ -1969,7 +1947,6 @@ Umwandlung kann einige Zeit in Anspruch nehmen, wenn Sie diese Funktion zum erst
     <string name="projection_device_connection_failed">Verbindung zum Gerät fehlgeschlagen</string>
     <string name="projection_local_mobile">Mobil</string>
     <string name="projection_multi_title">Geräteliste</string>
-   <string name="privacy_cloud_confirm_rejected">Die Zustimmung zu den Datenschutzbestimmungen von Xiaomi Cloud wurde für dieses Konto widerrufen. Versuchen Sie es mit einem anderen Konto.</string>
     <string name="projection_screen_project_in_screening">Sie verwenden Ihr Gerät jetzt zum Übertragen</string>
     <string name="projection_single_title">Auf %s übertragen</string>
     <string name="projection_slide_exit">Diashow beenden</string>
@@ -2051,6 +2028,15 @@ Umwandlung kann einige Zeit in Anspruch nehmen, wenn Sie diese Funktion zum erst
     <string name="rubbish_album_move_to_other_album_success">Sie können sich diese Elemente jetzt unter \"Andere Alben\" ansehen.</string>
     <string name="rubbish_nomedia_manager_button_text">Alben mit \".nomedia\"-Dateien verwalten</string>
     <string name="runtime_permission_ungranted">Galerie wurde wegen fehlender Berechtigung beendet</string>
+    <string name="saf_hyper_link_text">Berechtigungen verwalten</string>
+    <string name="saf_operation_guide_1">"Galerie benötigt Ihre Erlaubnis, um Ihre Daten schützen und verwalten zu können. "</string>
+    <string name="saf_operation_guide_2">Um die Erlaubnis zu erteilen, auf \"%1$s\" tippen und dann \"%2$s\" wählen.</string>
+    <string name="saf_operation_guide_param1">Weiter</string>
+    <string name="saf_operation_guide_param2">Zugriff auf den Ordner</string>
+    <string name="saf_requester_cancel">Abbrechen</string>
+    <string name="saf_requester_title">Galerie den \"%s\"-Zugriff erlauben</string>
+    <string name="saf_secret_album">Privates Album</string>
+    <string name="saf_secret_album_guide">Diese App benötigt Berechtigungen, um Elemente aus Ihrem privaten Album anzuzeigen.</string>
     <string name="same_name_album_exist_and_toast">"Ein Album mit demselben Namen ist bereits vorhanden. Stattdessen wurde '%s' erstellt."</string>
     <string name="samsung_phone">Samsung-Telefon</string>
     <string name="saturday">Samstag</string>
@@ -2616,6 +2602,16 @@ Umwandlung kann einige Zeit in Anspruch nehmen, wenn Sie diese Funktion zum erst
     <string name="unsupported_media_downloading_tip_format">Anzeigen von Original-%s-Bildern wird in dieser Version von Android nicht unterstützt. Trotzdem herunterladen?</string>
     <string name="unsupported_media_scanned_tip">%1$s Bilder wurden erkannt. Anzeigen von %2$s-Bildern wird in dieser Version von Android nicht unterstützt.</string>
     <string name="unsupported_media_view_tip">Anzeigen von Original-%s-Bildern wird in dieser Version von Android nicht unterstützt.</string>
+    <string name="update_apk_size">Paketgröße aktualisieren： %s MB</string>
+    <string name="update_btn_exit">Zurück</string>
+    <string name="update_btn_negative">Verzögern</string>
+    <string name="update_check">Auf Updates prüfen</string>
+    <string name="update_check_title">Aktuelle Version: %s</string>
+    <string name="update_ignore">Ignorieren</string>
+    <string name="update_latest_version">Bereits die neueste Version</string>
+    <string name="update_network_error">Bitte Netzwerk überprüfen und erneut versuchen</string>
+    <string name="update_new_version">Neue Version gefunden</string>
+    <string name="update_title">Neue Version %s gefunden</string>
     <string name="user_agree">Zustimmen</string>
     <string name="user_agreement">" Nutzungsbedingungen"</string>
     <string name="user_agreement2">" Nutzungsbedingungen"</string>
@@ -2985,6 +2981,8 @@ Umwandlung kann einige Zeit in Anspruch nehmen, wenn Sie diese Funktion zum erst
     <string name="widget_talkback_custom">Galerie. Ausgewählte Bilder.</string>
     <string name="widget_talkback_recommend">Galerie. Erinnerungen.</string>
     <string name="xiaomi_account_not_exists_toast">Xiaomi-Konto existiert nicht</string>
+    <string name="xiaomi_market_sdk_update_dialog_cancel">Nicht jetzt</string>
+    <string name="xiaomi_market_sdk_update_dialog_title">Update ist verfügbar</string>
     <string name="yes">Ja</string>
     <string name="yesterday">Gestern</string>
     <string name="you_are">Ihr Baby</string>
