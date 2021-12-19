@@ -1,12 +1,12 @@
 ## Regular updates
 
-All phrases are copied and then translated from the English base repository [ingbrzy/Xiaomi.eu-MIUIv12-XML-Compare](https://github.com/ingbrzy/Xiaomi.eu-MIUIv12-XML-Compare).
+All phrases are copied and then translated from the English base repository [ingbrzy/Xiaomi.eu-MIUIv13-XML-Compare](https://github.com/ingbrzy/Xiaomi.eu-MIUIv13-XML-Compare).
 
 ## Automated XML Validation
 
 This repository is tracked by a script which validates all strings of each file against parser errors, double strings, apostrophe syntax error and many more.
 
-- Link to the [XML_MIUI12-German-de](https://translators.xiaomi.eu/XML_MIUI12-German-de.html) report.
+- Link to the [XML_MIUI13-German-de](https://translators.xiaomi.eu/XML_MIUI13-German-de.html) report.
 
 ## Structure
 
