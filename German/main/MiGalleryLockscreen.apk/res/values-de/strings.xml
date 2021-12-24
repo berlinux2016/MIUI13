@@ -23,6 +23,7 @@
     <string name="about_net_error">Netzwerkverbindung prüfen und erneut versuchen</string>
     <string name="about_newest">Hintergrundkarussell ist auf dem neuesten Stand</string>
     <string name="about_permission">Berechtigungen</string>
+    <string name="access_denied_info">Zu viele Versuche. Einen Moment warten und erneut versuchen.</string>
     <string name="account_bind_secure_email_title">Wiederherstellungs-E-Mail hinzufügen</string>
     <string name="account_bind_secure_phone_title">Wiederherstellungsrufnummer hinzufügen</string>
     <string name="account_crop_user_avatar">Foto zuschneiden</string>
@@ -251,6 +252,9 @@ Senden Sie diesen Code an den Supervisor."</string>
     <string name="disable_dlg_title">Hintergrundkarussell ausschalten?</string>
     <string name="dislike">Löschen</string>
     <string name="dlg_cancel">Abbrechen</string>
+    <string name="doing_login">Anmelden…</string>
+    <string name="doing_query_account">Kontoinfo prüfen…</string>
+    <string name="doing_register">Konto erstellen…</string>
     <string name="double_click_to_exit_activity">Erneut tippen zum Beenden</string>
     <string name="early_morning">Morgen</string>
     <string name="edit_wallpaper">Hintergrundbilder verwalten</string>
@@ -312,9 +316,11 @@ Senden Sie diesen Code an den Supervisor."</string>
     <string name="get_phone_verifycode_exceed_limit">Zu viele Verifizierungscodes wurden an diese Nummer geschickt. 24 Stunden warten und erneut versuchen.</string>
     <string name="goto_confirm">Einstellungen</string>
     <string name="goto_sign_up">Konto erstellen</string>
+    <string name="header_help">Hilfe</string>
     <string name="history_list_no_data">Hier gibt es keine Elemente</string>
     <string name="hour_1">Jede Stunde</string>
     <string name="hour_3">Alle 3 Stunden</string>
+    <string name="i_know">Verstanden</string>
     <string name="icon_content_description">Dialogsymbol</string>
     <string name="idbct_desc">Hintergrundkarussell nach Netzwerktypen anpassen</string>
     <string name="idbct_opt_auto_select_desc_text">Download von Standardbildern mit mobilen Daten und HD-Bildern über WLAN</string>
@@ -324,6 +330,7 @@ Senden Sie diesen Code an den Supervisor."</string>
     <string name="identity">Identifikation</string>
     <string name="inconsistent_pwd">Passwörter stimmen nicht überein</string>
     <string name="input_email_address_notice">Wir werden diese E-Mail zur Verifizierung Ihres Kontos verwenden</string>
+    <string name="input_length_exceeds_limit">Der eingegebene Text ist zu lang</string>
     <string name="input_new_pwd">Neues Passwort eingeben</string>
     <string name="isornot_your_mi_account">Ist das Ihr Mi-Konto?</string>
     <string name="just_a_second">Einen Moment…</string>
@@ -378,6 +385,11 @@ Senden Sie diesen Code an den Supervisor."</string>
     <string name="login_app">Anmelden</string>
     <string name="login_app_cancel">Abbrechen</string>
     <string name="login_app_confirm">Anmelden</string>
+    <string name="login_by_local_phone_long_text">Jetzt anmelden</string>
+    <string name="login_by_local_phone_short_text">Anmelden</string>
+    <string name="login_other">Anderes Mi-Konto</string>
+    <string name="login_register_by_local_phone_long_text">Konto erstellen</string>
+    <string name="login_with_sns">Andere Arten der Anmeldung</string>
     <string name="login_xiaomi_account_summary">"Ich habe die Mi-Konto &lt;font color ='#0D84FF'>&lt;a href='%1$s'>Nutzervereinbarung&lt;/font>&lt;/a> und &lt;font color ='#0D84FF'>&lt;a href='%2$s'>Datenschutzerklärung&lt;/font>&lt;/a> gelesen und akzeptiert."</string>
     <string name="logout">Abmelden</string>
     <string name="logout_account">Abmelden</string>
@@ -387,11 +399,13 @@ Senden Sie diesen Code an den Supervisor."</string>
     <string name="look_str">Populär</string>
     <string name="main_fragment_title_discover">Entdecken</string>
     <string name="main_fragment_title_home">Empfehlungen</string>
+    <string name="main_fragment_title_search">Nach oben</string>
     <string name="main_fragment_title_user">Einstellungen</string>
     <string name="manage">Verwalten</string>
     <string name="midnight">Nacht</string>
     <string name="minutes_15">Alle 15 Minuten</string>
     <string name="minutes_5">Alle 5 Minuten</string>
+    <string name="mishop_login_other">Anderes Konto</string>
     <string name="miui_clock_city_name_local">Lokal</string>
     <string name="miui_clock_city_name_second">Zweite Uhr</string>
     <string name="miui_lock_screen_date">EEEE, d. MMMM</string>
@@ -501,6 +515,8 @@ dd.MM."</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">Zum Texteingabemodus wechseln</string>
     <string name="mtrl_picker_toggle_to_year_selection">Tippen, um zur Jahresauswahl zu wechseln</string>
     <string name="need_open_gallery">Hintergrundkarussell einschalten</string>
+    <string name="network_error_info">Ein Netzwerkfehler ist aufgetreten. Netzwerkeinstellungen prüfen und erneut versuchen.</string>
+    <string name="network_timeout_info">Netzwerkverbindung nicht möglich. Erneut versuchen.</string>
     <string name="new_feature_title">Was ist neu</string>
     <string name="nick_name">Spitzname</string>
     <string name="night">Abend</string>
@@ -528,6 +544,7 @@ dd.MM."</string>
     <string name="open_gallery">Hintergrundkarussell</string>
     <string name="open_gallery_tips">Hier tippen, um Hintergrundkarussell einzuschalten</string>
     <string name="open_guid_des">Gehen Sie zu Einstellungen &gt; Rechte &gt; Andere Rechte &gt; Hintergrundkarussell und geben Sie der App alle erforderlichen Berechtigungen.</string>
+    <string name="open_settings">Einstellungen</string>
     <string name="open_sub_title">Kategorien wählen</string>
     <string name="open_title">Hintergrundkarussell</string>
     <string name="open_unable">Hintergrundkarussell funktioniert nur mit dem MIUI Standard-Sperrbildschirm</string>
@@ -781,6 +798,7 @@ dd.MM."</string>
     <string name="platform_unavailable_wechat">WeChat installieren</string>
     <string name="platform_unavailable_wechatmoment">WeChat installieren</string>
     <string name="platform_unavailable_weibo">Bitte WhatsApp installieren</string>
+    <string name="please_agree_protocal">Bitte dem Protokoll zustimmen</string>
     <string name="preference_copied">\"%1$s\" in Zwischenablage kopiert</string>
     <string name="privacy_policy">Datenschutzerklärung</string>
     <string name="privacy_setting">Datenschutzeinstellungen</string>
@@ -792,6 +810,10 @@ dd.MM."</string>
     <string name="privacy_update_summary3">"Sie können Hintergrundkarussell nur dann weiter nutzen, wenn Sie die neue Version der &lt;font color ='#37A5FF'>&lt;a href='%2$s'>Datenschutzerklärung&lt;/font>&lt;/a> akzeptieren. Stimmen Sie jetzt zu?"</string>
     <string name="privacy_update_title1">Datenschutzerklärung aktualisiert</string>
     <string name="privacy_update_title2">Achtung</string>
+    <string name="progressbar_title">Auf Sicherheitslücken prüfen…</string>
+    <string name="protocal_dialog_cancel">Abbrechen</string>
+    <string name="protocal_dialog_confirm">Zustimmen</string>
+    <string name="protocal_dialog_title">Achtung</string>
     <string name="prv_end"><CDATA>Keine Elemente zum Anzeigen vorhanden</CDATA></string>
     <string name="prv_loading"><CDATA>Einen Moment…</CDATA></string>
     <string name="prv_nodata"><CDATA>Keine Daten</CDATA></string>
@@ -809,8 +831,17 @@ dd.MM."</string>
     <string name="recommend_switch_dlg_title">Empfehlungen ausschalten?</string>
     <string name="recommend_switch_title">Personalisierte Empfehlungen</string>
     <string name="refresh_network">Aktualisieren</string>
+    <string name="register_by_local_phone_long_text">Konto erstellen</string>
+    <string name="register_by_local_phone_short_text">Konto erstellen</string>
     <string name="remove">Löschen</string>
     <string name="req_permission_dis_tip">Berechtigungen erforderlich</string>
+    <string name="request_agree">Erlauben</string>
+    <string name="request_camera_permission_message">Wir schützen Ihre persönlichen Daten in Übereinstimmung mit den einschlägigen Gesetzen und Vorschriften. Diese App benötigt folgende Berechtigungen, um normal zu funktionieren:&lt;br>&lt;br>&lt;b>Kamera verwenden (zum Einstellen Ihres Profilfotos)&lt;/b>&lt;br>&lt;br>Wenn Sie solchen Berechtigungen nicht zustimmen, können Sie einige Funktionen dieser App nicht nutzen; die Grundfunktionen stehen Ihnen jedoch weiterhin zur Verfügung. Sie können in den Einstellungen jederzeit die Berechtigungen einschränken oder Ihre Genehmigung widerrufen.</string>
+    <string name="request_cancel">Abbrechen</string>
+    <string name="request_error_invalid_token">Verifizieren nicht möglich</string>
+    <string name="request_error_network">Ein Netzwerkfehler ist aufgetreten. Netzwerkeinstellungen prüfen und erneut versuchen.</string>
+    <string name="request_error_unknown">Ein Systemfehler ist aufgetreten. Zurückgehen und erneut versuchen.</string>
+    <string name="request_gallery_permission_message">Zugriff auf Galerie zulassen:&lt;br />Für die Einstellung von Profilfotos</string>
     <string name="require_permission">Berechtigungen erforderlich</string>
     <string name="require_permission_text">Hintergrundkarussell den Speicherzugriff erlauben, um Elemente speichern und anzeigen zu können</string>
     <string name="resend_active_email">Erneut senden</string>
@@ -889,6 +920,7 @@ dd.MM."</string>
     <string name="sign_in">Anmelden</string>
     <string name="sign_in_progress">Anmelden…</string>
     <string name="sign_in_title">Mit Mi-Konto anmelden</string>
+    <string name="skip_query_account">Überspringen</string>
     <string name="sliding_on_unlock">Hochwischen zum Entsperren</string>
     <string name="sms_send_success">Erfolgreich gesendet</string>
     <string name="sns_access_token_expired_warning">Sitzung abgelaufen. Erneut anmelden, um dieses Konto wieder zu verbinden.</string>
@@ -1010,6 +1042,7 @@ dd.MM."</string>
     <string name="sure_close_gallery">Hintergrundkarussell ausschalten?</string>
     <string name="sure_close_gallery_des">Sie können keine neuen Bilder auf Ihren Start- und Sperrbildschirm erhalten, wenn Sie das Hintergrundkarussell ausschalten. Trotzdem ausschalten?</string>
     <string name="system_default">Standard</string>
+    <string name="system_error_info">System ist beschäftigt. Einen Moment warten und erneut versuchen.</string>
     <string name="tab_user_title_bar_text">Einstellungen</string>
     <string name="tb_collapse_desc">\"Teilen\"-Menü ausblenden</string>
     <string name="temporary_not_available">Diese Funktion ist noch nicht verfügbar.</string>
@@ -1081,7 +1114,7 @@ dd.MM."</string>
     <string name="time_picker_label_minute">Min</string>
     <string name="toast_ad_down_tip">App herunterladen…</string>
     <string name="toast_ad_down_tip2">%s herunterladen</string>
-    <string name="toast_connect_failed_tip">Verbindung nicht möglich. Einen Moment warten und es erneut versuchen.</string>
+    <string name="toast_connect_failed_tip">Verbindung nicht möglich. Einen Moment warten und erneut versuchen.</string>
     <string name="toast_has_close_gallery">Hintergrundkarussell erfolgreich deaktiviert</string>
     <string name="toast_has_open_gallery">Hintergrundkarussell erfolgreich aktiviert</string>
     <string name="toast_load_failed_tip">Elemente wurden nicht geladen</string>
@@ -1100,15 +1133,29 @@ dd.MM."</string>
     <string name="uninstall_introduction_text_title">Über Hintergrundkarussell</string>
     <string name="uninstall_warning_text_desc">Ohne Hintergrundkarussell können Sie nicht regelmäßig neue Sperrbildschirmhintergründe erhalten. Sie können die App jedoch erneut herunterladen und installieren. Hintergrundkarussell löschen?</string>
     <string name="uninstall_warning_text_title">Hintergrundkarussell löschen</string>
+    <string name="unknown_error_info">Unbekannter Fehler</string>
     <string name="update_email_address_dialog_message">Sie müssen Ihre Identität verifizieren, bevor Sie die Wiederherstellungs-E-Mail aktualisieren.</string>
     <string name="update_email_address_dialog_title">Wiederherstellungs-E-Mail aktualisieren</string>
     <string name="update_phone_notice">Sicherheitseinstellungen ändern</string>
     <string name="upload_error_log">Protokoll hochladen</string>
     <string name="user_ac_click_to_login">Tippen zum Anmelden</string>
     <string name="user_ac_not_login">Nicht angemeldet</string>
+    <string name="user_agreement_hint_3rd_app"><Data>Ich habe die &lt;a href=%1$s>Nutzervereinbarung&lt;/a> und &lt;a href=%2$s>Datenschutzerklärung&lt;/a> sowie die Mi-Konto &lt;a href=%3$s>Nutzervereinbarung&lt;/a> und &lt;a href=%4$s>Datenschutzerklärung&lt;/a> gelesen und akzeptiert.</Data></string>
+    <string name="user_agreement_hint_3rd_app_mobile"><Data>Ich habe die &lt;a href=%1$s>Nutzervereinbarung&lt;/a> und &lt;a href=%2$s>Datenschutzerklärung&lt;/a>, die Mi-Konto &lt;a href=%3$s>Nutzervereinbarung&lt;/a> und &lt;a href=%4$s>Datenschutzerklärung&lt;/a> sowie die &lt;a href=%5$s>allgemeinen Geschäftsbedingungen von China Mobile Verifikationsdienste&lt;/a> gelesen und akzeptiert.</Data></string>
+    <string name="user_agreement_hint_3rd_app_with_telecom"><Data>Ich habe die &lt;a href=%1$s>Nutzervereinbarung&lt;/a> und &lt;a href=%2$s>Datenschutzerklärung&lt;/a>, die Mi-Konto &lt;a href=%3$s>Nutzervereinbarung&lt;/a> und &lt;a href=%4$s>Datenschutzerklärung&lt;/a> sowie die &lt;a href=%5$s>allgemeinen Geschäftsbedingungen von eSurfing Kontoverifikationsdienste&lt;/a> gelesen und akzeptiert.</Data></string>
+    <string name="user_agreement_hint_3rd_app_with_unicom"><Data>Ich habe die &lt;a href=%1$s>Nutzervereinbarung&lt;/a> und &lt;a href=%2$s>Datenschutzerklärung&lt;/a>, die Mi-Konto &lt;a href=%3$s>Nutzervereinbarung&lt;/a> und &lt;a href=%4$s>Datenschutzerklärung&lt;/a> sowie die &lt;a href=%5$s>allgemeinen Geschäftsbedingungen von China Unicom Verifikationsdienste&lt;/a> gelesen und akzeptiert.</Data></string>
+    <string name="user_agreement_hint_default"><Data>Ich habe die Mi-Konto &lt;a href=%1$s>Nutzervereinbarung&lt;/a> und &lt;a href=%2$s>Datenschutzerklärung&lt;/a> gelesen und akzeptiert.</Data></string>
+    <string name="user_agreement_hint_default_1"><Data>Ich habe die &lt;a href=%1$s>Nutzervereinbarung&lt;/a> und &lt;a href=%2$s>Datenschutzerklärung.&lt;/a> gelesen und akzeptiert.</Data></string>
+    <string name="user_agreement_hint_default_extra"><Data>Ich habe die &lt;a href=%1$s>Nutzervereinbarung&lt;/a> und &lt;a href=%2$s>Datenschutzerklärung&lt;/a> gelesen und akzeptiert. Bei der ersten Anmeldung wird automatisch ein Xiaomi-Konto erstellt.</Data></string>
+    <string name="user_agreement_hint_first_login">Wir richten automatisch ein Konto ein, wenn Sie Ihre Telefonnummer zum ersten Mal verwenden.</string>
+    <string name="user_agreement_hint_with_mobile"><Data>Ich habe die Mi-Konto &lt;a href=%1$s>Nutzervereinbarung&lt;/a> und &lt;a href=%2$s>Datenschutzerklärung&lt;/a> sowie die &lt;a href=%3$s>allgemeinen Geschäftsbedingungen von China Mobile Verifikationsdienste&lt;/a> gelesen und akzeptiert.</Data></string>
+    <string name="user_agreement_hint_with_telecom"><Data>Ich habe die Mi-Konto &lt;a href=%1$s>Nutzervereinbarung&lt;/a> und &lt;a href=%2$s>Datenschutzerklärung&lt;/a> sowie die &lt;a href=%3$s>allgemeinen Geschäftsbedingungen von eSurfing Kontoverifikationsdienste&lt;/a> gelesen und akzeptiert.</Data></string>
+    <string name="user_agreement_hint_with_unicom"><Data>Ich habe die Mi-Konto &lt;a href=%1$s>Nutzervereinbarung&lt;/a> und &lt;a href=%2$s>Datenschutzerklärung&lt;/a> sowie die &lt;a href=%3$s>allgemeinen Geschäftsbedingungen von China Unicom Verifikationsdienste&lt;/a> gelesen und akzeptiert.</Data></string>
+    <string name="user_agreement_protocal_dialog_hint_default"><Data>Ich habe die &lt;a href=%1$s>Nutzervereinbarung&lt;/a> und &lt;a href=%2$s>Datenschutzerklärung&lt;/a> sowie die Mi-Konto &lt;a href=%3$s>Nutzervereinbarung&lt;/a> und &lt;a href=%4$s>Datenschutzerklärung&lt;/a> gelesen und akzeptiert.</Data></string>
     <string name="user_avatar_update_title">Profilbild ändern</string>
     <string name="user_avatar_uploading">Einen Moment…</string>
     <string name="user_id_hint">E-Mail/Telefon/Mi-Konto-ID</string>
+    <string name="user_name_phone_number">Telefonnummer</string>
     <string name="v7_preference_off">AUS</string>
     <string name="v7_preference_on">AN</string>
     <string name="v_code_title">Verifizierungscode eingeben</string>
