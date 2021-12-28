@@ -1,43 +1,47 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-    <string name="beauty_fc_assistant_summary_new">Show Beautify and fill light options while using front camera</string>
+    <string name="beauty_fc_assistant_summary_new">Verschönerungs- und Aufhellungsoptionen bei Verwendung der Frontkamera anzeigen</string>
+
     <string name="beauty_fc_fill_lamp_new">Front fill light</string>
     <string name="beauty_fun_front_light">Front fill light</string>
-    <string name="beauty_fun_privacy">Privacy camera</string>
-    <string name="beauty_fun_privacy_dialog_message">When you use the camera for face recognition features, your face will be detected automatically and other captured areas will be masked.</string>
-    <string name="beauty_fun_privacy_dialog_tips">This feature may lower the success rate of face recognition</string>
-    <string name="beauty_fun_privacy_ingnore">No thanks</string>
-    <string name="beauty_fun_privacy_message">Detect faces and mask other captured areas when the camera is used with face recognition features</string>
-    <string name="beauty_fun_privacy_open">Turn on</string>
-    <string name="beauty_fun_privacy_open_tips">Privacy camera is on</string>
-    <string name="beauty_fun_privacy_tips">Privacy camera will now be used by default with compatible face recognition features</string>
+
+    <string name="beauty_fun_privacy">Private Kamera</string>
+    <string name="beauty_fun_privacy_dialog_message">Wenn Sie die Kamera für die Gesichtserkennungsfunktionen verwenden, wird Ihr Gesicht automatisch erkannt und andere erfasste Bereiche werden maskiert.</string>
+    <string name="beauty_fun_privacy_dialog_tips">Diese funktion kann die Erfolgsquote der Gesichtserkennung senken</string>
+    <string name="beauty_fun_privacy_ingnore">Nein danke</string>
+    <string name="beauty_fun_privacy_message">Erkennen von Gesichtern und Ausblenden anderer erfasster Bereiche, wenn die Kamera mit Gesichtserkennungsfunktionen verwendet wird</string>
+    <string name="beauty_fun_privacy_open">Einschalten</string>
+    <string name="beauty_fun_privacy_open_tips">Private Kamera ist an</string>
+    <string name="beauty_fun_privacy_tips">Private Kamera wird nun standardmäßig mit kompatiblen Gesichtserkennungsfunktionen verwendet</string>
+
     <string name="beauty_fun_screen_light">Screen fill light</string>
     <string name="beauty_fun_settings_light">Fill light brightness</string>
-    <string name="beauty_fun_video_effect">Beautify for video</string>
-    <string name="compatible_dialog_content">"This app isn't fully compatible with the 64-bit architecture. Using it may lower system performance and increase power consumption."</string>
-    <string name="compatible_dialog_more_info">Learn more</string>
-    <string name="compatible_dialog_title">Attention</string>
-    <string name="gtb_setting_item_summary_disable_ndds_sim">Block all communication services on secondary SIM during gaming sessions to keep connection stable and avoid switching between networks. Secondary SIM will be unblocked when you stop playing.</string>
-    <string name="gtb_setting_item_title_disable_ndds_sim">Block secondary SIM</string>
-    <string name="power_center_speed_mode_dialog_text">Speed mode boosts the performance of your device by increasing power consumption and allowing it to heat up. Avoid using Speed mode for extended periods of time.</string>
-    <string name="power_center_speed_mode_dialog_title">Speed mode</string>
-    <string name="power_center_speed_mode_dialog_warning">Speed mode will be turned off automatically when the battery goes below %s.</string>
-    <string name="power_center_speed_mode_enter_noti_btn_text">Turn off</string>
-    <string name="power_center_speed_mode_enter_noti_summary">Your device will heat up and consume more power</string>
-    <string name="power_center_speed_mode_enter_noti_title">Switched to Speed mode</string>
-    <string name="power_center_speed_mode_exit_noti_summary">Less than %s of battery remaining</string>
-    <string name="power_center_speed_mode_exit_noti_title">Turned off Speed mode</string>
-    <string name="power_center_speed_mode_negative_btn_text">Cancel</string>
-    <string name="power_center_speed_mode_positive_btn_text">Turn on</string>
-    <string name="power_center_speed_mode_positive_btn_text_count">Turn on (%ds)</string>
-    <string name="power_center_speed_mode_progress_free_game_limit">Improve graphics performance</string>
-    <string name="power_center_speed_mode_progress_free_processor_performance">Boost CPU performance</string>
-    <string name="power_center_speed_mode_progress_max_refresh_rate">Increase screen refresh rate</string>
-    <string name="power_center_speed_mode_summary">Prioritize performance over power consumption and temperature control</string>
-    <string name="power_center_speed_mode_title">Speed mode</string>
-    <string name="power_center_speed_mode_toast_open_fail">"Can't switch to Speed mode when the battery is lower than %s"</string>
-    <string name="power_center_speed_mode_toast_text">Switched to Speed mode</string>
-    <string name="privacy_lab_empty">No features here yet</string>
+
+    <string name="beauty_fun_video_effect">Video verschönern</string>
+    <string name="compatible_dialog_content">Diese App ist nicht vollständig mit der 64-Bit-Architektur kompatibel. Ihre Verwendung kann die Systemleistung verringern und den Stromverbrauch erhöhen.</string>
+    <string name="compatible_dialog_more_info">Mehr erfahren</string>
+    <string name="compatible_dialog_title">Achtung</string>
+    <string name="gtb_setting_item_summary_disable_ndds_sim">Alle Kommunikationsdienste auf der sekundären SIM während des Spielens sperren, um die Verbindung stabil zu halten und einen Wechsel zwischen den Netzen zu vermeiden. Die sekundäre SIM wird entsperrt, wenn Sie das Spiel beenden.</string>
+    <string name="gtb_setting_item_title_disable_ndds_sim">Sekundäre SIM sperren</string>
+    <string name="power_center_speed_mode_dialog_text">Geschwindigkeitsmodus steigert die Leistung Ihres Geräts, indem er den Stromverbrauch erhöht und eine Erwärmung des Geräts ermöglicht. Vermeiden, den Geschwindigkeitsmodus über einen längeren Zeitraum zu verwenden.</string>
+    <string name="power_center_speed_mode_dialog_title">Geschwindigkeitsmodus</string>
+    <string name="power_center_speed_mode_dialog_warning">Geschwindigkeitsmodus wird automatisch ausgeschaltet, wenn der Akku unter %s sinkt.</string>
+    <string name="power_center_speed_mode_enter_noti_btn_text">Ausschalten</string>
+    <string name="power_center_speed_mode_enter_noti_summary">Ihr Gerät wird wärmer und verbraucht mehr Strom.</string>
+    <string name="power_center_speed_mode_enter_noti_title">Zum Geschwindigkeitsmodus gewechselt</string>
+    <string name="power_center_speed_mode_exit_noti_summary">Weniger als %s der verbleibenden Akkukapazität</string>
+    <string name="power_center_speed_mode_exit_noti_title">Geschwindigkeitsmodus ausgeschaltet</string>
+    <string name="power_center_speed_mode_negative_btn_text">Abbrechen</string>
+    <string name="power_center_speed_mode_positive_btn_text">Einschalten</string>
+    <string name="power_center_speed_mode_positive_btn_text_count">Einschalten (%d Sek)</string>
+    <string name="power_center_speed_mode_progress_free_game_limit">Grafikleistung verbessern</string>
+    <string name="power_center_speed_mode_progress_free_processor_performance">CPU-Leistung steigern</string>
+    <string name="power_center_speed_mode_progress_max_refresh_rate">Bildschirmaktualisierungsrate erhöhen</string>
+    <string name="power_center_speed_mode_summary">Vorrang der Leistung vor Stromverbrauch und Temperaturkontrolle</string>
+    <string name="power_center_speed_mode_title">Geschwindigkeitsmodus</string>
+    <string name="power_center_speed_mode_toast_open_fail">In den Geschwindigkeitsmodus wechseln nicht möglich, wenn der Akku weniger als %s beträgt</string>
+    <string name="power_center_speed_mode_toast_text">Zum Geschwindigkeitsmodus gewechselt</string>
+    <string name="privacy_lab_empty">Noch keine Funktionen vorhanden</string>
 
     <string name="HIPS_Perm_Access_Gallery">Galeriezugriff</string>
     <string name="HIPS_Perm_Access_Gallery_Desc">App den Zugriff auf Elemente in Ihrer Galerie erlauben</string>

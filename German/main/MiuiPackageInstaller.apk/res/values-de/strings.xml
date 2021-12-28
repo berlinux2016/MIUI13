@@ -1,38 +1,22 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-    <string name="after_install_to_delete">Installationspaket nach Abschluss der Installation löschen</string>
-    <string name="install_version">Installationsversion: %1$s</string>
-    <string name="install_version_replace">Installationsversion: %1$s -> %2$s</string>
-    <string name="lock_screen_risk">Autorisierung per Fingerabdruck/Sperrbildschirmpasswort</string>
-    <string name="login_to_install">Anmelden, um die Installation fortzusetzen</string>
-    <string name="login_to_install_des">Sie können sich in Ihr Xiaomi-Konto einloggen, um die Installation fortzusetzen, oder gehen Sie zu \"Installer-Einstellungen > Risiko-App-Installationsberechtigung\", um die Autorisierungsmethode zu ändern.</string>
-    <string name="login_xiaomi_account">Mit Ihrem Xiaomi-Konto anmelden</string>
-    <string name="no_set_lock_screen_tip">Sie haben Fingerabdruck/Sperrbildschirmpasswort nicht festgelegt. Bitte gehen Sie zu \"Systemeinstellungen\", um Fingerabdruck/Sperrbildschirmpasswort festzulegen.</string>
-    <string name="open_install_authorization">Installationsberechtigung öffnen</string>
-    <string name="risk_app_install_authorization">Riskante App installieren</string>
-    <string name="risk_close_tip">Installationsautorisierung für riskante Apps ausschalten</string>
-    <string name="risk_close_tip_des">Nach dem Schließen wird die risikobehaftete App ohne Ihre Autorisierung (Passwort oder Fingerabdruck usw.) direkt installiert. Die Beendigung des Vorgangs erfordert die Prüfung Ihres Passworts oder Fingerabdrucks, um sicherzustellen, dass es sich um Ihren eigenen Vorgang handelt. Wenn Sie keinen Fingerabdruck oder kein Passwort festgelegt haben, können Sie den Vorgang direkt deaktivieren.</string>
-    <string name="second_recomment_ad_title">Benutzer, die &lt;font color=#0BAE73>%1$s&lt;/font> installiert haben, mögen auch</string>
-    <string name="verify_to_sure_close">Prüfen und schließen</string>
-    <string name="xiaomi_account_risk">Xiaomi-Kontopasswort-Autorisierung</string>
-
-    <string name="after_install_to_delete">Delete installation packages after installation</string>
+    <string name="after_install_to_delete">Installationspakete nach der Installation löschen</string>
     <string name="install_version">Version: %1$s</string>
     <string name="install_version_replace">Version: %1$s > %2$s</string>
-    <string name="lock_screen_risk">Fingerprint or screen lock</string>
-    <string name="login_to_install">Sign in to install</string>
-    <string name="login_to_install_des">Sign in to your Mi Account to continue with installation. You can also change your installation preferences in Settings > Install risky apps.</string>
-    <string name="login_xiaomi_account">Sign in</string>
-    <string name="no_set_lock_screen_tip">Set screen lock and add your fingerprint before selecting this authorization method.</string>
-    <string name="open_install_authorization">Require authorization before installing risky apps</string>
-    <string name="risk_app_install_authorization">Install risky apps</string>
-    <string name="risk_close_tip">Turn off authorization</string>
-    <string name="risk_close_tip_des">"If you turn this feature off, risky apps will be installed directly without your authorization. We'll have to verify your screen lock or fingerprint if you've set them previously"</string>
-    <string name="second_recomment_ad_title">People who install &lt;font color=#0BAE73>%1$s&lt;/font> also like</string>
-    <string name="verify_to_sure_close">Turn off</string>
-    <string name="virus_safe_install_mode_security_tips">If you trust this app, you can authorize its installation in Settings > Apps > Secure mode.</string>
-    <string name="virus_safe_install_mode_security_tips_pi">If you trust this app, tap the Settings icon and select \"Secure mode\" to authorize its installation.</string>
-    <string name="xiaomi_account_risk">Mi Account password</string>
+    <string name="lock_screen_risk">Fingerabdruck oder Bildschirmsperre</string>
+    <string name="login_to_install">Zur Installation anmelden</string>
+    <string name="login_to_install_des">Melden Sie sich bei Ihrem Mi Konto an, um mit der Installation fortzufahren. Sie können Ihre Installationseinstellungen auch unter Einstellungen > Riskante Apps installieren ändern.</string>
+    <string name="login_xiaomi_account">Anmelden</string>
+    <string name="no_set_lock_screen_tip">Bildschirmsperre einstellen und Ihren Fingerabdruck hinzufügen, bevor Sie diese Autorisierungsmethode wählen.</string>
+    <string name="open_install_authorization">Vor der Installation riskanter Apps eine Autorisierung verlangen</string>
+    <string name="risk_app_install_authorization">Riskante App installieren</string>
+    <string name="risk_close_tip">Autorisierung ausschalten</string>
+    <string name="risk_close_tip_des">Wenn Sie diese Funktion ausschalten, werden riskante Apps direkt ohne Ihre Zustimmung installiert. Wir müssen Ihre Bildschirmsperre oder Ihren Fingerabdruck verifizieren, wenn Sie diese zuvor eingestellt haben.</string>
+    <string name="second_recomment_ad_title">Benutzer, die &lt;font color=#0BAE73>%1$s&lt;/font> installieren, mögen auch</string>
+    <string name="verify_to_sure_close">Ausschalten</string>
+    <string name="virus_safe_install_mode_security_tips">Wenn Sie dieser App vertrauen, können Sie ihre Installation unter Einstellungen > Apps > Sicherer Modus autorisieren.</string>
+    <string name="virus_safe_install_mode_security_tips_pi">Wenn Sie dieser App vertrauen, tippen Sie auf das Symbol Einstellungen und wählen Sie \"Sicherer Modus\", um die Installation zu autorisieren.</string>
+    <string name="xiaomi_account_risk">Mi Konto-Passwort</string>
 
     <string name="Parse_error_dlg_text">Beim Analysieren des Pakets ist ein Problem aufgetreten</string>
     <string name="abc_action_bar_home_description">Zur Startseite</string>
