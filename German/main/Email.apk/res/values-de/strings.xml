@@ -319,7 +319,7 @@
     <string name="broker_helper_redirect">Umleitungs-URI zur Konfiguration der json-Datei</string>
     <string name="broker_helper_signature">Signatur, die bei der App-Registrierung eingegeben werden muss</string>
     <string name="broker_processing">Broker wird bearbeitet</string>
-    <string name="calendar_remind_dialog_title">Später erinnern</string>
+    <string name="calendar_remind_dialog_title">Zum Kalender hinzufügen</string>
     <string name="calendar_remind_gridview_month_later">Nächsten Monat</string>
     <string name="calendar_remind_gridview_nextweek">Nächste Woche</string>
     <string name="calendar_remind_gridview_pick_date">Datum wählen</string>
@@ -497,6 +497,7 @@
     <string name="default_signature"> Von meinem Mi Telefon gesendet</string>
     <string name="default_signature_2">Von meinem %s gesendet</string>
     <string name="default_signature_pad">Von meinem Mi Pad gesendet</string>
+    <string name="default_signature_phone">Von meinem Mi-Telefon gesendet</string>
     <string name="del_account_questionnair_hint">Können Sie uns sagen, warum Sie dieses Konto entfernen möchten?</string>
     <string name="delete">Löschen</string>
     <string name="delete_contact_content">Diesen Kontakt jetzt löschen?</string>
@@ -582,6 +583,18 @@
     <string name="eras_bc">v. Chr.</string>
     <string name="error">Fehler</string>
     <string name="error_icon_content_description">Fehler</string>
+    <string name="error_message_account_or_password">Konto-ID oder das Passwort ist falsch.</string>
+    <string name="error_message_auth_error">Verifizierungscode verwenden, um sich anzumelden.</string>
+    <string name="error_message_blacklist">Ihr Konto wurde zur Sperrliste hinzugefügt. Kontaktieren Sie Ihren E-Mail-Anbieter, um dieses Problem zu lösen.</string>
+    <string name="error_message_imap_or_pop3_service_not_open">IMAP oder POP3 einschalten und erneut versuchen.</string>
+    <string name="error_message_imap_service_not_open">IMAP einschalten und erneut versuchen.</string>
+    <string name="error_message_outlook_error">Zunächst Ihre Identität in der Webversion von Outlook prüfen.</string>
+    <string name="error_message_respond_revert_03">Dieser Domainname existiert nicht. URL prüfen und erneut versuchen.</string>
+    <string name="error_message_respond_revert_06">Ihr eingegebenes Passwort ist falsch.</string>
+    <string name="error_message_respond_revert_07">Ihre Identität konnte nicht verifiziert werden. Verifizierungscode verwenden, um sich anzumelden.</string>
+    <string name="error_message_respond_revert_16">Ihr Passwort ist abgelaufen. Passwort aktualisieren und erneut anmelden.</string>
+    <string name="error_message_respond_revert_21">POP3 einschalten und erneut veruchen.</string>
+    <string name="error_message_respond_revert_25">Netzwerkverbindung prüfen und erneut versuchen.</string>
     <string name="evening">Nachmittag</string>
     <string name="exception_cancel">Dieses Ereignis wurde abgebrochen für: %s</string>
     <string name="exception_updated">Details für dieses Ereignis wurden geändert für: %s</string>
@@ -659,6 +672,7 @@
     <string name="folder_list_current_account">Aktuelles Konto</string>
     <string name="folder_list_display_all">Alle Ordner anzeigen</string>
     <string name="folder_list_display_only_import">Nur wichtige Ordner anzeigen</string>
+    <string name="folder_list_switch_account">Wechseln</string>
     <string name="folder_no_mails">Keine E-Mail</string>
     <string name="folder_notification_setting_tip">Sie haben mehrere Ordner in Ihrem Posteingang. Legen Sie Benachrichtigungen über neue Nachrichten in bestimmten Ordnern fest.</string>
     <string name="folder_picker_title">Ordner wählen</string>
@@ -962,6 +976,8 @@ Dieses Problem wird evtl. durch die Zwei-Faktor-Authentifizierung des Kontos ver
     <string name="mibill_privacy_policy_title">Rechnungen automatisch verwalten</string>
     <string name="midnight">Nacht</string>
     <string name="min_payment_text">Mindestbetrag</string>
+    <string name="miuix_access_state_desc">Ausgewählt</string>
+    <string name="miuix_alphabet_indexer_name">Indexleiste</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Abwählen</string>
     <string name="miuix_appcompat_action_mode_select_all">Alle wählen</string>
     <string name="miuix_appcompat_action_mode_title_empty">Elemente wählen</string>
@@ -979,6 +995,8 @@ Dieses Problem wird evtl. durch die Zwei-Faktor-Authentifizierung des Kontos ver
     <string name="miuix_appcompat_select_all">Alle wählen</string>
     <string name="miuix_appcompat_select_all_description">Alle wählen</string>
     <string name="miuix_appcompat_select_item">Elemente wählen</string>
+    <string name="miuix_indexer_collect">Sammlungen</string>
+    <string name="miuix_indexer_selected">%s ausgewählt</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Zum Aktualisieren herunterziehen</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Erfolgreich aktualisiert</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Aktualisieren…</string>
