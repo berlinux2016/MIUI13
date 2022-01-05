@@ -1,34 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-    <string name="call_phone_permissions_text">Scanner das Anrufen erlauben, um diese Funktion nutzen zu können</string>
-    <string name="camera_permissions_text">Scanner den Kamerazugriff erlauben, um diese Funktion nutzen zu können</string>
-    <string name="format_error">Ungültiges Passwort</string>
-    <string name="label_flash_light_off">Blitzlicht ist aus</string>
-    <string name="label_flash_light_on">Blitzlicht ist an</string>
-    <string name="language_translate_entry_auto">Automatisch</string>
-    <string name="logout_service">Zustimmung widerrufen</string>
-    <string name="miuix_indexer_collect">Sammlungen</string>
-    <string name="permission_management">Berechtigungen</string>
-    <string name="privacy_policy_update">Datenschutzerklärung aktualisiert</string>
-    <string name="privacy_policy_update_message">&lt;Data>Sie können Scanner nur dann weiter verwenden, wenn Sie der neuen Version der &lt;a href=\"%1$s\">Datenschutzerklärung&lt;/a> zustimmen. Jetzt der aktualisierten Datenschutzerklärung zustimmen?&lt;/Data></string>
-    <string name="privacy_policy_update_welcome">Scanner-Datenschutzerklärung wurde aktualisiert:</string>
-    <string name="privacy_policy_withdrawal_error">Zustimmung widerrufen nicht möglich. Etwas warten und erneut versuchen.</string>
-    <string name="privacy_policy_withdrawal_message">&lt;Data>Wenn Sie fortfahren, widerrufen Sie Ihre Zustimmung zur Datenschutzerklärung von Scanner. Dies wird als Ablehnung der Dienstleistungen von Scanner betrachtet. Sie müssen der &lt;a href=\"%1$s\">Datenschutzerklärung&lt;/a> erneut zustimmen, wenn Sie sich für die Verwendung von Scanner entscheiden. Zustimmung jetzt widerrufen?&lt;/Data></string>
-    <string name="read_contacts_permissions_text">Scanner den Kontaktezugriff erlauben, um diese Funktion nutzen zu können.</string>
-    <string name="screenshot_copy_text">Text kopieren</string>
-    <string name="screenshot_save_image">Bild speichern</string>
-    <string name="screenshot_save_image_error">Bild speichern nicht möglich</string>
-    <string name="screenshot_save_image_success">Bild erfolgreich gespeichert</string>
-    <string name="screenshot_shared_image">Bild teilen</string>
-    <string name="screenshot_translation_running">Übersetzen…</string>
-    <string name="storage_permissions_text">Scanner den Gerätespeicherzugriff erlauben, um diese Funktion nutzen zu können</string>
-    <string name="translate_export">Exportieren</string>
-    <string name="translate_long_screen">Übersetzung mit Bildlauf</string>
-    <string name="user_agreement">Nutzervereinbarung</string>
-    <string name="user_notification">Zustimmung widerrufen</string>
-    <string name="version_code">"Version: "</string>
-    <string name="view_origin_text">Originaltext</string>
-
     <string name="Approval">Anwenden</string>
     <string name="Enhance">Verbessert</string>
     <string name="Fullmask_mode">Verdeckt</string>
@@ -88,9 +59,11 @@
     <string name="business_no_result">Visitenkarte wurde nicht erkannt. Versuchen Sie es erneut.</string>
     <string name="calender">Kalender</string>
     <string name="call_anyone">Anrufen</string>
+    <string name="call_phone_permissions_text">Scanner das Anrufen erlauben, um diese Funktion nutzen zu können</string>
     <string name="calories_logo_text">KI-Unterstützung durch Health Hope</string>
     <string name="calories_request_interface_text">KI-Unterstützung</string>
     <string name="camera_error_title">Kamerafehler</string>
+    <string name="camera_permissions_text">Scanner den Kamerazugriff erlauben, um diese Funktion nutzen zu können</string>
     <string name="camera_stealth_mode_message">Verbindung zur Kamera nicht möglich. Wenn die Kamera benötigt wird, schalten Sie den Stealth-Modus aus.</string>
     <string name="camera_stealth_mode_title">Stealth-Modus ist aktiviert</string>
     <string name="can_only_be_English_Chinese">Online-Übersetzungssprache kann nur Englisch und Vereinfachtes Chinesisch sein.</string>
@@ -281,6 +254,7 @@
     <string name="food_module_thumbs_up">Gefällt mir</string>
     <string name="food_module_tip">Lebensmittel im Rahmen platzieren</string>
     <string name="food_module_title_food">Kalorien</string>
+    <string name="format_error">Ungültiges Passwort</string>
     <string name="friday">Freitag</string>
     <string name="friday_short">Fr</string>
     <string name="friday_shortest">F</string>
@@ -335,6 +309,8 @@
     <string name="kuaidi100_data">Unterstützt durch Kuaidi 100</string>
     <string name="label_choose_picture">Bild wählen</string>
     <string name="label_flash_light">Taschenlampe</string>
+    <string name="label_flash_light_off">Blitzlicht ist aus</string>
+    <string name="label_flash_light_on">Blitzlicht ist an</string>
     <string name="language_entry_chinese_cn">Vereinfachtes Chinesisch</string>
     <string name="language_entry_chinese_tw">Traditionelles Chinesisch</string>
     <string name="language_entry_danish">Dänisch</string>
@@ -352,11 +328,13 @@
     <string name="language_entry_russian">Russisch</string>
     <string name="language_entry_spanish">Spanisch</string>
     <string name="language_entry_swedish">Schwedisch</string>
+    <string name="language_translate_entry_auto">Automatisch</string>
     <string name="limit_exceeded">Bis zu %d auswählen</string>
     <string name="link_to_network">Verbinden</string>
     <string name="local_ocr_recognition">Lokale OCR-Erkennung</string>
     <string name="local_ocr_recognition_str">Auf Offline-Übersetzung umgestellt</string>
     <string name="logistics">Expresslieferung</string>
+    <string name="logout_service">Zustimmung widerrufen</string>
     <string name="low_version_tip">MIUI auf die neueste Version aktualisieren, um Scanner zu verwenden</string>
     <string name="midnight">Nacht</string>
     <string name="mihome_goto_install">Installieren</string>
@@ -390,6 +368,7 @@
     <string name="miuix_appcompat_select_all">Alle wählen</string>
     <string name="miuix_appcompat_select_all_description">Alle wählen</string>
     <string name="miuix_appcompat_select_item">Elemente wählen</string>
+    <string name="miuix_indexer_collect">Sammlungen</string>
     <string name="miuix_indexer_selected">%s ausgewählt</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Zum Aktualisieren herunterziehen</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Erfolgreich aktualisiert</string>
@@ -488,6 +467,7 @@
     <string name="pdf_saved_successfully">PDF erfolgreich gespeichert</string>
     <string name="permission_denied_albums">Zugriff auf Fotos, Medien und Dateien auf Ihrem Gerät zum Anzeigen von Alben erlauben</string>
     <string name="permission_denied_images">Zugriff auf Fotos, Medien und Dateien auf Ihrem Gerät zum Anzeigen von Bildern erlauben</string>
+    <string name="permission_management">Berechtigungen</string>
     <string name="personalassistant_not_install">Diese Funktion wird noch nicht unterstützt!</string>
     <string name="phone">Telefon:</string>
     <string name="phone_can_not_be_empty">Rufnummer darf nicht leer sein</string>
@@ -561,6 +541,11 @@
     <string name="preparing_sd">SD-Karte vorbereiten…</string>
     <string name="previous">Zurück</string>
     <string name="privacy_policy">Datenschutzerklärung</string>
+    <string name="privacy_policy_update">Datenschutzerklärung aktualisiert</string>
+    <string name="privacy_policy_update_message">&lt;Data>Sie können Scanner nur dann weiter verwenden, wenn Sie der neuen Version der &lt;a href=\"%1$s\">Datenschutzerklärung&lt;/a> zustimmen. Jetzt der aktualisierten Datenschutzerklärung zustimmen?&lt;/Data></string>
+    <string name="privacy_policy_update_welcome">Scanner-Datenschutzerklärung wurde aktualisiert:</string>
+    <string name="privacy_policy_withdrawal_error">Zustimmung widerrufen nicht möglich. Etwas warten und erneut versuchen.</string>
+    <string name="privacy_policy_withdrawal_message">&lt;Data>Wenn Sie fortfahren, widerrufen Sie Ihre Zustimmung zur Datenschutzerklärung von Scanner. Dies wird als Ablehnung der Dienstleistungen von Scanner betrachtet. Sie müssen der &lt;a href=\"%1$s\">Datenschutzerklärung&lt;/a> erneut zustimmen, wenn Sie sich für die Verwendung von Scanner entscheiden. Zustimmung jetzt widerrufen?&lt;/Data></string>
     <string name="processing">Bearbeiten…</string>
     <string name="prompt">Achtung</string>
     <string name="qr_code_details">QR-Code Details:</string>
@@ -575,6 +560,7 @@
     <string name="query_tracking">Zustellung</string>
     <string name="query_tracknum">Expresslieferauftrag prüfen</string>
     <string name="qureyGoods">Nach Produkten suchen</string>
+    <string name="read_contacts_permissions_text">Scanner den Kontaktezugriff erlauben, um diese Funktion nutzen zu können.</string>
     <string name="recognition_error_download_cancel">Später</string>
     <string name="recognition_error_download_data_msg">Laden Sie Erkennungssoftware runter, um Karten zu scannen (ca. 15 MB). Mobile Daten für den Download nutzen?</string>
     <string name="recognition_error_download_fail">Erkennungssoftware wurde nicht heruntergeladen</string>
@@ -610,6 +596,12 @@
     <string name="scan_fail">Code wurde nicht gescannt</string>
     <string name="scan_result">Ergebnis</string>
     <string name="scan_support_type">WeChat, Alipay, QR-Codes, Barcodes</string>
+    <string name="screenshot_copy_text">Text kopieren</string>
+    <string name="screenshot_save_image">Bild speichern</string>
+    <string name="screenshot_save_image_error">Bild speichern nicht möglich</string>
+    <string name="screenshot_save_image_success">Bild erfolgreich gespeichert</string>
+    <string name="screenshot_shared_image">Bild teilen</string>
+    <string name="screenshot_translation_running">Übersetzen…</string>
     <string name="sdk_not_ready">SDK wird vorbereitet. Versuchen Sie es später erneut.</string>
     <string name="search_menu_title">Suchen</string>
     <string name="secure_access_web_url">Zur Webseite gehen</string>
@@ -661,6 +653,7 @@
     <string name="solar_term_winter_begins">Winteranfang</string>
     <string name="solar_term_winter_solstice">Wintersonnenwende</string>
     <string name="spaceIsLow_content">Nicht genügend Speicherplatz auf der SD-Karte. Speicherplatz freigeben.</string>
+    <string name="storage_permissions_text">Scanner den Gerätespeicherzugriff erlauben, um diese Funktion nutzen zu können</string>
     <string name="store_feedback_prompt">Zuerst Feedback eingeben</string>
     <string name="store_location_dialog">Dieser Service wird von Dianping angeboten. Alle Fotos, die Sie während der Nutzung des Services machen, inkl. der zugehörigen Standortinfo, werden an Dianping weitergegeben, um Shopinfos zu erhalten.</string>
     <string name="store_location_fail">Keine Standortinfo erhalten</string>
@@ -681,6 +674,7 @@
     <string name="sunday_short">So</string>
     <string name="sunday_shortest">S</string>
     <string name="switch_open">Einschalten</string>
+    <string name="switchover">Wechseln</string>
     <string name="take_a_picture">Kamera</string>
     <string name="take_the_word">Lange auf den Knopf unten drücken, um das Wort zu übernehmen</string>
     <string name="tel">Telefon</string>
@@ -752,8 +746,10 @@
     <string name="translate_auto_unlock">Übersetzung freischalten</string>
     <string name="translate_copy_success">Erfolgreich kopiert</string>
     <string name="translate_dest_lang">Zielsprache</string>
+    <string name="translate_export">Exportieren</string>
     <string name="translate_fail">Übersetzung nicht möglich</string>
     <string name="translate_loading">Übersetzen…</string>
+    <string name="translate_long_screen">Übersetzung mit Bildlauf</string>
     <string name="translate_overtime">Dienst-Zeitüberschreitung</string>
     <string name="translate_parallel_2_lines">Achten Sie darauf, dass der Text parallel zu den Linien auf dem Bildschirm ist</string>
     <string name="translate_save_fail">Notiz nicht gespeichert</string>
@@ -798,8 +794,12 @@
     <string name="url_is_safety">Diese Webseite ist sicher</string>
     <string name="url_is_unknown">Seite auf Sicherheit prüfen fehlgeschlagen</string>
     <string name="url_is_unsafety">Diese Webseite ist nicht sicher</string>
+    <string name="user_agreement">Nutzervereinbarung</string>
+    <string name="user_notification">Zustimmung widerrufen</string>
     <string name="v7_preference_off">AUS</string>
     <string name="v7_preference_on">AN</string>
+    <string name="version_code">"Version: "</string>
+    <string name="view_origin_text">Originaltext</string>
     <string name="view_study_report">Bericht zeigen</string>
     <string name="visit">Besuchen</string>
     <string name="waybill_num">"Bestellung: "</string>
@@ -827,8 +827,7 @@
     <string name="word_translation">Wortübersetzung</string>
     <string name="wx_not_installed_toast">Diese Funktion muss WeChat öffnen. Zuerst WeChat installieren.</string>
     <string name="xiaoai_classmate_scan_text">Mit Mi KI scannen</string>
-    <string name="xiaoai_dialog">"Versuchen Sie zu sagen, was Sie
-mit Mi KI scannen wollen"</string>
+    <string name="xiaoai_dialog">"Versuchen Sie zu sagen, was Sie\nmit Mi KI scannen wollen"</string>
     <string name="yesterday">Gestern</string>
     <string name="you_have_permission_to_download">Hier tippen, um die Beta Version herunterzuladen</string>
     <string name="you_id">"Ihre ID: "</string>
