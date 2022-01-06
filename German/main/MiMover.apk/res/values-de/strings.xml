@@ -1,26 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-    <string name="apple_calendar">Kalendereintrag</string>
-    <string name="apple_contacts">Kontakte</string>
-    <string name="apple_image">Bild</string>
-    <string name="apple_video">Video</string>
-    <string name="soft_ap_create_failed_apple">Hotspot einrichten fehlgeschlagen</string>
-    <string name="trans_apple">Ihr iPhone verbinden</string>
-    <string name="trans_apple_button_cancel">Migration abbrechen</string>
-    <string name="trans_apple_button_cancel_hint">Möchten Sie die Migration jetzt abbrechen?</string>
-    <string name="trans_apple_button_cancel_negative">Halten</string>
-    <string name="trans_apple_button_cancel_positive">Abbrechen bestätigen</string>
-    <string name="trans_apple_button_reconnect">Erneut verbinden</string>
-    <string name="trans_apple_hint">Bitte während des Migrationsprozesses diese Seite nicht verlassen und kein WLAN verwenden</string>
-    <string name="trans_apple_hint_1_content">Die iPhone-Kamera-App verwenden, um den Code zu scannen und um die \"Xiaomi Ersatz-App\" zu installieren, oder in den Apple App Store gehen, um sie herunterzuladen.</string>
-    <string name="trans_apple_hint_1_title">%d. Zum Installieren wischen</string>
-    <string name="trans_apple_hint_2_content">\"Xiaomi Ersatz-APP\" auf Ihrem iPhone öffnen, auf \"Ich bin ein altes Telefon\" tippen und oben den QR-Code scannen</string>
-    <string name="trans_apple_hint_2_title">%d. Codeverbindung scannen</string>
-    <string name="trans_apple_interrupt_sub">Bitte auf die Taste unten tippen, um die Verbindung wiederherzustellen.</string>
-    <string name="trans_apple_interrupt_title">Übertragung unterbrochen</string>
-    <string name="trans_sync_transfer_data_list_apple">Bitte auf dem iPhone auswählen,\num Daten zu migrieren.</string>
-
-
     <string name="abc_action_bar_home_description">Zur Startseite</string>
     <string name="abc_action_bar_up_description">Nach oben</string>
     <string name="abc_action_menu_overflow_description">Weitere Optionen</string>
@@ -56,6 +35,9 @@
     <string name="app_update_64_dialog_title">Auf 64-Bit-Architektur aktualisieren</string>
     <string name="app_update_64_notfication_body">App-Leistung durch Aktualisierung steigern</string>
     <string name="app_update_title">Alle Apps aktualisieren</string>
+    <string name="apple_calendar">Kalendereinträge</string>
+    <string name="apple_contacts">Kontakte</string>
+    <string name="apple_image">Fotos</string>
     <string name="appname_app_data_suffix">%1$s App-Daten</string>
     <string name="audio_video_document">Audio, Video und Dokumente</string>
     <string name="back">Zurück</string>
@@ -558,6 +540,8 @@ Wir schützen Ihre persönlichen Daten in Übereinstimmung mit den einschlägige
     <string name="perm_storage">Lesen und Schreiben auf externen Speicher</string>
     <string name="perm_write_settings">Systemeinstellungen ändern</string>
     <string name="permdesc_sendSmsNoConfirmation">App kann SMS ohne Ihre Zustimmung senden. Ihr Mobilfunkanbieter kann Ihnen diese Nachrichten in Rechnung stellen.</string>
+    <string name="permission_about_contacts">Berechtigung zum Bearbeiten von Kontakten und Anruflisten erforderlich</string>
+    <string name="permission_about_storage">Berechtigung zum Zugriff auf den Gerätespeicher erforderlich</string>
     <string name="permission_alert_message_usage_access">Mi Mover muss auf die App-Nutzungsstatistiken zugreifen. Geben Sie Mi Mover die erforderlichen Berechtigungen in den Einstellungen.</string>
     <string name="permission_alert_title">Berechtigungen erforderlich</string>
     <string name="permission_bluetooth_summary">Um verfügbare Geräte in der Nähe zu finden</string>
@@ -571,6 +555,7 @@ Wir schützen Ihre persönlichen Daten in Übereinstimmung mit den einschlägige
     <string name="permission_grant_request">Um dieses Element zu übertragen, benötigt Mi Mover die \"%1$s\"-Berechtigung.</string>
     <string name="permission_locale_summary">Zum Anschluss von Geräten in der Nähe</string>
     <string name="permission_locale_title">Zugriff auf Standort</string>
+    <string name="permission_location_content">Mi Mover erlauben, auf den Standort zuzugreifen, um mit Ihrem alten Gerät zu verbinden. Wenn Sie den Standortzugriff nicht zulassen, können Sie keine Elemente übertragen.</string>
     <string name="permission_message_summary">Zum Übertragen von Nachrichten auf Ihr neues Gerät</string>
     <string name="permission_message_title">Zugriff auf SMS-Inhalte</string>
     <string name="permission_request_title">\"%1$s\"-Berechtigung erforderlich</string>
@@ -593,9 +578,12 @@ Wir schützen Ihre persönlichen Daten in Übereinstimmung mit den einschlägige
     <string name="prompt_before_transmission_message4_title">Während der gesamten Übertragung verbunden bleiben</string>
     <string name="prompt_before_transmission_message5_summary">Kabellose Übertragung großer Datenmengen kann zu einer leichten Überhitzung führen, was nicht ungewöhnlich ist. Ihr Gerät kühlt bald nach Abschluss der Übertragung ab.</string>
     <string name="prompt_before_transmission_message5_title">Ihr Gerät kann sich während der Übertragung erwärmen.</string>
+    <string name="provisiion_set_old_phone">Vom alten Gerät importieren</string>
+    <string name="provisiion_set_old_phone_summary">Mi Mover benutzen, um Daten von Ihrem alten Gerät ohne eine Internetverbindung zu importieren</string>
     <string name="provision_cta_title">Von altem Gerät übertragen</string>
     <string name="provision_receiver_finish_button">Weiter</string>
     <string name="provision_select_data_null">Zu übertragende Elemente wählen</string>
+    <string name="provision_set_new_phone">Als neues Gerät verwenden</string>
     <string name="qq_app_receive_fail">QQ nicht erhalten</string>
     <string name="qq_app_send_fail">QQ nicht gesendet</string>
     <string name="qq_data_external">QQ SD-Kartendaten</string>
@@ -606,7 +594,8 @@ Wir schützen Ihre persönlichen Daten in Übereinstimmung mit den einschlägige
     <string name="receiver_finish_detail_success">Übertragene Elemente</string>
     <string name="receiver_finish_title">Es ist alles bereit!</string>
     <string name="receiver_video_summary">Entsperren Sie Ihr altes Gerät, tippen Sie auf \"Übertragen\", und scannen Sie dieses Bild</string>
-    <string name="receiver_video_title">Von altem Gerät übertragen</string>
+    <string name="receiver_video_title">Vom alten Gerät übertragen</string>
+    <string name="recommend_hint">Empfohlen</string>
     <string name="reconnect">Erneut verbinden</string>
     <string name="recovery_progress">Elemente wiederherstellen (%1$d/%2$d)…</string>
     <string name="recreate_soft_ap_tips">Schaltfläche unten antippen, um es erneut zu versuchen</string>
@@ -680,6 +669,12 @@ Mindestens %s freigeben."</string>
     <string name="sender_finish_title">Erfolgreich übertragen</string>
     <string name="sender_scanning_code">Bild im Rahmen platzieren</string>
     <string name="sender_scanning_connecting">Mit neuem Gerät verbinden…</string>
+    <string name="set_new_device_account">Mit Mi-Konto synchronisieren</string>
+    <string name="set_new_device_lock">Bildschirmsperre einstellen</string>
+    <string name="set_new_device_more">Weitere Systemeinstellungen…</string>
+    <string name="set_new_device_navigationbar">Systemnavigation einstellen</string>
+    <string name="set_new_device_title">Neues Gerät einrichten…</string>
+    <string name="set_new_device_wlan">WLAN einrichten</string>
     <string name="settings_phone">Telefoneinstellungen</string>
     <string name="settings_powerkeeper">Schrittzähler-Daten</string>
     <string name="settings_sms">Nachrichteneinstellungen</string>
@@ -702,6 +697,7 @@ Mindestens %s freigeben."</string>
     <string name="skip_transfer">Überspringen</string>
     <string name="skip_underline">Diesen Schritt überspringen</string>
     <string name="soft_ap_create_failed">Hotspot erstellen nicht möglich</string>
+    <string name="soft_ap_create_failed_apple">QR-Code generieren fehlgeschlagen</string>
     <string name="soft_ap_creating">Hotspot erstellen…</string>
     <string name="solar_term_autumn_begins">Herbstanfang</string>
     <string name="solar_term_autumn_equinox">Herbst-Tagundnachtgleiche</string>
@@ -804,6 +800,19 @@ Mindestens %s freigeben."</string>
     <string name="title_request_write_settings_perm">Berechtigung zum Ändern von Systemeinstellungen erforderlich</string>
     <string name="today">Heute</string>
     <string name="tomorrow">Morgen</string>
+    <string name="trans_apple">iPhone verbinden</string>
+    <string name="trans_apple_button_cancel">Übertragung abbrechen</string>
+    <string name="trans_apple_button_cancel_hint">Übertragung jetzt abbrechen?</string>
+    <string name="trans_apple_button_cancel_negative">Nicht abbrechen</string>
+    <string name="trans_apple_button_cancel_positive">Übertragung abbrechen</string>
+    <string name="trans_apple_button_reconnect">Erneut verbinden</string>
+    <string name="trans_apple_hint">Diese Seite nicht verlassen oder WLAN verwenden, bis die Übertragung abgeschlossen ist.</string>
+    <string name="trans_apple_hint_1_content">Mi Mover aus dem App Store herunterladen oder diesen QR-Code mit der Kamera-App des iPhone scannen.</string>
+    <string name="trans_apple_hint_1_title">%d. Mi Mover installieren.</string>
+    <string name="trans_apple_hint_2_content">Mi Mover auf dem iPhone öffnen, auf \"Tippen, um Elemente zu senden\" tippen und den QR-Code scannen.</string>
+    <string name="trans_apple_hint_2_title">%d. Geräte verbinden.</string>
+    <string name="trans_apple_interrupt_sub">Unten tippen, um erneut zu verbinden</string>
+    <string name="trans_apple_interrupt_title">Übertragung wurde unterbrochen</string>
     <string name="trans_detail_item_app_data_skip_data">App-Daten übertragen nicht möglich</string>
     <string name="trans_detail_item_app_skip_data">App verschieben nicht möglich</string>
     <string name="trans_detail_qq_data">QQ-Daten (inkl. Chat-Verlauf)</string>
@@ -820,6 +829,7 @@ Videos, Dokumente und Apps auf ein neues Gerät verschieben"</string>
     <string name="trans_show_qr_code_label">Mit altem Gerät verbinden</string>
     <string name="trans_show_qr_code_label_for_pad">Mi Mover auf dem alten Gerät öffnen</string>
     <string name="trans_sync_transfer_data_list">Zu übertragende Elemente auf dem alten Gerät auswählen</string>
+    <string name="trans_sync_transfer_data_list_apple">Auf das iPhone zu übertragende Elemente wählen</string>
     <string name="trans_sync_transfer_data_list_hint">Einen Moment…</string>
     <string name="trans_sync_transfer_data_list_summary_for_pad">Wählen Sie Elemente auf Ihrem alten Gerät und tippen Sie auf \"Senden\".</string>
     <string name="trans_time_format_second">Weniger als 1 Minute</string>
