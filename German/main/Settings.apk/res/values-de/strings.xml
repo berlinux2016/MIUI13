@@ -167,16 +167,18 @@ Falls das Gerät mehrere Benutzer hat, werden die Eingabehilfen durch Verwendung
     <string name="accessibility_magnification_mode_dialog_title">Wählen, wie vergrößert werden soll</string>
     <string name="accessibility_magnification_mode_title">Vergrößerungsbereich</string>
     <string name="accessibility_magnification_service_settings_title">Vergrößerungseinstellungen</string>
-    <string name="accessibility_magnification_switch_shortcut_message">"Vergrößerung des Teilbildschirms durch Dreifach-Tipp verursacht Verzögerungen beim Tippen und anderen Dingen.\n\nDie Eingabehilfentaste schwebt auf Ihrem Bildschirm über anderen Apps. Antippen zum Vergrößern."</string>
+    <string name="accessibility_magnification_switch_shortcut_message">Vergrößerung des Teilbildschirms durch Dreifach-Tipp verursacht Verzögerungen beim Tippen und anderen Dingen.\n\nDie Eingabehilfentaste schwebt auf Ihrem Bildschirm über anderen Apps. Antippen zum Vergrößern.</string>
     <string name="accessibility_magnification_switch_shortcut_negative_button">Dreifach-Tipp verwenden</string>
     <string name="accessibility_magnification_switch_shortcut_positive_button">Auf Eingabehilfentaste umschalten</string>
     <string name="accessibility_magnification_switch_shortcut_title">Auf Eingabehilfentaste umschalten?</string>
     <string name="accessibility_manual_zen_less_time">Weniger Zeit</string>
     <string name="accessibility_manual_zen_more_time">Mehr Zeit</string>
-    <string name="accessibility_menu_description">"Das Menü Eingabehilfen bietet praktische Tastenkombinationen, mit denen Sie Ihr Gerät steuern können.\n\nSchalten Sie diese Funktion ein und tippen Sie auf die Schaltfläche Eingabehilfen unten auf Ihrem Bildschirm, um das Menü zu öffnen."</string>
+    <string name="accessibility_menu_description">Das Menü Eingabehilfen bietet praktische Tastenkombinationen, mit denen Sie Ihr Gerät steuern können.\n\nSchalten Sie diese Funktion ein und tippen Sie auf die Schaltfläche Eingabehilfen unten auf Ihrem Bildschirm, um das Menü zu öffnen.</string>
+    <string name="accessibility_menu_description_pad">Das Menü Eingabehilfen bietet praktische Tastenkombinationen, mit denen Sie Ihr Gerät steuern können.\n\nSchalten Sie diese Funktion ein und tippen Sie auf die Schaltfläche Eingabehilfen unten auf Ihrem Bildschirm, um das Menü zu öffnen.</string>
     <string name="accessibility_menu_item_settings">Einstellungen</string>
     <string name="accessibility_menu_service_name">Menü Eingabehilfen</string>
     <string name="accessibility_menu_summary">Steuern Sie Ihr Gerät über praktische Tastenkombinationen</string>
+    <string name="accessibility_menu_summary_pad">Steuern Sie Ihr Gerät über praktische Tastenkombinationen</string>
     <string name="accessibility_more_settings">Weitere Einstellungen</string>
     <string name="accessibility_no_calling">Keine Anrufe</string>
     <string name="accessibility_no_data">Keine Daten</string>
@@ -890,6 +892,9 @@ benachrichtigungen erlauben"</string>
     <string name="auto_clean_description">"Über diese Funktion:
 1. Führen Sie diese Funktion ein- oder zweimal aus, wenn Sie feststellen, dass Ihr Lautsprecher leicht durch Staub blockiert ist.
 2. Wenn der Lautsprecher stark blockiert ist, führen Sie diese Funktion 2-5 mal aus, während Sie Ihr Gerät mit dem Lautsprecher nach unten schütteln."</string>
+    <string name="auto_clean_description_pad">"Über diese Funktion:
+- Führen Sie diese Funktion ein- oder zweimal aus, wenn Sie feststellen, dass Ihr Lautsprecher leicht durch Staub blockiert ist.
+- Wenn der Lautsprecher stark blockiert ist, führen Sie diese Funktion %1$d-%2$d-mal aus, während Sie Ihr Gerät mit dem Lautsprecher nach unten schütteln."</string>
     <string name="auto_clean_summary">Ein 30-Sekunden-Audio abspielen, um den Lautsprecher zu reinigen</string>
     <string name="auto_clean_summary_new">Einen %d-Sekundenton abspielen, um den Lautsprecher zu reinigen. Funktion mehrmals hintereinander verwenden, um größere Mengen von Schmutz zu entfernen.</string>
     <string name="auto_clean_title">Lautsprecher reinigen</string>
@@ -2148,6 +2153,7 @@ Sie können diese Funktion unter Einstellungen/Bluetooth/Gekoppelte Geräte auss
     <string name="clear_all_data">Alle Daten löschen</string>
     <string name="clear_cache_btn_text">Cache leeren</string>
     <string name="clear_data_alert_info">Alle auf diesem Gerät gespeicherten Sicherungen werden endgültig gelöscht. Sichern Sie wichtige Elemente auf Ihrem Computer und in der Xiaomi Cloud, bevor Sie einen Werksreset durchführen.</string>
+    <string name="clear_data_alert_info_pad">Alle auf diesem Gerät gespeicherten Sicherungen werden endgültig gelöscht. Sichern Sie wichtige Elemente auf Ihrem Computer und in der Xiaomi Cloud, bevor Sie fortfahren.</string>
     <string name="clear_data_dlg_text">Alle Daten dieser App werden endgültig gelöscht. Dazu zählen alle Dateien, Einstellungen, Konten, Datenbanken usw.</string>
     <string name="clear_data_dlg_title">App-Daten löschen?</string>
     <string name="clear_data_failed">App-Daten können nicht gelöscht werden</string>
@@ -7432,7 +7438,8 @@ UT Interface: %5$s"</string>
 "<li>Alle Rechtebeschränkungen</li>"
  App-Daten gehen nicht verloren."</string>
     <string name="reset_app_preferences_title">App-Einstellungen zurücksetzen?</string>
-    <string name="reset_confirm_directory">Hinweis: Vor dem Wiederherstellen von Elementen prüfen, ob der Ordner \"MIUI-backup-AllBackup\" auf Ihrem Mobilgerät vorhanden ist. Ist dies nicht der Fall, erstellen Sie ihn.</string>
+    <string name="reset_confirm_directory">Hinweis: Prüfen Sie vor der Wiederherstellung von Elementen, ob der Ordner \"MIUI-Backup-AllBackup\" auf Ihrem Mobilgerät existiert. Wenn nicht, erstellen Sie ihn.</string>
+    <string name="reset_confirm_directory_pad">Hinweis: Prüfen Sie vor der Wiederherstellung von Elementen, ob der Ordner \"MIUI-Backup-AllBackup\" auf Ihrem Mobilgerät existiert. Wenn nicht, erstellen Sie ihn.</string>
     <string name="reset_dashboard_summary">Netzwerk, Apps oder Gerät können zurückgestzt werden</string>
     <string name="reset_dashboard_summary_onlyApps">Apps können zurückgesetzt werden</string>
     <string name="reset_dashboard_title">Zurücksetzen</string>
