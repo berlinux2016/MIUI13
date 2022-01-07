@@ -1,7 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+    <string name="AudioOnOff">\u0009Audio an/aus</string>
     <string name="FpTest">FpTestlauf</string>
     <string name="FpTest_result">FpTestergebnis:</string>
+    <string name="SAROnOff">\u0009SAR an/aus</string>
     <string name="SDCard">SD-Karte</string>
     <string name="SD_INTERNAL_SDCard_mounted">Interne SD-Karte erkennen</string>
     <string name="SD_INTERNAL_SDCard_unmounted">Interne SD-Karte nicht verfügbar</string>
@@ -564,6 +566,14 @@ Wenn Sie \"music.mp3\" in das Verzeichnis der SD-Karte gelegt haben, zum Abspiel
     <string name="cit_tool_bluetooth_le_power_run">STARTEN</string>
     <string name="cit_tool_bluetooth_le_rx_4x_channel">Kanal:</string>
     <string name="cit_tool_bluetooth_le_rx_50_channel">Kanal:</string>
+    <string name="cit_tool_bluetooth_le_rx_num">Rx-Paketanzahl:</string>
+    <string name="cit_tool_bluetooth_le_tx_4x_antenna">Antenne:</string>
+    <string name="cit_tool_bluetooth_le_tx_4x_channel">Kanal:</string>
+    <string name="cit_tool_bluetooth_le_tx_4x_payload">Nutzlast:</string>
+    <string name="cit_tool_bluetooth_le_tx_50_antenna">Antenne:</string>
+    <string name="cit_tool_bluetooth_le_tx_50_channel">Kanal:</string>
+    <string name="cit_tool_bluetooth_le_tx_50_payload">Nutzlast:</string>
+    <string name="cit_tool_bluetooth_le_tx_antenna">Antenne:</string>
     <string name="cit_tool_bluetooth_le_tx_channel">Kanal:</string>
     <string name="cit_tool_bluetooth_not_on">Bluetooth ist NICHT aktiviert</string>
     <string name="cit_tool_bluetooth_off">Bluetooth deaktivieren</string>
@@ -798,6 +808,18 @@ Bestätigen Sie, dass die Farben auf dem gesamten Bildschirm einheitlich dargest
     <string name="dispaly_sar_sensor_values">Alle aktuellen Sensorwerte anzeigen</string>
     <string name="display_test_finish">Bildschirmtest abgeschlossen</string>
     <string name="dsi_sar_on_off_tips">DSI SAR Ein/Aus-Schalter</string>
+    <string name="edittextdisplay">"
+\u0009\u0009\u0009Willkommen bei SAR-Tool !
+
+\u0009\u0009\u0009Alle Berechtigungen wurden aktiviert
+\u0009\u0009\u0009SAR-Schalter ist aus, bitte manuell einschalten
+\u0009\u0009\u0009SAR gesperrt, bitte DSI-Wert einstellen"</string>
+    <string name="edittextdisplayf">"
+\u0009\u0009\u0009Berechtigungen wurden eingeschränkt
+
+\u0009\u0009Stellen Sie sicher, dass die xml-Datei im internen
+\u0009\u0009\u0009Netzwerk und im Antwortpfad übergeben wird:
+\u0009\u0009/sdcard/debug/UrlSign.xml"</string>
     <string name="enrol">Registrieren</string>
     <string name="error">Fehler</string>
     <string name="error_app_internal">Interner App-Fehler</string>
