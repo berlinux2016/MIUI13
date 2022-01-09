@@ -88,7 +88,6 @@
     <string name="adjust_tiunt">Farbton</string>
     <string name="afternoon">Nachmittag</string>
     <string name="agreement_agree">Akzeptieren</string>
-    <string name="agreement_optional_tip">(Optional)</string>
     <string name="agreement_quit">Beenden</string>
     <string name="agreement_required_tip">(Obligatorisch)</string>
     <string name="agreement_summary">Rechtliche Dokumente</string>
@@ -142,9 +141,9 @@
     <string name="album_permission_title_non_granted">Nicht gewährt</string>
     <string name="album_quota_fulfiled">Album erstellen nicht möglich, Albenanzahl hat Limit erreicht.</string>
     <string name="album_rubbish_cant_change_status">In Papierkorb verschobene Alben synchronisieren nicht möglich</string>
-    <string name="album_rubbish_clear_all_item_description">Alle Junk-Alben leeren</string>
-    <string name="album_rubbish_page_title">Junk-Alben</string>
-    <string name="album_rubbish_tip_title">Verdacht auf Junk-Alben</string>
+    <string name="album_rubbish_clear_all_item_description">Müll beseitigen</string>
+    <string name="album_rubbish_page_title">Müll</string>
+    <string name="album_rubbish_tip_title">Verdacht auf Alben mit Müll</string>
     <string name="album_screen_recorder">Bildschirmaufnahme</string>
     <string name="album_screenshot_and_screen_recorder_name">Screenshots &amp; Bildschirmaufnahmen</string>
     <string name="album_share_cant_move_to_rubbish_tip">Geteilte Alben in den Papierkorb verschieben nicht möglich</string>
@@ -189,7 +188,7 @@
     <string name="already_create_baby_album">Kinderalbum existiert in Xiaomi Cloud</string>
     <string name="already_share">Geteilt</string>
     <string name="and">" und "</string>
-    <string name="app_is_launching">%s starten…</string>
+    <string name="app_is_launching">%s startet…</string>
     <string name="app_is_launching_common">App starten</string>
     <string name="app_name">Galerie</string>
     <string name="app_name_view_picture">Zeige Fotos</string>
@@ -314,19 +313,20 @@
     <string name="begin_share">Erstellen Sie ein Kinderalbum \"%s\" und teilen Sie es sofort</string>
     <string name="begin_share_toast">Vor dem Teilen ein eigenes Album für dieses Kind erstellen?</string>
     <string name="browse_category">Anzeigen</string>
-    <string name="browse_category_title">Durchstöbern</string>
+    <string name="browse_category_title">Durchsuchen</string>
     <string name="btn_cancel">Abbrechen</string>
     <string name="btn_cancel_send">Diese Übertragung abbrechen</string>
     <string name="btn_exit_send">Beenden</string>
+    <string name="btn_sure">Bestätigen</string>
     <string name="burst_image_download_item_title" formatted="false">Original herunterladen (%s|%s)</string>
-    <string name="burst_preview_title">Burst Shot</string>
-    <string name="burst_save_all">Alle Fotos behalten</string>
+    <string name="burst_preview_title">Serienfoto</string>
+    <string name="burst_save_all">Alle Serienfotos speichern</string>
     <string name="burst_save_choice_title">%1$d aus %2$d ausgewählt</string>
     <string name="burst_save_confirm_dialog_title">Fotos speichern</string>
     <string name="burst_save_dialog_title">Auswählen, welche Fotos Sie behalten möchten</string>
     <string name="burst_save_error_msg">Speichern nicht möglich</string>
     <string name="burst_save_processing">Verarbeiten…</string>
-    <string name="burst_save_video">Als Video speichern</string>
+    <string name="burst_save_video">Alle Fotos als Videos speichern</string>
     <string name="burst_save_video_fail">Speichern nicht möglich</string>
     <string name="burst_save_video_progerss">Video erstellen…</string>
     <string name="burst_save_video_title">Videoauflösung</string>
@@ -677,7 +677,7 @@
     <string name="empty_album_cloud_list_title">Keine Alben zu synchronisieren</string>
     <string name="empty_album_hidden_list_title">Keine versteckten Alben</string>
     <string name="empty_album_other_list_title">Keine Alben vorhanden</string>
-    <string name="empty_album_rubbish_list_title">Keine Junk-Alben vorhanden</string>
+    <string name="empty_album_rubbish_list_title">Keine Alben mit Müll vorhanden</string>
     <string name="empty_description_conditions">An wichtige Dinge erinnern</string>
     <string name="empty_description_conditions_new">Ladegerät anschließen und den Bildschirm ausschalten, damit die Elemente hier schneller erscheinen</string>
     <string name="empty_description_no_cards">An wichtige Dinge erinnern</string>
@@ -1425,8 +1425,7 @@
     <string name="month_october_shortest">O</string>
     <string name="month_september_shortest">S</string>
     <string name="month_view_tip_button_text">Verstanden</string>
-    <string name="month_view_tip_sub_title">"Bildschirm zusammenziehen, um zur Monatsansicht
-zu wechseln."</string>
+    <string name="month_view_tip_sub_title">Bildschirm zusammenziehen, um zur Monatsansicht\nzu wechseln.</string>
     <string name="month_view_tip_title">Monatsansicht</string>
     <string name="more">Mehr</string>
     <string name="more_album_hint">" usw."</string>
@@ -1482,6 +1481,7 @@ zu wechseln."</string>
     <string name="movie_edit">Bearbeiten</string>
     <string name="movie_edit_photo">Foto</string>
     <string name="movie_full_screen">Vollbild</string>
+    <string name="movie_item_name">Film aus Fotos</string>
     <string name="movie_preview_btn">Vorschau</string>
     <string name="movie_preview_share_title">Teilen</string>
     <string name="movie_return">Zurück</string>
@@ -1572,8 +1572,7 @@ zu wechseln."</string>
     <string name="online_video_error_unsupported_type">Online-Player unterstützt dieses Format nicht. Stattdessen wurde das Element heruntergeladen.</string>
     <string name="online_video_normal_transcoding">Online-Player ist noch nicht fertig. Stattdessen wurde das Element heruntergeladen.</string>
     <string name="online_video_vip_tip">Werden Sie VIP-Mitglied, um Videos zu streamen, ohne sie vollständig vorzuladen</string>
-    <string name="online_video_vip_transcoding">"Gleich beginnt das VIP-Streaming…
-Umwandlung kann einige Zeit in Anspruch nehmen, wenn Sie diese Funktion zum ersten Mal verwenden."</string>
+    <string name="online_video_vip_transcoding">Gleich beginnt das VIP-Streaming…\nUmwandlung kann einige Zeit in Anspruch nehmen, wenn Sie diese Funktion zum ersten Mal verwenden.</string>
     <string name="open">Einschalten</string>
     <string name="open_public_message">Link erstellen und an andere senden</string>
     <string name="open_public_title">Teilen</string>
@@ -2831,6 +2830,7 @@ Umwandlung kann einige Zeit in Anspruch nehmen, wenn Sie diese Funktion zum erst
     <string name="vlog_downloading_cloud_file">Elemente aus der Cloud herunterladen…</string>
     <string name="vlog_editor_talkback_ratio_239_1">2,39:1</string>
     <string name="vlog_end_of_film">Schließen</string>
+    <string name="vlog_estimated_size_x">Ungefähr %d MB nach dem Speichern</string>
     <string name="vlog_exit_ddit_message">Alle Änderungen gehen verloren, wenn Sie jetzt aufhören. Trotzdem beenden?</string>
     <string name="vlog_exit_edit_title">Editor beenden</string>
     <string name="vlog_exit_message">Alle ungespeicherten Änderungen gehen verloren. Trotzdem abbrechen?</string>
@@ -2927,6 +2927,7 @@ Umwandlung kann einige Zeit in Anspruch nehmen, wenn Sie diese Funktion zum erst
     <string name="vlog_talkback_text_travel_day">Abenteuer</string>
     <string name="vlog_talkback_text_travel_vlog">Roadtrip-Tagebuch</string>
     <string name="vlog_talkback_text_vlog">Ein glücklicher Tag</string>
+    <string name="vlog_talkback_view_pause">Pause</string>
     <string name="vlog_talkback_view_play">Abspielen</string>
     <string name="vlog_template_baobao">Kind</string>
     <string name="vlog_template_city">Stadt</string>
@@ -2984,6 +2985,7 @@ Umwandlung kann einige Zeit in Anspruch nehmen, wenn Sie diese Funktion zum erst
     <string name="widget_recommend_default_description_no_story">Noch keine Erinnerungen hier</string>
     <string name="widget_recommend_default_description_open_story">Tippen, um Einstellungen zu öffnen und \"Erinnerungen\" einzuschalten</string>
     <string name="widget_recommend_default_description_shop">Erinnern Sie sich an Ihre schönsten Momente</string>
+    <string name="widget_recommend_default_example">Beispiel</string>
     <string name="widget_recommend_default_title_on_story">Erinnerungen</string>
     <string name="widget_recommend_default_title_open_story">\"Erinnerungen\" einschalten</string>
     <string name="widget_recommend_store_detail_desc">Aktuelle Fotos und schöne Momente aus der Vergangenheit</string>
@@ -2991,6 +2993,7 @@ Umwandlung kann einige Zeit in Anspruch nehmen, wenn Sie diese Funktion zum erst
     <string name="widget_talkback_recommend">Galerie. Erinnerungen.</string>
     <string name="xiaomi_account_not_exists_toast">Xiaomi-Konto existiert nicht</string>
     <string name="xiaomi_market_sdk_update_dialog_cancel">Nicht jetzt</string>
+    <string name="xiaomi_market_sdk_update_dialog_ok">Jetzt aktualisieren</string>
     <string name="xiaomi_market_sdk_update_dialog_title">Update ist verfügbar</string>
     <string name="yes">Ja</string>
     <string name="yesterday">Gestern</string>
