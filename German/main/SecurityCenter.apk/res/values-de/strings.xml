@@ -1162,7 +1162,7 @@ Sie verlieren keine App-Daten."</string>
     <string name="cpu_usage_view_action_btn_text">Anzeigen</string>
     <string name="create_gamebooster_destop">Verknüpfung auf Startbildschirm erfolgreich erstellt</string>
     <string name="create_shortcut">Startbildschirm-Verknüpfung für Game Turbo erstellen</string>
-    <string name="cta_HIPS_Perm_Location_Desc">Zur Standortanzeige relevanter Erdbebenfrühwarnungen</string>
+    <string name="cta_HIPS_Perm_Location_Desc">Für die Verwendung Ihrer Standortdaten in der MIUI-Warnzentrale, dem Notfall-SOS, dem App-Stromsparen und dem Zahlungssicherheitsscanner sowie für die Aktivierung des ungefähren Standorts</string>
     <string name="cta_agree_desc">Dieser App die Internetverbindung erlauben und die optionalen Berechtigungen erteilen, um alle ihre Funktionen nutzen zu können.</string>
     <string name="cta_close_dialog_cancel">Abbrechen</string>
     <string name="cta_close_dialog_content">Wenn Sie Sicherheit den Internet- und Standortzugriff beschränken, können Sie keine Erdbebenwarnungen erhalten oder Virendefinitionen und Sperrlisteninformationen aktualisieren. Ihr Gerät wird unsicherer. Trotzdem einschränken?</string>
@@ -1172,7 +1172,7 @@ Sie verlieren keine App-Daten."</string>
     <string name="cta_dialog_negative">Ablehnen</string>
     <string name="cta_dialog_positive">Zustimmen</string>
     <string name="cta_dialog_title">Internetverbindung</string>
-    <string name="cta_main_purpose">Willkommen bei Sicherheit! Sie können diese App verwenden, um Speicherplatz freizugeben, Ihr Gerät auf Viren zu scannen, den Akkuverbrauch zu kontrollieren, Ihr Gerät für Spiele zu optimieren, Apps zu verwalten, Erdbebenfrühwarnungen zu erhalten und vieles mehr.</string>
+    <string name="cta_main_purpose">Willkommen bei Sicherheit! Sie können Sicherheit und die Module ( inkl. MIUI-Sicherheitskomponenten und Systemdienste) verwenden, um Speicherplatz freizugeben, Ihr Gerät auf Viren zu scannen, den Akkuverbrauch zu kontrollieren, Ihr Gerät für Spiele zu optimieren, Apps zu verwalten, Erdbebenfrühwarnungen zu erhalten und vieles mehr.</string>
     <string name="cta_settings">Internetverbindung und Standortzugriff erlauben</string>
     <string name="current_network_state_not_need_diagnose">Internetverbindung ist normal</string>
     <string name="custom_define_permission_desc_android.permission.CALL_PHONE">Für die Verwendung der Sperrliste und Anrufe an Notfallkontakte bei Erdbebenwarnungen</string>
@@ -1181,7 +1181,7 @@ Sie verlieren keine App-Daten."</string>
     <string name="custom_define_permission_desc_android.permission.READ_SMS">Für die Verwendung der Sperrliste und die Erkennung von Nachrichten von Ihrem Anbieter</string>
     <string name="custom_define_permission_desc_android.permission.SEND_SMS">Zur Verwendung der Sperrliste und zum Senden von Kalibrierungsmeldungen an Ihren Anbieter</string>
     <string name="custom_define_permission_desc_android.permission.WRITE_CALL_LOG">Zum Löschen von Nachrichten aus Ihrer Sperrliste</string>
-    <string name="custom_define_permission_desc_android.permission_group.LOCATION">Zur Übermittlung Ihrer Standortinfos an die MIUI-Warnzentrale und an Notfall-SOS</string>
+    <string name="custom_define_permission_desc_android.permission_group.LOCATION">Für die Bereitstellung der für Ihren Standort relevanten Funktionen in der MIUI-Warnzentrale, Notfall-SOS, App-Stromsparen, Zahlungssicherheitsscanner und ungefähre Standortbestimmung</string>
     <string name="custom_define_permission_desc_android.permission_group.STORAGE">Zum Leeren des Papierkorbs und zur Durchführung von Antiviren-Scans</string>
     <string name="customize_limit_pkg">%s (benutzerdefiniert)</string>
     <string name="customizer_mode_user_define_name">Meine Regeln</string>
@@ -2735,6 +2735,8 @@ Versuchen Sie ein anderes LAN-Kabel am Router. Wenn Sie vermuten, dass der Fehle
     <string name="not_limited_brand">Unbegrenzt</string>
     <string name="not_set">Nicht festgelegt</string>
     <string name="not_settled">Nicht festgelegt</string>
+    <string name="not_support_root_summary">Das Zulassen des Root-Zugriffs für Drittanbieter-Apps kann Sicherheitsrisiken bergen und Ihr Gerät beschädigen. Aus diesem Grund bieten wir keine Optionen mehr für die Verwaltung von Root-Zugriffsberechtigungen an.</string>
+    <string name="not_support_root_title">Root-Zugriff</string>
     <string name="note">Notiz</string>
     <string name="note_call_none">Keine Anrufe</string>
     <string name="note_list_none">Liste ist leer</string>
@@ -3164,6 +3166,7 @@ Stromverbrauch"</string>
     <string name="phone_manage">Werkzeuge</string>
     <string name="phone_manage_app_manager_summary">Apps auf Ihrem Gerät verwalten</string>
     <string name="phone_manage_clean_summary">Freier Speicherplatz</string>
+    <string name="phone_manage_clean_title">Bereinigung</string>
     <string name="phone_manage_electric_summary">Ihr Gerät optimieren, um den Akku zu schonen</string>
     <string name="phone_manage_electric_title">Akku</string>
     <string name="phone_manage_recent_use">Zuletzt verwendet</string>
@@ -4051,6 +4054,7 @@ Da %2$s die Dienste auf der Grundlage der Erfassung der erforderlichen persönli
     <string name="select_province_and_city">Bitte eine Stadt auswählen</string>
     <string name="send">Senden</string>
     <string name="send_msg_to_query">Hilfe beim kostenlosen SMS-Versand zur Überprüfung</string>
+    <string name="send_sms_title">%s erlauben, Nachrichten zu senden?</string>
     <string name="set_applock_password">Passwort setzen</string>
     <string name="set_complete">Einstellen</string>
     <string name="set_immediately">Einstellen</string>
@@ -4063,6 +4067,7 @@ Da %2$s die Dienste auf der Grundlage der Erfassung der erforderlichen persönli
     <string name="set_pattern_password_name">Muster setzen</string>
     <string name="set_traffic_tips">Die Einrichtung eines Pakets kann Ihnen helfen, die Datennutzung effektiver zu betrachten, zu verwalten und zu verhindern, dass zusätzliche Kosten das Paket überschreiten.</string>
     <string name="setting">Einstellungen</string>
+    <string name="setting_back_sound_loading_msg">Einen Moment…</string>
     <string name="setting_online_service">Online-Dienste</string>
     <string name="setting_privacy_password">Muster hinzufügen</string>
     <string name="setting_traffic_pkg">Datenpakete einstellen</string>
@@ -4218,6 +4223,7 @@ Da %2$s die Dienste auf der Grundlage der Erfassung der erforderlichen persönli
     <string name="sms_keywords">Schlagwortsperrliste</string>
     <string name="sms_malicious_url">SMS mit bösartigen URLs blockieren</string>
     <string name="sms_prefix">Vorwahlsperrliste</string>
+    <string name="sms_sender">"An: "</string>
     <string name="sms_service">Dienstleistungs-SMS blockieren</string>
     <string name="sms_smart_engine_update">SMS-Filter automatisch aktualisieren</string>
     <string name="sms_smart_engine_update_now">Aktualisieren</string>
@@ -5269,6 +5275,8 @@ Wenn Sie eine der Funktionen einschalten, schalten Sie die andere aus."</string>
 Versuchen Sie, die Auflösung hochzuskalieren!"</string>
     <string name="verify_shut_down_password_content">Bestätigen der Bildschirmsperre erforderlich, wenn das Gerät während der Sperre ausgeschaltet wird</string>
     <string name="verify_shut_down_password_title">Abschaltbestätigung</string>
+    <string name="verify_sms_ensure_allow">Senden</string>
+    <string name="verify_sms_title">%1$s versucht, eine Nachricht zu senden…</string>
     <string name="version_can_update">Sie können %s auf die neueste Beta-Version aktualisieren, um zuerst auf neue Funktionen zuzugreifen.</string>
     <string name="version_check_update">Auf Aktualisierung prüfen</string>
     <string name="version_update_title">%s aktualisieren</string>
