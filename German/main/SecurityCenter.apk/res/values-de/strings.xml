@@ -355,11 +355,11 @@
     <string name="app_behavior_monitor_tips_summary">Sie können Benachrichtigungen erhalten, wenn Apps Audio aufzeichnen, auf Ihren Standort zugreifen oder andere sensible Aktionen im Hintergrund ausführen.</string>
     <string name="app_behavior_no_recorder">Keine Ergebnisse gefunden</string>
     <string name="app_behavior_notification_audio_now_one">\"%1s\"-Aufnahme</string>
-    <string name="app_behavior_notification_audio_now_two">\"%1s\"-Aufnahmen</string>
+    <string name="app_behavior_notification_audio_now_two" formatted="false">%1s und %2s nehmen Audio auf</string>
     <string name="app_behavior_notification_camera_one">\"%1s\"-Foto machen</string>
-    <string name="app_behavior_notification_camera_two">\"%1s\"-Fotos machen</string>
+    <string name="app_behavior_notification_camera_two" formatted="false">%1s und %2s machen Fotos</string>
     <string name="app_behavior_notification_location_one">\"%1s\"-Standort ermitteln</string>
-    <string name="app_behavior_notification_location_two">\"%1s\"-Standorte ermitteln</string>
+    <string name="app_behavior_notification_location_two" formatted="false">%1s und %2s greifen auf Standort zu</string>
     <string name="app_behavior_notification_title_calllog_read">%1s Hintergrundzugriff auf Anrufliste</string>
     <string name="app_behavior_notification_title_calllog_write">%1s Hintergrundzugriff auf Kontakte</string>
     <string name="app_behavior_notification_title_clipboard_read">%1s Hintergrundzugriff auf Zwischenablage</string>
