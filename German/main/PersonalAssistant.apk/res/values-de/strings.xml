@@ -1,55 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-    <string name="agenda_request_perm">Dieser App zuerst den Kalenderzugriff erlauben</string>
-    <string name="app_accessibility_olympic_bronze_medal">Bronzemedaille</string>
-    <string name="app_accessibility_olympic_gold_medal">Goldmedaille</string>
-    <string name="app_accessibility_olympic_info_title">Mehr Infos</string>
-    <string name="app_accessibility_olympic_silver_medal">Silbermedaille</string>
-    <string name="app_accessibility_olympic_the_first">Erster Platz: %s</string>
-    <string name="app_accessibility_olympic_the_second">Zweiter Platz: %s</string>
-    <string name="app_accessibility_olympic_the_third">Dritter Platzt: %s</string>
-    <string name="app_pa_setting_about_title">Über diese App</string>
-    <string name="app_pa_setting_individualization_title">Personalisierung</string>
-    <string name="app_pa_setting_perm_calendar">Kalenderzugriff</string>
-    <string name="app_pa_setting_perm_denied">Nicht gewährt</string>
-    <string name="app_pa_setting_perm_desc">Berechtigungsdetails</string>
-    <string name="app_pa_setting_perm_granted">Gewährt</string>
-    <string name="app_pa_setting_perm_location">Standortzugriff</string>
-    <string name="app_pa_setting_perm_state">Zugriff auf Geräteinfo</string>
-    <string name="app_pa_setting_perm_storage">Speicherzugriff</string>
-    <string name="app_pa_setting_perm_title">Berechtigungen</string>
-    <string name="app_pa_setting_permission">Berechtigungsdetails</string>
-    <string name="app_pa_setting_preference_title">Präferenzen</string>
-    <string name="app_pa_setting_priv_policy_title">Datenschutzerklärung</string>
-    <string name="app_pa_setting_retract">Zustimmung widerrufen</string>
-    <string name="app_pa_setting_retract_dialog_message">Wenn Sie fortfahren, widerrufen Sie Ihre Zustimmung zur Datenschutzerklärung von Infosisstent. Die bereits gesammelten und gespeicherten persönlichen Daten werden innerhalb des festgelegten Zeitraums in Übereinstimmung mit den geltenden Gesetzen und Vorschriften gelöscht, sofern nicht anders gefordert. Da Infoasissent seine Dienste auf der Grundlage der Erfassung der erforderlichen persönlichen Daten erbringt, wird Ihr Widerruf der Zustimmung als Ablehnung der Dienste von Infoassistent gewertet. Zustimmung jetzt widerrufen?</string>
-    <string name="app_pa_setting_retract_dialog_negative">Widerrufen</string>
-    <string name="app_pa_setting_retract_error">Netzwerkverbindung herstellen nicht möglich. Netzwerkeinstellungen prüfen und erneut versuchen.</string>
-    <string name="app_pa_setting_retract_error_message">Serverfehler. Etwas warten und erneut versuchen.</string>
-    <string name="app_pa_setting_retract_error_title">Zustimmung widerrufen nicht möglich</string>
-    <string name="app_pa_setting_retract_no_net_message">Ihr Gerät muss mit dem Netz verbunden sein, damit Sie Ihre Zustimmung widerrufen können. Netzwerkeinstellungen prüfen und erneut versuchen.</string>
-    <string name="app_pa_setting_retract_no_net_title">Netzwerkverbindung herstellen nicht möglich</string>
-    <string name="app_pa_setting_retract_positive">Verstanden</string>
-    <string name="app_pa_setting_retract_sec_left">(%ds) widerrufen</string>
-    <string name="app_pa_setting_retract_summary">Zustimmung zur Datenschutzerklärung von Infoassistent widerrufen</string>
-    <string name="app_pa_setting_retract_title">Zustimmung widerrufen und Dienst abbrechen</string>
-    <string name="app_pa_setting_service_title">Dienste</string>
-    <string name="app_pa_setting_tripartite">Über die Weitergabe von Drittanbieterdaten</string>
-    <string name="cta_policy_change_dialog_agree">Zustimmen</string>
-    <string name="cta_policy_change_dialog_exit">Beenden</string>
-    <string name="cta_policy_change_dialog_message" formatted="false">"Datenschutzerklärung Infoassistent aktualisiert:
-%s
-Neue Version von %s lesen und akzeptieren, bevor Sie fortfahren."</string>
-    <string name="cta_policy_change_dialog_title">Datenschutzerklärung aktualisieren</string>
-    <string name="cta_privacy_policy">Datenschutzerklärung</string>
-    <string name="cta_refuse_policy_dialog_message">Infosassistent weiter nutzen nicht möglich, es sei denn, Sie stimmen der neuen Version %s zu. Aktualisierter Datenschutzerklärung jetzt zustimmen?</string>
-    <string name="cta_refuse_policy_dialog_title">Achtung</string>
-
-    <string name="pa_accessibility_picker_suit_item_add_to_desktop">Widget-Speicher. %s ausgewählt. Doppeltippen, um Details anzuzeigen.</string>
-    <string name="pa_accessibility_picker_suit_item_add_to_minus_desktop">Widget-Speicher. %s ausgewählt. Doppeltippen, um Details anzuzeigen.</string>
-    <string name="pa_accessibility_picker_suit_item_add_to_third">Widget-Speicher. %s ausgewählt. Doppeltippen, um Details anzuzeigen.</string>
-    <string name="pa_picker_maml_list_activity_title">Widgets hinzufügen</string>
-
     <string name="abc_action_bar_home_description">Zur Startseite</string>
     <string name="abc_action_bar_up_description">Nach oben</string>
     <string name="abc_action_menu_overflow_description">Weitere Optionen</string>
@@ -87,8 +37,7 @@ Neue Version von %s lesen und akzeptieren, bevor Sie fortfahren."</string>
     <string name="agenda">Erinnerungen</string>
     <string name="agenda_add_event">Eintrag hinzufügen</string>
     <string name="agenda_add_text">+ Zeitplan hinzufügen</string>
-    <string name="agenda_all_day">"Ganz
-tägig"</string>
+    <string name="agenda_all_day">Ganz\ntägig</string>
     <string name="agenda_anniversary_subtitle">| %1$s</string>
     <string name="agenda_assistant">Termin</string>
     <string name="agenda_assistant_account_num">Konto</string>
@@ -127,6 +76,7 @@ tägig"</string>
     <string name="agenda_payment_not_available">Zahlungsservice ist nicht verfügbar</string>
     <string name="agenda_repay_date">Rückzahlungsdatum: %1$s</string>
     <string name="agenda_repay_immediately">Zahlen</string>
+    <string name="agenda_request_perm">Dieser App zuerst den Kalenderzugriff erlauben</string>
     <string name="agenda_setting_brief">Termine, Zahlungsaufforderungen und mehr</string>
     <string name="agenda_setting_brief_detail">Geplante Termine anzeigen und Erinnerungen über Kreditkartenrechnungen und Rückzahlungen erhalten</string>
     <string name="agenda_settings_account">Kalenderkonten verwalten</string>
@@ -353,6 +303,13 @@ tägig"</string>
     <string name="already_download">Heruntergeladen</string>
     <string name="amount_ten_million_format">%s Millionen</string>
     <string name="announce_for_drag">Ein Element ziehen</string>
+    <string name="app_accessibility_olympic_bronze_medal">Bronzemedaille</string>
+    <string name="app_accessibility_olympic_gold_medal">Goldmedaille</string>
+    <string name="app_accessibility_olympic_info_title">Mehr Infos</string>
+    <string name="app_accessibility_olympic_silver_medal">Silbermedaille</string>
+    <string name="app_accessibility_olympic_the_first">Erster Platz: %s</string>
+    <string name="app_accessibility_olympic_the_second">Zweiter Platz: %s</string>
+    <string name="app_accessibility_olympic_the_third">Dritter Platzt: %s</string>
     <string name="app_agenda_i_known">Verstanden</string>
     <string name="app_agenda_need_install_alipay">Alipay installieren, bevor Sie diese Funktion verwenden</string>
     <string name="app_airstar_content_unauthorized_button">Starten</string>
@@ -451,8 +408,7 @@ tägig"</string>
     <string name="app_express_auth_title">Expresslieferung verfolgen</string>
     <string name="app_express_company">Lieferservice</string>
     <string name="app_express_content_title_2">Ihre Pakete</string>
-    <string name="app_express_detail_list_empty_text">"Elemente können hier mit Verzögerung erscheinen.
-Sie können Expresszustellungen auch auf den offiziellen Websites der Lieferfirmen verfolgen."</string>
+    <string name="app_express_detail_list_empty_text">Elemente können hier mit Verzögerung erscheinen.\nSie können Expresszustellungen auch auf den offiziellen Websites der Lieferfirmen verfolgen.</string>
     <string name="app_express_detail_more">Mehr</string>
     <string name="app_express_dialog_sign_message">Dieses Paket als zugestellt markieren? Sein Status wird danach nicht mehr aktualisiert.</string>
     <string name="app_express_empty_extra">Prüfen</string>
@@ -537,6 +493,7 @@ Sie können Expresszustellungen auch auf den offiziellen Websites der Lieferfirm
     <string name="app_olympic_gold_medal_total">Gesamt</string>
     <string name="app_pa_more">Weitere</string>
     <string name="app_pa_search">Suchen</string>
+    <string name="app_pa_setting_about_title">Über diese App</string>
     <string name="app_pa_setting_global_display">Bildschirm</string>
     <string name="app_pa_setting_global_display_backdrop_blur_option">Kartenhintergründe verwischen</string>
     <string name="app_pa_setting_global_display_backdrop_blur_summary">Gaußschen Weichzeichner auf Kartenhintergründe anwenden. Diese Funktion kann die Wischfunktion verlangsamen.</string>
@@ -550,12 +507,36 @@ Sie können Expresszustellungen auch auf den offiziellen Websites der Lieferfirm
     <string name="app_pa_setting_head_info_default">Leer</string>
     <string name="app_pa_setting_head_info_set">Hinzugefügt</string>
     <string name="app_pa_setting_head_setting">Überschrift</string>
+    <string name="app_pa_setting_individualization_title">Personalisierung</string>
     <string name="app_pa_setting_my_collection">Favoriten</string>
     <string name="app_pa_setting_my_payment">Zahlungen</string>
+    <string name="app_pa_setting_perm_calendar">Kalenderzugriff</string>
+    <string name="app_pa_setting_perm_denied">Nicht gewährt</string>
+    <string name="app_pa_setting_perm_desc">Berechtigungsdetails</string>
+    <string name="app_pa_setting_perm_granted">Gewährt</string>
+    <string name="app_pa_setting_perm_location">Standortzugriff</string>
+    <string name="app_pa_setting_perm_state">Zugriff auf Geräteinfo</string>
+    <string name="app_pa_setting_perm_storage">Speicherzugriff</string>
+    <string name="app_pa_setting_perm_title">Berechtigungen</string>
+    <string name="app_pa_setting_permission">Berechtigungsdetails</string>
+    <string name="app_pa_setting_preference_title">Präferenzen</string>
+    <string name="app_pa_setting_priv_policy_title">Datenschutzerklärung</string>
     <string name="app_pa_setting_private">Datenschutz</string>
     <string name="app_pa_setting_private_auth">Sammeln von Nutzungsstatistiken erlauben</string>
     <string name="app_pa_setting_private_auth_summary">Nutzungsstatistiken werden verwendet, um Ihnen relevante Produkte zu empfehlen</string>
     <string name="app_pa_setting_private_policy">Datenschutzerklärung anzeigen</string>
+    <string name="app_pa_setting_retract">Zustimmung widerrufen</string>
+    <string name="app_pa_setting_retract_dialog_message">Wenn Sie fortfahren, widerrufen Sie Ihre Zustimmung zur Datenschutzerklärung von Infosisstent. Die bereits gesammelten und gespeicherten persönlichen Daten werden innerhalb des festgelegten Zeitraums in Übereinstimmung mit den geltenden Gesetzen und Vorschriften gelöscht, sofern nicht anders gefordert. Da Infoasissent seine Dienste auf der Grundlage der Erfassung der erforderlichen persönlichen Daten erbringt, wird Ihr Widerruf der Zustimmung als Ablehnung der Dienste von Infoassistent gewertet. Zustimmung jetzt widerrufen?</string>
+    <string name="app_pa_setting_retract_dialog_negative">Widerrufen</string>
+    <string name="app_pa_setting_retract_error">Netzwerkverbindung herstellen nicht möglich. Netzwerkeinstellungen prüfen und erneut versuchen.</string>
+    <string name="app_pa_setting_retract_error_message">Serverfehler. Etwas warten und erneut versuchen.</string>
+    <string name="app_pa_setting_retract_error_title">Zustimmung widerrufen nicht möglich</string>
+    <string name="app_pa_setting_retract_no_net_message">Ihr Gerät muss mit dem Netz verbunden sein, damit Sie Ihre Zustimmung widerrufen können. Netzwerkeinstellungen prüfen und erneut versuchen.</string>
+    <string name="app_pa_setting_retract_no_net_title">Netzwerkverbindung herstellen nicht möglich</string>
+    <string name="app_pa_setting_retract_positive">Verstanden</string>
+    <string name="app_pa_setting_retract_sec_left">(%ds) widerrufen</string>
+    <string name="app_pa_setting_retract_summary">Zustimmung zur Datenschutzerklärung von Infoassistent widerrufen</string>
+    <string name="app_pa_setting_retract_title">Zustimmung widerrufen und Dienst abbrechen</string>
     <string name="app_pa_setting_service_airstar_summary">Finanz-, Kredit- und Versicherungsinfos anzeigen</string>
     <string name="app_pa_setting_service_commute">Pendeln</string>
     <string name="app_pa_setting_service_commute_summary">Für die Rotenplanung und die Bereitstellung von Autoreparaturdiensten</string>
@@ -597,9 +578,11 @@ Sie können Expresszustellungen auch auf den offiziellen Websites der Lieferfirm
     <string name="app_pa_setting_service_surrounding_summary">Interessante Orte in der Nähe entdecken</string>
     <string name="app_pa_setting_service_timetable">Stundenplan</string>
     <string name="app_pa_setting_service_timetable_summary">Zum Planen von Klassen tippen</string>
+    <string name="app_pa_setting_service_title">Dienste</string>
     <string name="app_pa_setting_service_wufu">Alipay sammelt 5 Blessings</string>
     <string name="app_pa_setting_service_wufu_summry">Blessings mit Hilfe des AR-Scanners sammeln</string>
     <string name="app_pa_setting_title">Einstellungen</string>
+    <string name="app_pa_setting_tripartite">Über die Weitergabe von Drittanbieterdaten</string>
     <string name="app_screen_time_auth">Bildschirmzeit</string>
     <string name="app_screen_time_no_time_title">&lt; 1 Min</string>
     <string name="app_screen_time_support_false">Dieser Dienst wird nicht unterstützt</string>
@@ -965,6 +948,13 @@ Sie können Expresszustellungen auch auf den offiziellen Websites der Lieferfirm
     <string name="cta_negative">Schließen</string>
     <string name="cta_not_now">Jetzt nicht</string>
     <string name="cta_old_not_use">Jetzt nicht</string>
+    <string name="cta_policy_change_dialog_agree">Zustimmen</string>
+    <string name="cta_policy_change_dialog_exit">Beenden</string>
+    <string name="cta_policy_change_dialog_message" formatted="false">Datenschutzerklärung Infoassistent aktualisiert:\n%s\nNeue Version von %s lesen und akzeptieren, bevor Sie fortfahren.</string>
+    <string name="cta_policy_change_dialog_title">Datenschutzerklärung aktualisieren</string>
+    <string name="cta_privacy_policy">Datenschutzerklärung</string>
+    <string name="cta_refuse_policy_dialog_message">Infosassistent weiter nutzen nicht möglich, es sei denn, Sie stimmen der neuen Version %s zu. Aktualisierter Datenschutzerklärung jetzt zustimmen?</string>
+    <string name="cta_refuse_policy_dialog_title">Achtung</string>
     <string name="cta_text5">Der Dienst benötigt eine Internetverbindung und Standortzugriff. Zustimmen?</string>
     <string name="cta_title">Willkommen bei Infoassistent</string>
     <string name="daily_greeting">Tägliche Grüße</string>
@@ -988,9 +978,7 @@ Sie können Expresszustellungen auch auf den offiziellen Websites der Lieferfirm
     <string name="detail_action_share">Teilen</string>
     <string name="detail_title">Favoriten</string>
     <string name="diagnosis_log_send_failed">Diagnoseprotokoll senden fehlgeschlagen.</string>
-    <string name="diagnosis_log_sent_format">"Diagnoseprotokoll wurde gesendet.
-ID:%s
-Bitte senden Sie diesen Code an den Techniker."</string>
+    <string name="diagnosis_log_sent_format">Diagnoseprotokoll wurde gesendet.\nID:%s\nBitte senden Sie diesen Code an den Techniker.</string>
     <string name="dialog_cancel_like">Markierung erfolgreich gelöscht</string>
     <string name="dialog_delete_cancel">Abbrechen</string>
     <string name="dialog_delete_delete">Löschen</string>
@@ -1134,8 +1122,7 @@ Bitte senden Sie diesen Code an den Techniker."</string>
     <string name="express_inquiry_history">Verlauf</string>
     <string name="express_inquiry_history_remark">Kommentare</string>
     <string name="express_inquiry_history_remark_hint">Kommentarverlauf</string>
-    <string name="express_inquiry_internal_failure">"Ein Fehler ist aufgetreten.
-Sendungsverfolgungsnummer prüfen."</string>
+    <string name="express_inquiry_internal_failure">Ein Fehler ist aufgetreten.\nSendungsverfolgungsnummer prüfen.</string>
     <string name="express_inquiry_logistics">Kurierdienst auswählen</string>
     <string name="express_inquiry_logistics_prefix">Kurierdienst: %s</string>
     <string name="express_inquiry_logistics_select_others_indication">Andere</string>
@@ -1828,8 +1815,7 @@ Sendungsverfolgungsnummer prüfen."</string>
     <string name="msp_mini_read_protocal_title">Wählen Sie, um die Vereinbarung zu lesen</string>
     <string name="msp_mini_safty_code_info">Ein Sicherheitscode ist eine Gruppe von Zahlen, die auf dem Unterschriftsfeld auf der Rückseite einer Kreditkarte aufgedruckt sind, normalerweise die letzten drei Ziffern.</string>
     <string name="msp_mini_safty_code_title">Sicherheitscode Beschreibung</string>
-    <string name="msp_phone_num_info">"Die von der Bank reservierte Rufnummer ist die bei der Verarbeitung der Bankkarte eingegebene Rufnummer.
-Keine Reservierung, vergessen oder deaktivieren Sie die Rufnummer, wenden Sie sich bitte an den Bankkundenservice."</string>
+    <string name="msp_phone_num_info">Die von der Bank reservierte Rufnummer ist die bei der Verarbeitung der Bankkarte eingegebene Rufnummer.\nKeine Reservierung, vergessen oder deaktivieren Sie die Rufnummer, wenden Sie sich bitte an den Bankkundenservice.</string>
     <string name="msp_phone_num_title">Rufnummerbeschreibung</string>
     <string name="msp_secure_key_and">Und-Zeichen</string>
     <string name="msp_secure_key_apostrophe">Hochkomma</string>
@@ -1942,6 +1928,9 @@ Keine Reservierung, vergessen oder deaktivieren Sie die Rufnummer, wenden Sie si
     <string name="pa_accessibility_picker_back">Zurück</string>
     <string name="pa_accessibility_picker_search_cancel">Widget-Suchleiste. Doppeltippen zum Abbrechen.</string>
     <string name="pa_accessibility_picker_search_tips">Widget-Suchleiste. Doppeltippen zum Suchen.</string>
+    <string name="pa_accessibility_picker_suit_item_add_to_desktop">Widget-Speicher. %s ausgewählt. Doppeltippen, um Details anzuzeigen.</string>
+    <string name="pa_accessibility_picker_suit_item_add_to_minus_desktop">Widget-Speicher. %s ausgewählt. Doppeltippen, um Details anzuzeigen.</string>
+    <string name="pa_accessibility_picker_suit_item_add_to_third">Widget-Speicher. %s ausgewählt. Doppeltippen, um Details anzuzeigen.</string>
     <string name="pa_accessibility_picker_widget_app_group_item_add_to_desktop" formatted="false">App-Liste des Widget-Shops. Derzeit sind insgesamt %s Elemente ausgewählt. %s befindet sich im Element %s. Enthält %s Arten von Widgets. Doppeltippen, um die Widget-Einführung aufzurufen</string>
     <string name="pa_accessibility_picker_widget_app_group_item_add_to_desktop_2">%s ausgewählt.</string>
     <string name="pa_accessibility_picker_widget_app_group_item_add_to_minus_desktop" formatted="false">App-Liste des Widget-Shops. Derzeit sind insgesamt %s Elemente ausgewählt. %s befindet sich im Element %s. Enthält %s Arten von Widgets. Doppeltippen, um die Widget-Einführung aufzurufen</string>
@@ -2065,6 +2054,7 @@ Keine Reservierung, vergessen oder deaktivieren Sie die Rufnummer, wenden Sie si
     <string name="pa_picker_list_load_failed">Elemente laden nicht möglich. Tippen, um es erneut zu versuchen.</string>
     <string name="pa_picker_list_loading">Einen Moment…</string>
     <string name="pa_picker_loading">Einen Moment…</string>
+    <string name="pa_picker_maml_list_activity_title">Widgets hinzufügen</string>
     <string name="pa_picker_retry">Erneut versuchen</string>
     <string name="pa_picker_search_empty">Keine Ergebnisse gefunden</string>
     <string name="pa_picker_search_error">Netzwerkverbindung nicht möglich</string>
@@ -2244,8 +2234,7 @@ Keine Reservierung, vergessen oder deaktivieren Sie die Rufnummer, wenden Sie si
     <string name="payment_record_menu_delete">Löschen</string>
     <string name="payment_record_menu_select">Auswählen</string>
     <string name="payment_report_failed_record_dialog_cancel">Abbrechen</string>
-    <string name="payment_report_failed_record_dialog_message">"Melden Sie uns unbearbeitete Rechnungen, um die Zahlungsberechnung genauer zu gestalten.
-<b>Von Ihnen freigegebene Elemente werden nur zur Verbesserung von Infoassistent verwendet.</b>"</string>
+    <string name="payment_report_failed_record_dialog_message">Melden Sie uns unbearbeitete Rechnungen, um die Zahlungsberechnung genauer zu gestalten.\n<b>Von Ihnen freigegebene Elemente werden nur zur Verbesserung von Infoassistent verwendet.</b></string>
     <string name="payment_report_failed_record_dialog_ok">Melden</string>
     <string name="payment_setting">Einstellung</string>
     <string name="payment_total_month_desc">Diesen Monat</string>
@@ -2651,8 +2640,7 @@ Keine Reservierung, vergessen oder deaktivieren Sie die Rufnummer, wenden Sie si
     <string name="upgrade_bottom_dialog">Update verfügbar</string>
     <string name="upgrade_find">Update verfügbar</string>
     <string name="upgrade_later">Später installieren</string>
-    <string name="upgrade_log_default">"1. Verbesserte Leistung
-2. Fehler behoben"</string>
+    <string name="upgrade_log_default">1. Verbesserte Leistung\n2. Fehler behoben</string>
     <string name="upgrade_log_subtitle">(Mit WLAN heruntergeladen)</string>
     <string name="upgrade_log_title">Infoassistent aktualisieren</string>
     <string name="upgrade_now">Jetzt installieren</string>
