@@ -72,13 +72,6 @@
         <item>Qualcomm® aptX™ Audio</item>
         <item>Qualcomm® aptX™ HD Audio</item>
         <item>LDAC</item>
-        <item>Qualcomm® aptX™ Adaptive Audio</item>
-        <item>Qualcomm® aptX™ TWS+ audio</item>
-        <item>LHDC V3/V4</item>
-        <item>LHDC V2</item>
-        <item>LHDC V1</item>
-        <item>Optionale Codecs aktivieren</item>
-        <item>Optionale Codecs deaktivieren</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_titles">
         <item>Systemauswahl nutzen (Standard)</item>
@@ -87,13 +80,6 @@
         <item>Qualcomm® aptX™ Audio</item>
         <item>Qualcomm® aptX™ HD Audio</item>
         <item>LDAC</item>
-        <item>Qualcomm® aptX™ Adaptive Audio</item>
-        <item>Qualcomm® aptX™ TWS+ audio</item>
-        <item>LHDC V3/V4</item>
-        <item>LHDC V2</item>
-        <item>LHDC V1</item>
-        <item>Optionale Codecs aktivieren</item>
-        <item>Optionale Codecs deaktivieren</item>
     </string-array>
     <string-array name="bluetooth_audio_active_device_summaries">
         <item></item>
@@ -204,12 +190,6 @@
         <item>NR/LTE/TDSCDMA/GSM/WCDMA</item>
         <item>NR/LTE/TDSCDMA/CDMA/EvDo/GSM/WCDMA</item>
     </string-array>
-    <string-array name="select_logd_size_lowram_titles">
-        <item>Aus</item>
-        <item>64K</item>
-        <item>256K</item>
-        <item>1M</item>
-    </string-array>
     <string-array name="select_logd_size_summaries">
         <item>Aus</item>
         <item>64K pro Logpuffer</item>
@@ -217,14 +197,6 @@
         <item>1M pro Logpuffer</item>
         <item>4M pro Logpuffer</item>
         <item>16M pro Logpuffer</item>
-    </string-array>
-    <string-array name="select_logd_size_titles">
-        <item>Aus</item>
-        <item>64K</item>
-        <item>256K</item>
-        <item>1M</item>
-        <item>4M</item>
-        <item>16M</item>
     </string-array>
     <string-array name="select_logpersist_summaries">
         <item>Aus</item>
@@ -275,18 +247,6 @@
         <item>RNDIS (USB Ethernet)</item>
         <item>Audioquelle</item>
         <item>MIDI</item>
-    </string-array>
-    <string-array name="uplmn_prefer_network_mode_td_choices">
-	<item>GSM</item>
-	<item>TD-SCDMA</item>
-	<item>LTE</item>
-	<item>Dreifachmodus</item>
-    </string-array>
-    <string-array name="uplmn_prefer_network_mode_w_choices">
-	<item>GSM</item>
-	<item>WCDMA</item>
-	<item>LTE</item>
-	<item>Dreifachmodus</item>
     </string-array>
     <string-array name="wifi_status">
         <item/>

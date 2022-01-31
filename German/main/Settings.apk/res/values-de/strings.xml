@@ -1199,7 +1199,7 @@ Sicherungen werden in der Xiaomi Cloud gespeichert und können kabellos abgerufe
     <string name="battery_saver_schedule_settings_title">Zeitplan festlegen</string>
     <string name="battery_saver_seekbar_title">Bei %1$s</string>
     <string name="battery_saver_seekbar_title_placeholder">Einschalten</string>
-    <string name="battery_saver_sticky_description_new">Stromsparen schaltet sich aus, wenn Ihr Telefon bei %1$s ist</string>
+    <string name="battery_saver_sticky_description_new">Stromsparen schaltet sich aus, wenn Ihr Telefon über ^1% ist</string>
     <string name="battery_saver_sticky_title_new">Bei voller Ladung ausschalten</string>
     <string name="battery_saver_turn_on_automatically_never">Nie</string>
     <string name="battery_saver_turn_on_automatically_pct">Bei %1$s Akku</string>
@@ -1234,9 +1234,9 @@ Sicherungen werden in der Xiaomi Cloud gespeichert und können kabellos abgerufe
     <string name="battery_summary_24hr">%1$s Verbrauch in den letzten 24 Std</string>
     <string name="battery_system_usage_for">Systemverbrauch seit %s</string>
     <string name="battery_system_usage_for_past_24">Systemverbrauch der letzten 24 Std</string>
-    <string name="battery_tip_dialog_message">"Ihr Telefon wurde mehr als üblich benutzt. Ihr Akku kann schneller leer sein als erwartet.
+    <string name="battery_tip_dialog_message">"Ihr Telefon wurde mehr als üblich benutzt, daher kann Ihr Akku kann schneller leer sein als erwartet.
 
-Top %1$d Apps, die seit der Vollladung benutzt wurden:"</string>
+Apps, die den meisten Akku verbrauchen:"</string>
     <string name="battery_tip_dialog_message_footer">Enthält leistungsstarke Hintergrundaktivitäten</string>
     <string name="battery_tip_dialog_summary_message">"Ihre Apps verbrauchen den Akku normal. Wenn Apps zu viel Akku verbrauchen, schlägt Ihnen Ihr Telefon entsprechende Maßnahmen vor.
 
@@ -1950,9 +1950,9 @@ Sie können diese Funktion unter Einstellungen/Bluetooth/Gekoppelte Geräte auss
     <string name="call_manager_enable_summary">Diesem Dienst die Verwaltung erlauben, wie Ihre Anrufe getätigt werden</string>
     <string name="call_manager_enable_title">Anrufmanager aktivieren</string>
     <string name="call_manager_title">Anrufmanager</string>
-    <string name="call_records_summary_1">%1$d:%2$d AM | %3$d Sek</string>
-    <string name="call_records_summary_2">%1$d. August | %2$d Min %3$d Sek</string>
-    <string name="call_records_summary_3">%1$d. August | %2$d Min %3$d Sek</string>
+    <string name="call_records_summary_1">9:35 | 26 Sek</string>
+    <string name="call_records_summary_2">16. August | 1 Min 16 Sek</string>
+    <string name="call_records_summary_3">16. August | 2 Min 24 Sek</string>
     <string name="call_settings_primary_user_only">Anrufeinstellungen im Erstprofil ändern</string>
     <string name="call_settings_summary">Voicemail, Anrufweiterleitung, Anklopfen, Anrufer-ID einrichten</string>
     <string name="call_settings_title">Anrufeinstellungen</string>
@@ -2319,11 +2319,7 @@ Nach Erstellung einer neuen Sicherheitsfrage und Bestätigung Ihres Geburtsdatum
     <string name="condition_zen_summary_phone_muted">Telefon stummgeschaltet</string>
     <string name="condition_zen_summary_with_exceptions">Mit Ausnahmen</string>
     <string name="condition_zen_title">Nicht stören-Modus ist an</string>
-    <string name="config_charging_function_name">Lädt</string>
     <string name="config_list_label">Netzwerk konfigurieren</string>
-    <string name="config_mass_storage_function_name">Massenspeicher</string>
-    <string name="config_mtp_function_name">MTP</string>
-    <string name="config_ptp_function_name">PTP</string>
     <string name="configure">Konfigurieren</string>
     <string name="configure_apps">Apps konfigurieren</string>
     <string name="configure_input_method">Eingabemethoden festlegen</string>
@@ -4863,7 +4859,6 @@ Xiaomi Cloud öffnen und Elemente von dort aus wiederherstellen."</string>
     <string name="location_agps_apn_choose_dialog_title">APN-Typen</string>
     <string name="location_agps_apn_summary">Bevorzugten APN-Typ</string>
     <string name="location_agps_apn_type">APN-Typen</string>
-    <string name="location_agps_def_network_mode">ZUHAUSE</string>
     <string name="location_agps_params_settings_title">AGPS-Einstellungen</string>
     <string name="location_agps_pref_apn_title">Bevorzugter APN</string>
     <string name="location_agps_pref_network_title">Netzwerk bevorzugen</string>
@@ -6123,7 +6118,7 @@ Betriebssystem auswählen:"</string>
     <string name="network_connection_errorstate_dialog_message">Etwas ist passiert. Die App hat die Anforderung, ein Gerät auszuwählen, abgebrochen.</string>
     <string name="network_connection_request_dialog_showall">Alle anzeigen</string>
     <string name="network_connection_request_dialog_summary">%1$s-App möchte ein temporäres WLAN verwenden, um sich mit Ihrem Gerät zu verbinden</string>
-    <string name="network_connection_request_dialog_title">Gerät zur Verwendung mit %1$s</string>
+    <string name="network_connection_request_dialog_title">Mit Gerät verbinden</string>
     <string name="network_connection_searching_message">Gerät suchen…</string>
     <string name="network_connection_timeout_dialog_message">Keine Geräte gefunden. Geräte müssen eingeschaltet und für den Anschluss verfügbar sein.</string>
     <string name="network_connection_timeout_dialog_ok">Erneut versuchen</string>
@@ -6387,10 +6382,10 @@ Statusleiste"</string>
     <string name="notification_animation_style">Spezialeffekte</string>
     <string name="notification_app_settings_button">Benachrichtigungseinstellungen</string>
     <string name="notification_app_switch_label">Alle %1$s-Benachrichtigungen</string>
-    <string name="notification_assistant_security_warning_summary">"%1$s kann alle Benachrichtigungen lesen, inkl. persönlicher Daten wie Kontaktnamen und erhaltene Nachrichtentexte. Sie kann auch Benachrichtigungen ändern oder ablehnen oder Aktionstasten auslösen, die sie enthalten.
+    <string name="notification_assistant_security_warning_summary">"Verbesserte Benachrichtigungen haben die adaptiven Android-Benachrichtigungen in Android 12 ersetzt. Diese Funktion zeigt empfohlene Aktionen und Antworten an und organisiert Ihre Benachrichtigungen. 
 
-Dies erlaubt es der App auch, Nicht stören ein- und auszuschalten und die entsprechenden Einstellungen zu ändern."</string>
-    <string name="notification_assistant_security_warning_title">%1$s Benachrichtigungszugriff erlauben?</string>
+Verbesserte Benachrichtigungen können auf den Benachrichtigungsinhalt zugreifen, inkl. persönlicher Daten wie Kontaktnamen und Nachrichten. Mit dieser Funktion können Sie auch Benachrichtigungen ablehnen oder darauf reagieren, z. B. Anrufe entgegennehmen, und \"Nicht stören\" steuern."</string>
+    <string name="notification_assistant_security_warning_title">%1$s den Benachrichtigungszugriff erlauben?</string>
     <string name="notification_assistant_summary">Vorschläge für Aktionen, Antworten und mehr erhalten</string>
     <string name="notification_assistant_title">Adaptive Benachrichtigungen</string>
     <string name="notification_badge_title">Benachrichtigungs-Dot zulassen</string>
@@ -9238,7 +9233,6 @@ Auf ^2 gespeicherte Apps könnten nicht richtig funktionieren, und Datenübertra
     <string name="sud_more_button_label">Mehr</string>
     <string name="sud_next_button_label">Weiter</string>
     <string name="suggest_unrestrict_max_aspect_ratio_title">Diese Apps funktionieren besser im Vollbildmodus</string>
-    <string name="suggested_fingerprint_lock_settings_summary">Entsperren Sie mit Ihrem Fingerabdruck</string>
     <string name="suggested_fingerprint_lock_settings_title">Fingerabdruck verwenden</string>
     <string name="suggested_lock_settings_summary">Bildschirmsperre setzen zum Schützen Ihres Geräts</string>
     <string name="suggested_lock_settings_title">Schützen Sie Ihr Gerät</string>
@@ -11540,9 +11534,8 @@ Delta Updategröße: %2$s"</string>
     <string name="zen_mode_delete_rule_confirmation">\"%1$s\"-Regel löschen?</string>
     <string name="zen_mode_duration_always_prompt_title">Jedes Mal fragen</string>
     <string name="zen_mode_duration_settings_title">Dauer</string>
-    <string name="zen_mode_duration_summary_always_prompt">Jedes Mal fragen (sofern nicht automatisch an)</string>
-    <string name="zen_mode_duration_summary_forever">Bis Sie ausschalten (sofern nicht automatisch an)</string>
-    <string name="zen_mode_duration_summary_time_minutes">%d Minuten (sofern nicht automatisch an)</string>
+    <string name="zen_mode_duration_summary_always_prompt">Jedes Mal fragen</string>
+    <string name="zen_mode_duration_summary_forever">Bis Sie ausschalten</string>
     <string name="zen_mode_effected_always">Immer</string>
     <string name="zen_mode_enable_dialog_turn_on">Einschalten</string>
     <string name="zen_mode_end_time">Ablaufzeit</string>
