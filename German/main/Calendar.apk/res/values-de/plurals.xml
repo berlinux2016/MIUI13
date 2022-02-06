@@ -73,6 +73,10 @@
         <item quantity="other">Vor %d Min</item>
         <item quantity="one">Vor 1 Min</item>
     </plurals>
+    <plurals name="after_num_minutes">
+        <item quantity="other">In %d Min</item>
+        <item quantity="one">In %d Min</item>
+    </plurals>
     <plurals name="anniversary_day">
         <item quantity="other">%1$s Tage</item>
         <item quantity="one">%1$s Tag</item>
@@ -215,6 +219,10 @@
         <item quantity="other">%d weitere Termine</item>
         <item quantity="one">%d weiterer Termin</item>
     </plurals>
+    <plurals name="other_num_events">
+        <item quantity="other">%d weitere Termine</item>
+        <item quantity="one">%d weiterer Termin</item>
+    </plurals>
     <plurals name="recurrence_end_count">
         <item quantity="other">Für %d Einträge</item>
         <item quantity="one">Für %d Eintrag</item>
@@ -299,6 +307,10 @@
         <item quantity="other">Geschätzter Tag %1$d der Periode</item>
         <item quantity="one">Geschätzter Tag %1$d der Periode</item>
     </plurals>
+    <plurals name="today_has_num_event">
+        <item quantity="other">%d Termine heute</item>
+        <item quantity="one">%d Termin heute</item>
+    </plurals>
     <plurals name="travel_eta_advice">
         <item quantity="other">%2$s Autominuten nach %1$s.</item>
         <item quantity="one">%2$s Autominute nach %1$s.</item>
@@ -317,6 +329,30 @@
     <plurals name="weekly">
         <item quantity="other">Alle %1$d Wochen am %2$s</item>
         <item quantity="one">Wöchentlich am %2$s</item>
+    </plurals>
+    <plurals name="widget_countdown_day">
+        <item quantity="other">%1$s Tage</item>
+        <item quantity="one">%1$s Tag</item>
+    </plurals>
+    <plurals name="widget_custom_unit_day">
+        <item quantity="other">%d Tage</item>
+        <item quantity="one">%d Tag</item>
+    </plurals>
+    <plurals name="widget_normal_agenda_going_counts">
+        <item quantity="other">%d laufende Termine</item>
+        <item quantity="one">%d %d laufender Termin</item>
+    </plurals>
+    <plurals name="widget_normal_agenda_next_minutes">
+        <item quantity="other">Nächster Termin in %d Min</item>
+        <item quantity="one">Nächster Termin in %d Min</item>
+    </plurals>
+    <plurals name="widget_normal_agenda_tomorrow_total">
+        <item quantity="other">%d Termine morgen</item>
+        <item quantity="one">%d Termin morgen</item>
+    </plurals>
+    <plurals name="widget_weekN">
+        <item quantity="other">Woche %d</item>
+        <item quantity="one">Woche %d</item>
     </plurals>
     <plurals name="work_days">
         <item quantity="other">%d Arbeitstage</item>

@@ -95,6 +95,7 @@
     <string name="alert_title">Benachrichtigungen</string>
     <string name="all_events">Alle Termine</string>
     <string name="all_records">Alle Aufnahmen</string>
+    <string name="already_num">Zeit seit %s</string>
     <string name="anniversary_event_title">[Jahrestag]%1$s</string>
     <string name="anniversary_secondary_tag">Jahrestag</string>
     <string name="app_label">Kalender</string>
@@ -251,6 +252,7 @@
     <string name="date_picker_lunar">Traditioneller chin. Kalender</string>
     <string name="date_time_picker_dialog_title">Datum und Zeit einstellen</string>
     <string name="date_today">" (heute)"</string>
+    <string name="date_view">Datum</string>
     <string name="day">Tag</string>
     <string name="day_view_new_event_hint">Neuer Termin</string>
     <string name="default_reminder_later_time">Standardintervall für \"Später erinnern\"</string>
@@ -542,7 +544,7 @@
     <string name="icon_add_description">Startbildschirm-Verknüpfung hinzufügen</string>
     <string name="icon_content_description">Dialogsymbol</string>
     <string name="icon_remove_confirm">Entfernen</string>
-    <string name="icon_remove_description_content">Kalender ist eine System-App. Sie erlaubt Ihnen, Ereignisse zu erstellen und zu verwalten. Sie können den Kalender weiterhin über das Startbildschirm-Widget oder den Infoassistent der App verwenden, wenn Sie die Verknüpfung auf dem Startbildschirm entfernt haben.</string>
+    <string name="icon_remove_description_content">Kalender ist eine System-App. Sie erlaubt Ihnen, Termine zu erstellen und zu verwalten. Sie können den Kalender weiterhin über das Startbildschirm-Widget oder den Infoassistent der App verwenden, wenn Sie die Verknüpfung auf dem Startbildschirm entfernt haben.</string>
     <string name="icon_remove_description_title">\"Kalender\" vom Startbildschirm entfernen?</string>
     <string name="ics_file_not_found">Keine Kalenderdateien zum Importieren</string>
     <string name="ics_import_from_local_file">Kalenderdateien importieren</string>
@@ -554,6 +556,7 @@
     <string name="import_lark_failed">Dienstausnahme, Import fehlgeschlagen</string>
     <string name="import_text">Importieren</string>
     <string name="imported">Wurden importiert</string>
+    <string name="in_progress">Im Gange</string>
     <string name="insert_event_dialog_btn_negative">Nein</string>
     <string name="insert_event_dialog_btn_positive">Ja</string>
     <string name="insert_event_dialog_message">Diesen Termin zum Kalender hinzufügen?</string>
@@ -809,6 +812,7 @@ einstellungen"</string>
     <string name="n_week_first">1.</string>
     <string name="n_week_last">Woche</string>
     <string name="name_title_menstruation_today_end">Periode wird voraussichtlich heute enden</string>
+    <string name="near_agenda_view">Anstehende Termine</string>
     <string name="network_not_available">Netzwerkverbindung nicht möglich</string>
     <string name="never">Nie</string>
     <string name="new_event_description">Neu</string>
@@ -1140,8 +1144,10 @@ Netzwerkeinstellungen prüfen und erneut versuchen."</string>
     <string name="solar_term_winter_begins">Winteranfang</string>
     <string name="solar_term_winter_solstice">Wintersonnenwende</string>
     <string name="solar_to_lunar_chinese_calendar">Gregorianisch in Chinesisch</string>
+    <string name="spec_agenda_view">Besondere Termine</string>
     <string name="start_date_calculate">Berechnen</string>
     <string name="stats_title">Statistik</string>
+    <string name="still_num">Zeit seit %s</string>
     <string name="storage_permission_denied">Erst Speicherzugriff zulassen</string>
     <string name="subscribe_card">Jetzt abonnieren</string>
     <string name="subscribe_card_success">Erfolgreich abonniert! Sehen Sie sich die Details auf der Startseite an.</string>
@@ -1305,6 +1311,7 @@ Sie können auch Erinnerungen einrichten, damit Sie nichts verpassen."</string>
     <string name="today_at_time_fmt">Heute um %s</string>
     <string name="today_flight_event">Flug</string>
     <string name="today_icon_voice_contentdescription">Zum heutigen Tag</string>
+    <string name="today_no_event">Heute keine Termine</string>
     <string name="today_no_events">Keine Termine</string>
     <string name="todays_panchang_title">Heutiger Panchang</string>
     <string name="todo_audio_event">"[Sprachaufgabe] "</string>
@@ -1425,14 +1432,20 @@ Sie können auch Erinnerungen einrichten, damit Sie nichts verpassen."</string>
     <string name="widget_events">Nächster Termin</string>
     <string name="widget_get_weather_info">Wetterinfos erhalten &gt;</string>
     <string name="widget_no_events">Keine Termine</string>
+    <string name="widget_normal_agenda_tip_empty">Heute keine Termine</string>
+    <string name="widget_normal_agenda_today_done">Alle Termine sind für heute abgeschlossen.</string>
+    <string name="widget_normal_more_event">Weiter Termine</string>
+    <string name="widget_normal_new_event">Termin hiunzufügen</string>
+    <string name="widget_normal_weekN">Woche %d</string>
     <string name="widget_select_style">Stil auswählen</string>
+    <string name="widget_spec_agenda_birth_today">Heute</string>
     <string name="winter_begins">Winteranfang</string>
     <string name="winter_begins_tradition">Winteranfang</string>
     <string name="winter_solstice">Wintersonnenwende</string>
     <string name="winter_solstice_tradition">Wintersonnenwende</string>
     <string name="work_day_default_banner_title">Ich wünsche Ihnen einen produktiven Arbeitstag!</string>
     <string name="wuxing">Fünf</string>
-    <string name="xiaomi_calendar_delete_description">Kalender ist eine System-App, mit der Sie Ereignisse erstellen und verwalten können. Einige ihrer Funktionen sind auch dann noch verfügbar, wenn Sie die Startbildschirm-Verknüpfung entfernen.</string>
+    <string name="xiaomi_calendar_delete_description">Kalender ist eine System-App, mit der Sie Termine erstellen und verwalten können. Einige ihrer Funktionen sind auch dann noch verfügbar, wenn Sie die Startbildschirm-Verknüpfung entfernen.</string>
     <string name="xiaomi_calendar_delete_title">\"Kalender\" vom Startbildschirm entfernen?</string>
     <string name="xiaomi_calendar_display_name">Mi Kalender</string>
     <string name="xingxiu">Sterne</string>
