@@ -2,6 +2,7 @@
 <resources>
     <string name="Accounts_settings_title">Konten</string>
     <string name="Data_set">"Daten: "</string>
+    <string name="Intelligentpickfree">Stimme erkennen</string>
     <string name="a11y_settings_label">Einstellungen Barrierefreiheit</string>
     <string name="abc_action_bar_home_description">Zur Startseite</string>
     <string name="abc_action_bar_up_description">Nach oben</string>
@@ -846,6 +847,11 @@ benachrichtigungen erlauben"</string>
     <string name="audio_share_confirm">Teilen</string>
     <string name="auto_adjst_effect_summary">Automatische Anpassung der Farbtemperatur an das Umgebungslicht</string>
     <string name="auto_adjust_effect_title">Farbtemperatur automatisch anpassen</string>
+    <string name="auto_anc_closed">Aus</string>
+    <string name="auto_anc_fifteen_recover">%d Sek</string>
+    <string name="auto_anc_five_recover">%d sSek</string>
+    <string name="auto_anc_not_recover">Weiter</string>
+    <string name="auto_anc_ten_recover">%d Sek</string>
     <string name="auto_backup">Regelmäßige Sicherung planen</string>
     <string name="auto_backup_all_user_apps">Alle Apps</string>
     <string name="auto_backup_choose">Elemente sichern</string>
@@ -1290,6 +1296,7 @@ seit ^2"</string>
     <string name="battery_usage_chart">Übersicht Akkuverbrauch</string>
     <string name="battery_usage_chart_graph_hint">Akkustand der letzten 24 Std</string>
     <string name="battery_usage_for_background_time">Hintergründe: %s</string>
+    <string name="battery_usage_for_total_time">Gesamt: %s</string>
     <string name="battery_usage_screen_footer">Akkuverbrauchsdaten sind ungefähre Angaben und messen nicht den Verbrauch, wenn das Telefon geladen wird.</string>
     <string name="battery_usage_screen_footer_empty">Akkuverbrauchsdaten sind verfügbar, wenn Sie Ihr Telefon einige Stunden lang benutzt haben.</string>
     <string name="battery_usage_total_less_than_one_minute">Insgesamt: weniger als 1 Min</string>
@@ -1630,6 +1637,7 @@ Sie haben bisher keine Verbindung zu %2$s hergestellt."</string>
     <string name="bluetooth_profile_a2dp_high_quality">HD-Audio: %1$s</string>
     <string name="bluetooth_profile_a2dp_high_quality_unknown_codec">HD-Audio</string>
     <string name="bluetooth_profile_bc">BC-Profil</string>
+    <string name="bluetooth_profile_broadcast">Übertragung</string>
     <string name="bluetooth_profile_details">Profileinstellungen</string>
     <string name="bluetooth_profile_dun">DFÜ-Netzwerk</string>
     <string name="bluetooth_profile_headset">Anrufe</string>
@@ -3151,6 +3159,8 @@ Wenn es so bleibt, muss die App evtl. deinstalliert werden, um die Akkuleistung 
     <string name="done_button">Fertig</string>
     <string name="double_click_power_key">Power-Taste zweimal drücken</string>
     <string name="double_click_volume_down_when_lock">Zweimal auf Lautstärke leiser drücken, wenn der Bildschirm gesperrt ist</string>
+    <string name="double_connect">Zweifachverbindung</string>
+    <string name="double_connect_summary">Für die Verbindung zweier Geräte</string>
     <string name="double_knock">Knöchel-Doppeltipp</string>
     <string name="double_tap_power_for_camera_suggestion_title">Kamera schnell öffnen</string>
     <string name="double_tap_power_for_camera_summary">Drücken Sie zweimal auf Power-Taste, um Kamera schnell zu öffnen. Funktioniert von jedem Bildschirm aus.</string>

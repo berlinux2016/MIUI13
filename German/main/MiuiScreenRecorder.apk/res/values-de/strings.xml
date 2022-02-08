@@ -30,7 +30,8 @@
     <string name="app_notification_record_complete">Bildschirmaufnahme in Galerie gespeichert,\nzum Ansehen tippen</string>
     <string name="app_notification_title">Bildschirmaufnahme</string>
     <string name="auto_stop_title">Video erfolgreich gespeichert</string>
-    <string name="battery_not_allowed" formatted="false">Aufnahme kann bei weniger als 3% Akkustand nicht gestartet werden, mehr als 20% werden empfohlen</string>
+    <string name="battery_not_allowed" formatted="false">Aufnehmen nicht möglich, wenn der Akku niedriger als 3% ist. Stellen Sie sicher, dass er mind. 20% geladen ist.</string>
+    <string name="battery_not_allowed_warning">Aufnehmen nicht möglich, wenn der Akku niedriger als %1$s ist. Stellen Sie sicher, dass er mind. %2$s geladen ist.</string>
     <string name="bit_rate">Videoqualität</string>
     <string name="bit_rate_summary">Bessere Qualität bedeutet größere Dateien</string>
     <string name="bubble_text">Zum Aufnehmen tippen</string>
@@ -108,16 +109,17 @@
     <string name="is_go_home">Zurück zur Bildschirmaufnahme</string>
     <string name="is_go_home_summary">Öffnen Sie die Startseite des Bildschirmrekorders, wenn die Aufnahme beendet iat.</string>
     <string name="loopback_sound">Loopback-Ton</string>
-    <string name="low_battery">Laden Sie Ihr Telefon auf, bevor Sie eine Aufnahme starten</string>
+    <string name="low_battery">Telefon aufladen, bevor Sie die Aufnahme starten</string>
     <string name="low_battery_for_pad">Gerät aufladen, bevor Sie die Aufnahme starten</string>
     <string name="low_battery_title">Niedriger Akkustand</string>
     <string name="low_battery_warning">Akkustand ist zu niedrig. Aufnahme wurde gestoppt und das Video gespeichert.</string>
     <string name="low_memory">Weniger als 1 GB freier Speicher verfügbar. Sie können maximal bis zu 20 Minuten aufnehmen.</string>
     <string name="low_memory_dior">Weniger als 500 MB freier Speicher verfügbar. Sie können maximal bis zu 12 Minuten aufnehmen.</string>
-    <string name="low_memory_for_pad">Sie haben weniger als %1$d GB verfügbaren Speicher. Sie können jetzt bis zu %2$d Minuten aufzeichnen.</string>
+    <string name="low_memory_for_pad">Sie haben weniger als %1$d GB verfügbaren Speicher. Sie können jetzt bis zu %2$d Minuten aufnehmen.</string>
+    <string name="low_memory_for_phone">Sie haben weniger als %1$d GB verfügbaren Speicher. Sie können jetzt bis zu %2$d Minuten aufnehmen.</string>
     <string name="low_memory_title">Zu wenig freier Speicher</string>
     <string name="low_momery_warning">Zu wenig freier Speicher. Aufnahme angehalten und Video gespeichert.</string>
-    <string name="memory_not_allowed">Zu wenig freier Speicher für eine Bildschirmaufnahme. Bereinigen Sie den Speicher und versuchen Sie es erneut.</string>
+    <string name="memory_not_allowed">Zu wenig freier Speicher für eine Bildschirmaufnahme. Speicher bereinigen und erneut versuchen.</string>
     <string name="mic_sound">Ton über Mikrofon</string>
     <string name="midnight">Nacht</string>
     <string name="miuix_access_state_desc">Ausgewählt</string>
