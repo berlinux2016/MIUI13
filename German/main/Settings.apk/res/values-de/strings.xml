@@ -85,7 +85,7 @@
     <string name="accessibility_button_gesture_description">"Barrierefreie Funktionen sind von jedem Bildschirm aus schnell zugänglich.\n\nGehen Sie zu den Eingabehilfen-Einstellungen und wählen Sie eine Funktion aus. Tippen Sie auf die Verknüpfung und wählen Sie die Eingabehilfetaste.\n\nUm stattdessen die Eingabehilfetaste in der Navigationsleiste zu verwenden, wechseln Sie zur 2- oder 3-Tasten-Navigation."</string>
     <string name="accessibility_button_gesture_title">Eingabehilfentaste &amp; -geste</string>
     <string name="accessibility_button_high_label">Nicht transparent</string>
-    <string name="accessibility_button_intro">Eingabehilfentaste verwenden. Die Geste ist bei der 3-Tasten-Navigation nicht verfügbar.</string>
+    <string name="accessibility_button_intro">Eingabehilfentaste verwenden. Geste ist bei der 3-Tasten-Navigation nicht verfügbar.</string>
     <string name="accessibility_button_location_title">Standort</string>
     <string name="accessibility_button_opacity_title">Transparenz bei Nichtgebrauch</string>
     <string name="accessibility_button_or_gesture_title">Taste oder Geste verwenden</string>
@@ -139,7 +139,7 @@ Falls das Gerät mehrere Benutzer hat, werden die Eingabehilfen durch Verwendung
     <string name="accessibility_hearingaid_instruction_continue_button">Fortfahren</string>
     <string name="accessibility_hearingaid_not_connected_summary">Keine Hörgeräte verbunden</string>
     <string name="accessibility_hearingaid_pair_instructions_first_message">Um Ihre Hörgeräte zu koppeln, auf dem nächsten Bildschirm Ihr Gerät suchen und antippen.</string>
-    <string name="accessibility_hearingaid_pair_instructions_message">Um Ihre Hörgeräte zu koppeln, suchen Sie Ihr Gerät auf dem nächsten Bildschirm und tippen Sie es an. Stellen Sie sicher, dass sich Ihre Hörgeräte im Kopplungsmodus befinden.</string>
+    <string name="accessibility_hearingaid_pair_instructions_message">Um Ihre Hörgeräte zu koppeln, auf dem nächsten Bildschirm Ihr Gerät suchen und antippen. Stellen Sie sicher, dass sich Ihre Hörgeräte im Kopplungsmodus befinden.</string>
     <string name="accessibility_hearingaid_pair_instructions_second_message">Sicherstellen, dass sich Ihre Hörgeräte im Pairing-Modus befinden</string>
     <string name="accessibility_hearingaid_title">Hörgeräte</string>
     <string name="accessibility_introduction_title">Über %1$s</string>
@@ -238,7 +238,7 @@ Sie können nicht auf der Tastatur oder Navigationsleiste zoomen."</string>
     <string name="accessibility_settings_tabs_physical">Physisch</string>
     <string name="accessibility_settings_tabs_visual">Visuell</string>
     <string name="accessibility_settings_title">Einstellungen für Eingabehilfen</string>
-    <string name="accessibility_shortcut_description">Wenn die Verknüpfung aktiviert ist, drücken Sie beide Lautstärketasten 3 Sekunden lang, um eine Eingabehilfefunktion zu starten.</string>
+    <string name="accessibility_shortcut_description">Wenn die Verknüpfung aktiviert ist, drücken Sie beide Lautstärketasten 3 Sek. lang, um eine Eingabehilfefunktion zu starten.</string>
     <string name="accessibility_shortcut_edit_dialog_summary_hardware">Beide Lautstärketasten drücken &amp; halten</string>
     <string name="accessibility_shortcut_edit_dialog_summary_software">"Auf die Eingabehilfentaste %s am unteren Bildschirmrand tippen.
 
@@ -369,7 +369,7 @@ Um zwischen Diensten zu wechseln, mit zwei Fingern hochwischen und halten."</str
     <string name="accessibility_work_profile_app_description">Arbeit %s</string>
     <string name="accessor_expires_text">Mietvertrag läuft ab am %s</string>
     <string name="accessor_info_title">Apps, die Daten teilen</string>
-    <string name="accessor_no_description_text">Die App liefert keine Beschreibung.</string>
+    <string name="accessor_no_description_text">App liefert keine Beschreibung</string>
     <string name="account_add">Hinzufügen</string>
     <string name="account_dashboard_default_summary">Keine Konten hinzugefügt</string>
     <string name="account_dashboard_title">Benutzer &amp; Konten</string>
@@ -424,8 +424,8 @@ Um zwischen Diensten zu wechseln, mit zwei Fingern hochwischen und halten."</str
     <string name="adaptive_sleep_summary_on">An/Bildschirm wird nicht ausgeschaltet, wenn Sie ihn sich ansehen</string>
     <string name="adaptive_sleep_title">Bildschirmwahrnehmung</string>
     <string name="adaptive_sleep_title_no_permission">Kamerazugriff erforderlich</string>
-    <string name="adb_authorization_timeout_summary">Automatischen Entzug von adb-Berechtigungen für Systeme deaktivieren, die sich nicht innerhalb der standardmäßigen (7 Tage) oder benutzerkonfigurierten ( mind. 1 Tag) Zeitspanne erneut verbunden haben.</string>
-    <string name="adb_authorization_timeout_title">Timeout für adb-Autorisierung deaktivieren</string>
+    <string name="adb_authorization_timeout_summary">Autom. Entzug von adb-Rechten für Systeme deaktivieren, die sich nicht in der Standard- (7 Tage) oder benutzerdefinierten (mind. 1 Tag) Zeitspanne erneut verbunden haben.</string>
+    <string name="adb_authorization_timeout_title">Timeout adb-Autorisierung deaktivieren</string>
     <string name="adb_device_fingerprint_title_format">Gerätefingerabdruck: %1$s</string>
     <string name="adb_device_forget">Vergessen</string>
     <string name="adb_keys_warning_message">Zugriff auf USB-Debugging für alle zuvor autorisierten Computer aufheben?</string>
@@ -467,7 +467,7 @@ Um zwischen Diensten zu wechseln, mit zwei Fingern hochwischen und halten."</str
     <string name="add_device_admin_msg">Geräteadministrator aktivieren?</string>
     <string name="add_facerecoginition_text">Gesicht hinzufügen</string>
     <string name="add_fingerprint_cancel_button_text">Zurück</string>
-    <string name="add_fingerprint_dirty_fingerprint">Stellen Sie sicher, dass die Oberfläche des Bildschirms sauber ist. Versuchen Sie noch mal, Ihren Fingerabdruck aufzunehmen.</string>
+    <string name="add_fingerprint_dirty_fingerprint">Sicherstellen, dass die Oberfläche des Bildschirms sauber ist. Erneut versuchen, den Fingerabdruck aufzunehmen.</string>
     <string name="add_fingerprint_done_msg">Sie können Ihr Gerät nun mit Ihrem Fingerabdruck entsperren</string>
     <string name="add_fingerprint_done_title">Fertig</string>
     <string name="add_fingerprint_edge_instruction_msg">Bewegen Sie den Finger, damit der Sensor die Kanten des Fingerabdrucks aufnehmen kann</string>
@@ -570,8 +570,8 @@ Um zwischen Diensten zu wechseln, mit zwei Fingern hochwischen und halten."</str
     <string name="alert_button_deny">Ablehnen</string>
     <string name="alert_message_backup_to_miasist">Mi PC Suite bittet um Erlaubnis, eine Sicherung auf einem Computer zu erstellen. Erlauben?</string>
     <string name="alert_message_restore_from_miasist">Mi PC Suite bittet um Erlaubnis, Elemente auf Ihrem Telefon wiederherzustellen. Erlauben?</string>
-    <string name="alert_miasist_occupy_backup">Elemente sichern mit Mi PC Suite… Warten Sie, bis die Sicherung abgeschlossen ist, und versuchen Sie es erneut.</string>
-    <string name="alert_miasist_occupy_restore">Elemente wiederherstellen mit Mi PC Suite… Warten Sie, bis die Elemente wiederhergestellt sind, und versuchen Sie es erneut.</string>
+    <string name="alert_miasist_occupy_backup">Elemente sichern mit Mi PC Suite… Warten, bis die Sicherung abgeschlossen ist, und erneut versuchen.</string>
+    <string name="alert_miasist_occupy_restore">Elemente wiederherstellen mit Mi PC Suite… Warten, bis die Elemente wiederhergestellt sind, und erneut versuchen.</string>
     <string name="alert_phone_occupy_backup">Mi PC Suite kann jetzt nicht verwendet werden. Schließen Sie die Sicherung oder Wiederherstellung von Elementen auf Ihrem Telefon ab und versuchen Sie es erneut.</string>
     <string name="alert_second_space_not_support_miasist">Mi PC Suite kann nicht im Zweitprofil verwendet werden. Wechseln Sie ins Hauptprofil.</string>
     <string name="alert_show_screensaver_when_not_charging_msg">Bildschirmschoner verursacht einen erhöhten Stromverbrauch</string>
@@ -740,7 +740,7 @@ benachrichtigungen erlauben"</string>
     <string name="app_notification_peekable_summary">Dieser App erlauben, bestimmte Benachrichtigungen kurz am aktuellen Bildschirm einzublenden</string>
     <string name="app_notification_peekable_title">Vorschau erlauben</string>
     <string name="app_notification_preferences">App-Einstellungen</string>
-    <string name="app_notification_priority_summary">Lassen Sie Benachrichtigungen dieser App einblenden, wenn Nicht stören auf \"Nur Dringendes\" gesetzt ist.</string>
+    <string name="app_notification_priority_summary">Benachrichtigungen dieser App einblenden, wenn Nicht stören auf \"Nur Dringendes\" gesetzt ist</string>
     <string name="app_notification_priority_title">Als dringend behandeln</string>
     <string name="app_notification_row_banned">Blockiert</string>
     <string name="app_notification_row_priority">Dringend</string>
@@ -832,7 +832,7 @@ benachrichtigungen erlauben"</string>
     <string name="asst_capability_prioritizer_summary">Automatisch Benachrichtigungen mit niedrigerer Priorität auf \"Weich\" einstellen</string>
     <string name="asst_capability_prioritizer_title">Benachrichtigungsprio anpassbar</string>
     <string name="asst_capability_ranking_summary">Benachrichtigungen automatisch nach Relevanz einstufen</string>
-    <string name="asst_capability_ranking_title">Adaptive Benachrichtigungsreihenfolge</string>
+    <string name="asst_capability_ranking_title">Adapt. Benachr.-Reihenfolge</string>
     <string name="asst_feedback_indicator_summary">Anpassungen von Benachrichtigungen und die Option anzeigen, dem System Feedback zu geben</string>
     <string name="asst_feedback_indicator_title">Adaptives Benachrichtigungs-Feedback</string>
     <string name="asst_importance_reset_summary">Vom Benutzer geänderte Wichtigkeitseinstellungen zurücksetzen und dem Benachrichtigungsassistenten erlauben, Prioritäten zu setzen</string>
@@ -1061,7 +1061,7 @@ Sicherungen werden in der Xiaomi Cloud gespeichert und können kabellos abgerufe
     <string name="backup_set_enter_new_pw_again">Neues Sicherungspasswort bestätigen</string>
     <string name="backup_set_enter_old_pw">Altes Sicherungspasswort eingeben</string>
     <string name="backup_set_enter_pw_title">Sicherungspasswort eingeben</string>
-    <string name="backup_set_error_pw">Das von Ihnen eingegebene Passwort ist falsch</string>
+    <string name="backup_set_error_pw">Eingegebenes Passwort ist falsch</string>
     <string name="backup_set_modify_title">Sicherungspasswort ändern</string>
     <string name="backup_set_new_continue">Weiter</string>
     <string name="backup_set_new_exit">Beenden</string>
@@ -1474,14 +1474,14 @@ Sie haben sich noch nicht mit %2$s verbunden."</string>
     <string name="bluetooth_disable_absolute_volume">Absolute Lautstärke deaktivieren</string>
     <string name="bluetooth_disable_absolute_volume_summary">Absolute Lautstärke für Bluetooth deaktivieren im Falle von Lautstärkeproblemen mit Remote-Geräten, wie z. B. inakzeptabel laute Lautstärke oder fehlende Kontrollmöglichkeit.</string>
     <string name="bluetooth_disable_inband_ringing">In-Band Klingeln deaktivieren</string>
-    <string name="bluetooth_disable_inband_ringing_summary">Keine benutzerdefinierten Klingeltöne auf Bluetooth-Headsets abspielen.</string>
+    <string name="bluetooth_disable_inband_ringing_summary">Keine benutzerdefinierten Klingeltöne auf Bluetooth-Headsets abspielen</string>
     <string name="bluetooth_disable_mi_fast_connect">Mi Fast Connect deaktivieren</string>
     <string name="bluetooth_disable_mi_fast_connect_summary">Mi Fast Connect Funktion deaktivieren</string>
     <string name="bluetooth_disable_profile_message">Ausgeschaltet: %1$s Von: %2$s</string>
     <string name="bluetooth_disable_profile_title">Profil ausschalten?</string>
     <string name="bluetooth_disabled">Deaktiviert</string>
-    <string name="bluetooth_disconnect_a2dp_profile">%1$s wird von Audiomedien getrennt.</string>
-    <string name="bluetooth_disconnect_all_profiles">Ihr Telefon wird von %1$s getrennt.</string>
+    <string name="bluetooth_disconnect_a2dp_profile">%1$s wird von Audiomedien getrennt</string>
+    <string name="bluetooth_disconnect_all_profiles">Ihr Telefon wird von %1$s getrennt</string>
     <string name="bluetooth_disconnect_dialog_ok">Trennen</string>
     <string name="bluetooth_disconnect_headset_profile">%1$s wird von der Freisprecheinrichtung getrennt</string>
     <string name="bluetooth_disconnect_hid_profile">%1$s wird vom Eingabegerät getrennt</string>
@@ -1614,7 +1614,7 @@ Sie haben noch keine Verbindung zu %2$s hergestellt."</string>
 
 Sie haben bisher keine Verbindung zu %2$s hergestellt."</string>
     <string name="bluetooth_phonebook_access_dialog_title">Zugriff auf Kontakte und Anrufliste zulassen?</string>
-    <string name="bluetooth_phonebook_access_notification_content">Nicht vertrauenswürdiges Gerät will auf Ihre Kontakte und die Anrufliste zugreifen. Auf Details tippen.</string>
+    <string name="bluetooth_phonebook_access_notification_content">Nicht vertrauenswürdiges Gerät will auf Ihre Kontakte und die Anrufliste zugreifen. Tippen für Details.</string>
     <string name="bluetooth_phonebook_request">Zugriffanfrage für Telefonbuch</string>
     <string name="bluetooth_pin_values_hint">Meistens 0000 oder 1234</string>
     <string name="bluetooth_pin_values_hint_16_digits">Muss 16-stellig sein</string>
@@ -1779,16 +1779,16 @@ Während der Verbindung empfängt %2$s alle Anrufe an %3$s."</string>
     <string name="bluetooth_visibility_timeout">Zeit für Sichtbarkeit</string>
     <string name="bluetooth_wake">Mit Bluetooth-Audio wecken</string>
     <string name="boot_sounds_title">Einschalttöne</string>
-    <string name="bootloader">Fastbootmodus</string>
-    <string name="bootloader_apply_step_1">Fastbootmodus aktivieren?</string>
-    <string name="bootloader_apply_step_2">Wenn sich Ihr Gerät im Fastbootmodus befindet und Sie es mit einem PC verbinden,</string>
+    <string name="bootloader">Fastboot-Modus</string>
+    <string name="bootloader_apply_step_1">Fastboot-Modus aktivieren?</string>
+    <string name="bootloader_apply_step_2">Wenn sich Ihr Gerät im Fastboot-Modus befindet und Sie es mit einem PC verbinden,</string>
     <string name="bootloader_apply_step_3">kann auf Daten (z. B. Passwörter, Nachrichten) ohne Ihre Berechtigung zugegriffen werden.</string>
     <string name="bootloader_apply_step_4">Dies könnte zur Veröffentlichung oder zum Verlust von Daten oder zu irreparablen Hardwareschäden führen.</string>
-    <string name="bootloader_apply_step_5">Seien Sie sich dessen bewusst, bevor Sie den Fastbootmodus aktivieren.</string>
+    <string name="bootloader_apply_step_5">Seien Sie sich dessen bewusst, bevor Sie den Fastboot-Modus aktivieren.</string>
     <string name="bootloader_apply_title">Wichtige Warnung</string>
     <string name="bootloader_device_bind_already">Erfolgreich hinzugefügt. Ihr Mi-Konto ist jetzt mit diesem Gerät verknüpft.</string>
     <string name="bootloader_device_bind_exceed_sim_limit">Zu dieser SIM-Karte können keine weiteren Konten hinzugefügt werden</string>
-    <string name="bootloader_device_bind_fail">Prüfung fehlgeschlagen, warten Sie einen Moment und versuchen Sie es noch mal</string>
+    <string name="bootloader_device_bind_fail">Prüfung fehlgeschlagen. Etwas warten und erneut versuchen.</string>
     <string name="bootloader_device_bind_msg">Gerät und Konto hinzufügen vorbereiten…</string>
     <string name="bootloader_device_bind_no_account">Melden Sie sich zuerst an Ihrem Mi-Konto an</string>
     <string name="bootloader_device_bind_no_data_network">Schalten Sie WLAN aus und fügen Sie Ihr Konto und Gerät mit Hilfe mobiler Daten hinzu.</string>
@@ -1798,7 +1798,7 @@ Während der Verbindung empfängt %2$s alle Anrufe an %3$s."</string>
     <string name="bootloader_device_bind_server_token_expired_1">Verifizierung nicht möglich. Versuchen Sie, Ihr Konto und Gerät erneut hinzuzufügen.</string>
     <string name="bootloader_device_bind_server_token_expired_2">Verifizierung nicht möglich. Erneut an Ihrem Konto anmelden und von vorn beginnen.</string>
     <string name="bootloader_device_bind_sim_invalid">SIM-Karte ist ungültig. Austauschen und neu versuchen.</string>
-    <string name="bootloader_locked_answer_1">Wir sperren Geräte, um sicher zu gehen, dass Ihre Daten nicht an Dritte weitergegeben werden. Falls Sie in den Fastbootmodus wechseln möchten, um Ihr Gerät zu flashen, können Sie es entsperren.</string>
+    <string name="bootloader_locked_answer_1">Wir sperren Geräte, um sicher zu gehen, dass Ihre Daten nicht an Dritte weitergegeben werden. Falls Sie in den Fastboot-Modus wechseln möchten, um Ihr Gerät zu flashen, können Sie es entsperren.</string>
     <string name="bootloader_locked_answer_1_warning">Bedenken Sie: Sie können \"Gerät finden\" nicht mehr verwenden, wenn Sie Ihr Gerät entsperren.</string>
     <string name="bootloader_locked_answer_2">"1. Stellen Sie sicher, dass Sie bereits eine SIM-Karte in Ihr Gerät eingelegt haben.
 2. Tippen Sie unten auf \"Konto hinzufügen\", um Ihr Mi-Konto mit diesem Gerät zu verbinden.
@@ -1845,7 +1845,7 @@ Sie können dies in den Einstellungen ändern."</string>
 Sie können diese Funktion unter Einstellungen/Bluetooth/Gekoppelte Geräte ausschalten."</string>
     <string name="bt_aac_open_dialog_title">Umschalten auf AAC-Codec</string>
     <string name="bt_aac_pre_title">AAC</string>
-    <string name="bt_absVolume_open_dialog_summary">Aufgrund von Kompatibilitätsproblemen können einige Bluetooth-Geräte anormale Lautstärkepegel aufweisen, die durch Ausschalten dieser Funktion behoben werden können.</string>
+    <string name="bt_absVolume_open_dialog_summary">Wegen Kompatibilitätsproblemen können einige Bluetooth-Geräte anormale Lautstärkepegel aufweisen, die durch Ausschalten dieser Funktion behoben werden können.</string>
     <string name="bt_absVolume_open_dialog_title">Achtung</string>
     <string name="bt_absVolume_pre_title">Absolute Lautstärke</string>
     <string name="bt_absVolume_summary">Lautstärke der Bluetooth-Geräte und des Telefons strikt einheitlich halten. Sie können diese Funktion ein- und ausschalten, wenn keine Medien im Hintergrund abgespielt werden.</string>
@@ -2015,7 +2015,7 @@ Sie können diese Funktion unter Einstellungen/Bluetooth/Gekoppelte Geräte auss
     <string name="cant_sync_dialog_message">Synchronisation hierfür ist ausgeschaltet. Zur Änderung dieser Einstellung schalten Sie vorübergehend Hintergrunddaten und automatische Synchronisation ein.</string>
     <string name="cant_sync_dialog_title">Manuelle Synchronisation nicht möglich</string>
     <string name="capabilities_list_title">%1$s muss:</string>
-    <string name="capability_desc_receiveAccessibilityEvents">Erhält Benachrichtigungen, wenn Sie mit einer App interagieren.</string>
+    <string name="capability_desc_receiveAccessibilityEvents">Erhält Benachrichtigungen, wenn Sie mit einer App interagieren</string>
     <string name="capability_title_receiveAccessibilityEvents">Ihre Aktionen beobachten</string>
     <string name="captioning_background_color">Hintergrundfarbe</string>
     <string name="captioning_background_opacity">Hintergrundtransparenz</string>
@@ -2142,8 +2142,8 @@ Sie können diese Funktion unter Einstellungen/Bluetooth/Gekoppelte Geräte auss
     <string name="choose_smartcover_type">Smartcovertyp auswählen</string>
     <string name="choose_spell_checker">Rechtschreibprüfung auswählen</string>
     <string name="choose_timezone">Zeitzone wählen</string>
-    <string name="choose_unlock_face_msg">Bildschirmsperre festlegen, bevor Sie Ihre Gesichtsdaten aufnehmen.</string>
-    <string name="choose_unlock_fingerprint_msg">Bildschirmsperre festlegen, bevor Sie Ihren Fingerabdruck hinzufügen.</string>
+    <string name="choose_unlock_face_msg">Bildschirmsperre festlegen, bevor Sie Ihre Gesichtsdaten aufnehmen</string>
+    <string name="choose_unlock_fingerprint_msg">Bildschirmsperre festlegen, bevor Sie Ihren Fingerabdruck hinzufügen</string>
     <string name="choose_voice_input_title">Spracheingabe auswählen</string>
     <string name="classic_mode_summary">Zu wärmeren Farben wechseln, um die Menge an blauem Licht zu reduzieren</string>
     <string name="classic_mode_title">Klassisch</string>
@@ -2151,7 +2151,7 @@ Sie können diese Funktion unter Einstellungen/Bluetooth/Gekoppelte Geräte auss
     <string name="clear">Löschen</string>
     <string name="clear_activities">Zurücksetzen</string>
     <string name="clear_activities_summary">Diese App für einige Aktionen als Standard setzen</string>
-    <string name="clear_adb_keys">USB-Debugging-Berechtigungen widerrufen</string>
+    <string name="clear_adb_keys">USB-Debugging-Rechte widerrufen</string>
     <string name="clear_all_data">Alle Daten löschen</string>
     <string name="clear_cache_btn_text">Cache leeren</string>
     <string name="clear_data_alert_info">Alle auf diesem Gerät gespeicherten Sicherungen werden endgültig gelöscht. Sichern Sie wichtige Elemente auf Ihrem Computer und in der Xiaomi Cloud, bevor Sie einen Werksreset durchführen.</string>
@@ -2213,7 +2213,7 @@ Nach Erstellung einer neuen Sicherheitsfrage und Bestätigung Ihres Geburtsdatum
     <string name="cmcc_hardware_version">Hardwareversion</string>
     <string name="codec_low_latency_summary">Minimierung der Wartezeit bei der Audio- und Videosynchronisation von Spielen</string>
     <string name="codec_low_latency_title">Niedrige Wartezeit</string>
-    <string name="codec_low_latency_video_summary">Bietet ein Audioerlebnis mit niedriger Latenz für Spiele und Videos, wodurch die Synchronisation von Ton und Bild natürlicher wird.</string>
+    <string name="codec_low_latency_video_summary">Bietet ein Audioerlebnis mit niedriger Latenz für Spiele und Videos, wodurch die Synchronisation von Ton und Bild natürlicher wird</string>
     <string name="codec_low_latency_zmi_summary">Audioverzögerung reduzieren und Soundeffekte für Spiele automatisch verbessern</string>
     <string name="codec_low_latency_zmi_title">Niedrige Latenzzeit für Spiele</string>
     <string name="collect_diagnostics_summary">Diagnosedaten für die Fehlersuche sammeln</string>
@@ -2480,13 +2480,13 @@ Drücken Sie 'Löschen und konvertieren…', um fortzufahren."</string>
     <string name="credentials_reset">Anmeldedaten löschen</string>
     <string name="credentials_reset_hint">Alle Inhalte entfernen?</string>
     <string name="credentials_reset_summary">Alle Zertifikate entfernen</string>
-    <string name="credentials_reset_warning">Falsches Passwort. Sie haben noch einen Versuch, bevor Ihr Anmeldedatenspeicher gelöscht wird.</string>
-    <string name="credentials_reset_warning_plural">Falsches Passwort. Sie haben noch %1$d Versuche, bevor Ihr Anmeldedatenspeicher gelöscht wird.</string>
+    <string name="credentials_reset_warning">Passwort falsch. Sie haben noch einen Versuch, bevor Ihr Anmeldedatenspeicher gelöscht wird.</string>
+    <string name="credentials_reset_warning_plural">Passwort falsch. Sie haben noch %1$d Versuche, bevor Ihr Anmeldedatenspeicher gelöscht wird.</string>
     <string name="credentials_settings_not_available">Anmeldedaten sind nicht für diesen Benutzer verfügbar</string>
     <string name="credentials_title">Anmeldedatenspeicher</string>
     <string name="credentials_title_verification">Verifizierung</string>
     <string name="credentials_unlock_hint">Passwort für den Anmeldedatenspeicher eingeben</string>
-    <string name="credentials_wrong_password">Falsches Passwort</string>
+    <string name="credentials_wrong_password">Passwort falsch</string>
     <string name="crisp_text">Hohe Frequenzen sorgen für mehr Klarheit bei den Details jeder Aktion</string>
     <string name="critical_feedback">Kritisches Feedback</string>
     <string name="cross_profile_calendar_restricted_summary">Ihre Firma erlaubt es persönlichen Apps nicht, auf Ihren Arbeitskalender zuzugreifen</string>
@@ -2528,9 +2528,9 @@ Damit Sie Ihr Gerät wieder verwenden können, müssen Sie es auf Werkseinstellu
     <string name="crypt_keeper_warn_wipe">Noch ^1 Fehlversuch bis ein Zurücksetzen auf Werkseinstellungen durchgeführt wird und Ihre Daten gelöscht werden!!!</string>
     <string name="cryptkeeper_emergency_call">Notruf</string>
     <string name="cryptkeeper_return_to_call">Zurück zum Anruf</string>
-    <string name="cryptkeeper_wrong_password">Falsches Passwort</string>
-    <string name="cryptkeeper_wrong_pattern">Falsches Muster</string>
-    <string name="cryptkeeper_wrong_pin">Falsche PIN</string>
+    <string name="cryptkeeper_wrong_password">Passwort falsch</string>
+    <string name="cryptkeeper_wrong_pattern">Muster falsch</string>
+    <string name="cryptkeeper_wrong_pin">PIN falsch</string>
     <string name="current_backup_pw_prompt">Aktuelles Passwort für vollständige Sicherung eingeben</string>
     <string name="current_input_method">Standard</string>
     <string name="current_pad_location">Tablet</string>
@@ -2661,7 +2661,7 @@ Für einige Konten werden eventuell auch Änderungen, die Sie auf Ihrem Gerät v
     <string name="data_usage_cellular_data">Mobile Daten</string>
     <string name="data_usage_cellular_data_summary">Wegen Limit angehalten</string>
     <string name="data_usage_change_cycle">Zeitraum ändern…</string>
-    <string name="data_usage_chart_brief_content_description">Grafik zeigt Datennutzung zwischen dem %1$s und dem %2$s.</string>
+    <string name="data_usage_chart_brief_content_description">Grafik zeigt Datennutzung zwischen dem %1$s und dem %2$s</string>
     <string name="data_usage_chart_no_data_content_description">Keine Daten für diesen Zeitraum vorhanden</string>
     <string name="data_usage_cycle">Datenverbrauchszyklus</string>
     <string name="data_usage_cycle_editor_positive">Übernehmen</string>
@@ -2858,7 +2858,7 @@ Diese Einstellung betrifft alle Benutzer auf diesem Telefon."</string>
     <string name="details_title">Nutzungsdetails</string>
     <string name="dev_logpersist_clear_warning_message">Wenn wir den permanenten Logger nicht mehr zur Überwachung verwenden, müssen wir die auf Ihrem Gerät gespeicherten Log-Daten löschen.</string>
     <string name="dev_logpersist_clear_warning_title">Dauerhaft gespeicherte Log-Daten löschen?</string>
-    <string name="dev_settings_disabled_warning">Bitte zuerst die Entwickleroption aktivieren.</string>
+    <string name="dev_settings_disabled_warning">Bitte erst die Entwickleroption aktivieren.</string>
     <string name="dev_settings_warning_message">Diese Einstellungen sind nur für Entwickler gedacht. Sie können Ihr Gerät und die installierten Apps beschädigen oder zu unerwünschtem Verhalten führen.</string>
     <string name="dev_settings_warning_title">Entwicklungseinstellungen zulassen?</string>
     <string name="developer_density_summary">%d DPI</string>
@@ -3163,7 +3163,7 @@ Wenn es so bleibt, muss die App evtl. deinstalliert werden, um die Akkuleistung 
     <string name="double_connect_summary">Für die Verbindung zweier Geräte</string>
     <string name="double_knock">Knöchel-Doppeltipp</string>
     <string name="double_tap_power_for_camera_suggestion_title">Kamera schnell öffnen</string>
-    <string name="double_tap_power_for_camera_summary">Drücken Sie zweimal auf Power-Taste, um Kamera schnell zu öffnen. Funktioniert von jedem Bildschirm aus.</string>
+    <string name="double_tap_power_for_camera_summary">2-mal auf Power-Taste drücken, um Kamera schnell zu öffnen. Funktioniert von jedem Bildschirm aus.</string>
     <string name="double_tap_power_for_camera_title">Zur Kamera springen</string>
     <string name="double_twist_for_camera_mode_title">Kamera wechseln</string>
     <string name="double_twist_for_camera_suggestion_title">Selfies schneller schießen</string>
@@ -3188,7 +3188,7 @@ Wenn es so bleibt, muss die App evtl. deinstalliert werden, um die Akkuleistung 
     <string name="draw_overlay">Apps überlagern</string>
     <string name="draw_overlay_title">Apps, die andere überlagern können</string>
     <string name="dsds_activation_failure_body_msg1">SIM-Karte herausnehmen und erneut einlegen. Wenn das Problem weiterhin besteht, starten Sie Ihr Gerät neu.</string>
-    <string name="dsds_activation_failure_body_msg2">Versuchen Sie, die SIM-Karte erneut einzuschalten. Wenn das Problem weiterhin besteht, starten Sie Ihr Gerät neu.</string>
+    <string name="dsds_activation_failure_body_msg2">Versuchen, die SIM-Karte erneut einzuschalten. Wenn das Problem weiterhin besteht, starten Sie Ihr Gerät neu.</string>
     <string name="dsds_activation_failure_title">SIM aktivieren nicht möglich</string>
     <string name="dsds_dialog_cancel">Abbrechen</string>
     <string name="dsds_dialog_confirm">Neu starten</string>
@@ -3204,7 +3204,7 @@ Wenn es so bleibt, muss die App evtl. deinstalliert werden, um die Akkuleistung 
     <string name="dual_cdma_sim_warning_notification_channel_title">SIM-Kombination</string>
     <string name="dual_cdma_sim_warning_notification_summary">Verwendung von %1$s kann die Funktionalität einschränken. Tippen, um mehr zu erfahren.</string>
     <string name="dual_clock">Duale Uhr</string>
-    <string name="dual_clock_aod_open_message">Duale Uhr wird am Sperr-, Start- und ausgeschalteten Bildschirm angezeigt.</string>
+    <string name="dual_clock_aod_open_message">Duale Uhr wird am Sperr-, Start- und ausgeschalteten Bildschirm angezeigt</string>
     <string name="dual_clock_hint">Duale Uhr erfordert die Verwendung von Systemuhr-Widget und Standardthema</string>
     <string name="dual_clock_ok">Verstanden</string>
     <string name="dual_clock_open_message">Duale Uhr wird am Sperr-/Startbildschirm angezeigt</string>
@@ -3300,7 +3300,7 @@ Sie können die generierten Protokolle im Datei-Manager ansehen."</string>
     <string name="enable_encrypt_title">Sicherungen verschlüsseln</string>
     <string name="enable_encrypt_xiaomi_account">Sicherung wurde von %1$s erstellt. Zum Wiederherstellen aktuelles Konto löschen und als %2$s anmelden.</string>
     <string name="enable_freeform_support">Freiformfenster aktivieren</string>
-    <string name="enable_freeform_support_summary">Unterstützung für experimentelle Freiformfenster aktivieren.</string>
+    <string name="enable_freeform_support_summary">Unterstützung für experimentelle Freiformfenster aktivieren</string>
     <string name="enable_gnss_raw_meas_full_tracking">Volle GNSS Maße erzwingen</string>
     <string name="enable_gnss_raw_meas_full_tracking_summary">Alle GNSS Konstellationen und Frequenzen ohne Duty Cycling verfolgen</string>
     <string name="enable_gpu_debug_layers">GPU Debug-Ebenen aktivieren</string>
@@ -3523,7 +3523,7 @@ Gerät neu starten und erneut versuchen."</string>
     <string name="error_mnc_not23">MNC-Feld muss 2 oder 3 Zeichen enthalten</string>
     <string name="error_name_empty">Namensfeld darf nicht leer sein</string>
     <string name="error_permissions">Diese App verfügt nicht über Zugriffsberechtigungen für den Kalender. Gehen Sie zu Einstellungen und prüfen Sie die Berechtigungen zum Fortfahren.</string>
-    <string name="error_xcap_not_add">APN-Typ kann kein XCAP-Typ sein.</string>
+    <string name="error_xcap_not_add">APN-Typ kann kein XCAP-Typ sein</string>
     <string name="estimated_charging_time_left">Bis vollgeladen</string>
     <string name="estimated_time_description">Schätzung kann sich je nach Nutzung ändern</string>
     <string name="estimated_time_left">Geschätzte Restdauer</string>
@@ -3550,7 +3550,7 @@ Gerät neu starten und erneut versuchen."</string>
     <string name="external_ram_dialog_icon_confirm">Verstanden</string>
     <string name="external_ram_dialog_icon_info">System erweitert den RAM um %1$s %2$s</string>
     <string name="external_ram_dialog_icon_title">Speichererweiterung ist an</string>
-    <string name="external_ram_dialog_message">Ihr Gerät neu starten, um die Änderungen zu übernehmen.</string>
+    <string name="external_ram_dialog_message">Gerät neu starten, um Änderungen zu übernehmen</string>
     <string name="external_ram_dialog_title">Gerät neu starten</string>
     <string name="external_ram_remind_toast">Speicherplatz wird knapp. Speichererweiterung wurde vorerst deaktiviert.</string>
     <string name="external_ram_summary">%1$s %2$s an RAM hinzufügen, indem Sie Speicherplatz belegen. Verwenden Sie diese Funktion nur, wenn genügend Speicherplatz auf Ihrem Gerät verfügbar ist.</string>
@@ -3633,12 +3633,12 @@ Die Gesichtsentsperrung ist weniger sicher als eine PIN, ein Passwort oder ein M
     <string name="factory_reset_summary">Alle Daten aus dem internen Telefonspeicher löschen</string>
     <string name="fail">Fehlgeschlagen</string>
     <string name="failed_description">Fehlgeschlagen</string>
-    <string name="failed_to_check_find_device_status_content">Status Gerät finden wurde nicht geprüft. Einen Moment warten und erneut versuchen.</string>
+    <string name="failed_to_check_find_device_status_content">Status Gerät finden wurde nicht geprüft. Etwas warten und erneut versuchen.</string>
     <string name="failed_to_check_find_device_status_title">Status Gerät finden wurde nicht geprüft</string>
     <string name="failed_to_erase_text">Bitte Passwort für den Sperrbildschirm ausschalten, bevor Sie die Funktion \"1217\" eingeben.</string>
     <string name="failed_to_erase_title">Aktion kann nicht abgeschlossen werden</string>
     <string name="failed_to_open_app_settings_toast">Einstellungen öffnen für %1$s fehlgeschlagen</string>
-    <string name="failed_to_shut_down_find_device_content">Gerät finden wurde nicht deaktiviert. Einen Moment warten und erneut versuchen.</string>
+    <string name="failed_to_shut_down_find_device_content">Gerät finden wurde nicht deaktiviert. Etwas warten und erneut versuchen.</string>
     <string name="failed_to_shut_down_find_device_title">Gerät finden wurde nicht deaktiviert</string>
     <string name="fallback_home_title">Einen Moment…</string>
     <string name="fcc_equipment_id">Geräte-ID</string>
@@ -3735,7 +3735,7 @@ Um mehr zu erfahren, wenden Sie sich an diesen."</string>
     <string name="fingerprint_manage">Fingerabdrücke verwalten</string>
     <string name="fingerprint_manage_category_title">Fingerabdrücke verwalten</string>
     <string name="fingerprint_manage_tittle">Fingerabdruck</string>
-    <string name="fingerprint_not_identified_msg">Fingerabdruck wurde nicht erkannt. Geben Sie Ihr Passwort ein.</string>
+    <string name="fingerprint_not_identified_msg">Fingerabdruck wurde nicht erkannt. Passwort eingeben.</string>
     <string name="fingerprint_not_recognized">Nicht erkannt</string>
     <string name="fingerprint_others_title">Andere</string>
     <string name="fingerprint_password_unlock">Fingerabdrücke &amp; Bildschirmsperre</string>
@@ -3754,7 +3754,7 @@ Um mehr zu erfahren, wenden Sie sich an diesen."</string>
     <string name="fingerprint_unlock_type">Methode Fingerabdruckerkennung</string>
     <string name="fingerprint_usage_category_title">Fingerabdruck verwenden für</string>
     <string name="fingerprint_v2_delete_message">Dies löscht die Fingerabdrücke und Modelle, die mit \"%1$s\" verknüpft und auf Ihrem Gerät gespeichert sind.</string>
-    <string name="fingerprint_wakeup_summary">Bildschirm einschalten, wenn keine Fingerabdrücke registriert wurden.</string>
+    <string name="fingerprint_wakeup_summary">Bildschirm einschalten, wenn keine Fingerabdrücke registriert wurden</string>
     <string name="fingerprint_wakeup_title">Auf Fingerabdrucksensor tippen, um Bildschirm einzuschalten</string>
     <string name="finish_application">Beenden</string>
     <string name="finish_button">Fertig</string>
@@ -3765,7 +3765,7 @@ Um mehr zu erfahren, wenden Sie sich an diesen."</string>
     <string name="firewall_allow_wlan">WLAN-Verbindung zulassen</string>
     <string name="firewall_mobile">Mobile Daten</string>
     <string name="firewall_network_allow">Erlaubt %1$s, die Verbindung %2$s zu benutzen</string>
-    <string name="firewall_network_restrict_notify_message">Tippen, um die Einstellungen zu ändern.</string>
+    <string name="firewall_network_restrict_notify_message">Tippen, um die Einstellungen zu ändern</string>
     <string name="firewall_network_restrict_notify_mobile">Mobile Daten</string>
     <string name="firewall_partial">Erlauben Sie einigen Apps, sich mit der folgenden Methode zu verbinden</string>
     <string name="firewall_permission">Verbindungsberechtigungen</string>
@@ -3869,9 +3869,9 @@ Es schien keine Pferde oder andere Tiere zu geben; die Männer beförderten Sach
     <string name="font_size_summary2">Minimaler Desktop</string>
     <string name="footer_learn_more_content_description">Mehr über %1$s erfahren</string>
     <string name="forbidden_network">(verboten)</string>
-    <string name="forbidden_set_unlock_password_msg">Derzeit im Wartungsmodus, Passwort kann nicht festgelegt oder geändert werden.</string>
+    <string name="forbidden_set_unlock_password_msg">Derzeit im Wartungsmodus, Passwort kann nicht festgelegt oder geändert werden</string>
     <string name="forbidden_switch_apn_string">Ausgewählte APN-Einstellungen stimmen mit dem Netzwerktyp nicht überein</string>
-    <string name="force_allow_on_external">Auf ext. Speicher schreiben erzwingen</string>
+    <string name="force_allow_on_external">Ext. Speicher beschreiben erzwingen</string>
     <string name="force_allow_on_external_summary">Erlaubt das Schreiben jeder App auf externen Speicher, unabhängig von Manifestwerten</string>
     <string name="force_bold_text">Fetter Text</string>
     <string name="force_desktop_mode">Desktop-Modus erzwingen</string>
@@ -3886,7 +3886,7 @@ Es schien keine Pferde oder andere Tiere zu geben; die Männer beförderten Sach
     <string name="force_immersive_compatibility_hint_title">Kompatibilitätsprobleme</string>
     <string name="force_msaa">4x MSAA erzwingen</string>
     <string name="force_msaa_summary">4x MSAA in OpenGL ES 2.0-Apps einschalten</string>
-    <string name="force_resizable_activities">Größenänd. Aktivitäten erzwingen</string>
+    <string name="force_resizable_activities">Größenänd. Aktivit. erzwingen</string>
     <string name="force_resizable_activities_summary">Größenänderung von Aktivitäten für Multifenster unabhängig von vorgeschriebenen Werten erzwingen</string>
     <string name="force_rtl_layout_all_locales">RTL-Layout erzwingen</string>
     <string name="force_rtl_layout_all_locales_summary">RTL-Bildschirmlayout für alle Sprachen erzwingen</string>
@@ -3901,7 +3901,7 @@ Es schien keine Pferde oder andere Tiere zu geben; die Männer beförderten Sach
     <string name="forget">Vergessen</string>
     <string name="forget_group">Gruppe vergessen</string>
     <string name="forget_passpoint_dialog_message">Sie können den Zugriff auf alle verbleibenden Zeitvolumen oder Daten verlieren. Erkundigen Sie sich vor Entfernen bei Ihrem Mobilfunkanbieter.</string>
-    <string name="forget_passpoint_wifi_message">Die Telefonverbindung mit diesem Netz wird automatisch unterbrochen.</string>
+    <string name="forget_passpoint_wifi_message">Telefonverbindung mit diesem Netz wird automatisch unterbrochen</string>
     <string name="forget_password_button_text"><u>Passwort vergessen</u></string>
     <string name="forget_password_dialog_button_text">Zurück</string>
     <string name="forget_password_dialog_content_four"><Data>2. [Daten löschen] wählen und warten, bis Ihr Gerät neu startet.</Data></string>
@@ -3924,8 +3924,8 @@ Es schien keine Pferde oder andere Tiere zu geben; die Männer beförderten Sach
     <string name="free_wifi_connect">Verbinden</string>
     <string name="free_wifi_connect_dialog_summary">%1$s bereitgestellt durch %2$s</string>
     <string name="free_wifi_connect_dialog_title">WLAN verfügbar</string>
-    <string name="free_wifi_connect_fail">Netzwerkverbindung nicht möglich. Prüfen Sie Ihre Datenverbindung und versuchen Sie es erneut.</string>
-    <string name="free_wifi_connect_fail2">Anmeldung fehlgeschlagen. Versuchen Sie es in 1 bis 2 Minuten erneut.</string>
+    <string name="free_wifi_connect_fail">Netzwerkverbindung nicht möglich. Datenverbindung prüfen und erneut versuchen.</string>
+    <string name="free_wifi_connect_fail2">Anmeldung fehlgeschlagen. In 1 bis 2 Minuten erneut versuchen.</string>
     <string name="free_wifi_connect_summary">Tippen zum Verbinden mit %1$s</string>
     <string name="free_wifi_connect_title">WLAN verfügbar</string>
     <string name="free_wifi_connected">Verbunden mit kostenlosem WLAN</string>
@@ -3940,13 +3940,13 @@ Es schien keine Pferde oder andere Tiere zu geben; die Männer beförderten Sach
     <string name="free_wifi_user_agreement_allow">Zustimmen</string>
     <string name="free_wifi_user_agreement_title">Nutzungsbedingung</string>
     <string name="free_xiaomi_wifi_connect_summary">Tippen, um mit %1$s zu verbinden</string>
-    <string name="freeform_guide_drop_down_to_fullscreen_summary">Aktionsleiste eines Popups gedrückt halten und nach unten ziehen.</string>
+    <string name="freeform_guide_drop_down_to_fullscreen_summary">Aktionsleiste eines Popups gedrückt halten und nach unten ziehen</string>
     <string name="freeform_guide_drop_down_to_fullscreen_title">Popups im Vollbildmodus</string>
     <string name="freeform_guide_move_summary">Aktionsleiste eines Popups gedrückt halten, um es zu verschieben</string>
     <string name="freeform_guide_move_title">Popups verschieben</string>
     <string name="freeform_guide_move_to_small_freeform_window_summary">Popup in die Ecke des Bildschirms ziehen</string>
     <string name="freeform_guide_move_to_small_freeform_window_title">Popup minimieren</string>
-    <string name="freeform_guide_notification_drop_down_summary">Taste gedrückt halten und Aktionsleiste einer Benachrichtigung herunterziehen.</string>
+    <string name="freeform_guide_notification_drop_down_summary">Taste gedrückt halten und Aktionsleiste einer Benachrichtigung herunterziehen</string>
     <string name="freeform_guide_notification_drop_down_title">Popups öffnen</string>
     <string name="freeform_guide_settings">Popups</string>
     <string name="freeform_guide_slide_to_small_freeform_summary">"Unteren Fensterrand gedrückt halten und in die obere rechte Ecke ziehen.
@@ -3990,7 +3990,7 @@ Wenn Sie automatische Sicherungen einschalten, werden Geräte- und App-Daten per
     <string name="gadget_toggle_bluetooth">Bluetooth-Einstellung aktualisieren</string>
     <string name="gadget_toggle_wifi">WLAN-Einstellungen aktualisieren</string>
     <string name="gadget_wifi">WLAN</string>
-    <string name="gallery_privacy_password_role_instruction">Um die privat erstellten Elemente anzuzeigen, in \" Alben\" nach unten wischen.</string>
+    <string name="gallery_privacy_password_role_instruction">Um die privat erstellten Elemente anzuzeigen, in \" Alben\" nach unten wischen</string>
     <string name="game_booster">Spiel;Spiele;Turbo;Spielen;Spielemodus</string>
     <string name="game_controller_settings_category">Spielsteuerung</string>
     <string name="game_driver_all_apps_preference_title">Für alle Apps aktivieren</string>
@@ -4110,7 +4110,7 @@ Wenn Sie automatische Sicherungen einschalten, werden Geräte- und App-Daten per
     <string name="gxzw_add_fingerprint_edge_message">Bewegen Sie Ihren Finger, um die Ränder Ihres Fingerabdrucks aufzuzeichnen.</string>
     <string name="gxzw_add_fingerprint_edge_title">Finger leicht bewegen</string>
     <string name="gxzw_add_fingerprint_finish">Fertig!</string>
-    <string name="gxzw_add_fingerprint_indicate">In diesem Bereich leicht andrücken.</string>
+    <string name="gxzw_add_fingerprint_indicate">In diesem Bereich leicht andrücken</string>
     <string name="gxzw_add_fingerprint_know">Fertig</string>
     <string name="gxzw_add_fingerprint_message">Stellen Sie sicher, dass sowohl Ihr Finger als auch der Bildschirm sauber sind.</string>
     <string name="gxzw_add_fingerprint_move_indicate">Finger leicht bewegen</string>
@@ -4311,7 +4311,7 @@ Xiaomi Cloud öffnen und Elemente von dort aus wiederherstellen."</string>
     <string name="hsa_input_tip">Ihre Apple ID verwendet eine Zwei-Faktor-Authentifizierung. Bitte Bestätigungscode eingeben.</string>
     <string name="hsa_send_again">Erneut senden</string>
     <string name="hsa_send_again_countdown">Erneut senden (%ds)</string>
-    <string name="hsa_send_failed">Bestätigungscode wurde nicht gesendet. Einen Moment warten und erneut versuchen.</string>
+    <string name="hsa_send_failed">Bestätigungscode wurde nicht gesendet. Etwas warten und erneut versuchen.</string>
     <string name="hsa_sending">Senden…</string>
     <string name="hsa_tip_message">"1. Ein Bestätigungscode wurde an das Gerät gesendet, das Ihrer Apple ID zugeordnet ist.
 2. Deaktivieren Sie Zwei-Faktor-Authentifizierung, wenn der Verifizierungscode nicht funktioniert."</string>
@@ -5152,8 +5152,8 @@ Diese PIN muss so viele Ziffern enthalten wie das erste Profil."</string>
     <string name="lockpassword_forgot_pattern">Muster vergessen?</string>
     <string name="lockpassword_forgot_pin">PIN vergessen?</string>
     <string name="lockpassword_illegal_character">Passwort enthält ein ungültiges Zeichen</string>
-    <string name="lockpassword_invalid_password">Falsches Passwort</string>
-    <string name="lockpassword_invalid_pin">Falsche PIN</string>
+    <string name="lockpassword_invalid_password">Passwort falsch</string>
+    <string name="lockpassword_invalid_pin">PIN falsch</string>
     <string name="lockpassword_password_blacklisted_by_admin">Gängige Passwörter sind von Ihrem IT Admin gesperrt. Anderes Passwort versuchen.</string>
     <string name="lockpassword_password_recently_used">Geräteadministrator lässt die Verwendung eines früheren Passworts nicht zu</string>
     <string name="lockpassword_password_requires_alpha">Passwort muss mindestens einen Buchstaben enthalten</string>
@@ -5603,7 +5603,7 @@ Dadurch wird Ihr Mobilfunkvertrag nicht gekündigt."</string>
     <string name="miheadset_fitness_check_result_ok">Gute Passform</string>
     <string name="miheadset_fitness_check_result_r_not_ok">Kopfhörer neu einstellen</string>
     <string name="miheadset_fitness_check_result_summary1">Die Ohrstöpsel, die Sie derzeit tragen, passen gut.</string>
-    <string name="miheadset_fitness_check_result_summary2">Bitte justieren Sie die Position der Ohrstöpsel neu oder tauschen Sie die Ohrstöpsel vor dem Test gegen andere Größen aus.</string>
+    <string name="miheadset_fitness_check_result_summary2">Position der Ohrstöpsel neu justieren oder Ohrstöpsel vor dem Test gegen andere Größe austauschen</string>
     <string name="miheadset_fitness_check_result_unkown">Passform unbekannt</string>
     <string name="miheadset_fitness_check_start">Erkennung starten</string>
     <string name="miheadset_fitness_check_summary1">Erkennen, welche Ohrstöpselgröße ein angenehmes Tragegefühl und die beste Akustik bietet</string>
@@ -6003,7 +6003,7 @@ Betriebssystem auswählen:"</string>
     <string name="multi_face_delete_message">Vorsicht</string>
     <string name="multi_face_delete_show_message">Gesichtsdaten jetzt löschen?</string>
     <string name="multi_face_input">Gesichtsdaten hinzufügen</string>
-    <string name="multi_face_input_reach_upper_limit">Gesichtsdaten hinzufügen nicht möglich. Einen Moment warten und erneut versuchen.</string>
+    <string name="multi_face_input_reach_upper_limit">Gesichtsdaten hinzufügen nicht möglich. Etwas warten und erneut versuchen.</string>
     <string name="multi_face_list">Gesichtsdaten</string>
     <string name="multi_face_name_prefix">"Gesicht "</string>
     <string name="multi_face_number_reach_limit">Max. 2 Gesichter können hinzugefügt werden</string>
@@ -6651,7 +6651,7 @@ OTG schaltet sich nach 10 Min Inaktivität automatisch aus."</string>
     <string name="overlay_option_device_default">Gerätestandard</string>
     <string name="overlay_settings">Überlagerung von Apps</string>
     <string name="overlay_settings_summary">Zulassen, dass Apps, die über anderen Apps angezeigt werden können, Einstellungsbildschirme überlagern</string>
-    <string name="overlay_settings_title">Bildschirmüberlagerungen bei Einstellungen zulassen</string>
+    <string name="overlay_settings_title">Bildschirmüberlagerung bei Einstellungen zulassen</string>
     <string name="overlay_toast_failed_to_apply">Überlagerung wurde nicht angewendet</string>
     <string name="owner_info_settings_edit_text_hint">Hier Eigentümerinformationen eingeben</string>
     <string name="owner_info_settings_summary">Keine</string>
@@ -6857,7 +6857,7 @@ Lesen und akzeptieren Sie die %s, bevor Sie diesen Dienst nutzen."</string>
     <string name="play_pause_description">Play/Pause-Taste</string>
     <string name="please_select_phase2">Phase 2-Authentifizierung</string>
     <string name="please_type_passphrase">Passwort</string>
-    <string name="plmn_failure_radio_off">Auswahl des Netzwerkausfalls aufgrund von Funk AUS oder nicht verfügbar</string>
+    <string name="plmn_failure_radio_off">Auswahl des Netzwerkausfalls wegen Funk AUS oder nicht verfügbar</string>
     <string name="pm_auto_start_by_other">Ausgelöster Start</string>
     <string name="pm_auto_start_by_other_app">Starten der App durch andere Apps erlauben</string>
     <string name="pm_auto_start_by_system">Apps starten</string>
@@ -6873,7 +6873,7 @@ Lesen und akzeptieren Sie die %s, bevor Sie diesen Dienst nutzen."</string>
     <string name="popup_gesture_title">Anheben zum Öffnen der Frontkamera</string>
     <string name="popup_led_summary">Beim Aus- und Einfahren der Frontkamera Animation anzeigen</string>
     <string name="popup_led_title">Visueller Effekt</string>
-    <string name="popup_led_try_later">Einen Moment warten und erneut versuchen</string>
+    <string name="popup_led_try_later">Etwas warten und erneut versuchen</string>
     <string name="popup_title">Frontkameraeffekte</string>
     <string name="popup_title_cangmen">Kabinentür</string>
     <string name="popup_title_chilun">Zahnrad</string>
@@ -7638,7 +7638,7 @@ Mindestens %s freigeben."</string>
     <string name="scanning_status_text_wifi_off_ble_on">Bluetooth-Scan ist an, WLAN-Scan ist aus</string>
     <string name="scanning_status_text_wifi_on_ble_off">WLAN-Scan ist an, Bluetooth-Scan ist aus</string>
     <string name="scanning_status_text_wifi_on_ble_on">WLAN- und Bluetooth-Scans sind an</string>
-    <string name="sccret_code_error">Der eingegebene Code ist falsch.</string>
+    <string name="sccret_code_error">Eingegebener Code ist falsch</string>
     <string name="scheduled_style">Zeitplan</string>
     <string name="screen">Bildschirm</string>
     <string name="screen_brightness">Bildschirmhelligkeit</string>
@@ -8497,8 +8497,8 @@ Hinweis: Sie können Ihren Fingerabdruck nicht verwenden, um dieses Gerät zu en
     <string name="show_fc_summary">Abgestürzte Apps anzeigen</string>
     <string name="show_first_crash_dialog">Absturzdialog immer anzeigen</string>
     <string name="show_first_crash_dialog_summary">Immer Dialog anzeigen bei Absturz einer App</string>
-    <string name="show_hw_layers_updates">Hardwareebenen-Updates</string>
-    <string name="show_hw_layers_updates_summary">Hardwareebenen blinken beim Aktualisieren grün</string>
+    <string name="show_hw_layers_updates">Hardware-Ebenen-Updates</string>
+    <string name="show_hw_layers_updates_summary">Hardware-Ebenen blinken grün beim Aktualisieren</string>
     <string name="show_hw_screen_updates">GPU-Anzeigeupdates anzeigen</string>
     <string name="show_hw_screen_updates_summary">Blitz innerhalb des Fensters, wenn die Darstellung über die GPU erfolgt</string>
     <string name="show_ime">Virtuelle Tastatur anzeigen</string>
@@ -8507,7 +8507,7 @@ Hinweis: Sie können Ihren Fingerabdruck nicht verwenden, um dieses Gerät zu en
     <string name="show_menu">Menü anzeigen</string>
     <string name="show_network_speed_title">Verbindungsgeschwindigkeit anzeigen</string>
     <string name="show_non_rect_clip">Nicht rechteckige Clipoperationen debuggen</string>
-    <string name="show_notification_channel_warnings">Benachr.-Kanalwarnungen anzeigen</string>
+    <string name="show_notification_channel_warnings">Benachr.-Kanalwarnung anzeigen</string>
     <string name="show_notification_channel_warnings_summary">Bildschirmwarnung anzeigen, wenn eine App eine Benachrichtigung ohne gültigen Kanal sendet</string>
     <string name="show_notification_icon_title">Benachrichtigungssymbole anzeigen</string>
     <string name="show_operator_name_summary">Netzwerkname in Statusleiste anzeigen</string>
@@ -8520,8 +8520,8 @@ Hinweis: Sie können Ihren Fingerabdruck nicht verwenden, um dieses Gerät zu en
     <string name="show_refresh_rate_summary">Aktuelle Bildwiederholrate anzeigen</string>
     <string name="show_rounded_corners">Runde Ecken anzeigen</string>
     <string name="show_running_services">Aktive Dienste anzeigen</string>
-    <string name="show_screen_updates">Bildschirmaktualisierungen anzeigen</string>
-    <string name="show_screen_updates_summary">In ganzer Fensterfläche blitzen, wenn sie aktualisiert wird</string>
+    <string name="show_screen_updates">Bildschirmaktualisierung anzeigen</string>
+    <string name="show_screen_updates_summary">Ganze Fensterfläche beleuchten beim Aktualisieren</string>
     <string name="show_silently">Benachrichtigungen lautlos anzeigen</string>
     <string name="show_silently_summary">Keinen Ton machen, nicht vibrieren oder keine Benachrichtigungen im aktuellen Bildschirm zeigen</string>
     <string name="show_system_app">System-Apps anzeigen</string>
@@ -8588,7 +8588,7 @@ Durch den Wechsel wird Ihr %1$s-Dienst nicht gekündigt."</string>
     <string name="sim_change_data_message">%1$s anstelle von %2$s für mobile Daten verwenden?</string>
     <string name="sim_change_data_ok">%1$s verwenden</string>
     <string name="sim_change_data_title">Daten-SIM ändern?</string>
-    <string name="sim_change_failed">PIN kann nicht geändert werden. Eventuell falsche PIN.</string>
+    <string name="sim_change_failed">PIN kann nicht geändert werden. Eventuell PIN falsch.</string>
     <string name="sim_change_failed_enable_sim_lock">SIM-Sperre jetzt aktivieren</string>
     <string name="sim_change_pin">SIM-PIN</string>
     <string name="sim_change_succeeded">SIM-PIN erfolgreich geändert</string>
@@ -8605,7 +8605,7 @@ Durch den Wechsel wird Ihr %1$s-Dienst nicht gekündigt."</string>
     <string name="sim_enter_old">Alte SIM-PIN</string>
     <string name="sim_enter_pin">SIM-PIN</string>
     <string name="sim_lock_change_not_supported">Kann SIM-Sperre nicht ändern</string>
-    <string name="sim_lock_failed">Status der SIM-Kartensperrung kann nicht geändert werden. Eventuell falsche PIN.</string>
+    <string name="sim_lock_failed">Status der SIM-Kartensperrung kann nicht geändert werden. Eventuell PIN falsch.</string>
     <string name="sim_lock_off">PIN zur Telefonnutzung erforderlich</string>
     <string name="sim_lock_on">PIN zur Telefonnutzung erforderlich</string>
     <string name="sim_lock_settings">Einstellungen für SIM-Sperre</string>
@@ -8678,7 +8678,7 @@ Durch den Wechsel wird Ihr %1$s-Dienst nicht gekündigt."</string>
     <string name="slider_tool_none_summary">Keine Slider-Kurzbefehl zugewiesen</string>
     <string name="slider_video_tool_summary">Bildschirm nach unten schieben, um verfügbare Kurzbefehle während der Wiedergabe eines Videos anzuzeigen</string>
     <string name="slider_video_tool_title">Video-Kurzbefehl</string>
-    <string name="slider_vocie_click_too_often">Zu schnell! Einen Moment warten und erneut versuchen.</string>
+    <string name="slider_vocie_click_too_often">Zu schnell! Etwas warten und erneut versuchen.</string>
     <string name="slider_vocie_online_close">Nach oben schieben</string>
     <string name="slider_vocie_online_default">Nichts</string>
     <string name="slider_vocie_online_open">Nach unten schieben</string>
@@ -9374,7 +9374,7 @@ Auf ^2 gespeicherte Apps könnten nicht richtig funktionieren, und Datenübertra
     <string name="sync_enable">Synchronisieren</string>
     <string name="sync_enabled">Synchronisation ist AN</string>
     <string name="sync_error">Synchronisationsfehler</string>
-    <string name="sync_failed">Synchronisieren nicht möglich. Einen Moment warten und erneut versuchen.</string>
+    <string name="sync_failed">Synchronisieren nicht möglich. Etwas warten und erneut versuchen.</string>
     <string name="sync_in_progress">Jetzt synchronisieren…</string>
     <string name="sync_is_failing">Bei der Synchronisation treten momentan Probleme auf. Sie wird in Kürze fortgesetzt.</string>
     <string name="sync_menu_sync_cancel">Synchronisation abbrechen</string>
@@ -11429,8 +11429,8 @@ Diese Funktion wird automatisch ausgeschaltet, wenn der Ladevorgang nicht innerh
     <string name="write_settings_title">Darf Systemeinstellungen ändern</string>
     <string name="write_system_settings">Systemeinstellungen ändern</string>
     <string name="write_tag">Schreiben</string>
-    <string name="wrong_pin_code_one">Falscher SIM-PIN-Code. Sie haben noch 1 Versuch, bevor Sie Ihren Anbieter kontaktieren müssen, um Ihr Gerät zu entsperren.</string>
-    <string name="wrong_pin_code_pukked">Falscher SIM-PIN-Code. Sie müssen jetzt Ihren Telefonanbieter kontaktieren, um Ihr Gerät zu entsperren.</string>
+    <string name="wrong_pin_code_one">SIM-PIN-Code falsch. Sie haben noch 1 Versuch, bevor Sie Ihren Anbieter kontaktieren müssen, um Ihr Gerät zu entsperren.</string>
+    <string name="wrong_pin_code_pukked">SIM-PIN-Code falsch. Sie müssen jetzt Ihren Telefonanbieter kontaktieren, um Ihr Gerät zu entsperren.</string>
     <string name="xiaoai_global_shortcut">Allgemein</string>
     <string name="xiaoai_key_shortcut">Tasten</string>
     <string name="xiaoai_other_shortcut">Andere Methoden</string>

@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-    <string name="dialog_content_message_anr">"%s ist aufgrund eines internen Fehlers nicht ansprechbar. "</string>
+    <string name="dialog_content_message_anr">"%s ist wegen internem Fehler nicht ansprechbar. "</string>
     <string name="er_app_anr">%s keine Antwort</string>
     <string name="er_app_crash">%s schließen erzwungen</string>
     <string name="er_app_crash_description_anr">App wurde zwangsweise geschlossen, weil sie nicht reagierte</string>
-    <string name="er_app_crash_description_npe">App wird aufgrund einer Null-Zeiger-Ausnahme zwangsweise geschlossen</string>
+    <string name="er_app_crash_description_npe">App wird wegen Null-Zeiger-Ausnahme zwangsweise geschlossen</string>
     <string name="er_app_crash_description_oom">App wird zwangsweise geschlossen, weil kein Speicher mehr vorhanden ist</string>
-    <string name="er_app_crash_description_other">App wird aufgrund eines Fehlers zwangsweise geschlossen</string>
-    <string name="er_app_crash_description_shell">App wird aufgrund eines Shell-Fehlers zwangsweise geschlossen</string>
+    <string name="er_app_crash_description_other">App wird wegen Fehler zwangsweise geschlossen</string>
+    <string name="er_app_crash_description_shell">App wird wegen Shell-Fehler zwangsweise geschlossen</string>
     <string name="er_app_description_native_oom">Wenn einer App der Speicher ausgeht, wird der Bildschirm möglicherweise schwarz, beginnt zu blinken oder die App wird zwangsweise geschlossen.</string>
     <string name="er_app_update_button">Aktualisieren</string>
     <string name="er_exception_all">Alle Probleme</string>
@@ -25,7 +25,7 @@
     <string name="incompatible_page_summary">Diese Apps sind nicht mit der neuesten Version von Android kompatibel. Kompatibilitätsprobleme könnten in den kommenden App-Updates behoben werden.</string>
     <string name="incompatible_summary">Apps, die nicht mit der neuesten Version von Android kompatibel sind</string>
     <string name="incompatible_title">Inkompatible Apps</string>
-    <string name="lowbit_version_page_summary">32-Bit-Apps sind weniger leistungsfähig und verbrauchen mehr Strom. Außerdem können sie aufgrund des Mangels an virtuellem Speicher abstürzen. Google wird 32-Bit-Apps in den neuen Versionen von Android nicht mehr unterstützen.</string>
+    <string name="lowbit_version_page_summary">32-Bit-Apps sind weniger leistungsfähig und verbrauchen mehr Strom. Außerdem können sie mangels virtuellem Speicher abstürzen. Google wird 32-Bit-Apps in den neuen Versionen von Android nicht mehr unterstützen.</string>
     <string name="lowbit_version_summary">32-Bit-Apps können abstürzen und den Akku belasten</string>
     <string name="lowbit_version_title">32-Bit-Apps</string>
 
@@ -61,15 +61,15 @@
     <string name="dialog_content_message2_feedback">Wir werden den Entwickler über dieses Problem informieren. Bleiben Sie auf dem Laufenden für Updates.</string>
     <string name="dialog_content_message2_update">Sieht so aus, als würden Sie eine alte Version dieser Anwendung verwenden. Jetzt aktualisieren?</string>
     <string name="dialog_content_message_func_path">Pfad: Einstellungen > Apps > Apps verwalten > Einstellungen > %s</string>
-    <string name="dialog_content_message_other">"%s aufgrund eines internen Fehlers zum Schließen gezwungen. "</string>
-    <string name="dialog_content_message_shell">"%s aufgrund eines internen Fehlers zum Schließen gezwungen. "</string>
+    <string name="dialog_content_message_other">"%s wegen internem Fehler zum Schließen gezwungen. "</string>
+    <string name="dialog_content_message_shell">"%s wegen internem Fehler zum Schließen gezwungen. "</string>
     <string name="dialog_content_message_unknown">"%s schließen erzwungen. "</string>
     <string name="i_know">Verstanden</string>
     <string name="no_reminder">Nicht über Probleme in der aktuellen Version benachrichtigen</string>
     <string name="notification_channel_name">App-Probleme</string>
     <string name="notification_content_message">Tippen, um Details anzuzeigen</string>
-    <string name="notification_title_message_other">%s aufgrund eines internen Fehlers zum Schließen gezwungen</string>
-    <string name="notification_title_message_shell">%s aufgrund eines internen Fehlers zum Schließen gezwungen</string>
+    <string name="notification_title_message_other">%s wegen internem Fehler zum Schließen gezwungen</string>
+    <string name="notification_title_message_shell">%s wegen internem Fehler zum Schließen gezwungen</string>
     <string name="notification_title_message_unknown">%s schließen erzwungen</string>
     <string name="search_menu_title">Suchen</string>
 </resources>
