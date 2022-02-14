@@ -95,7 +95,7 @@
     <string name="device_activation_card_description">Die erste Aktivierung wird registriert, wenn ein Gerät zum ersten Mal eine Netzwerkverbindung herstellt (inkl., aber nicht beschränkt auf WLAN und Mobilfunknetze). Es dauert gewöhnlich eine Weile, bis die erste Aktivierung registriert wird, daher ist es besser, 3-5 Tage nach der Netzwerkverbindung zu warten, bevor Sie den Aktivierungsstatus prüfen.&lt;br>&lt;br>Die Geräteaktivierung ist der Hauptfaktor bei der Bestimmung der Gültigkeitsdauer unserer erweiterten Garantie. Für mehr Details lesen Sie unsre &lt;a href=%1$s>Rückgabe-, Umtausch- und Reparaturbedingungen&lt;/a>.&lt;br>&lt;br>Bei Fragen wenden Sie sich bitte an unsere Kunden-Support-Hotline: 400-100-5678.</string>
     <string name="device_activation_card_description_china">Die erste Aktivierung wird registriert, wenn ein Gerät zum ersten Mal eine Netzwerkverbindung herstellt (inkl., aber nicht beschränkt auf WLAN und Mobilfunknetze). Es dauert gewöhnlich eine Weile, bis die erste Aktivierung registriert wird, daher ist es besser, 3-5 Tage nach der Netzwerkverbindung zu warten, bevor Sie den Aktivierungsstatus prüfen.&lt;br>&lt;br>Die Geräteaktivierung ist der Hauptfaktor bei der Bestimmung der Gültigkeitsdauer unserer erweiterten Garantie. Für mehr Details lesen Sie unsre &lt;a href=%1$s>Rückgabe-, Umtausch- und Reparaturbedingungen&lt;/a>.&lt;br>&lt;br>Bei Fragen wenden Sie sich bitte an unsere Kunden-Support-Hotline: 400-100-5678.</string>
     <string name="device_activation_card_device_not_support">Nicht unterstützt auf diesem Gerät</string>
-    <string name="device_activation_card_local_service_error">Info nicht erhalten. Einen Moment warten und ereneut versuchen.</string>
+    <string name="device_activation_card_local_service_error">Info nicht erhalten. Etwas warten und ereneut versuchen.</string>
     <string name="device_activation_card_no_network_error">Netzwerkverbindung nicht möglich. Netzwerkeinstellungen prüfen und erneut versuchen.</string>
     <string name="device_activation_card_title">Erste Aktivierung</string>
     <string name="device_activation_page_title">Geräteaktivierung</string>
@@ -119,7 +119,7 @@
     <string name="error_credential_fail">Passcode-Fehler</string>
     <string name="error_data_in_transfer">Synchronisation endet in %s Stunden</string>
     <string name="error_data_in_transfer_title">Xiaomi Cloud nicht verfügbar</string>
-    <string name="error_keybag_unknown">Ein unbekannter Fehler ist aufgetreten. Einen Moment warten und erneut versuchen.</string>
+    <string name="error_keybag_unknown">Ein unbekannter Fehler ist aufgetreten. Etwas warten und erneut versuchen.</string>
     <string name="error_masterkey_changed">Passcode wurde geändert</string>
     <string name="error_masterkey_exists">Passcode bereits vorhanden</string>
     <string name="error_network">Netzwerkverbindung nicht möglich</string>
@@ -130,7 +130,7 @@
     <string name="error_retry_exceed_limit_with_retry">Zu viele erfolglose Versuche. In %s erneut versuchen.</string>
     <string name="error_screen_pwd_retry_exceed_limit">Zu viele erfolglose Versuches</string>
     <string name="error_server">Serverfehler</string>
-    <string name="error_server_busy">Unsere Server sind ausgelastet. Einen Moment warten und erneut versuchen.</string>
+    <string name="error_server_busy">Unsere Server sind ausgelastet. Etwas warten und erneut versuchen.</string>
     <string name="error_server_error">Serverfehler</string>
     <string name="error_timeout">Zeitüberschreitung Anfrage</string>
     <string name="error_token_expired">Erneut bei Ihrem Mi-Konto anmelden</string>
@@ -236,7 +236,7 @@
     <string name="ks_update_fail">Herunterladen fehlgeschlagen</string>
     <string name="ks_update_fail_code">Herunterladen des Zertifikats fehlgeschlagen. Fehlercode: %d</string>
     <string name="ks_update_fail_no_network">Netzwerkverbindung fehlgeschlagen. Verbinden und erneut versuchen.</string>
-    <string name="ks_update_fail_request_timeout">Verbindungsanfrage ist abgelaufen. Einen Moment warten und erneut versuchen.</string>
+    <string name="ks_update_fail_request_timeout">Verbindungsanfrage ist abgelaufen. Etwas warten und erneut versuchen.</string>
     <string name="ks_update_success">Erfolgreich aktualisiert</string>
     <string name="ks_update_wait">Einen Moment…</string>
     <string name="last_sync_time_just_now">Gerade eben</string>
@@ -500,7 +500,7 @@ Nutzen Sie ein anderes Konto."</string>
     <string name="micloud_privacy_licence_privacy_policy">Datenschutzerklärung</string>
     <string name="micloud_privacy_progress_content">Berechtigung erteilen…</string>
     <string name="micloud_privacy_warning_button">Zurück</string>
-    <string name="micloud_privacy_warning_content">Xiaomi Cloud-Dienste einschalten nicht möglich. Einen Moment warten und erneut versuchen.</string>
+    <string name="micloud_privacy_warning_content">Xiaomi Cloud-Dienste einschalten nicht möglich. Etwas warten und erneut versuchen.</string>
     <string name="micloud_privacy_warning_title">Achtung</string>
     <string name="micloud_proceed">Fortfahren</string>
     <string name="micloud_request_permission_confirm">Verstanden</string>
@@ -510,7 +510,7 @@ Nutzen Sie ein anderes Konto."</string>
     <string name="micloud_request_permission_content_pad_without_sim_but_contact">Um Kalendereinträge, Kontakte, Fotos, Videos und andere Elemente zu synchronisieren, benötigt Xiaomi Cloud Zugriffsrechte auf Ihre Kalender, Kontakte, Konten, Fotos und Videos.</string>
     <string name="micloud_request_permission_content_pad_without_sim_or_contact">Um Kalendereinträge, Fotos, Videos und andere Elemente zu synchronisieren, benötigt Xiaomi Cloud Zugriffsrechte auf Ihren Kalender, Ihre Konten, Fotos und Videos.</string>
     <string name="micloud_request_permission_title">Xiaomi Cloud benötigt Berechtigungen</string>
-    <string name="micloud_request_sync_too_frequent">Zu viele Anfragen. Einen Moment warten und erneut versuchen.</string>
+    <string name="micloud_request_sync_too_frequent">Zu viele Anfragen. Etwas warten und erneut versuchen.</string>
     <string name="micloud_sec_dspt">" und teile Dinge mit Freunden"</string>
     <string name="micloud_setting_antispam_summary">Ausnahmen und geblockte Rufnummern</string>
     <string name="micloud_setting_bluetooth_summary">Infos über Ihre gekoppelten Geräte mit der Cloud synchronisieren</string>
@@ -554,9 +554,9 @@ Nutzen Sie ein anderes Konto."</string>
     <string name="micloud_sync_result_auth_exception">Kontofehler</string>
     <string name="micloud_sync_result_cancel">Synchronisation wurde unterbrochen</string>
     <string name="micloud_sync_result_cloud_storage_full">Xiaomi Cloud-Speicher ist voll</string>
-    <string name="micloud_sync_result_common_message">Synchronisation nicht möglich. Einen Moment warten und erneut versuchen.</string>
+    <string name="micloud_sync_result_common_message">Synchronisation nicht möglich. Etwas warten und erneut versuchen.</string>
     <string name="micloud_sync_result_cta_permission_error">Erst mit Netzwerk verbinden</string>
-    <string name="micloud_sync_result_get_sim_info_error">Keine SIM-Karten-Info erhalten. Einen Moment warten und erneut versuchen.</string>
+    <string name="micloud_sync_result_get_sim_info_error">Keine SIM-Karten-Info erhalten. Etwas warten und erneut versuchen.</string>
     <string name="micloud_sync_result_internal_error">Interner Fehler</string>
     <string name="micloud_sync_result_io_exception">I/O Fehler</string>
     <string name="micloud_sync_result_parse_exception">Daten analysieren fehlgeschlagen</string>
@@ -1034,7 +1034,7 @@ Lesen und akzeptieren Sie unsere "&lt;u>&lt;a href=\"app://com.miui.cloudservice
     <string name="sync_sub_1_sms_1_intl_sms">Ihr Mobilfunkanbieter kann Kosten für jeweils 1 nationale und internationale gesendete SMS berechnen, welche verwendet werden, um diesen Service zu aktivieren.</string>
     <string name="sync_sub_2_intl_sms">Ihr Mobilfunkanbieter kann Kosten für 2 gesendete internationale SMS berechnen, welche verwendet werden, um diesen Service zu aktivieren.</string>
     <string name="sync_sub_2_sms">Ihr Mobilfunkanbieter kann Kosten für 2 gesendete SMS berechnen, welche verwendet werden, um diesen Service zu aktivieren.</string>
-    <string name="system_busy_or_network_error">Ein Fehler ist aufgetreten. Einen Moment warten und erneut versuchen.</string>
+    <string name="system_busy_or_network_error">Ein Fehler ist aufgetreten. Etwas warten und erneut versuchen.</string>
     <string name="system_cta_retry_get_permission_msg_pad">Berechtigungen erforderlich</string>
     <string name="talkback_hide_passcode">Passcode verbergen</string>
     <string name="talkback_show_passcode">Passcode anzeigen</string>
