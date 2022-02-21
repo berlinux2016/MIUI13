@@ -26,7 +26,7 @@
     <string name="miheadset_spatial_audio_summary">Immersion und das Raumgefühl für unterstütztes Audio und Video erleben</string>
     <string name="miheadset_support">Hilfe</string>
     <string name="miheadset_virtual_surround">Virtueller immersiver Sound</string>
-    <string name="miheadset_virtual_surround_summary">Verbessert die Klangtiefe bei Audio- und Videowiedergabe über Kopfhörer. Diese Funktion funktioniert nicht, wenn %1$d.%2$d-Kanal-Audio wiedergegeben wird.</string>
+    <string name="miheadset_virtual_surround_summary">Verbessert die Klangtiefe bei Audio- und Videowiedergabe über Kopfhörer. Diese Funktion funktioniert nicht, wenn %s-Kanal-Audio wiedergegeben wird.</string>
     <string name="miheadset_voice_control_summary">Wenn diese Funktion an ist, können Sie Mi KI anweisen, Ihr Gerät per Sprachbefehl zu navigieren oder die Audiowiedergabe zu steuern</string>
 
     <string name="Accounts_settings_title">Konten</string>
@@ -657,6 +657,8 @@ benachrichtigungen erlauben"</string>
     <string name="ambient_display_tap_screen_title">Tippen zum Prüfen des Telefons</string>
     <string name="ambient_display_title">2x tippen, um das Telefon zu prüfen</string>
     <string name="ambient_display_wake_screen_title">Bildschirm aufwecken</string>
+    <string name="anc_depth">Stark</string>
+    <string name="anc_mild">Leicht</string>
     <string name="android_beam_disabled_summary">Um diese Funktion zu nutzen, schalten Sie NFC ein</string>
     <string name="android_beam_explained">Sie können Webseiten, ein Video oder andere Inhalte auf ein anderes Gerät senden, das Android Beam unterstützt, indem Sie die Geräte dicht nebeneinander halten. (Normalerweise Rückseite an Rückseite)</string>
     <string name="android_beam_off_summary">Freigabe von NFC-Inhalten ist deaktiviert</string>
@@ -2357,6 +2359,7 @@ Nach Erstellung einer neuen Sicherheitsfrage und Bestätigung Ihres Geburtsdatum
     <string name="condition_zen_summary_phone_muted">Telefon stummgeschaltet</string>
     <string name="condition_zen_summary_with_exceptions">Mit Ausnahmen</string>
     <string name="condition_zen_title">Nicht stören-Modus ist an</string>
+    <string name="config_charging_function_name">Laden</string>
     <string name="config_list_label">Netzwerk konfigurieren</string>
     <string name="configure">Konfigurieren</string>
     <string name="configure_apps">Apps konfigurieren</string>
@@ -11262,15 +11265,14 @@ Drücken Sie <b>Zurück</b>, um eine Verbindung zu einem anderen WLAN herzustell
     <string name="wifi_switch_to_gsm_message">Verbindung mit WLAN verloren. Stattdessen mobile Datenverbindung nutzen?</string>
     <string name="wifi_switch_to_gsm_title">GSM nutzen?</string>
     <string name="wifi_tap_to_sign_in">Hier tippen, um sich am Netzwerk anzumelden</string>
-    <string name="wifi_tether_checkbox_kddi_text">WLAN-Tethering</string>
-    <string name="wifi_tether_checkbox_text">Mobiler WLAN-Hotspot</string>
-    <string name="wifi_tether_configure_ap_kddi_text">WLAN-Tethering einrichten</string>
+    <string name="wifi_tether_checkbox_kddi_text">WLAN-Hotspot</string>
+    <string name="wifi_tether_checkbox_text">WLAN-Hotspot</string>
+    <string name="wifi_tether_configure_ap_kddi_text">WLAN-Hotspot einrichten</string>
     <string name="wifi_tether_configure_ap_text">WLAN-Hotspot einrichten</string>
     <string name="wifi_tether_configure_ssid_default">Android-Hotspot</string>
-    <string name="wifi_tether_configure_subtext">"%1$s" %2$s mobiler WLAN-Hotspot</string>
+    <string name="wifi_tether_configure_subtext">%1$s %2$s mobil</string>
     <string name="wifi_tether_disabled_by_airplane">Nicht verfügbar, da Flugmodus eingeschaltet ist</string>
-    <string name="wifi_tether_enabled_subtext">Mobiler Hotspot "%1$s" aktiv</string>
-    <string name="wifi_tether_enabled_summary">%1$s ist aktiv</string>
+    <string name="wifi_tether_enabled_subtext">%1$s ist aktiv</string>
     <string name="wifi_tether_failed_subtext">Fehler beim mobilen WLAN-Hotspot</string>
     <string name="wifi_tether_first_use_message">Mobilen Hotspot bei der ersten Verwendung einrichten</string>
     <string name="wifi_tether_setting_title">Einstellungen</string>

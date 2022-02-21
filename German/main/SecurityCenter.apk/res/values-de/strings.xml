@@ -1160,6 +1160,7 @@ Sie verlieren keine App-Daten."</string>
     <string name="cpu_usage_app_tip_can_not_restrict_system_app">Systemdienste können nicht eingeschränkt werden</string>
     <string name="cpu_usage_app_uninstalled_toast">Diese App ist deinstalliert</string>
     <string name="cpu_usage_process_run_time_little_time">Weniger als 1 Minute</string>
+    <string name="cpu_usage_process_run_time_little_time_new">Weniger als %d Minute/n</string>
     <string name="cpu_usage_view_action_btn_text">Anzeigen</string>
     <string name="create_gamebooster_destop">Verknüpfung auf Startbildschirm erfolgreich erstellt</string>
     <string name="create_shortcut">Startbildschirm-Verknüpfung für Game Turbo erstellen</string>
@@ -1694,6 +1695,7 @@ Erdbebenüberwachung"</string>
     <string name="first_aid_card_consume_power_summary2">Mobilen Hotspot ausschalten, um den Akku zu schonen</string>
     <string name="first_aid_card_consume_power_summary3">Bluetooth ausschalten, um den Akku zu schonen</string>
     <string name="first_aid_card_consume_power_summary4">GPS ausschalten, um den Akku zu schonen</string>
+    <string name="first_aid_card_consume_power_summary_app">Mehr als %d Apps sind für den Autostart zugelassen. Einschränken, um Akku zu sparen.</string>
     <string name="first_aid_card_consume_power_title">Akkuverbrauch</string>
     <string name="first_aid_card_float_window_button">Einschränken</string>
     <string name="first_aid_card_float_window_summary">%s wird möglicherweise falsch angezeigt. Popup-Benachrichtigungen einschränken.</string>
@@ -4725,7 +4727,9 @@ Formatierung löscht vorhandenen Inhalt auf ^2. Um Inhaltsverlust zu vermeiden, 
     <string name="system_anti_fraud_dialog_content">Anscheinend haben Sie gerade einen betrügerischen Anruf oder eine Nachricht erhalten. Die Fortsetzung dieser Zahlung kann zu finanziellen Verlusten führen.</string>
     <string name="system_anti_fraud_dialog_hint">&lt;font color=#747474>Wenn Kundendienstmitarbeiter, Behörden oder Ihnen bekannte Personen Sie auffordern, diese Zahlung durchzuführen, &lt;/font>&lt;font color=#F22424>prüfen Sie deren Identität, bevor Sie fortfahren.&lt;/font></string>
     <string name="system_anti_fraud_dialog_image_txt">Schutz vor Betrug</string>
+    <string name="system_anti_fraud_dialog_message">Schutz vor Betrug</string>
     <string name="system_anti_fraud_dialog_title">Warnung vor Betrug</string>
+    <string name="system_anti_fraud_dialog_title2">Warnung vor Betrug</string>
     <string name="system_app">System-Apps</string>
     <string name="system_app_permission_instruction">Diese App benötigt die folgenden Berechtigungen, um grundlegende Systemdienste bereitzustellen. Die Verwaltung von Berechtigungen ist für diese App eingeschränkt, da eine Änderung des Berechtigungsstatus zu Anomalien im Systembetrieb führen kann.</string>
     <string name="system_application">System-Apps</string>

@@ -37,7 +37,7 @@
     <string name="bottomsheet_action_expand_halfway">Zur Hälfte erweitern</string>
     <string name="character_counter_content_description">Eingegebene Zeichen: %1$d von %2$d</string>
     <string name="character_counter_overflowed_content_description">Zeichengrenze überschritten: %1$d von %2$d</string>
-    <string name="checking_intranet">Prüfung Intranet-Verbindung, bitte warten…</string>
+    <string name="checking_intranet">Prüfung Intranet-Verbindung…</string>
     <string name="chip_text">Chiptext</string>
     <string name="clear_text_end_icon_content_description">Text löschen</string>
     <string name="clearable_edittext_clear_description">Löschen</string>
@@ -61,14 +61,14 @@
     <string name="config_suggest_description">"Apps und Aktivitäten erkennen, um wichtige Prozesse am Laufen zu halten.
 Stromsparen wird wichtige Apps bevorzugt behandeln."</string>
     <string name="config_suggest_suffix_title">Stromsparen (empfohlen)</string>
-    <string name="connect_intranet_hint">Bitte mit dem Intranet verbinden</string>
+    <string name="connect_intranet_hint">Mit Intranet verbinden</string>
     <string name="copy">Kopieren</string>
     <string name="current_cloud_addr_is">Adresse der Cloud-Verwaltung:</string>
     <string name="dark_mode">Dark Mode</string>
     <string name="dark_mode_summary">Zu dunkleren Farben wechseln, um den Akku zu schonen</string>
     <string name="date_picker_lunar">Traditioneller chin. Kalender</string>
     <string name="date_time_picker_dialog_title">Datum und Zeit einstellen</string>
-    <string name="delete_data_confirm">Bestätigen, dass Sie diese Daten löschen möchten</string>
+    <string name="delete_data_confirm">Dieses Element jetzt löschen?</string>
     <string name="early_morning">Morgen</string>
     <string name="empty_title_apps_container_list">Keine Apps</string>
     <string name="enable_sleep_mode">Schalten Sie den Schlafmodus ein, um den Akkuverbrauch in der Nacht zu optimieren.</string>
@@ -118,7 +118,7 @@ Stromsparen wird wichtige Apps bevorzugt behandeln."</string>
     <string name="friday">Freitag</string>
     <string name="friday_short">Fr</string>
     <string name="friday_shortest">F</string>
-    <string name="hide_mode_desc">Wenn eine App im Hintergrund läuft, werden ihre Aktivitäten überwacht, um den Akkuverbrauch zu reduzieren. Diese Funktion liefert und verwendet Benutzerdaten gemäß %s</string>
+    <string name="hide_mode_desc">Wenn eine App im Hintergrund läuft, werden ihre Aktivitäten überwacht, um den Akkuverbrauch zu reduzieren. Diese Funktion liefert und verwendet Benutzerdaten gemäß %s.</string>
     <string name="hide_system_app">System-Apps ausblenden</string>
     <string name="high_temp_benchmark_state">Überhitzung</string>
     <string name="high_temp_benchmark_state_message">"Anscheinend ist das Gerät jetzt zu heiß. Verwenden Sie diese App, wenn das Gerät abgekühlt ist: "</string>
@@ -128,9 +128,9 @@ Stromsparen wird wichtige Apps bevorzugt behandeln."</string>
     <string name="icon_content_description">Dialogsymbol</string>
     <string name="important_warning">Warnung</string>
     <string name="insert_data">Daten einfügen</string>
-    <string name="kill_all_back_pro_toast_message">Nicht alle Hintergrundprozesse können wegen Überhitzung des Geräts ausgeführt werden</string>
+    <string name="kill_all_back_pro_toast_message">Ihr Gerät ist überhitzt. Alle im Hintergrund laufenden Apps vorerst geschlossen.</string>
     <string name="kill_pkg_toast_message">Apps können wegen Überhitzung des Geräts nicht verwendet werden</string>
-    <string name="kill_some_back_pro_toast_message">Einige Hintergrundprozesse können wegen Überhitzung des Geräts nicht ausgeführt werden</string>
+    <string name="kill_some_back_pro_toast_message">Ihr Gerät ist überhitzt. Alle im Hintergrund laufenden Apps vorerst geschlossen.</string>
     <string name="lasttime_applist_cloud">Aktualisierte Apps:</string>
     <string name="lasttime_feature_cloud">Aktualisierte Features:</string>
     <string name="low_battery_percent_summary">bei: %s</string>
@@ -310,7 +310,7 @@ Stromsparen wird wichtige Apps bevorzugt behandeln."</string>
     <string name="sleep_config_enhance_title">Schlafmodus</string>
     <string name="sleepmode_disclaimer_agree">Einverstanden</string>
     <string name="sleepmode_disclaimer_cancel">Abbrechen</string>
-    <string name="sleepmode_privacy_content">Diese Funktion verwendet System- und Geräteinformationen. Diese werden nicht auf unsere Server hochgeladen. </string>
+    <string name="sleepmode_privacy_content">Diese Funktion muss auf Infos über Ihr System und Gerät zugreifen. Diese Infos werden nicht auf unsere Server hochgeladen.</string>
     <string name="sleepmode_privacy_link">Erfahren Sie mehr über Datenschutz und Sicherheit</string>
     <string name="sleepmode_privacy_title">Schlafmodus</string>
     <string name="softbank_high_temp_toast_time_10min">Lampe ausgeschaltet, um Überhitzung zu vermeiden</string>
@@ -384,8 +384,7 @@ Stromsparen wird wichtige Apps bevorzugt behandeln."</string>
     <string name="the_united_nations_day">Tag der Vereinten Nationen</string>
     <string name="the_valentines_day">Valentinstag</string>
     <string name="the_water_lantern_festival">Laternenfestival</string>
-    <string name="thermal_cancel">NEIN</string>
-    <string name="thermal_confirm">JA</string>
+    <string name="thermal_cancel">Abbrechen</string>
     <string name="thursday">Donnerstag</string>
     <string name="thursday_short">Do</string>
     <string name="thursday_shortest">D</string>
