@@ -1,5 +1,40 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+    <string name="app_cleaned">Erfolgreich bereinigt</string>
+    <string name="app_reset">Zurücksetzen</string>
+    <string name="app_specific_clean">App Cleaner</string>
+    <string name="app_unload">Deinstallieren</string>
+    <string name="cancel_select_all">Alle abwählen/string>
+    <string name="clean_ing">Bereinigen…</string>
+    <string name="clean_item_tip_data_app">Daten für %s bereinigen</string>
+    <string name="clean_item_tip_reset_app">%s zurücksetzen</string>
+    <string name="clean_item_tip_unload_app">%s deinstllieren</string>
+    <string name="clear_app_data">Bereinigen</string>
+    <string name="continue_check">Auswählen</string>
+    <string name="continue_to_do">Weiter</string>
+    <string name="data_selected">Ausgewählte Elemente</string>
+    <string name="delete_slected_data">Zurücksetzen</string>
+    <string name="is_Scanning">Scannen…</string>
+    <string name="item_content_app_reset">%s besetzt</string>
+    <string name="jump_to_next">Überspringen</string>
+    <string name="next_step">Weiter</string>
+    <string name="not_selected_tips">Zuerst App auswählen.</string>
+    <string name="reset_app_dialog_summary">Sie sind dabei, die von Ihnen ausgewählten Apps zurückzusetzen. Alle App-Daten (einschließlich Ihres Anmeldestatus, Ihrer Einstellungen, zwischengespeicherter Bilder, Videos, Dateien und Chats) werden dauerhaft gelöscht, wodurch die Apps in ihren ursprünglichen Zustand zurückversetzt werden.</string>
+    <string name="reset_app_dialog_title">Apps zurücksetzen</string>
+    <string name="reset_selected">%s zurücksetzen</string>
+    <string name="select_all">Alle auswählen</string>
+    <string name="start_clean">Starten</string>
+    <string name="tips_app_reset_dialog">Durch das Zurücksetzen wird so viel Speicherplatz wie möglich freigegeben, ohne dass die App deinstalliert wird. Allerdings werden alle App-Daten (einschließlich Ihres Anmeldestatus, Einstellungen, zwischengespeicherte Bilder, Videos, Dateien und Chats) der zurückgesetzten App dauerhaft gelöscht.</string>
+    <string name="tips_app_reset_result_page">Apps zurücksetzen, um alle Daten zu löschen und sie in den Ausgangszustand zurückzuversetzen</string>
+    <string name="tips_app_reset_top">Durch Zurücksetzen werden Apps in ihren Ausgangszustand zurückversetzt und alle Daten werden gelöscht.</string>
+    <string name="tips_app_specific_clean_result_page">Speicherplatz freigeben</string>
+    <string name="tips_data_page">App-Daten versuchen zu löschen, um Speicherplatz freizugeben</string>
+    <string name="tips_reset_page">Apps versuchen zurückzusetzen, um alle ihre Daten zu löschen und Speicherplatz freizugeben</string>
+    <string name="tips_result_ad">Apps auf dem freigewordenen Speicherplatz ausprobieren?</string>
+    <string name="tips_unload_page">Apps versuchen zu deinstallieren, die Sie seit %d Tagen nicht mehr verwendet haben.</string>
+    <string name="to_reset_app">Zurücksetzen</string>
+    <string name="updating_tips">Einen Moment…</string>
+    
     <string name="RF_DalvikCacheLeftovers">Software-Systemrückstände (Dalvik-Cache)</string>
     <string name="abc_action_bar_home_description">Zur Startseite</string>
     <string name="abc_action_bar_up_description">Nach oben</string>
@@ -53,9 +88,13 @@
     <string name="app_clean_group_document_send">Gesendete Dateien</string>
     <string name="app_clean_group_image_recv">Empfangene Bilder</string>
     <string name="app_clean_group_image_send">Gesendete Bilder</string>
+    <string name="app_cleaned">Erfolgreich bereinigt</string>
     <string name="app_description_content">Bereinigung erkennt Datenmüll auf Ihrem Gerät und bereinigt den Speicher. Nach der Deinstallation können Sie diese Funktionen nicht mehr nutzen.</string>
     <string name="app_description_title">Über Bereinigung</string>
     <string name="app_name">Einstellung</string>
+    <string name="app_reset">Zurücksetzen</string>
+    <string name="app_specific_clean">App Cleaner</string>
+    <string name="app_unload">Deinstallieren</string>
     <string name="app_usage_never">Seit langem nicht benutzt</string>
     <string name="app_usage_recently">Vor kurzem verwendet</string>
     <string name="appcleaner_g_audio_summary_qq">QQ-Sprachnachrichten dauerhaft löschen</string>
@@ -171,6 +210,7 @@
     <string name="cache_title_system_cache">Daten-Cache</string>
     <string name="call_log">Anrufverlauf</string>
     <string name="cancel">Abbrechen</string>
+    <string name="cancel_select_all">Alle abwählen</string>
     <string name="cd_back">zurück</string>
     <string name="cd_check_box_checked">angekreuzt</string>
     <string name="cd_check_box_middle">Teilauswahl</string>
@@ -186,6 +226,10 @@
     <string name="clean_content_three">3 Elemente</string>
     <string name="clean_content_two">2 Elemente</string>
     <string name="clean_content_zero">Nichts</string>
+    <string name="clean_ing">Bereinigen…</string>
+    <string name="clean_item_tip_data_app">Daten für %s bereinigen</string>
+    <string name="clean_item_tip_reset_app">%s zurücksetzen</string>
+    <string name="clean_item_tip_unload_app">%s deinstllieren</string>
     <string name="clean_master_icon_recall_button_text">Hinzufügen</string>
     <string name="clean_master_icon_recall_dialog_button_negative">Nein danke</string>
     <string name="clean_master_icon_recall_dialog_button_positive">Hinzufügen</string>
@@ -196,6 +240,7 @@
     <string name="clean_master_icon_recall_title">Papierkorb schneller leeren</string>
     <string name="clean_master_icon_recall_toast_text">Cleaner-Verknüpfung erfolgreich zum Startbildschirm hinzugefügt</string>
     <string name="clean_summary">%1$s bereinigt</string>
+    <string name="clear_app_data">Bereinigen</string>
     <string name="clear_bigfiles">Große Dateien, doppelte Fotos und weitere unnütze Elemente löschen</string>
     <string name="clear_immediately">Bereinigen</string>
     <string name="clear_safe_notify">Sicherheitsbenachrichtigungsleiste</string>
@@ -205,7 +250,10 @@
     <string name="close">Schließen</string>
     <string name="conn_of_function_safe">Netzwerkverbindung für Sicherheit</string>
     <string name="connecting">Verbinden…</string>
+    <string name="continue_check">Auswählen</string>
+    <string name="continue_to_do">Weiter</string>
     <string name="copy">Kopieren</string>
+    <string name="data_selected">Ausgewählte Elemente</string>
     <string name="date_picker_lunar">Traditioneller chin. Kalender</string>
     <string name="date_time_picker_dialog_title">Datum und Zeit einstellen</string>
     <string name="dc_activity_title">Tiefenreinigung</string>
@@ -265,6 +313,7 @@
     <string name="default_cache_type">Dateien</string>
     <string name="delete_confirm">Löschen</string>
     <string name="delete_confirm_msg">Alle ausgewählten Dateien dauerhaft löschen?</string>
+    <string name="delete_slected_data">Zurücksetzen</string>
     <string name="desc_image">Bild</string>
     <string name="dialog_content_checkbox_delete_cloud_image">Fotos auch aus der Xiaomi Cloud löschen</string>
     <string name="dialog_content_select_all_confirm">Eine Kopie dieses Fotos behalten?</string>
@@ -483,7 +532,10 @@
     <string name="install_time_format">dd.MM.yyyy</string>
     <string name="installed">Installiert</string>
     <string name="installing">Installieren</string>
+    <string name="is_Scanning">Scannen…</string>
+    <string name="item_content_app_reset">%s genutzt</string>
     <string name="item_title_process_mode">Aktion wählen</string>
+    <string name="jump_to_next">Überspringen</string>
     <string name="junk_tag_RF_EmptyFolders">Leere Ordner</string>
     <string name="junk_tag_RF_ImageThumbnails">Vorschaubilder</string>
     <string name="junk_temporary_file">Temporäre Dateien</string>
@@ -586,10 +638,12 @@
     <string name="nb_clear_set">Cache bereinigen, Akku- und Sperrlisteninfos in der Statusleiste anzeigen</string>
     <string name="network_not_available">Keine Netzwerkverbindung</string>
     <string name="news_change">Ändern</string>
+    <string name="next_step">Weiter</string>
     <string name="night">Abend</string>
     <string name="no_network">Keine Netzwerkverbindung, später erneut versuchen</string>
     <string name="no_network_btn">Erneut versuchen</string>
     <string name="noon">Mittag</string>
+    <string name="not_selected_tips">Zuerst App auswählen</string>
     <string name="not_set">Nicht festgelegt</string>
     <string name="notification_apk_clean_button_text">Löschen</string>
     <string name="notification_checker_installed_apk_hint">Keine Notwendigkeit, APKs nach der Installation aufzubewahren</string>
@@ -751,6 +805,9 @@
     <string name="recommend_news">Empfohlene Quellen</string>
     <string name="recommend_the_following">Führen Sie die folgenden Schritte aus, um mehr aus Ihrem Gerät zu holen</string>
     <string name="recommended">Empfohlen</string>
+    <string name="reset_app_dialog_summary">Sie sind dabei, die von Ihnen ausgewählten Apps zurückzusetzen. Alle App-Daten (einschließlich Ihres Anmeldestatus, Ihrer Einstellungen, zwischengespeicherter Bilder, Videos, Dateien und Chats) werden dauerhaft gelöscht, wodurch die Apps in ihren ursprünglichen Zustand zurückversetzt werden.</string>
+    <string name="reset_app_dialog_title">Apps zurücksetzen</string>
+    <string name="reset_selected">%s zurücksetzen</string>
     <string name="resutl_function_deep_clean_summary"><Data>&lt;font color=#ff0000 >%1$s&lt;/font> mehr Dateien können gelöscht werden. Schaffen Sie Platz.</Data></string>
     <string name="resutl_function_qq_clean_summary"><Data>Sie können &lt;font color=#ff0000 >%1$s&lt;/font> durch QQ verursachten Cache löschen</Data></string>
     <string name="resutl_function_wechat_clean_summary"><Data>&lt;font color=#ff0000 >%1$s&lt;/font> WeChat Cache. Schaffen Sie Platz.</Data></string>
@@ -767,6 +824,7 @@
     <string name="search_menu_title">Suchen</string>
     <string name="security_center_slogan">Halten Sie Ihr Gerät schnell und sicher</string>
     <string name="see_more">Mehr</string>
+    <string name="select_all">Alle auswählen</string>
     <string name="send">Senden</string>
     <string name="set_immediately">Einrichten</string>
     <string name="seton_immediately">Einschalten</string>
@@ -800,6 +858,7 @@
     <string name="solar_term_winter_begins">Winteranfang</string>
     <string name="solar_term_winter_solstice">Wintersonnenwende</string>
     <string name="sponsored">Gesponsert</string>
+    <string name="start_clean">Starten</string>
     <string name="start_downloading_app">Download starten: %1$s</string>
     <string name="start_install">Jetzt installieren</string>
     <string name="storage_activity_title">Speicherplatz</string>
@@ -882,6 +941,11 @@
     <string name="time_picker_dialog_title">Zeit einstellen</string>
     <string name="time_picker_label_hour">Std</string>
     <string name="time_picker_label_minute">Min</string>
+    <string name="tips_app_reset_dialog">Durch das Zurücksetzen wird so viel Speicherplatz wie möglich freigegeben, ohne dass die App deinstalliert wird. Allerdings werden alle App-Daten (einschließlich Ihres Anmeldestatus, Einstellungen, zwischengespeicherte Bilder, Videos, Dateien und Chats) der zurückgesetzten App dauerhaft gelöscht.</string>
+    <string name="tips_app_reset_result_page">Apps zurücksetzen, um alle Daten zu löschen und sie in den Ausgangszustand zurückzuversetzen</string>
+    <string name="tips_app_reset_top">Durch Zurücksetzen werden Apps in ihren Ausgangszustand zurückversetzt und alle Daten werden gelöscht.</string>
+    <string name="tips_app_specific_clean_result_page">Speicherplatz freigeben</string>
+    <string name="tips_data_page">App-Daten versuchen zu löschen, um Speicherplatz freizugeben</string>
     <string name="tips_low_storage_dialog_cancel">Abbrechen</string>
     <string name="tips_low_storage_dialog_msg_qq">QQ-Cache-Größe hat 3 GB erreicht. Dies könnte Ihr Gerät verlangsamen. QQ-Cache jetzt löschen?</string>
     <string name="tips_low_storage_dialog_msg_qq_new">QQ-Cachegröße hat %d GB erreicht. Dies kann Ihr Gerät verlangsamen. QQ-Cache jetzt löschen?</string>
@@ -904,6 +968,9 @@
     <string name="tips_of_traffic_notification">Weitere mobile Datenstatistiken in der Statusleiste anzeigen</string>
     <string name="tips_of_traffic_pack_threshold">Kaufen Sie mehr Datenvolumen, bevor Sie Ihr Limit überschreiten</string>
     <string name="tips_of_virus_scan">Scannen Sie Ihr Gerät regelmäßig auf Viren, um es sicher zu halten</string>
+    <string name="tips_reset_page">Apps versuchen zurückzusetzen, um alle ihre Daten zu löschen und Speicherplatz freizugeben</string>
+    <string name="tips_result_ad">Apps auf dem freigewordenen Speicherplatz ausprobieren?</string>
+    <string name="tips_unload_page">Apps versuchen zu deinstallieren, die Sie seit %d Tagen nicht mehr verwendet haben.</string>
     <string name="title_auto_cleaner">An Bereinigung erinnern</string>
     <string name="title_delete_cache">App-Cache löschen</string>
     <string name="title_delete_clipboard">Inhalt Zwischenablage</string>
@@ -918,6 +985,7 @@
     <string name="title_of_traffic_notification">Datenstatistik</string>
     <string name="title_optimizer">Allgemeine Geschäftsbedingungen</string>
     <string name="title_share_link">URL teilen</string>
+    <string name="to_reset_app">Zurücksetzen</string>
     <string name="toast_add_white_list_success">Zu den Ausnahmen hinzugefügt</string>
     <string name="toast_app_no_residual_on_sdcard">App hat keine Dateien auf der SD-Karte gespeichert</string>
     <string name="toast_backup_is_running">Sicherung läuft bereits</string>
@@ -948,6 +1016,7 @@
     <string name="tuesday_shortest">D</string>
     <string name="unlike">Nein danke</string>
     <string name="update_date_format">dd.MM.yyyy</string>
+    <string name="updating_tips">Einen Moment…</string>
     <string name="v7_preference_off">AUS</string>
     <string name="v7_preference_on">AN</string>
     <string name="video_clean">Videos im Cache löschen</string>
