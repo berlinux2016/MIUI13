@@ -132,7 +132,7 @@
     <string name="account_setup_correct_address_tips">E-Mail-Adresse eingeben</string>
     <string name="account_setup_creating_account_msg">"  Konto erstellen…"</string>
     <string name="account_setup_deleting_account_msg">"  Konto entfernen…"</string>
-    <string name="account_setup_domain_invalid_toast">Eingegebener E-Mail-Domainname ist falsch, bitte prüfen</string>
+    <string name="account_setup_domain_invalid_toast">Gültige E-Mail-Domäne eingeben</string>
     <string name="account_setup_exchange_certificate_title">Client-Zertifikat</string>
     <string name="account_setup_exchange_device_id_label">Mobilgerät-ID</string>
     <string name="account_setup_exchange_no_certificate">Keine</string>
@@ -388,11 +388,16 @@
     <string name="compose">Verfassen</string>
     <string name="compose_add_attachment_permission_denied">E-Mail wurde nicht weitergeleitet. Berechtigungen für den externen Speicherzugriff erforderlich.</string>
     <string name="compose_attachment_number_limit">Nicht mehr als 10 Anhänge können hinzugefügt werden</string>
+    <string name="compose_encrypt_lock_description">Verschlüsseln</string>
+    <string name="compose_encrypt_unlock_description">Entschlüsseln</string>
+    <string name="compose_encrypt_unlock_w_description">Kein vertrauenswürdiger Kontakt</string>
     <string name="compose_event">Einladung</string>
     <string name="compose_paste_address_oob">Zu viele Zeichen</string>
     <string name="compose_picturesexceedlimits">Sie können weitere Bilder als Anhänge hinzufügen</string>
     <string name="compose_send">Senden</string>
     <string name="compose_sent">E-Mail gesendet</string>
+    <string name="compose_smime_sign_description">Signatur anwenden</string>
+    <string name="compose_smime_unsign_description">Signatur entfernen</string>
     <string name="compose_to_label">An</string>
     <string name="compress_failed_and_retry">Komprimieren fehlgeschlagen. Erneut versuchen.</string>
     <string name="compress_img">Bilder komprimieren</string>
@@ -1235,9 +1240,12 @@ Versuchen Sie einen anderen Posteingang."</string>
     <string name="pdf_save_error">In PDF konvertieren nicht möglich. Diese Meldung ist zu lang.</string>
     <string name="pdf_save_no_body">Vor der Konvertierung in PDF warten, bis die Nachricht vollständig geladen ist</string>
     <string name="pdf_save_to">"Gespeichert in "</string>
+    <string name="pdf_signature_add">Neue Signatur hinzufügen</string>
     <string name="pdf_signature_create_title">Ihre Signatur erstellen</string>
+    <string name="pdf_signature_delete">Signatur löschen</string>
     <string name="pdf_signature_manager_max_count">Weitere Signaturen nicht möglich. Ältere Signaturen löschen, um neue hinzuzufügen.</string>
     <string name="pdf_signature_manager_title">Signaturen verwalten</string>
+    <string name="pdf_signature_select">Signatur wählen</string>
     <string name="pdf_viewer_actionbar_more_other">Andere Apps</string>
     <string name="pdf_viewer_actionbar_more_wps">Mit WPS öffnen</string>
     <string name="pdf_viewer_file_damage_toast">PDF-Datei beschädigt. Datei prüfen und erneut versuchen.</string>
@@ -1505,6 +1513,7 @@ oder sehen Sie sich die Nachricht auf Ihrem Computer an."</string>
     <string name="select_attachment_type">Anhang auswählen von</string>
     <string name="select_no_file">Keine Anhänge ausgewählt</string>
     <string name="select_path">Pfad auswählen</string>
+    <string name="selected">Ausgewählt</string>
     <string name="selected_lable">Ausgewählt</string>
     <string name="send">Senden</string>
     <string name="send_encrypt_dialog_fail_content">Anscheinend verfügt der Empfänger nicht über das für die Verschlüsselung dieser E-Mail erforderliche vertrauenswürdige Zertifikat. Stattdessen eine normale E-Mail senden?</string>
@@ -1756,6 +1765,7 @@ Konto entfernen?"</string>
     <string name="undo">Rückgängig</string>
     <string name="unknow">Unbekannt</string>
     <string name="unread_string">Ungelesene Unterhaltung</string>
+    <string name="unselected">Abgewählt</string>
     <string name="unselected_lable">Mehr</string>
     <string name="unsent_messages_in_outbox">%1$s nicht gesendete Nachricht(en) in %2$s</string>
     <string name="unzip_file_failed">Datei wurde nicht entpackt</string>
@@ -1796,7 +1806,7 @@ Tippen Sie auf "<b>Jetzt synchronisieren</b>, um Ihre E-Mails einmalig zu synchr
     <string name="wait_for_sync_title">Auf Synchronisation warten</string>
     <string name="wait_help_context">warten</string>
     <string name="wait_while_update_db">Datenbank aktualisieren…</string>
-    <string name="web_view_load_error_tip">Dieser E-Mail-Text wurde nicht korrekt angezeigt. Dieses Problem in unserer QQ-Gruppe (952315061) melden.</string>
+    <string name="web_view_load_error_tip">Ihr Browser ist abgestürzt. Neueste Webview-Version von Google Play herunterladen, um dieses Problem zu beheben.</string>
     <string name="webview_logout">Sie können versuchen, sich erneut anzumelden</string>
     <string name="webview_logout_cancel">Jetzt nicht</string>
     <string name="webview_logout_sure">Erneut versuchen</string>

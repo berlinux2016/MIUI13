@@ -670,6 +670,7 @@ benachrichtigungen erlauben"</string>
     <string name="angle_enabled_app">App für WINKEL aktiviert wählen</string>
     <string name="angle_enabled_app_not_set">Keine App für WINKEL aktiviert festgelegt</string>
     <string name="angle_enabled_app_set">App für WINKEL aktiviert: %1$s</string>
+    <string name="animation_off">Animation aus</string>
     <string name="animator_duration_scale_title">Animationsdauer</string>
     <string name="another_migration_already_in_progress">Eine andere Migration wird bereits ausgeführt</string>
     <string name="anti_spam">Sperrliste</string>
@@ -869,6 +870,7 @@ benachrichtigungen erlauben"</string>
     <string name="asst_feedback_indicator_title">Adaptives Benachrichtigungs-Feedback</string>
     <string name="asst_importance_reset_summary">Vom Benutzer geänderte Wichtigkeitseinstellungen zurücksetzen und dem Benachrichtigungsassistenten erlauben, Prioritäten zu setzen</string>
     <string name="asst_importance_reset_title">Wichtigkeit der Benachrichtigung zurücksetzen</string>
+    <string name="at_most_one_process">Höchstens %d Prozess</string>
     <string name="attempt_other_network">Netzwerk wechseln</string>
     <string name="audio_and_captions_category_title">Audio &amp; Bildschirmtext</string>
     <string name="audio_files_title">Audiodateien</string>
@@ -922,7 +924,7 @@ benachrichtigungen erlauben"</string>
     <string name="auto_caps_summary">Jeden Satz mit einem Großbuchstaben beginnen</string>
     <string name="auto_clean_description">"Über diese Funktion:
 1. Führen Sie diese Funktion ein- oder zweimal aus, wenn Sie feststellen, dass Ihr Lautsprecher leicht durch Staub blockiert ist.
-2. Wenn der Lautsprecher stark blockiert ist, führen Sie diese Funktion 2-5 mal aus, während Sie Ihr Gerät mit dem Lautsprecher nach unten schütteln."</string>
+2. Wenn der Lautsprecher stark blockiert ist, führen Sie diese Funktion %1$d-%2$d mal aus, während Sie Ihr Gerät mit dem Lautsprecher nach unten schütteln."</string>
     <string name="auto_clean_description_pad">"Über diese Funktion:
 - Führen Sie diese Funktion ein- oder zweimal aus, wenn Sie feststellen, dass Ihr Lautsprecher leicht durch Staub blockiert ist.
 - Wenn der Lautsprecher stark blockiert ist, führen Sie diese Funktion %1$d-%2$d-mal aus, während Sie Ihr Gerät mit dem Lautsprecher nach unten schütteln."</string>
@@ -1389,6 +1391,10 @@ seit ^2"</string>
     <string name="block_list_summary">Geräte anzeigen, die keine Verbindung zu diesem Hotspot herstellen können</string>
     <string name="block_list_title">Sperrliste</string>
     <string name="block_title">Benachrichtigungen anzeigen</string>
+    <string name="bluetooth_a2dp_codec_ldac_playback_quality_titles_1">Optimiert für Audioqualität (%1$dkbps/%2$dkbps)</string>
+    <string name="bluetooth_a2dp_codec_ldac_playback_quality_titles_2">Ausgewogene Audio- und Verbindungsqualität (%1$dkbps/%2$dkbps)</string>
+    <string name="bluetooth_a2dp_codec_ldac_playback_quality_titles_3">Optimiert für Verbindungsqualität (%1$dkbps/%2$dkbps)</string>
+    <string name="bluetooth_a2dp_codec_ldac_playback_quality_titles_4">Beste Wirkung (adaptive Bitrate)</string>
     <string name="bluetooth_a2dp_profile_summary_connected">Mit Audiosignal verbunden</string>
     <string name="bluetooth_a2dp_profile_summary_use_for">Für Audiosignal nutzen</string>
     <string name="bluetooth_active_battery_level">Aktiv | Akku %1$s</string>
@@ -1978,6 +1984,7 @@ Sie können diese Funktion unter Einstellungen/Bluetooth/Gekoppelte Geräte auss
     <string name="ca_certificate_warning_title">Ihre Daten werden nicht privat sein</string>
     <string name="cached">Hintergrundprozess im Cache</string>
     <string name="cached_apps_freezer">Ausführung für Apps im Cache aussetzen</string>
+    <string name="cached_apps_freezer_device_default">Gerätestandard</string>
     <string name="cached_apps_freezer_disabled">Deaktiviert</string>
     <string name="cached_apps_freezer_enabled">Aktiviert</string>
     <string name="cached_apps_freezer_reboot_dialog_text">Ihr Gerät muss neu gestartet werden, damit diese Änderung wirksam wird. Jetzt neu starten oder abbrechen.</string>
@@ -3918,7 +3925,9 @@ Es schien keine Pferde oder andere Tiere zu geben; die Männer beförderten Sach
     <string name="force_immersive_compatibility_hint_message">Einige Apps funktionieren eventuell nicht richtig, wenn Sie die Softkeytasten verbergen</string>
     <string name="force_immersive_compatibility_hint_title">Kompatibilitätsprobleme</string>
     <string name="force_msaa">4x MSAA erzwingen</string>
+    <string name="force_msaa_new">%dx MSAA erzwingen</string>
     <string name="force_msaa_summary">4x MSAA in OpenGL ES 2.0-Apps einschalten</string>
+    <string name="force_msaa_summary_new">%2$dx MSAA in OpenGL ES %1$.1f Anwendungen aktivieren</string>
     <string name="force_resizable_activities">Größenänd. Aktivit. erzwingen</string>
     <string name="force_resizable_activities_summary">Größenänderung von Aktivitäten für Multifenster unabhängig von vorgeschriebenen Werten erzwingen</string>
     <string name="force_rtl_layout_all_locales">RTL-Layout erzwingen</string>
@@ -5460,6 +5469,7 @@ Dadurch wird Ihr Mobilfunkvertrag nicht gekündigt."</string>
     <string name="max_aspect_settings_all_app_display_loading">Einen Moment…</string>
     <string name="max_fingerprint_number_reached">Mehr als 5 Fingerabdrücke können nicht gespeichert werden. Um einen weiteren hinzuzufügen, müssen Sie zuerst einen löschen.</string>
     <string name="max_fingerprint_reached_toast">Sie können bis zu 5 Fingerabdrücke hinzufügen</string>
+    <string name="max_number_of_processes">Höchstens %d Prozesse</string>
     <string name="maximum_memory_use">Maximaler Speicherverbrauch</string>
     <string name="mbn_version">MBN-Version</string>
     <string name="mechanical_ime">Mechanische Tastatur</string>
@@ -5568,6 +5578,7 @@ Dadurch wird Ihr Mobilfunkvertrag nicht gekündigt."</string>
     <string name="menu_stats_total">Verbrauch insgesamt</string>
     <string name="menu_stats_unplugged">%1$s seit dem Ausstecken</string>
     <string name="menu_use_uss">USS verwenden</string>
+    <string name="mi_headset_healthy">Gehörgesundheit</string>
     <string name="mi_pay_indonesia">Mi Pay-Konto</string>
     <string name="mi_pay_summary">Buskarte/Mi Pay/Kartenemulator</string>
     <string name="mi_service_app_detail">Angaben zur Datennutzung</string>
@@ -6316,6 +6327,7 @@ Betriebssystem auswählen:"</string>
     <string name="no_account_found">Keine App gefunden, die Konten hinzufügen kann</string>
     <string name="no_application">Keine</string>
     <string name="no_applications">Keine Apps</string>
+    <string name="no_background_processes">Keine Hintergrundprozesse</string>
     <string name="no_battery_summary">Kein Akkuverbrauch seit der letzten Vollladung</string>
     <string name="no_battery_summary_24hr">Kein Akkuverbrauch in den letzten 24 Std</string>
     <string name="no_bluetooth_devices">Keine Bluetooth-Geräte</string>
@@ -8902,6 +8914,7 @@ Dies wird durch vertrauenswürdige Anmeldedaten erlaubt, die auf Ihrem Gerät in
     <string name="stable_build">Stabil</string>
     <string name="standard">Stumm</string>
     <string name="standard_info">Anrufe und Benachrichtigungen werden stummgeschaltet</string>
+    <string name="standard_limit">Standardlimit</string>
     <string name="standby_bucket_summary">Status App-Standby: %s</string>
     <string name="start_backup">Sichern</string>
     <string name="start_restore">Wiederherstellen</string>
@@ -9200,8 +9213,33 @@ Auf ^2 gespeicherte Apps könnten nicht richtig funktionieren, und Datenübertra
     <string name="strict_mode_summary">Bei längeren Aktionen im Hauptthread Bildschirm kurz einblenden</string>
     <string name="string_KB_per_log_buffer">%d KB per pro Log-Puffer</string>
     <string name="string_MB_per_log_buffer">%d MB pro Log-Puffer</string>
+    <string name="string_after_int_minute">Nach %d Minute</string>
+    <string name="string_after_int_minutes">Nach %d Minuten</string>
+    <string name="string_after_int_seconds">Nach %d Sekunden</string>
+    <string name="string_always">Immer</string>
+    <string name="string_bluetooth_a2dp_codec_lhdc_latency_titles_1">Kurze Latenzzeit (%1$d~%2$dms)</string>
+    <string name="string_bluetooth_a2dp_codec_lhdc_latency_titles_2">Mittlere Latenzzeit (%1$d~%2$dms)</string>
+    <string name="string_bluetooth_a2dp_codec_lhdc_latency_titles_3">Lange Latenzzeit (%1$d~%2$dms)</string>
+    <string name="string_bluetooth_a2dp_codec_lhdc_playback_quality_titles_1">Optimiert für niedrige Latenz (%dkbps)</string>
+    <string name="string_bluetooth_a2dp_codec_lhdc_playback_quality_titles_2">Optimiert für Verbindungsqualität (%dkbps)</string>
+    <string name="string_bluetooth_a2dp_codec_lhdc_playback_quality_titles_3">Ausgeglichene Audio- und Verbindungsqualität (%1$d/%2$dkbps)</string>
+    <string name="string_bluetooth_a2dp_codec_lhdc_playback_quality_titles_4">Optimiert für Audioqualität (%dkbps)</string>
+    <string name="string_bluetooth_a2dp_codec_lhdc_playback_quality_titles_5">Beste Leistung (automatische Bitrate)</string>
+    <string name="string_float_inches">%f Zoll</string>
+    <string name="string_float_seconds">%f Sekunden</string>
+    <string name="string_immediately">Sofort</string>
+    <string name="string_int_hour">%d Std</string>
+    <string name="string_int_hours">%d Std</string>
+    <string name="string_int_minute">%d Min</string>
+    <string name="string_int_minutes">%d Min</string>
+    <string name="string_int_second">%d Sek</string>
+    <string name="string_int_seconds">%d Sek</string>
+    <string name="string_never">Nie</string>
     <string name="string_off">Aus</string>
     <string name="string_offed">AN</string>
+    <string name="string_scale_float">Animationsskala %.1fx</string>
+    <string name="string_scale_int">Animationsskala %dx</string>
+    <string name="string_unlimited">Unbegrenzt</string>
     <string name="strong_suppression_summary">Ihr Gerät reagiert weniger auf zufällige Berührungen, einige Gestensteuerungen funktionieren evtl. nicht an den Kanten</string>
     <string name="strong_suppression_title">Großer Bereich</string>
     <string name="structure_add_facerecoginition_text">3D-Gesichtsdaten hinzufügen</string>
@@ -9253,6 +9291,7 @@ Auf ^2 gespeicherte Apps könnten nicht richtig funktionieren, und Datenübertra
     <string name="style_suggestion_summary">Verschiedene Stile, Hintergründe, Uhren und mehr ausprobieren</string>
     <string name="style_suggestion_title">Gestalten Sie Ihr Pixel</string>
     <string name="stylus_btn_continue">Weiter</string>
+    <string name="stylus_btn_learn">Anleitung</string>
     <string name="stylus_btn_quick_write">Schreiben</string>
     <string name="stylus_btn_skip">Überspringen</string>
     <string name="stylus_connect">Tippen zum Verbinden</string>
@@ -9605,6 +9644,9 @@ Sie können Ihr Androidtelefon in einen mobilen WLAN-Hotspot verwandeln, um die 
     <string name="time_floating_window">Uhr-Popup</string>
     <string name="time_floating_window_summary">Uhr im Popup über anderen Apps anzeigen</string>
     <string name="time_format_category_title">Zeitformat</string>
+    <string name="time_format_entries_1">%d-Std 1:00 PM</string>
+    <string name="time_format_entries_2">%d-Std 13:00</string>
+    <string name="time_format_entries_3">Automat. (basierend auf Systemsprache)</string>
     <string name="time_picker_dialog_title">Zeit einstellen</string>
     <string name="time_picker_label_hour">Std</string>
     <string name="time_picker_label_minute">Min</string>
@@ -9848,6 +9890,8 @@ Gefällt Ihnen Mi Mover?"</string>
     <string name="transcode_user_control">Transkodierungstandards überschreiben</string>
     <string name="transition_animation_scale_title">Übergangsanimation</string>
     <string name="translation_contributors_title">Mitwirkende</string>
+    <string name="transparent_normal">Normal</string>
+    <string name="transparent_surroundings">Umgebung</string>
     <string name="trigger_carrier_provisioning">Carrier Provisioning auslösen</string>
     <string name="truetone_summary">Farben an Umgebungslicht anpassen</string>
     <string name="truetone_title">Anpassbare Farben</string>
@@ -10299,6 +10343,7 @@ Speicher freigeben oder nur wichtige Elemente übertragen."</string>
     <string name="use_personalized_ad_service_summary_for_global">Wenn die personalisierten Werbeempfehlungen aus sind, sehen Sie immer noch die gleiche Menge Werbung in den MIUI-System-Apps, wie wenn die Funktion aktiviert ist. Die Anzeigen von Xiaomi und Drittanbieter-Plattformen werden jedoch nicht mehr relevant sein, da sie nicht auf Ihren persönlichen Vorlieben basieren.</string>
     <string name="use_privacy_password_immediate">Verwenden</string>
     <string name="use_system_language_to_select_input_method_subtypes">Systemsprache verwenden</string>
+    <string name="use_system_preference">Systemvoreinstellung verwenden (Standard)</string>
     <string name="use_this_wlan">Verbunden bleiben</string>
     <string name="use_wifi_hotsopt_main_switch_title">WLAN-Hotspot verwenden</string>
     <string name="user_account_title">Konto für Inhalte</string>
