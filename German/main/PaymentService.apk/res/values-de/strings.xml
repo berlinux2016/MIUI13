@@ -124,12 +124,21 @@ Senden Sie diesen Code an den Supervisor."</string>
     <string name="just_a_second">Einen Moment…</string>
     <string name="loading">Einen Moment…</string>
     <string name="logout_account">Abmelden</string>
+    <string name="mibi_account_disable_dialog_btn_negative">Abbrechen</string>
+    <string name="mibi_account_disable_dialog_btn_positive">Einschalten</string>
+    <string name="mibi_account_disable_dialog_msg">Um Mi Coin nutzen zu können, müssen Sie sich in Ihr Xiaomi-Konto einloggen. Bitte aktivieren Sie den Xiaomi-Kontodienst unter Einstellungen-Anwendungsmanagement.</string>
+    <string name="mibi_account_disable_dialog_title">Hinweis</string>
     <string name="mibi_all_license_message">Sie sind dabei, Mi Coin zu nutzen, einen Service von Xiaomi Inc. Bevor Sie diesen Service nutzen können, müssen Sie die Nutzungsbedingungen akzeptieren. Tippen Sie OK, wenn Sie die in %1$s und %2$s beschriebenen Nutzungsbedingungen akzeptieren. Sie müssen eine Internetverbindung herstellen und Ihr Gerät finden, um Mi Coin nutzen zu können.</string>
+    <string name="mibi_all_purpose">Willkommen bei Mi Coin. Mit dieser App können Sie Mi Coin aufladen, Ihre Geschenkgutscheine prüfen usw.</string>
     <string name="mibi_applock_config">App-Sperre kann nicht gesetzt werden, während geteilter Bildschirm genutzt wird</string>
     <string name="mibi_applock_dialog_cancel">Jetzt nicht</string>
     <string name="mibi_applock_dialog_content">Wegen eines System-Upgrades ist Ihr aktuelles Sperrmuster abgelaufen. Bitte setzen Sie ein neues Sperrmuster.</string>
     <string name="mibi_applock_dialog_ok">Einstellen</string>
     <string name="mibi_applock_dialog_title">Neues Sperrmuster setzen</string>
+    <string name="mibi_auth_manage_access_camera">Zugriff auf Kamera</string>
+    <string name="mibi_auth_manage_desc_camera">Wenn Sie eine Mobiltelefon-Aufladekarte zum Aufladen von Mi Coin verwenden, können Sie die Kameraberechtigung verwenden, um die Kartennummer und das Kartengeheimnis usw. zu identifizieren, indem Sie die Kameraberechtigung aktivieren.</string>
+    <string name="mibi_auth_manage_perm_grant">Gewährt</string>
+    <string name="mibi_auth_manage_perm_ungrant">Einschalten</string>
     <string name="mibi_balance_title">Kontostand</string>
     <string name="mibi_bill_delete_dialog_title">%1$s löschen</string>
     <string name="mibi_bill_delete_message">\"%1$s\" löschen?</string>
@@ -137,8 +146,10 @@ Senden Sie diesen Code an den Supervisor."</string>
     <string name="mibi_bill_record">Transaktionen</string>
     <string name="mibi_bill_record_empty">Keine Einträge</string>
     <string name="mibi_btn_agree">Zustimmen</string>
+    <string name="mibi_btn_agree_continue">Zustimmen und fortfahren</string>
     <string name="mibi_btn_back">Zurück</string>
     <string name="mibi_btn_count_down_auto">Abfrage nach %1$d Sekunden</string>
+    <string name="mibi_btn_exit">App beenden</string>
     <string name="mibi_btn_finish">Beenden</string>
     <string name="mibi_btn_mili_center_recharge">Mi Coin aufladen</string>
     <string name="mibi_btn_net_connection_retry">Wiederholen</string>
@@ -149,6 +160,7 @@ Senden Sie diesen Code an den Supervisor."</string>
     <string name="mibi_btn_recharge_large">Aufladen</string>
     <string name="mibi_btn_recharge_other">Aufladen</string>
     <string name="mibi_btn_recharge_success_quick">Aufladen komplett</string>
+    <string name="mibi_btn_return_home">Zurück zur Startseite</string>
     <string name="mibi_business_title">Andere Dienste</string>
     <string name="mibi_button_bind_phone">Jetzt verknüpfen</string>
     <string name="mibi_button_call">Anrufen</string>
@@ -166,6 +178,16 @@ Senden Sie diesen Code an den Supervisor."</string>
     <string name="mibi_change_security_lock">Weitere Bildschirmsperren</string>
     <string name="mibi_check_giftcard">Coupons anzeigen</string>
     <string name="mibi_click_retry">%1$s, tippen zum Wiederholen</string>
+    <string name="mibi_cta_agreement_checkbox_description">Bitte lesen und akzeptieren Sie die %1$s und %2$s</string>
+    <string name="mibi_cta_agreement_tips">Bitte stimmen Sie den Nutzungsbedingungen zu.</string>
+    <string name="mibi_cta_description">"Willkommen bei Mi Coin. Diese App bietet Funktionen wie das Aufladen von Mi Coin und die Anzeige von Geschenkgutscheinen. Wir werden Ihre relevanten Daten gemäß den Gesetzen und Vorschriften verarbeiten. Wir erinnern Sie hiermit feierlich daran:
+1. 1. Bevor Sie Mibi-Produkte oder -Dienstleistungen nutzen, lesen Sie bitte die Datenschutzerklärung sorgfältig durch und nutzen Sie die entsprechenden Produkte oder Dienstleistungen, sobald Sie bestätigt haben, dass Sie sie vollständig verstanden haben und damit einverstanden sind.
+2. 2. Während der Nutzung dieser App sind Internet- und Kamerazugriffsrechte erforderlich. Wir werden Sie beim ersten Aufruf fragen, ob Sie die zugehörigen Berechtigungen Punkt für Punkt öffnen dürfen. Sie können die zugehörigen Berechtigungen auch im App-Zugang Datenschutzeinstellungen - Rechteverwaltung oder in den Systemeinstellungen Ihres Geräts verwalten.
+%1$s"</string>
+    <string name="mibi_cta_description_suffix">"3. Wir nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Wenn Sie Fragen, Kommentare oder Vorschläge zum Inhalt dieser Erklärung haben, können Sie uns unter %1$s kontaktieren."</string>
+    <string name="mibi_cta_description_with_review_entry_suffix">"3. Wenn Sie der Datenschutzerklärung nicht zustimmen, bieten wir Ihnen einen reinen Browsing-Modus an. Sie können aus [%1$s] wählen.
+4. Wir nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Wenn Sie Fragen, Kommentare oder Vorschläge zum Inhalt dieser Erklärung haben, können Sie uns unter %2$s kontaktieren."</string>
+    <string name="mibi_cta_title">Liebe Mi Fans</string>
     <string name="mibi_deduct_goods_name">Artikel</string>
     <string name="mibi_deduct_open_prompt">%1$s ist in der Lage, Ihnen dies durch %2$s automatisch ohne Verifizierung in Rechnung zu stellen. Sie können diese Funktion unter %1$s ausschalten.</string>
     <string name="mibi_deduct_order_price">Preis</string>
@@ -181,6 +203,7 @@ Senden Sie diesen Code an den Supervisor."</string>
     <string name="mibi_detail_consume_order">Zahlungs-ID</string>
     <string name="mibi_detail_consume_time">Zeitraum</string>
     <string name="mibi_detail_consume_title">Zahlungsbelege</string>
+    <string name="mibi_detail_giftcard_activity">Werbung</string>
     <string name="mibi_detail_giftcard_expired_time">Ablaufdatum</string>
     <string name="mibi_detail_giftcard_theme">Themes kaufen</string>
     <string name="mibi_detail_giftcard_title">Details Coupons</string>
@@ -242,8 +265,10 @@ Bitte kontaktieren Sie den Kundenservice."</string>
     <string name="mibi_giftcard_denom_frozen">Mi Coin gesperrt</string>
     <string name="mibi_giftcard_discount_detail">Coupon (%1$s Mi Coins ausgeben)</string>
     <string name="mibi_giftcard_discount_detail2">(%1$s Mi Coins ausgeben zum Einlösen)</string>
+    <string name="mibi_giftcard_discount_detail3">%1$s Mi-Münzen ausgeben, um sie einzulösen</string>
     <string name="mibi_giftcard_empty">Keine Coupons</string>
     <string name="mibi_giftcard_empty_detail">Keine %1$s Coupons</string>
+    <string name="mibi_giftcard_expire_soon">Bald ablaufend</string>
     <string name="mibi_giftcard_has_expired">Abgelaufen am %1$s</string>
     <string name="mibi_giftcard_has_unavailable">Abgelaufen</string>
     <string name="mibi_giftcard_has_used">Eingelöst</string>
@@ -258,6 +283,7 @@ Bitte kontaktieren Sie den Kundenservice."</string>
     <string name="mibi_giftcard_use_now">Einlösen</string>
     <string name="mibi_giftcard_used">Eingelöst</string>
     <string name="mibi_giftcard_vaild_util">Gültig bis %1$s</string>
+    <string name="mibi_giftcard_valid_time_last">Läuft in %1$s Tagen ab</string>
     <string name="mibi_giftcard_will_expire">Läuft ab am %1$s</string>
     <string name="mibi_giftcard_with_num">&lt;Data&gt;&amp;lt;font color=#FF7700&amp;gt;&amp;lt;xliff:g id=value&amp;gt;%1$d&amp;lt;/xliff:g&amp;gt; Mi Coin Coupon verfügbar&amp;lt;/font&amp;gt;&lt;/Data&gt;</string>
     <string name="mibi_header_network_error">Netzwerkverbindung nicht möglich</string>
@@ -267,8 +293,12 @@ Bitte kontaktieren Sie den Kundenservice."</string>
     <string name="mibi_incognito_mode_dialog_title">Sie sind inkognito</string>
     <string name="mibi_incognito_mode_dialog_to_close">Einstellungen</string>
     <string name="mibi_is_what">Was können Sie mit Mi Coins kaufen?</string>
+    <string name="mibi_giftcard_discount_detail3">%1$s Mi-Münzen ausgeben, um sie einzulösen</string>
+    <string name="mibi_giftcard_expire_soon">Bald ablaufend</string>
+    <string name="mibi_giftcard_valid_time_last">Läuft in %1$s Tagen ab</string>
     <string name="mibi_label_balance">Kontostand</string>
     <string name="mibi_label_giftcard">Coupon</string>
+    <string name="mibi_label_giftcard_with_num">Geschenkgutschein (%1$s)</string>
     <string name="mibi_label_pay_remain">Fälliger Betrag: %1$s Mi Coins</string>
     <string name="mibi_license_message">Sie sind dabei, Mi Coin zu nutzen, ein Service von Xiaomi Inc. Bevor Sie diesen Service nutzen können, müssen Sie die allgemeinen Geschäftsbedingungen akzeptieren, die in %1$s angegeben sind. Tippen Sie auf OK, wenn Sie die in den %1$s beschriebenen Bedingungen akzeptieren. Sie müssen sich mit dem Internet verbinden und Ihr Gerät lokalisieren, um Mi Coin nutzen zu können.</string>
     <string name="mibi_license_message_span">Mi Coin Nutzervereinbarung</string>
@@ -277,8 +307,10 @@ Bitte kontaktieren Sie den Kundenservice."</string>
     <string name="mibi_login">Anmelden</string>
     <string name="mibi_memu_refresh">Neu laden</string>
     <string name="mibi_menu_lock">Mustersperre</string>
+    <string name="mibi_menu_qa_feedback">FAQ &amp; Feedback</string>
     <string name="mibi_menu_shotcut">Auf Startbildschirm platzieren</string>
     <string name="mibi_mipay_error">Mi Pay fehlgeschlagen</string>
+    <string name="mibi_more_operation">Weitere Vorgänge</string>
     <string name="mibi_msg_error">Aufladen fehlgeschlagen</string>
     <string name="mibi_msg_order_hint_1_1">Wenn Sie \"Kauf bestätigen\" getippt haben, wird Ihr Telefon</string>
     <string name="mibi_msg_order_hint_1_2">automatisch Ihren Mobilfunkanbieter kontaktieren.</string>
@@ -302,6 +334,7 @@ Bitte kontaktieren Sie den Kundenservice."</string>
     <string name="mibi_normal_license_name">Allgemeine Geschäftsbedingungen</string>
     <string name="mibi_order_balance_lable_append">Mi Coins + Gutschein</string>
     <string name="mibi_order_balance_title">Meine Mi Coins</string>
+    <string name="mibi_order_discount_giftcard_title">Gutscheine (jeweils einen verwenden)</string>
     <string name="mibi_order_no_use_balance">Nichtgebrauch</string>
     <string name="mibi_order_pay_back">Bestätigen</string>
     <string name="mibi_order_pay_type">Zahlungsmethode</string>
@@ -322,13 +355,20 @@ Bitte kontaktieren Sie den Kundenservice."</string>
     <string name="mibi_payment_recharge_group_title">Auflademethode auswählen</string>
     <string name="mibi_payment_success_title">Zahlung erhalten</string>
     <string name="mibi_payment_with_login_title">Mi-Konto verifizieren</string>
+    <string name="mibi_paymnet_failed_title">Transaktion fehlgeschlagen</string>
     <string name="mibi_paytool_app_not_installed">Sie haben %1$s nicht installiert. Jetzt herunterladen und installieren?</string>
     <string name="mibi_paytool_error_install">Installation des mobilen Sicherheitsplugins %1$s fehlgeschlagen</string>
     <string name="mibi_paytool_error_msp">%1$s fehlgeschlagen</string>
     <string name="mibi_paytool_mipay">Mi Pay</string>
     <string name="mibi_paytool_msp_not_installed">Sie haben %1$s mobile/s Sicherheitsplugin/s nicht installiert, jetzt installieren?</string>
+    <string name="mibi_paytool_wechat_return_cancel">WeChat-Rückgabe abbrechen</string>
     <string name="mibi_permanently_denied_perm_camera">Kamera in den Einstellungen erlauben, die Funktionen zu nutzen.</string>
     <string name="mibi_permanently_denied_perm_send_sms">Senden von SMS-Nachrichten in den Einstellungen zulassen, um die Funktionen zu nutzen.</string>
+    <string name="mibi_permission_des_camera">Wird für OCR verwendet, um die Aufladekartennummer eines Mobiltelefons usw. zu identifizieren.</string>
+    <string name="mibi_prepaid_card_hint">Alle Aufladungen sind einmalige Aufladungen, und der ausgewählte Nennwert muss mit der Aufladekarte übereinstimmen. Eine falsche Auswahl führt zum Verlust des Geldes.</string>
+    <string name="mibi_prepaid_card_hint_input_card_num">Bitte Kartennummer eingeben</string>
+    <string name="mibi_prepaid_card_hint_input_pwd">Bitte Passwort eingeben</string>
+    <string name="mibi_prepaid_card_info">Informationen zur Aufladekarte</string>
     <string name="mibi_prepaid_card_order_info">%1$s Aufladekarte: RMB %2$s</string>
     <string name="mibi_prepaid_carriers_picker_hint">Mobilfunkanbieter auswählen</string>
     <string name="mibi_prepaid_dialog_content">Jeder Verlust, der durch die Diskrepanz zwischen Kartennummer, Gesichtsdaten, Passwort und den tatsächlichen Informationen entsteht, geht zu Ihren Lasten. Prüfen Sie die von Ihnen angegebenen Informationen doppelt, bevor Sie fortfahren.</string>
@@ -348,7 +388,10 @@ Bitte kontaktieren Sie den Kundenservice."</string>
     <string name="mibi_prepaid_picker_title_default">Betrag auswählen</string>
     <string name="mibi_prepaid_picker_title_selected">Betrag</string>
     <string name="mibi_privacy_license_name">Datenschutzerklärung</string>
+    <string name="mibi_privacy_manage_revoke_agreement">Zustimmung widerrufen</string>
+    <string name="mibi_privacy_manage_user_license">Nutzervereinbarung</string>
     <string name="mibi_privacy_policy">Datenschutzerklärung</string>
+    <string name="mibi_privacy_setting">Datenschutzeinstellung</string>
     <string name="mibi_privacy_tip_message">Sie können Mi Coins nicht nutzen, wenn die Genehmigung widerrufen.</string>
     <string name="mibi_privacy_tip_title">Zuerst die Genehmigung erteilen</string>
     <string name="mibi_process_expired">Wo waren Sie? Diese Operation ist abgelaufen.</string>
@@ -393,20 +436,62 @@ Kundenservicecenter: 400-100-5678"</string>
     <string name="mibi_recharge_grid_item_more">Mehr</string>
     <string name="mibi_recharge_grid_mibi_picker_hint">Betrag auswählen</string>
     <string name="mibi_recharge_grid_money_picker_hint">Betrag auswählen</string>
+    <string name="mibi_recharge_input_amount_hint">Bitte Betrag eingeben</string>
     <string name="mibi_recharge_label">Aufladung</string>
     <string name="mibi_recharge_message_title">Textnachricht</string>
+    <string name="mibi_recharge_more_channels_title">Mehr</string>
     <string name="mibi_recharge_novalid_method">Keine gültige Auflademethode</string>
     <string name="mibi_recharge_other">Andere Merthoden anzeigen</string>
+    <string name="mibi_recharge_other_amount">Anderer Betrag</string>
     <string name="mibi_recharge_push_notification_prime_title">%1$d hat %2$s Mi Coins zu Ihrem Konto hinzugefügt</string>
     <string name="mibi_recharge_push_notification_sub_title">Aufladen vollständig</string>
     <string name="mibi_recharge_value_money">Mi Coins im Wert von CNY %s kaufen</string>
     <string name="mibi_recharge_value_money_special_unit">Mi Coins im Wert von CNY %1$s %2$s kaufen</string>
     <string name="mibi_recharge_warn_text">Sie können keine physischen Waren mit Mi Coins kaufen</string>
+    <string name="mibi_return">Rückgabe</string>
+    <string name="mibi_review_model_btn_entry">Reinen Browsing-Modus aufrufen</string>
+    <string name="mibi_review_model_btn_use">Mi Coin-Dienstleistung erleben</string>
+    <string name="mibi_review_model_icon_1">Thema</string>
+    <string name="mibi_review_model_icon_3">Lesen</string>
+    <string name="mibi_review_model_icon_5">Musik</string>
+    <string name="mibi_review_model_icon_6">Spiel</string>
+    <string name="mibi_review_model_introduction_description">"Wenn Sie der Datenschutzerklärung nicht zustimmen, stellen wir Ihnen einen reinen Browsing-Modus zur Verfügung. In diesem Modus zeigen wir Ihnen die Einführung von Mi Coin-bezogenen Dienstleistungen.
+
+In diesem Modus müssen wir nur den Internetzugang anfordern und werden keine Ihrer persönlichen Daten erfassen, speichern, weitergeben oder verwenden.
+
+Wenn Sie während des Browsing-Prozesses Mi Coin-bezogene Geschäfte tätigen möchten, müssen Sie den entsprechenden Regeln zur Verarbeitung personenbezogener Daten zustimmen. Wir werden Ihre persönlichen Daten gemäß Ihrer Zustimmung  und den einschlägigen Bestimmungen der Gesetze und Vorschriften verarbeiten."</string>
+    <string name="mibi_review_model_introduction_title">Mehr über den reinen Browsing-Modus erfahren</string>
+    <string name="mibi_review_model_mibi_function">Mi Coin Aufladen Guthaben prüfen Geschenkgutschein Verwaltung</string>
+    <string name="mibi_review_model_mibi_introduction">"Mi Coin ist eine aggregierte Geldbörse für virtuelle Geschäfte innerhalb der Xiaomi-Gruppe. Es unterstützt Zahlungsmittel wie Alipay, WeChat und Mi Wallet. Es bietet auch Prepaid-Karten und Marketingprodukte wie die Mi Coin Card und Mi Coin-Geschenkgutscheine.
+
+Angebotene Dienstleistungen:"</string>
+    <string name="mibi_review_model_tips">TDer aktuelle Modus ist nur ein Browsing-Modus. Bitte klicken Sie auf die Schaltfläche, um den Mi Coin-Service zu nutzen.</string>
+    <string name="mibi_review_model_title">Reiner Browsing-Modus</string>
+    <string name="mibi_review_model_use_tips">Mi Coin-Service jetzt erleben</string>
+    <string name="mibi_revoke_agreement_failed_msg">Widerruf Zustimmung fehlgeschlagen, erneut versuchen</string>
+    <string name="mibi_revoke_agreement_msg">"Wenn Sie Ihre Zustimmung zur Datenschutzerklärung der Mibibi-App zurückziehen, werden wir die Erfassung Ihrer personenbezogenen Daten einstellen und die von der App erfassten personenbezogenen Daten in Übereinstimmung mit dem Gesetz löschen, es sei denn, andere Gesetze und Vorschriften schreiben eine Aufbewahrungsfrist für personenbezogene Daten vor.
+Da die Erbringung der Mi Coin-Dienste auf der Erhebung der erforderlichen personenbezogenen Daten beruht, wird, wenn Sie Ihre Zustimmung zurückziehen, davon ausgegangen, dass Sie nicht damit einverstanden sind, dass wir Ihnen weiterhin Mi Coin-Dienste zur Verfügung stellen, und Ihr Eigentum und Ihre Rechte an der Mi Coin-App aufgeben. Dies verursacht einen gewissen Verlust, und persönliche Daten können nicht wiederhergestellt werden, bitte wählen Sie sorgfältig."</string>
+    <string name="mibi_revoke_agreement_title">Risikowarnung</string>
+    <string name="mibi_revoke_service_failed_msg">Abmeldung vom Dienst fehlgeschlagen, erneut versuchen</string>
+    <string name="mibi_revoke_service_msg">"Wenn Sie sich vom Mi Coin-Dienst abmelden, stellen wir die Erfassung Ihrer personenbezogenen Daten ein und löschen die von der App erfassten personenbezogenen Daten in Übereinstimmung mit dem Gesetz, mit Ausnahme anderer Gesetze und Vorschriften, die die Aufbewahrungsfrist für personenbezogene Daten eindeutig festlegen.
+Da die Erbringung der Mi Coin-Dienste auf der Erhebung der erforderlichen personenbezogenen Daten beruht, wird, wenn Sie Ihre Zustimmung zurückziehen, davon ausgegangen, dass Sie nicht damit einverstanden sind, dass wir Ihnen weiterhin Mi Coin-Dienste zur Verfügung stellen, und Ihr Eigentum und Ihre Rechte an der Mi Coin-App aufgeben. Dies verursacht einen gewissen Verlust, und persönliche Daten können nicht wiederhergestellt werden, bitte wählen Sie sorgfältig."</string>
     <string name="mibi_scan_prompt_number">%1$s Prepaidkartennummer scannen</string>
     <string name="mibi_scan_prompt_password">%1$s Prepaidkartenpasswort scannen</string>
     <string name="mibi_scan_prompt_retry">Halten Sie den Code gerade</string>
     <string name="mibi_scan_prompt_voucher">Mi Coin Passwort scannen</string>
     <string name="mibi_security_setting">Einstellungen</string>
+    <string name="mibi_setting_authorization_management">Rechteverwaltung</string>
+    <string name="mibi_setting_cache_deleted_privacy">Widerruf Zustimmung wurde abgeschlossen und die lokalen Daten wurden gelöscht.</string>
+    <string name="mibi_setting_cache_deleted_service">Abmeldedienst wurde abgeschlossen und die lokalen Daten wurden gelöscht.</string>
+    <string name="mibi_setting_cancel_revoke_agreement">Widerruf abbrechen</string>
+    <string name="mibi_setting_cancel_revoke_service">Logout abbrechen</string>
+    <string name="mibi_setting_confirm_revoke_agreement">Widerruf bestätigen</string>
+    <string name="mibi_setting_confirm_revoke_service">Logout bestätigen</string>
+    <string name="mibi_setting_perm_setting_dialog_confirm">Ja, ich weiß</string>
+    <string name="mibi_setting_perm_setting_dialog_msg">Mi Coin-Berechtigungsänderungen werden in MIUI 10 und niedrigeren Versionen nicht unterstützt. Wenn Sie die Berechtigungen ändern müssen, aktualisieren Sie bitte das MIUI-System auf MIUI 11 und höhere Versionen.</string>
+    <string name="mibi_setting_perm_setting_dialog_title">Einstellungstipps</string>
+    <string name="mibi_setting_privacy_management">Verwaltung der Datenschutzerklärung</string>
+    <string name="mibi_setting_revoke_service">Stornierung des Mi Coin-Dienstes</string>
     <string name="mibi_shurtcut_create_success">Zum Startbildschirm hinzugefügt</string>
     <string name="mibi_signing_pay_group_title">Zahlungsmethode wählen</string>
     <string name="mibi_signing_success_sub">Erneuerbare Zahlungen werden unter Verwendung von %1$s geleistet</string>
@@ -432,6 +517,7 @@ Kundenservicecenter: 400-100-5678"</string>
     <string name="mibi_voucher_card_text">Bitte rubbeln Sie die Beschichtung ab</string>
     <string name="mibi_voucher_error_password">Code ungültig</string>
     <string name="mibi_voucher_input_password_prompt">Code eingeben</string>
+    <string name="mibi_voucher_password">Mi Coin Card-Passwort</string>
     <string name="mibi_web_login">Anmelden</string>
     <string name="mibi_web_login_app_description">%1$s anmelden</string>
     <string name="mibi_web_login_description">Anmelden</string>
@@ -454,6 +540,7 @@ Kundenservicecenter: 400-100-5678"</string>
     <string name="miuix_appcompat_select_all">Alle wählen</string>
     <string name="miuix_appcompat_select_all_description">Alle wählen</string>
     <string name="miuix_appcompat_select_item">Elemente wählen</string>
+    <string name="miuix_indexer_collect">Sammlungen</string>
     <string name="miuix_indexer_selected">%s ausgewählt</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Zum Aktualisieren herunterziehen</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Erfolgreich aktualisiert</string>
