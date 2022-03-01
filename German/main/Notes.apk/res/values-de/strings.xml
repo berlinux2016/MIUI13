@@ -38,6 +38,7 @@
     <string name="alert_message_delete_excerpt">Diese Notiz löschen? Der Auszug wird ebenfalls gelöscht.</string>
     <string name="alert_message_delete_note">Diese Notiz löschen?</string>
     <string name="alert_message_edit_anyway">Diese Notiz enthält nicht unterstützte Inhalte. Bearbeiten kann zu Datenverlust führen.</string>
+    <string name="alert_message_edit_anyway_new">Diese Notiz enthält nicht unterstützte Inhalte. Ihre Bearbeitung kann zu Formatänderungen oder Datenverlust führen.</string>
     <string name="alert_message_restore">Diese Notiz wurde nicht geöffnet. Sie muss wiederhergestellt werden, um den Inhalt bearbeiten zu können.</string>
     <string name="alert_title_delete">Notiz löschen?</string>
     <string name="alert_title_edit_anyway">Bearbeiten kann zu Datenverlust führen. Wirklich bearbeiten?</string>
@@ -227,6 +228,7 @@
     <string name="error_send_empty_note">Leere Notiz kann nicht verschickt werden</string>
     <string name="error_send_empty_note_to_weibo">Leere Notiz kann nicht nach Weibo verschickt werden</string>
     <string name="error_unsupport_content">Diese Notiz enthält nicht unterstützte Inhalte</string>
+    <string name="error_unsupport_content_format">Diese Notiz enthält nicht unterstützte Inhalte. Auf Version %1$s oder höher aktualisieren.</string>
     <string name="error_widget_exist_for_send_to_desktop">Diese Notiz ist bereits auf dem Desktop vorhanden</string>
     <string name="evening">Nachmittag</string>
     <string name="exceed_todo_text_limitation">Aufgabenbeschreibung zu lang</string>
@@ -694,6 +696,10 @@
     <string name="select_account_prompt">Notizen sychronisieren</string>
     <string name="send">Senden</string>
     <string name="set_alarm_description">Alarm einstellen</string>
+    <string name="setting_big_screen_layout_columns">Seitenleiste</string>
+    <string name="setting_big_screen_layout_flat">Kacheln</string>
+    <string name="setting_big_screen_layout_title">Großbildschirm-Layout</string>
+    <string name="setting_micloud_sync_title">Synchronisierung mit der Cloud</string>
     <string name="setting_other">ANDERE</string>
     <string name="setting_privacy">Datenschutzerklärung</string>
     <string name="single_link_excerpt_saving">Elemente speichern…</string>
@@ -932,6 +938,15 @@ Erlauben Sie Notizen, Audio aufzunehmen."</string>
     <string name="v7_preference_off">AUS</string>
     <string name="v7_preference_on">AN</string>
     <string name="view_all_notes">Alle anzeigen</string>
+    <string name="warn_cannot_add_new_bullet">Neue Aufzählungsliste nicht möglich, weil Notiz zu lang ist</string>
+    <string name="warn_cannot_add_new_checkbox">Neues Kontrollkästchen nicht möglich, da die Notiz zu lang ist</string>
+    <string name="warn_cannot_add_new_doodle">Neues Doodle nicht möglich, weil die Notiz zu lang ist</string>
+    <string name="warn_cannot_add_new_element">Neues Element nicht möglich, weil die Notiz zu lang ist</string>
+    <string name="warn_cannot_add_new_link_card">Neue Link nicht möglich, weil die Notiz zu lang ist</string>
+    <string name="warn_cannot_add_new_picture">Neues Bild nicht möglich, weil die Notiz zu lang ist</string>
+    <string name="warn_cannot_add_new_style">Neues Format nicht möglich, weil die Notiz zu lang ist</string>
+    <string name="warn_disable_edit_in_browse_mode">Sie können Notizen im schreibgeschützten Modus nicht bearbeiten</string>
+    <string name="warn_enter_browse_mode">Sie befinden sich im schreibgeschützten Modus</string>
     <string name="web_sso_login_fail">Sie müssen sich erneut anmelden</string>
     <string name="web_sso_login_message">Anmelden…</string>
     <string name="webview_reload">Erneut versuchen</string>
