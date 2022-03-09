@@ -29,7 +29,7 @@
     <string name="btn_cancel_send">Diese Übertragung abbrechen</string>
     <string name="btn_exit_send">Beenden</string>
     <string name="can_drag">Ziehen zum Einfügen oder Senden</string>
-    <string name="can_not_transfer_when_screening">"Can't cast during transfers"</string>
+    <string name="can_not_transfer_when_screening">Übertragen während Transfer nicht möglich</string>
     <string name="chooser_fragment_mishare_title">Teilen mit</string>
     <string name="clearable_edittext_clear_description">Löschen</string>
     <string name="close">Schließen</string>
@@ -51,7 +51,7 @@
     <string name="device_status_waiting">Warten…</string>
     <string name="doodle_paint_select_heavy_talkback">Dick</string>
     <string name="doodle_paint_select_light_talkback">Dünn</string>
-    <string name="doodle_paint_select_medium_talkback">Regular</string>
+    <string name="doodle_paint_select_medium_talkback">Regulär</string>
     <string name="early_morning">Morgen</string>
     <string name="editor_talkback_redo">Wiederholen</string>
     <string name="editor_talkback_undo">Rückgängig</string>
@@ -94,14 +94,14 @@
     <string name="functions_are_being_developed">Diese Funktion wird bald verfügbar sein. Bleiben Sie dran!</string>
     <string name="garbage_count">Es gibt %1$s alte Instanzen</string>
     <string name="global_main_purpose">Willkommen bei Screenshot Editor! Mit dieser App können Sie Ihre Bildschirmfotos zuschneiden und bearbeiten. Diese App muss mit dem Internet verbunden sein, um normal funktionieren zu können.</string>
-    <string name="help">Keine Geräte zufinden?"</string>
+    <string name="help">Keine Geräte gefunden?</string>
     <string name="help_content">Wenn Sie das gewünschte Gerät nicht finden können, die andere Person bitten, Mi Share einzuschalten.</string>
-    <string name="image_decode_failed">Bild entschlüsselt nicht möglich</string>
-    <string name="image_not_found">"Couldn't find image"</string>
+    <string name="image_decode_failed">Bild entschlüsseln nicht möglich</string>
+    <string name="image_not_found">Bild nicht gefunden</string>
     <string name="loading_text_format" formatted="false">Private Infos aus Fotos entfernen (%d/%d)…</string>
     <string name="long_screenshot_error">Fehler aufgetreten. Erneut versuchen.</string>
     <string name="long_screenshot_error">Screenshot erstellen nicht möglich. Erneut versuchen.</string>
-    <string name="long_screenshot_guide_text">"Hier tippen, um einen\nScreenshot mit Bildlauf zu erstellen"</string>
+    <string name="long_screenshot_guide_text">Hier tippen, um einen\nScreenshot mit Bildlauf zu erstellen</string>
     <string name="long_screenshot_intercepted_error">Screenshot wurde nicht erstellt. Erneut versuchen.</string>
     <string name="long_screenshot_out_of_memory_error">Bild ist zu groß</string>
     <string name="long_screenshot_processing">Verarbeiten…</string>
@@ -110,7 +110,7 @@
     <string name="long_screenshot_top_msg">Screenshot erstellen…</string>
     <string name="long_screenshot_top_msg_description_accessibility">Screenshot erstellen</string>
     <string name="long_screenshot_top_msg_manual">Screenshot zurechtschneiden und zum Abschließen Taste drücken</string>
-    <string name="main_save_error_msg">Änderungen konnten aufgrund eines Fehlers nicht gespeichert werden</string>
+    <string name="main_save_error_msg">Änderungen wurden wegen eines Fehlers nicht gespeichert</string>
     <string name="memory_leak">Speicherleck</string>
     <string name="midnight">Nacht</string>
     <string name="miuix_access_state_desc">Ausgewählt</string>
@@ -197,12 +197,12 @@
     <string name="photo_save_to_msg">Gespeichert in %s</string>
     <string name="preference_copied">\"%1$s\" in Zwischenablage kopiert.</string>
     <string name="remover_menu_processing">Verarbeitung…</string>
-    <string name="samsung_phone">Samsung Telefon</string>
+    <string name="samsung_phone">Samsung-Telefon</string>
     <string name="saturday">Samstag</string>
     <string name="saturday_short">Sa</string>
     <string name="saturday_shortest">S</string>
     <string name="save_success">Erfolgreich gespeichert</string>
-    <string name="scanning_device_tips">In der Nähe nach Geräten suchen… Sicher stellen, dass das andere Gerät im Erkennungsmodus ist. Stellen Sie sicher, dass das andere Gerät im Erkennungsmodus ist.</string>
+    <string name="scanning_device_tips">In der Nähe nach Geräten suchen… Stellen Sie sicher, dass das andere Gerät im Erkennungsmodus ist.</string>
     <string name="screen_doodle_talkback_size">Doodle-Linienbreite</string>
     <string name="screen_editor_btn_delete">Löschen</string>
     <string name="screen_editor_btn_save">Speichern</string>
@@ -211,9 +211,9 @@
     <string name="screen_editor_delete_dialog_msg">Diesen Screenshot jetzt löschen?</string>
     <string name="screen_editor_delete_dialog_picture_msg">Dieses Bild jetzt löschen?</string>
     <string name="screen_editor_finish">Fertig</string>
-    <string name="screen_editor_shell_disallowed_with_crop">Geräterahmen zu beschnittenen Screenshots hinzugefügen nicht möglich</string>
-    <string name="screen_editor_shell_net_error">Mit dem Netzwerk verbinden, um den Geräterahmen herunterzuladen</string>
-    <string name="screen_editor_shell_res_downloading">Geräterahmen herunterlden…</string>
+    <string name="screen_editor_shell_disallowed_with_crop">Geräterahmen zu beschnittenen Screenshots hinzufügen nicht möglich</string>
+    <string name="screen_editor_shell_net_error">Mit Netzwerk verbinden, um den Geräterahmen herunterzuladen</string>
+    <string name="screen_editor_shell_res_downloading">Geräterahmen herunterladen…</string>
     <string name="screen_save_dialog_btn_cancel">Abbrechen</string>
     <string name="screen_save_dialog_btn_delete">Screenshot löschen</string>
     <string name="screen_save_dialog_btn_save">In Galerie speichern</string>
@@ -246,8 +246,8 @@
     <string name="send">Senden</string>
     <string name="send_files_by">Dateien teilen mit</string>
     <string name="send_files_to">Elemente senden an</string>
-    <string name="share_and_delete_picture">Nach teilen löschen</string>
-    <string name="share_and_delete_screenshot">Nach teilen löschen</string>
+    <string name="share_and_delete_picture">Nach Teilen löschen</string>
+    <string name="share_and_delete_screenshot">Nach Teilen löschen</string>
     <string name="solar_term_autumn_begins">Herbstanfang</string>
     <string name="solar_term_autumn_equinox">Herbst-Tagundnachtgleiche</string>
     <string name="solar_term_clear_and_bright">Klar und hell</string>
@@ -280,10 +280,10 @@
     <string name="text_edit_dialog_font">Schrift</string>
     <string name="text_edit_dialog_keyboard">Tastatur</string>
     <string name="text_edit_dialog_style">Stil</string>
-    <string name="text_edit_dialog_style_align_center">Zentriert ausrichten</string>
+    <string name="text_edit_dialog_style_align_center">Zentriert</string>
     <string name="text_edit_dialog_style_align_left">Linksbündig</string>
     <string name="text_edit_dialog_style_align_right">Rechtsbündig</string>
-    <string name="text_edit_dialog_style_bold">Bold</string>
+    <string name="text_edit_dialog_style_bold">Fett</string>
     <string name="text_edit_dialog_style_color">"Farbe "</string>
     <string name="text_edit_dialog_style_shadow">Schatten</string>
     <string name="text_edit_dialog_style_stroke">Kontur</string>
@@ -345,7 +345,7 @@
     <string name="time_picker_dialog_title">Zeit einstellen</string>
     <string name="time_picker_label_hour">Std</string>
     <string name="time_picker_label_minute">Min</string>
-    <string name="toast_download_with_metered_network_msg">Sieht so aus, als wäre Ihr Gerät nicht mit WLAN verbunden. Elemente mit mobilen Daten herunterladen?</string>
+    <string name="toast_download_with_metered_network_msg">Anscheinend ist Ihr Gerät nicht mit WLAN verbunden. Elemente mit mobilen Daten herunterladen?</string>
     <string name="toast_download_with_metered_network_title">Warnung zur Datennutzung</string>
     <string name="today">Heute</string>
     <string name="tomorrow">Morgen</string>
