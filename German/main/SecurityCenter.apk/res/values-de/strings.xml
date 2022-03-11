@@ -1848,6 +1848,7 @@ Erdbebenüberwachung"</string>
     <string name="gamebox_app_not_find">Erst die App installieren</string>
     <string name="gamebox_brightness">Helligkeit</string>
     <string name="gamebox_browser_not_find">Erst Mi Browser installieren</string>
+    <string name="gamebox_bullet_chat">Bildschirmkommentare</string>
     <string name="gamebox_collimator">Visier</string>
     <string name="gamebox_display_1">Keine</string>
     <string name="gamebox_display_2">Gesättigt</string>
@@ -1949,6 +1950,10 @@ Erdbebenüberwachung"</string>
     <string name="gb_dialog_record_way_ai">KI-Aufnahmen werden in der Gamebox gespeichert und dort 7 Tage lang aufbewahrt.</string>
     <string name="gb_dialog_record_way_finish">Fertig</string>
     <string name="gb_dialog_record_way_manual">Manuelle Aufnahme von bis zu 30 Sekunden langen Videos</string>
+    <string name="gb_dialog_record_way_manual_desc" formatted="false">%d-%d Sekunden eines Videos während einer Spielesitzung manuell aufnehmen</string>
+    <string name="gb_dialog_record_way_setting_tip_one">Erhöhter Stromverbrauch und Verzögerung</string>
+    <string name="gb_dialog_record_way_setting_tip_title">Diese Funktion kann folgende Probleme verursachen:</string>
+    <string name="gb_dialog_record_way_setting_tip_two">Konflikte mit anderen Bildschirmrekordern</string>
     <string name="gb_dialog_record_way_setting_tips">Hinweis: Das Aufzeichnen Ihrer Spielstände erfordert einen höheren Stromverbrauch, was zu Verzögerungen führen kann.</string>
     <string name="gb_dialog_record_way_title">Aufnahmemethode auswählen</string>
     <string name="gb_first_guide_function_shiled_title">Systemfunktionen ausschalten, wenn Game Turbo an ist</string>
@@ -1976,6 +1981,7 @@ Erdbebenüberwachung"</string>
     <string name="gb_game_video_page_null">Schlüsselmomente Ihrer Spielstände aufnehmen</string>
     <string name="gb_game_video_record_finish_tips">Manuell aufgenommenes Video in Game Turbo gespeichert</string>
     <string name="gb_game_video_save">Speichern</string>
+    <string name="gb_game_video_save_tip">Erfolgreich gespeichert</string>
     <string name="gb_game_video_type_ai">KI</string>
     <string name="gb_game_video_type_ai_record">Aufnahme mit KI</string>
     <string name="gb_game_video_type_manual">Manuell</string>
@@ -1988,6 +1994,7 @@ Erdbebenüberwachung"</string>
     <string name="gb_gpu_driver_update_app_tips">Aktuelle Version ist auf dem neuesten Stand</string>
     <string name="gb_have_signed">Heute angemeldet</string>
     <string name="gb_manual_record_dialog_del_video_message">Ausgewählte Videos dauerhaft löschen?</string>
+    <string name="gb_manual_video_record_title">Aufnahmen</string>
     <string name="gb_msg_completely_shielded">Nachrichten ausblenden</string>
     <string name="gb_msg_completely_shielded_summary">Ausblenden</string>
     <string name="gb_msg_not_shielded_summary">Anzeigen</string>
@@ -2006,6 +2013,11 @@ bei gleichzeitiger Senkung der Aktualisierungsrate und Temperaturgrenzen"</strin
     <string name="gb_performance_tips">"Der Leistungsmodus verbessert die Grafikleistung,
 erhöht aber auch den Stromverbrauch und führt zu einer Überhitzung des Geräts"</string>
     <string name="gb_shortcut_pref_title">Startbildschirm-Verknüpfung</string>
+    <string name="gb_shoulder_guide_message1">[L] auf eine beliebige Funktionsposition verschieben, um es über den Pop-up-Auslöser zu verwenden.</string>
+    <string name="gb_shoulder_guide_message2">Aktion [1] wird durch Drücken der Taste aktiviert. Aktion [2] wird durch Loslassen der Taste ausgelöst.</string>
+    <string name="gb_shoulder_guide_tips1">Toolbox öffnen und Pop-up-Trigger konfigurieren</string>
+    <string name="gb_shoulder_guide_title1">Aktion</string>
+    <string name="gb_shoulder_guide_title2">Sequenz</string>
     <string name="gb_shoulder_key">Pop-up-Auslöser</string>
     <string name="gb_shoulder_key_add_show_btn">Virtuelle Tasten während Spielen anzeigen</string>
     <string name="gb_shoulder_key_add_tips">[L] und [R] in eine beliebige Funktionsposition bewegen und über Pop-up-Trigger verwenden</string>
@@ -2026,6 +2038,14 @@ erhöht aber auch den Stromverbrauch und führt zu einer Überhitzung des Gerät
     <string name="gb_shoulder_key_settings_summary">Beide Pop-up-Auslöser verwenden, um Game Turbo zu starten, wenn Sie keine Spiele spielen</string>
     <string name="gb_shoulder_key_settings_title">Pop-up-Auslöser für Game Turbo verwenden</string>
     <string name="gb_shoulder_key_settings_title_new">Game Turbo Schnellstart</string>
+    <string name="gb_shoulder_set_left_right">[%s] einrichten</string>
+    <string name="gb_shoulder_set_title">Pop-up-Auslöser einschalten, um sie zu konfigurieren</string>
+    <string name="gb_shoulder_set_title2">[%s] an eine beliebige funktionale Position verschieben und über den Pop-up-Trigger verwenden</string>
+    <string name="gb_shoulder_single_trigger">Aktion</string>
+    <string name="gb_shoulder_subsection_down">Drücken</string>
+    <string name="gb_shoulder_subsection_trigger">Sequenz</string>
+    <string name="gb_shoulder_subsection_up">Loslassen</string>
+    <string name="gb_shoulder_update_left_right">%s bearbeiten</string>
     <string name="gb_sign_gift">Melden Sie sich an, um Belohnungen zu erhalten.</string>
     <string name="gb_sign_gift_button_text">Erhalten</string>
     <string name="gb_sign_notification_summary">Spiele ohne Netzwerkverzögerung spielen</string>
@@ -3970,6 +3990,7 @@ Da %2$s die Dienste auf der Grundlage der Erfassung der erforderlichen persönli
     <string name="result_sms_title_antispam">Bedrohung durch bösartige URLs in SMS erkannt</string>
     <string name="result_sms_title_auth">Risiken für Phishing in SMS erkannt</string>
     <string name="result_wifi_header">WLAN-Risiken erkannt</string>
+    <string name="resume">Wiederherstellen</string>
     <string name="risk_app_install_agree_button">Dieser App vertrauen</string>
     <string name="risk_app_install_agree_checkbox">Ich bin bereit, alle möglichen Risiken einzugehen.</string>
     <string name="risk_app_install_agree_message">Diese App wurde von einem Drittanbieter entwickelt und könnte gegen lokale Gesetze und Vorschriften verstoßen. Xiaomi garantiert nicht die Verfügbarkeit, Kontinuität und Zugänglichkeit der von dieser App angebotenen Inhalte und Dienste. Jeglicher Verlust oder Schaden, der durch die Nutzung dieser App entsteht, wird von Ihnen getragen.</string>
@@ -4221,6 +4242,7 @@ Da %2$s die Dienste auf der Grundlage der Erfassung der erforderlichen persönli
     <string name="sms_blacklist">SMS-Sperrliste</string>
     <string name="sms_cloud_block">Cloud-Sperrliste</string>
     <string name="sms_contact_block">SMS von Kontakten blockieren</string>
+    <string name="sms_content">"Nachricht: "</string>
     <string name="sms_delete_all_hint">Alle blockierten Nachrichten löschen?</string>
     <string name="sms_delete_hint">Alle Nachrichten von dieser Nummer löschen?</string>
     <string name="sms_delete_title">Nachricht löschen</string>
