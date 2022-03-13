@@ -44,7 +44,7 @@
     <string name="about_privacy_revoke_account_confirm">Autorisierung widerrufen?</string>
     <string name="about_privacy_revoke_account_des">Autorisierung widerrufen</string>
     <string name="about_privacy_revoke_account_ok">Wenn Sie die Autorisierung widerrufen, wird das derzeit auf dem Gerät angemeldete Konto entfernt, und die zuvor auf dem Server gespeicherten zugehörigen Daten werden gelöscht. Um Daten auf Ihrem gekoppelten Gerät zu löschen, lesen Sie den Abschnitt Widerruf Zustimmung in unserer Datenschutzerklärung. Wenn Sie ein Wearable-Gerät verwenden, löscht ein Werksreset alle darauf gespeicherten Daten. Wenn Sie Ihre Meinung ändern, können Sie Ihre Daten nicht wiederherstellen. Sie müssen unserer Datenschutzerklärung erneut zustimmen und Ihr Gerät koppeln, wenn Sie es verwenden möchten.</string>
-    <string name="about_privacy_revoke_account_tips">"Wenn Sie Ihre Zustimmung zu unserer Datenschutzerklärung widerrufen, werden wir die Erfassung Ihrer persönlichen Daten einstellen. Ihr Konto wird auf Ihrem Telefon abgemeldet. Die bereits gesammelten und gespeicherten personenbezogenen Daten werden gemäß den geltenden Gesetzen und Vorschriften innerhalb eines bestimmten Zeitraums gelöscht, sofern nicht anders gefordert. Um App-Daten von Ihrem Telefon zu löschen, entfernen Sie diese App von Ihrem Telefon oder löschen Sie App-Daten in den Einstellungen.
+    <string name="about_privacy_revoke_account_tips">"Wenn Sie Ihre Zustimmung zu unserer Datenschutzerklärung widerrufen, werden wir die Erfassung Ihrer persönlichen Daten einstellen. Ihr Konto wird auf Ihrem Telefon abgemeldet. Die bereits gesammelten und gespeicherten persönlichen Daten werden gemäß den geltenden Gesetzen und Vorschriften innerhalb eines bestimmten Zeitraums gelöscht, sofern nicht anders gefordert. Um App-Daten von Ihrem Telefon zu löschen, entfernen Sie diese App von Ihrem Telefon oder löschen Sie App-Daten in den Einstellungen.
 1. Das derzeit auf dem gekoppelten Gerät angemeldete Konto wird entfernt und die zugehörigen Daten, die zuvor auf dem Server gespeichert wurden, werden gelöscht. Sie können die auf Ihrem gekoppelten Gerät gespeicherten Daten (z. B. Schlafdaten, Schritte) durch einen Werksreset löschen. Weitere Einzelheiten finden Sie unter Widerruf Zustimmung in unserer Datenschutzerklärung. Wenn Sie Ihre Meinung ändern, können Sie die oben genannten Daten ggf. nicht mehr wiederherstellen. Um Ihre Geräte verwenden zu können, müssen Sie sie erneut koppeln.
 
 2. Sie verlieren alle Ihre Daten und Inhalte in Mi Fitness. Sie können Ihren Trainingsverlauf und Ihre Fitnessdaten nicht mehr in der App anzeigen.
@@ -54,103 +54,93 @@ Wenn Sie Ihre Meinung ändern, müssen Sie vor der Nutzung unserer Dienste unser
 
 Die zugehörigen Daten werden innerhalb von 15 Tagen gelöscht."</string>
     <string name="about_privacy_revoke_confirm">Widerruf Zustimmung</string>
-    <string name="about_privacy_revoke_confirm_desc">"After you withdraw your consent to our Privacy Policy, we will cease to collect your personal information. Your account will be signed out on your phone. The personal information already collected and retained will be deleted within the specific period in accordance with applicable laws and regulations unless required otherwise. To delete app data from your phone, remove this app from your phone, or clear app data in the Settings.
-1. The account currently signed in on your paired device will be removed, and the related data previously stored on the server will be cleared. You can clear data stored on your paired device (e.g. sleep data, steps) with a factory reset. For further details, refer to Withdrawal of consent in our Privacy Policy.
-If you change your mind, you might not be able to recover the above data. To use your devices, you will need to pair with them again.
+    <string name="about_privacy_revoke_confirm_desc">"Wenn Sie Ihre Zustimmung zu unserer Datenschutzerklärung widerrufen, werden wir die Erfassung Ihrer persönlichen Daten einstellen. Ihr Konto wird auf Ihrem Telefon abgemeldet. Die bereits gesammelten und gespeicherten persönlichen Daten werden gemäß den geltenden Gesetzen und Vorschriften innerhalb eines bestimmten Zeitraums gelöscht, sofern nicht anders gefordert. Um App-Daten von Ihrem Telefon zu löschen, entfernen Sie diese App von Ihrem Telefon oder löschen Sie App-Daten in den Einstellungen.
+1. Das derzeit auf dem gekoppelten Gerät angemeldete Konto wird entfernt und die zugehörigen Daten, die zuvor auf dem Server gespeichert wurden, werden gelöscht. Sie können die auf Ihrem gekoppelten Gerät gespeicherten Daten (z. B. Schlafdaten, Schritte) durch einen Werksreset löschen. Weitere Einzelheiten finden Sie unter Widerruf Zustimmung in unserer Datenschutzerklärung. Wenn Sie Ihre Meinung ändern, können Sie die oben genannten Daten ggf. nicht mehr wiederherstellen. Um Ihre Geräte verwenden zu können, müssen Sie sie erneut koppeln.
 
-2. You'll lose all your data and content in Mi Fitness. You can no longer view your workout history and fitness data in the app.
-You can clear cached data for Mi Fitness and change the permissions that this app can access in Settings on your phone at any time.
+2. Sie verlieren alle Ihre Daten und Inhalte in Mi Fitness. Sie können Ihren Trainingsverlauf und Ihre Fitnessdaten nicht mehr in der App anzeigen.
+Sie können zwischengespeicherte Daten für Mi Fitness löschen und die Berechtigungen, auf die diese App zugreifen kann, jederzeit in den Einstellungen auf Ihrem Telefon ändern.
 
-If you change your mind, before using our services, you need to agree to our Privacy Policy and User Agreement."</string>
-    <string name="about_privacy_revoke_des">Withdraw your consent to our Privacy Policy and permanently delete your data</string>
-    <string name="about_privacy_revoke_recall">Withdraw</string>
-    <string name="about_privacy_risk_dialog_negative_text">Cancel</string>
-    <string name="about_privacy_risk_dialog_positive_text">Continue</string>
-    <string name="about_privacy_risk_dialog_title">Attention</string>
-    <string name="about_privacy_sensitive_protocol">Sensitive Data Collection and Usage</string>
-    <string name="about_privacy_sensitive_protocol_title">Sensitive Data Collection and Usage</string>
-    <string name="about_privacy_unbind_dialog_des">Unpair all your devices first.</string>
-    <string name="about_privacy_unbind_dialog_positive_text">Got it</string>
-    <string name="about_privacy_unbind_dialog_title">Attention</string>
-    <string name="about_remove">Log files are transferred to /storage/emulated/0/Download/wearablelog</string>
-    <string name="about_revoke_authorization">Revoke authorization</string>
-    <string name="about_risk_dialog_des">"Your workout and fitness data will be deleted permanently and you won't be able to restore it. Your account will be signed out on your phone. Continue?"</string>
-    <string name="about_setting">Settings</string>
-    <string name="about_setting_data_cloud_sync_tip">Back up your workout and fitness data from your phone and sync data from other devices</string>
-    <string name="about_setting_device_show_connection_notification">Connection alerts</string>
-    <string name="about_setting_device_show_connection_notification_des">Receive notifications when your wearable device connects or disconnects from your phone</string>
-    <string name="about_setting_network">Check your network settings</string>
-    <string name="about_setting_newmsg_notify">Notifications</string>
-    <string name="about_setting_newmsg_notify_closed_desc">Turn on to receive notifications from this app</string>
-    <string name="about_setting_newmsg_notify_opened_desc">Receive notifications from this app</string>
-    <string name="about_setting_not_upload_gps">Pause location upload</string>
-    <string name="about_setting_not_upload_gps_detail">Pause uploading location data to the cloud. You may have trouble syncing route stats between apps and experience route data loss.</string>
-    <string name="about_setting_privacy_detail">Privacy Policy</string>
-    <string name="about_setting_privacy_revoke">Withdrawal of consent</string>
-    <string name="about_setting_region">Region</string>
-    <string name="about_sport_health">Mi Fitness</string>
-    <string name="about_sync_immediately">Sync</string>
-    <string name="about_sync_status">Sync status</string>
-    <string name="about_sync_status_failure_retry">"Couldn't sync. Wait a minute or two and try again."</string>
-    <string name="about_sync_status_in_progress">Syncing…</string>
-    <string name="about_sync_status_network_failure">"Couldn't sync. Connect to the network and try again."</string>
-    <string name="about_sync_status_never_done">Not synced</string>
-    <string name="about_time_format_hh_mm">HH:mm</string>
-    <string name="about_weekly_report">Weekly summary</string>
-    <string name="access_common_allow">Allow</string>
-    <string name="access_common_cancel">Cancel</string>
-    <string name="access_common_confirm">OK</string>
-    <string name="access_common_load_data_failed">"Couldn't load info"</string>
-    <string name="access_common_reject">Deny</string>
-    <string name="access_common_save_fail">"Couldn't save"</string>
-    <string name="access_common_save_success">Saved successfully</string>
-    <string name="access_common_waiting">Just a sec…</string>
-    <string name="access_denied_info">Too many attempts. Wait a minute or two and try again.</string>
-    <string name="access_mine_thirdparty_access">Connected apps</string>
-    <string name="access_misport">Mi Fit</string>
-    <string name="access_misport_auth_title">Sign in to Mi Fit</string>
-    <string name="access_misport_complete_notify">Transferred successfully</string>
-    <string name="access_misport_complete_notify_click">Tap to open Mi Fitness</string>
-    <string name="access_misport_data_importing">Transferring…</string>
-    <string name="access_misport_data_importing_mainpage">Transferring data from Mi Fit…</string>
-    <string name="access_misport_dialog_content_faile_cn">"Due to data protection restrictions, personal data stored on servers in Mainland China can't be transferred to other regions."</string>
-    <string name="access_misport_dialog_content_faile_european">"Due to data protection restrictions, personal data stored on servers in the EU can't be transferred to non-EU regions."</string>
-    <string name="access_misport_dialog_content_faile_in">"Due to data protection restrictions, personal data stored on servers in India can't be transferred to other regions."</string>
-    <string name="access_misport_dialog_content_faile_russia">"Due to data protection restrictions, personal data stored on servers in Russia can't be transferred to other regions."</string>
-    <string name="access_misport_dialog_title_faile">"Can't transfer"</string>
-    <string name="access_misport_import_desc">&lt;Data>Tap to &lt;a href=\"%1$s\">learn what transferring from Mi Fit means.&lt;/a>&lt;/Data></string>
-    <string name="access_misport_import_faile">"Couldn't transfer. Try again."</string>
-    <string name="access_misport_import_faile_notification_bar">"Couldn't transfer. Try again."</string>
-    <string name="access_misport_import_failed_partof">"&lt;Data>Couldn't transfer. Try again later.&lt;br/>Tap to &lt;a href=\"%1$s\">learn what transferring from Mi Fit means.&lt;/a>&lt;/Data>"</string>
-    <string name="access_misport_import_immediately">Transfer</string>
-    <string name="access_misport_import_title_mainpage">Transfer from Mi Fit</string>
-    <string name="access_misport_importing_desc">&lt;Data>Transferring one year of data takes about 10 mins. You can leave this page.&lt;br/>Tap to &lt;a href=\"%1$s\">learn what transferring from Mi Fit means.&lt;/a>&lt;/Data></string>
-    <string name="access_misport_importing_process">To check the transfer progress, go to Profile > Transfer from Mi Fit.</string>
-    <string name="access_misport_last_import_time">Transferred: %1$s</string>
-    <string name="access_misport_setting_item">Transfer from Mi Fit</string>
-    <string name="access_misport_title">Transfer from Mi Fit</string>
-    <string name="access_permission_grant_authorization_title">Permissions required</string>
-    <string name="access_permission_not_agree_tips">"You won't be able to use this service unless you grant the required permissions, but it won't affect your use of other services. You can always restrict permissions in the Settings."</string>
-    <string name="access_permission_storage_save_qrcode">To be able to save images, allow this app to access storage.</string>
-    <string name="access_permission_to_grant_authorization">OK</string>
-    <string name="access_setting_done">Done</string>
-    <string name="access_thirdparty_alipay">Alipay</string>
-    <string name="access_thirdparty_alipay_bind">Connect</string>
-    <string name="access_thirdparty_alipay_bind_error">Try again</string>
-    <string name="access_thirdparty_alipay_bind_success_desc">To stop sharing data from Mi Fitness to Alipay, tap Disconnect and confirm in the app. Alternatively, change privacy settings in Alipay.</string>
-    <string name="access_thirdparty_alipay_bind_success_title">You can now view your steps in Alipay > Sports.</string>
-    <string name="access_thirdparty_alipay_confirm_bind_msg">This Alipay account is associated with another Mi Account in Mi Fitness. Would you like to connect your Alipay account with your current Mi Account?</string>
-    <string name="access_thirdparty_alipay_confirm_bind_title">Connect to Alipay</string>
-    <string name="access_thirdparty_alipay_sync_title">Connect to Alipay</string>
-    <string name="access_thirdparty_alipay_unbind">Disconnect</string>
-    <string name="access_thirdparty_alipay_unbind_alert">"Your step data won't be synced to Alipay."</string>
-    <string name="access_thirdparty_alipay_unbind_error">"Couldn't disconnect. Try again."</string>
-    <string name="access_thirdparty_aplipay_thirdparty_desc">To share step data with Alipay, tap Connect and follow on-screen instructions.</string>
-    <string name="access_thirdparty_authentication_failed">"Couldn't connect. Try again."</string>
-    <string name="access_thirdparty_bind_failed">Check your network settings and try again</string>
-    <string name="access_thirdparty_explain">When you connect Mi Fitness to %1$s, your workout performance metrics (e.g. calories, distance, time, heart rate) will be shared with %2$s.</string>
-    <string name="access_thirdparty_google_fit">Google Fit</string>
-    <string name="access_thirdparty_strava">Strava</string>
+Wenn Sie Ihre Meinung ändern, müssen Sie vor der Nutzung unserer Dienste unserer Datenschutzerklärung und unserer Nutzervereinbarung zustimmen."</string>
+    <string name="about_privacy_revoke_des">Zustimmung zur Datenschutzerklärung widerrufen und Ihre Daten endgültig löschen</string>
+    <string name="about_privacy_revoke_recall">Widerrufen</string>
+    <string name="about_privacy_risk_dialog_negative_text">Abbrechen</string>
+    <string name="about_privacy_risk_dialog_positive_text">Fortfahren</string>
+    <string name="about_privacy_risk_dialog_title">Achtung</string>
+    <string name="about_privacy_sensitive_protocol">Erhebung und Nutzung sensibler Daten</string>
+    <string name="about_privacy_sensitive_protocol_title">Erhebung und Nutzung sensibler Daten</string>
+    <string name="about_privacy_unbind_dialog_des">Zuerst alle Ihre Geräte entkoppeln.</string>
+    <string name="about_privacy_unbind_dialog_positive_text">Verstanden</string>
+    <string name="about_privacy_unbind_dialog_title">Achtung</string>
+    <string name="about_remove">Protokolldateien werden nach /storage/emulated/0/Download/wearablelog übertragen</string>
+    <string name="about_revoke_authorization">Autorisierung widerrufen</string>
+    <string name="about_risk_dialog_des">Ihre Trainings- und Fitnessdaten werden dauerhaft gelöscht und können nicht wiederhergestellt werden. Ihr Konto wird auf Ihrem Telefon abgemeldet. Fortfahren?</string>
+    <string name="about_setting">Einstellungen</string>
+    <string name="about_setting_data_cloud_sync_tip">Sichern Sie Ihre Trainings- und Fitnessdaten Ihres Telefons und synchronisieren Sie Daten von anderen Geräten</string>
+    <string name="about_setting_device_show_connection_notification">Verbindungswarnungen</string>
+    <string name="about_setting_device_show_connection_notification_des">Erhalten Sie Benachrichtigungen, wenn Ihr tragbares Gerät mit Ihrem Telefon verbunden oder von ihm getrennt wird</string>
+    <string name="about_setting_network">Netzwerkeinstellungen überprüfen</string>
+    <string name="about_setting_newmsg_notify">Benachrichtigungen</string>
+    <string name="about_setting_newmsg_notify_closed_desc">Einschalten, um Benachrichtigungen von dieser App zu erhalten</string>
+    <string name="about_setting_newmsg_notify_opened_desc">Benachrichtigungen von dieser App erhalten</string>
+    <string name="about_setting_not_upload_gps">Standort-Upload unterbrechen</string>
+    <string name="about_setting_not_upload_gps_detail">Hochladen von Standortdaten in die Cloud wird unterbrochen. Es kann Probleme bei der Synchronisierung von Routenstatistiken zwischen Apps geben und Routendaten können verloren gehen.</string>
+    <string name="about_setting_privacy_detail">Datenschutzerklärung</string>
+    <string name="about_setting_privacy_revoke">Widerruf Zustimmung</string>
+    <string name="about_sync_immediately">Synchronisieren</string>
+    <string name="about_sync_status">Synchronistationsstatus</string>
+    <string name="about_sync_status_failure_retry">Synchronisation nicht möglich. Einen Moment warten und erneut versuchen.</string>
+    <string name="about_sync_status_in_progress">Synchronisieren…</string>
+    <string name="about_sync_status_network_failure">Synchronisation nicht möglich. Mit Netzwerk verbinden und erneut versuchen.</string>
+    <string name="about_sync_status_never_done">Nicht synchronisiert</string>
+    <string name="about_weekly_report">Wöchentliche Übersicht</string>
+    <string name="access_common_allow">Zulassen</string>
+    <string name="access_common_cancel">Abbrechen</string>
+    <string name="access_common_load_data_failed">Info laden nicht möglich</string>
+    <string name="access_common_reject">Ablehnen</string>
+    <string name="access_common_save_fail">Speichern nicht möglich</string>
+    <string name="access_common_save_success">Erfolgreich gespeichert</string>
+    <string name="access_common_waiting">Einen Moment…</string>
+    <string name="access_denied_info">Zu viele Versuche. Einen Moment warten und erneut versuchen.</string>
+    <string name="access_mine_thirdparty_access">Verbundene Apps</string>
+    <string name="access_misport_auth_title">Bei Mi Fit anmelden</string>
+    <string name="access_misport_complete_notify">Erfolgreich übertragen</string>
+    <string name="access_misport_complete_notify_click">Tippen, um Mi Fitness zu öffnen</string>
+    <string name="access_misport_data_importing">Übertragen…</string>
+    <string name="access_misport_data_importing_mainpage">Daten von Mi Fit übertragen…</string>
+    <string name="access_misport_dialog_content_faile_cn">Wegen Datenschutzbeschränkungen können persönliche Daten, die auf Servern in Festlandchina gespeichert sind, nicht in andere Regionen übertragen werden.</string>
+    <string name="access_misport_dialog_content_faile_european">Wegen der Datenschutzbeschränkungen können persönliche Daten, die auf Servern in der EU gespeichert sind, nicht in Regionen außerhalb der EU übertragen werden.</string>
+    <string name="access_misport_dialog_content_faile_in">Wegen Datenschutzbeschränkungen können persönliche Daten, die auf Servern in Indien gespeichert sind, nicht in andere Regionen übertragen werden.</string>
+    <string name="access_misport_dialog_content_faile_russia">Wegen Datenschutzbeschränkungen können persönliche Daten, die auf Servern in Russland gespeichert sind, nicht in andere Regionen übertragen werden.</string>
+    <string name="access_misport_dialog_title_faile">Übertragen nicht möglich</string>
+    <string name="access_misport_import_desc">&lt;Data>Tippen, um zu &lt;a href=\"%1$s\">erfahren, was die Übertragung von Mi Fit bedeutet.&lt;/a>&lt;/Data></string>
+    <string name="access_misport_import_faile">Übertragen nicht möglich. Erneut versuchen.</string>
+    <string name="access_misport_import_faile_notification_bar">Übertragen nicht möglich. Erneut versuchen.</string>
+    <string name="access_misport_import_failed_partof">&lt;Data>Übertragen nicht möglich. Später erneut versuchen.&lt;br/>Tippen, um zu &lt;a href=\"%1$s\">erfahren, was die Übertragung von Mi Fit bedeutet.&lt;/a>&lt;/Data></string>
+    <string name="access_misport_import_immediately">Übertragen</string>
+    <string name="access_misport_import_title_mainpage">Von Mi Fit übertragen</string>
+    <string name="access_misport_importing_desc">&lt;Data>Übertragung von Daten eines Jahres dauert ca. 10 Minuten. Sie können diese Seite verlassen.&lt;br/>ippen, um zu &lt;a href=\"%1$s\">erfahren, was die Übertragung von Mi Fit bedeutet.&lt;/a>&lt;/Data></string>
+    <string name="access_misport_importing_process">Um den Übertragungsfortschritt zu prüfen, gehen Sie zu Profil > Übertragung von Mi Fit.</string>
+    <string name="access_misport_last_import_time">Übertragen: %1$s</string>
+    <string name="access_misport_setting_item">Übertragung von Mi Fit</string>
+    <string name="access_misport_title">Übertragung von Mi Fit</string>
+    <string name="access_permission_grant_authorization_title">Berechtigungen erforderlich</string>
+    <string name="access_permission_not_agree_tips">Sie können diesen Dienst nur nutzen, wenn Sie die erforderlichen Berechtigungen erteilen, aber die Nutzung anderer Dienste wird nicht beeinträchtigt. Sie können die Berechtigungen jederzeit in den Einstellungen einschränken.</string>
+    <string name="access_permission_storage_save_qrcode">Damit Sie Bilder speichern können, erlauben Sie dieser App den Speicherzugriff.</string>
+    <string name="access_setting_done">Fertig</string>
+    <string name="access_thirdparty_alipay_bind">Verbinden</string>
+    <string name="access_thirdparty_alipay_bind_error">Erneut versuchen</string>
+    <string name="access_thirdparty_alipay_bind_success_desc">Um das Teilen von Daten von Mi Fitness mit Alipay zu beenden, tippen Sie auf \"Trennen\" und bestätigen Sie in der App. Alternativ können Sie die Datenschutzeinstellungen in Alipay ändern.</string>
+    <string name="access_thirdparty_alipay_bind_success_title">Sie können jetzt Ihre Schritte in Alipay > Sport einsehen.</string>
+    <string name="access_thirdparty_alipay_confirm_bind_msg">Dieses Alipay-Konto ist mit einem anderen Mi-Konto in Mi Fitness verbunden. Möchten Sie Ihr Alipay-Konto mit Ihrem aktuellen Mi-Konto verbinden?</string>
+    <string name="access_thirdparty_alipay_confirm_bind_title">Mit Alipay verbinden</string>
+    <string name="access_thirdparty_alipay_sync_title">Mit Alipay verbinden</string>
+    <string name="access_thirdparty_alipay_unbind">Trennen</string>
+    <string name="access_thirdparty_alipay_unbind_alert">Ihre Schrittdaten werden nicht mit Alipay synchronisiert.</string>
+    <string name="access_thirdparty_alipay_unbind_error">Trennen nicht möglich. Erneut versuchen.</string>
+    <string name="access_thirdparty_aplipay_thirdparty_desc">Um Schrittdaten mit Alipay zu teilen, tippen Sie auf \"Verbinden\" und folgen Sie den Anweisungen auf dem Bildschirm.</string>
+    <string name="access_thirdparty_authentication_failed">Verbinden nbicht möglich. Erneut versuchen.</string>
+    <string name="access_thirdparty_bind_failed">Netzwerkeinstellungen prüfen und erneut versuchen</string>
+    <string name="access_thirdparty_explain">Wenn Sie Mi Fitness mit %1$s verbinden, werden Ihre Trainingsdaten (z. B. Kalorien, Entfernung, Zeit, Herzfrequenz) mit %2$s geteilt.</string>
     <string name="access_thirdparty_strava_explain">Your data on Strava may look different from that on Mi Fitness due to different algorithms used by each app.</string>
     <string name="access_thirdparty_sync_to">Connect to %1$s</string>
     <string name="access_thirdparty_title">Connect to %1$s</string>
