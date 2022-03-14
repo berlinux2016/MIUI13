@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <resources>
     <plurals name="a_hour_ago">
         <item quantity="other">Vor 1 Stunde</item>
@@ -205,8 +205,8 @@
         <item quantity="one">Periodentag %d</item>
     </plurals>
     <plurals name="health_curse_in_start_before">
-        <item quantity="other">Period in %d days</item>
-        <item quantity="one">Period in %d day</item>
+        <item quantity="other">Periode in %d Tagen</item>
+        <item quantity="one">Periode in %d Tag</item>
     </plurals>
     <plurals name="health_curse_in_start_will">
         <item quantity="other">Periode in %d Tagen</item>
@@ -445,5 +445,8 @@ Es dauert etwa %1$d Min. "&lt; /Data></item>
     <plurals name="userinfo_unit_min">
         <item quantity="other">Min</item>
         <item quantity="one">Min</item>
+    </plurals>
+    <plurals name="userinfo_user_age_display_format_year">
+        <item quantity="other">%1$d Jahr</item>
     </plurals>
 </resources>
