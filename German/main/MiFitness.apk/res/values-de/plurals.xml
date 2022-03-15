@@ -65,6 +65,14 @@
         <item quantity="other">%d Sitzungen</item>
         <item quantity="one">%d Sitzung</item>
     </plurals>
+    <plurals name="course_practised_num">
+        <item quantity="other">%d-mal geübt</item>
+        <item quantity="one">%d-mal geübt</item>
+    </plurals>
+    <plurals name="course_start_times">
+        <item quantity="other">%d Übungen starten</item>
+        <item quantity="one">%d Übung starten</item>
+    </plurals>
     <plurals name="day_in_simplify">
         <item quantity="other">" %1$d Tg"</item>
         <item quantity="one">" %1$d Tg"</item>
@@ -306,7 +314,7 @@
     </plurals>
     <plurals name="mtrl_badge_content_description">
         <item quantity="other">%d neue Benachrichtigungen</item>
-        <item quantity="one">%d neue Benachrichtigungen</item>
+        <item quantity="one">%d neue Benachrichtigung</item>
     </plurals>
     <plurals name="nfc_common_unit_word_des">
         <item quantity="other">Sie können bis zu %1$d Zeichen eingeben</item>
@@ -314,9 +322,9 @@
     </plurals>
     <plurals name="nfc_issue_card_hold_on_">
         <item quantity="other">&lt;Data>"Lassen Sie das Gerät mit Ihrem Telefon verbunden.
-Es dauert etwa %1$d Min. "&lt; /Data></item>
+Es dauert etwa %1$d Min. "&lt;/Data></item>
         <item quantity="one">&lt;Data>Lassen Sie das Gerät mit Ihrem Telefon verbunden.
-Es dauert etwa %1$d Min. "&lt; /Data></item>
+Es dauert etwa %1$d Min. "&lt;/Data></item>
     </plurals>
     <plurals name="notify_sms_reply_delay_time">
         <item quantity="other">%1$d Sek</item>
@@ -387,8 +395,8 @@ Es dauert etwa %1$d Min. "&lt; /Data></item>
         <item quantity="one">%1$d Std</item>
     </plurals>
     <plurals name="unit_min_1">
-        <item quantity="other">" mins"</item>
-        <item quantity="one">" min"</item>
+        <item quantity="other">" Min"</item>
+        <item quantity="one">" Min"</item>
     </plurals>
     <plurals name="unit_min_2">
         <item quantity="other">" Min"</item>
@@ -447,6 +455,7 @@ Es dauert etwa %1$d Min. "&lt; /Data></item>
         <item quantity="one">Min</item>
     </plurals>
     <plurals name="userinfo_user_age_display_format_year">
-        <item quantity="other">%1$d Jahr</item>
+        <item quantity="other">%1$d Jahre</item>
+        <item quantity="one">%1$d Jahr</item>
     </plurals>
 </resources>
