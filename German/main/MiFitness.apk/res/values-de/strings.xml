@@ -673,7 +673,7 @@ Um Ihre Änderungen auf Ihr tragbares Gerät zu übertragen, gehen Sie zu App-La
     <string name="device_settings_bluetooth_broadcast_des">Machen Sie Ihr tragbares Gerät für alle Bluetooth-Geräte in der Nähe sichtbar</string>
     <string name="device_settings_broadcast_dialog">Bluetooth-Geräte von Drittanbietern sammeln Informationen wie Ihre Schrittzahl und die MAC-Adresse Ihres tragbaren Geräts. Dies kann Risiken für die Informationssicherheit bedeuten. Das Aktivieren dieser Funktion beeinträchtigt die Akkulaufzeit. Trotzdem fortfahren?</string>
     <string name="device_settings_button_app_list_view">Apps sortieren</string>
-    <string name="device_settings_button_breath_view">Atmen</string>
+    <string name="device_settings_button_breath_view">Atmung</string>
     <string name="device_settings_button_calendar_view">Termine</string>
     <string name="device_settings_button_card_view">Karten</string>
     <string name="device_settings_button_energy_view">Energie</string>
@@ -694,7 +694,7 @@ Um Ihre Änderungen auf Ihr tragbares Gerät zu übertragen, gehen Sie zu App-La
     <string name="device_settings_common_add_failed">Hinzufügen nicht möglich</string>
     <string name="device_settings_common_band">Bandanzeige</string>
     <string name="device_settings_common_ble_pair">Koppeln</string>
-    <string name="device_settings_common_breath">Atmen</string>
+    <string name="device_settings_common_breath">Atmung</string>
     <string name="device_settings_common_calendar">Kalender</string>
     <string name="device_settings_common_card">Karten</string>
     <string name="device_settings_common_clock">Zifferblatt</string>
@@ -1801,15 +1801,13 @@ Um nicht den ganzen Tag zu sitzen, steh und bewege dich während 12 oder mehr St
     <string name="health_data_stand_home_desc">Stehen %1$s</string>
     <string name="health_data_stand_top_desc">Stehen %1$s</string>
     <string name="health_data_stand_unfinished">Du bist nicht aufgestanden</string>
-    <string name="health_data_target_desc">%1$s</string>
-    <string name="health_data_time_content_desc">%1$s | %2$s</string>
-    <string name="health_data_title_calendar_day">T</string>
-    <string name="health_data_title_calendar_month">M</string>
-    <string name="health_data_title_calendar_week">W</string>
-    <string name="health_data_title_day">T</string>
-    <string name="health_data_title_month">M</string>
+    <string name="health_data_title_calendar_day">Tag</string>
+    <string name="health_data_title_calendar_month">Monat</string>
+    <string name="health_data_title_calendar_week">Woche</string>
+    <string name="health_data_title_day">Tag</string>
+    <string name="health_data_title_month">Monat</string>
     <string name="health_data_title_statistic">Trend</string>
-    <string name="health_data_title_week">W</string>
+    <string name="health_data_title_week">Woche</string>
     <string name="health_data_type_altitude">Erhöhung</string>
     <string name="health_data_type_blood_pressure">Blutdruck</string>
     <string name="health_data_type_calorie">Kalorien</string>
@@ -1832,10 +1830,7 @@ Um nicht den ganzen Tag zu sitzen, steh und bewege dich während 12 oder mehr St
     <string name="health_data_week_empty">Keine Daten</string>
     <string name="health_data_weight_rest_home_desc">Gewicht %1$s kg</string>
     <string name="health_date">Datum</string>
-    <string name="health_date_range">%1$s–%2$s</string>
-    <string name="health_decibel">dB</string>
-    <string name="health_decibel_number">dB</string>
-    <string name="health_deep_shallow_sleep_detection">Analyze sleep cycle</string>
+    <string name="health_deep_shallow_sleep_detection">Schlafzyklus analysieren</string>
     <string name="health_deep_sleep_percentage">Tiefschlaf</string>
     <string name="health_delete_record">Aufnahme löschen</string>
     <string name="health_dialog_cancel">Abbrechen</string>
@@ -1845,10 +1840,7 @@ Um nicht den ganzen Tag zu sitzen, steh und bewege dich während 12 oder mehr St
     <string name="health_dialog_delete">Aufnahme löschen</string>
     <string name="health_dialog_delete_sure">Löschen</string>
     <string name="health_dialog_known">Verstanden</string>
-    <string name="health_dialog_ok">OK</string>
-    <string name="health_dialog_sure">OK</string>
-    <string name="health_enable_go_now">OK</string>
-    <string name="health_enable_snore_sleepwords_detection">Detect snoring and talking</string>
+    <string name="health_enable_snore_sleepwords_detection">Schnarchen und Sprechen erkennen</string>
     <string name="health_end_date">Ende</string>
     <string name="health_energy_level_enough_simple">Energiegeladen</string>
     <string name="health_energy_level_exhausted_simple">Erschöpft</string>
@@ -1866,7 +1858,7 @@ Um nicht den ganzen Tag zu sitzen, steh und bewege dich während 12 oder mehr St
     <string name="health_environmental_noise_level">Umgebungsgeräuschpegel</string>
     <string name="health_environmental_volume">Umgebungsgeräusche</string>
     <string name="health_exercise_good_condition">Optimal</string>
-    <string name="health_exercise_intensity_desc">Die Workoutsbelastung basiert grundsätzlich auf der EPOC- (übermäßiger Sauerstoffverbrauch nach Belastung) Messung der letzten 7 Tage und bemisst sich anschließend an dem individuellen Fitnesslevel sowie der längerfristigen Workoutsbelastung.</string>
+    <string name="health_exercise_intensity_desc">Die Trainingsbelastung basiert grundsätzlich auf der EPOC-Messung (übermäßiger Sauerstoffverbrauch nach Belastung) der letzten 7 Tage und bemisst sich anschließend an dem individuellen Fitnesslevel sowie der längerfristigen Trainingssbelastung.</string>
     <string name="health_exercise_intensity_good">Optimal</string>
     <string name="health_exercise_intensity_lack">Niedrig</string>
     <string name="health_exercise_intensity_lacking">Niedrig</string>
@@ -1878,19 +1870,16 @@ Um nicht den ganzen Tag zu sitzen, steh und bewege dich während 12 oder mehr St
 
 Bitte beachten Sie, dass die Daten zum hohen Puls weder für medizinische Zwecke noch zur Diagnose, Behandlung, Heilung oder Vorbeugung einer Krankheit oder eines Zustands bestimmt sind."</string>
     <string name="health_give_up_sport">Verwerfen</string>
-    <string name="health_goal_page_desc">%1$d/%2$d</string>
     <string name="health_hearing_ambient_volume_higher">Laute Umgebungsgeräusche</string>
     <string name="health_hearing_duration">Alle Geräusche</string>
     <string name="health_hearing_environmental_noise_description">Wenn Sie Ihren Kopfhörer benutzen, misst die App den Geräuschpegel in Ihrer Umgebung. Geräusche gelten als laut, wenn sie über 60 Dezibel liegen. Eine längere Exposition gegenüber lauten Geräuschen kann Gehörschäden verursachen. Um Ihr Gehör bei lauten Aktivitäten zu schützen, sollten Sie Ohrstöpsel tragen, Kopfhörer mit Geräuschunterdrückung verwenden oder sich von lauten Geräuschen fernhalten.</string>
     <string name="health_hearing_environmental_noise_too_high_title">Laute Umgebungsgeräusche</string>
     <string name="health_hearing_high_voice">Laute Geräusche</string>
     <string name="health_hearing_high_voice_duration">Laute Geräusche</string>
-    <string name="health_hearing_home_title">%s</string>
     <string name="health_hearing_noise_level_extreme">Sehr laut</string>
     <string name="health_hearing_noise_level_extreme_description">Längerer Kontakt mit sehr lauten Geräuschen kann zu Gehörschäden führen. Um Ihr Gehör zu schützen, sollten Sie Ohrstöpsel tragen, Kopfhörer mit Geräuschunterdrückung verwenden oder sich von lautem Lärm fernhalten.</string>
     <string name="health_hearing_noise_level_high">Laut</string>
     <string name="health_hearing_noise_level_high_description">Ihre aktuelle Umgebung scheint sehr laut zu sein. Wenn Sie Kopfhörer verwenden, sollten Sie die Geräuschunterdrückung nutzen und die Lautstärke reduzieren.</string>
-    <string name="health_hearing_noise_level_pleasant">OK</string>
     <string name="health_hearing_noise_level_pleasant_description">Geräusche unter 60 dB sollten keine Hörschäden verursachen. Sie können die Konzentration fördern.</string>
     <string name="health_hearing_only_for_reference">Die Statistiken sind lediglich als Referenz angegeben. Sie können nicht als Grundlage für eine medizinische Diagnose verwendet werden.</string>
     <string name="health_hearing_prompt">Insgesamt: %1$s | Laute Geräusche: %2$s</string>
@@ -1920,8 +1909,7 @@ Bitte beachte, dass die Daten zum niedrigen Puls weder für medizinische Zwecke 
     <string name="health_light_sleep_percentage">Leichtschlaf</string>
     <string name="health_login_no_desc">Melde dich an, um dein Gerät zu synchronisieren</string>
     <string name="health_login_no_title">Anmelden</string>
-    <string name="health_login_open">OK</string>
-    <string name="health_login_part_desc">Alle Angaben helfen, die Genauigkeit der Workoutsdaten zu verbessern.</string>
+    <string name="health_login_part_desc">Alle Angaben helfen, die Genauigkeit der Trainingsdaten zu verbessern.</string>
     <string name="health_login_part_title">Vervollständige dein Profil</string>
     <string name="health_main_health_status">My health routine</string>
     <string name="health_main_mine_personal_info">Mein Profil</string>
@@ -1933,7 +1921,7 @@ Bitte beachte, dass die Daten zum niedrigen Puls weder für medizinische Zwecke 
 Sie sehen Ihre \"Bewegung\", wenn Ihre Schrittfrequenz 100 SPM oder Ihr Puls 65 % Ihres Maximalpulses überschreitet."</string>
     <string name="health_mh_total_time">Gesamt</string>
     <string name="health_motion_recognizer">Einstellungen</string>
-    <string name="health_pai_acquire_desc">%2$s PAI (Um %1$s)</string>
+    <string name="health_pai_acquire_desc">%2$s PAI (um %1$s)</string>
     <string name="health_pai_content_0">Sammeln Sie PAI mit jeder Aktivität, die Ihr Herz zum Schlagen bringt.</string>
     <string name="health_pai_content_1">Beginnen Sie mit einem Ziel von 30 PAI und arbeiten Sie sich in 7 Tagen auf 100 hoch.</string>
     <string name="health_pai_content_2">Jeden Morgen verfallen die PAI, die Sie vor 7 Tagen verdient haben. Bleiben Sie aktiv, um Ihren PAI-Wert über 100 zu halten.</string>
@@ -2101,8 +2089,8 @@ Referenzbereich: 10–30 %"</string>
     <string name="health_stand_setting_sedentary">Einstellungen</string>
     <string name="health_step_active_find_more">Alle anzeigen</string>
     <string name="health_step_count_name">Schritte</string>
-    <string name="health_steps_detail_avg">Ø-Schritte</string>
-    <string name="health_steps_detail_avg_total">Ø-Distanz</string>
+    <string name="health_steps_detail_avg">Ø Schritte</string>
+    <string name="health_steps_detail_avg_total">Ø Distanz</string>
     <string name="health_steps_detail_distance_today">Distanz</string>
     <string name="health_steps_detail_distance_total">Gesamtstrecke</string>
     <string name="health_steps_detail_today">Schritte</string>
