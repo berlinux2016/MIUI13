@@ -43,7 +43,7 @@
     <string name="about_privacy_participate_improvement_plan">Anmeldung zum Benutzererfahrungsprogramm</string>
     <string name="about_privacy_revoke_account_confirm">Autorisierung widerrufen?</string>
     <string name="about_privacy_revoke_account_des">Autorisierung widerrufen</string>
-    <string name="about_privacy_revoke_account_ok">Wenn Sie die Autorisierung widerrufen, wird das derzeit auf dem Gerät angemeldete Konto entfernt, und die zuvor auf dem Server gespeicherten zugehörigen Daten werden gelöscht. Um Daten auf Ihrem gekoppelten Gerät zu löschen, lesen Sie den Abschnitt Widerruf Zustimmung in unserer Datenschutzerklärung. Wenn Sie ein tragbares Gerät verwenden, löscht ein Werksreset alle darauf gespeicherten Daten. Wenn Sie Ihre Meinung ändern, können Sie Ihre Daten nicht wiederherstellen. Sie müssen unserer Datenschutzerklärung erneut zustimmen und Ihr Gerät koppeln, wenn Sie es verwenden möchten.</string>
+    <string name="about_privacy_revoke_account_ok">Wenn Sie die Autorisierung widerrufen, wird das derzeit auf dem Gerät angemeldete Konto entfernt, und die zuvor auf dem Server gespeicherten zugehörigen Daten werden gelöscht. Um Daten auf Ihrem gekoppelten Gerät zu löschen, lesen Sie den Abschnitt Widerruf Zustimmung in unserer Datenschutzerklärung. Wenn Sie ein Wearable-Gerät verwenden, löscht ein Werksreset alle darauf gespeicherten Daten. Wenn Sie Ihre Meinung ändern, können Sie Ihre Daten nicht wiederherstellen. Sie müssen unserer Datenschutzerklärung erneut zustimmen und Ihr Gerät koppeln, wenn Sie es verwenden möchten.</string>
     <string name="about_privacy_revoke_account_tips">"Wenn Sie Ihre Zustimmung zu unserer Datenschutzerklärung widerrufen, werden wir die Erfassung Ihrer personenbezogenen Daten einstellen. Ihr Konto wird auf Ihrem Telefon abgemeldet. Die bereits gesammelten und gespeicherten personenbezogenen Daten werden gemäß den geltenden Gesetzen und Vorschriften innerhalb eines bestimmten Zeitraums gelöscht, sofern nicht anders gefordert. Um App-Daten von Ihrem Telefon zu löschen, entfernen Sie diese App von Ihrem Telefon oder löschen Sie App-Daten in den Einstellungen.
 1. Das derzeit auf dem gekoppelten Gerät angemeldete Konto wird entfernt und die zugehörigen Daten, die zuvor auf dem Server gespeichert wurden, werden gelöscht. Sie können die auf Ihrem gekoppelten Gerät gespeicherten Daten (z. B. Schlafdaten, Schritte) durch einen Werksreset löschen. Weitere Einzelheiten finden Sie unter Widerruf Zustimmung in unserer Datenschutzerklärung. Wenn Sie Ihre Meinung ändern, können Sie die oben genannten Daten ggf. nicht mehr wiederherstellen. Um Ihre Geräte verwenden zu können, müssen Sie sie erneut koppeln.
 
@@ -77,7 +77,7 @@ Wenn Sie Ihre Meinung ändern, müssen Sie vor der Nutzung unserer Dienste unser
     <string name="about_setting">Einstellungen</string>
     <string name="about_setting_data_cloud_sync_tip">Sichern Sie Ihre Trainings- und Fitnessdaten Ihres Telefons und synchronisieren Sie Daten von anderen Geräten</string>
     <string name="about_setting_device_show_connection_notification">Verbindungswarnungen</string>
-    <string name="about_setting_device_show_connection_notification_des">Erhalten Sie Benachrichtigungen, wenn Ihr tragbares Gerät mit Ihrem Telefon verbunden oder von ihm getrennt wird</string>
+    <string name="about_setting_device_show_connection_notification_des">Erhalten Sie Benachrichtigungen, wenn Ihr Wearable-Gerät mit Ihrem Telefon verbunden oder von ihm getrennt wird</string>
     <string name="about_setting_network">Netzwerkeinstellungen überprüfen</string>
     <string name="about_setting_newmsg_notify">Benachrichtigungen</string>
     <string name="about_setting_newmsg_notify_closed_desc">Einschalten, um Benachrichtigungen von dieser App zu erhalten</string>
@@ -190,7 +190,7 @@ Wenn Sie Ihre Meinung ändern, müssen Sie vor der Nutzung unserer Dienste unser
     <string name="activity_not_found_notice">App nicht gefunden</string>
     <string name="add_device">Gerät hinzufügen</string>
     <string name="add_to_trust_device">Dies ist ein vertrauenswürdiges Gerät</string>
-    <string name="add_wifi_desc">Um Ihr tragbares Gerät mit dem WLAN zu verbinden, geben Sie das Passwort für \"%1$s\" ein.</string>
+    <string name="add_wifi_desc">Um Ihr Wearable-Gerät mit dem WLAN zu verbinden, geben Sie das Passwort für \"%1$s\" ein.</string>
     <string name="add_wifi_title">Passwort eingeben</string>
     <string name="afternoon">Nachmittag</string>
     <string name="agree">Zulassen</string>
@@ -618,7 +618,7 @@ Wenn Sie Ihre Meinung ändern, müssen Sie vor der Nutzung unserer Dienste unser
     <string name="device_settings__common_unopen">Aus</string>
     <string name="device_settings_about_device">Über das Gerät</string>
     <string name="device_settings_add_item_tip">Sie können bis zu 30 Workouts hinzufügen</string>
-    <string name="device_settings_add_new_battry_alert">Lange Vibrationen beeinträchtigen die Lebensdauer des Akkus</string>
+    <string name="device_settings_add_new_battry_alert">Lange Vibrationen beeinträchtigen die Akkulaufzeit</string>
     <string name="device_settings_add_new_click_alert">Tippen Sie auf Ihr Telefon, um ein Vibrationsmuster auf Ihrem tragbaren Gerät zu erzeugen</string>
     <string name="device_settings_add_new_name">Neue Vibration</string>
     <string name="device_settings_add_new_vibrate">Neue Vibration</string>
@@ -635,7 +635,7 @@ Wenn Sie Ihre Meinung ändern, müssen Sie vor der Nutzung unserer Dienste unser
     <string name="device_settings_alarm_every_day">Täglich</string>
     <string name="device_settings_alarm_limit_add_number_expression">Keine Alarme.\nSie können bis zu %1$s hinzufügen.</string>
     <string name="device_settings_alarm_mondy_friday">Mo bis Fr</string>
-    <string name="device_settings_alarm_notify_setting_desc">Ihr tragbares Gerät vibriert, wenn eFin Alarm auf Ihrem Telefon ausgelöst wird</string>
+    <string name="device_settings_alarm_notify_setting_desc">Ihr Wearable-Gerät vibriert, wenn eFin Alarm auf Ihrem Telefon ausgelöst wird</string>
     <string name="device_settings_alarm_notify_setting_open">Alarme vom Telefon synchronisieren</string>
     <string name="device_settings_alarm_notify_tip">Alarme mit Ihrem tragbaren Gerät synchronisieren, wenn es mit Ihrem Telefon verbunden ist</string>
     <string name="device_settings_alarm_notify_title">Alarme vom Telefon synchronisieren</string>
@@ -647,7 +647,7 @@ Wenn Sie Ihre Meinung ändern, müssen Sie vor der Nutzung unserer Dienste unser
     <string name="device_settings_app_notify">Benachrichtigungen</string>
     <string name="device_settings_app_sort_setting">Apps sortieren</string>
     <string name="device_settings_app_sort_toptips">"Taste Sortieren gedrückt halten, um die Elemente neu anzuordnen.
-Um Ihre Änderungen auf Ihr tragbares Gerät zu übertragen, gehen Sie zu App-Layout und wählen Sie \"Raster\"."</string>
+Um Ihre Änderungen auf Ihr Wearable-Gerät zu übertragen, gehen Sie zu App-Layout und wählen Sie \"Raster\"."</string>
     <string name="device_settings_appsort_drag_hided_item_here">Um Elemente auszublenden, ziehen Sie sie hierher.</string>
     <string name="device_settings_appsort_drag_unusual_item_here">⁣Weniger häufig verwendete Elemente hierher ziehen</string>
     <string name="device_settings_appsort_more">Selten verwendete Elemente</string>
@@ -657,9 +657,9 @@ Um Ihre Änderungen auf Ihr tragbares Gerät zu übertragen, gehen Sie zu App-La
     <string name="device_settings_appsort_setting">Einstellungen</string>
     <string name="device_settings_appsort_sync_failed">Synchronisieren nicht möglich</string>
     <string name="device_settings_appsort_sync_success">Erfolgreich synchronisiert</string>
-    <string name="device_settings_assist_sleep_open_msg">Die Aktivierung dieser Funktion wird sich auf die Lebensdauer des Akkus auswirken, trotzdem weitermachen?</string>
+    <string name="device_settings_assist_sleep_open_msg">Die Aktivierung dieser Funktion wird sich auf die Akkulaufzeit auswirken, trotzdem weitermachen?</string>
     <string name="device_settings_assist_sleep_open_title">Achtung</string>
-    <string name="device_settings_authorize_unlock_laptop_description">Um diese Funktion zu nutzen, öffnen Sie Mi Blaze Unlock auf Ihrem Laptop und koppeln Sie Ihr Wearable-Gerät mit ihm.</string>
+    <string name="device_settings_authorize_unlock_laptop_description">Um diese Funktion zu nutzen, öffnen Sie Mi Blaze Unlock auf Ihrem Laptop und koppeln Sie Ihr Wearable-Gerät damit.</string>
     <string name="device_settings_battery_tip">Achtung</string>
     <string name="device_settings_ble_pair_failure">Koppeln nicht möglich</string>
     <string name="device_settings_ble_pair_success">Erfolgreich gekoppelt</string>
@@ -670,7 +670,7 @@ Um Ihre Änderungen auf Ihr tragbares Gerät zu übertragen, gehen Sie zu App-La
     <string name="device_settings_ble_watch_widget_disable_label">Ausgeblendete Elemente</string>
     <string name="device_settings_ble_watch_widget_enable_label">Taste Sortieren gedrückt halten, um Widgets neu anzuordnen</string>
     <string name="device_settings_bluetooth_broadcast">Erkennungsmodus</string>
-    <string name="device_settings_bluetooth_broadcast_des">Machen Sie Ihr tragbares Gerät für alle Bluetooth-Geräte in der Nähe sichtbar</string>
+    <string name="device_settings_bluetooth_broadcast_des">Machen Sie Ihr Wearable-Gerät für alle Bluetooth-Geräte in der Nähe sichtbar</string>
     <string name="device_settings_broadcast_dialog">Bluetooth-Geräte von Drittanbietern sammeln Informationen wie Ihre Schrittzahl und die MAC-Adresse Ihres tragbaren Geräts. Dies kann Risiken für die Informationssicherheit bedeuten. Das Aktivieren dieser Funktion beeinträchtigt die Akkulaufzeit. Trotzdem fortfahren?</string>
     <string name="device_settings_button_app_list_view">Apps sortieren</string>
     <string name="device_settings_button_breath_view">Atmung</string>
@@ -747,7 +747,7 @@ Um Ihre Änderungen auf Ihr tragbares Gerät zu übertragen, gehen Sie zu App-La
     <string name="device_settings_customize_schedule">Terminplan</string>
     <string name="device_settings_desc_pressure">Stressniveau über den Tag hinweg messen</string>
     <string name="device_settings_detection_activity">Aktivitätserkennung</string>
-    <string name="device_settings_detection_activity_des">Überwachungsfrequenz erhöhen, wenn Ihr tragbares Gerät ein Training feststellt</string>
+    <string name="device_settings_detection_activity_des">Überwachungsfrequenz erhöhen, wenn Ihr Wearable-Gerät ein Training feststellt</string>
     <string name="device_settings_detection_continuous_measure">24 Std</string>
     <string name="device_settings_detection_frequency">Frequenz</string>
     <string name="device_settings_detection_frequency_des">Pulsfrequenz zur Überwachung festlegen</string>
@@ -803,7 +803,7 @@ Die Aktivierung dieser Funktion wirkt sich auf die Akkulaufzeit aus. Trotzdem fo
     <string name="device_settings_emergency_contact_desc_62">3-mal schnell die Abwärtstaste drücken, um Ihren Notrufkontakt anzurufen</string>
     <string name="device_settings_emergency_contact_tips">"1. Um diese Funktion zu nutzen, richten Sie eine Rufnummer in Ihrem Land oder Ihrer Region ein.
 2. Es empfiehlt sich, Ihren Notfallkontakt zu benachrichtigen, dass er in der Liste aufgeführt ist.
-3. Lassen Sie Ihr tragbares Gerät mit Ihrem Telefon verbunden.
+3. Lassen Sie Ihr Wearable-Gerät mit Ihrem Telefon verbunden.
 4. Schalten Sie Bluetooth auf Ihrem Handy ein und halten Sie es mit Ihrem tragbaren Gerät verbunden."</string>
     <string name="device_settings_emergency_contact_title">Notfall-SOS</string>
     <string name="device_settings_emergency_contact_toast">Erforderliche Infos hinzufügen</string>
@@ -826,10 +826,10 @@ Die Aktivierung dieser Funktion wirkt sich auf die Akkulaufzeit aus. Trotzdem fo
     <string name="device_settings_finding_devices">Gerät finden…</string>
     <string name="device_settings_firmware_not_support">Erst Gerät aktualisieren</string>
     <string name="device_settings_goal_remind">Zielalarm</string>
-    <string name="device_settings_goal_remind_desc">Ihr tragbares Gerät vibriert, wenn Sie ein Ziel erreichen</string>
+    <string name="device_settings_goal_remind_desc">Ihr Wearable-Gerät vibriert, wenn Sie ein Ziel erreichen</string>
     <string name="device_settings_health_monitor">Gesundheitsüberwachung</string>
     <string name="device_settings_heart_active">Aktivitätserkennung</string>
-    <string name="device_settings_heart_desc_active">Frequenz der Pulsmessung erhöhen, wenn Ihr tragbares Gerät ein Workout erkennt</string>
+    <string name="device_settings_heart_desc_active">Frequenz der Pulsmessung erhöhen, wenn Ihr Wearable-Gerät ein Workout erkennt</string>
     <string name="device_settings_heart_mode_full">Puls &amp; Schlaf</string>
     <string name="device_settings_heart_mode_full_desc">\"Automatische Pulsmessung\" und \"Unterstützte Schlafüberwachung\" verwenden, um mehr Daten zu erhalten</string>
     <string name="device_settings_heart_mode_sleep">Schlaf</string>
@@ -857,7 +857,7 @@ Die Aktivierung dieser Funktion wirkt sich auf die Akkulaufzeit aus. Trotzdem fo
     <string name="device_settings_hypoxemia_notice_des">Benachrichtigen, wenn SpO₂-Messwerte während der Wachzeit unter dem eingestellten Wert liegen</string>
     <string name="device_settings_hypoxemia_notice_threshold_title">Warnwert</string>
     <string name="device_settings_hypoxemia_notice_title">Blutsauerstoffalarm</string>
-    <string name="device_settings_illegal_bind_tips">Ihr tragbares Gerät hat mehrere Bluetooth-Kopplungsanfragen von anderen Apps erhalten. Wenn Sie das nicht waren, aktivieren Sie die Kopplungsbeschränkungen.</string>
+    <string name="device_settings_illegal_bind_tips">Ihr Wearable-Gerät hat mehrere Bluetooth-Kopplungsanfragen von anderen Apps erhalten. Wenn Sie das nicht waren, aktivieren Sie die Kopplungsbeschränkungen.</string>
     <string name="device_settings_incoming_call">Ankommende Anrufe</string>
     <string name="device_settings_intelligent_alarm">Intelligent</string>
     <string name="device_settings_intelligent_notify">Intelligentes Aufwachen</string>
@@ -865,9 +865,9 @@ Die Aktivierung dieser Funktion wirkt sich auf die Akkulaufzeit aus. Trotzdem fo
     <string name="device_settings_language_setting">Sprache</string>
     <string name="device_settings_left_handle">Links</string>
     <string name="device_settings_limit_bind">Kopplungsbeschränkungen</string>
-    <string name="device_settings_limit_bind_des">"1. Um Ihr tragbares Gerät mit einer anderen App zu koppeln, schalten Sie diese Funktion aus.
-2. Die Funktion ist standardmäßig ausgeschaltet, wenn Sie Ihr tragbares Gerät auf die Werkseinstellungen zurücksetzen."</string>
-    <string name="device_settings_limit_bind_switch_tips">Tragbares Gerät darf nicht mit einer anderen App gekoppelt werden</string>
+    <string name="device_settings_limit_bind_des">"1. Um Ihr Wearable-Gerät mit einer anderen App zu koppeln, schalten Sie diese Funktion aus.
+2. Die Funktion ist standardmäßig ausgeschaltet, wenn Sie Ihr Wearable-Gerät auf die Werkseinstellungen zurücksetzen."</string>
+    <string name="device_settings_limit_bind_switch_tips">Wearable-Gerät darf nicht mit einer anderen App gekoppelt werden</string>
     <string name="device_settings_limit_hint">Tipps</string>
     <string name="device_settings_load_data_failed">Info laden nicht möglich</string>
     <string name="device_settings_lock_off_wrist">Handgelenkerkennung</string>
@@ -929,8 +929,8 @@ Dieser Schritt ist erforderlich, um mit Ihrem Gerät zu bezahlen."</string>
     <string name="device_settings_reminder_today_items">Heute: %1$s</string>
     <string name="device_settings_reminder_tomorrow_items">Morgen: %1$s</string>
     <string name="device_settings_revoke_authorization">Autorisierung widerrufen</string>
-    <string name="device_settings_revoke_authorization_dialog_content">Wenn Sie fortfahren, widerrufen Sie Ihre Zustimmung zu unserer Datenschutzerklärung. Das derzeit auf Ihrem gekoppelten Gerät angemeldete Konto wird entfernt. Um Ihre in Mi Fitness gespeicherten Daten zu löschen, löschen Sie Ihren Mi Fitness-Dienst. Um Daten auf Ihrem gekoppelten Gerät zu löschen, lesen Sie den Abschnitt Widerruf Zustimmung in unserer Datenschutzerklärung. Wenn Sie ein tragbares Gerät verwenden, werden durch den Werksreset alle Ihre Daten darauf gelöscht. Wenn Sie Ihre Meinung ändern, können Sie Ihre Daten nicht wiederherstellen. Sie müssen unserer Datenschutzerklärung erneut zustimmen und Ihr Gerät koppeln, wenn Sie es verwenden möchten.</string>
-    <string name="device_settings_revoke_authorization_dialog_content_oversea">"Wenn Sie die Genehmigung widerrufen, wird das derzeit auf dem Gerät angemeldete Konto entfernt und die zugehörigen Daten, die zuvor auf dem Server gespeichert waren, werden gelöscht. Um Daten auf Ihrem gekoppelten Gerät zu löschen, lesen Sie den Abschnitt Widerruf Zustimmung in unserer Datenschutzerklärung. Wenn Sie ein tragbares Gerät verwenden, löscht ein Werksreset alle Ihre Daten darauf. Wenn Sie Ihre Meinung ändern, können Sie Ihre Daten nicht wiederherstellen. Sie müssen unserer Datenschutzerklärung erneut zustimmen und Ihr Gerät koppeln, wenn Sie es verwenden möchten.
+    <string name="device_settings_revoke_authorization_dialog_content">Wenn Sie fortfahren, widerrufen Sie Ihre Zustimmung zu unserer Datenschutzerklärung. Das derzeit auf Ihrem gekoppelten Gerät angemeldete Konto wird entfernt. Um Ihre in Mi Fitness gespeicherten Daten zu löschen, löschen Sie Ihren Mi Fitness-Dienst. Um Daten auf Ihrem gekoppelten Gerät zu löschen, lesen Sie den Abschnitt Widerruf Zustimmung in unserer Datenschutzerklärung. Wenn Sie ein Wearable-Gerät verwenden, werden durch den Werksreset alle Ihre Daten darauf gelöscht. Wenn Sie Ihre Meinung ändern, können Sie Ihre Daten nicht wiederherstellen. Sie müssen unserer Datenschutzerklärung erneut zustimmen und Ihr Gerät koppeln, wenn Sie es verwenden möchten.</string>
+    <string name="device_settings_revoke_authorization_dialog_content_oversea">"Wenn Sie die Genehmigung widerrufen, wird das derzeit auf dem Gerät angemeldete Konto entfernt und die zugehörigen Daten, die zuvor auf dem Server gespeichert waren, werden gelöscht. Um Daten auf Ihrem gekoppelten Gerät zu löschen, lesen Sie den Abschnitt Widerruf Zustimmung in unserer Datenschutzerklärung. Wenn Sie ein Wearable-Gerät verwenden, löscht ein Werksreset alle Ihre Daten darauf. Wenn Sie Ihre Meinung ändern, können Sie Ihre Daten nicht wiederherstellen. Sie müssen unserer Datenschutzerklärung erneut zustimmen und Ihr Gerät koppeln, wenn Sie es verwenden möchten.
 Die entsprechenden Gerätedaten werden innerhalb von 7 Tagen gelöscht."</string>
     <string name="device_settings_revoke_authorization_dialog_title">Achtung</string>
     <string name="device_settings_revoke_authorization_dialog_title_oversea">Autorisierung widerrufen?</string>
@@ -942,7 +942,7 @@ Die entsprechenden Gerätedaten werden innerhalb von 7 Tagen gelöscht."</string
     <string name="device_settings_sedentary_remind">Stehen</string>
     <string name="device_settings_sedentary_rest">Leerlaufalarm von 12:00 bis 14:00 stummschalten</string>
     <string name="device_settings_sedentary_state">Leerlaufalarm</string>
-    <string name="device_settings_sedentary_tip">Ihr tragbares Gerät vibriert, wenn Sie sich 1 Stunde lang nicht bewegen</string>
+    <string name="device_settings_sedentary_tip">Ihr Wearable-Gerät vibriert, wenn Sie sich 1 Stunde lang nicht bewegen</string>
     <string name="device_settings_set_period">Terminplan</string>
     <string name="device_settings_sleep_detection">Schlafzyklus analysieren</string>
     <string name="device_settings_sleep_model">Schlafmodus</string>
@@ -1010,7 +1010,7 @@ Die entsprechenden Gerätedaten werden innerhalb von 7 Tagen gelöscht."</string
     <string name="device_settings_unlock_phone_success_dialog_message">Um diese Funktion zu deaktivieren, schalten Sie \"Gerät entsperren\" in den Einstellungen auf Ihrem Telefon aus.</string>
     <string name="device_settings_unlock_phone_success_dialog_title">\"Telefon entsperren\" ist bereit!</string>
     <string name="device_settings_unlock_phone_unlock_distance">Reichweite</string>
-    <string name="device_settings_unwear_alert">Tragbares Gerät sperren, wenn Sie es nicht tragen</string>
+    <string name="device_settings_unwear_alert">Wearable-Gerät sperren, wenn Sie es nicht tragen</string>
     <string name="device_settings_unwear_close_cofirm_msg">Wenn Sie die PIN deaktivieren, können Sie diese Funktion nicht mehr nutzen. Trotzdem weitermachen?</string>
     <string name="device_settings_unwear_close_cofirm_title">PIN deaktivieren?</string>
     <string name="device_settings_unwear_close_pwd">PIN deaktivieren</string>
@@ -1028,7 +1028,7 @@ Die entsprechenden Gerätedaten werden innerhalb von 7 Tagen gelöscht."</string
     <string name="device_settings_view_help">Hilfe anzeigen</string>
     <string name="device_settings_wake_time">Aufwachen</string>
     <string name="device_settings_wear_handle_type">Präferenz Handgelenk</string>
-    <string name="device_settings_wearos_watch_unbind_alert">Wenn Sie Ihr tragbares Gerät verwenden möchten, setzen Sie es unter Einstellungen > System zurück, bevor Sie es mit Ihrem Telefon koppeln.</string>
+    <string name="device_settings_wearos_watch_unbind_alert">Wenn Sie Ihr Wearable-Gerät verwenden möchten, setzen Sie es unter Einstellungen > System zurück, bevor Sie es mit Ihrem Telefon koppeln.</string>
     <string name="device_settings_weather_add_city">Hinzufügen</string>
     <string name="device_settings_weather_add_city_limit">Bis zu 5 Orte hinzufügen</string>
     <string name="device_settings_weather_alerts">Wetterwarnung</string>
@@ -1110,7 +1110,7 @@ Die entsprechenden Gerätedaten werden innerhalb von 7 Tagen gelöscht."</string
     <string name="device_version_not_support">Diese App zuerst aktualisieren</string>
     <string name="device_view_help">Hilfe anzeigen</string>
     <string name="device_wake_up_guide">Mi KI aufwecken</string>
-    <string name="device_wearable">Tragbare Geräte</string>
+    <string name="device_wearable">Wearable-Geräte</string>
     <string name="device_wearos_bind_download_des">Erst Wear OS herunterladen</string>
     <string name="device_wearos_bind_guide_one">Uhr mit Wear OS koppeln</string>
     <string name="device_wearos_bind_guide_two">Mi Fitness vollständig einrichten</string>
@@ -1775,7 +1775,7 @@ Grad-2-Hypertonie liegt vor, wenn der Blutdruck konstant bei 160/100 mmHg oder h
 2. Angemessene Entspannung"</string>
     <string name="health_data_energy_recovery_title">Energiespendende Lösungen sind: </string>
     <string name="health_data_energy_rest_home_desc">Energie %1$s</string>
-    <string name="health_data_energy_understand_detail">Ihr tragbares Gerät nutzt die Daten zur Pulsvariabilität, um Ihre Energiereserven abzuschätzen und Ihnen dabei zu helfen, zu entscheiden, wann Sie aktiv werden oder eine Pause einlegen sollten. Stress und Workouts können Ihre Energie aufbrauchen, während Schlaf und Ruhe Ihre Energie wiederherstellen.</string>
+    <string name="health_data_energy_understand_detail">Ihr Wearable-Gerät nutzt die Daten zur Pulsvariabilität, um Ihre Energiereserven abzuschätzen und Ihnen dabei zu helfen, zu entscheiden, wann Sie aktiv werden oder eine Pause einlegen sollten. Stress und Workouts können Ihre Energie aufbrauchen, während Schlaf und Ruhe Ihre Energie wiederherstellen.</string>
     <string name="health_data_energy_understand_title">Mehr erfahren</string>
     <string name="health_data_explain_mh_intensity">Mehr erfahren</string>
     <string name="health_data_explain_stand">Mehr erfahren</string>
@@ -1788,18 +1788,18 @@ Grad-2-Hypertonie liegt vor, wenn der Blutdruck konstant bei 160/100 mmHg oder h
     <string name="health_data_month_empty">Keine Daten</string>
     <string name="health_data_rate_distribute1">Leicht</string>
     <string name="health_data_rate_distribute2">Intensiv</string>
-    <string name="health_data_rate_distribute3">Aerobisch</string>
-    <string name="health_data_rate_distribute4">Anaerobisch</string>
+    <string name="health_data_rate_distribute3">Aerob</string>
+    <string name="health_data_rate_distribute4">Anaerob</string>
     <string name="health_data_sleep_empty">Keine Daten</string>
     <string name="health_data_sort_label">Ausgeblendete Elemente</string>
     <string name="health_data_sort_label_kit">Ausgeblendete Widgets</string>
     <string name="health_data_sport_record_empty">Workout protokollieren</string>
-    <string name="health_data_stand_explain_desc">"\"Stehend\"zeigt Stunden an, in denen du aufgestanden und dich mindestens eine Minute lang bewegt hast. 
-Um nicht den ganzen Tag zu sitzen, steh und bewege dich während 12 oder mehr Stunden am Tag."</string>
-    <string name="health_data_stand_finished">Du bist aufgestanden</string>
+    <string name="health_data_stand_explain_desc">"\"Stehend\"zeigt Stunden an, in denen Sie aufgestanden und sich mindestens eine Minute lang bewegt haben. 
+Um nicht den ganzen Tag zu sitzen, stehen und bewegen Sie sich während 12 oder mehr Stunden am Tag."</string>
+    <string name="health_data_stand_finished">Sie sind aufgestanden</string>
     <string name="health_data_stand_home_desc">Stehen %1$s</string>
     <string name="health_data_stand_top_desc">Stehen %1$s</string>
-    <string name="health_data_stand_unfinished">Du bist nicht aufgestanden</string>
+    <string name="health_data_stand_unfinished">Sie sind nicht aufgestanden</string>
     <string name="health_data_time_content_desc">Zuletzt: %1$s | %2$s</string>
     <string name="health_data_title_calendar_day">Tag</string>
     <string name="health_data_title_calendar_month">Monat</string>
@@ -1860,7 +1860,7 @@ Um nicht den ganzen Tag zu sitzen, steh und bewege dich während 12 oder mehr St
     <string name="health_exercise_intensity_over_remid">Hoch</string>
     <string name="health_exercise_intensity_over_title">Sehr hoch</string>
     <string name="health_exercise_intensity_too_more">Hoch</string>
-    <string name="health_fib_desc">"Ihr tragbares Gerät benachrichtigt Sie, wenn Ihr Puls über einen bestimmten Wert ansteigt, während Sie inaktiv sind. Manchmal ist es normal, dass Ihr Puls als Reaktion auf Stress, Koffeinkonsum oder eine Erkältung ansteigt. Bei Schwindel, Kurzatmigkeit oder Herzklopfen sollten Sie jedoch einen Arzt aufsuchen.
+    <string name="health_fib_desc">"Ihr Wearable-Gerät benachrichtigt Sie, wenn Ihr Puls über einen bestimmten Wert ansteigt, während Sie inaktiv sind. Manchmal ist es normal, dass Ihr Puls als Reaktion auf Stress, Koffeinkonsum oder eine Erkältung ansteigt. Bei Schwindel, Kurzatmigkeit oder Herzklopfen sollten Sie jedoch einen Arzt aufsuchen.
 
 Bitte beachten Sie, dass die Daten zum hohen Puls weder für medizinische Zwecke noch zur Diagnose, Behandlung, Heilung oder Vorbeugung einer Krankheit oder eines Zustands bestimmt sind."</string>
     <string name="health_give_up_sport">Verwerfen</string>
@@ -1891,13 +1891,13 @@ Um Ihr Gehör bei lauten Aktivitäten zu schützen, sollten Sie Ohrstöpsel trag
     <string name="health_hrm_fibrillation_none">Keine Daten</string>
     <string name="health_hrm_phone_record">Mit Telefon messen</string>
     <string name="health_hrm_understand">Mehr erfahren</string>
-    <string name="health_hrm_understand_abnormal_high_detail">"Ihr tragbares Gerät benachrichtigt Sie, wenn Ihr Puls über einen bestimmten Wert ansteigt, während Sie inaktiv sind. Manchmal ist es normal, dass Ihr Puls als Reaktion auf Stress, Koffeinkonsum oder eine Erkältung ansteigt. Bei Schwindel, Kurzatmigkeit oder Herzklopfen sollten Sie jedoch einen Arzt aufsuchen.
+    <string name="health_hrm_understand_abnormal_high_detail">"Ihr Wearable-Gerät benachrichtigt Sie, wenn Ihr Puls über einen bestimmten Wert ansteigt, während Sie inaktiv sind. Manchmal ist es normal, dass Ihr Puls als Reaktion auf Stress, Koffeinkonsum oder eine Erkältung ansteigt. Bei Schwindel, Kurzatmigkeit oder Herzklopfen sollten Sie einen Arzt aufsuchen.
 
 Bitte beachten Sie, dass die Daten zum hohen Puls weder für medizinische Zwecke noch zur Diagnose, Behandlung, Heilung oder Vorbeugung einer Krankheit oder eines Zustands bestimmt sind."</string>
     <string name="health_hrm_understand_abnormal_high_title">Mehr erfahren</string>
-    <string name="health_hrm_understand_abnormal_low_detail">"Dein tragbares Gerät benachrichtigt dich, wenn dein Puls unter einen festgelegten Wert abfällt, während du inaktiv bist. Bei Schwindel, Kurzatmigkeit oder Herzklopfen solltest du einen Arzt aufsuchen.
+    <string name="health_hrm_understand_abnormal_low_detail">"Ihr Wearable-Gerät benachrichtigt Sie, wenn Ihr Puls unter einen festgelegten Wert abfällt, während Sie inaktiv sind. Bei Schwindel, Kurzatmigkeit oder Herzklopfen sollten Sie einen Arzt aufsuchen.
 
-Bitte beachte, dass die Daten zum niedrigen Puls weder für medizinische Zwecke noch zur Diagnose, Behandlung, Heilung oder Vorbeugung einer Krankheit oder eines Zustands bestimmt sind."</string>
+Bitte beachten Sie, dass die Daten zum niedrigen Puls weder für medizinische Zwecke noch zur Diagnose, Behandlung, Heilung oder Vorbeugung einer Krankheit oder eines Zustands bestimmt sind."</string>
     <string name="health_hrm_understand_abnormal_low_title">Mehr erfahren</string>
     <string name="health_keep_sporting">Fortsetzen</string>
     <string name="health_light_sleep_percentage">Leichtschlaf</string>
@@ -1961,7 +1961,7 @@ Sie sehen Ihre \"Bewegung\", wenn Ihre Schrittfrequenz 100 SPM oder Ihr Puls 65%
     <string name="health_sleep_all_records">Alle Daten</string>
     <string name="health_sleep_assistant_switch_des">Puls überwachen und REM-Schlaf verfolgen</string>
     <string name="health_sleep_assistant_switch_title">Erweiterte Überwachung</string>
-    <string name="health_sleep_assistant_title">Tragbares Gerät</string>
+    <string name="health_sleep_assistant_title">Wearable-Gerät</string>
     <string name="health_sleep_average_time">Zeit</string>
     <string name="health_sleep_avg_spo">Ø-Blutsauerstoff</string>
     <string name="health_sleep_awake_detail">"Es ist ganz normal, während der Nacht einige Male aufzuwachen. Manchmal dauert das nur ein paar Sekunden und man erinnert sich in der Regel am nächsten Tag nicht daran.
@@ -2102,7 +2102,7 @@ Ernst: 81-100."</string>
     <string name="health_stress_mild">Schwach</string>
     <string name="health_stress_moderate">Moderat</string>
     <string name="health_stress_moderate_huami">Moderat</string>
-    <string name="health_stress_problem_explanation_detail">"1. Ihr tragbares Gerät misst Ihr Stresslevel, wenn Sie inaktiv sind.
+    <string name="health_stress_problem_explanation_detail">"1. Ihr Wearable-Gerät misst Ihr Stresslevel, wenn Sie inaktiv sind.
 2. Es kann sein, dass Sie leere Bereiche erhalten, die die Zeiträume darstellen, in denen die Belastung wegen zu vieler Aktionen nicht bestimmt werden kann.
 3. Wenn Sie keine Stressdaten auf Ihrem tragbaren Gerät erhalten konnten, tragen Sie es im Bett und prüfen Sie es am nächsten Morgen erneut."</string>
     <string name="health_stress_problem_explanation_title">Hinweis</string>
@@ -2151,7 +2151,7 @@ Ernst: 81-100."</string>
     <string name="health_target_duration">Ziel</string>
     <string name="health_target_dynamic_indicators">Statistiken</string>
     <string name="health_target_edit_desc">Neben Schritten und Kalorien ein anderes Ziel auswählen.</string>
-    <string name="health_target_function_desc1">Ihr tragbares Gerät zählt %s nicht. Ein anderes Ziel setzen?</string>
+    <string name="health_target_function_desc1">Ihr Wearable-Gerät zählt %s nicht. Ein anderes Ziel setzen?</string>
     <string name="health_target_go_setting">Festlegen</string>
     <string name="health_target_health_tips_desc">Starten Sie ein Workout, bewegen Sie sich und verfolgen Sie den Fortschritt Ihrer Ziele.</string>
     <string name="health_target_health_tips_title">Tipp</string>
@@ -2653,7 +2653,7 @@ Verdienen Sie sich diese Auszeichnung."</string>
     <string name="nfc_card_issue_dialog_milock_support_ok">Weiter</string>
     <string name="nfc_card_issue_dialog_milock_support_title">Unterstützt</string>
     <string name="nfc_card_issue_fail">Hinzufügen nicht möglich</string>
-    <string name="nfc_card_issue_hint_connect">Tragbares Gerät in die Nähe des Telefons halten</string>
+    <string name="nfc_card_issue_hint_connect">Wearable-Gerät in die Nähe des Telefons halten</string>
     <string name="nfc_card_issue_hint_mutl_device_dialog_title">Gerät wählen</string>
     <string name="nfc_card_issue_hint_no_device">Dem aktuellen Konto ist kein Gerät zugeordnet.</string>
     <string name="nfc_card_issue_hint_no_login">Beim Mi Konto anmelden</string>
@@ -2703,7 +2703,7 @@ Verdienen Sie sich diese Auszeichnung."</string>
     <string name="nfc_common_copid">Erfolgreich kopiert</string>
     <string name="nfc_common_hint">Achtung</string>
     <string name="nfc_common_hint_device_unconnect">Mit dem tragbaren Gerät verbinden und erneut versuchen.</string>
-    <string name="nfc_common_hint_hold_on">Tragbares Gerät mit dem Telefon verbunden halten</string>
+    <string name="nfc_common_hint_hold_on">Wearable-Gerät mit dem Telefon verbunden halten</string>
     <string name="nfc_common_hint_no_data">Später erneut versuchen</string>
     <string name="nfc_common_hint_server_unavailable">Ein Serverfehler ist aufgetreten. Später erneut versuchen.</string>
     <string name="nfc_common_known">Verstanden</string>
@@ -2792,9 +2792,9 @@ Verdienen Sie sich diese Auszeichnung."</string>
     <string name="nfc_mi_pay_user_proto_user">Nutzervereinbarung</string>
     <string name="nfc_mifare_issue_dialog_msg">Ihr Telefon ist NFC-fähig. Sie können die Karte auf Ihrem Telefon hinzufügen.</string>
     <string name="nfc_mifare_issue_dialog_phone">Telefon</string>
-    <string name="nfc_mifare_issue_dialog_wear">Tragbares Gerät</string>
+    <string name="nfc_mifare_issue_dialog_wear">Wearable-Gerät</string>
     <string name="nfc_mifare_issue_nfc_off_msg">NFC auf Ihrem Telefon einschalten</string>
-    <string name="nfc_mifare_issue_no_nfc_feature">Ihr Telefon unterstützt NFC nicht. Die Karteninformationen konnten nicht gelesen werden. Verwenden Sie ein Telefon, das NFC unterstützt, und versuchen Sie es erneut.</string>
+    <string name="nfc_mifare_issue_no_nfc_feature">Ihr Telefon unterstützt NFC nicht. Kartendaten wurden nicht gelesen. Verwenden Sie ein Telefon, das NFC unterstützt, und versuchen Sie es erneut.</string>
     <string name="nfc_new_mifare_v3_title_start">Schlüsselkarte auf den Bildschirm legen</string>
     <string name="nfc_new_pay_name">Bestellung</string>
     <string name="nfc_new_pay_order_detail">Zahlung: %1$s | Betrag: %2$.2f CNY | Auladen: %3$.2f CNY</string>
@@ -2943,7 +2943,7 @@ Dieser Schritt ist erforderlich, um mit Ihrem Gerät zu bezahlen."</string>
     <string name="nfc_union_card_pos_alert">Drahtlose Zahlungen mit Xiaomi Pay und UnionPay QuickPass vornehmen</string>
     <string name="nfc_union_card_support_blank">Unterstützte Banken</string>
     <string name="nfc_unionpay_show_msg">Das Hinzufügen einer Karte zu Ihrem Telefon erfordert Ihre Daten wie Ihre Karten- und Rufnummer, um Ihren Kartenaussteller zu kontaktieren und den Dienst zu aktivieren.</string>
-    <string name="nfc_unlock_device_first">Erst Ihr tragbares Gerät entsperren</string>
+    <string name="nfc_unlock_device_first">Erst Ihr Wearable-Gerät entsperren</string>
     <string name="nfc_update_card_button">Aktualisieren</string>
     <string name="nfc_update_card_dialog">Aktualisieren Sie Ihre Karte, um mit Ihrem Gerät zu bezahlen.</string>
     <string name="nfc_valid_code_no_get">Tipps</string>
@@ -2981,7 +2981,7 @@ Dieser Schritt ist erforderlich, um mit Ihrem Gerät zu bezahlen."</string>
     <string name="notify_call_notify_delay_notice">Warnungen verzögern</string>
     <string name="notify_call_notify_delay_time">Zeit</string>
     <string name="notify_call_notify_notice">Anrufe auf Ihrem tragbaren Gerät erhalten, sofern es mit Ihrem Telefon verbunden ist</string>
-    <string name="notify_call_notify_open_notice">Ihr tragbares Gerät vibriert bei eingehenden Anrufen</string>
+    <string name="notify_call_notify_open_notice">Ihr Wearable-Gerät vibriert bei eingehenden Anrufen</string>
     <string name="notify_call_notify_show_name">Kontaktinfos anzeigen</string>
     <string name="notify_call_notify_show_name_notice">Rufnummern oder Kontaktnamen der Anrufer anzeigen</string>
     <string name="notify_call_notify_sms_manage">Schnellantworten</string>
@@ -3017,12 +3017,12 @@ Dieser Schritt ist erforderlich, um mit Ihrem Gerät zu bezahlen."</string>
     <string name="notify_message_remind_ignore">Ablehnen</string>
     <string name="notify_message_remind_no_open">Aus</string>
     <string name="notify_message_remind_not_allow">Nicht erlaubt</string>
-    <string name="notify_message_remind_subtitle">Zum Weiterleiten von Benachrichtigungen von Ihrem Telefon an Ihr tragbares Gerät einschalten</string>
+    <string name="notify_message_remind_subtitle">Zum Weiterleiten von Benachrichtigungen von Ihrem Telefon an Ihr Wearable-Gerät einschalten</string>
     <string name="notify_message_remind_title">App-Benachrichtigungen</string>
     <string name="notify_message_remind_to_open">Einstellungen</string>
     <string name="notify_notice_permission_alert">Um Benachrichtigungen auf Ihrem tragbaren Gerät zu erhalten, aktivieren Sie den Benachrichtigungszugriff für die App.</string>
     <string name="notify_notification_close_alert">Sie werden Ihre Benachrichtigungen auf Ihrem tragbaren Gerät nicht ansehen können. Trotzdem ausschalten?</string>
-    <string name="notify_notification_item_open_alert">Benachrichtigungen, die auf Ihrem Telefon erscheinen, werden an Ihr tragbares Gerät weitergeleitet</string>
+    <string name="notify_notification_item_open_alert">Benachrichtigungen, die auf Ihrem Telefon erscheinen, werden an Ihr Wearable-Gerät weitergeleitet</string>
     <string name="notify_open_call_permission_title">Benachrichtigungszugriff einschalten</string>
     <string name="notify_open_notify_permission_title">Benachrichtigungszugriff einschalten</string>
     <string name="notify_open_policy_access_title">DND-Zugriff einschalten</string>
@@ -3177,7 +3177,7 @@ Dieser Schritt ist erforderlich, um mit Ihrem Gerät zu bezahlen."</string>
     <string name="privacy_permission_list__do_not_disturb_des">Zum Synchronisieren des DND-Status mit Ihrem tragbaren Gerät</string>
     <string name="privacy_permission_list_answer_phone_call_des">Zum Annehmen oder Beenden von Anrufen auf Ihrem tragbaren Gerät</string>
     <string name="privacy_permission_list_location_des">Um Ihre Workouts zu verfolgen und die Wetterinfos zu aktualisieren</string>
-    <string name="privacy_permission_list_notice_alert_des">Zum Weiterleiten von Benachrichtigungen von Ihrem Telefon an Ihr tragbares Gerät</string>
+    <string name="privacy_permission_list_notice_alert_des">Zum Weiterleiten von Benachrichtigungen von Ihrem Telefon an Ihr Wearable-Gerät</string>
     <string name="privacy_permission_list_read_phone_state_des">Zum Synchronisieren des Gerätestatus mit Ihrem tragbaren Gerät</string>
     <string name="privacy_permission_list_send_sms">SMS senden</string>
     <string name="privacy_permission_list_send_sms_des">Um auf Anrufe mit Nachrichten auf Ihrem tragbaren Gerät zu antworten</string>
@@ -3449,7 +3449,7 @@ Dieser Schritt ist erforderlich, um mit Ihrem Gerät zu bezahlen."</string>
     <string name="sport_reconnect">Verbinden…</string>
     <string name="sport_record_all">Alle</string>
     <string name="sport_reject">Ablehnen</string>
-    <string name="sport_revoke_authorization_dialog_content">Wenn Sie fortfahren, widerrufen Sie Ihre Zustimmung zu unserer Datenschutzerklärung. Das Konto, mit dem Sie derzeit auf Ihrem gekoppelten Gerät angemeldet sind, wird daraufhin entfernt. Zur Löschung Ihrer bei Mi Fitness gespeicherten Daten löschen Sie Ihren Mi Fitness-Dienst. Um Daten auf Ihrem gekoppelten Gerät zu löschen, lesen Sie bitte den Abschnitt Widerruf Zustimmung in unserer Datenschutzerklärung. Wenn Sie ein tragbares Gerät verwenden, können Sie alle Ihre Daten durch ein Werksreset löschen. Wenn Sie Ihre Meinung ändern, sind Sie jedoch nicht mehr in Lage, Ihre Daten wiederherzustellen. Sie müssen dann unserer Datenschutzerklärung erneut zustimmen und Ihre Gerät koppeln, wenn Sie es benutzen wollen.</string>
+    <string name="sport_revoke_authorization_dialog_content">Wenn Sie fortfahren, widerrufen Sie Ihre Zustimmung zu unserer Datenschutzerklärung. Das Konto, mit dem Sie derzeit auf Ihrem gekoppelten Gerät angemeldet sind, wird daraufhin entfernt. Zur Löschung Ihrer bei Mi Fitness gespeicherten Daten löschen Sie Ihren Mi Fitness-Dienst. Um Daten auf Ihrem gekoppelten Gerät zu löschen, lesen Sie bitte den Abschnitt Widerruf Zustimmung in unserer Datenschutzerklärung. Wenn Sie ein Wearable-Gerät verwenden, können Sie alle Ihre Daten durch ein Werksreset löschen. Wenn Sie Ihre Meinung ändern, sind Sie jedoch nicht mehr in Lage, Ihre Daten wiederherzustellen. Sie müssen dann unserer Datenschutzerklärung erneut zustimmen und Ihre Gerät koppeln, wenn Sie es benutzen wollen.</string>
     <string name="sport_revoke_authorization_dialog_title">Achtung</string>
     <string name="sport_revoke_authorization_ensure_revoke">Weiter</string>
     <string name="sport_run_distance">Distanz</string>
@@ -3491,7 +3491,7 @@ Dieser Schritt ist erforderlich, um mit Ihrem Gerät zu bezahlen."</string>
     <string name="sport_waist_bag">Hüfttasche</string>
     <string name="sport_walk_distance">Distanz</string>
     <string name="sport_walking_outdoor">Gehen</string>
-    <string name="sport_wear_device_sport_record">Ihr tragbares Gerät verfolgt Ihr Workout</string>
+    <string name="sport_wear_device_sport_record">Ihr Wearable-Gerät verfolgt Ihr Workout</string>
     <string name="sport_whole_kilo">Distanzalarm</string>
     <string name="stand">Stehen</string>
     <string name="stand_finish_stand">Ja</string>
