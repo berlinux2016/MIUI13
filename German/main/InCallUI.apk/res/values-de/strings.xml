@@ -30,6 +30,10 @@
     <string name="antispam_local_marked">Lokal markiert</string>
     <string name="antispam_notification_title">Unbekannte Nummer</string>
     <string name="antispam_provider">Identifiziert von %s</string>
+    <string name="bluetooth_permission_content">Wegen einer Aktualisierung der Systemautorisierung ist Ihre Autorisierung erforderlich, um Ihre Bluetooth-Geräteliste zu erhalten.</string>
+    <string name="bluetooth_permission_grant_immediately">Sofortige Autorisierung</string>
+    <string name="bluetooth_permission_later">Später</string>
+    <string name="bluetooth_permission_title">Gewährt Zugriff auf Bluetooth-Geräte</string>
     <string name="callFailed_cb_enabled">Sie können nicht anrufen, wenn die Anrufsperre aktiviert ist</string>
     <string name="callFailed_congestion">Netzwerk ausgelastet</string>
     <string name="callFailed_dialToDial">Wahlanforderung geändert, um mit einer anderen Nummer zu wählen</string>
@@ -182,6 +186,7 @@
     <string name="fmt_weekday_date_timezone">W, D z</string>
     <string name="fmt_weekday_time_timezone">W T z</string>
     <string name="fmt_weekday_timezone">W z</string>
+    <string name="font_camera_tip">Gerät aufklappen, um die Frontkamera zu verwenden</string>
     <string name="friday">Freitag</string>
     <string name="friday_short">Fr</string>
     <string name="friday_shortest">F</string>
@@ -313,7 +318,17 @@
     <string name="relay_network_error">Netzwerkfehler</string>
     <string name="relay_network_error_msg">Wegen eines Netzwerkfehlers können Sie auf diesem Gerät keine Anrufe entgegennehmen. Wechseln Sie daher zurück zu Ihrem Telefon.</string>
     <string name="remind_unlock_message">Ihr Gerät ist jetzt gesperrt. Nach Entsperrung des Geräts wird \"%s\" verfügbar sein. Jetzt entsperren?</string>
+    <string name="remind_unlock_screen_message">Gerät entsperren, um \"%s\" verwenden zu können. Jetzt entsperren?</string>
     <string name="respond_via_sms_custom_message">Eigene SMS</string>
+    <string name="saf_permission_content">"Systemberechtigungen wurden aktualisiert. Um Anrufe aufzeichnen zu können, müssen Sie zunächst Ihre Berechtigung erteilen.
+
+So gewähren Sie Berechtigungen:
+Auf \"%1$s\" tippen und dann \"%2$s\" wählen."</string>
+    <string name="saf_permission_grant_permission_immediately">Weiter</string>
+    <string name="saf_permission_later">Jetzt nicht</string>
+    <string name="saf_permission_refused">Anrufe werden wegen fehlender Berechtigungen nicht aufgezeichnet</string>
+    <string name="saf_permission_title">Berechtigungen erforderlich</string>
+    <string name="saf_permission_use_this_folder">Diesen Ordner verwenden</string>
     <string name="saturday">Samstag</string>
     <string name="saturday_short">Sa</string>
     <string name="saturday_shortest">S</string>
