@@ -17,6 +17,7 @@
     <string name="android_ringtone_default_with_actual">Standardklingelton (%1$s)</string>
     <string name="android_ringtone_silent">Keiner</string>
     <string name="android_ringtone_unknown">Unbekannter Klingelton</string>
+    <string name="app_continuity_channel_name">App-Kontinuität</string>
     <string name="application_cannot_open_alipay_health_code">Alipay-Gesundheitscode öffnen nicht möglich</string>
     <string name="application_cannot_open_alipay_payment_code">Alipay-Zahlungscode öffnen nicht möglich</string>
     <string name="application_cannot_open_alipay_scanner">Alipay-Scanner öffnen nicht möglich</string>
@@ -254,6 +255,7 @@
     <string name="miaudiovisual_notification_summary">Einschalten, um Effekte auf dem Sperrbildschirm anzuzeigen</string>
     <string name="miaudiovisual_notification_title">Audio- und visuelle Effekte</string>
     <string name="miui_forbid_poweroff_when_device_locked">Ausschalten nicht möglich, Gerät ist gesperrt</string>
+    <string name="miui_landscape_compat_toast">App eignet sich nicht zum Einklappen des Geräts, während Sie sie Querformat verwenden. Es wird empfohlen, sie im Hochformat zu verwenden</string>
     <string name="miui_multiwindow_not_support_cvw">Fenstergröße für diese App kann nicht angepasst werden</string>
     <string name="miui_multiwindow_not_support_small_window">%1$s unterstützt keine Popups</string>
     <string name="miui_multiwindow_not_support_split">%1$s unterstützt keine geteilte Bildschirmanzeige</string>
@@ -322,6 +324,9 @@
     <string name="relaunch_dialog_button_cancel">Abbrechen</string>
     <string name="relaunch_dialog_message">Fenstergröße kann nicht angepasst werden, während Sie die App verwenden. Sie können die App neu starten, um die Fenstergröße anzupassen, aber die App-Daten, die während dieser Sitzung erzeugt wurden, gehen verloren. Trotzdem neu starten?</string>
     <string name="relaunch_dialog_title">\"%s\" neustarten?</string>
+    <string name="relaunch_fold_notification_content">\"%s\"-App kann nach dem Einklappen des Telefons abnormal angezeigt werden und muss neu gestartet werden, um zum Normalzustand zurückzukehren.</string>
+    <string name="relaunch_notification_title">\"%s\"-App neusterten</string>
+    <string name="relaunch_unfold_notification_content">\"%s\"-App kann nach dem Aufklappen des Telefons abnormal angezeigt werden und muss neu gestartet werden, um zum Normalzustand zurückzukehren.</string>
     <string name="remain">Verbleibend: %s</string>
     <string name="replace">Ersetzen</string>
     <string name="resolver_app_recommend_flag">Empfohlen</string>
@@ -335,6 +340,10 @@
     <string name="reveries">Träumereien (Stereo)</string>
     <string name="robot">Roboter</string>
     <string name="samsung_phone">Samsung Telefon</string>
+    <string name="sc_notification_warning_content">Das Layout kann im Vollbildmodus abnormal sein.  Sie können den Zustand vor dem Wechsel wiederherstellen oder zu den Einstellungen gehen.</string>
+    <string name="sc_notification_warning_restore">Wiederherstellen</string>
+    <string name="sc_notification_warning_settings">Zu den Einstellungen</string>
+    <string name="sc_relaunch_dialog_message">App eignet sich nicht zum Einklappen des Geräts, während Sie sie verwenden. Sie können die App neu starten, um in den Vollbildmodus zu wechseln. Trotzdem neu starten?</string>
     <string name="scanning_device_tips">Entdeckt er Geräte in der Nähe, muss die Gegenpartei Xiaomi Mi Drop öffnen, um die Übertragung durchzuführen.</string>
     <string name="screen_button_disabled_message">Navigationstasten deaktiviert. Zum Reaktivieren gleichzeitig Home- und Powertaste drücken.</string>
     <string name="screen_button_enabled_message">Navigationstasten aktiviert</string>
@@ -431,6 +440,9 @@
     <string name="talk_back_water_mark_string2">\"Lautstärke+\" und \"Lautstärke-\" für 3 Sekunden gedrückt halten, um es auszuschalten.</string>
     <string name="throwing_print">Drucken</string>
     <string name="throwing_screen">Übertragungsbildschirm</string>
+    <string name="tip_close_screen_phone">Auf Freisprechen umschalten oder das Gerät einklappen, um den integrierten Lautsprecher zu verwenden</string>
+    <string name="tip_for_phone_and_camera">Gerät einklappen, um den integrierten Lautsprecher oder die Frontkamera zu verwenden</string>
+    <string name="tip_use_front_camera">Gerät einklappen, um die Frontkamera zu verwenden</string>
     <string name="tips_prompt_enable_midrop">Mi Share</string>
     <string name="total">Nicht stören</string>
     <string name="total_description">Vibration und Töne aller Elemente außer des Weckers werden ausgeschaltet</string>
@@ -470,6 +482,7 @@
     <string name="wallpaper_group_more_system_wallpaper_title">Mehr Systemhintergründe</string>
     <string name="wallpaper_group_natural_texture_subtitle">Tom Hegen und andere</string>
     <string name="wallpaper_group_natural_texture_title">Naturmuster</string>
+    <string name="wallpaper_group_red_mars_subtitle">NASA, JPL, Universität von Arizona</string>
     <string name="waterdrop_preview">Tröpfchen</string>
     <string name="wifi_assistant_wifi_no_internet">Dieses WLAN hat keinen Zugang zum Internet.</string>
     <string name="wifi_assistant_wifi_no_internet_detail">Tippen, um Details anzuzeigen.</string>
