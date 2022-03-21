@@ -1,8 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-    <string name="other_settings_ad_dialog_content_for_global">Wenn die personalisierten Werbeempfehlungen deaktiviert sind, sehen Sie immer noch die gleiche Menge an Werbung in den MIUI-System-Apps, wie wenn die Funktion aktiviert ist. Die Anzeigen von Xiaomi und Drittanbieter-Plattformen werden jedoch nicht mehr relevant sein, da sie nicht auf Ihren persönlichen Vorlieben basieren.</string>
-    <string name="start_up_slogan_thirteen_china">Wo alle Dinge miteinander verbunden sind</string>
-
     <string name="abc_action_bar_home_description">Zur Startseite</string>
     <string name="abc_action_bar_up_description">Nach oben</string>
     <string name="abc_action_menu_overflow_description">Weitere Optionen</string>
@@ -48,6 +45,7 @@
     <string name="back">Zurück</string>
     <string name="backup_introduction">Sie können diese App zum Sichern und Wiederherstellen von Elementen auf Ihrem Gerät verwenden.</string>
     <string name="bluetooth_introduction">Bluetooth wird vom System für die drahtlose Kommunikation verwendet. Um normal arbeiten zu können, benötigt Bluetooth folgende Berechtigungen:</string>
+    <string name="bluetooth_usage_desc">Bei der Ersteinrichtung können Sie Ihre Grundeinstellungen für dieses Gerät festlegen. Um Ihr Gerät erfolgreich einzurichten, verwenden die Bluetooth-Systemdienste die folgenden Berechtigungen:</string>
     <string name="boot_video_replay">Erneut abspielen</string>
     <string name="boot_video_skip">Überspringen</string>
     <string name="calculator_introduction">Sie können diese App für Berechnungen, die Umrechnung von Einheiten und Währungen und die Schätzung Ihrer Hypothekenrückzahlungen verwenden.</string>
@@ -102,6 +100,7 @@
     <string name="enable_accessibility_canceled">Eingabehilfen deaktiviert</string>
     <string name="enable_accessibility_dialog_message">Sie haben TalkBack aktiviert, indem Sie den Bildschirm mit zwei Fingern länger als 10 Sekunden gedrückt haben. TalkBack liefert Sprachfeedback für Personen mit Sehbehinderung. Wenn Sie diese Funktion versehentlich aktiviert haben, tippen Sie auf Abbrechen und dann 2x auf den Bildschirm.</string>
     <string name="enable_accessibility_dialog_negative_btn">Abbrechen</string>
+    <string name="enable_or_disable_bluetooth">Bluetooth ein- und ausschalten</string>
     <string name="eras_ad">n. Chr.</string>
     <string name="eras_bc">v. Chr.</string>
     <string name="evening">Nachmittag</string>
@@ -176,6 +175,7 @@
     <string name="mint_keyboard_oobe_checkbox">Ich habe die Datenschutzerklärung von Mint Keyboard gelesen und bin damit einverstanden</string>
     <string name="mint_keyboard_oobe_terms">Datenschutzerklärung von Mint Keyboard</string>
     <string name="miui_privacy_policy_no_network">Keine Internetverbindung. Lesen Sie die Datenschutzerklärung auf %s.</string>
+    <string name="miui_provision">Ersteinrichtung</string>
     <string name="miui_terms_no_network">Keine Internetverbindung. Sehen Sie sich die Nutzervereinbarung auf %s an.</string>
     <string name="miuix_access_state_desc">Ausgewählt</string>
     <string name="miuix_alphabet_indexer_name">Indexleiste</string>
@@ -254,7 +254,8 @@
     <string name="note_introduction">Mit dieser App können Sie Notizen erstellen, anzeigen und bearbeiten.</string>
     <string name="other_settings">Grundeinstellungen</string>
     <string name="other_settings_ad_dialog_agree">Einschalten</string>
-    <string name="other_settings_ad_dialog_content">Wenn personalisierte Werbung ausgeschaltet ist, sehen Sie immer noch die gleiche Menge an Werbung wie bei eingeschalteter Funktion. Die Werbung ist jedoch nicht mehr relevant, da sie nicht auf Ihren persönlichen Präferenzen basiert.</string>
+    <string name="other_settings_ad_dialog_content">Wenn personalisierte Werbung deaktiviert ist, sehen Sie immer noch die gleiche Menge an Werbung wie bei aktivierter Funktion. Die Werbung ist dann jedoch nicht mehr relevant, da sie nicht auf Ihren persönlichen Vorlieben basiert.</string>
+    <string name="other_settings_ad_dialog_content_for_global">Wenn personalisierte Werbung deaktiviert ist, sehen Sie immer noch die gleiche Menge an Werbung in den MIUI-System-Apps wie bei aktivierter Funktion. Die Anzeigen von Xiaomi und Drittanbieter-Plattformen sind dann jedoch nicht mehr relevant, da sie nicht auf Ihren persönlichen Vorlieben basieren.</string>
     <string name="other_settings_ad_dialog_disagree">Ausschalten</string>
     <string name="other_settings_ad_disable_summary">Persönliche Werbung einschalten</string>
     <string name="other_settings_ad_enable">Personalisierte Werbung vorschlagen</string>
@@ -610,8 +611,7 @@ Sie müssen die Facemoji Datenschutzerklärung akzeptieren, bevor Sie diese Funk
     <string name="terms_of_use_lable_default_input_method_kika">"
 Sie müssen die Kika Datenschutzerklärung akzeptieren, bevor Sie diese Funktion nutzen können."</string>
     <string name="terms_of_use_lable_default_input_method_mint">"
-
-Sie müssen der Datenschutzerklärung von Mint Keyboard zustimmen, bevor Sie diese Funktion nutzen können."</string>
+Sie müssen die Mint Keyboard Datenschutzerklärung akzeptieren, bevor Sie diese Funktion nutzen können."</string>
     <string name="terms_of_use_lable_gms">Google Play-Dienste</string>
     <string name="terms_of_use_lable_smart_cards">Chipkarten</string>
     <string name="terms_of_use_lable_xmsf">Xiaomi Dienst-Framework</string>
