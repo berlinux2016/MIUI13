@@ -3293,7 +3293,7 @@ Sie können die generierten Protokolle im Datei-Manager ansehen."</string>
     <string name="emergency_info_summary">Info &amp; Kontakte für %1$s</string>
     <string name="emergency_info_title">Notfallinformationen</string>
     <string name="emergency_settings_preference_title">Sicherheit &amp; Notfall</string>
-    <string name="emergency_sos_title">SOS-Notfallhilfe</string>
+    <string name="emergency_sos_title">Notfall-SOS</string>
     <string name="emergency_tone_alert">Warnton</string>
     <string name="emergency_tone_silent">Lautlos</string>
     <string name="emergency_tone_summary">Verhalten einstellen, wenn ein Notruf getätigt wird</string>
@@ -3560,6 +3560,7 @@ Gerät neu starten und erneut versuchen."</string>
     <string name="exceptional_case">Ausnahmen</string>
     <string name="exchange_account">Konto wechseln</string>
     <string name="expand_button_title">Erweitert</string>
+    <string name="expand_card_action">Weitere Karten</string>
     <string name="expandable_under_keyguard_title">Am Sperrbildschirm anzeigen</string>
     <string name="experimental_category_title">Experimentell</string>
     <string name="experimental_preference">(Experimentell)</string>
@@ -5815,20 +5816,20 @@ Fortfahren, um auf weitere Einstellungen zuzugreifen."</string>
     <string name="miui_sos_emergency_failed_sms_noname">%1s SOS-Nachricht senden fehlgeschlagen</string>
     <string name="miui_sos_emergency_title">Notfall-SOS</string>
     <string name="miui_sos_enable_switch_summary">Power-Taste schnell 5-mal drücken, um eine SOS-SMS mit Ihrem Standort an Ihre Notfallkontakte zu senden</string>
-    <string name="miui_sos_enable_switch_title">SOS-Notfallhilfe</string>
+    <string name="miui_sos_enable_switch_title">Notfall-SOS</string>
     <string name="miui_sos_exit_dialog_cancel">Abbrechen</string>
-    <string name="miui_sos_exit_dialog_message">Sie haben SOS-Notfallhilfe aktiviert. Ihre Standortinformationen werden an Ihre Notfallkontakte gesendet. Trotzdem ausschalten?</string>
-    <string name="miui_sos_exit_dialog_title">SOS-Notfallhilfe ausschalten</string>
+    <string name="miui_sos_exit_dialog_message">Sie haben Notfall-SOS aktiviert. Ihre Standortinformationen werden an Ihre Notfallkontakte gesendet. Trotzdem ausschalten?</string>
+    <string name="miui_sos_exit_dialog_title">Notfall-SOS ausschalten</string>
     <string name="miui_sos_exit_emergency_title">Ausschalten</string>
     <string name="miui_sos_exit_send_location_title">Standort mit Notfallkontakten in Echtzeit teilen</string>
     <string name="miui_sos_green_guard_summary">Standortinformationen in Echtzeit teilen</string>
     <string name="miui_sos_green_guard_title">Elterliche Kontrolle</string>
     <string name="miui_sos_hospital_card">Krankenversicherungskarte</string>
     <string name="miui_sos_hospital_card_important_info">Ihre wichtigen medizinischen Daten für Ersthelfer</string>
-    <string name="miui_sos_launch_error">SOS-Notfallhilfe wurde nicht aktiviert</string>
+    <string name="miui_sos_launch_error">Notfall-SOS wurde nicht aktiviert</string>
     <string name="miui_sos_launch_error_confirm">Verstanden</string>
-    <string name="miui_sos_launch_error_message">Verbindung zum Mobilfunknetz ist nicht möglich. SOS-Notfallhilfe kann nicht verwendet werden.</string>
-    <string name="miui_sos_launching_summary">Aktivierung SOS-Notfallhilfe in %ds</string>
+    <string name="miui_sos_launch_error_message">Verbindung zum Mobilfunknetz ist nicht möglich. Notfall-SOS kann nicht verwendet werden.</string>
+    <string name="miui_sos_launching_summary">Aktivierung Notfall-SOS in %ds</string>
     <string name="miui_sos_menu_add">Hinzufügen</string>
     <string name="miui_sos_menu_edit">Bearbeiten</string>
     <string name="miui_sos_msg_call_log_prefix">"Hier ist meine Anrufliste der letzten Stunde: "</string>
@@ -5839,8 +5840,8 @@ Fortfahren, um auf weitere Einstellungen zuzugreifen."</string>
     <string name="miui_sos_remind_add">Hinzufügen</string>
     <string name="miui_sos_remind_close">Notfall-SOS-Modus ist an. Mit allen damit verbundenen Funktionen ausschalten?</string>
     <string name="miui_sos_remind_close_confirm">Ausschalten</string>
-    <string name="miui_sos_remind_infocontent">Ich habe Sie als meinen Notfallkontakt hinzugefügt. Sie erhalten eine Nachricht mit meinen Standortinformationen, falls ich in Gefahr bin. [Mi SOS-Notfallhilfe]</string>
-    <string name="miui_sos_remind_open">SOS-Notfallhilfe benötigt mindestens 1 Notfallkontakt, um normal zu funktionieren.</string>
+    <string name="miui_sos_remind_infocontent">Ich habe Sie als meinen Notfallkontakt hinzugefügt. Sie erhalten eine Nachricht mit meinen Standortinformationen, falls ich in Gefahr bin. [Mi Notfall-SOS]</string>
+    <string name="miui_sos_remind_open">Notfall-SOS benötigt mindestens 1 Notfallkontakt, um normal zu funktionieren.</string>
     <string name="miui_sos_remind_sendinfo">Vergessen Sie nicht, diesen Leuten zu sagen, dass sie jetzt Ihre Notfallkontakte sind. So können sie Ihnen im Notfall schneller helfen.</string>
     <string name="miui_sos_remind_sendnow">Jetzt senden</string>
     <string name="miui_sos_remind_sendnow_donot_send">Nicht senden</string>
@@ -5849,7 +5850,7 @@ Fortfahren, um auf weitere Einstellungen zuzugreifen."</string>
     <string name="miui_sos_settings_alert_contacts_too_many">Sie können bis zu 3 Notfallkontakte hinzufügen.</string>
     <string name="miui_sos_settings_category">Hilfe-Einstellung</string>
     <string name="miui_sos_statusbar_summary">Tippen zum Ausschalten</string>
-    <string name="miui_sos_statusbar_title">SOS-Notfallhilfe ist aktiviert</string>
+    <string name="miui_sos_statusbar_title">Notfall-SOS ist aktiviert</string>
     <string name="miui_sos_unknow_contract">Unbekannter Kontakt</string>
     <string name="miui_special_feature">Spezielle Funktionen</string>
     <string name="miui_touch_filtered_touchassistant_warning">Berechtigungsdialog wird durch den Berührungsassistent abgedeckt. Schieben Sie den Berührungsassistent weg oder schalten Sie diese Funktion aus.</string>
@@ -6148,7 +6149,9 @@ Betriebssystem auswählen:"</string>
     <string name="music_hifi_title">HiFi Audio</string>
     <string name="music_mi_effect_summary">Mi Klangverbesserung bei Lautsprechern verwenden</string>
     <string name="music_mi_effect_title">Mi Klangverbesserung</string>
+    <string name="music_playback_control_cross_device_flow">Audiowiedergabe geräteübergreifend übertragen</string>
     <string name="music_unsupport_effect_summary">USB-Kopfhörer werden nicht unterstützt</string>
+    <string name="music_video_flow_across_device">Audiowiedergabe geräteübergreifend steuern und übertragen</string>
     <string name="musicfx_title">Musikeffekte</string>
     <string name="mute">Lautlosmodus</string>
     <string name="mute_media_sound_summary">Spiele, Musik, Videos und andere Apps</string>
@@ -8865,18 +8868,31 @@ Wenn Sie diese Berechtigung nicht erteilen, können Sie einige Funktionen dieser
     <string name="sos_privacy_dialog_button_ok">Zustimmen</string>
     <string name="sos_privacy_dialog_message">"Lesen und akzeptieren Sie unsere %s, bevor Sie diese Funktion nutzen.
 Diese Funktion benötigt Berechtigungen, um auf Ihren Standort zuzugreifen, Mobilfunknetze zu nutzen und Ihre Kontakte zu lesen. Zustimmen?"</string>
-    <string name="sos_privacy_dialog_message_new_version">"Mit SOS-Notfallhilfe können Sie Ihren Standort in Echtzeit mitteilen und Textnachrichten an Ihre Notfallkontakte senden.
-Wir schützen Ihre persönlichen Daten in Übereinstimmung mit den einschlägigen Gesetzen, Vorschriften und Datenschutzrichtlinien.
+    <string name="sos_privacy_dialog_message_new_version">"Mit Notfall-SOS können Sie Ihren Standort in Echtzeit mitteilen und Textnachrichten an Ihre Notfallkontakte senden.
+Wir schützen Ihre persönlichen Daten in Übereinstimmung mit den einschlägigen Gesetzen, Vorschriften und Datenschutzerklärungen.
 Beachten Sie, dass diese App eine Internetverbindung und die folgenden Berechtigungen benötigt, um Ihre persönlichen Daten zu erfassen:
 • Speicherzugriff
 Zum Speichern von Notfallkontakten
 • Kontaktezugriff
-Zur Kennzeichnung von Kontakten als Notfallkontakte
+Zum Markieren von Kontakten als Notfallkontakte
 • SMS senden
 Zum Senden von Textnachrichten an Notfallkontakte
 • Standortzugriff
-Für die Weitergabe Ihres Standorts an Notfallkontakte
-Wenn Sie nicht damit einverstanden sind, solche Berechtigungen zu erteilen oder Ihre persönlichen Daten weiterzugeben und hochzuladen, können Sie diese App nicht verwenden. In diesem Fall entscheiden Sie, ob Sie SOS-Notfallhilfe ausschalten oder nicht verwenden möchten.
+Zum Teilen Ihres Standorts mit Notfallkontakten
+Wenn Sie nicht damit einverstanden sind, solche Berechtigungen zu erteilen oder Ihre persönlichen Daten zu teilen und hochzuladen, können Sie diese App nicht verwenden. In solchen Fällen können Sie Notfall-SOS ausschalten oder nicht verwenden.
+Bevor Sie unsere Dienste nutzen, lesen und akzeptieren Sie unsere %s."</string>
+    <string name="sos_privacy_dialog_message_old_version">"Mit Notfall-SOS können Sie Ihren Standort in Echtzeit mitteilen und Textnachrichten an Ihre Notfallkontakte senden.
+Wir schützen Ihre persönlichen Daten in Übereinstimmung mit den einschlägigen Gesetzen, Vorschriften und Datenschutzerklärungen.
+Beachten Sie, dass diese App eine Internetverbindung und die folgenden Berechtigungen benötigt, um Ihre persönlichen Daten zu erfassen:
+• Speicherzugriff
+Zum Speichern von Notfallkontakten
+• Zugriff auf Kontakte
+Zum Markieren von Kontakten als Notfallkontakte
+• SMS senden
+Zum Senden von Textnachrichten an Notfallkontakte
+• Standortzugriff
+Zum Teilen Ihres Standorts mit Notfallkontakten
+Wenn Sie nicht zustimmen, solche Berechtigungen zu erteilen oder Ihre persönlichen Daten zu teilen und hochzuladen, können Sie diese App nicht verwenden. In solchen Fällen können Sie Notfall-SOS ausschalten oder nicht verwenden.
 Bevor Sie unsere Dienste nutzen, lesen und akzeptieren Sie unsere %s."</string>
     <string name="sos_privacy_dialog_title">AGB</string>
     <string name="sos_privacy_policy">Datenschutzerklärung</string>
@@ -10606,6 +10622,7 @@ Während eines Sprachanrufs können Sie das Internet nicht nutzen und einige App
     <string name="volume_ring_mute">Klingelton &amp; Benachrichtigungen lautlos</string>
     <string name="volume_system_description">Kamera, Bildschirmsperre und andere Systembenachrichtigungen</string>
     <string name="volume_voice_description">Im Telefongespräch</string>
+    <string name="vonr_switch_title">VoNR verwenden</string>
     <string name="vpn_always_on_active">Always-On-VPN aktiviert</string>
     <string name="vpn_always_on_invalid_reason_dns">DNS-Serveradressen müssen numerisch sein für Always-On-VPN</string>
     <string name="vpn_always_on_invalid_reason_no_dns">Für Always-On-VPN muss ein DNS-Server angegeben werden</string>
