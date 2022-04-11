@@ -47,17 +47,14 @@
     <string name="add_body_weight_button">Gewichtsdaten hinzufügen</string>
     <string name="add_body_weight_record_button">Gewichtsdaten hinzufügen</string>
     <string name="add_data_source">Datenquellen hinzufügen</string>
-    <string name="add_data_source_description">"Von anderen Geräten generierte Gesundheitsdaten zu Xiaomi Health hinzufügen, um die Genauigkeit der Statistik zu erhöhen und mehr relevante Gesundheitsratschläge zu erhalten.
-Xiaomi Health unterstützt Geräte, die Sie zuvor in Mi Home hinzugefügt haben. Wenn Sie das Gerät, das Sie hinzufügen möchten, nicht finden können, prüfen Sie, ob Sie es bereits in Mi Home hinzugefügt haben."</string>
+    <string name="add_data_source_description">"Von anderen Geräten generierte Gesundheitsdaten zu Xiaomi Health hinzufügen, um die Genauigkeit der Statistik zu erhöhen und mehr relevante Gesundheitsratschläge zu erhalten.\nXiaomi Health unterstützt Geräte, die Sie zuvor in Mi Home hinzugefügt haben. Wenn Sie das Gerät, das Sie hinzufügen möchten, nicht finden können, prüfen Sie, ob Sie es bereits in Mi Home hinzugefügt haben."</string>
     <string name="add_data_source_login_and_open_sync">Melden Sie sich bei Ihrem Mi-Konto an und schalten Sie die Synchronisation mit der Cloud ein, um Datenquellen hinzuzufügen.</string>
     <string name="add_data_source_open_sync">Schalten Sie die Synchronisation mit der Cloud ein, um Datenquellen hinzuzufügen.</string>
     <string name="add_data_source_process">Wie man eine Datenquelle hinzufügt</string>
     <string name="add_data_source_support_step">Dieses Gerät erzeugt keine Schrittzahldaten. Sie können versuchen, auf andere Datenquellen umzuschalten.</string>
     <string name="add_data_type_datasource">Datenquelle hinzufügen (%1$s)</string>
-    <string name="add_model_card">"Schaltfläche in der linken oberen Ecke antippen,
-um Karten hinzuzufügen"</string>
-    <string name="add_model_card2">"Schaltfläche oben antippen, um Karten hinzuzufügen.
-Sie können damit Ihre Trainingseinheiten und Aktivitäten verfolgen."</string>
+    <string name="add_model_card">Schaltfläche in der linken oberen Ecke antippen,\num Karten hinzuzufügen</string>
+    <string name="add_model_card2">Schaltfläche oben antippen, um Karten hinzuzufügen.\nSie können damit Ihre Trainingseinheiten und Aktivitäten verfolgen.</string>
     <string name="add_owned_device">Verfügbare Geräte</string>
     <string name="add_record">Hinzufügen</string>
     <string name="added_data_source">Quellen hinzugefügt</string>
@@ -77,13 +74,7 @@ Sie können damit Ihre Trainingseinheiten und Aktivitäten verfolgen."</string>
     <string name="audio_record_perm_description">Schnarchen und Träumen im Schlaf aufzeichnen</string>
     <string name="audio_record_permission_description">Zur Aufzeichnung von Sprechen und Schnarchen während der Schlafzyklusanalyse</string>
     <string name="auth_description">%1$s erlauben, Daten von den folgenden Geräten zu synchronisieren</string>
-    <string name="auth_dialog_description">"Empfehlungen einschalten?
-
-Um Ihnen Empfehlungen geben zu können, werden wir Ihre Gesundheitsdaten an einen Drittdienstleister weitergeben. Zu den Elementen, die wir weitergeben werden, gehören persönliche Informationen (Alter, Geschlecht), Gesundheitsstatistiken (Größe, Gewicht, Workout-Routine), Verhaltensdaten (Start- und Endzeit sowie die Dauer Ihres Workouts).
-
-Wir anonymisieren diese Elemente, bevor wir sie weitergeben, um zu verhindern, dass Drittdienstleister Sie anhand der erhaltenen Daten persönlich identifizieren können.
-
-Wenn Sie keinen Zugang zu den empfohlenen Kursen erhalten möchten, können Sie immer noch die regulären Workouts verwenden."</string>
+    <string name="auth_dialog_description">Empfehlungen einschalten?\n\nUm Ihnen Empfehlungen geben zu können, werden wir Ihre Gesundheitsdaten an einen Drittdienstleister weitergeben. Zu den Elementen, die wir weitergeben werden, gehören persönliche Informationen (Alter, Geschlecht), Gesundheitsstatistiken (Größe, Gewicht, Workout-Routine), Verhaltensdaten (Start- und Endzeit sowie die Dauer Ihres Workouts).\n\nWir anonymisieren diese Elemente, bevor wir sie weitergeben, um zu verhindern, dass Drittdienstleister Sie anhand der erhaltenen Daten persönlich identifizieren können.\n\nWenn Sie keinen Zugang zu den empfohlenen Kursen erhalten möchten, können Sie immer noch die regulären Workouts verwenden.</string>
     <string name="auth_dialog_link">Um Ihre Rechte als Benutzer sowie die Art und Weise, in der wir Ihre Daten verwenden, vollständig zu verstehen, lesen Sie unsere &lt;font color=\"#0D84FF\">&lt;a href=%1$s>Nutzervereinbarung&lt;/a>&lt;/font> und &lt;font color=\"#0D84FF\">&lt;a href=%2$s>Datenschutzerklärung&lt;/a>&lt;/font>.</string>
     <string name="auth_dialog_title">Empfohlene Kurse</string>
     <string name="auto_start_fail">Berechtigung wurde nicht erteilt</string>
@@ -134,11 +125,11 @@ Wenn Sie keinen Zugang zu den empfohlenen Kursen erhalten möchten, können Sie 
     <string name="bg_control_dialog_title">Hintergrundbeschränkungen</string>
     <string name="birthday">Geburtsdatum</string>
     <string name="blood_pressure">Blutdruck</string>
-    <string name="blood_pressure_high_tip">Hoher Blutdruck: %1$s mmHg systolisch, %2$s mmHg diastolisch</string>
-    <string name="blood_pressure_low_tip">Niedriger Blutdruck: %1$s mmHg systolisch, %2$s mmHg diastolisch</string>
+    <string name="blood_pressure_high_tip">Hoher Blutdruck: %1$s mmHg systolisch | %2$s mmHg diastolisch</string>
+    <string name="blood_pressure_low_tip">Niedriger Blutdruck: %1$s mmHg systolisch | %2$s mmHg diastolisch</string>
     <string name="blood_pressure_measure_remind">An Messungen erinnern</string>
     <string name="blood_pressure_measure_remind_tip">Erinnerungen zur Blutdruckmessung erhalten und nicht vergessen, die Ergebnisse aufzuzeichnen</string>
-    <string name="blood_pressure_noraml_tip">Normaler Blutdruck: %1$s mmHg systolisch, %2$s mmHg diastolisch</string>
+    <string name="blood_pressure_noraml_tip">Normaler Blutdruck: %1$s mmHg systolisch | %2$s mmHg diastolisch</string>
     <string name="blood_pressure_notice_subtitle1">Nicht vergessen, diese Messung aufzuzeichnen</string>
     <string name="blood_pressure_notice_subtitle2">Nicht vergessen, diese Messung aufzuzeichnen</string>
     <string name="blood_pressure_notice_title1">Zeit zum Bluddruckmessen</string>
@@ -262,13 +253,12 @@ Wenn Sie keinen Zugang zu den empfohlenen Kursen erhalten möchten, können Sie 
     <string name="data_details">Datendetails</string>
     <string name="data_empty">Keine Daten</string>
     <string name="data_safety_tip_details">Ihre Gesundheitsdaten werden auf diesem Gerät gespeichert, wenn Sie sich abmelden. Sie können Ihre Gesundheitsdaten unter Health &gt; Datenquellen löschen.</string>
-    <string name="data_safety_tip_details2">"Einige Ihrer Gesundheitsdaten wurden in die Cloud hochgeladen. Sie können wählen, ob Sie Ihre Gesundheitsdaten auf diesem Gerät behalten oder löschen möchten. Wenn Sie unten \" Löschen\" auswählen, werden nur die Daten von diesem Gerät gelöscht, synchronisierte Elemente werden weiterhin in der Cloud gespeichert.
-Wenn Sie sich entscheiden, Ihre Gesundheitsdaten zu löschen, wenn Sie vorher entschieden hatten, sie zu behalten, können Sie dies in Health &gt; Datenquellen tun."</string>
+    <string name="data_safety_tip_details2">Einige Ihrer Gesundheitsdaten wurden in die Cloud hochgeladen. Sie können wählen, ob Sie Ihre Gesundheitsdaten auf diesem Gerät behalten oder löschen möchten. Wenn Sie unten \" Löschen\" auswählen, werden nur die Daten von diesem Gerät gelöscht, synchronisierte Elemente werden weiterhin in der Cloud gespeichert.\nWenn Sie sich entscheiden, Ihre Gesundheitsdaten zu löschen, wenn Sie vorher entschieden hatten, sie zu behalten, können Sie dies in Health &gt; Datenquellen tun.</string>
     <string name="data_safety_tip_title">Gesundheitsdaten löschen</string>
     <string name="data_source">Datenquellen</string>
     <string name="data_source_cannot_be_synchronized">Daten synchronisieren nicht möglich</string>
     <string name="data_source_data_updating">Gesundheitsdaten aktualisieren…</string>
-    <string name="data_source_list_description">"Xiaomi Health erhält Gesundheitsdaten (%1$s) aus diesen Quellen. Wenn die Daten in mehreren Quellen dupliziert werden, sehen Sie die Daten aus den Quellen, die in der Liste in Xiaomi Health an erster Stelle stehen."</string>
+    <string name="data_source_list_description">Xiaomi Health erhält Gesundheitsdaten (%1$s) aus diesen Quellen. Wenn die Daten in mehreren Quellen dupliziert werden, sehen Sie die Daten aus den Quellen, die in der Liste in Xiaomi Health an erster Stelle stehen.</string>
     <string name="data_source_manage">Datenquellen verwalten</string>
     <string name="data_source_not_support_hm_description">%1$s liefert keine detaillierte Schrittzahl. Sie können versuchen, auf andere Datenquellen in Weiteres &gt; Datenquellen umzuschalten.</string>
     <string name="data_source_not_support_hm_description_consume">Ausgewählte Datenquelle (%1$s) liefert keine detaillierten Infos über Kalorien. Unter Weiteres &gt; Datenquellen können Sie eine andere Datenquelle wählen.</string>
@@ -335,9 +325,7 @@ Wenn Sie sich entscheiden, Ihre Gesundheitsdaten zu löschen, wenn Sie vorher en
     <string name="device_off_sync_description">Auf diesem Gerät generierte Gesundheitsdaten werden nicht mit Xiaomi Health synchronisiert.</string>
     <string name="device_unbound_from_account">Dieses Gerät ist nicht mehr mit Ihrem Konto verbunden</string>
     <string name="diagnosis_log_send_failed">Diagnoseprotokoll senden fehlgeschlagen</string>
-    <string name="diagnosis_log_sent_format">"Diagnoseprotokoll wurde gesendet.
-ID:%s
-Bitte senden Sie dem Techniker diesen Code."</string>
+    <string name="diagnosis_log_sent_format">Diagnoseprotokoll wurde gesendet.\nID:%s\nBitte senden Sie dem Techniker diesen Code.</string>
     <string name="dialog_abandon">Verwerfen</string>
     <string name="dialog_abandon_sleep_edit">Änderungen verwerfen?</string>
     <string name="dialog_account_perm_desc">Zum Zugriff auf Ihr Mi-Konto</string>
@@ -345,8 +333,7 @@ Bitte senden Sie dem Techniker diesen Code."</string>
     <string name="dialog_agree_and_continue">Zustimmen</string>
     <string name="dialog_agree_permission">Erlauben</string>
     <string name="dialog_allow">Erlauben</string>
-    <string name="dialog_auto_start_detail">"Xiaomi Health den Autostart erlauben, um Benachrichtigungen zu erhalten.
-Xiaomi Health wird Sie nur über wichtige Dinge informieren."</string>
+    <string name="dialog_auto_start_detail">Xiaomi Health den Autostart erlauben, um Benachrichtigungen zu erhalten.\nXiaomi Health wird Sie nur über wichtige Dinge informieren.</string>
     <string name="dialog_auto_start_title">Xiaomi Health den Autostart erlauben</string>
     <string name="dialog_auto_start_title2">Xiaomi Health den Autostart erlauben</string>
     <string name="dialog_body_weight_conflict">Anscheinend haben Sie das Gewicht während der ausgewählten Zeit bereits aufgezeichnet. Originaldaten überschreiben?</string>
@@ -373,11 +360,7 @@ Xiaomi Health wird Sie nur über wichtige Dinge informieren."</string>
     <string name="dialog_open">Zustimmen</string>
     <string name="dialog_permission_loading_msg">Prüfen…</string>
     <string name="dialog_permission_title">Erforderliche Berechtigungen</string>
-    <string name="dialog_privacy_link">"Willkommen bei Xiaomi Health! Mit dieser App können Sie Ihre Aktivitäten erfassen, Ihren Schlaf verfolgen und vieles mehr.
-Xiaomi Health benötigt eine Netzwerkverbindung sowie die Erfassung, Verarbeitung und Nutzung Ihrer persönlichen Daten, um normal zu arbeiten.
-Ihre persönlichen Daten werden in Übereinstimmung mit den geltenden Gesetzen und Vorschriften erhoben, verarbeitet und verwendet.
-Lesen Sie unsere &lt;font color=\"#0000FF\">&lt;a href=\"%1$s\">Nutzervereinbarung&lt;/a >&lt;/font> und
-&lt;font color=\"#0000FF\">&lt;a href=\"%2$s\">Datenschutzerklärung&lt;/a >&lt;/font> für weitere Details."</string>
+    <string name="dialog_privacy_link">Willkommen bei Xiaomi Health! Mit dieser App können Sie Ihre Aktivitäten erfassen, Ihren Schlaf verfolgen und vieles mehr.\nXiaomi Health benötigt eine Netzwerkverbindung sowie die Erfassung, Verarbeitung und Nutzung Ihrer persönlichen Daten, um normal zu arbeiten.\nIhre persönlichen Daten werden in Übereinstimmung mit den geltenden Gesetzen und Vorschriften erhoben, verarbeitet und verwendet.\nLesen Sie unsere &lt;font color=\"#0000FF\">&lt;a href=\"%1$s\">Nutzervereinbarung&lt;/a >&lt;/font> und\n&lt;font color=\"#0000FF\">&lt;a href=\"%2$s\">Datenschutzerklärung&lt;/a >&lt;/font> für weitere Details.</string>
     <string name="dialog_privacy_policy_statement">Datenschutzerklärung</string>
     <string name="dialog_privacy_title">Allgemeine Geschäftsbedingungen</string>
     <string name="dialog_read_phone_perm_desc">Zur Identifizierung Ihres Gerätes</string>
@@ -388,9 +371,7 @@ Lesen Sie unsere &lt;font color=\"#0000FF\">&lt;a href=\"%1$s\">Nutzervereinbaru
     <string name="dialog_sleep_goal_title">Schlafdauerziel</string>
     <string name="dialog_sleep_purpose">Willkommen beim Xiaomi Health Schlaferfassungsdienst! Mit diesem Dienst können Sie Ihren Schlaf erfassen und Ihre Schlafdaten verwalten. Xiaomi Health zeichnet Ihren Schlaf automatisch auf, je nach Telefonnutzung, Aktivitätsstatistik, Einschlaf- und Aufwachzeit. Um die Genauigkeit der Schlafdaten zu garantieren, benötigt Xiaomi Health die Erlaubnis zum Autostart.  Alle zugehörigen Daten werden lokal auf Ihrem Gerät gespeichert.</string>
     <string name="dialog_sleep_record_auto_start">Xiaomi Health den Autostart erlauben, um den Schlaf genauer zu verfolgen</string>
-    <string name="dialog_upgrade_description">"1. Neues Design.
-2. Daten geräteübergreifend synchronisieren.
-3. Gesundheitsdaten von Health, Xiaomi Wear und anderen Apps an einem Ort anzeigen."</string>
+    <string name="dialog_upgrade_description">1. Neues Design.\n2. Daten geräteübergreifend synchronisieren.\n3. Gesundheitsdaten von Health, Xiaomi Wear und anderen Apps an einem Ort anzeigen.</string>
     <string name="dialog_user_agreement_purpose">Willkommen bei Xiaomi Health! Mit dieser App können Sie Schritte zählen, den Schlaf, die Perioden und das Gewicht verfolgen und Ihre Statistik mit der Cloud synchronisieren.</string>
     <string name="dialog_user_agreement_purpose2">Willkommen bei Xiaomi Health! Sie können diese App für Sportschrittzählung, Schlaf, Menstruationsaufzeichnung, Gewichtsverfolgung, Xiaomi Health Cloud Service und andere Funktionen nutzen.</string>
     <string name="diastolic_pressure">Diastolisch</string>
@@ -442,12 +423,9 @@ Lesen Sie unsere &lt;font color=\"#0000FF\">&lt;a href=\"%1$s\">Nutzervereinbaru
     <string name="exercise_consume_exercise_description">Die Übungsdauer ist die Zeit, die für Aktivitäten mittlerer und hoher Intensität aufgewendet wird. Nach Angaben der chinesischen Gesundheitsbehörden sollte die wöchentliche Bewegungsdauer mindestens 150 Minuten betragen. Die Zeit, die für hochintensive Aktivitäten wie zügiges Gehen (Trittfrequenz von mehr als 100 Schritten pro Minute), Laufen und Treppensteigen aufgewendet wird, wird zu Ihrer Übungsdauer addiert.</string>
     <string name="exercise_correct">Korrigieren</string>
     <string name="exercise_detail_duration">%1$s…%2$s… - …%3$s…%4$s</string>
-    <string name="exercise_detail_no_consume_hint">"Ausgewählte Datenquelle (%1$s) liefert keine Informationen zur Kalorienzahl.
-Sie können eine andere Datenquelle in Mehr &gt; Datenquellen auswählen."</string>
-    <string name="exercise_detail_no_exercise_hint">"Ausgewählte Datenquelle (%1$s) liefert keine Informationen zur Trainingsdauer.
-Sie können eine andere Datenquelle in Mehr &gt; Datenquellen auswählen."</string>
-    <string name="exercise_detail_no_steps_hint">"Ausgewählte Datenquelle (%1$s) liefert keine Informationen zur Schrittzahl.
-Sie können eine andere Datenquelle unter Mehr &gt; Datenquellen auswählen."</string>
+    <string name="exercise_detail_no_consume_hint">Ausgewählte Datenquelle (%1$s) liefert keine Informationen zur Kalorienzahl.\nSie können eine andere Datenquelle in Mehr &gt; Datenquellen auswählen.</string>
+    <string name="exercise_detail_no_exercise_hint">Ausgewählte Datenquelle (%1$s) liefert keine Informationen zur Trainingsdauer.\nSie können eine andere Datenquelle in Mehr &gt; Datenquellen auswählen.</string>
+    <string name="exercise_detail_no_steps_hint">Ausgewählte Datenquelle (%1$s) liefert keine Informationen zur Schrittzahl.\nSie können eine andere Datenquelle unter Mehr &gt; Datenquellen auswählen.</string>
     <string name="exercise_duration">Dauer der Übung</string>
     <string name="exercise_duration_consume">Dauer: %1$s | Verbrannt: %2$s</string>
     <string name="exercise_goal">Aktivitätsziel</string>
@@ -465,8 +443,7 @@ Sie können eine andere Datenquelle unter Mehr &gt; Datenquellen auswählen."</s
     <string name="exercise_notification_content">%1$d Min (Sek) der Übung (%2$d kcal)</string>
     <string name="exercise_notification_meet_title">Heutige Schritte: %d, Ziel erreicht!</string>
     <string name="exercise_notification_no_meet_title">Heutigen Schritte: %d. Gehen Sie weiter, um Ihr Ziel zu erreichen!</string>
-    <string name="exercise_question_answer_one">"1. Einige Gerätemodelle sind nicht mit Sensoren mit niedrigem Stromverbrauch ausgestattet. Xiaomi Health verfolgt bei den folgenden Geräten keine Aktivitätsdaten, um Akku zu schonen: Redmi 1S, Redmi 2A, Redmi 2, Redmi 3, Redmi Pro, Redmi Note, Redmi Note 2, Redmi Note 3, Redmi Note 4, Mi 2, Mi 3, Mi 4.
-Wenn Ihr Gerät hier aufgeführt ist, können Sie Datenquellen manuell in Xiaomi Health &gt; Menü &gt; Datenquellen &gt; Datenquellen hinzufügen, hinzufügen."</string>
+    <string name="exercise_question_answer_one">1. Einige Gerätemodelle sind nicht mit Sensoren mit niedrigem Stromverbrauch ausgestattet. Xiaomi Health verfolgt bei den folgenden Geräten keine Aktivitätsdaten, um Akku zu schonen: Redmi 1S, Redmi 2A, Redmi 2, Redmi 3, Redmi Pro, Redmi Note, Redmi Note 2, Redmi Note 3, Redmi Note 4, Mi 2, Mi 3, Mi 4.\nWenn Ihr Gerät hier aufgeführt ist, können Sie Datenquellen manuell in Xiaomi Health &gt; Menü &gt; Datenquellen &gt; Datenquellen hinzufügen, hinzufügen.</string>
     <string name="exercise_question_answer_two">2. Gelegentlich kann es vorkommen, dass Bewegungssensoren nicht richtig funktionieren. Starten Sie Ihr Telefon neu und prüfen Sie, ob der Tracking-Start in solchen Fällen normal funktioniert.</string>
     <string name="exercise_question_title">Warum können Sie Ihre Statistik nicht einsehen?</string>
     <string name="exercise_recog_confirm_ridding">Sind Sie zwischen %1$s und %2$s radgefahren?</string>
@@ -503,8 +480,7 @@ Wenn Ihr Gerät hier aufgeführt ist, können Sie Datenquellen manuell in Xiaomi
     <string name="external_storage_permission_title">Zugriff auf und Speichern von Elementen im Speicher</string>
     <string name="fall_sleep_hard">Einschlafprobleme</string>
     <string name="falling_duration">Einschlafen</string>
-    <string name="falling_duration_hard_description">"Einschlafen ist die Zeit zwischen dem Beginn des Schlafes und dem vollständigen Einschlafen. Wenn Sie länger als 30 Minuten zum Einschlafen brauchen, kann dies ein Zeichen von Schlaflosigkeit sein.
-Wenn es für Sie nach 30 Minuten im Bett immer noch schwierig ist, einzuschlafen, reduzieren Sie die Faktoren, die zu diesem Phänomen beitragen. Trinken Sie weniger Kaffee; überreizen Sie Ihr Nervensystem nicht visuell und emotional, indem Sie vor dem Schlafengehen Videos ansehen oder lesen; halten Sie Ihr Schlafzimmer dunkel, ruhig und behaglich. Wenn diese Maßnahmen keine Linderung bringen, konsultieren Sie Ihren Arzt."</string>
+    <string name="falling_duration_hard_description">Einschlafen ist die Zeit zwischen dem Beginn des Schlafes und dem vollständigen Einschlafen. Wenn Sie länger als 30 Minuten zum Einschlafen brauchen, kann dies ein Zeichen von Schlaflosigkeit sein.\nWenn es für Sie nach 30 Minuten im Bett immer noch schwierig ist, einzuschlafen, reduzieren Sie die Faktoren, die zu diesem Phänomen beitragen. Trinken Sie weniger Kaffee; überreizen Sie Ihr Nervensystem nicht visuell und emotional, indem Sie vor dem Schlafengehen Videos ansehen oder lesen; halten Sie Ihr Schlafzimmer dunkel, ruhig und behaglich. Wenn diese Maßnahmen keine Linderung bringen, konsultieren Sie Ihren Arzt.</string>
     <string name="falling_duration_normal_description">Einschlafen ist die Zeit zwischen dem Beginn des Schlafes und dem vollständigen Einschlafen. Zu wissen, wie lange es dauert, bis Sie einschlafen, ist wichtig für die Behandlung von Schlaflosigkeit und anderen schlafbezogenen Erkrankungen.</string>
     <string name="fast">Schnell</string>
     <string name="fat_rate">Fett</string>
@@ -614,8 +590,7 @@ Wenn es für Sie nach 30 Minuten im Bett immer noch schwierig ist, einzuschlafen
     <string name="hour">Std</string>
     <string name="hr_camera_permission_desc">Für den Erhalt der Lichtveränderungsfrequenz rund um den Finger durch die Kamera zur Bestimmung des Herzfrequenzwertes</string>
     <string name="hr_choose_detect_state">In welchem Zustand befinden Sie sich gerade?</string>
-    <string name="hr_cover_to_red">"Kamera vollständig mit Ihrem Finger bedecken.
-Warten, bis sich der Kreis rot färbt."</string>
+    <string name="hr_cover_to_red">Kamera vollständig mit Ihrem Finger bedecken.\nWarten, bis sich der Kreis rot färbt.</string>
     <string name="hr_detect">Puls messen</string>
     <string name="hr_detect_desc">Während der Messung wird der Blitz Ihres Telefons als kontinuierliche Lichtquelle verwendet und die Kamera erkennt Veränderungen im Blutfluss. Die Bilder werden dann analysiert und Ihr Puls wird auf der Grundlage der wiederholten Muster bestimmt.</string>
     <string name="hr_detect_finished">Fertig!</string>
@@ -643,18 +618,16 @@ Warten, bis sich der Kreis rot färbt."</string>
     <string name="hr_fp_detect_principle_desc_3">Unsere Tests zeigen, dass diese Methode Ihre Herzfrequenz mit einem Fehler von nur ≤3 BPM misst.</string>
     <string name="hr_fp_detect_start_desc">Bedecken Sie das Symbol mit Ihrem Finger</string>
     <string name="hr_fp_detecting">Bewegen Sie Ihren Finger nicht</string>
-    <string name="hr_fp_not_put_well">Ihr Finger hat sich bewegt.
-Fangen Sie von vorne an.</string>
+    <string name="hr_fp_not_put_well">Ihr Finger hat sich bewegt.\nFangen Sie von vorne an.</string>
     <string name="hr_fp_report_common_desc">Die normale Herzfrequenz liegt zwischen 60 und 100 Schlägen pro Minute. Eine Herzfrequenz unter 60 BPM ist ein Zeichen für eine Bradykardie, während eine Herzfrequenz über 100 BPM bei Erwachsenen als Tachykardie gilt.</string>
     <string name="hr_heart_rate_unit">Puls (BPM)</string>
     <string name="hr_in_detect">Pulsmessung, bewegen Sie Ihren Finger nicht.</string>
     <string name="hr_input_heart_rate">Puls aufzeichnen</string>
     <string name="hr_measure_heart_rate">Maßnahme</string>
-    <string name="hr_open_permission_desc">Xiaomi Health muss auf die Kamera Ihres Telefons zugreifen, um den Puls messen zu können. Zulassen?"</string>
+    <string name="hr_open_permission_desc">Xiaomi Health muss auf die Kamera Ihres Telefons zugreifen, um den Puls messen zu können. Zulassen?</string>
     <string name="hr_open_permission_title">Benötigte Berechtigungen</string>
     <string name="hr_phone_detect_records">Verlauf der Telefonmessungen</string>
-    <string name="hr_pre_detect">"Vollständige Abdeckung von Blitz und Kamera
-mit einem Finger"</string>
+    <string name="hr_pre_detect">Vollständige Abdeckung von Blitz und Kamera\nmit einem Finger</string>
     <string name="hr_pre_detect_finger">Prüfen…</string>
     <string name="hr_pre_detect_finger_desc">Prüfen, ob Blitz und Kamera vollständig abgedeckt sind. Bewegen Sie Ihren Finger nicht.</string>
     <string name="hr_re_detect_title">Neu anfangen</string>
@@ -758,8 +731,7 @@ mit einem Finger"</string>
     <string name="location_service_ntfc_content">Xiaomi Health</string>
     <string name="location_service_ntfc_title">Nach GPS suchen…</string>
     <string name="lock_not_support_description">Um Ihre medizinische Notfall-ID auf dem Sperrbildschirm verfügbar zu machen, tippen Sie auf Mehr &gt; Bearbeiten und aktivieren Sie \"Bei Sperre anzeigen\".</string>
-    <string name="lock_show_dialog_content">"Auf Ihre medizinische Notfall-ID können Sie zugreifen, ohne Ihr Telefon zu entsperren.
-Wenn Sie Ihre Daten nicht weitergeben möchten, können Sie diese Funktion deaktivieren."</string>
+    <string name="lock_show_dialog_content">Auf Ihre medizinische Notfall-ID können Sie zugreifen, ohne Ihr Telefon zu entsperren.\nWenn Sie Ihre Daten nicht weitergeben möchten, können Sie diese Funktion deaktivieren.</string>
     <string name="lock_show_dialog_title">Achtung</string>
     <string name="lock_show_solve_description">Um die medizinische Notfall-ID auf dem Sperrbildschirm anzuzeigen, erlauben Sie der App Gesundheit die Anzeige dort.</string>
     <string name="lock_show_solve_go">Einstellungen</string>
@@ -1230,21 +1202,18 @@ Wenn Sie Ihre Daten nicht weitergeben möchten, können Sie diese Funktion deakt
     <string name="sleep_detection_guide_four_title">Niedriger Stromverbrauch</string>
     <string name="sleep_detection_guide_one_description">Legen Sie Ihr Gerät neben sich, wenn Sie schlafen, um Körperbewegungen zu verfolgen und eine Schlafzyklusstatistik zu erstellen.</string>
     <string name="sleep_detection_guide_one_title">Ihren Schlaf verfolgen</string>
-    <string name="sleep_detection_guide_schedule_hint_one">"Ohne Schlafplan wird Ihre Statistik nicht korrekt sein. "</string>
+    <string name="sleep_detection_guide_schedule_hint_one">Ohne Schlafplan wird Ihre Statistik nicht korrekt sein. "</string>
     <string name="sleep_detection_guide_schedule_hint_two">Legen Sie Ihren Schlafplan fest.</string>
     <string name="sleep_detection_guide_schedule_hint_two_details">Ihre Schlafenszeit auf der Uhr einstellen.</string>
     <string name="sleep_detection_guide_three_description">"Wenn der Zeitplan für das Schlafengehen festgelegt wird, wird Ihr Schlaf automatisch verfolgt. "</string>
     <string name="sleep_detection_guide_three_title">Automatische Statistikgenerierung</string>
     <string name="sleep_detection_guide_two_description">Um genaue Werte zu erhalten, legen Sie Ihr Gerät neben oder unter das Kissen und achten Sie darauf, dass es nicht mehr als 50 cm von Ihrem Körper entfernt ist.</string>
     <string name="sleep_detection_guide_two_title">Legen Sie das Gerät neben Ihr Kopfkissen</string>
-    <string name="sleep_detection_hint">" Die Angaben dienen nur zu Ihrer Information. Sie können nicht als Grundlage für eine medizinische Diagnose verwendet werden."</string>
+    <string name="sleep_detection_hint">"Die Angaben dienen nur zu Ihrer Information. Sie können nicht als Grundlage für eine medizinische Diagnose verwendet werden.</string>
     <string name="sleep_detection_question_four_answer">Verschiedene Arten von Mobilgeräten sind mit unterschiedlichen Sensoren ausgestattet. Die Werte für die Leistungsaufnahme können für verschiedene Hardware-Elemente variieren.</string>
     <string name="sleep_detection_question_four_title">Warum verbrauchen verschiedene Geräte unterschiedlich viel Strom, um den Schlaf zu verfolgen?</string>
-    <string name="sleep_detection_question_one_answer">"Wenn Ihr Gerät ausgeschaltet oder neu gestartet wird oder der Akku schwach ist, wird die Schlaferfassung unterbrochen, da die Sensoren keine Daten erfassen und analysieren können. In solchen Fällen erscheint die Schlafstatistik unvollständig.
-Wenn dieses Problem häufig auftritt, prüfen Sie Ihr Gerät auf geplante Abschaltaufgaben oder nächtliche Systemaktualisierungen."</string>
-    <string name="sleep_detection_question_one_answer_1">"Tief- und Halbschlafphasen werden auf der Grundlage von Körperbewegungsdaten, die von Ihren Gerätesensoren erfasst werden, erkannt. Hier ist der Grund, warum Sie die Statistik evtl. nicht sehen können:
-1. Xiaomi Health konnte keine Daten sammeln. Dies kann passieren, wenn sich Ihr Gerät im Schlaf ausschaltet, sein Akku zu schwach ist oder die App nicht im Hintergrund arbeiten darf. Erlauben Sie Xiaomi Health einen automatischen Start, fügen Sie es zu den Stromspar-Ausnahmen hinzu und sperren Sie es im Hintergrund, um dies zu verhindern.
-2. Xiaomi Health konnte die gesammelten Daten nicht analysieren. Dies kann passieren, wenn das Telefon zu weit vom Körper entfernt ist, wenn Sie schlafen. Alternativ könnte Ihre Körperbewegung zu subtil sein, um irgendwelche Annahmen über Veränderungen Ihres Schlafzyklus zu treffen. Wir arbeiten ständig an der Verbesserung unserer Algorithmen, damit Xiaomi Health Ihren Schlaf besser analysieren kann."</string>
+    <string name="sleep_detection_question_one_answer">Wenn Ihr Gerät ausgeschaltet oder neu gestartet wird oder der Akku schwach ist, wird die Schlaferfassung unterbrochen, da die Sensoren keine Daten erfassen und analysieren können. In solchen Fällen erscheint die Schlafstatistik unvollständig.\nWenn dieses Problem häufig auftritt, prüfen Sie Ihr Gerät auf geplante Abschaltaufgaben oder nächtliche Systemaktualisierungen.</string>
+    <string name="sleep_detection_question_one_answer_1">Tief- und Halbschlafphasen werden auf der Grundlage von Körperbewegungsdaten, die von Ihren Gerätesensoren erfasst werden, erkannt. Hier ist der Grund, warum Sie die Statistik evtl. nicht sehen können:\n1. Xiaomi Health konnte keine Daten sammeln. Dies kann passieren, wenn sich Ihr Gerät im Schlaf ausschaltet, sein Akku zu schwach ist oder die App nicht im Hintergrund arbeiten darf. Erlauben Sie Xiaomi Health einen automatischen Start, fügen Sie es zu den Stromspar-Ausnahmen hinzu und sperren Sie es im Hintergrund, um dies zu verhindern.\n2. Xiaomi Health konnte die gesammelten Daten nicht analysieren. Dies kann passieren, wenn das Telefon zu weit vom Körper entfernt ist, wenn Sie schlafen. Alternativ könnte Ihre Körperbewegung zu subtil sein, um irgendwelche Annahmen über Veränderungen Ihres Schlafzyklus zu treffen. Wir arbeiten ständig an der Verbesserung unserer Algorithmen, damit Xiaomi Health Ihren Schlaf besser analysieren kann.</string>
     <string name="sleep_detection_question_one_title">Warum ist meine Statistik unvollständig?</string>
     <string name="sleep_detection_question_one_title_1">Warum sehe ich keine Schlafzyklusstatistik?</string>
     <string name="sleep_detection_question_three_answer">Ihr Gerät verfolgt Ihre Körperbewegungen während des Schlafs mit Hilfe eingebauter Sensoren. Um die Statistik genauer zu machen, legen Sie das Gerät auf eine weiche Oberfläche in Körpernähe. Vermeiden Sie es, es auf Nachttische oder zu weit von der Matratze entfernt aufzustellen.</string>
@@ -1280,11 +1249,9 @@ Wenn dieses Problem häufig auftritt, prüfen Sie Ihr Gerät auf geplante Abscha
     <string name="sleep_need_background_run">\"Keine Einschränkungen\" wählen, um genauere Schlafdaten zu erfassen</string>
     <string name="sleep_need_necessary_permissions">Erforderlichen Berechtigungen erteilen, um genauere Schlafdaten zu erfassen</string>
     <string name="sleep_night_title">Schlaf nachts</string>
-    <string name="sleep_no_data_info">"Durchlaufen eines kompletten
-Schlafzyklus"</string>
+    <string name="sleep_no_data_info">Kompletten Schlafzyklus\ndurchlaufen</string>
     <string name="sleep_no_deep_light_data_tip">Warum wird der Halb-/Tiefschlaf nicht aufgezeichnet?</string>
-    <string name="sleep_no_generate_report">"Schlafdaten
-nicht gefunden"</string>
+    <string name="sleep_no_generate_report">Schlafdaten\nnicht gefunden</string>
     <string name="sleep_notice">Schlaf-Benachrichtigungen</string>
     <string name="sleep_record_content">Xiaomi Health zeichnet Ihren Schlaf automatisch auf, basierend auf Ihrer Telefonnutzung, der Aktivitätsstatistik sowie der von Ihnen eingestellten Einschlaf- und Aufwachzeit.</string>
     <string name="sleep_record_go_open">\"Schlaf verfolgen\"-Schalter betätigen, um mit Schlafdaten aufzeichnen zu beginnen</string>
@@ -1345,8 +1312,7 @@ nicht gefunden"</string>
     <string name="snore_detection_guide_three_title">Halten Sie Ihr Gerät aufgeladen</string>
     <string name="snore_detection_guide_two_description">Mikrofon wird je nach Ihrer Schlafzeit ein- und ausgeschaltet.</string>
     <string name="snore_detection_guide_two_title">Töne automatisch erkennen</string>
-    <string name="snore_detection_model_hint">" Algorithmen zur Schnarch- und Sprecherkennung, bereitgestellt
-durch Snail Sleep"</string>
+    <string name="snore_detection_model_hint">Algorithmen zur Schnarch- und Sprecherkennung, bereitgestellt\ndurch Snail Sleep</string>
     <string name="snore_detection_normal_notification_title">Schnarch- und Sprecherkennung</string>
     <string name="snore_detection_notification_content">Mikrofon ist an. Es arbeitet im Hintergrund weiter.</string>
     <string name="snore_detection_notification_title">Schlaftest wird durchgeführt</string>
@@ -1390,13 +1356,10 @@ durch Snail Sleep"</string>
     <string name="solar_term_winter_begins">Winteranfang</string>
     <string name="solar_term_winter_solstice">Wintersonnenwende</string>
     <string name="splash_edit_basic_save_btn">Weiter</string>
-    <string name="splash_header_subtitle">"Regelmäßige Bewegung und Schlaf
-können Ihre Gesundheit verbessern."</string>
+    <string name="splash_header_subtitle">Regelmäßige Bewegung und Schlaf\nkönnen Ihre Gesundheit verbessern.</string>
     <string name="splash_header_title">Globale Gesundheitsbehörden sagen:</string>
     <string name="splash_next_btn">Basisinfos eingeben</string>
-    <string name="splash_title">"In Xiaomi Health können Sie Ihre Aktivitätsziele setzen
-und Sie werden basierend
-auf Ihren persönlichen Daten beraten."</string>
+    <string name="splash_title">In Xiaomi Health können Sie Ihre Aktivitätsziele setzen\nund Sie werden basierend\nauf Ihren persönlichen Daten beraten.</string>
     <string name="sport_audio_permission_dialog_content">Diese App benötigt Berechtigungen zum Audioaufzeichnen, um Trainings auf Basis der von Ihnen produzierten Geräusche verfolgen zu können.</string>
     <string name="sport_audio_permission_dialog_desc">Zum Verfolgen von Trainings auf Basis der von Ihnen produzierten Geräusche</string>
     <string name="sport_audio_permission_dialog_title">Berechtigungen erforderlich</string>
@@ -1449,7 +1412,7 @@ auf Ihren persönlichen Daten beraten."</string>
     <string name="sport_tts_pause_by_user">Workout angehalten</string>
     <string name="sport_tts_riding_distance">Sie sind %s km gefahren</string>
     <string name="sport_tts_running_distance">Sie sind %s km gelaufen</string>
-    <string name="sport_tts_total_consume">一Gesamtverbrauch: %s kcal</string>
+    <string name="sport_tts_total_consume">Gesamtverbrauch: %s kcal</string>
     <string name="sport_tts_walking_distance">Sie sind %s km gelaufen</string>
     <string name="sport_type">Workout-Typ</string>
     <string name="sporting_content_speed">Aktuelles Tempo: %1$s %2$s/km</string>
@@ -1536,9 +1499,9 @@ auf Ihren persönlichen Daten beraten."</string>
     <string name="system_permission">Berechtigungsdetails</string>
     <string name="systolic_pressure">Systolisch</string>
     <string name="tb_audio_progress_bar">Audiowiedergabeleiste</string>
-    <string name="tb_blood_pressure_day_chart">%1$s. Max. systolischer Druck: %2$d Millimeter Quecksilber. Min. diastolischer Druck: %3$d Millimeter Quecksilber.</string>
-    <string name="tb_blood_pressure_item">%1$s. Systolischer Druck: %2$d Millimeter Quecksilber. Diastolischer Druck: %3$d Millimeter Quecksilber.</string>
-    <string name="tb_blood_pressure_wm_card">Ø-systolischer Druck: %1$d Millimeter Quecksilber. >Ø-diastolischer Druck: %2$d Millimeter Quecksilber. Max. systolischer Druck: %3$d Millimeter Quecksilber. Max. diastolischer Druck: %4$d Millimeter Quecksilber. Min. systolischer Druck: %5$d Millimeter Quecksilber. Min. diastolischer Druck: %6$d Millimeter Quecksilber.</string>
+    <string name="tb_blood_pressure_day_chart">%1$s | Max. systolischer Druck: %2$d Millimeter Quecksilber |Min. diastolischer Druck: %3$d Millimeter Quecksilber</string>
+    <string name="tb_blood_pressure_item">%1$s | Systolischer Druck: %2$d Millimeter Quecksilber | Diastolischer Druck: %3$d Millimeter Quecksilber</string>
+    <string name="tb_blood_pressure_wm_card">Ø-systolischer Druck: %1$d Millimeter Quecksilber | Ø-diastolischer Druck: %2$d Millimeter Quecksilber | Max. systolischer Druck: %3$d Millimeter Quecksilber | Max. diastolischer Druck: %4$d Millimeter Quecksilber | Min. systolischer Druck: %5$d Millimeter Quecksilber | Min. diastolischer Druck: %6$d Millimeter Quecksilber</string>
     <string name="tb_card_on_using_list">Hinzugefügt</string>
     <string name="tb_clear_history">Suchverlauf löschen</string>
     <string name="tb_click_finish_stand">Nicht beendetes Stehen seit fast 1 Stunde, tippen Sie zum Beenden des Stehens</string>
@@ -1550,7 +1513,7 @@ auf Ihren persönlichen Daten beraten."</string>
     <string name="tb_detection_subpage_info">%1$d. Seite der Beschreibung. Wischen Sie horizontal über den oberen Teil des Bildschirms, um zur Seite %2$d zu gelangen.</string>
     <string name="tb_detection_subpage_last_info">%1$d. Seite der Beschreibung. Letzte Seite.</string>
     <string name="tb_exercise_consume_no_data">Keine Kalorieninfo</string>
-    <string name="tb_exercise_consume_normal">Verbrannte Kalorien: %1$d. %2$s. Tippen, um Details anzuzeigen.</string>
+    <string name="tb_exercise_consume_normal">Verbrannte Kalorien: %1$d | %2$s. Tippen, um Details anzuzeigen.</string>
     <string name="tb_exercise_detail_consume_daily_enough">Verbrannte Kalorien: %1$d. Workout war ausreichend.</string>
     <string name="tb_exercise_detail_consume_daily_not_enough">Verbrannte Kalorien: %1$d. Workout war nicht ausreichend.</string>
     <string name="tb_exercise_detail_consume_no_data">Keine Informationen über verbrannte Kalorien</string>
@@ -1562,31 +1525,31 @@ auf Ihren persönlichen Daten beraten."</string>
     <string name="tb_exercise_detail_duration_w_m_normal">Tages-Ø in Minuten: %1$d. Gesamt Minuten: %2$d.</string>
     <string name="tb_exercise_detail_pillar">Schritte %1$s bis %2$s: %3$s.</string>
     <string name="tb_exercise_detail_pillar_cancel">Auswahl abbrechen</string>
-    <string name="tb_exercise_detail_step_daily_no_data">Keine Schrittzähldaten. Ziel: %1$d.</string>
+    <string name="tb_exercise_detail_step_daily_no_data">Keine Schrittzähldaten | Ziel: %1$d.</string>
     <string name="tb_exercise_detail_step_daily_no_goal">Gesamtschritte: %1$d</string>
-    <string name="tb_exercise_detail_step_daily_normal">Gesamtschritte: %1$d. Ziel: %2$d. %3$d Prozent abgeschlossen.</string>
+    <string name="tb_exercise_detail_step_daily_normal">Gesamtschritte: %1$d | Ziel: %2$d | %3$d Prozent abgeschlossen</string>
     <string name="tb_exercise_detail_step_no_goal_no_data">Keine Schrittzähldaten.</string>
     <string name="tb_exercise_detail_step_w_m_no_data">Keine Schrittzähldaten. Tage, an denen Sie das Ziel erreicht haben: %1$d.</string>
     <string name="tb_exercise_detail_step_w_m_no_goal">Tägliche Ø-Schrittzahl: %1$d.</string>
     <string name="tb_exercise_detail_step_w_m_normal">Tägliche Ø-Schrittzahl: %1$d. Tage, an denen Sie das Ziel erreicht haben: %2$d.</string>
     <string name="tb_exercise_exercise_duration">Übungsdauer in Minuten: %1$d. %2$s. Tippen, um Details anzuzeigen.</string>
     <string name="tb_exercise_exercise_no_data">Keine Angaben zur Übungsdauer</string>
-    <string name="tb_exercise_goal_info">Tägliches Aktivitätsziel: %1$s. %2$s</string>
+    <string name="tb_exercise_goal_info">Tägliches Aktivitätsziel: %1$s | %2$s</string>
     <string name="tb_exercise_home_banner">Täglicher Check</string>
     <string name="tb_exercise_label_close">Aufforderung beenden</string>
     <string name="tb_exercise_list_add">Übungsstatistik hinzufügen</string>
-    <string name="tb_exercise_list_consume">Verbrannte Kalorien: %1$d. Endzeit: %2$s. Tippen, um Details anzuzeigen.</string>
-    <string name="tb_exercise_list_sport">%1$s. Entfernung in Kilometer: %2$s. Endzeit: %3$s. Datenquelle: %4$s. Tippen, um Details anzuzeigen.</string>
-    <string name="tb_exercise_list_sport_one">%1$s. Dauer: %2$s. Endzeit: %3$s. Datenquelle: %4$s. v</string>
-    <string name="tb_exercise_list_walk">Schrittzahl: %1$s. Endzeit: %2$s. Tippen, um Details anzuzeigen.</string>
-    <string name="tb_exercise_sport_no_distance">%1$s. Dauer in Minuten: %2$s. Verbrannte Kalorien: %3$s.</string>
-    <string name="tb_exercise_sport_normal">%1$s. Entfernung %2$s. Dauer: %3$s. Verbrannte Kalorien: %4$s</string>
+    <string name="tb_exercise_list_consume">Verbrannte Kalorien: %1$d | Endzeit: %2$s | Tippen, um Details anzuzeigen.</string>
+    <string name="tb_exercise_list_sport">%1$s | Entfernung in Kilometer: %2$s | Endzeit: %3$s | Datenquelle: %4$s. Tippen, um Details anzuzeigen.</string>
+    <string name="tb_exercise_list_sport_one">%1$s | Dauer: %2$s | Endzeit: %3$s | Datenquelle: %4$s</string>
+    <string name="tb_exercise_list_walk">Schrittzahl: %1$s | Endzeit: %2$s | Tippen, um Details anzuzeigen.</string>
+    <string name="tb_exercise_sport_no_distance">%1$s | Dauer in Minuten: %2$s | Verbrannte Kalorien: %3$s</string>
+    <string name="tb_exercise_sport_normal">%1$s | Entfernung %2$s | Dauer: %3$s | Verbrannte Kalorien: %4$s</string>
     <string name="tb_exercise_sport_sum">Übungsbericht %1$s. Tippen, um Details anzuzeigen.</string>
     <string name="tb_exercise_steps_no_data">Keine Schrittdaten. Aktuelles Ziel: %1$d. Tippen, um Details anzuzeigen.</string>
-    <string name="tb_exercise_steps_no_goal">Schrittzahl: %1$d. Tippen, um Details anzuzeigen.</string>
-    <string name="tb_exercise_steps_normal">Schrittzahl: %1$d. Aktuelles Ziel: %2$d. Fortschritt: %3$d%%. Tippen, um Details anzuzeigen.</string>
+    <string name="tb_exercise_steps_no_goal">Schrittzahl: %1$d | Tippen, um Details anzuzeigen.</string>
+    <string name="tb_exercise_steps_normal">Schrittzahl: %1$d | Aktuelles Ziel: %2$d | Fortschritt: %3$d%%. Tippen, um Details anzuzeigen.</string>
     <string name="tb_exit_detection">Beenden</string>
-    <string name="tb_gender_select_checked">Ausgewähltes Geschlecht: %1$s.</string>
+    <string name="tb_gender_select_checked">Ausgewähltes Geschlecht: %1$s</string>
     <string name="tb_gender_select_unchecked">Geschlecht %1$s, zur Auswahl tippen</string>
     <string name="tb_go_back_today">Zurück zum heutigen Tag</string>
     <string name="tb_go_forward_30_day">30 Tage überspringen</string>
@@ -1597,39 +1560,39 @@ auf Ihren persönlichen Daten beraten."</string>
     <string name="tb_go_next_a_day">Vorheriger Tag</string>
     <string name="tb_go_on_detection">Fortsetzen </string>
     <string name="tb_has_snore_dream_talk">Sprechen und Schnarchen entdeckt</string>
-    <string name="tb_hearing_card">Gehör | Kopfhörerbelastung: %1$s | Aufgenommen: %2$s.</string>
-    <string name="tb_hearing_column">%1$s | Kopfhörerbelastung: %2$s | Laute Geräusche: %3$s.</string>
-    <string name="tb_hearing_daily_card">%1$s | Kopfhörerbelastung: %2$s | Laute Geräusche: %3$s.</string>
-    <string name="tb_hearing_wm_card">%1$s | Kopfhörerbelastung Ø : %2$s | Laute Geräusche-Belastung Ø: %3$s.</string>
-    <string name="tb_heart_rate_max_min">Puls. Höchste: %1$d. Niedrigste: %2$d.</string>
-    <string name="tb_home_blood_pressure_card">Blutdruck. Systolisch: %1$d. Diastolisch: %2$d. Aufgezeichnet: %3$s. Status: %4$s.</string>
+    <string name="tb_hearing_card">Gehör | Kopfhörerbelastung: %1$s | Aufgenommen: %2$s</string>
+    <string name="tb_hearing_column">%1$s | Kopfhörerbelastung: %2$s | Laute Geräusche: %3$s</string>
+    <string name="tb_hearing_daily_card">%1$s | Kopfhörerbelastung: %2$s | Laute Geräusche: %3$s</string>
+    <string name="tb_hearing_wm_card">%1$s | Kopfhörerbelastung Ø : %2$s | Laute Geräusche-Belastung Ø: %3$s</string>
+    <string name="tb_heart_rate_max_min">Puls | Höchste: %1$d | Niedrigste: %2$d</string>
+    <string name="tb_home_blood_pressure_card">Blutdruck | Systolisch: %1$d | Diastolisch: %2$d | Aufgezeichnet: %3$s | Zustand: %4$s</string>
     <string name="tb_home_blood_pressure_card_no_data">Blutdruck, keine Daten.</string>
-    <string name="tb_home_exercise_card_finish">Übung: %1$s. Abgeschlossen: %2$s. Ziel: %3$s. Abgeschlossen: %4$s.</string>
-    <string name="tb_home_exercise_card_not_set_goal">Übung: %1$s. Abgeschlossen: %2$s. Ziel öffnen.</string>
+    <string name="tb_home_exercise_card_finish">Übung: %1$s | Abgeschlossen: %2$s | Ziel: %3$s | Abgeschlossen: %4$s</string>
+    <string name="tb_home_exercise_card_not_set_goal">Übung %1$s | Abgeschlossen: %2$s | Ziel öffnen</string>
     <string name="tb_home_exercise_card_not_supported_step">Übung: Dieses Gerät zählt keine Schritte.</string>
-    <string name="tb_home_exercise_card_speed_of_progress">Übung: %1$s. Abgeschlossen: %2$s. Ziel: %3$s. Fortschritt: %4$s.</string>
-    <string name="tb_home_heart_rate_card">Puls. %1$d Schläge pro Minute. Aufgezeichnet am %2$s.</string>
-    <string name="tb_home_heart_rate_card_no_data">Puls. Keine Daten.</string>
+    <string name="tb_home_exercise_card_speed_of_progress">Übung: %1$s | Abgeschlossen: %2$s | Ziel: %3$s | Fortschritt: %4$s</string>
+    <string name="tb_home_heart_rate_card">Puls |%1$d Schläge pro Minute | Aufgezeichnet am %2$s</string>
+    <string name="tb_home_heart_rate_card_no_data">Puls | Keine Daten</string>
     <string name="tb_home_sleep_card">Heute geschlafen: %1$s, %2$s</string>
     <string name="tb_home_sleep_card_no_data">Schlafen: Heute keine Daten.</string>
     <string name="tb_home_sleep_card_not_open_trace">Schlafen: Die Schlafzyklusanalyse ist aus.</string>
     <string name="tb_home_tip_open_data_sync">Xiaomi Health-Elemente mit der Xiaomi Cloud synchronisieren, um auf sie auf anderen Geräten zuzugreifen. Zum Starten doppelt tippen.</string>
-    <string name="tb_home_weight_card">Gewicht: %1$.1f kg. Gewogen am: %2$s. Status: %3$s.</string>
-    <string name="tb_home_weight_card_no_data">Gewicht: Keine Daten.</string>
+    <string name="tb_home_weight_card">Gewicht: %1$.1f kg | Gewogen am: %2$s | Status: %3$s</string>
+    <string name="tb_home_weight_card_no_data">Gewicht: Keine Daten</string>
     <string name="tb_manage_home">Hier können Sie die auf der Startseite angezeigten Karten entfernen oder neu anordnen.</string>
     <string name="tb_mens_mark_success">Erfolgreich markiert</string>
     <string name="tb_mens_month_date_selected">%1$s ausgewählt.</string>
     <string name="tb_mens_month_date_unselected">%1$s. Tippen, um Datum auszuwählen.</string>
-    <string name="tb_mens_month_expected_date_selected">%1$s. Tag %2$d des vorhergesagten Zyklus. Ausgewählt.</string>
-    <string name="tb_mens_month_expected_date_unselected">%1$s. Tag %2$d des vorhergesagten Zyklus. Tippen, um Datum auszuwählen.</string>
+    <string name="tb_mens_month_expected_date_selected">%1$s | Tag %2$d des vorhergesagten Zyklus | Ausgewählt</string>
+    <string name="tb_mens_month_expected_date_unselected">%1$s |Tag %2$d des vorhergesagten Zyklus | Tippen, um Datum auszuwählen.</string>
     <string name="tb_mens_month_forecast">%1$s. Voraussichtlicher Zeitraum.</string>
     <string name="tb_mens_month_future_date">%1$s. Zukünftige Termine auswählen nicht möglich.</string>
-    <string name="tb_mens_month_history">Ø-Periodendauer in Tagen: %1$d. Ø-Zyklusdauer in Tagen: %2$d.</string>
+    <string name="tb_mens_month_history">Ø-Periodendauer in Tagen: %1$d | Ø-Zyklusdauer in Tagen: %2$d</string>
     <string name="tb_mens_month_marked">%1$s. Menstruationszyklus ist markiert.</string>
     <string name="tb_mens_month_no_marks">%1$s. Status ist nicht markiert.</string>
     <string name="tb_mens_month_panel_title">%1$s. Tippen, um Datum auszuwählen.</string>
-    <string name="tb_mens_month_period_date_selected">%1$s. Tag %2$d des Menstruationszyklus. Ausgewählt.</string>
-    <string name="tb_mens_month_period_date_unselected">%1$s. Tag %2$d des Menstruationszyklus. Tippen, um Datum auszuwählen.</string>
+    <string name="tb_mens_month_period_date_selected">%1$s | Tag %2$d des Menstruationszyklus | Ausgewählt</string>
+    <string name="tb_mens_month_period_date_unselected">%1$s |Tag %2$d des Menstruationszyklus | Tippen, um Datum auszuwählen.</string>
     <string name="tb_mens_select_column">Zyklus beginnt am %1$s.%2$s.%3$s.</string>
     <string name="tb_mens_unmark_success">Erfolgreich abgebrochen</string>
     <string name="tb_month_dialog_go_today">Heute ausgewählt</string>
@@ -1650,8 +1613,8 @@ auf Ihren persönlichen Daten beraten."</string>
     <string name="tb_play_next">Zur nächsten Aufzeichnung wechseln</string>
     <string name="tb_play_previous">Zur vorherigen Aufzeichnung wechseln</string>
     <string name="tb_range">Von %1$s bis %2$s</string>
-    <string name="tb_resting_heart_rate_avg">Ø-Ruheherzfrequenz: %1$d. Status: %2$s.</string>
-    <string name="tb_resting_heart_rate_avg2">Ø-Ruheherzfrequenz. Höchste: %1$d. Niedrigste: %2$d.</string>
+    <string name="tb_resting_heart_rate_avg">Ø-Ruheherzfrequenz: %1$d | Status: %2$s</string>
+    <string name="tb_resting_heart_rate_avg2">Ø-Ruheherzfrequenz. Höchste: %1$d | Niedrigste: %2$d</string>
     <string name="tb_select_a_column">%1$s ausgewählt</string>
     <string name="tb_show_sleep_info">Schlafstatistik für %1$s anzeigen</string>
     <string name="tb_sleep_evaluation">Geschätztes Ergebnis: %1$s</string>
@@ -1659,7 +1622,7 @@ auf Ihren persönlichen Daten beraten."</string>
     <string name="tb_sleep_index_exception_info">%1$s. Messfehler. Tippen, um Details anzuzeigen.</string>
     <string name="tb_sleep_index_info">%1$s. Tippen, um Details anzuzeigen.</string>
     <string name="tb_sleep_index_title">Umschalten auf %1$s</string>
-    <string name="tb_sleep_ring_info">%1$s. Schlafen: %2$s. Tippen, um Details anzuzeigen.</string>
+    <string name="tb_sleep_ring_info">%1$s |Schlafen: %2$s. Tippen, um Details anzuzeigen.</string>
     <string name="tb_snore_detection_main">Über die Merkmale in Bezug auf Sprechen und Schnarchen: %1%s. Horizontal über den oberen Bildschirmteil wischen, um zur nächsten Seite zu gehen.</string>
     <string name="tb_snore_view_info">Sprech- und Schnarchdiagramm</string>
     <string name="tb_stand_card_finish_stand">Heute wurden %1$s Stehen angesammelt. Ziel ist es, das Stehen mit 12 Stunden zu beenden. Die aktuelle Zeit ist %2$s-%3$s, und das Stehen wurde beendet.</string>
@@ -1668,16 +1631,16 @@ auf Ihren persönlichen Daten beraten."</string>
     <string name="tb_stand_day_ring">Heute wurden %1$s angesammelt, um das Stehen abzuschließen. Ziel ist es, das Stehen mit 12 Stunden abzuschließen.</string>
     <string name="tb_stand_wm_column_chart">%1$s-%2$s, Statistik Fertigstellung Stehzeit. Ziehen Sie nach links und rechts, um den Zeitbereich zu ändern, tippen Sie auf die Spalte, um Details anzuzeigen.</string>
     <string name="tb_stand_wm_column_click">%1$s, Stehen %2$d, %3$s</string>
-    <string name="tb_step_widget" formatted="false">Heute. %1$s. Fortschritt: %2$d%</string>
+    <string name="tb_step_widget" formatted="false">Heute %1$s | Fortschritt: %2$d%</string>
     <string name="tb_unmultiple_selecte_all">Alles abwählen</string>
-    <string name="tb_user_account_signed">Mi-Konto: %1$s.</string>
+    <string name="tb_user_account_signed">Mi-Konto: %1$s</string>
     <string name="tb_user_account_unsigned">Tippen, um sich mit dem Mi-Konto anzumelden</string>
-    <string name="tb_user_sleep_card_info">Tägliches Schlafziel: %1$s.</string>
+    <string name="tb_user_sleep_card_info">Tägliches Schlafziel: %1$s</string>
     <string name="tb_user_sleep_target_btn">Schlafziel ändern</string>
-    <string name="tb_user_step_card_info">Tägliches Ziel: %1$s, über %2$s oder %3$s.</string>
+    <string name="tb_user_step_card_info">Tägliches Ziel: %1$s, über %2$s oder %3$s</string>
     <string name="tb_user_step_target_btn">Ziel ändern</string>
-    <string name="tb_user_weight_card_info">BMI %1$s, %2$s. Empfohlenes Gewicht: %3$s.</string>
-    <string name="tb_volume_list_item">%1$s | Umgebungsgeräusche: %3$s (%2$d dB).</string>
+    <string name="tb_user_weight_card_info">BMI %1$s, %2$s | Empfohlenes Gewicht: %3$s</string>
+    <string name="tb_volume_list_item">%1$s | Umgebungsgeräusche: %3$s (%2$d dB)</string>
     <string name="tb_weight_choice">%2$s von %1$s ist %3$s</string>
     <string name="tb_weight_decrease">Abgenommen</string>
     <string name="tb_weight_has_record">Gewichtsaufzeichnung gefunden</string>
@@ -1799,10 +1762,7 @@ auf Ihren persönlichen Daten beraten."</string>
     <string name="unknown_gender">Unbekannt</string>
     <string name="unknown_state">Unbekannter Status</string>
     <string name="update_notify_dialog_ignore">Später</string>
-    <string name="update_notify_dialog_msg">"Update verfügbar: %1$s.
-Was ist neu:
-%2$s
-Jetzt aktualisieren?"</string>
+    <string name="update_notify_dialog_msg">Update verfügbar: %1$s.\nWas ist neu:\n%2$s\nJetzt aktualisieren?</string>
     <string name="update_notify_dialog_msg2">Update verfügbar: %1$s. Jetzt aktualisieren?</string>
     <string name="update_notify_dialog_title">Update verfügbar</string>
     <string name="update_notify_no_update_log">Noch nichts da</string>
@@ -1848,10 +1808,8 @@ Jetzt aktualisieren?"</string>
     <string name="xiaomi_market_sdk_update_dialog_title">Update verfügbar</string>
     <string name="xiaomi_update_sdk_bytes_unit">%1$s B</string>
     <string name="xiaomi_update_sdk_connect_download_manager_fail">Download-Manager verbinden fehlgeschlagen, bitte Download-Manager-Status in der App-Verwaltung prüfen</string>
-    <string name="xiaomi_update_sdk_dialog_message">"Einführung der Version %1$s
-Größe: %2$s"</string>
-    <string name="xiaomi_update_sdk_dialog_message_diff">"Einführung der Version %1$s
-Delta-Update-Größe: %2$s"</string>
+    <string name="xiaomi_update_sdk_dialog_message">Einführung der Version %1$s\nGröße: %2$s</string>
+    <string name="xiaomi_update_sdk_dialog_message_diff">Einführung der Version %1$s\nDelta-Update-Größe: %2$s</string>
     <string name="xiaomi_update_sdk_dialog_title">%1$s aktualisiert!</string>
     <string name="xiaomi_update_sdk_external_storage_unavailable">Speicher nicht verfügbar, bitte SD-Karte prüfen</string>
     <string name="xiaomi_update_sdk_kilobytes_unit">%1$s KB</string>
