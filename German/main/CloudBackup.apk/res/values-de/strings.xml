@@ -18,6 +18,7 @@
     <string name="abc_shareactionprovider_share_with_application">Teilen mit %s</string>
     <string name="abc_toolbar_collapse_description">Einklappen</string>
     <string name="about_to_recover">Einen Moment…</string>
+    <string name="access_denied_info">Zu viele Versuche. Einem Moment warten und erneut versuchen.</string>
     <string name="actionbar_button_up_description">Zurück</string>
     <string name="afternoon">Nachmittag</string>
     <string name="app_is_running">App läuft…</string>
@@ -143,10 +144,17 @@ Wichtig: Daten der einzelnen Apps werden dabei nicht in Xiaomi Cloud gesichert."
     <string name="cloud_backup_have_data">Sicherung in Xiaomi Cloud gefunden</string>
     <string name="cloud_backup_in_cancel">Abbrechen</string>
     <string name="cloud_backup_in_process">Sichern…</string>
+    <string name="cloud_backup_permission_allow">Gewährt</string>
+    <string name="cloud_backup_permission_not_allow">Nicht gewährt</string>
+    <string name="cloud_backup_phone_state_summary">Zugriff auf Rufnummer und Gerätestatus</string>
+    <string name="cloud_backup_phone_state_title">Zugriff auf Geräteinfo</string>
+    <string name="cloud_backup_rw_storage_summary">Für die Cloud-Sicherung von Startbildschirm-Layout, App-Daten und App-Einstellungen</string>
+    <string name="cloud_backup_rw_storage_title">Speicherzugriff</string>
     <string name="cloud_backup_select_recover">Wählen Sie eine Sicherung in Xiaomi Cloud</string>
     <string name="cloud_restore_from_other_device">Wiederherstellen von %s abbrechen und Sicherung löschen? Diese Aktion kann nicht rückgängig gemacht werden.</string>
     <string name="cloud_restore_task">Wiederherstellen…</string>
     <string name="cloud_task_in_process">%s abbrechen und Sicherung löschen? Diese Aktion kann nicht rückgängig gemacht werden.</string>
+    <string name="collect_diagnosis_log">Diagnoseprotokoll sammeln</string>
     <string name="confirm_cancel_restore_negative">Abbrechen</string>
     <string name="confirm_cancel_restore_positive">Fortfahren</string>
     <string name="confirm_cancel_restore_title">Wiederherstellen abbrechen?</string>
@@ -170,6 +178,10 @@ Wichtig: Daten der einzelnen Apps werden dabei nicht in Xiaomi Cloud gesichert."
     <string name="desktop_waiting">Warten</string>
     <string name="device_delete_prompt">Sicherung von %s löschen?</string>
     <string name="device_xiaomi">Mi Telefon</string>
+    <string name="diagnosis_log_send_failed">Diagnoseprotokoll senden fehlgeschlagen</string>
+    <string name="diagnosis_log_sent_format">"Diagnoseprotokoll wurde gesendet.
+ID:%s
+Bitte senden Sie diesen Code an den Techniker."</string>
     <string name="dialog_app_usage_consent_message">Diese Funktion muss auf die App-Nutzungsdaten zugreifen, um die Größe der WeChat-Backups abschätzen zu können.</string>
     <string name="dialog_app_usage_consent_title">Zugriff auf App-Nutzungsdaten zulassen</string>
     <string name="dialog_app_usage_denied">Sicherung die Berechtigung \"Nutzungszugriff\" in den Einstellungen gewähren, um Elemente sichern zu können.</string>
@@ -241,6 +253,7 @@ Wichtig: Daten der einzelnen Apps werden dabei nicht in Xiaomi Cloud gesichert."
     <string name="fmt_weekday_date_timezone">W, D z</string>
     <string name="fmt_weekday_time_timezone">W T z</string>
     <string name="fmt_weekday_timezone">W z</string>
+    <string name="for_diagnosis_usage_only">Diese Info dient nur zur Diagnose.</string>
     <string name="friday">Freitag</string>
     <string name="friday_short">Fr</string>
     <string name="friday_shortest">F</string>
@@ -322,6 +335,8 @@ Wichtig: Daten der einzelnen Apps werden dabei nicht in Xiaomi Cloud gesichert."
     <string name="msg_restore_with_metered_network_hint">Wenn Sie mit der Wiederherstellung dieser Elemente fortfahren, werden mobile Daten für den Download verwendet.</string>
     <string name="msg_restore_with_metered_network_pattern">"&lt;font color='red'>&lt;b>%s&lt;/b>&lt;/font>Dateien werden heruntergeladen."</string>
     <string name="network_error">Mit Netzwerk verbinden</string>
+    <string name="network_error_info">Ein Netzwerkfehler ist aufgetreten. Netzwerkeinstellungen prüfen und erneut versuchen.</string>
+    <string name="network_timeout_info">Verbindung zum Netzwerk nicht möglich. Erneut versuchen.</string>
     <string name="night">Abend</string>
     <string name="no_account">Nicht am Mi-Konto angemeldet</string>
     <string name="no_backup">Keine Sicherungen in Xiaomi Cloud</string>
@@ -335,8 +350,10 @@ Wichtig: Daten der einzelnen Apps werden dabei nicht in Xiaomi Cloud gesichert."
     <string name="other_device_main_space">Hauptprofil</string>
     <string name="other_device_second_space">Zweitprofil</string>
     <string name="pc_mode_not_support_restore_warning">Elemente im PC-Modus wiederhergestellen nicht möglich. PC-Modus ausschalten und erneut versuchen.</string>
+    <string name="permission_to_use">Berechtigungsdetails</string>
     <string name="preference_copied">\"%1$s\" in Zwischenablage kopiert</string>
     <string name="process_whole_recovery">Wiederherstellen \"%s\"</string>
+    <string name="progressbar_title">Auf Sicherheitsprobleme prüfen…</string>
     <string name="provision_back">Zurück</string>
     <string name="provision_background_restore_more_data">Weitere Elemente im Hintergrund wiederherstellen</string>
     <string name="provision_error_connect_msg">Netzwerk testen und erneut versuchen. Sicherungen sind nicht verfügbar, wenn Ihr Gerät offline is.</string>
@@ -371,7 +388,9 @@ Wichtig: Daten der einzelnen Apps werden dabei nicht in Xiaomi Cloud gesichert."
     <string name="restore_detail_category_app_data_summary">Chat-Verlauf, Dateien und andere Elemente (%s)</string>
     <string name="restore_detail_category_app_data_summary_disable">WeChat deinstallieren, um WeChat-Daten wiederherstellen zu können</string>
     <string name="restore_detail_category_apps">Starbildschirmlayout &amp; Apps</string>
+    <string name="restore_detail_category_apps_size">Größe: %s</string>
     <string name="restore_detail_category_settings">Einstellungen</string>
+    <string name="restore_detail_category_settings_size">Größe: &lt; %.1f GB</string>
     <string name="restore_detail_more">Mehr</string>
     <string name="restore_detail_title">Elemente zum Wiederherstellen wählen</string>
     <string name="restore_failed_reason_app_data_error">WeChat-Daten wiederherstellen nicht möglich</string>
@@ -418,6 +437,8 @@ Wichtig: Daten der einzelnen Apps werden dabei nicht in Xiaomi Cloud gesichert."
     <string name="self_phone">Dieses Telefon</string>
     <string name="self_phone_home">Dieses Telefon: %s</string>
     <string name="send">Senden</string>
+    <string name="send_diagnosis_log">Diagnoseprotokoll senden</string>
+    <string name="sending">Senden…</string>
     <string name="session_action_btn_text_return_home">Startbildschirm</string>
     <string name="session_backup_apk_data_text">WeChat-Daten sichern…</string>
     <string name="session_backup_apk_text">Startbildschirm-Layout und Systemeinstellungen sichern…</string>
@@ -485,6 +506,8 @@ Wichtig: Daten der einzelnen Apps werden dabei nicht in Xiaomi Cloud gesichert."
     <string name="sunday">Sonntag</string>
     <string name="sunday_short">So</string>
     <string name="sunday_shortest">S</string>
+    <string name="system_error_info">System ist beschäftigt. Einen Moment warten und erneut versuchen.</string>
+    <string name="temporary_not_available">Temporär nicht verfügbar</string>
     <string name="the_anniversary_of_lifting_martial_law">Jahrestag der Aufhebung des Kriegsrechts</string>
     <string name="the_anti_aggression_day">Antiaggressionstag</string>
     <string name="the_arbor_day">Tag des Baumes</string>
@@ -542,6 +565,7 @@ Wichtig: Daten der einzelnen Apps werden dabei nicht in Xiaomi Cloud gesichert."
     <string name="tuesday">Dienstag</string>
     <string name="tuesday_short">Di</string>
     <string name="tuesday_shortest">D</string>
+    <string name="unknown_error_info">Unbekannter Fehler</string>
     <string name="unselected">Nicht ausgewählt</string>
     <string name="unsupported_home">MIUI auf die neueste Version aktualisieren</string>
     <string name="v7_preference_off">AUS</string>
