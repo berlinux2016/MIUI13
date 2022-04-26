@@ -389,13 +389,20 @@ und optimiert Ihre Fotos anhand dieser Informationen."</string>
     <string name="beauty_lens_description_title">Große Blende</string>
     <string name="beauty_lens_none">Unschärfe</string>
     <string name="beauty_lens_use_hint">Große Blende verwenden, um den Hintergrund unscharf zu machen und die Gegenstände im Vordergrund hervorzuheben</string>
+    <string name="beauty_makeups_danyan">Nackt</string>
     <string name="beauty_makeups_gentleman">Silber</string>
     <string name="beauty_makeups_nude">Nackt</string>
     <string name="beauty_makeups_pinkfemale">Blütenblatt</string>
     <string name="beauty_makeups_solid">Kontur</string>
+    <string name="beauty_makeups_subeffect_filter">Filter</string>
+    <string name="beauty_makeups_subeffect_makeup">Make-up</string>
+    <string name="beauty_makeups_xiazhi">Unterlid-Lidschatten</string>
+    <string name="beauty_makeups_yanku">Eiskönigin</string>
+    <string name="beauty_makeups_yuanqi">Frisch</string>
     <string name="beauty_mo_fe">Natürlich</string>
     <string name="beauty_mo_ma">Klassisch</string>
     <string name="beauty_mode_reset_toast">Make-up-Effekte erfolgreich entfernt</string>
+    <string name="beauty_mutex_toast_tip">Erst Make-up-Effekte &lt;a href=>ausschalten&lt;/a></string>
     <string name="beauty_no_t">Verschönern ist aus</string>
     <string name="beauty_reset">Zurücksetzen</string>
     <string name="beauty_reset_toast">Verschönerungseffekte erfolgreich zurücksetzen</string>
@@ -448,7 +455,7 @@ und treten Sie für einen Moment aus dem Blickfeld raus."</string>
     <string name="cam_strings_rcs_wifi_dialog_title">Sind Sie nicht verbunden?</string>
     <string name="camcorder_tip_8k_max_video_duration">Sie können bis zu %1$d Minuten in 8K aufnehmen</string>
     <string name="camcorder_tip_current_max_video_duration">Sie können bis zu %d Minuten in der aktuellen Auflösung aufnehmen</string>
-    <string name="camcorder_tip_super_night_video_4k_max_video_duration" formatted="false">%dK kann bis zu %d Minuten aufzeichnen</string>
+    <string name="camcorder_tip_super_night_video_4k_max_video_duration" formatted="false">Sie können bis zu %d Minuten in 4K aufnehmen</string>
     <string name="camera_disabled">Kamera wurde deaktiviert</string>
     <string name="camera_error_title">Kamerafehler</string>
     <string name="camera_facedetection_sub_option_hint">Experimentelle Option jetzt verfügbar</string>
@@ -618,6 +625,7 @@ auswahl"</string>
     <string name="cta_perm_voice">Mikrofon verwenden</string>
     <string name="cta_perm_voice_desc">Für Audioaufnahme bei der Videoaufnahme</string>
     <string name="cta_user_tips"><Data>Um Ihre Rechte als Benutzer sowie die Art und Weise, in der wir Ihre Daten verwenden, vollständig zu verstehen, lesen Sie unsere &lt;a href =%1$s>Nutzervereinbarung&lt;/a> und &lt;a href =%2$s>Datenschutzerklärung&lt;/a>.</Data></string>
+    <string name="custom_content_unavailable_alert">Der von Ihnen eingegebene Text kann nicht verwendet werden. Stattdessen etwas anderes versuchen.</string>
     <string name="custom_sound_default">Standard</string>
     <string name="custom_tint_button_apply">Anwenden</string>
     <string name="custom_tint_color_champagne">Champagner</string>
@@ -729,6 +737,7 @@ Nach dem Einschalten der Funktion \"Multi-Kamera-Aufnahme\" können Sie eine Ver
     <string name="duration">Dauer</string>
     <string name="early_morning">Morgen</string>
     <string name="edit">Bearbeiten</string>
+    <string name="edit_cheekbone">Wangenknochen</string>
     <string name="edit_chin">Kinn</string>
     <string name="edit_color_skin">Hautton</string>
     <string name="edit_eye_large">Große Augen</string>
@@ -736,11 +745,14 @@ Nach dem Einschalten der Funktion \"Multi-Kamera-Aufnahme\" können Sie eine Ver
     <string name="edit_face_ruddy">Rosig</string>
     <string name="edit_face_slender">Schlank</string>
     <string name="edit_hairline">Haaransatz</string>
+    <string name="edit_head_narrow">Kopfgröße</string>
+    <string name="edit_jaw">Unterkiefer</string>
     <string name="edit_jelly_lips">Lipgloss</string>
     <string name="edit_lips">Lippen</string>
     <string name="edit_makeup">Make-up</string>
     <string name="edit_neck">Hals</string>
     <string name="edit_nose">Nase</string>
+    <string name="edit_nose_tip">Nasenspitze</string>
     <string name="edit_pupil_line">Lidstrich</string>
     <string name="edit_risorius">Lachmuskel</string>
     <string name="edit_skin_smooth">Glatt</string>
@@ -748,6 +760,7 @@ Nach dem Einschalten der Funktion \"Multi-Kamera-Aufnahme\" können Sie eine Ver
     <string name="edit_slim_nose">Nase</string>
     <string name="edit_smile">Lächeln</string>
     <string name="edit_solid">Kontur</string>
+    <string name="edit_temple">Tempel</string>
     <string name="effect_backdropper_gallery">Eigenen wählen</string>
     <string name="effect_backdropper_space">Im Weltraum</string>
     <string name="effect_backdropper_sunset">Sonnenuntergang</string>
@@ -1456,6 +1469,10 @@ Halten Sie das Motiv scharf, während Sie den Hintergrund verwischen.</string>
     <string name="pref_audio_indicator_entry_off">Audio aus</string>
     <string name="pref_audio_indicator_entry_on">Audio an</string>
     <string name="pref_auto_boot_summary">Kamera reaktionsschneller machen, indem Sie ihr erlauben, automatisch zu starten. Sie können die Autostart-Berechtigungen in den App-Details verwalten.</string>
+    <string name="pref_beauty_me_mp_switch_desc">Make-up-Effekte für Männer auf Gruppenfotos anpassen</string>
+    <string name="pref_beauty_me_mp_switch_title">Make-up-Effekte für Männer anpassen</string>
+    <string name="pref_beauty_nvs_wp_desc">Muttermale entfernen, wenn die Haut geglättet wird</string>
+    <string name="pref_beauty_nvs_wp_title">Muttermale entfernen</string>
     <string name="pref_burst_shoot_title">Serienbilder</string>
     <string name="pref_camcorder_settings">Videoeinstellungen</string>
     <string name="pref_camcorder_settings_category">Kameraeinstellungen</string>
@@ -1791,6 +1808,7 @@ Halten Sie das Motiv scharf, während Sie den Hintergrund verwischen.</string>
     <string name="pref_exposure_title">Belichtung</string>
     <string name="pref_face_beauty_title">Hauttöne</string>
     <string name="pref_fingerprint_capture_title">Fingerabdruckauslöser</string>
+    <string name="pref_focus_view_bg_tip">AE/AF gesperrt</string>
     <string name="pref_front_denoise_default">Aus</string>
     <string name="pref_front_denoise_summary">Geräusche reduzieren, die hinter der Frontkamera entstehen</string>
     <string name="pref_front_denoise_title">Selfie-Rauschfilter</string>
@@ -1876,6 +1894,8 @@ Halten Sie das Motiv scharf, während Sie den Hintergrund verwischen.</string>
     <string name="pref_video_focusmode_entry_auto">Tippen</string>
     <string name="pref_video_focusmode_title">Fokussierung</string>
     <string name="pref_video_hfr_title">Bildfrequenz</string>
+    <string name="pref_video_quality_entry_1080p_24fps">Full high-definition, 1080p, 24 Bilder pro Sekunde</string>
+    <string name="pref_video_quality_entry_4kuhd_24fps">Ultra high-definition, 4K, 24 Bilder pro Sekunde</string>
     <string name="pref_video_quality_hfr_title">Bildfrequenz &amp; Bildqualität</string>
     <string name="pref_video_quality_summary">4K-Video wird im 120FPS-Modus nicht unterstützt</string>
     <string name="pref_video_quality_title">Videoauflösung</string>
