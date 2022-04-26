@@ -39,6 +39,8 @@
     <string name="backup_action_no_space_with_wechat_on_content">Nicht genügend Cloud-Speicherplatz für die Sicherung von WeChat-Daten. Erhöhen Sie Ihren Speichertarif, um Elemente zu sichern.</string>
     <string name="backup_action_no_space_with_wechat_on_title">WeChat-Daten wurden nicht gesichert</string>
     <string name="backup_action_retry_now">Erneut versuchen</string>
+    <string name="backup_action_long_time_not_backup_action">Sichern</string>
+    <string name="backup_action_long_time_not_backup_title">Keine aktuellen Sicherungen</string>
     <string name="backup_fail_wifi_needed">Sicherung fehlgeschlagen, WLAN benötigt</string>
     <string name="backup_failed_reason_app_data_error">WeChat-Daten sichern nicht möglich</string>
     <string name="backup_failed_reason_app_usage_denied">Erforderliche Berechtigungen zum Sichern von Elementen gewähren</string>
@@ -198,10 +200,18 @@ Bitte senden Sie diesen Code an den Techniker."</string>
     <string name="dialog_cancel_backup_msg">Durch Umschalten werden laufende Sicherungen beendet</string>
     <string name="dialog_cancel_backup_title">Laufende Sicherung abbrechen?</string>
     <string name="dialog_cloud_space_not_enough">Diese Sicherung erfordert %1$s an freiem Cloud-Speicherplatz. Erweitern Sie Ihren Speichertarif, um Elemente zu sichern.</string>
+    <string name="dialog_content_cancel_backup">Bereits hochgeladene Daten gehen verloren, wenn Sie die Sicherung abbrechen. Trotzdem abbrechen?</string>
+    <string name="dialog_content_cancel_restore">Bereits wiederhergestellte Daten werden beibehalten, wenn Sie die Wiederherstellung beenden. Wiederherstellung jetzt beenden?</string>
     <string name="dialog_msg_overwrite_backup">Die lokale Sicherung unterscheidet sich von der in Xiaomi Cloud. Wenn Sie fortfahren, überschreibt die aktuelle Sicherung die vorherige.</string>
     <string name="dialog_msg_restore_require_wlan">Wiederherstellen von Sicherungen erfordert WLAN-Verbindung</string>
     <string name="dialog_msg_restore_require_wlan_china">Wiederherstellen von Sicherungen erfordert WLAN-Verbindung</string>
     <string name="dialog_need_permission">Berechtigungen erforderlich</string>
+    <string name="dialog_negative_btn_cancel_backup">Sicherung abbrechen</string>
+    <string name="dialog_negative_btn_cancel_restore">Wiederherstellung beenden</string>
+    <string name="dialog_positive_btn_cancel_backup">Nicht abbrechen</string>
+    <string name="dialog_positive_btn_cancel_restore">Nicht beenden</string>
+    <string name="dialog_title_cancel_backup">Sicherung abbrechen</string>
+    <string name="dialog_title_cancel_restore">Wiederherstellung beenden</string>
     <string name="dialog_title_require_wlan">Mit WLAN verbinden</string>
     <string name="dialog_title_require_wlan_china">Mit WLAN verbinden</string>
     <string name="dialog_wechat_data_close_agree">Weitermachen</string>
