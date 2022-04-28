@@ -1,5 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+    <string-array name="accessibility_button_gesture_selector_titles">
+        <item>Taste</item>
+        <item>Geste</item>
+    </string-array>
     <string-array name="accessibility_button_location_selector_titles">
         <item>Über anderen Apps schweben</item>
         <item>Navigationsleiste</item>
@@ -221,7 +225,7 @@
         <item>Bildschirm anschalten</item>
         <item>Konten holen</item>
         <item>Im Hintergrund laufen</item>
-        <item>Zugang Lautstärke</item>
+        <item>Zugriff Lautstärke</item>
     </string-array>
     <string-array name="app_process_limit_entries">
         <item>Standardlimit</item>
@@ -726,6 +730,11 @@
         <item>Nach 2 Minuten</item>
         <item>Nach 5 Minuten</item>
         <item>Niemals</item>
+    </string-array>
+    <string-array name="long_press_timeout_selector_list_titles">
+        <item>Kurz</item>
+        <item>Mittel</item>
+        <item>Lang</item>
     </string-array>
     <string-array name="long_press_timeout_selector_titles">
         <item>Kurz</item>

@@ -2926,6 +2926,7 @@ Diese Einstellung betrifft alle Benutzer auf diesem Telefon."</string>
     <string name="device_info_not_available">Nicht verfügbar</string>
     <string name="device_info_settings">Telefonstatus</string>
     <string name="device_internal_memory">Interner Speicher</string>
+    <string name="device_mall_card_title">Verfügbare Leistungen prüfen</string>
     <string name="device_miui_more">Mehr anzeigen</string>
     <string name="device_miui_version">MIUI-Version</string>
     <string name="device_miui_version_for_POCO">MIUI Version (Für POCO)</string>
@@ -3611,8 +3612,8 @@ Gerät neu starten und erneut versuchen."</string>
     <string name="face_data_siggesstion_next">Weiter</string>
     <string name="face_data_siggesstion_next_time">Weiter (%ds)</string>
     <string name="face_data_suggesstion_first">Gesichtsentsperrung ist weniger sicher als eine PIN, ein Passwort oder ein Muster. Ihr Gerät kann mit Ihrem Foto sowie von Personen oder Objekten mit ähnlichem Aussehen entsperrt werden.</string>
-    <string name="face_data_suggesstion_first_cn">"Damit Sie die Gesichtsentsperrung verwenden können, müssen wir Ihre Gesichtsdaten erfassen. Die Gesichtsdaten werden lokal auf diesem Gerät gespeichert. Um sie zu löschen, suchen Sie in den Einstellungen nach \"Gesichtsentsperrung\" und wählen Sie dann Gesichtsentsperrung > Gesichtsdaten.
-Die Gesichtsentsperrung ist weniger sicher als eine PIN, ein Passwort oder ein Muster. Ihr Gerät kann mit Ihrem Foto sowie von Personen oder Objekten mit ähnlichem Aussehen entsperrt werden."</string>
+    <string name="face_data_suggesstion_first_cn">"Um Gesichtsentsperrung verwenden können, müssen wir Ihre Gesichtsdaten erfassen, dia dann lokal auf diesem Gerät gespeichert werden. Um sie zu löschen, suchen Sie in den Einstellungen nach \"Gesichtsentsperrung\" und wählen Sie Gesichtsentsperrung > Gesichtsdaten."</string>
+    <string name="face_data_suggesstion_first_cn_highlight">Gesichtsentsperrung ist weniger sicher als eine PIN, ein Passwort oder ein Muster. Ihr Gerät kann mit Ihrem Foto sowie von Personen oder Objekten mit ähnlichem Aussehen entsperrt werden.</string>
     <string name="face_data_suggesstion_second">Achten Sie darauf, dass alle Teile Ihres Gesichts gut sichtbar sind. Tragen Sie keine Accessoires, die Ihr Gesicht verdecken könnten. Beleuchten Sie Ihr Gesicht gleichmäßig und vermeiden Sie direktes Licht.</string>
     <string name="face_intro_error_max">Sie haben die Maximalzahl an Gesichtern hinzugefügt</string>
     <string name="face_intro_error_unknown">Weitere Gesichter hinzufügen nicht möglich</string>
@@ -4175,7 +4176,7 @@ Der Bereich, in dem Sie Ihre Bildschirmsperre bestätigen können, wird nach rec
     <string name="gxzw_anim_star">Sternenlicht</string>
     <string name="gxzw_anim_title">Fingerabdruck-\nAnimation</string>
     <string name="gxzw_anim_unlock_effect">%s Fingerabdruck-Animation</string>
-    <string name="gxzw_aod_show_summary">Heben Sie das Gerät an oder tippen Sie auf den Bildschirm, damit das Fingerabdrucksymbol erscheint. Diese Funktion erhöht den Stromverbrauch des Systems.</string>
+    <string name="gxzw_aod_show_summary">Heben Sie das Gerät an oder tippen Sie auf den Bildschirm, damit das Fingerabdrucksymbol erscheint. Diese Funktion erhöht den Stromverbrauch des Systems, gestattet es Ihnen aber, das Gerät schneller zu entsperren.</string>
     <string name="gxzw_aod_show_tittle">Fingerabdrucksymbol bei Bildschirm aus</string>
     <string name="gxzw_dialog_message">Um den Bildschirm-Fingerabdrucksensor normal nutzen zu können, verwenden Sie keine Schutzfolie. Wenn Sie der Meinung sind, dass eine Schutzfolie immer noch notwendig ist, wählen Sie unter den autorisierten kompatiblen Optionen.</string>
     <string name="gxzw_dialog_not_show_again">Nicht mehr anzeigen</string>
@@ -6282,6 +6283,8 @@ Betriebssystem auswählen:"</string>
     <string name="new_backup_pw_prompt">Neues Passwort für vollständige Sicherung eingeben</string>
     <string name="new_device_suggestion_summary">Rundgang durch Ihr neues Telefon</string>
     <string name="new_device_suggestion_title">Was ist neu und aufregend?</string>
+    <string name="new_fingerprint_to_new_face_dialog_msg">Um Gesichtsentsperrung verwenden zu können, müssen Sie erst Gesichtsdaten hinzufügen. Jetzt hinzufügen?</string>
+    <string name="new_fingerprint_to_new_face_dialog_tittle">Gesichtsdaten hinzufügen</string>
     <string name="new_password_to_new_fingerprint_dialog_msg">Fügen Sie einen Fingerabdruck hinzu, um Ihr Gerät damit zu entsperren</string>
     <string name="new_password_to_new_fingerprint_dialog_negative_msg">Abbrechen</string>
     <string name="new_password_to_new_fingerprint_dialog_positive_msg">Hinzufügen</string>
