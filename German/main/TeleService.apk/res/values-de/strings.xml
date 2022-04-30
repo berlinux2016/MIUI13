@@ -962,6 +962,10 @@ Mobile Daten trotzdem nutzen?"</string>
     <string name="disable_cfb_forbidden">Ihr Mobilfunkanbieter unterstützt die Deaktivierung der Rufumleitung bei besetzter Leitung nicht</string>
     <string name="disable_cfnrc_forbidden">Ihr Mobilfunkanbieter unterstützt die Deaktivierung der Rufumleitung bei Nichterreichbarkeit nicht</string>
     <string name="disable_cfnry_forbidden">Ihr Mobilfunkanbieter unterstützt die Deaktivierung der Rufumleitung bei Nichtbeantwortung nicht</string>
+    <string name="disable_esim_dialog_summary">"SIM %s wird aktiviert, wenn Sie eSIM jetzt deaktivieren.\neSIM trotzdem deaktivieren?"</string>
+    <string name="disable_esim_dialog_title">eSIM deaktivieren</string>
+    <string name="disable_esim_error_toast_message">eSIM deaktivieren fehlgeschlagen</string>
+    <string name="disable_esim_progress_activating_message">eSIM deaktivieren…</string>
     <string name="disable_fdn">Rufnummernbeschränkung ausschalten</string>
     <string name="disable_fdn_ok">Rufnummernbeschränkung einschalten</string>
     <string name="disable_overlays">HW-Overlays deaktivieren</string>
@@ -1052,6 +1056,11 @@ Mobile Daten trotzdem nutzen?"</string>
     <string name="enable_disable_technology_news">Techniknachrichten</string>
     <string name="enable_dual_4g_if_dual_ct">4G-Netze für beide SIM-Karten bervorzugen, um VoLTE auf der zweiten SIM-Karte zu verwenden, wenn zwei China Telecom SIM-Karten installiert sind.</string>
     <string name="enable_dual_4g_prompt_when_turn_on_volte">VoLTE erfordert 4G-Konnektivität für beide SIM-Slots. Jetzt zu Dual 4G wechseln?</string>
+    <string name="enable_esim_dialog_summary">"SIM %s wird deaktiviert, wenn Sie eSIM jetzt aktivieren.\neSIM trotzdem aktivieren?"</string>
+    <string name="enable_esim_dialog_title">eSIM aktivieren</string>
+    <string name="enable_esim_error_toast_message">eSIM aktivieren fehlgeschlagen</string>
+    <string name="enable_esim_progress_activating_message">eSIM aktivieren…</string>
+    <string name="enable_esim_title">eSIM verwenden</string>
     <string name="enable_fdn">Rufnummernbeschränkung einschalten</string>
     <string name="enable_fdn_ok">Rufnummernbeschränkung ausschalten</string>
     <string name="enable_freeform_support">Freiformfenster aktivieren</string>
@@ -1089,6 +1098,7 @@ Mobile Daten trotzdem nutzen?"</string>
     <string name="enterNumber">Rufnummer</string>
     <string name="enter_callbarring_password">Passwort für Anrufsperre eingeben (%d Ziffern)</string>
     <string name="enter_esim_manager">eSIM verwalten</string>
+    <string name="enter_esim_manager_title">eSIM verwalten</string>
     <string name="enter_input" formatted="false">USSD-Mitteilung muss zwischen %d und %d Zeichen lang sein. Bitte erneut versuchen.</string>
     <string name="entertainment_news_settings">Unterhaltungsnachrichten</string>
     <string name="eo_disable">Jobangebote aus</string>
@@ -1102,7 +1112,10 @@ Mobile Daten trotzdem nutzen?"</string>
     <string name="esim_goto_active">Aktivieren</string>
     <string name="esim_inactive_message">eSIM inaktiv</string>
     <string name="esim_inactive_notification_message">Keine SIM-Karte erkannt. Tippen, um eSIM zu aktivieren.</string>
+    <string name="esim_inactive_notification_message_global">Keine SIM-Karte erkannt. Tippen, um eSIM zu aktivieren.</string>
+    <string name="esim_inactive_notification_title_global">Dual SIM &amp; Mobilfunknetze</string>
     <string name="esim_inactive_settings_title">Dual-SIM &amp; Mobilfunknetze</string>
+    <string name="esim_setting_title">eSIM-Einstellungen</string>
     <string name="evening">Nachmittag</string>
     <string name="exception_error">Netzwerk- oder SIM-Kartenfehler</string>
     <string name="expand_button_title">Erweitert</string>
@@ -1791,6 +1804,7 @@ Immer diese Nummer verwenden"</string>
     <string name="new_pin2_label">Neue PIN2</string>
     <string name="new_pin_label">Neue PIN</string>
     <string name="night">Abend</string>
+    <string name="no_active_esim_text">eSIM inaktiv</string>
     <string name="no_application">Nichts</string>
     <string name="no_call_barring">Anrufsperre ist deaktiviert</string>
     <string name="no_change">Keine Änderungen vorgenommen</string>
@@ -2389,6 +2403,7 @@ UT-Schnittstelle: %5$s"</string>
     <string name="send_keepalive_title">Keep-Alive senden</string>
     <string name="sensor_answer_summary">Halten Sie das Telefon an Ihr Ohr, um einen eingehenden Anruf automatisch anzunehmen</string>
     <string name="sensor_answer_title">Anheben zum Antworten</string>
+    <string name="set_esim_toast_phone_in_call">Diese Aktion kann nicht während eines Anrufs ausgeführt werden</string>
     <string name="set_primary_summary">Für ausgehende Anrufe verwenden</string>
     <string name="set_primary_title">Als primäres Konto festlegen</string>
     <string name="set_smsc_address_error">Fehler beim Nummer einstellen</string>
@@ -2619,6 +2634,7 @@ UT-Schnittstelle: %5$s"</string>
     <string name="supp_service_over_ut_precautions_roaming">Um %s zu verwenden, müssen mobile Daten und Daten-Roaming eingeschaltet sein. Sie können dies in den Mobilfunkeinstellungen ändern.</string>
     <string name="supp_service_over_ut_precautions_roaming_dual_sim">TUm %1$s zu verwenden, müssen mobile Daten und Daten-Roaming für SIM%2$d eingeschaltet sein. Sie können dies in den Mobilfunkeinstellungen ändern.</string>
     <string name="support_forbidden_fakecell">Hinweis: Die Verbindungseinschränkung zu gefälschten Basisstationen kann das Signal in Gebieten mit schlechter Abdeckung verringern.</string>
+    <string name="switch_cancel_btn_text">Abbrechen</string>
     <string name="switch_dds_to_sub_alert">Legen Sie diese Karte als Standard-Datenkarte fest.</string>
     <string name="switch_dds_to_sub_alert_msg">Bitte mobile Daten auf CT SIM umstellen</string>
     <string name="switch_debug_menu">Weitere Netzwerkeinstellungen</string>
