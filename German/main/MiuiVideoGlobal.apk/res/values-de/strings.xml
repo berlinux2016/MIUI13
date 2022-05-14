@@ -289,6 +289,7 @@ Senden Sie diesen Code an den Supervisor."</string>
     <string name="dialog_disagree_privacychange_title">"Ablehnen?"</string>
     <string name="dialog_edit_bookmarks">Lesezeichen bearbeiten</string>
     <string name="dialog_edit_hint_bookmarks_name">Lesezeichenname</string>
+    <string name="dialog_item_add_video">Videos hinzufügen</string>
     <string name="dialog_jumpto_choose"> Nicht mehr anzeigen</string>
     <string name="dialog_jumpto_content">Zu Mi Video wechseln, um auf zusätzliche Wiedergabefunktionen zuzugreifen?</string>
     <string name="dialog_no_video_confirm">Verstanden</string>
@@ -622,6 +623,11 @@ für Videos"</string>
     <string name="local_push_setting_power_tag">Benachrichtigungen über lokale Videos</string>
     <string name="local_push_title">Heute beliebt</string>
     <string name="local_push_video_title">Nach neuen lokalen Videos suchen</string>
+    <string name="local_subtitle_choose_language_text">Sprache</string>
+    <string name="local_subtitle_exemption_hint">Nach Untertiteln suchen auf opensubtitle.org</string>
+    <string name="local_subtitle_input_keyword_text">Stichwörter suchen</string>
+    <string name="local_subtitle_search_result_text">Ergebnisse</string>
+    <string name="local_subtitle_searching_text">Suchen…</string>
     <string name="local_video_create_a_new_playlist">Neue Wiedergabeliste</string>
     <string name="local_video_date">Datum</string>
     <string name="local_video_dialog_default">Standard</string>
@@ -1419,6 +1425,7 @@ Sicherheit Ihres Kontos erhöhen"</string>
     <string name="slide_save_message">Video erstellen…</string>
     <string name="small_video_cancel_button">Abbrechen</string>
     <string name="small_video_download_button">Herunterladen</string>
+    <string name="small_video_load_more_hint">Hochwischen, um mehr Videos abzuspielen</string>
     <string name="small_video_snack_download_description">SnackVideo herunterladen, um die neuesten Videos Ihrer Lieblingsautoren zu sehen.</string>
     <string name="sms_send_success">Erfolgreich gesendet</string>
     <string name="sns_access_token_expired_warning">Sitzung abgelaufen. Erneut anmelden, um dieses Konto wieder zu verbinden.</string>
@@ -1531,6 +1538,8 @@ Es zeigt nichts an."</string>
     <string name="tab_playlist_local">Lokal</string>
     <string name="talkback_ad_clicked">Werbung</string>
     <string name="talkback_background_playback">Hintergrundwiedergabe</string>
+    <string name="talkback_music_play">Musik abspielen</string>
+    <string name="talkback_video_play">Video abspielen</string>
     <string name="talkback_voice_search">Sprachsuche</string>
     <string name="target_sdk_version_30_upgrade_tips">Einige Videos können hier wegen Android 11-Einschränkungen nicht angezeigt werden. Auf \"Dateien\" tippen, um andere Videos zu finden.</string>
     <string name="temporary_not_available">Diese Funktion ist noch nicht verfügbar</string>
@@ -1586,9 +1595,11 @@ Es zeigt nichts an."</string>
     <string name="time_picker_label_minute">Min</string>
     <string name="tip_auth_again">Da Sie vorher der entsprechenden Datenschutzerklärung des Inhaltsdrittanbieters  nicht zugestimmt haben, können wir keine Videoinhalte in Moments anzeigen. Tippen Sie auf die Schaltfläche unten, um der Datenschutzerklärung zuzustimmen und auf diese Funktion zuzugreifen.</string>
     <string name="tip_author_click">Tippen, um weitere Videos dieses Kontos anzuzeigen</string>
+    <string name="tip_content_or">ODER</string>
     <string name="tip_download_video_to_save_here">%d. Video wird in Ihren Downloads gespeichert.</string>
     <string name="tip_enter_the_website">%d. Website oder App öffnen.</string>
     <string name="tip_local_long_press_for_manager">Gedrückt halten, um Videos zu verwalten</string>
+    <string name="tip_local_long_press_for_manager_folder">Zum Verwalten von Ordnern gedrückt halten</string>
     <string name="tip_local_manager_here">Verwalten Sie Ihre Dateien hier</string>
     <string name="tip_login_for_your_online_playlist">Anmelden, um Ihre Wiedergabelisten anzuzeigen</string>
     <string name="tip_play_a_video">%d. Video abspielen.</string>
@@ -1601,6 +1612,7 @@ Es zeigt nichts an."</string>
     <string name="title_download_setting">Download-Einstellungen</string>
     <string name="title_firework_recommend">Empfehlungen Firework</string>
     <string name="title_history">Verlauf</string>
+    <string name="title_mangotv_subtitle_language">Untertitelsprache</string>
     <string name="title_publisher">Ersteller</string>
     <string name="title_select_directory">Ordner wählen</string>
     <string name="title_selected">Gewählt</string>
@@ -1697,6 +1709,7 @@ Es zeigt nichts an."</string>
     <string name="video_noyet_download_tip">Dieses Video wird noch heruntergeladen</string>
     <string name="video_offline">Dieses Element ist nicht mehr verfügbar</string>
     <string name="view">Anzeigen</string>
+    <string name="vk_video_tab">Für Sie</string>
     <string name="vp_VideoView_error_text_unknown">Ein Fehler ist aufgetreten</string>
     <string name="vp_VideoView_error_title">Unbekannter Fehler</string>
     <string name="vp_app_name">Videoplayer</string>
