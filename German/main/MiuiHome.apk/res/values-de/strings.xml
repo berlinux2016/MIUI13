@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+    <string name="Icon_name_classic_mode">Startbildschirmeinstellungen</string>
     <string name="abc_action_bar_home_description">Zur Startseite</string>
     <string name="abc_action_bar_up_description">Nach oben</string>
     <string name="abc_action_menu_overflow_description">Weitere Optionen</string>
@@ -30,7 +31,9 @@
     <string name="accessibility_recent_task_exit">Aktuelle geschlossen</string>
     <string name="accessibility_recent_task_locked_state">Gesperrt</string>
     <string name="accessibility_recent_task_memory_info">RAM gesamt: %2$s | RAM verfügbar: %1$s. Doppeltippen zum Löschen.</string>
+    <string name="accessibility_recent_task_show_menu">Mehr Optionen</string>
     <string name="accessibility_recent_task_unlocked_state">Entsperrt</string>
+    <string name="accessibility_recents_item_dismissed">%1$s gelöscht</string>
     <string name="accessibility_recents_item_open_app_info">%s App-Info öffnen</string>
     <string name="accessibility_splite_screen_primary">Als primäre App im geteilten Bildschirm hinzugefügt</string>
     <string name="accessibility_splite_screen_secondary">Als sekundäre App im geteilten Bildschirm hinzugefügt</string>
@@ -45,6 +48,7 @@
     <string name="added_all_category">Alle Apps erfolgreich hinzugefügt</string>
     <string name="additional_settings">Zusätzliche Einstellungen</string>
     <string name="afternoon">Nachmittag</string>
+    <string name="agree_button">Zustimmen</string>
     <string name="alexa_notification_add">Hinzufügen</string>
     <string name="alexa_notification_cancel">Jetzt nicht</string>
     <string name="alexa_notification_content">Alexa-Verknüpfung zum Kontrollzentrum hinzufügen?</string>
@@ -129,6 +133,13 @@
     <string name="app_category_social">Soziales</string>
     <string name="app_category_sport">Sport</string>
     <string name="app_category_travel">Reisen</string>
+    <string name="app_drawer_double_confirm_description">Dadurch wird das Startbildschirm-Layout geändert. Sie können diese Änderungen später in den Einstellungen wieder rückgängig machen.</string>
+    <string name="app_drawer_double_confirm_title">Achtung</string>
+    <string name="app_drawer_feature_description">Die App-Übersicht ist ein perfektes Werkzeug, um all Ihre Apps zu ordnen. Kategorisieren Sie Apps automatisch und finden Sie alles, was Sie brauchen, im Handumdrehen!</string>
+    <string name="app_drawer_guide_description">Finden Sie, was Sie suchen, in Ihren Lieblings-Apps</string>
+    <string name="app_drawer_guide_title">App-Übersicht</string>
+    <string name="app_drawer_tip_title">Wir haben Content-Feed durch App-Übersicht ersetzt.</string>
+    <string name="app_install_state">Installiert</string>
     <string name="app_name">Kleines Popup</string>
     <string name="application_name">Systemlauncher</string>
     <string name="apply">Anwenden</string>
@@ -156,8 +167,38 @@
     <string name="back">Zurück</string>
     <string name="backup_fail">Launcher-Sicherung fehlgeschlagen</string>
     <string name="bad_wallpaper_source_prompt">Hintergrund wurde nicht geladen</string>
+    <string name="branch_deepview_button">Holen Sie sich die App</string>
+    <string name="branch_deepview_button_description">Diesen Inhalt sofort nach der Installation sehen</string>
+    <string name="branch_feature_description">Neben Apps kann Quick Finder auch In-App-Inhalte und Elemente online finden.</string>
+    <string name="branch_guide_attention">Die Nutzung der erweiterten Suche erfordert die Weitergabe Ihrer Suchanfragen, der Google Ads ID und der IP-Adresse an Branch Metrics Inc. Lesen und akzeptieren Sie die <a href="http://url1"><font color="#B3000000">Endbenutzer Discovery Geschäftsbedingungen</font></a> und <a href="http://url2"><font color="#B3000000">Branch Discovery Datenschutzerklärung</font></a>, bevor Sie diese Funktion nutzen.</string>
+    <string name="branch_guide_description_one">Wir legen alle Ihre Apps in der App-Übersicht ab. Ihr Startbildschirm wird ordentlich und organisiert aussehen.</string>
+    <string name="branch_guide_description_three">Mit der integrierten Suche finden Sie alles, was Sie brauchen, im Handumdrehen!</string>
+    <string name="branch_guide_description_two">App-Übersicht kategorisiert Apps automatisch.</string>
+    <string name="branch_guide_tip_title">Jede App an ihrem eigenen Platz</string>
+    <string name="branch_guide_title">App-Übersicht entdecken</string>
+    <string name="branch_guide_type_four_desc">Mit einem einzigen Fingertipp können Sie zur alten Methode zurückkehren</string>
+    <string name="branch_guide_type_four_main">In \"Einstellungen\" - \"Startbildschirm\" wechseln Sie zwischen den beiden Modi.</string>
+    <string name="branch_guide_type_four_step_one">Schritt 1: Auf \"Einstellungen\" tippen</string>
+    <string name="branch_guide_type_four_step_two">Schritt 2: Auf \"Startbildschirm\" tippen</string>
+    <string name="branch_guide_type_one_desc">App-Übersicht hilft Ihnen, Ihre Apps zu verwalten</string>
+    <string name="branch_guide_type_one_main">Wir legen alle Ihre Apps in der App-Übersicht ab. Die integrierte Suche hilft Ihnen, alles, was Sie brauchen, im Handumdrehen zu finden!</string>
+    <string name="branch_key">Branch-Schlüssel</string>
+    <string name="branch_new_feature">Neue Funktion</string>
+    <string name="branch_privacy_policy">Datenschutzerklärung</string>
+    <string name="branch_search_guide_description">Unsere Suchergebnisse sind jetzt viel umfassender</string>
+    <string name="branch_search_guide_privacy">Dieser Dienst wird von Branch Metrics Inc. betrieben. Ihre Standortinfos, Suchanfragen und Google Ads ID werden an Branch weitergegeben. Lesen und akzeptieren Sie die Branch <a href="http://url1"><font color="#B3000000">Geschäftsbedingungen</font></a> und <a href="http://url2"><font color="#B3000000">Datenschutzerklärung</font></a>, bevor Sie diesen Dienst nutzen.</string>
+    <string name="branch_search_guide_title">Finden Sie, was Sie suchen, in Ihren Lieblings-Apps</string>
+    <string name="branch_terms_condition">Allgemeine Geschäftsbedingungen</string>
+    <string name="branch_tip_title">Mit Quick Finder finden Sie alles, was Sie brauchen, im Handumdrehen.</string>
+    <string name="btn_agree">Zustimmen</string>
+    <string name="btn_cancel">Abbrechen</string>
+    <string name="btn_close">Ausschalten</string>
+    <string name="btn_open">Einschalten</string>
+    <string name="btn_request_permission">Berechtigungen gewähren</string>
+    <string name="btn_set_right_now">Berechtigungen gewähren</string>
     <string name="buffering">Puffern…</string>
     <string name="cancel_action">Abbrechen</string>
+    <string name="cancel_botton">Abbrechen</string>
     <string name="cancel_btn_label">Abbrechen</string>
     <string name="cant_edit_lock_screen">Sperrbildschirmstil bearbeiten nicht möglich</string>
     <string name="cant_remove_folder">Ordner entfernen nicht möglich</string>
@@ -185,7 +226,10 @@
     <string name="chooser_wallpaper">Hintergrund wählen</string>
     <string name="clearable_edittext_clear_description">Löschen</string>
     <string name="close">Schließen</string>
+    <string name="close_multi_finger_slide_summary">Diese Gesten werden in einigen Szenarien ignoriert (z. B. bei Spielen und der Videowiedergabe).</string>
+    <string name="close_multi_finger_slide_title">Nicht auf Drei- und Vier-Finger-Gesten reagieren</string>
     <string name="cloud_app_restore_title">Ausstehend</string>
+    <string name="common_google_play_services_unknown_issue">%1$s hat Probleme mit den Google Play-Diensten. Bitte erneut versuchen.</string>
     <string name="common_home_search_delete">Suchleiste entfernen</string>
     <string name="common_home_search_delete_cancle">Abbrechen</string>
     <string name="common_home_search_delete_confirm">Entfernen</string>
@@ -245,6 +289,7 @@
     <string name="disable_wallpaper_scroll">Hintergrundscrollen ausschalten</string>
     <string name="double_tap_to_lock_title">2x tippen, um Bildschirm zu sperren</string>
     <string name="download_action">Herunterladen</string>
+    <string name="drag_icon_to_homescreen_guide">App-Symbol gedrückt halten und dann ziehen, um eine Verknüpfung zum Startbildschirm hinzuzufügen</string>
     <string name="drawer_background">Hintergrund</string>
     <string name="drawer_background_dark">Dunkel</string>
     <string name="drawer_background_light">Hell</string>
@@ -274,6 +319,7 @@
     <string name="emptyplaylist">Tippen, um Titel hinzuzufügen</string>
     <string name="enable_wallpaper_scroll">Hintergrundscrollen einschalten</string>
     <string name="encryption">Verschlüsselung</string>
+    <string name="enter_search_setting_title">Suche nach dem Öffnen der App-Übersicht öffnen</string>
     <string name="eras_ad">n. Chr.</string>
     <string name="eras_bc">v. Chr.</string>
     <string name="evening">Nachmittag</string>
@@ -361,12 +407,16 @@
     <string name="gadget_weather_title">Wetter</string>
     <string name="gadget_weather_title_14">Wetter</string>
     <string name="gadget_weather_title_24">Wetter</string>
+    <string name="garbage_count">Es gibt %1$s alte Instanzen</string>
     <string name="global_search_hint">Suchen</string>
+    <string name="got_it_botton">Verstanden</string>
     <string name="group_folder">Neuer Ordner</string>
     <string name="group_live_folders">Ordner</string>
     <string name="group_shortcuts">Verknüpfungen</string>
     <string name="guide_install_app_msg">App nicht installiert. Suchen und herunterladen?</string>
     <string name="guide_install_app_title">App installieren</string>
+    <string name="guide_permission_title">Berechtigungen erforderlich</string>
+    <string name="guide_privacy_dialog_title">Nutzungsbedingungen</string>
     <string name="guide_tips_editing_mode">Berühren &amp; halten, um Widget zu greifen</string>
     <string name="hide_apps_title">App-Symbole ausblenden</string>
     <string name="home_gesture_content_center">Inhaltscenter</string>
@@ -385,6 +435,7 @@
     <string name="icon_size_inner_display">Größe Hauptbildschirmsymbol</string>
     <string name="icon_style">Stil</string>
     <string name="image_too_small_message">Originalbild ist nicht groß genug</string>
+    <string name="in_app_result_by">In-App-Ergebnisse von</string>
     <string name="install">Installieren</string>
     <string name="invalid_contact_shortcut">Ungültiger Kontakt</string>
     <string name="is_setting_wallpaper_message">Hintergrund einrichten…</string>
@@ -407,6 +458,9 @@
     <string name="launcher_slide_up_title">Am Startbildschirm hochwischen</string>
     <string name="launcher_sliding_up_gesture">Am Startbildschirm hochwischen, um die Suche zu öffnen</string>
     <string name="launcher_title">Startbildschirm &amp; Schnellzugriff</string>
+    <string name="layout_guide_description">Wenn Sie die App-Übersicht nicht mögen, können Sie jederzeit zum klassischen Startbildschirm zurückkehren. Einfach die Verknüpfung \"Startbildschirmeinstellungen\" verwenden und zwischen den beiden Modi wechseln.</string>
+    <string name="layout_guide_tip_title">Mit einem einzigen Fingertipp können Sie zur alten Methode zurückkehren</string>
+    <string name="layout_guide_title">Wie man die App-Übersicht entfernt</string>
     <string name="like">Favorit</string>
     <string name="liked">Favorisiert</string>
     <string name="loading_desktop">Einen Moment…</string>
@@ -431,6 +485,7 @@
     <string name="memory_clear_result">%1$sB gelöscht</string>
     <string name="memory_clear_result_giga">%1$s GB gelöscht</string>
     <string name="memory_clear_result_mega">%1$s MB gelöscht</string>
+    <string name="memory_leak">Speicherleck</string>
     <string name="menu_add">Hinzufügen</string>
     <string name="menu_auto_fill">Leere Positionen automatisch auffüllen</string>
     <string name="menu_auto_fill_of_uninstall">Zellen von deinstallierten Apps ausfüllen</string>
@@ -587,6 +642,7 @@
     <string name="navigation_type_title_synonyms_4">Navigationstaste</string>
     <string name="navigation_type_virtual_key">Tasten</string>
     <string name="network_error">Netzwerkverbindung nicht möglich, erneut versuchen.</string>
+    <string name="new_feature_title">Was ist neu</string>
     <string name="night">Abend</string>
     <string name="no_detail_page">Keine Detailseite</string>
     <string name="no_space_toast">Nicht genug Platz</string>
@@ -632,6 +688,7 @@
     <string name="photo_confirm">Übernehmen</string>
     <string name="photo_load_failed">Foto wurde nicht geladen</string>
     <string name="please_slide_agian">Nochmal wischen</string>
+    <string name="popular_search">Beliebt</string>
     <string name="pref_cell_layout_size">Rastergröße</string>
     <string name="pref_enable_drawing_cache_summary">Deaktivieren, um Speicherplatz freizugeben. Dies kann die Leistung beeinträchtigen.</string>
     <string name="pref_enable_drawing_cache_title">Zeichnungscache</string>
@@ -655,6 +712,13 @@
     <string name="provision_next">Weiter</string>
     <string name="provision_skip_underline">Überspringen</string>
     <string name="quick_app">Schnelle App</string>
+    <string name="quick_finder_feature_description">Mit Quick Finder können Sie Apps, In-App-Inhalte und Elemente online schneller finden. Sie können diese Funktion in den Einstellungen deaktivieren.</string>
+    <string name="quick_finder_tip_title">Alles, was Sie brauchen, schneller finden</string>
+    <string name="quick_search_all_app_desc">Alle Apps in der App-Übersicht anzeigen</string>
+    <string name="quick_search_desc">Suche nach dem Öffnen der App-Übersicht öffnen</string>
+    <string name="quick_search_guide_all_apps">Alle Apps</string>
+    <string name="quick_search_guide_quick_search">Schnellsuche</string>
+    <string name="quick_search_guide_title">Standardmodus wählen</string>
     <string name="recent_apps">Zuletzt geöffnet</string>
     <string name="recent_menu_item_info">Info</string>
     <string name="recent_menu_item_lock">Sperren</string>
@@ -706,6 +770,8 @@
     <string name="remove_invalidate_gadget_tips">Eins der von Ihnen verwendeten Widgets ist nicht mehr verfügbar. Sie können ein anderes hinzufügen.</string>
     <string name="remove_sys_app_content">Sie können die Startbildschirm-Verknüpfung unter Einstellungen &gt; Apps &gt; Startbildschirm-Verknüpfungen verwalten wieder hinzufügen. Jetzt entfernen?</string>
     <string name="remove_sys_app_title">Verknüpfung auf dem Startbildschirm entfernen?</string>
+    <string name="request_permission_msg">POCO Launcher benötigt einige Berechtigungen, um Ihnen den vollen Funktionsumfang zur Verfügung zu stellen.</string>
+    <string name="request_permission_title">Berechtigungen erforderlich</string>
     <string name="reset_cate_tip_content">Wenn Sie fortfahren, werden die Standard-App-Gruppen wiederhergestellt. Trotzdem fortfahren?</string>
     <string name="reset_cate_tip_title">Standardgruppen wiederherstellen</string>
     <string name="reset_description_first_time">Sie können das %1$s-Layout innerhalb von 2 Stunden wiederherstellen</string>
@@ -725,6 +791,8 @@
     <string name="screen_locked_toast">Startbildschirm-Layout ist gesperrt</string>
     <string name="screen_number">%d Bildschirm</string>
     <string name="scroll_tip_format_when_announce_accessibility">Auf Seite %1$d %2$d Apps</string>
+    <string name="search_bar_hint_content">Nach Apps und Inhalten suchen</string>
+    <string name="search_guide_btn">Verstanden</string>
     <string name="search_in_apps_store">Nach \"%1$s\" in %2$s suchen</string>
     <string name="search_menu_title">Suchen</string>
     <string name="search_no_result">Keine Ergebnisse gefunden</string>
@@ -733,6 +801,7 @@
     <string name="select_photo">Foto</string>
     <string name="send">Senden</string>
     <string name="server_error">Serverfehler. Etwas warten und erneut versuchen.</string>
+    <string name="service_double_attention">Die erweiterte Suchfunktion wird von Branch Metrics Inc. bereitgestellt. Damit diese Funktion funktioniert, müssen wir Ihre Suchanfragen, Ihre Google Ads ID und Ihre IP-Adresse mit Branch Metrics Inc. teilen. Lesen und akzeptieren Sie die <a href="http://url1"><font color="#B3000000">Endbenutzer Discovery Geschäftsbedingungen</font></a> und <a href="http://url2"><font color="#B3000000">Branch Discovery Datenschutzerklärung</font></a>, bevor Sie diese Funktion nutzen.</string>
     <string name="setting_wallpaper_tip">Verschieben oder skalieren</string>
     <string name="settings">Einstellungen</string>
     <string name="settings_shortcut">Einstellungen</string>
@@ -748,6 +817,7 @@
     <string name="show_most_popular_apps_you_used">Am häufigsten verwendete Apps in Übersicht anzeigen</string>
     <string name="show_recents_recommend_title">Empfehlungsleiste anzeigen</string>
     <string name="slide_to_open_newhome">Nach oben wischen, um Inhaltszentrum zu öffnen</string>
+    <string name="small_window">Popup</string>
     <string name="small_window_button_complete">Fertig</string>
     <string name="small_window_edit_content">Sie können bis zu %d Apps hinzufügen</string>
     <string name="small_window_edit_title">Aktuelle Apps</string>
@@ -790,11 +860,13 @@
     <string name="status_installing">Installieren</string>
     <string name="status_paused">Angehalten</string>
     <string name="status_pending">Warten</string>
+    <string name="suggestions">Vorschläge</string>
     <string name="sunday">Sonntag</string>
     <string name="sunday_short">So</string>
     <string name="sunday_shortest">S</string>
     <string name="swipe_the_desktop_to_the_left">Auf Startbildschirm nach links wischen</string>
     <string name="swipe_the_desktop_to_the_right">Auf Startbildschirm nach rechts wischen</string>
+    <string name="switch_on_button">Einschalten</string>
     <string name="switch_personal_assistant_app_vault">Infoassistent</string>
     <string name="switch_personal_assistant_google">Google Assistent</string>
     <string name="switch_personal_assistant_none">Nichts</string>
@@ -803,7 +875,12 @@
     <string name="system_shortcuts_edit">Bearbeiten</string>
     <string name="system_shortcuts_more_operation">App-Info</string>
     <string name="system_shortcuts_remove">Entfernen</string>
+    <string name="system_text">Automatisch</string>
     <string name="task_access_locked_app_msg">App-Sperre eingeschaltet</string>
+    <string name="term_of_service">Allgemeine Geschäftsbedingungen</string>
+    <string name="terms_of_services_one">Willkommen bei App-Übersicht und Quick Finder. Mit Quick Finder können Sie Apps, In-App-Inhalte und Elemente online schneller finden. Lesen und akzeptieren Sie die Xiaomi <a href="http://url1"><font color="#B3000000">Datenschutzerklärung</font></a>, bevor Sie diese Funktionen nutzen.</string>
+    <string name="terms_of_services_three">Sie können diese Funktion in den Einstellungen deaktivieren.</string>
+    <string name="terms_of_services_two">Die Nutzung der erweiterten Suche erfordert die Weitergabe notwendiger persönlicher Daten, inkl. Ihrer Suchanfragen, Google Ads ID und IP-Adresse an Branch Metrics Inc. Branch wird Ihre persönlichen Daten in Übereinstimmung mit der <a href="http://url1"><font color="#B3000000">Branch Discovery Datenschutzerklärung</font></a> verarbeiten. Lesen und akzeptieren Sie die <a href="http://url2"><font color="#B3000000">Endbenutzer Discovery Geschäftsbedingungen</font></a> und <a href="http://url3"><font color="#B3000000">Branch Discovery Datenschutzerklärung</font></a>, bevor Sie diese Funktion nutzen.</string>
     <string name="the_anniversary_of_lifting_martial_law">Jahrestag der Aufhebung des Kriegsrechts</string>
     <string name="the_anti_aggression_day">Antiaggressionstag</string>
     <string name="the_arbor_day">Tag des Baumes</string>
@@ -870,6 +947,11 @@
     <string name="tuesday">Dienstag</string>
     <string name="tuesday_short">Di</string>
     <string name="tuesday_shortest">D</string>
+    <string name="uni_search_permission_content">Online-Suchfunktion einschalten (Suchdienste werden von Branch bereitgestellt)</string>
+    <string name="uni_search_permission_msg">POCO Launcher erlauben, auf Standort und Kontakte zuzugreifen, um die Suchergebnisse zu verbessern</string>
+    <string name="uni_search_permission_title">Verbesserte Suche</string>
+    <string name="uni_search_setting_summary">Inhalte direkt in der App finden</string>
+    <string name="uni_search_setting_title">In-App-Abfragemodus</string>
     <string name="uninstall">Entfernen</string>
     <string name="uninstall_dialog_message">Alle App-Daten werden gelöscht</string>
     <string name="uninstall_dialog_title_format">App \"%s\" entfernen?</string>
