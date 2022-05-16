@@ -2935,6 +2935,8 @@ Diese Einstellung betrifft alle Benutzer auf diesem Telefon."</string>
     <string name="device_edit_title">Gerätename ändern</string>
     <string name="device_feedback">Feedback zu diesem Gerät senden</string>
     <string name="device_id">Geräte-ID für persönl. Empfehlungen</string>
+    <string name="device_ime_keyboard_fold">Tastaturoptionen für faltbare Geräte</string>
+    <string name="device_ime_keyboard_pad">Tastaturoptionen für Tablets</string>
     <string name="device_info_default">Unbekannt</string>
     <string name="device_info_label">Geräteinfo</string>
     <string name="device_info_not_available">Nicht verfügbar</string>
@@ -3200,6 +3202,8 @@ Wenn es so bleibt, muss die App evtl. deinstalliert werden, um die Akkuleistung 
     <string name="double_click_volume_down_when_lock">Zweimal auf Lautstärke leiser drücken, wenn der Bildschirm gesperrt ist</string>
     <string name="double_connect">Zweifachverbindung</string>
     <string name="double_connect_summary">Für die Verbindung zweier Geräte</string>
+    <string name="double_g_v">G und V duplizieren</string>
+    <string name="double_g_v_sumary">Zentrale Tasten auf der ergonomischen Tastatur duplizieren für mehr Flexibilität</string>
     <string name="double_knock">Knöchel-Doppeltipp</string>
     <string name="double_tap_power_for_camera_suggestion_title">Kamera schnell öffnen</string>
     <string name="double_tap_power_for_camera_summary">2-mal auf Power-Taste drücken, um Kamera schnell zu öffnen. Funktioniert von jedem Bildschirm aus.</string>
@@ -3883,6 +3887,8 @@ Sicherungsdateien nicht ändern oder umbenennen."</string>
     <string name="fmt_weekday_date_timezone">W, D z</string>
     <string name="fmt_weekday_time_timezone">W T z</string>
     <string name="fmt_weekday_timezone">W z</string>
+    <string name="fold_game_adaptation">Spiele</string>
+    <string name="fold_screen_settings_title">Funktionen für Großbildschirme</string>
     <string name="fold_rule_default">Empfohlen</string>
     <string name="fold_rule_important">Wichtig</string>
     <string name="fold_rule_unimportant">Unwichtig</string>
@@ -4416,6 +4422,8 @@ Xiaomi Cloud öffnen und Elemente von dort aus wiederherstellen."</string>
     <string name="imei_information_summary">Relevante IMEI-Informationen</string>
     <string name="imei_information_title">IMEI-Informationen</string>
     <string name="imei_multi_sim">IMEI (SIM-Slot %1$d)</string>
+    <string name="imitate_real_keyboard">Traditionelle Tastatur</string>
+    <string name="imitate_real_keyboard_summary">Praktisch, wenn Ihr Gerät auf einer flachen Oberfläche liegt</string>
     <string name="immediately_destroy_activities">Aktionen nicht speichern</string>
     <string name="immediately_destroy_activities_summary">Aktivität löschen, sobald der Benutzer diese beendet</string>
     <string name="import_again">Erneut importieren</string>
@@ -4870,6 +4878,8 @@ Xiaomi Cloud öffnen und Elemente von dort aus wiederherstellen."</string>
     <string name="led_settings">LED-Benachrichtigung</string>
     <string name="left_edge">Linke Kante</string>
     <string name="left_function_key">Verknüpfung links</string>
+    <string name="left_right_hand_switch">Links und rechts</string>
+    <string name="left_right_hand_switch_summary">Linker und rechter Teil der Tastatur wechseln mit einem einzigen Tippen den Platz</string>
     <string name="legacy_control_center_desc">Statusleiste herunterziehen, um Schalter und Benachrichtigungen anzuzeigen</string>
     <string name="legacy_control_center_title">Alte Version</string>
     <string name="legacy_dhcp_client">Alten DHCP-Client verwenden</string>
@@ -4939,6 +4949,7 @@ Xiaomi Cloud öffnen und Elemente von dort aus wiederherstellen."</string>
     <string name="location_agps_apn_choose_dialog_title">APN-Typen</string>
     <string name="location_agps_apn_summary">Bevorzugten APN-Typ</string>
     <string name="location_agps_apn_type">APN-Typen</string>
+    <string name="location_agps_def_network_mode">ZUHAUSE</string>
     <string name="location_agps_params_settings_title">AGPS-Einstellungen</string>
     <string name="location_agps_pref_apn_title">Bevorzugter APN</string>
     <string name="location_agps_pref_network_title">Netzwerk bevorzugen</string>
@@ -5762,6 +5773,7 @@ Dadurch wird Ihr Mobilfunkvertrag nicht gekündigt."</string>
     <string name="misc_files">Sonstige Dateien</string>
     <string name="misc_files_selected_count">%1$d von %2$d ausgewählt</string>
     <string name="misc_files_selected_count_bytes">%1$s von %2$s</string>
+    <string name="mishow_disable_password_setting">Passwörter können im Demo-Modus nicht festgelegt werden</string>
     <string name="miui_accessibility_asr_summary">Audio umwandeln und Text speichern</string>
     <string name="miui_allow_alarm">Wecker</string>
     <string name="miui_allow_light">LED-Benachrichtigung</string>
@@ -5789,6 +5801,7 @@ Fortfahren, um auf weitere Einstellungen zuzugreifen."</string>
     <string name="miui_lab_aiasst_call_screen_desc">Transformieren Sie Sprache und Text, um Anrufe lautlos entgegenzunehmen</string>
     <string name="miui_lab_aiasst_call_screen_title">KI-Anrufassistent</string>
     <string name="miui_lab_drive_mode_desc">Sprachsteuerung verwenden &amp; WeChat-Nachrichten abhören</string>
+    <string name="miui_lab_drive_mode_desc_new">Sprachsteuerung verwenden</string>
     <string name="miui_lab_drive_mode_title">Automodus</string>
     <string name="miui_lab_feature_applied">Angewendet</string>
     <string name="miui_lab_feature_off">Aus</string>
@@ -8481,6 +8494,8 @@ Hinweis: Sie können Ihren Fingerabdruck nicht verwenden, um dieses Gerät zu en
     <string name="send">Senden</string>
     <string name="sensor_toggle_description">Für alle Apps und Dienste</string>
     <string name="sensors_off_quick_settings_title">Sensoren AUS</string>
+    <string name="separate_keyboard_summary_fold">Trennen Sie Ihre Tastatur durch eine Unterteilung in der Mitte, um bequemer tippen zu können, während Sie Ihr Gerät mit beiden Händen halten</string>
+    <string name="separate_keyboard_summary_pad">Trennen Sie Ihre Tastatur durch eine Unterteilung in der Mitte, um schneller und bequemer tippen zu können</string>
     <string name="service_background_processes">%1$s frei</string>
     <string name="service_foreground_processes">%1$s belegt</string>
     <string name="service_manage">Einstellungen</string>
@@ -9515,6 +9530,8 @@ Auf ^2 gespeicherte Apps könnten nicht richtig funktionieren, und Datenübertra
     <string name="switch_sim_dialog_title">%1$s verwenden?</string>
     <string name="switch_to_removable_notification">Zu %1$s gewechselt</string>
     <string name="switch_to_removable_notification_no_carrier_name">Zu anderem Anbieter gewechselt</string>
+    <string name="symbol_fast_input">Sonderzeichen</string>
+    <string name="symbol_fast_input_summary">Tippen Sie auf eine bestimmte Taste, um auf der Tastatur mit Sonderzeichen zu bleiben und mehrere Symbole auf einmal einzugeben</string>
     <string name="symbols_not_allowed_for_password">Passwort darf keine Symbole enthalten</string>
     <string name="sync_active">Synchronisation aktiv</string>
     <string name="sync_automatically">App-Daten autom. synchronisieren</string>
@@ -9565,6 +9582,7 @@ Ein Google-Ansatz zur Synchronisation von Daten, um den Zugriff auf Ihre Kontakt
     <string name="systemui_theme_dark">Dunkel</string>
     <string name="systemui_theme_light">Hell</string>
     <string name="systemui_theme_wallpaper">Automatisch (je nach Hintergrund)</string>
+    <string name="tablet_screen_settings_title">Funktionen für Tablets</string>
     <string name="take_call_on_title">Anruf annehmen</string>
     <string name="talkback_summary">Screenreader in erster Linie für Blinde und Menschen mit eingeschränkten Sehvermögen</string>
     <string name="talkback_watermark_enable">TalkBack Wassrzeichen</string>
@@ -10751,6 +10769,7 @@ Während eines Sprachanrufs können Sie das Internet nicht nutzen und einige App
     <string name="wallpaper_desktop">Startbildschirm</string>
     <string name="wallpaper_live">Live-Hintergrund</string>
     <string name="wallpaper_lockscreen">Sperrbildschirm</string>
+    <string name="wallpaper_setting_title">Hintergrund</string>
     <string name="wallpaper_settings_fragment_title">Hintergrund auswählen von</string>
     <string name="wallpaper_settings_summary_custom">Benutzerdefiniert</string>
     <string name="wallpaper_settings_summary_default">Standard</string>

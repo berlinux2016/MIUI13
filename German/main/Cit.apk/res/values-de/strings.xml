@@ -74,6 +74,15 @@
     <string name="charger_test_end">"
 Ende Ladegerättest, bitte das Ladegerät herausziehen"</string>
     <string name="checkerboard_test">SCHACHBRETT-TEST</string>
+    <string name="cit_DP_check_summary">Die DP-Leitungen sollten während des Prüfvorgangs angeschlossen sein</string>
+    <string name="cit_DP_in_start_test">Bitte die DP-Leitung einstecken, um den Test zu starten</string>
+    <string name="cit_DP_plug_err">Test fehlgeschlagen \nWert nicht erhalten</string>
+    <string name="cit_DP_plug_fail">Test fehlgeschlagen \nDiese Leitung ist keine DP-Leitung, nehmen Sie eine andere Leitung zum Testen.</string>
+    <string name="cit_DP_plug_out_err">Test fehlgeschlagen\nWert nicht erhalten</string>
+    <string name="cit_DP_plug_out_fail">Unterbrochene Verbindung erkannt \nTest fehlgeschlagen</string>
+    <string name="cit_DP_plug_out_pass">Unterbrochene Verbindung erkannt \nTest bestanden</string>
+    <string name="cit_DP_plug_pass">Die angeschlossene DP-Leitung wird erkannt. Bitte beobachten Sie, ob die Projektion erfolgreich ist und klicken Sie auf die entsprechende Schaltfläche.</string>
+    <string name="cit_DP_plug_re_plugin">DP-Test abgeschlossen. Bitte prüfen Sie, ob der Bildschirm erfolgreich ist, und klicken Sie auf die entsprechende Schaltfläche.</string>
     <string name="cit_OTG_plug_check_summary">Während des Tests stecken Sie bitte den Stecker ins USB OTG-Gerät ein und stecken ihn dann umgedreht wieder ein.</string>
     <string name="cit_OTG_plugin_check_summary">Wenn das OTG-Gerät angeschlossen ist, sollte der Text \"USB OTG-Gerät erkannt\" unten angezeigt werden.</string>
     <string name="cit_OTG_plugin_check_title">OTG (erkannt)</string>
@@ -83,6 +92,18 @@ Ende Ladegerättest, bitte das Ladegerät herausziehen"</string>
     <string name="cit_OTG_waiting_in_charge">USB OTG-Gerät jetzt verbinden</string>
     <string name="cit_OTG_waiting_out">USB OTG-Gerät jetzt trennen und bei USB Typ C umgedreht wieder einstecken</string>
     <string name="cit_OTG_waiting_out_end">Bitte USB_OTG-Gerät anstecken, Test beenden</string>
+    <string name="cit_USB3_OTG_error_condition">Das Einstecken eines OTG-Geräts wurde erkannt, aber die Geräteinfos wurden nicht abgerufen. \nTest fehlgeschlagen</string>
+    <string name="cit_USB3_check_summary">USB3.0-unterstützende Geräte müssen während des Tests angeschlossen werden</string>
+    <string name="cit_USB3_error_condition">Das Einstecken des Geräts wurde erkannt, aber es wurden keine Geräteinfosabgerufen. \nTest fehlgeschlagen</string>
+    <string name="cit_USB3_in_need_plugout">USB-Gerät angeschlossen, zum Starten des Tests herausziehen</string>
+    <string name="cit_USB3_in_start_test">Schließen Sie die USB3.0-fähigen Geräte an und starten Sie den Test</string>
+    <string name="cit_USB3_plug_err">Der richtige Wert wurde nicht gelesen. Bitte kontaktieren Sie die Entwickler, um den Grund zu erfahren.</string>
+    <string name="cit_USB3_plug_fail">Testgerät unterstützt kein USB3.0 und Test ist fehlgeschlagen</string>
+    <string name="cit_USB3_plug_out_test_err">Gerät ist herausgezogen, Test fehlgeschlagen. \nSie haben nicht den richtigen Wert erhalten. Bitte wenden Sie sich an den Mitarbeiter für Forschung und Entwicklung, um den Grund herauszufinden.</string>
+    <string name="cit_USB3_plug_out_test_fail">Gerät ist herausgezogen, Test fehlgeschlagen. \nEs wird empfohlen, das Ersatzgerät erneut zu testen.</string>
+    <string name="cit_USB3_plug_out_test_pass">Gerät wurde herausgezogen, Test bestanden</string>
+    <string name="cit_USB3_plug_pass">USB3.0 bestanden, bitte Geräte herausziehen</string>
+    <string name="cit_USB3_plug_re_plugin">USB3.0-Test ist beendet, bitte wiederholen Sie den Test nicht</string>
     <string name="cit_Reserse_charge_check_title">Umkehrladungstest</string>
     <string name="cit_abnormal_reboot_summary">Lesen von Stabilitätsdaten, bitte warten…</string>
     <string name="cit_abnormal_reboot_title">Gerätestabilitätsdaten</string>
