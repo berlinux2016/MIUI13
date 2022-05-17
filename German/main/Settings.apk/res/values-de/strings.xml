@@ -5822,6 +5822,11 @@ Fortfahren, um auf weitere Einstellungen zuzugreifen."</string>
     <string name="miui_master_clear_prompt_battery_low">Werksreset durchführen nicht möglich, wenn weniger als %1$s Akku übrig ist. Laden Sie Ihr Gerät auf, bevor Sie fortfahren.</string>
     <string name="miui_master_clear_summary">Löscht alle Daten auf dem Telefon</string>
     <string name="miui_more_special_feature">Neue Funktionen entdecken</string>
+    <string name="miui_nfc_dialog_message">Wenn Sie NFC ausschalten, können Sie keine NFC-Funktionen wie Mi Pay, Fahrkarten, Schlüsselkarten und mehr nutzen. Trotzdem ausschalten?</string>
+    <string name="miui_nfc_dialog_negative">Ausschalten</string>
+    <string name="miui_nfc_dialog_positive">Abbrechen</string>
+    <string name="miui_nfc_dialog_title">NFC ausschalten</string>
+    <string name="miui_nfc_mi_pay_summary">Mi Pay, Fahrkarten, Schlüsselkarten</string>
     <string name="miui_optimization_disabled">MIUI-Optimierung ausschalten</string>
     <string name="miui_sos_around_photo_summary">%d Fotos der Front- und Rückkamera an die Textnachricht anhängen, die an Ihre Notfallkontakte gesendet wird</string>
     <string name="miui_sos_around_photo_title">Fotos anhängen</string>
@@ -6329,6 +6334,8 @@ Betriebssystem auswählen:"</string>
     <string name="nfc_how_it_works_content">Richten Sie eine Bezahl-App ein. Halten Sie dann die Rückseite Ihres Geräts an ein Terminal mit einem NFC-Symbol.</string>
     <string name="nfc_how_it_works_got_it">Verstanden</string>
     <string name="nfc_how_it_works_title">Am Terminal bezahlen</string>
+    <string name="nfc_image_preference_text_click">Prüfen, wo sich der NFC-Antennenbereich auf diesem Gerät befindet</string>
+    <string name="nfc_image_preference_text_noclick">"Platzieren Sie Ihr Gerät in der Nähe eines kontaktlosen Terminals, um Mi Pay, Fahrkarten, Schlüsselkarten und andere NFC-Funktionen zu nutzen. "</string>
     <string name="nfc_main_switch_title">NFC verwenden</string>
     <string name="nfc_more_title">Mehr…</string>
     <string name="nfc_payment_btn_text_set_deault">Standard einstellen</string>
@@ -7153,6 +7160,7 @@ Gleichzeitig Ein/Aus- und Lautertaste drücken."</string>
     <string name="pref_volume_wake_title">Lautstärketasten</string>
     <string name="preference_change_password_title">Passwort ändern</string>
     <string name="preference_copied">\"%1$s\" in Zwischenablage kopiert</string>
+    <string name="preference_toggle_nfc_dnd_mode_summary">Keine Benachrichtigungen über nicht erkannte NFC-Tags erhalten</string>
     <string name="preferred_app_settings">Standardwerte</string>
     <string name="preferred_app_settings_default">Standard</string>
     <string name="preferred_app_settings_not_selected">Nichts ausgewählt</string>
@@ -8015,6 +8023,8 @@ App-Pinning verwenden: \u0009
     <string name="sdcard_settings_used_bytes_label">Verwendete Bytes:</string>
     <string name="sdcard_unmount">USB-Speicher/SD-Karte trennen</string>
     <string name="sdcard_unmounted">SD-Karte jetzt einlegen</string>
+    <string name="se_in_ese">Eingebettetes sicheres Element</string>
+    <string name="se_in_ese_desc">Eingebettetes sicheres Element</string>
     <string name="se_route_default">Automatisch gewählt</string>
     <string name="se_route_ese">Sicheres Element</string>
     <string name="se_route_uicc">Sicheres Element auf der SIM-Karte</string>
@@ -8494,6 +8504,7 @@ Hinweis: Sie können Ihren Fingerabdruck nicht verwenden, um dieses Gerät zu en
     <string name="send">Senden</string>
     <string name="sensor_toggle_description">Für alle Apps und Dienste</string>
     <string name="sensors_off_quick_settings_title">Sensoren AUS</string>
+    <string name="separate_keyboard">Ergonomische Tastatur</string>
     <string name="separate_keyboard_summary_fold">Trennen Sie Ihre Tastatur durch eine Unterteilung in der Mitte, um bequemer tippen zu können, während Sie Ihr Gerät mit beiden Händen halten</string>
     <string name="separate_keyboard_summary_pad">Trennen Sie Ihre Tastatur durch eine Unterteilung in der Mitte, um schneller und bequemer tippen zu können</string>
     <string name="service_background_processes">%1$s frei</string>
