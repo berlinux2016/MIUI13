@@ -2176,6 +2176,7 @@ Sie können diese Funktion unter Einstellungen/Bluetooth/Gekoppelte Geräte auss
     <string name="choose_sim_activating">Aktivieren…</string>
     <string name="choose_sim_could_not_activate">Aktivierung zurzeit nicht möglich</string>
     <string name="choose_sim_item_summary_unknown">Unbekannte Nummer</string>
+    <string name="choose_sim_text">{count, plural, =1 {1 Nummer ist auf diesem Gerät verfügbar, aber es kann immer nur eine verwendet werden} =2 {2 Nummern sind auf diesem Gerät verfügbar, aber es kann immer nur eine verwendet werden} other {# Nummern sind auf diesem Gerät verfügbar, aber es kann immer nur eine verwendet werden} }</string>
     <string name="choose_sim_title">Wählen Sie eine zu verwendende Zahl</string>
     <string name="choose_smartcover_type">Smartcovertyp auswählen</string>
     <string name="choose_spell_checker">Rechtschreibprüfung auswählen</string>
@@ -11736,6 +11737,7 @@ Delta Updategröße: %2$s"</string>
     <string name="zen_mode_bypassing_apps_header">Apps, die unterbrechen können</string>
     <string name="zen_mode_bypassing_apps_none">Keine Apps ausgewählt</string>
     <string name="zen_mode_bypassing_apps_some_summary">Einige Benachrichtigungen</string>
+    <string name="zen_mode_bypassing_apps_subtext">{count, plural, offset:2 =0 {Keine Apps können unterbrechen} =1 {{app_1} kann unterbrechen} =2 {{app_1} und {app_2} können unterbrechen} =3 {{app_1}, {app_2}, und {app_3} können unterbrechen} other {{app_1}, {app_2}, und # weitere können unterbrechen} }</string>
     <string name="zen_mode_bypassing_apps_subtext_none">Keine Apps können unterbrechen</string>
     <string name="zen_mode_bypassing_apps_summary_all">Alle Benachrichtigungen</string>
     <string name="zen_mode_bypassing_apps_summary_some">Einige Benachrichtigungen</string>
@@ -11750,7 +11752,9 @@ Delta Updategröße: %2$s"</string>
     <string name="zen_mode_choose_rule_type">Regeltyp auswählen</string>
     <string name="zen_mode_configure_rule">Regel erstellen</string>
     <string name="zen_mode_contacts_callers">Kontakte</string>
+    <string name="zen_mode_contacts_count">{count, plural, =0 {Keiner} =1 {1 Kontakt} other {# Kontakte} }</string>
     <string name="zen_mode_contacts_count_none">Keiner</string>
+    <string name="zen_mode_conversations_count">{count, plural, =0 {Keine} =1 {1 Unterhaltung} other {# Unterhaltung} }</string>
     <string name="zen_mode_conversations_count_none">Keine</string>
     <string name="zen_mode_conversations_section_title">Unterhaltungen, die unterbrechen können</string>
     <string name="zen_mode_conversations_title">Unterhaltungen</string>
@@ -11768,6 +11772,7 @@ Delta Updategröße: %2$s"</string>
     <string name="zen_mode_duration_settings_title">Dauer</string>
     <string name="zen_mode_duration_summary_always_prompt">Jedes Mal fragen</string>
     <string name="zen_mode_duration_summary_forever">Bis Sie ausschalten</string>
+    <string name="zen_mode_duration_summary_time_hours">{count, plural, =1 {1 Stunde} other {# Stunden} }</string>
     <string name="zen_mode_duration_summary_time_minutes">%d Minuten</string>
     <string name="zen_mode_effected_always">Immer</string>
     <string name="zen_mode_enable_dialog_turn_on">Einschalten</string>
@@ -11823,7 +11828,8 @@ Delta Updategröße: %2$s"</string>
     <string name="zen_mode_option_no_interruptions">Vollkommen stumm</string>
     <string name="zen_mode_other_options">Weitere Optionen</string>
     <string name="zen_mode_other_sounds_list_count">%d weitere</string>
-    <string name="zen_mode_other_sounds_none">Nichts kann unterbrechen</string>
+    <string name="zen_mode_other_sounds_none">Keiner kann unterbrechen</string>
+    <string name="zen_mode_other_sounds_summary">{count, plural, offset:2 =0 {Keiner kann unterbrechen} =1 {{sound_category_1} kann unterbrechen} =2 {{sound_category_1} und {sound_category_2} können unterbrechen} =3 {{sound_category_1}, {sound_category_2}, und {sound_category_3} können unterbrechen} other {{sound_category_1}, {sound_category_2}, und # weitere können unterbrechen} }</string>
     <string name="zen_mode_people_all">Alle Personen können unterbrechen</string>
     <string name="zen_mode_people_calls_messages_section_title">Wer kann unterbrechen</string>
     <string name="zen_mode_people_none">Keiner kann unterbrechen</string>
@@ -11892,6 +11898,7 @@ Beachten Sie, dass kritische Benachrichtigungen über Telefonaktivität und -sta
     <string name="zen_mode_settings_dnd_custom_settings_footer_link">&lt;annotation id="link"> Eigene Einstellungen anzeigen&lt;/annotation></string>
     <string name="zen_mode_settings_dnd_manual_end_time">Nicht stören ist an bis %s</string>
     <string name="zen_mode_settings_dnd_manual_indefinite">Nicht stören bleibt an, bis Sie es ausschalten</string>
+    <string name="zen_mode_settings_schedules_summary">{count, plural, =0 {Keiner} =1 {1 Zeitplan eingestellt} other {# Zeitpläne eingestellt} }</string>
     <string name="zen_mode_settings_summary">Nur von wichtigen Personen und Apps benachrichtigt werden</string>
     <string name="zen_mode_settings_summary_off">Nie</string>
     <string name="zen_mode_settings_title">Nicht stören</string>
@@ -11904,6 +11911,7 @@ Beachten Sie, dass kritische Benachrichtigungen über Telefonaktivität und -sta
     <string name="zen_mode_sounds_none">Nichts kann stören</string>
     <string name="zen_mode_starred_callers">Markierte Kontakte</string>
     <string name="zen_mode_starred_contacts_empty_name">(Unbenannt)</string>
+    <string name="zen_mode_starred_contacts_summary_contacts">{count, plural, offset:2 =0 {Keiner} =1 {{contact_1}} =2 {{contact_1} und {contact_2}} =3 {{contact_1}, {contact_2}, und {contact_3}} other {{contact_1}, {contact_2}, und # weitere} }</string>
     <string name="zen_mode_starred_contacts_summary_none">Keiner</string>
     <string name="zen_mode_starred_contacts_title">Markierte Kontakte</string>
     <string name="zen_mode_start_time">Startzeit</string>
