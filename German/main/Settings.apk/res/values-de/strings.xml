@@ -130,9 +130,9 @@
     <string name="accessibility_dialog_button_cancel">Abbrechen</string>
     <string name="accessibility_dialog_button_deny">Verweigern</string>
     <string name="accessibility_disable_animations">Animationen entfernen</string>
-    <string name="accessibility_display_daltonizer_preference_subtitle">Passen Sie an, wie Farben auf Ihrem Gerät angezeigt werden. Dies kann hilfreich sein, wenn sie Folgendes möchten:<br><br></br></br><ol><li> Farben genauer sehen</li><li> Farben entfernen, um sich besser zu konzentrieren</li> </ol></string>
+    <string name="accessibility_display_daltonizer_preference_subtitle">Passen Sie an, wie Farben auf Ihrem Gerät angezeigt werden. Dies kann hilfreich sein, wenn sie Folgendes möchten:<ol><li><br/><br/> Farben genauer sehen</li><li> Farben entfernen, um sich besser zu konzentrieren</li></ol></string>
     <string name="accessibility_display_daltonizer_preference_title">Farbkorrektur</string>
-    <string name="accessibility_display_inversion_preference_subtitle">Wenn \"Farbumkehr\" aktiviert ist, werden helle Bildschirme dunkel angezeigt.&lt;br/>&lt;br/> Hinweis: &lt;ol> &lt;li> Dunkle Farben werden hell.&lt;/li> &lt;li> Das führt zu einer veränderten Wiedergabe der Farben in Medien und Bildern.&lt;/li> &lt;li> Im Modus \"Dunkles Design\" wird lediglich der Hintergrund dunkel angezeigt. \"Dunkles Design\" funktioniert nur in unterstützten Apps. \"Farbumkehr\" hingegen funktioniert in allen Apps.&lt;/li> &lt;/ol></string>
+    <string name="accessibility_display_inversion_preference_subtitle">Wenn \"Farbumkehr\" aktiviert ist, werden helle Bildschirme dunkel angezeigt.&lt;br/>&lt;br/> Hinweis: &lt;ol>&lt;li> Dunkle Farben werden hell.&lt;/li>&lt;li> Das führt zu einer veränderten Wiedergabe der Farben in Medien und Bildern.&lt;/li>&lt;li> Im Modus \"Dunkles Design\" wird lediglich der Hintergrund dunkel angezeigt. \"Dunkles Design\" funktioniert nur in unterstützten Apps. \"Farbumkehr\" hingegen funktioniert in allen Apps.&lt;/li>&lt;/ol></string>
     <string name="accessibility_display_inversion_preference_title">Farbumkehrung</string>
     <string name="accessibility_display_inversion_switch_title">Farbumkehr verwenden</string>
     <string name="accessibility_display_title">Bildschirm</string>
@@ -487,7 +487,7 @@ Um zwischen Diensten zu wechseln, mit zwei Fingern hochwischen und halten."</str
     <string name="add_fingerprint_done_msg">Sie können Ihr Gerät nun mit Ihrem Fingerabdruck entsperren</string>
     <string name="add_fingerprint_done_title">Fertig</string>
     <string name="add_fingerprint_edge_instruction_msg">Bewegen Sie den Finger, damit der Sensor die Kanten des Fingerabdrucks aufnehmen kann</string>
-    <string name="add_fingerprint_edge_instruction_title">Bewegen Sie Ihren Finger ein wenig</string>
+    <string name="add_fingerprint_edge_instruction_title">Passen Sie Ihren Griff an, um die Ränder Ihres Fingerabdrucks zu erfassen</string>
     <string name="add_fingerprint_failed_retry_text">Fingerabdruck wurde nicht hinzugefügt, versuchen Sie es noch mal</string>
     <string name="add_fingerprint_finished_button_text">Fertig</string>
     <string name="add_fingerprint_instruction_msg">Fingerabdrucksensor ist in der Home-Taste Ihres Geräts eingebaut</string>
@@ -804,7 +804,7 @@ benachrichtigungen erlauben"</string>
     <string name="application_lock_name">App-Sperre</string>
     <string name="application_manager_section_title">Apps</string>
     <string name="application_mode_empty_text">Noch keine Apps hier</string>
-    <string name="application_mode_name">App-Anzeigemodus</string>
+    <string name="application_mode_name">App-Layouts</string>
     <string name="application_permission_manager">App-Berechtigungen</string>
     <string name="application_permissions">App-Berechtigungen</string>
     <string name="application_restrictions">Apps und Inhalte zulassen</string>
@@ -4118,6 +4118,10 @@ Wenn Sie automatische Sicherungen einschalten, werden Geräte- und App-Daten per
     <string name="gmscore_settings_title">Grundlegende Google-Dienste</string>
     <string name="go_back_button_label">Zurück</string>
     <string name="go_to_sleep">Bildschirm ausschalten</string>
+    <string name="google_assistant_guide_cancel">Abbrechen</string>
+    <string name="google_assistant_guide_message">Sie können die Einschalttaste %s Sekunden gedrückt halten, um ein Gespräch mit Google Assistant zu beginnen. Diese Verknüpfung jetzt festlegen?</string>
+    <string name="google_assistant_guide_ok">Festlegen</string>
+    <string name="google_assistant_guide_tip">*Einschalttaste für %s Sekunden gedrückt halten, um das Menü zum Herunterfahren zu öffnen</string>
     <string name="google_backup_enable">Sicherung aktivieren</string>
     <string name="google_backup_section_title">Google Sichern &amp; Zurücksetzen</string>
     <string name="google_service_title">Google Dienste</string>
@@ -5780,6 +5784,8 @@ Dadurch wird Ihr Mobilfunkvertrag nicht gekündigt."</string>
     <string name="miui_allow_light">LED-Benachrichtigung</string>
     <string name="miui_allow_music">Medien</string>
     <string name="miui_allow_vibrate">Vibrationen</string>
+    <string name="miui_bubbles_notification">Blasen-Benachrichtigungen</string>
+    <string name="miui_bubbles_notification_status_opened">An</string>
     <string name="miui_data_usage_menu_metered">Mobile Hotspots</string>
     <string name="miui_enable_service_title">Dienst führt folgende Aktionen durch:</string>
     <string name="miui_experience_optimization">MIUI-Optimierung einschalten</string>
