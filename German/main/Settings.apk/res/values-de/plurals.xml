@@ -334,6 +334,10 @@
         <item quantity="other">%1$d Konten werden zurückgesetzt</item>
         <item quantity="one">%1$d Konto wird zurückgesetzt</item>
     </plurals>
+    <plurals name="max_number_of_processes">
+        <item quantity="other">Max. %d Prozesse</item>
+        <item quantity="one">Max. %d Prozess</item>
+    </plurals>
     <plurals name="memory_usage_apps_summary">
         <item quantity="other">%1$d Apps haben in den letzten %2$s Speicher verbraucht</item>
         <item quantity="one">%1$d App hat in den letzten %2$s Speicher verbraucht</item>
@@ -568,6 +572,22 @@ Für weitere Informationen über dieses Zertifikat kontaktieren Sie Ihren Admin.
     <plurals name="status_bar_settings_enabled_header_title">
         <item quantity="other">%s Apps dürfen Benachrichtungen anzeigen</item>
         <item quantity="one">%s App darf Benachrichtigungen anzeigen</item>
+    </plurals>
+    <plurals name="string_after_int_minute">
+        <item quantity="other">Nach %d Min</item>
+        <item quantity="one">Nach %d Min</item>
+    </plurals>
+    <plurals name="string_int_hour">
+        <item quantity="other">%d Std</item>
+        <item quantity="one">%d Std</item>
+    </plurals>
+    <plurals name="string_int_minute">
+        <item quantity="other">%d Min</item>
+        <item quantity="one">%d Min</item>
+    </plurals>
+    <plurals name="string_int_second">
+        <item quantity="other">%d Sek</item>
+        <item quantity="one">%d Sek</item>
     </plurals>
     <plurals name="suggestions_collapsed_summary">
         <item quantity="other">+%1$d Vorschläge</item>

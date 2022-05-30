@@ -76,6 +76,7 @@
     <string name="access_control_password_title">Passwort</string>
     <string name="access_control_recording_intro_header">Zeichnen Sie ein Entsperrmuster:</string>
     <string name="access_control_reset_by_account">Um Ihr Passwort zurückzusetzen, melden Sie sich mit Ihrem Mi-Konto an</string>
+    <string name="access_denied_info">Zu viele Versuche. Einen Moment warten und erneut versuchen.</string>
     <string name="access_point_names">Zugangspunktnamen</string>
     <string name="accessibility_audio_adjustment_title">Audio-Anpassung</string>
     <string name="accessibility_autoclick_custom_title">Benutzerdefiniert</string>
@@ -911,8 +912,8 @@ benachrichtigungen erlauben"</string>
     <string name="auto_caps">Autom. Groß-/Kleinschr.</string>
     <string name="auto_caps_summary">Jeden Satz mit einem Großbuchstaben beginnen</string>
     <string name="auto_clean_description">"Über diese Funktion:
-1. Führen Sie diese Funktion ein- oder zweimal aus, wenn Sie feststellen, dass Ihr Lautsprecher leicht durch Staub blockiert ist.
-2. Wenn der Lautsprecher stark blockiert ist, führen Sie diese Funktion 2-5 mal aus, während Sie Ihr Gerät mit dem Lautsprecher nach unten schütteln."</string>
+%3$d. Führen Sie diese Funktion ein- oder zweimal aus, wenn Sie feststellen, dass Ihr Lautsprecher leicht durch Staub blockiert ist.
+%4$d. Wenn der Lautsprecher stark blockiert ist, führen Sie diese Funktion 2-5 mal aus, während Sie Ihr Gerät mit dem Lautsprecher nach unten schütteln."</string>
     <string name="auto_clean_description_pad">"Über diese Funktion:
 - Führen Sie diese Funktion ein- oder zweimal aus, wenn Sie feststellen, dass Ihr Lautsprecher leicht durch Staub blockiert ist.
 - Wenn der Lautsprecher stark blockiert ist, führen Sie diese Funktion %1$d-%2$d-mal aus, während Sie Ihr Gerät mit dem Lautsprecher nach unten schütteln."</string>
@@ -1903,9 +1904,11 @@ Sie können diese Funktion unter Einstellungen/Bluetooth/Gekoppelte Geräte auss
     <string name="bt_ldac_property">Eigenschaften</string>
     <string name="bt_ldac_remember_choice">Auswahl merken</string>
     <string name="bt_ldac_settings">Einstellungen</string>
+    <string name="bt_leaudio_cg_dialog_summary">Einige Funktionen sind nicht mehr verfügbar nach Aktivieren dieser Funktion. Diese Funktion unterstützt auch nicht das Verbinden mehrerer Geräte mit Ihren Ohrhörern. Wenn Sie bereits eine Verbindung zu zwei verschiedenen Geräten hergestellt haben, trennen Sie zuerst die Verbindung zu einem der Geräte. LC3 jetzt einschalten?</string>
     <string name="bt_leaudio_open_dialog_summary">"Sie können nicht mehrere Geräte mit Ihrem Headset verbinden, wenn LC3 eingeschaltet ist. Andere angeschlossene Geräte werden getrennt, wenn Sie diese Funktion einschalten. LC3 trotzdem einschalten?"</string>
     <string name="bt_leaudio_open_dialog_title">Achtung</string>
     <string name="bt_leaudio_summary">Hochwertiges Audioerlebnis</string>
+    <string name="bt_leaudio_support_multi_dialog_summary">Einige Funktionen sind nicht mehr verfügbar nach Aktivieren dieser Funktion. LC3 jetzt einschalten?</string>
     <string name="bt_lhdc_declaration">Wenn ein Bluetooth-Gerät LHDC unterstützt, wird es standardmäßig verbunden. LHDC bietet ein hochwertiges Klangerlebnis und reduziert die Latenzzeit beim Spielen, erhöht aber auch den Stromverbrauch. Wegen Bluetooth-Hardwarebeschränkungen können während der Wiedergabe Probleme auftreten.</string>
     <string name="bt_lhdc_dialog_summary">LHDC bietet ein hochwertiges Klangerlebnis und reduziert die Latenzzeit beim Spielen, erhöht aber auch den Stromverbrauch. Diese Funktion kann in den Einstellungen abgeschaltet werden.</string>
     <string name="bt_lhdc_dialog_title">Das aktuelle Gerät unterstützt LHDC und wurde standardmäßig angeschlossen:</string>
@@ -2255,6 +2258,7 @@ Nach Erstellung einer neuen Sicherheitsfrage und Bestätigung Ihres Geburtsdatum
     <string name="codec_low_latency_video_summary">Bietet ein Audioerlebnis mit niedriger Latenz für Spiele und Videos, wodurch die Synchronisation von Ton und Bild natürlicher wird</string>
     <string name="codec_low_latency_zmi_summary">Audioverzögerung reduzieren und Soundeffekte für Spiele automatisch verbessern</string>
     <string name="codec_low_latency_zmi_title">Niedrige Latenzzeit für Spiele</string>
+    <string name="collect_diagnosis_log">Diagnoseprotokoll sammeln</string>
     <string name="collect_diagnostics_summary">Diagnosedaten für die Fehlersuche sammeln</string>
     <string name="collect_diagnostics_title">Diagnosedaten sammeln</string>
     <string name="color_black">Schwarz</string>
@@ -2618,6 +2622,11 @@ Damit Sie Ihr Gerät wieder verwenden können, müssen Sie es auf Werkseinstellu
     <string name="dark_color_summary">Dunkle Farbpalette für Systemhintergründe und kompatible Apps verwenden</string>
     <string name="dark_color_summary_lcd">Dunkle Farbpalette für Systemhintergründe und kompatible Apps verwenden. Dark Mode hilft, die Augen zu schonen, wenn Sie Ihr Gerät im Dunkeln verwenden.</string>
     <string name="dark_color_summary_oled">Dunkle Farbpalette für Systemhintergründe und kompatible Apps verwenden. Dark Mode reduziert den Stromverbrauch und hilft, die Augen zu schonen.</string>
+    <string name="dark_mode_alert_dialog_cancel">Abbrechen</string>
+    <string name="dark_mode_alert_dialog_checkbox">Nicht mehr anzeigen</string>
+    <string name="dark_mode_alert_dialog_confirm">Einschalten</string>
+    <string name="dark_mode_alert_dialog_message">Diese App wird im Dark Mode ggf. nicht richtig angezeigt. Dark Mode trotzdem einschalten?</string>
+    <string name="dark_mode_alert_dialog_title">Achtung</string>
     <string name="dark_mode_apps_header">Einzelne Apps</string>
     <string name="dark_mode_auto_time_summary">Dark Mode für einen benutzerdefinierten Zeitraum einschalten</string>
     <string name="dark_mode_auto_time_title">Benutzerdefinierter Zeitraum</string>
@@ -2971,6 +2980,10 @@ Diese Einstellung betrifft alle Benutzer auf diesem Telefon."</string>
     <string name="device_total_memory">"Gesamter Speicher "</string>
     <string name="device_usage_list_summary">Gerätenutzung seit Vollladung</string>
     <string name="devices_title">Geräte</string>
+    <string name="diagnosis_log_send_failed">Diagnoseprotokoll senden fehlgeschlagen.</string>
+    <string name="diagnosis_log_sent_format">"Diagnoseprotokoll wurde gesendet.
+ID:%s
+Bitte diesen Code an den Techniker senden."</string>
     <string name="dial_application_title">Wählen</string>
     <string name="dial_pad_tones_title">Wähltastentöne</string>
     <string name="dialog_background_check_message">"Ihr Telefon kann den Akku nicht normal verwalten, da %1$s Ihr Telefon immer wieder aufweckt.
@@ -3926,6 +3939,7 @@ Es schien keine Pferde oder andere Tiere zu geben; die Männer beförderten Sach
     <string name="font_size_summary1">"Wenn Ihr Systemtext noch zu klein ist, versuchen Sie "</string>
     <string name="font_size_summary2">Minimaler Desktop</string>
     <string name="footer_learn_more_content_description">Mehr über %1$s erfahren</string>
+    <string name="for_diagnosis_usage_only">Diese Information dient nur zur Diagnose.</string>
     <string name="forbidden_network">(verboten)</string>
     <string name="forbidden_set_unlock_password_msg">Derzeit im Wartungsmodus, Passwort kann nicht festgelegt oder geändert werden</string>
     <string name="forbidden_switch_apn_string">Ausgewählte APN-Einstellungen stimmen mit dem Netzwerktyp nicht überein</string>
@@ -3943,8 +3957,9 @@ Es schien keine Pferde oder andere Tiere zu geben; die Männer beförderten Sach
     <string name="force_immersive_compatibility_hint_message">Einige Apps funktionieren eventuell nicht richtig, wenn Sie die Softkeytasten verbergen</string>
     <string name="force_immersive_compatibility_hint_title">Kompatibilitätsprobleme</string>
     <string name="force_msaa">4x MSAA erzwingen</string>
-    <string name="force_msaa_new">%dx MSAA erzwingen</string>
-    <string name="force_msaa_summary">4x MSAA in OpenGL ES 2.0-Apps einschalten</string>
+    <string name="force_msaa_new">4x MSAA erzwingen</string>
+    <string name="force_msaa_prefrence_summary_new">4x MSAA in OpenGL ES %1$.1f-Apps aktivieren</string>
+    <string name="force_msaa_summary">4x MSAA in OpenGL ES 2.0-Apps aktivieren</string>
     <string name="force_msaa_summary_new">%2$dx MSAA in OpenGL ES %1$.1f Anwendungen aktivieren</string>
     <string name="force_resizable_activities">Größenänd. Aktivit. erzwingen</string>
     <string name="force_resizable_activities_summary">Größenänderung von Aktivitäten für Multifenster unabhängig von vorgeschriebenen Werten erzwingen</string>
@@ -4132,8 +4147,9 @@ Wenn Sie automatische Sicherungen einschalten, werden Geräte- und App-Daten per
     <string name="gps_description">Mehrere Satellitennavigationssysteme (GPS, BeiDou, GLONASS, Galileo) werden unterstützt</string>
     <string name="gps_description_global">Xiaomi-Geräte sind mit mehreren Navigationssystemen kompatibel, darunter GPS, NavIC, BeiDou, GLONASS und Galileo</string>
     <string name="graphics_driver_all_apps_preference_title">Für alle Apps aktivieren</string>
+    <string name="graphics_driver_app_preference_default">Standard</string>
     <string name="graphics_driver_app_preference_game_driver">Spieletreiber</string>
-    <string name="graphics_driver_app_preference_prerelease_driver">Developer Driver</string>
+    <string name="graphics_driver_app_preference_prerelease_driver">Entwicklertreiber</string>
     <string name="graphics_driver_app_preference_production_driver">Spieletreiber</string>
     <string name="graphics_driver_app_preference_system">Systemgrafiktreiber</string>
     <string name="graphics_driver_app_preference_title">Grafiktreiber wählen</string>
@@ -6293,6 +6309,7 @@ Betriebssystem auswählen:"</string>
     <string name="network_detail">%s Netzwerkdetails</string>
     <string name="network_disconnected">Getrennt</string>
     <string name="network_error">Netzwerkfehler</string>
+    <string name="network_error_info">Ein Netzwerkfehler ist aufgetreten. Netzwerkeinstellungen prüfen und erneut versuchen.</string>
     <string name="network_id">Netzwerk-ID</string>
     <string name="network_lte">LTE (empfohlen)</string>
     <string name="network_name_displayed_summary">Netzwerkname in der Statusleiste anzeigen</string>
@@ -6318,6 +6335,7 @@ Betriebssystem auswählen:"</string>
     <string name="network_speed_for_apps_title">Verbindung</string>
     <string name="network_speed_for_apps_total">Verbindungsgeschwindigkeit</string>
     <string name="network_state_label">Netzwerkstatus:</string>
+    <string name="network_timeout_info">Netzwerkverbindung nicht möglich. Erneut versuchen.</string>
     <string name="networkid_label">Netzwerk-ID:</string>
     <string name="networks">Betreiberauswahl</string>
     <string name="networks_available">Verfügbare Netzwerke</string>
@@ -7413,6 +7431,7 @@ sensible Informationen enthalten können"</string>
     <string name="progress_dialog_speaker_auto_clean_title">Lautsprecher reinigen…</string>
     <string name="progress_restore_hint">Wiederherstellen…</string>
     <string name="progress_scanning">Suche läuft</string>
+    <string name="progressbar_title">Auf Sicherheitsprobleme prüfen…</string>
     <string name="promote_conversation_summary">Zum Unterhaltungsbereich hinzufügen</string>
     <string name="promote_conversation_title">Dies ist eine Unterhaltung</string>
     <string name="prompt_all">Für alles fragen</string>
@@ -8513,6 +8532,8 @@ Hinweis: Sie können Ihren Fingerabdruck nicht verwenden, um dieses Gerät zu en
     <string name="selinux_status_enforcing">Erzwingen</string>
     <string name="selinux_status_permissive">Großzügig</string>
     <string name="send">Senden</string>
+    <string name="send_diagnosis_log">Diagnoseprotokoll senden</string>
+    <string name="sending">Senden…</string>
     <string name="sensor_toggle_description">Für alle Apps und Dienste</string>
     <string name="sensors_off_quick_settings_title">Sensoren AUS</string>
     <string name="separate_keyboard">Ergonomische Tastatur</string>
@@ -9592,6 +9613,7 @@ Ein Google-Ansatz zur Synchronisation von Daten, um den Zugriff auf Ihre Kontakt
     <string name="system_dashboard_summary">Sprachen, Zeit, Sicherung, Updates</string>
     <string name="system_default_app">(Systemstandard)</string>
     <string name="system_default_app_subtext">Systemstandardeinstellung</string>
+    <string name="system_error_info">System ist beschäftigt. Einen Moment warten und erneut versuchen.</string>
     <string name="system_haptic_feedback">Haptisches Feedback</string>
     <string name="system_navigation_title">Systemnavigation</string>
     <string name="system_package">Systemupdates können nicht auf externen Datenträgern installiert werden</string>
@@ -9606,7 +9628,7 @@ Ein Google-Ansatz zur Synchronisation von Daten, um den Zugriff auf Ihre Kontakt
     <string name="systemui_theme_wallpaper">Automatisch (je nach Hintergrund)</string>
     <string name="tablet_screen_application_adaptation_title">Eigene Layouts für Tablets</string>
     <string name="tablet_screen_settings_title">Funktionen für Tablets</string>
-    <string name="tablet_screen_special_function_title">Funktionen für faltbare Tablets</string>
+    <string name="tablet_screen_special_function_title">Funktionen für Tablets</string>
     <string name="take_call_on_title">Anruf annehmen</string>
     <string name="talkback_summary">Screenreader in erster Linie für Blinde und Menschen mit eingeschränkten Sehvermögen</string>
     <string name="talkback_watermark_enable">TalkBack Wassrzeichen</string>
@@ -9645,6 +9667,7 @@ Ein Google-Ansatz zur Synchronisation von Daten, um den Zugriff auf Ihre Kontakt
     <string name="telephony_monitor_switch">Telefoniemonitor</string>
     <string name="telephony_monitor_switch_summary">Telefoniemonitor sammelt Protokolle, wenn es ein Problem mit der Telefonie-/Modemfunktionalität entdeckt, und fordert den Benutzer auf, einen Bug zu melden</string>
     <string name="telephony_monitor_toast">Um die Änderung des Telefoniemonitors anzuwenden, starten Sie das Gerät neu</string>
+    <string name="temporary_not_available">Temporär nicht verfügbar</string>
     <string name="temporary_style">Für 10 Sekunden nach Antippen</string>
     <string name="terms_title">AGB</string>
     <string name="testing">Test</string>
@@ -10136,6 +10159,7 @@ Gefällt Ihnen Mi Mover?"</string>
     <string name="uninstall_xspace_app_dlg_title">Geklonte App deinstallieren?</string>
     <string name="unknown">Unbekannt</string>
     <string name="unknown_app">Unbekannte App</string>
+    <string name="unknown_error_info">Unbekannter Fehler</string>
     <string name="unknown_hint">Unbekannt</string>
     <string name="unknown_unavailability_setting_summary">Einstellung nicht verfügbar</string>
     <string name="unlock_change_lock_password_title">Entsperrpasswort ändern</string>
