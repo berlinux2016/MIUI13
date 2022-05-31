@@ -98,7 +98,7 @@
     <string name="fmt_weekday_date_timezone">W, D z</string>
     <string name="fmt_weekday_time_timezone">W T z</string>
     <string name="fmt_weekday_timezone">W z</string>
-    <string name="four_note">Test dauert ca. 3 Minuten.</string>
+    <string name="four_note">Test dauert ca. %d Minuten.</string>
     <string name="friday">Freitag</string>
     <string name="friday_short">Fr</string>
     <string name="friday_shortest">F</string>
@@ -242,7 +242,7 @@
     <string name="music_audio_effect_settings">Toneinstellungen</string>
     <string name="music_audio_visual_wake_lock">Bildschirm wach halten</string>
     <string name="music_audio_visual_wake_lock_summary">Bildschirm nicht ausschalten, wenn visuelle Effekte angezeigt werden</string>
-    <string name="music_below_thirty_years">Bis zu 30 Jahre alt</string>
+    <string name="music_below_thirty_years">Bis zu %d Jahre alt</string>
     <string name="music_customized_sound_summary">Lautstärke entsprechend Ihrer akustischen Wahrnehmung anpassen</string>
     <string name="music_customized_sound_title">Lautstärkeanpassung</string>
     <string name="music_delete">Löschen</string>
@@ -313,9 +313,9 @@ Fernbedienungstasten"</string>
     <string name="music_sound_num">Eigene Voreinstellung %s</string>
     <string name="music_sound_sample">Systemvoreinstellungen</string>
     <string name="music_sure_to_delete_sound_msg">Ausgewählte Voreinstellungen jetzt löschen?</string>
-    <string name="music_thirty_to_sixty_years">30-60 Jahre alt</string>
+    <string name="music_thirty_to_sixty_years" formatted="false">%d-%d Jahre alt</string>
     <string name="music_unsupport_effect_summary">USB-Kopfhörer werden nicht unterstützt</string>
-    <string name="music_upper_sixty_years">Über 60 Jahre alt</string>
+    <string name="music_upper_sixty_years">Über %d Jahre alt</string>
     <string name="night">Abend</string>
     <string name="noon">Mittag</string>
     <string name="not_set">Nicht festgelegt</string>
