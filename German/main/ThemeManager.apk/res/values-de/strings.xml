@@ -39,7 +39,8 @@ Themen erkennt, welche Apps Sie verwenden und zeigt transparente Hintergründe i
     <string name="ad_app_is_downloading">Herunterladen…</string>
     <string name="ad_begin_to_download_tip">Herunterladen beginnnen…</string>
     <string name="ad_begin_to_install_tip">Installieren…</string>
-    <string name="ad_closed_tip">Sie werden weniger Anzeigen dieser Art sehen</string>
+    <string name="ad_close">Werbung geschlossen</string>
+    <string name="ad_closed_tip">Sie werden weniger Werbung dieser Art sehen</string>
     <string name="ad_download_download">Herunterladen</string>
     <string name="ad_download_download_now">Herunterladen</string>
     <string name="ad_download_install">Installieren</string>
@@ -88,6 +89,7 @@ Themen erkennt, welche Apps Sie verwenden und zeigt transparente Hintergründe i
     <string name="apply_not_support_aod">Always-On-Display wird auf diesem Gerät nicht unterstützt</string>
     <string name="apply_not_support_in_second_space">Element kann nicht im Zweitprofil angewendet werden</string>
     <string name="apply_not_support_maml_aod">Always-On-Display kann auf diesem Gerät nicht mit Themen kombiniert werden</string>
+    <string name="apply_sensor_video_wallpaper_dialog_message">Dieser Hintergrund wird auf den inneren und äußeren Sperrbildschirm und den Startbildschirm angewendet.</string>
     <string name="apply_succeed">Erfolgreich angewendet</string>
     <string name="apply_success_not_enable_aod">Always-On-Display erst in den Einstellungen einschalten</string>
     <string name="apply_success_not_support_aod">Always-On-Display kann auf diesem Gerät nicht mit Themen kombiniert werden. Die übrigen Komponenten dieses Themas wurden erfolgreich angewendet.</string>
@@ -141,6 +143,7 @@ Themen erkennt, welche Apps Sie verwenden und zeigt transparente Hintergründe i
     <string name="clearable_edittext_clear_description">Löschen</string>
     <string name="close">Schließen</string>
     <string name="close_custom_permission_warning_text">Ohne Speichererlaubnis kann diese App keine Elemente herunterladen und Ihr Gerät personalisieren. Trotzdem ausschalten?</string>
+    <string name="close_custom_permission_warning_text_above_eleven">Ohne Speichererlaubnis kann diese App Ihr Gerät nicht personalisieren. Trotzdem ausschalten?</string>
     <string name="common_applying">Anwenden…</string>
     <string name="common_downloading">Herunterladen…</string>
     <string name="common_format_date_no_year">dd.MM.</string>
@@ -193,6 +196,8 @@ Themen erkennt, welche Apps Sie verwenden und zeigt transparente Hintergründe i
     <string name="current_version">Aktuelle Version: %1$s</string>
     <string name="current_version_incompatible">Dieses Thema ist inkompatibel</string>
     <string name="custom_storage_permission_desc">Um die Personalisierungseinstellungen zu ändern und heruntergeladene Elemente zu speichern, müssen Sie dieser Funktion zunächst den Speicherzugriff erlauben. Sie können diese Erlaubnis unter Einstellungen > Datenschutz erteilen.</string>
+    <string name="custom_storage_permission_desc_above_eleven">Um die Personalisierungseinstellungen ändern zu können, müssen Sie dieser Funktion zunächst den Speicherzugriff erlauben. Sie können diese Erlaubnis in den Einstellungen erteilen.</string>
+    <string name="custom_widget">Empfohlene Widgets</string>
     <string name="date_picker_lunar">Traditioneller chin. Kalender</string>
     <string name="date_time_picker_dialog_title">Datum und Zeit einstellen</string>
     <string name="de_apply_icons">App-Symbole</string>
@@ -406,6 +411,7 @@ Themen erkennt, welche Apps Sie verwenden und zeigt transparente Hintergründe i
     <string name="fold_restore_default_theme_dialog_content">Themen können auf diesem Gerät nicht mehr verwendet werden. Wenn Sie Ihr Thema zuvor geändert haben, können Sie jetzt das Standardthema wiederherstellen. Danach können Sie Ihr Thema nicht mehr ändern.</string>
     <string name="fold_restore_default_theme_dialog_disagree">Nein danke</string>
     <string name="fold_restore_default_theme_dialog_title">Standardthema wiederherstellen</string>
+    <string name="fold_sensor_video_wallpaper_group">Dynamische Hintergründe für faltbare Geräte</string>
     <string name="font_compat_dialog_buy_confirm">Kaufen</string>
     <string name="font_compat_dialog_buy_content">Schriftarten von Drittanbietern werden möglicherweise von einigen Apps nicht unterstützt. Dieses Kompatibilitätsproblem wird durch ein kommendes System-Update behoben werden. Diese Schriftart trotzdem kaufen?</string>
     <string name="font_compat_dialog_cancel">Abbrechen</string>
@@ -862,6 +868,7 @@ Alle derzeit auf diesem Gerät verwendeten Personalisierungselemente. Die Standa
     <string name="privacy_phone_logoff_theme_service_detail_title">Lesen und akzeptieren Sie die \"Erklärung zur Kündigung der Themendienste\", bevor Sie unsere Dienste kündigen.</string>
     <string name="privacy_phone_logoff_theme_service_introduce">Sie sind dabei, die Themendienste zu kündigen.</string>
     <string name="privacy_phone_read_and_write_storage">Speicherzugriff</string>
+    <string name="privacy_phone_read_and_write_storage_above_eleven">Speicherzugriff</string>
     <string name="privacy_phone_read_theme_logoff_privacy_policy"><Data>Ich habe die \"&lt;font color=\"#8E92B0\">&lt;/color>&lt;a href=\"%1$s\">Erklärung zur Kündigung der Themendienste&lt;/a>&lt;/font>\" gelesen und akzeptiert.</Data></string>
     <string name="privacy_phone_read_theme_privacy_policy"><Data>Ich habe die \"&lt;font color=\"#8E92B0\">&lt;/color>&lt;a href=\"%1$s\">Erklärung über den Widerruf der Zustimmung zur Datenschutzerklärung von Themen&lt;/a>&lt;/font>\"gelesen und akzeptiert.</Data></string>
     <string name="privacy_phone_revoke_agree_content_3">3. Alle auf dieses Gerät heruntergeladenen Themen, Hintergründe, dynamischen Hintergründe, Schriftarten, Symbole und Klingeltöne.</string>
@@ -1119,6 +1126,7 @@ Sie können diese Erlaubnis unter Einstellungen > Datenschutz erteilen."</string
     <string name="resource_search_color_hint_red">Rot</string>
     <string name="resource_search_color_hint_white">Weiß</string>
     <string name="resource_search_color_hint_yellow">Gelb</string>
+    <string name="resource_search_history">Suchverlauf</string>
     <string name="resource_search_list_empty">Nichts gefunden</string>
     <string name="resource_see_more">Mehr anzeigen</string>
     <string name="resource_select">Auswählen</string>
@@ -1206,6 +1214,7 @@ Sie können diese Erlaubnis unter Einstellungen > Datenschutz erteilen."</string
     <string name="service_btn_text_know">Verstanden</string>
     <string name="service_btn_text_try">Ausprobieren</string>
     <string name="set_as_colorring">Als eigenen Rufton einstellen</string>
+    <string name="set_calling">Festlegen</string>
     <string name="set_color_ring_back_tone">Benutzerdefinierten Klingelton einstellen</string>
     <string name="set_home_wallpaper_failed">%s. Startbildschirmhintergrund wurde nicht angewendet.</string>
     <string name="set_wallpaper_group_success">Hintergrund \"%1$s\" erfolgreich angewendet</string>
@@ -1314,6 +1323,7 @@ Sie können diese Erlaubnis unter Einstellungen > Datenschutz erteilen."</string
     <string name="system_cta_runtime_perm_desc_get_accounts">Für den Zugriff auf die IMEI und die Bereitstellung von Download-Diensten</string>
     <string name="system_cta_runtime_perm_desc_read_phone_state">Zur Anmeldung und Verwaltung von Systemkonten</string>
     <string name="system_cta_runtime_perm_desc_storage">Zur Verwendung der auf Ihrem Gerät gespeicherten Elemente zur Personalisierung und zum Speichern gekaufter Elemente</string>
+    <string name="system_cta_runtime_perm_desc_storage_above_eleven">Zum Ändern der Personalisierungseinstellungen</string>
     <string name="system_cta_runtime_perm_desc_storage_pad">Zur Verwendung der auf Ihrem Gerät gespeicherten Elemente zur Personalisierung und zum Speichern gekaufter Elemente</string>
     <string name="system_precust">Vorinstalliert</string>
     <string name="tag_ad">Werbung</string>
@@ -1482,6 +1492,16 @@ Sie können diese Erlaubnis unter Einstellungen > Datenschutz erteilen."</string
     <string name="title_system_resource">Lokal</string>
     <string name="title_system_wallpaper_resource">Systemhintergründe</string>
     <string name="to_activate_the_account">Mi-Konto jetzt aktivieren</string>
+    <string name="toast_both_all_apply_failured">Wurde nicht auf den Start- oder Sperrbildschirm angewendet</string>
+    <string name="toast_both_all_apply_success">Erfolgreich auf Start- und Sperrbildschirm angewendet</string>
+    <string name="toast_home_apply_failured">Wurde nicht auf den Startbildschirm angewendet</string>
+    <string name="toast_home_apply_success">Erfolgreich auf Startbildschirm angewendet</string>
+    <string name="toast_lockscreen_apply_failured">>Wurde nicht auf den Sperrbildschirm angewendet</string>
+    <string name="toast_lockscreen_apply_failured_but_home_apply_success">Erfolgreich auf Startbildschirm angewendet. Wurde nicht auf den Sperrbildschirm angewendet.</string>
+    <string name="toast_lockscreen_apply_success">Erfolgreich auf Sperrbildschirm angewendet</string>
+    <string name="toast_lockscreen_apply_success_but_home_apply_failured">Erfolgreich auf Sperrbildschirm angewendet. Wurde nicht auf den Startbildschirm angewendet.</string>
+    <string name="toast_transparent_wallpaper_filter_set_failured">Wurde nicht angewendet</string>
+    <string name="toast_transparent_wallpaper_filter_set_successfully">Erfolgreich angewendet</string>
     <string name="today">Heute</string>
     <string name="tomorrow">Morgen</string>
     <string name="trans_wallpaper_offline_notice">Transparente Hintergründe sind nicht verfügbar</string>
