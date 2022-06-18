@@ -136,6 +136,13 @@
     <string name="pa_accessibility_olympic_the_second">Platz 2: %s</string>
     <string name="pa_accessibility_olympic_the_third">Platz 3: %s</string>
     <string name="pa_accessibility_picker_back">Zurück</string>
+    <string name="pa_accessibility_picker_home_appList_entrance">Liste unterstützter Widgets anzeigen</string>
+    <string name="pa_accessibility_picker_home_bigBanner_slected">%1$s, Zeile %2$d, Nr. %3$d ausgewählt. Doppeltippen zum Starten.</string>
+    <string name="pa_accessibility_picker_home_search">Widgets suchen</string>
+    <string name="pa_accessibility_picker_home_smallBanner_slected">%1$s, Zeile %2$d, Nr. %3$d ausgewählt. Doppeltippen zum Starten.</string>
+    <string name="pa_accessibility_picker_home_title">Widget hinzufügen</string>
+    <string name="pa_accessibility_picker_home_widget_slected">%1$s, Zeile %2$d, Nr. %3$d ausgewählt. Doppeltippen, um Details anzuzeigen. Gedrückt halten, um das Element zu ziehen.</string>
+    <string name="pa_accessibility_picker_home_widget_with_add_slected">%1$s, Zeile %2$d, Nr. %3$d ausgewählt. Doppeltippen, um Details anzuzeigen.</string>
     <string name="pa_accessibility_picker_search_cancel">Widget-Suchleiste. Doppeltippen zum Abbrechen.</string>
     <string name="pa_accessibility_picker_search_tips">Widget-Suchleiste. Doppeltippen zum Suchen.</string>
     <string name="pa_accessibility_picker_suit_item_add_to_desktop">Widget-Speicher. %s ausgewählt. Doppeltippen, um Details anzuzeigen.</string>
@@ -275,6 +282,7 @@ Sie können die Expresslieferung auch auf den offiziellen Websites der Kurierdie
     <string name="pa_express_widget_order_42">Tracking-Nummer eingeben</string>
     <string name="pa_express_widget_post">Paket senden</string>
     <string name="pa_finish">Fertig</string>
+    <string name="pa_get_installed_app_permission_description">Zum Installieren von Apps und Hinzufügen von Widgets</string>
     <string name="pa_guide_dialog_desc">Widget gedrückt halten, um es neu anzuordnen. Auf das Plus tippen, um weitere Widgets hinzuzufügen.</string>
     <string name="pa_guide_dialog_sure">Verstanden</string>
     <string name="pa_guide_dialog_title">Besuchen Sie unseren Widget Store</string>
@@ -323,6 +331,9 @@ Sie können die Expresslieferung auch auf den offiziellen Websites der Kurierdie
     <string name="pa_olympic_medals_description">Olympischen Medaillenspiegel prüfen</string>
     <string name="pa_operation_switch_summary">Neueste beliebte Widgets anzeigen</string>
     <string name="pa_operation_switch_title">Beliebte Angebote</string>
+    <string name="pa_pad_privacy_text">Startbildschirm-Widgets</string>
+    <string name="pa_pad_setting_privacy_logout_summary">Dienste für Startbildschirm-Widgets abbrechen</string>
+    <string name="pa_pad_setting_privacy_revoke_cta_summary">Widerrufen Sie Ihr Einverständnis mit der Datenschutzerklärung von Startbildschirm-Widgets</string>
     <string name="pa_picker_classic_widget">Android-Widgets</string>
     <string name="pa_picker_detail_add_maml_net_unavailable">Netzwerkverbindung nicht möglich. Netzwerkeinstellungen prüfen und erneut versuchen.</string>
     <string name="pa_picker_detail_add_to_home">Zum Startbildschirm hinzufügen</string>
@@ -361,6 +372,7 @@ Sie können die Expresslieferung auch auf den offiziellen Websites der Kurierdie
     <string name="pa_picker_detail_theme_app_cta_pre">"Um dieses Widget verwenden zu können, müssen Sie Themen zunächst eine Internetverbindung herstellen lassen. "</string>
     <string name="pa_picker_detail_vp2_indicator">Seite %1$d von %2$d ausgewählt</string>
     <string name="pa_picker_detail_wait_wifi_download_maml">Dieses Element wird über WLAN heruntergeladen</string>
+    <string name="pa_picker_empty">Widgets sind in dieser Version der App nicht verfügbar. \Bleiben Sie dran!</string>
     <string name="pa_picker_home_app_group_title">Apps mit Widgets</string>
     <string name="pa_picker_home_group_more">Alle</string>
     <string name="pa_picker_home_request_failed">Netzwerkfehler</string>
@@ -373,6 +385,7 @@ Sie können die Expresslieferung auch auf den offiziellen Websites der Kurierdie
     <string name="pa_picker_list_load_end">Keine Elemente mehr anzeigen</string>
     <string name="pa_picker_list_load_failed">Elemente laden nicht möglich. Tippen, um es erneut zu versuchen.</string>
     <string name="pa_picker_list_loading">Einen Moment…</string>
+    <string name="pa_picker_list_recommend">Empfohlen</string>
     <string name="pa_picker_loading">Einen Moment…</string>
     <string name="pa_picker_maml_list_activity_title">Widgets hinzufügen</string>
     <string name="pa_picker_permission_denied">"Infoassistent muss auf den Installationsstatus zugreifen,
@@ -391,6 +404,7 @@ um Widgets anzuzeigen."</string>
     <string name="pa_picker_toast_count_limit_warning">Erfolgreich hinzugefügt. Beachten Sie, dass zu viele Widgets auf dem Startbildschirm Ihr Gerät verlangsamen können.</string>
     <string name="pa_picker_toast_screen_cell_locked">Startbildschirm-Layout ist gesperrt. Widgets können nicht hinzugefügt werden.</string>
     <string name="pa_privacy_text">Datenschutz</string>
+    <string name="pa_read_storage_permission_description">Zur Anzeige des Hintergrunds Ihres Startbildschirms als Hintergrund für die App</string>
     <string name="pa_recommend_add_btn">Starten</string>
     <string name="pa_recommend_add_msg">Hinzufügen</string>
     <string name="pa_recommend_card">Empfehlungen</string>
@@ -452,6 +466,21 @@ um Widgets anzuzeigen."</string>
     <string name="pa_setting_privacy_revoke_positive">Verstanden</string>
     <string name="pa_setting_privacy_third_parties">Erklärung zur Weitergabe von Daten an Dritte</string>
     <string name="pa_setting_privacy_view_priv">Datenschutzerklärung anzeigen</string>
+    <string name="pa_shopping_page_product_action_bar_title">Alle Produkte</string>
+    <string name="pa_shopping_page_product_delete_bar_desc">Produkte löschen</string>
+    <string name="pa_shopping_page_product_delete_dialog_message">%d ausgewählte Elemente jetzt löschen?</string>
+    <string name="pa_shopping_page_product_delete_error">Ein Fehler ist aufgetreten. Netzwerkeinstellungen prüfen und erneut versuchen.</string>
+    <string name="pa_shopping_page_product_item_icon_tag">Empfohlen</string>
+    <string name="pa_shopping_page_product_jump_setting_error">Ein Fehler ist aufgetreten. Netzwerkeinstellungen prüfen und erneut versuchen.</string>
+    <string name="pa_shopping_page_setting_source_desc">Rabatte und Angebote für Produkte erhalten</string>
+    <string name="pa_shopping_page_setting_update_channel_failure">Ein Fehler ist aufgetreten. Netzwerkeinstellungen prüfen und erneut versuchen.</string>
+    <string name="pa_shopping_widget_empty_content_click_desc">Noch nichts da</string>
+    <string name="pa_shopping_widget_empty_content_desc">Noch nichts da</string>
+    <string name="pa_shopping_widget_full_bottom_desc">Alle Produkte</string>
+    <string name="pa_shopping_widget_full_title_desc">%s CNY bei diesen Produkten sparen</string>
+    <string name="pa_shopping_widget_no_cta_content_desc">Tippen, um die Erlaubnis zur Nutzung von Shopping zu erteilen</string>
+    <string name="pa_shopping_widget_no_network_content_desc">Netzwerkverbindung fehlgeschlagen</string>
+    <string name="pa_shopping_widget_no_setting_content_desc">Einstellungen</string>
     <string name="pa_shortcut_accessibility_description">"App vault provides shortcuts for selected third party apps. These shortcuts won't work if you turn the feature off."</string>
     <string name="pa_shortcut_accessibility_service">Infoassistent</string>
     <string name="pa_shortcut_add_limit">Sie können bis zu %1$d Verknüpfungen hinzufügen</string>
