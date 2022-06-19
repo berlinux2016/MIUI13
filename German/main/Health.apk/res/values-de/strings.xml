@@ -48,7 +48,7 @@
     <string name="add_body_weight_record_button">Gewichtsdaten hinzufügen</string>
     <string name="add_data_source">Datenquellen hinzufügen</string>
     <string name="add_data_source_description">"Von anderen Geräten generierte Gesundheitsdaten zu Xiaomi Health hinzufügen, um die Genauigkeit der Statistik zu erhöhen und mehr relevante Gesundheitsratschläge zu erhalten.\nXiaomi Health unterstützt Geräte, die Sie zuvor in Mi Home hinzugefügt haben. Wenn Sie das Gerät, das Sie hinzufügen möchten, nicht finden können, prüfen Sie, ob Sie es bereits in Mi Home hinzugefügt haben."</string>
-    <string name="add_data_source_login_and_open_sync">Melden Sie sich bei Ihrem Mi-Konto an und schalten Sie die Synchronisation mit der Cloud ein, um Datenquellen hinzuzufügen.</string>
+    <string name="add_data_source_login_and_open_sync">Melden Sie sich bei Ihrem Xiaomi-Konto an und schalten Sie die Synchronisation mit der Cloud ein, um Datenquellen hinzuzufügen.</string>
     <string name="add_data_source_open_sync">Schalten Sie die Synchronisation mit der Cloud ein, um Datenquellen hinzuzufügen.</string>
     <string name="add_data_source_process">Wie man eine Datenquelle hinzufügt</string>
     <string name="add_data_source_support_step">Dieses Gerät erzeugt keine Schrittzahldaten. Sie können versuchen, auf andere Datenquellen umzuschalten.</string>
@@ -320,15 +320,15 @@
     <string name="detection_wait_generate_report_detail">Später wiederkommen</string>
     <string name="device_data_manage">Geräte verwalten</string>
     <string name="device_data_sync">Gesundheitsdaten synchronisieren</string>
-    <string name="device_description">Dieses Gerät ist mit Mi-Konto %s verbunden. Wenn Sie das von Ihnen benötigte Gerät nicht finden, fügen Sie es erst in Mi Fit oder Xiaomi Wear hinzu.</string>
-    <string name="device_list_origin_description">Diese Geräte sind mit dem Mi-Konto %1$s verbunden. Wenn Sie das benötigte Gerät hier nicht finden, stellen Sie sicher, dass Sie es bereits in der entsprechenden App hinzugefügt haben.</string>
+    <string name="device_description">Dieses Gerät ist mit Xiaomi-Konto %s verbunden. Wenn Sie das von Ihnen benötigte Gerät nicht finden, fügen Sie es erst in Mi Fit oder Xiaomi Wear hinzu.</string>
+    <string name="device_list_origin_description">Diese Geräte sind mit dem Xiaomi-Konto %1$s verbunden. Wenn Sie das benötigte Gerät hier nicht finden, stellen Sie sicher, dass Sie es bereits in der entsprechenden App hinzugefügt haben.</string>
     <string name="device_off_sync_description">Auf diesem Gerät generierte Gesundheitsdaten werden nicht mit Xiaomi Health synchronisiert.</string>
     <string name="device_unbound_from_account">Dieses Gerät ist nicht mehr mit Ihrem Konto verbunden</string>
     <string name="diagnosis_log_send_failed">Diagnoseprotokoll senden fehlgeschlagen</string>
     <string name="diagnosis_log_sent_format">Diagnoseprotokoll wurde gesendet.\nID:%s\nBitte senden Sie dem Techniker diesen Code.</string>
     <string name="dialog_abandon">Verwerfen</string>
     <string name="dialog_abandon_sleep_edit">Änderungen verwerfen?</string>
-    <string name="dialog_account_perm_desc">Zum Zugriff auf Ihr Mi-Konto</string>
+    <string name="dialog_account_perm_desc">Zum Zugriff auf Ihr Xiaomi-Konto</string>
     <string name="dialog_agree">Zustimmen</string>
     <string name="dialog_agree_and_continue">Zustimmen</string>
     <string name="dialog_agree_permission">Erlauben</string>
@@ -665,7 +665,7 @@
     <string name="indoor_running">Laufband</string>
     <string name="input_body_weight">Gewichtsdaten eingeben, um eine Gesundheitsberatung zu erhalten</string>
     <string name="inquire_recover_data">Gesundheitsdaten jetzt wiederherstellen?</string>
-    <string name="inquire_recover_data_subtitle">Anscheinend sind Gesundheitsdaten mit Ihrem Mi-Konto (%1$s) verbunden. Jetzt die Synchronisation mit der Cloud einschalten und Daten wiederherstellen?</string>
+    <string name="inquire_recover_data_subtitle">Anscheinend sind Gesundheitsdaten mit Ihrem Xiaomi-Konto (%1$s) verbunden. Jetzt die Synchronisation mit der Cloud einschalten und Daten wiederherstellen?</string>
     <string name="instructions_provider">Verfügbare Anweisungen von Miao Health</string>
     <string name="insufficient">Zu wenig ☹️!</string>
     <string name="jump_freq">Sprungfrequenz</string>
@@ -954,7 +954,7 @@
     <string name="not_up_to_standard">Unterhalb der Norm</string>
     <string name="oar_time">Fahrzeit</string>
     <string name="oauth_account_failed">Kontoinformationen abrufen nicht möglich</string>
-    <string name="oauth_account_failed_desc">Um Datenquellen hinzuzufügen, muss Xiaomi health Ihr Mi-Konto verwenden. Melden Sie sich an, um fortzufahren.</string>
+    <string name="oauth_account_failed_desc">Um Datenquellen hinzuzufügen, muss Xiaomi health Ihr Xiaomi-Konto verwenden. Melden Sie sich an, um fortzufahren.</string>
     <string name="oauth_invalid">Sitzung ist abgelaufen. Erneut anmelden.</string>
     <string name="open">Einschalten</string>
     <string name="open_data_sync_description">Cloud-Synchronisation einschalten, um Gesundheitsdaten aus anderen Quellen zu synchronisieren</string>
@@ -973,7 +973,7 @@
     <string name="outdoor_riding">Radfahren draußen</string>
     <string name="outdoor_running">Laufen</string>
     <string name="outdoor_walking">Wandern</string>
-    <string name="passport_oauth_actionbar_title">Mi-Konto</string>
+    <string name="passport_oauth_actionbar_title">Xiaomi-Konto</string>
     <string name="passport_oauth_sucess_tip">Erfolgreich autorisiert</string>
     <string name="password_toggle_content_description">Passwort anzeigen</string>
     <string name="per_count_minutes1">%d SPM</string>
@@ -1633,8 +1633,8 @@
     <string name="tb_stand_wm_column_click">%1$s, Stehen %2$d, %3$s</string>
     <string name="tb_step_widget" formatted="false">Heute %1$s | Fortschritt: %2$d%</string>
     <string name="tb_unmultiple_selecte_all">Alles abwählen</string>
-    <string name="tb_user_account_signed">Mi-Konto: %1$s</string>
-    <string name="tb_user_account_unsigned">Tippen, um sich mit dem Mi-Konto anzumelden</string>
+    <string name="tb_user_account_signed">Xiaomi-Konto: %1$s</string>
+    <string name="tb_user_account_unsigned">Tippen, um sich mit dem Xiaomi-Konto anzumelden</string>
     <string name="tb_user_sleep_card_info">Tägliches Schlafziel: %1$s</string>
     <string name="tb_user_sleep_target_btn">Schlafziel ändern</string>
     <string name="tb_user_step_card_info">Tägliches Ziel: %1$s, über %2$s oder %3$s</string>

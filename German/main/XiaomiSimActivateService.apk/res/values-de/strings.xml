@@ -27,9 +27,9 @@
     <string name="activate_feature_live_talk">Aufladepaket</string>
     <string name="activate_feature_mms_sync">SMS synchronisieren</string>
     <string name="activate_feature_mx_and_voip">Mi Message und Voice</string>
-    <string name="activate_feature_register_xiaomi_account">Mi-Konto einrichten</string>
+    <string name="activate_feature_register_xiaomi_account">Xiaomi-Konto einrichten</string>
     <string name="activate_feature_remote_assist">Fernassistent</string>
-    <string name="activate_feature_verify_mx_token">Mi-Konto-Prüfung</string>
+    <string name="activate_feature_verify_mx_token">Xiaomi-Konto-Prüfung</string>
     <string name="activate_history_canceled_overview">Aktivierung der SIM-Karte wurde abgebrochen. Aktivierung wird mit \"%1$s\" ausgelöst.</string>
     <string name="activate_history_cancelled">Abgebrochen</string>
     <string name="activate_history_multisim_canceled_overview">Aktivierung der SIM-Karte %2$d wurde abgebrochen. Aktivierung wird mit \"%1$s\" ausgelöst.</string>
@@ -45,8 +45,8 @@
     <string name="activate_phone_failed_notif_title">SIM-Karte wurde nicht aktiviert</string>
     <string name="activate_phone_failed_notif_title_msim">SIM-Karte %d wurde nicht aktiviert</string>
     <string name="activate_phone_failed_notif_title_sim">\"%2$s\" konnte mit SIM %1$d nicht aktiviert</string>
-    <string name="activate_phone_register_xiaomi_account_success_notif_title_sim">Mi-Konto mit SIM %d erfolgreich erstellt</string>
-    <string name="activate_phone_registered_xiaomi_account_failed_notif_title_sim">Mi-Konto wurde nicht mit SIM %d erstellt</string>
+    <string name="activate_phone_register_xiaomi_account_success_notif_title_sim">Xiaomi-Konto mit SIM %d erfolgreich erstellt</string>
+    <string name="activate_phone_registered_xiaomi_account_failed_notif_title_sim">Xiaomi-Konto wurde nicht mit SIM %d erstellt</string>
     <string name="activate_phone_server_failed_notif_title">\"%s\" wurde nicht aktiviert</string>
     <string name="activate_phone_server_success_notif_title">\"%s\" erfolgreich aktiviert</string>
     <string name="activate_phone_success_notif_title">SIM-Karte aktiviert</string>
@@ -86,7 +86,7 @@ Geben Sie die zugehörige Rufnummer ein, um %s zu reaktivieren."</string>
     <string name="activate_popup_desc_intl_sim_card">Zum Aktivieren von %s wird eine internationale SMS verschickt. Abrechnung erfolgt über Tarif Ihres Mobilfunkanbieters.</string>
     <string name="activate_popup_desc_intl_sim_card_msg">Um %2$s zu aktivieren, wird/werden %1$d internationale SMS gesendet. Ihr Anbieter wird Ihnen diese Nachricht/en berechnen.</string>
     <string name="activate_popup_desc_intl_sim_card_msg_with_charge_hint">Um \"%2$s\" zu aktivieren, wird &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>internationale kostenpflichtige SMS&lt;/b>gesendet. Ihr Netzbetreiber wird Ihnen diese Nachricht berechnen.</string>
-    <string name="activate_popup_desc_mi_account_user_manual">%1$s. <Data>Bei Fragen wenden Sie sich an das &lt;a href=https://static.account.xiaomi.com/html/faq/de_DE/faqList.html>Mi-Konto Benutzerhandbuch&lt;/a>.</Data></string>
+    <string name="activate_popup_desc_mi_account_user_manual">%1$s. <Data>Bei Fragen wenden Sie sich an das &lt;a href=https://static.account.xiaomi.com/html/faq/de_DE/faqList.html>Xiaomi-Konto Benutzerhandbuch&lt;/a>.</Data></string>
     <string name="activate_popup_desc_mixed_sim_cards">Zum Aktivieren von %s werden 2 SMS (nationale und internationale) verschickt. Abrechnung erfolgt über Tarif Ihres Mobilfunkanbieters.</string>
     <string name="activate_popup_desc_mixed_sim_cards_msg">Um %3$s zu aktivieren, wird/werden %1$d reguläre und %2$d internationale SMS verschickt. Ihr Anbieter wird Ihnen diese Nachricht/en berechnen.</string>
     <string name="activate_popup_desc_mixed_sim_cards_msg_with_charge_hint">Um \"%3$s\" zu aktivieren, werden &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>inländische kostenpflichtige SMS&lt;/b> und &lt;xliff: g id=number_sms refersto=1>%2$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>international kostenpflichtige SMS&lt;/b> gesendet. Ihr Anbieter wird Ihnen diese Nachrichten berechnen.</string>
@@ -121,16 +121,16 @@ Geben Sie die zugehörige Rufnummer ein, um %s zu reaktivieren."</string>
     <string name="activate_popup_title_failed_server">Aktivierung fehlgeschlagen</string>
     <string name="activate_popup_title_manual">%s aktivieren</string>
     <string name="activate_popup_title_new_sim_card">%s reaktivieren</string>
-    <string name="activate_popup_title_register_account">Mi-Konto erstellen</string>
+    <string name="activate_popup_title_register_account">Xiaomi-Konto erstellen</string>
     <string name="activate_progress_status_title">\"%s\" aktivieren…</string>
-    <string name="activate_registered_xiaomi_account_failed_notif_title">Mi-Konto wurde nicht erstellt</string>
-    <string name="activate_registered_xiaomi_account_success_notif_title">Mi-Konto wurde erfolgreich erstellt</string>
+    <string name="activate_registered_xiaomi_account_failed_notif_title">Xiaomi-Konto wurde nicht erstellt</string>
+    <string name="activate_registered_xiaomi_account_success_notif_title">Xiaomi-Konto wurde erfolgreich erstellt</string>
     <string name="activate_status_desc_acquire_phone_number">Rufnummer prüfen…</string>
     <string name="activate_status_desc_acquire_phone_number_server_error">Bei Abfrage der Rufnummer ist ein Serverfehler aufgetreten</string>
     <string name="activate_status_desc_acquire_phone_number_server_no_info">Rufnummer wurde nicht abgerufen</string>
     <string name="activate_status_desc_acquire_phone_number_server_no_info_tip">Rufnummer wurde nicht verifiziert. Stellen Sie sicher, dass SIM %d richtig funktioniert und versuchen Sie es erneut.</string>
     <string name="activate_status_desc_acquire_phone_number_server_no_info_tip_one_sim">Rufnummer wurde nicht geprüft. Darauf achten, dass die SIM-Karte richtig funktioniert und erneut versuchen.</string>
-    <string name="activate_status_desc_checking_xiaomi_account">Mi-Konto prüfen…</string>
+    <string name="activate_status_desc_checking_xiaomi_account">Xiaomi-Konto prüfen…</string>
     <string name="activate_status_desc_checking_xiaomi_account_server_error">Bei der Prüfung des Mi-Kontos ist ein Serverfehler aufgetreten</string>
     <string name="activate_status_desc_completed_with_sms_sent">SMS zur Aktivierung der SIM-Karte gesendet</string>
     <string name="activate_status_desc_completed_with_sms_sent_for_activate_server">Zur Aktivierung dieses Dienstes wurde/n %d reguläre SMS verschickt.</string>
@@ -145,7 +145,7 @@ Geben Sie die zugehörige Rufnummer ein, um %s zu reaktivieren."</string>
     <string name="activate_status_desc_query_activation_server_info">Info abrufen…</string>
     <string name="activate_status_desc_registering_sim_account">SIM-Karte mit Ihrem Konto verknüpfen</string>
     <string name="activate_status_desc_registering_sim_account_server_error">Bei der Registrierung der SIM-Karte ist ein Serverfehler aufgetreten</string>
-    <string name="activate_status_desc_registering_xiaomi_account">Mi-Konto registrieren…</string>
+    <string name="activate_status_desc_registering_xiaomi_account">Xiaomi-Konto registrieren…</string>
     <string name="activate_status_desc_registering_xiaomi_account_server_error">Beim Erstellen des Mi-Kontos ist ein Serverfehler aufgetreten</string>
     <string name="activate_status_desc_request_activation_sms">Aktivierungs-SMS angefordern…</string>
     <string name="activate_status_desc_request_activation_sms_server_error">Bei der Anforderung einer Aktivierungs-SMS ist ein Serverfehler aufgetreten</string>
@@ -160,8 +160,8 @@ Geben Sie die zugehörige Rufnummer ein, um %s zu reaktivieren."</string>
     <string name="activate_status_title_activating">SIM-Karte aktivieren…</string>
     <string name="activate_status_title_activating_msim">SIM-Karte %d aktivieren…</string>
     <string name="activate_status_title_activating_sim">\"%2$s\" mit SIM %1$d aktivieren…</string>
-    <string name="activate_status_title_registering_xiaomi_account">Mi-Konto erstellen…</string>
-    <string name="activate_status_title_registering_xiaomi_account_sim">Mi-Konto mit SIM %d erstellen…</string>
+    <string name="activate_status_title_registering_xiaomi_account">Xiaomi-Konto erstellen…</string>
+    <string name="activate_status_title_registering_xiaomi_account_sim">Xiaomi-Konto mit SIM %d erstellen…</string>
     <string name="afternoon">Nachmittag</string>
     <string name="agree">Erlauben</string>
     <string name="app_name">Xiaomi SIM-Aktivierungsdienst</string>
@@ -186,7 +186,7 @@ Geben Sie die zugehörige Rufnummer ein, um %s zu reaktivieren."</string>
     <string name="error_sim_not_in_service_tip_one_sim">Netzwerkverbindung nicht möglich. Darauf achten, dass die SIM-Karte korrekt funktioniert und erneut versuchen.</string>
     <string name="evening">Nachmittag</string>
     <string name="explain_activate_feature_server_title">\"%s\" aktivieren</string>
-    <string name="explain_activate_register_xiaomi_account_title">Mi-Konto erstellen</string>
+    <string name="explain_activate_register_xiaomi_account_title">Xiaomi-Konto erstellen</string>
     <string name="explain_activate_send_sms_permission_msg">Um %s zu aktivieren, benötigt Ihr Gerät die Berechtigung zum Senden von Aktivierungs-SMS. Diese Nachricht wird Ihnen von Ihrem Anbieter berechnet.</string>
     <string name="explain_send_sms_permission_button">Verifizieren</string>
     <string name="explain_send_sms_permission_msg">Zum Aktivieren von %s wird Xiaomi-Service eine SMS senden, um Ihre Rufnummer zu verifizieren. Kosten bei Ihrem Mobilfunkanbieter fallen dafür an.</string>
@@ -296,7 +296,7 @@ Geben Sie die zugehörige Rufnummer ein, um %s zu reaktivieren."</string>
     <string name="sim_activated_failed_msg">Dienst wurde nicht aktiviert. Tippen, um es erneut zu versuchen.</string>
     <string name="sim_unactivated_feature_title">\"%s\" wurde nicht aktiviert</string>
     <string name="sim_unactivated_msg">Dieser Dienst ist nicht aktiviert. Tippen, um es erneut zu versuchen.</string>
-    <string name="sim_unactivated_register_xiaomi_account_feature_title">Mi-Konto wurde nicht erstellt</string>
+    <string name="sim_unactivated_register_xiaomi_account_feature_title">Xiaomi-Konto wurde nicht erstellt</string>
     <string name="sim_unactivated_title">SIM-Karte ist nicht aktiviert</string>
     <string name="solar_term_autumn_begins">Herbstanfang</string>
     <string name="solar_term_autumn_equinox">Herbst-Tagundnachtgleiche</string>

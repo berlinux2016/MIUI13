@@ -166,10 +166,10 @@ Themen erkennt, welche Apps Sie verwenden und zeigt transparente Hintergründe i
     <string name="common_signin_button_text">Anmelden</string>
     <string name="common_signin_button_text_long">Anmelden mit Google</string>
     <string name="common_skip">Überspringen</string>
-    <string name="community_community_message_trigger_summary">Benachrichtigungen über Antworten, Likes und Xiaomi Community Statusaktualisierungen mittels Ihrer Mi-Konto-ID erhalten</string>
+    <string name="community_community_message_trigger_summary">Benachrichtigungen über Antworten, Likes und Xiaomi Community Statusaktualisierungen mittels Ihrer Xiaomi-Konto-ID erhalten</string>
     <string name="community_community_message_trigger_title">Über Aktivität benachrichtigen</string>
     <string name="community_cta_dialog_cancel">Nein danke</string>
-    <string name="community_cta_dialog_des">Drittanbieter-Themen unterstützen jetzt das Xiaomi Community-Widget. Themen den Zugriff auf Ihre Mi-Konto-ID und den mit dem Konto verbundenen Xiaomi Community-Status erlauben, um sie hier anzuzeigen.</string>
+    <string name="community_cta_dialog_des">Drittanbieter-Themen unterstützen jetzt das Xiaomi Community-Widget. Themen den Zugriff auf Ihre Xiaomi-Konto-ID und den mit dem Konto verbundenen Xiaomi Community-Status erlauben, um sie hier anzuzeigen.</string>
     <string name="community_cta_dialog_ok">Erlauben</string>
     <string name="community_cta_dialog_title">Berechtigungen erforderlich</string>
     <string name="community_entrance_summary">Themenbezogenen Inhalt in Xiaomi Community finden. Diese Funktion wird durch ausgewählte Themen unterstützt.</string>
@@ -305,7 +305,7 @@ Themen erkennt, welche Apps Sie verwenden und zeigt transparente Hintergründe i
     <string name="evening"></string>
     <string name="exchange_alert">Sie können Codes während unserer Veranstaltungen erhalten und sie hier einlösen</string>
     <string name="exchange_code_dialog_title">Achtung</string>
-    <string name="exchange_code_not_match_account_dialog_content">Dieser Code wurde bereits von einem anderen Mi-Konto eingelöst. Mit diesem Mi-Konto anmelden und erneut versuchen.</string>
+    <string name="exchange_code_not_match_account_dialog_content">Dieser Code wurde bereits von einem anderen Xiaomi-Konto eingelöst. Mit diesem Xiaomi-Konto anmelden und erneut versuchen.</string>
     <string name="exit_extreme_mode_dialog_agree">Zustimmen</string>
     <string name="exit_extreme_mode_dialog_cancel">Abbrechen</string>
     <string name="exit_extreme_mode_dialog_title">Extremmodus ausschalten</string>
@@ -439,7 +439,7 @@ Themen erkennt, welche Apps Sie verwenden und zeigt transparente Hintergründe i
     <string name="gift_owned">Gekauft</string>
     <string name="gift_present">Geben</string>
     <string name="gift_present_dlg_anonymous">Anonymes Geschenk</string>
-    <string name="gift_present_dlg_input_hint">Mi-Konto ID/Telefon</string>
+    <string name="gift_present_dlg_input_hint">Xiaomi-Konto ID/Telefon</string>
     <string name="gift_present_dlg_no_fee">Für das Versenden von Geschenken werden keine Kosten von Ihrem Anbieter fällig</string>
     <string name="gift_present_dlg_present_max_limit">Thema kann nicht mehr als %1$s-mal verschenkt werden</string>
     <string name="gift_present_dlg_share">Code erstellen und Geschenk teilen</string>
@@ -586,13 +586,13 @@ d. MMMM"</string>
 dd.MM."</string>
     <string name="miui_lock_screen_large_date_12">"EEE
 dd.MM."</string>
-    <string name="miuishare_account_activate_confirmation">Mi-Konto aktivieren</string>
+    <string name="miuishare_account_activate_confirmation">Xiaomi-Konto aktivieren</string>
     <string name="miuishare_account_activate_ok">Aktivieren</string>
     <string name="miuishare_account_login_cancel">Abbrechen</string>
-    <string name="miuishare_account_login_confirmation">Am Mi-Konto anmelden</string>
+    <string name="miuishare_account_login_confirmation">Am Xiaomi-Konto anmelden</string>
     <string name="miuishare_account_login_ok">Anmelden</string>
-    <string name="miuishare_account_need_activate">Weitergabe an Weibo erfordert das Weibo-Konto, das Ihrem Mi-Konto zugeordnet ist. Aktivieren Sie Ihr Mi-Konto, um fortzufahren.</string>
-    <string name="miuishare_account_need_login">Weitergabe an Weibo erfordert das Weibo-Konto, das Ihrem Mi-Konto zugeordnet ist. Melden Sie sich bei Ihrem Mi-Konto an, um fortzufahren.</string>
+    <string name="miuishare_account_need_activate">Weitergabe an Weibo erfordert das Weibo-Konto, das Ihrem Xiaomi-Konto zugeordnet ist. Aktivieren Sie Ihr Xiaomi-Konto, um fortzufahren.</string>
+    <string name="miuishare_account_need_login">Weitergabe an Weibo erfordert das Weibo-Konto, das Ihrem Xiaomi-Konto zugeordnet ist. Melden Sie sich bei Ihrem Xiaomi-Konto an, um fortzufahren.</string>
     <string name="miuishare_app_name">MIUI-Share</string>
     <string name="miuishare_mini_program_title">Seht euch den Hintergrund an, den ich gefunden habe!</string>
     <string name="miuishare_no_network">Netzwerkverbindung nicht möglich</string>
@@ -761,7 +761,7 @@ Auf Bildschirm tippen, um neu zu laden."</string>
     <string name="pad_fold_exit_wallpaper_warning_content">"Sie können die folgenden Aktionen nicht mehr durchführen, wenn Sie sich abmelden:
 Anzeigen und Verwenden der Elemente, die Sie gekauft oder zu den Favoriten hinzugefügt haben."</string>
     <string name="pad_fold_exit_wallpaper_warning_title">Von Hintergrund &amp; Personalisierung abmelden?</string>
-    <string name="pad_fold_log_in_theme_detail"><Data>Ich habe die &lt;font color=\"#37A5FF\">&lt;/color>&lt;a href=\"%1$s\">Nutzervereinbarung&lt;/a>&lt;/font> und &lt;font color=\"#37A5FF\">&lt;/color>&lt;a href=\"%2$s\">Datenschutzerklärung&lt;/a>&lt; /font> von Hintergrund &amp; Personalisierung sowie die &lt;font color=\"#37A5FF\">&lt;a href=\"%3$s\">Nutzervereinbarung&lt;/a>&lt;/font>&lt;font color=\"#37A5FF\"> und &lt;a href=\"%4$s\">Datenschutzerklärung&lt;/a>&lt;/font> von Mi-Konto gelesen und akzeptiert (für die Anmeldung mit dem Systemkonto).</Data></string>
+    <string name="pad_fold_log_in_theme_detail"><Data>Ich habe die &lt;font color=\"#37A5FF\">&lt;/color>&lt;a href=\"%1$s\">Nutzervereinbarung&lt;/a>&lt;/font> und &lt;font color=\"#37A5FF\">&lt;/color>&lt;a href=\"%2$s\">Datenschutzerklärung&lt;/a>&lt; /font> von Hintergrund &amp; Personalisierung sowie die &lt;font color=\"#37A5FF\">&lt;a href=\"%3$s\">Nutzervereinbarung&lt;/a>&lt;/font>&lt;font color=\"#37A5FF\"> und &lt;a href=\"%4$s\">Datenschutzerklärung&lt;/a>&lt;/font> von Xiaomi-Konto gelesen und akzeptiert (für die Anmeldung mit dem Systemkonto).</Data></string>
     <string name="pad_fold_log_in_wallpaper">Bei Hintergrund &amp; Personalisierung anmelden</string>
     <string name="pad_fold_no_permission">Speicherberechtigungen erforderlich</string>
     <string name="pad_fold_no_permission_detail">Um die Personalisierungseinstellungen zu ändern und heruntergeladene Elemente zu speichern, muss diese Funktion zuerst auf den Speicher zugreifen können.</string>
@@ -790,7 +790,7 @@ Anzeigen und Verwenden der Elemente, die Sie gekauft oder zu den Favoriten hinzu
 2. Kommentare und Likes hinzufügen, anderen Personen folgen und mit ihnen interagieren."</string>
     <string name="phone_exit_theme_warning_title">Von Themen abmelden?</string>
     <string name="phone_log_in_theme">Bei Themen anmelden</string>
-    <string name="phone_log_in_theme_detail"><Data>Ich habe die &lt;font color=\"#37A5FF\">&lt;/color>&lt;a href=\"%1$s\">Nutzervereinbarung&lt;/a>&lt;/font> und &lt;font color=\"#37A5FF\">&lt;/color>&lt;a href=\"%2$s\">Datenschutzerklärung&lt;/a>&lt; /font> von Themen sowie die &lt;font color=\"#37A5FF\">&lt;a href=\"%3$s\">Nutzervereinbarung&lt;/a>&lt;/font>&lt;font color=\"#37A5FF\"> und &lt;a href=\"%4$s\">Datenschutzerklärung&lt;/a>&lt;/font> von Mi-Konto gelesen und akzeptiert (für die Anmeldung mit dem Systemkonto).</Data></string>
+    <string name="phone_log_in_theme_detail"><Data>Ich habe die &lt;font color=\"#37A5FF\">&lt;/color>&lt;a href=\"%1$s\">Nutzervereinbarung&lt;/a>&lt;/font> und &lt;font color=\"#37A5FF\">&lt;/color>&lt;a href=\"%2$s\">Datenschutzerklärung&lt;/a>&lt; /font> von Themen sowie die &lt;font color=\"#37A5FF\">&lt;a href=\"%3$s\">Nutzervereinbarung&lt;/a>&lt;/font>&lt;font color=\"#37A5FF\"> und &lt;a href=\"%4$s\">Datenschutzerklärung&lt;/a>&lt;/font> von Xiaomi-Konto gelesen und akzeptiert (für die Anmeldung mit dem Systemkonto).</Data></string>
     <string name="playing_ringtone">Abspielen</string>
     <string name="pref_lockscreen_magazine_summary">Ersetzen von Hintergründen durch Diashows aus verschiedenen Kategorien</string>
     <string name="pref_privacy_policy">Datenschutzerklärung</string>
@@ -878,8 +878,8 @@ Alle derzeit auf diesem Gerät verwendeten Personalisierungselemente. Die Standa
     <string name="privacy_phone_revoke_agree_detail_content_1">"1. Vergewissern Sie sich, dass Sie das Recht haben, Dienste zu kündigen, bevor Sie fortfahren.
 2. Der Widerruf Ihrer Zustimmung zur Datenschutzerklärung von Themen hat keinen Einfluss auf die normale Nutzung anderer Xiaomi-Produkte.
 3. Der Widerruf Ihrer Zustimmung ist eine unwiderrufliche Aktion. Sichern Sie alle wichtigen Daten, bevor Sie fortfahren, da sie ggf. endgültig gelöscht werden. Denken Sie daran, dass Sie Ihre Entscheidung nicht mehr revidieren können, sobald die Dienste gekündigt sind. Folgende Daten werden nach der Kündigung des Dienstes dauerhaft gelöscht oder anonymisiert (sofern nicht durch Gesetze und Vorschriften anders geregelt oder von Aufsichtsbehörden vorgeschrieben):"</string>
-    <string name="privacy_phone_revoke_agree_detail_content_2">"Alle Bestellungen (inkl. bezahlte Bestellungen), die Sie auf den Xiaomi-Geräten mit Ihrem Mi-Konto getätigt haben. Sie können die von Ihnen gekauften Elemente nicht mehr verwenden.
-Alle Daten über Ihre Likes, Kommentare, Bewertungen und Follower, die auf den Xiaomi-Geräten mit Ihrem Mi-Konto erstellt wurden.
+    <string name="privacy_phone_revoke_agree_detail_content_2">"Alle Bestellungen (inkl. bezahlte Bestellungen), die Sie auf den Xiaomi-Geräten mit Ihrem Xiaomi-Konto getätigt haben. Sie können die von Ihnen gekauften Elemente nicht mehr verwenden.
+Alle Daten über Ihre Likes, Kommentare, Bewertungen und Follower, die auf den Xiaomi-Geräten mit Ihrem Xiaomi-Konto erstellt wurden.
 Alle auf dieses Gerät heruntergeladenen Themen, Hintergründe, dynamischen Hintergründe, Schriftarten, Symbole und Klingeltöne.
 Alle Suchverläufe, Berechtigungseinstellungen, Einstellungen und zwischengespeicherten Elemente, die auf diesem Gerät erstellt wurden.
 Alle derzeit auf diesem Gerät verwendeten Personalisierungselemente. Die Standard-Personalisierungseinstellungen werden wiederhergestellt."</string>
@@ -896,8 +896,8 @@ Alle derzeit auf diesem Gerät verwendeten Personalisierungselemente. Die Standa
     <string name="privacy_remind_user_mode_content"><Data>Akzeptieren Sie unserer Datenschutzerklärung, um diese Funktion zu nutzen. Lesen Sie unsere &lt;font color=\"#37A5FF\">&lt;/color>&lt;a href=\"%1$s\">Datenschutzerklärung&lt;/a>&lt;/font>, um zu erfahren, wie wir die personenbezogenen Daten, die Sie uns bei der Nutzung von Themen zur Verfügung stellen, erfassen, verwenden, weitergeben, verarbeiten und speichern.</Data></string>
     <string name="privacy_remind_user_mode_title">Achtung</string>
     <string name="privacy_revoke_agree_content">Zustimmung widerrufen</string>
-    <string name="privacy_revoke_agree_content_1">1. Alle Bestellungen (inkl. bezahlte Bestellungen), die Sie auf den Xiaomi-Geräten mit Ihrem Mi-Konto getätigt haben. Sie können die von Ihnen gekauften Elemente nicht mehr verwenden.</string>
-    <string name="privacy_revoke_agree_content_2">2. Alle Daten über Ihre Likes, Kommentare, Bewertungen und Follower, die auf den Xiaomi-Geräten mit Ihrem Mi-Konto erstellt wurden.</string>
+    <string name="privacy_revoke_agree_content_1">1. Alle Bestellungen (inkl. bezahlte Bestellungen), die Sie auf den Xiaomi-Geräten mit Ihrem Xiaomi-Konto getätigt haben. Sie können die von Ihnen gekauften Elemente nicht mehr verwenden.</string>
+    <string name="privacy_revoke_agree_content_2">2. Alle Daten über Ihre Likes, Kommentare, Bewertungen und Follower, die auf den Xiaomi-Geräten mit Ihrem Xiaomi-Konto erstellt wurden.</string>
     <string name="privacy_revoke_agree_content_5">5. Alle derzeit auf diesem Gerät verwendeten Personalisierungselemente. Die Standard-Personalisierungseinstellungen werden wiederhergestellt.</string>
     <string name="privacy_revoke_agree_data_warning">Folgende Daten werden nach Widerruf der Einwilligung dauerhaft gelöscht oder anonymisiert (sofern nicht durch Gesetze und Vorschriften anders geregelt oder von Aufsichtsbehörden gefordert):</string>
     <string name="privacy_revoke_succeed">Zustimmung erfolgreich widerrufen</string>
@@ -909,8 +909,8 @@ Alle derzeit auf diesem Gerät verwendeten Personalisierungselemente. Die Standa
     <string name="private_pad_fold_revoke_agree_detail_content_1">"1. Vergewissern Sie sich, dass Sie das Recht haben, Ihre Zustimmung zu widerrufen, bevor Sie fortfahren.
 2. Der Widerruf Ihrer Zustimmung zur Datenschutzerklärung für Hintergrund &amp; Personalisierung hat keinen Einfluss auf die normale Nutzung anderer Xiaomi-Produkte.
 3. Der Widerruf der Zustimmung ist eine unwiderrufliche Aktion. Sichern Sie alle wichtigen Daten, bevor Sie fortfahren, da sie ggf. endgültig gelöscht werden. Denken Sie daran, dass Sie Ihre Entscheidung nicht mehr revidieren können, sobald Sie Ihre Einwilligung widerrufen haben. Folgende Daten werden nach dem Widerruf der Einwilligung dauerhaft gelöscht oder anonymisiert (sofern nicht durch Gesetze und Vorschriften anders geregelt oder von Aufsichtsbehörden gefordert):"</string>
-    <string name="private_pad_fold_revoke_agree_detail_content_2">"Alle Bestellungen (inkl. bezahlte Bestellungen), die Sie auf den Xiaomi-Geräten mit Ihrem Mi-Konto getätigt haben. Sie können die von Ihnen gekauften Elemente nicht mehr verwenden
-Alle Daten über Ihre Likes, Kommentare, Bewertungen und Follower, die auf den Xiaomi-Geräten mit Ihrem Mi-Konto erstellt wurden.
+    <string name="private_pad_fold_revoke_agree_detail_content_2">"Alle Bestellungen (inkl. bezahlte Bestellungen), die Sie auf den Xiaomi-Geräten mit Ihrem Xiaomi-Konto getätigt haben. Sie können die von Ihnen gekauften Elemente nicht mehr verwenden
+Alle Daten über Ihre Likes, Kommentare, Bewertungen und Follower, die auf den Xiaomi-Geräten mit Ihrem Xiaomi-Konto erstellt wurden.
 Alle Hintergründe, Schriftarten und Klingeltöne, die auf dieses Gerät heruntergeladen wurden.
 Alle Berechtigungseinstellungen, Einstellungen und zwischengespeicherten Elemente, die auf diesem Gerät erstellt wurden.
 Alle derzeit auf diesem Gerät verwendeten Personalisierungselemente. Die Standard-Personalisierungseinstellungen werden wiederhergestellt."</string>
@@ -930,7 +930,7 @@ Sie können diese Erlaubnis unter Einstellungen > Datenschutz erteilen."</string
     <string name="purchased_list_current">Optimierte Themen</string>
     <string name="purchased_list_format">%1$s gekauft</string>
     <string name="purchased_list_legacy">Alte Themen</string>
-    <string name="read_and_agree_account_privacy"><Data>Ich habe die Mi-Konto&lt;font color=\"#37A5FF\">&lt;a href=\"%3$s\">Nutzervereinbarung&lt;/a>&lt;/font> und &lt;font color=\"#37A5FF\">&lt;a href=\"%4$s\">Datenschutzerklärung&lt;/a>&lt;/font> gelesen und akzeptiert.</Data></string>
+    <string name="read_and_agree_account_privacy"><Data>Ich habe die Xiaomi-Konto&lt;font color=\"#37A5FF\">&lt;a href=\"%3$s\">Nutzervereinbarung&lt;/a>&lt;/font> und &lt;font color=\"#37A5FF\">&lt;a href=\"%4$s\">Datenschutzerklärung&lt;/a>&lt;/font> gelesen und akzeptiert.</Data></string>
     <string name="recently_used">Zuletzt verwendet</string>
     <string name="recommend_trigger">Personalisierte Empfehlungen</string>
     <string name="recommend_trigger_summary">Diese Option einschalten, um Empfehlungen basierend auf Ihren Präferenzen zu erhalten</string>
@@ -950,7 +950,7 @@ Sie können diese Erlaubnis unter Einstellungen > Datenschutz erteilen."</string
     <string name="resource_account_abnormal_state">Anmeldefehler. Später erneut versuchen.</string>
     <string name="resource_account_fail_to_add">Konto hinzufügen fehlgeschlagen</string>
     <string name="resource_account_login">Anmelden</string>
-    <string name="resource_account_login_before_action">Sie müssen sich zuerst an Ihrem Mi-Konto anmelden</string>
+    <string name="resource_account_login_before_action">Sie müssen sich zuerst an Ihrem Xiaomi-Konto anmelden</string>
     <string name="resource_account_login_title">Anmelden</string>
     <string name="resource_account_switch">Wechseln</string>
     <string name="resource_alarm_default">Wecker</string>
@@ -1308,7 +1308,7 @@ Sie können diese Erlaubnis unter Einstellungen > Datenschutz erteilen."</string
     <string name="super_wallpaper_setting_coordinate_title">Koordinaten</string>
     <string name="super_wallpaper_setting_view_height_title">Höhe</string>
     <string name="supersave_mode_toast_message">Diese Funktion ist nicht verfügbar, wenn Sie Ultra-Stromsparen verwenden. Ausschalten, um die Funktion zu nutzen.</string>
-    <string name="superwallpaper_has_bound_account_dialog_content">Dieser Hintergrund ist bereits mit einem anderen Mi-Konto verknüpft. Mite diesem Mi-Konto anmelden und erneut versuchen.</string>
+    <string name="superwallpaper_has_bound_account_dialog_content">Dieser Hintergrund ist bereits mit einem anderen Xiaomi-Konto verknüpft. Mite diesem Xiaomi-Konto anmelden und erneut versuchen.</string>
     <string name="support_theme_store_des">Gute Themen werden immer von talentierten Designern entworfen. Unsere App enthält eine kleine Anzahl an Werbung, mit der wir ihre Arbeit unterstützen.</string>
     <string name="support_theme_store_supported">Danke für Ihre Unterstützung!</string>
     <string name="support_theme_store_title">Unterstützen Sie unsere Designer</string>
@@ -1442,7 +1442,7 @@ Sie können diese Erlaubnis unter Einstellungen > Datenschutz erteilen."</string
     <string name="theme_is_external_priority_storage_summary">Themen-App startet nach jeder Änderung neu</string>
     <string name="theme_log_out">Abmelden</string>
     <string name="theme_multiple_button_title_customize">Anpassen</string>
-    <string name="theme_need_login_dialog_content">Beim Mi-Konto anmelden, um fortzufahren</string>
+    <string name="theme_need_login_dialog_content">Beim Xiaomi-Konto anmelden, um fortzufahren</string>
     <string name="theme_no">Nein</string>
     <string name="theme_not_include_module_desc">Dieses Thema enthält die folgenden Elemente nicht: %s</string>
     <string name="theme_on_the_phone_alert">Während Anrufen ist Spielen nicht möglich</string>
@@ -1493,7 +1493,7 @@ Sie können diese Erlaubnis unter Einstellungen > Datenschutz erteilen."</string
     <string name="title_system_audio_resource">Systemklingeltöne</string>
     <string name="title_system_resource">Lokal</string>
     <string name="title_system_wallpaper_resource">Systemhintergründe</string>
-    <string name="to_activate_the_account">Mi-Konto jetzt aktivieren</string>
+    <string name="to_activate_the_account">Xiaomi-Konto jetzt aktivieren</string>
     <string name="toast_both_all_apply_failured">Wurde nicht auf den Start- oder Sperrbildschirm angewendet</string>
     <string name="toast_both_all_apply_success">Erfolgreich auf Start- und Sperrbildschirm angewendet</string>
     <string name="toast_home_apply_failured">Wurde nicht auf den Startbildschirm angewendet</string>
