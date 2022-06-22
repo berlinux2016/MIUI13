@@ -69,10 +69,18 @@
     <string name="error_ap_in_use">Dateien an andere Geräte senden nicht möglich, wenn Hotspot eingeschaltet ist</string>
     <string name="error_ap_or_screen_already_hosting">Elemente während der Übertragung oder der Nutzung eines tragbaren Hotspots an andere Geräte senden nicht möglich.</string>
     <string name="error_ble_connect_failure">Bluetooth ist auf der Empfängerseite nicht verfügbar. Bitte lassen Sie den Bildschirm auf der Empfängerseite zuerst leuchten.</string>
+    <string name="error_ble_connect_timeout">Bluetooth-Verbindung nicht möglich. Bluetooth-Verbindung auf beiden Geräten wiederherstellen und erneut versuchen.</string>
     <string name="error_device_lost">Anscheinend ist das andere Gerät außer Reichweite. Etwas warten und erneut versuchen.</string>
     <string name="error_has_occurred">Ein Fehler ist aufgetreten</string>
     <string name="error_mirror_working">Elemente können bei Bildschirm teilen nicht freigegeben werden</string>
     <string name="error_msg_network_error">Ein Netzwerkfehler ist aufgetreten. Erneut versuchen.</string>
+    <string name="error_msg_network_error_china">Netzwerkverbindung nicht möglich. WLAN- und Bluetooth-Verbindungen beider Geräte prüfen.</string>
+    <string name="error_msg_wlan_error">Verbinden nicht möglich. Neu mit WLAN verbinden und erneut versuchen.</string>
+    <string name="error_msg_wlan_error_china">Verbinden nicht möglich. Neu mit WLAN verbinden und erneut versuchen.</string>
+    <string name="error_p2p_create_group_failure">Verbinden nicht möglich. Beide Geräte neu mit WLAN verbinden und erneut versuchen.</string>
+    <string name="error_p2p_create_group_failure_china">Verbinden nicht möglich. Beide Geräte neu mit WLAN verbinden und erneut versuchen.</string>
+    <string name="error_p2p_recv_connect_timeout">Verbinden nicht möglich. Beide Geräte neu mit WLAN verbinden und erneut versuchen.</string>
+    <string name="error_p2p_recv_connect_timeout_china">Verbinden nicht möglich. Beide Geräte neu mit WLAN verbinden und erneut versuchen.</string>
     <string name="error_permission_denied">Um diese Funktion nutzen zu können, Mi Share alle erforderlichen Berechtigungen in den Einstellungen erteilen.</string>
     <string name="error_receive_file_cannot_read">Datei wurde nicht empfangen</string>
     <string name="error_receive_file_changed">Nichts empfangen. Das Element hat sich geändert.</string>
@@ -90,7 +98,7 @@
     <string name="error_send_file_no_enough_space">Senden fehlgeschlagen. Nicht genügend Speicherplatz auf dem anderen Gerät.</string>
     <string name="error_send_file_not_found">Datei wurde nicht gefunden. Erneut versuchen.</string>
     <string name="error_send_file_service_disabled">Ausgehenden Transfer abgebrochen</string>
-    <string name="error_send_transfer_error">Elemente senden fehlgeschlagen. Erneut versuchen.</string>
+    <string name="error_send_transfer_error">Elemente senden fehlgeschlagen. Einen Moment warten und erneut versuchen.</string>
     <string name="error_send_transfer_pc_error">Übertragung ist zeitlich begrenzt. File-Sharing-App auf Ihrem Computer aktualisieren und erneut versuchen.</string>
     <string name="error_slave_wifi_in_use">Mi Share wird nicht funktionieren, wenn Dual-WLAN eingeschaltet ist. Dual-WLAN in den Einstellungen ausschalten und erneut versuchen.</string>
     <string name="error_slave_wifi_in_use_china">Mi Share wird nicht funktionieren, wenn Dual-WLAN eingeschaltet ist. Dual-WLAN in den Einstellungen ausschalten und erneut versuchen.</string>
@@ -341,6 +349,8 @@ Bevor Sie Mi Share nutzen können, müssen Sie die folgenden Berechtigungen erte
     <string name="time_picker_dialog_title">Zeit einstellen</string>
     <string name="time_picker_label_hour">Std</string>
     <string name="time_picker_label_minute">Min</string>
+    <string name="tips_p2p_support_use5g">Für beste Ergebnisse sollten Sie ein 5-GHz-WLAN verwenden.</string>
+    <string name="tips_p2p_support_use5g_china">Für beste Ergebnisse sollten Sie ein 5-GHz-WLAN verwenden.</string>
     <string name="tips_prompt_enable_midrop">Mi Share</string>
     <string name="to_feedback">Melden</string>
     <string name="today">Heute</string>
@@ -374,7 +384,8 @@ Bevor Sie Mi Share nutzen können, müssen Sie die folgenden Berechtigungen erte
     <string name="vivo">Vivo</string>
     <string name="vivo_phone">Vivo Telefon</string>
     <string name="wait_receive_file">Auf Empfang warten…</string>
-    <string name="wait_remote_receive_tips">Warten…</string>
+    <string name="wait_remote_receive_tips">Stellen Sie sicher, dass die Bildschirme beider Geräte eingeschaltet sind und dass WLAN und Bluetooth aktiviert sind.</string>
+    <string name="wait_remote_receive_tips_china">Stellen Sie sicher, dass die Bildschirme beider Geräte eingeschaltet sind und dass WLAN und Bluetooth aktiviert sind.</string>
     <string name="wednesday">Mittwoch</string>
     <string name="wednesday_short">Mi</string>
     <string name="wednesday_shortest">M</string>
