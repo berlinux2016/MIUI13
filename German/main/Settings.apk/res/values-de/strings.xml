@@ -11819,7 +11819,7 @@ Delta Updategröße: %2$s"</string>
     <string name="zen_mode_duration_summary_always_prompt">Jedes Mal fragen</string>
     <string name="zen_mode_duration_summary_forever">Bis Sie ausschalten</string>
     <string name="zen_mode_duration_summary_time_hours">{count, plural, =1 {1 Stunde} other {# Stunden} }</string>
-    <string name="zen_mode_duration_summary_time_minutes">%d Minuten</string>
+    <string name="zen_mode_duration_summary_time_minutes">{count, plural, =1 {1 Minute} other {# Minuten} }</string>
     <string name="zen_mode_effected_always">Immer</string>
     <string name="zen_mode_enable_dialog_turn_on">Einschalten</string>
     <string name="zen_mode_end_time">Ablaufzeit</string>
@@ -11875,7 +11875,7 @@ Delta Updategröße: %2$s"</string>
     <string name="zen_mode_other_options">Weitere Optionen</string>
     <string name="zen_mode_other_sounds_list_count">%d weitere</string>
     <string name="zen_mode_other_sounds_none">Keiner kann unterbrechen</string>
-    <string name="zen_mode_other_sounds_summary">{count, plural, offset:2 =0 {Keiner kann unterbrechen} =1 {{sound_category_1} kann unterbrechen} =2 {{sound_category_1} und {sound_category_2} können unterbrechen} =3 {{sound_category_1}, {sound_category_2}, und {sound_category_3} können unterbrechen} other {{sound_category_1}, {sound_category_2}, und # weitere können unterbrechen} }</string>
+    <string name="zen_mode_other_sounds_summary">{count, plural, offset:2 =0 {Nichts kann unterbrechen} =1 {{sound_category_1} kann unterbrechen} =2 {{sound_category_1} und {sound_category_2} können unterbrechen} =3 {{sound_category_1}, {sound_category_2}, und {sound_category_3} können unterbrechen} other {{sound_category_1}, {sound_category_2}, und # weitere können unterbrechen} }</string>
     <string name="zen_mode_people_all">Alle Personen können unterbrechen</string>
     <string name="zen_mode_people_calls_messages_section_title">Wer kann unterbrechen</string>
     <string name="zen_mode_people_none">Keiner kann unterbrechen</string>
