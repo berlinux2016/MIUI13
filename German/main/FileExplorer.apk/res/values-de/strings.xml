@@ -399,6 +399,8 @@
     <string name="internal_storage">Interner Speicher</string>
     <string name="is_playing">Abgespielen…</string>
     <string name="just_now">Gerade eben</string>
+    <string name="lack_perm_msg">Dateimanager benötigt die folgenden Berechtigungen, um normal zu funktionieren: &lt;b>%s&lt;/b></string>
+    <string name="lack_perm_title">Berechtigungen erforderlich</string>
     <string name="launcher_icon_add_description">Starbildschirm-Verknüpfung hinzufügen</string>
     <string name="launcher_icon_remove_description_content">Dateimanager ist eine System-App. Nach dem Löschen der Startbildschirm-Verknüpfung können Sie keine Dateien mehr auf Ihrem Gerät verwalten.</string>
     <string name="launcher_icon_remove_description_title">\"Dateimanager\" vom Startbildschirm entfernen?</string>
@@ -430,6 +432,8 @@
     <string name="login_failed_tip">Anmeldung fehlgeschlagen, versuchen Sie es später noch mal</string>
     <string name="login_success_tip">Erfolgreich angemeldet</string>
     <string name="look_detail">Details anzeigen</string>
+    <string name="main_button_continue">Einstellungen</string>
+    <string name="main_button_quit">Abbrechen</string>
     <string name="make_private">Als privat markieren</string>
     <string name="make_private_msg_1">Diese Datei als privat markieren?</string>
     <string name="make_private_msg_2">Diese Dateien als privat markieren?</string>
@@ -452,6 +456,7 @@
     <string name="message_praise_comment">" mag diesen Kommentar"</string>
     <string name="message_praise_video">" mag dieses Video"</string>
     <string name="message_reply_prefix">Antworten</string>
+    <string name="message_request_manage_external_storage_perm">Dateimanager benötigt die Berechtigung zum Dateizugriff, um Dateien auf Ihrem Gerät verwalten zu können. Sie können diese Berechtigung in den Einstellungen gewähren.</string>
     <string name="midnight">Nacht</string>
     <string name="midriver_install_button_text">Installieren</string>
     <string name="midriver_not_install_title">Mi Drive wird deinstalliert</string>
@@ -702,6 +707,7 @@
     <string name="path_kuai_chuan">Peer-to-peer Datenübertragung</string>
     <string name="path_name_email">E-Mail</string>
     <string name="path_recent_file">Verwalten Sie Ihre Dateien</string>
+    <string name="perm_manage_external_storage">Zugriff auf alle Dateien</string>
     <string name="permission_denial">Dateizugriff nicht möglich. Erlauben Sie Dateimanager in den Einstellungen den Zugriff auf Dateien.</string>
     <string name="permission_description">Berechtigungsdetails</string>
     <string name="permission_required">Dateizugriff nicht möglich. Erlauben Sie Dateimanager in den Einstellungen den Zugriff auf Dateien.</string>
@@ -771,7 +777,7 @@
     <string name="recommend_topic">Empfohlene Themen</string>
     <string name="recommend_user">Empfohlene Profile</string>
     <string name="refresh_success">Aktualisieren abgeschlossen</string>
-     <string name="reinstall_midriver_message">Jetzt neu installieren?</string>
+    <string name="reinstall_midriver_message">Jetzt neu installieren?</string>
     <string name="release_enter_private">Loslassen zum Öffnen privater Ordner</string>
     <string name="remainder_size">Verbleibend: %s</string>
     <string name="remote_video_report_success">Vielen Dank für Ihr Feedback! Wir schauen es uns sobald wie möglich an.</string>
@@ -890,8 +896,7 @@
     <string name="shared_sticker_page_no_file">Netzwerkverbindung fehlgeschlagen. Prüfen Sie Ihre Netzwerkverbindung und versuchen Sie es erneut.</string>
     <string name="shared_sticker_str">Zuletzt</string>
     <string name="shared_sticker_suffix">Sticker an %s</string>
-    <string name="shared_sticker_use_tip">"Sie können die Sticker, die Sie in Chats gespeichert haben, genauso wie Bilder versenden.
-(GIFs können in WeChat Stickern zu Benutzerdefiniert hinzugefügt werden)"</string>
+    <string name="shared_sticker_use_tip">Sie können die Sticker, die Sie in Chats gespeichert haben, genauso wie Bilder versenden. \n(GIFs können in WeChat Stickern zu Benutzerdefiniert hinzugefügt werden)</string>
     <string name="shared_sticker_use_tip_title">Wie verwende ich Sticker</string>
     <string name="shared_str">Geteilt von %s</string>
     <string name="shortcut_exists">Verknüpfung existiert bereits</string>
@@ -1022,6 +1027,7 @@
     <string name="title_expire_video">Läuft bald ab</string>
     <string name="title_recent">Zuletzt</string>
     <string name="title_report_video">Melden</string>
+    <string name="title_request_manage_external_storage_perm">Berechtigungen erforderlich</string>
     <string name="title_select_volume">Ordner auswählen</string>
     <string name="to_open">Einstellungen</string>
     <string name="to_setting">Einstellungen</string>
