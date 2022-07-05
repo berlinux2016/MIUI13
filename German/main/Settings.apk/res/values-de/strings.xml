@@ -1,18 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-    <string name="bluetooth_enable_opp_high_speed">Hochgeschwindigkeits-Bluetooth-Übertragungen</string>
-    <string name="bluetooth_enable_opp_high_speed_summary">Bluetooth P2P-Protokollen für Hochgeschwindigkeitsübertragungen verwenden</string>
-    <string name="fiveg_nrca_switch_summary">5G-Verbindungsverbesserung für Testumgebungen</string>
-    <string name="fiveg_nrca_switch_title">5G Anbieter kombinieren</string>
-    <string name="freeform_vedio_description_open_freeform_and_splitscreen_pad">Eine App aus der Seitenleiste in die Mitte des Bildschirms ziehen, um sie in einem Popup zu öffnen, oder an die Seite, um den geteilten Bildschirm zu verwenden.</string>
-    <string name="nrca_switch_title">5G Anbieter kombinieren anwenden</string>
 
-    <string name="miheadset_LEAudio_summary">Einige Funktionen sind nicht verfügbar, wenn LE Audio aktiviert ist.</string>
-    <string name="miheadset_LEAudio_title">LE Audio einschalten?</string>
-    <string name="miheadset_LE_on_toast">Vergewissern Sie sich, dass beide Ohrhörer aufgeladen sind und nehmen Sie sie aus der Ladeschale, bevor Sie diese Funktion einschalten.</string>
-    <string name="miheadset_feedback_summary">Um Protokolle einreichen zu können, beide Ohrhörer in die Ladeschale stecken und den Deckel offen lassen.</string>
-    <string name="miheadset_feedback_title">Protokolle einreichen</string>
-    <string name="miheadset_singleear_toast">Für nur einen Kopfhörer nicht unterstützt</string>
 
     <string name="Accounts_settings_title">Konten</string>
     <string name="Data_set">"Daten: "</string>
@@ -1533,10 +1521,12 @@ Sie haben sich noch nicht mit %2$s verbunden."</string>
     <string name="bluetooth_enable_gabeldorsche_summary">Aktiviert den Bluetooth Gabeldorsche Funktions-Stack</string>
     <string name="bluetooth_enable_inband_ringing">In-Band-Klingeln aktivieren</string>
     <string name="bluetooth_enable_inband_ringing_summary">Erlaubt die Wiedergabe von Telefonklingeltönen über Bluetooth-Kopfhörer</string>
+    <string name="bluetooth_enable_opp_high_speed">Hochgeschwindigkeits-Bluetooth-Übertragungen</string>
     <string name="bluetooth_enable_opp_high_speed_dialog_message">Neustart von Bluetooth ist erforderlich, um die Änderungen zu übernehmen. Bestehende Verbindungen können durch diese Aktion unterbrochen werden. Bluetooth trotzdem neu starten?</string>
     <string name="bluetooth_enable_opp_high_speed_dialog_negative">Abbrechen</string>
     <string name="bluetooth_enable_opp_high_speed_dialog_positive">Neu starten</string>
     <string name="bluetooth_enable_opp_high_speed_dialog_title">Bluetooth neu starten</string>
+    <string name="bluetooth_enable_opp_high_speed_summary">Bluetooth P2P-Protokollen für Hochgeschwindigkeitsübertragungen verwenden</string>
     <string name="bluetooth_enable_page_scan">Bluetooth-Seiten-Scan aktivieren</string>
     <string name="bluetooth_enable_page_scan_summary">Seiten-Scan für Bluetooth-Test deaktivieren/aktivieren</string>
     <string name="bluetooth_enable_pts_test">Bluetooth PTS-Test aktivieren</string>
@@ -1860,6 +1850,7 @@ Wenn Sie bereits eines der oben genannten Dinge getan haben, fügen Sie Ihr Xiao
     <string name="bootloader_tips_ok">Verstanden</string>
     <string name="bootloader_tips_warning">Netzwerkverbindung nicht trennen, von Ihrem Xiaomi-Konto nicht abmelden, keinen Werksreset durchführen oder Systemdaten löschen.</string>
     <string name="bottom_function_settings">Funktionen der zusätzlichen Schaltflächen</string>
+    <string name="bottom_to_top_slide">Hochwischen</string>
     <string name="bottomsheet_action_expand_halfway">Zur Hälfte erweitern</string>
     <string name="breathing_light_color_menu_title">LED-Farbe</string>
     <string name="breathing_light_color_summary">LED-Farbe bei Eingang einer Benachrichtigung</string>
@@ -3852,6 +3843,8 @@ Um mehr zu erfahren, wenden Sie sich an diesen."</string>
     <string name="firewall_wifi">WLAN</string>
     <string name="firewall_wifi_dialog_message">Installierte App kann sich nicht über WLAN mit dem Internet verbinden, wenn dieser Schalter aus ist.</string>
     <string name="firmware_version">Android-Version</string>
+    <string name="fiveg_nrca_switch_summary">5G-Verbindungsverbesserung für Testumgebungen</string>
+    <string name="fiveg_nrca_switch_title">5G Anbieter kombinieren</string>
     <string name="fiveg_sa_switch_summary">SA-Netzwerk auf sekundärer SIM verwenden (nur zum Testen)</string>
     <string name="fiveg_sa_vice_switch_title">SA auf sekundärer SIM</string>
     <string name="fiveg_switch_title">5G Netzwerk</string>
@@ -4049,6 +4042,7 @@ Das funktioniert nur, wenn die Systemnavigation auf Gesten eingestellt ist."</st
 Auf \"Popups\" in zuletzt verwendet tippen, um Apps auszuwählen."</string>
     <string name="freeform_vedio_description_open_freeform_and_splitscreen">"· Auf eine App in der Seitenleiste tippen, um sie in einem Popup-Fenster zu öffnen.
 · Eine App in die Bildschirmmitte ziehen, um sie in einem Popup-Fenster zu öffnen, oder an die Seite, um den geteilten Bildschirm zu verwenden."</string>
+    <string name="freeform_vedio_description_open_freeform_and_splitscreen_pad">Eine App aus der Seitenleiste in die Mitte des Bildschirms ziehen, um sie in einem Popup zu öffnen, oder an die Seite, um den geteilten Bildschirm zu verwenden.</string>
     <string name="freeform_vedio_description_pad">Elemente aus dem Dock ziehen, um Popups zu öffnen</string>
     <string name="frequently_fragment_delete">Löschen</string>
     <string name="frequently_fragment_tempty">Oft genutzte Inhalte werden hier aufgelistet</string>
@@ -4913,6 +4907,7 @@ Xiaomi Cloud öffnen und Elemente von dort aus wiederherstellen."</string>
     <string name="left_function_key">Verknüpfung links</string>
     <string name="left_right_hand_switch">Links und rechts</string>
     <string name="left_right_hand_switch_summary">Linker und rechter Teil der Tastatur wechseln mit einem einzigen Tippen den Platz</string>
+    <string name="left_to_right_slide">Nach rechts wischen</string>
     <string name="legacy_control_center_desc">Statusleiste herunterziehen, um Schalter und Benachrichtigungen anzuzeigen</string>
     <string name="legacy_control_center_title">Alte Version</string>
     <string name="legacy_dhcp_client">Alten DHCP-Client verwenden</string>
@@ -5660,6 +5655,9 @@ Dadurch wird Ihr Mobilfunkvertrag nicht gekündigt."</string>
     <string name="miheadet_up_music">Oben</string>
     <string name="miheadset_Box">Box</string>
     <string name="miheadset_Intelligentpickfree_summary">Wenn die Geräuschunterdrückung eingeschaltet ist, schalten Ihre Ohrhörer automatisch für kurze Zeit auf Transparenz um, wenn sie Stimmen erkennen.</string>
+    <string name="miheadset_LEAudio_summary">Einige Funktionen sind nicht verfügbar, wenn LE Audio aktiviert ist.</string>
+    <string name="miheadset_LEAudio_title">LE Audio einschalten?</string>
+    <string name="miheadset_LE_on_toast">Vergewissern Sie sich, dass beide Ohrhörer aufgeladen sind und nehmen Sie sie aus der Ladeschale, bevor Sie diese Funktion einschalten.</string>
     <string name="miheadset_LeftEar">Links</string>
     <string name="miheadset_RightEar">Rechts</string>
     <string name="miheadset_active">Kraftvoll</string>
@@ -5717,6 +5715,8 @@ Dadurch wird Ihr Mobilfunkvertrag nicht gekündigt."</string>
     <string name="miheadset_enhanceVoice">Stimme verstärken</string>
     <string name="miheadset_enhence_high">Verstärkte Höhen</string>
     <string name="miheadset_enhence_low">Verstärkter Bass</string>
+    <string name="miheadset_feedback_summary">Um Protokolle einreichen zu können, beide Ohrhörer in die Ladeschale stecken und den Deckel offen lassen.</string>
+    <string name="miheadset_feedback_title">Protokolle einreichen</string>
     <string name="miheadset_fitness_check">Passform erkennen</string>
     <string name="miheadset_fitness_check_checking">Erkennen…</string>
     <string name="miheadset_fitness_check_continue">Weiter</string>
@@ -5764,6 +5764,9 @@ Dadurch wird Ihr Mobilfunkvertrag nicht gekündigt."</string>
     <string name="miheadset_key_config_triple_right">Rechten Ohrhörer dreifach antippen</string>
     <string name="miheadset_key_config_volume_down">Lautstärke runter</string>
     <string name="miheadset_key_config_volume_up">Lautstärke hoch</string>
+    <string name="miheadset_keyconfig_click_thrice">Taste dreimal drücken</string>
+    <string name="miheadset_keyconfig_click_twice">Taste doppelt drücken</string>
+    <string name="miheadset_keyconfig_press_long">Taste für %d Sekunden gedrückt halten</string>
     <string name="miheadset_last_version">Firmware ist aktuell</string>
     <string name="miheadset_low_latency">Geringe Latenzzeit</string>
     <string name="miheadset_manual">Über das Gerät</string>
@@ -5786,6 +5789,7 @@ Dadurch wird Ihr Mobilfunkvertrag nicht gekündigt."</string>
     <string name="miheadset_shared_contacts">Kontakt teilen</string>
     <string name="miheadset_shared_contacts_summary">Zum Kontakte teilen</string>
     <string name="miheadset_single_ear_indicate">Beide Ohrhörer tragen, um die Rauschunterdrückung zu verwenden</string>
+    <string name="miheadset_singleear_toast">Für nur einen Kopfhörer nicht unterstützt</string>
     <string name="miheadset_soft">Weich</string>
     <string name="miheadset_spatial_audio_off">Aus</string>
     <string name="miheadset_spatial_audio_on">An</string>
@@ -6735,6 +6739,7 @@ Dies erlaubt der App auch, Nicht stören ein-/auszuschalten und entsprechende Ei
     <string name="notify_connect_summary">Warnen beim Zugriff auf CMCC WLAN</string>
     <string name="now">Jetzt neustarten</string>
     <string name="nrca_need_reset">Gerät neu starten, um Änderungen zu übernehmen</string>
+    <string name="nrca_switch_title">5G Anbieter kombinieren anwenden</string>
     <string name="nsd_quick_toggle_summary">Apps auf anderen Geräten erlauben, Apps auf diesem Gerät zu finden</string>
     <string name="nsd_quick_toggle_title">Netzwerkerkennungsdienst</string>
     <string name="number_of_device_admins_none">Keine aktiven Apps</string>
@@ -7733,6 +7738,7 @@ UT Interface: %5$s"</string>
     <string name="rgb_manage_facerecoginition_text">2D-Gesichtsdaten verwalten</string>
     <string name="right_edge">Rechte Kante</string>
     <string name="right_function_key">Verknüpfung rechts</string>
+    <string name="right_to_left_slide">Nach links wischen</string>
     <string name="ring_to_you">Benutzerdefinierter Klingelton</string>
     <string name="ring_to_you_info">Benutzerdefinierten Ton einstellen, den andere Leute hören, bevor Sie annehmen</string>
     <string name="ring_volume_option_title">Klingelton</string>
@@ -9844,6 +9850,7 @@ Sie können Ihr Androidtelefon in einen mobilen WLAN-Hotspot verwandeln, um die 
     <string name="toggle_auto_speaker_preference_title">Autom. auf Lautsprecher umschalten</string>
     <string name="toggle_collapse_after_clicked_title">Nach Antippen einklappen</string>
     <string name="tomorrow">Morgen</string>
+    <string name="top_to_bottom_slide">Runterwischen</string>
     <string name="total">Nicht stören</string>
     <string name="total_info">Ton und Vibration ausschalten, außer für Wecker</string>
     <string name="total_info_no_vibrator">Ton ausschalten, außer für Wecker</string>
@@ -11631,6 +11638,8 @@ Diese Funktion wird automatisch ausgeschaltet, wenn der Ladevorgang nicht innerh
     <string name="wizard_finish">Fertig</string>
     <string name="wizard_next">Weiter</string>
     <string name="wlan_scanner_unresizeble">WLAN-Einstellungen können im Geteilter Bildschirm-Modus nicht angezeigt werden</string>
+    <string name="wlan_switch_tips">WLAN wechseln</string>
+    <string name="wlan_switch_tips_message">Wenn Sie zwischen Hilfs- und Haupt-WLAN wechseln, wird Ihr Gerät vorübergehend vom Hilfs-WLAN getrennt. Trotzdem wechseln?</string>
     <string name="wlan_to_cellular_hint_title">WLAN-&gt;Mobilfunktipp</string>
     <string name="work_alarm_ringtone_title">Standard-Arbeitsalarmton</string>
     <string name="work_mode_label">Arbeitsprofil</string>
