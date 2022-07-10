@@ -3586,7 +3586,7 @@ Gerät neu starten und erneut versuchen."</string>
     <string name="estimated_time_left">Geschätzte Restdauer</string>
     <string name="ethernet_data_template">^1 Ethernet-Daten</string>
     <string name="ethernet_data_usage">Ethernet-Datennutzung</string>
-    <string name="ethernet_tether_checkbox_text">Ethernet Tethering</string>
+    <string name="ethernet_tether_checkbox_text">Über Ethernet teilen</string>
     <string name="ethernet_tethering_subtext">Internetverbindung des Telefons über USB-Ethernet freigeben</string>
     <string name="evening">Nachmittag</string>
     <string name="every_day">Täglich</string>
@@ -3631,7 +3631,7 @@ Gerät neu starten und erneut versuchen."</string>
     <string name="face_data_input_ok_title">Erfolgreich hinzugefügt</string>
     <string name="face_data_input_structure_title">3D-Gesichtsdaten</string>
     <string name="face_data_input_title">Gesichtsdaten hinzfügen</string>
-    <string name="face_data_introduction_msg">Gesichtsdaten können verwendet werden, um Ihr Gerät zu entsperren oder Ihre Identität zu verifizieren. Fügen Sie vor dem Hinzufügen Ihrer Gesichtsdaten das Passwort für den Sperrbildschirm hinzu.</string>
+    <string name="face_data_introduction_msg">Gesichtsdaten können verwendet werden, um Ihr Gerät zu entsperren oder Ihre Identität zu verifizieren. \nFügen Sie vor dem Hinzufügen Ihrer Gesichtsdaten das Passwort für den Sperrbildschirm hinzu.</string>
     <string name="face_data_introduction_next">Weiter</string>
     <string name="face_data_introduction_title">Gesichtserkennung</string>
     <string name="face_data_manage_delete">Gesichtsdaten löschen?</string>
@@ -3643,9 +3643,9 @@ Gerät neu starten und erneut versuchen."</string>
     <string name="face_data_manage_unlock_title">Mit Gesichtsdaten entsperren</string>
     <string name="face_data_siggesstion_next">Weiter</string>
     <string name="face_data_siggesstion_next_time">Weiter (%ds)</string>
-    <string name="face_data_suggesstion_first">Gesichtsentsperrung ist weniger sicher als eine PIN, ein Passwort oder ein Muster. Ihr Gerät kann mit Ihrem Foto sowie von Personen oder Objekten mit ähnlichem Aussehen entsperrt werden.</string>
+    <string name="face_data_suggesstion_first">Gesichtsentsperrung ist weniger sicher als PIN, Passwort, Muster oder Fingerabdruck. Ihr Gerät kann mit Ihrem Foto sowie von Personen oder Objekten mit ähnlichem Aussehen entsperrt werden.</string>
     <string name="face_data_suggesstion_first_cn">Um Gesichtsentsperrung verwenden zu können, müssen wir Ihre Gesichtsdaten erfassen, die dann lokal auf diesem Gerät gespeichert werden. Um sie zu löschen, suchen Sie in den Einstellungen nach \"Gesichtsentsperrung\" und wählen Sie Gesichtsentsperrung > Gesichtsdaten.</string>
-    <string name="face_data_suggesstion_first_cn_highlight">Gesichtsentsperrung ist weniger sicher als eine PIN, ein Passwort oder ein Muster. Ihr Gerät kann mit Ihrem Foto sowie von Personen oder Objekten mit ähnlichem Aussehen entsperrt werden.</string>
+    <string name="face_data_suggesstion_first_cn_highlight">Gesichtsentsperrung ist weniger sicher als PIN, Passwort, Muster oder Fingerabdruck. Ihr Gerät kann mit Ihrem Foto sowie von Personen oder Objekten mit ähnlichem Aussehen entsperrt werden.</string>
     <string name="face_data_suggesstion_second">Achten Sie darauf, dass alle Teile Ihres Gesichts gut sichtbar sind. Tragen Sie keine Accessoires, die Ihr Gesicht verdecken könnten. Beleuchten Sie Ihr Gesicht gleichmäßig und vermeiden Sie direktes Licht.</string>
     <string name="face_intro_error_max">Sie haben die Maximalzahl an Gesichtern hinzugefügt</string>
     <string name="face_intro_error_unknown">Weitere Gesichter hinzufügen nicht möglich</string>
@@ -3761,6 +3761,7 @@ Um mehr zu erfahren, wenden Sie sich an diesen."</string>
     <string name="finger_add_user_info_dialog_message">Damit Sie die Fingerabdruckentsperrung nutzen und Zahlungen per Fingerabdruck vornehmen können, müssen wir Ihren Fingerabdruck erfassen. Der Fingerabdruck wird lokal auf diesem Gerät gespeichert. Um ihn zu löschen, suchen Sie in den Einstellungen nach \"Fingerabdruck entsperren\" und wählen Sie dann Fingerabdruck entsperren > Fingerabdruck. Wenn Sie dem nicht zustimmen, können Sie diese Funktion nicht nutzen.</string>
     <string name="finger_add_user_info_dialog_next">Zustimmen</string>
     <string name="finger_add_user_info_dialog_title">Achtung</string>
+    <string name="finger_detail_info_text">Fingerabdruckname ändern</string>
     <string name="fingerprint_add_max">Sie können bis zu %d Fingerabdrücke hinzufügen</string>
     <string name="fingerprint_add_title">Fingerabdruck hinzufügen</string>
     <string name="fingerprint_and_password_entrance_title">Sperrbildschirm &amp; Fingerabdruck</string>
@@ -5202,8 +5203,7 @@ Eine PIN schützt das Telefon bei Verlust oder Diebstahl."</string>
     <string name="lockpassword_choose_your_password_header_for_face">Um Gesichtserkennung zu verwenden,Passwort festlegen</string>
     <string name="lockpassword_choose_your_password_header_for_fingerprint">Um Fingerabdruck zu verwenden, Passwort festlegen</string>
     <string name="lockpassword_choose_your_password_message">Zur Sicherheit Passwort festlegen</string>
-    <string name="lockpassword_choose_your_password_second_space">"PIN für Zweitprofil festlegen.
-Diese PIN muss so viele Ziffern enthalten wie das erste Profil."</string>
+    <string name="lockpassword_choose_your_password_second_space">Passwort für \nZweitprofil festlegen</string>
     <string name="lockpassword_choose_your_pattern_header">Muster wählen</string>
     <string name="lockpassword_choose_your_pattern_header_for_biometrics">Muster zur Verwendung von Gesicht oder Fingerabdruck festlegen</string>
     <string name="lockpassword_choose_your_pattern_header_for_face">Um Gesichtserkennung zu verwenden, Muster festlegen</string>
@@ -5213,7 +5213,7 @@ Diese PIN muss so viele Ziffern enthalten wie das erste Profil."</string>
     <string name="lockpassword_choose_your_pin_header_for_biometrics">PIN zur Verwendung von Gesicht oder Fingerabdruck festlegen</string>
     <string name="lockpassword_choose_your_pin_header_for_face">Um Gesichtserkennung zu verwenden, PIN festlegen</string>
     <string name="lockpassword_choose_your_pin_header_for_fingerprint">Um Fingerabdruck zu verwenden, PIN festlegen</string>
-    <string name="lockpassword_choose_your_pin_header_second_space">PIN für Zweitprofil</string>
+    <string name="lockpassword_choose_your_pin_header_second_space">PIN für \nZweitprofil festlegen. \Sie sollte die gleiche Länge haben wie die Hauptprofil-PIN.</string>
     <string name="lockpassword_choose_your_pin_message">Zur Sicherheit PIN festlegen</string>
     <string name="lockpassword_choose_your_pin_title" formatted="false">%1$d-%2$d Ziffern eingeben</string>
     <string name="lockpassword_choose_your_profile_password_header">Arbeitspasswort festlegen</string>
@@ -5306,7 +5306,7 @@ Diese PIN muss so viele Ziffern enthalten wie das erste Profil."</string>
     <string name="lockpattern_recording_inprogress">Lassen Sie die Tasten los, wenn Sie fertig sind</string>
     <string name="lockpattern_recording_intro_footer">Menütaste drücken, um Hilfe aufzurufen</string>
     <string name="lockpattern_recording_intro_header">Zeichnen Sie ein Entsperrmuster:</string>
-    <string name="lockpattern_recording_intro_header_second_space">Zeichnen Sie ein Entsperrmuster für das Zweitprofil:</string>
+    <string name="lockpattern_recording_intro_header_second_space">Entsperrmuster für das Zweitprofil zeichnen. \nMind. 4 Punkte verbinden.</string>
     <string name="lockpattern_restart_button_text">Neu aufzeichnen</string>
     <string name="lockpattern_retry_button_text">Wiederholen</string>
     <string name="lockpattern_settings_change_lock_pattern">Muster ändern</string>
@@ -5708,6 +5708,7 @@ Dadurch wird Ihr Mobilfunkvertrag nicht gekündigt."</string>
     <string name="miheadset_double_connection_summary">Wenn Sie diese Funktion einschalten, können Sie Anrufe annehmen oder Audio- oder Videodateien auf beiden angeschlossenen Geräten wiedergeben, ohne manuell umschalten zu müssen.</string>
     <string name="miheadset_double_press_left">Doppeltippen linker Ohrhörer</string>
     <string name="miheadset_double_press_right">Doppeltippen rechter Ohrhörer</string>
+    <string name="miheadset_double_toast">Beide Kopfhörer einstecken, um diese Funktion zu nutzen</string>
     <string name="miheadset_dual_connect_mode">Anschluss an zwei Geräte</string>
     <string name="miheadset_dual_connect_mode_summary">Einschalten, um Ihre Ohrhörer mit zwei Bluetooth-Geräten gleichzeitig zu verbinden</string>
     <string name="miheadset_enhanceVoice">Stimme verstärken</string>
@@ -6843,6 +6844,8 @@ OTG schaltet sich nach 10 Min Inaktivität automatisch aus."</string>
     <string name="owner_space">Hauptprofil</string>
     <string name="p2p_summary_enable_GPS">Diese Funktion funktioniert, wenn die Standortdienste eingeschaltet sind</string>
     <string name="packages_subtitle">Enthaltene Pakete</string>
+    <string name="pad_add_fingerprint_finish_message">Fortfahren, um auf weitere Einstellungen zuzugreifen</string>
+    <string name="pad_add_fingerprint_message">Legen Sie Ihren Finger auf die Einschalttaste</string>
     <string name="pad_backup_summary">Sichern und Wiederherstellen von Elementen auf diesem Gerät</string>
     <string name="pad_backup_title">Mobilgerät</string>
     <string name="pad_computer_backup_summary">Sichern und Wiederherstellen von Elementen mit einem Computer</string>
@@ -8823,14 +8826,17 @@ Durch den Wechsel wird Ihr %1$s-Dienst nicht gekündigt."</string>
     <string name="sim_slot_empty">SIM leer</string>
     <string name="sim_status_title">SIM-Status</string>
     <string name="sim_status_title_sim_slot">SIM-Status (SIM-Slot %1$d)</string>
+    <string name="sim_status_title_sim_softbank">SIM-Status %1$d</string>
     <string name="sim_switch_button">Wechseln</string>
     <string name="sim_switch_channel_id">Anbieterwechsel</string>
+    <string name="sim_wallet">SIM-Geldbörse</string>
+    <string name="sim_wallet_desc">SIM-Geldbörse</string>
     <string name="simulate_color_space">Farbraum simulieren</string>
     <string name="single_key_use">Verwendung einzelner Schlüssel</string>
     <string name="single_key_use_summary">Home-Taste für die Funktionen der anderen 2 Tasten verwenden</string>
+    <string name="single_press_AI_button">KI-Taste drücken</string>
     <string name="size_embedded">Parallele Fenster</string>
     <string name="size_full">Vollbild</string>
-    <string name="single_press_AI_button">KI-Taste drücken</string>
     <string name="skip_anyway_button_label">Trotzdem überspringen</string>
     <string name="skip_label">Überspringen</string>
     <string name="skip_lock_screen_confirm_msg">Benachrichtigungen, Musiksteuerung und Verknüpfungen werden im Sperrbildschirm deaktiviert</string>
@@ -8898,7 +8904,7 @@ Durch den Wechsel wird Ihr %1$s-Dienst nicht gekündigt."</string>
     <string name="smart_rotate_text_headline">Gesichtserkennung verwendet die Frontkamera, um die Genauigkeit der automatischen Drehung zu verbessern. Die Bilder werden niemals gespeichert oder an Google gesendet.</string>
     <string name="smart_space_clock">Auf einen Blick</string>
     <string name="smartcover_lock_or_unlock_screen_tittle">Bildschirm mit Smartcover sperren oder entsperren</string>
-    <string name="smartcover_sensitive_summary">Telefon mit Smartcover einfach sperren oder entsperren</string>
+    <string name="smartcover_sensitive_summary">Gerät mit Smartcover autom. sperren oder entsperren</string>
     <string name="smartcover_sensitive_title">Smartcover-Modus</string>
     <string name="smooth_adjust_ligth">Übergänge glätten</string>
     <string name="smooth_adjust_ligth_summary">Übergänge werden fließender, wenn Sie die Helligkeit manuell einstellen. Wenn diese Funktion aktiviert ist, können in einigen Fällen leichte Farbinkonsistenzen auftreten.</string>
@@ -10146,7 +10152,7 @@ Gefällt Ihnen Mi Mover?"</string>
     <string name="turn_on_keyguard_password_alert_foget_cacel">Jetzt nicht</string>
     <string name="turn_on_keyguard_password_alert_foget_ok">Fertig</string>
     <string name="turn_on_keyguard_password_alert_foget_ok_time">OK (%d Sek)</string>
-    <string name="turn_on_keyguard_password_alert_forget_content">Merken Sie sich Ihre Bildschirmsperre genau. Wenn Sie Muster, PIN oder Passwort vergessen, müssen Sie alle Daten auf Ihrem Gerät wie Fotos und Kontakte löschen (Wipe Data), um ein neues einzurichten.</string>
+    <string name="turn_on_keyguard_password_alert_forget_content">Merken Sie sich Ihre Bildschirmsperre! Wenn Sie sie vergessen, müssen Sie alle Daten auf Ihrem Gerät wie Fotos und Kontakte löschen , um eine neue einzurichten.</string>
     <string name="turn_on_keyguard_password_alert_forget_title">!! ACHTUNG - NICHT VERGESSEN !!</string>
     <string name="turn_on_radio">Radio einschalten</string>
     <string name="turn_on_security_lock">Bildschirmsperre auswählen</string>
