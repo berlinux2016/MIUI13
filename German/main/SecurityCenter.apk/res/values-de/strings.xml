@@ -11,7 +11,7 @@
     <string name="permission_instruction_media_audio">Wenn Sie diese Berechtigung erteilen, kann die App auf Musik und andere Audiodaten auf Ihrem Telefon zugreifen. Bitte beachten Sie, dass diese persönlichen Informationen sehr wichtig sind und Sie bei der Erteilung dieser Erlaubnis an die App vorsichtig sein sollten, um eine unnötige Offenlegung privater Informationen zu vermeiden.</string>
     <string name="permission_instruction_media_files">Wenn Sie diese Berechtigung erteilen, kann die App auf die Dateien und Dokumente auf Ihrem Telefon zugreifen. Bitte beachten Sie, dass diese persönlichen Informationen sehr wichtig sind und Sie bei der Erteilung dieser Erlaubnis an die App vorsichtig sein sollten, um eine unnötige Offenlegung privater Informationen zu vermeiden.</string>
     <string name="permission_instruction_read_media_pic">Wenn Sie diese Berechtigung erteilen, kann die App auf Fotos und Videos auf Ihrem Telefon zugreifen. Bitte beachten Sie, dass diese persönlichen Informationen sehr wichtig sind und Sie bei der Erteilung dieser Erlaubnis an die App vorsichtig sein sollten, um eine unnötige Offenlegung privater Informationen zu vermeiden.</string>
-    <string name="permission_instruction_scoped">Neuer Mechanismus zum Schutz der Privatsphäre bei partitionierten Systemspeicher, wobei die ersten Apps so angepasst werden, dass sie eine detailliertere Kontrolle der Speicherzugriffsrechte unterstützen</string>
+    <string name="permission_instruction_scoped">Neuer Mechanismus zum Schutz der Privatsphäre bei partitioniertem Systemspeicher, wobei die ersten Apps so angepasst werden, dass sie eine detailliertere Kontrolle der Speicherzugriffsrechte unterstützen</string>
     <string name="storage_compact_warning">Status Mehrfachberechtigung muss angepasst werden</string>
     <string name="storage_compact_warning_desc">App unterstützt nur die gleichzeitige Anpassung des Zugriffs auf Fotos und Videos, Audiodateien, Dateien und Dokumente, nicht aber deren getrennten Zugriff.</string>
 
@@ -385,7 +385,7 @@ Technische Unterstützung durch Xiaomi &amp; ICL"</string>
     <string name="apn_exception_summary">Zugangspunktnamen vom Mobilfunkanbieter prüfen</string>
     <string name="apn_exception_title">APN-Konfigurationen prüfen</string>
     <string name="apn_exception_wap_summary">WAP ist jetzt instabil. Zu NET wechseln.</string>
-    <string name="app_behavior_about_content_no_link">MIUI kann zeigen, wann andere Apps gestartet, automatisch gestartet, Berechtigungen verwendet und sensible Aktionen ausgeführt wurden. Wegen Kompatibilitätsproblemen mit der Android-Version sind einige dieser Aufzeichnungen möglicherweise nicht korrekt. Wenn Sie einen Datensatz über das Verhalten einer App finden, der nicht korrekt ist, melden Sie ihn uns über die App \"Dienste &amp; Feedback\".</string>
+    <string name="app_behavior_about_content_no_link">MIUI kann zeigen, wann andere Apps gestartet, automatisch gestartet, Berechtigungen verwendet und sensible Aktionen ausgeführt wurden. Wegen Kompatibilitätsproblemen mit der Android-Version sind einige dieser Aufzeichnungen evtl. nicht korrekt. Wenn Sie einen Datensatz über das Verhalten einer App finden, der nicht korrekt ist, melden Sie ihn uns über die App \"Dienste &amp; Feedback\".</string>
     <string name="app_behavior_about_negative">Feedback</string>
     <string name="app_behavior_about_positive">Verstanden</string>
     <string name="app_behavior_about_setting">Einstellungen</string>
@@ -602,7 +602,7 @@ Technische Unterstützung durch Xiaomi &amp; ICL"</string>
     <string name="app_manager_details_title">App-Info</string>
     <string name="app_manager_details_traffic_title">Datennutzung</string>
     <string name="app_manager_disable">Nicht erlauben</string>
-    <string name="app_manager_disable_dlg_text">Wenn Sie diese App deaktivieren, arbeiten andere Apps möglicherweise nicht mehr wie vorgesehen</string>
+    <string name="app_manager_disable_dlg_text">Wenn Sie diese App deaktivieren, arbeiten andere Apps evtl. nicht mehr wie vorgesehen</string>
     <string name="app_manager_disable_dlg_title">System-App deaktivieren?</string>
     <string name="app_manager_disable_text">Deaktivieren</string>
     <string name="app_manager_disabled">Deaktiviert</string>
@@ -1367,7 +1367,7 @@ Ihr Mobilfunkanbieter kann Ihnen zusätzliche Kosten berechnen, wenn Sie mobile 
     <string name="date_time_picker_dialog_title">Datum und Zeit einstellen</string>
     <string name="day_overflow_tips">Der tägliche Datenverbrauch überschreitet das Limit</string>
     <string name="debug_open_final_tip">USB-Debugging einschalten?</string>
-    <string name="debug_open_title">Diese Funktion ist für Entwickler gedacht und für allgemeine Benutzer möglicherweise nicht geeignet. Einschalten von USB-Debugging könnte die folgenden Änderungen mit sich bringen:</string>
+    <string name="debug_open_title">Diese Funktion ist für Entwickler gedacht und für allgemeine Benutzer evtl. nicht geeignet. Einschalten von USB-Debugging könnte die folgenden Änderungen mit sich bringen:</string>
     <string name="declaration_dialog_msg">Diese Funktion kann Ihnen helfen, Ihre Datennutzung zu überwachen. Sie ist keine Garantie für die Vermeidung zusätzlicher Kosten. Mit einem konservativen Limit erzielen Sie die besten Ergebnisse.</string>
     <string name="deep_clean_disconnect_data_title">Nach Gerätesperre mobile Daten aus</string>
     <string name="deep_clean_memory_clean_title">Nach Gerätesperre Cache löschen</string>
@@ -1843,7 +1843,7 @@ Erdbebenüberwachung"</string>
     <string name="first_aid_card_consume_power_summary_app">Mehr als %d Apps sind für den Autostart zugelassen. Einschränken, um Akku zu sparen.</string>
     <string name="first_aid_card_consume_power_title">Akkuverbrauch</string>
     <string name="first_aid_card_float_window_button">Einschränken</string>
-    <string name="first_aid_card_float_window_summary">%s wird möglicherweise falsch angezeigt. Popup-Benachrichtigungen einschränken.</string>
+    <string name="first_aid_card_float_window_summary">%s wird evtl. falsch angezeigt. Popup-Benachrichtigungen einschränken.</string>
     <string name="first_aid_card_float_window_title">Popup-Benachrichtigungen erlaubt</string>
     <string name="first_aid_card_kadun_button1">Speicherplatz freigeben</string>
     <string name="first_aid_card_kadun_button2">Beschränken</string>
@@ -2381,7 +2381,7 @@ Spielsitzungen aufzeichnen"</string>
     <string name="gs_game_manual_record_subtitle">Verwenden Sie die Popup-Tastenverknüpfung, um bis zu 30 Sekunden Video auf einmal aufzunehmen. Videos werden nach 7 Tagen automatisch gelöscht.</string>
     <string name="gs_game_manual_record_subtitle_child">Bei der Verwendung dieser Funktion können einige Probleme auftreten:</string>
     <string name="gs_game_manual_record_subtitle_child_carton">Das Aufzeichnen Ihrer Spielstände erfordert einen höheren Stromverbrauch, was zu Verzögerungen führen kann.</string>
-    <string name="gs_game_manual_record_subtitle_child_conflict">Andere Bildschirmaufnahmefunktionen funktionieren möglicherweise nicht richtig.</string>
+    <string name="gs_game_manual_record_subtitle_child_conflict">Andere Bildschirmaufnahmefunktionen funktionieren evtl. nicht richtig.</string>
     <string name="gs_game_net_priority">Verbindungspriorität</string>
     <string name="gs_game_net_priority_detail">Downloadgeschwindigkeit einschränken, um genug Bandbreite zum Spielen zu bekommen</string>
     <string name="gs_game_performance">Leistung</string>
@@ -2836,7 +2836,7 @@ Ihr Gerät ist jetzt %s schneller."</string>
     <string name="midrop_post_notification_contentText">Probieren Sie Mi Drop. Es ist schnell und werbefrei.</string>
     <string name="midrop_post_notification_contentTitle">Sie müssen Dateien übertragen?</string>
     <string name="miui_optimization_close_final_tip">MIUI-Optimierung ausschalten?</string>
-    <string name="miui_optimization_close_title">Diese Funktion ist für Entwickler gedacht und für allgemeine Benutzer möglicherweise nicht geeignet. Abschalten der MIUI-Optimierung könnte die folgenden Änderungen mit sich bringen:</string>
+    <string name="miui_optimization_close_title">Diese Funktion ist für Entwickler gedacht und für allgemeine Benutzer evtl. nicht geeignet. Abschalten der MIUI-Optimierung könnte die folgenden Änderungen mit sich bringen:</string>
     <string name="miuix_access_state_desc">Ausgewählt</string>
     <string name="miuix_alphabet_indexer_name">Indexleiste</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Abwählen</string>
@@ -2980,11 +2980,11 @@ Ihr Gerät ist jetzt %s schneller."</string>
     <string name="network_mobile_exception_detail">"Ihr Gerät kann sich nicht mit dem Internet verbinden:
 1. Stellen Sie sicher, dass Sie Ihr Datenlimit nicht überschritten haben.
 2. Wenn Sie Ihr Guthaben gerade aufgeladen haben, starten Sie Ihr Telefon neu und versuchen es erneut.
-3. Die Signalstärke ist an Ihrem Standort möglicherweise zu schwach."</string>
+3. Die Signalstärke ist an Ihrem Standort evtl. zu schwach."</string>
     <string name="network_operator_exception_summary">SIM-Karte wurde nicht aktiviert. Stellen Sie sicher, dass die SIM-Karte eingesteckt und Ihr Datentarif vom Mobilfunkanbieter freigeschaltet ist.</string>
     <string name="network_permission_exception_tips">Mobile Datenverbindung kann nicht zur Netzwerkverbindung verwendet werden</string>
     <string name="network_roaming_exception_tips">Während des Roamings kann mobile Datenverbindung nicht zur Netzwerkverbindung verwendet werden</string>
-    <string name="network_route_exception_detail">"Möglicherweise liegt der Fehler bei Ihrem Router:
+    <string name="network_route_exception_detail">"Evtl. liegt der Fehler bei Ihrem Router:
 <b>1. Problem mit einem öffentlichen WLAN</b>
 Wenn Sie mit einem öffentlichem WLAN verbunden sind, kann je nach Anzahl der verbundenen Benutzer die Geschwindigkeit beeinträchtigt werden. Wechseln Sie in ein anderes Netzwerk und versuchen Sie es erneut.
 <b>2. Problem mit dem Internetanbieter</b>
@@ -3147,7 +3147,7 @@ Versuchen Sie ein anderes LAN-Kabel am Router. Wenn Sie vermuten, dass der Fehle
     <string name="oaid_apps_title">Virtuelle ID verwalten</string>
     <string name="oaid_reset_content_tip">Wenn Sie die virtuelle ID jetzt ausschalten, könnten einige Apps nicht mehr richtig funktionieren, ein Teil Ihrer App-Daten könnte verloren gehen oder unbrauchbar werden.</string>
     <string name="oaid_reset_final_tip">Virtuelle ID trotzdem ausschalten?</string>
-    <string name="oaid_tips_content">Virtuelle IDs (OAID) können verwendet werden, um Ihr Verhalten zu verfolgen und Anzeigen für Sie zu personalisieren. Sie können auswählen, welche Apps auf Ihre virtuelle ID zugreifen dürfen. Beachten Sie, dass, wenn Sie den Zugriff einschränken, Anzeigenempfehlungen möglicherweise irrelevant werden oder Apps nicht mehr normal funktionieren können.</string>
+    <string name="oaid_tips_content">Virtuelle IDs (OAID) können verwendet werden, um Ihr Verhalten zu verfolgen und Anzeigen für Sie zu personalisieren. Sie können auswählen, welche Apps auf Ihre virtuelle ID zugreifen dürfen. Beachten Sie, dass, wenn Sie den Zugriff einschränken, Anzeigenempfehlungen evtl. irrelevant werden oder Apps nicht mehr normal funktionieren können.</string>
     <string name="offline_voice_input">Offline-Spracheingabe</string>
     <string name="offline_voice_input_detail">Sie benötigen kein Internet für die Spracheingabe.</string>
     <string name="old_sdk_deny_warning">App ist nicht kompatibel mit den neuesten Android-Berechtigungsanforderungen. Verweigerte Berechtigungen können die Funktionsweise dieser App beeinflussen.</string>
@@ -3419,10 +3419,10 @@ Stromverbrauch"</string>
     <string name="permission_instruction_get_accounts">Diese Berechtigung erlaubt Apps den Zugriff auf die Liste der auf Ihrem Gerät gespeicherten Konten. Diese Liste könnte alle Ihre persönlichen Konten enthalten, die durch installierte Apps erstellt wurden, sowie die Konten von Social Media-Plattformen und Kommunikationstools.</string>
     <string name="permission_instruction_install_shortcuts">Diese Berechtigung erlaubt Apps, Verknüpfungen auf dem Startbildschirm zu erstellen.</string>
     <string name="permission_instruction_install_unknown_source">Diese Berechtigung erlaubt Apps, andere Apps auf Ihrem Gerät zu installieren. Bösartige Apps nutzen diese Berechtigung, um Apps ohne Ihre Bestätigung zu installieren.</string>
-    <string name="permission_instruction_modify_audio_settings">Diese Berechtigung erlaubt Apps, Audio-Einstellungen zu ändern (z. B. die Lautstärke ohne Ihre Bestätigung anzupassen). Möglicherweise können Sie die Lautstärke in einigen Apps nicht regeln, wenn Sie ihnen diese Berechtigung nicht erteilen.</string>
+    <string name="permission_instruction_modify_audio_settings">Diese Berechtigung erlaubt Apps, Audio-Einstellungen zu ändern (z. B. die Lautstärke ohne Ihre Bestätigung anzupassen). Evtl. können Sie die Lautstärke in einigen Apps nicht regeln, wenn Sie ihnen diese Berechtigung nicht erteilen.</string>
     <string name="permission_instruction_nfc">Diese Berechtigung erlaubt Apps, mit NFC-Karten und -Geräten zu kommunizieren.</string>
     <string name="permission_instruction_notification_adjustment">Diese Berechtigung erlaubt Apps, personalisiertere und vielfältigere adaptive Benachrichtigungen bereitzustellen.</string>
-    <string name="permission_instruction_ongoing_notification">Diese Berechtigung erlaubt Apps, permanente Verknüpfungen in der Benachrichtigeiste zu erstellen, die möglicherweise verhindern, dass Sie regelmäßige Benachrichtigungen sehen können.</string>
+    <string name="permission_instruction_ongoing_notification">Diese Berechtigung erlaubt Apps, dauerhafte Verknüpfungen in der Benachrichtigeiste zu erstellen, die evtl. verhindern, dass Sie regelmäßige Benachrichtigungen sehen können.</string>
     <string name="permission_instruction_package_usage_stat">Diese Berechtigung erlaubt Apps, das Verhalten anderer Apps auf Ihrem Gerät zu verfolgen und die Informationen zu erhalten, die Ihren Anbieter und die Spracheinstellungen beinhalten können. Dies ist eine Berechtigung mit hohem Risiko. Ihr Gerät könnte überwacht werden und die Sicherheit Ihrer persönlichen Daten könnte ebenfalls gefährdet sein.</string>
     <string name="permission_instruction_picture_in_picture">Diese Berechtigung erlaubt Apps, Elemente auf Ihrem Startbildschirm oder über andere Apps via Bild-in-Bild-Schnittstelle anzuzeigen.</string>
     <string name="permission_instruction_popup_window">Diese Berechtigung erlaubt Apps, Popups über jeder anderen Schnittstelle auf Ihrem Gerät anzuzeigen, was die normale Verwendung anderer Apps beeinträchtigen kann. Bösartige Apps können diese Berechtigung nutzen, um private Informationen (z. B. Passwörter) durch transparente Popups zu lesen oder zu sammeln.</string>
@@ -3685,7 +3685,7 @@ Stromverbrauch"</string>
     <string name="power_save_mode_close_aod_display_title">Always-On-Display ausschalten</string>
     <string name="power_save_mode_close_notification_screenon_summary">Funktioniert, wenn Stromsparen an ist</string>
     <string name="power_save_mode_close_notification_screenon_title">Bildschirm für Benachrichtigungen nicht aufwecken</string>
-    <string name="power_save_mode_close_warn_text">Stromsparen schränkt Hintergrundaktivitäten und Synchronisation ein. Wenn Sie es beim Laden aktiviert lassen, arbeiten möglicherweise einige Funktionen nicht richtig. Stromsparen beim Laden trotzdem aktiv lassen?</string>
+    <string name="power_save_mode_close_warn_text">Stromsparen schränkt Hintergrundaktivitäten und Synchronisation ein. Wenn Sie es beim Laden aktiviert lassen, arbeiten evtl. einige Funktionen nicht richtig. Stromsparen beim Laden trotzdem aktiv lassen?</string>
     <string name="power_save_mode_close_warn_title">Stromsparen</string>
     <string name="power_save_mode_close_xiaoai_wakeup_summary">Funktioniert, wenn Stromsparen an ist</string>
     <string name="power_save_mode_close_xiaoai_wakeup_title">Mi KI mit Stimme nicht auslösen</string>
@@ -4088,7 +4088,7 @@ Da %2$s die Dienste auf der Grundlage der Erfassung der erforderlichen persönli
     <string name="privacy_risk_detection_continue">Wiederaufnehmen</string>
     <string name="privacy_risk_detection_stop">Stop</string>
     <string name="privacy_risk_detection_stop_btn">Stop</string>
-    <string name="privacy_risk_detection_stop_msg">Wenn Sie jetzt mit dem Scannen aufhören, werden einige Datenschutzrisiken möglicherweise nicht erkannt. Trotzdem damit aufhören?</string>
+    <string name="privacy_risk_detection_stop_msg">Wenn Sie jetzt mit dem Scannen aufhören, werden einige Datenschutzrisiken evtl. nicht erkannt. Trotzdem damit aufhören?</string>
     <string name="privacy_risk_detection_stop_title">Scannen anhalten</string>
     <string name="privacy_risk_detection_title">Risiken aufdecken</string>
     <string name="privacy_risk_detection_user">Persönliche Infos</string>
