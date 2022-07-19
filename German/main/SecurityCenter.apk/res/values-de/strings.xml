@@ -1,5 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+    <string name="HIPS_Perm_External_READ_FILES">Zugriff auf Dokumente und Dateien</string>
+    <string name="HIPS_Perm_External_READ_FILES_Desc">Zugriff auf Dateien und Dokumente auf dem Gerät</string>
+    <string name="HIPS_Perm_External_READ_MEDIA_AUDIO">Zugriff auf Audio</string>
+    <string name="HIPS_Perm_External_READ_MEDIA_AUDIO_Desc">Zugriff auf Musik und andere Audiodateien auf Ihrem Gerät</string>
+    <string name="HIPS_Perm_External_READ_MEDIA_PIC_VIDEO">Zugriff auf Fotos und Videos</string>
+    <string name="HIPS_Perm_External_READ_MEDIA_PIC_VIDEO_Desc">Zugriff auf Fotos und Videos auf Ihrem Gerät</string>
+    <string name="category_no_scoped">Ungeeignete Apps</string>
+    <string name="category_scoped">Angepasste Apps</string>
+    <string name="permission_instruction_media_audio">Wenn Sie diese Berechtigung erteilen, kann die App auf Musik und andere Audiodaten auf Ihrem Telefon zugreifen. Bitte beachten Sie, dass diese persönlichen Informationen sehr wichtig sind und Sie bei der Erteilung dieser Erlaubnis an die App vorsichtig sein sollten, um eine unnötige Offenlegung privater Informationen zu vermeiden.</string>
+    <string name="permission_instruction_media_files">Wenn Sie diese Berechtigung erteilen, kann die App auf die Dateien und Dokumente auf Ihrem Telefon zugreifen. Bitte beachten Sie, dass diese persönlichen Informationen sehr wichtig sind und Sie bei der Erteilung dieser Erlaubnis an die App vorsichtig sein sollten, um eine unnötige Offenlegung privater Informationen zu vermeiden.</string>
+    <string name="permission_instruction_read_media_pic">Wenn Sie diese Berechtigung erteilen, kann die App auf Fotos und Videos auf Ihrem Telefon zugreifen. Bitte beachten Sie, dass diese persönlichen Informationen sehr wichtig sind und Sie bei der Erteilung dieser Erlaubnis an die App vorsichtig sein sollten, um eine unnötige Offenlegung privater Informationen zu vermeiden.</string>
+    <string name="permission_instruction_scoped">Neuer Mechanismus zum Schutz der Privatsphäre bei partitionierten Systemspeicher, wobei die ersten Apps so angepasst werden, dass sie eine detailliertere Kontrolle der Speicherzugriffsrechte unterstützen</string>
+    <string name="storage_compact_warning">Status Mehrfachberechtigung muss angepasst werden</string>
+    <string name="storage_compact_warning_desc">App unterstützt nur die gleichzeitige Anpassung des Zugriffs auf Fotos und Videos, Audiodateien, Dateien und Dokumente, nicht aber deren getrennten Zugriff.</string>
+
     <string name="add_bill_reminder_alarm">Warnung Telefonguthaben einstellen</string>
     <string name="bill_arrears_character">SIM %d-Guthaben reicht nicht aus. Jetzt aufladen, um verbunden zu bleiben.</string>
     <string name="bill_arrears_title">SIM %d kann sich nicht mit dem Netzwerk verbinden</string>
@@ -2172,6 +2187,9 @@ Erdbebenüberwachung"</string>
     <string name="gb_new_feature">Neue Funktion</string>
     <string name="gb_not_support_on_device">App kann auf dem äußeren Bildschirm nicht verwendet werden</string>
     <string name="gb_operat_frequently">Nicht so schnell!</string>
+    <string name="gb_performace_tips_title">Für ein besseres Erlebnis in den Leistungsmodus wechseln</string>
+    <string name="gb_performace_switch_toast">In den Leistungsmodus gewechselt. Ihr Gerät könnte sich erhitzen und mehr Strom verbrauchen.</string>
+    <string name="gb_performace_tips_button">Umschalten</string>
     <string name="gb_performance_balance">Ausgeglichen</string>
     <string name="gb_performance_balance_tips">"Ausgeglichener Modus spart Strom
 bei gleichzeitiger Senkung der Aktualisierungsrate und Temperaturgrenzen"</string>
@@ -4880,6 +4898,7 @@ Um ^1 mit diesem Gerät zu verwenden, müssen Sie es zuerst einrichten."</string
     <string name="storage_item_doc_name">Dokumente</string>
     <string name="storage_item_other_name">Andere</string>
     <string name="storage_item_picture_name">Bilder</string>
+    <string name="storage_item_system_data">Systemdateien</string>
     <string name="storage_menu_mount">Einhängen</string>
     <string name="storage_mount_failure">%1$s einhängen nicht möglich</string>
     <string name="storage_mount_success">%1$s erfolgreich eingehängt</string>
