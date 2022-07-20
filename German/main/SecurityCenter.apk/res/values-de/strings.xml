@@ -6,15 +6,6 @@
     <string name="HIPS_Perm_External_READ_MEDIA_AUDIO_Desc">Zugriff auf Musik und andere Audiodateien auf Ihrem Gerät</string>
     <string name="HIPS_Perm_External_READ_MEDIA_PIC_VIDEO">Zugriff auf Fotos und Videos</string>
     <string name="HIPS_Perm_External_READ_MEDIA_PIC_VIDEO_Desc">Zugriff auf Fotos und Videos auf Ihrem Gerät</string>
-    <string name="category_no_scoped">Ungeeignete Apps</string>
-    <string name="category_scoped">Angepasste Apps</string>
-    <string name="permission_instruction_media_audio">Wenn Sie diese Berechtigung erteilen, kann die App auf Musik und andere Audiodaten auf Ihrem Telefon zugreifen. Bitte beachten Sie, dass diese persönlichen Informationen sehr wichtig sind und Sie bei der Erteilung dieser Erlaubnis an die App vorsichtig sein sollten, um eine unnötige Offenlegung privater Informationen zu vermeiden.</string>
-    <string name="permission_instruction_media_files">Wenn Sie diese Berechtigung erteilen, kann die App auf die Dateien und Dokumente auf Ihrem Telefon zugreifen. Bitte beachten Sie, dass diese persönlichen Informationen sehr wichtig sind und Sie bei der Erteilung dieser Erlaubnis an die App vorsichtig sein sollten, um eine unnötige Offenlegung privater Informationen zu vermeiden.</string>
-    <string name="permission_instruction_read_media_pic">Wenn Sie diese Berechtigung erteilen, kann die App auf Fotos und Videos auf Ihrem Telefon zugreifen. Bitte beachten Sie, dass diese persönlichen Informationen sehr wichtig sind und Sie bei der Erteilung dieser Erlaubnis an die App vorsichtig sein sollten, um eine unnötige Offenlegung privater Informationen zu vermeiden.</string>
-    <string name="permission_instruction_scoped">Neuer Mechanismus zum Schutz der Privatsphäre bei partitioniertem Systemspeicher, wobei die ersten Apps so angepasst werden, dass sie eine detailliertere Kontrolle der Speicherzugriffsrechte unterstützen</string>
-    <string name="storage_compact_warning">Status Mehrfachberechtigung muss angepasst werden</string>
-    <string name="storage_compact_warning_desc">App unterstützt nur die gleichzeitige Anpassung des Zugriffs auf Fotos und Videos, Audiodateien, Dateien und Dokumente, nicht aber deren getrennten Zugriff.</string>
-
     <string name="add_bill_reminder_alarm">Warnung Telefonguthaben einstellen</string>
     <string name="bill_arrears_character">SIM %d-Guthaben reicht nicht aus. Jetzt aufladen, um verbunden zu bleiben.</string>
     <string name="bill_arrears_title">SIM %d kann sich nicht mit dem Netzwerk verbinden</string>
@@ -1213,6 +1204,8 @@ Sie verlieren keine App-Daten."</string>
     <string name="card_uninstall_button_text">Verwalten</string>
     <string name="card_uninstall_summary">Selten verwendete Apps deinstallieren, um Speicherplatz freizugeben</string>
     <string name="card_uninstall_title_1">Selten verwendete Apps deinstallieren</string>
+    <string name="category_no_scoped">Ungeeignete Apps</string>
+    <string name="category_scoped">Angepasste Apps</string>
     <string name="cd_back">Zurück</string>
     <string name="cellular_data_auto_check">Automatisch prüfen</string>
     <string name="cellular_package_daily_input">Eingeben</string>
@@ -3419,6 +3412,8 @@ Stromverbrauch"</string>
     <string name="permission_instruction_get_accounts">Diese Berechtigung erlaubt Apps den Zugriff auf die Liste der auf Ihrem Gerät gespeicherten Konten. Diese Liste könnte alle Ihre persönlichen Konten enthalten, die durch installierte Apps erstellt wurden, sowie die Konten von Social Media-Plattformen und Kommunikationstools.</string>
     <string name="permission_instruction_install_shortcuts">Diese Berechtigung erlaubt Apps, Verknüpfungen auf dem Startbildschirm zu erstellen.</string>
     <string name="permission_instruction_install_unknown_source">Diese Berechtigung erlaubt Apps, andere Apps auf Ihrem Gerät zu installieren. Bösartige Apps nutzen diese Berechtigung, um Apps ohne Ihre Bestätigung zu installieren.</string>
+    <string name="permission_instruction_media_audio">Wenn Sie diese Berechtigung erteilen, kann die App auf Musik und andere Audiodaten auf Ihrem Telefon zugreifen. Bitte beachten Sie, dass diese persönlichen Informationen sehr wichtig sind und Sie bei der Erteilung dieser Erlaubnis an die App vorsichtig sein sollten, um eine unnötige Offenlegung privater Informationen zu vermeiden.</string>
+    <string name="permission_instruction_media_files">Wenn Sie diese Berechtigung erteilen, kann die App auf die Dateien und Dokumente auf Ihrem Telefon zugreifen. Bitte beachten Sie, dass diese persönlichen Informationen sehr wichtig sind und Sie bei der Erteilung dieser Erlaubnis an die App vorsichtig sein sollten, um eine unnötige Offenlegung privater Informationen zu vermeiden.</string>
     <string name="permission_instruction_modify_audio_settings">Diese Berechtigung erlaubt Apps, Audio-Einstellungen zu ändern (z. B. die Lautstärke ohne Ihre Bestätigung anzupassen). Evtl. können Sie die Lautstärke in einigen Apps nicht regeln, wenn Sie ihnen diese Berechtigung nicht erteilen.</string>
     <string name="permission_instruction_nfc">Diese Berechtigung erlaubt Apps, mit NFC-Karten und -Geräten zu kommunizieren.</string>
     <string name="permission_instruction_notification_adjustment">Diese Berechtigung erlaubt Apps, personalisiertere und vielfältigere adaptive Benachrichtigungen bereitzustellen.</string>
@@ -3430,6 +3425,7 @@ Stromverbrauch"</string>
     <string name="permission_instruction_read_calllog">Diese Berechtigung erlaubt Apps den Zugriff auf den Anrufverlauf, der detaillierte Informationen über Ihre ein- und ausgehenden Anrufe enthalten kann. Diese Berechtigung erlaubt Apps auch, Aufzeichnungen des Anrufverlaufs zu speichern. Bösartige Apps können diese Berechtigung nutzen, um Ihren Anrufverlauf an Dritte weiterzugeben oder für Betrug zu verwenden.</string>
     <string name="permission_instruction_read_clipboard">Diese Berechtigung erlaubt Apps, alle von Ihnen kopierten Inhalte zu lesen, die private Informationen enthalten können (z. B. Kontodaten, Bankkartennummern und Passwörter).</string>
     <string name="permission_instruction_read_contacts">Diese Berechtigung erlaubt Apps den Zugriff auf die auf Ihrem Gerät gespeicherten Kontaktinformationen. Diese Informationen können die Häufigkeit Ihrer Kommunikation mit bestimmten Kontakten über Anrufe, E-Mails und andere Methoden enthalten. Diese Berechtigung erlaubt Apps auch, Kontakte zu speichern. Bösartige Apps können diese Berechtigung verwenden, um Kontakte ohne Ihre Zustimmung freizugeben.</string>
+    <string name="permission_instruction_read_media_pic">Wenn Sie diese Berechtigung erteilen, kann die App auf Fotos und Videos auf Ihrem Telefon zugreifen. Bitte beachten Sie, dass diese persönlichen Informationen sehr wichtig sind und Sie bei der Erteilung dieser Erlaubnis an die App vorsichtig sein sollten, um eine unnötige Offenlegung privater Informationen zu vermeiden.</string>
     <string name="permission_instruction_read_notify_sms">Diese Berechtigung erlaubt Apps, auf Ihrem Gerät oder Ihrer SIM-Karte gespeicherte Benachrichtigungstexte zu lesen.</string>
     <string name="permission_instruction_read_phone_state">Diese Berechtigung erlaubt Apps den Zugriff auf Ihre Rufnummer, IMEI, IMSI und andere Gerätekennungen. Apps verwenden diese Berechtigung normalerweise, um festzustellen, ob Ihre Anrufe weitergeleitet werden. Wenn Sie eine virtuelle Geräte-ID verwenden, können Apps nicht auf Ihre tatsächlichen Gerätekennungen zugreifen.</string>
     <string name="permission_instruction_read_sms">Diese Berechtigung erlaubt Apps, alle auf Ihrem Gerät oder Ihrer SIM-Karte gespeicherten Text- und Multimedia-Nachrichten lesen. Solche Nachrichten können Passwörter, Bankkontodaten und andere persönliche Informationen enthalten.</string>
@@ -3438,6 +3434,7 @@ Stromverbrauch"</string>
     <string name="permission_instruction_record_audio">Diese Berechtigung erlaubt Apps, das Mikrofon für Audioaufnahmen zu verwenden. Bedenken Sie, dass diese Berechtigung Apps erlaubt, alles aufzunehmen, inkl. Ihrer Gespräche mit anderen. Am besten erlauben Sie Apps die Verwendung dieser Berechtigung nur während der App-Nutzung.</string>
     <string name="permission_instruction_running_background">Diese Berechtigung erlaubt Apps, im Hintergrund zu arbeiten. Dabei können Apps Daten sammeln und Dienste anbieten. Bedenken Sie, dass solche Aktivitäten den Stromverbrauch erhöhen.</string>
     <string name="permission_instruction_running_exceed_data">Diese Berechtigung erlaubt Apps, Nutzungsbeschränkungen für mobile Daten zu ignorieren.</string>
+    <string name="permission_instruction_scoped">Neuer Mechanismus zum Schutz der Privatsphäre bei partitioniertem Systemspeicher, wobei die ersten Apps so angepasst werden, dass sie eine detailliertere Kontrolle der Speicherzugriffsrechte unterstützen</string>
     <string name="permission_instruction_send_mms">Diese Berechtigung erlaubt Apps, Multimedia-Nachrichten zu senden, was zusätzliche Kosten verursachen kann. Bösartige Apps können diese Berechtigung nutzen, um ohne Ihre Zustimmung kostenpflichtige Nachrichten zu versenden.</string>
     <string name="permission_instruction_send_payment_sms">Diese Berechtigung erlaubt Apps, kostenpflichtige Textnachrichten zu senden.</string>
     <string name="permission_instruction_send_sms">Diese Berechtigung erlaubt Apps, Textnachrichten zu versenden, was zusätzliche Kosten verursachen kann. Bösartige Apps können diese Berechtigung nutzen, um ohne Ihre Zustimmung kostenpflichtige Nachrichten zu versenden.</string>
@@ -4877,6 +4874,8 @@ Da %2$s die Dienste auf der Grundlage der Erfassung der erforderlichen persönli
     <string name="storage_clear_cache_large">%s freigeben</string>
     <string name="storage_clear_more_tools">Weitere Bereinigungstools</string>
     <string name="storage_clear_video">Video-Cache bereinigen</string>
+    <string name="storage_compact_warning">Status Mehrfachberechtigung muss angepasst werden</string>
+    <string name="storage_compact_warning_desc">App unterstützt nur die gleichzeitige Anpassung des Zugriffs auf Fotos und Videos, Audiodateien, Dateien und Dokumente, nicht aber deren getrennten Zugriff.</string>
     <string name="storage_deepclean_entry">Tiefenreinigung</string>
     <string name="storage_dialog_unmountable">"^1 ist fehlerhaft.
 
