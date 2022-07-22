@@ -1,12 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-    <string name="fiveg_nrca_switch_summary">Use 5G carrier aggregation for better connectivity</string>
-    <string name="fiveg_nrca_switch_title">5G carrier aggregation</string>
-    <string name="nrca_switch_summary">Use 5G carrier aggregation for better connectivity</string>
-    <string name="nrca_switch_title">Use NRCA</string>
-    <string name="unfold_show_bublle_pref_summary">Unfold the device during calls to show them in floating windows</string>
-    <string name="unfold_show_bublle_pref_title">Unfold to minimize calls</string>
-
     <string name="HIPS_Perm_External_Storage">Speicher</string>
     <string name="HIPS_Perm_External_Storage_Desc">Zugriff auf und Speichern von Dateien und Fotos auf Ihrem Gerät</string>
     <string name="HIPS_Perm_Read_Contact">Kontakte</string>
@@ -424,17 +417,13 @@
     <string name="bluetooth_sap_profile_summary_connected">Verbunden mit SAP</string>
     <string name="bluetooth_sap_profile_summary_use_for">Für SIM-Zugriff verwenden</string>
     <string name="bluetooth_select_a2dp_codec_bits_per_sample">Bluetooth Audio Bits pro Abtastwert</string>
-    <string name="bluetooth_select_a2dp_codec_bits_per_sample_dialog_title">"Bluetooth Audio Codec wählen:
-Bits pro Abtastwert"</string>
+    <string name="bluetooth_select_a2dp_codec_bits_per_sample_dialog_title">Bluetooth Audio Codec auswählen:\nBits pro Abtastwert</string>
     <string name="bluetooth_select_a2dp_codec_channel_mode">Bluetooth Audio Kanalmodus</string>
-    <string name="bluetooth_select_a2dp_codec_channel_mode_dialog_title">"Bluetooth Audio Codec wählen:
-Kanalmodus"</string>
+    <string name="bluetooth_select_a2dp_codec_channel_mode_dialog_title">Bluetooth Audio Codec auswählen:\nKanalmodus</string>
     <string name="bluetooth_select_a2dp_codec_ldac_playback_quality">Bluetooth Audio LDAC Codec: Wiedergabequalität</string>
-    <string name="bluetooth_select_a2dp_codec_ldac_playback_quality_dialog_title">"Bluetooth Audio LDAC Codec wählen:
-Wiedergabequalität"</string>
+    <string name="bluetooth_select_a2dp_codec_ldac_playback_quality_dialog_title">Bluetooth Audio LDAC Codec auswählen:\nWiedergabequalität</string>
     <string name="bluetooth_select_a2dp_codec_sample_rate">Bluetooth Audio Abtastrate</string>
-    <string name="bluetooth_select_a2dp_codec_sample_rate_dialog_title">"Bluetooth Audio Codec wählen:
-Abtastrate"</string>
+    <string name="bluetooth_select_a2dp_codec_sample_rate_dialog_title">Bluetooth Audio Codec auswählen:\nAbtastrate</string>
     <string name="bluetooth_select_a2dp_codec_type_dialog_title">Bluetooth Audio Codec wählen</string>
     <string name="bluetooth_select_a2dp_codec_type_help_info">Ausgegraut bedeutet, dass Telefon oder Headset nicht unterstützt werden</string>
     <string name="bluetooth_select_avrcp_version_dialog_title">Bluetooth AVRCP Version wählen</string>
@@ -845,10 +834,7 @@ Abtastrate"</string>
     <string name="contactdeleteFailed">SIM-Kontakt wurde nicht gelöscht</string>
     <string name="contactdeleteSuccess">SIM-Kontakt erfolgreich gelöscht</string>
     <string name="content_description_menu_button">Menü</string>
-    <string name="convert_to_fbe_warning">"Datenpartition wird in dateibasierte Verschlüsselung konvertiert.
-!!Warnung!! Dies wird all Ihre Daten löschen.
-Dies ist eine Alpha-Funktion und funktioniert eventuell nicht korrekt.
-Tippen Sie 'Löschen und konvertieren…', um fortzufahren."</string>
+    <string name="convert_to_fbe_warning">Datenpartition wird in dateibasierte Verschlüsselung konvertiert.\n!!Warnung!! Dies wird all Ihre Daten löschen.\nDies ist eine Alpha-Funktion und funktioniert eventuell nicht korrekt.\nTippen Sie 'Löschen und konvertieren…', um fortzufahren.</string>
     <string name="convert_to_file_encryption">In Dateiverschlüsselung konvertieren</string>
     <string name="convert_to_file_encryption_done">Bereits verschlüsselt</string>
     <string name="convert_to_file_encryption_enabled">Konvertieren…</string>
@@ -868,15 +854,11 @@ Tippen Sie 'Löschen und konvertieren…', um fortzufahren."</string>
     <string name="daltonizer_type_overridden">Überschrieben von %1$s</string>
     <string name="data_disable_warning_no_mms">Sie können keine MMS senden und empfangen, wenn Sie mobile Daten (WCDMA/LTE) ausschalten. Sie können dies jedoch tun, wenn Ihr Gerät mit WLAN verbunden ist.</string>
     <string name="data_disable_warning_with_mms">Sie können weiterhin MMS senden und empfangen, wenn Sie mobile Daten (WCDMA/LTE) ausschalten. Für die Internetnutzung verbinden Sie sich mit WLAN.</string>
-    <string name="data_disable_warning_with_mms_lgu">"Sie können weiterhin MMS senden und empfangen, wenn Sie mobile Daten ausschalten. Für die Internetnutzung verbinden Sie sich mit WLAN.
-
-Mobile Daten ausschalten?"</string>
+    <string name="data_disable_warning_with_mms_lgu">Sie können weiterhin MMS senden und empfangen, wenn Sie mobile Daten ausschalten. Für die Internetnutzung verbinden Sie sich mit WLAN.\n\nMobile Daten ausschalten?</string>
     <string name="data_enable_always_warn">Fragen, ob mobile Daten verwendet werden sollen</string>
     <string name="data_enable_summary">Datenzugriff über Mobilfunk einschalten</string>
     <string name="data_enable_warning">Ständige Nutzung mobiler Daten kann zusätzliche Kosten zu Ihrem Mobilfunktarifs verursachen. Trotzdem verbinden?</string>
-    <string name="data_enable_warning_lgu">"Sofern in Ihrem Mobilfunktarif nicht anders angegeben, können bei der Nutzung mobiler Daten zusätzliche Kosten anfallen.
-
-Mobile Daten trotzdem nutzen?"</string>
+    <string name="data_enable_warning_lgu">Sofern in Ihrem Mobilfunktarif nicht anders angegeben, können bei der Nutzung mobiler Daten zusätzliche Kosten anfallen.\n\nMobile Daten trotzdem nutzen?</string>
     <string name="data_enabled">Datenverbindung einschalten</string>
     <string name="data_interruption_remind">Anscheinend ist Ihre Netzwerkumgebung nicht zuverlässig. Um die Verbindung zu verbessern, erlauben Sie Ihrem Gerät, mobile Daten während VoLTE-Anrufen auf der zweiten SIM-Karte zu verwenden.</string>
     <string name="data_plan">Mobile Datenpläne</string>
@@ -970,7 +952,7 @@ Mobile Daten trotzdem nutzen?"</string>
     <string name="disable_cfb_forbidden">Ihr Mobilfunkanbieter unterstützt die Deaktivierung der Rufumleitung bei besetzter Leitung nicht</string>
     <string name="disable_cfnrc_forbidden">Ihr Mobilfunkanbieter unterstützt die Deaktivierung der Rufumleitung bei Nichterreichbarkeit nicht</string>
     <string name="disable_cfnry_forbidden">Ihr Mobilfunkanbieter unterstützt die Deaktivierung der Rufumleitung bei Nichtbeantwortung nicht</string>
-    <string name="disable_esim_dialog_summary">"SIM %s wird aktiviert, wenn Sie eSIM jetzt deaktivieren.\neSIM trotzdem deaktivieren?"</string>
+    <string name="disable_esim_dialog_summary">SIM %s wird aktiviert, wenn Sie eSIM jetzt deaktivieren.\neSIM trotzdem deaktivieren?</string>
     <string name="disable_esim_dialog_title">eSIM deaktivieren</string>
     <string name="disable_esim_error_toast_message">eSIM deaktivieren fehlgeschlagen</string>
     <string name="disable_esim_progress_activating_message">eSIM deaktivieren…</string>
@@ -1064,7 +1046,7 @@ Mobile Daten trotzdem nutzen?"</string>
     <string name="enable_disable_technology_news">Techniknachrichten</string>
     <string name="enable_dual_4g_if_dual_ct">4G-Netze für beide SIM-Karten bervorzugen, um VoLTE auf der zweiten SIM-Karte zu verwenden, wenn zwei China Telecom SIM-Karten installiert sind.</string>
     <string name="enable_dual_4g_prompt_when_turn_on_volte">VoLTE erfordert 4G-Konnektivität für beide SIM-Slots. Jetzt zu Dual 4G wechseln?</string>
-    <string name="enable_esim_dialog_summary">"SIM %s wird deaktiviert, wenn Sie eSIM jetzt aktivieren.\neSIM trotzdem aktivieren?"</string>
+    <string name="enable_esim_dialog_summary">SIM %s wird deaktiviert, wenn Sie eSIM jetzt aktivieren.\neSIM trotzdem aktivieren?</string>
     <string name="enable_esim_dialog_title">eSIM aktivieren</string>
     <string name="enable_esim_error_toast_message">eSIM aktivieren fehlgeschlagen</string>
     <string name="enable_esim_progress_activating_message">eSIM aktivieren…</string>
@@ -1158,10 +1140,6 @@ Mobile Daten trotzdem nutzen?"</string>
     <string name="fdn_summary">Ausgehende Anrufe auf Beschränkungsliste oder auf bestimmte Vorwahlen beschränken</string>
     <string name="fdn_with_label">Rufnummernbeschränkung (%s)</string>
     <string name="fire_type_description">Feuer</string>
-    <string name="fiveg_info">5G-Info anzeigen</string>
-    <string name="fiveg_power_switch_summary">5G-Konnektivität in bestimmten Szenarien weniger stromintensiv machen</string>
-    <string name="fiveg_power_switch_title">5G-Stromsparen</string>
-    <string name="fiveg_sa_vice_switch_summary">Sekundäre SIM-Karte kann unabhängiges 5G-Netz nutzen</string>
     <string name="fiveg_available_status1">NR verfügbar:</string>
     <string name="fiveg_bearer_status1">5G-Bearer-Status:</string>
     <string name="fiveg_carrier_aggregation_title">5G Carrier Aggregation</string>
@@ -1170,6 +1148,7 @@ Mobile Daten trotzdem nutzen?"</string>
     <string name="fiveg_hosted_mode_summary">Automatisch bestes Netzwerk auswählen, um Strom zu sparen</string>
     <string name="fiveg_hosted_mode_title">5G Intelligenter Schalter</string>
     <string name="fiveg_icon_type1">NR-Symboltyp:</string>
+    <string name="fiveg_info">5G-Info anzeigen</string>
     <string name="fiveg_infos">5G-Infos</string>
     <string name="fiveg_network_config_type1">Netzwerk-Config-Typ [Slot1]:</string>
     <string name="fiveg_network_config_type2">Netzwerk-Config-Typ [Slot2]:</string>
@@ -1178,8 +1157,12 @@ Mobile Daten trotzdem nutzen?"</string>
     <string name="fiveg_network_mode_sa_nsa">SA+NSA</string>
     <string name="fiveg_network_mode_title">5G-Netzwerkmodus wählen</string>
     <string name="fiveg_network_title">5G</string>
+    <string name="fiveg_nrca_switch_summary">Use 5G carrier aggregation for better connectivity</string>
+    <string name="fiveg_nrca_switch_title">5G carrier aggregation</string>
     <string name="fiveg_plmn_info_list1">PLMN-Infoliste:</string>
     <string name="fiveg_power_secret_code_tip">Über Sicherheits-APP - Akku - 5G-Stromsparen einstellen</string>
+    <string name="fiveg_power_switch_summary">5G-Konnektivität in bestimmten Szenarien weniger stromintensiv machen</string>
+    <string name="fiveg_power_switch_title">5G-Stromsparen</string>
     <string name="fiveg_restrict_dcnr1">DCNR beschränken:</string>
     <string name="fiveg_sa_switch_open_dialog_content">5G-Verbindung kann im Standalone-Modus instabil sein, was sich auf die Telefonie auswirken kann. SA-Modus trotzdem einschalten?</string>
     <string name="fiveg_sa_switch_open_dialog_title">Achtung</string>
@@ -1188,6 +1171,7 @@ Mobile Daten trotzdem nutzen?"</string>
     <string name="fiveg_sa_switch_title_slot0">SIM %d SA-Modus</string>
     <string name="fiveg_sa_switch_title_slot1">SIM %d SA-Modus</string>
     <string name="fiveg_sa_switch_warning_toast">Telefon neu starten, um die Änderungen zu übernehmen</string>
+    <string name="fiveg_sa_vice_switch_summary">Sekundäre SIM-Karte kann unabhängiges 5G-Netz nutzen</string>
     <string name="fiveg_sa_vice_switch_title">SA auf sekundärer SIM</string>
     <string name="fiveg_signal_strength1">5G-Signalstärke:</string>
     <string name="fiveg_switch_per_slot_summary">5G nutzen, um die Geschwindigkeit der mobilen Datenverbindung zu erhöhen</string>
@@ -1250,10 +1234,8 @@ Mobile Daten trotzdem nutzen?"</string>
     <string name="full_forwarding_option_off">AUS</string>
     <string name="full_forwarding_option_voicemail">Sprachnachricht</string>
     <string name="full_forwarding_settings">Vollständige Weiterleitung</string>
-    <string name="fw_change_failed">"Rufumleitungsnummer wurde nicht geändert.
-Kontaktieren Sie Ihren Mobilfunkanbieter, falls das Problem weiterhin besteht."</string>
-    <string name="fw_get_in_vm_failed">"Aktuelle Rufumleitungseinstellungen wurden nicht empfangen oder gespeichert.
-Trotzdem zum neuen Mobilfunkanbieter wechseln?"</string>
+    <string name="fw_change_failed">Rufumleitungsnummer konnte nicht geändert werden.\nKontaktieren Sie Ihren Mobilfunkanbieter, falls das Problem weiterhin besteht.</string>
+    <string name="fw_get_in_vm_failed">Aktuelle Rufumleitungseinstellungen wurden nicht empfangen oder gespeichert.\nTrotzdem zum neuen Mobilfunkanbieter wechseln?</string>
     <string name="general_news_settings">Allgemeine Nachrichten</string>
     <string name="general_setting">Einstellungen</string>
     <string name="general_settings_category">Allgemein</string>
@@ -1313,11 +1295,7 @@ Trotzdem zum neuen Mobilfunkanbieter wechseln?"</string>
     <string name="incall_error_out_of_service_wfc">Mobilfunknetzt nicht verfügbar. Mit WLAN verbinden zum Telefonieren.</string>
     <string name="incall_error_outgoing_call_failed">Ausgehender Anruf fehlgeschlagen</string>
     <string name="incall_error_power_off">Flugmodus ausschalten, um einen Anruf zu tätigen</string>
-    <string name="incall_error_power_off_thermal"><b>Telefon zu heiß</b>"
-
-Anruf beenden nicht möglich. Erneut versuchen, wenn Ihr Telefon abgekühlt ist.
-
-Sie können weiterhin Notrufe tätigen."</string>
+    <string name="incall_error_power_off_thermal"><b>Telefon zu heiß</b>\n\nAnruf beenden nicht möglich. Erneut versuchen, wenn Ihr Telefon abgekühlt ist.\n\nSie können weiterhin Notrufe tätigen.</string>
     <string name="incall_error_power_off_wfc">Flugmodus ausschalten oder mit WLAN verbinden zum Telefonieren</string>
     <string name="incall_error_promote_wfc">WLAN-Anrufe einschalten, um einen Anruf zu tätigen</string>
     <string name="incall_error_supp_service_conference">Telefonkonferenz nicht möglich</string>
@@ -1463,12 +1441,7 @@ Sie können weiterhin Notrufe tätigen."</string>
     <string name="lgu_msim_emm_cause_7_14">SIM %d-Netz bietet keine mobilen Datendienste</string>
     <string name="lgu_msim_emm_cause_8">SIM %d wurde nicht am Netz angemeldet. Gehen Sie zu einem Kundendienstzentrum (+82-2-3416-7010).</string>
     <string name="lgu_msim_emm_cause_others">SIM %d kann sich nicht mit dem Netz verbinden. Gehen Sie zu einem Kundendienstzentrum (+82-2-3416-7010).</string>
-    <string name="limited_service_alert_dialog_description"><b>Notrufe über WLAN-Anrufe</b>"
-Notrufe sind über WLAN-Anrufe nicht möglich.
-
-Das Gerät schaltet automatisch auf ein Mobilfunknetz (2G/3G) um, um einen Notruf zu tätigen.
-
-Notrufe sind nur in Gebieten mit Mobilfunkversorgung möglich."</string>
+    <string name="limited_service_alert_dialog_description"><b>Notrufe über WLAN-Anrufe</b>\n\nNotrufe sind über WLAN-Anrufe nicht möglich.\n\nDas Gerät schaltet automatisch auf ein Mobilfunknetz (2G/3G) um, um einen Notruf zu tätigen.\n\nNotrufe sind nur in Gebieten mit Mobilfunkversorgung möglich.</string>
     <string name="limited_sim_function_notification_message">%1$s-Anrufe und -Datendienste können blockiert werden, wenn eine andere SIM verwendet wird</string>
     <string name="limited_sim_function_notification_title">Begrenzte SIM-Funktionalität</string>
     <string name="limited_sim_function_with_phone_num_notification_message">%1$s-Anrufe und -Datendienste können blockiert werden, wenn %2$s verwendet wird</string>
@@ -1531,15 +1504,11 @@ Notrufe sind nur in Gebieten mit Mobilfunkversorgung möglich."</string>
     <string name="menu_pc_open">Am PC öffnen</string>
     <string name="messageCFB">Nummer falls besetzt</string>
     <string name="messageCFNRc">Nummer nicht erreichbar</string>
-    <string name="messageCFNRc_kr_kt">"Netzdienst, der alle eingehenden Anrufe und Textnachrichten an eine bestimmte Nummer umleitet, wenn Sie keine Anrufe annehmen können (z. B. wenn Sie telefonieren oder Ihr Gerät ausgeschaltet ist). Sie müssen diesen Dienst abonnieren. Wenden Sie sich ans Kundenzentrum (114+[Senden]), um diesen Dienst zu abonnieren oder abzubestellen. *72+[Nummer zur Weiterleitung von Anrufen an][Senden] eingeben zum Aktivieren oder *720[Senden] zum Deaktivieren.
-
-Nummer, wenn nicht erreichbar"</string>
+    <string name="messageCFNRc_kr_kt">Netzdienst, der alle eingehenden Anrufe und Textnachrichten an eine bestimmte Nummer umleitet, wenn Sie keine Anrufe annehmen können (z. B. wenn Sie telefonieren oder Ihr Gerät ausgeschaltet ist). Sie müssen diesen Dienst abonnieren. Wenden Sie sich ans Kundenzentrum (114+[Senden]), um diesen Dienst zu abonnieren oder abzubestellen. *72+[Nummer zur Weiterleitung von Anrufen an][Senden] eingeben zum Aktivieren oder *720[Senden] zum Deaktivieren.\n\nNummer, wenn nicht erreichbar</string>
     <string name="messageCFNRy">Nummer falls unbeantwortet</string>
     <string name="messageCFU">Immer diese Nummer verwenden</string>
     <string name="messageCFU_kr" formatted="false">Netzdienst, der alle eingehenden Anrufe und Textnachrichten an eine bestimmte Nummer umleitet. Sie müssen diesen Dienst abonnieren. Ihnen wird ein monatlicher Grundpreis berechnet. Wenden Sie sich an das Kundenzentrum (114+[Senden]), um diesen Dienst zu abonnieren oder abzubestellen. %s+[Nummer zum Anrufe weiterleiten][Senden] eingeben zum Aktivieren oder %s[Senden] zum Deaktivieren.</string>
-    <string name="messageCFU_kr_kt">"Netzdienst, der alle eingehenden Anrufe und Textnachrichten an eine bestimmte Nummer umleitet. Sie müssen diesen Dienst abonnieren. Ihnen wird ein monatlicher Grundpreis berechnet. Wenden Sie sich ans Kundenzentrum (114+[Senden]), um diesen Dienst zu abonnieren oder abzubestellen. *71+[Nummer zur Weiterleitung von Anrufen an][Senden] eingeben zum Aktivieren oder *710[Senden] zum Deaktivieren.
-
-Immer diese Nummer verwenden"</string>
+    <string name="messageCFU_kr_kt">Netzdienst, der alle eingehenden Anrufe und Textnachrichten an eine bestimmte Nummer umleitet. Sie müssen diesen Dienst abonnieren. Ihnen wird ein monatlicher Grundpreis berechnet. Wenden Sie sich ans Kundenzentrum (114+[Senden]), um diesen Dienst zu abonnieren oder abzubestellen. *71+[Nummer zur Weiterleitung von Anrufen an][Senden] eingeben zum Aktivieren oder *710[Senden] zum Deaktivieren.\n\nImmer diese Nummer verwenden</string>
     <string name="messageCW_kr" formatted="false">Kostenloser Netzdienst, mit dem Sie während eines Anrufs einen zweiten annehmen können, wobei der erste Anruf gehalten wird. %s[Senden] eingeben zum Aktivieren oder %s[Senden] zum Deaktivieren.</string>
     <string name="messageCW_kr_kt">Kostenloser Netzdienst, mit dem Sie während eines Anrufs einen zweiten annehmen können, wobei der erste Anruf gehalten wird. *40+[Senden] eingeben zum Aktivieren oder *400+[Senden] zum Deaktivieren.</string>
     <string name="messageCallBarring">Passwort eingeben</string>
@@ -1828,8 +1797,7 @@ Immer diese Nummer verwenden"</string>
     <string name="no_mobile_data">Mobile Daten nicht verfügbar</string>
     <string name="no_mobile_data_roaming">Datenroaming nicht verfügbar</string>
     <string name="no_rtt_when_roaming">Hinweis: RTT ist beim Roaming nicht verfügbar</string>
-    <string name="no_unlock_chance_hint">"Sie haben keine Versuche mehr.
-Kontaktieren Sie Ihren Mobilfunkanbieter."</string>
+    <string name="no_unlock_chance_hint">Sie haben keine Versuche mehr.\nKontaktieren Sie Ihren Mobilfunkanbieter.</string>
     <string name="no_vm_number">Fehlende Sprachboxnummer</string>
     <string name="no_vm_number_msg">Auf der SIM-Karte ist keine Sprachboxnummer gespeichert</string>
     <string name="no_voip">SIP-Anrufe werden nicht unterstützt</string>
@@ -1865,6 +1833,8 @@ Kontaktieren Sie Ihren Mobilfunkanbieter."</string>
     <string name="nr_usaged_operator">Anbieter</string>
     <string name="nr_usaged_used_time">Nutzungsdauer</string>
     <string name="nrca_need_reset">Gerät neu starten, um Änderungen zu übernehmen</string>
+    <string name="nrca_switch_summary">Use 5G carrier aggregation for better connectivity</string>
+    <string name="nrca_switch_title">Use NRCA</string>
     <string name="null_phone_number">Rufnummer kann nicht Null sein!</string>
     <string name="number">Nummer</string>
     <string name="numerous_emergency_numbers_title">Notfallnummern</string>
@@ -1909,8 +1879,7 @@ Kontaktieren Sie Ihren Mobilfunkanbieter."</string>
     <string name="ota_activate">Aktivieren</string>
     <string name="ota_call_end">Zurück</string>
     <string name="ota_failure">Ihr Telefon wurde nicht programmiert.</string>
-    <string name="ota_hfa_activation_dialog_message">Mobiler Datendienst wird jetzt auf Ihrem Telefon aktiviert.
-  Dies kann bis zu 5 Minuten dauern.</string>
+    <string name="ota_hfa_activation_dialog_message">Mobiler Datendienst wird jetzt auf Ihrem Telefon aktiviert.\nDies kann bis zu 5 Minuten dauern.</string>
     <string name="ota_hfa_activation_title">Aktivieren…</string>
     <string name="ota_listen">Folgen Sie den gesprochenen Anweisungen, bis Sie hören, dass die Aktivierung abgeschlossen ist.</string>
     <string name="ota_next">Weiter</string>
@@ -1924,12 +1893,9 @@ Kontaktieren Sie Ihren Mobilfunkanbieter."</string>
     <string name="ota_title_activate">Telefon aktivieren</string>
     <string name="ota_title_activate_success">Telefon wurde erfolgreich aktiviert</string>
     <string name="ota_title_problem_with_activation">Problem mit der Aktivierung</string>
-    <string name="ota_touch_activate">"Ein spezieller Anruf muß getätigt werden, damit Ihr Telefondienst aktiviert wird.
-Wenn Sie 'Aktivieren' drücken, hören Sie den Anweisungen zu, um das Telefon zu aktivieren."</string>
+    <string name="ota_touch_activate">Ein spezieller Anruf muß getätigt werden, damit Ihr Telefondienst aktiviert wird.\nWenn Sie 'Aktivieren' drücken, hören Sie den Anweisungen zu, um das Telefon zu aktivieren.</string>
     <string name="ota_try_again">Erneut versuchen</string>
-    <string name="ota_unsuccessful">"Ihr Telefon wurde nicht aktiviert.
-Evtl. müssen Sie einen Bereich mit besserem Empfang finden (nahe eines Fensters oder draußen).
-Erneut versuchen oder den Kundendienst für weitere Optionen anrufen."</string>
+    <string name="ota_unsuccessful">Ihr Telefon wurde nicht aktiviert.\nEvtl. müssen Sie einen Bereich mit besserem Empfang finden (nahe eines Fensters oder draußen).\nErneut versuchen oder den Kundendienst für weitere Optionen anrufen.</string>
     <string name="other_available_phone_accounts">Andere verfügbare Konten</string>
     <string name="other_settings">Weitere Anrufeinstellungen</string>
     <string name="other_settings_category">Andere</string>
@@ -1979,8 +1945,8 @@ Erneut versuchen oder den Kundendienst für weitere Optionen anrufen."</string>
     <string name="pause_prompt_str">Töne senden</string>
     <string name="pause_prompt_yes">Ja</string>
     <string name="payphone">Telefonzelle</string>
-    <string name="permission_description">Berechtigungsdetails</string>
     <string name="pci_num">LTE PCI NUM</string>
+    <string name="permission_description">Berechtigungsdetails</string>
     <string name="phoneAppLabel">Telefondienste</string>
     <string name="phoneIconLabel">Telefon</string>
     <string name="phone_account_settings">Anrufkonten</string>
@@ -2236,11 +2202,7 @@ Erneut versuchen oder den Kundendienst für weitere Optionen anrufen."</string>
     <string name="radio_info_imei_label">IMEI:</string>
     <string name="radio_info_ims_feature_status_available">Verfügbar</string>
     <string name="radio_info_ims_feature_status_unavailable">Nicht verfügbar</string>
-    <string name="radio_info_ims_reg_status">"IMS-Registrierung: %1$s
-Voice over LTE: %2$s
-Voice over WLAN: %3$s
-Videoanrufe: %4$s
-UT-Schnittstelle: %5$s"</string>
+    <string name="radio_info_ims_reg_status">IMS-Registrierung: %1$s\n\Voice over LTE: %2$s\nVoice over WLAN: %3$s\nVideoanrufe: %4$s\nUT-Schnittstelle: %5$s</string>
     <string name="radio_info_ims_reg_status_not_registered">Nicht_registriert</string>
     <string name="radio_info_ims_reg_status_registered">Registriert</string>
     <string name="radio_info_ims_reg_status_title">IMS-Status</string>
@@ -2320,10 +2282,10 @@ UT-Schnittstelle: %5$s"</string>
     <string name="reset_roaming_not_support">Diese SIM-Karte kann Roaming nicht initialisieren.</string>
     <string name="reset_roaming_tip">Roaming zurücksetzen…</string>
     <string name="reset_roaming_title">Roaming zurücksetzen</string>
-    <string name="respond_via_sms_canned_response_1">"Kann jetzt nicht reden. Rufst du mich später an?"</string>
+    <string name="respond_via_sms_canned_response_1">Kann jetzt nicht reden. Rufst du mich später an?</string>
     <string name="respond_via_sms_canned_response_2">Ich rufe gleich zurück</string>
     <string name="respond_via_sms_canned_response_3">Ich rufe später zurück</string>
-    <string name="respond_via_sms_canned_response_4">"Kann jetzt nicht reden. Was gibt's?"</string>
+    <string name="respond_via_sms_canned_response_4">Kann jetzt nicht reden. Was gibt es?</string>
     <string name="respond_via_sms_cannot_empty">Die Nachricht darf nicht leer sein</string>
     <string name="respond_via_sms_confirmation_format">Nachricht gesendet an %s</string>
     <string name="respond_via_sms_edittext_dialog_title">Kurzantwort</string>
@@ -2742,19 +2704,16 @@ UT-Schnittstelle: %5$s"</string>
     <string name="the_water_lantern_festival">Laternenfestival</string>
     <string name="third_party_account_summary">Dieses Konto wird aktuell von der App %s verwendet</string>
     <string name="throttle_current_usage">Im aktuellen Zeitraum verwendete Daten</string>
-    <string name="throttle_data_rate_reduced_subtext">"%1$s Maximum überschritten
-Drosselung auf %2$d KB/s"</string>
+    <string name="throttle_data_rate_reduced_subtext">%1$s Maximum überschritten\nDrosselung auf %2$d KB/s</string>
     <string name="throttle_data_usage">Datenverbrauch</string>
     <string name="throttle_data_usage_subtext">%1$s (%2$d%%) von %3$s maximalem Datenzeitraum</string>
     <string name="throttle_help">Weitere Informationen</string>
     <string name="throttle_help_subtext">Weitere Informationen über die Richtlinien für die Nutzung von Mobilfunknetzdaten Ihres Mobilfunkanbieters</string>
     <string name="throttle_rate">Drosselungsrichtlinie</string>
     <string name="throttle_rate_subtext">Drosselung auf %1$d KB/s, wenn Datenlimit überschritten</string>
-    <string name="throttle_status_subtext">"%1$s (%2$d%%) von %3$s maximalem Datenzeitraum
-Nächster Datenzeitraum startet in %4$d Tagen (%5$s)"</string>
+    <string name="throttle_status_subtext">%1$s (%2$d%%) von %3$s maximalem Datenzeitraum\nNächster Datenzeitraum startet in %4$d Tagen (%5$s)</string>
     <string name="throttle_time_frame">Datennutzungszeitraum</string>
-    <string name="throttle_time_frame_subtext">"%1$d%% des Zeitraums verstrichen
-Nächster Datenzeitraum startet in %2$d Tagen (%3$s)"</string>
+    <string name="throttle_time_frame_subtext">%1$d%% des Zeitraums verstrichen\nNächster Datenzeitraum startet in %2$d Tagen (%3$s)</string>
     <string name="thursday">Donnerstag</string>
     <string name="thursday_short">Do</string>
     <string name="thursday_shortest">D</string>
@@ -2833,6 +2792,8 @@ Nächster Datenzeitraum startet in %2$d Tagen (%3$s)"</string>
     <string name="undefined">Keine</string>
     <string name="unfold_close_camera_pref_summary">Gerät während eines Videoanrufs aufklappen, um die Kamera auszuschalten</string>
     <string name="unfold_close_camera_pref_title">Aufklappen, um die Kamera auszuschalten</string>
+    <string name="unfold_show_bublle_pref_summary">Gerät bei Anrufen aufklappen, um sie in Popups anzuzeigen</string>
+    <string name="unfold_show_bublle_pref_title">Aufklappen, um Anrufe zu minimieren</string>
     <string name="unfold_speaker_pref_summary">Gerät während eines Anrufs aufklappen, um den Lautsprecher einzuschalten</string>
     <string name="unfold_speaker_pref_title">Aufklappen, um den Lautsprecher zu verwenden</string>
     <string name="unknown">Unbekannt</string>
@@ -2854,14 +2815,8 @@ Nächster Datenzeitraum startet in %2$d Tagen (%3$s)"</string>
     <string name="user_add_profile_item_title">Eingeschränktes Profil</string>
     <string name="user_add_user_item_summary">Benutzer haben ihre eigenen Apps und Inhalte</string>
     <string name="user_add_user_item_title">Benutzer</string>
-    <string name="user_add_user_message_long">"Sie können dieses Gerät für andere Personen freigeben, indem Sie zusätzliche Benutzer erstellen. Jeder Benutzer hat seinen eigenen Bereich, den er mit Apps, Hintergründen usw. anpassen kann. Benutzer können auch Geräteeinstellungen anpassen, die alle betreffen, wie z. B. WLAN.
-
-Wenn Sie einen neuen Benutzer hinzufügen, muss dieser seinen Bereich einrichten.
-
-Jeder Benutzer kann Apps für alle anderen Benutzer aktualisieren. Eingabehilfen-Einstellungen und Dienste können nicht auf den neuen Benutzer übertragen werden."</string>
-    <string name="user_add_user_message_short">"Wenn Sie einen neuen Benutzer hinzufügen, muss dieser seinen Bereich einrichten.
-
-Jeder Benutzer kann Apps für alle anderen Benutzer aktualisieren."</string>
+    <string name="user_add_user_message_long">Sie können dieses Gerät für andere Personen freigeben, indem Sie zusätzliche Benutzer erstellen. Jeder Benutzer hat seinen eigenen Bereich, den er mit Apps, Hintergrundbildern usw. anpassen kann. Benutzer können auch Geräteeinstellungen anpassen, die alle betreffen, wie z. B. WLAN.\n\nWenn Sie einen neuen Benutzer hinzufügen, muss dieser seinen Bereich einrichten.\n\nJeder Benutzer kann Apps für alle anderen Benutzer aktualisieren. Eingabehilfen-Einstellungen und Dienste können nicht auf den neuen Benutzer übertragen werden.</string>
+    <string name="user_add_user_message_short">Wenn Sie einen neuen Benutzer hinzufügen, muss dieser seinen Bereich einrichten.\n\nJeder Benutzer kann Apps für alle anderen Benutzer aktualisieren.</string>
     <string name="user_add_user_title">Neuen Benutzer hinzufügen?</string>
     <string name="user_add_user_type_title">Hinzufügen</string>
     <string name="user_guest">Gast</string>
@@ -2898,8 +2853,7 @@ Jeder Benutzer kann Apps für alle anderen Benutzer aktualisieren."</string>
     <string name="vice_slot_volte_data_switch_title">Nutzung mobiler Daten bei VoLTE-Anrufen mit SIM2</string>
     <string name="video_calling_settings_title">Mobilfunkanbieter Videoanruf</string>
     <string name="vilte_srvcc_tip">Aus Netzwerkgründen auf Sprachanruf umgeschaltet</string>
-    <string name="vm_change_failed">"Sprachboxnummer wurde nicht geändert.
-Falls dieses Problem weiterhin besteht, setzen Sie sich mit Ihrem Mobilfunkanbieter in Verbindung."</string>
+    <string name="vm_change_failed">Sprachboxnummer wurde nicht geändert.\nFalls dieses Problem weiterhin besteht, setzen Sie sich mit Ihrem Mobilfunkanbieter in Verbindung.</string>
     <string name="vm_change_pin_error_invalid">Neue PIN enthält ungültige Zeichen</string>
     <string name="vm_change_pin_error_mismatch">Alte PIN stimmt nicht</string>
     <string name="vm_change_pin_error_system_error">PIN kann nicht geändert werden</string>
@@ -2967,11 +2921,7 @@ Falls dieses Problem weiterhin besteht, setzen Sie sich mit Ihrem Mobilfunkanbie
     <string name="vowifi_emergency_notification_content">Notrufe nur in Gebieten mit Mobilfunkabdeckung</string>
     <string name="vowifi_emergency_notification_title">Vodafone WiFi Calling</string>
     <string name="vowifi_emergency_warning_check">Nicht mehr anzeigen</string>
-    <string name="vowifi_emergency_warning_message">"Notrufe sind über WLAN-Anrufe nicht möglich.
-
-Das Gerät wechselt automatisch ins Mobilfunknetz (2G/3G), um einen Notruf zu tätigen.
-
-Notrufe sind nur in Gebieten mit Mobilfunkabdeckung möglich."</string>
+    <string name="vowifi_emergency_warning_message">Notrufe sind über WLAN-Anrufe nicht möglich.n\nDas Gerät wechselt automatisch ins Mobilfunknetz (2G/3G), um einen Notruf zu tätigen.\n\nNotrufe sind nur in Gebieten mit Mobilfunkabdeckung möglich.</string>
     <string name="vowifi_emergency_warning_title">Notrufe per WLAN-Anrufe</string>
     <string name="vpn_settings_not_available">VPN-Einstellungen sind für diesen Benutzer nicht verfügbar</string>
     <string name="vt_provisioned_switch_string">Videoanrufe eingerichtet</string>
@@ -3000,13 +2950,11 @@ Notrufe sind nur in Gebieten mit Mobilfunkabdeckung möglich."</string>
     <string name="wednesday_short">Mi</string>
     <string name="wednesday_shortest">M</string>
     <string name="wfc_internet_connection_lost">Internetverbindung unterbrochen</string>
-    <string name="wfc_internet_lost_summary">"Hoppla! Ihre WLAN-Verbindung ist aktiv, aber die Internetverbindung wurde unterbrochen.
-Prüfen Sie die Internetverbindung auf Ihrem Router und versuchen Sie es erneut."</string>
+    <string name="wfc_internet_lost_summary">Hoppla! Ihre WLAN-Verbindung ist aktiv, aber die Internetverbindung wurde unterbrochen.\nPrüfen Sie die Internetverbindung auf Ihrem Router und versuchen Sie es erneut.</string>
     <string name="wfc_no_network">Kein geeignetes Mobilfunknetz</string>
     <string name="wfc_provisioned_switch_string">WLAN-Anrufe eingerichtet</string>
     <string name="wfc_wifi_call_drop">WLAN-Anruf unterbrochen</string>
-    <string name="wfc_wifi_call_drop_summary">"Hoppla! Sie haben sich während des Anrufs anscheinend außerhalb der Reichweite Ihres WLAN bewegt.
-Wollen Sie sich wieder verbinden, um den Anruf fortzusetzen?"</string>
+    <string name="wfc_wifi_call_drop_summary">Hoppla! Sie haben sich während des Anrufs anscheinend außerhalb der Reichweite Ihres WLAN bewegt.\nWollen Sie sich wieder verbinden, um den Anruf fortzusetzen?</string>
     <string name="wfc_wifi_handover_fail">Hoppla! Ihr Anruf kann nicht durchgeführt werden.</string>
     <string name="wfc_wifi_lte_handover_fail">Hoppla! Kein verfügbares LTE-Netz, um den Anruf fortzusetzen.</string>
     <string name="wfcmode_ims_preferred">IMS bevorzugt</string>
@@ -3026,22 +2974,12 @@ Wollen Sie sich wieder verbinden, um den Anruf fortzusetzen?"</string>
     <string name="wifi_call_available_title">WLAN-Anrufe einschalten</string>
     <string name="wifi_call_cancel">Mehr Info</string>
     <string name="wifi_call_help">Hilfe</string>
-    <string name="wifi_call_help_message">Wenn Sie Mobilfunknetze bevorzugen wählen, werden diese standardmäßig für Anrufe verwendet. Für den Fall, dass es kein oder ein sehr schlechtes Mobilfunksignal gibt, wird stattdessen ein WLAN verwendet.</string>
-    <string name="wifi_call_help_message_1">"WLAN-Anrufe sind ein Service von Orange, mit dem Sie Anrufe über WLAN tätigen und empfangen können. Diese Funktion kann in Gebieten mit schlechter Mobilfunkabdeckung eingesetzt werden.
-
-Um WLAN-Anrufe zu verwenden, schalten Sie sie unter Einstellungen &gt; WLAN-Anrufe ein.
-
-Um den Dienst zu aktivieren, sendet Ihnen Orange eine Bestätigungsnachricht, sobald der Dienst verfügbar ist. Danach können Sie sich mit einem WLAN verbinden und Anrufe tätigen.
-
-Anrufe über WLAN werden nach Ihren Tarifbedingungen abgerechnet.
-
-Wann immer diese Funktion verfügbar ist, wird das folgende Symbol oben auf Ihrem Bildschirm angezeigt."</string>
-    <string name="wifi_call_help_message_2">"Wenn Sie WLAN bevorzugen wählen, wird dieses standardmäßig für Telefonate verwendet. Wenn Sie nicht mit WLAN verbunden sind oder das Signal schlecht ist, werden Mobilfunknetze für Anrufe verwendet.
-
-Wenn Sie sich für Mobilfunknetze entscheiden, werden diese standardmäßig für Telefonate verwendet. Bei fehlender Mobilfunkabdeckung oder schlechtem Signal wird stattdessen WLAN verwendet."</string>
+    <string name="wifi_call_help_message">Wenn Sie Mobilfunknetze bevorzugen auswählen, werden diese standardmäßig für Anrufe verwendet. Für den Fall, dass es kein oder ein sehr schlechtes Mobilfunksignal gibt, wird stattdessen ein WLAN verwendet.</string>
+    <string name="wifi_call_help_message_1">WLAN-Anrufe sind ein Service von Orange, mit dem Sie Anrufe über WLAN tätigen und empfangen können. Diese Funktion kann in Gebieten mit schlechter Mobilfunkabdeckung eingesetzt werden.\n\nUm WLAN-Anrufe zu verwenden, schalten Sie sie unter Einstellungen &gt; WLAN-Anrufe ein.\n\nUm den Dienst zu aktivieren, sendet Ihnen Orange eine Bestätigungsnachricht, sobald der Dienst verfügbar ist. Danach können Sie sich mit einem WLAN verbinden und Anrufe tätigen.\n\nAnrufe über WLAN werden nach Ihren Tarifbedingungen abgerechnet.\n\nWann immer diese Funktion verfügbar ist, wird das folgende Symbol oben auf Ihrem Bildschirm angezeigt.</string>
+    <string name="wifi_call_help_message_2">Wenn Sie WLAN bevorzugen auswählen, wird dieses standardmäßig für Telefonate verwendet. Wenn Sie nicht mit WLAN verbunden sind oder das Signal schlecht ist, werden Mobilfunknetze für Anrufe verwendet.\n\nWenn Sie sich für Mobilfunknetze entscheiden, werden diese standardmäßig für Telefonate verwendet. Bei fehlender Mobilfunkabdeckung oder schlechtem Signal wird stattdessen WLAN verwendet.</string>
     <string name="wifi_call_help_title">Hilfe für WLAN-Anrufe</string>
     <string name="wifi_call_notification_message">Dieser Service wird von Orange angeboten. Es kann mehrere Stunden dauern, bis dieser Dienst aktiviert ist. Sie erhalten eine Bestätigungs-SMS, sobald er verfügbar ist.</string>
-    <string name="wifi_call_preferred_summary">"Wenn Sie sich für Mobilfunknetze entscheiden, werden diese standardmäßig für Anrufe verwendet. Wenn kein oder ein sehr schlechtes Mobilfunksignal vorhanden ist, wird stattdessen WLAN verwendet."</string>
+    <string name="wifi_call_preferred_summary">Wenn Sie sich für Mobilfunknetze entscheiden, werden diese standardmäßig für Anrufe verwendet. Wenn kein oder ein sehr schlechtes Mobilfunksignal vorhanden ist, wird stattdessen WLAN verwendet.</string>
     <string name="wifi_call_setting">WLAN-Anrufeinstellungen</string>
     <string name="wifi_call_setting_vodafone_de">WiFi Calling</string>
     <string name="wifi_call_setting_vodafone_uk">Wi-Fi Calling</string>
@@ -3097,10 +3035,8 @@ Wenn Sie sich für Mobilfunknetze entscheiden, werden diese standardmäßig für
     <string name="wifi_wapi_as_certificate">AS-Zertifikat</string>
     <string name="wifi_wapi_cert_mode_hand_text">Zertifikat von Hand auswählen</string>
     <string name="wifi_wapi_certification_dont_exist">WAPI-Zertifikate sind nicht vorhanden. Bitte installieren Sie sie.</string>
-    <string name="wifi_wapi_fail_to_auth">"WAPI-Authentifizierung fehlgeschlagen.
-Bitte Gültigkeit der Zertifikate prüfen."</string>
-    <string name="wifi_wapi_fail_to_init">"WAPI-Zertifikate können nicht geöffnet werden.
-Speicherung von Anmeldedaten ist möglicherweise nicht möglich."</string>
+    <string name="wifi_wapi_fail_to_auth">WAPI-Authentifizierung fehlgeschlagen.\nBitte Gültigkeit der Zertifikate prüfen.</string>
+    <string name="wifi_wapi_fail_to_init">WAPI-Zertifikate können nicht geöffnet werden.\nSpeicherung von Anmeldedaten ist möglicherweise nicht möglich.</string>
     <string name="wifi_wapi_psk_type">Passworttyp</string>
     <string name="wifi_wapi_user_certificate">Benutzerzertifikat</string>
     <string name="wifi_whitelist_roaming_summary">Roaming zwischen verschiedenen SSID-WPA/WPA2-PSK-APs mit derselben Gateway-MAC-Adresse aktivieren</string>
