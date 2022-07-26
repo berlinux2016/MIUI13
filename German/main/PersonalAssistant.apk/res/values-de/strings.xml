@@ -200,8 +200,7 @@
     <string name="pa_express_call">Anrufen</string>
     <string name="pa_express_company">Kurierdienst</string>
     <string name="pa_express_content_title_2">Expresslieferung</string>
-    <string name="pa_express_detail_list_empty_text">"Die Einträge können hier verzögert erscheinen.
-Sie können die Expresslieferung auch auf den offiziellen Websites der Kurierdienste verfolgen"</string>
+    <string name="pa_express_detail_list_empty_text">Einträge können hier verzögert erscheinen. \nSie können die Expresslieferung auch auf den offiziellen Websites der Kurierdienste verfolgen.</string>
     <string name="pa_express_detail_more">Mehr</string>
     <string name="pa_express_detail_order_number_prefix">Tracking-Nummer: %s</string>
     <string name="pa_express_dialog_sign_message">Dieses Paket als zugestellt markieren? Sein Status wird danach nicht mehr aktualisiert.</string>
@@ -278,9 +277,13 @@ Sie können die Expresslieferung auch auf den offiziellen Websites der Kurierdie
     <string name="pa_express_state_unknown">Noch keine Daten</string>
     <string name="pa_express_tail_number">Bestellnummer: %1$s</string>
     <string name="pa_express_title">Expresslieferung</string>
+    <string name="pa_express_widget_list_item_desc">"Tracking-Nummer: "</string>
     <string name="pa_express_widget_logout">Anmelden, um Ihre Express-Pakete anzuzeigen</string>
     <string name="pa_express_widget_order_42">Tracking-Nummer eingeben</string>
     <string name="pa_express_widget_post">Paket senden</string>
+    <string name="pa_filter_replace_bt">Anwenden</string>
+    <string name="pa_filter_search_title">Ergebnisse für \"%s\"</string>
+    <string name="pa_filter_title">Weitere Widgets</string>
     <string name="pa_finish">Fertig</string>
     <string name="pa_get_installed_app_permission_description">Zum Installieren von Apps und Hinzufügen von Widgets</string>
     <string name="pa_guide_dialog_desc">Widget gedrückt halten, um es neu anzuordnen. Auf das Plus tippen, um weitere Widgets hinzuzufügen.</string>
@@ -334,6 +337,7 @@ Sie können die Expresslieferung auch auf den offiziellen Websites der Kurierdie
     <string name="pa_pad_privacy_text">Startbildschirm-Widgets</string>
     <string name="pa_pad_setting_privacy_logout_summary">Dienste für Startbildschirm-Widgets abbrechen</string>
     <string name="pa_pad_setting_privacy_revoke_cta_summary">Widerrufen Sie Ihr Einverständnis mit der Datenschutzerklärung von Startbildschirm-Widgets</string>
+    <string name="pa_picker_accessibility_fab_description">Zurück zum Seitenanfang</string>
     <string name="pa_picker_classic_widget">Android-Widgets</string>
     <string name="pa_picker_detail_add_maml_net_unavailable">Netzwerkverbindung nicht möglich. Netzwerkeinstellungen prüfen und erneut versuchen.</string>
     <string name="pa_picker_detail_add_to_home">Zum Startbildschirm hinzufügen</string>
@@ -348,6 +352,8 @@ Sie können die Expresslieferung auch auf den offiziellen Websites der Kurierdie
     <string name="pa_picker_detail_bottom_bt_text_to_minus">Zu Infoassistent hinzufügen</string>
     <string name="pa_picker_detail_bottom_bt_text_un_install">App installieren, um ihre Widgets zu verwenden</string>
     <string name="pa_picker_detail_bottom_bt_text_upgrade">App aktualisieren, um ihre Widgets zu verwenden</string>
+    <string name="pa_picker_detail_bottom_download_app_and_add_widget">App installieren</string>
+    <string name="pa_picker_detail_bottom_update_app_and_add_widget">App aktualisieren</string>
     <string name="pa_picker_detail_dialog_open_pa_in_setting_message">Infoassistent öffnen, um dort Widgets hinzuzufügen</string>
     <string name="pa_picker_detail_dialog_open_pa_in_setting_title">Infoassistent verwenden</string>
     <string name="pa_picker_detail_download_app_dialog_cancel">Abbrechen</string>
@@ -372,7 +378,7 @@ Sie können die Expresslieferung auch auf den offiziellen Websites der Kurierdie
     <string name="pa_picker_detail_theme_app_cta_pre">"Um dieses Widget verwenden zu können, müssen Sie Themen zunächst eine Internetverbindung herstellen lassen. "</string>
     <string name="pa_picker_detail_vp2_indicator">Seite %1$d von %2$d ausgewählt</string>
     <string name="pa_picker_detail_wait_wifi_download_maml">Dieses Element wird über WLAN heruntergeladen</string>
-    <string name="pa_picker_empty">Widgets sind in dieser Version der App nicht verfügbar. \Bleiben Sie dran!</string>
+    <string name="pa_picker_empty">Widgets sind in dieser Version der App nicht verfügbar. n\Bleiben Sie dran!</string>
     <string name="pa_picker_home_app_group_title">Apps mit Widgets</string>
     <string name="pa_picker_home_group_more">Alle</string>
     <string name="pa_picker_home_request_failed">Netzwerkfehler</string>
@@ -388,19 +394,28 @@ Sie können die Expresslieferung auch auf den offiziellen Websites der Kurierdie
     <string name="pa_picker_list_recommend">Empfohlen</string>
     <string name="pa_picker_loading">Einen Moment…</string>
     <string name="pa_picker_maml_list_activity_title">Widgets hinzufügen</string>
-    <string name="pa_picker_permission_denied">"Infoassistent muss auf den Installationsstatus zugreifen,
-um Widgets anzuzeigen."</string>
+    <string name="pa_picker_no_relevant_content">Keine Ergebnisse gefunden</string>
+    <string name="pa_picker_permission_denied">Infoassistent muss auf den Installationsstatus zugreifen,\num Widgets anzuzeigen.</string>
     <string name="pa_picker_request">Einstellungen</string>
     <string name="pa_picker_retry">Erneut versuchen</string>
+    <string name="pa_picker_search">Suchen</string>
+    <string name="pa_picker_search_card_more_all_applications">Weitere Apps</string>
+    <string name="pa_picker_search_card_more_all_suits">Weitere Widget-Sets</string>
     <string name="pa_picker_search_empty">Keine Ergebnisse gefunden</string>
     <string name="pa_picker_search_error">Netzwerkverbindung nicht möglich</string>
     <string name="pa_picker_search_layout_cancel">Abbrechen</string>
+    <string name="pa_picker_search_recommendation_title">Empfohlen</string>
+    <string name="pa_picker_search_result_empty">Keine Ergebnisse gefunden</string>
+    <string name="pa_picker_search_result_type_recommend">Empfohlen</string>
+    <string name="pa_picker_search_result_type_suit">Widget-Sets</string>
     <string name="pa_picker_suit_list_activity_title">Personalisierungspakete</string>
+    <string name="pa_picker_tab_title_category">Kategorien</string>
+    <string name="pa_picker_tab_title_recommend">Empfohlen</string>
     <string name="pa_picker_theme_app_version_error">App-Version des Themenhintergrunds ist abnormal</string>
     <string name="pa_picker_tips_count_limit_forbidden">Zu Infoassistent können keine weiteren Widgets hinzugefügt werden. Ältere Widgets löschen, um neue hinzuzufügen.</string>
-    <string name="pa_picker_toast_count_limit_forbidden_for_type">Keine weiteren Widgets dieses Typs hinzufügen möglich</string>
     <string name="pa_picker_toast_add_successfully">Erfolgreich hinzugefügt</string>
     <string name="pa_picker_toast_count_limit_forbidden">Weitere Widgets hinzuzufügen nicht möglich</string>
+    <string name="pa_picker_toast_count_limit_forbidden_for_type">Keine weiteren Widgets dieses Typs hinzufügen möglich</string>
     <string name="pa_picker_toast_count_limit_warning">Erfolgreich hinzugefügt. Beachten Sie, dass zu viele Widgets auf dem Startbildschirm Ihr Gerät verlangsamen können.</string>
     <string name="pa_picker_toast_screen_cell_locked">Startbildschirm-Layout ist gesperrt. Widgets können nicht hinzugefügt werden.</string>
     <string name="pa_privacy_text">Datenschutz</string>
@@ -418,8 +433,8 @@ um Widgets anzuzeigen."</string>
     <string name="pa_rtk_more_content_description">Optionen</string>
     <string name="pa_rtk_more_text">Nicht interessiert</string>
     <string name="pa_rtk_place_holder_text">Dieses Widget wurde vorerst in Ihr Dashboard verschoben</string>
-    <string name="pa_rts_summary">Am häufigsten verwendete Widgets auf dem Dashboard platzieren</string>
     <string name="pa_rtk_unlike_text">Abkoppeln</string>
+    <string name="pa_rts_summary">Am häufigsten verwendete Widgets auf dem Dashboard platzieren</string>
     <string name="pa_scan">Scannen</string>
     <string name="pa_search_hint">Suchen</string>
     <string name="pa_search_summary">Suchleiste anzeigen</string>
@@ -451,8 +466,7 @@ um Widgets anzuzeigen."</string>
     <string name="pa_setting_privacy_policy_update_agree">Zustimmen</string>
     <string name="pa_setting_privacy_policy_update_exit">Beenden</string>
     <string name="pa_setting_privacy_policy_update_link">Datenschutzerklärung</string>
-    <string name="pa_setting_privacy_policy_update_message" formatted="false">"Infoassistent-Datenschutzerklärung wurde aktualisiert:
-%s. Lesen und akzeptieren Sie die neue Version von %s, bevor Sie fortfahren."</string>
+    <string name="pa_setting_privacy_policy_update_message" formatted="false">Infoassistent-Datenschutzerklärung wurde aktualisiert: \n%s. Lesen und akzeptieren Sie die neue Version von %s, bevor Sie fortfahren.</string>
     <string name="pa_setting_privacy_policy_update_title">Datenschutzerklärung aktualisiert</string>
     <string name="pa_setting_privacy_revoke_cta">Widerruf Zustimmung</string>
     <string name="pa_setting_privacy_revoke_cta_message">Wenn Sie fortfahren, widerrufen Sie Ihr Einverständnis mit der Infoassistent-Datenschutzerklärung. Die bereits gesammelten und gespeicherten persönlichen Daten werden innerhalb des festgelegten Zeitraums in Übereinstimmung mit den geltenden Gesetzen und Vorschriften gelöscht, sofern nicht anders gefordert. Da Infoassistent seine Dienste auf der Grundlage der Erfassung der erforderlichen personenbezogenen Daten erbringt, wird Ihr Widerruf der Zustimmung als Ablehnung der Annahme der Dienste von Infoassistent gewertet. Zustimmung jetzt widerrufen?</string>
@@ -466,6 +480,13 @@ um Widgets anzuzeigen."</string>
     <string name="pa_setting_privacy_revoke_positive">Verstanden</string>
     <string name="pa_setting_privacy_third_parties">Erklärung zur Weitergabe von Daten an Dritte</string>
     <string name="pa_setting_privacy_view_priv">Datenschutzerklärung anzeigen</string>
+    <string name="pa_setting_version">Version: %1$s</string>
+    <string name="pa_shopping_dialog_privacy_authorize_message">Willkommen bei Shopping! Sie können dieses Widget verwenden, um Rabatte und Angebote zu erhalten. Lesen und akzeptieren Sie unsere Erklärung zu Drittanbieterdiensten und unsere Datenschutzerklärung, bevor Sie fortfahren.</string>
+    <string name="pa_shopping_dialog_privacy_authorize_title">Allgemeine Geschäftsbedingungen</string>
+    <string name="pa_shopping_dialog_privacy_desc">Datenschutzerklärung</string>
+    <string name="pa_shopping_dialog_privacy_withdraw_message">Wenn Sie fortfahren, widerrufen Sie Ihr Einverständnis mit der Datenschutzerklärung von Shopping. Wir werden aufhören, Ihre personenbezogenen Daten zu sammeln. Die bereits gesammelten und gespeicherten personenbezogenen Daten werden innerhalb des festgelegten Zeitraums in Übereinstimmung mit den geltenden Gesetzen und Vorschriften gelöscht, sofern nicht anders gefordert. Da Shopping seine Dienstleistungen auf der Grundlage der Erfassung der erforderlichen personenbezogenen Daten erbringt, wird Ihr Widerruf der Zustimmung als Ablehnung dieser Dienstleistungen gewertet.</string>
+    <string name="pa_shopping_dialog_privacy_withdraw_title">Widerruf Zustimmung</string>
+    <string name="pa_shopping_dialog_statement_desc">Erklärung zu Drittanbieterdiensten</string>
     <string name="pa_shopping_page_product_action_bar_title">Alle Produkte</string>
     <string name="pa_shopping_page_product_delete_bar_desc">Produkte löschen</string>
     <string name="pa_shopping_page_product_delete_dialog_message">%d ausgewählte Elemente jetzt löschen?</string>
@@ -473,13 +494,17 @@ um Widgets anzuzeigen."</string>
     <string name="pa_shopping_page_product_item_icon_tag">Empfohlen</string>
     <string name="pa_shopping_page_product_jump_setting_error">Ein Fehler ist aufgetreten. Netzwerkeinstellungen prüfen und erneut versuchen.</string>
     <string name="pa_shopping_page_setting_source_desc">Rabatte und Angebote für Produkte erhalten</string>
+    <string name="pa_shopping_page_setting_statement">Haftungsausschluss</string>
     <string name="pa_shopping_page_setting_update_channel_failure">Ein Fehler ist aufgetreten. Netzwerkeinstellungen prüfen und erneut versuchen.</string>
+    <string name="pa_shopping_page_setting_widthdraw_desc">Einverständnis mit der Shopping-Datenschutzerklärung widerrufen</string>
+    <string name="pa_shopping_page_setting_withdraw">Widerruf Zustimmung</string>
     <string name="pa_shopping_widget_empty_content_click_desc">Noch nichts da</string>
     <string name="pa_shopping_widget_empty_content_desc">Noch nichts da</string>
     <string name="pa_shopping_widget_full_bottom_desc">Alle Produkte</string>
     <string name="pa_shopping_widget_full_title_desc">%s CNY bei diesen Produkten sparen</string>
     <string name="pa_shopping_widget_no_cta_content_desc">Tippen, um die Erlaubnis zur Nutzung von Shopping zu erteilen</string>
     <string name="pa_shopping_widget_no_network_content_desc">Netzwerkverbindung fehlgeschlagen</string>
+    <string name="pa_shopping_widget_no_privacy_content_desc">Shopping-Datenschutzerklärung zustimmen, um diese Funktion nutzen zu können. Zur Anzeige tippen.</string>
     <string name="pa_shopping_widget_no_setting_content_desc">Einstellungen</string>
     <string name="pa_shopping_widget_title">Einkaufen</string>
     <string name="pa_shortcut_accessibility_description">Infoassistent bietet Verknüpfungen für ausgewählte Drittanbieter-Apps. Diese Verknüpfungen funktionieren nicht, wenn Sie die Funktion deaktivieren.</string>
@@ -539,8 +564,8 @@ um Widgets anzuzeigen."</string>
     <string name="pa_stock_change_cp_code_alert">Dieser Vorgang kann dazu führen, dass die Daten nicht richtig angezeigt werden.</string>
     <string name="pa_stock_change_cp_code_error">Datenquelle wechseln nicht möglich</string>
     <string name="pa_stock_change_cp_code_progress_msg">Daten synchronisieren…</string>
-    <string name="pa_stock_data_source_label">Datenquelle auswählen</string>
     <string name="pa_stock_color_scheme_label">Farbschema</string>
+    <string name="pa_stock_data_source_label">Datenquelle auswählen</string>
     <string name="pa_stock_delisted">(Ausgelistet)</string>
     <string name="pa_stock_desc_add_stock">%1$s Aktien hinzufügen</string>
     <string name="pa_stock_desc_add_success">Erfolgreich hinzugefügt</string>
@@ -577,10 +602,13 @@ um Widgets anzuzeigen."</string>
     <string name="pa_vertical_right">Vertikales Layout. Rechtsbündig.</string>
     <string name="pa_widget_menu_edit">Bearbeiten</string>
     <string name="pa_widget_menu_remove">Entfernen</string>
+    <string name="pa_widget_menu_replace">Umschalten</string>
     <string name="pa_widget_need_download_dialog_cancel">Abbrechen</string>
     <string name="pa_widget_need_download_dialog_message_install">Um Widgets verwenden zu können, zuerst \"%s\" installieren.</string>
     <string name="pa_widget_need_download_dialog_message_load">Um Widgets verwenden zu können, zuerst \"%s\" laden.</string>
     <string name="pa_widget_need_download_dialog_message_upgrade">Um Widgets verwenden zu können, zuerst \"%s\" aktualisieren.</string>
+    <string name="pa_widget_need_download_permission">Berechtigungen</string>
+    <string name="pa_widget_need_download_privacy">Datenschutz</string>
     <string name="preference_copied">\"%1$s\" in Zwischenablage kopiert</string>
     <string name="saturday">Samstag</string>
     <string name="saturday_short">Sa</string>
