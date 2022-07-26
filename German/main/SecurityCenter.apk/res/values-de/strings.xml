@@ -7,11 +7,11 @@
     <string name="HIPS_Perm_Call_Desc">Rufnummern direkt anrufen</string>
     <string name="HIPS_Perm_Contact_Desc">Kontakte ändern und löschen</string>
     <string name="HIPS_Perm_External_READ_FILES">Zugriff auf Dateien und Dokumente</string>
-    <string name="HIPS_Perm_External_READ_FILES_Desc">Zugriff auf Dateien und Dokumente auf dem Gerät</string>
-    <string name="HIPS_Perm_External_READ_MEDIA_AUDIO">Zugriff auf Audio</string>
-    <string name="HIPS_Perm_External_READ_MEDIA_AUDIO_Desc">Zugriff auf Musik und andere Audiodateien auf Ihrem Gerät</string>
+    <string name="HIPS_Perm_External_READ_FILES_Desc">Zugriff auf Dateien und Dokumente auf diesem Gerät</string>
+    <string name="HIPS_Perm_External_READ_MEDIA_AUDIO">Zugriff auf Audiodateien</string>
+    <string name="HIPS_Perm_External_READ_MEDIA_AUDIO_Desc">Zugriff auf Musik und andere Audiodateien auf diesem Gerät</string>
     <string name="HIPS_Perm_External_READ_MEDIA_PIC_VIDEO">Zugriff auf Fotos und Videos</string>
-    <string name="HIPS_Perm_External_READ_MEDIA_PIC_VIDEO_Desc">Zugriff auf Fotos und Videos auf Ihrem Gerät</string>
+    <string name="HIPS_Perm_External_READ_MEDIA_PIC_VIDEO_Desc">Zugriff auf Fotos und Videos auf diesem Gerät</string>
     <string name="HIPS_Perm_External_Storage">Dateizugriff und -änderung auf externem Speicher</string>
     <string name="HIPS_Perm_External_Storage_Desc">Hinzufügen und Löschen von Dateien auf dem externen Gerätespeicher</string>
     <string name="HIPS_Perm_External_Storage_Group">Speicherberechtigungen verwalten</string>
@@ -916,7 +916,9 @@ Sie verlieren keine App-Daten."</string>
     <string name="battery_temperature_title">Temperatur</string>
     <string name="beauty_fc_assistant">Frontkamera-Assistent</string>
     <string name="beauty_fc_assistant_summary">Aufhelllicht und Verschönerung mit der Frontkamera verwenden</string>
+    <string name="beauty_fc_assistant_summary_common">Zusätzliche Funktionen mit der Frontkamera nutzen</string>
     <string name="beauty_fc_assistant_summary_new">Verschönerungs- und Aufhellungsoptionen bei Verwendung der Frontkamera anzeigen</string>
+    <string name="beauty_fc_auto_brightness">Helligkeit des Aufhelllichts automatisch anpassen</string>
     <string name="beauty_fc_fill_lamp">Aufhelllicht</string>
     <string name="beauty_fc_fill_lamp_new">Vorderes Fülllicht</string>
     <string name="beauty_fc_light">Helligkeit Aufhelllichts</string>
@@ -1453,6 +1455,7 @@ Alle Daten auf Ihrem Gerät werden evtl. gelöscht und Ihr Sperrbildschirmpasswo
     <string name="empty_title_root_apps">Keine Apps haben Root-Zugriff</string>
     <string name="enable_extreme_power_save_mode">Extrem-Stromparmodus</string>
     <string name="enable_network">Zuerst Netzwerk aktivieren</string>
+    <string name="enable_notification_title">%1$s erlauben, Benachrichtigungen zu verwenden?</string>
     <string name="enter">Eingeben</string>
     <string name="eras_ad">n. Chr.</string>
     <string name="eras_bc">v. Chr.</string>
@@ -2139,6 +2142,7 @@ erhöht aber auch den Stromverbrauch und führt zu einer Überhitzung des Gerät
     <string name="gb_predownload_dialog_message_china"><Data>Aktualisierte Inhalte für dieses Spiel können automatisch auf dieses Gerät heruntergeladen werden, sobald Sie eine WLAN-Verbindung herstellen und den Bildschirm ausschalten. So können Sie die neue Version nutzen, sobald sie veröffentlicht wird.&lt;br>&lt;br>Lesen und akzeptieren Sie die &lt;a href=\"%1$s\">Erklärung zu Hintergrundaktualisierungen&lt;/a>, bevor Sie diese Funktion nutzen.</Data></string>
     <string name="gb_predownload_dialog_title">Hintergrundaktualisierungen sind jetzt verfügbar</string>
     <string name="gb_predownload_message">Aktualisieren Sie King of Glory, Game for Peace und andere kompatible Spiele im Hintergrund, wenn Sie das Gerät nicht benutzen</string>
+    <string name="gb_predownload_message_new">Kompatible Spiele automatisch aktualisieren, wenn das Gerät nicht benutzt wird</string>
     <string name="gb_predownload_noti_message">%2$1.2f GB an aktualisierten Inhalten befinden sich bereits auf diesem Gerät. Sie können sie nutzen, sobald die neue Version veröffentlicht wird.</string>
     <string name="gb_predownload_noti_title">%s im Hintergrund erfolgreich aktualisiert</string>
     <string name="gb_predownload_title">Hintergrundaktualisierungen</string>
@@ -3221,6 +3225,7 @@ Versuchen Sie ein anderes LAN-Kabel am Router. Wenn Sie vermuten, dass der Fehle
     <string name="other_exception_summary">Sie haben keine Internetverbindung</string>
     <string name="other_exception_title">Auf weitere Fehler prüfen</string>
     <string name="other_milink_connect">Übertragen fehlgeschlagen. Ein weiteres Feature wird gerade übertragen.</string>
+    <string name="over_package_reminder_type">Wenn der Datentarif verbraucht ist</string>
     <string name="package_change_notification_summary">Tippen, um mehr zu erfahren</string>
     <string name="package_change_notification_title">Datenlimit automatisch anpassen</string>
     <string name="package_setted_error_notification_summary">Tippen, um Datennutzung im Detail anzuzeigen</string>
@@ -4201,6 +4206,7 @@ Da %2$s die Dienste auf der Grundlage der Erfassung der erforderlichen persönli
     <string name="quite_all_string">Abbrechen</string>
     <string name="reach_daily_limit_value_body">Reduzieren Sie Ihre mobile Datennutzung</string>
     <string name="reach_daily_limit_value_title">Tägliches Datenlimit erreicht</string>
+    <string name="reach_warning_reminder_type">Wenn das Datenlimit erreicht ist</string>
     <string name="read_all_sms">Alles lesen</string>
     <string name="read_and_write_clipboard">Zugriff auf und Speichern von Elementen in der Zwischenablage</string>
     <string name="read_clipboard_ai_action_desc">Benachrichtigungen erhalten, wenn der Zugriff erlaubt oder eingeschränkt ist</string>
@@ -4223,6 +4229,7 @@ Da %2$s die Dienste auf der Grundlage der Erfassung der erforderlichen persönli
     <string name="reject_usb_install">Installation der folgenden Apps via USB verweigert</string>
     <string name="release_meminfo">%d MB freigeben</string>
     <string name="release_memory">Cache bereinigen</string>
+    <string name="reminder_click_to_close_tips">Sie können Datennutzungswarnungen unter Sicherheit &gt; Datennutzung &gt; Einstellungen ein- und ausschalten.</string>
     <string name="reminder_once_month">Einmal im Monat</string>
     <string name="reminder_tips">Achtung</string>
     <string name="reminder_type">Warnungstyp</string>
