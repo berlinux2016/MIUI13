@@ -163,7 +163,8 @@
     <string name="dlg_delete_message">Löschen…</string>
     <string name="dlg_hide_message">Verstecken…</string>
     <string name="dlg_info_creating_message">Nachricht erstellen…</string>
-    <string name="dlg_info_save_to_gallery_message">Bild in der Galerie speichern…</string>
+    <string name="dlg_info_save_to_gallery_message">Bild in Galerie speichern…</string>
+    <string name="dlg_info_save_to_local_message">Speichern…</string>
     <string name="dlg_message_password_reset">Passwort von versteckten Notizen wird durch persönliches Schutzpasswort ersetzt, welches bei Apps, Fotos und versteckten Ordner funktioniert</string>
     <string name="dlg_message_set_password">Persönliches Schutzpasswort funktioniert bei Apps, Fotos und versteckten Ordner</string>
     <string name="dlg_message_use_privacy_password">Datenschutzpasswort verwenden. Es funktioniert für Nachrichten, Fotos und versteckte Ordner.</string>
@@ -611,9 +612,11 @@
     <string name="permission_phone_state_desc">Zum Beenden der Aufnahme von Sprachnotizen während Anrufen</string>
     <string name="permission_read_contact_desc">Zuordnung der bei Anrufen erstellten Notizen zu Kontakten</string>
     <string name="permission_storage_desc">Zum Speichern von Notizen als Bilder</string>
+    <string name="permission_storage_desc_new_v12">Zum Hinzufügen von Bildern zu Notizen und zum Speichern von Notizen als Bilder</string>
+    <string name="permission_storage_desc_pad_new_v12">Zum Hinzufügen von Bildern zu Notizen und zum Speichern von Notizen als Bilder</string>
     <string name="permission_storage_desc_pad_v12">Zum Hinzufügen von Bildern zu Notizen und zum Speichern von Notizen als Bilder</string>
     <string name="permission_storage_desc_v12">Zum Hinzufügen von Bildern zu Notizen und Speichern von Notizen als Bilder</string>
-    <string name="permission_xiaoai_desc"><Data>Mi KI sammelt Ihre Sprachaufzeichnungen und Geräte-IDs, um Audio umzuwandeln und Sprachnotizen zu erstellen. Mehr in Mi KI &lt;a href=\"%1$s\">Datenschutzerklärung&lt;/a> erfahren.</Data></string>
+    <string name="permission_xiaoai_desc"><Data>Mi KI sammelt Ihre Sprachaufnahmen und Geräte-IDs, um Audio umzuwandeln und Sprachnotizen zu erstellen. Mehr in Mi KI &lt;a href=\"%1$s\">Datenschutzerklärung&lt;/a> erfahren.</Data></string>
     <string name="permission_xiaoai_desc_new"><Data>Um Sprache-zu-Text-Transkriptionsdienste anbieten zu können, muss Mi KI Audioeingaben und Ihre Geräte-ID erfassen, die nach dem Zufallsprinzip generiert wird. Lesen und akzeptieren Sie unsere &lt;a href=\"%1$s\">Hinweise zur Erklärung über die gemeinsame Nutzung von Daten durch Dritte&lt;/a>, bevor Sie fortfahren. Sie können auch mehr erfahren, indem Sie die Mi KI &lt;a href=\"%2$s\">Datenschutzerklärung&lt;/a> lesen.</Data></string>
     <string name="permission_xiaoai_title">Sprache-zu-Text</string>
     <string name="permlab_accessNote">Zugang zu Notizen</string>
@@ -689,9 +692,12 @@
     <string name="saturday_short">Sa</string>
     <string name="saturday_shortest">S</string>
     <string name="save_single_excerpt">Speichern</string>
-    <string name="save_to_gallery_failure_message">In der Galerie speichern nicht möglich</string>
+    <string name="save_to_gallery_failure_message">In Galerie speichern nicht möglich</string>
     <string name="save_to_gallery_icon_name">In Galerie speichern</string>
     <string name="save_to_gallery_success_message">Bild erfolgreich in Galerie gespeichert</string>
+    <string name="save_to_local_failure_message">Speichern nicht möglich</string>
+    <string name="save_to_local_icon_name">Speichern</string>
+    <string name="save_to_local_success_message">Erfolgreich gespeichert</string>
     <string name="search">Notizen</string>
     <string name="search_hint">Notizen suchen</string>
     <string name="search_keyword_notes">Notizen;Memo</string>
