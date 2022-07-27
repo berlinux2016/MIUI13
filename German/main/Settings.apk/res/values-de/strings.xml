@@ -3669,7 +3669,7 @@ Gerät neu starten und erneut versuchen."</string>
     <string name="face_unlock_offset_right">Nach links bewegen</string>
     <string name="face_unlock_offset_top">Telefon ein wenig anheben</string>
     <string name="face_unlock_open_eye">Augen etwas weiter öffen</string>
-    <string name="face_unlock_prompt">Gesichtsdaten aufzeichnen, \ndie dem äußeren Bildschirm zugewandt sind</string>
+    <string name="face_unlock_prompt">Gesichtsdaten aufnehmen, \ndie dem äußeren Bildschirm zugewandt sind</string>
     <string name="face_unlock_quality">Gesicht wurde nicht klar erkannt</string>
     <string name="face_unlock_reveal_eye">Augen sichtbarer machen</string>
     <string name="face_unlock_reveal_mouth">Lippen sichtbarer machen</string>
@@ -5300,7 +5300,7 @@ Eine PIN schützt das Telefon bei Verlust oder Diebstahl."</string>
     <string name="lockpattern_need_to_confirm">Zeichnen Sie das Muster zur Bestätigung erneut:</string>
     <string name="lockpattern_need_to_unlock_wrong">Erneut versuchen:</string>
     <string name="lockpattern_pattern_confirmed_header">Ihr neues Entsperrmuster:</string>
-    <string name="lockpattern_pattern_entered_header">Muster wurde aufgezeichnet</string>
+    <string name="lockpattern_pattern_entered_header">Muster wurde aufgenommen</string>
     <string name="lockpattern_pattern_same_with_others">Sollte unterschiedlich zum Passwort des anderen Profils sein</string>
     <string name="lockpattern_pattern_same_with_owner">Sollte unterschiedlich zum Standardpasswort sein</string>
     <string name="lockpattern_pattern_same_with_security_space">Sollte unterschiedlich zum Passwort für das Zweitprofil sein</string>
@@ -5309,7 +5309,7 @@ Eine PIN schützt das Telefon bei Verlust oder Diebstahl."</string>
     <string name="lockpattern_recording_intro_footer">Menütaste drücken, um Hilfe aufzurufen</string>
     <string name="lockpattern_recording_intro_header">Zeichnen Sie ein Entsperrmuster:</string>
     <string name="lockpattern_recording_intro_header_second_space">Entsperrmuster für das Zweitprofil zeichnen. \nMind. 4 Punkte verbinden.</string>
-    <string name="lockpattern_restart_button_text">Neu aufzeichnen</string>
+    <string name="lockpattern_restart_button_text">Neu aufnehmen</string>
     <string name="lockpattern_retry_button_text">Wiederholen</string>
     <string name="lockpattern_settings_change_lock_pattern">Muster ändern</string>
     <string name="lockpattern_settings_choose_lock_pattern">Entsperrmuster</string>
@@ -7704,7 +7704,7 @@ UT Interface: %5$s"</string>
     <string name="restore_finished">Wiederherstellung abgeschlossen</string>
     <string name="restore_is_running">Gerät wiederherstellen</string>
     <string name="restore_launcher_layout_hit">Launchereinstellungen wiederherstellen</string>
-    <string name="restore_oaid_content">Setzen Sie Ihre virtuelle ID zurück, um Ihre Verhaltens- und Präferenzaufzeichnungen zu löschen</string>
+    <string name="restore_oaid_content">Setzen Sie Ihre virtuelle ID zurück, um Ihre Verhaltens- und Präferenzaufnahmen zu löschen</string>
     <string name="restore_oaid_dialog_content">Ihre virtuelle Identitäts-ID wird derzeit von mehreren Apps verwendet. Wenn Sie die ID zurücksetzen, kann dies dazu führen, dass einige Benutzerdaten der App falsch sind oder verloren gehen. Sind Sie sicher, dass Sie die virtuelle Identitäts-ID zurücksetzen wollen?</string>
     <string name="restore_oaid_positive">Zurücksetzen</string>
     <string name="restore_oaid_positive_step">Zurücksetzen (%1$d)</string>
@@ -8439,7 +8439,7 @@ Sie können Ihren Fingerabdruck weiterhin verwenden, um Einkäufe zu autorisiere
     <string name="security_settings_fingerprint_enroll_introduction_consent_message">Erlauben Sie Ihrem Kind, sein Telefon mit seinem Fingerabdruck zu entsperren oder zu verifizieren, dass es ihm gehört. Dies geschieht, wenn es sich bei Apps anmeldet, einen Kauf bestätigt und vieles mehr.</string>
     <string name="security_settings_fingerprint_enroll_introduction_continue">Weiter</string>
     <string name="security_settings_fingerprint_enroll_introduction_continue_setup">Nächster</string>
-    <string name="security_settings_fingerprint_enroll_introduction_footer_message_1">Die von Fingerabdruck aufgezeichneten Daten werden sicher gespeichert und verlassen niemals Ihr Telefon. Sie können Ihre Daten jederzeit in den Einstellungen löschen.</string>
+    <string name="security_settings_fingerprint_enroll_introduction_footer_message_1">Die von Fingerabdruck aufgenommenen Daten werden sicher gespeichert und verlassen niemals Ihr Telefon. Sie können Ihre Daten jederzeit in den Einstellungen löschen.</string>
     <string name="security_settings_fingerprint_enroll_introduction_footer_message_2">Ihr Fingerabdruck kann weniger sicher sein als ein starkes Muster oder eine PIN.</string>
     <string name="security_settings_fingerprint_enroll_introduction_footer_message_3">Ihr Telefon wird gelegentlich Ihre aktuellen Fingerabdruckbilder verwenden, um verbesserte Fingerabdruckmodelle zu erstellen.</string>
     <string name="security_settings_fingerprint_enroll_introduction_footer_title_1">Sie haben die Kontrolle</string>
@@ -10142,15 +10142,15 @@ Gefällt Ihnen Mi Mover?"</string>
     <string name="turn_off_keyguard_password_confirm_msg">Sperrbildschirmpasswort ausschalten?</string>
     <string name="turn_off_keyguard_password_title">Bildschirmsperre ausschalten</string>
     <string name="turn_off_keyguard_password_wait_dialog">Passwort ausschalten…</string>
-    <string name="turn_off_keyguard_password_with_face_confirm_msg">Wenn Sie Ihren Schutz für den Sperrbildschirm ausschalten, werden die aufgezeichneten Gesichtsdaten gelöscht. Sie werden nicht in der Lage sein, das Gerät mit Ihrem Gesicht zu entsperren."</string>
+    <string name="turn_off_keyguard_password_with_face_confirm_msg">Wenn Sie Ihren Schutz für den Sperrbildschirm ausschalten, werden aufgenommene Gesichtsdaten gelöscht. Sie werden nicht in der Lage sein, das Gerät mit Ihrem Gesicht zu entsperren.</string>
     <string name="turn_off_keyguard_password_with_fingerprint_confirm_msg">Wenn Sie das Sperrbildschirmpasswort ausschalten, können Sie Ihren Fingerabdruck zum Entsperren nicht mehr verwenden</string>
-    <string name="turn_off_keyguard_password_with_fingerprint_face_confirm_msg">Wenn Sie Ihr Passwort für den Sperrbildschirm ausschalten, werden aufgezeichnete Fingerabdrücke und Gesichtsdaten gelöscht. Sie können das Gerät nicht mit Ihrem Gesicht oder Fingerabdrücken entsperren.</string>
+    <string name="turn_off_keyguard_password_with_fingerprint_face_confirm_msg">Wenn Sie Ihr Passwort für den Sperrbildschirm ausschalten, werden aufgenommene Fingerabdrücke und Gesichtsdaten gelöscht. Sie können das Gerät nicht mit Gesicht oder Fingerabdrücken entsperren.</string>
     <string name="turn_off_radio">Mobilfunkverbindung ausschalten</string>
     <string name="turn_off_security_lock">Sperre ausschalten</string>
     <string name="turn_off_wifi">WLAN ausschalten</string>
     <string name="turn_on_keyguard_password">Sperrbildschirmpasswort einschalten</string>
     <string name="turn_on_keyguard_password_alert">Merken Sie sich Ihr Passwort</string>
-    <string name="turn_on_keyguard_password_alert_choose">Merken Sie sich Ihre Eingabe genau. Wenn Sie Muster, PIN oder Passwort vergessen, müssen Sie alle Daten auf Ihrem Gerät löschen (Wipe Data), um ein neues einzurichten.</string>
+    <string name="turn_on_keyguard_password_alert_choose">Merken Sie sich Ihre Eingabe genau. Wenn Sie Muster, PIN oder Passwort vergessen, müssen Sie alle Daten auf Ihrem Gerät löschen (Wipe Data), um die Sperre neu einzurichten.</string>
     <string name="turn_on_keyguard_password_alert_foget_cacel">Jetzt nicht</string>
     <string name="turn_on_keyguard_password_alert_foget_ok">Fertig</string>
     <string name="turn_on_keyguard_password_alert_foget_ok_time">OK (%d Sek)</string>
