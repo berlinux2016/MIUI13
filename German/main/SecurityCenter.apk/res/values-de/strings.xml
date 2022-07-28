@@ -147,6 +147,9 @@
     <string name="add_miservice_dialog_title">MIUI Serviceframework</string>
     <string name="add_to_whitelist_button">Datenroamingausnahmen</string>
     <string name="add_whitelist">Zu Ausnahmen hinzufügen</string>
+    <string name="added_game_notification_summary">Spiel jetzt starten</string>
+    <string name="added_game_notification_title">%s ist jetzt im Game Turbo</string>
+    <string name="added_game_start_game">Spielen</string>
     <string name="address">Adresse</string>
     <string name="address_choose_hint">%1$s, %2$s, und %3$d andere Orte</string>
     <string name="adjust_sms_cmd"><u>SMS-Vorlage einrichten</u></string>
@@ -1000,6 +1003,8 @@ Sie verlieren keine App-Daten."</string>
     <string name="btn_text_stop">Anhalten</string>
     <string name="bubble_app_manage">Sprechblasen verwalten</string>
     <string name="bubble_app_empty_page">Keine Apps gefunden, die Sprechblasen auf diesem Gerät unterstützen</string>
+    <string name="bubble_mode_barrage_switch_tips">Einschalten, um Sprechblasen für minimierte Apps als Bildschirmkommentare anzuzeigen</string>
+    <string name="bubble_mode_barrage_tips">Sprechblasen für minimierte Apps werden als Bildschirmkommentare angezeigt</string>
     <string name="bubble_notification">Sprechblasen</string>
     <string name="bubble_notification_switch">Sprechblasen anzeigen</string>
     <string name="bubble_notification_switch_desc">Eingehende Nachrichten in Sprechblasen anzeigen, wenn eine Messenger-App in einem Popup am Bildschirmrand versteckt ist</string>
@@ -1295,11 +1300,18 @@ Alle Daten auf Ihrem Gerät werden evtl. gelöscht und Ihr Sperrbildschirmpasswo
     <string name="diagnostic_attention_dialog_message">Diagnose für %1$s läuft. Warten Sie, bis der Vorgang abgeschlossen ist und versuchen Sie es erneut.</string>
     <string name="dialog_app_roaming_message">%1$s kann beim Roaming keine mobilen Daten verwenden. Beim Roaming können nur Apps aus den Ausnahmen mobile Daten verwenden.</string>
     <string name="dialog_app_roaming_title">Datenroaming für %1$s nicht aktiviert</string>
+    <string name="dialog_btn_delete_icon">Entfernen</string>
+    <string name="dialog_btn_no_create_icon">Abbrechen</string>
+    <string name="dialog_btn_yes_create_icon">Hinzufügen</string>
     <string name="dialog_button_ignore">Ignorieren</string>
     <string name="dialog_button_yes">Ja</string>
     <string name="dialog_change_package_type_summary">Änderung des Datentarifs setzt alle Einstellungen zur Datennutzung (z. B. Datenlimits) auf die Standardwerte zurück. Datentarif jetzt ändern?</string>
     <string name="dialog_change_package_type_title">Datentarif ändern</string>
     <string name="dialog_msg_auto_start_declare">Einige Apps können falsch anzeigen, dass MIUI sie am Start gehindert hat. Prüfen Sie Berechtigungen, die einzelnen Apps unter Einstellungen &gt; Apps gewährt wurden.</string>
+    <string name="dialog_msg_create_icon_content">Startbildschirmverknüpfung jetzt hinzufügen?</string>
+    <string name="dialog_msg_create_icon_not_remain_anymore">Nicht mehr anzeigen</string>
+    <string name="dialog_msg_delete_icon_content">Mit Sicherheit können Sie den Papierkorb auf Ihrem Gerät leeren, Viren finden und neutralisieren, den Akku schonen, Berechtigungen verwalten und vieles mehr.</string>
+    <string name="dialog_msg_delete_icon_title">Diese Startbildschirmverknüpfung entfernen?</string>
     <string name="dialog_msg_stop_virus_scan">Sicherheitsscan stoppen, bevor er beendet ist?</string>
     <string name="dialog_no_longer_alert">Nicht erneut anzeigen</string>
     <string name="dialog_restrict_all_mobile_summary">%s mobile Datenverbindung wird danach für alle Apps eingeschränkt</string>
@@ -2026,6 +2038,10 @@ Alle Daten auf Ihrem Gerät werden evtl. gelöscht und Ihr Sperrbildschirmpasswo
     <string name="gb_advance_settings_vibration_4d_summary2">Bei Abschüssen im Spiel vibrieren</string>
     <string name="gb_audition_instruction">Gedrückt halten zum Aufnehmen (%1$s-%2$s Sek)</string>
     <string name="gb_audition_play_instruction">Kopfhörer verwenden für den besten Effekt</string>
+    <string name="gb_beauty_cold_light">Kalt</string>
+    <string name="gb_beauty_face">Verschönern</string>
+    <string name="gb_beauty_light">Licht auffüllen</string>
+    <string name="gb_beauty_nature_light">Natürlich</string>
     <string name="gb_collimator_color">Farbe</string>
     <string name="gb_collimator_size">Größe</string>
     <string name="gb_collimator_style">Typ</string>
@@ -3486,6 +3502,7 @@ Stromverbrauch"</string>
     <string name="power_center_battery_charge_times">Heute geladen</string>
     <string name="power_center_battery_chargefull_time">Bis voll geladen</string>
     <string name="power_center_battery_duration">Verbleibende Zeit</string>
+    <string name="power_center_battery_duration_screen_on">Verbleibende Bildschirmzeit</string>
     <string name="power_center_battery_health_poor_tip">Anscheinend ist der Akkuzustand schlecht. Lassen Sie Ihren Akku in einem autorisierten Service-Center prüfen.</string>
     <string name="power_center_battery_health_summary">Laden und entladen Sie Ihr Gerät %1$d-%2$d-mal vollständig, um die Genauigkeit der Akkustatistik zu verbessern</string>
     <string name="power_center_battery_last">%s bleiben</string>
@@ -3502,6 +3519,7 @@ Stromverbrauch"</string>
     <string name="power_center_consume_fast">Akku entladen</string>
     <string name="power_center_dialog_msg_bottom">Sie können die Akkulaufzeit um bis zu %1$d Std %2$d Min verlängern. Stromsparmodus einschalten?</string>
     <string name="power_center_dialog_msg_title">%1$s einschalten, um zusätzliche Zeit zu erhalten. Die folgenden Aktionen werden durchgeführt, um den Akku zu schonen:</string>
+    <string name="power_center_dialog_msg_title_screen_on">Sie erhalten %1$s an Bildschirmzeit, wenn Sie diese Funktion einschalten. Hier sind die Maßnahmen, die den Akku schonen:</string>
     <string name="power_center_dialog_msg_top">Wenn Stromsparen eingeschaltet ist, führt MIUI die folgenden Optimierungen durch:</string>
     <string name="power_center_hints_scan_danger_result">Akkuprobleme jetzt beheben</string>
     <string name="power_center_list_item_auto_brightness">Bildschirmhelligkeit autom. anpassen</string>
@@ -3606,6 +3624,8 @@ Stromverbrauch"</string>
     <string name="power_idle">Ruhezustand</string>
     <string name="power_main_battery_last_day_hour">Noch %1$s T %2$s Std betriebsbereit</string>
     <string name="power_main_battery_last_hour_minute">Noch %1$s Std %2$s Min betriebsbereit</string>
+    <string name="power_main_battery_last_hour_minute_screen_on">Noch %1$s %2$s Bildschirmzeit</string>
+    <string name="power_main_open_last_hour_minute_screen_on">Einschalten, um %1$s %2$s an Bildschirmzeit hinzuzufügen</string>
     <string name="power_off_warning_button_ok">Verstanden</string>
     <string name="power_off_warning_message">Akku ist schwach. Ihr Gerät schaltet sich in %d Sekunden ab. Ladegerät anschließen.</string>
     <string name="power_off_warning_notification_title">Im Begriff abzuschalten</string>
@@ -4366,6 +4386,8 @@ Da %2$s die Dienste auf der Grundlage der Erfassung der erforderlichen persönli
     <string name="securityadd_install_fail">Plugin wurde nicht aktualisiert. Erneut versuchen.</string>
     <string name="securityadd_update_tips_cancle">Nicht jetzt</string>
     <string name="securityadd_update_tips_message">Aktualisieren Sie das Sicherheitsdienst-Plugin, um Zugriff auf die neuesten Gaming-Funktionen zu erhalten. %1$d MB werden heruntergeladen.</string>
+    <string name="securityadd_update_tips_now">Aktualisieren</string>
+    <string name="securityadd_update_tips_title">Aktualisieren</string>
     <string name="securitycenter_tab_title">Sicherheit</string>
     <string name="see_all_app_behavior_record">Alle App-Verhaltensweisen anzeigen</string>
     <string name="see_more_content">Spiele für weitere Highlights aktualisieren</string>
