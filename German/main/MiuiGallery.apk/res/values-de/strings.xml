@@ -1,28 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-    <string name="beauty_face_talkback_size_selecter_level_five">Größe 5</string>
-    <string name="beauty_face_talkback_size_selecter_level_four">Größe 4</string>
-    <string name="beauty_face_talkback_size_selecter_level_one">Größe 1</string>
-    <string name="beauty_face_talkback_size_selecter_level_three">Größe 3</string>
-    <string name="beauty_face_talkback_size_selecter_level_two">Größe 2</string>
-    <string name="filter_movie_flower_field">Blütezeit</string>
-    <string name="filter_movie_gray">Esche</string>
-    <string name="filter_movie_sea_town">Bucht</string>
-    <string name="filter_movie_south_france">Garrigue</string>
-    <string name="photo_editor_remover2_desc_type_food_deshadow">Schatten auf Lebensmitteln entfernen</string>
-    <string name="photo_editor_remover2_desc_type_line">Über eine Linie ziehen, um sie zu entfernen</string>
-    <string name="photo_editor_remover2_desc_type_people">Auf Menschen tippen, um sie zu entfernen</string>
-    <string name="photo_editor_remover2_edit_type_food_shadow">Schatten auf Lebensmitteln entfernen</string>
-    <string name="photo_editor_remover2_shadow_seekbar_fusion">Verschmelzen</string>
-    <string name="photo_editor_remover2_shadow_toast_no_food">Keine Lebensmittel erkannt</string>
-    <string name="photo_editor_remover2_shadow_toast_no_removable_shadow">Schatten zum Löschen nicht erkannt</string>
-    <string name="photo_editor_remover2_shadow_toast_no_shadow">Schatten nicht erkannt</string>
-    <string name="photo_editor_remover2_tip_type_deshadow">Schatten entfernen</string>
-    <string name="vlog_filter_gray">Esche</string>
-    <string name="vlog_filter_haijie">Bucht</string>
-    <string name="vlog_filter_huatian">Blütezeit</string>
-    <string name="vlog_filter_nanfa">Garrigue</string>
-
     <string name="abc_action_bar_home_description">Zur Startseite</string>
     <string name="abc_action_bar_up_description">Nach oben</string>
     <string name="abc_action_menu_overflow_description">Weitere Optionen</string>
@@ -243,6 +220,8 @@
     <string name="assistant_page_discovery">Entdecken</string>
     <string name="assistant_page_label">Momente</string>
     <string name="assistant_page_server_error">Netzwerkeinstellungen prüfen</string>
+    <string name="assistant_today_of_year_function_closed_tip">Einschalten</string>
+    <string name="assistant_today_of_year_function_no_address_tip">In der Zeit zurück</string>
     <string name="associate_face_album">Album wählen</string>
     <string name="authorize_to_device_failed">Autorisieren nicht möglich</string>
     <string name="authorize_watch_on_tv_failed">Autorisieren der Anzeige auf TV nicht möglich</string>
@@ -342,6 +321,11 @@
     <string name="backuping_title_normal">Sichern…</string>
     <string name="base_btn_cancel">Abbrechen</string>
     <string name="base_btn_download">Fortsetzen</string>
+    <string name="beauty_face_talkback_size_selecter_level_five">Größe 5</string>
+    <string name="beauty_face_talkback_size_selecter_level_four">Größe 4</string>
+    <string name="beauty_face_talkback_size_selecter_level_one">Größe 1</string>
+    <string name="beauty_face_talkback_size_selecter_level_three">Größe 3</string>
+    <string name="beauty_face_talkback_size_selecter_level_two">Größe 2</string>
     <string name="begin_share">Erstellen Sie ein Kinderalbum \"%s\" und teilen Sie es sofort</string>
     <string name="begin_share_toast">Vor dem Teilen ein eigenes Album für dieses Kind erstellen?</string>
     <string name="browse_category">Anzeigen</string>
@@ -593,6 +577,7 @@
     <string name="crop_label">Zuschneiden</string>
     <string name="cta_agreement_declare"><Data>Um Ihre Rechte als Nutzer sowie die Art und Weise, wie wir Ihre Daten verwenden, vollständig zu verstehen, lesen und akzeptieren Sie unsere &lt;a href=\"%1$s\">Nutzervereinbarung&lt;/a> und &lt;a href=\"%2$s\">Datenschutzerklärung&lt;/a>, bevor Sie diese App nutzen.</Data></string>
     <string name="cta_network_declare">Um Fotos und Videos mit der Xiaomi Cloud zu synchronisieren, benötigt diese App eine Internetverbindung.</string>
+    <string name="cta_screenthrow_declare">Um den Bildschirm dieses Geräts auf externe Monitore zu übertragen, muss diese App mit dem Internet verbunden sein.</string>
     <string name="custom_select_title_deselect_all">Keine auswählen</string>
     <string name="custom_select_title_quickly_share">Teilen</string>
     <string name="custom_select_title_select_all">Alle auswählen</string>
@@ -839,6 +824,7 @@
     <string name="face_name_input">Namen eingeben</string>
     <string name="face_recommend">Empfehlungen</string>
     <string name="fail_hint">Operation fehlgeschlagen</string>
+    <string name="fail_reason_migrate">Elemente verarbeiten... n\Einen Moment warten und erneut versuchen.</string>
     <string name="fail_to_pick_email">Ungültige E-Mail</string>
     <string name="fail_to_sync_album">Synchronisation des Albums fehlgeschlagen. Netzwerkverbindung prüfen und erneut versuchen.</string>
     <string name="family_member_invitation_text">Andere Familienmitglieder</string>
@@ -923,12 +909,16 @@
     <string name="filter_movie_classic">Klassisch</string>
     <string name="filter_movie_dustdream">Schlummern</string>
     <string name="filter_movie_encounter">Begegnung</string>
+    <string name="filter_movie_flower_field">Blütezeit</string>
+    <string name="filter_movie_gray">Esche</string>
     <string name="filter_movie_lost">Verloren</string>
     <string name="filter_movie_mystery">Geheimnisvoll</string>
     <string name="filter_movie_nordic">Nordisch</string>
     <string name="filter_movie_portrait">Farbfokus</string>
     <string name="filter_movie_quiet">Gelassen</string>
     <string name="filter_movie_rome">Rom</string>
+    <string name="filter_movie_sea_town">Bucht</string>
+    <string name="filter_movie_south_france">Garrigue</string>
     <string name="filter_movie_summer">Sommer</string>
     <string name="filter_movie_travel">Reise</string>
     <string name="filter_movie_wonderful">Wunder</string>
@@ -956,9 +946,9 @@
     <string name="filter_popular_cyan">Immergrün</string>
     <string name="filter_popular_dream">Träumerei</string>
     <string name="filter_popular_gingertea">Ingwer</string>
+    <string name="filter_popular_haruno">Blüte</string>
     <string name="filter_popular_hill">Berge</string>
     <string name="filter_popular_humanity">Dokumentation</string>
-    <string name="filter_popular_haruno">Blüte</string>
     <string name="filter_popular_icesnow">Schneefall</string>
     <string name="filter_popular_kamakura">Kamakura</string>
     <string name="filter_popular_lnk">Tinte</string>
@@ -1152,6 +1142,8 @@
     <string name="home_page_empty_action">Foto machen</string>
     <string name="home_page_empty_action_new">Vom alten Gerät importieren</string>
     <string name="home_page_label">Fotos</string>
+    <string name="home_sdcard_op_tip_msg">Diese Aktion wurde nicht für alle gewählten Bilder abgeschlossen. SD-Karte aus- und wieder einhängen.</string>
+    <string name="home_sdcard_tip_msg">Anscheinend ist Ihre SD-Karte schreibgeschützt. Erneut ein- und aushängen in Einstellungen > Über das Telefon > Speicher.</string>
     <string name="homepage_allphotos_tip_dialog_button_negative">Überspringen</string>
     <string name="homepage_allphotos_tip_dialog_description_all">Alle</string>
     <string name="homepage_allphotos_tip_dialog_description_only_camera">Mit der Kamera aufgenommen</string>
@@ -1631,6 +1623,8 @@
     <string name="ocr_save_to_note">Speichern</string>
     <string name="ocr_save_to_note_new">In Notizen speichern</string>
     <string name="ocr_send">Teilen</string>
+    <string name="ocr_switch_hint">Auf Bildern angezeigten Text erkennen, um ihn auszuwählen oder eine Aktion durchzuführen</string>
+    <string name="ocr_switch_title">Text auf Bildern erkennen</string>
     <string name="ocr_text_copied">Erfolgreich kopiert</string>
     <string name="ocr_text_copied_selected">Erfolgreich kopiert</string>
     <string name="ocr_title">Ergebnis</string>
@@ -1809,6 +1803,9 @@
     <string name="photo_editor_remove_watermark">Wasserzeichen entfernen</string>
     <string name="photo_editor_remove_watermark_on">Wasserzeichen hinzufügen</string>
     <string name="photo_editor_remover">Löschen</string>
+    <string name="photo_editor_remover2_desc_type_food_deshadow">Schatten auf Lebensmitteln entfernen</string>
+    <string name="photo_editor_remover2_desc_type_line">Über eine Linie ziehen, um sie zu entfernen</string>
+    <string name="photo_editor_remover2_desc_type_people">Auf Menschen tippen, um sie zu entfernen</string>
     <string name="photo_editor_remover2_download_failed">KI Erase 2.0 herunterladen fehlgeschlagen. Netzwerkeinstellungen prüfen und erneut versuchen.</string>
     <string name="photo_editor_remover2_download_failed_msg">Herunterladen fehlgeschlagen. Netzwerkeinstellungen prüfen und erneut versuchen.</string>
     <string name="photo_editor_remover2_download_finish">KI Erase 2.0 erfolgreich heruntergeladen</string>
@@ -1816,12 +1813,18 @@
     <string name="photo_editor_remover2_download_sdk_without_wifi_title">KI Erase 2.0 herunterladen</string>
     <string name="photo_editor_remover2_download_with_metered_network_msg">Anscheinend ist Ihr Gerät mit einem kostenpflichtigen Netzwerk verbunden. Herunterladen von Originaldateien kann zu zusätzlichen Kosten führen. Trotzdem herunterladen?</string>
     <string name="photo_editor_remover2_download_with_metered_network_title">Kostenpflichtiges Netzwerk</string>
+    <string name="photo_editor_remover2_edit_type_food_shadow">Schatten auf Lebensmitteln entfernen</string>
     <string name="photo_editor_remover2_edit_type_free">Manuell</string>
     <string name="photo_editor_remover2_edit_type_line">Linien entfernen</string>
     <string name="photo_editor_remover2_edit_type_people">Personen entfernen</string>
     <string name="photo_editor_remover2_no_people_to_remover">Hier können keine Personen gelöscht werden</string>
     <string name="photo_editor_remover2_people_clear">Löschen</string>
     <string name="photo_editor_remover2_people_removering">Personen löschen…</string>
+    <string name="photo_editor_remover2_shadow_seekbar_fusion">Verschmelzen</string>
+    <string name="photo_editor_remover2_shadow_toast_no_food">Keine Lebensmittel erkannt</string>
+    <string name="photo_editor_remover2_shadow_toast_no_removable_shadow">Schatten zum Löschen nicht erkannt</string>
+    <string name="photo_editor_remover2_shadow_toast_no_shadow">Schatten nicht erkannt</string>
+    <string name="photo_editor_remover2_tip_type_deshadow">Schatten entfernen</string>
     <string name="photo_editor_rotate">Drehen</string>
     <string name="photo_editor_saving">Speichern…</string>
     <string name="photo_editor_sky">Himmel</string>
@@ -2720,8 +2723,8 @@
     <string name="unsupported_media_view_tip">Anzeigen von Original-%s-Bildern wird in dieser Version von Android nicht unterstützt.</string>
     <string name="update_apk_size">Paketgröße aktualisieren: %s MB</string>
     <string name="update_btn_exit">Zurück</string>
-    <string name="update_btn_positive">Aktualisieren</string>
     <string name="update_btn_negative">Verzögern</string>
+    <string name="update_btn_positive">Aktualisieren</string>
     <string name="update_check">Auf Updates prüfen</string>
     <string name="update_check_title">Aktuelle Version: %s</string>
     <string name="update_ignore">Ignorieren</string>
@@ -2949,13 +2952,17 @@
     <string name="vlog_filter_chenmeng">Schlummern</string>
     <string name="vlog_filter_chujing">Ruhig</string>
     <string name="vlog_filter_chunlu">Tau</string>
+    <string name="vlog_filter_gray">Esche</string>
+    <string name="vlog_filter_haijie">Bucht</string>
     <string name="vlog_filter_heijin">Goldene Schwingungen</string>
     <string name="vlog_filter_huadeng">Laterne</string>
+    <string name="vlog_filter_huatian">Blütezeit</string>
     <string name="vlog_filter_lanmei">Blaubeere</string>
     <string name="vlog_filter_liulan">Nebel</string>
     <string name="vlog_filter_luoma">Rom</string>
     <string name="vlog_filter_master_close">Videoeffekte entfernt</string>
     <string name="vlog_filter_master_open">Angewandte Videoeffekte</string>
+    <string name="vlog_filter_nanfa">Garrigue</string>
     <string name="vlog_filter_no_support_nums">Videos, die nicht bearbeitet werden können, wurden übersprungen (%1$d)</string>
     <string name="vlog_filter_nuanyang">Sonnenschein</string>
     <string name="vlog_filter_origin">Ohne</string>
