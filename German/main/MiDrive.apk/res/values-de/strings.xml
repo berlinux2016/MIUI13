@@ -77,6 +77,15 @@
     <string name="btn_recall_text_ok_timer">Widerrufen</string>
     <string name="camera">Kamera</string>
     <string name="cancel">Abbrechen</string>
+    <string name="cancel_mi_drive">Dienste kündigen</string>
+    <string name="cancel_mi_drive_alert_description">Löschen Sie alle Elemente aus Mi Drive, um Dienste kündigen zu können. Gehen Sie folgendermaßen vor, um Elemente zu löschen:&lt;br />1. Halten Sie auf der Mi Drive-Startseite ein Element gedrückt, damit die Schaltfläche \"Alles auswählen\" erscheint. Verwenden Sie diese Schaltfläche, um bis zu 200 Dateien auf einmal auszuwählen und zu löschen.&lt;br />2. Sobald Sie alle Elemente gelöscht haben, löschen Sie alle Dateien aus Kürzlich gelöschte Elemente.</string>
+    <string name="cancel_mi_drive_alert_reminder_card_summary">1. Wir empfehlen, vor dem Löschen Ihrer Elemente eine Sicherungskopie zu erstellen. Besuchen Sie dazu i.mi.com, klicken Sie auf Mi Drive und laden Sie Ihre Elemente auf einen Computer herunter.&lt;br />2. Bitte beachten Sie, dass Elemente, die aus Kürzlich gelöschte Elemente gelöscht wurden, anschließend nicht wiederhergestellt werden können.</string>
+    <string name="cancel_mi_drive_confirm_button">Dienste kündigen</string>
+    <string name="cancel_mi_drive_confirm_description">Wenn Sie fortfahren, werden Sie die Mi Drive-Dienste kündigen. Wir hören auf, Ihre persönlichen Daten zu sammeln, und die bereits gesammelten und gespeicherten persönlichen Daten werden innerhalb des angegebenen Zeitraums in Übereinstimmung mit den geltenden Gesetzen und Vorschriften gelöscht, sofern nicht anders gefordert.</string>
+    <string name="cancel_mi_drive_confirm_hint">Kündigung der Mi Drive-Dienste hat keine Auswirkungen auf die Nutzung anderer Xiaomi-Produkte und -Dienste. Wenn Sie Ihr Xiaomi-Konto löschen möchten, können Sie dies &lt;font color=#0097FF>&lt;a href=%1$s>hier&lt;/a>&lt;/font> tun.</string>
+    <string name="cancel_mi_drive_confirm_reminder_card_summary">&lt;font color=#F22424>Folgende Elemente werden nach Kündigung der Dienste dauerhaft gelöscht:&lt;/font>&lt;br />1. Alle Elemente auf Mi Drive, einschl., aber nicht beschränkt auf Dokumente, private Dateien und gelöschte Elemente.&lt;br />2. Geräteberechtigungen, Einstellungen und andere zwischengespeicherte Inhalte.&lt;br />3. Mi Drive Up- und Download-Verlauf.</string>
+    <string name="cancel_mi_drive_success">Dienste erfolgreich gekündigt</string>
+    <string name="cancel_mi_drive_title">Dienste kündigen</string>
     <string name="category_document">Dokumente</string>
     <string name="category_document_title">Dokumente</string>
     <string name="category_file">Dateien</string>
@@ -617,8 +626,16 @@ Stellen Sie sicher, dass Sie das aktuelle Xiaomi-Konto als Ihr MIUI-Systemkonto 
     <string name="preference_copied">\"%1$s\" in Zwischenablage kopiert</string>
     <string name="preview">Vorschau</string>
     <string name="privacy_policy">Datenschutzerklärung</string>
+    <string name="privacy_recall_alert_description">Löschen Sie alle Elemente aus Mi Drive, um die Zustimmung zu widerrufen. Gehen Sie folgendermaßen vor, um Elemente zu löschen:&lt;br />1. Halten Sie auf der Mi Drive-Startseite ein Element gedrückt, damit die Schaltfläche \"Alles auswählen\" erscheint. Verwenden Sie diese Schaltfläche, um bis zu 200 Dateien auf einmal auszuwählen und zu löschen.&lt;br />2. Sobald Sie alle Elemente gelöscht haben, löschen Sie alle Dateien aus Kürzlich gelöschte Elemente.</string>
+    <string name="privacy_recall_alert_reminder_card_summary">1. Wir empfehlen, vor dem Löschen Ihrer Elemente eine Sicherungskopie zu erstellen. Besuchen Sie dazu i.mi.com, klicken Sie auf Mi Drive und laden Sie Ihre Elemente auf einen Computer herunter.&lt;br />2. Bitte beachten Sie, dass Elemente, die aus Kürzlich gelöschte Elemente gelöscht wurden, anschließend nicht wiederhergestellt werden können.</string>
+    <string name="privacy_recall_confirm_button">Zustimmung widerrufen</string>
+    <string name="privacy_recall_confirm_description">Wenn Sie fortfahren, widerrufen Sie Ihre Zustimmung zur Datenschutzerklärung von Mi Drive. Wir werden die Erfassung Ihrer personenbezogenen Daten einstellen und die bereits erfassten und gespeicherten personenbezogenen Daten werden innerhalb des angegebenen Zeitraums in Übereinstimmung mit den geltenden Gesetzen und Vorschriften gelöscht, sofern nicht anders gefordert.</string>
+    <string name="privacy_recall_confirm_reminder_card_summary">&lt;font color=#F22424>Die folgenden Elemente werden nach dem Widerruf der Zustimmung dauerhaft gelöscht:&lt;/font>&lt;br />1. Alle Elemente auf Mi Drive, einschl., aber nicht beschränkt auf Dokumente, private Dateien und gelöschte Elemente.&lt;br />2. Geräteberechtigungen, Einstellungen und andere zwischengespeicherte Inhalte.&lt;br />3. Mi Drive Up- und Download-Verlauf.</string>
     <string name="privacy_recall_dialog_msg">Wenn Sie fortfahren, widerrufen Sie Ihre Zustimmung zur Datenschutzerklärung von Mi Drive. Die bereits gesammelten und gespeicherten personenbezogenen Daten werden innerhalb des festgelegten Zeitraums in Übereinstimmung mit den geltenden Gesetzen und Vorschriften gelöscht, sofern nicht anders gefordert. Da Mi Drive seine Dienste auf der Grundlage der Erfassung der erforderlichen personenbezogenen Daten erbringt, wird Ihr Widerruf der Zustimmung als Ablehnung der Annahme der Mi Drive-Dienste gewertet. Zustimmung jetzt widerrufen?</string>
     <string name="privacy_recall_dialog_title">Widerruf Zustimmung</string>
+    <string name="privacy_recall_success">Zustimmung erfolgreich widerrufen</string>
+    <string name="privacy_recall_title">Widerruf Zustimmung</string>
+    <string name="privacy_recalling">Zustimmung widerrufen…</string>
     <string name="privacy_update_dialog_msg">Mi Drive Datenschutzerklärung wurde aktualisiert:&lt;br/>%1$s&lt;br/>Lesen und akzeptieren Sie die neue Version der &lt;a href=%2$s>&lt;u>Datenschutzerklärung&lt;/u>&lt;/a> bevor Sie fortfahren.</string>
     <string name="privacy_update_dialog_title">Datenschutzerklärung aktualisiert</string>
     <string name="privacy_user_notice_dialog_exit_btn_text">Beenden</string>
@@ -631,6 +648,8 @@ Stellen Sie sicher, dass Sie das aktuelle Xiaomi-Konto als Ihr MIUI-Systemkonto 
     <string name="psw_hint">Passwort</string>
     <string name="psw_sign_in">Mit Passwort anmelden</string>
     <string name="ptp_ai_recommend_empty_page">"Keine automatisch generierten PDF's hier"</string>
+    <string name="query_quota_exception">Ein Serverfehler ist aufgetreten. Einen Moment warten und erneut versuchen.</string>
+    <string name="query_quota_searching">Einen Moment…</string>
     <string name="quota_info">Mi Drive: %1$s verfügbar, %2$s insgesamt</string>
     <string name="recent_file">Letzte</string>
     <string name="recent_jump_to_privacy_fail_notice">Diese Datei ist privat. Zurück zur Startseite gehen und zur Ansicht nach unten ziehen.</string>
@@ -639,6 +658,7 @@ Stellen Sie sicher, dass Sie das aktuelle Xiaomi-Konto als Ihr MIUI-Systemkonto 
     <string name="refresh_label_refreshing">Aktualisieren…</string>
     <string name="refresh_label_release_to_refresh">Zum Aktualisieren loslassen</string>
     <string name="release_enter_private">Loslassen, um private Dateien anzuzeigen</string>
+    <string name="reminder_card_title">Achtung</string>
     <string name="remove_success">Erfolgreich gelöscht</string>
     <string name="rename_alert">Wenn Sie die Dateiendung ändern, können Sie die Datei eventuell nicht mehr öffnen</string>
     <string name="rename_ext_confirm_dialog_desc">Ändern des Dateityps kann die Datei unbrauchbar machen</string>
