@@ -861,10 +861,11 @@
     <string name="data_enable_warning_lgu">Sofern in Ihrem Mobilfunktarif nicht anders angegeben, können bei der Nutzung mobiler Daten zusätzliche Kosten anfallen.\n\nMobile Daten trotzdem nutzen?</string>
     <string name="data_enabled">Datenverbindung einschalten</string>
     <string name="data_interruption_remind">Anscheinend ist Ihre Netzwerkumgebung nicht zuverlässig. Um die Verbindung zu verbessern, erlauben Sie Ihrem Gerät, mobile Daten während VoLTE-Anrufen auf der zweiten SIM-Karte zu nutzen.</string>
-    <string name="data_plan">Mobile Datenpläne</string>
+    <string name="data_interruption_remind_for_t">Anscheinend ist Ihre Netzwerkumgebung nicht zuverlässig. Um die Verbindung zu verbessern, erlauben Sie Ihrem Gerät, mobile Daten während VoLTE-Anrufen auf der zweiten SIM-Karte zu verwenden.</string>
+    <string name="data_plan">Mobile Datentarife</string>
     <string name="data_usage_disable_mobile">Mobile Daten ausschalten?</string>
     <string name="data_usage_ota">Systemaktualisierungen</string>
-    <string name="data_usage_template">%1$s Mobile Daten verbraucht %2$s</string>
+    <string name="data_usage_template">%1$s mobile Daten verbraucht %2$s</string>
     <string name="data_usage_title">Datenverbrauch</string>
     <string name="data_usage_uninstalled_apps">Apps gelöscht</string>
     <string name="data_usage_uninstalled_apps_users">Apps und Benutzer gelöscht</string>
@@ -2504,6 +2505,9 @@
     <string name="smart_forwarding_settings_menu">Intelligente Weiterleitung</string>
     <string name="smart_forwarding_settings_menu_summary">Wenn eine Nummer nicht erreichbar ist, leiten Sie Anrufe immer an Ihre andere Nummer weiter</string>
     <string name="smart_multinetwork_acceleration_title">Intelligente Netzwerkbeschleunigung</string>
+    <string name="smart_switch_dual_sim_prompt">Für die Verbindung mit dem mobilen Datennetz über SIM %1$s können zusätzliche Kosten entstehen. Legen Sie ein Limit für die Datennutzung fest, um zusätzliche Kosten zu vermeiden.</string>
+    <string name="smart_switch_dual_sim_summary">Automatisch zwischen Daten-SIM-Karten wechseln, je nach Qualität der Netzverbindung und Gerätestatus</string>
+    <string name="smart_switch_dual_sim_title">Zwischen Daten-SIM-Karten wechseln</string>
     <string name="smsc_dialog_message">Achten Sie darauf, dass die von Ihnen eingegebene Nummer korrekt ist. Sonst können Sie keine SMS senden oder empfangen. Wenden Sie sich an Ihren Mobilfunkanbieter, um Ihre SMSC-Nummer zu bestätigen.</string>
     <string name="softap_beacon_protection">SoftAp Beacon-Schutz aktivieren</string>
     <string name="softap_beacon_protection_summary">SoftAp Beacon-Schutz über Hotspot aktivieren</string>
