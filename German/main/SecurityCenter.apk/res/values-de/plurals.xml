@@ -249,6 +249,14 @@ Beim Einschalten mobiler Daten kann Ihr Mobilfunkanbieter zusätzliche Kosten be
         <item quantity="other">%d Nachrichten</item>
         <item quantity="one">%d Nachricht</item>
     </plurals>
+    <plurals name="gamebooster_push_expiring_soon_link_message">
+        <item quantity="other">Ihre Game Turbo-Mitgliedschaft endet in %d Tagen.</item>
+        <item quantity="one">Ihre Game Turbo-Mitgliedschaft endet in %d Tag.</item>
+    </plurals>
+    <plurals name="gamebooster_push_expiring_soon_message">
+        <item quantity="other">Ihre Game Turbo-Mitgliedschaft läuft in %d Tagen ab. Verlängern Sie jetzt, um nahtlos spielen zu können.</item>
+        <item quantity="one">Ihre Game Turbo-Mitgliedschaft läuft in %d Tag ab. Verlängern Sie jetzt, um nahtlos spielen zu können.</item>
+    </plurals>
     <plurals name="gb_ad_people_play">
         <item quantity="other">%1$d Personen spielen</item>
         <item quantity="one">%1$d Person spielt</item>
@@ -511,8 +519,8 @@ Sie können jetzt eine kostenlose %d-Tag-Testversion erhalten!"</item>
         <item quantity="one">%d neue Benachrichtigung</item>
     </plurals>
     <plurals name="net_booster_expire_notification_tip">
-        <item quantity="other">Noch %d Tage, bevor die Netzwerkgeschwindigkeit wieder gesenkt wird. Sitzung erneuern, um Geschwindigkeitsprobleme zu vermeiden.</item>
-        <item quantity="one">Noch %d Tag, bevor die Netzwerkgeschwindigkeit wieder gesenkt wird. Sitzung erneuern, um Geschwindigkeitsprobleme zu vermeiden.</item>
+        <item quantity="other">Ihre Sitzung Netzwerk-Geschwindigkeitsschub wird in %d Tagen enden. Vielleicht treten dann Netzwerkverzögerungen auf. Jetzt die Sitzung verlängern?</item>
+        <item quantity="one">Ihre Sitzung Netzwerk-Geschwindigkeitsschub wird in %d Tag enden. Vielleicht treten dann Netzwerkverzögerungen auf. Jetzt die Sitzung verlängern?</item>
     </plurals>
     <plurals name="network_restrict_count">
         <item quantity="other">"Netzwerkzugang beschränkt auf &lt;font color='#ff0000'>%d&lt;/font> Apps"</item>
@@ -669,6 +677,14 @@ Sie können jetzt eine kostenlose %d-Tag-Testversion erhalten!"</item>
     <plurals name="power_20s_shutdown">
         <item quantity="other">Ihr Gerät wird in %d Sek ausgeschaltet</item>
         <item quantity="one">Ihr Gerät wird in %d Sek ausgeschaltet</item>
+    </plurals>
+    <plurals name="power_battery_hour">
+        <item quantity="other">%s Std</item>
+        <item quantity="one">%s Std</item>
+    </plurals>
+    <plurals name="power_battery_minute">
+        <item quantity="other">%s Min</item>
+        <item quantity="one">%s Min</item>
     </plurals>
     <plurals name="power_center_battery_charge_number">
         <item quantity="other">-mal</item>
