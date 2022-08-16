@@ -117,12 +117,14 @@
     <string name="add_shortcut">Verknüpfung hinzufügen</string>
     <string name="add_shortcut_success">Verknüpfung erfolgreich hinzugefügt</string>
     <string name="add_to_bookmark">Lesezeichen</string>
+    <string name="add_to_desktop">Zum Startbildschirm hinzufügen</string>
     <string name="add_to_quicklink">Startseite</string>
     <string name="add_to_trust_device">Dies ist ein vertrauenswürdiges Gerät</string>
     <string name="added_to_bookmarks">Zu Lesezeichen hinzugefügt</string>
     <string name="adjust_text_zoom_toast">Ändern der Textgröße kann dazu führen, dass Webseiten nicht mehr korrekt angezeigt werden</string>
     <string name="afternoon">Nachmittag</string>
     <string name="agree">Zustimmen</string>
+    <string name="agree_label">Zustimmen</string>
     <string name="agree_open">Einschelten</string>
     <string name="agree_permissions_request">Erlauben</string>
     <string name="alert_tips">Diese Webseite kann ein Sicherheitsrisiko darstellen</string>
@@ -413,6 +415,7 @@
     <string name="choose_to_signin">Ja</string>
     <string name="choose_to_signup">Nein, ich werde eins erstellen</string>
     <string name="choosertitle_sharevia">Teilen über</string>
+    <string name="clear">Löschen</string>
     <string name="clear_history">Verlauf löschen</string>
     <string name="clear_most_visited">Zuletzt besucht</string>
     <string name="clear_search_history">Verlauf löschen</string>
@@ -420,6 +423,7 @@
     <string name="clear_transfer_title">Systemeinstellungsflags löschen</string>
     <string name="clear_video_download">Videos löschen</string>
     <string name="clearable_edittext_clear_description">Löschen</string>
+    <string name="cleared_garbage">%d MB Müll gelöscht</string>
     <string name="click_always">\"Immer\" tippen</string>
     <string name="click_to_refresh">Wurde letztes Mal hier angehalten, tippen zum Aktualisieren</string>
     <string name="clip_dialog_title">Kopierte URL öffnen?</string>
@@ -616,6 +620,7 @@
     <string name="dkcommon__web_pull_refresh_view__refreshing_tip">Einen Moment…</string>
     <string name="dkcommon__web_pull_refresh_view__release_tip">Loslassen zum Aktualisieren</string>
     <string name="dkmibrowsershopad__ad_view_video_replay">Wiederholen</string>
+    <string name="doc_viewer_open_out_file_prompt">Um eine aus externen Quellen empfangene Datei zu öffnen und anzuzeigen, muss diese App zunächst eine Kopie der Datei erstellen. Fortfahren?</string>
     <string name="document_download_background_btn">Herunterladen im Hintergrund</string>
     <string name="document_download_cancel_btn">Abbrechen</string>
     <string name="document_download_failed">Download fehlgeschlagen</string>
@@ -861,6 +866,7 @@
     <string name="file_size">Größe: %s</string>
     <string name="filename_empty_alert_message">Dateinamen eingeben</string>
     <string name="filename_illegal_alert_message">Ein ungültiges Zeichen wurde aus dem Dateinamen entfernt</string>
+    <string name="find_garbage">%d MB Müll gefunden</string>
     <string name="find_new_version">NEUES UPDATE VERFÜGBAR</string>
     <string name="find_on_page_cancel">Abbrechen</string>
     <string name="find_on_page_hint">Seite durchsuchen</string>
@@ -959,6 +965,9 @@
     <string name="general__end_page_same_authors">Derselbe Autor</string>
     <string name="general__end_page_summary">Zusammenfassung: %s</string>
     <string name="general__exempt_30_minute_ad">Sehen Sie sich ein kleines Video an, bis zu 30 Minuten frei von Werbung</string>
+    <string name="general__fiction_horz_slide_to_see_title_page">Zum Lesen wischen</string>
+    <string name="general__fiction_slide_menu">Kapitel</string>
+    <string name="general__fiction_slide_up_to_see_title_page">Hochwischen, um mit dem Lesen zu beginnen</string>
     <string name="general__make_purchase_hint">Ein Bonus ist gleich einer Münze. Boni sind 15 Tage lang gültig und werden vor den Münzen zum Freischalten von Kapiteln verwendet.</string>
     <string name="general__make_purchase_rule_reminder">Achtung</string>
     <string name="general__make_purchase_total">Gesamtbetrag: %1$d = %2$s + %3$s</string>
@@ -1251,6 +1260,7 @@
     <string name="menu_title_pause_all">Alle anhalten</string>
     <string name="menu_title_resume_all">Alle starten</string>
     <string name="messenger_send_button_text">Senden</string>
+    <string name="mi_browser_clean_up_garbage">Mi Browser löscht Müll…</string>
     <string name="midi_permission_name">MIDI-Geräte steuern</string>
     <string name="midnight">Nacht</string>
     <string name="mint_games">Trendige Spiele</string>
@@ -1330,6 +1340,7 @@
     <string name="more_description">Menü</string>
     <string name="more_info">Mehr erfahren</string>
     <string name="more_option">Weitere Optionen</string>
+    <string name="more_privacy">Mehr Datenschutzoptionen</string>
     <string name="more_recommend">Weitere Empfehlungen</string>
     <string name="morning">Morgen</string>
     <string name="most_visited_sites">Meistbesucht</string>
@@ -1442,8 +1453,7 @@ Absturz-ID: http://crash/%1$s"</string>
     <string name="mw_delete_suggestion_text">Löschen</string>
     <string name="mw_find_next">Nächste suchen</string>
     <string name="mw_find_previous">Vorherige suchen</string>
-    <string name="mw_js_dialog_before_unload">"%s
-Diese Seite jetzt wirklich verlassen?"</string>
+    <string name="mw_js_dialog_before_unload">%s \nDiese Seite jetzt wirklich verlassen?</string>
     <string name="mw_js_dialog_before_unload_negative_button">Auf dieser Seite bleiben</string>
     <string name="mw_js_dialog_before_unload_positive_button">Diese Seite verlassen</string>
     <string name="mw_js_dialog_before_unload_title">Diese Seite verlassen?</string>
@@ -2002,6 +2012,7 @@ Diese Seite jetzt wirklich verlassen?"</string>
     <string name="phone_hint">Rufnummer</string>
     <string name="phone_num_use_for">Rufnummer wird verwendet für:</string>
     <string name="phone_number">Rufnummer</string>
+    <string name="phone_very_clean">Kein Müll</string>
     <string name="photoPickerNotFoundText">Keine Fotos vorhanden</string>
     <string name="pick_file">Dateien wählen</string>
     <string name="ping_test_title">Netzwerkverzögerung</string>
@@ -2516,6 +2527,7 @@ Diese Seite jetzt wirklich verlassen?"</string>
     <string name="reading__wait_to_unlock_toast_go_to_chapter">Anzeigen</string>
     <string name="reading__wait_to_unlock_toast_success">Kapitel freigeschaltet!</string>
     <string name="reading__wait_to_unlock_toast_target_chapter">Kapitel %s kostenlos freigeschaltet</string>
+    <string name="reading_fiction_detail_copyright">-Urheberrechtsinhaber: %s</string>
     <string name="reading_shared_add_to_library">Zur Bibliothek hinzufügen</string>
     <string name="reading_shared_added_in_library">Erfolgreich hinzugefügt</string>
     <string name="reading_shared_do_you_like_it_add_lib">Gefällt Ihnen die Geschichte? Fügen Sie sie zu Ihrer Bibliothek hinzu!</string>
@@ -2562,6 +2574,7 @@ Diese Seite jetzt wirklich verlassen?"</string>
     <string name="refuse_open">Jetzt nicht</string>
     <string name="refuse_permissions_request">Einschränken</string>
     <string name="regid">RegId (ZUM EXPORTIEREN tippen)</string>
+    <string name="reject_all_label">Alles ablehnen</string>
     <string name="release_to_refresh">Zum Aktualisieren loslassen</string>
     <string name="relevant_recommendations">Empfohlen</string>
     <string name="remember_passwords_confirm_message">Ausschalten kann Nutzung beeinträchtigen</string>
@@ -2671,6 +2684,7 @@ Diese Seite jetzt wirklich verlassen?"</string>
     <string name="sdcard_error">Prüfen Sie Ihre SD-Karte</string>
     <string name="search">Suchen</string>
     <string name="search_bar_hint_content">Apps und Inhalt suchen</string>
+    <string name="search_button_text">Los</string>
     <string name="search_empty_view_hint">Nichts gefunden</string>
     <string name="search_engine_title">Standardsuche</string>
     <string name="search_error_hint">Suchen</string>
@@ -2739,11 +2753,13 @@ Diese Seite jetzt wirklich verlassen?"</string>
     <string name="share_slide_video_text">Schauen Sie, was ich geteilt habe: %1$s</string>
     <string name="share_video">Video teilen</string>
     <string name="shear_plate_permission_name">Zugriff auf oder Speichern von Elementen in der Zwischenablage</string>
+    <string name="short_cut_name_novel">Kostenlose Bücher</string>
     <string name="shortcut_function">Verknüpfungen</string>
     <string name="shortcuts_boost_speed">Geschwindigkeit steigern</string>
     <string name="shortcuts_cleanup_cache">Bereinigung</string>
     <string name="shortcuts_cleanup_memory">Cache löschen</string>
     <string name="shortcuts_security_scan">Sicherheitsprüfung</string>
+    <string name="show_options_label">Optionen anzeigen</string>
     <string name="sign_in">Anmelden</string>
     <string name="sign_in_by_others">Andere Arten, sich anzumelden</string>
     <string name="sign_in_by_xiaommi">Mit Xiaomi-Konto anmelden</string>
@@ -2923,6 +2939,7 @@ Diese Seite jetzt wirklich verlassen?"</string>
     <string name="subscribe_success">Erfolgreich abonniert</string>
     <string name="subscription_status_error">Abonnieren nicht möglich</string>
     <string name="subscriptions_title">Abonnement verwalten</string>
+    <string name="successfully_added">Erfolgreich hinzugefügt</string>
     <string name="suggest_access_appstore">Xiaomi App Store</string>
     <string name="suggest_access_btn_install">Installieren</string>
     <string name="suggest_access_btn_open">Öffnen</string>
@@ -2968,6 +2985,8 @@ Diese Seite jetzt wirklich verlassen?"</string>
     <string name="tab_search_description">Suchen</string>
     <string name="tab_share_description">Diese Seite teilen</string>
     <string name="tab_stop_loading_description">Laden der Seite stoppen</string>
+    <string name="tag_undo">Rückgängig</string>
+    <string name="tag_undo_title">%s beendet</string>
     <string name="talk_back_voice_search">Sprachsuche</string>
     <string name="temporary_not_available">Diese Funktion ist noch nicht verfügbar</string>
     <string name="terms_policy">Allgemeine Geschäftsbedingungen</string>
