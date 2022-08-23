@@ -143,6 +143,10 @@
     <string name="app_push_game_invite_title">%1$s lädt Sie ein, %2$s zu spielen</string>
     <string name="apply_failure">Hochladen des Mikrofons fehlgeschlagen~</string>
     <string name="apply_failure_net_error">Das Netzwerk ist anormal, die Anfrage zum Hochladen des Mikrofons ist fehlgeschlagen, bitte später erneut versuchen~</string>
+    <string name="apply_for_the_following_permissions">Diese App erfordert folgende Berechtigungen:</string>
+    <string name="apply_permissions_greater_than_pie">Sie können diese Berechtigung unter Einstellungen > Apps > Rechte > Berechtigungen > Dateien und Medien > Musik erteilen.</string>
+    <string name="apply_permissions_less_than_pie">Sie können diese Berechtigung unter Einstellungen > Apps > Rechte > Berechtigungen > Zugriff und Änderung von Dateien auf dem internen Speicher > Musik erteilen.</string>
+    <string name="apply_permissions_tips_content">Dieser App den Dateizugriff erlauben, um Musik auf Ihrem Gerät zu entdecken.</string>
     <string name="apply_queue">Warteschlange</string>
     <string name="apply_queue_pop_index">Ihre Mikrofon-Sequenz: %d</string>
     <string name="apply_queue_title">Warteschlange</string>
@@ -304,6 +308,9 @@
     <string name="choose_stream_quality">Streamingqualität einstellen</string>
     <string name="choose_to_signin">Ja</string>
     <string name="choose_to_signup">Nein, ich werde eins erstellen</string>
+    <string name="clause_content_first">Aufgrund gesetzlicher Bestimmungen benötigt Mi Music Ihre Zustimmung, um Ihnen die entsprechenden Dienste anbieten zu können.</string>
+    <string name="clause_content_second">Wir schützen Ihre persönlichen Daten in Übereinstimmung mit den Sicherheitsnormen der Branche.</string>
+    <string name="clause_content_third">Sie können Ihre Zustimmung jederzeit in Einstellungen widerrufen.</string>
     <string name="clear_text_end_icon_content_description">Text löschen</string>
     <string name="clearable_edittext_clear_description">Löschen</string>
     <string name="click_and_watch_video_tip">Tippen, um Musikvideos abzuspielen</string>
@@ -781,16 +788,25 @@
     <string name="exit_group_chat_desc">Sind Sie sicher, dass Sie die Familie verlassen wollen? Hinweis: Nach dem Verlassen der Familie dauert es 24 Stunden, um wieder beizutreten</string>
     <string name="exit_group_notify">%1$s hat die Familie verlassen</string>
     <string name="exit_recommend">Dieser Raum ist besser für Sie~</string>
+    <string name="exo_controls_cc_disabled_description">Untertitel einschalten</string>
+    <string name="exo_controls_cc_enabled_description">Untertitel ausschalten</string>
     <string name="exo_controls_fastforward_description">Schnellvorlauf</string>
     <string name="exo_controls_fullscreen_description">Vollbildmodus</string>
+    <string name="exo_controls_fullscreen_enter_description">Vollbildmodus einschalten</string>
+    <string name="exo_controls_fullscreen_exit_description">Vollbildmodus beenden</string>
     <string name="exo_controls_hide">Player-Steuerung ausblenden</string>
     <string name="exo_controls_next_description">Nächster Titel</string>
+    <string name="exo_controls_overflow_hide_description">Weitere Einstellungen ausblenden</string>
+    <string name="exo_controls_overflow_show_description">Weitere Einstellungen anzeigen</string>
     <string name="exo_controls_play_description">Abspielen</string>
+    <string name="exo_controls_playback_speed">Geschwindigkeit</string>
     <string name="exo_controls_previous_description">Vorheriger Titel</string>
     <string name="exo_controls_repeat_all_description">Alle wiederholen</string>
     <string name="exo_controls_repeat_off_description">Keinen wiederholen</string>
     <string name="exo_controls_repeat_one_description">Einen wiederholen</string>
     <string name="exo_controls_rewind_description">Rücklauf</string>
+    <string name="exo_controls_seek_bar_description">Wiedergabefortschritt</string>
+    <string name="exo_controls_settings_description">Einstellungen</string>
     <string name="exo_controls_show">Player-Steuerung anzeigen</string>
     <string name="exo_controls_shuffle_description">Zufallswiedergabe</string>
     <string name="exo_controls_shuffle_off_description">Zufallswiedergabe aus</string>
@@ -891,6 +907,7 @@
     <string name="favorites">Favoriten</string>
     <string name="fcm_fallback_notification_channel_label">Sonstiges</string>
     <string name="feedback_send_email_body_extra_info">Löschen Sie die folgenden Infos nicht. Sie helfen uns, das Problem zu lokalisieren.</string>
+    <string name="file_and_media_permissions_for_display">Dateizugriff: zum Scannen, Anzeigen und Abspielen von lokalen Dateien</string>
     <string name="file_not_found">"Datei existiert nicht"</string>
     <string name="filter_by_MP4">Ordner mit MP4-Dateien anzeigen</string>
     <string name="filter_by_duration">Nach Länge</string>
@@ -1296,6 +1313,7 @@
     <string name="login_instantly">Anmelden</string>
     <string name="login_mi_account_and_gain_more_rights">Mit Xiaomi-Konto anmelden, um auf weitere Funktionen zuzugreifen</string>
     <string name="login_other">Anderes Xiaomi-Konto</string>
+    <string name="login_out_tip">Abmelden ist derzeit nicht möglich. Sie können stattdessen alle Daten der App löschen.</string>
     <string name="login_register_by_local_phone_long_text">Konto erstellen</string>
     <string name="login_toast_noinput">ID und Passwort eingeben</string>
     <string name="login_with_sns">Andere Anmeldeverfahren</string>
@@ -1303,6 +1321,7 @@
     <string name="logout_account">Abmelden</string>
     <string name="logout_confirm">Abmelden bestätigen</string>
     <string name="long_press_to_select_lyric">Gedrückt halten, um die lokale Songtextdatei auszuwählen</string>
+    <string name="lots_of_songs_for_free">Millionen von Songs kostenlos hören</string>
     <string name="low_sound_quality">Niedrig</string>
     <string name="low_version_tip">Version nicht unterstützt</string>
     <string name="lrc_search_failed">Songtext wurde nicht gefunden</string>
@@ -1893,6 +1912,10 @@
     <string name="raised_room">Rauswerfen</string>
     <string name="rc_room_owner">Besitzer</string>
     <string name="re_enter_room_title">Sie haben versehentlich die Verbindung unterbrochen. Müssen Sie den Raum erneut betreten?</string>
+    <string name="read_and_agree_hungama_protocol"><Data>"Ich habe die &lt;font color=\"#A374F0\">&lt;/color>&lt;a href=\"%1$s\">Hungama Datenschutzerklärung&lt;/a>&lt;/font> gelesen und akzeptiert"</Data></string>
+    <string name="read_and_agree_joox_protocol"><Data>"Ich habe die &lt;font color=\"#A374F0\">&lt;/color>&lt;a href=\"%1$s\">JOOX Datenschutzerklärung&lt;/a>&lt;/font> gelesen und akzeptiert""</Data></string>
+    <string name="read_and_agree_mi_protocol"><Data>"Ich habe die Xiaomi &lt;font color=\"#A374F0\">&lt;/color>&lt;a href=\"%1$s\">Nutzervereinbarung&lt;/a>&lt;/font> und &lt;font color=\"#A374F0\">&lt;/color>&lt;a href=\"%2$s\">Datenschutzerklärung&lt;/a>&lt;/font> gelesen und akzeptiert"</Data></string>
+    <string name="read_and_agree_protocol">Lesen und akzeptieren Sie unsere Nutzervereinbarung und Datenschutzerklärung, bevor Sie fortfahren.</string>
     <string name="ready_to_play">Nächster Schritt</string>
     <string name="recently_played">Zuletzt angehört</string>
     <string name="recently_played_songs">Zuletzt angehört</string>
@@ -2225,6 +2248,7 @@
     <string name="storage_cloned_app">Speicher für Dual Apps</string>
     <string name="storage_internal">Interner Speicher</string>
     <string name="storage_sd_card">SD-Karte</string>
+    <string name="storage_space_permissions_for_display">Zugriff auf Gerätespeicher: zum Scannen, Anzeigen und Abspielen von lokalen Dateien</string>
     <string name="storage_usb">USB-Speicher</string>
     <string name="store">Geschäft</string>
     <string name="stream_quality">Streamqualität</string>
