@@ -105,6 +105,8 @@
     <string name="box_title_mivideo">Zusätzliche Funktionen</string>
     <string name="brvah_app_name">Bibliothek</string>
     <string name="btn_clear_history">Verlauf löschen</string>
+    <string name="btn_empty_go_to_download">Herunterladen</string>
+    <string name="btn_playlist_play_all">Abspielen</string>
     <string name="cancel">Abbrechen</string>
     <string name="cancel_choose">Abwählen</string>
     <string name="cancel_subscribe_tips">Nicht mehr folgen?</string>
@@ -262,6 +264,7 @@
     <string name="continue_play">Fortsetzen </string>
     <string name="controller_bar_edit">Bearbeiten</string>
     <string name="copy">Kopieren</string>
+    <string name="copy_toast_msg">Link in Zwischenablage kopiert</string>
     <string name="data_empty">Keine Elemente hier</string>
     <string name="date_picker_lunar">Traditioneller chin. Kalender</string>
     <string name="date_time_picker_dialog_title">Datum und Zeit einstellen</string>
@@ -395,6 +398,9 @@ Senden Sie diesen Code an den Supervisor."</string>
     <string name="failed_dup_secure_phone_number">Diese Rufnummer ist bereits mit einem anderen Xiaomi-Konto verbunden.</string>
     <string name="failed_to_fetch_data">Info nicht geladen</string>
     <string name="failure">Herunterladen nicht möglich</string>
+    <string name="fallback_menu_item_copy_link">Link kopieren</string>
+    <string name="fallback_menu_item_open_in_browser">Im Browser öffnen</string>
+    <string name="fallback_menu_item_share_link">Link teilen</string>
     <string name="favor_movie">Filme</string>
     <string name="favor_playlist">Playlisten</string>
     <string name="favorite">Favoriten</string>
@@ -616,6 +622,7 @@ Senden Sie diesen Code an den Supervisor."</string>
     <string name="incentive_exchange_code_copy">Kopieren</string>
     <string name="incentive_exchange_code_copy_and_start">Verwenden</string>
     <string name="incentive_exchange_details_current">Bestellsumme</string>
+    <string name="incentive_exchange_details_dotask">Punkte sammeln</string>
     <string name="incentive_exchange_details_total">Saldo</string>
     <string name="incentive_exchange_empty_tip">Noch nichts da. Punkte einlösen, um loszulegen.</string>
     <string name="incentive_exchange_expire_tip">Nicht beanspruchte Punkte werden um Mitternacht gelöscht</string>
@@ -645,6 +652,8 @@ Senden Sie diesen Code an den Supervisor."</string>
     <string name="incentive_view_all_prizes">Alle Prämien anzeigen</string>
     <string name="inconsistent_pwd">Passwörter stimmen nicht überein</string>
     <string name="init_channels">Standardwerte wiederherstellen</string>
+    <string name="inline_auto_play_tip">"Mobile Daten verwenden… "</string>
+    <string name="inline_auto_play_to_set">Einstellungen</string>
     <string name="inline_mute_click_tip">Zum Aufheben der Stummschaltung tippen</string>
     <string name="input_email_address_notice">Wir werden diese E-Mail zur Verifizierung Ihres Kontos verwenden</string>
     <string name="input_new_pwd">Neues Passwort eingeben</string>
@@ -671,7 +680,13 @@ für Videos"</string>
     <string name="later">Später</string>
     <string name="library_roundedimageview_libraryDescription">Schneller ImageView (und Drawable), der abgerundete Ecken (und Ovale oder Kreise) unterstützt, basierend auf dem Originalbeispiel von Romain Guy</string>
     <string name="live_now">Jetzt live</string>
+    <string name="live_tv_dialog_item_passed">Dieses Programm ist beendet. Versuchen Sie es das nächste Mal!</string>
+    <string name="live_tv_dialog_subscirbe_button">Abonnieren</string>
+    <string name="live_tv_dialog_subscirbe_tips">Abonnieren Sie %1$s und verpassen Sie keine Folge mehr</string>
+    <string name="live_tv_toast_item_subscirbe">Sie haben dieses Programm bereits abonniert</string>
     <string name="loading">Einen Moment…</string>
+    <string name="local_adjust_zoom_mode_hint">Sie sehen gerade mit %s</string>
+    <string name="local_crop_zoom_mode">Bild ist zugeschnitten</string>
     <string name="local_diversion_all_local_videos">Alle Videos auf dem Gerät</string>
     <string name="local_diversion_close_recommend">Schließen</string>
     <string name="local_diversion_download_more_video">Weitere Videos</string>
@@ -685,11 +700,13 @@ für Videos"</string>
     <string name="local_hide_folder_dialog_title">Ausgeblendete Videos</string>
     <string name="local_hide_folder_setting_goto">Einstellungen</string>
     <string name="local_hide_folder_setting_tip">Sie können Ihre ausgeblendeten Videos verwalten unter Profil > Einstellungen > Ausgeblendete Videos verwalten.</string>
+    <string name="local_play_end_close_tip">Heute werden keine Empfehlungen mehr angezeigt</string>
     <string name="local_play_end_drag_up_guide">Tippen oder wischen Sie hoch, um Shorts abzuspielen</string>
     <string name="local_play_tip">Lokales Video abspielen</string>
     <string name="local_push_setting_power_tag">Benachrichtigungen über lokale Videos</string>
     <string name="local_push_title">Heute beliebt</string>
     <string name="local_push_video_title">Nach neuen lokalen Videos suchen</string>
+    <string name="local_stretch_zoom_mode">Bild ist gestreckt</string>
     <string name="local_subtitle_choose_language_text">Sprache</string>
     <string name="local_subtitle_exemption_hint">Nach Untertiteln suchen auf opensubtitle.org</string>
     <string name="local_subtitle_input_keyword_text">Stichwörter suchen</string>
@@ -714,6 +731,7 @@ für Videos"</string>
     <string name="local_video_size">Größe</string>
     <string name="local_video_space">Belegt: %s</string>
     <string name="local_video_time">Dauer</string>
+    <string name="local_zoom_adjust_button">Anzeigemodus umschalten</string>
     <string name="lock_screen">Bildschirm sperren</string>
     <string name="login">Anmelden</string>
     <string name="login_tip">Anmelden, um unsere Antworten auf Ihr Feedback zu erhalten</string>
@@ -1380,6 +1398,7 @@ Sicherheit Ihres Kontos erhöhen"</string>
     <string name="popup_click_for_download_video">Video herunterladen</string>
     <string name="popup_pip_activate_button">Einstellungen</string>
     <string name="popup_pip_not_activated">Erst die Verwendung von Bild-in-Bild durch Mi Video zulassen</string>
+    <string name="popup_recommend_text">Entdecken Sie mehr Videos, die Ihnen gefallen werden</string>
     <string name="popup_window_home_tip">Online-Videos herunterladen</string>
     <string name="preference_copied">\"%1$s\" in Zwischenablage kopiert</string>
     <string name="privacy_agree_subtitle">Wenn Sie der Datenschutzerklärung zustimmen, können Sie alle Funktionen von Mi Video nutzen.</string>
@@ -1485,6 +1504,14 @@ Sicherheit Ihres Kontos erhöhen"</string>
     <string name="sending">Senden…</string>
     <string name="service_error">Serverfehler</string>
     <string name="set_success">Erfolgreich geändert</string>
+    <string name="settings_inline_auto_play">Immer Autoplay</string>
+    <string name="settings_inline_auto_play_close">Autoplay aus</string>
+    <string name="settings_inline_auto_play_tip_close_forever">Immer aus</string>
+    <string name="settings_inline_auto_play_tip_close_month">Einen Monat lang aus</string>
+    <string name="settings_inline_auto_play_tip_open">An</string>
+    <string name="settings_inline_auto_play_tip_title">Erinnerungen an mobile Datennutzung</string>
+    <string name="settings_inline_auto_play_wify">Autoplay nur bei WLAN</string>
+    <string name="settings_inline_title">Autoplay Startseite</string>
     <string name="settings_manager_hidden_folder">Ausgeblendete Videos verwalten</string>
     <string name="share">Teilen</string>
     <string name="share_fail">Teilen nicht möglich. Netzwerkeinstellungen prüfen und erneut versuchen.</string>

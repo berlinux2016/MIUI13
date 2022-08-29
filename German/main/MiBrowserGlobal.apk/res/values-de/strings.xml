@@ -95,6 +95,7 @@
     <string name="ad_mark">Werbung</string>
     <string name="ad_permission_name">Werbung blockieren</string>
     <string name="ad_sponsored">Gesponsert</string>
+    <string name="ad_swip_up_tips">Hochwischen zum Schließen der Werbung</string>
     <string name="adblock_force_updating_rules_toast">Werbeblocker aktualisieren</string>
     <string name="adblock_rules_not_updated_toast">Fehlgeschlagen</string>
     <string name="adblock_rules_restore">Freigeben</string>
@@ -834,13 +835,18 @@
     <string name="fcm_fallback_notification_channel_label">Verschiedenes</string>
     <string name="featured_this_week">Diese Woche im Fokus</string>
     <string name="feed_content_protection">Inhaltsschutz</string>
+    <string name="feedback_bad">Nein</string>
     <string name="feedback_email">Wenn Sie Fragen zu Wonderfic haben, schreiben Sie uns einfach: wonderwebfiction@gmail.com</string>
+    <string name="feedback_general">Etwas</string>
+    <string name="feedback_good">Ja</string>
     <string name="feedback_info_app_package_name">"Paketname: "</string>
     <string name="feedback_info_app_version">"App-Version: "</string>
     <string name="feedback_info_language">"Sprache: "</string>
     <string name="feedback_info_product">"Modell: "</string>
     <string name="feedback_info_system_version">"Systemversion: "</string>
     <string name="feedback_send_email_body_extra_info">Löschen Sie die folgenden Infos nicht. Sie helfen uns, das Problem zu lokalisieren.</string>
+    <string name="feedback_thank_you">Danke für Ihr Feedback!</string>
+    <string name="feedback_title">Interessiert Sie dieser Inhalt?</string>
     <string name="fetch_video">Video vorbereiten…</string>
     <string name="fetch_video_fail">Daten wurden nicht abgerufen</string>
     <string name="fetch_video_ssl_bad_clock">Anscheinend sind Datum und Zeit auf Ihrem Gerät (%s) nicht korrekt eingestellt. Einstellungen anpassen und erneut versuchen.</string>
@@ -950,6 +956,7 @@
     <string name="game_news_flow_download_bar_play">Spielen</string>
     <string name="game_play">Spielen</string>
     <string name="game_played">Zuletzt</string>
+    <string name="garbage_file">Müll</string>
     <string name="gcm_fallback_notification_channel_label">Verschiedenes</string>
     <string name="general__add_book_to_launcher__success">Erfolgreich hinzugefügt</string>
     <string name="general__coin_not_enough">Nicht genügend Goldmünzen</string>
@@ -1180,6 +1187,8 @@
     <string name="intercept_toast_message_camera">Die Webseite verwendet die Kamera…</string>
     <string name="intercept_toast_message_mic">Die Webseite zeichnet Audio auf…</string>
     <string name="intercept_toast_message_voice">Die Webseite spielt Audio ab…</string>
+    <string name="interest_advise_subtitle">Wir zeigen Ihnen Nachrichten zu den Themen, die Sie interessieren</string>
+    <string name="interest_advise_title">Welche Inhalte interessieren Sie?</string>
     <string name="interest_card_button">Fortfahren</string>
     <string name="interest_card_title">Wählen Sie Ihre Interessen</string>
     <string name="into_info_flow_guide">Weitere Artikel anzeigen</string>
@@ -1249,6 +1258,7 @@
     <string name="media_error_video_not_exist">Video existiert nicht</string>
     <string name="memory_clear_nothing_result">Im Cache nichts zu löschen</string>
     <string name="memory_clear_result">%1$s gelöscht</string>
+    <string name="memory_usage">Speicher</string>
     <string name="menu_addtodesk">Zum Startbildschirm hinzufügen</string>
     <string name="menu_exit_nightmode">Schließen</string>
     <string name="menu_hv_swap">V/H-Bildschirm</string>
@@ -1261,6 +1271,7 @@
     <string name="menu_title_resume_all">Alle starten</string>
     <string name="messenger_send_button_text">Senden</string>
     <string name="mi_browser_clean_up_garbage">Mi Browser löscht Müll…</string>
+    <string name="mi_browser_is_scanning">Mi Browser scannt</string>
     <string name="midi_permission_name">MIDI-Geräte steuern</string>
     <string name="midnight">Nacht</string>
     <string name="mint_games">Trendige Spiele</string>
@@ -1825,6 +1836,12 @@ Absturz-ID: http://crash/%1$s"</string>
     <string name="permission_unknown">Unbekannter Fehler</string>
     <string name="permission_use">Berechtigungen</string>
     <string name="permisssion_not_ask_again">Nicht mehr fragen</string>
+    <string name="person_menu_cleaner">Bereinigung</string>
+    <string name="person_menu_cleaner_button">Bereinigen</string>
+    <string name="person_menu_download">Dateien</string>
+    <string name="person_menu_game_history">Spielverlauf</string>
+    <string name="person_menu_game_recommend">Beliebte Spiele</string>
+    <string name="person_menu_video">Kurzvideos</string>
     <string name="personal__about_view__already_latest">Ist bereits die neueste Version</string>
     <string name="personal__about_view__current_view">Aktuelle Version %s</string>
     <string name="personal__about_view__update">Tippen, um auf die neueste Version zu aktualisieren</string>
@@ -2280,6 +2297,7 @@ Absturz-ID: http://crash/%1$s"</string>
     <string name="reading__auto_pagedown_menu_view__speed">Autom. Blättergeschwindigkeit: %1$d</string>
     <string name="reading__bookmark_empty_view__hint">Lesezeichen während des Lesens zum Pull-Down-Bildschirm hinzufügen</string>
     <string name="reading__bookmark_empty_view__no_bookmark">Vorübergehend keine Lesezeichen</string>
+    <string name="reading__cancel">Abbrechen</string>
     <string name="reading__chapter_error_view__content_error">Kapitel wurde nicht geladen. Netzwerkeinstellungen prüfen und erneut versuchen.</string>
     <string name="reading__chapter_error_view__drm_error">Digitales Zertifikat wurde nicht abgerufen</string>
     <string name="reading__chapter_error_view__exception">Kapitel wurde nicht heruntergeladen. Netzwerkeinstellungen prüfen und erneut versuchen.</string>
@@ -2344,6 +2362,12 @@ Absturz-ID: http://crash/%1$s"</string>
     <string name="reading__feedback_dialog_input_toast">Details zum Problem vor dem Absenden eingeben</string>
     <string name="reading__feedback_dialog_title">Problem melden</string>
     <string name="reading__feedback_submit_toast_success">Feedback erfolgreich übermittelt</string>
+    <string name="reading__menu_open_with_another_app">Mit anderer App öffnen</string>
+    <string name="reading__menu_play">Diashow</string>
+    <string name="reading__menu_rotate_screen">Drehen</string>
+    <string name="reading__menu_search">Suchen</string>
+    <string name="reading__menu_share">Teilen</string>
+    <string name="reading__menu_thumbnail">Seitenminiaturbilder</string>
     <string name="reading__navigation_current_book_cover_desc">Bucheinband</string>
     <string name="reading__navigation_view__delete_annotation">Buchauszug löschen</string>
     <string name="reading__navigation_view__delete_bookmark">Lesezeichen löschen</string>
@@ -2360,6 +2384,8 @@ Absturz-ID: http://crash/%1$s"</string>
     <string name="reading__reading_error_report">Fehler im Kapitelbericht</string>
     <string name="reading__reading_feedback_dialog_email_error_toast">Geben Sie eine gültige E-Mail-Adresse ein</string>
     <string name="reading__reading_feedback_dialog_email_hint">Geben Sie Ihre E-Mail-Adresse ein</string>
+    <string name="reading__reading_first_page">Dies ist die erste Seite</string>
+    <string name="reading__reading_last_page">Dies ist die letzte Seite</string>
     <string name="reading__reading_menu_bottom_view__brightness_bar">Helligkeitsbalken</string>
     <string name="reading__reading_menu_bottom_view__progress">Fortschritt</string>
     <string name="reading__reading_menu_bottom_view__progress_bar">Fortschrittsbalken</string>
@@ -2370,6 +2396,7 @@ Absturz-ID: http://crash/%1$s"</string>
     <string name="reading__reading_menu_bottom_view_epub__confirm_download_font_title">Traffic-Download-Erinnerung</string>
     <string name="reading__reading_menu_bottom_view_epub__wifi_auto_download_font_prompt">Ihnen fehlen die Schriftarten, die für dieses Buch benötigt werden. Um den besten Leseeffekt zu erzielen, wird Quanmin Novel die fehlenden Schriftarten herunterladen</string>
     <string name="reading__reading_menu_bottom_view_epub__wifi_auto_download_font_title">Schriftart herunterladen</string>
+    <string name="reading__reading_menu_chapter_update_time">aktualisiert am M Monat d Tag</string>
     <string name="reading__reading_menu_view__add_launcher_shortcut">Zum Desktop hinzufügen</string>
     <string name="reading__reading_menu_view__back_to_bookshelf">Rückgabe</string>
     <string name="reading__reading_menu_view__close_pirate">Lesen beenden</string>
@@ -2442,6 +2469,10 @@ Absturz-ID: http://crash/%1$s"</string>
     <string name="reading__recommend_title">Kostenlose Empfehlung von guten Büchern</string>
     <string name="reading__remove_selected_items">Die ausgewählten Elemente löschen?</string>
     <string name="reading__repair_cert_view__default_reason">Das Buch wurde nicht geöffnet, bitte versuchen Sie, es zu reparieren, wenn Sie eine Internetverbindung haben.</string>
+    <string name="reading__search_cancel">Abbrechen</string>
+    <string name="reading__search_input_hint">Schlüsselwörter für die Suche eingeben</string>
+    <string name="reading__search_result_nothing">Keine Ergebnisse gefunden</string>
+    <string name="reading__search_searching">Suchen…</string>
     <string name="reading__search_text_view__empty_hint">Volltextsuche</string>
     <string name="reading__search_text_view__nosearch_result">Tut mir leid, es gibt kein solches Schlüsselwort im Text.\nWollen Sie Ihr Schlüsselwort ändern?</string>
     <string name="reading__seek_page_view__next_chapter">Nächstes Kapitel</string>
@@ -3083,6 +3114,7 @@ Absturz-ID: http://crash/%1$s"</string>
     <string name="undo">Rückgängig</string>
     <string name="uni_search_setting_summary">In-App-Suche</string>
     <string name="uni_search_setting_title">Verbessert die Suchergebnisse</string>
+    <string name="unload_residue">Reste</string>
     <string name="unsecurity_url_toast">Diese Website ist nicht sicher</string>
     <string name="up_to_loading_tips">Loslassen zum Aktualisieren</string>
     <string name="update">Aktualisieren</string>
@@ -3194,6 +3226,7 @@ Absturz-ID: http://crash/%1$s"</string>
     <string name="video_unknown_duration">Dauer unbekannt</string>
     <string name="video_view_more">Mehr</string>
     <string name="view_certificate">Zertifikat anzeigen</string>
+    <string name="view_details">Details anzeigen</string>
     <string name="view_document_downloaded_files">Heruntergeladene Dateien in Downloads anzeigen</string>
     <string name="voice_check_network">Netzwerkeinstellungen prüfen und erneut versuchen</string>
     <string name="voice_connect_network">Netzwerkverbindung fehlgeschlagen</string>
