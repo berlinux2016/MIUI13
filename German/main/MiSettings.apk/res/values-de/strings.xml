@@ -53,6 +53,7 @@
     <string name="australia_introduction">Der australische Kontinent ist ein Paradies für seltene endemische Arten.</string>
     <string name="australian_magpie">Australische Elster</string>
     <string name="authorization_tips">Berechtigungen erforderlich</string>
+    <string name="avalible_per_day">Sitzungsdauer</string>
     <string name="baboon_info">Der Olivpavian lebt in Gruppen mit ausgeprägter sozialer Rangordnung, die von der Dominanz der einzelnen Individuen abhängt.</string>
     <string name="back">Zurück</string>
     <string name="bear_info">Bären sind die größten Landraubtiere. Sie leben in kalten Regionen und sind für ihren scharfen Geruchssinn bekannt.</string>
@@ -70,6 +71,9 @@
     <string name="calendar_tip">Terminerinnerungstöne funktionieren bei Kalendererinnerungen, Notizen und Aufgaben</string>
     <string name="canada_goose">Kanadagans</string>
     <string name="capybara_info">Capybaras sind teilweise im Wasser lebende, pflanzenfressende Nagetiere, die ihren Atem unter Wasser bis zu fünf Minuten am Stück anhalten können.</string>
+    <string name="category_limit_notify_title">Bildschirmzeitalarm</string>
+    <string name="category_list_expand">Mehr</string>
+    <string name="category_list_packup">Ausblenden</string>
     <string name="category_other">Andere</string>
     <string name="chacma_baboon">Bärenpavian</string>
     <string name="cheetah">Gepard</string>
@@ -84,8 +88,10 @@
     <string name="color_gamut">Farbraum</string>
     <string name="common_brushtail">Buschschwanzbeutelratte</string>
     <string name="common_ostrich">Strauß</string>
+    <string name="compulsor_tip">Startbildschirm</string>
     <string name="contact_description">Auf Startseitenverknüpfungen tippen, um Anrufe zu tätigen</string>
     <string name="contact_title">Kontaktverknüpfungen</string>
+    <string name="continue_time">Sitzungsdauer</string>
     <string name="contrast_ratio">Kontrast</string>
     <string name="control_center_title">Bildschirmzeit heute</string>
     <string name="control_center_title_new">Heute genutzt</string>
@@ -116,6 +122,8 @@
     <string name="desktop_widget_authorization_new">Tippen, um die Bildschirmzeitstatistik anzuzeigen</string>
     <string name="desktop_widget_not_support">Bildschirmzeitstatistiken werden\nnicht im Zweitprofil erstellt</string>
     <string name="desktop_widget_screen_use_time">Bildschirmzeit</string>
+    <string name="device_limit_enable">An</string>
+    <string name="device_limit_un_enable">Aus</string>
     <string name="devices_type_pad">Pad</string>
     <string name="devices_type_phone">Telefon</string>
     <string name="display_description">Größere Symbole, großer Text, weniger visuelles Durcheinander</string>
@@ -206,6 +214,9 @@
     <string name="focus_mode_timer_pick_dialog_title">Dauer eingeben</string>
     <string name="focus_time_exception_tip">Anscheinend hat sich die Systemzeit geändert. Fokusmodus wurde ausgeschaltet.</string>
     <string name="follow_sim1">Einstellungen SIM1 übernehmen</string>
+    <string name="force_rest">Sitzungspausen nutzen</string>
+    <string name="force_rest_summary">Zwangspausen einlegen, wenn Sitzungen das festgelegte Limit erreichen</string>
+    <string name="force_rest_time">Pausendauer</string>
     <string name="fps_high">Hoch</string>
     <string name="fps_nature_summary">Maximale Aktualisierungsrate zeigt alles klar und deutlich</string>
     <string name="fps_nature_title">Maximal </string>
@@ -216,8 +227,7 @@
     <string name="fps_standard_summary">Standardaktualisierungsrate spart Akku</string>
     <string name="fps_standard_title">Standard</string>
     <string name="fps_user_tip">- Demo-Animationen werden zu Ihrer Information in niedriger Geschwindigkeit abgespielt. Die tatsächliche Leistung kann wegen unterschiedlicher Faktoren anders aussehen.</string>
-    <string name="fps_user_tip_footer">"%1$d. Damit Sie den Unterschied zwischen höheren und niedrigeren Bildwiederholraten verstehen können, werden die Demos hier langsamer abgespielt. Bei normaler Nutzung werden Sie den Unterschied vielleicht nicht so schnell bemerken.
-%2$d. In einigen Fällen kann die Bildwiederholrate dynamisch angepasst werden, je nachdem, welche Elemente angezeigt werden.."</string>
+    <string name="fps_user_tip_footer">%1$d. Damit Sie den Unterschied zwischen höheren und niedrigeren Bildwiederholraten verstehen können, werden die Demos hier langsamer abgespielt. Bei normaler Nutzung werden Sie den Unterschied vielleicht nicht so schnell bemerken.\n%2$d. In einigen Fällen kann die Bildwiederholrate dynamisch angepasst werden, je nachdem, welche Elemente angezeigt werden.</string>
     <string name="friday">Freitag</string>
     <string name="friday_short">Fr</string>
     <string name="friday_shortest">F</string>
@@ -236,6 +246,16 @@
     <string name="green_peafowl">Ährenträgerpfau</string>
     <string name="green_warbler_finch">Waldsängerfink</string>
     <string name="grey_headed_flying_fox">Graukopf-Flughund</string>
+    <string name="guard_item_app_summary">Apps per Fernzugriff deinstallieren</string>
+    <string name="guard_item_app_title">Apps verwalten</string>
+    <string name="guard_item_browser_summary">Zugriff auf Apps und Inhalte kontrollieren</string>
+    <string name="guard_item_browser_title">Beschränkungen</string>
+    <string name="guard_item_call_summary">Bestimmten Kontakten das Telefonieren erlauben</string>
+    <string name="guard_item_call_title">Kommunikation</string>
+    <string name="guard_item_eye_protect_summary">Körperhaltung überwachen</string>
+    <string name="guard_item_eye_protect_title">Augenkomfort</string>
+    <string name="guard_range_from">Von</string>
+    <string name="guard_range_to">Bis</string>
     <string name="harp_seal">Sattelrobbe</string>
     <string name="harpy_eagle">Harpyie</string>
     <string name="has_applied">Angewendet</string>
@@ -244,10 +264,12 @@
     <string name="high_fps_description">Hohe Bildwiederholrate, höhere Leistungsaufnahme.</string>
     <string name="high_fps_tip_footer">Höhere Bildwiederholraten sorgen für ein flüssigeres Seherlebnis, verbrauchen aber mehr Strom.</string>
     <string name="hippopotamus">Flusspferd</string>
+    <string name="holiday_limit">Freie Tage</string>
     <string name="hsv_space_color">HSV-Farbraum</string>
     <string name="hsv_space_color_hue">Farbton</string>
     <string name="hsv_space_color_saturation">Sättigung</string>
     <string name="hsv_space_color_value">Wert</string>
+    <string name="in_forbidden_period">Nutzung ist jetzt eingeschränkt</string>
     <string name="intelligent_radio_btn_summary">Dynamische Anpassung der Bildwiederholrate je nach Szenario, um Leistung und Stromverbrauch auszugleichen</string>
     <string name="intelligent_radio_btn_title">Standard (empfohlen)</string>
     <string name="intelligent_recognition_item_summary">Speziellen Klingelton für Liefer- und Taxidienstanrufe verwenden. Funktioniert, wenn %s als Standardklingelton eingestellt ist.</string>
@@ -287,6 +309,7 @@
     <string name="leopard">Leopard</string>
     <string name="lion">Löwe</string>
     <string name="lion_info">Löwen sind wilde und starke Raubtiere. Sie leben in Gruppen und haben einen ausgeprägten Sinn für Territorien.</string>
+    <string name="loading_error">Elemente wurden nicht geladen</string>
     <string name="lock_summary">Umfassender Schutz Ihrer Privatsphäre</string>
     <string name="long_tai1ed_iaeger">Falkenraubmöwe </string>
     <string name="low_flicker_mode">Schwaches Licht</string>
@@ -380,6 +403,7 @@
     <string name="nature_mix_summary">Erstellen einer benutzerdefinierten Mischung</string>
     <string name="nazca_booby">Nazcatölpel</string>
     <string name="network_error">Netzwerkfehler, erneut versuchen</string>
+    <string name="next_day">"(Nächster Tag) "</string>
     <string name="night">Abend</string>
     <string name="nine_banded_armadillo">Gürteltier</string>
     <string name="no_matching">Keine passenden Programme</string>
@@ -509,6 +533,8 @@
     <string name="steady_on_screen_notification_title">Legen Sie Ihr Telefon weg und machen Sie eine Pause</string>
     <string name="steady_on_screen_notification_title_pad">Legen Sie Ihr Gerät weg und machen Sie eine Pause</string>
     <string name="steady_on_screen_notify">Bei ständiger Nutzung benachr.</string>
+    <string name="steady_on_screen_notify_new">Machen Sie eine Pause</string>
+    <string name="steady_on_screen_ntf_msg">Alle Funktionen werden in %1$s wieder verfügbar sein</string>
     <string name="steady_on_screen_setting">Zeitlimit für ununterbrochene Sitzungen</string>
     <string name="steady_on_screen_summary">Zeitlimit für ununterbrochene Sitzungen</string>
     <string name="stop_app_timer">Bildschirmzeit deaktivieren</string>
@@ -568,6 +594,11 @@
     <string name="thursday">Donnerstag</string>
     <string name="thursday_short">Do</string>
     <string name="thursday_shortest">D</string>
+    <string name="time_over_back_home">Startbildschirm</string>
+    <string name="time_over_delayed_use">Ignorieren</string>
+    <string name="time_over_not_delayed_use">Verstanden</string>
+    <string name="time_over_today">Keine Zeit mehr\nfür heute</string>
+    <string name="time_over_today_use">"Heutige Sitzungen: "</string>
     <string name="time_picker_dialog_title">Zeit einstellen</string>
     <string name="time_picker_label_hour">Std</string>
     <string name="time_picker_label_minute">Min</string>
@@ -598,6 +629,7 @@
     <string name="tuesday_shortest">D</string>
     <string name="two_toed_sloths">Zweifingerfaultier</string>
     <string name="two_toed_sloths_info">Zweifingerfaultiere können sich in den Baumkronen der Regenwälder leicht von Baum zu Baum bewegen.</string>
+    <string name="unavailable_per_day">Pausen</string>
     <string name="unlock_times_per_day">"Tagesdurchschnitt: "</string>
     <string name="unlock_times_per_hour">"Entsperrt pro Std: "</string>
     <string name="usage_agree">Zustimmen</string>
@@ -632,8 +664,10 @@
     <string name="usage_device_limit_app_prolong_time3">60 Minuten hinzufügen</string>
     <string name="usage_device_limit_app_prolong_time4">Heute nicht einschränken</string>
     <string name="usage_device_limit_app_prolong_time5">Zeit einmal hinzufügen</string>
+    <string name="usage_device_limit_forbidden_period">Nutzung ist eingeschränkt zwischen %1$s und %2$s</string>
     <string name="usage_device_limit_notifation_summary_start">Limit in %1$s erreicht</string>
     <string name="usage_device_limit_notifation_title">Verbleibende Zeit heute</string>
+    <string name="usage_device_limit_start_forbidden_period">Nutzung wird zwischen %1$s und %2$s eingeschränkt (%3$s verbleibend)</string>
     <string name="usage_device_limit_time_over">Sie haben das heutige Limit erreicht (%1$s)</string>
     <string name="usage_exit">Beenden</string>
     <string name="usage_focus_focus_premission_main_summary">Diese App muss auf Ihre Kontoinformationen zugreifen, um Ihre Konzentrationsstatistik aufzuzeichnen.</string>
@@ -667,6 +701,8 @@ Diese App muss außerdem eine Internetverbindung herstellen und benötigt folgen
     <string name="usage_home_premission_second_summary_new">"Wir schützen Ihre persönlichen Daten in Übereinstimmung mit den einschlägigen Gesetzen, Vorschriften und Datenschutzrichtlinien.
 Wenn Sie nicht zustimmen, diese Berechtigungen zu erteilen oder Ihre persönlichen Daten zu teilen und hochzuladen, können Sie diese App nicht nutzen.
 Sie können Ihre Berechtigung unter Bildschirmzeit &gt; Einstellungen &gt; Bildschirmzeit ausschalten widerrufen. Wenn Sie weitere Fragen zum Thema Datenschutz haben, können Sie uns unter privacy@xiaomi.com kontaktieren."</string>
+    <string name="usage_new_category_limit_summary">Tägliche Nutzungsgrenzen für alle Apps in dieser Kategorie festlegen</string>
+    <string name="usage_new_category_limit_title">Nutzung für App-Kategorie einschränken</string>
     <string name="usage_new_home_app_limit_summary">Tägliches Bildschirmzeitlimit für diese Apps festlegen</string>
     <string name="usage_new_home_app_limit_title">Bildschirmzeitlimit</string>
     <string name="usage_new_home_average">Durchschnitt</string>
@@ -884,6 +920,7 @@ Diese App muss eine Internetverbindung herstellen und benötigt folgende Berecht
     <string name="willow_grouse">Moorschneehuhn</string>
     <string name="willow_grouse_info">Das Moorschneehuhn ist die meiste Zeit seines Lebens Pflanzenfresser und bewohnt hauptsächlich subalpine und subarktische Lebensräume.</string>
     <string name="wolf">Wolf</string>
+    <string name="workday_limit">Arbeitstage</string>
     <string name="yellow_necked_spurfowl">Gelbkehlfrankolin</string>
     <string name="yellow_throated_marten">Buntmarder</string>
     <string name="yesterday">Gestern</string>

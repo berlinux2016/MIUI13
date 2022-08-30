@@ -546,6 +546,8 @@ Sie verlieren keine App-Daten."</string>
     <string name="app_mobile">Mobile Daten</string>
     <string name="app_name">App-Sperre</string>
     <string name="app_name_na">Datennutzung</string>
+    <string name="app_name_pad">Sicherheit</string>
+    <string name="app_name_phone">Sicherheit</string>
     <string name="app_name_securitycenter">Sicherheit</string>
     <string name="app_not_installed_toast">App ist nicht auf Ihrem Gerät installiert</string>
     <string name="app_perm_manager_service">Rechteverwaltungsdienste</string>
@@ -944,6 +946,8 @@ Sie verlieren keine App-Daten."</string>
     <string name="beauty_fun_screen_light">Bildschirmfüllendes Licht</string>
     <string name="beauty_fun_settings_light">Helligkeit des Aufhellungslichts</string>
     <string name="beauty_fun_video_effect">Video verschönern</string>
+    <string name="beauty_portrait_center">Gesichter zentriert halten</string>
+    <string name="beauty_portrait_center_desc">Identifizieren und zentrieren Sie Gesichter in Videoanrufen und Meetings automatisch. Diese Funktion wird von einigen Apps nicht unterstützt.</string>
     <string name="beauty_settings">Einstellungen</string>
     <string name="begin_date">Zurückgesetzt am</string>
     <string name="behavior_widget_get_installed_apps">App-Zugriff</string>
@@ -1372,8 +1376,10 @@ Alle Daten auf Ihrem Gerät werden evtl. gelöscht und Ihr Sperrbildschirmpasswo
     <string name="dialog_msg_auto_start_declare">Einige Apps können falsch anzeigen, dass MIUI sie am Start gehindert hat. Prüfen Sie Berechtigungen, die einzelnen Apps unter Einstellungen &gt; Apps gewährt wurden.</string>
     <string name="dialog_msg_create_icon_content">Startbildschirm-Verknüpfung jetzt hinzufügen?</string>
     <string name="dialog_msg_create_icon_not_remain_anymore">Nicht mehr anzeigen</string>
-    <string name="dialog_msg_delete_icon_content">Mit Sicherheit können Sie den Papierkorb auf Ihrem Gerät leeren, Viren finden und neutralisieren, den Akku schonen, Berechtigungen verwalten und vieles mehr.</string>
-    <string name="dialog_msg_delete_icon_title">Diese Startbildschirm-Verknüpfung entfernen?</string>
+    <string name="dialog_msg_delete_icon_content_pad">Mit Sicherheit können Sie den Papierkorb auf Ihrem Gerät leeren, Viren finden und neutralisieren, den Akku schonen, Berechtigungen verwalten und vieles mehr.</string>
+    <string name="dialog_msg_delete_icon_content_phone">Mit Sicherheit können Sie den Papierkorb auf Ihrem Gerät leeren, Viren finden und neutralisieren, den Akku schonen, Berechtigungen verwalten und vieles mehr.</string>
+    <string name="dialog_msg_delete_icon_title_pad">Diese Startbildschirm-Verknüpfung entfernen?</string>
+    <string name="dialog_msg_delete_icon_title_phone">Diese Startbildschirm-Verknüpfung entfernen?</string>
     <string name="dialog_msg_stop_virus_scan">Sicherheitsscan stoppen, bevor er beendet ist?</string>
     <string name="dialog_no_longer_alert">Nicht erneut anzeigen</string>
     <string name="dialog_restrict_all_mobile_summary">%s mobile Datenverbindung wird danach für alle Apps eingeschränkt</string>
@@ -1515,6 +1521,10 @@ Alle Daten auf Ihrem Gerät werden evtl. gelöscht und Ihr Sperrbildschirmpasswo
     <string name="eletric_identification_unfamiliar_numbers">Unbekannte Nummern erkennen</string>
     <string name="eletric_identification_unfamiliar_numbers_summary">Anrufarten für unbekannte Nummern basierend auf Benutzerfeedback anzeigen</string>
     <string name="eletric_key_protect_electric_announcement">Schutz vor Betrug</string>
+    <string name="eletric_no_grant_dialog_message_for_phone">Erforderliche Berechtigungen gewähren, um unbekannte Nummern zu identifizieren.</string>
+    <string name="eletric_no_grant_dialog_negative_button">Abbrechen</string>
+    <string name="eletric_no_grant_dialog_positive_button">Einstellungen</string>
+    <string name="eletric_no_grant_dialog_title">Berechtigungen erforderlich</string>
     <string name="eletric_risk_call_identification">Anrufe schützen</string>
     <string name="eletric_risk_call_identification_announcement">Lassen Sie sich über mögliche Risiken bei Anrufen von unbekannten Nummern informieren</string>
     <string name="eletric_status_protecting">An</string>
@@ -3416,6 +3426,7 @@ Stromverbrauch"</string>
     <string name="pc_statistics_battery_use_summary">%s seit letztem Laden</string>
     <string name="pc_statistics_battery_use_title">Akkuverbrauch</string>
     <string name="pc_to_phone_install">Installation von %s via USB blockiert</string>
+    <string name="pc_xiaoai_create_auto_task">Neue Aufgabe von Mi KI</string>
     <string name="per_month_pkg_traffic_settings">Datenlimit festlegen</string>
     <string name="perfermance_optimization_summary">Überhitzung und Hardware-Probleme vermeiden</string>
     <string name="perfermance_optimization_title">Leistungsoptimierung</string>
@@ -4413,7 +4424,7 @@ Da %2$s die Dienste auf der Grundlage der Erfassung der erforderlichen persönli
     <string name="safe_result_item_info_system_scan">Zahlungsüberwachung ist eingeschaltet</string>
     <string name="safe_result_item_info_system_version">MIUI ist aktuell</string>
     <string name="safepay_alert_dialog_button_continue">Fortsetzen</string>
-    <string name="safepay_alert_dialog_button_fix">Beheben</string>
+    <string name="safepay_alert_dialog_button_fix">Mehr erfahren</string>
     <string name="saturday">Samstag</string>
     <string name="saturday_short">Sa</string>
     <string name="saturday_shortest">S</string>
@@ -4684,11 +4695,11 @@ Da %2$s die Dienste auf der Grundlage der Erfassung der erforderlichen persönli
     <string name="sp_antispam_scan_summary">Schützen Sie sich vor Betrug</string>
     <string name="sp_antispam_scan_title">Sperrliste</string>
     <string name="sp_background_risk_dialog_summary">, bitte beachten Sie die Warnungen für eventuell unsichere Zahlungen</string>
-    <string name="sp_background_risk_dialog_summary_new">Das derzeitige Zahlungsumfeld könnte Sicherheitsrisiken bergen. Nehmen Sie sich etwas Zeit, um die bestehenden Probleme zu lösen.</string>
+    <string name="sp_background_risk_dialog_summary_new">Das derzeitige Zahlungsumfeld könnte Sicherheitsrisiken bergen. Nehmen Sie sich etwas Zeit, um mehr zu erfahren.</string>
     <string name="sp_background_risk_dialog_summary_wifi_approve">Sie sind mit einem öffentlichen WLAN verbunden, das unsicher sein kann. Vergewissern Sie sich, dass Ihre Zahlung geschützt ist, bevor Sie sie abschließen.</string>
-    <string name="sp_background_risk_dialog_title">Achtung</string>
+    <string name="sp_background_risk_dialog_title">Risiko von MIUI erkannt</string>
     <string name="sp_background_risk_dialog_title_wifi_approve">Meldung über öffentliches WLAN</string>
-    <string name="sp_background_risk_type_messaging">Systemnachrichten-App wurde ausgetauscht</string>
+    <string name="sp_background_risk_type_messaging">Systemnachrichten-App hat sich geändert</string>
     <string name="sp_background_risk_type_root">System ist gerootet</string>
     <string name="sp_background_risk_type_sign">Inoffizielle App läuft im Hintergrund</string>
     <string name="sp_background_risk_type_virus">Viren-App läuft im Hintergrund</string>

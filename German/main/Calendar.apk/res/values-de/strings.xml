@@ -299,9 +299,11 @@
     <string name="edit_event_label">Details</string>
     <string name="edit_event_no_reminder_value">Nicht daran erinnern</string>
     <string name="edit_event_reminder_3_days_before">3 Tage vorher erinneren</string>
+    <string name="edit_event_reminder_3_days_before_time">Auch %d Tage vorher erinnern</string>
     <string name="edit_event_reminder_off_toast">Erinnerungen sind ausgeschaltet</string>
     <string name="edit_event_reminder_summary">An dem Tag um %1$s</string>
     <string name="edit_event_reminder_summary_3_days_before">3 Tage vorher und an dem Tag um %1$s</string>
+    <string name="edit_event_reminder_summary_3_days_before_today">%1$d Tage vorher und um %1$s am Stichtag</string>
     <string name="edit_event_reminder_text">Am %1$s um %2$s</string>
     <string name="edit_event_reminder_time">Erinnerungszeit</string>
     <string name="edit_event_reminder_with_another_day_text">Am %1$s und %2$s um %3$s</string>
@@ -601,7 +603,7 @@
     <string name="living_text">Live-Übertragung</string>
     <string name="load_more_events">%d Einträge anzeigen</string>
     <string name="load_more_events_default">Einträge für nächstes Jahr anzeigen</string>
-    <string name="load_more_hint">Einträge für %1$d aktualisieren</string>
+    <string name="load_more_hint">%d Termine anzeigen</string>
     <string name="loading">Einen Moment…</string>
     <string name="loading_ics_files">Nach Kalenderdateien suchen…</string>
     <string name="loan">Darlehensrückzahlung</string>
@@ -887,6 +889,7 @@ Netzwerkeinstellungen prüfen und erneut versuchen."</string>
     <string name="path_calendar_settings">Einstellungen/System-Apps/Kalender</string>
     <string name="permission_accounts">Für die Anmeldung und Verwaltung Ihres Systemkontos und die Zuordnung von Elementen zu diesem</string>
     <string name="permission_contacts">Für die Synchronisation der Geburtstage Ihrer Kontakte und das Versenden von Erinnerungen</string>
+    <string name="permission_description">Rechtedetails</string>
     <string name="permission_main_purpose">Anzeigen und Verwalten von Kalenderteinträgen, Planen von Reisen, Empfangen von Erinnerungen und Abonnieren von Diensten</string>
     <string name="permission_storage">Zum Speichern von Erinnerungen und Klingeltönen</string>
     <string name="phone_num">Telefon</string>
@@ -942,6 +945,7 @@ Netzwerkeinstellungen prüfen und erneut versuchen."</string>
     <string name="premission_description_phone_state">Zur Identifizierung Ihres Geräts anhand der Geräte-ID</string>
     <string name="premission_description_ringtone">Zum Einstellen von Klingeltönen</string>
     <string name="premission_description_title">Anzeigen und Verwalten geplanter Termine</string>
+    <string name="privacy_and_permissions">Datenschutz und Rechte</string>
     <string name="privacy_card_description">Stimmen Sie unserer Datenschutzerklärung zu, um alle Funktionen nutzen zu können.</string>
     <string name="privacy_policy_dialog_agree">Zustimmen</string>
     <string name="privacy_policy_dialog_dont_agree">Ablehnen</string>
@@ -1194,6 +1198,10 @@ Sie können auch Erinnerungen einrichten, damit Sie nichts verpassen."</string>
     <string name="tab_title_day">Tag</string>
     <string name="tab_title_month">Monat</string>
     <string name="tab_title_week">Woche</string>
+    <string name="tab_view_day">Tag</string>
+    <string name="tab_view_month">Monat</string>
+    <string name="tab_view_week">Woche</string>
+    <string name="tab_view_year">Jahr</string>
     <string name="taishen">Gottes Kind</string>
     <string name="talk_back_description_close_ad_card">Anzeigenkarte schließen</string>
     <string name="talk_back_description_close_ad_text">Werbekette schließen</string>
