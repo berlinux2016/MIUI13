@@ -2218,6 +2218,7 @@ Sie können diese Funktion unter Einstellungen/Bluetooth/Gekoppelte Geräte auss
     <string name="close_fod_aod">Sie können Ihr Gerät nicht mit Ihrem Fingerabdruck entsperren, wenn der Bildschirm ausgeschaltet ist. \"Immer an-Modus\" wird auch nicht verfügbar sein. Entsperrung mit Fingerabdruck funktioniert nur, wenn der Bildschirm eingeschaltet ist.</string>
     <string name="close_gesture">Mit Geste schließen</string>
     <string name="close_hotspot_hint">Tragbaren Hotspot vor der Übertragung ausschalten</string>
+    <string name="close_lid_display_settings_title">Nach dem Falten</string>
     <string name="close_miui_optimization_title">MIUI Optimierung abschalten</string>
     <string name="close_optimization_message">Textlayout, Konten und andere Teile von MIUI können nach dem Ausschalten dieser Funktion betroffen sein.</string>
     <string name="close_optimization_option">Ausschalten</string>
@@ -4576,6 +4577,8 @@ Xiaomi Cloud öffnen und Elemente von dort aus wiederherstellen."</string>
     <string name="insufficient_storage">Nicht genügend Speicher</string>
     <string name="intelligence_suppression_summary">Größe des Bereichs in der Nähe der Kanten dynamisch anpassen, in dem versehentliche Berührungen ignoriert werden, basierend auf Ihrer Griffstärke</string>
     <string name="intelligence_suppression_title">Automatisch (empfohlen)</string>
+    <string name="intelligent_keep_screen_on">Bildschirm bei Bedarf an lassen</string>
+    <string name="intelligent_keep_screen_on_summary">Äußeren Bildschirm an lassen, wenn er nach oben gerichtet ist</string>
     <string name="intent_sender_account_label">Konto:</string>
     <string name="intent_sender_action_label">Aktion:</string>
     <string name="intent_sender_data_label">Daten:</string>
@@ -4625,7 +4628,7 @@ Xiaomi Cloud öffnen und Elemente von dort aus wiederherstellen."</string>
     <string name="kddi_nfc_secure_settings_title">Sperren, während der Bildschirm gesperrt ist</string>
     <string name="kddi_nfc_secure_toggle_summary">NFC/Osaifu-keitai nur eingeschaltet lassen, wenn das Gerät entsperrt ist</string>
     <string name="keep_legacy_fingerprint">Behalten</string>
-    <string name="keep_screen_on">Bildschirm nicht sperren</string>
+    <string name="keep_screen_on">Bildschirm an lassen</string>
     <string name="keep_screen_on_after_folding_off_summary">Äußeren Bildschirm nach dem Zuklappen bei Anrufen oder bei Verwendung der Kamera eingeschaltet lassen</string>
     <string name="keep_screen_on_after_folding_on_summary">Äußeren Bildschirm nach dem Zuklappen eingeschaltet lassen, um mit den aktuellen Aufgaben fortzufahren</string>
     <string name="keep_screen_on_after_folding_text">Äußeren Bildschirm nach dem Zuklappen eingeschaltet lassen, um mit den aktuellen Aufgaben fortzufahren</string>
@@ -5099,9 +5102,6 @@ Xiaomi Cloud öffnen und Elemente von dort aus wiederherstellen."</string>
     <string name="lock_screen_notifications_interstitial_message_profile">Wie sollen Profilbenachrichtigungen bei gesperrtem Gerät angezeigt werden?</string>
     <string name="lock_screen_notifications_interstitial_title">Sperrbildschirm</string>
     <string name="lock_screen_notifications_interstitial_title_profile">Profilbenachrichtigungen</string>
-    <string name="lockscreen_access_pattern_cleared">Muster gelöscht</string>
-    <string name="lockscreen_access_pattern_detected">Muster fertiggestellt</string>
-    <string name="lockscreen_access_pattern_start">Muster gestartet</string>
     <string name="lock_screen_notifications_summary_disable">Keine Benachrichtigungen</string>
     <string name="lock_screen_notifications_summary_disable_profile">Keine Arbeitsbenachrichtigungen</string>
     <string name="lock_screen_notifications_summary_hide">Benachrichtigung ja, Inhalt nein</string>
@@ -5117,6 +5117,7 @@ Xiaomi Cloud öffnen und Elemente von dort aus wiederherstellen."</string>
     <string name="lock_screen_notifs_show_all">Alarmmeldungen und stille Benachrichtigungen</string>
     <string name="lock_screen_notifs_show_none">Keine Benachrichtigungen</string>
     <string name="lock_screen_notifs_title">Benachrichtigungen auf dem Sperrbildschirm</string>
+    <string name="lock_screen_now">Bildschirm sperren</string>
     <string name="lock_screen_password_skip_biometrics_message">"Zum Einrichten der Gesichts- und Fingerabdrucksperre ist ein Passwort erforderlich.
 
 Ein Passwort schützt das Telefon bei Verlust oder Diebstahl."</string>
@@ -5334,6 +5335,9 @@ Eine PIN schützt das Telefon bei Verlust oder Diebstahl."</string>
     <string name="lockpattern_too_many_failed_confirmation_attempts_header">Zu viele fehlgeschlagene Versuche!</string>
     <string name="lockpattern_tutorial_cancel_label">Abbrechen</string>
     <string name="lockpattern_tutorial_continue_label">Weiter</string>
+    <string name="lockscreen_access_pattern_cleared">Muster gelöscht</string>
+    <string name="lockscreen_access_pattern_detected">Muster fertiggestellt</string>
+    <string name="lockscreen_access_pattern_start">Muster gestartet</string>
     <string name="lockscreen_bypass_summary">Nach Gesichtsentsperrung direkt zum zuletzt verwendeten Bildschirm wechseln</string>
     <string name="lockscreen_bypass_title">Bildschirm sperren überspringen</string>
     <string name="lockscreen_glogin_checking_password">Prüfen…</string>
@@ -9578,6 +9582,8 @@ Auf ^2 gespeicherte Apps könnten nicht richtig funktionieren, und Datenübertra
     <string name="swipe_direction_ltr">Zum Verwerfen nach rechts wischen, zum Anzeigen des Menüs nach links</string>
     <string name="swipe_direction_rtl">Zum Verwerfen nach links wischen, zum Anzeigen des Menüs nach rechts</string>
     <string name="swipe_direction_title">Wischaktionen</string>
+    <string name="swipe_up_to_continue_using">Hochwischen zum Fortfahren</string>
+    <string name="swipe_up_to_continue_using_summary">Nach %d Sekunden Inaktivität sperren</string>
     <string name="swipe_up_to_switch_apps_suggestion_summary">Neue Geste einschalten, um Apps zu wechseln</string>
     <string name="swipe_up_to_switch_apps_suggestion_title">Neue Home-Taste testen</string>
     <string name="swipe_up_to_switch_apps_summary">Um Apps zu wechseln, auf der Home-Taste hochwischen. Nochmals hochwischen, um alle Apps anzuzeigen. Funktioniert auf allen Bildschirmen. Eine Übersichtstaste rechts unten auf dem Bildschirm fehlt dann.</string>
