@@ -1470,10 +1470,10 @@ Weiterhin zeigen?"</string>
     <string name="kg_sim_pin_instructions">SIM-PIN eingeben</string>
     <string name="kg_sim_pin_instructions_multi">SIM-PIN für \"%1$s\" eingeben</string>
     <string name="kg_sim_unlock_progress_dialog_message">SIM-Karte entsperren…</string>
-    <string name="kg_too_many_failed_attempts_countdown">Versuchen Sie es in %1$d Sekunden erneut.</string>
-    <string name="kg_too_many_failed_password_attempts_dialog_message" formatted="false">Sie haben Ihr Passwort %d-mal falsch eingegeben. Versuchen Sie es in %d Sekunden erneut.</string>
-    <string name="kg_too_many_failed_pattern_attempts_dialog_message" formatted="false">Sie haben Ihr Entsperrmuster %d-mal falsch gezeichnet. Versuchen Sie es in %d Sekunden erneut.</string>
-    <string name="kg_too_many_failed_pin_attempts_dialog_message" formatted="false">Sie haben Ihre PIN %d-mal falsch eingegeben. Versuchen Sie es in %d Sekunden erneut.</string>
+    <string name="kg_too_many_failed_attempts_countdown">{count, plural, =1 {In # Sek erneut versuchen.} other {In # Sek erneut versuchen.} }</string>
+    <string name="kg_too_many_failed_password_attempts_dialog_message" formatted="false">Sie haben Ihr Passwort %d-mal falsch eingegeben.\n\nIn %d Sekunden erneut versuchen.</string>
+    <string name="kg_too_many_failed_pattern_attempts_dialog_message" formatted="false">Sie haben Ihr Entsperrmuster %d-mal falsch gezeichnet.\n\nIn %d Sekunden erneut versuchen.</string>
+    <string name="kg_too_many_failed_pin_attempts_dialog_message" formatted="false">Sie haben Ihre PIN %d-mal falsch eingegeben.\n\nIn %d Sekunden erneut versuchen.</string>
     <string name="kg_wrong_password">Falsches Passwort</string>
     <string name="kg_wrong_pattern">Falsches Muster</string>
     <string name="kg_wrong_pin">Falsche PIN</string>
