@@ -427,6 +427,7 @@
     <string name="clearable_edittext_clear_description">Löschen</string>
     <string name="cleared_garbage">%d MB Müll gelöscht</string>
     <string name="click_always">\"Immer\" tippen</string>
+    <string name="click_clean">Löschen</string>
     <string name="click_to_refresh">Wurde letztes Mal hier angehalten, tippen zum Aktualisieren</string>
     <string name="clip_dialog_title">Kopierte URL öffnen?</string>
     <string name="clipboard_title_text">Text kopiert</string>
@@ -584,6 +585,7 @@
     <string name="deeplink_permission_name_hint">%s öffnen</string>
     <string name="default_account_name">Gast</string>
     <string name="default_likes">Gefällt mir</string>
+    <string name="default_message_body">Nachrichtentext</string>
     <string name="default_share">Teilen</string>
     <string name="default_title">Beschriftung wurde nicht geladen. Aktualisieren Sie die Seite, um es erneut zu versuchen.</string>
     <string name="delete">Löschen</string>
@@ -617,6 +619,7 @@
     <string name="discovery__edit_feed_view__remove_this_book">Dieses Buch und seine Einleitung löschen?</string>
     <string name="discovery__edit_feed_view__send">Loslassen</string>
     <string name="discovery__edit_feed_view__title_hint">Titel</string>
+    <string name="display__quick_entry_of_search">Funktionskürzel in der Benachrichtigungsleiste anzeigen</string>
     <string name="dkcommon__web_pull_refresh_view__pull_down_tip">Zum Aktualisieren nach unten ziehen</string>
     <string name="dkcommon__web_pull_refresh_view__refresh_done_tip">Erfolgreich aktualisiert</string>
     <string name="dkcommon__web_pull_refresh_view__refreshing_tip">Einen Moment…</string>
@@ -744,6 +747,8 @@
     <string name="empty_history_hint">Verlauf ist leer</string>
     <string name="empty_snapshot_hint">Leer</string>
     <string name="enable_geolocation_confirm_message">Deaktivieren dieser Funktion könnte auf einigen Seiten zu Fehlverhalten führen</string>
+    <string name="enable_miui_lite_plus">MiuiLite+ Debug aktivieren</string>
+    <string name="enable_notification_permission_in_settings">Benachrichtigungen in den Einstellungen zulassen, um diese Funktion zu nutzen</string>
     <string name="enable_vpn">VPN-Debug aktivieren</string>
     <string name="encrypt_success">Erfolgreich ausgeblendet</string>
     <string name="encrypting">Verschlüsseln…</string>
@@ -957,6 +962,7 @@
     <string name="game_news_flow_download_bar_play">Spielen</string>
     <string name="game_play">Spielen</string>
     <string name="game_played">Zuletzt</string>
+    <string name="garbage_cleaning">Bereinigung</string>
     <string name="garbage_file">Müll</string>
     <string name="gcm_fallback_notification_channel_label">Verschiedenes</string>
     <string name="general__add_book_to_launcher__success">Erfolgreich hinzugefügt</string>
@@ -1140,12 +1146,15 @@
     <string name="home_list_item_click">Auf Startseitenelement tippen</string>
     <string name="home_nf">Inhaltsfeed</string>
     <string name="home_nf_recommend_on">Für Sie empfohlen</string>
+    <string name="home_page_simple">Einfach</string>
+    <string name="homepage_default">Standard</string>
     <string name="homepage_delete_card_menu">Löschen</string>
     <string name="homepage_get_location">Standort bestimmen</string>
     <string name="homepage_get_location_failed">Standort wurde nicht abgerufen, wählen Sie einen Ort</string>
     <string name="homepage_more_cards">Weitere Karten</string>
     <string name="homepage_more_sites">Weitere Seiten</string>
     <string name="homepage_search_hint">Suchen</string>
+    <string name="homepage_setting">Startseiten-Einstellungen</string>
     <string name="hot_games">Beliebt</string>
     <string name="identity">Identifizierung</string>
     <string name="if_cancel">Diesen Vorgang abbrechen?</string>
@@ -1205,6 +1214,7 @@
     <string name="js_dialog_permission_name">Popup-Dialoge anzeigen</string>
     <string name="js_disable_confirm_message">Deaktivieren von JavaScript führt evtl. dazu, dass einige Webseiten nicht korrekt angezeigt werden</string>
     <string name="js_disable_confirm_title">JavaScript deaktivieren?</string>
+    <string name="junk_files_found">Müll gefunden</string>
     <string name="just_a_second">Einen Moment…</string>
     <string name="just_now">Gerade eben</string>
     <string name="language">Sprache</string>
@@ -1673,6 +1683,7 @@ Absturz-ID: http://crash/%1$s"</string>
     <string name="noti_no_permission_record">Keine Elemente hier.</string>
     <string name="noti_web_allow">Erlaubt</string>
     <string name="noti_web_push">Webseiten-Benachrichtigungen</string>
+    <string name="notice_bar_shortcut_entry">Kürzel für Benachrichtigungsleiste</string>
     <string name="notif_install_successful">Download abgeschlossen</string>
     <string name="notification_category_group_general">Allgemein</string>
     <string name="notification_category_media">Medien</string>
@@ -2263,6 +2274,7 @@ Absturz-ID: http://crash/%1$s"</string>
     <string name="pwa_hint_added_success">Erfolgreich hinzugefügt</string>
     <string name="qr_code_title">QR-Code</string>
     <string name="qr_description">QR-Code scannen</string>
+    <string name="quick_search_and_access_to_functions">Die Schnellsuche ermöglicht Ihnen den einfachen Zugriff auf die am häufigsten verwendeten Funktionen.</string>
     <string name="quicklink_bookmark_save">Speichern unter</string>
     <string name="quicklink_cannot_save_url">Diese URL kann nicht hinzugefügt werden</string>
     <string name="quicklink_folder_text">Top Apps</string>
@@ -2806,6 +2818,7 @@ Absturz-ID: http://crash/%1$s"</string>
     <string name="signin_tips_3">- Sie können Ihre Münzen auf all Ihren Geräten verwenden.</string>
     <string name="signin_with_facebook">Mit Facebook anmelden</string>
     <string name="signin_with_google">Mit Google anmelden</string>
+    <string name="simple_page_toast">Sie können unter Einstellungen > Startseiten-Einstellungen auf Standard umschalten</string>
     <string name="skip">Überspringen</string>
     <string name="skip_current_version">Diese Version überspringen</string>
     <string name="sku_all">Alles</string>
@@ -3347,6 +3360,9 @@ Absturz-ID: http://crash/%1$s"</string>
     <string name="web_permission_setting_page_title">Einstellungen Webseite</string>
     <string name="web_permission_setting_page_web_enhance_desc">Ausschalten, um Werbung auf dieser Webseite nicht mehr zu blockieren</string>
     <string name="web_permission_setting_page_web_enhance_sub_title">Werbung blockieren</string>
+    <string name="web_tag_desc">Miniaturansichten der zuvor besuchten Seiten anzeigen</string>
+    <string name="web_tag_tips">Hier tippen, um eine Seite erneut aufzurufen</string>
+    <string name="web_tag_title">Webseiten-Miniaturansichten</string>
     <string name="web_video_accelerate">Geschwindigkeit</string>
     <string name="web_video_download">Herunterladen</string>
     <string name="web_video_download_no_access">Berechtigungen für das Herunterladen von Elementen erforderlich</string>
