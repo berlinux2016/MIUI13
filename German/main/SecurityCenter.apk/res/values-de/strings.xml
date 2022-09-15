@@ -10,6 +10,7 @@
     <string name="HIPS_Perm_External_READ_FILES_Desc">Zugriff auf Dateien und Dokumente auf diesem Gerät</string>
     <string name="HIPS_Perm_External_READ_MEDIA_AUDIO">Zugriff auf Audiodateien</string>
     <string name="HIPS_Perm_External_READ_MEDIA_AUDIO_Desc">Zugriff auf Musik und andere Audiodateien auf diesem Gerät</string>
+    <string name="HIPS_Perm_External_READ_MEDIA_AUDIO_PIC_VIDEO_Desc">Zugriff auf und Speichern von Bildern, Videos und Audiodateien im internen Speicher</string>
     <string name="HIPS_Perm_External_READ_MEDIA_PIC_VIDEO">Zugriff auf Fotos und Videos</string>
     <string name="HIPS_Perm_External_READ_MEDIA_PIC_VIDEO_Desc">Zugriff auf Fotos und Videos auf diesem Gerät</string>
     <string name="HIPS_Perm_External_Storage">Dateizugriff und -änderung auf externem Speicher</string>
@@ -638,6 +639,7 @@ Sie verlieren keine App-Daten."</string>
     <string name="applock_bind_account_dialog_content">Ihr Xiaomi-Konto ist die einzige Möglichkeit, Ihre App-Sperre wiederherzustellen, falls Sie sie vergessen haben. Melden Sie sich an, um Ihr Xiaomi-Konto hinzuzufügen.</string>
     <string name="applock_bind_account_dialog_title">Ihr Xiaomi-Konto hinzufügen</string>
     <string name="applock_bind_account_title">Passwort zurücksetzen</string>
+    <string name="applock_biometric_recognition">Biometrische Daten</string>
     <string name="applock_close_dialog_summary">Ihr Passwort für die App-Sperre wird gelöscht. App-Sperre jetzt ausschalten?</string>
     <string name="applock_close_dialog_title">App-Sperre deaktivieren?</string>
     <string name="applock_exit_account_info">Konto wird bei der Abmeldung automatisch entfernt</string>
@@ -1818,7 +1820,7 @@ Alle Daten auf Ihrem Gerät werden evtl. gelöscht und Ihr Sperrbildschirmpasswo
     <string name="fingerprint_not_identified_msg">Fingerabdruck wurde nicht erkannt. Geben Sie Ihr Passwort ein.</string>
     <string name="fingerprint_not_remind">Nicht wieder nachfragen</string>
     <string name="fingerprint_remind_dialog_title">Fingerabdruckentsperrung</string>
-    <string name="fingerprint_to_lock">Mit Fingerabdruck entsperren</string>
+    <string name="fingerprint_to_lock">Fingerabdruckentsperrung</string>
     <string name="fingerprint_to_lock_summary">Apps mit Fingerabdruck entsperren</string>
     <string name="fingerprint_verify_failed">Fingerabdruck wurde nicht verifiziert</string>
     <string name="fingerprint_verify_succeed">Fingerabdruck verifiziert</string>
@@ -1985,6 +1987,12 @@ Alle Daten auf Ihrem Gerät werden evtl. gelöscht und Ihr Sperrbildschirmpasswo
  %2$d. Wenn diese Funktion aktiviert ist, kann die andere Person Ihre Freizeichen nicht hören, es sei denn, Sie verwenden eine normale SIM-Karte. Eingehende Anrufe werden nach %3$d-%4$d Sek Inaktivität automatisch abgewiesen.
  %5$d. Daten-SIM-Karten von China Mobile und China Unicom werden unterstützt. Normale SIM-Karten von China Mobile, China Unicom und China Telecom werden unterstützt."</string>
     <string name="function_gwsd_title">Eingehende Anrufe dürfen die Daten-SIM-Verbindung nicht unterbrechen</string>
+    <string name="function_oncall_not_close_network">Bei Anrufen nicht unterbrechen</string>
+    <string name="function_oncall_not_close_network_detail">"Über diese Funktion
+ %1$d. Diese Funktion erlaubt Ihnen, während Gaming-Sessions online zu bleiben, ohne durch eingehende Anrufe unterbrochen zu werden, wenn das Gerät mit bestimmten 5G-Netzen verbunden ist.
+ %2$d. Wenn keine Ihrer SIM-Karten mit einem 5G-Netz verbunden ist, werden eingehende Anrufe automatisch von Ihrer primären SIM-Karte abgewiesen.
+ %3$d. Diese Funktion wird nur auf dem chinesischen Festland unterstützt.
+ %4$d. Diese Funktion funktioniert nur in 5G-SA-Netzen."</string>
     <string name="function_shield_auto_bright">Auto-Helligkeit ausschalten</string>
     <string name="function_shield_eye_shield">Lesemodus ausschalten</string>
     <string name="function_shield_pull_notification_bar">Benachrichtigungsleiste nicht öffnen</string>
@@ -2113,6 +2121,14 @@ Alle Daten auf Ihrem Gerät werden evtl. gelöscht und Ihr Sperrbildschirmpasswo
     <string name="gb_advance_settings_vibration_4d_summary2">Bei Abschüssen im Spiel vibrieren</string>
     <string name="gb_audition_instruction">Gedrückt halten zum Aufnehmen (%1$s-%2$s Sek)</string>
     <string name="gb_audition_play_instruction">Kopfhörer verwenden für den besten Effekt</string>
+    <string name="gb_barrage_chat_desc">Glaube immer daran, dass etwas Wunderbares passieren wird</string>
+    <string name="gb_barrage_chat_text_color">Farbe</string>
+    <string name="gb_barrage_chat_text_size">Textgröße</string>
+    <string name="gb_barrage_chat_text_size_big">Groß</string>
+    <string name="gb_barrage_chat_text_size_small">Klein</string>
+    <string name="gb_barrage_chat_text_speed">Geschwindigkeit</string>
+    <string name="gb_barrage_chat_text_speed_faster">Schnell</string>
+    <string name="gb_barrage_chat_text_speed_slow">Langsam</string>
     <string name="gb_beauty_cold_light">Kalt</string>
     <string name="gb_beauty_face">Verschönern</string>
     <string name="gb_beauty_light">Licht auffüllen</string>
@@ -3391,6 +3407,7 @@ Stromverbrauch"</string>
     <string name="pc_fast_charge_notifi_title">%d W-Laden</string>
     <string name="pc_fast_charge_notifi_title_on">Erhöhung der Ladegeschwindigkeit beenden</string>
     <string name="pc_fast_charge_switch_summary">Einschalten, um den Ladevorgang zu beschleunigen. MIUI priorisiert die Ladegeschwindigkeit und gewährleistet gleichzeitig die Sicherheit Ihres Geräts. Je schwächer Ihr Akku ist, desto schneller wird er geladen. Diese Funktion kann Ihr Gerät erwärmen.</string>
+    <string name="pc_fast_charge_switch_summary_new">Erinnern, die Ladegeschwindigkeit zu erhöhen, wenn das mitgelieferte Ladegerät angeschlossen ist und der Akku unter den eingestellten Wert fällt</string>
     <string name="pc_fast_charge_switch_title">Ladegeschwindigkeit erhöhen</string>
     <string name="pc_fast_charge_switch_toast_message">Änderungen werden beim nächsten Laden des Geräts übernommen</string>
     <string name="pc_fast_charge_title">Ladegeschwindigkeit erhöhen</string>
@@ -3573,6 +3590,8 @@ Stromverbrauch"</string>
     <string name="power_analysis_consume_title">Akkuverbrauch</string>
     <string name="power_analysis_suggestion_need_optimize">Probleme mit Akkuverbrauch erkannt</string>
     <string name="power_autorun_apps_empty">Keine Autostart-Apps</string>
+    <string name="power_5g_popups_content">5G-Netze bieten hohe Verbindungsgeschwindigkeit und geringere Latenzzeit.</string>
+    <string name="power_5g_popups_title">5G-Netze verwenden</string>
     <string name="power_btn_analyze">Akkuverbrauch analysieren</string>
     <string name="power_cell">Standby</string>
     <string name="power_center_5g_save_close_detail">5G-Stromsparen erhöht die Akkulaufzeit, ohne die 5G-Konnektivität zu beeinträchtigen. Trotzdem ausschalten?</string>
@@ -5792,6 +5811,7 @@ Versuchen Sie, die Auflösung hochzuskalieren!"</string>
     <string name="virus_type_title">Typ</string>
     <string name="virus_update_tips_title">Warnung</string>
     <string name="virus_wait_network_dialog_message">Ihr Telefon ist jetzt nicht mit WLAN verbunden. Mobile Daten nutzen?</string>
+    <string name="vtb_ai_subtitle">Untertitel</string>
     <string name="vtb_func_desc">Über diese Funktion</string>
     <string name="vtb_func_display_style_desc0">KI kann Personen, Tiere, Pflanzen, Himmel, Gebäude und andere Objekte in Videos erkennen und dynamisch verbessern.</string>
     <string name="vtb_func_display_style_desc1">Ausgewählte Effekte werden nicht auf HDR-Videos auf ausgewählten Geräten angewendet.</string>
