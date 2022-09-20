@@ -1914,6 +1914,7 @@ Sie können diese Funktion unter Einstellungen/Bluetooth/Gekoppelte Geräte auss
     <string name="bt_lhdc_open_dialog_summary">LHDC bietet ein hochwertiges Klangerlebnis und reduziert die Latenzzeit beim Spielen, erhöht aber auch den Stromverbrauch. Wegen Bluetooth-Hardwarebeschränkungen können während der Wiedergabe Probleme auftreten.</string>
     <string name="bt_lhdc_open_dialog_title">LHDC aktivieren?</string>
     <string name="bt_lhdc_property">Attribute</string>
+    <string name="bt_low_energy_audio_summary">Genießen Sie hochwertige, stromsparende Audioqualität mit geringer Latenz</string>
     <string name="bt_plugin_current_version">Aktuelle Version</string>
     <string name="bt_plugin_preference_msg">Aktuell: %1$s | Neu: %2$s</string>
     <string name="bt_plugin_preference_title">Neue Version</string>
@@ -4323,7 +4324,7 @@ Wenn Sie automatische Sicherungen einschalten, werden Geräte- und App-Daten per
     <string name="headset_find_tip_title">Achtung</string>
     <string name="headset_find_title">Ihre Ohrhörer finden</string>
     <string name="headset_find_voice_warning">Bei hoher Lautstärke warnen</string>
-    <string name="headset_head_tracking_desc">Immersive Sound anhand der Kopfbewegung anpassen</string>
+    <string name="headset_head_tracking_desc">Immersiver Klang anhand der Kopfbewegung anpassen</string>
     <string name="headset_head_tracking_title">Track head movement</string>
     <string name="headset_notification_switch_summary">Status im Benachrichtigungsleisten-Widget anzeigen, wenn Kopfhörer angeschlossen sind</string>
     <string name="headset_notification_switch_title">Benachrichtigungsleisten-Widget</string>
@@ -5666,6 +5667,9 @@ Dadurch wird Ihr Mobilfunkvertrag nicht gekündigt."</string>
     <string name="middle_function_key">Zentraler Bereich</string>
     <string name="midnight">Nacht</string>
     <string name="miheadet_up_music">Oben</string>
+    <string name="miheadset_ancMode">Geräuschunterdrückungsmodus</string>
+    <string name="miheadset_atuo_download_title">Automatisch herunterladen</string>
+    <string name="miheadset_auto_download_summary">Die geeignetsten Versionen automatisch herunterladen</string>
     <string name="miheadset_Box">Box</string>
     <string name="miheadset_Intelligentpickfree_summary">Wenn die Geräuschunterdrückung eingeschaltet ist, schalten Ihre Ohrhörer automatisch für kurze Zeit auf Transparenz um, wenn sie Stimmen erkennen.</string>
     <string name="miheadset_LEAudio_summary">Einige Funktionen sind nicht verfügbar, wenn LE Audio aktiviert ist.</string>
@@ -5785,7 +5789,8 @@ Dadurch wird Ihr Mobilfunkvertrag nicht gekündigt."</string>
     <string name="miheadset_last_version">Firmware ist aktuell</string>
     <string name="miheadset_low_latency">Geringe Latenzzeit</string>
     <string name="miheadset_manual">Über das Gerät</string>
-    <string name="miheadset_minus">Lautstärke +</string>
+    <string name="miheadset_manual_operation">Manuell</string>
+    <string name="miheadset_minus">Lautstärke -</string>
     <string name="miheadset_moreSettingsInAi">Weitere Einstellungen</string>
     <string name="miheadset_multi_connect_mode">Multi-Anschluss-Modus</string>
     <string name="miheadset_multi_connect_mode_summary">Mehr als ein Gerät gleichzeitig anschließen</string>
@@ -5797,7 +5802,7 @@ Dadurch wird Ihr Mobilfunkvertrag nicht gekündigt."</string>
     <string name="miheadset_openAnc2">Rauschunterdrückung</string>
     <string name="miheadset_open_closeAnc">Geräuschunterdrückung an/aus</string>
     <string name="miheadset_play_pause">Abspielen/Pause</string>
-    <string name="miheadset_plus">Lautstärke -</string>
+    <string name="miheadset_plus">Lautstärke +</string>
     <string name="miheadset_preferences">Präferenzen</string>
     <string name="miheadset_rename">Umbenennen</string>
     <string name="miheadset_rename_device">Umbenennen</string>
@@ -5953,6 +5958,8 @@ Fortfahren, um auf weitere Einstellungen zuzugreifen."</string>
     <string name="miui_special_feature">Spezielle Funktionen</string>
     <string name="miui_touch_filtered_touchassistant_warning">Berechtigungsdialog wird durch den Berührungsassistent abgedeckt. Schieben Sie den Berührungsassistent weg oder schalten Sie diese Funktion aus.</string>
     <string name="miui_touch_filtered_warning">Wenn eine App einen Berechtigungsdialog blockiert, ziehen Sie das überlappende Element weg oder schließen Sie die App.</string>
+    <string name="miui_type_style_summary">Schreibstil, der angewendet wird, wenn der Bildschirmleser eingeschaltet ist</string>
+    <string name="miui_type_style_title">Schreibstil</string>
     <string name="miui_updater">Systemupdate</string>
     <string name="miui_userguide">Benutzerhandbuch</string>
     <string name="miui_wifi_wakeup_summary">WLAN wird automatisch eingeschaltet, wenn Ihr Gerät gespeicherte Netzwerke in der Nähe erkennt und nach 15 Minuten abgeschaltet, wenn keine Verbindung hergestellt wird.</string>
@@ -9475,6 +9482,7 @@ Auf ^2 gespeicherte Apps könnten nicht richtig funktionieren, und Datenübertra
     <string name="stylus_language_summary">Ziffern und handgeschriebenen Text in Englisch und einer weiteren ausgewählten Sprache erkennen</string>
     <string name="stylus_language_title">Sprache</string>
     <string name="stylus_not_connect_message">Stift ist getrennt</string>
+    <string name="stylus_not_connect_message_new">Stift zum Koppeln anbringen</string>
     <string name="stylus_ota_check_failed_battery">Prüfen nicht möglich. Akku des Stiftes ist fast leer.</string>
     <string name="stylus_ota_check_failed_info">Firmware-Version wurde nicht geprüft. Stift neu anschließen.</string>
     <string name="stylus_ota_check_update">Auf Aktualisierungen prüfen</string>
@@ -9668,7 +9676,7 @@ Ein Google-Ansatz zur Synchronisation von Daten, um den Zugriff auf Ihre Kontakt
     <string name="tablet_screen_settings_title">Funktionen für Tablets</string>
     <string name="tablet_screen_special_function_title">Funktionen für Tablets</string>
     <string name="take_call_on_title">Anruf annehmen</string>
-    <string name="talkback_summary">Screenreader in erster Linie für Blinde und Menschen mit eingeschränkten Sehvermögen</string>
+    <string name="talkback_summary">Bildschirmleser in erster Linie für Blinde und Menschen mit eingeschränkten Sehvermögen</string>
     <string name="talkback_watermark_enable">TalkBack Wassrzeichen</string>
     <string name="tap_a_network_to_connect">Auf ein Netzwerk tippen, um zu verbinden</string>
     <string name="tap_to_renew_subscription_and_connect">Tippen, um das Abo zu erneuern und eine Verbindung herzustellen</string>
