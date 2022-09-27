@@ -520,6 +520,7 @@
 "<li>Einschränkungen für App-Hintergrunddaten</li>"
 Sie verlieren keine App-Daten."</string>
     <string name="app_manager_reset_app_preferences_title">App-Voreinstellungen zurücksetzen?</string>
+    <string name="app_manager_restricted_settings_title">Eingeschränkte Einstellungen zulassen</string>
     <string name="app_manager_search_prompt">Keine Ergebnisse gefunden? Versuchen Sie, Ergebnisse aus allen Apps anzuzeigen.</string>
     <string name="app_manager_show_all_apps">Alle Apps anzeigen</string>
     <string name="app_manager_show_all_apps_opened">Ergebnisanzeige aller Apps…</string>
@@ -1894,9 +1895,9 @@ Alle Daten auf Ihrem Gerät werden evtl. gelöscht und Ihr Sperrbildschirmpasswo
     <string name="first_aid_item4_content">Akku</string>
     <string name="first_aid_item5_content">Andere Probleme</string>
     <string name="first_aid_result_feedback_button">Absenden</string>
-    <string name="first_aid_result_feedback_summary">Beim Prüfen wurden keine Probleme gefunden. Allerdings habe ich einige entdeckt.</string>
+    <string name="first_aid_result_feedback_summary">Beim Prüfen wurden keine Probleme gefunden. Allerdings habe ich einige erkannt.</string>
     <string name="first_aid_result_summary_normal">Alles sieht gut aus!</string>
-    <string name="first_aid_result_summary_not_finished">Scanvorgang nicht vollständig. Einige Risiken können unentdeckt bleiben.</string>
+    <string name="first_aid_result_summary_not_finished">Scanvorgang nicht vollständig. Einige Risiken können unerkannt bleiben.</string>
     <string name="first_aid_scanning_item1">Auf Performance-Probleme prüfen…</string>
     <string name="first_aid_scanning_item2">Auf Netzwerkprobleme prüfen…</string>
     <string name="first_aid_scanning_item3">Auf fehlerhafte Einstellungen prüfen…</string>
@@ -2122,12 +2123,14 @@ Alle Daten auf Ihrem Gerät werden evtl. gelöscht und Ihr Sperrbildschirmpasswo
     <string name="gb_audition_instruction">Gedrückt halten zum Aufnehmen (%1$s-%2$s Sek)</string>
     <string name="gb_audition_play_instruction">Kopfhörer verwenden für den besten Effekt</string>
     <string name="gb_barrage_chat_desc">Glaube immer daran, dass etwas Wunderbares passieren wird</string>
+    <string name="gb_barrage_chat_pre_desc">Vorschau</string>
     <string name="gb_barrage_chat_text_color">Farbe</string>
     <string name="gb_barrage_chat_text_size">Textgröße</string>
     <string name="gb_barrage_chat_text_size_big">Groß</string>
     <string name="gb_barrage_chat_text_size_small">Klein</string>
     <string name="gb_barrage_chat_text_speed">Geschwindigkeit</string>
     <string name="gb_barrage_chat_text_speed_faster">Schnell</string>
+    <string name="gb_barrage_chat_text_speed_moderate">Mittel</string>
     <string name="gb_barrage_chat_text_speed_slow">Langsam</string>
     <string name="gb_beauty_cold_light">Kalt</string>
     <string name="gb_beauty_face">Verschönern</string>
@@ -3724,6 +3727,7 @@ Stromverbrauch"</string>
     <string name="power_dailog_night_charge_protection_done">Verstanden</string>
     <string name="power_dailog_night_charge_protection_summary">Anscheinend ist Ihr Akku die meiste Zeit voll geladen, was seine Alterung beschleunigen kann. MIUI hat das optimierte Laden für Sie aktiviert, um solche Probleme zu vermeiden.</string>
     <string name="power_dialog_cancel">Abbrechen</string>
+    <string name="power_dialog_performance_mode_checkbox">Auf 120 Hz-Aktualisierungsrate umschalten</string>
     <string name="power_dialog_super_save_msg">"Ultra-Stromsparen schränkt die meisten stromfressenden Funktionen ein und verringert die Leistung Ihres Geräts, um die Grundfunktionen (z. B. Anrufe, SMS und Verbindungen zum Netzwerk) so lange wie möglich verfügbar zu halten. Ultra-Stromsparen einschalten?"</string>
     <string name="power_dialog_super_save_msg_5g">Ultra-Stromsparen schränkt die meisten stromfressenden Funktionen (z. B. 5G-Verbindung) ein und reduziert die Leistung Ihres Geräts. Nur Anrufe, Nachrichten und Netzwerkverbindungen werden nicht beeinträchtigt. Ultra-Stromsparen einschalten?</string>
     <string name="power_dialog_super_save_title">Ultra-Stromsparen</string>
@@ -3779,8 +3783,8 @@ Stromverbrauch"</string>
     <string name="power_optimize_power_save_extend_time">%s hinzufügen</string>
     <string name="power_optimize_power_save_summary">Stromsparen einschalten, um mehrere Systemoptimierungen anzuwenden, die die Hintergrundaktivität begrenzen</string>
     <string name="power_optimize_prohibit_app_autostart">App-Autostart nicht zulassen</string>
-    <string name="power_optimize_reduce_fps">Bildwiederholrate auf %d Hz senken</string>
-    <string name="power_optimize_reduce_fps_summary">Niedrigere Bildwiederholrate funktioniert für die meisten Szenarien</string>
+    <string name="power_optimize_reduce_fps">Aktualisierungsrate auf %d Hz senken</string>
+    <string name="power_optimize_reduce_fps_summary">Niedrigere Aktualisierungsrate funktioniert für die meisten Szenarien</string>
     <string name="power_optimize_save_mode_not_opened">Stromsparen aus</string>
     <string name="power_optimize_save_on_lockscreen">Stromsparen, wenn Gerät gesperrt ist</string>
     <string name="power_optimize_set_lockscreen_time_holder">Gerät nach %d Sekunden Inaktivität sperren</string>
@@ -5716,7 +5720,7 @@ Wollen Sie es übernehmen?"</string>
     <string name="vb_advanced_settings_before_open">Vorher</string>
     <string name="vb_advanced_settings_pic_stronger_desc">Bewegte Objekte knackiger machen, indem Sie Animationen verbessern. Diese Funktion verbraucht mehr Akku.</string>
     <string name="vb_fps_settings">Automatische Aktualisierungsrate</string>
-    <string name="vb_fps_settings_tips">"Diese Funktion passt die Bildwiederholrate des Bildschirms an die Videobildfrequenz an, was den Akku schont und eine reibungslose Wiedergabe erlaubt. Das Einschalten von Popup-Kommentaren schaltet die automatische Aktualisierungsrate ab.
+    <string name="vb_fps_settings_tips">"Diese Funktion passt die Aktualisierungsrate des Bildschirms an die Videobildfrequenz an, was den Akku schont und eine reibungslose Wiedergabe erlaubt. Das Einschalten von Popup-Kommentaren schaltet die automatische Aktualisierungsrate ab.
 1. Während Sie Spiele spielen, werden alle eingehenden Anrufe auf die SIM-Karte ohne mobilen Datendienst automatisch abgewiesen.
 2. Sie sehen Benachrichtigungen über verpasste Anrufe und die andere Person hört eine Audiobotschaft, die besagt, dass Sie im Moment beschäftigt sind.
 3. Diese Funktion wird nur von Mobilfunkbetreibern in China unterstützt."</string>
@@ -5883,8 +5887,8 @@ Versuchen Sie, die Auflösung hochzuskalieren!"</string>
     <string name="warningcenter_mijia_alert_close">Schließen</string>
     <string name="warningcenter_mijia_alert_settings">Einstellungen in Sicherheit &gt; Warnungen von Smart-Home-Geräten ändern</string>
     <string name="warningcenter_mijia_alert_tips_1">Hohe Gaskonzentration festgestellt</string>
-    <string name="warningcenter_mijia_alert_tips_2">Rauch entdeckt</string>
-    <string name="warningcenter_mijia_alert_tips_3">Überflutung entdeckt</string>
+    <string name="warningcenter_mijia_alert_tips_2">Rauch erkannt</string>
+    <string name="warningcenter_mijia_alert_tips_3">Überflutung erkannt</string>
     <string name="warningcenter_mijia_alert_tips_4">Ihr Schloss wurde beschädigt</string>
     <string name="warningcenter_mijia_alert_view_device">Gerät anzeigen</string>
     <string name="warningcenter_mijia_devices_1">Hochwassermelder</string>
