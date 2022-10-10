@@ -4,6 +4,60 @@
         <item>Männlich</item>
         <item>Weiblich</item>
     </string-array>
+    <string-array name="net_diag_err_link_quality">
+        <item>Schlechte WLAN-Verbindung. WLAN-Band wechseln oder den Router neu starten.</item>
+        <item>Kein Netzwerkzugriff. Erneut mit WLAN verbinden oder den Router neu starten.</item>
+    </string-array>
+    <string-array name="net_diag_err_link_quality_china">
+        <item>Schlechte Wi-Fi-Verbindung. Wi-Fi-Band wechseln oder den Router neu starten.</item>
+        <item>Kein Netzwerkzugriff. Erneut mit Wi-Fi verbinden oder den Router neu starten.</item>
+    </string-array>
+    <string-array name="net_diag_err_network_connectivity">
+        <item>Für den Netzzugriff ist eine Authentifizierung erforderlich</item>
+        <item>Netzwerkzugriff ist eingeschränkt. Zeit auf diesem Gerät einstellen und Netzwerkeinstellungen des Routers prüfen.</item>
+        <item>Netzwerkfehler. HTTP-Proxy-Einstellungen prüfen.</item>
+        <item>Netzwerkfehler. Prüfen Sie, ob der Router auf das Internet zugreifen kann.</item>
+        <item>Netzwerkverbindung nicht möglich. Erneut mit WLAN verbinden oder den Router neu starten.</item>
+    </string-array>
+    <string-array name="net_diag_err_network_connectivity_china">
+        <item>Für den Netzzugriff ist eine Authentifizierung erforderlich</item>
+        <item>Netzwerkzugriff ist eingeschränkt. Zeit auf diesem Gerät einstellen und Netzwerkeinstellungen des Routers prüfen.</item>
+        <item>Netzwerkfehler. HTTP-Proxy-Einstellungen prüfen.</item>
+        <item>Netzwerkfehler. Prüfen Sie, ob der Router auf das Internet zugreifen kann.</item>
+        <item>Netzwerkverbindung nicht möglich. Erneut mit Wi-Fi verbinden oder den Router neu starten.</item>
+    </string-array>
+    <string-array name="net_diag_err_network_dns">
+        <item>DNS-Serverfehler. DNS-Konfiguration des Routers prüfen.</item>
+        <item>Große Verzögerungen vom DNS-Server. DNS-Konfiguration des Routers prüfen.</item>
+        <item>Kein Gateway-Zugriff. Erneut mit dem WLAN verbinden oder den Router neu starten.</item>
+    </string-array>
+    <string-array name="net_diag_err_network_dns_china">
+        <item>DNS-Serverfehler. DNS-Konfiguration des Routers prüfen.</item>
+        <item>Große Verzögerungen vom DNS-Server. DNS-Konfiguration des Routers prüfen.</item>
+        <item>Kein Gateway-Zugriff. Erneut mit dem Wi-Fi verbinden oder den Router neu starten.</item>
+    </string-array>
+    <string-array name="net_diag_err_network_latency">
+        <item>Große Verzögerungen im lokalen Netzwerk. Router neu starten oder mit einem anderen Netzwerk verbinden.</item>
+        <item>Starke Verzögerungen beim Internet. Netzwerkeinstellungen des Anbieters prüfen oder mit einem anderen Netzwerk verbinden.</item>
+    </string-array>
+    <string-array name="net_diag_err_network_parameters">
+        <item>Von statischer IP zu DHCP wechseln</item>
+    </string-array>
+    <string-array name="net_diag_err_network_protocol">
+        <item>Netzwerkprotokollfehler. WLAN-Verbindung wieder herstellen oder Gerät neu starten.</item>
+    </string-array>
+    <string-array name="net_diag_err_network_protocol_china">
+        <item>Netzwerkprotokollfehler. WLAN-Verbindung wieder herstellen oder Gerät neu starten.</item>
+    </string-array>
+    <string-array name="net_diag_err_network_rssi">
+        <item>In ein Gebiet mit besserer WLAN-Abdeckung ziehen</item>
+    </string-array>
+    <string-array name="net_diag_err_network_rssi_china">
+        <item>In ein Gebiet mit besserer Wi-Fi -Abdeckung ziehen</item>
+    </string-array>
+    <string-array name="net_diag_err_network_topology">
+        <item>DHCP-Einstellungen des Routers und kabelgebundene Verbindung prüfen</item>
+    </string-array>
     <string-array name="reproductivity">
         <item>Jedes Mal</item>
         <item>Oft</item>
