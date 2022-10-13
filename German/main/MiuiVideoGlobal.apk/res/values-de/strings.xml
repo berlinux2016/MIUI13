@@ -367,25 +367,46 @@ Senden Sie diesen Code an den Supervisor."</string>
     <string name="evening">Nachmittag</string>
     <string name="exceed_binded_phone_times_notice">Diese Rufnummer ist bereits mit einem anderen Xiaomi-Konto verbunden.</string>
     <string name="exit">Beenden</string>
+    <string name="exo_controls_cc_disabled_description">Untertitel einschalten</string>
+    <string name="exo_controls_cc_enabled_description">Untertitel ausschalten</string>
     <string name="exo_controls_fastforward_description">Schnellvorlauf</string>
     <string name="exo_controls_fullscreen_description">Vollbildmodus</string>
+    <string name="exo_controls_fullscreen_enter_description">Vollbildmodus einschalten</string>
+    <string name="exo_controls_fullscreen_exit_description">Vollbildmodus beenden</string>
+    <string name="exo_controls_hide">Player-Steuerung ausblenden</string>
     <string name="exo_controls_next_description">Nächster Titel</string>
-    <string name="exo_controls_play_description">Spielen</string>
+    <string name="exo_controls_overflow_hide_description">Weitere Einstellungen ausblenden</string>
+    <string name="exo_controls_overflow_show_description">Weitere Einstellungen anzeigen</string>
+    <string name="exo_controls_play_description">Abspielen</string>
+    <string name="exo_controls_playback_speed">Geschwindigkeit</string>
     <string name="exo_controls_previous_description">Vorheriger Titel</string>
     <string name="exo_controls_repeat_all_description">Alle wiederholen</string>
-    <string name="exo_controls_repeat_off_description">Nichts wiederholen</string>
-    <string name="exo_controls_repeat_one_description">Eins wiederholen</string>
-    <string name="exo_controls_rewind_description">Zurückspulen</string>
+    <string name="exo_controls_repeat_off_description">Keinen wiederholen</string>
+    <string name="exo_controls_repeat_one_description">Einen wiederholen</string>
+    <string name="exo_controls_rewind_description">Rücklauf</string>
+    <string name="exo_controls_seek_bar_description">Wiedergabefortschritt</string>
+    <string name="exo_controls_settings_description">Einstellungen</string>
+    <string name="exo_controls_show">Player-Steuerung anzeigen</string>
     <string name="exo_controls_shuffle_description">Zufallswiedergabe</string>
-    <string name="exo_download_completed">Herunterladen beendet</string>
+    <string name="exo_controls_shuffle_off_description">Zufallswiedergabe aus</string>
+    <string name="exo_controls_shuffle_on_description">Zufallswiedergabe an</string>
+    <string name="exo_controls_vr_description">VR-Modus</string>
+    <string name="exo_download_completed">Download vollständig</string>
     <string name="exo_download_description">Herunterladen</string>
     <string name="exo_download_downloading">Herunterladen</string>
-    <string name="exo_download_failed">Herunterladen fehlgeschlagen</string>
+    <string name="exo_download_failed">Download fehlgeschlagen</string>
     <string name="exo_download_notification_channel_name">Downloads</string>
+    <string name="exo_download_paused">Downloads pausiert</string>
+    <string name="exo_download_paused_for_network">Downloads warten auf Netzwerk</string>
+    <string name="exo_download_paused_for_wifi">Downloads warten auf WLAN</string>
     <string name="exo_download_removing">Downloads löschen</string>
     <string name="exo_media_action_repeat_all_description">Alle wiederholen</string>
     <string name="exo_media_action_repeat_off_description">Nichts wiederholen</string>
-    <string name="exo_media_action_repeat_one_description">Eins wiederholen</string>
+    <string name="exo_media_action_repeat_one_description">Einen wiederholen</string>
+    <string name="exo_track_role_alternate">Wechseln</string>
+    <string name="exo_track_role_closed_captions">UT</string>
+    <string name="exo_track_role_commentary">Kommentar</string>
+    <string name="exo_track_role_supplementary">Ergänzend</string>
     <string name="exo_track_selection_none">Nichts</string>
     <string name="exo_track_surround">Surround Sound</string>
     <string name="exo_track_surround_5_point_1">5.1 Surround Sound</string>
@@ -401,6 +422,7 @@ Senden Sie diesen Code an den Supervisor."</string>
     <string name="fallback_menu_item_copy_link">Link kopieren</string>
     <string name="fallback_menu_item_open_in_browser">Im Browser öffnen</string>
     <string name="fallback_menu_item_share_link">Link teilen</string>
+    <string name="fast_channel_popular">Beliebte Kanäle</string>
     <string name="favor_movie">Filme</string>
     <string name="favor_playlist">Playlisten</string>
     <string name="favorite">Favoriten</string>
@@ -410,6 +432,18 @@ Senden Sie diesen Code an den Supervisor."</string>
     <string name="favorite_success">Erfolgreich zu Favoriten hinzugefügt</string>
     <string name="fcm_fallback_notification_channel_label">Verschiedenes</string>
     <string name="fcm_push_title">Beliebte Videos</string>
+    <string name="fcmpts_dialog_continue">Ansehen</string>
+    <string name="fcmpts_dialog_not_interested">Nein danke</string>
+    <string name="fcmpts_dialog_two" formatted="false">%d weitere Sekunden von %d weiteren Videos ansehen, um einen Mi Store-Gutschein zu erhalten</string>
+    <string name="fcmpts_popup_final">Erfolgreich beansprucht! Tippen, um Belohnungen einzulösen.</string>
+    <string name="fcmpts_popup_final_redeem">Einlösen</string>
+    <string name="fcmpts_popup_four" formatted="false">Erfolgreich beansprucht! %d Sekunden von %d weiteren Videos ansehen, um einen Mi Store-Gutschein zu erhalten.</string>
+    <string name="fcmpts_popup_one" formatted="false">Heute %d Videos ansehen und einen %d-Punkte-Mi-Store-Gutschein verdienen</string>
+    <string name="fcmpts_popup_one_cts">Ansehen</string>
+    <string name="fcmpts_popup_three" formatted="false">Für %d Sekunden angesehen. Sie haben %d Punkte verdient!</string>
+    <string name="fcmpts_popup_three_claim">Beanspruchen</string>
+    <string name="fcmpts_popup_three_login_claim">Anmelden</string>
+    <string name="fcmpts_popup_two" formatted="false">Dieses Video für %d Sekunden ansehen, um %d Punkte zu verdienen</string>
     <string name="feedback_contact_empty">Geben Sie Ihre Kontaktdaten ein</string>
     <string name="feedback_contact_title">Kontaktdaten</string>
     <string name="feedback_detail_input_hint">Nachricht eingeben</string>
@@ -1391,6 +1425,7 @@ Sicherheit Ihres Kontos erhöhen"</string>
     <string name="plus_shortcut_existed">Diese Verknüpfung existiert bereits</string>
     <string name="plus_sort_title">Sortieren</string>
     <string name="plus_sort_type_default">Standard</string>
+    <string name="plus_sort_type_duration">Länge</string>
     <string name="plus_sort_type_size">Größe</string>
     <string name="plus_sort_type_time">Zeit</string>
     <string name="plus_tab_gallery">Ordner</string>
@@ -1436,6 +1471,7 @@ Sicherheit Ihres Kontos erhöhen"</string>
     <string name="recommend_online_switch_open_time">Diese Funktion wird automatisch um %s eingeschaltet</string>
     <string name="recommend_online_tips">Einschalten, um Online-Videoempfehlungen zu erhalten</string>
     <string name="recommend_page_replay">WIEDERHOLEN</string>
+    <string name="recommend_slide_to_more">Wischen für mehr</string>
     <string name="recommend_switch_alert">Zum Entfernen dieses Bereichs gehen Sie zu den Einstellungen in Mi Video</string>
     <string name="recommend_to_you">Für Sie empfohlen</string>
     <string name="reload_sub_title">Tippen, um erneut zu versuchen</string>
