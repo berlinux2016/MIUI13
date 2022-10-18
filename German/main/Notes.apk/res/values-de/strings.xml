@@ -18,6 +18,7 @@
     <string name="abc_shareactionprovider_share_with_application">Teilen mit %s</string>
     <string name="abc_toolbar_collapse_description">Einklappen</string>
     <string name="access_denied_info">Zu viele Versuche. Einen Moment warten und erneut versuchen.</string>
+    <string name="access_photos_and_videos">Zugriff auf Fotos und Videos</string>
     <string name="action_collapse">Verbergen</string>
     <string name="action_expand">Mehr anzeigen</string>
     <string name="action_folder_description">Ordner anzeigen</string>
@@ -613,6 +614,8 @@
     <string name="permission_microphone_desc">Zur Aufnahme von Sprachnotizen</string>
     <string name="permission_network_for_cloud_desc">Um Notizen mit der Cloud zu synchronisieren, müssen Sie sich mit dem Internet verbinden. Mobile Daten können zur Synchronisation von Elementen verwendet werden. Jetzt verbinden?</string>
     <string name="permission_phone_state_desc">Zum Beenden der Aufnahme von Sprachnotizen während Anrufen</string>
+    <string name="permission_photos_desc">Zum Hinzufügen von Bildern zu Notizen</string>
+    <string name="permission_photos_desc_pad">Zum Hinzufügen von Bildern zu Notizen</string>
     <string name="permission_read_contact_desc">Zuordnung der bei Anrufen erstellten Notizen zu Kontakten</string>
     <string name="permission_storage_desc">Zum Speichern von Notizen als Bilder</string>
     <string name="permission_storage_desc_new_v12">Zum Hinzufügen von Bildern zu Notizen und zum Speichern von Notizen als Bilder</string>
@@ -711,6 +714,7 @@
     <string name="select_account_prompt">Notizen sychronisieren</string>
     <string name="select_up_limit_toast">Bis zu %d Elemente wählen</string>
     <string name="send">Senden</string>
+    <string name="send_notifications_for_reminder">Für den Versand von Erinnerungen</string>
     <string name="set_alarm_description">Alarm einstellen</string>
     <string name="setting_big_screen_layout_columns">Seitenleiste</string>
     <string name="setting_big_screen_layout_flat">Kacheln</string>
@@ -864,14 +868,11 @@
     <string name="toast_refuse_to_record_when_in_call">Diese Funktion kann nicht während eines Anrufs verwendet werden</string>
     <string name="toast_refuse_to_record_when_in_multi_window">Diese Funktion kann nicht in geteiltem Bildschirm verwendet werden.</string>
     <string name="toast_refuse_to_record_when_in_multi_window_new">Diese Funktion kann nicht in geteiltem Bildschirm oder Popups verwendet werden.</string>
-    <string name="toast_refuse_to_use_contact">"Berechtigungen für Kontakte sind eingeschränkt.
-Erlauben Sie Notizen, Ihre Kontakte zu lesen und Konten auf dem Gerät zu finden."</string>
-    <string name="toast_refuse_to_use_external_storage">"Speicherrechte sind eingeschränkt.
-Erlauben Sie Notizen, den Inhalt Ihrer SD-Karte zu lesen."</string>
-    <string name="toast_refuse_to_use_phone_state">"Telefonberechtigungen sind eingeschränkt.
-Erlauben Sie Notizen, den Status und die Identität des Telefons zu lesen."</string>
-    <string name="toast_refuse_to_use_record_audio">"Mikrofonrechte sind eingeschränkt.
-Erlauben Sie Notizen, Audio aufzunehmen."</string>
+    <string name="toast_refuse_to_use_contact">Berechtigungen für Kontakte sind eingeschränkt.\Erlauben Sie Notizen, Ihre Kontakte zu lesen und Konten auf dem Gerät zu finden.</string>
+    <string name="toast_refuse_to_use_external_storage">Speicherrechte sind eingeschränkt.\nErlauben Sie Notizen, den Inhalt Ihrer SD-Karte zu lesen.</string>
+    <string name="toast_refuse_to_use_phone_state">Telefonberechtigungen sind eingeschränkt.\nErlauben Sie Notizen, den Status und die Identität des Telefons zu lesen.</string>
+    <string name="toast_refuse_to_use_photos_in_excerpt">Dieser App den Zugriff auf Ihre Fotos erlauben, damit sie Bilder zu Notizen hinzufügen kann</string>
+    <string name="toast_refuse_to_use_record_audio">Mikrofonrechte sind eingeschränkt.\nErlauben Sie Notizen, Audio aufzunehmen.</string>
     <string name="toast_refuse_to_use_storage_in_excerpt">Notizen den Speicherzugriff erlauben, um Bilder zu Ihren Notizen hinzufügen zu können</string>
     <string name="today">Heute</string>
     <string name="todo_alert_title_delete">Erledigte Aufgaben löschen</string>
