@@ -1,13 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-    <string name="menu_new_display_open">In neuem Fenster öffnen</string>
-    <string name="menu_pc_open">Am PC öffnen</string>
-    <string name="miuix_indexer_collect">Sammlungen</string>
-    <string name="pc_redmi_device_model_name">Redmi-Laptop</string>
-    <string name="pc_xiaomi_device_model_name">Xiaomi-Laptop</string>
-    <string name="seize_content">Bildschirm teilen beenden, um Elemente übertragen zu können. Teilen jetzt beenden?</string>
-    <string name="seize_title">Bildschirm teilen beenden</string>
-
     <string name="abc_action_bar_home_description">Zur Startseite</string>
     <string name="abc_action_bar_up_description">Nach oben</string>
     <string name="abc_action_menu_overflow_description">Weitere Optionen</string>
@@ -59,9 +51,7 @@
     <string name="device_status_success">Erfolgreich gesendet</string>
     <string name="device_status_waiting">Einen Moment…</string>
     <string name="device_type_pc">Computer</string>
-    <string name="device_type_realme_phone">Realme</string>
-    <string name="device_type_vivo_phone">Vivo</string>
-    <string name="disconnect">VERBINDEN</string>
+    <string name="disconnect">TRENNEN</string>
     <string name="early_morning">Morgen</string>
     <string name="enable_midrop">Einschalten</string>
     <string name="eras_ad">n. Chr.</string>
@@ -112,7 +102,7 @@
     <string name="file_cannot_screen_throw">Diese Element kann nicht übertragen werden.</string>
     <string name="file_receive_progress">Fortschritt: %1$d%%</string>
     <string name="file_receive_progress_title">Fortschritt</string>
-    <string name="file_received_successfully_from_pc">Mehr als 200 Dateien von %1$s erfolgreich empfangen</string>
+    <string name="file_received_successfully_from_pc">Mehr als %2$d Dateien von %1$s erfolgreich empfangen</string>
     <string name="file_sending">Dateien übertragen…</string>
     <string name="file_transfer_progress">Fortschritt: %1$d%%</string>
     <string name="file_transfer_progress_title">Fortschritt</string>
@@ -159,13 +149,12 @@
     <string name="location_enabled">Mi Share hat Standortdienste eingeschaltet, um Geräte in der Nähe zu finden</string>
     <string name="menu_item_permission_title">Berechtigungsdetails</string>
     <string name="menu_item_privacy_title">Datenschutzerklärung</string>
-    <string name="mi_drop">Mi Share</string>
+    <string name="menu_new_display_open">In neuem Fenster öffnen</string>
+    <string name="menu_pc_open">Am PC öffnen</string>
     <string name="midnight">Nacht</string>
     <string name="mishare_folder_in_file_explorer">Dateimanager &gt; MiShare</string>
     <string name="mishare_service_channel_desc">Benachrichtigungen über Mi Share-Prozesse</string>
-    <string name="mishare_settings_summary_international">"Sie können Mi Share verwenden, um Elemente an Geräte in der Nähe zu senden.
-Mi Share ist kompatibel mit Mi und Redmi Telefonen.
-OPPO, Vivo, Realme und andere Marken werden auch bald mit Mi Share kompatibel sein.  Sie können die Liste der kompatiblen Geräte auf unserer Website einsehen."</string>
+    <string name="mishare_settings_summary_international">Mit Mi Share können Sie Elemente drahtlos an andere Geräte in der Nähe senden.\nDiese Funktion wird von OPPO, vivo, realme und anderen Smartphone-Herstellern unterstützt. Sie können die Liste der unterstützten Geräte auf der offiziellen Website der jeweiligen Marke einsehen.</string>
     <string name="mishare_state_protection">Mi Share automatisch einschalten</string>
     <string name="mishare_state_protection_summary">Mi Share automatisch wieder einschalten, wenn Bluetooth oder WLAN wieder eingeschaltet ist</string>
     <string name="mishare_state_protection_summary_china">Mi Share automatisch wieder einschalten, wenn Bluetooth oder WLAN wieder eingeschaltet ist</string>
@@ -186,6 +175,7 @@ OPPO, Vivo, Realme und andere Marken werden auch bald mit Mi Share kompatibel se
     <string name="miuix_appcompat_select_all">Alle wählen</string>
     <string name="miuix_appcompat_select_all_description">Alle wählen</string>
     <string name="miuix_appcompat_select_item">Elemente wählen</string>
+    <string name="miuix_indexer_collect">Sammlungen</string>
     <string name="miuix_indexer_selected">%s ausgewählt</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Zum Aktualisieren herunterziehen</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Erfolgreich aktualisiert</string>
@@ -232,11 +222,11 @@ OPPO, Vivo, Realme und andere Marken werden auch bald mit Mi Share kompatibel se
     <string name="not_set">Nicht festgelegt</string>
     <string name="notification_channel_name">Transfer-Benachrichtigungen</string>
     <string name="operate_too_fast">Zu schnell! Warten Sie, bis die laufenden Vorgänge abgeschlossen sind.</string>
-    <string name="oppo_phone">OPPO Telefon</string>
+    <string name="pc_redmi_device_model_name">Redmi-Laptop</string>
+    <string name="pc_xiaomi_device_model_name">Xiaomi-Laptop</string>
     <string name="permission_denied_hint">Erforderlichen Berechtigungen erteilen, um Mi Share nutzen zu können.</string>
     <string name="preference_copied">\"%1$s\" in Zwischenablage kopiert</string>
-    <string name="purpose">"Willkommen bei Mi Share! Sie können diese App verwenden, um Dateien zwischen Geräten zu übertragen. Wir schützen Ihre personenbezogenen Daten in Übereinstimmung mit den einschlägigen Gesetzen, Vorschriften und Richtlinien.
-Bevor Sie Mi Share nutzen können, müssen Sie die folgenden Berechtigungen erteilen und zulassen, dass Mi Share die erforderlichen personenbezogenen Daten sammelt:"</string>
+    <string name="purpose">Willkommen bei Mi Share! Sie können diese App verwenden, um Dateien zwischen Geräten zu übertragen. Wir schützen Ihre personenbezogenen Daten in Übereinstimmung mit den einschlägigen Gesetzen, Vorschriften und Richtlinien.\nBevor Sie Mi Share nutzen können, müssen Sie die folgenden Berechtigungen erteilen und zulassen, dass Mi Share die erforderlichen personenbezogenen Daten sammelt:</string>
     <string name="purpose_v12">Willkommen bei Mi Share! Mit dieser App können Sie Dateien zwischen Geräten übertragen.</string>
     <string name="queue_full">Beenden Sie laufende Übertragungen, bevor Sie neue hinzufügen.</string>
     <string name="receive_complete">Erfolgreich empfangen</string>
@@ -246,13 +236,14 @@ Bevor Sie Mi Share nutzen können, müssen Sie die folgenden Berechtigungen erte
     <string name="receiver_error">Empfangen fehlgeschlagen. Etwas warten und erneut versuchen.</string>
     <string name="refuse_file">Ablehnen</string>
     <string name="retry_task">Erneut senden</string>
-    <string name="samsung_phone">Samsung Telefone</string>
     <string name="saturday">Samstag</string>
     <string name="saturday_short">Sa</string>
     <string name="saturday_shortest">S</string>
     <string name="scanning_device_tips">Nach Geräten in der Nähe suchen… Stellen Sie sicher, dass das andere Gerät im Erkennungsmodus ist.</string>
     <string name="scanning_only_xiaomi_device">Dieses Element kann nur auf Xiaomi- oder Black Shark-Geräte übertragen werden</string>
     <string name="search_menu_title">Suchen</string>
+    <string name="seize_content">Bildschirm teilen beenden, um Elemente übertragen zu können. Teilen jetzt beenden?</string>
+    <string name="seize_title">Bildschirm teilen beenden</string>
     <string name="send">Senden</string>
     <string name="send_file">DATEI SENDEN</string>
     <string name="send_files_by">Dateien teilen über</string>
@@ -286,14 +277,13 @@ Bevor Sie Mi Share nutzen können, müssen Sie die folgenden Berechtigungen erte
     <string name="solar_term_winter_begins">Winteranfang</string>
     <string name="solar_term_winter_solstice">Wintersonnenwende</string>
     <string name="some_files_receive_completed">Dateien anzeigen, die Sie bereits in %1$s empfangen haben</string>
-    <string name="somepc_send_much_file_to_you_files">%1$s sendet mehr als 200 Dateien an Sie…</string>
-    <string name="somepc_send_muchfile_files">%1$s sendet mehr als 200 Dateien an Sie…</string>
+    <string name="somepc_send_muchfile_files">%1$s sendet mehr als %2$d Dateien an Sie…</string>
     <string name="start_advertise">WERBEN STARTEN</string>
-    <string name="start_receive_much_files_from_pc">Mehr als 200 Dateien von %1$s empfangen…</string>
+    <string name="start_receive_much_files_from_pc">Mehr als %2$d Dateien von %1$s empfangen…</string>
     <string name="start_scan">SCAN STARTEN</string>
     <string name="stop_advertise">WERBEN ANHALTEN</string>
     <string name="stop_scan">SCAN ANHALTEN</string>
-    <string name="success_receive_much_file_from_pc">Mehr als 200 Dateien von %1$s erhalten. Zum Anzeigen tippen.</string>
+    <string name="success_receive_much_file_from_pc">Mehr als %2$d Dateien von %1$s erhalten. Zum Anzeigen tippen.</string>
     <string name="sunday">Sonntag</string>
     <string name="sunday_short">So</string>
     <string name="sunday_shortest">S</string>
@@ -351,7 +341,6 @@ Bevor Sie Mi Share nutzen können, müssen Sie die folgenden Berechtigungen erte
     <string name="time_picker_label_minute">Min</string>
     <string name="tips_p2p_support_use5g">Für beste Ergebnisse sollten Sie ein 5-GHz-WLAN verwenden.</string>
     <string name="tips_p2p_support_use5g_china">Für beste Ergebnisse sollten Sie ein 5-GHz-WLAN verwenden.</string>
-    <string name="tips_prompt_enable_midrop">Mi Share</string>
     <string name="to_feedback">Melden</string>
     <string name="today">Heute</string>
     <string name="tomorrow">Morgen</string>
@@ -359,7 +348,7 @@ Bevor Sie Mi Share nutzen können, müssen Sie die folgenden Berechtigungen erte
     <string name="transfer_to_pc_summary">Sie können Mi Share verwenden, um Elemente direkt an Mi Notebooks zu senden. Auf anderen Laptops müssen Sie Mi Share zuerst installieren.</string>
     <string name="transfer_to_pc_summary_new"><Data>Die auf Mi Notebooks installierte neueste Version von MIUI+ ist mit Mi Share kompatibel. Sie können die Liste der unterstützten Laptop-Modelle auf der MIUI+-Website (&lt;a href=%1$s>%2$s&lt;/a>) prüfen. Wenn Ihr Laptop auf der Liste steht, aber MIUI+ nicht darauf installiert ist, aktualisieren Sie das BIOS und den Netzwerkkartentreiber Ihres Laptops und laden Sie MIUI+ herunter.</Data></string>
     <string name="transfer_to_pc_title">Dateien an Computer senden</string>
-    <string name="transfer_to_phone_summary">Mi Share erlaubt es Ihnen, Bilder und Dateien an Mi Telefone in der Nähe und andere kompatible Android-Geräte zu senden.</string>
+    <string name="transfer_to_phone_summary">Aktivieren Sie Mi Share mit dem Schalter in der Benachrichtigungsleiste. Danach können Sie Geräte in der Nähe sehen, wenn Sie ein Foto oder eine Datei teilen. Tippen Sie auf das Gerät des Empfängers, um das Element zu senden, das Sie teilen</string>
     <string name="transfer_to_phone_title">Dateien an Telefone senden</string>
     <string name="transfer_to_summary">Aktivieren Sie Mi Share mit dem Schalter in der Benachrichtigungsleiste. Danach können Sie Geräte in der Nähe sehen, wenn Sie ein Foto oder eine Datei teilen. Tippen Sie auf das Gerät des Empfängers, um das Element zu senden, das Sie teilen</string>
     <string name="transfer_to_title">Dateien an Mobilgeräte senden</string>
@@ -381,8 +370,6 @@ Bevor Sie Mi Share nutzen können, müssen Sie die folgenden Berechtigungen erte
     <string name="v7_preference_off">AUS</string>
     <string name="v7_preference_on">AN</string>
     <string name="view_file">Anzeigen</string>
-    <string name="vivo">Vivo</string>
-    <string name="vivo_phone">Vivo Telefon</string>
     <string name="wait_receive_file">Auf Empfang warten…</string>
     <string name="wait_remote_receive_tips">Stellen Sie sicher, dass die Bildschirme beider Geräte eingeschaltet sind und dass WLAN und Bluetooth aktiviert sind.</string>
     <string name="wait_remote_receive_tips_china">Stellen Sie sicher, dass die Bildschirme beider Geräte eingeschaltet sind und dass WLAN und Bluetooth aktiviert sind.</string>
@@ -391,6 +378,5 @@ Bevor Sie Mi Share nutzen können, müssen Sie die folgenden Berechtigungen erte
     <string name="wednesday_shortest">M</string>
     <string name="wifi_is_not_enabled">Erst WLAN einschalten</string>
     <string name="wifi_is_not_enabled_china">Erst WLAN einschalten</string>
-    <string name="xiaomi_phone">Mi Telefon</string>
     <string name="yesterday">Gestern</string>
 </resources>
