@@ -57,6 +57,10 @@
         <item quantity="few">vor %1$d Tagen</item>
         <item quantity="many">vor %1$d Tagen</item>
     </plurals>
+    <plurals name="delete_cloud_files">
+        <item quantity="other">%1$d Dateien von all Ihren Geräten und aus der Cloud löschen? Mi Drive-Dateien können aus Ihren kürzlich gelöschten Elementen wiederhergestellt werden.</item>
+        <item quantity="one">%1$d Datei von all Ihren Geräten und aus der Cloud löschen? Mi Drive-Dateien können aus Ihren kürzlich gelöschten Elementen wiederhergestellt werden.</item>
+    </plurals>
     <plurals name="delete_files">
         <item quantity="other">%1$d Dateien löschen?</item>
         <item quantity="one">%1$d Datei löschen?</item>
@@ -168,9 +172,17 @@
         <item quantity="other">%d neue Benachrichtigungen</item>
         <item quantity="one">%d neue Benachrichtigung</item>
     </plurals>
+    <plurals name="notification_message_sync_result_fail">
+        <item quantity="other">%1$s Dateien wurden nicht synchronisiert</item>
+        <item quantity="one">%1$s Datei wurde nicht synchronisiert</item>
+    </plurals>
+    <plurals name="notification_message_sync_result_success">
+        <item quantity="other">"%1$s Dateien synchronisiert | "</item>
+        <item quantity="one">"%1$s Datei synchronisiert | "</item>
+    </plurals>
     <plurals name="numSelectedFile">
-        <item quantity="other">%1$d ausgewählt</item>
-        <item quantity="one">eine ausgewählt</item>
+        <item quantity="other">%1$d Elemente ausgewählt</item>
+        <item quantity="one">%1$d Element ausgewählt</item>
     </plurals>
     <plurals name="num_minutes_ago">
         <item quantity="other">Vor %d Minuten</item>
