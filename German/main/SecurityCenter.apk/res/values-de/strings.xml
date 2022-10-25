@@ -1236,6 +1236,7 @@ Sie verlieren keine App-Daten."</string>
     <string name="confirm_open">Einschalten</string>
     <string name="confirm_open_shut_down_password_content">Bildschirmsperre festlegen, bevor Sie die Abschaltbestätigung einschalten</string>
     <string name="confirm_open_shut_down_password_title">Bildschirmsperre festlegen</string>
+    <string name="confirm_package_type">Bestätigen Sie Ihren Datentarif</string>
     <string name="confirm_prompt_all_permission">Nach Berechtigungen für alle Apps fragen?</string>
     <string name="confirm_reject_all_permission">Alle Apps daran hindern, diese Funktion zu nutzen?</string>
     <string name="confirm_take">Erhalten</string>
@@ -1671,6 +1672,7 @@ Alle Daten auf Ihrem Gerät werden evtl. gelöscht und Ihr Sperrbildschirmpasswo
     <string name="ew_main_warning_list">Warnungen anzeigen</string>
     <string name="ew_main_warning_list_tips">Anzeigen</string>
     <string name="ew_main_warning_list_title">Warnungsverlauf anzeigen</string>
+    <string name="ew_monitor_bad_request_tips">Sicherheit kann nicht auf Geräteinfos zugreifen</string>
     <string name="ew_monitor_content">Ihr Mobilgerät kann Teil des Erdbeben-Frühwarnnetzwerks werden. Wenn seine Sensoren seismische Wellen erkennen, werden die Daten vom KI-Algorithmus analysiert und Frühwarnungen für die Menschen in den betroffenen Gebieten ausgegeben.</string>
     <string name="ew_monitor_exit">Abmelden</string>
     <string name="ew_monitor_exit_content">Hallo Freiwilliger mit Nummer %s! Ihr Gerät kann seismische Aktivitäten überwachen und Daten sammeln, die helfen würden, frühzeitige Erdbebenwarnungen auszugeben. Trotzdem abmelden?</string>
@@ -1779,6 +1781,9 @@ Alle Daten auf Ihrem Gerät werden evtl. gelöscht und Ihr Sperrbildschirmpasswo
     <string name="exo_download_description">Herunterladen</string>
     <string name="exo_download_downloading">Herunterladen…</string>
     <string name="exo_download_failed">Download fehlgeschlagen</string>
+    <string name="exo_download_paused">Downloads angehalten</string>
+    <string name="exo_download_paused_for_network">Downloads warten auf Netzwerk</string>
+    <string name="exo_download_paused_for_wifi">Downloads warten auf WLAN</string>
     <string name="exo_download_removing">Downloads löschen</string>
     <string name="exo_track_role_alternate">Abwechselnd</string>
     <string name="exo_track_role_closed_captions">Mit Untertitel</string>
@@ -2052,6 +2057,7 @@ Alle Daten auf Ihrem Gerät werden evtl. gelöscht und Ihr Sperrbildschirmpasswo
     <string name="gamebox_func_switch_simcard_immersion">SIM-Karte wechseln im Immersive Mode nicht möglich</string>
     <string name="gamebox_func_wlan_close">WLAN ist jetzt aus</string>
     <string name="gamebox_func_wlan_open">WLAN ist jetzt an</string>
+    <string name="gamebox_game_center_app_not_find">Erst Spiele installieren</string>
     <string name="gamebox_hangup">Bildschirm ausschalten</string>
     <string name="gamebox_hangup_tips_content">Mit dieser Funktion können Sie den Bildschirm ausschalten, aber das Spiel im Hintergrund laufen lassen. Sie schaltet sich automatisch aus, sobald Sie Ihr Gerät entsperren.</string>
     <string name="gamebox_hangup_tips_title">Bildschirm ausschalten</string>
@@ -2132,6 +2138,7 @@ Alle Daten auf Ihrem Gerät werden evtl. gelöscht und Ihr Sperrbildschirmpasswo
     <string name="gb_barrage_chat_text_speed_faster">Schnell</string>
     <string name="gb_barrage_chat_text_speed_moderate">Mittel</string>
     <string name="gb_barrage_chat_text_speed_slow">Langsam</string>
+    <string name="gb_barrage_dnd_conflict_toast">Um Bildschirmkommentare zu verwenden, erst DND ausschalten</string>
     <string name="gb_beauty_cold_light">Kalt</string>
     <string name="gb_beauty_face">Verschönern</string>
     <string name="gb_beauty_light">Licht auffüllen</string>
@@ -2161,6 +2168,7 @@ Alle Daten auf Ihrem Gerät werden evtl. gelöscht und Ihr Sperrbildschirmpasswo
     <string name="gb_dialog_record_way_setting_tip_two">Konflikte mit anderen Bildschirmrekordern</string>
     <string name="gb_dialog_record_way_setting_tips">Hinweis: Das Aufnehmen Ihrer Spielstände erfordert einen höheren Stromverbrauch, was zu Verzögerungen führen kann.</string>
     <string name="gb_dialog_record_way_title">Aufnahmemethode auswählen</string>
+    <string name="gb_dnd_barrage_conflict_toast">Wenn DND eingeschaltet ist, können Sie keine Bildschirmkommentare verwenden</string>
     <string name="gb_first_guide_function_shiled_title">Systemfunktionen ausschalten, wenn Game Turbo an ist</string>
     <string name="gb_first_guide_gamebox_des">Tastenkombinationen beim Spielen verwenden</string>
     <string name="gb_first_guide_handsfree_des">Anrufe im Hintergrund annehmen</string>
@@ -2246,6 +2254,7 @@ bei gleichzeitiger Senkung der Aktualisierungsrate und Temperaturgrenzen"</strin
     <string name="gb_performance_mode">Spielmodus</string>
     <string name="gb_performance_tips">"Der Leistungsmodus verbessert die Grafikleistung,
 erhöht aber auch den Stromverbrauch und führt zu einer Überhitzung des Geräts"</string>
+    <string name="gb_predownload_check">Prämien ansehen</string>
     <string name="gb_predownload_dialog_cancel">Nein danke</string>
     <string name="gb_predownload_dialog_checked">Nicht mehr anzeigen</string>
     <string name="gb_predownload_dialog_confirm">Einschalten</string>
@@ -2255,6 +2264,8 @@ erhöht aber auch den Stromverbrauch und führt zu einer Überhitzung des Gerät
     <string name="gb_predownload_message_new">Kompatible Spiele automatisch aktualisieren, wenn das Gerät nicht benutzt wird</string>
     <string name="gb_predownload_noti_message">%2$1.2f GB an aktualisierten Inhalten befinden sich bereits auf diesem Gerät. Sie können sie nutzen, sobald die neue Version veröffentlicht wird.</string>
     <string name="gb_predownload_noti_title">%s im Hintergrund erfolgreich aktualisiert</string>
+    <string name="gb_predownload_receive">Prämien erhalten</string>
+    <string name="gb_predownload_receive_tips">Hintergrundaktualisierung einschalten, um Prämien zu erhalten</string>
     <string name="gb_predownload_title">Hintergrundaktualisierungen</string>
     <string name="gb_shortcut_pref_title">Startbildschirm-Verknüpfung</string>
     <string name="gb_shoulder_guide_message1">[L] auf eine beliebige Funktionsposition verschieben, um es über den Pop-up-Auslöser zu verwenden.</string>
@@ -3727,7 +3738,7 @@ Stromverbrauch"</string>
     <string name="power_dailog_night_charge_protection_done">Verstanden</string>
     <string name="power_dailog_night_charge_protection_summary">Anscheinend ist Ihr Akku die meiste Zeit voll geladen, was seine Alterung beschleunigen kann. MIUI hat das optimierte Laden für Sie aktiviert, um solche Probleme zu vermeiden.</string>
     <string name="power_dialog_cancel">Abbrechen</string>
-    <string name="power_dialog_performance_mode_checkbox">Auf 120 Hz-Aktualisierungsrate umschalten</string>
+    <string name="power_dialog_performance_mode_checkbox">Auf %d Hz-Aktualisierungsrate umschalten</string>
     <string name="power_dialog_super_save_msg">"Ultra-Stromsparen schränkt die meisten stromfressenden Funktionen ein und verringert die Leistung Ihres Geräts, um die Grundfunktionen (z. B. Anrufe, SMS und Verbindungen zum Netzwerk) so lange wie möglich verfügbar zu halten. Ultra-Stromsparen einschalten?"</string>
     <string name="power_dialog_super_save_msg_5g">Ultra-Stromsparen schränkt die meisten stromfressenden Funktionen (z. B. 5G-Verbindung) ein und reduziert die Leistung Ihres Geräts. Nur Anrufe, Nachrichten und Netzwerkverbindungen werden nicht beeinträchtigt. Ultra-Stromsparen einschalten?</string>
     <string name="power_dialog_super_save_title">Ultra-Stromsparen</string>
@@ -4734,6 +4745,8 @@ Da %2$s die Dienste auf der Grundlage der Erfassung der erforderlichen persönli
     <string name="sp_eew_summary">Vor bevorstehenden Erdbeben warnen</string>
     <string name="sp_eew_title">Erdbebenwarnung</string>
     <string name="sp_empty_title_sign_exception">App halten und zu Ausnahmen hinzufügen</string>
+    <string name="sp_family_guard_summary">Fernunterstützung anbieten</string>
+    <string name="sp_family_guard_title">Familienschutz</string>
     <string name="sp_find_device_summary">Ihr Gerät aus der Ferne orten</string>
     <string name="sp_find_device_title">Gerät finden</string>
     <string name="sp_guard_summary">Geräte Ihrer Freunde und Familie verwalten</string>
@@ -5368,6 +5381,22 @@ Formatierung löscht vorhandenen Inhalt auf ^2. Um Inhaltsverlust zu vermeiden, 
     <string name="tc_sms_report_upload_when_net">Vielen Dank für Ihr Feedback!</string>
     <string name="tc_web_correct_error">Kalibrieren nicht möglich</string>
     <string name="ten_percent_total_pkg">%s (10%% der monatlichen Daten)</string>
+    <string name="terminal_privacy">Datenschutz auf dem Gerät</string>
+    <string name="terminal_privacy_ability">Funktionen und Mechanismen</string>
+    <string name="terminal_privacy_ability_img">Bildverarbeitung</string>
+    <string name="terminal_privacy_ability_img_summary">Intelligente Bearbeitung und Erkennung für Fotos und Videos in Kamera, Galerie und Taplus</string>
+    <string name="terminal_privacy_ability_model">Erkennen, wie Ihr Gerät mit der Umgebung interagiert</string>
+    <string name="terminal_privacy_ability_model_summary">Schrittzähler, intelligente Gesten, Taschenmodus und automatische Helligkeit</string>
+    <string name="terminal_privacy_ability_others">Andere Mechanismen</string>
+    <string name="terminal_privacy_ability_others_summary">Bildschirmfreigabe, Testen der Zahlungsumgebung, Fingerabdruck- und Gesichtserkennung</string>
+    <string name="terminal_privacy_ability_suggest">Empfehlungen</string>
+    <string name="terminal_privacy_ability_suggest_summary">Empfehlungen und Vorschläge von Dateimanager, Seitenleiste, Mi KI und Mi Wallet</string>
+    <string name="terminal_privacy_ability_summary">*Funktionen und Mechanismen zum Datenschutz auf dem Gerät können je nach Gerätemodell variieren</string>
+    <string name="terminal_privacy_ability_txt_summary">Textbearbeitung, intelligente Untertitel, Taplus, Nachrichten und gemeinsame Zwischenablage</string>
+    <string name="terminal_privacy_ability_voice">Spracherkennung</string>
+    <string name="terminal_privacy_ability_voice_summary">Mi KI-Sprachsteuerung und intelligente Untertitel</string>
+    <string name="terminal_privacy_instruction">Datenschutz auf dem Gerät umfasst die Funktionen, die sicherstellen, dass Ihre persönlichen Daten auf dem Gerät bleiben und nicht in die Cloud hochgeladen werden</string>
+    <string name="terminal_privacy_summary">Persönliche Daten auf diesem Gerät verarbeiten</string>
     <string name="terms_and_conditions_content"><Data>Diese Funktion bietet Ihnen eine Erdbebenwarnfunktion. Sie benachrichtigt Sie über bevorstehende Erdbeben und spielt Warntöne ab. Sie können die nächstgelegene Notunterkunft ausfindig machen, Ihren Notfallkontakt anrufen und bei Bedarf Ihren Krankenschein vorlegen. &lt;br>Wir schützen Ihre persönlichen Daten in Übereinstimmung mit den einschlägigen Gesetzen, Vorschriften und Datenschutzrichtlinien. &lt;br>Um normal funktionieren zu können, benötigt diese Funktion die folgenden Berechtigungen, um Ihre persönlichen Daten zu erfassen: &lt;br>• Standortinfo: &lt;br>Für den Zugriff auf Ihren Standort und die Bereitstellung genauer Erdbebenwarnungen. &lt;br>Wenn Sie nicht damit einverstanden sind, solche Genehmigungen zu erteilen oder Ihre persönlichen Daten zu teilen und hochzuladen, können Sie diese Funktion nicht nutzen. Sie können diese Funktion in solchen Fällen deaktivieren oder nicht einschalten. &lt;br>Sie müssen unsere &lt;a href=%s>Datenschutzerklärung&lt;/a> lesen und akzeptieren, bevor Sie diese Funktion nutzen.</Data></string>
     <string name="tether_custom_dialog_title">Mobiles Datenlimit</string>
     <string name="tether_limit_dialog_title">Mobiles Datenlimit</string>
