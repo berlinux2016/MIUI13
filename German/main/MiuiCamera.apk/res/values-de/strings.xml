@@ -30,6 +30,7 @@
     <string name="accessibility_ambilight_panel_on">Panel für Langzeitbelichtung öffnen</string>
     <string name="accessibility_audio_shutter_bg">Auslöserhintergrundgeräusch</string>
     <string name="accessibility_back_preview_status">Vorschau Rückkamera</string>
+    <string name="accessibility_beauty_compare">Bild mit und ohne Verschönern anzeigen</string>
     <string name="accessibility_beauty_function_button">Verschönern</string>
     <string name="accessibility_beauty_function_panel_on">Panel Verschönern</string>
     <string name="accessibility_beauty_panel_closed">Menü Verschönern ist versteckt</string>
@@ -302,8 +303,7 @@
     <string name="ai_scene_mode_tower">Turm</string>
     <string name="ai_scene_mode_tutuk">Dreirad</string>
     <string name="ai_scene_mode_unknown">Unbekannt</string>
-    <string name="ai_scene_mode_use_hint_text">"KI-Kamera erkennt Szenen automatisch
-und optimiert Ihre Fotos anhand dieser Informationen."</string>
+    <string name="ai_scene_mode_use_hint_text">KI-Kamera erkennt Szenen automatisch \nund optimiert Ihre Fotos anhand dieser Informationen.</string>
     <string name="ai_scene_top_moon_off">Nachtszenemodus</string>
     <string name="ai_scene_top_tip">Mondmodus</string>
     <string name="ai_shanghai">Shanghai</string>
@@ -401,6 +401,8 @@ und optimiert Ihre Fotos anhand dieser Informationen."</string>
     <string name="beauty_makeups_yuanqi">Frisch</string>
     <string name="beauty_mo_fe">Natürlich</string>
     <string name="beauty_mo_ma">Klassisch</string>
+    <string name="beauty_mo_pr">Textur</string>
+    <string name="beauty_mo_pr_cv">Texture</string>
     <string name="beauty_mode_reset_toast">Make-up-Effekte erfolgreich entfernt</string>
     <string name="beauty_mutex_toast_tip">Erst Make-up-Effekte &lt;a href=>ausschalten&lt;/a></string>
     <string name="beauty_no_t">Verschönern ist aus</string>
@@ -416,10 +418,11 @@ und optimiert Ihre Fotos anhand dieser Informationen."</string>
     <string name="beauty_skincolor_wheat">Weizen</string>
     <string name="beauty_skincolor_white">Elfenbein</string>
     <string name="beauty_sm_or">Haut</string>
+    <string name="beauty_sm_texture">Haut</string>
+    <string name="beauty_sm_texture_cv">Haut</string>
     <string name="beauty_tab_name_live_beauty">Verschönern</string>
     <string name="beauty_tab_name_live_filter">Filter</string>
-    <string name="bg_replacement_message">"Stellen Sie Ihr Gerät auf eine stabile Oberfläche
-und treten Sie für einen Moment aus dem Blickfeld raus."</string>
+    <string name="bg_replacement_message">Stellen Sie Ihr Gerät auf eine stabile Oberfläche \und treten Sie für einen Moment aus dem Blickfeld raus.</string>
     <string name="bokeh_use_hint">Tiefeneffekt</string>
     <string name="burst_shoot_exit_button_text">Serienbilder schießen ausschalten</string>
     <string name="button_fisheye_camera_title">Fischauge</string>
@@ -455,6 +458,7 @@ und treten Sie für einen Moment aus dem Blickfeld raus."</string>
     <string name="cam_strings_rcs_wifi_dialog_title">Sind Sie nicht verbunden?</string>
     <string name="camcorder_tip_8k_max_video_duration">Sie können bis zu %1$d Minuten in 8K aufnehmen</string>
     <string name="camcorder_tip_current_max_video_duration">Sie können bis zu %d Minuten in der aktuellen Auflösung aufnehmen</string>
+    <string name="camcorder_tip_isp_super_night_video_max_video_duration">Sie können bis zu %d Min aufnehmen</string>
     <string name="camcorder_tip_super_night_video_4k_max_video_duration">Sie können bis zu %d Minuten in 4K aufnehmen</string>
     <string name="camera_disabled">Kamera wurde deaktiviert</string>
     <string name="camera_error_title">Kamerafehler</string>
@@ -530,6 +534,7 @@ und treten Sie für einen Moment aus dem Blickfeld raus."</string>
     <string name="clone_video_mode_start_hint">Bitte auf den Auslöser tippen, um mit der Videoaufnahme zu beginnen</string>
     <string name="close">Schließen</string>
     <string name="close_back_flash_toast">Ihr Gerät ist überhitzt. Sie können jetzt keinen Blitz verwenden.</string>
+    <string name="close_flash_toast">Blitzlicht kann wegen niedrigem Akku nicht verwendet werden</string>
     <string name="close_front_flash_toast">Ihr Gerät ist überhitzt. Sie können jetzt keinen Blitz verwenden.</string>
     <string name="close_night_algo_toast_low_power">Ihr Gerät aufladen, um die Belichtung einstellen zu können</string>
     <string name="close_night_algo_toast_thermal">Ihr Gerät abkühlen, um die Belichtung einstellen zu können</string>
@@ -571,8 +576,7 @@ und treten Sie für einen Moment aus dem Blickfeld raus."</string>
     <string name="config_name_magic">Magischer Fokus</string>
     <string name="config_name_mimovie">Filmmodus</string>
     <string name="config_name_ratio">Verhältnis</string>
-    <string name="config_name_scene">"Szenen-
-auswahl"</string>
+    <string name="config_name_scene">Szenen-\nauswahl</string>
     <string name="config_name_setting">Einstellungen</string>
     <string name="config_name_straighten">Gerade halten</string>
     <string name="config_name_super_resolution">Superauflösung</string>
@@ -640,6 +644,17 @@ auswahl"</string>
     <string name="custom_watermark_words">Benutzerdefiniertes Wasserzeichen</string>
     <string name="custom_watermark_words_input_hint">Text eingeben</string>
     <string name="custom_watermark_words_save_success">Erfolgreich gespeichert</string>
+    <string name="cv_lens_black_white">Schwarzweiß</string>
+    <string name="cv_lens_msg">Beeindruckende Fotos mit Pro-Objektiven aufnehmen</string>
+    <string name="cv_lens_rotary_focus">Verwirbeltes Bokeh</string>
+    <string name="cv_lens_soft_focus">Weichzeichner</string>
+    <string name="cv_lens_title">Pro-Objektive</string>
+    <string name="cvtype_btn_select">\"%1$s\" verwenden</string>
+    <string name="cvtype_hint_title">Stil wählen</string>
+    <string name="cvtype_item_btn_title1">Leica authentisch</string>
+    <string name="cvtype_item_btn_title2">Leica lebendig</string>
+    <string name="cvtype_item_title1">Natürlich und realistisch</string>
+    <string name="cvtype_item_title2">Frisch und lebendig</string>
     <string name="date_picker_lunar">Traditioneller chin. Kalender</string>
     <string name="date_time_picker_dialog_title">Datum und Zeit einstellen</string>
     <string name="dd_f_t">Ihr Telefon zur Aufnahme schließen</string>
@@ -672,8 +687,7 @@ auswahl"</string>
     <string name="doc_shortcut_short">Dokumente</string>
     <string name="document_blackwhite">Schwarz-Weiß</string>
     <string name="document_blur_warn">Verwischter Text</string>
-    <string name="document_mode_use_hint_text_body">"Gescannte Dokumente automatisch
-ausrichten und verbessern"</string>
+    <string name="document_mode_use_hint_text_body">Gescannte Dokumente automatisch \nausrichten und verbessern</string>
     <string name="document_mode_use_hint_text_title">Dokumente scannen</string>
     <string name="document_origin">Originalbild</string>
     <string name="document_strengthen">Verbessern</string>
@@ -723,8 +737,7 @@ ausrichten und verbessern"</string>
     <string name="dual_video_record_remote">Duale Telefonaufnahme</string>
     <string name="dual_video_record_standalone">Separat</string>
     <string name="dual_video_user_guide_main_content">Um Multikamera-Videos zu erstellen, wählen Sie zwei Kameras auf Ihrem Gerät aus und nehmen Sie gleichzeitig auf. Die Aufnahmen können separat oder kombiniert in einer geteilten Ansicht oder als Bild-in-Bild-Video gespeichert werden.</string>
-    <string name="dual_video_user_guide_main_content_new">Die Funktion \"Multi-Kamera-Simultanaufnahme\" kann mehrere Kameras gleichzeitig einschalten, unterstützt die Aufnahme von zwei beliebigen Blickwinkeln und kann zwei verschiedene Formen der \"Doppelaufnahme\" oder \"Einzelaufnahme\" auswählen.
-Nach dem Einschalten der Funktion \"Multi-Kamera-Aufnahme\" können Sie eine Verbindung mit der Kamera eines anderen Mobiltelefons herstellen, und die von den beiden Mobiltelefonen erhaltenen Bilder können zu einem \"Shuangpin\"-Video kombiniert werden.</string>
+    <string name="dual_video_user_guide_main_content_new">Die Funktion \"Multi-Kamera-Simultanaufnahme\" kann mehrere Kameras gleichzeitig einschalten, unterstützt die Aufnahme von zwei beliebigen Blickwinkeln und kann zwei verschiedene Formen der \"Doppelaufnahme\" oder \"Einzelaufnahme\" auswählen. \nNach dem Einschalten der Funktion \"Multi-Kamera-Aufnahme\" können Sie eine Verbindung mit der Kamera eines anderen Mobiltelefons herstellen, und die von den beiden Mobiltelefonen erhaltenen Bilder können zu einem \"Shuangpin\"-Video kombiniert werden.</string>
     <string name="dual_video_user_guide_main_title">Multikamera-Video</string>
     <string name="dual_video_user_guide_merge_content">Nehmen Sie mit zwei Kameras gleichzeitig auf und kombinieren Sie Aufnahmen in einer geteilten Ansicht oder als Bild-in-Bild-Video.</string>
     <string name="dual_video_user_guide_merge_content_new">Nehmen Sie Bilder aus zwei Blickwinkeln gleichzeitig auf und fügen Sie sie zu einem Video zusammen; Sie können die Zusammenstellung mit großem oder kleinem Fenster oder die Zusammenstellung mit gleichem Verhältnis auswählen.</string>
@@ -856,11 +869,12 @@ Nach dem Einschalten der Funktion \"Multi-Kamera-Aufnahme\" können Sie eine Ver
     <string name="film_timefreeze_reset">Reset antippen</string>
     <string name="film_video_a">Magischer Zoom</string>
     <string name="film_video_b">Langsame Blende</string>
-    <string name="film_video_b_tip">Bitte bei schlechten Lichtverhältnissen fotografieren.</string>
+    <string name="film_video_b_tip">Bitte bei schlechten Lichtverhältnissen fotografieren</string>
     <string name="film_video_c">Zeitraffer</string>
     <string name="film_video_d">Nacht-Zeitraffer</string>
     <string name="film_video_e">Parallelwelt</string>
     <string name="film_video_e_tip">Unterstützt nur Landschafts-/Querformat-Aufnahmen</string>
+    <string name="film_video_f">In der Zeit zurück</string>
     <string name="film_video_tip">Bitte zum Fotografieren ein Stativ verwenden</string>
     <string name="find_cloud_album">Cloudalbum QR-Code suchen</string>
     <string name="find_market_qrcode">Market QR-Code suchen</string>
@@ -904,11 +918,11 @@ Nach dem Einschalten der Funktion \"Multi-Kamera-Aufnahme\" können Sie eine Ver
     <string name="friday">Freitag</string>
     <string name="friday_short">Fr</string>
     <string name="friday_shortest">F</string>
-    <string name="fromkeyguard_not_permission">Um diese Funktion nutzen zu können, müssen Sie Ihr Gerät zuerst entsperren.</string>
+    <string name="fromkeyguard_not_permission">Um diese Funktion zu nutzen, müssen Sie Ihr Gerät zuerst entsperren.</string>
     <string name="front_camera_hint_text_confirm">Verstanden</string>
     <string name="front_camera_hint_text_place">Wenn Sie Ihr Telefon umdrehen, ist es einfacher, Selfies zu machen</string>
     <string name="front_camera_hint_text_rotate">Drehen Sie Ihr Telefon um</string>
-    <string name="gleam_press_and_hold">Berühren und gedrückt halten, um Text auszuwählen</string>
+    <string name="gleam_press_and_hold">Berühren und halten, um Text auszuwählen</string>
     <string name="gleam_tap_for_more_options">Auf diese Bereiche tippen, um weitere Optionen zu erhalten.</string>
     <string name="gleam_tap_to_change_selection">Tippen, um die Auswahl zu ändern</string>
     <string name="google_confidential">Google Vertraulich</string>
@@ -918,24 +932,19 @@ Nach dem Einschalten der Funktion \"Multi-Kamera-Aufnahme\" können Sie eine Ver
     <string name="group_by_location">Nach Ort</string>
     <string name="group_by_tags">Nach Tags</string>
     <string name="group_by_time">Nach Zeit</string>
-    <string name="groupshot_mode_use_hint">"Mehrere Fotos werden aufgenommen,
-um den besten Gesichtsausdruck in einem Foto festzuhalten"</string>
-    <string name="guidance_barcode">"Barcode im Blickfeld
-Berühren und halten, um mehr zu tun"</string>
-    <string name="guidance_document">"Text im Blickfeld
-Zum Scannen berühren und gedrückt halten"</string>
-    <string name="guidance_foreign_text">"Text im Blickfeld
-Zum Scannen berühren und gedrückt halten"</string>
-    <string name="guidance_qr_nonwifi">"QR-Code im Blickfeld
-Berühren und halten, um mehr zu tun"</string>
+    <string name="groupshot_mode_use_hint">Mehrere Fotos werden aufgenommen, \num den besten Gesichtsausdruck in einem Foto festzuhalten</string>
+    <string name="guidance_barcode">Barcode im Blickfeld \nBerühren und halten, um mehr zu tun</string>
+    <string name="guidance_document">Text im Blickfeld \nZum Scannen berühren und halten</string>
+    <string name="guidance_foreign_text">Text im Blickfeld \nZum Scannen berühren und halten</string>
+    <string name="guidance_qr_nonwifi">QR-Code im Blickfeld \nBerühren und halten, um mehr zu tun</string>
+    <string name="guide_pop_window_msg_cv_lens">Tippen, um Pro-Objektive auszuprobieren</string>
     <string name="hand_gesture_open_tip">Zeigen Sie der Kamera Ihre Handfläche, um den Timer zu starten</string>
     <string name="hand_gesture_tip">Handflächenverschluss</string>
     <string name="hand_night_exit_button_text">Tragbares Dämmerungslicht beenden</string>
     <string name="hdr_exit_button_text">HDR-Modus beenden</string>
     <string name="height">Höhe</string>
     <string name="hibernate_hint">Tippen Sie auf den Bildschirm, um die Kamera zu wecken</string>
-    <string name="hine_hht">"Bei schlechten Lichtverhältnissen nimmt die Kamera mehrere Fotos auf
-und erstellt dann eine Aufnahme mit minimalem Rauschen"</string>
+    <string name="hine_hht">Bei schlechten Lichtverhältnissen nimmt die Kamera mehrere Fotos auf \nund erstellt dann eine Aufnahme mit minimalem Rauschen</string>
     <string name="hint_address">Adresse</string>
     <string name="hint_ae_af_lock">Auto-Fokus/Auto-Belichtung wurde gesperrt</string>
     <string name="hint_ae_af_lock_extra">Autofokus/Autoaufnahme wurde gesperrt. Wechseln Sie in den Kameraeinstellungen zu Google Lens.</string>
@@ -944,8 +953,7 @@ und erstellt dann eine Aufnahme mit minimalem Rauschen"</string>
     <string name="hint_email">E-Mail</string>
     <string name="hint_eye_light">Augenglanzeffekte funktionieren am besten, wenn der Blitz eingeschaltet ist</string>
     <string name="hint_fast_motion">Aufgenommenes Video schneller abspielen</string>
-    <string name="hint_groupshot">"Kamera nimmt mehrere Fotos auf
-und erstellt dann eine Aufnahme, bei der jeder am besten aussieht"</string>
+    <string name="hint_groupshot">Kamera nimmt mehrere Fotos auf \nund erstellt dann eine Aufnahme, bei der jeder am besten aussieht</string>
     <string name="hint_groupshot_beauty">Verschönern in Gruppenaufnahmen nicht möglich</string>
     <string name="hint_mimovie">Aufnahme im Querformat für besten Effekt</string>
     <string name="hint_person_name">Name der Person</string>
@@ -962,8 +970,7 @@ und erstellt dann eine Aufnahme, bei der jeder am besten aussieht"</string>
     <string name="hunt_dual_water_mark">Wasserzeichen \"Dual-Kamera\" wird automatisch hinzugefügt</string>
     <string name="id_card_mode_hint_back">Rückseite Ihrer ID scannen</string>
     <string name="id_card_mode_hint_front">Vorderseite Ihrer ID scannen</string>
-    <string name="id_card_mode_use_hint_text_body">"Beide Seiten Ihrer ID in einem Bild kombinieren.
-Kopie kabellos auf A4-Papier drucken."</string>
+    <string name="id_card_mode_use_hint_text_body">Beide Seiten Ihrer ID in einem Bild kombinieren. \nKopie kabellos auf A4-Papier drucken.</string>
     <string name="id_card_mode_use_hint_text_title">ID scannen</string>
     <string name="image_result_text">Ecken ziehen, um die Auswahl zu ändern.</string>
     <string name="image_result_text_accessibility_mode">Bild ausgewählt</string>
@@ -993,8 +1000,7 @@ Kopie kabellos auf A4-Papier drucken."</string>
     <string name="launch_market">Xiaomi Market App starten</string>
     <string name="launch_qq">QQ im Browser starten</string>
     <string name="launch_wechat">WeChat starten</string>
-    <string name="lens_dirty_detected_content">"Ihr Kameraobjektiv ist verschmutzt.
-Für ein besseres Bild, Kameraobjektiv bitte reinigen."</string>
+    <string name="lens_dirty_detected_content">Ihr Kameraobjektiv ist verschmutzt. \nFür ein besseres Bild, Kameraobjektiv bitte reinigen.</string>
     <string name="lens_dirty_detected_title_back">Hinteres Kameraobjektiv verschmutzt</string>
     <string name="lens_dirty_detected_title_front">Vorderes Kameraobjektiv verschmutzt</string>
     <string name="lens_generic_error">Something went wrong. Try again.</string>
@@ -1071,6 +1077,7 @@ Für ein besseres Bild, Kameraobjektiv bitte reinigen."</string>
     <string name="location_permission_not_ask_again_go_to_settings">Erlauben</string>
     <string name="locations">Standorte</string>
     <string name="longitude_text">Länge</string>
+    <string name="low_battery_to_save_video">Anscheinend ist der Akku Ihres Geräts jetzt zu schwach. Aufnahme beenden und Video speichern, bevor sich das Gerät ausschaltet.</string>
     <string name="lpl_dialog_item_name_burst">Für ein Serienbild gedrückt halten</string>
     <string name="lpl_dialog_item_name_record">Zum Aufnehmen eines Videos gedrückt halten</string>
     <string name="lpl_dialog_title">Funktion für den Auslöser wählen</string>
@@ -1277,6 +1284,11 @@ Für ein besseres Bild, Kameraobjektiv bitte reinigen."</string>
     <string name="module_name_square">Quadrat</string>
     <string name="module_name_super_moon">Supermond</string>
     <string name="moive_frame">Filmbild</string>
+    <string name="moiton_detection_960_fps_video_tip" formatted="false">Videos mit %1dfps können bis zu %2d Sek lang sein</string>
+    <string name="moiton_detection_tip">Bewegung erkennen… Gerät ruhig halten.</string>
+    <string name="moiton_detection_video_electric_quantity_tip">Gerät aufladen, um diese Funktion zu verwenden</string>
+    <string name="moiton_detection_video_temperature_stop_tip">Ihr Gerät ist überhitzt. Die Aufnahme wird in %d Sek beendet.</string>
+    <string name="moiton_detection_video_temperature_tip">Gerät abkühlen, um diese Funktion zu verwenden</string>
     <string name="monday">Montag</string>
     <string name="monday_short">Mo</string>
     <string name="monday_shortest">M</string>
@@ -1361,7 +1373,7 @@ Für ein besseres Bild, Kameraobjektiv bitte reinigen."</string>
     <string name="pano_dialog_prepare_preview">Vorbereiten…</string>
     <string name="pano_dialog_waiting_previous">Warten auf Abschluss des vorherigen Panoramas</string>
     <string name="pano_go_on_moving">Bewegen Sie Ihr Gerät kontinuierlich entlang der Linie</string>
-    <string name="pano_how_to_use_prompt">"Berühren Sie den Auslöser, um ein Panoramafoto aufzunehmen"</string>
+    <string name="pano_how_to_use_prompt">Berühren Sie den Auslöser, um ein Panoramafoto aufzunehmen</string>
     <string name="pano_how_to_use_prompt_align_reference_line">Richten Sie den Pfeil an der Rasterlinie aus</string>
     <string name="pano_how_to_use_prompt_go_on_moving">Fortsetzen</string>
     <string name="pano_how_to_use_prompt_slow_down">Bitte langsamer</string>
@@ -1420,6 +1432,7 @@ Für ein besseres Bild, Kameraobjektiv bitte reinigen."</string>
     <string name="pic_flaw_cover">Anscheinend ist die Linse teilweise verdeckt</string>
     <string name="pixel_ai_108">KI 100 Millionen sehr lebendig</string>
     <string name="pixel_ai_108_close">KI 100 Millionen sehr lebendig</string>
+    <string name="pixel_mode_capture_hint">Stellen Sie sicher, dass die Umgebung gut beleuchtet ist</string>
     <string name="popup_tip_3d_beauty_intro_text">3D-Verschönerung</string>
     <string name="popup_tips_near_range_mode">Fokus beenden</string>
     <string name="popup_tips_privacy_watermark_edit">Wasserzeichen bearbeiten</string>
@@ -1455,8 +1468,7 @@ Für ein besseres Bild, Kameraobjektiv bitte reinigen."</string>
     <string name="portrait_mode_too_close_hint">Motiv weiter weg platzieren</string>
     <string name="portrait_mode_too_far_hint">Motiv innerhalb von 2 Metern platzieren</string>
     <string name="portrait_mode_use_hint">Im Porträtmodus wird der Hintergrund unscharf dargestellt,\nsodass die Personen in den Vordergrund rücken</string>
-    <string name="portrait_mode_use_hint_for_bokeh">Versuchen Sie es mit Hochformat.
-Halten Sie das Motiv scharf, während Sie den Hintergrund verwischen.</string>
+    <string name="portrait_mode_use_hint_for_bokeh">Versuchen Sie es mit Hochformat. \nHalten Sie das Motiv scharf, während Sie den Hintergrund verwischen.</string>
     <string name="portrait_with_facebeauty_hint">Verschönern ist jetzt im Hochformat verfügbar</string>
     <string name="pref_960_watermark_title">960FPS Wasserzeichen</string>
     <string name="pref_advance_settings">Erweiterte Einstellungen</string>
@@ -1536,6 +1548,7 @@ Halten Sie das Motiv scharf, während Sie den Hintergrund verwischen.</string>
     <string name="pref_camera_coloreffect_title">Filter</string>
     <string name="pref_camera_common_settings">Allgemeine Einstellungen</string>
     <string name="pref_camera_contrast_title">Kontrast</string>
+    <string name="pref_camera_crop_preferred_description">Smartes Zuschneiden anwenden zur Verbesserung der Komposition von Bildern mit hoher Auflösung</string>
     <string name="pref_camera_debug_info_as_watermark_title">Wasserzeichen-Debugging einschalten</string>
     <string name="pref_camera_default_suffix">(Standard)</string>
     <string name="pref_camera_delay_capture_10s">%ds Verzögerung</string>
@@ -1598,6 +1611,7 @@ Halten Sie das Motiv scharf, während Sie den Hintergrund verwischen.</string>
     <string name="pref_camera_hdr_type_title">HDR-Typ</string>
     <string name="pref_camera_heic_image_format_description">Fotos im hocheffizienten HEIF-Format aufnehmen</string>
     <string name="pref_camera_heic_image_format_description2">High Efficiency Image File-Format (HEIF) spart Speicherplatz, wird aber von einigen Drittanbieter-Apps nicht unterstützt. Sie können in HEIF keine dynamischen Aufnahmen machen und keine Wasserzeichen entfernen.</string>
+    <string name="pref_camera_heic_image_format_description_global">High Efficiency Image File Format spart Speicherplatz, wird aber von einigen Drittanbieter-Apps nicht unterstützt. Wasserzeichen können in HEIF nicht entfernt werden.</string>
     <string name="pref_camera_heic_image_format_title">HEIF-Format</string>
     <string name="pref_camera_hfr_entry_off">aus</string>
     <string name="pref_camera_hfr_title">Hohe Bildrate (Zeitlupe)</string>
@@ -1682,6 +1696,8 @@ Halten Sie das Motiv scharf, während Sie den Hintergrund verwischen.</string>
     <string name="pref_camera_reference_capture_title_left_golden_spiral">Goldene Spirale A</string>
     <string name="pref_camera_reference_capture_title_right_golden_spiral">Goldene Spirale B</string>
     <string name="pref_camera_referenceline_title">Rasterlinien</string>
+    <string name="pref_camera_suspend_shutter_button_summary">Auslöser hochziehen, um einen zusätzlichen Popup-Auslöser zu erstellen</string>
+    <string name="pref_camera_suspend_shutter_button_title">Zusätzlicher Auslöser</string>
     <string name="pref_camera_track_eye_preferred_description">Augenbewegung verfolgen, um die Augen im Fokus zu halten, wenn eine Person im Bild ist</string>
     <string name="pref_camera_track_eye_preferred_title">Fokus Augenverfolgung</string>
     <string name="pref_camera_track_focus_intro_description">Wenn Sie Fotos oder Videos mit sich bewegenden Motiven aufnehmen, erkennt diese Funktion Menschen, Katzen und Hunde und hält sie automatisch im Fokus. Außerdem können Sie jedes Motiv doppelt antippen, um Bewegungen zu verfolgen.</string>
@@ -1801,6 +1817,10 @@ Halten Sie das Motiv scharf, während Sie den Hintergrund verwischen.</string>
     <string name="pref_custom_tint_title">Farben</string>
     <string name="pref_customization_style">Eigener Stil</string>
     <string name="pref_customization_title">Anpassen</string>
+    <string name="pref_cv_watermark_location_title">Koordinaten</string>
+    <string name="pref_cv_watermark_summary">Die Vorschau dient nur zu Ihrer Information. Das Leica-Wasserzeichen erscheint auf Fotos, die in den Modi \"Foto\" und \"Pro\" aufgenommen wurden.</string>
+    <string name="pref_cv_watermark_time_title">Zeit</string>
+    <string name="pref_cv_watermark_title">Leica-Wasserzeichen</string>
     <string name="pref_document_mode">Dokumente</string>
     <string name="pref_dual_camera_video">Dualvideo</string>
     <string name="pref_dualcamera_watermark_title">Dualkamera-Wasserzeichen</string>
@@ -1841,6 +1861,7 @@ Halten Sie das Motiv scharf, während Sie den Hintergrund verwischen.</string>
     <string name="pref_menu_ai_ultra_pixel_photography">KI %s</string>
     <string name="pref_module_settings">Modi</string>
     <string name="pref_more_mode_style_title">Kameramodus</string>
+    <string name="pref_motioon_detection">Bewegungserkennung</string>
     <string name="pref_multi_camera_dual_video_front">Vordere Kamera</string>
     <string name="pref_multi_camera_dual_video_remote">Duale Telefonaufnahme</string>
     <string name="pref_n_s_a">Audioeinstellungen</string>
@@ -1859,6 +1880,7 @@ Halten Sie das Motiv scharf, während Sie den Hintergrund verwischen.</string>
     <string name="pref_privacy_watermark_edit">Eigener Text</string>
     <string name="pref_privacy_watermark_edit_clear_history">Verlauf löschen</string>
     <string name="pref_privacy_watermark_edit_history">Verlauf</string>
+    <string name="pref_privacy_watermark_edit_title">Wasserzeichen bearbeiten</string>
     <string name="pref_privacy_watermark_entry">Wasserzeichenschutz</string>
     <string name="pref_privacy_watermark_switch">Wasserzeichen-Schalter anzeigen</string>
     <string name="pref_qc_focus_position_title">Fokus</string>
@@ -1881,6 +1903,8 @@ Halten Sie das Motiv scharf, während Sie den Hintergrund verwischen.</string>
     <string name="pref_smart_guide_title">Smarte Vorschläge</string>
     <string name="pref_super_night_se_summary">Erkennen von schlechten Lichtverhältnissen und automatische Verbesserung der Bildqualität</string>
     <string name="pref_super_night_se_title">Automatischer Nachtmodus</string>
+    <string name="pref_true_colour_video_mode_description">Nehmen Sie Videos mit Dolby Vision auf, um naturgetreue Details, beeindruckende Farben und einen starken Kontrast einzufangen (Diese Funktion ist möglicherweise nicht mit einigen Drittanbieter-Apps kompatibel)</string>
+    <string name="pref_true_colour_video_mode_introduction">Beeindruckende visuelle Erfahrung, naturgetreue Details und hervorragender Kontrast</string>
     <string name="pref_userdefine_watermark_title">Benutzerdefiniertes Wasserzeichen</string>
     <string name="pref_video_ai_audio_single">Frontaler Klang</string>
     <string name="pref_video_captrue_ability_title">Fotos während der Aufnahme machen (mehr Akkuverbrauch!)</string>
@@ -1959,6 +1983,7 @@ Halten Sie das Motiv scharf, während Sie den Hintergrund verwischen.</string>
     <string name="qr_wifi_error_password_invalid">QR-Code enthält falsches WLAN-Passwort</string>
     <string name="qr_wifi_error_ssid_invalid">QR-Code enthält falschen WLAN-Namen</string>
     <string name="qr_wifi_successfully_connecting">Verbinden mit %s…</string>
+    <string name="qvga_shelter_tip_text">Objektiv nicht abdecken</string>
     <string name="raw_data_exit_button_text">RAW-Modus verlassen</string>
     <string name="recapture_dialog_message">Wiederholung bestätigen?</string>
     <string name="recapture_dialog_title">Bei einer erneuten Aufnahme wird das aktuelle Bild gelöscht.</string>
@@ -2134,6 +2159,7 @@ Halten Sie das Motiv scharf, während Sie den Hintergrund verwischen.</string>
     <string name="speech_shutter_tip">Sprachauslöser</string>
     <string name="sticker_tab1">Süß</string>
     <string name="sticker_tab2">Lustig</string>
+    <string name="stop_save_low_battery">Speichern (%ds)</string>
     <string name="stop_tracing">Verfolgung stoppen</string>
     <string name="subtitle_network_exception_tips">Netzwerkverbindung fehlgeschlagen. Umwandeln nicht möglich.</string>
     <string name="success_image_saved_camera">Auf der Kamera gespeichertes Bild.</string>
@@ -2255,6 +2281,7 @@ Halten Sie das Motiv scharf, während Sie den Hintergrund verwischen.</string>
     <string name="toast_start_audio_capture">Ton erzeugen beim Fotografieren</string>
     <string name="today">Heute</string>
     <string name="tomorrow">Morgen</string>
+    <string name="too_low_battery">Akku schwach</string>
     <string name="trace_is_being_recorded">Verfolgung aufnehmen</string>
     <string name="trace_saved">Verfolgungsaufnahme gespeichert</string>
     <string name="tracing_categories_unavailable">Bestimmte Verfolgungskategorien sind nicht verfügbar:</string>
@@ -2281,10 +2308,8 @@ Halten Sie das Motiv scharf, während Sie den Hintergrund verwischen.</string>
     <string name="ultra_wide_bokeh_open_tip">Ganzkörpermodus</string>
     <string name="ultra_wide_close_tip">Ultraweitwinkelmodus ist aus</string>
     <string name="ultra_wide_mode">Ultraweitwinkel</string>
-    <string name="ultra_wide_mode_use_hint_text">"Verwenden Sie diesen Modus, um mehr von der Szene in Ihr Foto aufzunehmen.
-Ultraweitwinkelmodus hilft, wenn man sich nicht weiter von der Szene entfernen kann."</string>
-    <string name="ultra_wide_mode_use_hint_text_sat">"Testen Sie den 0,6X Ultraweitwinkelmodus, um mehr von der Szene in Ihr Foto aufzunehmen.
-Der Ultraweitwinkelmodus hilft, wenn Sie sich nicht weiter von der Szene entfernen können."</string>
+    <string name="ultra_wide_mode_use_hint_text">Verwenden Sie diesen Modus, um mehr von der Szene in Ihr Foto aufzunehmen. \nUltraweitwinkelmodus hilft, wenn man sich nicht weiter von der Szene entfernen kann.</string>
+    <string name="ultra_wide_mode_use_hint_text_sat">Testen Sie den 0,6X Ultraweitwinkelmodus, um mehr von der Szene in Ihr Foto aufzunehmen. \nDer Ultraweitwinkelmodus hilft, wenn Sie sich nicht weiter von der Szene entfernen können.</string>
     <string name="ultra_wide_open_tip">Ultraweitwinkelmodus</string>
     <string name="ultra_wide_open_tip_sat">0.6X Ultraweitwinkel</string>
     <string name="ultra_wide_recommend_tip_hint">Ultraweitwinkelmodus testen</string>
@@ -2301,7 +2326,7 @@ Der Ultraweitwinkelmodus hilft, wenn Sie sich nicht weiter von der Szene entfern
     <string name="user_define_watermark_cancel">abbrechen</string>
     <string name="user_define_watermark_save">speichern</string>
     <string name="user_disagree">Nicht zustimmen</string>
-    <string name="user_notice_identify_summary_format">"Durch die Nutzung dieser Dienstleistung stimmen Sie Xiaomi's %1$s und %2$s zu. Sind Sie damit einverstanden, sich mit dem Internet zu verbinden?"</string>
+    <string name="user_notice_identify_summary_format">Durch die Nutzung dieser Dienstleistung stimmen Sie \"Xiaomi's\" %1$s und %2$s zu. Sind Sie damit einverstanden, sich mit dem Internet zu verbinden?</string>
     <string name="user_notice_title">Netzwerkverbindungsvereinbarung</string>
     <string name="v7_preference_off">AUS</string>
     <string name="v7_preference_on">AN</string>
@@ -2352,6 +2377,7 @@ Der Ultraweitwinkelmodus hilft, wenn Sie sich nicht weiter von der Szene entfern
     <string name="video_effect_entry_summer_day_describe">Niedriger Kontrast und helle Töne funktionieren gut, wenn Sie Hauttöne beibehalten müssen. Dieser Filter ist für sonnige Außenaufnahmen geeignet.</string>
     <string name="video_effect_entry_wind_sing">Brise</string>
     <string name="video_err">Videowiedergabe fehlgeschlagen</string>
+    <string name="video_low_battery_tip_content">Geringere Bildrate wegen schwachem Akku</string>
     <string name="video_overheat_tip_content">Anscheinend ist Ihr Gerät zu heiß. Versuchen Sie, Videos mit einer niedrigeren Auflösung aufzunehmen.</string>
     <string name="video_reach_size_limit">Maximale Größe erreicht</string>
     <string name="video_shortcut_long">Video</string>
@@ -2363,9 +2389,9 @@ Der Ultraweitwinkelmodus hilft, wenn Sie sich nicht weiter von der Szene entfern
     <string name="visit_cloud_album">Cloud-Album besuchen</string>
     <string name="vv_hint">Sie können Vlogs nur im Querformat aufnehmen</string>
     <string name="vv_stability_hint">Halten Sie Ihr Gerät ruhig</string>
+    <string name="vv_stability_newTip">Elemente speichern…</string>
     <string name="vv_start">Vlog aufnehmen</string>
-    <string name="vv_use_hint_text_body">"Vlog-Modus erlaubt Ihnen, 
-Videos unterwegs aufzunehmen und zu bearbeiten"</string>
+    <string name="vv_use_hint_text_body">Vlog-Modus erlaubt Ihnen, \nVideos unterwegs aufzunehmen und zu bearbeiten</string>
     <string name="wait">Abwarten</string>
     <string name="warm_prompt">Tipps</string>
     <string name="watermark_tab_city">Stadt</string>
@@ -2389,6 +2415,15 @@ Videos unterwegs aufzunehmen und zu bearbeiten"</string>
     <string name="wideselfie_rotate_to_left_slowly">Drehen Sie das Telefon nach links</string>
     <string name="wideselfie_rotate_to_right_slowly">Drehen Sie das Telefon nach rechts</string>
     <string name="width">Breite</string>
+    <string name="widget_camera_filter_description">Vier Sätze Leica-Filter</string>
+    <string name="widget_camera_filter_talk_back">Leica-Filter</string>
+    <string name="widget_camera_label">Leica-Filter</string>
+    <string name="widget_camera_lens_35mm_description">35 Millimeter</string>
+    <string name="widget_camera_lens_50mm_description">50 Millimeter</string>
+    <string name="widget_camera_lens_90mm_description">90 Millimeter</string>
+    <string name="widget_camera_lens_description">Mit Brennweite experimentieren</string>
+    <string name="widget_camera_lens_none_description">Ein 50-Millimeter-Objektiv für Porträts</string>
+    <string name="widget_camera_lens_talk_back">Pro-Objektive</string>
     <string name="wifi_connect_current_connetion">Sie sind mit WLAN verbunden</string>
     <string name="wifi_connect_fail">Zeitüberschreitung beim Verbinden</string>
     <string name="wifi_connect_not_found">WLAN-Verbindung fehlgeschlagen</string>
