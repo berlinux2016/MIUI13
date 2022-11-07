@@ -237,8 +237,14 @@
     <string name="alarms_and_reminders_title">Alarme &amp; Erinnerungen</string>
     <string name="alert_dialog_close">Profil schließen</string>
     <string name="alert_dialog_dismiss">Ablehnen</string>
+    <string name="alert_dialog_exit_ecm">{count, plural, =1 {Das Telefon bleibt 1 Minute lang im Notfall-Rückrufmodus. In diesem Modus können keine Apps, die eine Datenverbindung nutzen, verwendet werden. Jetzt beenden?} other {Das Telefon bleibt %s Minuten lang im Notfall-Rückrufmodus. In diesem Modus können keine Apps, die eine Datenverbindung nutzen, verwendet werden. Jetzt beenden?} }</string>
+    <string name="alert_dialog_exit_ecm_without_data_restriction_hint">{count, plural, =1 {Das Telefon bleibt 1 Minute lang im Notfall-Rückrufmodus.\nJetzt beenden?} other {Das Telefon bleibt %s Minuten lang im Notfall-Rückrufmodus.\nJetzt beenden?} }</string>
+    <string name="alert_dialog_exit_scm">Das Telefon befindet sich im SMS-Rückrufmodus. In diesem Modus können keine Apps, die eine Datenverbindung nutzen, verwendet werden. Jetzt beenden?</string>
     <string name="alert_dialog_in_ecm_call">Ausgewählte Aktion ist während eines Notrufs nicht verfügbar</string>
+    <string name="alert_dialog_in_scm_call">Die gewählte Aktion ist während eines Notrufs nicht verfügbar.</string>
     <string name="alert_dialog_no">Nein</string>
+    <string name="alert_dialog_not_avaialble_in_ecm">"{count, plural, =1 {Die gewählte Aktion ist im Notfall-Rückrufmodus nicht verfügbar. Das Telefon bleibt 1 Minute lang in diesem Modus. Jetzt beenden?} other {Die gewählte Aktion ist im Notfall-Rückrufmodus nicht verfügbar. Das Telefon bleibt %s Minuten lang in diesem Modus. Jetzt beenden?} }"</string>
+    <string name="alert_dialog_not_avaialble_in_scm">Die gewählte Aktion ist im SMS-Rückrufmodus nicht verfügbar. Jetzt beenden?</string>
     <string name="alert_dialog_yes">Ja</string>
     <string name="alertdialogtitle">Ergebnisse</string>
     <string name="allContactdeleteFailed">Löschen aller SIM-Kontakte fehlgeschlagen</string>
@@ -442,6 +448,10 @@
     <string name="business_hall_settings_summary">Überwachen Sie Ihre Anrufe und Datennutzung</string>
     <string name="business_hall_settings_title">Einstellungen Mobilfunktarif</string>
     <string name="button_convert_fbe">Löschen und konvertieren…</string>
+    <string name="c_iwlan_exit_notification_description">Deaktivierung könnte helfen, den Dienst zu erhalten.</string>
+    <string name="c_iwlan_exit_notification_negative_button">VERWERFEN</string>
+    <string name="c_iwlan_exit_notification_positive_button">EINSTELLUNGEN ÖFFNEN</string>
+    <string name="c_iwlan_exit_notification_title">Voice Over Cellular Internet nicht verfügbar</string>
     <string name="cached_apps_freezer_device_default">Gerätevoreinstellung</string>
     <string name="cached_apps_freezer_disabled">Deaktiviert</string>
     <string name="cached_apps_freezer_enabled">Aktiviert</string>
@@ -525,6 +535,7 @@
     <string name="callFailed_requested_facility_not_subscribed">Gewünschte Einrichtung nicht abonniert</string>
     <string name="callFailed_resources_unavailable_or_unspecified">Ressourcen nicht verfügbar, nicht spezifiziert</string>
     <string name="callFailed_resp_to_status_enquiry">Antwort auf STATUSANFRAGE</string>
+    <string name="callFailed_secure_mode">Ein Nicht-Notruf kann im sicheren Modus nicht getätigt werden.</string>
     <string name="callFailed_semantically_incorrect_message">Semantisch fehlerhafte Nachricht</string>
     <string name="callFailed_server_error">Serverfehler, versuchen Sie es später wieder</string>
     <string name="callFailed_server_unreachable">Server nicht erreichbar</string>
@@ -1384,6 +1395,7 @@
     <string name="labelCDMAMore">CDMA-Anrufeinstellungen</string>
     <string name="labelCF">Rufumleitung</string>
     <string name="labelCFB">Umleiten falls besetzt</string>
+    <string name="labelCFNL">Wenn nicht eingeloggt</string>
     <string name="labelCFNRc">Umleiten falls nicht erreichbar</string>
     <string name="labelCFNRy">Umleiten falls keine Antwort</string>
     <string name="labelCFType">Rufumleitungseinstellungen</string>
@@ -1510,6 +1522,7 @@
     <string name="menu_new_display_open">In neuem Fenster öffnen</string>
     <string name="menu_pc_open">Am PC öffnen</string>
     <string name="messageCFB">Nummer falls besetzt</string>
+    <string name="messageCFNL">Nummer, wenn nicht eingeloggt</string>
     <string name="messageCFNRc">Nummer nicht erreichbar</string>
     <string name="messageCFNRc_kr_kt">Netzdienst, der alle eingehenden Anrufe und Textnachrichten an eine bestimmte Nummer umleitet, wenn Sie keine Anrufe annehmen können (z. B. wenn Sie telefonieren oder Ihr Gerät ausgeschaltet ist). Sie müssen diesen Dienst abonnieren. Wenden Sie sich ans Kundenzentrum (114+[Senden]), um diesen Dienst zu abonnieren oder abzubestellen. *72+[Nummer zur Weiterleitung von Anrufen an][Senden] eingeben zum Aktivieren oder *720[Senden] zum Deaktivieren.\n\nNummer, wenn nicht erreichbar</string>
     <string name="messageCFNRy">Nummer falls unbeantwortet</string>
@@ -1970,11 +1983,15 @@
     <string name="phone_accounts_selection_header">Telefonkonten</string>
     <string name="phone_accounts_settings_header">Einstellungen</string>
     <string name="phone_entered_ecm_text">Notfallrückrufmodus einschalten</string>
+    <string name="phone_entered_scm_text">SMS-Rückrufmodus aufgerufen</string>
     <string name="phone_in_ecm_call_notification_text">Datenverbindung ausgeschaltet</string>
     <string name="phone_in_ecm_call_notification_text_without_data_restriction_hint">Das Telefon befindet sich im Notfall-Rückrufmodus</string>
     <string name="phone_in_ecm_notification_complete_time">Keine Datenverbindung bis %s</string>
     <string name="phone_in_ecm_notification_complete_time_without_data_restriction_hint">Bis %s</string>
     <string name="phone_in_ecm_notification_title">Notfallrückrufmodus</string>
+    <string name="phone_in_scm_call_notification_text_without_data_restriction_hint">Telefon ist im SMS-Rückrufmodus</string>
+    <string name="phone_in_scm_notification_complete_time">Seit %s</string>
+    <string name="phone_in_scm_notification_title">SMS-Rückrufmodus</string>
     <string name="phone_index_label">Telefonindex auswählen</string>
     <string name="phone_info_label">Telefoninfo</string>
     <string name="phone_number_hint_text">Rufnummer</string>
@@ -2138,6 +2155,7 @@
     <string name="profile_connect_timeout_subtext">Problem beim Verbinden. Gerät aus- &amp; wieder einschalten</string>
     <string name="profile_info_settings_title">Profilinfo</string>
     <string name="progress_dialog_exiting_ecm">Notfallrückrufmodus beenden…</string>
+    <string name="progress_dialog_exiting_scm">SMS-Rückrufmodus beenden</string>
     <string name="prompt_to_suggest_no_call_service_notification_content">Anrufe tätigen und annehmen nicht möglich. VoLTE-Service ist jetzt für Ihre SIM-Karte (China Telecom) deaktiviert.</string>
     <string name="prompt_to_suggest_no_call_service_notification_content2">Anrufe tätigen und annehmen nicht möglich. VoLTE-Service ist jetzt für SIM%d (China Telecom) deaktiviert.</string>
     <string name="prompt_to_suggest_no_call_service_notification_title">Anrufe tätigen und annehmen nicht möglich.</string>
@@ -2217,6 +2235,7 @@
     <string name="radio_info_nr_available">NR verfügbar:</string>
     <string name="radio_info_nr_frequency">NR Frequenz:</string>
     <string name="radio_info_nr_state">NR Status:</string>
+    <string name="radio_info_override_network_type_label">Netzwerktyp überschreiben:</string>
     <string name="radio_info_phone_number_label">Rufnummer:</string>
     <string name="radio_info_phy_chan_config">LTE physikalische Kanalkonfiguration:</string>
     <string name="radio_info_ppp_received_label">Empfangene Daten:</string>
@@ -2264,6 +2283,7 @@
     <string name="relay_connection_service_label">Integrierter RELAY-Anruf</string>
     <string name="remaining_length_format">%1$s übrig</string>
     <string name="reminder">Erinnerung</string>
+    <string name="removable_esim_string">Wechselbare eSIM als Standard festlegen</string>
     <string name="remove">Löschen</string>
     <string name="remove_sip_account">Konto entfernen</string>
     <string name="removing_account">Konto entfernen…</string>
@@ -2579,6 +2599,8 @@
     <string name="sum_cdma_call_settings">Zusätzliche Anrufeinstellungen nur für CDMA</string>
     <string name="sum_cfb_disabled">Ausgeschaltet</string>
     <string name="sum_cfb_enabled">Umleiten an {0}</string>
+    <string name="sum_cfnl_disabled">Aus</string>
+    <string name="sum_cfnl_enabled">Weiterleiten an {0}</string>
     <string name="sum_cfnrc_disabled">Ausgeschaltet</string>
     <string name="sum_cfnrc_enabled">Umleiten an {0}</string>
     <string name="sum_cfnry_disabled">Ausgeschaltet</string>
@@ -2852,6 +2874,7 @@
     <string name="user_switch_to_user">Umschalten auf %s</string>
     <string name="username_title">Benutzername</string>
     <string name="ussdRunning">USSD-Code ausführen…</string>
+    <string name="ussdinitiated_title">USSD eingeleitet</string>
     <string name="ut_not_support">UT ist nicht verfügbar</string>
     <string name="ut_unavailable_to_set_video_cf_toast">UT ist nicht verfügbar, um die Anrufumleitung für Video einzustellen. Bitte schließen und verlassen Sie diese Seite.</string>
     <string name="v7_preference_off">AUS</string>
@@ -2863,6 +2886,8 @@
     <string name="vibrating_for_outgoing_call_accepted_summary">Vibrationsmodus für ausgehenden angenommenen Anruf aktivieren</string>
     <string name="vibrating_for_outgoing_call_accepted_title">Vibration für ausgehenden angenommenen Anruf</string>
     <string name="vice_card_data_in_use_alert">Es können zusätzliche Datenkosten anfallen.</string>
+    <string name="vice_slot_volte_data_dialog_message"><Data>Anscheinend ist Ihre aktuelle Netzverbindung instabil. Sie können versuchen, automatisch zwischen Daten-SIM-Karten zu wechseln. &lt;font color=#ff0000>&lt;b>Die Nutzung dieser Funktion kann zusätzliche Kosten beim Anbieter verursachen.&lt;/b>&lt;/font>.</Data></string>
+    <string name="vice_slot_volte_data_dialog_open">Einschalten</string>
     <string name="vice_slot_volte_data_switch_prompt">Ihr Gerät verbindet sich mit einem mobilen Datennetz mit SIM2 während laufender VoLTE-Anrufe. Dadurch können zusätzliche Datenkosten entstehen. Wenden Sie sich an Ihren lokalen Mobilfunkanbieter, um Details zu Ihrem Datentarif zu erfahren.</string>
     <string name="vice_slot_volte_data_switch_summary">Während VoLTE-Anrufen verbindet sich das Gerät mit einem mobilen Datennetz mit SIM2.</string>
     <string name="vice_slot_volte_data_switch_title">Nutzung mobiler Daten bei VoLTE-Anrufen mit SIM2</string>
