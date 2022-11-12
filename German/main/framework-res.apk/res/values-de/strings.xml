@@ -1210,7 +1210,7 @@ Versuchen Sie es in %2$d Sekunden erneut."</string>
     <string name="permdesc_backgroundCamera">Diese App kann jederzeit Fotos und Videos mit der Kamera aufnehmen.</string>
     <string name="permdesc_bindCarrierMessagingService">Erlaubt dem Inhaber, sich an die Top-Level-Schnittstelle eines Mobilfunkanbieter-Nachrichtendienstes zu binden. Sollte nie für normale Apps benötigt werden.</string>
     <string name="permdesc_bindCarrierServices">Erlaubt dem Inhaber, sich an einen Mobilfunkanbieterdienst zu binden. Sollte für normale Apps eigentlich nicht notwendig sein.</string>
-    <string name="permdesc_bindCellBroadcastService">Erlaubt der App, sich an das Cell-Broadcast-Modul zu binden, um Cell-Broadcast-Meldungen weiterzuleiten, wenn sie empfangen werden. Cell-Broadcast-Warnungen werden an einigen Orten zugestellt, um Sie vor Notfallsituationen zu warnen. Bösartige Apps können die Leistung oder den Betrieb Ihres Geräts beeinträchtigen, wenn ein Cell-Broadcast-Notfall empfangen wird.</string>
+    <string name="permdesc_bindCellBroadcastService">Erlaubt der App, sich an das Cell Broadcast-Modul zu binden, um Cell Broadcast-Meldungen weiterzuleiten, wenn sie empfangen werden. Cell Broadcast-Warnungen werden an einigen Orten zugestellt, um Sie vor Notfallsituationen zu warnen. Bösartige Apps können die Leistung oder den Betrieb Ihres Geräts beeinträchtigen, wenn ein Cell Broadcast-Notfall empfangen wird.</string>
     <string name="permdesc_bindConditionProviderService">Erlaubt dem Inhaber, sich an die Oberfläche eines Bedingungsproviderdienstes auf oberster Ebene zu binden. Für normale Apps sollte dies nie erforderlich sein.</string>
     <string name="permdesc_bindDreamService">Erlaubt der App, sich an die Oberfläche eines Dream-Dienstes auf oberster Ebene zu binden. Für normale Apps sollte dies nie erforderlich sein.</string>
     <string name="permdesc_bindNotificationListenerService">Erlaubt dem Inhaber, sich an die Oberfläche der obersten Ebene eines Notification-Listener-Dienstes zu binden. Sollte nie für normale Apps benötigt werden.</string>
@@ -1268,7 +1268,7 @@ Versuchen Sie es in %2$d Sekunden erneut."</string>
     <string name="permdesc_queryAllPackages">Erlaubt einer App, alle installierten Pakete zu sehen</string>
     <string name="permdesc_readCalendar">Diese App kann alle auf Ihrem Telefon gespeicherten Kalendereinträge lesen und Ihre Kalenderdaten freigeben oder speichern.</string>
     <string name="permdesc_readCallLog">Diese App kann Ihre Anrufliste lesen.</string>
-    <string name="permdesc_readCellBroadcasts">Erlaubt der App, von Ihrem Gerät empfangene Notfallmeldungen zu lesen. Notfallbenachrichtigungen werden an einigen Standorten gesendet, um Sie über Notfallsituationen zu informieren. Schädliche Apps können die Leistung oder den Betrieb Ihres Geräts beeinträchtigen, wenn eine Notfallbenachrichtigung eingeht.</string>
+    <string name="permdesc_readCellBroadcasts">Erlaubt der App, von Ihrem Gerät empfangene Cell Broadcast-Meldungen zu lesen. Cell Broadcast-Benachrichtigungen werden an einigen Standorten gesendet, um Sie über Notfallsituationen zu informieren. Schädliche Apps können die Leistung oder den Betrieb Ihres Geräts beeinträchtigen, wenn eine Cell Broadcast-Benachrichtigung eingeht.</string>
     <string name="permdesc_readContacts">Erlaubt der App, Daten zu den auf Ihrem Telefon gespeicherten Kontakten zu lesen, inkl. der Häufigkeit, mit der Sie bestimmte Personen angerufen, diesen E-Mails gesendet oder anderweitig mit ihnen kommuniziert haben. Die Berechtigung erlaubt Apps, Ihre Kontaktdaten zu speichern, und schädliche Apps können Kontaktdaten ohne Ihr Wissen weiterleiten.</string>
     <string name="permdesc_readHistoryBookmarks">Erlaubt der App, den Verlauf aller mit dem Browser besuchten URLs und sämtliche Lesezeichen des Browsers zu lesen. Hinweis: Diese Berechtigung kann nicht von Browsern von Drittanbietern oder anderen Apps mit Internetfunktionen erzwungen werden.</string>
     <string name="permdesc_readInstallSessions">Erlaubt der App, Installationssitzungen zu lesen. Dadurch kann diese Details aktiver Paketinstallationen abrufen.</string>
@@ -1392,7 +1392,7 @@ für Konto %2$s."</string>
     <string name="permlab_backgroundCamera">Bilder und Videos im Hintergrund aufnehmen</string>
     <string name="permlab_bindCarrierMessagingService">An einen Mobilfunkanbieter-Nachrichtendienst binden</string>
     <string name="permlab_bindCarrierServices">An Mobilfunkanbieterdienste binden</string>
-    <string name="permlab_bindCellBroadcastService">Cell-Broadcast-Meldungen weiterleiten</string>
+    <string name="permlab_bindCellBroadcastService">Cell Broadcast-Meldungen weiterleiten</string>
     <string name="permlab_bindConditionProviderService">An ConditionProviderService binden</string>
     <string name="permlab_bindDreamService">An Dream-Service binden</string>
     <string name="permlab_bindNotificationListenerService">An Notification-Listener-Service binden</string>
@@ -1449,7 +1449,7 @@ für Konto %2$s."</string>
     <string name="permlab_queryAllPackages">Abfrage aller Pakete</string>
     <string name="permlab_readCalendar">Kalendereinträge und Details lesen</string>
     <string name="permlab_readCallLog">Anrufliste lesen</string>
-    <string name="permlab_readCellBroadcasts">Notfallmeldungen lesen</string>
+    <string name="permlab_readCellBroadcasts">Cell Broadcast-Meldungen lesen</string>
     <string name="permlab_readContacts">Kontakte lesen</string>
     <string name="permlab_readHistoryBookmarks">Lesezeichen für Webseiten und das Webprotokoll lesen</string>
     <string name="permlab_readInstallSessions">Installationssitzungen lesen</string>
