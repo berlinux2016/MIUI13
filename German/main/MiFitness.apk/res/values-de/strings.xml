@@ -1551,7 +1551,7 @@ Senden Sie diesen Code an den Supervisor."</string>
     <string name="get_permission_failed">Berechtigung erhalten fehlgeschlagen, zu Einstellungen - Berechtigungen gehen zum Öffnen</string>
     <string name="get_ph_ticket">Code erhalten</string>
     <string name="get_phone_bind_exceed_limit">Sie können bis zu 3 Mi-Konten mit einer Rufnummer verknüpfen. Neue Konten können nicht hinzugefügt werden.</string>
-    <string name="get_phone_verifycode_exceed_limit">Zu viele Bestätigungscodes wurden an diese Nummer gesendet. 24 Stunden warten und erneut versuchen.</string>
+    <string name="get_phone_verifycode_exceed_limit">Zu viele Verifizierungscodes wurden an diese Nummer gesendet. 24 Stunden warten und erneut versuchen.</string>
     <string name="get_test_key_duplicate_access_data">Doppelte Zugangsdaten</string>
     <string name="get_test_key_error_default">Standardfehler</string>
     <string name="get_test_key_invalid_access_data">Ungültige Zugangsdaten</string>
@@ -3079,11 +3079,11 @@ Dieser Schritt ist erforderlich, um mit Ihrem Gerät zu bezahlen."</string>
     <string name="passport_access_denied">Zugriff verweigert</string>
     <string name="passport_account_label">Xiaomi-Konto</string>
     <string name="passport_account_name">"Konto: %1$s "</string>
-    <string name="passport_activate_token_expired">Bestätigungscode abgelaufen. Erneut versuchen.</string>
+    <string name="passport_activate_token_expired">Verifizierungscode abgelaufen. Erneut versuchen.</string>
     <string name="passport_area_code_title">Vorwahl</string>
     <string name="passport_bad_authentication">Ungültiger Benutzername oder Passwort</string>
     <string name="passport_barcode_add_account_prompt">Zum Hinzufügen eines Kontos scannen Sie nach der Anmeldung erneut den QR-Code ein.</string>
-    <string name="passport_can_not_receive_verification_code">Bestätigungscode nicht erhalten?</string>
+    <string name="passport_can_not_receive_verification_code">Verifizierungscode nicht erhalten?</string>
     <string name="passport_checking_account">Passwort überprüfen…</string>
     <string name="passport_close">Schließen</string>
     <string name="passport_delete_account">Abmelden</string>
@@ -3097,7 +3097,7 @@ Dieser Schritt ist erforderlich, um mit Ihrem Gerät zu bezahlen."</string>
     <string name="passport_error_empty_email">Email-Adresse eingeben</string>
     <string name="passport_error_empty_phone_num">Rufnummer eingeben</string>
     <string name="passport_error_empty_pwd">Passwort darf nicht leer sein</string>
-    <string name="passport_error_empty_vcode">Bestätigungscode eingeben</string>
+    <string name="passport_error_empty_vcode">Verifizierungscode eingeben</string>
     <string name="passport_error_empty_voice_code">Captcha eingeben</string>
     <string name="passport_error_illegal_pwd">Ungültiges Passwort</string>
     <string name="passport_error_network">Netzwerkverbindung nicht möglich</string>
@@ -3110,11 +3110,11 @@ Dieser Schritt ist erforderlich, um mit Ihrem Gerät zu bezahlen."</string>
     <string name="passport_forget_password"><u>Passwort vergessen</u></string>
     <string name="passport_get_verify_code">Code erhalten</string>
     <string name="passport_getting_verify_code">Einen Moment…</string>
-    <string name="passport_identification_expired">Bestätigungscode abgelaufen. Neu beginnen.</string>
+    <string name="passport_identification_expired">Verifizierungscode abgelaufen. Neu beginnen.</string>
     <string name="passport_input_captcha_hint">Code eingeben</string>
     <string name="passport_input_password_hint">Passwort eingeben</string>
     <string name="passport_input_phone_hint">Rufnummer eingeben</string>
-    <string name="passport_input_vcode_hint">Bestätigungscode eingeben</string>
+    <string name="passport_input_vcode_hint">Verifizierungscode eingeben</string>
     <string name="passport_input_voice_captcha_hint">Sprachbestätigungscode eingeben</string>
     <string name="passport_input_voice_hint">Sprachcode eingeben</string>
     <string name="passport_international_phone_password_login_tip">(Benutzer außerhalb Chinas sollten die Mobilrufnummer im folgenden Format eingeben: +[Vorwahl][ Mobilrufnummer], z.B. +91 817282982)</string>
@@ -3133,8 +3133,8 @@ Dieser Schritt ist erforderlich, um mit Ihrem Gerät zu bezahlen."</string>
     <string name="passport_register_restricted">Mit dieser Nummer wurden zu viele Konten verknüpft. Eine andere versuchen.</string>
     <string name="passport_reload_ph_ticket">Erneut senden</string>
     <string name="passport_relogin_notice">Sie müssen sich erneut anmelden</string>
-    <string name="passport_send_too_many_code">Zu viele Bestätigungscodes wurden an diese Nummer gesendet. 24 Stunden warten und erneut versuchen.</string>
-    <string name="passport_send_too_many_sms">Zu viele Bestätigungscodes wurden an diese Nummer gesendet. 24 Stunden warten und erneut versuchen.</string>
+    <string name="passport_send_too_many_code">Zu viele Verifizierungscodes wurden an diese Nummer gesendet. 24 Stunden warten und erneut versuchen.</string>
+    <string name="passport_send_too_many_sms">Zu viele Verifizierungscodes wurden an diese Nummer gesendet. 24 Stunden warten und erneut versuchen.</string>
     <string name="passport_sending_vcode">Code senden…</string>
     <string name="passport_set_password">Passwort festlegen</string>
     <string name="passport_set_password_no_phone_msg">Zum Schutz Ihres Kontos Rufnummer hinzufügen</string>
@@ -3147,16 +3147,16 @@ Dieser Schritt ist erforderlich, um mit Ihrem Gerät zu bezahlen."</string>
     <string name="passport_talkback_voice_captcha">Sprachbestätigungscode abspielen</string>
     <string name="passport_timeout_network_error">Zeitüberschreitung der Netzwerkverbindung</string>
     <string name="passport_trust_device">Dies ist ein vertrauenswürdiges Gerät</string>
-    <string name="passport_trying_read_verify_code_sms">Bestätigungscode erhalten…</string>
+    <string name="passport_trying_read_verify_code_sms">Verifizierungscode erhalten…</string>
     <string name="passport_unknow_error">Ein unbekannter Fehler ist aufgetreten</string>
     <string name="passport_unknow_host_network_error">Netzwerkeinstellungen prüfen und erneut versuchen</string>
     <string name="passport_unknow_network_error">Ein Netzwerkfehler ist aufgetreten</string>
     <string name="passport_user_agreement_link">&lt;Data>Ich habe die &lt;a href=%1$s>Nutzungsbedingungen&lt;/a> und &lt;a href=%2$s>Datenschutzerklärung&lt;/a> von Xiaomi gelesen und akzeptiert.&lt;/Data></string>
     <string name="passport_user_agreement_link_more">&lt;Data>Ich habe die folgenden Dokumente gelesen und akzeptiert: &lt;a href=%1$s>Nutzungsbedingungen&lt;/a> und &lt;a href=%4$s>Datenschutzerklärung&lt;/a> von Xiaomi, &lt;a href=%2$s>%3$s&lt;/a>.&lt;/Data></string>
     <string name="passport_user_id_intro">Passwort für %1$s eingeben</string>
-    <string name="passport_v_code_error">Der Bestätigungscode ist falsch</string>
+    <string name="passport_v_code_error">Der Verifizierungscode ist falsch</string>
     <string name="passport_vcode_notification_title">Ihre Anmeldebestätigung ist unvollständig</string>
-    <string name="passport_vcode_prompt_long">Bestätigungscode eingeben</string>
+    <string name="passport_vcode_prompt_long">Verifizierungscode eingeben</string>
     <string name="passport_vcode_sms_send_prompt">Code an %s gesendet</string>
     <string name="passport_verification_failed">Bestätigung nicht möglich</string>
     <string name="passport_verify">Bestätigen</string>
@@ -3598,7 +3598,7 @@ Dieser Schritt ist erforderlich, um mit Ihrem Gerät zu bezahlen."</string>
     <string name="thursday">Donnerstag</string>
     <string name="thursday_short">Do</string>
     <string name="thursday_shortest">Do</string>
-    <string name="ticket_hint">Bestätigungscode</string>
+    <string name="ticket_hint">Verifizierungscode</string>
     <string name="ticket_invalid">Der eingegebene Code ist falsch</string>
     <string name="ticket_sign_in">Mit SMS anmelden</string>
     <string name="time_picker_dialog_title">Uhrzeit einstellen</string>
@@ -4114,7 +4114,7 @@ Wenn Sie Ihre Daten nicht teilen möchten, schalten Sie diese Funktion aus."</st
     <string name="userinfo_yes">Ja</string>
     <string name="v7_preference_off">AUS</string>
     <string name="v7_preference_on">AN</string>
-    <string name="v_code_title">Bestätigungscode eingeben</string>
+    <string name="v_code_title">Verifizierungscode eingeben</string>
     <string name="web_continue">Weiter</string>
     <string name="web_not_find_app">App wurde nicht gefunden</string>
     <string name="web_share_des">Eine Nachricht von einem Freund.</string>

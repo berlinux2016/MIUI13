@@ -53,7 +53,7 @@
     <string name="account_secure_info_pref_title">Kontodaten</string>
     <string name="account_security">Kontosicherheit</string>
     <string name="account_security_info_pref_title">Sicherheitsinfos</string>
-    <string name="account_token_expired_msg">"Verifikationscode abgelaufen, erneut versuchen oder abmelden.
+    <string name="account_token_expired_msg">"Verifizierungscode abgelaufen, erneut versuchen oder abmelden.
 Ihre Konto ID: %s"</string>
     <string name="account_token_expired_title">Authentifikation fehlgeschlagen</string>
     <string name="account_user_avatar">Profilfoto</string>
@@ -186,7 +186,7 @@ Ihre Konto ID: %s"</string>
     <string name="confirm_delete_browser_message">Wenn Sie diesen Browser entfernen, müssen Sie Ihre Rufnummer verifizieren, wenn Sie sich das nächste Mal an Ihrem Xiaomi-Konto anmelden</string>
     <string name="confirm_delete_device_message">Wenn Sie dieses Gerät entfernen, müssen Sie Ihre Rufnummer verifizieren, wenn Sie sich das nächste Mal an Ihrem Xiaomi-Konto anmelden</string>
     <string name="confirm_new_pwd">Neues Passwort bestätigen</string>
-    <string name="confirm_phone_number_dialog_message">Verifikationscode wird gesendet an: %s</string>
+    <string name="confirm_phone_number_dialog_message">Verifizierungscode wird gesendet an: %s</string>
     <string name="confirm_phone_number_dialog_title">Rufnummer bestätigen</string>
     <string name="confirm_unbind">Dieses Konto entfernen?</string>
     <string name="confirm_unbundled_phone_dialog_message">Diese Rufnummer war mit dem Xiaomi-Konto %2$s auf %1$s verbunden. Sie ist nicht mehr mit dem Xiaomi-Konto %3$s verbunden, wenn Sie fortfahren. Fortfahren?</string>
@@ -501,7 +501,7 @@ Senden Sie diesen Code an den Supervisor."</string>
     <string name="passport_error_empty_phone_num">Rufnummer eingeben</string>
     <string name="passport_error_empty_pwd">Passwort darf nicht leer sein</string>
     <string name="passport_error_empty_username">Geben Sie Ihre Konto-ID ein</string>
-    <string name="passport_error_empty_vcode">Geben Sie Ihren Verifikationscode ein</string>
+    <string name="passport_error_empty_vcode">Geben Sie Ihren Verifizierungscode ein</string>
     <string name="passport_error_empty_voice_code">Captcha eingeben</string>
     <string name="passport_error_illegal_pwd">Ungültiges Passwort</string>
     <string name="passport_error_invalid_dev_id">Ihre Geräte-ID ist ungültig</string>
@@ -537,7 +537,7 @@ Senden Sie diesen Code an den Supervisor."</string>
     <string name="passport_google_login_disagree">Xiaomi-Konto</string>
     <string name="passport_google_login_failed">Mit Google anmelden fehlgeschlagen. Direkt am Xiaomi-Konto anmelden.</string>
     <string name="passport_i_know">Fertig</string>
-    <string name="passport_identification_expired">Verifikationscode abgelaufen. Neu beginnen.</string>
+    <string name="passport_identification_expired">Verifizierungscode abgelaufen. Neu beginnen.</string>
     <string name="passport_imei_permission_denied_message">Wir brauchen die Berechtigung, um Ihre Geräte-IMEI abzurufen. Xiaomi-Konto benötigt die IMEI, um das Gerät zu identifizieren, auf dem Sie sich anmelden/angemeldet sind, um die Sicherheit Ihres Mi-Kontos zu gewährleisten.</string>
     <string name="passport_imei_permission_denied_title">IMEI-Berechtigung anfordern</string>
     <string name="passport_input_captcha_hint">Code eingeben</string>
@@ -545,7 +545,7 @@ Senden Sie diesen Code an den Supervisor."</string>
     <string name="passport_input_password_hint">Passwort eingeben</string>
     <string name="passport_input_phone_hint">Rufnummer eingeben</string>
     <string name="passport_input_phone_password">Passwort eingeben für %s</string>
-    <string name="passport_input_vcode_hint">Verifikationscode eingeben</string>
+    <string name="passport_input_vcode_hint">Verifizierungscode eingeben</string>
     <string name="passport_input_voice_captcha_hint">Sprachverifikationscode eingeben</string>
     <string name="passport_input_voice_hint">Sprachcode eingeben</string>
     <string name="passport_international_register_by_email">Erstellen Sie ein Konto mit einer E-Mail-Adresse.</string>
@@ -565,7 +565,7 @@ Senden Sie diesen Code an den Supervisor."</string>
     <string name="passport_login_recycle_account_yes">Ja</string>
     <string name="passport_login_title">Mit Xiaomi-Konto anmelden</string>
     <string name="passport_login_using_other_ways">Andere Anmeldemöglichkeiten</string>
-    <string name="passport_message_dialog_title">SMS mit Verifikationscodes</string>
+    <string name="passport_message_dialog_title">SMS mit Verifizierungscodes</string>
     <string name="passport_new_user_register">Konto erstellen</string>
     <string name="passport_next">Weiter</string>
     <string name="passport_no">Nein</string>
@@ -660,7 +660,7 @@ Senden Sie diesen Code an den Supervisor."</string>
     <string name="passport_ticket_login_select_sim_card_cancel">Abbrechen</string>
     <string name="passport_title_reg">Konto erstellen</string>
     <string name="passport_trust_device">Dies ist ein vertrauenswürdiges Gerät</string>
-    <string name="passport_trying_read_verify_code_sms">Verifikationscode erhalten…</string>
+    <string name="passport_trying_read_verify_code_sms">Verifizierungscode erhalten…</string>
     <string name="passport_tz_invalid">Sicherheitsrisiken gefunden. Dieses Gerät wurde evtl. gerootet oder geflasht. Andere Anmeldemöglichkeiten versuchen.</string>
     <string name="passport_uplink_reg">Rufnummer verwenden</string>
     <string name="passport_uplink_send_sms_hint">Tippen Sie auf \"Senden\", wenn Sie auf die Seite mit einer verfassten Nachricht umgeleitet wurden.</string>
@@ -685,8 +685,8 @@ Senden Sie diesen Code an den Supervisor."</string>
     <string name="passport_user_reg_region">Land/Region</string>
     <string name="passport_user_reg_region_warning">Sie können Ihr Land/Ihre Region nicht mehr ändern, sobald das Konto erstellt wurde</string>
     <string name="passport_vcode_notification_title">Ihre Anmeldebestätigung ist unvollständig</string>
-    <string name="passport_vcode_prompt_long">Verifikationscode eingeben</string>
-    <string name="passport_vcode_sms_send_prompt">Verifikationscode an %s senden</string>
+    <string name="passport_vcode_prompt_long">Verifizierungscode eingeben</string>
+    <string name="passport_vcode_sms_send_prompt">Verifizierungscode an %s senden</string>
     <string name="passport_vcode_what_app_send_prompt">Ihr WhatsApp-Verifizierungscode wird an Ihr Wiederherstellungstelefon gesendet &lt;font color=#1F93FF>%s&lt;/font></string>
     <string name="passport_verification_failed">Authentifizierung fehlgeschlagen</string>
     <string name="passport_verify">Verifizieren</string>
@@ -724,9 +724,9 @@ Senden Sie diesen Code an den Supervisor."</string>
     <string name="provision_back">Zurück</string>
     <string name="provision_next">Weiter</string>
     <string name="provision_skip_underline">Überspringen</string>
-    <string name="push_notification_content">Verifikationscode senden</string>
+    <string name="push_notification_content">Verifizierungscode senden</string>
     <string name="push_notification_title">Sie haben sich von einem unbekannten Gerät angemeldet</string>
-    <string name="push_notify_dialog_message">Ein unbekanntes Gerät wird verwendet, um sich bei Ihrem Xiaomi-Konto anzumelden. Geben Sie diesen Verifizierungscode auf dem Gerät ein. Wenn Sie das nicht waren, ändern Sie Ihr sofort Xiaomi-Konto Passwort. Geben Sie den Bestätigungscode nicht an andere weiter.</string>
+    <string name="push_notify_dialog_message">Ein unbekanntes Gerät wird verwendet, um sich bei Ihrem Xiaomi-Konto anzumelden. Geben Sie diesen Verifizierungscode auf dem Gerät ein. Wenn Sie das nicht waren, ändern Sie Ihr sofort Xiaomi-Konto Passwort. Geben Sie den Verifizierungscode nicht an andere weiter.</string>
     <string name="push_notify_dialog_title">Kontoverifizierung</string>
     <string name="pwd_width_phone_number_or_mail_num">Passwort darf nicht Ihre Rufnummer, E-Mail-Adresse oder Xiaomi-Konto-ID enthalten!</string>
     <string name="recycle_phone_notification_msg">Ihre Rufnummer wurde anscheinend wiederhergestellt. Tippen zum Aktualisieren.</string>
