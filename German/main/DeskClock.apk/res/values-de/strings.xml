@@ -154,11 +154,11 @@
     <string name="dialog_message_negative">Nicht zustimmen</string>
     <string name="dialog_message_not_remind">Nicht mehr anzeigen</string>
     <string name="dialog_net_permission_in_repeat_type"><Data>Diese Funktion muss mit dem Internet verbunden sein, um normal zu funktionieren. Bevor Sie diese Funktion nutzen können, müssen Sie unsere &lt;a href=\"%1$s\">Nutzervereinbarung&lt;/a> und &lt;a href=\"%2$s\">Datenschutzerklärung&lt;/a> akzeptieren. Zustimmen?</Data></string>
-    <string name="dialog_privacy_content">Um relevante Informationen über lokale Feiertage zu erhalten und zu synchronisieren und personalisierte Dienste anzubieten, muss die Uhr eine Verbindung zum Internet herstellen. Bevor Sie diese benutzen, müssen Sie auch unsere %1$s und %2$s lesen und akzeptieren. Zustimmen?</string>
-    <string name="dialog_privacy_content_global">Um personalisierte Dienste anbieten zu können, muss die Uhr eine Verbindung zum Internet herstellen. Bevor Sie die Uhr benutzen, müssen Sie auch unsere %1$s und %2$s lesen und akzeptieren. Zustimmen?</string>
-    <string name="dialog_privacy_content_news">Um personalisierte Dienste anbieten zu können und Morgennachrichten in Ihre Wecker aufzunehmen, muss sich die Uhr mit dem Internet verbinden. Bevor Sie die Uhr benutzen, müssen Sie auch unsere %1$s und %2$s lesen und akzeptieren. Zustimmen?</string>
-    <string name="dialog_privacy_content_timer">Um Audiodateien/Umgebungsgeräusche für Timer herunterzuladen und personalisierte Dienste anbieten zu können, muss die Uhr eine Verbindung zum Internet herstellen. Bevor Sie die Uhr benutzen, müssen Sie auch unsere %1$s und %2$s lesen und akzeptieren. Zustimmen?</string>
-    <string name="dialog_privacy_content_timer_data">Um Audiodateien/Umgebungsgeräusche für Timer (≈20 MB) herunterlzuaden und personalisierte Dienste anbieten zu können, muss die Uhr eine Verbindung zum Internet herstellen. Bevor Sie die Uhr benutzen, müssen Sie auch unsere %1$s und %2$s lesen und akzeptieren. Sie benutzen jetzt mobile Daten. Zustimmen?</string>
+    <string name="dialog_privacy_content">Um relevante Informationen über lokale Feiertage zu erhalten und zu synchronisieren und personalisierte Dienste anzubieten, muss die Uhr eine Verbindung zum Internet herstellen. Bevor Sie diese verwenden, müssen Sie auch unsere %1$s und %2$s lesen und akzeptieren. Zustimmen?</string>
+    <string name="dialog_privacy_content_global">Um personalisierte Dienste anzubieten, muss die Uhr eine Verbindung zum Internet herstellen. Bevor Sie die Uhr verwenden, müssen Sie auch unsere %1$s und %2$s lesen und akzeptieren. Zustimmen?</string>
+    <string name="dialog_privacy_content_news">Um personalisierte Dienste anzubieten und Morgennachrichten in Ihre Wecker aufzunehmen, muss sich die Uhr mit dem Internet verbinden. Bevor Sie die Uhr verwenden, müssen Sie auch unsere %1$s und %2$s lesen und akzeptieren. Zustimmen?</string>
+    <string name="dialog_privacy_content_timer">Um Audiodateien/Umgebungsgeräusche für Timer herunterzuladen und personalisierte Dienste anzubieten, muss die Uhr eine Verbindung zum Internet herstellen. Bevor Sie die Uhr verwenden, müssen Sie auch unsere %1$s und %2$s lesen und akzeptieren. Zustimmen?</string>
+    <string name="dialog_privacy_content_timer_data">Um Audiodateien/Umgebungsgeräusche für Timer (≈20 MB) herunterlzuaden und personalisierte Dienste anzubieten, muss die Uhr eine Verbindung zum Internet herstellen. Bevor Sie die Uhr verwenden, müssen Sie auch unsere %1$s und %2$s lesen und akzeptieren. Sie verwenden jetzt mobile Daten. Zustimmen?</string>
     <string name="disagree">Ablehnen</string>
     <string name="done">Fertig</string>
     <string name="dynamic_alarm_speech">Smarter Wecker</string>
@@ -259,8 +259,8 @@
     <string name="life_post_wake_up_time_title">Weckzeit</string>
     <string name="life_post_weather_invalid">Tippen, um Wetterdaten zu erhalten</string>
     <string name="life_post_weather_no_network">Mit Netzwerk verbinden, um Wetterinformationen zu aktualisieren</string>
-    <string name="listen_news_msg">Die Uhr muss mit dem Internet verbunden sein, um den morgendlichen Nachrichtendienst anbieten zu können. Sind Sie damit einverstanden?</string>
-    <string name="listen_news_privacy"><Data>Um personalisierte Dienste anbieten zu können und Morgennachrichten in Ihre Wecker aufzunehmen, braucht die Uhr eine Internetverbindung. Vor Nutzung der Uhr müssen Sie auch unsere &lt;a href=\"%1$s\">Nutzervereinbarung&lt;/a> und &lt;a href=\"%2$s\">Datenschutzerklärung&lt;/a> lesen und akzeptieren. Zustimmen?</Data></string>
+    <string name="listen_news_msg">Die Uhr muss mit dem Internet verbunden sein, um den morgendlichen Nachrichtendienst anzubieten. Sind Sie damit einverstanden?</string>
+    <string name="listen_news_privacy"><Data>Um personalisierte Dienste anzubieten und Morgennachrichten in Ihre Wecker aufzunehmen, braucht die Uhr eine Internetverbindung. Vor Nutzung der Uhr müssen Sie auch unsere &lt;a href=\"%1$s\">Nutzervereinbarung&lt;/a> und &lt;a href=\"%2$s\">Datenschutzerklärung&lt;/a> lesen und akzeptieren. Zustimmen?</Data></string>
     <string name="loading_ringtone">Klingelton laden…</string>
     <string name="menu_add_worldclock">Neue Weltzeit</string>
     <string name="menu_desk_clock">Schreibtischuhr</string>
@@ -335,9 +335,9 @@
     <string name="module_week_ringtone_update_data">Naturwecker spielt je nach Datum unterschiedliche Töne ab. Uhr muss ≈30MB an Audio herunterladen, damit es funktioniert. Jetzt herunterladen?</string>
     <string name="module_week_ringtone_update_success">Naturwecker spielt je nach Datum unterschiedliche Töne ab. Sie können einen neuen Wecker erstellen, um diese Funktion auszuprobieren.</string>
     <string name="module_white_noise_download_data">Uhr muss Audiodateien für Umgebungsgeräusch-Timer herunterladen. ≈30 MB Ihrer mobilen Daten werden für diesen Download benötigt. Jetzt herunterladen?</string>
-    <string name="module_white_noise_download_data_privacy">&lt;Data&gt;Um Audiodateien für Umgebungsgeräusch-Timer (&amp;#8776;30 MB) herunterladen und personalisierte Dienste anbieten zu können, braucht die Uhr eine Internetverbindung. Vor Nutzung der Uhr müssen Sie auch unsere &amp;lt;a href=\"%1$s\"&amp;gt;Nutzervereinbarung&amp;lt;/a&amp;gt; und &amp;lt;a href=\"%2$s\"&amp;gt;Datenschutzerklärung&amp;lt;/a&amp;gt; lesen und akzeptieren. Sie nutzen jetzt mobile Daten. Zustimmen?&lt;/Data&gt;</string>
+    <string name="module_white_noise_download_data_privacy">&lt;Data&gt;Um Audiodateien für Umgebungsgeräusch-Timer (&amp;#8776;30 MB) herunterladen und personalisierte Dienste anzubieten, braucht die Uhr eine Internetverbindung. Vor Nutzung der Uhr müssen Sie auch unsere &amp;lt;a href=\"%1$s\"&amp;gt;Nutzervereinbarung&amp;lt;/a&amp;gt; und &amp;lt;a href=\"%2$s\"&amp;gt;Datenschutzerklärung&amp;lt;/a&amp;gt; lesen und akzeptieren. Sie nutzen jetzt mobile Daten. Zustimmen?&lt;/Data&gt;</string>
     <string name="module_white_noise_download_wifi">Die Uhr muss Audiodateien für Umgebungsgeräusch-Timer herunterladen. Jetzt herunterladen?</string>
-    <string name="module_white_noise_download_wifi_privacy">&lt;Data&gt;Um Audiodateien für Umgebungsgeräusch-Timer herunterladen und personalisierte Dienste anbieten zu können, braucht die Uhr eine Internetverbindung. Vor Nutzung der Uhr müssen Sie auch unsere &amp;lt;a href=\"%1$s\"&amp;gt;Nutzervereinbarung&amp;lt;/a&amp;gt; und &amp;lt;a href=\"%2$s\"&amp;gt;Datenschutzerklärung&amp;lt;/a&amp;gt; lesen und akzeptieren. Zustimmen?&lt;/Data&gt;</string>
+    <string name="module_white_noise_download_wifi_privacy">&lt;Data&gt;Um Audiodateien für Umgebungsgeräusch-Timer herunterladen und personalisierte Dienste anzubieten, braucht die Uhr eine Internetverbindung. Vor Nutzung der Uhr müssen Sie auch unsere &amp;lt;a href=\"%1$s\"&amp;gt;Nutzervereinbarung&amp;lt;/a&amp;gt; und &amp;lt;a href=\"%2$s\"&amp;gt;Datenschutzerklärung&amp;lt;/a&amp;gt; lesen und akzeptieren. Zustimmen?&lt;/Data&gt;</string>
     <string name="monday">Montag</string>
     <string name="monday_short">Mo</string>
     <string name="monday_shortest">M</string>
@@ -374,7 +374,7 @@
     <string name="net_permission_cancel">Nicht zustimmen</string>
     <string name="net_permission_ok">Zustimmen</string>
     <string name="network_privacy"><Data>Um relevante Infos über lokale Feiertage zu erhalten und Wecker einzustellen, braucht die Uhr eine Internetverbindung. Vor Nutzung der Uhr müssen Sie auch unsere &lt;a href=\"%1$s\">Nutzervereinbarung&lt;/a> und &lt;a href=\"%2$s\">Datenschutzerklärung&lt;/a> lesen und akzeptieren. Zustimmen?</Data></string>
-    <string name="network_privacy_global"><Data>Um personalisierte Dienste anbieten zu können, braucht die Uhr eine Internetverbindung. Vor Nutzung der Uhr müssen Sie auch unsere &lt;a href=\"1$s\">Nutzervereinbarung&lt;/a> und &lt;a href=\"%2$s\">Datenschutzerklärung&lt;/a> lesen und akzeptieren. Zustimmen?</Data></string>
+    <string name="network_privacy_global"><Data>Um personalisierte Dienste anzubieten, braucht die Uhr eine Internetverbindung. Vor Nutzung der Uhr müssen Sie auch unsere &lt;a href=\"1$s\">Nutzervereinbarung&lt;/a> und &lt;a href=\"%2$s\">Datenschutzerklärung&lt;/a> lesen und akzeptieren. Zustimmen?</Data></string>
     <string name="never">Einmalig</string>
     <string name="new_label">Alarmbezeichnung hinzufügen</string>
     <string name="night">Abend</string>

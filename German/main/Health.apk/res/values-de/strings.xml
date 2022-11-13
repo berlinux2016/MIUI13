@@ -74,7 +74,7 @@
     <string name="audio_record_perm_description">Schnarchen und Träumen im Schlaf aufnehmen</string>
     <string name="audio_record_permission_description">Zur Aufnahme von Sprechen und Schnarchen während der Schlafzyklusanalyse</string>
     <string name="auth_description">%1$s erlauben, Daten von den folgenden Geräten zu synchronisieren</string>
-    <string name="auth_dialog_description">Empfehlungen einschalten?\n\nUm Ihnen Empfehlungen geben zu können, werden wir Ihre Gesundheitsdaten an einen Drittdienstleister weitergeben. Zu den Elementen, die wir weitergeben werden, gehören persönliche Informationen (Alter, Geschlecht), Gesundheitsstatistiken (Größe, Gewicht, Workout-Routine), Verhaltensdaten (Start- und Endzeit sowie die Dauer Ihres Workouts).\n\nWir anonymisieren diese Elemente, bevor wir sie weitergeben, um zu verhindern, dass Drittdienstleister Sie anhand der erhaltenen Daten persönlich identifizieren können.\n\nWenn Sie keinen Zugang zu den empfohlenen Kursen erhalten möchten, können Sie immer noch die regulären Workouts verwenden.</string>
+    <string name="auth_dialog_description">Empfehlungen einschalten?\n\nUm Ihnen Empfehlungen zu geben, werden wir Ihre Gesundheitsdaten an einen Drittdienstleister weitergeben. Zu den Elementen, die wir weitergeben werden, gehören persönliche Informationen (Alter, Geschlecht), Gesundheitsstatistiken (Größe, Gewicht, Workout-Routine), Verhaltensdaten (Start- und Endzeit sowie die Dauer Ihres Workouts).\n\nWir anonymisieren diese Elemente, bevor wir sie weitergeben, um zu verhindern, dass Drittdienstleister Sie anhand der erhaltenen Daten persönlich identifizieren können.\n\nWenn Sie keinen Zugang zu den empfohlenen Kursen erhalten möchten, können Sie immer noch die regulären Workouts verwenden.</string>
     <string name="auth_dialog_link">Um Ihre Rechte als Benutzer sowie die Art und Weise, in der wir Ihre Daten verwenden, vollständig zu verstehen, lesen Sie unsere &lt;font color=\"#0D84FF\">&lt;a href=%1$s>Nutzervereinbarung&lt;/a>&lt;/font> und &lt;font color=\"#0D84FF\">&lt;a href=%2$s>Datenschutzerklärung&lt;/a>&lt;/font>.</string>
     <string name="auth_dialog_title">Empfohlene Kurse</string>
     <string name="auto_start_fail">Berechtigung wurde nicht erteilt</string>
@@ -610,7 +610,7 @@
     <string name="hr_disable_in_split_screen">Herzfrequenz messen nicht möglich, wenn geteilter Bildschirm verwendet wird</string>
     <string name="hr_disturb_detect">Messung unterbrochen</string>
     <string name="hr_disturb_detect_desc">Neu anfangen. Versuchen Sie, den Finger während der Messung nicht zu bewegen.</string>
-    <string name="hr_finger_permission_desc">Um Ihre Herzfrequenz zu messen, muss diese Funktion auf einen Fingerabdruck-Scanner zugreifen, um Veränderungen in Ihrem Blutfluss erkennen zu können. Erlauben?</string>
+    <string name="hr_finger_permission_desc">Um Ihre Herzfrequenz zu messen, muss diese Funktion auf einen Fingerabdruck-Scanner zugreifen, um Veränderungen in Ihrem Blutfluss zu erkennen. Erlauben?</string>
     <string name="hr_fp_area">Fingerscanner</string>
     <string name="hr_fp_detect_desc">Mit jedem Herzschlag fließt Blut zu Ihren Fingern. Helles Licht im Bereich des Fingerabdruckscanners unter dem Bildschirm erlaubt es uns, Veränderungen in Ihrem Blutfluss zu verfolgen,  Muster zu analysieren und in Herzfrequenzwerte umzuwandeln.</string>
     <string name="hr_fp_detect_principle_desc">Blut ist nicht völlig undurchsichtig, daher kann Licht hindurchtreten. Bei jedem Herzschlag strömt Blut zu den Fingern und blockiert mehr Licht als zwischen den Herzschlägen. Helles Licht im Bereich des Fingerabdruck-Scanners unter dem Bildschirm erlaubt es uns, die Veränderungen in Ihrem Blutfluss zu verfolgen, die Muster zu analysieren und sie in Herzfrequenzwerte umzuwandeln.</string>
@@ -624,7 +624,7 @@
     <string name="hr_in_detect">Pulsmessung, bewegen Sie Ihren Finger nicht.</string>
     <string name="hr_input_heart_rate">Puls aufnehmen</string>
     <string name="hr_measure_heart_rate">Maßnahme</string>
-    <string name="hr_open_permission_desc">Xiaomi Health muss auf die Kamera Ihres Telefons zugreifen, um den Puls messen zu können. Zulassen?</string>
+    <string name="hr_open_permission_desc">Xiaomi Health muss auf die Kamera Ihres Telefons zugreifen, um den Puls zu messen. Zulassen?</string>
     <string name="hr_open_permission_title">Benötigte Berechtigungen</string>
     <string name="hr_phone_detect_records">Verlauf der Telefonmessungen</string>
     <string name="hr_pre_detect">Vollständige Abdeckung von Blitz und Kamera\nmit einem Finger</string>
@@ -718,13 +718,13 @@
     <string name="load_failed">Elemente wurden nicht geladen. Etwas warten und erneut versuchen.</string>
     <string name="loading">Einen Moment…</string>
     <string name="location_perm_description">Zur Verfolgung von Outdoor-Training und Aufnahme von Routen</string>
-    <string name="location_permission_dialog_content">Erlauben Sie Xiaomi Health den Zugriff auf Ihren Standort in \"Xiaomi Health\" &gt; \"Berechtigungen verwalten\", um Ihre Workouts im Freien verfolgen zu können.</string>
+    <string name="location_permission_dialog_content">Erlauben Sie Xiaomi Health den Zugriff auf Ihren Standort in \"Xiaomi Health\" &gt; \"Berechtigungen verwalten\", um Ihre Workouts im Freien zu verfolgen.</string>
     <string name="location_permission_dialog_negative">Jetzt nicht</string>
     <string name="location_permission_dialog_positive">Erlauben</string>
     <string name="location_permission_dialog_title">Standortberechtigung erforderlich</string>
     <string name="location_permission_subtitle">Zur Aufnahme von Outdoor-Trainings und Routen</string>
     <string name="location_permission_title">Standortzugriff</string>
-    <string name="location_service_dialog_content">Schalten Sie in den Einstellungen die Standortdienste ein, um Ihre Workouts im Freien verfolgen zu können.</string>
+    <string name="location_service_dialog_content">Schalten Sie in den Einstellungen die Standortdienste ein, um Ihre Workouts im Freien zu verfolgen.</string>
     <string name="location_service_dialog_negative">Jetzt nicht</string>
     <string name="location_service_dialog_positive">Einschalten</string>
     <string name="location_service_dialog_title">Standortdienste sind aus</string>
@@ -784,7 +784,7 @@
     <string name="measure_date">Messdauer</string>
     <string name="measure_time">Messzeit</string>
     <string name="medical_file_desc1">Wichtige medizinische Informationen, die im Notfall unerlässlich sind</string>
-    <string name="medical_file_desc2">Zeichnen Sie die grundlegenden Informationen über Ihren Gesundheitszustand auf, um sie im Notfall dem Erste-Hilfe-Personal zeigen zu können.</string>
+    <string name="medical_file_desc2">Zeichnen Sie die grundlegenden Informationen über Ihren Gesundheitszustand auf, um sie im Notfall dem Erste-Hilfe-Personal anzuzeigen.</string>
     <string name="medical_file_desc3">Xiaomi Health respektiert Ihre Privatsphäre und wird alle Informationen lokal speichern, ohne sie an anderer Stelle zu sammeln, zu speichern oder hochzuladen.</string>
     <string name="medical_first_aid_files">Medizinischer Notfallausweis</string>
     <string name="medication_and_treatment">Medikamente und laufende Behandlung</string>
@@ -1360,7 +1360,7 @@
     <string name="splash_header_title">Globale Gesundheitsbehörden sagen:</string>
     <string name="splash_next_btn">Basisinfos eingeben</string>
     <string name="splash_title">In Xiaomi Health können Sie Ihre Aktivitätsziele setzen\nund Sie werden basierend\nauf Ihren persönlichen Daten beraten.</string>
-    <string name="sport_audio_permission_dialog_content">Diese App benötigt Berechtigungen zur Audioaufnahme, um Trainings auf Basis der von Ihnen produzierten Geräusche verfolgen zu können.</string>
+    <string name="sport_audio_permission_dialog_content">Diese App benötigt Berechtigungen zur Audioaufnahme, um Trainings auf Basis der von Ihnen produzierten Geräusche zu verfolgen.</string>
     <string name="sport_audio_permission_dialog_desc">Zum Verfolgen von Trainings auf Basis der von Ihnen produzierten Geräusche</string>
     <string name="sport_audio_permission_dialog_title">Berechtigungen erforderlich</string>
     <string name="sport_btn_continue">Fortsetzen</string>
