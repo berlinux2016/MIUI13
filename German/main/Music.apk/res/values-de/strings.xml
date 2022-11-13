@@ -1770,7 +1770,7 @@
     <string name="passport_activate_token_expired">Verifizierungscode abgelaufen. Erneut versuchen.</string>
     <string name="passport_area_code_title">Ländervorwahl</string>
     <string name="passport_bad_authentication">Benutzername oder Passwort ungültig</string>
-    <string name="passport_barcode_add_account_prompt">Um ein Konto hinzuzufügen, scannen Sie den QR-Code nach der Anmeldung erneut.</string>
+    <string name="passport_barcode_add_account_prompt">Um ein Konto hinzuzufügen, scannen Sie den QR-Code nach dem Anmelden erneut.</string>
     <string name="passport_can_not_receive_verification_code">Verifizierungscode nicht erhalten?</string>
     <string name="passport_can_not_recevie_verify_code">Keinen Code erhalten?</string>
     <string name="passport_checking_account">Passwort prüfen…</string>
@@ -1782,11 +1782,11 @@
     <string name="passport_dialog_doing_login">Anmelden…</string>
     <string name="passport_dialog_doing_register">Konto erstellen…</string>
     <string name="passport_dialog_is_my_account">Ja</string>
-    <string name="passport_dialog_is_your_mi_account">Ist dies Ihr Xiaomi-Konto?</string>
+    <string name="passport_dialog_is_your_mi_account">Ist das Ihr Xiaomi-Konto?</string>
     <string name="passport_dialog_loading">Einen Moment…</string>
     <string name="passport_dialog_nick_name_prefix">Spitzname: %s</string>
     <string name="passport_dialog_phone_number_prefix">Rufnummer: %s</string>
-    <string name="passport_dialog_register_other">Nein, ich werde eins erstellen</string>
+    <string name="passport_dialog_register_other">Nein, ich erstelle eins</string>
     <string name="passport_email">E-Mail-Adresse</string>
     <string name="passport_empty_password">Passwort darf nicht leer sein</string>
     <string name="passport_empty_user_name">Benutzername darf nicht leer sein</string>
@@ -1805,21 +1805,21 @@
     <string name="passport_error_illegal_pwd">Passwort ungültig</string>
     <string name="passport_error_length_limit">Eingegebener Text ist zu lang</string>
     <string name="passport_error_network">Netzwerkverbindung nicht möglich</string>
-    <string name="passport_error_no_password_user">Sie haben noch kein Passwort festgelegt. Mit SMS anmelden.</string>
-    <string name="passport_error_phone">Ungültige Rufnummer</string>
+    <string name="passport_error_no_password_user">Passwort wurde noch nicht festgelegt. Mit SMS anmelden.</string>
+    <string name="passport_error_phone">Rufnummer ungültig</string>
     <string name="passport_error_phone_error">Rufnummer ungültig</string>
     <string name="passport_error_server">Serverfehler</string>
     <string name="passport_error_sms_limit">Zu viele Verifizierungscodes wurden an diese Nummer gesendet. Später erneut versuchen.</string>
     <string name="passport_error_ticket_invalid">Dieser Code ist falsch</string>
-    <string name="passport_error_timeout_network_error">Zeitüberschreitung bei der Anfrage</string>
+    <string name="passport_error_timeout_network_error">Zeitüberschreitung Anfrage</string>
     <string name="passport_error_token_expired">Code abgelaufen. Erneut versuchen.</string>
     <string name="passport_error_unknow_error">Ein Fehler ist aufgetreten</string>
     <string name="passport_error_unknow_host_network_error">Netzwerkverbindung nicht möglich</string>
     <string name="passport_error_unknow_network_error">Ein Netzwerkfehler ist aufgetreten</string>
     <string name="passport_error_unknown">Unbekannter Fehler</string>
     <string name="passport_error_user_agreement">Erst unserer Nutzervereinbarung zustimmen</string>
-    <string name="passport_error_user_agreement_error">Akzeptieren Sie zuerst die allgemeinen Geschäftsbedingungen</string>
-    <string name="passport_error_user_name">Der eingegebene Benutzername ist ungültig</string>
+    <string name="passport_error_user_agreement_error">Erst den allgemeinen Geschäftsbedingungen zustimmen</string>
+    <string name="passport_error_user_name">Eingegebener Benutzername ist ungültig</string>
     <string name="passport_error_user_password">Passwörter stimmen nicht überein</string>
     <string name="passport_forget_password"><u>Passwort vergessen</u></string>
     <string name="passport_get_login_type_next">Weiter</string>
@@ -1844,7 +1844,7 @@
     <string name="passport_network_error_hint">URL prüfen und erneut versuchen, oder URL kopieren und in Ihrem Browser öffnen.</string>
     <string name="passport_next">Weiter</string>
     <string name="passport_next_step">WEITER</string>
-    <string name="passport_page_load_failed">Seite öffenen nicht möglich</string>
+    <string name="passport_page_load_failed">Seite öffnen nicht möglich</string>
     <string name="passport_password_login_btn">Anmelden</string>
     <string name="passport_password_not_show">Passwort nicht anzeigen</string>
     <string name="passport_password_req_notice">Passwort muss 8-16 Zeichen lang sein und mind. zwei der folgenden Elemente enthalten: Ziffern, Buchstaben und Sonderzeichen (z. B. 123abc@#, oder 123abc, oder abc@#).</string>
@@ -1866,7 +1866,7 @@
     <string name="passport_send_too_many_sms">Zu viele Verifizierungscodes wurden an diese Nummer gesendet. 24 Stunden warten und erneut versuchen.</string>
     <string name="passport_sending_vcode">Code senden…</string>
     <string name="passport_set_password">Passwort festlegen</string>
-    <string name="passport_set_password_no_phone_msg">Add your phone number to protect your account.</string>
+    <string name="passport_set_password_no_phone_msg">Rufnummer hinzufügen, um Ihr Konto zu schützen</string>
     <string name="passport_sign_in">Anmelden</string>
     <string name="passport_sign_in_or_sign_up">Anmelden/Konto erstellen</string>
     <string name="passport_sms_phone_intro">Code an %1$s gesendet</string>
@@ -1875,17 +1875,17 @@
     <string name="passport_talkback_switch_voice_captcha">Zum Sprachverifizierungscode wechseln</string>
     <string name="passport_talkback_voice_captcha">Sprachverifizierungscode abspielen</string>
     <string name="passport_ticket_send_by_second">In %d senden</string>
-    <string name="passport_timeout_network_error">Zeitüberschreitung bei Netzwerkanfrage</string>
+    <string name="passport_timeout_network_error">Zeitüberschreitung Netzwerkanfrage</string>
     <string name="passport_to_forget_password">Passwort vergessen?</string>
     <string name="passport_to_password_login">Mit Passwort anmelden</string>
-    <string name="passport_to_verify_code_login">Per SMS anmelden</string>
+    <string name="passport_to_verify_code_login">Mit SMS anmelden</string>
     <string name="passport_trust_device">Dies ist ein vertrauenswürdiges Gerät</string>
     <string name="passport_trying_read_verify_code_sms">Verifizierungscode abrufen…</string>
     <string name="passport_unknow_error">Ein unbekannter Fehler ist aufgetreten</string>
     <string name="passport_unknow_host_network_error">Netzwerkeinstellungen prüfen und erneut versuchen</string>
     <string name="passport_unknow_network_error">Ein Netzwerkfehler ist aufgetreten</string>
     <string name="passport_user_agreement_link">"&lt;Data>Ich habe die Xiaomi &lt;a href=%1$s>Nutzervereinbarung&lt;/a> und &lt;a href=%2$s>Datenschutzerklärung gelesen und akzeptiert&lt;/a>.&lt;/Data>"</string>
-    <string name="passport_user_agreement_link_more">"&lt;Data>Ich habe die folgenden Dokumente gelesen und akzeptiert: Xiaomi &lt;a href=%1$s>Nutzervereinbarung&lt;/a> und &lt;a href=%4$s>Datenschutzerklärung&lt;/a>, &lt;a href=%2$s>%3$s&lt;/a>.&lt;/Data>"</string>
+    <string name="passport_user_agreement_link_more">"&lt;Data>Ich habe folgende Dokumente gelesen und akzeptiert: Xiaomi &lt;a href=%1$s>Nutzervereinbarung&lt;/a> und &lt;a href=%4$s>Datenschutzerklärung&lt;/a>, &lt;a href=%2$s>%3$s&lt;/a>.&lt;/Data>"</string>
     <string name="passport_user_id_hint">E-Mail/Rufnummer/Xiaomi-Konto-ID</string>
     <string name="passport_user_id_intro">Passwort für %1$s eingeben</string>
     <string name="passport_user_password_hint">Passwort</string>
@@ -1896,10 +1896,10 @@
     <string name="passport_verification_failed">Verifizierung nicht möglich</string>
     <string name="passport_verify">Verifizieren</string>
     <string name="passport_wechat_not_install">Erst WeChat installieren</string>
-    <string name="passport_wrong_captcha">Der eingegebene Code ist falsch</string>
-    <string name="passport_wrong_phone_number_format">Das Format der eingegebenen Rufnummer ist ungültig</string>
-    <string name="passport_wrong_vcode">Der eingegebene Code ist falsch</string>
-    <string name="passport_wrong_voice">Der eingegebene Code ist falsch</string>
+    <string name="passport_wrong_captcha">Eingegebener Code ist falsch</string>
+    <string name="passport_wrong_phone_number_format">Format der eingegebenen Rufnummer ist ungültig</string>
+    <string name="passport_wrong_vcode">Eingegebener Code ist falsch</string>
+    <string name="passport_wrong_voice">Eingegebener Code ist falsch</string>
     <string name="password_button_complete">Fertig</string>
     <string name="password_hint_creat">Passwort erstellen</string>
     <string name="password_hint_creat2">Passwort eingeben</string>
@@ -1909,7 +1909,7 @@
     <string name="password_password_mix6">Passwort muss mindestens 6 Zeichen lang sein</string>
     <string name="password_title_createpassword">Passwort erstellen</string>
     <string name="password_toast_unsame">Passwörter stimmen nicht überein</string>
-    <string name="password_toggle_content_description">Passwortsichtbarkeit umschalten</string>
+    <string name="password_toggle_content_description">Passwort anzeigen</string>
     <string name="paused_by_app">Angehalten</string>
     <string name="paused_in_power_save_mode">Angehalten beim Stromsparen</string>
     <string name="paused_insufficient_space">Warten</string>
@@ -1934,11 +1934,11 @@
     <string name="permission_open">Erlauben</string>
     <string name="permission_required">Erforderliche Berechtigungen</string>
     <string name="phone_auto_login_register_with_local_number">Konto erstellen</string>
-    <string name="phone_bind_too_many">Dieses Telefon wurde in kurzer Zeit mit mehreren Mi-Konten verbunden. Mit einer anderen Rufnummer versuchen.</string>
+    <string name="phone_bind_too_many">Dieses Telefon wurde in kurzer Zeit mit mehreren Mi-Konten verknüpft. Versuchen Sie eine andere Rufnummer.</string>
     <string name="phone_hint">Rufnummer</string>
     <string name="phone_num_use_for">Rufnummer wird verwendet für:</string>
     <string name="phone_number">Rufnummer</string>
-    <string name="photoPickerNotFoundText">Keine Fotos vorhanden.</string>
+    <string name="photoPickerNotFoundText">Keine Fotos vorhanden</string>
     <string name="pick_favorite_song">Favoriten</string>
     <string name="pick_local_song">Lokale Titel</string>
     <string name="pick_recent_song">Zuletzt gespielt</string>

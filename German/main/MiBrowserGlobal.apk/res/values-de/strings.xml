@@ -50,7 +50,7 @@
     <string name="account_user_gender">Geschlecht</string>
     <string name="account_user_id">Xiaomi-Konto-ID</string>
     <string name="account_user_name">Spitzname</string>
-    <string name="account_user_name_dialog_title">Benutzernamen eingeben</string>
+    <string name="account_user_name_dialog_title">Benutzername eingeben</string>
     <string name="account_user_phone">Wiederherstellungsrufnummer</string>
     <string name="action">Anmelden</string>
     <string name="action_add_phone">Rufnummer hinzufügen</string>
@@ -417,9 +417,12 @@
     <string name="choose_to_signin">Ja</string>
     <string name="choose_to_signup">Nein, ich werde eins erstellen</string>
     <string name="choosertitle_sharevia">Teilen über</string>
+    <string name="clean_cache">Cache löschen</string>
     <string name="clear">Löschen</string>
     <string name="clear_history">Verlauf löschen</string>
     <string name="clear_most_visited">Zuletzt besucht</string>
+    <string name="clear_result_page_more_content">Mehr entdecken</string>
+    <string name="clear_result_page_show_more">Mehr anzeigen</string>
     <string name="clear_search_history">Verlauf löschen</string>
     <string name="clear_transfer_summary">Systemeinstellungsflags löschen, damit Sie erneut übertragen können</string>
     <string name="clear_transfer_title">Systemeinstellungsflags löschen</string>
@@ -602,7 +605,7 @@
     <string name="delete_task_and_file_dialog_title">Ausgewählte Aufgabe und Datei löschen?</string>
     <string name="delete_task_dialog_msg">Ausgewählte Aufgabe löschen?</string>
     <string name="detail_guide_tips">Hochwischen für weitere verwandte Elemente</string>
-    <string name="diagnosis_log_send_failed">Diagnoseprotokoll senden fehlgeschlagen</string>
+    <string name="diagnosis_log_send_failed">Diagnoseprotokoll senden fehlgeschlagen. Erneut versuchen.</string>
     <string name="diagnosis_log_sent_format">Diagnoseprotokoll wurde gesendet.\nID: %s\nBitte senden Sie diesen Code dem Techniker.</string>
     <string name="dialog_channel_cancel">Abbrechen</string>
     <string name="dialog_channel_remove_content">Das Entfernen aller Kanäle entfernt auch den Inhaltsfeed.</string>
@@ -769,7 +772,7 @@
     <string name="error_folder_already_exists">Diese Datei existiert bereits.</string>
     <string name="error_forbidden">Synchronisation wurde wegen Problemen mit dem Xiaomi-Konto deaktiviert.</string>
     <string name="error_info_cant_send_folder">Ordner können nicht gesendet werden.</string>
-    <string name="error_invalid_bind_address">Die eingegebene E-Mail-Adresse ist ungültig.</string>
+    <string name="error_invalid_bind_address">Eingegebene E-Mail-Adresse ist ungültig.</string>
     <string name="error_not_acceptable">Synchronisation ist aus</string>
     <string name="error_not_support">Nicht unterstützt</string>
     <string name="error_not_url_tips">Gültige URL eingeben</string>
@@ -919,7 +922,7 @@
     <string name="folder_name_illegal">Ordnername ungültig</string>
     <string name="follow_account_title">Konten</string>
     <string name="follow_detail_page_empty_tip">Diese Person hat noch nichts veröffentlicht.</string>
-    <string name="for_diagnosis_usage_only">Verwenden Sie diese Information nur zur Diagnose.</string>
+    <string name="for_diagnosis_usage_only">Protokolle werden nur zur Diagnose verwendet.</string>
     <string name="force_quick_search_title">Suchen</string>
     <string name="force_touch_bookmark_history_title">Lesezeichen &amp; Verlauf</string>
     <string name="force_touch_infoflow_title">Nachrichten</string>
@@ -938,6 +941,7 @@
     <string name="friday_short">Fr</string>
     <string name="friday_shortest">F</string>
     <string name="gaid">GAID (Zum Exportieren tippen)</string>
+    <string name="game_center">Spiele</string>
     <string name="game_center_recommend_play">Spielen</string>
     <string name="game_center_recommend_title">Für Sie empfohlen</string>
     <string name="game_exit_when_press_back_again">Zum Beenden erneut tippen</string>
@@ -1105,7 +1109,7 @@
     <string name="get_back_pwd">Passwort zurücksetzen</string>
     <string name="get_ph_ticket">Code abrufen</string>
     <string name="get_phone_bind_exceed_limit">Sie können bis zu 3 Mi-Konten mit einer Rufnummer verknüpfen. Neue Konten können nicht hinzugefügt werden.</string>
-    <string name="get_phone_verifycode_exceed_limit">Zu viele Bestätigungscodes wurden an diese Nummer gesendet. 24 Stunden warten und erneut versuchen.</string>
+    <string name="get_phone_verifycode_exceed_limit">Zu viele Verifizierungscodes wurden an diese Nummer gesendet. 24 Stunden warten und erneut versuchen.</string>
     <string name="go_me">Profil</string>
     <string name="go_supermarket_button">Gehen</string>
     <string name="go_supermarket_title">Weitere Apps, höhere Geschwindigkeit und weniger Datenverbrauch im App Store</string>
@@ -1272,6 +1276,7 @@
     <string name="media_error_video_not_exist">Video existiert nicht</string>
     <string name="memory_clear_nothing_result">Im Cache nichts zu löschen</string>
     <string name="memory_clear_result">%1$s gelöscht</string>
+    <string name="memory_management">Speicher verwalten</string>
     <string name="memory_usage">Speicher</string>
     <string name="menu_addtodesk">Zum Startbildschirm hinzufügen</string>
     <string name="menu_exit_nightmode">Schließen</string>
@@ -1666,6 +1671,7 @@ Absturz-ID: http://crash/%1$s"</string>
     <string name="no_network">Netzwerkverbindung prüfen und erneut versuchen</string>
     <string name="no_phone">Keine Rufnummer</string>
     <string name="no_recent_files">Keine aktuellen Dateien</string>
+    <string name="no_scalable_applications">Alle Apps sind aktuell</string>
     <string name="no_space_alert_cancel">Später</string>
     <string name="no_space_alert_clean">Speicherplatz freigeben</string>
     <string name="no_space_alert_text">Nicht genügend Speicherplatz</string>
@@ -1697,6 +1703,7 @@ Absturz-ID: http://crash/%1$s"</string>
     <string name="notifications">Benachrichtigungen</string>
     <string name="novel_continue_read_popup">Lesen</string>
     <string name="novel_tab_popup">Sehen Sie Ihre neuesten Bücher hier</string>
+    <string name="occupy" formatted="false">%d% belegt</string>
     <string name="offline_notification_text">Zum Öffnen der Anzeige antippen</string>
     <string name="offline_notification_title">Anzeige anzeigen, die Sie gespeichert hatten, als Sie offline waren</string>
     <string name="offline_opt_in_confirmation">Sie erhalten eine Benachrichtigung mit dem Link, wenn Sie wieder online sind</string>
@@ -2056,6 +2063,7 @@ Absturz-ID: http://crash/%1$s"</string>
     <string name="popup_video">Video-Popup</string>
     <string name="popup_window_attempt">Dieser Seite erlauben, ein Popup zu öffnen?</string>
     <string name="positive_confirm_message">Trotzdem ausschalten</string>
+    <string name="power_saving_settings">Stromsparen</string>
     <string name="pref_accessibility">Eingabehilfen</string>
     <string name="pref_accessibility_title">Eingabehilfen</string>
     <string name="pref_adblock_summary">Seiten werden evtl. langsamer geladen, wenn diese Funktion eingeschaltet ist</string>
@@ -3086,6 +3094,7 @@ Absturz-ID: http://crash/%1$s"</string>
     <string name="the_united_nations_day">Tag der Vereinten Nationen</string>
     <string name="the_valentines_day">Valentinstag</string>
     <string name="the_water_lantern_festival">Laternenfestival</string>
+    <string name="third_image_viewer_label">Bildbetrachter (Mi Browser)</string>
     <string name="thursday">Donnerstag</string>
     <string name="thursday_short">Do</string>
     <string name="thursday_shortest">D</string>
@@ -3147,6 +3156,7 @@ Absturz-ID: http://crash/%1$s"</string>
     <string name="update_no_network_toast">Netzwerkverbindung fehlgeschlagen</string>
     <string name="update_now">JETZT AKTUALISIEREN</string>
     <string name="update_phone_notice">Sicherheitseinstellungen ändern</string>
+    <string name="upgrade">Aktualisieren</string>
     <string name="upload_error_log">Protokoll hochladen</string>
     <string name="upload_usage_statistics">Einschalten, um Nutzungsstatistiken mit uns zu teilen, wenn der Inkognito-Modus eingeschaltet ist</string>
     <string name="uploads_disabled">Datei-Uploads sind eingeschränkt</string>
