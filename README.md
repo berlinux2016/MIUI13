@@ -11,7 +11,7 @@ All strings were translated by the community - special thanks go to:
 
 Sorted by [activity](https://github.com/berlinux2016/MIUI13/graphs/contributors)
 
-Henry2o1o, MeiGuddet, WorXeN, ingbrzy, berlinux2016, ScratchBuild, malchik-solnce, pareh, lynx7, cp82, energY8989, BodoTh, aaf-caliban, EdlerProgrammierer, ReeCorDs, Syrrr, FireEmerald, he-leon, danielchc, vivanco-vivanco, darosto
+MeiGuddet, Henry2o1o, WorXeN, ingbrzy, berlinux2016, ScratchBuild, malchik-solnce, pareh, lynx7, cp82, energY8989, BodoTh, aaf-caliban, EdlerProgrammierer, ReeCorDs, Syrrr, FireEmerald, he-leon, danielchc, vivanco-vivanco, darosto
 
 ## Reporting issues
 
