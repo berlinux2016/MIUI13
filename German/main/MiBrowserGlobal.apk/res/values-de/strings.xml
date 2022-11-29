@@ -185,6 +185,7 @@
     <string name="bookmark_btn_select_all">Alle auswählen</string>
     <string name="bookmark_btn_select_none">Keine auswählen</string>
     <string name="bookmark_cannot_save_url">Lesezeichen für diese Adresse wurde nicht gespeichert</string>
+    <string name="bookmark_file_privacy_nightmode_moved_here">Funktionskürzel und Browsing-Modi finden Sie hier</string>
     <string name="bookmark_folder_needs_title">Ordnernamen eingeben</string>
     <string name="bookmark_group_lable">Gruppename</string>
     <string name="bookmark_needs_title">Lesezeichen benötigt einen Namen</string>
@@ -1161,6 +1162,9 @@
     <string name="homepage_search_hint">Suchen</string>
     <string name="homepage_setting">Startseiten-Einstellungen</string>
     <string name="hot_games">Beliebt</string>
+    <string name="hot_news_notify_summary">Push-Benachrichtigungen für die wichtigsten Nachrichten</string>
+    <string name="hot_news_notify_tips_light">Sie können Nachrichten-Benachrichtigungen unter &lt;font color=#0D84FF>Einstellungen&lt;/font> deaktivieren.</string> 
+    <string name="hot_news_notify_title">Nachrichten-Benachrichtigungen</string>
     <string name="identity">Identifizierung</string>
     <string name="if_cancel">Diesen Vorgang abbrechen?</string>
     <string name="ignore_add_game_center_dialog_this_week">Diese Woche nicht anzeigen</string>
@@ -1724,6 +1728,7 @@ Absturz-ID: http://crash/%1$s"</string>
     <string name="operation_rename">Umbenennen</string>
     <string name="operation_rename_message">Neuen Namen eingeben</string>
     <string name="operation_send">Senden</string>
+    <string name="opr_activity_title">Saison beobachten und Belohnungen erhalten</string>
     <string name="other_channel">Tippen, um weitere Kanäle hinzuzufügen</string>
     <string name="page_info">Seiteninfo</string>
     <string name="page_info_address">Adresse:</string>
@@ -2323,6 +2328,9 @@ Absturz-ID: http://crash/%1$s"</string>
     <string name="reading__auto_pagedown_menu_view__speed">Autom. Blättergeschwindigkeit: %1$d</string>
     <string name="reading__bookmark_empty_view__hint">Lesezeichen während des Lesens zum Pull-Down-Bildschirm hinzufügen</string>
     <string name="reading__bookmark_empty_view__no_bookmark">Vorübergehend keine Lesezeichen</string>
+    <string name="reading__business_recommend_at_end_more">Mehr anzeigen</string>
+    <string name="reading__business_recommend_at_end_other_docs">Weiterführende Literatur</string>
+    <string name="reading__business_recommend_at_end_title">Empfohlene Inhalte</string>
     <string name="reading__cancel">Abbrechen</string>
     <string name="reading__chapter_error_view__content_error">Kapitel wurde nicht geladen. Netzwerkeinstellungen prüfen und erneut versuchen.</string>
     <string name="reading__chapter_error_view__drm_error">Digitales Zertifikat wurde nicht abgerufen</string>
@@ -2406,6 +2414,7 @@ Absturz-ID: http://crash/%1$s"</string>
     <string name="reading__reading_book_introduction">Buchvorstellung</string>
     <string name="reading__reading_brightness_view__brightness">Helligkeit</string>
     <string name="reading__reading_brightness_view__eyes_saving">Augenkomfort</string>
+    <string name="reading__reading_end">Ende</string>
     <string name="reading__reading_error_commit">Absenden</string>
     <string name="reading__reading_error_report">Fehler im Kapitelbericht</string>
     <string name="reading__reading_feedback_dialog_email_error_toast">Geben Sie eine gültige E-Mail-Adresse ein</string>
@@ -2882,6 +2891,11 @@ Absturz-ID: http://crash/%1$s"</string>
     <string name="speed_test_upload">Hochladen</string>
     <string name="splash__access_dialog_agree">Zustimmen</string>
     <string name="splash__access_dialog_protect">Allgemeine Geschäftsbedingungen</string>
+    <string name="sport_card_match_week">Woche %d</string>
+    <string name="sports_card_match_season">Saison</string>
+    <string name="sports_card_match_status_1">Demnächst</string>
+    <string name="sports_card_match_status_2">In Bearbeitung</string>
+    <string name="sports_card_match_status_3">Beendet</string>
     <string name="srl_component_falsify" formatted="false">%s verfälscht den Bereich,\n Stellt die Höhe [%.1fdp] des Widerstands zur Laufzeit dar.\n Es wird nichts angezeigt.</string>
     <string name="srl_content_empty">Die Inhaltsansicht in SmartRefreshLayout ist leer. Haben Sie vergessen, sie in der xml-Layout-Datei hinzuzufügen?</string>
     <string name="srl_footer_failed">Laden fehlgeschlagen</string>
@@ -3016,6 +3030,7 @@ Absturz-ID: http://crash/%1$s"</string>
     <string name="summary_channel_layout">Gestaffeltes Layout erzwingen</string>
     <string name="summary_command_mode">Einschalten, um den Befehlsmodus aufzurufen</string>
     <string name="summary_detail_page">Stil Detailseite ändern</string>
+    <string name="summary_use_local_ad_config">Einschalten, um lokale Werbekonfiguration zu verwenden</string>
     <string name="summary_use_sandbox_domain">Einschalten, um Sandbox-Domäne zu verwenden</string>
     <string name="sunday">Sonntag</string>
     <string name="sunday_short">So</string>
@@ -3113,6 +3128,7 @@ Absturz-ID: http://crash/%1$s"</string>
     <string name="title_expire_video">Bald ablaufend</string>
     <string name="title_recent">Letzte</string>
     <string name="title_select_volume">Ordner wählen</string>
+    <string name="title_use_local_ad_config">Lokale Werbekonfiguration verwenden</string>
     <string name="title_use_sandbox_domain">Sandbox-Domäne verwenden</string>
     <string name="toast_exit_browser">Erneut tippen, um Browser zu beenden</string>
     <string name="today">Heute</string>
@@ -3383,6 +3399,7 @@ Absturz-ID: http://crash/%1$s"</string>
     <string name="web_tag_desc">Miniaturansichten der zuvor besuchten Seiten anzeigen</string>
     <string name="web_tag_tips">Hier tippen, um eine Seite erneut aufzurufen</string>
     <string name="web_tag_title">Webseiten-Miniaturansichten</string>
+    <string name="web_tools_moved_here">Tools wurden hierher verschoben</string>
     <string name="web_video_accelerate">Geschwindigkeit</string>
     <string name="web_video_download">Herunterladen</string>
     <string name="web_video_download_no_access">Berechtigungen für das Herunterladen von Elementen erforderlich</string>
